@@ -1,0 +1,42 @@
+#!/usr/bin/make -f
+
+build: build-stamp
+build-stamp: Makefile
+	$(MAKE) TEMPLATE_DIR=templates
+	touch build-stamp
+
+clean: Makefile
+	dh_testdir
+	dh_testroot
+	$(MAKE) TEMPLATE_DIR=templates clean
+	rm -f build-stamp
+	dh_clean -k 
+
+install: build
+	dh_testdir
+	dh_testroot
+	dh_clean -k
+	dh_install
+	chmod 755 debian/bug/script
+
+binary-arch:
+
+binary-indep: build install
+	dh_testdir
+	dh_testroot
+	dh_installchangelogs 
+	dh_installdocs
+	dh_compress
+	dh_installdefoma
+	dh_fixperms
+	dh_installdeb
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
+
+binary: binary-indep binary-arch
+
+Makefile : templates/templates/Makefile
+	templates/build padauk.cfg
+
+.PHONY: build clean install binary-arch binary-indep binary

@@ -1,0 +1,16 @@
+This project forms a template for font building.
+
+To bootstrap the project, type:
+
+templates/build padauk.cfg
+
+then use make and try the following targets:
+
+make all
+make test
+make pdfs
+make dist
+make exe
+make dist-src
+make clean
+make dist-clean

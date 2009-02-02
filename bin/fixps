@@ -1,0 +1,20 @@
+#!/usr/bin/perl
+
+use Font::TTF::Font;
+
+$f = Font::TTF::Font->open($ARGV[0]) || die "Can't open $ARGV[0]";
+$p = $f->{'post'}->read;
+
+for ($i = 0; $i < $f->{'maxp'}{'numGlyphs'}; $i++)
+{
+    $s = $p->{'VAL'}[$i];
+    $s =~ s/(?<=u10[01][0-9A-F])(_u1039)(?!_u200C)/$2_u200C/og;
+    $s =~ s/(_u10[01][0-9A-F])/_u1039$1/og;
+    if ($s =~ s/^((?:u10[015][0-9A-F])|u1021)(.*?)\.med/$1$2/o)
+    { $s = "u1039_$s"; }
+    
+    print "$p->{'VAL'}[$i]\t$s\n" unless $ARGV[1];
+    $p->{'VAL'}[$i] = $s;
+}
+
+$f->out($ARGV[1]) if ($ARGV[1]);

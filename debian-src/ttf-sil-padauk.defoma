@@ -1,0 +1,2 @@
+defoma-hints Can't locate FreeType.pm in @INC (@INC contains: /home/mhosken/perllib /etc/perl /usr/local/lib/perl/5.8.8 /usr/local/share/perl/5.8.8 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.8 /usr/share/perl/5.8 /usr/local/lib/site_perl .) at (eval 4) line 2.
+\n

@@ -1,0 +1,61 @@
+Basic Font Information
+Padauk Khamti is a stylistic variant font based on Padauk, for use with
+Khamti Shan.
+
+Padauk is a Myanmar font covering all currently used characters in the
+Myanmar block. The font aims to cover all minority language needs. At
+the moment, these do not extend to stylistic variation needs.
+
+The font is a smart font using a Graphite description. The package
+includes the source GDL code for the description. All questions and
+contributions should be sent to Martin Hosken
+
+Features of the font are:
+ . complete coverage of Myanmar script
+ . Khamti Shan stylistic dots
+ . hinting down to 8pt @ 96dpi!
+ . Graphite smarts including line breaking rules
+ . OpenType smarts
+
+ChangeLog:
+19 Jun 2008 (MJPH) Khamti Version 1.0
+- Create as variant of Padauk
+
+10 Jun 2008 (MJPH) Padauk Version 2.4
+- Major reworking of OT code (KRS)
+- Package for Debian and automated builds
+
+12 Nov 2007 (MJPH) Padauk Version 2.2
+- Final release
+- Now conforms to Unicode 5.1 (there were encoding changes since March)
+- OT tables included, but not as strong as graphite rendering
+
+12 Mar 2007 (MJPH) <Padauk> Version 2.2beta
+- OFL 1.1
+- Add PDAM 4 characters
+- Add OT from Keith S
+
+22 Jul 2006 (MJPH) <Padauk> Version 2.1
+- Fix Sgaw rendering
+- Tidy up upper diacritic rendering with U+103B
+
+17 May 2006 (MJPH) <Padauk> Version 2.0
+- Update to PDAM3, add support for Mon and Sgaw.
+
+13 Feb 2006 (MJPH) <Padauk> Version 1.1
+- Scale by 150% for easier reading with Roman text
+- Change name to Padauk Unicode to account for impending Unicode change
+
+30 Sept 2005 (MJPH) <Padauk> Version 1.0
+- Bundle for release
+
+Acknowledgements
+N: Debbi Hosken
+D: Font designer
+
+N: Martin Hosken
+E: martin_hosken@sil.org
+D: Font Engineering, project lead
+
+N: Keith Stribley
+D: Script specialist, testing, OpenType code

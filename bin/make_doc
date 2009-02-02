@@ -1,0 +1,64 @@
+#!/usr/bin/perl 
+
+print <<'EOT';
+<html><body>
+EOT
+$mode = 'code';
+while(<>)
+{
+    chomp;
+    s/^\s+$//o;
+    if (m/\@doc/o)
+    {
+        print "</pre>\n" if ($mode eq 'incode');
+        $store = '';
+        $mode = 'para';
+        $close = "</p>";
+    }
+    elsif (m/\@enddoc/o)
+    {
+        $mode = 'code';
+        print "$close\n";
+        $close = '';
+    }
+    elsif ($mode eq 'indoc' && $_ eq '')
+    {
+        print "$close\n\n";
+        $close = "</p>";
+        $mode = 'para';
+    }
+    elsif ($mode eq 'para' && m/^</o)
+    {
+        $close = '';
+        print "$_\n";
+        $mode = 'indoc';
+    }
+    elsif ($mode eq 'para' && $_ ne '')
+    {
+        s/^\s//o;
+        print "<p>$_\n";
+        $mode = 'indoc';
+    }
+    elsif ($mode eq 'indoc')
+    {
+        print "$_\n";
+    }
+    elsif ($mode eq 'code' && $_ ne '')
+    {
+        print "<pre style='color: navy; font-size: 80%'>\n$_\n";
+        $mode = 'incode';
+    }
+    elsif ($mode eq 'incode' && $_ eq '')
+    {
+        $store .= "\n";
+    }
+    elsif ($mode eq 'incode')
+    {
+        print "$store$_\n";
+        $store = '';
+    }
+}
+
+print <<'EOT';
+</body></html>
+EOT

@@ -1,0 +1,51 @@
+#!/usr/bin/perl
+
+use Font::TTF::Font;
+use Font::TTF::Table;
+use Digest::MD5 qw(md5);
+
+my $fbase = Font::TTF::Font->open($ARGV[0]) || die "Can't open font file $ARGV[0]";
+my $fin = Font::TTF::Font->open($ARGV[1]) || die "Can't open font file $ARGV[1]";
+my $cin = $fin->{'cmap'}->read->find_ms;
+my $cbase = $fbase->{'cmap'}->read->find_ms;
+my $fail = compare($cin->{'val'}, $cbase->{'val'});
+
+foreach $t (qw(hmtx))
+{
+    if ($fbase->{$t}{' CSUM'} != $fin->{$t}{' CSUM'})
+    {
+        $fail = 1;
+        last;
+    }
+}
+
+if ($fail)
+{
+    print STDERR "Target font $ARGV[1] not in sync with source font\n";
+}
+else
+{
+    foreach $t (qw(GDEF GPOS GSUB))
+    {
+        my ($tb) = $fbase->{$t}->read_dat;
+        $fin->{$t} = Font::TTF::Table->new(dat => $tb->{' dat'});
+    }
+}
+
+$fin->out($ARGV[2]);
+
+sub compare
+{
+    my ($h1, $h2) = @_;
+    my (%h2) = (%$h1);
+    
+    foreach (keys %$h1)
+    {
+        return 1 if ($h1->{$_} != $h2{$_});
+        delete $h2{$_};
+    }
+    if (keys %h2)
+    { return 1; }
+    else
+    { return 0; }
+}

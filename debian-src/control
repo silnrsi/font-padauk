@@ -1,0 +1,25 @@
+Source: ttf-sil-padauk
+Section: x11
+Priority: optional
+Maintainer: Debian Fonts Task Force <pkg-fonts-devel@lists.alioth.debian.org>
+Uploaders: Nicolas Spalinger <nicolas.spalinger@sil.org>, Daniel Glassey <wdg@debian.org>
+Build-Depends: debhelper (>= 4.1.0), defoma (>= 0.7.0) , libfont-ttf-scripts-perl (>= 0.11), libfont-ttf-perl (>= 0.44), xsltproc, libxml-parser-perl, grcompiler
+Standards-Version: 3.7.2
+Homepage: http://scripts.sil.org/padauk
+Vcs-svn: svn://svn.debian.org/svn/pkg-fonts/packages/@TARNAME
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-fonts/packages/ttf-sil-padauk
+
+
+Package: ttf-sil-padauk
+Architecture: all
+Depends: defoma
+Suggests: x-ttcidfont-conf | fontconfig, libgraphite3, pango-graphite
+Recommends: fontforge, fontforge-doc, inkscape, libfont-ttf-perl, fonttools, gucharmap, open-font-design-toolkit
+Description: Burmese Unicode 5.1 truetype font with OT and Graphite tables
+ Padauk is a Burmese font designed to handle all the needs of minority
+ languages that use the script. It has complete coverage of the Unicode
+ 5.1 Myanmar block and smart code primarily in Graphite. There are
+ OpenType tables which support Burmese.
+ .
+ The font was designed by Debbi Hosken and includes an ASCII block taken
+ from Sophia

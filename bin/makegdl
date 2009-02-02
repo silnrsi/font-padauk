@@ -1,0 +1,43 @@
+#!/usr/bin/perl
+
+use Font::TTF::Scripts::GDL;
+use IO::File;
+use Getopt::Std;
+
+getopts('i:r');
+
+$f = Font::TTF::Scripts::GDL->read_font($ARGV[1], $ARGV[0]) || die "Can't read font information";
+$outfh = IO::File->new("> $ARGV[2]") || die "Can't open $ARGV[2] for writing";
+
+foreach $g (@{$f->{'glyphs'}})
+{
+#    my ($points) = {};
+#    foreach $p (keys %{$g->{'points'}})
+#    {
+#        my ($pname) = $p;
+#        
+#        if ($pname =~ s/^(.+)M$/_$1/o)
+#        { }
+#        elsif ($pname =~ s/^(.+)S$/$1/o)
+#        { }
+#        $points->{$pname} = $g->{'points'}{$p};
+#    }
+#    $g->{'points'} = $points;
+    $g->{'props'}{'GDL_order'} = 0 unless defined $g->{'props'}{'GDL_order'};
+    if ($opt_r && $g->{'props'}{'GDL_order'} == 9)
+    { $g->{'props'}{'GDL_order'} = 8; }
+    elsif ($opt_r && $g->{'props'}{'GDL_order'} == 8)
+    { $g->{'props'}{'GDL_order'} = 9; }
+}
+
+$f->{'vecs'} = {};      # enable cnClasses, requires GDL_order property
+
+$f->start_gdl($outfh);
+$f->make_classes();
+# $f->{'lists'}{'L'} = [grep {!m/g101b.*_med/o} @{$f->{'lists'}{'L'}}];
+$f->out_gdl($outfh);
+$f->out_classes($outfh);
+$f->endtable($outfh);
+$f->end_gdl($outfh, $opt_i);
+
+$outfh->close();
