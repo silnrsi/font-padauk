@@ -522,7 +522,7 @@ g1029 _ > g101e g103c:1 / ^ _ _;
 g1051 gKill g100c > g1051_100c:(1 2 3) _ _;
 g1051 gKill g100d > g1051_100d:(1 2 3) _ _;
 g105a > g1004 / ^ _ (g103a g1039);
-g1081 _ > g1002 g103e:1 / ^ _ _;
+g1081 _ > g1002 g103e:1 / ^ _ g103b? g103c? g103d? _;
 
 // there should be no gKill left now
 // gKill > _;
