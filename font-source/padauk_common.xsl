@@ -55,18 +55,6 @@ This rule is after the BS rule so that this rule takes precedence
 	</xsl:copy>
 </xsl:template>
 
-<!-- change order of U+1026 to allow it to take U+1038-->
-<xsl:template match="property[@name='GDL_order' and ../@PSName='u1026']">
-	<property name="GDL_order" value="1"/>
-	<xsl:comment>Changed from <xsl:value-of select="@value"/></xsl:comment>
-</xsl:template>
-
-<!-- change order of U+1026 to allow it to take U+1038-->
-<xsl:template match="property[@name='GDL_order' and ../@PSName='space']">
-	<property name="GDL_order" value="0"/>
-	<xsl:comment>Changed from <xsl:value-of select="@value"/></xsl:comment>
-</xsl:template>
-
 <!-- default copy template -->
 <xsl:template match="@*|node()">
   <xsl:copy>

@@ -316,13 +316,11 @@
     <base PSName="space.attach">
         <attach UID="1058" at="BS" with="_BS"/>
     </base>
-    <property name="GDL_order" value="2"/>
 </glyph>
 <glyph UID="1059" PSName="u1059">
     <base PSName="space.attach">
         <attach UID="1059" at="BS" with="_BS"/>
     </base>
-    <property name="GDL_order" value="2"/>
 </glyph>
 <glyph UID="105A" PSName="u105A"><base UID="105A"/></glyph>
 <glyph PSName="u105A.med"><base PSName="u105A.med"/></glyph>
@@ -331,58 +329,25 @@
 <glyph UID="105C" PSName="u105C"><base UID="105C"/></glyph>
 <glyph PSName="u105C.med"><base PSName="u105C.med"/></glyph>
 <glyph UID="105D" PSName="u105D"><base UID="105D"/></glyph>
-<glyph UID="105E" PSName="u105E">
-    <base UID="105E"/>
-    <property name="GDL_order" value="6"/>
-</glyph>
-<glyph UID="105F" PSName="u105F">
-    <base UID="105F"/>
-    <property name="GDL_order" value="6"/>
-</glyph>
-<glyph UID="1060" PSName="u1060">
-    <base UID="1060"/>
-    <property name="GDL_order" value="5"/>
-</glyph>
+<glyph UID="105E" PSName="u105E"><base UID="105E"/></glyph>
+<glyph UID="105F" PSName="u105F"><base UID="105F"/></glyph>
+<glyph UID="1060" PSName="u1060"><base UID="1060"/></glyph>
 <glyph UID="1061" PSName="u1061"><base UID="1061"/></glyph>
 <glyph UID="1062" PSName="u1062"><base UID="1062"/></glyph>
 <glyph PSName="u1062_u103A"><base PSName="uE313"/></glyph>
 <glyph UID="1063" PSName="u1063"><base UID="1063"/></glyph>
 <glyph PSName="u1063_u103A"><base PSName="uE312"/></glyph>
 <glyph UID="1064" PSName="u1064"><base UID="1064"/></glyph>
-<glyph UID="1065" PSName="u1065">
-    <base UID="1065"/>
-    <property name="GDL_order" value="1"/>
-</glyph>
+<glyph UID="1065" PSName="u1065"><base UID="1065"/></glyph>
 <glyph UID="1066" PSName="u1066"><base UID="1066"/></glyph>
 <!-- Pwo tones take order 1 for the fun sequence of: U+1000 U+1060 U+1037 U+106A U+1037 -->
-<glyph UID="1067" PSName="u1067">
-    <base UID="1067"/>
-    <property name="GDL_order" value="1"/>
-</glyph>
-<glyph UID="1068" PSName="u1068">
-    <base UID="1068"/>
-    <property name="GDL_order" value="1"/>
-</glyph>
-<glyph UID="1069" PSName="u1069">
-    <base UID="1069"/>
-    <property name="GDL_order" value="1"/>
-</glyph>
-<glyph UID="106A" PSName="u106A">
-    <base UID="106A"/>
-    <property name="GDL_order" value="1"/>
-</glyph>
-<glyph UID="106B" PSName="u106B">
-    <base UID="106B"/>
-    <property name="GDL_order" value="1"/>
-</glyph>
-<glyph UID="106C" PSName="u106C">
-    <base UID="106C"/>
-    <property name="GDL_order" value="1"/>
-</glyph>
-<glyph UID="106D" PSName="u106D">
-    <base UID="106D"/>
-    <property name="GDL_order" value="1"/>
-</glyph>
+<glyph UID="1067" PSName="u1067"><base UID="1067"/></glyph>
+<glyph UID="1068" PSName="u1068"><base UID="1068"/></glyph>
+<glyph UID="1069" PSName="u1069"><base UID="1069"/></glyph>
+<glyph UID="106A" PSName="u106A"><base UID="106A"/></glyph>
+<glyph UID="106B" PSName="u106B"><base UID="106B"/></glyph>
+<glyph UID="106C" PSName="u106C"><base UID="106C"/></glyph>
+<glyph UID="106D" PSName="u106D"><base UID="106D"/> </glyph>
 <glyph UID="106E" PSName="u106E"><base UID="106E"/></glyph>
 <glyph UID="106F" PSName="u106F"><base UID="106F"/></glyph>
 <glyph UID="1070" PSName="u1070"><base UID="1070"/></glyph>
@@ -390,20 +355,17 @@
     <base PSName="space.attach">
         <attach PSName="u1071" at="U" with="_U"/>
     </base>
-    <property name="GDL_order" value="8"/>
 </glyph>
-<glyph UID="1072" PSName="u1072"><base UID="1072"/><property name="GDL_order" value="8"/></glyph>
+<glyph UID="1072" PSName="u1072"><base UID="1072"/></glyph>
 <glyph UID="1073" PSName="u1073">
     <base PSName="space.attach">
         <attach PSName="u1073" at="U" with="_U"/>
     </base>
-    <property name="GDL_order" value="8"/>
 </glyph>
-<glyph UID="1074" PSName="u1074"><base UID="1074"/><property name="GDL_order" value="8"/></glyph>
+<glyph UID="1074" PSName="u1074"><base UID="1074"/></glyph>
 <glyph UID="1075" PSName="u1075"><base UID="1075"/></glyph>
 <glyph UID="1076" PSName="u1076">
     <base UID="1076"/>
-    <property name="GDL_order" value="1"/>
 </glyph>
 <glyph UID="1077" PSName="u1077"><base UID="1077"/></glyph>
 <glyph UID="1078" PSName="u1078"><base UID="1078"/></glyph>
@@ -420,26 +382,24 @@
     <base PSName="space.attach">
         <attach UID="1082" at="BS" with="_BS"/>
     </base>
-    <property name="GDL_order" value="9"/>
 </glyph>
-<glyph UID="1083" PSName="u1083"><base UID="1083"/><property name="GDL_order" value="1"/></glyph>
-<glyph UID="1084" PSName="u1084"><base UID="1084"/><property name="GDL_order" value="7"/></glyph>
-<glyph UID="1085" PSName="u1085"><base UID="1085"/><property name="GDL_order" value="8"/></glyph>
-<glyph UID="1086" PSName="u1086"><base UID="1086"/><property name="GDL_order" value="10"/></glyph>
-<glyph UID="1087" PSName="u1087"><base UID="1087"/><property name="GDL_order" value="10"/></glyph>
-<glyph UID="1088" PSName="u1088"><base UID="1088"/><property name="GDL_order" value="10"/></glyph>
-<glyph UID="1089" PSName="u1089"><base UID="1089"/><property name="GDL_order" value="10"/></glyph>
-<glyph UID="108A" PSName="u108A"><base UID="108A"/><property name="GDL_order" value="14"/></glyph>
-<glyph UID="108B" PSName="u108B"><base UID="108B"/><property name="GDL_order" value="14"/></glyph>
-<glyph UID="108C" PSName="u108C"><base UID="108C"/><property name="GDL_order" value="14"/></glyph>
+<glyph UID="1083" PSName="u1083"><base UID="1083"/></glyph>
+<glyph UID="1084" PSName="u1084"><base UID="1084"/></glyph>
+<glyph UID="1085" PSName="u1085"><base UID="1085"/></glyph>
+<glyph UID="1086" PSName="u1086"><base UID="1086"/></glyph>
+<glyph UID="1087" PSName="u1087"><base UID="1087"/></glyph>
+<glyph UID="1088" PSName="u1088"><base UID="1088"/></glyph>
+<glyph UID="1089" PSName="u1089"><base UID="1089"/></glyph>
+<glyph UID="108A" PSName="u108A"><base UID="108A"/></glyph>
+<glyph UID="108B" PSName="u108B"><base UID="108B"/></glyph>
+<glyph UID="108C" PSName="u108C"><base UID="108C"/></glyph>
 <glyph UID="108D" PSName="u108D">
     <base PSName="space.attach">
         <attach UID="108D" at="BS" with="_BS"/>
     </base>
-    <property name="GDL_order" value="14"/>
 </glyph>
 <glyph UID="108E" PSName="u108E"><base UID="108E"/></glyph>
-<glyph UID="108F" PSName="u108F"><base UID="108F"/><property name="GDL_order" value="14"/></glyph>
+<glyph UID="108F" PSName="u108F"><base UID="108F"/></glyph>
 <glyph UID="1090" PSName="u1090"><base UID="1090"/></glyph>
 <glyph UID="1091" PSName="u1091"><base UID="1091"/></glyph>
 <glyph UID="1092" PSName="u1092"><base UID="1092"/></glyph>
@@ -454,7 +414,7 @@
 <glyph UID="109B" PSName="u109B"><base UID="109B"/></glyph>
 <glyph UID="109C" PSName="u109C"><base UID="109C"/></glyph>
 <glyph UID="109D" PSName="u109D"><base UID="109D"/></glyph>
-<glyph UID="109E" PSName="u109E"><base UID="109E"/><property name="GDL_order" value="14"/></glyph>
+<glyph UID="109E" PSName="u109E"><base UID="109E"/></glyph>
 <glyph UID="109F" PSName="u109F"><base UID="109F"/></glyph>
 <glyph UID="200B" PSName="u200B"><base UID="200B"/></glyph>
 <glyph UID="200C" PSName="u200C"><base UID="200B"/></glyph>

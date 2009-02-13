@@ -50,7 +50,7 @@
 2.3     MJPH    12-APR-2008     Add Mon ligatures
         KRS     28-APR-2008     Fix kinzi+102d indexing, 1009+med, Mon upper vowels
 2.4.1   MJPH    15-AUG-2008     Add Mon Nga rules for preceding asat
-2.4.2   MJPH    10-FEB-2009     Add u101A.med
+2.4.2   MJPH    10-FEB-2009     Add u101A.med. Fix 1032_102d
                                 */
 
 
@@ -493,7 +493,7 @@ g100f gKill g100d > g100f_100d:(1 2 3) _ _;
 g1014 gKill g1010 g103c > g1014_1010_103c:(1 2 3 4) _ _ _;
 g1014 gKill g1010 g103c > g1014_1010_103c:(1 2 3 4) _ _ _;
 g101e gKill g1010 g103c > g101e_1010_103c:(1 2 3 4) _ _ _;
-g1032 g102d > g1032_102d:(1 2) _ ;
+g102d g1032 > g1032_102d:(1 3) _ / ^ _ cLVowel? _;
 
 // handle normalized text which unfortunately reorders U+103A U+1037
 g1037 g103a > g103a:2 g1037:1;
@@ -519,10 +519,10 @@ g1020 g1039 g1020 > g1020_1020:(1 2 3) _ _;
 g1020 g103e > g1020_103e:(1 2) _;
 g1026 _ > g1025 g102e:1 / ^ _ _;
 g1029 _ > g101e g103c:1 / ^ _ _;
-g102b g1036 > @2 @1;
 g1051 gKill g100c > g1051_100c:(1 2 3) _ _;
 g1051 gKill g100d > g1051_100d:(1 2 3) _ _;
 g105a > g1004 / ^ _ (g103a g1039);
+g1081 _ > g1002 g103e:1 / ^ _ _;
 
 // there should be no gKill left now
 // gKill > _;
@@ -566,6 +566,9 @@ length 3, longer than the other rules to take priority.
 @enddoc */
 
 ANY > @3 / cCons g103a ^ _{order > 1};
+g1032 > @3 / ANY{order > 0} cLVowel _;
+_ > g25cc:1 / g1032 _ cLVowel;
+_ > g25cc:1 / g1036 _ g102b;
 
 // these rules have sort length 3 which is awkward for any ligature processing
 
@@ -675,6 +678,7 @@ Tall -a vowel ligature
 
 g102b g103a > g102b_103a:(1 2) _;
 g1062 g103a > g1062_103a:(1 2) _;
+g102b g1036 > @2 @1;
 
 /* @doc
 Khamti reduplication ligatures
