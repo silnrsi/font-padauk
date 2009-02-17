@@ -566,6 +566,7 @@ length 3, longer than the other rules to take priority.
 @enddoc */
 
 ANY > @3 / cCons g103a ^ _{order > 1};
+g1037 > @2 / ANY{order > 0 && order < 10} _ g106b ^;
 g1032 > @3 / ANY{order > 0} cLVowel _;
 _ > g25cc:1 / g1032 _ cLVowel;
 _ > g25cc:1 / g1036 _ g102b;
