@@ -565,15 +565,30 @@ consonant and for any diacritic to follow that killer. Notice that the rule need
 length 3, longer than the other rules to take priority.
 @enddoc */
 
-ANY > @3 / cCons g103a ^ _{order > 1};
-g1037 > @2 / ANY{order > 0 && order < 10} _ g106b ^;
-g1032 > @3 / ANY{order > 0} cLVowel _;
-g103e > @2 / g102c _;
-g1031 > @3 / g103e g103a _;
-_ > g25cc:1 / g1032 _ cLVowel;
-_ > g25cc:1 / g1036 _ g102b;
+// slot Asat
+_ > g25cc:3 / cCons _ g103a g103e;
+// slot Mon Asat
+g103a > @3 / cCons g103e _;
 
-// these rules have sort length 3 which is awkward for any ligature processing
+// slot Shan E vowel
+g1031 > @3 / ANY g1031 _;
+
+// slot A Vowel
+g1062 > @2 / ANY{order > 0 && order < 15} _;
+
+// slot Anusvara
+(g1036, g1032) > @2 / ANY{order > 0 && order < 16} _;
+
+// slot Lower Dot
+g1037 > @2 / ANY{order > 0 && order < 18} _;
+
+// slot Mon h
+g103e > @2 / g102c _ g103a;
+
+// Visible virama
+g103a > @2 / ANY{order > 0 && order < 20} _;
+
+// these rules have sort length 2 which is awkward for any ligature processing
 
 _ ANY > g25cc:3 @3 / ANY _ _{order > 1 && order <= @1.order};
 _ ANY > g25cc:3 @3 / ANY{order == 0} _ _{order > 1};
