@@ -17,12 +17,12 @@
     u1014_u1010_u103C u1015 u1016 u1017 u1018 u1019 u101A u101B u101B.alt 
     u101B.long u101C u101D u101E u101E_u1010_u103C u101F u1020 u1020.long 
     u1020_u1020 u1020_u103E u1021 u1022 u1023 u1025 u1026 u1027 u1028 
-    u1029 u102B u102B_u103A u102C u103F u1040 u1041 u1042 u1043 u1044 
+    u1029 u103F u1040 u1041 u1042 u1043 u1044 
     u1045 u1046 u1047 u1048 u1049 u1050 u1051 u1051_u100C u1051_u100D u1052 
-    u1053 u1054 u1055 u1056 u1057 u105A u105B u105C u105D u1061 u1062 u1063 
-    u1064 u1066 u1069 u106D u106E u106F u1070 u1075 u1076 u1077 u1078 u1079 u107A 
+    u1053 u1054 u1055 u1056 u1057 u105A u105B u105C u105D u1061 
+    u1065 u1066 u106E u106F u1070 u1075 u1076 u1077 u1078 u1079 u107A 
     u107B u107C u107D u107E u107F u1080 u1081 u108E u1090 u1091 u1092 
-    u1093 u1094 u1095 u1096 u1097 u1098 u1099 circledash u1700 uAA60 uAA61 
+    u1093 u1094 u1095 u1096 u1097 u1098 u1099 u109E circledash u1700 uAA60 uAA61 
     uAA62 uAA63 uAA64 uAA65 uAA66 uAA67 uAA68 uAA69 uAA6A uAA6B uAA6C uAA6D 
     uAA6E uAA6F uAA71 uAA72 uAA73 uAA79 uAA7A u1000.kham u1002.kham u1004.kham 
     u1010.kham u1015.kham u1019.kham u101A.kham u101C.kham u1022.kham 
@@ -56,7 +56,7 @@
     u103E_u102F.slantr u103E_u102F.slanth u103E_u1030.slantr u103E_u1030.slanth
   </property>
   <property name="GDL_order" value="7">
-    u1031 u1065 u1075.kham u1084 
+    u1031 u1075.kham u1084 
   </property>
   <property name="GDL_order" value="8">
     u1004.kinzi u1004.kinzi_u102D u1004.kinzi_u102E u1004.kinzi_u1032 
@@ -66,13 +66,12 @@
   <property name="GDL_order" value="9">
     u102F u102F.med u1030 u1030.med u1032.kham u1032_uAA70 
   </property>
-  <property name="GDL_order" value="10">
-    u1004.kinzi_u1036 u1036 u1036.dot u1086 
-  </property>
+  <property name="GDL_order" value="10">u1086</property>
   <property name="GDL_order" value="11">
-    u1062_u103A u1063_u103A u1067 u1068 u106A u106B u106C u1083 u109E
+    u102B u102B_u103A u102C u1062 u1062_u103A u1063 u1063_u103A u1064 u1067
+    u1068 u1069 u106A u106B u106C u106D u1083 
   </property>
-  <property name="GDL_order" value="12">u103A u103A_uAA70 </property>
+  <property name="GDL_order" value="12">u1004.kinzi_u1036 u1036 u1036.dot u103A u103A_uAA70 </property>
   <property name="GDL_order" value="13">u1037 </property>
   <property name="GDL_order" value="14">
     u1038 u1087 u1088 u1089 u108B u108C u108F u109A u109B u109C u109D 

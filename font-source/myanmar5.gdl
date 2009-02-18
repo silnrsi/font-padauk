@@ -568,6 +568,8 @@ length 3, longer than the other rules to take priority.
 ANY > @3 / cCons g103a ^ _{order > 1};
 g1037 > @2 / ANY{order > 0 && order < 10} _ g106b ^;
 g1032 > @3 / ANY{order > 0} cLVowel _;
+g103e > @2 / g102c _;
+g1031 > @3 / g103e g103a _;
 _ > g25cc:1 / g1032 _ cLVowel;
 _ > g25cc:1 / g1036 _ g102b;
 
@@ -606,7 +608,7 @@ Moves the -e vowel to the front. Leave cursor where it was (the rule will not re
 we have removed the -e).
 @enddoc */
 
-_ cPreVowel > @e:e _ / _ ^ c103c? cCons cMed? opt4(cClusDia) _=e;
+_ cPreVowel > @e:e _ / _ ^ c103c? cCons cMed? opt4(cClusDia) g103a? _=e;
 
 /* @doc
 Here we get the right wrap into the right place. We start with a narrow form. Usually the glyph is
