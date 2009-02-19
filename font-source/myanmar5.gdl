@@ -93,6 +93,7 @@ differ from the user glyph attributes which do not have to have a special name.
 
 #define attached    user1
 #define hasadv      user2
+#define sOrder      user3
 
 /* @doc
 We assign names to the various types of breakweight.
@@ -467,6 +468,8 @@ as we can here, in terms of dealing with kinzi and simple ligatures. We don't do
 can). By the end of this pass, there should be no gKills left in the slot stream, likewise g200C.
 
 Notice the explicit declaration of underlying to surface associations.
+
+We only need to copy the order attribute into the slot if we aren't going to reprocess the slot.
 @enddoc */
 
 table(substitution);
@@ -479,56 +482,57 @@ cno_kinzi g103a gKill _ > _ _ _ ckinzi$1:(1 2 3) /
     _ _ _ ^ (cCons, cNum, g104e) [gKill cMedBase]? opt4(cClusMed) cPreVowel? _=u;
 (g1004 g105a) g103a gKill g102d g1036 > _ _ _ _ g1004_kinzi_102d_1036:(1 2 3 i t) / _ _ _ ^ (cCons, cNum, g104e) [gKill cMedBase]? opt4(cClusMed) cPreVowel? _=i _=t;
 
-gKill cMedBase > _ cMed:(1 2);
+gKill cMedBase > _ cMed:(1 2){sOrder=order};
 
 // lots of ligatures, as many as we can do adjacently
-gKill g1010 g103d > g1010_103d_med:(1 2 3) _ _;
-g100a gKill g100a > g100a_100a:(1 2 3) _ _;
-g100b gKill g100b > g100b_100b:(1 2 3) _ _;
-g100b gKill g100c > g100b_100c:(1 2 3) _ _;
-g100d gKill g100d > g100d_100d:(1 2 3) _ _;
-g100d gKill g100e > g100d_100e:(1 2 3) _ _; // this way round is consistent with other Myanmar fonts
-g100f gKill g100b > g100f_100b:(1 2 3) _ _;
-g100f gKill g100d > g100f_100d:(1 2 3) _ _;
-g1014 gKill g1010 g103c > g1014_1010_103c:(1 2 3 4) _ _ _;
-g1014 gKill g1010 g103c > g1014_1010_103c:(1 2 3 4) _ _ _;
-g101e gKill g1010 g103c > g101e_1010_103c:(1 2 3 4) _ _ _;
+gKill g1010 g103d > g1010_103d_med:(1 2 3){sOrder=order} _ _;
+g100a gKill g100a > g100a_100a:(1 2 3){sOrder=order} _ _;
+g100b gKill g100b > g100b_100b:(1 2 3){sOrder=order} _ _;
+g100b gKill g100c > g100b_100c:(1 2 3){sOrder=order} _ _;
+g100d gKill g100d > g100d_100d:(1 2 3){sOrder=order} _ _;
+g100d gKill g100e > g100d_100e:(1 2 3){sOrder=order} _ _; // this way round is consistent with other Myanmar fonts
+g100f gKill g100b > g100f_100b:(1 2 3){sOrder=order} _ _;
+g100f gKill g100d > g100f_100d:(1 2 3){sOrder=order} _ _;
+g1014 gKill g1010 g103c > g1014_1010_103c:(1 2 3 4){sOrder=order} _ _ _;
+g1014 gKill g1010 g103c > g1014_1010_103c:(1 2 3 4){sOrder=order} _ _ _;
+g101e gKill g1010 g103c > g101e_1010_103c:(1 2 3 4){sOrder=order} _ _ _;
 g102d g1032 > g1032_102d:(1 3) _ / ^ _ cLVowel? _;
 
 // handle normalized text which unfortunately reorders U+103A U+1037
-g1037 g103a > g103a:2 g1037:1;
+g1037 g103a > g103a:2{sOrder=order} g1037:1{sOrder=order};
 
-g103b g103d g103e > g103b_103d_103e:(1 2 3) _ _;
-g103b g103e > g103b_103e:(1 2) _;
-g103c g103d g103e > @1 g103d_103e:(2 3) _;
-g103c g103d > g103c_103d_narr:(1 2) _;
-g103d g103e > g103d_103e_small:(2 3) _ / g103c _ _ ;
-g103d g103e > g103d_103e:(1 2) _;
-g103b g103d > g103b_103d:(1 2) _;
-gKill cMedBase g103c g102f > _ cMed:(1 2) @r @u / _ _ _=r cPreVowel? cUVowel? _=u;
+g103b g103d g103e > g103b_103d_103e:(1 2 3){sOrder=order} _ _;
+g103b g103e > g103b_103e:(1 2){sOrder=order} _;
+g103c g103d g103e > @1{sOrder=order} g103d_103e:(2 3){sOrder=order} _;
+g103c g103d > g103c_103d_narr:(1 2){sOrder=order} _;
+g103d g103e > g103d_103e_small:(2 3){sOrder=order} _ / g103c _ _ ;
+g103d g103e > g103d_103e:(1 2){sOrder=order} _;
+g103b g103d > g103b_103d:(1 2){sOrder=order} _;
+gKill cMedBase g103c g102f > _ cMed:(1 2){sOrder=order} @r{sOrder=order} @u{sOrder=order} / _ _ _=r ^ cPreVowel? cUVowel? _=u;
 if (!uTall)
-    g103c g103e g102f > @r @h @u / _=r _=h cPreVowel? cUVowel? _=u;
-    g103c g103e g1030 > @r @h @u / _=r _=h cPreVowel? cUVowel? _=u;
+    g103c g103e g102f > @r{sOrder=order} @h{sOrder=order} @u{sOrder=order} / _=r _=h ^ cPreVowel? cUVowel? _=u;
+    g103c g103e g1030 > @r{sOrder=order} @h{sOrder=order} @u{sOrder=order} / _=r _=h ^ cPreVowel? cUVowel? _=u;
     if (!uLong)
-        g103c g102f > g103c_102f_narr:(1 4) _ / _ cPreVowel? cUVowel? _;
-        g103e g1030 > g103e_1030:(1 4) _ / _ cPreVowel? cUVowel? _;
+        g103c g102f > g103c_102f_narr:(1 4){sOrder=order} _ / _ ^ cPreVowel? cUVowel? _;
+        g103e g1030 > g103e_1030:(1 4){sOrder=order} _ / _ ^ cPreVowel? cUVowel? _;
     endif;
-    g103e g102f > g103e_102f:(1 4) _ / _ cPreVowel? cUVowel? _;
+    g103e g102f > g103e_102f:(1 4){sOrder=order} _ / _ ^ cPreVowel? cUVowel? _;
 endif;
-g1020 g1039 g1020 > g1020_1020:(1 2 3) _ _;
-g1020 g103e > g1020_103e:(1 2) _;
+g1020 g1039 g1020 > g1020_1020:(1 2 3){sOrder=order} _ _;
+g1020 g103e > g1020_103e:(1 2){sOrder=order} _;
 g1026 _ > g1025 g102e:1 / ^ _ _;
 g1029 _ > g101e g103c:1 / ^ _ _;
-g1051 gKill g100c > g1051_100c:(1 2 3) _ _;
-g1051 gKill g100d > g1051_100d:(1 2 3) _ _;
+g1051 gKill g100c > g1051_100c:(1 2 3){sOrder=order} _ _;
+g1051 gKill g100d > g1051_100d:(1 2 3){sOrder=order} _ _;
 g105a > g1004 / ^ _ (g103a g1039);
 g1081 _ > g1002 g103e:1 / ^ _ g103b? g103c? g103d? _;
 
 // there should be no gKill left now
 // gKill > _;
-ANY g200C > ANY:(1 2) _;
-ANY g200d > ANY:(1 2) _;
-ANY wj > ANY:(1 2) _;
+ANY g200C > ANY:(1 2){sOrder=order} _;
+ANY g200d > ANY:(1 2){sOrder=order} _;
+ANY wj > ANY:(1 2){sOrder=order} _;
+ANY > @1{sOrder=order};
 
 endpass;
 
@@ -568,33 +572,33 @@ length 3, longer than the other rules to take priority.
 // slot Asat
 _ > g25cc:3 / cCons _ g103a g103e;
 // slot Mon Asat
-g103a > @3 / cCons g103e _;
+g103a > @3{sOrder=8} / cCons g103e _;
 
 // slot Shan E vowel
-g1031 > @3 / ANY g1031 _;
+g1031 > @3{sOrder=10} / ANY{sOrder > 0 && sOrder < 9} g1031 _;
 
 // slot A Vowel
-g1062 > @2 / ANY{order > 0 && order < 15} _;
+g1062 > @2{sOrder=15} / ANY{sOrder > 0 && sOrder < 15} _;
 
 // slot Anusvara
-(g1036, g1032) > @2 / ANY{order > 0 && order < 16} _;
+(g1036, g1032) > @2{sOrder=16} / ANY{sOrder > 0 && sOrder < 16} _;
 
 // slot Lower Dot
-g1037 > @2 / ANY{order > 0 && order < 18} _;
+g1037 > @2{sOrder=18} / ANY{sOrder > 0 && sOrder < 18} _;
 
 // slot Mon h
-g103e > @2 / g102c _ g103a;
+g103e > @2{sOrder=19} / g102c _ g103a;
 
 // Visible virama
-g103a > @2 / ANY{order > 0 && order < 20} _;
+g103a > @2{sOrder=20} / ANY{sOrder > 0 && sOrder < 20} _;
 
 // these rules have sort length 2 which is awkward for any ligature processing
 
-_ ANY > g25cc:3 @3 / ANY _ _{order > 1 && order <= @1.order};
-_ ANY > g25cc:3 @3 / ANY{order == 0} _ _{order > 1};
-ANY / ANY{order >= 1} _{order <= 1 || order > @1.order};
-_ ANY > g25cc:2 @2 / _ _{order > 1};
-// _ > g25cc:3 / # _ ANY{order > 1};
+_ ANY > g25cc:3 @3 / ANY _ _{sOrder > 1 && sOrder <= @1.sOrder};
+_ ANY > g25cc:3 @3 / ANY{sOrder == 0} _ _{sOrder > 1};
+ANY / ANY{order >= 1} _{sOrder <= 1 || sOrder > @1.sOrder};
+_ ANY > g25cc:2 @2 / _ _{sOrder > 1};
+// _ > g25cc:3 / # _ ANY{sOrder > 1};
 
 endpass;
 endif;
