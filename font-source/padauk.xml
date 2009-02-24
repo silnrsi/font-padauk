@@ -3680,8 +3680,8 @@
             <location x="192" y="495"/>
         </point>
         <property name="mark" value="130"/>
-        <property name="GDL_order" value="15"/>
-        <property name="classes" value="GDL_order_13 GDL_order_15"/>
+        <property name="GDL_order" value="13"/>
+        <property name="classes" value="GDL_order_13"/>
     </glyph>
     <glyph GID="287" PSName="u1062_u103A">
 	<point type="BD"><!--Copied from BS-->
@@ -3694,8 +3694,8 @@
             <location x="216" y="-53"/>
         </point>
         <property name="mark" value="80"/>
-        <property name="GDL_order" value="15"/>
-        <property name="classes" value="GDL_order_15"/>
+        <property name="GDL_order" value="13"/>
+        <property name="classes" value="GDL_order_13"/>
     </glyph>
     <glyph GID="288" PSName="u1063" UID="1063">
 	<point type="BD"><!--Copied from BS-->
@@ -5399,8 +5399,8 @@
             <location x="457" y="495"/>
         </point>
         <property name="mark" value="210"/>
-        <property name="GDL_order" value="9"/>
-        <property name="classes" value="GDL_order_9"/>
+        <property name="GDL_order" value="1"/>
+        <property name="classes" value="GDL_order_1"/>
     </glyph>
     <glyph GID="402" PSName="u1078.kham">
         <point type="_R">

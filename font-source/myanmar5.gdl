@@ -570,7 +570,8 @@ length 3, longer than the other rules to take priority.
 @enddoc */
 
 // slot Asat
-_ > g25cc:3 / cCons _ g103a g103e;
+_ > g25cc:3 / cCons _ g103a ^ g103e;
+_ > g25cc:3 / cCons _ g103a ^ g1082;
 // slot Mon Asat
 g103a > @3{sOrder=8} / cCons g103e _;
 
@@ -578,19 +579,20 @@ g103a > @3{sOrder=8} / cCons g103e _;
 g1031 > @3{sOrder=10} / ANY{sOrder > 0 && sOrder < 9} g1031 _;
 
 // slot A Vowel
-g1062 > @2{sOrder=15} / ANY{sOrder > 0 && sOrder < 15} _;
+g1062 > @2{sOrder=15} / ANY{sOrder > 12 && sOrder < 15} _;
 
 // slot Anusvara
-(g1036, g1032) > @2{sOrder=16} / ANY{sOrder > 0 && sOrder < 16} _;
+(g1036, g1032) > @2{sOrder=16} / ANY{sOrder > 10 && sOrder < 16} _;
 
 // slot Lower Dot
-g1037 > @2{sOrder=18} / ANY{sOrder > 0 && sOrder < 18} _;
+g1037 > @2{sOrder=18} / ANY{sOrder > 12 && sOrder < 18} _;
 
 // slot Mon h
 g103e > @2{sOrder=19} / g102c _ g103a;
 
 // Visible virama
-g103a > @2{sOrder=20} / ANY{sOrder > 0 && sOrder < 20} _;
+g103a > @2{sOrder=20} / ANY{sOrder > 9 && sOrder < 20} _;
+g103a > @2{sOrder=20} / g1082 _;
 
 // these rules have sort length 2 which is awkward for any ligature processing
 
