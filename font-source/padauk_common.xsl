@@ -5,18 +5,18 @@
 
 <!-- add Fake attachments to prevent glyphs becoming marks in make_volt -->
 <xsl:template match="glyph[@PSName='u1037'] |
-					glyph[@PSName='u1038'] |
-					glyph[@PSName='u1087'] |
-					glyph[@PSName='u1088'] |
-					glyph[@PSName='u1089'] |
-					glyph[@PSName='u108A'] |
-					glyph[@PSName='u108B'] |
-					glyph[@PSName='u108C']
-					">
-	<xsl:copy xml:space="preserve"><xsl:apply-templates select="@*"/>
-	    <point type="FAKE">
-			<location x="0" y="0"/>
-		</point>
+                    glyph[@PSName='u1038'] |
+                    glyph[@PSName='u1087'] |
+                    glyph[@PSName='u1088'] |
+                    glyph[@PSName='u1089'] |
+                    glyph[@PSName='u108A'] |
+                    glyph[@PSName='u108B'] |
+                    glyph[@PSName='u108C']
+                    ">
+    <xsl:copy xml:space="preserve"><xsl:apply-templates select="@*"/>
+        <point type="FAKE">
+            <location x="0" y="0"/>
+        </point>
     <xsl:apply-templates select="node()"/>
   </xsl:copy>
 </xsl:template>
@@ -28,17 +28,17 @@ This is needed for [narrow cons] U+1039 [wide cons]
 <xsl:template match="glyph[point/@type='BS']">
   <xsl:copy>
     <xsl:apply-templates select="@*"/>
-	<xsl:choose>
-		<xsl:when test="point[@type='BD']">
-		</xsl:when>
-		<xsl:when test="point[@type='_BS']">
-		</xsl:when>
-		<xsl:otherwise xml:space="preserve">
-	<point type="BD"><xsl:comment>Copied from BS</xsl:comment>
-		<location x="{point[@type='BS']/location/@x}" y="{point[@type='BS']/location/@y}"/>
-	</point></xsl:otherwise>
-	</xsl:choose>
-	<xsl:apply-templates select="node()"/>
+    <xsl:choose>
+        <xsl:when test="point[@type='BD']">
+        </xsl:when>
+        <xsl:when test="point[@type='_BS']">
+        </xsl:when>
+        <xsl:otherwise xml:space="preserve">
+    <point type="BD"><xsl:comment>Copied from BS</xsl:comment>
+        <location x="{point[@type='BS']/location/@x}" y="{point[@type='BS']/location/@y}"/>
+    </point></xsl:otherwise>
+    </xsl:choose>
+    <xsl:apply-templates select="node()"/>
   </xsl:copy>
 </xsl:template>
 
@@ -47,13 +47,29 @@ Remove attachments for glyphs that shouldn't have them.
 This rule is after the BS rule so that this rule takes precedence
 -->
 <xsl:template match="glyph[@PSName='u1031'] | 
-					glyph[@PSName='u1084'] | 
-					glyph[@PSName='u102A']">
-	<xsl:copy>
-		<xsl:apply-templates select="@*"/>
-		<xsl:apply-templates select="property|text()"/>
-	</xsl:copy>
+                    glyph[@PSName='u1084'] | 
+                    glyph[@PSName='u102A']">
+    <xsl:copy>
+        <xsl:apply-templates select="@*"/>
+        <xsl:apply-templates select="property|text()"/>
+    </xsl:copy>
 </xsl:template>
+
+<!--
+This rule is after the BS rule so that this rule takes precedence
+-->
+<xsl:template match="glyph[@PSName='u1062']" xml:space="preserve">
+    <xsl:copy><xsl:apply-templates select="@*"/>
+        <point type="BD"><xsl:comment>Copied from BS</xsl:comment>
+            <location x="{point[@type='BS']/location/@x}" y="{point[@type='BS']/location/@y}"/>
+        </point>
+        <xsl:apply-templates select="point"/>
+        <xsl:apply-templates select="property[@name='mark']"/>
+        <property name="GDL_order" value="13"/>
+        <xsl:apply-templates select="property[@name='classes']"/>
+    </xsl:copy>
+</xsl:template>
+
 
 <!-- default copy template -->
 <xsl:template match="@*|node()">

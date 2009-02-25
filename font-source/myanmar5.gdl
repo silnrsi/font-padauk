@@ -245,6 +245,12 @@ cMedBase = (g1000, g1001, g1002, g1003, g1004, g1005, g1006, g1007,
             g1008, g100a, g100c, g100d, g100e, g100f,
             g1010, g1011, g1012, g1013, g1014, g1015, g1016, g1017,
             g1018, g1019, g101a, g101b, g101c, g101e, g1021, g105a, g105b, g105c);
+            
+/* @doc 
+Stacked consonant ligatures
+@enddoc */
+cStackLig = (g100a_100a, g100b_100b, g100b_100c, g100d_100d, g100d_100e,
+             g100f_100b, g100f_100d, g1014_1010_103c, g101e_1010_103c);
 
 /* @doc
 A list of all the forms that U+101B can take when not medialised
@@ -454,7 +460,6 @@ cSigns {breakweight = -BW_SYLL} / cSection _;
 // discourage break between sign and a section
 cSigns {breakweight = +BW_CLIP} / _ cSection; 
 
-
 endtable; // linebreak table
 
 /* @doc
@@ -578,19 +583,19 @@ g103a > @3{sOrder=8} / cCons g103e _;
 g1031 > @3{sOrder=10} / ANY{sOrder > 0 && sOrder < 9} g1031 _;
 
 // slot A Vowel
-g1062 > @2{sOrder=15} / ANY{sOrder > 0 && sOrder < 15} _;
+g1062 > @2{sOrder=15} / ANY{sOrder >= 13 && sOrder < 15} _;
 
 // slot Anusvara
-(g1036, g1032) > @2{sOrder=16} / ANY{sOrder > 0 && sOrder < 16} _;
+(g1036, g1032) > @2{sOrder=16} / ANY{sOrder >= 11 && sOrder < 16} _;
 
 // slot Lower Dot
-g1037 > @2{sOrder=18} / ANY{sOrder > 0 && sOrder < 18} _;
+g1037 > @2{sOrder=18} / ANY{sOrder >= 13 && sOrder < 18} _;
 
 // slot Mon h
 g103e > @2{sOrder=19} / g102c _ g103a;
 
 // Visible virama
-g103a > @2{sOrder=20} / ANY{sOrder > 0 && sOrder < 20} _;
+g103a > @2{sOrder=20} / ANY{sOrder >= 5 && sOrder < 20} _;
 
 // these rules have sort length 2 which is awkward for any ligature processing
 
@@ -628,6 +633,7 @@ we have removed the -e).
 @enddoc */
 
 _ cPreVowel > @e:e _ / _ ^ c103c? cCons cMed? opt4(cClusDia) g103a? _=e;
+cStackLig cPreVowel > @e:e _@s:s / _=s _=e;
 
 /* @doc
 Here we get the right wrap into the right place. We start with a narrow form. Usually the glyph is
