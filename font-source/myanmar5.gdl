@@ -575,7 +575,7 @@ length 3, longer than the other rules to take priority.
 @enddoc */
 
 // slot Asat
-_ > g25cc:3 / cCons _ g103a g103e;
+_ > g25cc:3 / cCons _ g103a ^ g103e;
 // slot Mon Asat
 g103a > @3{sOrder=8} / cCons g103e _;
 
