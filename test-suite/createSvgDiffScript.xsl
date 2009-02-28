@@ -16,7 +16,7 @@
 <xsl:text>xsltproc -o test-suite/results/</xsl:text>
 <xsl:value-of select="$prefix"/>
 <xsl:value-of select="concat($left,$right)"/><xsl:value-of select="$suffix"/>
-<xsl:text> --stringparam origSvg file:`pwd`/test-suite/tmp/</xsl:text>
+<xsl:text> --stringparam xTolerance 100 --stringparam origSvg file:`pwd`/test-suite/tmp/</xsl:text>
 <xsl:value-of select="$prefix"/><xsl:value-of select="$right"/>
 <xsl:value-of select="$suffix"/>
 <xsl:text> </xsl:text><xsl:value-of select="$diffSvg"/><xsl:text> test-suite/tmp/</xsl:text>

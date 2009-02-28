@@ -307,7 +307,7 @@ cUVowel = (g103a, g1004_kinzi, g1004_kinzi_102d, g1004_kinzi_102e, g1004_kinzi_1
             g1071, g1072, g1073, g1074, g1081, g1082){breakweight = -BW_NEVER};
 cUSpace = (g1032, g1032_102d, g103a, g102d, g102e, g1004_kinzi_102e, g1004_kinzi_102d, g1004_kinzi,
             g1004_kinzi_1036, g101b_kinzi, g1033, g1034, g1035, g1071, g1072, g1073, g1074,
-            g1081);
+            g1085);
 cUVowelNga = (g102e, g102d, g1032, g1033, g1036);
 cNgaUVowel = (g1004_kinzi_102e, g1004_kinzi_102d, g1004_kinzi_1032, g1004_kinzi_1033, g1004_kinzi_1036);
 cUTakesMa = (g102d, g1004_kinzi);
@@ -576,6 +576,11 @@ length 3, longer than the other rules to take priority.
 
 // slot Asat
 _ > g25cc:3 / cCons _ g103a ^ g103e;
+_ > g25cc:3 / cCons _ g103a ^ g1082;
+
+// prevent decomposed 1081 getting a circle with asat
+g1002 g103e g1082 g103a;
+
 // slot Mon Asat
 g103a > @3{sOrder=8} / cCons g103e _;
 
