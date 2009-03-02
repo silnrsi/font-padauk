@@ -597,6 +597,9 @@ g1062 > @2{sOrder=15} / ANY{sOrder >= 13 && sOrder < 15} _;
 // slot Anusvara
 (g1036, g1032) > @2{sOrder=16} / ANY{sOrder >= 11 && sOrder < 16} _;
 
+// double 1037 is always wrong, so we should highlight it
+_ g1037 > g25cc:3 @3{sOrder=13} / g1037{sOrder == 13} _ _;
+
 // slot Lower Dot
 g1037 > @2{sOrder=18} / ANY{sOrder >= 13 && sOrder < 18} _;
 

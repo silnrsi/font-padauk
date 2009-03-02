@@ -3756,14 +3756,14 @@
             <location x="0" y="0"/>
         </point>
         <point type="BS">
-            <location x="418" y="-80"/>
-        </point>
+		<location x="292" y="-53"/>
+	</point>
         <point type="L">
-            <location x="418" y="-80"/>
-        </point>
+		<location x="292" y="-53"/>
+	</point>
         <point type="U">
-            <location x="418" y="742"/>
-        </point>
+		<location x="292" y="495"/>
+	</point>
         <property name="mark" value="80"/>
         <property name="GDL_order" value="1"/>
         <property name="classes" value="GDL_order_1"/>

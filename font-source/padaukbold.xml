@@ -3666,10 +3666,7 @@
         <property name="GDL_order" value="15"/>
         <property name="classes" value="GDL_order_15"/>
     </glyph>
-    <glyph GID="291" PSName="u1065" UID="1065">
-    <point type="BD"><!--Copied from BS-->
-        <location x="280" y="-53"/>
-    </point>
+    <glyph GID="291" PSName="u1065" UID="1065"><point type="_R"><location x="0" y="0"/></point>
         <point type="BS">
             <location x="280" y="-53"/>
         </point>

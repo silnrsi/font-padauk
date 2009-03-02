@@ -9,5 +9,20 @@
 	</xsl:copy>
 </xsl:template>
 
+<xsl:template match="point[../@PSName='u1065' and @type='BS']">
+	<xsl:copy xml:space="preserve"><xsl:apply-templates select="@*"/>
+		<location x="{../../glyph[@PSName='u1004']/point[@type='BS']/location/@x}" y="{../../glyph[@PSName='u1004']/point[@type='BS']/location/@y}"/>
+	</xsl:copy>
+</xsl:template>
+<xsl:template match="point[../@PSName='u1065' and @type='L']">
+	<xsl:copy xml:space="preserve"><xsl:apply-templates select="@*"/>
+		<location x="{../../glyph[@PSName='u1004']/point[@type='L']/location/@x}" y="{../../glyph[@PSName='u1004']/point[@type='L']/location/@y}"/>
+	</xsl:copy>
+</xsl:template>
+<xsl:template match="point[../@PSName='u1065' and @type='U']">
+	<xsl:copy xml:space="preserve"><xsl:apply-templates select="@*"/>
+		<location x="{../../glyph[@PSName='u1004']/point[@type='U']/location/@x}" y="{../../glyph[@PSName='u1004']/point[@type='U']/location/@y}"/>
+	</xsl:copy>
+</xsl:template>
 
 </xsl:stylesheet>
