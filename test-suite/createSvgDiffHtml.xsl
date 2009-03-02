@@ -20,8 +20,8 @@ Same glyphs, different positions:<br />
 <span style="color:#ff0000;"><xsl:value-of select="$left"/> glyph position</span><br />
 <span style="color:#0000ff;"><xsl:value-of select="$right"/> glyph position</span><br />
 Different glyphs:<br />
-<span style="color:#00ffff;"><xsl:value-of select="$left"/> glyphs</span><br />
-<span style="color:#ff00ff;"><xsl:value-of select="$right"/> glyphs</span><br />
+<span style="color:#ff00ff;"><xsl:value-of select="$left"/> glyphs</span><br />
+<span style="color:#00ffff;"><xsl:value-of select="$right"/> glyphs</span>
 </p>
 </div>
 </xsl:copy>

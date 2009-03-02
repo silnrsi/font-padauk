@@ -55,19 +55,8 @@ This rule is after the BS rule so that this rule takes precedence
     </xsl:copy>
 </xsl:template>
 
-<!--
-This rule is after the BS rule so that this rule takes precedence
--->
-<xsl:template match="glyph[@PSName='u1062']" xml:space="preserve">
-    <xsl:copy><xsl:apply-templates select="@*"/>
-        <point type="BD"><xsl:comment>Copied from BS</xsl:comment>
-            <location x="{point[@type='BS']/location/@x}" y="{point[@type='BS']/location/@y}"/>
-        </point>
-        <xsl:apply-templates select="point"/>
-        <xsl:apply-templates select="property[@name='mark']"/>
-        <property name="GDL_order" value="13"/>
-        <xsl:apply-templates select="property[@name='classes']"/>
-    </xsl:copy>
+<!-- remove upper attachment point from 1082 -->
+<xsl:template match="point[../@PSName='u1082' and @type='U']">
 </xsl:template>
 
 

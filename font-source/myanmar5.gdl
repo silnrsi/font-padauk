@@ -265,6 +265,7 @@ chaining when medialised.
 @enddoc */
 
 cClusMed = (g103b, g103c, g103d, g103e, g105e, g105f, g1060){breakweight = -BW_NEVER};
+cClusMedNot103b = (g103c, g103d, g103e, g105e, g105f, g1060){breakweight = -BW_NEVER};
 cClusDia = (g103b, g103b_103d, g103b_103d_103e, g103b_103e, g103d, g103d_103e, g103e, 
             g103e_102f, g103e_1030, g105e, g105f, g1060);
 
@@ -482,7 +483,7 @@ table(substitution);
 pass(pass_medial);
 
 cno_kinzi g103a gKill _ > _ _ _ ckinzi$1:(1 2 3) / 
-    _ _ _ ^ (cCons, cNum, g104e)? [gKill cMedBase]? opt4(cClusMed) cPreVowel? _;      // need opt4() here for opt()
+    _ _ _ ^ (cCons, cNum, g104e)? [gKill cMedBase]? opt4(cClusMedNot103b) cPreVowel? _;      // need opt4() here for opt()
 (g1004 g105a) g103a gKill cUVowelNga > _ _ _ cNgaUVowel:(1 2 3 u) /
     _ _ _ ^ (cCons, cNum, g104e) [gKill cMedBase]? opt4(cClusMed) cPreVowel? _=u;
 (g1004 g105a) g103a gKill g102d g1036 > _ _ _ _ g1004_kinzi_102d_1036:(1 2 3 i t) / _ _ _ ^ (cCons, cNum, g104e) [gKill cMedBase]? opt4(cClusMed) cPreVowel? _=i _=t;
@@ -581,6 +582,9 @@ _ > g25cc:3 / cCons _ g103a ^ g1082;
 // prevent decomposed 1081 getting a circle with asat
 g1002 g103e g1082 g103a;
 
+// kinzi is best rendered before 103b when there is no vowel ligature
+ckinzi > @2{sOrder=2} / cCons _ g103b;
+
 // slot Mon Asat
 g103a > @3{sOrder=8} / cCons g103e _;
 
@@ -637,7 +641,7 @@ Moves the -e vowel to the front. Leave cursor where it was (the rule will not re
 we have removed the -e).
 @enddoc */
 
-_ cPreVowel > @e:e _ / _ ^ c103c? cCons cMed? opt4(cClusDia) g103a? _=e;
+_ cPreVowel > @e:e _ / _ ^ c103c? cCons ckinzi? cMed? opt4(cClusDia) g103a? _=e;
 cStackLig cPreVowel > @e:e _@s:s / _=s _=e;
 
 /* @doc
@@ -917,6 +921,9 @@ cRDia {shift.x = (@r.advancewidth + @r.advance.x - advance.x) / 2 + @r.position.
 cUVowel {advance.x = 0m} / c103b _ ;
 // fix kinzi lig in cemetary
 g1004_kinzi_102d {kern.x = - advance.x } / c103b _ cLVowel? cCons g103a;
+// fixes for Sgaw Karen
+g1063 {shift.x = advance.x / 3 } / c103b g1037=d _;
+g1063 {shift.x = advance.x / 3 } / g101b_long g103e g1037=d _;
 
 // KRS try shifting 102D when it accompanies 1036 - it might be better to have a ligature for this
 // the kern values have been set manually in the font gdl file, so will be lost when it is regenerated

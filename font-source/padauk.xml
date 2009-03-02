@@ -3666,23 +3666,23 @@
         <property name="GDL_order" value="1"/>
         <property name="classes" value="GDL_order_1"/>
     </glyph>
-    
     <glyph GID="286" PSName="u1062" UID="1062">
-        <point type="BD"><!--Copied from BS-->
-            <location x="192" y="-53"/>
-        </point>
+    <point type="BD"><!--Copied from BS-->
+        <location x="192" y="-53"/>
+    </point>
         <point type="BS">
             <location x="192" y="-53"/>
-        </point><point type="L">
+        </point>
+        <point type="L">
             <location x="192" y="-53"/>
-        </point><point type="U">
+        </point>
+        <point type="U">
             <location x="192" y="495"/>
         </point>
         <property name="mark" value="130"/>
         <property name="GDL_order" value="13"/>
         <property name="classes" value="GDL_order_13"/>
     </glyph>
-
     <glyph GID="287" PSName="u1062_u103A">
     <point type="BD"><!--Copied from BS-->
         <location x="216" y="-53"/>
@@ -4323,9 +4323,7 @@
         <point type="BD">
             <location x="-495" y="-53"/>
         </point>
-        <point type="U">
-            <location x="-293" y="495"/>
-        </point>
+        
         <property name="mark" value="80"/>
         <property name="GDL_order" value="6"/>
         <property name="classes" value="GDL_order_6"/>
