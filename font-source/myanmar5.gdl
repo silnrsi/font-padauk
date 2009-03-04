@@ -843,6 +843,10 @@ if (lldot)
                                         / ^ _ _ {attached == 0}; 
 endif;
 
+// applies in the ulon=1 case and should take precedence over attaching to tall u
+cTakesUDia cUDia {attach {to = @c; at = US; with = UM}; attached = 1} \
+                                        / ^ _=c g102f _{attached == 0};
+
 // Attaching to full height u/uu and yapin. Yes cnTakesUDia is correct here.
 // Locate the rules here before UDia attachment so they take precedence.
 cYDia {attach {to = @y; at = YS; with = YM}; attached = 1} cTakesYDia \
@@ -927,6 +931,10 @@ g1004_kinzi_102d {kern.x = - advance.x } / c103b _ cLVowel? cCons g103a;
 // fixes for Sgaw Karen
 g1063 {shift.x = advance.x / 3 } / c103b g1037=d _;
 g1063 {shift.x = advance.x / 3 } / g101b_long g103e g1037=d _;
+
+if (slanth == sgaw)
+g1037 { kern.x = -100m; kern.y = -100m; } / g101b_long g103e_slanth _;
+endif;
 
 // KRS try shifting 102D when it accompanies 1036 - it might be better to have a ligature for this
 // the kern values have been set manually in the font gdl file, so will be lost when it is regenerated
