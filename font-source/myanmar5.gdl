@@ -613,6 +613,8 @@ g103e > @2{sOrder=19} / g102c _ g103a;
 
 // Visible virama
 g103a > @2{sOrder=20} / ANY{sOrder >= 5 && sOrder < 20} _;
+gaa70 > @2 / g_space _;
+gaa70 > @1;
 
 // these rules have sort length 2 which is awkward for any ligature processing
 
