@@ -51,6 +51,7 @@
         KRS     28-APR-2008     Fix kinzi+102d indexing, 1009+med, Mon upper vowels
 2.4.1   MJPH    15-AUG-2008     Add Mon Nga rules for preceding asat
 2.4.2   MJPH    10-FEB-2009     Add u101A.med. Fix 1032_102d
+2.5     MJPH    27-FEB-2009     Add feature to disable great nya
                                 */
 
 
@@ -492,7 +493,11 @@ gKill cMedBase > _ cMed:(1 2){sOrder=order};
 
 // lots of ligatures, as many as we can do adjacently
 gKill g1010 g103d > g1010_103d_med:(1 2 3){sOrder=order} _ _;
+
+if (nnya == 0)
 g100a gKill g100a > g100a_100a:(1 2 3){sOrder=order} _ _;
+endif;
+
 g100b gKill g100b > g100b_100b:(1 2 3){sOrder=order} _ _;
 g100b gKill g100c > g100b_100c:(1 2 3){sOrder=order} _ _;
 g100d gKill g100d > g100d_100d:(1 2 3){sOrder=order} _ _;

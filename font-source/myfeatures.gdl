@@ -77,6 +77,13 @@ slanth
     }
 }
 
+nnya
+{
+    id = "nnya";
+    name.LG_USENG = string("Disable great nnya");
+    default = 0;
+}
+
 endtable;
 
 table(language)
