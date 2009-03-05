@@ -1685,15 +1685,6 @@
         <property name="classes" value="GDL_order_1"/>
     </glyph>
     <glyph GID="174" PSName="u101A.med">
-        <point type="_BD">
-            <location x="388" y="-53"/>
-        </point>
-        <point type="L">
-            <location x="885" y="-53"/>
-        </point>
-        <point type="LL">
-            <location x="-107" y="-53"/>
-        </point>
         <property name="mark" value="80"/>
         <property name="GDL_order" value="3"/>
         <property name="classes" value="GDL_order_3"/>
@@ -4943,9 +4934,6 @@
         <property name="classes" value="GDL_order_1"/>
     </glyph>
     <glyph GID="380" PSName="uAA70" UID="AA70">
-        <point type="_U">
-            <location x="297" y="544"/>
-        </point>
         <property name="mark" value="210"/>
         <property name="GDL_order" value="22"/>
         <property name="classes" value="GDL_order_22"/>
