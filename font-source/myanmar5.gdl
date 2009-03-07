@@ -201,15 +201,23 @@ cCons = (g1000, g1001, g1002, g1003, g1004, g1005, g1006, g1007,
          g1020, g1021, g1022, g1025, g1027, g1029, g25cc, g103f, g1028, g104e,
          g105a, g105b, g105c, g105d, g1061, g1065, g1066, g106e,
          g106f, g1070, g1075, g1076, g1077, g1078, g1079, g107a,
-         g107b, g107c, g107d, g107e, g107f, g1080, g1081, g108e){breakweight = -BW_SYLL};
+         g107b, g107c, g107d, g107e, g107f, g1080, g1081, g108e,
+         gaa60, gaa61, gaa62, gaa63, gaa64, gaa65, gaa66, gaa67,
+         gaa68, gaa69, gaa6a, gaa6b, gaa6c, gaa6d, gaa6e, gaa6f,
+         gaa71, gaa72, gaa73, gaa74, gaa75, gaa76, gaa77, gaa78,
+         gaa79, gaa7a){breakweight = -BW_SYLL};
 cConsNar = (g1001, g1002, g1004, g1005, g1007, g100b, g100c, g100d, g100e,
           g1012, g1013, g1014, g1015, g1016, g1017, g1019, g101b, g101d, 
           g25cc, g1014_alt, g1027, g1028, g104e, g105a, g105b, g105c,
-          g105d, g1061, g1065, g1066, g1075, g1076, g1077, g107f, g108e);
+          g105d, g1061, g1065, g1066, g1075, g1076, g1077, g107f, g108e,
+          gaa62, gaa6b, gaa73);
 cConsWide = (g1000, g1003, g1006, g1008, g1009, g100a, g100f, g1010, g1011,
              g1018, g101a, g101c, g101e, g101f, g1020, g1021, g1022, g1029, g103f, g106e,
              g106f, g1070, g1078, g1079, g107a, g107b, g107c, g107d, g107e,
-             g1080);
+             g1080,
+             gaa60, gaa61, gaa63, gaa64, gaa65, gaa66, gaa67,
+             gaa68, gaa69, gaa6a, gaa6c, gaa6d, gaa6e, gaa6f,
+             gaa71, gaa72);
 
 /* @doc
 This class lists all the consonants that take the short form of -u and -uu (U+102F, U+1030)
@@ -219,7 +227,14 @@ cConsSVowel = (g1000, g1001, g1002, g1003, g1004, g1005, g1006, g1007, g100e, g1
                g1010, g1011, g1012, g1013, g1014, g1015, g1016, g1017, g1018, g1019,
                g101a, g101b, g101c, g101d, g101e, g101f, g1021, g1022, g1027, g25cc, g100a_alt,
                g101b_alt, g1014_alt, g103f, g105c, g1065, g106e, g1075, g1076, g1077,
-               g1078, g1079, g107b, g107c, g107d, g107f, g1080, g108e);
+               g1078, g1079, g107b, g107c, g107d, g107f, g1080, g108e,
+               g1000_kham, g1002_kham, g1004_kham, g1010_kham, g1015_kham, g1019_kham,
+               g101a_kham, g101c_kham, g1022_kham, g1075_kham, g1078_kham, g1080_kham,
+               gaa60, gaa60_kham, gaa61, gaa61_kham,
+               gaa62, gaa62_kham, gaa63, gaa63_kham, gaa64, gaa64_kham,
+               gaa66, gaa66_kham, gaa67, gaa68, gaa69, gaa6a, gaa6b, gaa6b_kham,
+               gaa6c, gaa6c_kham, gaa6d, gaa6f, gaa6f_kham,
+               gaa71, gaa72, gaa73, gaa73_kham, gaa78, gaa79);
 
 /* @doc
 Lists all the consonants that require a medial h to slant
@@ -403,7 +418,8 @@ cHasRkern = (g103e_102f, g103e_1030, g1030_med, g102f_med);
 Tone context characters that can occur before a U+AA70 khamti reduplication
 @enddoc */
 
-cTone = (g1038, g1087, g1089, g108a, g109a, g109b);
+cTone = (g1038, g1087, g1088, g1089, g108a, g109a, g109b);
+cToneKham = (g1038_dot, g1087_dot, g1088_dot, g1089_dot, g108a_dot, g109a_dot, g109b_dot);
 
 endtable; // glyph table
 
@@ -731,8 +747,15 @@ g102b g1036 > @2 @1;
 Khamti reduplication ligatures
 @enddoc */
 
+if (filled)
+g1032 gaa70 > g1032_aa70:(1 2) _ / _ _;
+g103a gaa70 > g103a_aa70:(1 2) _ / _ _;
+g1032 cTone gaa70 > g1032_aa70:(1 3) cToneKham _ / _ _ _;
+g103a cTone gaa70 > g103a_aa70:(1 3) cToneKham _ / _ _ _;
+else
 g1032 gaa70 > g1032_aa70:(1 3) _ / _ cTone? _;
 g103a gaa70 > g103a_aa70:(1 3) _ / _ cTone? _;
+endif;
 
 /* @doc
 Handle feature substitutions
