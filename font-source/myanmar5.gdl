@@ -219,7 +219,9 @@ cConsSVowel = (g1000, g1001, g1002, g1003, g1004, g1005, g1006, g1007, g100e, g1
                g1010, g1011, g1012, g1013, g1014, g1015, g1016, g1017, g1018, g1019,
                g101a, g101b, g101c, g101d, g101e, g101f, g1021, g1022, g1027, g25cc, g100a_alt,
                g101b_alt, g1014_alt, g103f, g105c, g1065, g106e, g1075, g1076, g1077,
-               g1078, g1079, g107b, g107c, g107d, g107f, g1080, g108e);
+               g1078, g1079, g107b, g107c, g107d, g107f, g1080, g108e,
+               gaa60, gaa61, gaa62, gaa63, gaa64, gaa66, gaa67, gaa68,
+               gaa69, gaa6a, gaa6b, gaa6c, gaa6e, gaa6f, gaa71, gaa72, gaa73);
 
 /* @doc
 Lists all the consonants that require a medial h to slant
