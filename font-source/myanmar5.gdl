@@ -349,7 +349,8 @@ cHasRkern = (g103e_102f, g103e_1030, g1030_med, g102f_med);
 Tone context characters that can occur before a U+AA70 khamti reduplication
 @enddoc */
 
-cTone = (g1038, g1087, g1089, g108a, g109a, g109b);
+cTone = (g1038, g1087, g1088, g1089, g108a, g109a, g109b);
+cToneKham = (g1038_dot, g1087_dot, g1088_dot, g1089_dot, g108a_dot, g109a_dot, g109b_dot);
 
 endtable; // glyph table
 
@@ -677,8 +678,15 @@ g102b g1036 > @2 @1;
 Khamti reduplication ligatures
 @enddoc */
 
+if (filled)
+g1032 gaa70 > g1032_aa70:(1 2) _ / _ _;
+g103a gaa70 > g103a_aa70:(1 2) _ / _ _;
+g1032 cTone gaa70 > g1032_aa70:(1 3) cToneKham _ / _ _ _;
+g103a cTone gaa70 > g103a_aa70:(1 3) cToneKham _ / _ _ _;
+else
 g1032 gaa70 > g1032_aa70:(1 3) _ / _ cTone? _;
 g103a gaa70 > g103a_aa70:(1 3) _ / _ cTone? _;
+endif;
 
 /* @doc
 Handle feature substitutions

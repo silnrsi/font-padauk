@@ -59,6 +59,12 @@ This rule is after the BS rule so that this rule takes precedence
 <xsl:template match="point[../@PSName='u1082' and @type='U']">
 </xsl:template>
 
+<xsl:template match="property[../@PSName='u109F' and @name='GDL_order']">
+        <property name="GDL_order" value="1"/>
+</xsl:template>
+<xsl:template match="property[../@PSName='u109F' and @name='classes']">
+        <property name="classes" value="GDL_order_1"/>
+</xsl:template>
 
 <!-- default copy template -->
 <xsl:template match="@*|node()">
