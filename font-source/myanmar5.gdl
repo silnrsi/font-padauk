@@ -52,6 +52,7 @@
 2.4.1   MJPH    15-AUG-2008     Add Mon Nga rules for preceding asat
 2.4.2   MJPH    10-FEB-2009     Add u101A.med. Fix 1032_102d
 2.5     MJPH    27-FEB-2009     Add feature to disable great nya
+2.5.1   MJPH     9-MAR-2009     Move some classes out to glyph property classes
                                 */
 
 
@@ -187,68 +188,11 @@ cLQuote = (g_parenleft, g_quotedblleft, g_quoteleft) {breakweight = -BW_SYLL};
 cRQuote = (g_parenright, g_quotedblright, g_quoteright) {breakweight = BW_WORD};
 
 /* @doc
-List all consonants. We include U+1021 as a consonant since it behaves like one for all intents
-and purposes. We allow line-breaking before a consonant since the default is that it starts
-a new syllable. We have rules for the cases when it does not. We also list consonants by shape: 
-narrow or wide (for the wrap)
-25cc added to allow display teaching documents as narrow consonant
-@enddoc */
-
-cCons = (g1000, g1001, g1002, g1003, g1004, g1005, g1006, g1007,
-         g1008, g1009, g100a, g100b, g100c, g100d, g100e, g100f,
-         g1010, g1011, g1012, g1013, g1014, g1015, g1016, g1017,
-         g1018, g1019, g101a, g101b, g101c, g101d, g101e, g101f, 
-         g1020, g1021, g1022, g1025, g1027, g1029, g25cc, g103f, g1028, g104e,
-         g105a, g105b, g105c, g105d, g1061, g1065, g1066, g106e,
-         g106f, g1070, g1075, g1076, g1077, g1078, g1079, g107a,
-         g107b, g107c, g107d, g107e, g107f, g1080, g1081, g108e){breakweight = -BW_SYLL};
-cConsNar = (g1001, g1002, g1004, g1005, g1007, g100b, g100c, g100d, g100e,
-          g1012, g1013, g1014, g1015, g1016, g1017, g1019, g101b, g101d, 
-          g25cc, g1014_alt, g1027, g1028, g104e, g105a, g105b, g105c,
-          g105d, g1061, g1065, g1066, g1075, g1076, g1077, g107f, g108e);
-cConsWide = (g1000, g1003, g1006, g1008, g1009, g100a, g100f, g1010, g1011,
-             g1018, g101a, g101c, g101e, g101f, g1020, g1021, g1022, g1029, g103f, g106e,
-             g106f, g1070, g1078, g1079, g107a, g107b, g107c, g107d, g107e,
-             g1080);
-
-/* @doc
-This class lists all the consonants that take the short form of -u and -uu (U+102F, U+1030)
-@enddoc */
-
-cConsSVowel = (g1000, g1001, g1002, g1003, g1004, g1005, g1006, g1007, g100e, g100f,
-               g1010, g1011, g1012, g1013, g1014, g1015, g1016, g1017, g1018, g1019,
-               g101a, g101b, g101c, g101d, g101e, g101f, g1021, g1022, g1027, g25cc, g100a_alt,
-               g101b_alt, g1014_alt, g103f, g105c, g1065, g106e, g1075, g1076, g1077,
-               g1078, g1079, g107b, g107c, g107d, g107f, g1080, g108e,
-               gaa60, gaa61, gaa62, gaa63, gaa64, gaa66, gaa67, gaa68,
-               gaa69, gaa6a, gaa6b, gaa6c, gaa6e, gaa6f, gaa71, gaa72, gaa73);
-
-/* @doc
 Lists all the consonants that require a medial h to slant
 @enddoc */
 
 cConsSlantH = (g1009, g100a, g105a, g105b, g105d);
 
-/* @doc
-Here we list all the medial forms of glyphs that don't have special behaviour when medialised.
-We list the medial forms, those that are single width and the base forms that lead to the medial
-forms we have listed. This is the list of all stacked consonants as opposed to true medials. Yes,
-the naming could do with some revision!
-25cc added as base to allow display of stacked glyphs in teaching documents
-@enddoc */
-
-cMed = (g1000_med, g1001_med, g1002_med, g1003_med, g1004_med, g1005_med, g1006_med, g1007_med,
-        g1008_med, g100a_med, g100c_med, g100d_med, g100e_med, g100f_med, 
-        g1010_med, g1011_med, g1012_med, g1013_med, g1014_med, g1015_med, g1016_med, g1017_med,
-        g1018_med, g1019_med, g101a_med, g101b_med, g101c_med, g101e_med, g1021_med, g105a_med, g105b_med, g105c_med);
-cMedNar = (g1001_med, g1002_med, g1005_med, g1007_med, g100c_med, g100d_med,
-           g1012_med, g1013_med, g1014_med, g1015_med, g1016_med, g1017_med,
-           g1019_med, g101b_med, g105a_med, g105c_med);
-cMedBase = (g1000, g1001, g1002, g1003, g1004, g1005, g1006, g1007,
-            g1008, g100a, g100c, g100d, g100e, g100f,
-            g1010, g1011, g1012, g1013, g1014, g1015, g1016, g1017,
-            g1018, g1019, g101a, g101b, g101c, g101e, g1021, g105a, g105b, g105c);
-            
 /* @doc 
 Stacked consonant ligatures
 @enddoc */
@@ -368,8 +312,8 @@ list all the forms of the tall form of U+102C.
 c103c_compl = (g103c_102f_narr, g103c_102f_wide);
 c103c_compr = (g103c_103d_narr, g103c_103d_wide, g103c_103d_narr_tri, g103c_103d_wide_tri);
 c103c_medn = (g103c, g103c_wide, g103c_alt_narr, g103c_alt_wide);
-c103c_in = (g103e_alt, g103d, g103d_103e, cMed);
-cLowDia = (g103d, g103d_103e, g103e, g103e_102f, g103e_1030, cMed, cLVowelAll);
+c103c_in = (g103e_alt, g103d, g103d_103e, cmed);
+cLowDia = (g103d, g103d_103e, g103e, g103e_102f, g103e_1030, cmed, cLVowelAll);
 c102b = (g102b, g102b_103a);
 
 /* @doc
@@ -378,7 +322,7 @@ to interact with it (usually underneath). These classes list the various diacrit
 the particular base character to change shape.
 @enddoc */
 
-t1014 = (cMed, c103d, c103e, cLVowelAll, c103b, g1039);
+t1014 = (cmed, c103d, c103e, cLVowelAll, c103b, g1039);
 t100a = (t1014);
 
 /* @doc
@@ -435,12 +379,12 @@ cSection {breakweight = BW_WORD} / _ ^ cCons;
 gSpace {breakweight = BW_WORD} / _ ^ cCons;
 
 // no line breaks before visibly killed char
-cTakesUDia {breakweight = -BW_CHAR} g103a {breakweight = -BW_NEVER} / _ ^ [gKill cMed]? opt4(cnTakesUDia) _ ;
+cTakesUDia {breakweight = -BW_CHAR} g103a {breakweight = -BW_NEVER} / _ ^ [gKill cmed]? opt4(cnTakesUDia) _ ;
 
 // g1004 {breakweight = -5} gKill {breakweight = -5} /   g200d  _ ^; 
 
 // no line breaks before a syllable chained consonant
-cCons {breakweight = -BW_CHAR} cMedBase {breakweight = -BW_NEVER} / _ gKill _ ;
+cCons {breakweight = -BW_CHAR} cno_med {breakweight = -BW_NEVER} / _ gKill _ ;
 
 // no line breaks before virama
 cCons {breakweight = -BW_NEVER} / gKill _ ;
@@ -486,12 +430,12 @@ table(substitution);
 pass(pass_medial);
 
 cno_kinzi g103a gKill _ > _ _ _ ckinzi$1:(1 2 3) / 
-    _ _ _ ^ (cCons, cNum, g104e)? [gKill cMedBase]? opt4(cClusMedNot103b) cPreVowel? _;      // need opt4() here for opt()
+    _ _ _ ^ (cCons, cNum, g104e)? [gKill cno_med]? opt4(cClusMedNot103b) cPreVowel? _;      // need opt4() here for opt()
 (g1004 g105a) g103a gKill cUVowelNga > _ _ _ cNgaUVowel:(1 2 3 u) /
-    _ _ _ ^ (cCons, cNum, g104e) [gKill cMedBase]? opt4(cClusMed) cPreVowel? _=u;
-(g1004 g105a) g103a gKill g102d g1036 > _ _ _ _ g1004_kinzi_102d_1036:(1 2 3 i t) / _ _ _ ^ (cCons, cNum, g104e) [gKill cMedBase]? opt4(cClusMed) cPreVowel? _=i _=t;
+    _ _ _ ^ (cCons, cNum, g104e) [gKill cno_med]? opt4(cClusMed) cPreVowel? _=u;
+(g1004 g105a) g103a gKill g102d g1036 > _ _ _ _ g1004_kinzi_102d_1036:(1 2 3 i t) / _ _ _ ^ (cCons, cNum, g104e) [gKill cno_med]? opt4(cClusMed) cPreVowel? _=i _=t;
 
-gKill cMedBase > _ cMed:(1 2){sOrder=order};
+gKill cno_med > _ cmed:(1 2){sOrder=order};
 
 // lots of ligatures, as many as we can do adjacently
 gKill g1010 g103d > g1010_103d_med:(1 2 3){sOrder=order} _ _;
@@ -521,7 +465,7 @@ g103c g103d > g103c_103d_narr:(1 2){sOrder=order} _;
 g103d g103e > g103d_103e_small:(2 3){sOrder=order} _ / g103c _ _ ;
 g103d g103e > g103d_103e:(1 2){sOrder=order} _;
 g103b g103d > g103b_103d:(1 2){sOrder=order} _;
-gKill cMedBase g103c g102f > _ cMed:(1 2){sOrder=order} @r{sOrder=order} @u{sOrder=order} / _ _ _=r ^ cPreVowel? cUVowel? _=u;
+gKill cno_med g103c g102f > _ cmed:(1 2){sOrder=order} @r{sOrder=order} @u{sOrder=order} / _ _ _=r ^ cPreVowel? cUVowel? _=u;
 if (!uTall)
     g103c g103e g102f > @r{sOrder=order} @h{sOrder=order} @u{sOrder=order} / _=r _=h ^ cPreVowel? cUVowel? _=u;
     g103c g103e g1030 > @r{sOrder=order} @h{sOrder=order} @u{sOrder=order} / _=r _=h ^ cPreVowel? cUVowel? _=u;
@@ -653,7 +597,7 @@ Moves the -e vowel to the front. Leave cursor where it was (the rule will not re
 we have removed the -e).
 @enddoc */
 
-_ cPreVowel > @e:e _ / _ ^ c103c? cCons ckinzi? cMed? opt4(cClusDia) g103a? _=e;
+_ cPreVowel > @e:e _ / _ ^ c103c? cCons ckinzi? cmed? opt4(cClusDia) g103a? _=e;
 cStackLig cPreVowel > @e:e _@s:s / _=s _=e;
 
 /* @doc
@@ -665,13 +609,13 @@ corresponding class the wrap glyphs should be mapped to. We also move the wrap t
 @enddoc */
 
 // suboptimal matches all around here
-_ c103c_nar > c103c_wide:r$r _ / ^ _ cConsWide cMed? c103b? _=r;
-_ c103c_nar > c103c_naralt:r$r _ / ^ _ cConsNar cMedNar? _=r c103d? c103e? cUSpace;
-_ c103c_nar > c103c_widalt:r$r _ / ^ _ cConsWide cMed? _=r c103d? c103e? cUSpace;
-_ c103c_nar > c103c_naralt:r$r _ / ^ _ cConsNar g103a cMedNar? _=r;
-_ c103c_nar > c103c_widalt:r$r _ / ^ _ cConsWide g103a cMed? _=r;
-_ c103c_nar > @r:r _ / ^ _ cConsNar cMedNar? c103b? _=r;
-_ c103c_nar > c103c_wide:r$r _ / ^ _ cConsNar cMed? c103b? _=r;
+_ c103c_nar > c103c_wide:r$r _ / ^ _ cConsWide cmed? c103b? _=r;
+_ c103c_nar > c103c_naralt:r$r _ / ^ _ cConsNar cmed? _=r c103d? c103e? cUSpace;
+_ c103c_nar > c103c_widalt:r$r _ / ^ _ cConsWide cmed? _=r c103d? c103e? cUSpace;
+_ c103c_nar > c103c_naralt:r$r _ / ^ _ cConsNar g103a cmed? _=r;
+_ c103c_nar > c103c_widalt:r$r _ / ^ _ cConsWide g103a cmed? _=r;
+_ c103c_nar > @r:r _ / ^ _ cConsNar cmed? c103b? _=r;
+_ c103c_nar > c103c_wide:r$r _ / ^ _ cConsNar cmed? c103b? _=r;
 
 /* @doc
 Rules to handle U+101B in its base form (not as a wrap). Whether we need a short leg form
@@ -683,7 +627,7 @@ g101b > g101b_alt / ^ _ c103d;
 g101b > g101b_alt / ^ _ c103b;
 g101b > g101b_alt / ^ _ g1039;
 g101b > g101b_long / ^ _ g103e;
-g101b > g101b_long / ^ _ cMed cUVowel? cLVowel;
+g101b > g101b_long / ^ _ cmed cUVowel? cLVowel;
 g1020 > g1020_long / ^ _ g103e;         // Mon shaping
 
 /* @doc
@@ -710,7 +654,7 @@ Glyphs that take an alternate form with certain diacritics.
 g1014 > g1014_alt / ^ _ t1014;
 g100a > g100a_alt / ^ _ t100a;
 g1009 > g1025 / ^ _ g103a;          // is this the rule?
-g1009 > g1025 / ^ _ cMed;
+g1009 > g1025 / ^ _ cmed;
 // MLC dictionary doesn't show this occurring at least with u1010 u103A
 //g1009 > g1025 / ^ _ c103e? cPreVowel? cUVowel? cCons;
 
@@ -836,13 +780,13 @@ fallback is to treat g1037 as a simple cBSDia in a later rule, so we only need t
 cConsSVowel g1037 {attach {to = @2; at = LS; with = LM}; attached = 1} \
                                         / ^ c103c_only? _ cUDia? _{attached == 0};
 c103c g1037 {attach {to = @1; at = LS; with = LM}; attached = 1} \
-                                        / ^ _ cConsSVowel cMed c103e_dia? cUDia? _{attached == 0};
+                                        / ^ _ cConsSVowel cmed c103e_dia? cUDia? _{attached == 0};
 c103c g1037 {attach {to = @1; at = LS; with = LM}; attached = 1} \
-                                        / ^ _ cConsSVowel cMed? c103e_dia cUDia? _{attached == 0};
+                                        / ^ _ cConsSVowel cmed? c103e_dia cUDia? _{attached == 0};
 c103c_mix g1037 {attach {to = @1; at = LS; with = LM}; attached = 1} \
                                         / ^ _ cConsSVowel cUDia? _{attached == 0};
 c101b g1037 {attach {to = @1; at = LS; with = LM}; attached = 1} \
-                                        / ^ _ (cMed, cClusDia) cUVowel? cLVowelM? c1036? _{attached == 0};
+                                        / ^ _ (cmed, cClusDia) cUVowel? cLVowelM? c1036? _{attached == 0};
 c101b g1037 {attach {to = @1; at = LS; with = LM}; attached = 1} \
                                         / ^ _ cUVowel? cLVowelM c1036? _{attached == 0};
 c101b g1037 {attach {to = @1; at = LLS; with = LM}; attached = 1} \
@@ -895,7 +839,7 @@ right is a major part of the testing.
 @enddoc */
 
 // c101b_med cLDia {attach {to = @l; at = LS; with = LM}; attached = 1} \
-//                                      / ^ cCons cMed? opt2(cLowDia) _=l cUDia? _{attached == 0};
+//                                      / ^ cCons cmed? opt2(cLowDia) _=l cUDia? _{attached == 0};
 // cTakesLLDia cLDia {attach {to = @1; at = LLS; with = LM}; attached = 1} \
 //                                      / ^ _ opt3(cnTakesLLDia) _{attached == 0};
 // According to official rules, lower dot should be to right with h medial, so disable this rule
@@ -908,7 +852,7 @@ cTakesLDia cLDia {attach {to = @1; at = LS; with = LM}; attached = 1} \
 Attach the non-attached
 @enddoc */
 
-cCons cYMed {attach.to = @1; attached = 1} / ^ _ cMed? g103a? _{attached == 0};
+cCons cYMed {attach.to = @1; attached = 1} / ^ _ cmed? g103a? _{attached == 0};
 
 endpass;
 
