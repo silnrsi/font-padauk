@@ -441,7 +441,7 @@ cno_kinzi g103a gKill _ > _ _ _ ckinzi$1:(1 2 3) /
     _ _ _ ^ (cCons, cNum, g104e) [gKill cno_med]? opt4(cClusMed) cPreVowel? _=u;
 (g1004 g105a) g103a gKill g102d g1036 > _ _ _ _ g1004_kinzi_102d_1036:(1 2 3 i t) / _ _ _ ^ (cCons, cNum, g104e) [gKill cno_med]? opt4(cClusMed) cPreVowel? _=i _=t;
 
-gKill cno_med > _ cmed:(1 2){sOrder=order};
+gKill cno_med > _ cmed:(1 2){sOrder=3};
 
 // lots of ligatures, as many as we can do adjacently
 gKill g1010 g103d > g1010_103d_med:(1 2 3){sOrder=order} _ _;
