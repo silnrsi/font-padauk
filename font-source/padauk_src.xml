@@ -4372,7 +4372,7 @@
         </point>
         <property name='mark' value='210'/>
         <property name='GDL_order' value='1'/>
-        <property name='classes' value='cConsNar cCons'/>
+        <property name='classes' value='cConsSVowel cConsNar cCons'/>
     </glyph>
     <glyph GID='378' PSName='uAA6E' UID='AA6E'>
         <point type='_R'>

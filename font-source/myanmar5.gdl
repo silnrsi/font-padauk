@@ -182,10 +182,13 @@ gKill {breakweight = -BW_NEVER};
 wj {breakweight = -BW_CHAR};
 // encourage breaking after signs
 cSigns = (g104c, g104d, g104f) {breakweight = BW_WORD};
-cNum = (g1040, g1041, g1042, g1043, g1044, g1045, g1046, g1047, g1048, g1049) {breakweight = -BW_CHAR};
+cNum = (g1040, g1041, g1042, g1043, g1044, g1045, g1046, g1047, g1048, g1049,
+        g1090, g1091, g1092, g1093, g1094, g1095, g1096, g1097, g1098, g1099) {breakweight = -BW_CHAR};
 // discourage breaking inside quotes
 cLQuote = (g_parenleft, g_quotedblleft, g_quoteleft) {breakweight = -BW_SYLL};
 cRQuote = (g_parenright, g_quotedblright, g_quoteright) {breakweight = BW_WORD};
+
+cCons {breakweight = -BW_SYLL};
 
 /* @doc
 Lists all the consonants that require a medial h to slant
@@ -351,6 +354,8 @@ Tone context characters that can occur before a U+AA70 khamti reduplication
 
 cTone = (g1038, g1087, g1088, g1089, g108a, g109a, g109b);
 cToneKham = (g1038_dot, g1087_dot, g1088_dot, g1089_dot, g108a_dot, g109a_dot, g109b_dot);
+
+c1037 = (g1037);
 
 endtable; // glyph table
 
@@ -785,22 +790,22 @@ fallback is to treat g1037 as a simple cBSDia in a later rule, so we only need t
 
 // This lot is a bit messy. We could probably simplify this, but at least it works!
 
-cConsSVowel g1037 {attach {to = @2; at = LS; with = LM}; attached = 1} \
+cConsSVowel c1037 {attach {to = @2; at = LS; with = LM}; attached = 1} \
                                         / ^ c103c_only? _ cUDia? _{attached == 0};
-c103c g1037 {attach {to = @1; at = LS; with = LM}; attached = 1} \
+c103c c1037 {attach {to = @1; at = LS; with = LM}; attached = 1} \
                                         / ^ _ cConsSVowel cmed c103e_dia? cUDia? _{attached == 0};
-c103c g1037 {attach {to = @1; at = LS; with = LM}; attached = 1} \
+c103c c1037 {attach {to = @1; at = LS; with = LM}; attached = 1} \
                                         / ^ _ cConsSVowel cmed? c103e_dia cUDia? _{attached == 0};
-c103c_mix g1037 {attach {to = @1; at = LS; with = LM}; attached = 1} \
+c103c_mix c1037 {attach {to = @1; at = LS; with = LM}; attached = 1} \
                                         / ^ _ cConsSVowel cUDia? _{attached == 0};
-c101b g1037 {attach {to = @1; at = LS; with = LM}; attached = 1} \
+c101b c1037 {attach {to = @1; at = LS; with = LM}; attached = 1} \
                                         / ^ _ (cmed, cClusDia) cUVowel? cLVowelM? c1036? _{attached == 0};
-c101b g1037 {attach {to = @1; at = LS; with = LM}; attached = 1} \
+c101b c1037 {attach {to = @1; at = LS; with = LM}; attached = 1} \
                                         / ^ _ cUVowel? cLVowelM c1036? _{attached == 0};
-c101b g1037 {attach {to = @1; at = LLS; with = LM}; attached = 1} \
+c101b c1037 {attach {to = @1; at = LLS; with = LM}; attached = 1} \
                                         / ^ _ cUDia? _{attached == 0};
 if (lldot)
-    cLeftLDot g1037 {attach {to = @1; at = LLS; with = LM}; attached = 1} \
+    cLeftLDot c1037 {attach {to = @1; at = LLS; with = LM}; attached = 1} \
                                         / ^ _ _ {attached == 0}; 
 endif;
 
@@ -890,11 +895,11 @@ cUVowel {advance.x = 0m} / c103b _ ;
 // fix kinzi lig in cemetary
 g1004_kinzi_102d {kern.x = - advance.x } / c103b _ cLVowel? cCons g103a;
 // fixes for Sgaw Karen
-g1063 {shift.x = advance.x / 3 } / c103b g1037=d _;
-g1063 {shift.x = advance.x / 3 } / g101b_long g103e g1037=d _;
+g1063 {shift.x = advance.x / 3 } / c103b c1037=d _;
+g1063 {shift.x = advance.x / 3 } / g101b_long g103e c1037=d _;
 
 if (slanth == sgaw)
-g1037 { kern.x = -100m; kern.y = -100m; } / g101b_long g103e_slanth _;
+c1037 { kern.x = -100m; kern.y = -100m; } / g101b_long g103e_slanth _;
 endif;
 
 // KRS try shifting 102D when it accompanies 1036 - it might be better to have a ligature for this

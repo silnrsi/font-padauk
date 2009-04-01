@@ -1616,6 +1616,21 @@
         <property name="classes" value="cConsSVowel cConsWide cCons"/>
     </glyph>
     <glyph GID="174" PSName="u101A.med">
+    <point type="BD"><!--Copied from BS-->
+        <location x="874" y="-53"/>
+    </point>
+        <point type="_BD">
+            <location x="393" y="-53"/>
+        </point>
+        <point type="BS">
+            <location x="874" y="-53"/>
+        </point>
+        <point type="L">
+            <location x="874" y="-53"/>
+        </point>
+        <point type="LL">
+            <location x="-89" y="-53"/>
+        </point>
         <property name="mark" value="80"/>
         <property name="GDL_order" value="3"/>
     </glyph>
@@ -3384,7 +3399,7 @@
         <point type="L">
             <location x="161" y="-53"/>
         </point>
-        <point type="_LL">
+        <point type="LL">
             <location x="-531" y="-53"/>
         </point>
         <property name="mark" value="80"/>
@@ -4309,7 +4324,7 @@
     </glyph>
     <glyph GID="349" PSName="u109F" UID="109F">
         <property name="mark" value="80"/>
-        <property name="GDL_order" value="0"/>
+        <property name="GDL_order" value="1"/>
     </glyph>
     <glyph GID="350" PSName="u200B" UID="200B">
         <property name="mark" value="80"/>
@@ -4672,7 +4687,7 @@
         </point>
         <property name="mark" value="210"/>
         <property name="GDL_order" value="1"/>
-        <property name="classes" value="cConsNar cCons"/>
+        <property name="classes" value="cConsSVowel cConsNar cCons"/>
     </glyph>
     <glyph GID="378" PSName="uAA6E" UID="AA6E">
         <point type="_R">

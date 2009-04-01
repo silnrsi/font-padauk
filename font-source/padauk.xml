@@ -4412,7 +4412,7 @@
     </glyph>
     <glyph GID="349" PSName="u109F" UID="109F">
         <property name="mark" value="80"/>
-        <property name="GDL_order" value="0"/>
+        <property name="GDL_order" value="1"/>
     </glyph>
     <glyph GID="350" PSName="u200B" UID="200B">
         <property name="mark" value="80"/>
@@ -4781,7 +4781,7 @@
         </point>
         <property name="mark" value="210"/>
         <property name="GDL_order" value="1"/>
-        <property name="classes" value="cConsNar cCons"/>
+        <property name="classes" value="cConsSVowel cConsNar cCons"/>
     </glyph>
     <glyph GID="378" PSName="uAA6E" UID="AA6E">
         <point type="_R">
