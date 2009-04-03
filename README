@@ -7,10 +7,17 @@ templates/build padauk.cfg
 then use make and try the following targets:
 
 make all
-make test
+make test # requires xetex
+make testsvg # requires grsvg (http://scripts.sil.org/svn-public/graphite/grutils/)
+make testclean
 make pdfs
 make dist
 make exe
 make dist-src
 make clean
 make dist-clean
+
+Distributors please note that only the fonts in the top level directory should
+be installed. The fonts in the font-source directory do not have the 
+graphite and opentype rules needed for correct rendering.
+
