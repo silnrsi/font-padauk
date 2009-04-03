@@ -536,6 +536,16 @@ length 3, longer than the other rules to take priority.
 _ > g25cc:3 / cCons _ g103a ^ g103e;
 _ > g25cc:3 / cCons _ g103a ^ g1082;
 
+// order should be asat first with 103c
+_ > g25cc:4 / cCons c103c _ g103a ^;
+_ > g25cc:4 / cCons g103d _ g103a ^;
+
+// prevent ambiguity of anusvara and lower vowel
+_ > g25cc:3 / (g1036, g1032) _ cLVowel ^;
+
+// upper vowel and visible virama shouldn't occur together afaik
+_ > g25cc:3 / cUSpace _ g103a ^;
+
 // prevent decomposed 1081 getting a circle with asat
 g1002 g103e g1082 g103a;
 
@@ -897,15 +907,11 @@ g1004_kinzi_102d {kern.x = - advance.x } / c103b _ cLVowel? cCons g103a;
 // fixes for Sgaw Karen
 g1063 {shift.x = advance.x / 3 } / c103b c1037=d _;
 g1063 {shift.x = advance.x / 3 } / g101b_long g103e c1037=d _;
+g1036 {shift.x = (@i.advance.x - @u.advance.x) / 2 } / g1025=i g102f=u _;
 
 if (slanth == sgaw)
 c1037 { kern.x = -100m; kern.y = -100m; } / g101b_long g103e_slanth _;
 endif;
-
-// KRS try shifting 102D when it accompanies 1036 - it might be better to have a ligature for this
-// the kern values have been set manually in the font gdl file, so will be lost when it is regenerated
-//g102d {shift.x = -@1.xkern} g1036 {kern.x = @1.xkern + @2.xkern} / _ _;
-//g102d g1036 {kern.x = @1.xkern + @2.xkern} / _ _;
 
 endpass;
 
