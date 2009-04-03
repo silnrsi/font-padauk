@@ -8,9 +8,9 @@ then use make and try the following targets:
 
 make all
 make test # requires xetex
+make pdfs # requires xetex
 make testsvg # requires grsvg (http://scripts.sil.org/svn-public/graphite/grutils/)
 make testclean
-make pdfs
 make dist
 make exe
 make dist-src
