@@ -66,6 +66,13 @@ This rule is after the BS rule so that this rule takes precedence
         <property name="classes" value="GDL_order_1"/>
 </xsl:template>
 
+<xsl:template match="glyph[@PSName='u105D']">
+<xsl:copy>
+    <xsl:apply-templates select="@*|node()"/>
+    <property name='classes' value='cCons'/>
+</xsl:copy>
+</xsl:template>
+
 <!-- default copy template -->
 <xsl:template match="@*|node()">
   <xsl:copy>
