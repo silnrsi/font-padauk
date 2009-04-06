@@ -537,14 +537,14 @@ _ > g25cc:3 / cCons _ g103a ^ g103e;
 _ > g25cc:3 / cCons _ g103a ^ g1082;
 
 // order should be asat first with 103c
-_ > g25cc:4 / cCons c103c _ g103a ^;
-_ > g25cc:4 / cCons g103d _ g103a ^;
+//_ > g25cc:4 / cCons c103c _ g103a ^;
+//_ > g25cc:4 / cCons g103d _ g103a ^;
 
 // prevent ambiguity of anusvara and lower vowel
 _ > g25cc:3 / (g1036, g1032) _ cLVowel ^;
 
 // upper vowel and visible virama shouldn't occur together afaik
-_ > g25cc:3 / cUSpace _ g103a ^;
+//_ > g25cc:3 / cUSpace _ g103a ^;
 
 // prevent decomposed 1081 getting a circle with asat
 g1002 g103e g1082 g103a;
@@ -553,7 +553,7 @@ g1002 g103e g1082 g103a;
 ckinzi > @2{sOrder=2} / cCons _ g103b;
 
 // slot Mon Asat
-g103a > @3{sOrder=8} / cCons g103e _;
+g103a > @3{sOrder=8} / cCons (g103e, g1082) _;
 
 // slot Shan E vowel
 g1031 > @3{sOrder=10} / ANY{sOrder > 0 && sOrder < 9} g1031 _;
@@ -574,7 +574,7 @@ g1037 > @2{sOrder=18} / ANY{sOrder >= 13 && sOrder < 18} _;
 g103e > @2{sOrder=19} / g102c _ g103a;
 
 // Visible virama
-g103a > @2{sOrder=20} / ANY{sOrder >= 5 && sOrder < 20} _;
+g103a > @2{sOrder=20} / ANY{sOrder >= 13 && sOrder < 20} _{sOrder == 2};
 gaa70 > @2 / g_space _;
 gaa70 > @1;
 
