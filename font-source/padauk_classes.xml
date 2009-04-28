@@ -78,8 +78,8 @@
   </property>
   <property name="GDL_order" value="17">u1069 u106A u106B u106C u106D</property>
   <property name="GDL_order" value="21">
-    u1038 u1087 u1088 u1089 u108A u108B u108C u108D u108F u109A u109B u109C u109D 
-    u1038.dot u1087.dot u1088.dot u1089.dot u108A.dot u109A.dot u109B.dot 
+    u1038 u1087 u1088 u1089 u108A u108B u108C u108D u108F u109A u109B u109C u109D uAA7B
+    u1038.dot u1087.dot u1088.dot u1089.dot u108A.dot u109A.dot u109B.dot uAA7B.dot
   </property>
   <property name="GDL_order" value="22">uAA70</property>
 
