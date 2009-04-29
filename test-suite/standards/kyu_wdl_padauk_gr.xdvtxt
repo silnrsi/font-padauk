@@ -1,0 +1,69 @@
+Pream	247, i: 5, num: 25400000, den: 473628672, mag: 1000, k: 29
+Bop	139, id: [1 0 0 0 0 0 0 0 0 0], previous page: -1
+Spec	239, len: 20
+	`pdf:pagesize default'
+Down	159, value: -947242
+Push	141
+Down	159, value: -917504
+Pop	142
+Down	160, value: 47362867
+Push	141
+Down	160, value: -46707507
+Push	141
+Right	145, value: 363478
+Native Font(16): [./Padauk.ttf]
+Fnt num	187, k: 16
+xdv_glyph_array(1789440):169@(0,0) 211@(418560,0) 290@(757248,0) 118@(1052160,0) 213@(1420800,28416) 290@(1494528,0)
+Pop	142
+Move z	169, value: 1076991
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(1823232):173@0 306@716544 290@763392 120@1058304 305@1822464 211@1479168
+Pop	142
+Move y	164, value: 1118462
+Push	141
+Right	145, value: 363478
+xdv_glyph_array(1098240):171@(0,0) 439@(55296,0) 222@(401664,-13823) 165@(449280,0) 213@(820992,28416) 220@(898560,0)
+Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_array(1297920):165@(0,0) 306@(398592,0) 211@(105984,0) 220@(449280,0) 165@(648960,0) 439@(702720,0) 222@(1050624,-13823) 220@(1098240,0)
+Pop	142
+Down	159, value: 1142271
+Push	141
+Right	145, value: 363478
+xdv_glyph_array(1029888):171@(0,0) 439@(55296,0) 222@(401664,-13823) 228@(449280,0) 163@(579840,0) 243@(829440,0) 213@(951552,28416)
+Pop	142
+Move y	164, value: 1104639
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(2059008):149@0 437@370944 220@765696 99@965376 430@1734912 207@1847040 220@1859328
+Pop	142
+Down	159, value: 786432
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(2106624):99@0 290@769536 180@1064448 441@1360128 290@1811712
+Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(1214208):163@0 437@50688 306@398592 149@448512 437@819456 205@1130496
+Pop	142
+Move z	166, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(2125056):149@0 290@765696 186@1060608 306@1783296 290@1830144
+Pop	142
+Down	159, value: 786432
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(407040):158@0
+Pop	142
+Pop	142
+Down	159, value: 1572864
+Eop	140
+Post	248, prev: 44, num: 25400000, den: 473628672, mag: 1000, 
+	l: 47988489, u: 29838621, s: 2, t: 1
+Native Font(16): [./Padauk.ttf]
+PPost	249, q: 774, i: 5

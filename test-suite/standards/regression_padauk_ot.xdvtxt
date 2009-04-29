@@ -1,0 +1,29 @@
+Pream	247, i: 5, num: 25400000, den: 473628672, mag: 1000, k: 29
+Bop	139, id: [1 0 0 0 0 0 0 0 0 0], previous page: -1
+Spec	239, len: 20
+	`pdf:pagesize default'
+Down	159, value: -947242
+Push	141
+Down	159, value: -917504
+Pop	142
+Down	160, value: 47362867
+Push	141
+Down	160, value: -46655540
+Push	141
+Right	145, value: 363478
+Native Font(16): [./Padauk.ttf]
+Fnt num	187, k: 16
+xdv_glyph_array(1209600):129@(0,0) 244@(368640,0) 205@(334848,0) 171@(760320,0) 222@(1161984,-13823)
+Pop	142
+Down	159, value: 786432
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(2271744):212@0 183@442368 212@1202688 136@1645056 220@2072064
+Pop	142
+Pop	142
+Down	159, value: 1572864
+Eop	140
+Post	248, prev: 44, num: 25400000, den: 473628672, mag: 1000, 
+	l: 47988489, u: 29838621, s: 2, t: 1
+Native Font(16): [./Padauk.ttf]
+PPost	249, q: 277, i: 5
