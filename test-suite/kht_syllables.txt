@@ -1,1 +1,1 @@
-../../khamti/test-suite/kht_syllables.txt
+../../khamti/test-suite/syllables.txt

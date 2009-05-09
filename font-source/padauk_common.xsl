@@ -2,6 +2,8 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 <xsl:output indent="yes"/>
+<xsl:param name="metricsFile"/>
+<xsl:variable name="metrics" select="document($metricsFile)/font/glyphs"/>
 
 <!-- add Fake attachments to prevent glyphs becoming marks in make_volt -->
 <xsl:template match="glyph[@PSName='u1037'] |
@@ -70,6 +72,17 @@ This rule is after the BS rule so that this rule takes precedence
 <xsl:copy>
     <xsl:apply-templates select="@*|node()"/>
     <property name='classes' value='cCons'/>
+</xsl:copy>
+</xsl:template>
+
+<xsl:template match="glyph[contains(@PSName,'.med') or contains(@PSName,'u103D') or contains (@PSName,'u103E')]">
+<xsl:variable name="psName" select="@PSName"/>
+<xsl:variable name="origWidth" select="$metrics/glyph[@PSName=$psName]/@advance"/>
+<xsl:copy>
+    <xsl:apply-templates select="@*|node()"/>
+    <xsl:if test="$origWidth &gt; 0">
+    <property name='GDL_origWidth' value='{concat($origWidth, "m")}'/>
+    </xsl:if>
 </xsl:copy>
 </xsl:template>
 

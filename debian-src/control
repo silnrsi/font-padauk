@@ -3,7 +3,7 @@ Section: x11
 Priority: optional
 Maintainer: Debian Fonts Task Force <pkg-fonts-devel@lists.alioth.debian.org>
 Uploaders: Nicolas Spalinger <nicolas.spalinger@sil.org>, Daniel Glassey <wdg@debian.org>
-Build-Depends: debhelper (>= 4.1.0), defoma (>= 0.7.0), libfont-freetype-perl, , libfont-ttf-scripts-perl (>= 0.11), libfont-ttf-perl (>= 0.44), xsltproc, libxml-parser-perl, grcompiler
+Build-Depends: debhelper (>= 4.1.0), defoma (>= 0.7.0) , libfont-ttf-scripts-perl (>= 0.11), libfont-ttf-perl (>= 0.44), xsltproc, libxml-parser-perl, grcompiler
 Standards-Version: 3.7.2
 Homepage: http://scripts.sil.org/padauk
 Vcs-svn: svn://svn.debian.org/svn/pkg-fonts/packages/@TARNAME

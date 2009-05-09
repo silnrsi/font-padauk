@@ -126,7 +126,8 @@
 <glyph PSName="u1000_u1001_u103B"><base PSName="u1000_u1001_u103B"/></glyph>
 <glyph PSName="u1000_u103B_u1015_u103A"><base PSName="u1000_u103B_u1015_u103A"/></glyph>
 <glyph UID="1001" PSName="u1001"><base UID="1001"/></glyph>
-<glyph PSName="u1001.med"><base PSName="u1001.med"/></glyph>
+<glyph PSName="u1001.med"><base PSName="u1001.med"/>
+</glyph>
 <glyph UID="1002" PSName="u1002"><base UID="1002"/></glyph>
 <glyph PSName="u1002.med"><base PSName="u1002.med"/></glyph>
 <glyph UID="1003" PSName="u1003"><base UID="1003"/></glyph>
