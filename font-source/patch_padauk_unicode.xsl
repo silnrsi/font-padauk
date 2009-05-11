@@ -9,11 +9,14 @@
      <xsl:variable name="psName" select="@PSName"/>
     <xsl:copy xml:space="preserve"><xsl:apply-templates select="@*"/>
         <xsl:variable name="shift" select="$metrics/glyph[@PSName=$psName]/@advance"/>
-        <xsl:message terminate="no"><xsl:value-of select="$psName"/> <xsl:value-of select="$metrics/glyph[@PSName=$psName]/@advance"/></xsl:message>
         <base PSName="{base/@PSName}">
-            <xsl:if test="$shift &gt; 0">
-            <shift x="{-$shift}" y="0"/>
-            </xsl:if>
+        <xsl:choose><xsl:when test="$psName = 'u1008.med'"></xsl:when>
+            <xsl:when test="$psName = 'u105B.med'"></xsl:when>
+            <xsl:when test="$shift &gt; 0"><shift x="{-$shift}" y="0"/>
+                <xsl:message terminate="no"><xsl:value-of select="$psName"/> <xsl:value-of select="$metrics/glyph[@PSName=$psName]/@advance"/></xsl:message>
+            </xsl:when>
+            <xsl:otherwise></xsl:otherwise>
+        </xsl:choose>
         </base>
     </xsl:copy>
 </xsl:template>
