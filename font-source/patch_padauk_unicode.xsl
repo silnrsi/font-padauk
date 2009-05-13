@@ -5,7 +5,7 @@
 <xsl:param name="metricsFile"/>
 <xsl:variable name="metrics" select="document($metricsFile)/font/glyphs"/>
 
-<xsl:template match="glyph[contains(@PSName,'.med') or contains(@PSName,'u103D') or contains (@PSName,'u103E')]">
+<xsl:template match="glyph[contains(@PSName,'.med') or starts-with(@PSName,'u103D') or starts-with(@PSName,'u103E')]">
      <xsl:variable name="psName" select="@PSName"/>
     <xsl:copy><xsl:apply-templates select="@*"/>
         <xsl:variable name="shift" select="$metrics/glyph[@PSName=$psName]/@advance"/>
@@ -13,7 +13,7 @@
         <xsl:choose><xsl:when test="$psName = 'u1008.med'"></xsl:when>
             <xsl:when test="$psName = 'u105B.med'"></xsl:when>
             <xsl:when test="$shift &gt; 0"><shift x="{-$shift}" y="0"/><advance width="0"/>
-                <xsl:message terminate="no"><xsl:value-of select="$psName"/> 
+                <xsl:message terminate="no"><xsl:value-of select="$psName"/><xsl:text> </xsl:text> 
                 <xsl:value-of select="number($shift)"/></xsl:message>
             </xsl:when>
             <xsl:otherwise>
