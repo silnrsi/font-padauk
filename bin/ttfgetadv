@@ -1,0 +1,60 @@
+#!/usr/bin/perl
+
+eval 'exec /usr/bin/perl  -S $0 ${1+"$@"}'
+    if 0; # not running under some shell
+
+use XML::Parser::Expat;
+use Font::TTF::Font;
+unless (defined $ARGV[0] && defined $ARGV[1])
+{
+die <<'EOT';
+Usage: ttfgetadv font.ttf adv.xml
+EOT
+
+}
+
+my ($font, @rev);
+$font = Font::TTF::Font->open($ARGV[0]) || die "Can't open font file $ARGV[0]\n";
+$xml = open(XML, ">", $ARGV[1]) || die "Can't open $ARGV[1]\n";
+
+@rev = $font->{'cmap'}->read->reverse;
+
+$numg = $font->{'maxp'}->read->{'numGlyphs'};
+
+$upem = $font->{'head'}->read->{'unitsPerEm'};
+$fname = $font->{'name'}->read->find_name(4);
+print XML << "EOT";
+<?xml version="1.0"?>
+<font name="$fname" upem="$upem">
+<glyphs>
+EOT
+
+$font->{'loca'}->read;
+$font->{'hmtx'}->read;
+$font->{'post'}->read;
+
+print STDERR "Num glyphs: $numg\n";
+for ($gid = 0; $gid < $numg; $gid++)
+{
+    $glyph = $font->{'loca'}{'glyphs'}[$gid];
+    #print $glyph . "\n";
+    if ($glyph) #&& $glyph->{' LEN'} != 0
+    {
+        $glyph->read;
+        $xmin = $glyph->{'xMin'};
+        $xmax = $glyph->{'xMax'};
+        $ymin = $glyph->{'yMin'};
+        $ymax = $glyph->{'yMax'};
+        $xadv = $font->{'hmtx'}{'advance'}[$gid];
+        $psname = $font->{'post'}->{'VAL'}[$gid];
+        #print STDERR "glyph $gid x $xmin $xmax y $ymin $ymax advance $xadv name $psname\n";
+        print XML "<glyph id='$gid' xmin='$xmin' xmax='$xmax' ymin='$ymin' ymax='$ymax' advance='$xadv' PSName='$psname' />\n";
+    }
+}
+print XML << "EOT";
+</glyphs>
+</font>
+EOT
+
+close(XML);
+
