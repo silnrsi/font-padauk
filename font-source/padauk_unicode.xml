@@ -458,7 +458,7 @@
 <glyph UID="AA78" PSName="uAA78"><base UID="AA6C"/></glyph>
 <glyph UID="AA79" PSName="uAA79"><base UID="AA6D"/></glyph>
 <glyph UID="AA7A" PSName="uAA7A"><base UID="AA6A"/></glyph>
-<glyph UID="AA7B" PSName="uAA7B"><base UID="AA6B"/></glyph>
+<glyph UID="AA7B" PSName="uAA7B"><base UID="AA7B"/></glyph>
 
 <!-- khamti extensions -->
 <glyph PSName="u1000.kham"><base PSName="u1000.kham"/></glyph>

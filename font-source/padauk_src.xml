@@ -4548,22 +4548,7 @@
         <property name='classes' value='cConsWide cCons'/>
     </glyph>
     <glyph GID='391' PSName='uAA7B' UID='AA7B'>
-        <point type='BS'>
-            <location x='264' y='-53'/>
-        </point>
-        <point type='R'>
-            <location x='0' y='0'/>
-        </point>
-        <point type='L'>
-            <location x='646' y='-53'/>
-        </point>
-        <point type='LL'>
-            <location x='292' y='-53'/>
-        </point>
-        <point type='U'>
-            <location x='292' y='495'/>
-        </point>
-        <property name='mark' value='183'/>
+        <property name='mark' value='80'/>
         <property name='GDL_order' value='21'/>
     </glyph>
     <glyph GID='392' PSName='u1000.kham'>
