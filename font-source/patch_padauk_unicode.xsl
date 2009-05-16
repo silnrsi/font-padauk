@@ -7,7 +7,7 @@
 
 <!-- Strip off the advances of marks, since there is inconsistent handling of the advance between
 different OpenType implementations -->
-<xsl:template match="glyph[contains(@PSName,'.med') or starts-with(@PSName,'u103D') or starts-with(@PSName,'u103E') or @PSName = 'u102D'  or @PSName = 'u102E' or @PSName = 'u1032' or @PSName = 'u1033' or @PSName = 'u1034' or @PSName = 'u1035' or @PSName = 'u1036' or @PSName = 'u1058' or @PSName = 'u1059' or @PSName = 'u105E' or @PSName = 'u105F' or @PSName = 'u1060' or @PSName = 'u1071' or @PSName = 'u1072' or @PSName = 'u1073' or @PSName = 'u1074' or @PSName = 'u1085' or @PSName = 'u1082' or @PSName = 'u1086' or @PSName = 'u108D' ]">
+<xsl:template match="glyph[contains(@PSName,'.med') or starts-with(@PSName,'u103D') or starts-with(@PSName,'u103E') or @PSName = 'u102D'  or @PSName = 'u102E' or @PSName = 'u1032' or @PSName = 'u1033' or @PSName = 'u1034' or @PSName = 'u1035' or @PSName = 'u1036' or @PSName = 'u105E' or @PSName = 'u105F' or @PSName = 'u1060' or @PSName = 'u1072' or @PSName = 'u1074' or @PSName = 'u1085' or @PSName = 'u1086' ]">
      <xsl:variable name="psName" select="@PSName"/>
     <xsl:copy><xsl:apply-templates select="@*"/>
         <xsl:variable name="shift" select="$metrics/glyph[@PSName=$psName]/@advance"/>
