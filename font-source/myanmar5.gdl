@@ -915,8 +915,10 @@ g1063 { kern.x = advance.x/4 } / (g101b, g1061) g103e? g1037 _ ;
 // narrow above, wide medial below
 cBDDia {advance.x = (origWidth - @n.advance.x) / 2 } / cConsNar=n _ cConsNar cBDDia;
 cBDDia {advance.x = (origWidth - @n.advance.x) / 2 } / cConsNar=n _ c103c;
+cConsNar { shift.x = (@m.origWidth - @n.advance.x) / 2; advance.x += (@m.origWidth - @n.advance.x) / 2} / c103c cCons cUVowel? _=n cBDDia=m;
 cConsNar {shift.x = (@m.origWidth - @n.advance.x) / 2 }/ (g101b, g103b) cUVowel? _=n cBDDia=m;
 g1037 { advance.x = 10m } / c103c_mix cCons cUVowel? _ c103c;
+g103d { advance.x = 60m } / _ g1014_alt g1010_med;
 
 if (slanth == sgaw)
 c1037 { kern.x = -100m; kern.y = -100m; } / g101b_long g103e_slanth _;
