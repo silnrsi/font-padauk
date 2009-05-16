@@ -910,11 +910,13 @@ g1004_kinzi_102d {kern.x = - advance.x } / c103b _ cLVowel? cCons g103a;
 g1063 {shift.x = advance.x / 3 } / c103b c1037=d _;
 g1063 {shift.x = advance.x / 3 } / g101b_long g103e c1037=d _;
 g1036 {shift.x = (@i.advance.x - @u.advance.x) / 2 + 100m } / g1025=i g102f=u _;
+g1063 { kern.x = advance.x/4 } / (g101b, g1061) g103e? g1037 _ ;
 
 // narrow above, wide medial below
 cBDDia {advance.x = (origWidth - @n.advance.x) / 2 } / cConsNar=n _ cConsNar cBDDia;
 cBDDia {advance.x = (origWidth - @n.advance.x) / 2 } / cConsNar=n _ c103c;
 cConsNar {shift.x = (@m.origWidth - @n.advance.x) / 2 }/ (g101b, g103b) cUVowel? _=n cBDDia=m;
+g1037 { advance.x = 10m } / c103c_mix cCons cUVowel? _ c103c;
 
 if (slanth == sgaw)
 c1037 { kern.x = -100m; kern.y = -100m; } / g101b_long g103e_slanth _;
