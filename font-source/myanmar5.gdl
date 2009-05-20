@@ -896,7 +896,8 @@ in the font.
 pass(2);
 
 g101b_alt {kern.x = @2.rkern + 10m} cHasRkern {shift.x = -rkern};
-// c102c_tall {kern.x = -xkern} / cCons cLowDia? _;
+g101b_alt {kern.x = @2.rkern + 10m} cHasRkern {shift.x = -rkern; } g1037 { advance.x = 40m } /_ _ g1036? _ (c103c, g100a, g100a_alt);
+
 c102b {kern.x = xkern / 2} / cUDia _;
 c102b {kern.x = xkern / 2} / c103c cCons cLVowel? cLDia? _;
 cConsNar / g102b_103a=a _ cLowDia? cUDia;
@@ -913,17 +914,18 @@ g1036 {shift.x = (@i.advance.x - @u.advance.x) / 2 + 100m } / g1025=i g102f=u _;
 g1063 { kern.x = advance.x/4 } / (g101b, g1061) g103e? g1037 _ ;
 
 // narrow above, wide medial below
-cBDDia {advance.x = (origWidth - @n.advance.x) / 2 } / cConsNar=n _ cConsNar cBDDia;
-cBDDia {advance.x = 10m } / cConsNar=n _ (g102f, g1030);
-cBDDia {advance.x = (origWidth - @n.advance.x) / 2 } / cConsNar=n _ c103c;
-cConsNar { shift.x = (@m.origWidth - @n.advance.x) / 2; advance.x += (@m.origWidth - @n.advance.x) / 2} / c103c cCons cUVowel? _=n cBDDia=m;
-cConsNar { shift.x = (@m.origWidth - @n.advance.x) / 2; advance.x += (@m.origWidth - @n.advance.x) / 2} / (g102f, g1030)  _=n cBDDia=m;
-cConsNar {shift.x = (@m.origWidth - @n.advance.x) / 2 }/ (g101b, g103b) cUVowel? _=n cBDDia=m;
+cBDDia { advance.x = (origWidth - @n.advance.x) / 2 } / cConsNar=n _ cConsNar cBDDia;
+cBDDia { advance.x = 10m } / cConsNar=n _ (g102f, g1030);
+cBDDia { advance.x = (origWidth - @n.advance.x) / 2 } / cConsNar=n _ c103c;
+cConsNar { kern.x = (@m.origWidth - @n.advance.x) / 2} / c103c cCons cUVowel? _=n cBDDia=m;
+cConsNar { kern.x = (@m.origWidth - @n.advance.x) / 2 } / (g102f, g1030)  _=n cBDDia=m;
+cConsNar { shift.x = (@m.origWidth - @n.advance.x) / 2 }/ (g101b, g103b) cUVowel? _=n cBDDia=m;
 g1037 { advance.x = 10m } / c103c_mix cCons cUVowel? _ c103c;
-g103d { advance.x = 200m } / cCons _ cUVowel? g1037 c103c;
+(g103d, g103d_103e, g103e_102f) { advance.x = 200m } / (cCons, g101b_alt) _ (cUVowel, g1036)? g1037 (c103c, g100a, g100a_alt);
 // why does this crash graphite?
 //cTakesRDia { shift.x = 100m } / cCons g103d cUVowel? g1037 _ cRDia;
-g103d { advance.x = 60m } / _ g1014_alt g1010_med;
+g103d { advance.x = 60m } / _ g1014_alt cBDDia;
+(g103d, g103d_103e) { advance.x = 100m } / _ (g1032, g1036)? g1037 (cCons, g1014_alt) (g103d, cBDDia);
 
 if (slanth == sgaw)
 c1037 { kern.x = -100m; kern.y = -100m; } / g101b_long g103e_slanth _;
