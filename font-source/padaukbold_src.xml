@@ -3431,11 +3431,8 @@
         <property name='GDL_order' value='11'/>
     </glyph>
     <glyph GID='304' PSName='u1072' UID='1072'>
-        <point type='_Y'>
-            <location x='-98' y='495'/>
-        </point>
         <point type='_U'>
-            <location x='-231' y='495'/>
+            <location x='-286' y='477'/>
         </point>
         <property name='mark' value='80'/>
         <property name='GDL_order' value='11'/>

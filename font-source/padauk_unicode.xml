@@ -357,7 +357,7 @@
         <attach PSName="u1071" at="U" with="_U"/>
     </base>
 </glyph>
-<glyph UID="1072" PSName="u1072"><base UID="1072"/></glyph>
+<glyph UID="1072" PSName="u1072"><base UID="103A"/></glyph>
 <glyph UID="1073" PSName="u1073">
     <base PSName="space.attach">
         <attach PSName="u1073" at="U" with="_U"/>
