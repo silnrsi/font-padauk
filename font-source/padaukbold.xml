@@ -2935,7 +2935,7 @@
     </glyph>
     <glyph GID="261" PSName="u104E" UID="104E">
         <property name="mark" value="80"/>
-        <property name="GDL_order" value="0"/>
+        <property name="GDL_order" value="1"/>
         <property name="classes" value="cConsNar cCons"/>
     </glyph>
     <glyph GID="262" PSName="u104F" UID="104F">

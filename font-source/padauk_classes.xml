@@ -4,7 +4,7 @@
     exclam numbersign percent parenleft asterisk plus comma hyphen period 
     slash colon semicolon equal question backslash asciicircum underscore 
     braceleft braceright asciitilde multiply u1024 u102A u104A u104B u104C 
-    u104D u104E u104F u1058 u1059 u109F u200B 
+    u104D u104F u1058 u1059 u109F u200B 
     u200C u200D quotedblleft quotedblright quoteleft quoteright endash emdash 
     u2060 notequal uAA74 uAA75 uAA76 uAA75.kham uAA76.kham 
   </property>
@@ -18,7 +18,8 @@
     u101B.long u101C u101D u101E u101E_u1010_u103C u101F u1020 u1020.long 
     u1020_u1020 u1020_u103E u1021 u1022 u1023 u1025 u1026 u1027 u1028 
     u1029 u103F u1040 u1041 u1042 u1043 u1044 
-    u1045 u1046 u1047 u1048 u1049 u1050 u1051 u1051_u100C u1051_u100D u1052 
+    u1045 u1046 u1047 u1048 u1049 u104E u1050 u1051 
+    u1051_u100C u1051_u100D u1052 
     u1053 u1054 u1055 u1056 u1057 u105A u105B u105C u105D u1061 
     u1065 u1066 u106E u106F u1070 u1075 u1075.kham u1076 u1077 u1078 u1079 u107A 
     u107B u107C u107D u107E u107F u1080 u1081 u108E u1090 u1091 u1092 

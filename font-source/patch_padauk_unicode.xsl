@@ -23,8 +23,8 @@ different OpenType implementations -->
         <xsl:choose><xsl:when test="$psName = 'u1008.med'"></xsl:when>
             <xsl:when test="$psName = 'u105B.med'"></xsl:when>
             <xsl:when test="$shift &gt; 0"><shift x="{-$shift}" y="0"/><advance width="0"/>
-                <xsl:message terminate="no"><xsl:value-of select="$psName"/><xsl:text> </xsl:text> 
-                <xsl:value-of select="number($shift)"/></xsl:message>
+                <!-- <xsl:message terminate="no"><xsl:value-of select="$psName"/><xsl:text> </xsl:text> 
+                <xsl:value-of select="number($shift)"/></xsl:message> -->
             </xsl:when>
             <xsl:otherwise>
             </xsl:otherwise>
