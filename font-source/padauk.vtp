@@ -456,6 +456,20 @@ DEF_FEATURE NAME "Mark to Mark Positioning" TAG "mkmk"
  LOOKUP "base_BD_mark" LOOKUP "base_BS_mark" LOOKUP "base_U_mark"
 END_FEATURE
 END_LANGSYS
+DEF_LANGSYS NAME "Sgaw Karen" TAG "ksw "
+DEF_FEATURE NAME "Contextual Ligatures" TAG "clig"
+ LOOKUP "insert25cc" LOOKUP "remove25ccAsat" LOOKUP "remove25cc1039" LOOKUP "remove25ccyara" LOOKUP "remove25ccMonShan" LOOKUP "remove25ccwa" LOOKUP "remove25ccHa" LOOKUP "remove25ccE" LOOKUP "remove25ccUpper" LOOKUP "remove25ccLower" LOOKUP "remove25ccA" LOOKUP "remove25cc1036" LOOKUP "remove25cc1037" LOOKUP "remove25ccTone" LOOKUP "ngakinzi" LOOKUP "u1039med" LOOKUP "shan1081" LOOKUP "miscLigKhamti" LOOKUP "miscLig" LOOKUP "medialLig" LOOKUP "monNgaAsat" LOOKUP "kinziInFront" LOOKUP "kinziE" LOOKUP "removeKinziE" LOOKUP "kinziRa" LOOKUP "removeKinziRa" LOOKUP "kinzi" LOOKUP "removeKinzi" LOOKUP "rMedsmall" LOOKUP "mon102D1032" LOOKUP "lVowel" LOOKUP "CRa" LOOKUP "CRUa" LOOKUP "CRWa" LOOKUP "eVowel2" LOOKUP "CSEa" LOOKUP "CEa" LOOKUP "haOVowel" LOOKUP "haIUUVowel" LOOKUP "uVowelKinzi" LOOKUP "sub1014" LOOKUP "raShort" LOOKUP "ralong" LOOKUP "kill1009" LOOKUP "medOVowel" LOOKUP "CREb" LOOKUP "CWHEb" LOOKUP "CYEb" LOOKUP "CHEU" LOOKUP "CHEb" LOOKUP "CHEkd" LOOKUP "CWEb" LOOKUP "C105eE" LOOKUP "C105fE" LOOKUP "C1060E" LOOKUP "C1082E" LOOKUP "CSEc" LOOKUP "CSEd" LOOKUP "CYWHc" LOOKUP "CEb" LOOKUP "CRb" LOOKUP "CREc" LOOKUP "CRWHc" LOOKUP "CRWHd" LOOKUP "CSREd" LOOKUP "raULig" LOOKUP "kinziLig" LOOKUP "kinziMedi" LOOKUP "kinziMedii" LOOKUP "kinziMedi1032" LOOKUP "kinziMed1036" LOOKUP "redupLig" LOOKUP "removeKinziLigVowel" LOOKUP "remove25cc1032" LOOKUP "raUpperVowel" LOOKUP "removeUAfterRaU" LOOKUP "remove200c" LOOKUP "removeRedup" LOOKUP "slantr" LOOKUP "tri"
+END_FEATURE
+DEF_FEATURE NAME "Kerning" TAG "kern"
+ LOOKUP "narrWideTallAfter" LOOKUP "narrWideTallBefore" LOOKUP "raTallA" LOOKUP "lDotMed" LOOKUP "lDotWide" LOOKUP "lDotWideBelow" LOOKUP "lDotNarr" LOOKUP "lDotLeft" LOOKUP "kinziTallA" LOOKUP "wideBelowU" LOOKUP "ldotSgaw" LOOKUP "rAltDot" LOOKUP "mon102b1036" LOOKUP "moveKinziLig" LOOKUP "move1032with102F"
+END_FEATURE
+DEF_FEATURE NAME "Mark Positioning" TAG "mark"
+ LOOKUP "base_BD_base" LOOKUP "base_BS_base" LOOKUP "base_U_base"
+END_FEATURE
+DEF_FEATURE NAME "Mark to Mark Positioning" TAG "mkmk"
+ LOOKUP "base_BD_mark" LOOKUP "base_BS_mark" LOOKUP "base_U_mark"
+END_FEATURE
+END_LANGSYS
 DEF_LANGSYS NAME "Kayah" TAG "kyu "
 DEF_FEATURE NAME "Contextual Ligatures" TAG "clig"
  LOOKUP "insert25cc" LOOKUP "remove25ccAsat" LOOKUP "remove25cc1039" LOOKUP "remove25ccyara" LOOKUP "remove25ccMonShan" LOOKUP "remove25ccwa" LOOKUP "remove25ccHa" LOOKUP "remove25ccE" LOOKUP "remove25ccUpper" LOOKUP "remove25ccLower" LOOKUP "remove25ccA" LOOKUP "remove25cc1036" LOOKUP "remove25cc1037" LOOKUP "remove25ccTone" LOOKUP "ngakinzi" LOOKUP "u1039med" LOOKUP "shan1081" LOOKUP "miscLigKhamti" LOOKUP "miscLig" LOOKUP "medialLig" LOOKUP "monNgaAsat" LOOKUP "kinziInFront" LOOKUP "kinziE" LOOKUP "removeKinziE" LOOKUP "kinziRa" LOOKUP "removeKinziRa" LOOKUP "kinzi" LOOKUP "removeKinzi" LOOKUP "rMedsmall" LOOKUP "mon102D1032" LOOKUP "lVowel" LOOKUP "CRa" LOOKUP "CRUa" LOOKUP "CRWa" LOOKUP "eVowel2" LOOKUP "CSEa" LOOKUP "CEa" LOOKUP "haOVowel" LOOKUP "haIUUVowel" LOOKUP "uVowelKinzi" LOOKUP "sub1014" LOOKUP "raShort" LOOKUP "ralong" LOOKUP "kill1009" LOOKUP "medOVowel" LOOKUP "CREb" LOOKUP "CWHEb" LOOKUP "CYEb" LOOKUP "CHEU" LOOKUP "CHEb" LOOKUP "CHEkd" LOOKUP "CWEb" LOOKUP "C105eE" LOOKUP "C105fE" LOOKUP "C1060E" LOOKUP "C1082E" LOOKUP "CSEc" LOOKUP "CSEd" LOOKUP "CYWHc" LOOKUP "CEb" LOOKUP "CRb" LOOKUP "CREc" LOOKUP "CRWHc" LOOKUP "CRWHd" LOOKUP "CSREd" LOOKUP "raULig" LOOKUP "kinziLig" LOOKUP "kinziMedi" LOOKUP "kinziMedii" LOOKUP "kinziMedi1032" LOOKUP "kinziMed1036" LOOKUP "redupLig" LOOKUP "removeKinziLigVowel" LOOKUP "remove25cc1032" LOOKUP "raUpperVowel" LOOKUP "removeUAfterRaU" LOOKUP "remove200c" LOOKUP "removeRedup" LOOKUP "slanth" LOOKUP "tri"
