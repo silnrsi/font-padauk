@@ -13,4 +13,8 @@
 </xsl:copy>
 </xsl:template>
 
+<xsl:template match="location[../@type='LL' and ../../@PSName='u103D.tri']">
+  <location x="-480" y="{@y}" />
+</xsl:template>
+
 </xsl:stylesheet>

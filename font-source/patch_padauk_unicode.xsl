@@ -26,9 +26,7 @@ different OpenType implementations -->
                 <!-- <xsl:message terminate="no"><xsl:value-of select="$psName"/><xsl:text> </xsl:text> 
                 <xsl:value-of select="number($shift)"/></xsl:message> -->
             </xsl:when>
-            <!--
             <xsl:when test="$shift2 &gt; 0"><shift x="{-$shift2}" y="0"/><advance width="1"/></xsl:when>
-            -->
             <xsl:otherwise>
             </xsl:otherwise>
         </xsl:choose>
