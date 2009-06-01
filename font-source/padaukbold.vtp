@@ -922,6 +922,9 @@ END_SUB
 SUB GROUP "classAVowel"
 WITH GLYPH "circledash" GROUP "classAVowel"
 END_SUB
+SUB GLYPH "u1032"
+WITH GLYPH "circledash" GLYPH "u1032"
+END_SUB
 SUB GLYPH "u1036"
 WITH GLYPH "circledash" GLYPH "u1036"
 END_SUB
