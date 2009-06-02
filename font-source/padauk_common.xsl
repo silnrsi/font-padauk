@@ -61,24 +61,6 @@ This rule is after the BS rule so that this rule takes precedence
 <xsl:template match="point[../@PSName='u1082' and @type='U']">
 </xsl:template>
 
-<xsl:template match="property[../@PSName='u1064' and @name='GDL_order']">
-        <property name="GDL_order" value="17"/>
-</xsl:template>
-
-<xsl:template match="property[../@PSName='u109F' and @name='GDL_order']">
-        <property name="GDL_order" value="1"/>
-</xsl:template>
-<xsl:template match="property[../@PSName='u109F' and @name='classes']">
-        <property name="classes" value="GDL_order_1"/>
-</xsl:template>
-
-<xsl:template match="glyph[@PSName='u105D']">
-<xsl:copy>
-    <xsl:apply-templates select="@*|node()"/>
-    <property name='classes' value='cCons'/>
-</xsl:copy>
-</xsl:template>
-
 <xsl:template match="glyph[contains(@PSName,'.med') or contains(@PSName,'u103D') or contains (@PSName,'u103E')]">
 <xsl:variable name="psName" select="@PSName"/>
 <xsl:variable name="origWidth" select="$metrics/glyph[@PSName=$psName]/@advance"/>
