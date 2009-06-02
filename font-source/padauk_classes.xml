@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <classes>
   <property name="GDL_order" value="0">
-    exclam numbersign percent parenleft asterisk plus comma hyphen period 
+    space exclam numbersign percent parenleft asterisk plus comma hyphen period 
     slash colon semicolon equal question backslash asciicircum underscore 
     braceleft braceright asciitilde multiply u1024 u102A u104A u104B u104C 
     u104D u104F u1058 u1059 u109F u200B 
@@ -9,7 +9,7 @@
     u2060 notequal uAA74 uAA75 uAA76 uAA75.kham uAA76.kham 
   </property>
   <property name="GDL_order" value="1">
-    space parenright u1000 u1000_u1001_u103B u1000_u103B_u1015_u103A u1001
+    parenright u1000 u1000_u1001_u103B u1000_u103B_u1015_u103A u1001
     u1002 u1003 u1004 u1005 u1006 u1007 u1008 u1009 u1009_u102C u100A 
     u100A.alt u100A_u100A u100B u100B.alt u100B_u100B u100B_u100C u100C 
     u100D u100D_u100D u100D_u100E u100E u100F u100F_u100B u100F_u100D 
@@ -123,6 +123,15 @@
     u1080 u108E
     uAA60 uAA61 uAA62 uAA63 uAA64 uAA66 uAA67 uAA68 uAA69 uAA6A uAA6B uAA6C uAA6D uAA6E uAA6F
     uAA71 uAA72 uAA73 u25CC
-  </class>  
+  </class>
+  <class name="c103b" exts=".tri">
+    u103B u103B_u103D u103B_u103E
+  </class>
+  <class name="c103d" exts=".tri">
+    u103D u103B_u103D u103D_u103E
+  </class>
+  <class name="c103e" exts=".slantr .slanth .tri">
+    u103E u103E_u102F u103E_u1030 u103D_u103E u103B_u103E
+  </class>
 
 </classes>

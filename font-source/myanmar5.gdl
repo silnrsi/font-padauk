@@ -288,9 +288,9 @@ For each medialised cluster glyph we list all the forms it may take, including
 when it ligates with another medial.
 @enddoc */
 
-c103b = (g103b, g103b_103e, g103b_103d, g103b_103d_tri);
-c103d = (g103d, g103d_103e, g103b_103d, g103d_tri, g103d_103e_tri, g103b_103d_tri);
-c103e = (g103e, g103e_102f, g103e_1030, g103d_103e, g103b_103e, g103d_103e_tri);
+//c103b = (g103b, g103b_103e, g103b_103d, g103b_103d_tri);
+//c103d = (g103d, g103d_103e, g103b_103d, g103d_tri, g103d_103e_tri, g103b_103d_tri);
+// c103e = (g103e, g103e_102f, g103e_1030, g103d_103e, g103b_103e, g103d_103e_tri);
 
 /* @doc
 U+1039 U+101B (wrap) takes numerous forms depending on context. We list various sets of these
@@ -807,6 +807,10 @@ fallback is to treat g1037 as a simple cBSDia in a later rule, so we only need t
 @enddoc */
 
 // This lot is a bit messy. We could probably simplify this, but at least it works!
+if (lldot)
+    cLeftLDot c1037 {attach {to = @1; at = LLS; with = LM}; attached = 1} \
+                                        / ^ _ _ {attached == 0}; 
+endif;
 
 cConsSVowel c1037 {attach {to = @2; at = LS; with = LM}; attached = 1} \
                                         / ^ c103c_only? _ cUDia? _{attached == 0};
@@ -822,10 +826,6 @@ c101b c1037 {attach {to = @1; at = LS; with = LM}; attached = 1} \
                                         / ^ _ cUVowel? cLVowelM c1036? _{attached == 0};
 c101b c1037 {attach {to = @1; at = LLS; with = LM}; attached = 1} \
                                         / ^ _ cUDia? _{attached == 0};
-if (lldot)
-    cLeftLDot c1037 {attach {to = @1; at = LLS; with = LM}; attached = 1} \
-                                        / ^ _ _ {attached == 0}; 
-endif;
 
 // applies in the ulon=1 case and should take precedence over attaching to tall u
 cTakesUDia cUDia {attach {to = @c; at = US; with = UM}; attached = 1} \
