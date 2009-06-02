@@ -3299,6 +3299,9 @@
         <property name="GDL_order" value="3"/>
     <property name="GDL_origWidth" value="460m"/></glyph>
     <glyph GID="281" PSName="u105D" UID="105D">
+    <point type="BD"><!--Copied from BS-->
+        <location x="300" y="-53"/>
+    </point>
         <point type="_R">
             <location x="0" y="0"/>
         </point>
@@ -3313,7 +3316,7 @@
         </point>
         <property name="mark" value="130"/>
         <property name="GDL_order" value="1"/>
-    <property name="classes" value="cCons"/></glyph>
+    </glyph>
     <glyph GID="282" PSName="u105E" UID="105E">
         <point type="_BS">
             <location x="-99" y="-53"/>
