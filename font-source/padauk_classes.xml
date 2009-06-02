@@ -74,10 +74,10 @@
   <property name="GDL_order" value="13">u1037 u1062 u1062_u103A</property>
   <property name="GDL_order" value="14">u1086</property>
   <property name="GDL_order" value="15">
-    u102B u102B_u103A u102C u1063 u1063_u103A u1064 u1067
+    u102B u102B_u103A u102C u1063 u1063_u103A u1067
     u1068 u1083 
   </property>
-  <property name="GDL_order" value="17">u1069 u106A u106B u106C u106D</property>
+  <property name="GDL_order" value="17">u1064 u1069 u106A u106B u106C u106D</property>
   <property name="GDL_order" value="21">
     u1038 u1087 u1088 u1089 u108A u108B u108C u108D u108F u109A u109B u109C u109D uAA7B
     u1038.dot u1087.dot u1088.dot u1089.dot u108A.dot u109A.dot u109B.dot uAA7B.dot

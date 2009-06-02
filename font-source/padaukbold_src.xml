@@ -3224,7 +3224,7 @@
             <location x='225' y='495'/>
         </point>
         <property name='mark' value='80'/>
-        <property name='GDL_order' value='15'/>
+        <property name='GDL_order' value='17'/>
     </glyph>
     <glyph GID='291' PSName='u1065' UID='1065'>
         <point type='BS'>
