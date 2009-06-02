@@ -3973,7 +3973,7 @@
     </glyph>
     <glyph GID='349' PSName='u109F' UID='109F'>
         <property name='mark' value='80'/>
-        <property name='GDL_order' value='0'/>
+        <property name='GDL_order' value='1'/>
     </glyph>
     <glyph GID='350' PSName='u200B' UID='200B'>
         <property name='mark' value='80'/>
