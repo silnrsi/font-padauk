@@ -44,23 +44,6 @@ This is needed for [narrow cons] U+1039 [wide cons]
   </xsl:copy>
 </xsl:template>
 
-<!-- 
-Remove attachments for glyphs that shouldn't have them.
-This rule is after the BS rule so that this rule takes precedence
--->
-<xsl:template match="glyph[@PSName='u1031'] | 
-                    glyph[@PSName='u1084'] | 
-                    glyph[@PSName='u102A']">
-    <xsl:copy>
-        <xsl:apply-templates select="@*"/>
-        <xsl:apply-templates select="property|text()"/>
-    </xsl:copy>
-</xsl:template>
-
-<!-- remove upper attachment point from 1082 -->
-<xsl:template match="point[../@PSName='u1082' and @type='U']">
-</xsl:template>
-
 <xsl:template match="glyph[contains(@PSName,'.med') or contains(@PSName,'u103D') or contains (@PSName,'u103E')]">
 <xsl:variable name="psName" select="@PSName"/>
 <xsl:variable name="origWidth" select="$metrics/glyph[@PSName=$psName]/@advance"/>

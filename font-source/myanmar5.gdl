@@ -570,6 +570,8 @@ g1031 > @3{sOrder=10} / ANY{sOrder > 0 && sOrder < 9} g1031 _;
 g1062 > @2{sOrder=15} / ANY{sOrder >= 13 && sOrder < 15} _;
 
 // slot Anusvara
+_ g1032 > g25cc:b @b / g1032 ANY{sOrder == 12}? _ _=b;
+_ g1036 > g25cc:b @b / g1036 ANY{sOrder == 12}? _ _=b;
 (g1036, g1032) > @2{sOrder=16} / ANY{sOrder >= 11 && sOrder < 16} _;
 
 // double 1037 is always wrong, so we should highlight it

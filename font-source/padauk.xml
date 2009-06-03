@@ -735,8 +735,8 @@
             <location x="-218" y="-53"/>
         </point>
         <point type="U">
-		<location x="0" y="495"/>
-	</point>
+            <location x="0" y="495"/>
+        </point>
         <property name="mark" value="80"/>
         <property name="GDL_order" value="3"/>
     <property name="GDL_origWidth" value="162m"/></glyph>
@@ -2109,10 +2109,6 @@
         <property name="classes" value="cConsWide cCons"/>
     </glyph>
     <glyph GID="201" PSName="u102A" UID="102A">
-        
-        
-        
-        
         <property name="mark" value="80"/>
         <property name="GDL_order" value="0"/>
     </glyph>
@@ -2266,10 +2262,6 @@
         <property name="GDL_order" value="12"/>
     <property name="GDL_origWidth" value="310m"/></glyph>
     <glyph GID="212" PSName="u1031" UID="1031">
-        
-        
-        
-        
         <property name="mark" value="80"/>
         <property name="GDL_order" value="9"/>
     </glyph>
@@ -3377,6 +3369,7 @@
         </point>
         <property name="mark" value="130"/>
         <property name="GDL_order" value="1"/>
+        <property name="classes" value="cConsNar cCons"/>
     </glyph>
     <glyph GID="282" PSName="u105E" UID="105E">
         <point type="_BS">
@@ -3525,20 +3518,20 @@
     </glyph>
     <glyph GID="291" PSName="u1065" UID="1065">
     <point type="BD"><!--Copied from BS-->
-        <location x="418" y="-80"/>
+        <location x="292" y="-53"/>
     </point>
         <point type="_R">
             <location x="0" y="0"/>
         </point>
         <point type="BS">
-		<location x="292" y="-53"/>
-	</point>
+            <location x="292" y="-53"/>
+        </point>
         <point type="L">
-		<location x="292" y="-53"/>
-	</point>
+            <location x="292" y="-53"/>
+        </point>
         <point type="U">
-		<location x="292" y="495"/>
-	</point>
+            <location x="292" y="495"/>
+        </point>
         <property name="mark" value="80"/>
         <property name="GDL_order" value="1"/>
         <property name="classes" value="cConsSVowel cConsNar cCons"/>
@@ -4084,7 +4077,9 @@
         <point type="BD">
             <location x="-495" y="-53"/>
         </point>
-        
+        <point type="U">
+            <location x="-293" y="495"/>
+        </point>
         <property name="mark" value="80"/>
         <property name="GDL_order" value="6"/>
     </glyph>
@@ -4096,10 +4091,6 @@
         <property name="GDL_order" value="15"/>
     </glyph>
     <glyph GID="322" PSName="u1084" UID="1084">
-        
-        
-        
-        
         <property name="mark" value="80"/>
         <property name="GDL_order" value="9"/>
     </glyph>
@@ -4828,17 +4819,17 @@
     </glyph>
     <glyph GID="384" PSName="uAA74" UID="AA74">
         <property name="mark" value="210"/>
-        <property name="GDL_order" value="0"/>
+        <property name="GDL_order" value="1"/>
         <property name="classes" value="cConsWide cCons"/>
     </glyph>
     <glyph GID="385" PSName="uAA75" UID="AA75">
         <property name="mark" value="210"/>
-        <property name="GDL_order" value="0"/>
+        <property name="GDL_order" value="1"/>
         <property name="classes" value="cConsWide cCons"/>
     </glyph>
     <glyph GID="386" PSName="uAA76" UID="AA76">
         <property name="mark" value="210"/>
-        <property name="GDL_order" value="0"/>
+        <property name="GDL_order" value="1"/>
         <property name="classes" value="cConsWide cCons"/>
     </glyph>
     <glyph GID="387" PSName="uAA77" UID="AA77">
@@ -5383,12 +5374,12 @@
     </glyph>
     <glyph GID="416" PSName="uAA75.kham">
         <property name="mark" value="210"/>
-        <property name="GDL_order" value="0"/>
+        <property name="GDL_order" value="1"/>
         <property name="classes" value="cConsWide cCons"/>
     </glyph>
     <glyph GID="417" PSName="uAA76.kham">
         <property name="mark" value="210"/>
-        <property name="GDL_order" value="0"/>
+        <property name="GDL_order" value="1"/>
         <property name="classes" value="cConsWide cCons"/>
     </glyph>
     <glyph GID="418" PSName="u1032_uAA70">

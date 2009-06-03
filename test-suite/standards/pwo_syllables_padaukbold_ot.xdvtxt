@@ -1107,22 +1107,22 @@ Right	145, value: 363478
 Fnt num	187, k: 16
 xdv_glyph_string(764928):103@0 295@460800
 Pop	142
-Move y	164, value: 794799
+Move y	164, value: 794707
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(764928):103@0 295@460800 219@764928
 Pop	142
-Move y	161, value: no_b
+Move z	169, value: 794708
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):103@0 296@460800
 Pop	142
-Move z	169, value: 794798
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):103@0 296@460800 219@754176
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):103@0 297@460800
@@ -1137,12 +1137,12 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):103@0 298@460800
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(764928):103@0 299@460800
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(460800):103@0 219@345600
@@ -1152,7 +1152,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):103@0 219@345600 297@460800
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):103@0 219@345600 298@460800
@@ -1177,7 +1177,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(640512):105@0 202@460800
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(460800):105@0 205@412416
@@ -1187,12 +1187,12 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):105@0 205@412416 297@460800
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):105@0 205@412416 297@460800 219@754176
 Pop	142
-Down	159, value: 1050798
+Down	159, value: 1050707
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):105@0 205@412416 298@460800
@@ -1202,7 +1202,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(716544):105@0 205@412416 220@460800
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(460800):105@0 207@412416
@@ -1212,12 +1212,12 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(764928):105@0 207@412416 295@460800
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(764928):105@0 207@412416 295@460800 219@764928
 Pop	142
-Down	159, value: 1050798
+Down	159, value: 1050707
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):105@0 207@412416 297@460800
@@ -1242,7 +1242,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(764928):105@0 209@327168 295@460800 219@764928
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):105@0 209@327168 296@460800
@@ -1272,7 +1272,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(460800):105@0 211@382464
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):105@0 211@382464 296@460800
@@ -1292,15 +1292,10 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(764928):105@0 211@382464 299@460800
 Pop	142
-Down	159, value: 1068462
+Down	159, value: 1068370
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(460800):105@(0,0) 213@(456960,28416)
-Pop	142
-Move y	161, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_array(1256448):105@(0,0) 213@(456960,28416) 361@(460800,0) 213@(938496,28416) 297@(963072,0)
 Pop	142
 Move z	166, value: no_b
 Push	141
@@ -1317,12 +1312,12 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_array(754176):105@(0,0) 213@(456960,28416) 297@(460800,0)
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(754176):105@(0,0) 213@(456960,28416) 297@(460800,0) 219@(754176,0)
 Pop	142
-Down	159, value: 973998
+Down	159, value: 973906
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(716544):105@(0,0) 213@(456960,28416) 220@(460800,0)
@@ -1342,50 +1337,55 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(764928):105@0 218@354816 295@460800 219@764928
 Pop	142
-Move y	164, value: 944814
+Move z	169, value: 944723
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):105@0 218@354816 296@460800 219@754176
 Pop	142
-Move y	161, value: no_b
+Down	159, value: 944722
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):105@0 218@354816 297@460800
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):105@0 218@354816 297@460800 219@754176
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):105@0 218@354816 298@460800
 Pop	142
-Move y	164, value: 794799
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(764928):105@0 218@354816 299@460800
 Pop	142
-Move y	161, value: no_b
+Move z	169, value: 794708
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(926976):105@0 223@460800 297@633600
 Pop	142
-Down	159, value: 1186733
+Move y	164, value: 1186642
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(640512):227@0 105@179712 218@534528
 Pop	142
-Down	159, value: 1186734
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(933888):227@0 105@179712 218@534528 298@640512
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(751872):105@0 293@460800
+Pop	142
+Down	159, value: 794707
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(1056000):105@0 293@460800 295@751872 219@1056000
 Pop	142
 Pop	142
 Down	159, value: 1572864
@@ -1403,24 +1403,19 @@ Down	160, value: -46707507
 Push	141
 Right	145, value: 363478
 Fnt num	187, k: 16
-xdv_glyph_string(1056000):105@0 293@460800 295@751872 219@1056000
-Pop	142
-Move y	164, value: 789757
-Push	141
-Right	145, value: 363478
 xdv_glyph_string(1045248):105@0 293@460800 297@751872
 Pop	142
-Move z	169, value: 789756
+Move y	164, value: 803859
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1045248):105@0 293@460800 297@751872 219@1045248
 Pop	142
-Move y	161, value: no_b
+Move z	169, value: 803860
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1056000):105@0 293@460800 299@751872
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1068288):105@0 294@460800 296@774912
@@ -1440,12 +1435,12 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):105@0 296@460800
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):105@0 296@460800 219@754176
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):105@0 297@460800
@@ -1465,17 +1460,17 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(764928):105@0 299@460800
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(460800):105@0 219@345600
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(764928):105@0 219@345600 295@460800
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):105@0 219@345600 297@460800
@@ -1485,12 +1480,12 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):105@0 219@345600 298@460800
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(764928):105@0 219@345600 299@460800
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(716544):105@0 220@460800
@@ -1510,22 +1505,22 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(453888):118@0 205@407808
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(758016):118@0 205@407808 295@453888
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(747264):118@0 205@407808 297@453888
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(758016):118@0 205@407808 299@453888
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(453888):118@0 207@407808
@@ -1535,22 +1530,22 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(758016):118@0 207@407808 295@453888
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(758016):118@0 207@407808 295@453888 219@758016
 Pop	142
-Move y	164, value: 1045756
+Down	159, value: 1059859
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(747264):118@0 207@407808 296@453888
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(747264):118@0 207@407808 296@453888 219@747264
 Pop	142
-Move y	161, value: no_b
+Down	159, value: 1059858
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(747264):118@0 207@407808 297@453888
@@ -1560,7 +1555,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(758016):118@0 207@407808 299@453888
 Pop	142
-Move y	164, value: 789757
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(453888):118@0 209@322560
@@ -1590,17 +1585,17 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(453888):118@0 211@377856
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(758016):118@0 211@377856 295@453888
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(747264):118@0 211@377856 296@453888
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(747264):118@0 211@377856 297@453888
@@ -1610,12 +1605,12 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(758016):118@0 211@377856 299@453888
 Pop	142
-Down	159, value: 1063420
+Down	159, value: 1077523
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(453888):118@(0,0) 213@(452352,28416)
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(758016):118@(0,0) 213@(452352,28416) 295@(453888,0)
@@ -1625,7 +1620,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_array(758016):118@(0,0) 213@(452352,28416) 295@(453888,0) 219@(758016,0)
 Pop	142
-Move z	169, value: 968955
+Down	159, value: 983059
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(747264):118@(0,0) 213@(452352,28416) 296@(453888,0)
@@ -1635,12 +1630,12 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_array(747264):118@(0,0) 213@(452352,28416) 296@(453888,0) 219@(747264,0)
 Pop	142
-Move z	166, value: no_b
+Down	159, value: 983058
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(747264):118@(0,0) 213@(452352,28416) 297@(453888,0)
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(758016):118@(0,0) 213@(452352,28416) 299@(453888,0)
@@ -1650,37 +1645,37 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(453888):118@0 218@350208
 Pop	142
-Down	159, value: 789756
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(758016):118@0 218@350208 295@453888
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(758016):118@0 218@350208 295@453888 219@758016
 Pop	142
-Move z	169, value: 939771
+Move y	164, value: 953874
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(747264):118@0 218@350208 296@453888
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(747264):118@0 218@350208 296@453888 219@747264
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(747264):118@0 218@350208 297@453888
 Pop	142
-Move y	161, value: no_b
+Move y	164, value: 803859
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(747264):118@0 218@350208 297@453888 219@747264
 Pop	142
-Move z	166, value: no_b
+Down	159, value: 953875
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(758016):118@0 218@350208 299@453888
@@ -1693,7 +1688,7 @@ Pop	142
 Pop	142
 Down	159, value: 1572864
 Eop	140
-Bop	139, id: [7 0 0 0 0 0 0 0 0 0], previous page: 10198
+Bop	139, id: [7 0 0 0 0 0 0 0 0 0], previous page: 10175
 Spec	239, len: 20
 	`pdf:pagesize default'
 Down	159, value: -947242
@@ -1991,7 +1986,7 @@ Pop	142
 Pop	142
 Down	159, value: 1572864
 Eop	140
-Bop	139, id: [8 0 0 0 0 0 0 0 0 0], previous page: 12230
+Bop	139, id: [8 0 0 0 0 0 0 0 0 0], previous page: 12175
 Spec	239, len: 20
 	`pdf:pagesize default'
 Down	159, value: -947242
@@ -2284,7 +2279,7 @@ Pop	142
 Pop	142
 Down	159, value: 1572864
 Eop	140
-Bop	139, id: [9 0 0 0 0 0 0 0 0 0], previous page: 14267
+Bop	139, id: [9 0 0 0 0 0 0 0 0 0], previous page: 14212
 Spec	239, len: 20
 	`pdf:pagesize default'
 Down	159, value: -947242
@@ -2557,7 +2552,7 @@ Pop	142
 Pop	142
 Down	159, value: 1572864
 Eop	140
-Bop	139, id: [10 0 0 0 0 0 0 0 0 0], previous page: 16149
+Bop	139, id: [10 0 0 0 0 0 0 0 0 0], previous page: 16094
 Spec	239, len: 20
 	`pdf:pagesize default'
 Down	159, value: -947242
@@ -2845,7 +2840,7 @@ Pop	142
 Pop	142
 Down	159, value: 1572864
 Eop	140
-Bop	139, id: [11 0 0 0 0 0 0 0 0 0], previous page: 17906
+Bop	139, id: [11 0 0 0 0 0 0 0 0 0], previous page: 17851
 Spec	239, len: 20
 	`pdf:pagesize default'
 Down	159, value: -947242
@@ -3123,7 +3118,7 @@ Pop	142
 Pop	142
 Down	159, value: 1572864
 Eop	140
-Bop	139, id: [12 0 0 0 0 0 0 0 0 0], previous page: 19983
+Bop	139, id: [12 0 0 0 0 0 0 0 0 0], previous page: 19928
 Spec	239, len: 20
 	`pdf:pagesize default'
 Down	159, value: -947242
@@ -3416,7 +3411,7 @@ Pop	142
 Pop	142
 Down	159, value: 1572864
 Eop	140
-Bop	139, id: [13 0 0 0 0 0 0 0 0 0], previous page: 21925
+Bop	139, id: [13 0 0 0 0 0 0 0 0 0], previous page: 21870
 Spec	239, len: 20
 	`pdf:pagesize default'
 Down	159, value: -947242
@@ -3431,12 +3426,12 @@ Right	145, value: 363478
 Fnt num	187, k: 16
 xdv_glyph_string(1042176):152@0 295@738048 219@1042176
 Pop	142
-Move y	164, value: 793345
+Move y	164, value: 807770
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1031424):152@0 296@738048
 Pop	142
-Move y	161, value: no_b
+Move z	169, value: 807769
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1031424):152@0 296@738048 219@1031424
@@ -3446,17 +3441,17 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1031424):152@0 297@738048
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1031424):152@0 297@738048 219@1031424
 Pop	142
-Move z	169, value: 793346
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1031424):152@0 298@738048
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1042176):152@0 299@738048
@@ -3471,7 +3466,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1031424):152@0 219@622848 296@738048
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1031424):152@0 219@622848 297@738048
@@ -3481,7 +3476,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1031424):152@0 219@622848 298@738048
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1042176):152@0 219@622848 299@738048
@@ -3491,17 +3486,17 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(993792):152@0 220@738048
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(423936):154@0
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(603648):154@0 202@423936
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(423936):154@0 205@393984
@@ -3516,7 +3511,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(728064):154@0 205@393984 295@423936 219@728064
 Pop	142
-Move z	169, value: 1049344
+Move z	169, value: 1063768
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(717312):154@0 205@393984 296@423936
@@ -3546,7 +3541,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(728064):154@0 207@393984 295@423936
 Pop	142
-Down	159, value: 793346
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(728064):154@0 207@393984 295@423936 219@728064
@@ -3571,7 +3566,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(728064):154@0 207@393984 299@423936
 Pop	142
-Move y	161, value: no_b
+Move z	169, value: 807769
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(423936):154@0 209@308736
@@ -3581,7 +3576,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(728064):154@0 209@308736 295@423936
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(717312):154@0 209@308736 296@423936
@@ -3591,12 +3586,12 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(717312):154@0 209@308736 296@423936 219@717312
 Pop	142
-Move z	169, value: 793346
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(717312):154@0 209@308736 297@423936
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(728064):154@0 209@308736 299@423936
@@ -3606,7 +3601,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(423936):154@0 211@364032
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(728064):154@0 211@364032 295@423936
@@ -3616,7 +3611,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(728064):154@0 211@364032 295@423936 219@728064
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(717312):154@0 211@364032 296@423936
@@ -3631,32 +3626,27 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(728064):154@0 211@364032 299@423936
 Pop	142
-Down	159, value: 1067008
+Down	159, value: 1081432
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(438528):154@(0,0) 213@(438528,28416)
-Pop	142
-Move z	166, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_array(926208):154@(0,0) 213@(438528,28416) 361@(423936,0) 213@(901632,28416)
 Pop	142
 Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(728064):154@(0,0) 213@(438528,28416) 295@(423936,0)
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(728064):154@(0,0) 213@(438528,28416) 295@(423936,0) 219@(728064,0)
 Pop	142
-Down	159, value: 972544
+Down	159, value: 986969
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(717312):154@(0,0) 213@(438528,28416) 296@(423936,0)
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(717312):154@(0,0) 213@(438528,28416) 297@(423936,0)
@@ -3666,7 +3656,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_array(728064):154@(0,0) 213@(438528,28416) 299@(423936,0)
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(423936):154@0 218@336384
@@ -3681,32 +3671,32 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(728064):154@0 218@336384 295@423936 219@728064
 Pop	142
-Move y	164, value: 943360
+Move z	169, value: 957784
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(717312):154@0 218@336384 296@423936
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(717312):154@0 218@336384 296@423936 219@717312
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(717312):154@0 218@336384 297@423936
 Pop	142
-Move z	169, value: 793345
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(717312):154@0 218@336384 297@423936 219@717312
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(728064):154@0 218@336384 299@423936
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(603648):228@0 154@179712 207@573696
@@ -3714,7 +3704,7 @@ Pop	142
 Pop	142
 Down	159, value: 1572864
 Eop	140
-Bop	139, id: [14 0 0 0 0 0 0 0 0 0], previous page: 23965
+Bop	139, id: [14 0 0 0 0 0 0 0 0 0], previous page: 23910
 Spec	239, len: 20
 	`pdf:pagesize default'
 Down	159, value: -947242
@@ -3977,7 +3967,7 @@ Pop	142
 Pop	142
 Down	159, value: 1572864
 Eop	140
-Bop	139, id: [15 0 0 0 0 0 0 0 0 0], previous page: 25986
+Bop	139, id: [15 0 0 0 0 0 0 0 0 0], previous page: 25871
 Spec	239, len: 20
 	`pdf:pagesize default'
 Down	159, value: -947242
@@ -3990,19 +3980,14 @@ Down	160, value: -46707507
 Push	141
 Right	145, value: 363478
 Fnt num	187, k: 16
-xdv_glyph_array(1241856):158@(0,0) 213@(455424,28416) 361@(435456,0) 213@(913152,28416) 295@(937728,0) 219@(1241856,0)
-Pop	142
-Move y	164, value: 1068441
-Push	141
-Right	145, value: 363478
 xdv_glyph_array(739584):158@(0,0) 213@(455424,28416) 295@(435456,0)
 Pop	142
-Move y	161, value: no_b
+Move y	164, value: 1073605
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(739584):158@(0,0) 213@(455424,28416) 295@(435456,0) 219@(739584,0)
 Pop	142
-Move y	161, value: no_b
+Move z	169, value: 1073606
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(728832):158@(0,0) 213@(455424,28416) 296@(435456,0)
@@ -4017,7 +4002,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_array(728832):158@(0,0) 213@(455424,28416) 297@(435456,0)
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(728832):158@(0,0) 213@(455424,28416) 297@(435456,0) 219@(728832,0)
@@ -4032,12 +4017,12 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_array(739584):158@(0,0) 213@(455424,28416) 299@(435456,0)
 Pop	142
-Move y	164, value: 1039257
+Move y	164, value: 1044421
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(435456):158@0 218@353280
 Pop	142
-Move y	161, value: no_b
+Move z	169, value: 1044422
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(739584):158@0 218@353280 295@435456
@@ -4052,7 +4037,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(728832):158@0 218@353280 296@435456
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(728832):158@0 218@353280 296@435456 219@728832
@@ -4067,7 +4052,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(728832):158@0 218@353280 297@435456
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(728832):158@0 218@353280 297@435456 219@728832
@@ -4082,7 +4067,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(739584):158@0 218@353280 299@435456
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(691200):158@0 218@353280 220@435456
@@ -4092,7 +4077,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(754944):159@0 239@420864 218@361728 297@461568
 Pop	142
-Move y	164, value: 794778
+Move y	164, value: 799942
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(754944):159@0 239@420864 297@461568
@@ -4102,7 +4087,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(934656):159@0 239@420864 219@630528 295@630528
 Pop	142
-Move y	161, value: no_b
+Move z	169, value: 799943
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(923904):159@0 239@420864 219@630528 297@630528
@@ -4117,7 +4102,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1030656):158@0 293@435456 295@726528
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1030656):158@0 293@435456 295@726528 219@1030656
@@ -4132,7 +4117,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1019904):158@0 293@435456 297@726528 219@1019904
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1030656):158@0 293@435456 299@726528
@@ -4147,7 +4132,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(739584):158@0 295@435456 219@739584
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(728832):158@0 296@435456
@@ -4167,7 +4152,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(728832):158@0 297@435456 219@728832
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(728832):158@0 298@435456
@@ -4182,7 +4167,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(535296):158@0 219@535296
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(882432):158@0 219@535296 297@589056
@@ -4197,7 +4182,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(893184):158@0 219@535296 299@589056
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(691200):158@0 220@435456
@@ -4212,7 +4197,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(460800):163@0
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(640512):163@0 202@460800
@@ -4232,7 +4217,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(764928):163@0 205@412416 295@460800 219@764928
 Pop	142
-Down	159, value: 1050777
+Down	159, value: 1055942
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):163@0 205@412416 297@460800
@@ -4247,15 +4232,20 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(460800):163@0 207@412416
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(764928):163@0 207@412416 295@460800
 Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(764928):163@0 207@412416 295@460800 219@764928
+Pop	142
 Pop	142
 Down	159, value: 1572864
 Eop	140
-Bop	139, id: [16 0 0 0 0 0 0 0 0 0], previous page: 27694
+Bop	139, id: [16 0 0 0 0 0 0 0 0 0], previous page: 27579
 Spec	239, len: 20
 	`pdf:pagesize default'
 Down	159, value: -947242
@@ -4268,39 +4258,34 @@ Down	160, value: -46653235
 Push	141
 Right	145, value: 363478
 Fnt num	187, k: 16
-xdv_glyph_string(764928):163@0 207@412416 295@460800 219@764928
-Pop	142
-Move y	164, value: 1054841
-Push	141
-Right	145, value: 363478
 xdv_glyph_string(754176):163@0 207@412416 296@460800 219@754176
 Pop	142
-Move y	161, value: no_b
+Move y	164, value: 1044402
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):163@0 207@412416 297@460800
 Pop	142
-Move y	164, value: 798842
+Move z	169, value: 788402
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):163@0 207@412416 297@460800 219@754176
 Pop	142
-Down	159, value: 1054840
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(764928):163@0 207@412416 299@460800
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(460800):163@0 209@327168
 Pop	142
-Move y	161, value: no_b
+Move y	164, value: 788403
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):163@0 209@327168 297@460800
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(764928):163@0 209@327168 299@460800
@@ -4310,12 +4295,12 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(460800):163@0 211@382464
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(764928):163@0 211@382464 299@460800
 Pop	142
-Down	159, value: 1072504
+Down	159, value: 1062066
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(460800):163@(0,0) 213@(456960,28416)
@@ -4325,7 +4310,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_array(764928):163@(0,0) 213@(456960,28416) 295@(460800,0)
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(754176):163@(0,0) 213@(456960,28416) 296@(460800,0)
@@ -4335,7 +4320,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_array(754176):163@(0,0) 213@(456960,28416) 297@(460800,0)
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(460800):163@0 218@354816
@@ -4345,7 +4330,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(764928):163@0 218@354816 295@460800
 Pop	142
-Move z	169, value: 798841
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):163@0 218@354816 297@460800
@@ -4355,7 +4340,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):163@0 218@354816 297@460800 219@754176
 Pop	142
-Down	159, value: 948857
+Down	159, value: 938417
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(764928):163@0 218@354816 299@460800
@@ -4365,17 +4350,17 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(633600):163@0 223@460800
 Pop	142
-Down	159, value: 1149305
+Down	159, value: 1138866
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(937728):163@0 223@460800 207@560640 295@633600
 Pop	142
-Down	159, value: 1072505
+Down	159, value: 1062065
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(937728):163@(0,0) 223@(460800,0) 213@(605184,28416) 295@(633600,0)
 Pop	142
-Down	159, value: 1043321
+Down	159, value: 1032882
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(937728):163@0 223@460800 218@503040 295@633600 219@937728
@@ -4390,12 +4375,12 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(937728):163@0 223@460800 295@633600 219@937728
 Pop	142
-Move z	169, value: 1190777
+Move z	169, value: 1180337
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(944640):228@0 163@179712 205@592128 295@640512
 Pop	142
-Move y	164, value: 1188473
+Move y	164, value: 1178034
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(944640):228@0 163@179712 207@592128 299@640512
@@ -4410,7 +4395,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(933888):227@0 163@179712 218@534528 297@640512
 Pop	142
-Down	159, value: 1190776
+Move y	164, value: 1180338
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1235712):227@0 163@179712 293@640512 295@931584 219@1235712
@@ -4420,22 +4405,22 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1235712):227@0 163@179712 293@640512 299@931584
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(944640):227@0 163@179712 295@640512
 Pop	142
-Down	159, value: 1149305
+Down	159, value: 1138865
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(764928):163@0 284@460800 205@412416 299@460800
 Pop	142
-Move y	164, value: 798842
+Move y	164, value: 788403
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1062912):163@0 284@460800 210@460800 299@758784
 Pop	142
-Move y	161, value: no_b
+Move z	169, value: 788402
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(764928):163@0 284@460800 295@460800
@@ -4445,12 +4430,12 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(764928):163@0 284@460800 295@460800 219@764928
 Pop	142
-Move z	169, value: 798841
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):163@0 284@460800 296@460800
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):163@0 284@460800 297@460800
@@ -4460,27 +4445,27 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):163@0 284@460800 297@460800 219@754176
 Pop	142
-Down	159, value: 1072505
+Down	159, value: 1062065
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(460800):163@(0,0) 239@(413952,0) 213@(456960,28416)
 Pop	142
-Move y	164, value: 1043321
+Down	159, value: 1032882
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):163@0 239@413952 218@354816 296@460800
 Pop	142
-Move y	161, value: no_b
+Down	159, value: 1032881
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(764928):163@0 239@413952 218@354816 299@460800
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(933888):163@0 239@413952 219@629760 295@629760
 Pop	142
-Move y	164, value: 798842
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(923136):163@0 239@413952 219@629760 296@629760
@@ -4495,7 +4480,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(751872):163@0 293@460800
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1056000):163@0 293@460800 295@751872
@@ -4515,7 +4500,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1056000):163@0 293@460800 299@751872
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(764928):163@0 295@460800
@@ -4525,10 +4510,20 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):163@0 296@460800
 Pop	142
+Move z	166, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(754176):163@0 296@460800 219@754176
+Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(754176):163@0 297@460800
+Pop	142
 Pop	142
 Down	159, value: 1572864
 Eop	140
-Bop	139, id: [17 0 0 0 0 0 0 0 0 0], previous page: 29646
+Bop	139, id: [17 0 0 0 0 0 0 0 0 0], previous page: 29504
 Spec	239, len: 20
 	`pdf:pagesize default'
 Down	159, value: -947242
@@ -4541,24 +4536,14 @@ Down	160, value: -46707507
 Push	141
 Right	145, value: 363478
 Fnt num	187, k: 16
-xdv_glyph_string(754176):163@0 296@460800 219@754176
-Pop	142
-Move y	164, value: 802812
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(754176):163@0 297@460800
-Pop	142
-Move z	169, value: 802813
-Push	141
-Right	145, value: 363478
 xdv_glyph_string(754176):163@0 297@460800 219@754176
 Pop	142
-Move y	161, value: no_b
+Move y	164, value: 789587
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(764928):163@0 299@460800
 Pop	142
-Move z	166, value: no_b
+Move z	169, value: 789588
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(460800):163@0 219@345600
@@ -4603,7 +4588,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(753408):165@0 205@412416 297@460032 219@753408
 Pop	142
-Down	159, value: 1058812
+Down	159, value: 1045587
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(753408):165@0 205@412416 298@460032
@@ -4613,12 +4598,12 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(764160):165@0 205@412416 299@460032
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(715776):165@0 205@412416 220@460032
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(460032):165@0 207@412416
@@ -4633,37 +4618,37 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(764160):165@0 207@412416 295@460032 219@764160
 Pop	142
-Down	159, value: 1058811
+Move y	164, value: 1045586
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(753408):165@0 207@412416 296@460032 219@753408
 Pop	142
-Move z	169, value: 1058812
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(753408):165@0 207@412416 297@460032
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(753408):165@0 207@412416 297@460032 219@753408
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(764160):165@0 207@412416 299@460032
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(715776):165@0 207@412416 220@460032
 Pop	142
-Move y	161, value: no_b
+Move y	164, value: 789587
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(460032):165@0 209@327168
 Pop	142
-Move z	169, value: 802813
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(753408):165@0 209@327168 296@460032 219@753408
@@ -4673,22 +4658,22 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(753408):165@0 209@327168 297@460032
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(753408):165@0 209@327168 298@460032
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(764160):165@0 209@327168 299@460032
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(715776):165@0 209@327168 220@460032
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(460032):165@0 211@382464
@@ -4698,32 +4683,32 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(764160):165@0 211@382464 295@460032
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(753408):165@0 211@382464 297@460032
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(753408):165@0 211@382464 298@460032
 Pop	142
-Down	159, value: 1076476
+Down	159, value: 1063250
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(460032):165@(0,0) 213@(456960,28416)
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(764160):165@(0,0) 213@(456960,28416) 295@(460032,0) 219@(764160,0)
 Pop	142
-Down	159, value: 982012
+Down	159, value: 968786
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(753408):165@(0,0) 213@(456960,28416) 296@(460032,0) 219@(753408,0)
 Pop	142
-Down	159, value: 982011
+Down	159, value: 968787
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(753408):165@(0,0) 213@(456960,28416) 297@(460032,0)
@@ -4733,27 +4718,27 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_array(764160):165@(0,0) 213@(456960,28416) 299@(460032,0)
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(715776):165@(0,0) 213@(456960,28416) 220@(460032,0)
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(460032):165@0 218@354816
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(764160):165@0 218@354816 295@460032 219@764160
 Pop	142
-Down	159, value: 952827
+Move z	169, value: 939603
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(753408):165@0 218@354816 296@460032
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(753408):165@0 218@354816 297@460032
@@ -4763,7 +4748,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(753408):165@0 218@354816 297@460032 219@753408
 Pop	142
-Down	159, value: 952828
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(753408):165@0 218@354816 298@460032
@@ -4773,17 +4758,17 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(764160):165@0 218@354816 299@460032
 Pop	142
-Move y	161, value: no_b
+Down	159, value: 789588
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(812544):165@0 223@460032 202@632832
 Pop	142
-Move y	164, value: 1153276
+Move y	164, value: 1140050
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(936960):165@0 223@460032 205@559872 295@632832 219@936960
 Pop	142
-Move z	169, value: 1153275
+Move z	169, value: 1140051
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(926208):165@0 223@460032 205@559872 296@632832
@@ -4793,25 +4778,35 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(926208):165@0 223@460032 205@559872 296@632832 219@926208
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(926208):165@0 223@460032 205@559872 297@632832 219@926208
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(926208):165@0 223@460032 205@559872 298@632832
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(936960):165@0 223@460032 205@559872 299@632832
 Pop	142
+Move z	166, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(936960):165@0 223@460032 207@559872 295@632832 219@936960
+Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(926208):165@0 223@460032 207@559872 296@632832
+Pop	142
 Pop	142
 Down	159, value: 1572864
 Eop	140
-Bop	139, id: [18 0 0 0 0 0 0 0 0 0], previous page: 31650
+Bop	139, id: [18 0 0 0 0 0 0 0 0 0], previous page: 31525
 Spec	239, len: 20
 	`pdf:pagesize default'
 Down	159, value: -947242
@@ -4824,34 +4819,24 @@ Down	160, value: -46653235
 Push	141
 Right	145, value: 363478
 Fnt num	187, k: 16
-xdv_glyph_string(936960):165@0 223@460032 207@559872 295@632832 219@936960
-Pop	142
-Move y	164, value: 1138693
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(926208):165@0 223@460032 207@559872 296@632832
-Pop	142
-Down	159, value: 1138694
-Push	141
-Right	145, value: 363478
 xdv_glyph_string(926208):165@0 223@460032 207@559872 296@632832 219@926208
 Pop	142
-Move y	161, value: no_b
+Down	159, value: 1137143
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(926208):165@0 223@460032 207@559872 297@632832 219@926208
 Pop	142
-Move y	161, value: no_b
+Down	159, value: 1137142
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(888576):165@0 223@460032 207@559872 220@632832
 Pop	142
-Move y	164, value: 788230
+Move y	164, value: 786680
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(794880):165@0 223@460032 208@632832
 Pop	142
-Move z	169, value: 788231
+Down	159, value: 786679
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1088256):165@0 223@460032 208@632832 296@794880
@@ -4861,22 +4846,22 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1099008):165@0 223@460032 208@632832 299@794880
 Pop	142
-Move y	164, value: 1061893
+Move y	164, value: 1060343
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(632832):165@(0,0) 223@(460032,0) 213@(604416,28416)
 Pop	142
-Move y	161, value: no_b
+Move z	169, value: 1060342
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(936960):165@(0,0) 223@(460032,0) 213@(604416,28416) 295@(632832,0) 219@(936960,0)
 Pop	142
-Down	159, value: 1061894
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(926208):165@(0,0) 223@(460032,0) 213@(604416,28416) 296@(632832,0)
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(926208):165@(0,0) 223@(460032,0) 213@(604416,28416) 297@(632832,0)
@@ -4886,12 +4871,12 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_array(888576):165@(0,0) 223@(460032,0) 213@(604416,28416) 220@(632832,0)
 Pop	142
-Down	159, value: 1032710
+Move y	164, value: 1031159
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(936960):165@0 223@460032 218@502272 295@632832
 Pop	142
-Move y	164, value: 1032709
+Move z	169, value: 1031158
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(926208):165@0 223@460032 218@502272 297@632832
@@ -4901,22 +4886,22 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(926208):165@0 223@460032 218@502272 298@632832
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(936960):165@0 223@460032 218@502272 299@632832
 Pop	142
-Move z	166, value: no_b
+Move y	164, value: 786680
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1228032):165@0 223@460032 293@632832 295@923904 219@1228032
 Pop	142
-Move y	164, value: 788230
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1217280):165@0 223@460032 293@632832 297@923904 219@1217280
 Pop	142
-Move y	161, value: no_b
+Move z	169, value: 786679
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(936960):165@0 223@460032 295@632832
@@ -4941,17 +4926,17 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(926208):165@0 223@460032 297@632832 219@926208
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(926208):165@0 223@460032 298@632832
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(936960):165@0 223@460032 299@632832
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1090560):165@0 223@460032 219@786432 295@786432
@@ -4961,12 +4946,12 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1079808):165@0 223@460032 219@786432 296@786432
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1079808):165@0 223@460032 219@786432 297@786432
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1079808):165@0 223@460032 219@786432 298@786432
@@ -4976,12 +4961,12 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1090560):165@0 223@460032 219@786432 299@786432
 Pop	142
-Move y	164, value: 1180165
+Move y	164, value: 1178615
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(639744):227@0 165@179712 218@534528
 Pop	142
-Down	159, value: 1180166
+Move z	169, value: 1178614
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(933120):227@0 165@179712 218@534528 297@639744
@@ -4991,22 +4976,22 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(933120):227@0 165@179712 218@534528 297@639744 219@933120
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(943872):227@0 165@179712 299@639744
 Pop	142
-Down	159, value: 1132549
+Down	159, value: 1130999
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(639744):165@0 284@460032 202@460032
 Pop	142
-Move z	166, value: no_b
+Move y	164, value: 786680
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(753408):165@0 284@460032 297@460032
 Pop	142
-Move y	164, value: 788230
+Move z	169, value: 786679
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1055232):165@0 293@460032 295@751104 219@1055232
@@ -5031,17 +5016,17 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1067520):165@0 294@460032 296@774144
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(764160):165@0 295@460032
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(764160):165@0 295@460032 219@764160
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(753408):165@0 296@460032
@@ -5066,7 +5051,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(753408):165@0 298@460032
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(764160):165@0 299@460032
@@ -5076,20 +5061,35 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(460032):165@0 219@344832
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(753408):165@0 219@344832 296@460032
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(753408):165@0 219@344832 297@460032
 Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(753408):165@0 219@344832 298@460032
+Pop	142
+Move z	166, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(764160):165@0 219@344832 299@460032
+Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(715776):165@0 220@460032
+Pop	142
 Pop	142
 Down	159, value: 1572864
 Eop	140
-Bop	139, id: [19 0 0 0 0 0 0 0 0 0], previous page: 33623
+Bop	139, id: [19 0 0 0 0 0 0 0 0 0], previous page: 33519
 Spec	239, len: 20
 	`pdf:pagesize default'
 Down	159, value: -947242
@@ -5102,24 +5102,9 @@ Down	160, value: -46707507
 Push	141
 Right	145, value: 363478
 Fnt num	187, k: 16
-xdv_glyph_string(753408):165@0 219@344832 298@460032
-Pop	142
-Move y	164, value: 794553
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(764160):165@0 219@344832 299@460032
-Pop	142
-Move y	161, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(715776):165@0 220@460032
-Pop	142
-Move y	161, value: no_b
-Push	141
-Right	145, value: 363478
 xdv_glyph_string(732672):169@0
 Pop	142
-Down	159, value: 794552
+Move y	164, value: 795728
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(732672):169@0 205@685056
@@ -5129,12 +5114,12 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1036800):169@0 205@685056 295@732672
 Pop	142
-Move y	161, value: no_b
+Down	159, value: 795729
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1036800):169@0 205@685056 295@732672 219@1036800
 Pop	142
-Move z	169, value: 1050552
+Move z	169, value: 1051727
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1026048):169@0 205@685056 296@732672
@@ -5159,7 +5144,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1036800):169@0 205@685056 299@732672
 Pop	142
-Down	159, value: 794552
+Down	159, value: 795729
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(732672):169@0 207@685056
@@ -5189,12 +5174,12 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1036800):169@0 207@685056 299@732672
 Pop	142
-Move y	161, value: no_b
+Move z	169, value: 795729
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(732672):169@0 209@599808
 Pop	142
-Move z	169, value: 794552
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1026048):169@0 209@599808 296@732672
@@ -5219,7 +5204,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(732672):169@0 211@655104
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1036800):169@0 211@655104 295@732672
@@ -5234,12 +5219,12 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1026048):169@0 211@655104 297@732672
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1036800):169@0 211@655104 299@732672
 Pop	142
-Down	159, value: 1068216
+Down	159, value: 1069391
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(732672):169@(0,0) 213@(729600,28416)
@@ -5247,19 +5232,14 @@ Pop	142
 Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
-xdv_glyph_array(1528320):169@(0,0) 213@(729600,28416) 361@(732672,0) 213@(1210368,28416) 297@(1234944,0)
-Pop	142
-Move y	161, value: no_b
-Push	141
-Right	145, value: 363478
 xdv_glyph_array(1036800):169@(0,0) 213@(729600,28416) 295@(732672,0)
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(1036800):169@(0,0) 213@(729600,28416) 295@(732672,0) 219@(1036800,0)
 Pop	142
-Move z	169, value: 973752
+Move z	169, value: 974927
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(1026048):169@(0,0) 213@(729600,28416) 296@(732672,0)
@@ -5274,12 +5254,12 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_array(1026048):169@(0,0) 213@(729600,28416) 297@(732672,0)
 Pop	142
-Down	159, value: 794552
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(1036800):169@(0,0) 213@(729600,28416) 299@(732672,0)
 Pop	142
-Move y	161, value: no_b
+Down	159, value: 795729
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(732672):169@0 218@627456
@@ -5294,7 +5274,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1026048):169@0 218@627456 296@732672 219@1026048
 Pop	142
-Move z	169, value: 944568
+Move z	169, value: 945743
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1026048):169@0 218@627456 297@732672
@@ -5309,12 +5289,12 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1036800):169@0 218@627456 299@732672
 Pop	142
-Down	159, value: 794552
+Down	159, value: 795729
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1198848):169@0 223@732672 205@832512 296@905472
 Pop	142
-Move y	164, value: 1145016
+Move y	164, value: 1146191
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1209600):169@0 223@732672 207@832512 295@905472 219@1209600
@@ -5324,7 +5304,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1198848):169@0 223@732672 207@832512 296@905472
 Pop	142
-Move y	164, value: 794553
+Move y	164, value: 795728
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1360896):169@0 223@732672 208@905472 296@1067520 219@1360896
@@ -5339,17 +5319,17 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1507584):169@0 223@732672 210@905472 299@1203456
 Pop	142
-Move y	164, value: 1068216
+Down	159, value: 1069392
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(1209600):169@(0,0) 223@(732672,0) 213@(877056,28416) 295@(905472,0)
 Pop	142
-Move y	161, value: no_b
+Move y	164, value: 1069391
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(1209600):169@(0,0) 223@(732672,0) 213@(877056,28416) 295@(905472,0) 219@(1209600,0)
 Pop	142
-Down	159, value: 1068215
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(1198848):169@(0,0) 223@(732672,0) 213@(877056,28416) 296@(905472,0)
@@ -5359,7 +5339,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_array(1209600):169@(0,0) 223@(732672,0) 213@(877056,28416) 299@(905472,0)
 Pop	142
-Move y	164, value: 1039032
+Move y	164, value: 1040207
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1198848):169@0 223@732672 218@774912 296@905472 219@1198848
@@ -5369,10 +5349,25 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1198848):169@0 223@732672 218@774912 297@905472
 Pop	142
+Down	159, value: 1040208
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(1198848):169@0 223@732672 218@774912 297@905472 219@1198848
+Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(1209600):169@0 223@732672 218@774912 299@905472
+Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(1512960):169@0 223@732672 294@905472 296@1219584
+Pop	142
 Pop	142
 Down	159, value: 1572864
 Eop	140
-Bop	139, id: [20 0 0 0 0 0 0 0 0 0], previous page: 35712
+Bop	139, id: [20 0 0 0 0 0 0 0 0 0], previous page: 35622
 Spec	239, len: 20
 	`pdf:pagesize default'
 Down	159, value: -947242
@@ -5385,29 +5380,14 @@ Down	160, value: -46707507
 Push	141
 Right	145, value: 363478
 Fnt num	187, k: 16
-xdv_glyph_string(1198848):169@0 223@732672 218@774912 297@905472 219@1198848
-Pop	142
-Move y	164, value: 1042407
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(1209600):169@0 223@732672 218@774912 299@905472
-Pop	142
-Move y	161, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(1512960):169@0 223@732672 294@905472 296@1219584
-Pop	142
-Move z	169, value: 797929
-Push	141
-Right	145, value: 363478
 xdv_glyph_string(1209600):169@0 223@732672 295@905472
 Pop	142
-Move y	164, value: 797928
+Move y	164, value: 802396
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1209600):169@0 223@732672 295@905472 219@1209600
 Pop	142
-Move y	161, value: no_b
+Move z	169, value: 802395
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1198848):169@0 223@732672 296@905472
@@ -5417,12 +5397,12 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1198848):169@0 223@732672 296@905472 219@1198848
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1198848):169@0 223@732672 297@905472
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1209600):169@0 223@732672 299@905472
@@ -5432,12 +5412,12 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1363200):169@0 223@732672 219@1059072 299@1059072
 Pop	142
-Move y	164, value: 1189863
+Move y	164, value: 1194331
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(912384):230@0 169@179712
 Pop	142
-Move z	169, value: 1189864
+Move z	169, value: 1194330
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(912384):230@0 169@179712
@@ -5472,7 +5452,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(912384):230@0 169@179712 218@807168
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1205760):230@0 169@179712 218@807168 297@912384
@@ -5482,17 +5462,17 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1216512):230@0 169@179712 218@807168 299@912384
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1496832):230@0 169@179712 293@912384 297@1203456 219@1496832
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1205760):230@0 169@179712 297@912384 219@1205760
 Pop	142
-Move y	164, value: 797928
+Move y	164, value: 802396
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1036800):169@0 284@732672 295@732672 219@1036800
@@ -5502,12 +5482,12 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1026048):169@0 284@732672 297@732672
 Pop	142
-Move z	169, value: 797929
+Move z	169, value: 802395
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1026048):169@0 284@732672 297@732672 219@1026048
 Pop	142
-Move y	164, value: 1071591
+Move y	164, value: 1076059
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(732672):169@(0,0) 239@(686592,0) 213@(729600,28416)
@@ -5517,17 +5497,17 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_array(1036800):169@(0,0) 239@(686592,0) 213@(729600,28416) 295@(732672,0)
 Pop	142
-Move y	161, value: no_b
+Down	159, value: 1076058
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(1026048):169@(0,0) 239@(686592,0) 213@(729600,28416) 296@(732672,0)
 Pop	142
-Move z	166, value: no_b
+Move y	164, value: 802396
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1036800):169@0 239@686592 295@732672
 Pop	142
-Move y	164, value: 797928
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1195008):169@0 239@686592 219@901632 296@901632
@@ -5537,12 +5517,12 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1195008):169@0 239@686592 219@901632 297@901632
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1023744):169@0 293@732672
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1327872):169@0 293@732672 295@1023744 219@1327872
@@ -5552,7 +5532,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1317120):169@0 293@732672 297@1023744
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1317120):169@0 293@732672 297@1023744 219@1317120
@@ -5582,12 +5562,12 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1026048):169@0 296@732672
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1026048):169@0 296@732672 219@1026048
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1026048):169@0 297@732672
@@ -5597,7 +5577,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1026048):169@0 297@732672 219@1026048
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1036800):169@0 299@732672
@@ -5607,7 +5587,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(732672):169@0 219@617472
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1026048):169@0 219@617472 296@732672
@@ -5617,7 +5597,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1026048):169@0 219@617472 297@732672
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1036800):169@0 219@617472 299@732672
@@ -5627,12 +5607,12 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(460800):171@0
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(640512):171@0 202@460800
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(460800):171@0 205@412416
@@ -5642,10 +5622,25 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(764928):171@0 205@412416 295@460800
 Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(764928):171@0 205@412416 295@460800 219@764928
+Pop	142
+Down	159, value: 1058394
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(754176):171@0 205@412416 297@460800
+Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(754176):171@0 205@412416 297@460800 219@754176
+Pop	142
 Pop	142
 Down	159, value: 1572864
 Eop	140
-Bop	139, id: [21 0 0 0 0 0 0 0 0 0], previous page: 37869
+Bop	139, id: [21 0 0 0 0 0 0 0 0 0], previous page: 37748
 Spec	239, len: 20
 	`pdf:pagesize default'
 Down	159, value: -947242
@@ -5658,29 +5653,14 @@ Down	160, value: -46653235
 Push	141
 Right	145, value: 363478
 Fnt num	187, k: 16
-xdv_glyph_string(764928):171@0 205@412416 295@460800 219@764928
-Pop	142
-Down	159, value: 1044890
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(754176):171@0 205@412416 297@460800
-Pop	142
-Move y	164, value: 788891
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(754176):171@0 205@412416 297@460800 219@754176
-Pop	142
-Move z	169, value: 1044889
-Push	141
-Right	145, value: 363478
 xdv_glyph_string(754176):171@0 205@412416 298@460800
 Pop	142
-Move y	161, value: no_b
+Move y	164, value: 798107
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(764928):171@0 205@412416 299@460800
 Pop	142
-Move y	161, value: no_b
+Down	159, value: 798106
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(460800):171@0 207@412416
@@ -5690,7 +5670,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(764928):171@0 207@412416 295@460800 219@764928
 Pop	142
-Move z	166, value: no_b
+Move z	169, value: 1054106
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):171@0 207@412416 296@460800
@@ -5700,7 +5680,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):171@0 207@412416 296@460800 219@754176
 Pop	142
-Down	159, value: 1044890
+Down	159, value: 1054105
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):171@0 207@412416 297@460800
@@ -5720,7 +5700,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(460800):171@0 209@327168
 Pop	142
-Move y	161, value: no_b
+Move z	169, value: 798106
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):171@0 209@327168 296@460800
@@ -5730,7 +5710,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):171@0 209@327168 297@460800
 Pop	142
-Move z	169, value: 788890
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):171@0 209@327168 298@460800
@@ -5740,7 +5720,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(716544):171@0 209@327168 220@460800
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(460800):171@0 211@382464
@@ -5755,12 +5735,12 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):171@0 211@382464 297@460800
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(764928):171@0 211@382464 299@460800
 Pop	142
-Down	159, value: 1062554
+Down	159, value: 1071769
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(460800):171@(0,0) 213@(456960,28416)
@@ -5775,12 +5755,12 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_array(754176):171@(0,0) 213@(456960,28416) 296@(460800,0)
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(754176):171@(0,0) 213@(456960,28416) 297@(460800,0)
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(764928):171@(0,0) 213@(456960,28416) 299@(460800,0)
@@ -5795,12 +5775,12 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(764928):171@0 218@354816 295@460800
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(764928):171@0 218@354816 295@460800 219@764928
 Pop	142
-Move z	169, value: 938906
+Move z	169, value: 948121
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):171@0 218@354816 296@460800
@@ -5810,12 +5790,12 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):171@0 218@354816 296@460800 219@754176
 Pop	142
-Move z	166, value: no_b
+Down	159, value: 948122
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):171@0 218@354816 297@460800
 Pop	142
-Down	159, value: 788890
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):171@0 218@354816 297@460800 219@754176
@@ -5830,17 +5810,17 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(813312):171@0 223@460800 202@633600
 Pop	142
-Down	159, value: 1139354
+Down	159, value: 1148570
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(937728):171@0 223@460800 205@560640 299@633600
 Pop	142
-Move z	169, value: 788890
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1180416):171@0 223@460800 293@633600 220@924672
 Pop	142
-Move y	161, value: no_b
+Move z	169, value: 798106
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(926976):171@0 223@460800 297@633600
@@ -5860,7 +5840,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(889344):171@0 223@460800 220@633600
 Pop	142
-Down	159, value: 1180825
+Down	159, value: 1190041
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(933888):228@(0,0) 171@(179712,0) 213@(636672,28416) 297@(640512,0)
@@ -5895,12 +5875,12 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(764928):171@0 284@460800 299@460800
 Pop	142
-Down	159, value: 1062554
+Down	159, value: 1071770
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(460800):171@(0,0) 239@(413952,0) 213@(456960,28416)
 Pop	142
-Down	159, value: 1033369
+Down	159, value: 1042585
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(764928):171@0 239@413952 218@354816 295@460800
@@ -5935,10 +5915,25 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1056000):171@0 293@460800 299@751872
 Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(804864):171@0 290@460800
+Pop	142
+Move z	166, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(764928):171@0 295@460800
+Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(764928):171@0 295@460800 219@764928
+Pop	142
 Pop	142
 Down	159, value: 1572864
 Eop	140
-Bop	139, id: [22 0 0 0 0 0 0 0 0 0], previous page: 39780
+Bop	139, id: [22 0 0 0 0 0 0 0 0 0], previous page: 39650
 Spec	239, len: 20
 	`pdf:pagesize default'
 Down	159, value: -947242
@@ -5951,34 +5946,19 @@ Down	160, value: -46707507
 Push	141
 Right	145, value: 363478
 Fnt num	187, k: 16
-xdv_glyph_string(804864):171@0 290@460800
-Pop	142
-Move y	164, value: 797922
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(764928):171@0 295@460800
-Pop	142
-Move z	169, value: 797921
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(764928):171@0 295@460800 219@764928
-Pop	142
-Move y	161, value: no_b
-Push	141
-Right	145, value: 363478
 xdv_glyph_string(754176):171@0 296@460800
 Pop	142
-Move z	166, value: no_b
+Move y	164, value: 798011
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):171@0 296@460800 219@754176
 Pop	142
-Move y	161, value: no_b
+Move z	169, value: 798012
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):171@0 297@460800
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):171@0 297@460800 219@754176
@@ -5998,12 +5978,12 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(460800):171@0 219@345600
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(764928):171@0 219@345600 295@460800
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(754176):171@0 219@345600 296@460800
@@ -6023,12 +6003,12 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(764928):171@0 219@345600 299@460800
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(716544):171@0 220@460800
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(750336):173@0
@@ -6048,17 +6028,17 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1054464):173@0 205@702720 295@750336 219@1054464
 Pop	142
-Down	159, value: 1053920
+Down	159, value: 1054010
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1043712):173@0 205@702720 296@750336
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1043712):173@0 205@702720 297@750336
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1043712):173@0 205@702720 298@750336
@@ -6083,7 +6063,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1054464):173@0 207@702720 295@750336 219@1054464
 Pop	142
-Move z	169, value: 1053920
+Move z	169, value: 1054011
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1043712):173@0 207@702720 297@750336
@@ -6103,12 +6083,12 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1054464):173@0 207@702720 299@750336
 Pop	142
-Move z	169, value: 797921
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(750336):173@0 209@617472
 Pop	142
-Move y	161, value: no_b
+Move z	169, value: 798012
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1054464):173@0 209@617472 295@750336
@@ -6118,27 +6098,27 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1054464):173@0 209@617472 295@750336 219@1054464
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1043712):173@0 209@617472 297@750336
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1043712):173@0 209@617472 298@750336
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(750336):173@0 211@672768
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1054464):173@0 211@672768 295@750336
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1043712):173@0 211@672768 296@750336
@@ -6153,7 +6133,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1054464):173@0 211@672768 299@750336
 Pop	142
-Down	159, value: 1071585
+Down	159, value: 1071674
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(750336):173@(0,0) 213@(747264,28416)
@@ -6168,27 +6148,27 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_array(1054464):173@(0,0) 213@(747264,28416) 295@(750336,0) 219@(1054464,0)
 Pop	142
-Down	159, value: 977121
+Down	159, value: 977210
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(1006080):173@(0,0) 213@(747264,28416) 220@(750336,0)
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(750336):173@0 218@645120
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1043712):173@0 218@645120 297@750336
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1043712):173@0 218@645120 298@750336
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1054464):173@0 218@645120 299@750336
@@ -6198,17 +6178,17 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1006080):173@0 218@645120 220@750336
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1054464):173@0 239@704256 295@750336
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1043712):173@0 239@704256 296@750336
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1043712):173@0 239@704256 297@750336
@@ -6238,10 +6218,25 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1334784):173@0 293@750336 297@1041408 219@1334784
 Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(1345536):173@0 293@750336 299@1041408
+Pop	142
+Move z	166, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(1297152):173@0 293@750336 220@1041408
+Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(1054464):173@0 295@750336
+Pop	142
 Pop	142
 Down	159, value: 1572864
 Eop	140
-Bop	139, id: [23 0 0 0 0 0 0 0 0 0], previous page: 41855
+Bop	139, id: [23 0 0 0 0 0 0 0 0 0], previous page: 41701
 Spec	239, len: 20
 	`pdf:pagesize default'
 Down	159, value: -947242
@@ -6254,39 +6249,24 @@ Down	160, value: -46707507
 Push	141
 Right	145, value: 363478
 Fnt num	187, k: 16
-xdv_glyph_string(1345536):173@0 293@750336 299@1041408
-Pop	142
-Move y	164, value: 799075
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(1297152):173@0 293@750336 220@1041408
-Pop	142
-Move z	169, value: 799074
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(1054464):173@0 295@750336
-Pop	142
-Move y	161, value: no_b
-Push	141
-Right	145, value: 363478
 xdv_glyph_string(1054464):173@0 295@750336 219@1054464
 Pop	142
-Move y	161, value: no_b
+Move y	164, value: 799059
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1043712):173@0 296@750336
 Pop	142
-Move y	161, value: no_b
+Move z	169, value: 799060
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1043712):173@0 296@750336 219@1043712
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1043712):173@0 297@750336
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1043712):173@0 297@750336 219@1043712
@@ -6311,7 +6291,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1043712):173@0 219@635136 296@750336
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1043712):173@0 219@635136 297@750336
@@ -6321,12 +6301,12 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1043712):173@0 219@635136 298@750336
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1054464):173@0 219@635136 299@750336
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1006080):173@0 220@750336
@@ -6336,22 +6316,22 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(505344):175@0
 Pop	142
-Down	159, value: 1143394
+Down	159, value: 1143379
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(685056):175@0 202@505344
 Pop	142
-Move z	169, value: 1149537
+Move y	164, value: 1149522
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(505344):175@0 205@410880
 Pop	142
-Move y	164, value: 1149538
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(798720):175@0 205@410880 297@505344
 Pop	142
-Move y	161, value: no_b
+Move z	169, value: 1149523
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(798720):175@0 205@410880 297@505344 219@798720
@@ -6376,32 +6356,32 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(505344):175@0 207@410880
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(798720):175@0 207@410880 297@505344
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(809472):175@0 207@410880 299@505344
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(761088):175@0 207@410880 220@505344
 Pop	142
-Move y	164, value: 799075
+Move y	164, value: 799059
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(498432):176@0 209@325632
 Pop	142
-Move z	169, value: 799074
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(802560):176@0 209@325632 295@498432
 Pop	142
-Move y	161, value: no_b
+Move z	169, value: 799060
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(791808):176@0 209@325632 297@498432
@@ -6411,12 +6391,12 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(498432):176@0 211@380928
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(802560):176@0 211@380928 295@498432
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(791808):176@0 211@380928 297@498432
@@ -6426,42 +6406,42 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(791808):176@0 211@380928 298@498432
 Pop	142
-Move y	164, value: 1072738
+Move y	164, value: 1072723
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(505344):175@(0,0) 213@(455424,28416)
 Pop	142
-Move y	161, value: no_b
+Move z	169, value: 1072722
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(798720):175@(0,0) 213@(455424,28416) 297@(505344,0)
 Pop	142
-Down	159, value: 1072737
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(809472):175@(0,0) 213@(455424,28416) 299@(505344,0)
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(761088):175@(0,0) 213@(455424,28416) 220@(505344,0)
 Pop	142
-Move y	164, value: 1043554
+Move y	164, value: 1043538
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(505344):175@0 218@353280
 Pop	142
-Move y	161, value: no_b
+Move z	169, value: 1043539
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(809472):175@0 218@353280 295@505344
 Pop	142
-Move z	169, value: 1043553
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(798720):175@0 218@353280 297@505344
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(798720):175@0 218@353280 297@505344 219@798720
@@ -6481,12 +6461,12 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(498432):176@0 239@412416 218@357888
 Pop	142
-Move y	164, value: 799075
+Move y	164, value: 799059
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(960768):176@0 239@412416 219@667392 297@667392
 Pop	142
-Move y	161, value: no_b
+Move z	169, value: 799060
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(498432):176@(0,0) 244@(450048,4294966529)
@@ -6496,20 +6476,35 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_array(791808):176@(0,0) 244@(450048,4294966529) 296@(498432,0)
 Pop	142
-Down	159, value: 799074
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(791808):176@(0,0) 244@(450048,4294966529) 297@(498432,0)
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(802560):176@(0,0) 244@(450048,4294966529) 299@(498432,0)
 Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(868608):176@115200 245@701952 296@575232
+Pop	142
+Move z	166, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(868608):176@115200 245@701952 297@575232
+Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(868608):176@115200 245@701952 298@575232
+Pop	142
 Pop	142
 Down	159, value: 1572864
 Eop	140
-Bop	139, id: [24 0 0 0 0 0 0 0 0 0], previous page: 43820
+Bop	139, id: [24 0 0 0 0 0 0 0 0 0], previous page: 43672
 Spec	239, len: 20
 	`pdf:pagesize default'
 Down	159, value: -947242
@@ -6522,29 +6517,14 @@ Down	160, value: -46707507
 Push	141
 Right	145, value: 363478
 Fnt num	187, k: 16
-xdv_glyph_string(868608):176@115200 245@701952 296@575232
-Pop	142
-Move y	164, value: 793016
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(868608):176@115200 245@701952 297@575232
-Pop	142
-Move y	161, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(868608):176@115200 245@701952 298@575232
-Pop	142
-Move y	161, value: no_b
-Push	141
-Right	145, value: 363478
 xdv_glyph_string(879360):176@115200 245@701952 299@575232
 Pop	142
-Move z	169, value: 1037495
+Move z	169, value: 1031095
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(802560):177@0 242@310272 218@353280 299@498432
 Pop	142
-Move y	161, value: no_b
+Move y	164, value: 786616
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(667392):177@0 242@310272 219@667392
@@ -6559,7 +6539,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(971520):177@0 242@310272 219@667392 299@667392
 Pop	142
-Down	159, value: 793015
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1089792):175@0 293@505344 297@796416 219@1089792
@@ -6609,7 +6589,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(809472):175@0 299@505344 219@809472
 Pop	142
-Move y	161, value: no_b
+Down	159, value: 786615
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(674304):175@0 219@674304
@@ -6629,7 +6609,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(756480):180@0
 Pop	142
-Down	159, value: 793015
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(936192):180@0 202@756480
@@ -6649,7 +6629,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1060608):180@0 205@718848 295@756480 219@1060608
 Pop	142
-Move z	169, value: 1049015
+Move z	169, value: 1042615
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1049856):180@0 205@718848 296@756480
@@ -6699,7 +6679,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1060608):180@0 207@718848 295@756480 219@1060608
 Pop	142
-Down	159, value: 1049014
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1049856):180@0 207@718848 296@756480
@@ -6749,7 +6729,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1049856):180@0 209@633600 297@756480
 Pop	142
-Move y	161, value: no_b
+Down	159, value: 786615
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1049856):180@0 209@633600 298@756480
@@ -6769,7 +6749,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(756480):180@0 211@688896
 Pop	142
-Down	159, value: 793015
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1049856):180@0 211@688896 296@756480
@@ -6789,7 +6769,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1060608):180@0 211@688896 299@756480
 Pop	142
-Down	159, value: 1066679
+Down	159, value: 1060279
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(763392):180@(0,0) 213@(763392,28416)
@@ -6797,17 +6777,32 @@ Pop	142
 Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
-xdv_glyph_array(1258752):180@(0,0) 213@(763392,28416) 361@(756480,0) 213@(1234176,28416)
+xdv_glyph_array(1060608):180@(0,0) 213@(763392,28416) 295@(756480,0)
 Pop	142
 Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
-xdv_glyph_array(1060608):180@(0,0) 213@(763392,28416) 295@(756480,0)
+xdv_glyph_array(1060608):180@(0,0) 213@(763392,28416) 295@(756480,0) 219@(1060608,0)
+Pop	142
+Move z	169, value: 965815
+Push	141
+Right	145, value: 363478
+xdv_glyph_array(1049856):180@(0,0) 213@(763392,28416) 296@(756480,0)
+Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_array(1049856):180@(0,0) 213@(763392,28416) 296@(756480,0) 219@(1049856,0)
+Pop	142
+Move z	166, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_array(1049856):180@(0,0) 213@(763392,28416) 297@(756480,0)
 Pop	142
 Pop	142
 Down	159, value: 1572864
 Eop	140
-Bop	139, id: [25 0 0 0 0 0 0 0 0 0], previous page: 45589
+Bop	139, id: [25 0 0 0 0 0 0 0 0 0], previous page: 45447
 Spec	239, len: 20
 	`pdf:pagesize default'
 Down	159, value: -947242
@@ -6820,239 +6815,219 @@ Down	160, value: -46707507
 Push	141
 Right	145, value: 363478
 Fnt num	187, k: 16
-xdv_glyph_array(1060608):180@(0,0) 213@(763392,28416) 295@(756480,0) 219@(1060608,0)
-Pop	142
-Move y	164, value: 973869
-Push	141
-Right	145, value: 363478
-xdv_glyph_array(1049856):180@(0,0) 213@(763392,28416) 296@(756480,0)
-Pop	142
-Move z	169, value: 794670
-Push	141
-Right	145, value: 363478
-xdv_glyph_array(1049856):180@(0,0) 213@(763392,28416) 296@(756480,0) 219@(1049856,0)
-Pop	142
-Move y	161, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_array(1049856):180@(0,0) 213@(763392,28416) 297@(756480,0)
-Pop	142
-Move z	166, value: no_b
-Push	141
-Right	145, value: 363478
 xdv_glyph_array(1049856):180@(0,0) 213@(763392,28416) 297@(756480,0) 219@(1049856,0)
 Pop	142
-Move y	161, value: no_b
+Down	159, value: 974893
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(1049856):180@(0,0) 213@(763392,28416) 298@(756480,0)
 Pop	142
-Move z	166, value: no_b
+Move y	164, value: 795694
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(1060608):180@(0,0) 213@(763392,28416) 299@(756480,0)
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(1012224):180@(0,0) 213@(763392,28416) 220@(756480,0)
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(756480):180@0 218@661248
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1060608):180@0 218@661248 295@756480
 Pop	142
-Down	159, value: 794669
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1060608):180@0 218@661248 295@756480 219@1060608
 Pop	142
-Move y	164, value: 944685
+Move z	169, value: 945709
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1049856):180@0 218@661248 296@756480
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1049856):180@0 218@661248 296@756480 219@1049856
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1049856):180@0 218@661248 297@756480
 Pop	142
-Move z	166, value: no_b
+Down	159, value: 795693
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1049856):180@0 218@661248 297@756480 219@1049856
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1049856):180@0 218@661248 298@756480
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1060608):180@0 218@661248 299@756480
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(756480):180@0 239@720384 218@661248
 Pop	142
-Down	159, value: 1039149
+Down	159, value: 1040173
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1060608):180@0 239@720384 218@661248 295@756480
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1049856):180@0 239@720384 297@756480
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1049856):180@0 239@720384 298@756480
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1060608):180@0 239@720384 299@756480
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(925440):180@0 239@720384 219@925440
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1229568):180@0 239@720384 219@925440 295@925440
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1218816):180@0 239@720384 219@925440 297@925440
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1218816):180@0 239@720384 219@925440 298@925440
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1047552):180@0 293@756480
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1351680):180@0 293@756480 295@1047552 219@1351680
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1340928):180@0 293@756480 297@1047552 219@1340928
 Pop	142
-Move y	164, value: 794669
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1351680):180@0 293@756480 299@1047552
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1070592):180@0 294@756480
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1363968):180@0 294@756480 296@1070592
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1060608):180@0 295@756480
 Pop	142
-Move z	166, value: no_b
+Move z	169, value: 795693
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1060608):180@0 295@756480 219@1060608
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1049856):180@0 296@756480
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1049856):180@0 297@756480
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1049856):180@0 297@756480 219@1049856
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1049856):180@0 298@756480
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1060608):180@0 299@756480
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(756480):180@0 219@641280
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1060608):180@0 219@641280 295@756480
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1049856):180@0 219@641280 297@756480
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1049856):180@0 219@641280 298@756480
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1060608):180@0 219@641280 299@756480
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1012224):180@0 220@756480
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(632832):182@0 202@453120
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(453120):182@0 205@410112
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(746496):182@0 205@410112 298@453120
@@ -7062,17 +7037,17 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(453120):182@0 207@410112
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(757248):182@0 207@410112 295@453120
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(757248):182@0 207@410112 299@453120
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(454656):182@(0,0) 213@(454656,28416)
@@ -7082,35 +7057,55 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_array(757248):182@(0,0) 213@(454656,28416) 295@(453120,0)
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(757248):182@(0,0) 213@(454656,28416) 295@(453120,0) 219@(757248,0)
 Pop	142
-Down	159, value: 973869
+Down	159, value: 974893
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(746496):182@(0,0) 213@(454656,28416) 297@(453120,0)
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(757248):182@(0,0) 213@(454656,28416) 299@(453120,0)
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(453120):182@0 218@352512
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(757248):182@0 218@352512 295@453120
 Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(757248):182@0 218@352512 295@453120 219@757248
+Pop	142
+Move z	169, value: 945709
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(746496):182@0 218@352512 296@453120
+Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(746496):182@0 218@352512 297@453120 219@746496
+Pop	142
+Move z	166, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(746496):182@0 218@352512 298@453120
+Pop	142
 Pop	142
 Down	159, value: 1572864
 Eop	140
-Bop	139, id: [26 0 0 0 0 0 0 0 0 0], previous page: 47561
+Bop	139, id: [26 0 0 0 0 0 0 0 0 0], previous page: 47462
 Spec	239, len: 20
 	`pdf:pagesize default'
 Down	159, value: -947242
@@ -7123,39 +7118,19 @@ Down	160, value: -46707507
 Push	141
 Right	145, value: 363478
 Fnt num	187, k: 16
-xdv_glyph_string(757248):182@0 218@352512 295@453120 219@757248
-Pop	142
-Move y	164, value: 951963
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(746496):182@0 218@352512 296@453120
-Pop	142
-Move z	169, value: 801948
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(746496):182@0 218@352512 297@453120 219@746496
-Pop	142
-Move y	161, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(746496):182@0 218@352512 298@453120
-Pop	142
-Move y	164, value: 801947
-Push	141
-Right	145, value: 363478
 xdv_glyph_string(757248):182@0 218@352512 299@453120
 Pop	142
-Move z	166, value: no_b
+Move y	164, value: 789158
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(797184):182@0 290@453120
 Pop	142
-Move z	166, value: no_b
+Move z	169, value: 789157
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(757248):182@0 295@453120
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(757248):182@0 295@453120 219@757248
@@ -7165,7 +7140,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(746496):182@0 296@453120
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(746496):182@0 297@453120
@@ -7175,7 +7150,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(746496):182@0 297@453120 219@746496
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(746496):182@0 298@453120
@@ -7190,7 +7165,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(453120):182@0 219@337920
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(746496):182@0 219@337920 296@453120
@@ -7200,7 +7175,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(746496):182@0 219@337920 297@453120
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(746496):182@0 219@337920 298@453120
@@ -7210,32 +7185,32 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(757248):182@0 219@337920 299@453120
 Pop	142
-Down	159, value: 1057947
+Down	159, value: 1045157
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(443904):291@0 205@397056
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(737280):291@0 205@397056 296@443904
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(737280):291@0 205@397056 297@443904
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(737280):291@0 205@397056 297@443904 219@737280
 Pop	142
-Move y	164, value: 1057947
+Down	159, value: 1045156
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(748032):291@0 205@397056 299@443904
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(443904):291@0 207@397056
@@ -7245,7 +7220,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(748032):291@0 207@397056 295@443904 219@748032
 Pop	142
-Move y	161, value: no_b
+Move y	164, value: 1045157
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(737280):291@0 207@397056 296@443904
@@ -7255,22 +7230,22 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(737280):291@0 207@397056 296@443904 219@737280
 Pop	142
-Down	159, value: 1057946
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(737280):291@0 207@397056 297@443904
 Pop	142
-Move z	166, value: no_b
+Move y	164, value: 789158
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(737280):291@0 207@397056 297@443904 219@737280
 Pop	142
-Move y	161, value: no_b
+Down	159, value: 1045156
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(748032):291@0 207@397056 299@443904
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(443904):291@0 209@311808
@@ -7280,7 +7255,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(737280):291@0 209@311808 296@443904 219@737280
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(737280):291@0 209@311808 297@443904
@@ -7290,12 +7265,12 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(748032):291@0 209@311808 299@443904
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(737280):291@0 211@367104 296@443904
 Pop	142
-Down	159, value: 801947
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(737280):291@0 211@367104 297@443904
@@ -7305,7 +7280,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(748032):291@0 211@367104 299@443904
 Pop	142
-Down	159, value: 1075611
+Down	159, value: 1062821
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(443904):291@(0,0) 213@(441600,28416)
@@ -7315,7 +7290,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_array(737280):291@(0,0) 213@(441600,28416) 296@(443904,0) 219@(737280,0)
 Pop	142
-Move y	164, value: 981147
+Move y	164, value: 968357
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(737280):291@(0,0) 213@(441600,28416) 297@(443904,0)
@@ -7330,7 +7305,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_array(748032):291@(0,0) 213@(441600,28416) 299@(443904,0)
 Pop	142
-Down	159, value: 801947
+Down	159, value: 789158
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(443904):291@0 218@339456
@@ -7340,7 +7315,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(748032):291@0 218@339456 295@443904 219@748032
 Pop	142
-Move y	164, value: 951963
+Move y	164, value: 939173
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(737280):291@0 218@339456 296@443904
@@ -7370,30 +7345,50 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(916992):228@0 291@179712 205@576768 297@623616
 Pop	142
-Down	159, value: 1191578
+Move y	164, value: 1178789
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(927744):228@0 291@179712 207@576768 299@623616
 Pop	142
-Move y	164, value: 1191579
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(916992):228@(0,0) 291@(179712,0) 213@(621312,28416) 297@(623616,0)
 Pop	142
-Move y	161, value: no_b
+Down	159, value: 1178788
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(916992):227@0 291@179712 218@519168 297@623616
 Pop	142
-Down	159, value: 1075611
+Down	159, value: 1062821
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(748032):291@(0,0) 239@(398592,0) 213@(441600,28416) 299@(443904,0)
 Pop	142
+Move y	164, value: 1033636
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(737280):291@0 239@398592 218@339456 296@443904
+Pop	142
+Move z	169, value: 1033637
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(737280):291@0 239@398592 218@339456 297@443904
+Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(737280):291@0 239@398592 218@339456 298@443904
+Pop	142
+Move z	166, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(748032):291@0 239@398592 218@339456 299@443904
+Pop	142
 Pop	142
 Down	159, value: 1572864
 Eop	140
-Bop	139, id: [27 0 0 0 0 0 0 0 0 0], previous page: 49688
+Bop	139, id: [27 0 0 0 0 0 0 0 0 0], previous page: 49536
 Spec	239, len: 20
 	`pdf:pagesize default'
 Down	159, value: -947242
@@ -7406,29 +7401,9 @@ Down	160, value: -46707507
 Push	141
 Right	145, value: 363478
 Fnt num	187, k: 16
-xdv_glyph_string(737280):291@0 239@398592 218@339456 296@443904
-Pop	142
-Move y	164, value: 1031994
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(737280):291@0 239@398592 218@339456 297@443904
-Pop	142
-Down	159, value: 1031995
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(737280):291@0 239@398592 218@339456 298@443904
-Pop	142
-Move y	161, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(748032):291@0 239@398592 218@339456 299@443904
-Pop	142
-Move y	164, value: 787516
-Push	141
-Right	145, value: 363478
 xdv_glyph_string(737280):291@0 239@398592 296@443904
 Pop	142
-Move z	169, value: 787515
+Move y	164, value: 800293
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(737280):291@0 239@398592 297@443904
@@ -7438,12 +7413,12 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(737280):291@0 239@398592 297@443904 219@737280
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(906240):291@0 239@398592 219@612864 297@612864
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(916992):291@0 239@398592 219@612864 299@612864
@@ -7453,7 +7428,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1028352):291@0 293@443904 297@734976
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1028352):291@0 293@443904 297@734976 219@1028352
@@ -7463,12 +7438,12 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(748032):291@0 295@443904
 Pop	142
-Move z	166, value: no_b
+Move z	169, value: 800292
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(748032):291@0 295@443904 219@748032
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(737280):291@0 296@443904
@@ -7478,7 +7453,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(737280):291@0 297@443904
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(737280):291@0 297@443904 219@737280
@@ -7488,7 +7463,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(748032):291@0 299@443904
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(443904):291@0 219@328704
@@ -7498,12 +7473,12 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(748032):291@0 219@328704 295@443904
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(737280):291@0 219@328704 296@443904
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(737280):291@0 219@328704 297@443904
@@ -7513,7 +7488,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(748032):291@0 219@328704 299@443904
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(748800):186@0
@@ -7523,7 +7498,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(928512):186@0 202@748800
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(748800):186@0 205@701184
@@ -7538,17 +7513,17 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1042176):186@0 205@701184 297@748800
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1042176):186@0 205@701184 297@748800 219@1042176
 Pop	142
-Down	159, value: 1043515
+Move z	169, value: 1056292
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1052928):186@0 205@701184 299@748800
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(748800):186@0 207@701184
@@ -7558,12 +7533,12 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1042176):186@0 207@701184 297@748800
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1042176):186@0 207@701184 297@748800 219@1042176
 Pop	142
-Down	159, value: 1043514
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1052928):186@0 207@701184 299@748800
@@ -7573,7 +7548,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(748800):186@0 209@615936
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1042176):186@0 209@615936 297@748800
@@ -7583,7 +7558,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1052928):186@0 209@615936 299@748800
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(748800):186@0 211@671232
@@ -7593,22 +7568,22 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1052928):186@0 211@671232 295@748800
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1042176):186@0 211@671232 297@748800
 Pop	142
-Down	159, value: 1061178
+Down	159, value: 1073956
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(748800):186@(0,0) 213@(745728,28416)
 Pop	142
-Move y	161, value: no_b
+Down	159, value: 800292
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(1042176):186@(0,0) 213@(745728,28416) 297@(748800,0)
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_array(1042176):186@(0,0) 213@(745728,28416) 298@(748800,0)
@@ -7618,7 +7593,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_array(1052928):186@(0,0) 213@(745728,28416) 299@(748800,0)
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(748800):186@0 218@643584
@@ -7628,22 +7603,22 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1042176):186@0 218@643584 296@748800 219@1042176
 Pop	142
-Down	159, value: 937530
+Move z	169, value: 950308
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1042176):186@0 218@643584 297@748800
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1042176):186@0 218@643584 297@748800 219@1042176
 Pop	142
-Down	159, value: 937531
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1052928):186@0 218@643584 299@748800
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1039872):186@0 293@748800
@@ -7653,12 +7628,12 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1333248):186@0 293@748800 297@1039872
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1333248):186@0 293@748800 297@1039872 219@1333248
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1344000):186@0 293@748800 299@1039872
@@ -7668,17 +7643,17 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1052928):186@0 295@748800
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1042176):186@0 296@748800
 Pop	142
-Move y	161, value: no_b
+Down	159, value: 800292
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1042176):186@0 296@748800 219@1042176
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1042176):186@0 297@748800
@@ -7688,35 +7663,22 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1042176):186@0 297@748800 219@1042176
 Pop	142
-Move z	166, value: no_b
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1052928):186@0 299@748800
 Pop	142
-Pop	142
-Down	159, value: 1572864
-Eop	140
-Bop	139, id: [28 0 0 0 0 0 0 0 0 0], previous page: 51678
-Spec	239, len: 20
-	`pdf:pagesize default'
-Down	159, value: -947242
-Push	141
-Down	159, value: -917504
-Pop	142
-Down	160, value: 47362867
-Push	141
-Down	160, value: -46707507
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
-Fnt num	187, k: 16
 xdv_glyph_string(748800):186@0 219@633600
 Pop	142
-Move y	164, value: 792403
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1042176):186@0 219@633600 296@748800
 Pop	142
-Move z	169, value: 792404
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1042176):186@0 219@633600 297@748800
@@ -7726,275 +7688,10 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1052928):186@0 219@633600 299@748800
 Pop	142
-Move z	166, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(460800):292@0
-Pop	142
-Move y	161, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(712704):191@0
-Pop	142
-Move y	161, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(892416):191@0 202@712704
-Pop	142
-Move z	166, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(712704):191@0 205@666624
-Pop	142
-Move y	161, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(1016832):191@0 205@666624 295@712704
-Pop	142
-Move z	166, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(1016832):191@0 205@666624 295@712704 219@1016832
-Pop	142
-Down	159, value: 1048402
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(1006080):191@0 205@666624 296@712704
-Pop	142
-Move y	161, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(1006080):191@0 205@666624 296@712704 219@1006080
-Pop	142
-Move z	169, value: 1048403
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(1006080):191@0 205@666624 297@712704
-Pop	142
-Move y	161, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(1006080):191@0 205@666624 297@712704 219@1006080
-Pop	142
-Move z	166, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(1016832):191@0 205@666624 299@712704
-Pop	142
-Move y	161, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(712704):191@0 207@666624
-Pop	142
-Move y	161, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(1016832):191@0 207@666624 295@712704
-Pop	142
-Down	159, value: 792404
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(1016832):191@0 207@666624 295@712704 219@1016832
-Pop	142
-Down	159, value: 1048402
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(1006080):191@0 207@666624 296@712704
-Pop	142
-Move y	161, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(1006080):191@0 207@666624 296@712704 219@1006080
-Pop	142
-Move z	166, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(1006080):191@0 207@666624 297@712704
-Pop	142
-Move y	161, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(1016832):191@0 207@666624 299@712704
-Pop	142
-Move z	169, value: 792404
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(712704):191@0 209@581376
-Pop	142
-Move y	161, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(1016832):191@0 209@581376 295@712704
-Pop	142
-Move y	161, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(1016832):191@0 209@581376 295@712704 219@1016832
-Pop	142
-Move z	166, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(1006080):191@0 209@581376 296@712704
-Pop	142
-Move y	161, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(1006080):191@0 209@581376 296@712704 219@1006080
-Pop	142
-Move z	166, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(1006080):191@0 209@581376 297@712704
-Pop	142
-Move y	161, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(1016832):191@0 209@581376 299@712704
-Pop	142
-Move y	161, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(712704):191@0 211@636672
-Pop	142
-Move z	166, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(1016832):191@0 211@636672 295@712704
-Pop	142
-Move y	161, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(1006080):191@0 211@636672 296@712704
-Pop	142
-Move z	166, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(1016832):191@0 211@636672 299@712704
-Pop	142
-Move y	161, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(466944):198@0
-Pop	142
-Move y	161, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(760320):198@0 207@422400 296@466944
-Pop	142
-Move z	166, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(760320):198@0 207@422400 297@466944
-Pop	142
-Move y	161, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(760320):198@0 211@392448 297@466944
-Pop	142
-Move z	166, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(760320):198@0 296@466944
-Pop	142
-Move y	161, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(760320):198@0 297@466944
-Pop	142
-Move y	161, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(760320):198@0 297@466944 219@760320
-Pop	142
-Move z	166, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(466944):198@0 219@351744
-Pop	142
-Down	159, value: 971602
-Push	141
-Right	145, value: 363478
-xdv_glyph_array(712704):191@(0,0) 213@(711168,28416)
-Pop	142
-Move z	166, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_array(1006080):191@(0,0) 213@(711168,28416) 296@(712704,0)
-Pop	142
-Move y	161, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_array(1006080):191@(0,0) 213@(711168,28416) 296@(712704,0) 219@(1006080,0)
-Pop	142
-Down	159, value: 971602
-Push	141
-Right	145, value: 363478
-xdv_glyph_array(1006080):191@(0,0) 213@(711168,28416) 297@(712704,0)
-Pop	142
-Move z	166, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(712704):191@0 218@609024
-Pop	142
-Move y	161, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(1016832):191@0 218@609024 295@712704
-Pop	142
-Move y	161, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(1016832):191@0 218@609024 295@712704 219@1016832
-Pop	142
-Down	159, value: 942419
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(1006080):191@0 218@609024 296@712704 219@1006080
-Pop	142
-Move y	164, value: 942418
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(1006080):191@0 218@609024 297@712704
-Pop	142
-Move z	166, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(1006080):191@0 218@609024 297@712704 219@1006080
-Pop	142
-Move y	161, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(1016832):191@0 218@609024 299@712704
-Pop	142
-Move y	164, value: 792403
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(1016832):191@0 239@668160 218@609024 295@712704
-Pop	142
-Down	159, value: 1036883
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(1006080):191@0 239@668160 218@609024 296@712704
-Pop	142
-Move y	161, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(1003776):191@0 293@712704
-Pop	142
-Move z	166, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(1307904):191@0 293@712704 295@1003776 219@1307904
-Pop	142
-Move y	161, value: no_b
-Push	141
-Right	145, value: 363478
-xdv_glyph_string(1297152):191@0 293@712704 297@1003776
-Pop	142
 Pop	142
 Down	159, value: 1572864
 Eop	140
-Bop	139, id: [29 0 0 0 0 0 0 0 0 0], previous page: 53663
+Bop	139, id: [28 0 0 0 0 0 0 0 0 0], previous page: 51544
 Spec	239, len: 20
 	`pdf:pagesize default'
 Down	159, value: -947242
@@ -8007,14 +7704,279 @@ Down	160, value: -46707507
 Push	141
 Right	145, value: 363478
 Fnt num	187, k: 16
+xdv_glyph_string(460800):292@0
+Pop	142
+Move y	164, value: 792403
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(712704):191@0
+Pop	142
+Move z	169, value: 792404
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(892416):191@0 202@712704
+Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(712704):191@0 205@666624
+Pop	142
+Move z	166, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(1016832):191@0 205@666624 295@712704
+Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(1016832):191@0 205@666624 295@712704 219@1016832
+Pop	142
+Move y	164, value: 1048402
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(1006080):191@0 205@666624 296@712704
+Pop	142
+Move z	166, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(1006080):191@0 205@666624 296@712704 219@1006080
+Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(1006080):191@0 205@666624 297@712704
+Pop	142
+Move z	166, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(1006080):191@0 205@666624 297@712704 219@1006080
+Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(1016832):191@0 205@666624 299@712704
+Pop	142
+Move y	164, value: 792403
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(712704):191@0 207@666624
+Pop	142
+Move z	166, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(1016832):191@0 207@666624 295@712704
+Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(1016832):191@0 207@666624 295@712704 219@1016832
+Pop	142
+Down	159, value: 1048403
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(1006080):191@0 207@666624 296@712704
+Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(1006080):191@0 207@666624 296@712704 219@1006080
+Pop	142
+Down	159, value: 1048402
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(1006080):191@0 207@666624 297@712704
+Pop	142
+Move z	166, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(1016832):191@0 207@666624 299@712704
+Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(712704):191@0 209@581376
+Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(1016832):191@0 209@581376 295@712704
+Pop	142
+Move z	166, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(1016832):191@0 209@581376 295@712704 219@1016832
+Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(1006080):191@0 209@581376 296@712704
+Pop	142
+Move z	166, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(1006080):191@0 209@581376 296@712704 219@1006080
+Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(1006080):191@0 209@581376 297@712704
+Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(1016832):191@0 209@581376 299@712704
+Pop	142
+Move z	166, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(712704):191@0 211@636672
+Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(1016832):191@0 211@636672 295@712704
+Pop	142
+Move z	166, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(1006080):191@0 211@636672 296@712704
+Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(1016832):191@0 211@636672 299@712704
+Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(466944):198@0
+Pop	142
+Move z	166, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(760320):198@0 207@422400 296@466944
+Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(760320):198@0 207@422400 297@466944
+Pop	142
+Move z	166, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(760320):198@0 211@392448 297@466944
+Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(760320):198@0 296@466944
+Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(760320):198@0 297@466944
+Pop	142
+Move z	166, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(760320):198@0 297@466944 219@760320
+Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(466944):198@0 219@351744
+Pop	142
+Move z	169, value: 971603
+Push	141
+Right	145, value: 363478
+xdv_glyph_array(712704):191@(0,0) 213@(711168,28416)
+Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_array(1006080):191@(0,0) 213@(711168,28416) 296@(712704,0)
+Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_array(1006080):191@(0,0) 213@(711168,28416) 296@(712704,0) 219@(1006080,0)
+Pop	142
+Move z	166, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_array(1006080):191@(0,0) 213@(711168,28416) 297@(712704,0)
+Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(712704):191@0 218@609024
+Pop	142
+Down	159, value: 792404
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(1016832):191@0 218@609024 295@712704
+Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(1016832):191@0 218@609024 295@712704 219@1016832
+Pop	142
+Move z	169, value: 942418
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(1006080):191@0 218@609024 296@712704 219@1006080
+Pop	142
+Down	159, value: 942419
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(1006080):191@0 218@609024 297@712704
+Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(1006080):191@0 218@609024 297@712704 219@1006080
+Pop	142
+Move z	166, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(1016832):191@0 218@609024 299@712704
+Pop	142
+Move y	164, value: 792404
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(1016832):191@0 239@668160 218@609024 295@712704
+Pop	142
+Down	159, value: 1036882
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(1006080):191@0 239@668160 218@609024 296@712704
+Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(1003776):191@0 293@712704
+Pop	142
+Move y	164, value: 792403
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(1307904):191@0 293@712704 295@1003776 219@1307904
+Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_string(1297152):191@0 293@712704 297@1003776
+Pop	142
+Move z	169, value: 792404
+Push	141
+Right	145, value: 363478
 xdv_glyph_string(1297152):191@0 293@712704 297@1003776 219@1297152
 Pop	142
-Move y	164, value: 786432
+Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1307904):191@0 293@712704 299@1003776
 Pop	142
-Move y	161, value: no_b
+Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1026816):191@0 294@712704
@@ -8024,12 +7986,25 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(1016832):191@0 295@712704
 Pop	142
-Move y	161, value: no_b
+Pop	142
+Down	159, value: 1572864
+Eop	140
+Bop	139, id: [29 0 0 0 0 0 0 0 0 0], previous page: 53493
+Spec	239, len: 20
+	`pdf:pagesize default'
+Down	159, value: -947242
+Push	141
+Down	159, value: -917504
+Pop	142
+Down	160, value: 47362867
+Push	141
+Down	160, value: -46707507
 Push	141
 Right	145, value: 363478
+Fnt num	187, k: 16
 xdv_glyph_string(1016832):191@0 295@712704 219@1016832
 Pop	142
-Move y	161, value: no_b
+Move y	164, value: 786432
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1006080):191@0 296@712704
@@ -8087,7 +8062,7 @@ Pop	142
 Pop	142
 Down	159, value: 1572864
 Eop	140
-Post	248, prev: 55644, num: 25400000, den: 473628672, mag: 1000, 
+Post	248, prev: 55477, num: 25400000, den: 473628672, mag: 1000, 
 	l: 47988489, u: 29838621, s: 2, t: 29
 Native Font(16): [./Padauk-Bold.ttf]
-PPost	249, q: 56229, i: 5
+PPost	249, q: 55940, i: 5
