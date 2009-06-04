@@ -1861,7 +1861,7 @@ Pop	142
 Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
-xdv_glyph_array(1185024):120@(0,0) 438@(559872,0) 219@(741888,0) 288@(741888,0) 222@(1133568,4294953473)
+xdv_glyph_array(1185024):120@(0,0) 438@(559872,0) 219@(434688,0) 288@(741888,0) 222@(1133568,4294953473)
 Pop	142
 Pop	142
 Down	159, value: 1572864
@@ -3865,7 +3865,7 @@ Pop	142
 Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
-xdv_glyph_string(804864):163@0 438@274176 219@460800 290@460800
+xdv_glyph_string(804864):163@0 438@274176 219@153600 290@460800
 Pop	142
 Move y	161, value: no_b
 Push	141
@@ -4261,7 +4261,7 @@ Pop	142
 Move y	164, value: 798481
 Push	141
 Right	145, value: 363478
-xdv_glyph_string(460032):165@0 438@274176 219@460032
+xdv_glyph_string(460032):165@0 438@274176 219@152832
 Pop	142
 Move y	161, value: no_b
 Push	141
@@ -4654,7 +4654,7 @@ Pop	142
 Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
-xdv_glyph_array(1175808):169@(0,0) 438@(546816,0) 219@(732672,0) 288@(732672,0) 222@(1124352,4294953473)
+xdv_glyph_array(1175808):169@(0,0) 438@(546816,0) 219@(425472,0) 288@(732672,0) 222@(1124352,4294953473)
 Pop	142
 Down	159, value: 787531
 Push	141
@@ -5463,27 +5463,27 @@ Pop	142
 Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
-xdv_glyph_string(674304):175@0 219@674304
+xdv_glyph_string(505344):175@0 219@367104
 Pop	142
 Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
-xdv_glyph_array(1003776):175@(0,0) 219@(674304,0) 204@(674304,0) 222@(953856,4294953473)
+xdv_glyph_array(1003776):175@(0,0) 219@(367104,0) 204@(674304,0) 222@(953856,4294953473)
 Pop	142
 Down	159, value: 1072841
 Push	141
 Right	145, value: 363478
-xdv_glyph_string(1046016):175@0 219@674304 287@674304
+xdv_glyph_string(1046016):175@0 219@367104 287@674304
 Pop	142
 Down	159, value: 1155784
 Push	141
 Right	145, value: 363478
-xdv_glyph_array(1117440):175@(0,0) 219@(674304,0) 288@(674304,0) 222@(1065984,4294953473)
+xdv_glyph_array(1117440):175@(0,0) 219@(367104,0) 288@(674304,0) 222@(1065984,4294953473)
 Pop	142
 Move z	169, value: 790731
 Push	141
 Right	145, value: 363478
-xdv_glyph_string(1018368):175@0 219@674304 290@674304
+xdv_glyph_string(1018368):175@0 219@367104 290@674304
 Pop	142
 Move y	161, value: no_b
 Push	141
@@ -5493,7 +5493,7 @@ Pop	142
 Move z	166, value: no_b
 Push	141
 Right	145, value: 363478
-xdv_glyph_string(930048):175@0 219@674304 220@674304
+xdv_glyph_string(930048):175@0 219@367104 220@674304
 Pop	142
 Move y	161, value: no_b
 Push	141
@@ -8346,7 +8346,7 @@ Pop	142
 Move y	161, value: no_b
 Push	141
 Right	145, value: 363478
-xdv_glyph_string(1517568):191@0 163@712704 438@986880 219@1173504 290@1173504
+xdv_glyph_string(1517568):191@0 163@712704 438@986880 219@866304 290@1173504
 Pop	142
 Move y	161, value: no_b
 Push	141
@@ -9012,7 +9012,7 @@ Pop	142
 Move y	164, value: 794983
 Push	141
 Right	145, value: 363478
-xdv_glyph_string(1387008):191@0 175@712704 219@1387008
+xdv_glyph_string(1218048):191@0 175@712704 219@1079808
 Pop	142
 Move y	161, value: no_b
 Push	141
