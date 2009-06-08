@@ -932,7 +932,7 @@ cConsNar {shift.x = (@m.origWidth - @n.advance.x) / 2 }/ (g101b, g103b) cUVowel?
 g1037 { advance.x = 10m } / c103c_mix cCons cUVowel? _ c103c;
 g103d { advance.x = 200m } / cCons _ cUVowel? g1037 c103c;
 // why does this crash graphite?
-cTakesRDia { kern.x = 100m } / cCons g103d cUVowel? g1037 _ cRDia;
+// cTakesRDia { kern.x = 100m } / cCons g103d cUVowel? g1037 _ cRDia;
 g103d { advance.x = 60m } / _ g1014_alt g1010_med;
 (g103d, g103d_103e) { advance.x = 100m } / _ (g1032, g1036)? g1037 (cCons, g1014_alt) (g103d, cBDDia);
 
