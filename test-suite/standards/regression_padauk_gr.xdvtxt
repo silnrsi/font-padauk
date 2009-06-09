@@ -20,7 +20,7 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(2271744):212@0 183@442368 212@1202688 136@1645056 220@2072064
 Pop	142
-Down	159, value: 1144575
+Move y	164, value: 1144575
 Push	141
 Right	145, value: 363478
 xdv_glyph_string(1307904):236@0 99@132096 159@901632 205@1289472 209@1171968
@@ -35,10 +35,15 @@ Push	141
 Right	145, value: 363478
 xdv_glyph_string(436224):261@0 111@294912
 Pop	142
+Move y	161, value: no_b
+Push	141
+Right	145, value: 363478
+xdv_glyph_array(1771008):169@(0,0) 239@(715776,0) 213@(726528,28416) 219@(840960,0) 230@(869376,0) 99@(1001472,0)
+Pop	142
 Pop	142
 Down	159, value: 1572864
 Eop	140
 Post	248, prev: 44, num: 25400000, den: 473628672, mag: 1000, 
 	l: 47988489, u: 29838621, s: 2, t: 1
 Native Font(16): [./Padauk.ttf]
-PPost	249, q: 440, i: 5
+PPost	249, q: 514, i: 5
