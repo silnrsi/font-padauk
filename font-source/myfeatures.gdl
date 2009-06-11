@@ -84,6 +84,13 @@ nnya
     default = 0;
 }
 
+vartta
+{
+    id = "vtta";
+    name.LG_USENG = string("Variant tta");
+    default = 0;
+}
+
 endtable;
 
 table(language)

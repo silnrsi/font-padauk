@@ -735,6 +735,10 @@ else if (slanth == angle)
 cno_slantr > cslantr;
 endif;
 
+if (vartta)
+g100b > g100b_alt;
+endif;
+
 endpass;
 
 endtable; // substitution table
