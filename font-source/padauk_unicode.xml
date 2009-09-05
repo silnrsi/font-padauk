@@ -263,6 +263,7 @@
     <property name="GDL_order" value="2"/>
 </glyph>
 <glyph PSName="u103A" UID="103A"><base PSName="u103A"/></glyph>
+<glyph PSName="u103A_u1036"><base PSName="u103A_u1036"/></glyph>
 <glyph PSName="u103B" UID="103B"><base PSName="u103B"/></glyph>
 <glyph PSName="u103B_u103D"><base PSName="u103B_u103D"/></glyph>
 <glyph PSName="u103B_u103D_u103E"><base PSName="u103B_u103D_u103E"/></glyph>
@@ -504,6 +505,7 @@
 <!-- tri extensions -->
 <glyph PSName="u1010_u103D.med.tri"><base PSName="u1010_u103D.med.tri"/></glyph>
 <glyph PSName="u103B_u103D.tri"><base PSName="u103B_u103D.tri"/></glyph>
+<glyph PSName="u103B_u103D_u103E.tri"><base PSName="u103B_u103D_u103E.tri"/></glyph>
 <glyph PSName="u103C_u103D.alt.narr.tri"><base PSName="u103C_u103D.alt.narr.tri"/></glyph>
 <glyph PSName="u103C_u103D.alt.wide.tri"><base PSName="u103C_u103D.alt.wide.tri"/></glyph>
 <glyph PSName="u103C_u103D.narr.tri"><base PSName="u103C_u103D.narr.tri"/></glyph>
