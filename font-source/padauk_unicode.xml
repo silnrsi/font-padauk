@@ -512,7 +512,6 @@
 <glyph PSName="u103C_u103D.wide.tri"><base PSName="u103C_u103D.wide.tri"/></glyph>
 <glyph PSName="u103D.tri"><base PSName="u103D.tri"/></glyph>
 <glyph PSName="u103D_u103E.tri"><base PSName="u103D_u103E.tri"/></glyph>
-<glyph PSName="u103D_u103E.small.tri"><base PSName="u103D_u103E.small.tri"/></glyph>
 
 <!-- slanth extensions -->
 <glyph PSName="u103E.slantr"><base PSName="u103E.altk"/></glyph>
@@ -521,6 +520,7 @@
 <glyph PSName="u103E_u102F.slanth"><base PSName="u103E_u102F.sgaw"/></glyph>
 <glyph PSName="u103E_u1030.slantr"><base PSName="u103E_u1030.altk"/></glyph>
 <glyph PSName="u103E_u1030.slanth"><base PSName="u103E_u1030.sgaw"/></glyph>
+<glyph PSName="u103D_u103E.small.tri"><base PSName="u103D_u103E.small.tri"/></glyph>
 
 </glyphs>
 </font>

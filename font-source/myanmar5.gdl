@@ -338,7 +338,7 @@ t100a = (t1014);
 A list of glyphs that move the ldot to the left, particular for Sgaw
 @enddoc */
 
-cLeftLDot = (c101b, c103b, c103d, c103e, g1060, g1061);
+cLeftLDot = (c101b, c103b, g103d, g103d_103e, g103d_tri, g103d_103e_tri, c103e, g1060, g1061);
 
 /* @doc
 Extend the kinzi class to include Mon Nga
