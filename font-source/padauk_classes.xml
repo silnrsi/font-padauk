@@ -130,7 +130,7 @@
   <class name="c103b" exts=".tri">
     u103B u103B_u103D u103B_u103E
   </class>
-  <class name="c103d" exts=".tri">
+  <class name="c103d" exts=".small .tri">
     u103D u103B_u103D u103D_u103E
   </class>
   <class name="c103e" exts=".slantr .slanth .tri">
