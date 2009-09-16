@@ -447,7 +447,7 @@ cno_kinzi g103a gKill _ > _ _ _ ckinzi$1:(1 2 3) /
     _ _ _ ^ (cCons, cNum, g104e) [gKill cno_med]? opt4(cClusMed) cPreVowel? _=u;
 (g1004 g105a) g103a gKill g102d g1036 > _ _ _ _ g1004_kinzi_102d_1036:(1 2 3 i t) / _ _ _ ^ (cCons, cNum, g104e) [gKill cno_med]? opt4(cClusMed) cPreVowel? _=i _=t;
 
-gKill cno_med > _ cmed:(1 2){sOrder=3};
+gKill cno_med > _ cmed:(1 2){sOrder=2};
 
 // lots of ligatures, as many as we can do adjacently
 gKill g1010 g103d > g1010_103d_med:(1 2 3){sOrder=order} _ _;
@@ -584,7 +584,7 @@ g1037 > @2{sOrder=18} / ANY{sOrder >= 13 && sOrder < 18} _;
 g103e > @2{sOrder=19} / g102c _ g103a;
 
 // Visible virama
-g103a > @2{sOrder=20} / ANY{sOrder >= 13 && sOrder < 20} _{sOrder == 2};
+g103a > @2{sOrder=20} / ANY{sOrder >= 13 && sOrder < 20} _{sOrder == 3};
 gaa70 > @2 / g_space _;
 gaa70 > @1;
 
@@ -636,12 +636,15 @@ corresponding class the wrap glyphs should be mapped to. We also move the wrap t
 
 // suboptimal matches all around here
 _ c103c_nar > c103c_wide:r$r _ / ^ _ cConsWide cmed? c103b? _=r;
+_ c103c_nar > c103c_widalt:r$r _ / ^ _ cConsNar cMedWide _=r c103d? c103e? cUSpace;
 _ c103c_nar > c103c_naralt:r$r _ / ^ _ cConsNar cmed? _=r c103d? c103e? cUSpace;
 _ c103c_nar > c103c_widalt:r$r _ / ^ _ cConsWide cmed? _=r c103d? c103e? cUSpace;
-_ c103c_nar > c103c_naralt:r$r _ / ^ _ cConsNar g103a cmed? _=r;
-_ c103c_nar > c103c_widalt:r$r _ / ^ _ cConsWide g103a cmed? _=r;
+_ c103c_nar > c103c_widalt:r$r _ / ^ _ cConsNar cMedWide g103a _=r;
+_ c103c_nar > c103c_naralt:r$r _ / ^ _ cConsNar cmed? g103a _=r;
+_ c103c_nar > c103c_widalt:r$r _ / ^ _ cConsWide cmed? g103a _=r;
+_ c103c_nar > c103c_wide:r$r _ / ^ _ cConsNar cMedWide c103b? _=r;
 _ c103c_nar > @r:r _ / ^ _ cConsNar cmed? c103b? _=r;
-_ c103c_nar > c103c_wide:r$r _ / ^ _ cConsNar cmed? c103b? _=r;
+_ c103c_nar > c103c_wide:r$r _ / ^ _ cConsWide cmed? c103b? _=r;
 
 /* @doc
 Rules to handle U+101B in its base form (not as a wrap). Whether we need a short leg form
