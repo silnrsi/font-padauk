@@ -269,7 +269,7 @@ cUVowelNga = (g102e, g102d, g1032, g1033, g1036);
 cNgaUVowel = (g1004_kinzi_102e, g1004_kinzi_102d, g1004_kinzi_1032, g1004_kinzi_1033, g1004_kinzi_1036);
 cUTakesMa = (g102d, g1004_kinzi);
 cUWithMa = (g102d_1036, g1004_kinzi_1036);
-c1036 = (g1036, g1004_kinzi_1036, g102d_1036);
+c1036 = (g1036, g1004_kinzi_1036, g102d_1036, g103a_1036);
 
 /* @doc
 Create a general below diacritic class consisting of single and double width below diacritics.
@@ -469,6 +469,7 @@ g102d g1032 > g1032_102d:(1 3) _ / ^ _ cLVowel? _;
 
 // handle normalized text which unfortunately reorders U+103A U+1037
 g1037 g103a > g103a:2{sOrder=order} g1037:1{sOrder=order};
+g103a g1036 > g103a_1036:(1 2){sOrder=order} _;
 
 g103b g103d g103e > g103b_103d_103e:(1 2 3){sOrder=order} _ _;
 g103b g103e > g103b_103e:(1 2){sOrder=order} _;
