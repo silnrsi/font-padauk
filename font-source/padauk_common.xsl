@@ -45,7 +45,12 @@ This is needed for [narrow cons] U+1039 [wide cons]
 </xsl:template>
 
 <xsl:template match="glyph[contains(@PSName,'.med') or contains(@PSName,'u103D') or contains (@PSName,'u103E')]">
-<xsl:variable name="psName" select="@PSName"/>
+<xsl:variable name="psName">
+<xsl:choose>
+    <xsl:when test="@PSName='uAA60.med'">uAA60.med.kham</xsl:when>
+    <xsl:otherwise> <xsl:value-of select="@PSName"/> </xsl:otherwise>
+</xsl:choose>
+</xsl:variable>
 <xsl:variable name="origWidth" select="$metrics/glyph[@PSName=$psName]/@advance"/>
 <xsl:copy>
     <xsl:apply-templates select="@*|node()"/>

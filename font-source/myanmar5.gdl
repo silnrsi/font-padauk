@@ -443,10 +443,17 @@ pass(pass_medial);
 
 cno_kinzi g103a gKill _ > _ _ _ ckinzi$1:(1 2 3) / 
     _ _ _ ^ (cCons, cNum, g104e)? [gKill cno_med]? opt4(cClusMedNot103b) cPreVowel? _;      // need opt4() here for opt()
+(g1004 g105a) g103a gKill g103a _ > _ _ _ _ g1004_kinzi_103a:(1 2 3 a) / 
+    _ _ _ ^ (cCons, cNum, g104e)? [gKill cno_med]? _=a opt4(cClusMedNot103b) _;      // need opt4() here for opt()
+g101b g103a gKill g103a _ > _ _ _ _ g101b_kinzi_103a:(1 2 3 a) / 
+    _ _ _ ^ (cCons, cNum, g104e)? [gKill cno_med]? _=a opt4(cClusMedNot103b) _;      // need opt4() here for opt()
 (g1004 g105a) g103a gKill cUVowelNga > _ _ _ cNgaUVowel:(1 2 3 u) /
     _ _ _ ^ (cCons, cNum, g104e) [gKill cno_med]? opt4(cClusMed) cPreVowel? _=u;
+g101b g103a gKill g102d > _ _ _ g101b_kinzi_102d:(1 2 3 u) /
+    _ _ _ ^ (cCons, cNum, g104e) [gKill cno_med]? opt4(cClusMed) cPreVowel? _=u;
+g101b g103a gKill g102e > _ _ _ g101b_kinzi_102e:(1 2 3 u) /
+    _ _ _ ^ (cCons, cNum, g104e) [gKill cno_med]? opt4(cClusMed) cPreVowel? _=u;
 (g1004 g105a) g103a gKill g102d g1036 > _ _ _ _ g1004_kinzi_102d_1036:(1 2 3 i t) / _ _ _ ^ (cCons, cNum, g104e) [gKill cno_med]? opt4(cClusMed) cPreVowel? _=i _=t;
-
 gKill cno_med > _ cmed:(1 2){sOrder=2};
 
 // lots of ligatures, as many as we can do adjacently

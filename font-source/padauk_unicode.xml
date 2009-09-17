@@ -14,7 +14,7 @@
 
 <names>
     <string num="name">Padauk</string>
-    <string num="5">Version 2.5</string>
+    <string num="5">Version 2.7</string>
     <string num="6">Padauk<name num="2"/></string>
     <string num="9">Debbi Hosken</string>
     <string num="11">http://scripts.sil.org</string>
@@ -140,6 +140,7 @@
 <glyph PSName="u1004.kinzi_u1032"><base PSName="u1004.kinzi_u1032"/></glyph>
 <glyph PSName="u1004.kinzi_u1033"><base PSName="u1004.kinzi_u1033"/></glyph>
 <glyph PSName="u1004.kinzi_u1036"><base PSName="u1004.kinzi_u1036"/></glyph>
+<glyph PSName="u1004.kinzi_u103A"><base PSName="u1004.kinzi_u103A"/></glyph>
 <glyph PSName="u1004.kinzi_u102D_u1036"><base PSName="u1004.kinzi_u102D_u1036"/></glyph>
 <glyph UID="1005" PSName="u1005"><base UID="1005"/></glyph>
 <glyph PSName="u1005.med"><base PSName="u1005.med"/></glyph>
@@ -203,6 +204,9 @@
 <glyph PSName="u101B.long"><base PSName="u101B.long"/></glyph>
 <glyph PSName="u101B.med"><base PSName="u101B.med"/></glyph>
 <glyph PSName="u101B.kinzi"><base PSName="u101B.kinzi"/></glyph>
+<glyph PSName="u101B.kinzi_u102D"><base PSName="u101B.kinzi_u102D"/></glyph>
+<glyph PSName="u101B.kinzi_u102E"><base PSName="u101B.kinzi_u102E"/></glyph>
+<glyph PSName="u101B.kinzi_u103A"><base PSName="u101B.kinzi_u103A"/></glyph>
 <glyph UID="101C" PSName="u101C"><base UID="101C"/></glyph>
 <glyph PSName="u101C.med"><base PSName="u101C.med"/></glyph>
 <glyph UID="101D" PSName="u101D"><base UID="101D"/></glyph>
@@ -305,7 +309,9 @@
 <glyph UID="104E" PSName="u104E"><base UID="104E"/></glyph>
 <glyph UID="104F" PSName="u104F"><base UID="104F"/></glyph>
 <glyph UID="1050" PSName="u1050"><base UID="1050"/></glyph>
+<glyph PSName="u1050.med"><base PSName="u1050.med"/></glyph>
 <glyph UID="1051" PSName="u1051"><base UID="1051"/></glyph>
+<glyph PSName="u1051.med"><base PSName="u1051.med"/></glyph>
 <glyph PSName="u1051_u100C"><base PSName="u1051_u100C"/></glyph>
 <glyph PSName="u1051_u100D"><base PSName="u1051_u100D"/></glyph>
 <glyph UID="1052" PSName="u1052"><base UID="1052"/></glyph>
@@ -433,6 +439,8 @@
 <glyph UID="1700" PSName="u1700"><base UID="25CC"/></glyph>     <!-- fool stupid IE -->
 <glyph UID="A92E" PSName="uA92E"><base UID="A92E"/></glyph>
 <glyph UID="AA60" PSName="uAA60"><base UID="E334"/></glyph>
+<glyph PSName="uAA60.med"><base PSName="uE334.med.kham"/></glyph>
+<glyph PSName="uAA60.med.kham"><base PSName="uE334.med.kham"/></glyph>
 <glyph UID="AA61" PSName="uAA61"><base UID="AA60"/></glyph>
 <glyph UID="AA62" PSName="uAA62"><base UID="AA61"/></glyph>
 <glyph UID="AA63" PSName="uAA63"><base UID="E335"/></glyph>
@@ -512,6 +520,7 @@
 <glyph PSName="u103C_u103D.wide.tri"><base PSName="u103C_u103D.wide.tri"/></glyph>
 <glyph PSName="u103D.tri"><base PSName="u103D.tri"/></glyph>
 <glyph PSName="u103D_u103E.tri"><base PSName="u103D_u103E.tri"/></glyph>
+<glyph PSName="u103D_u103E.small.tri"><base PSName="u103D_u103E.small.tri"/></glyph>
 
 <!-- slanth extensions -->
 <glyph PSName="u103E.slantr"><base PSName="u103E.altk"/></glyph>
@@ -520,7 +529,6 @@
 <glyph PSName="u103E_u102F.slanth"><base PSName="u103E_u102F.sgaw"/></glyph>
 <glyph PSName="u103E_u1030.slantr"><base PSName="u103E_u1030.altk"/></glyph>
 <glyph PSName="u103E_u1030.slanth"><base PSName="u103E_u1030.sgaw"/></glyph>
-<glyph PSName="u103D_u103E.small.tri"><base PSName="u103D_u103E.small.tri"/></glyph>
 
 </glyphs>
 </font>
