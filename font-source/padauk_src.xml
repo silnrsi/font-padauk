@@ -4207,16 +4207,16 @@
     </glyph>
     <glyph GID='373' PSName='uAA60.med.kham'>
         <point type='_BD'>
-            <location x='-415' y='-53'/>
+            <location x='-382' y='-53'/>
         </point>
         <point type='BS'>
-            <location x='35' y='-53'/>
+            <location x='68' y='-53'/>
         </point>
         <point type='L'>
-            <location x='35' y='-53'/>
+            <location x='68' y='-53'/>
         </point>
         <point type='LL'>
-            <location x='-859' y='-53'/>
+            <location x='-826' y='-53'/>
         </point>
         <property name='mark' value='210'/>
         <property name='GDL_order' value='2'/>

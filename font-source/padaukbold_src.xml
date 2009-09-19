@@ -4160,16 +4160,16 @@
     </glyph>
     <glyph GID='373' PSName='uAA60.med.kham'>
         <point type='_BD'>
-            <location x='-384' y='-53'/>
+            <location x='-386' y='-53'/>
         </point>
         <point type='BS'>
-            <location x='114' y='-53'/>
+            <location x='112' y='-53'/>
         </point>
         <point type='LL'>
-            <location x='-866' y='-53'/>
+            <location x='-868' y='-53'/>
         </point>
         <point type='L'>
-            <location x='114' y='-53'/>
+            <location x='112' y='-53'/>
         </point>
         <property name='mark' value='210'/>
         <property name='GDL_order' value='2'/>

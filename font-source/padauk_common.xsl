@@ -3,7 +3,10 @@
 
 <xsl:output indent="yes"/>
 <xsl:param name="metricsFile"/>
+<xsl:param name="fontXml"/>
+
 <xsl:variable name="metrics" select="document($metricsFile)/font/glyphs"/>
+<xsl:variable name="psNameMap" select="document($fontXml)/font/glyphs"/>
 
 <!-- add Fake attachments to prevent glyphs becoming marks in make_volt -->
 <xsl:template match="glyph[@PSName='u1037'] |
@@ -45,13 +48,14 @@ This is needed for [narrow cons] U+1039 [wide cons]
 </xsl:template>
 
 <xsl:template match="glyph[contains(@PSName,'.med') or contains(@PSName,'u103D') or contains (@PSName,'u103E')]">
-<xsl:variable name="psName">
-<xsl:choose>
-    <xsl:when test="@PSName='uAA60.med'">uAA60.med.kham</xsl:when>
-    <xsl:otherwise> <xsl:value-of select="@PSName"/> </xsl:otherwise>
-</xsl:choose>
+<xsl:variable name="psName"><xsl:value-of select="@PSName"/></xsl:variable>
+<xsl:variable name="psOrigName">
+<xsl:value-of select="$psNameMap/glyph[@PSName=$psName]/base/@PSName"/>
 </xsl:variable>
-<xsl:variable name="origWidth" select="$metrics/glyph[@PSName=$psName]/@advance"/>
+<!--<xsl:message terminate="no">
+<xsl:value-of select="concat($psName, '=>', $psOrigName)"/>
+</xsl:message>-->
+<xsl:variable name="origWidth" select="$metrics/glyph[@PSName=$psOrigName]/@advance"/>
 <xsl:copy>
     <xsl:apply-templates select="@*|node()"/>
     <xsl:if test="$origWidth &gt; 0">

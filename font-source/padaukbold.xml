@@ -4487,23 +4487,23 @@
         </point>
         <property name="mark" value="210"/>
         <property name="GDL_order" value="2"/>
-    <property name="GDL_origWidth" value="771m"/></glyph>
+    <property name="GDL_origWidth" value="773m"/></glyph>
     <glyph GID="373" PSName="uAA60.med.kham">
         <point type="_BD">
-            <location x="-384" y="-53"/>
+            <location x="-386" y="-53"/>
         </point>
         <point type="BS">
-            <location x="114" y="-53"/>
+            <location x="112" y="-53"/>
         </point>
         <point type="LL">
-            <location x="-866" y="-53"/>
+            <location x="-868" y="-53"/>
         </point>
         <point type="L">
-            <location x="114" y="-53"/>
+            <location x="112" y="-53"/>
         </point>
         <property name="mark" value="210"/>
         <property name="GDL_order" value="2"/>
-    <property name="GDL_origWidth" value="771m"/></glyph>
+    <property name="GDL_origWidth" value="773m"/></glyph>
     <glyph GID="374" PSName="uAA61" UID="AA61">
         <point type="_R">
             <location x="0" y="0"/>
@@ -5658,7 +5658,7 @@
         <property name="mark" value="80"/>
         <property name="GDL_order" value="7"/>
         <property name="classes" value="c103e"/>
-    </glyph>
+    <property name="GDL_origWidth" value="423m"/></glyph>
     <glyph GID="449" PSName="u103E.slanth">
         <point type="_BS">
             <location x="-57" y="-53"/>
@@ -5672,7 +5672,7 @@
         <property name="mark" value="80"/>
         <property name="GDL_order" value="7"/>
         <property name="classes" value="c103e"/>
-    </glyph>
+    <property name="GDL_origWidth" value="376m"/></glyph>
     <glyph GID="450" PSName="u103E_u102F.slantr">
         <point type="_BS">
             <location x="-282" y="-53"/>
@@ -5689,7 +5689,7 @@
         <property name="mark" value="80"/>
         <property name="GDL_order" value="7"/>
         <property name="classes" value="c103e"/>
-    </glyph>
+    <property name="GDL_origWidth" value="654m"/></glyph>
     <glyph GID="451" PSName="u103E_u102F.slanth">
         <point type="_BS">
             <location x="-282" y="-53"/>
@@ -5706,7 +5706,7 @@
         <property name="mark" value="80"/>
         <property name="GDL_order" value="7"/>
         <property name="classes" value="c103e"/>
-    </glyph>
+    <property name="GDL_origWidth" value="654m"/></glyph>
     <glyph GID="452" PSName="u103E_u1030.slantr">
         <point type="_BS">
             <location x="-357" y="-53"/>
@@ -5723,7 +5723,7 @@
         <property name="mark" value="80"/>
         <property name="GDL_order" value="7"/>
         <property name="classes" value="c103e"/>
-    </glyph>
+    <property name="GDL_origWidth" value="823m"/></glyph>
     <glyph GID="453" PSName="u103E_u1030.slanth">
         <point type="_BS">
             <location x="-357" y="-53"/>
@@ -5740,5 +5740,5 @@
         <property name="mark" value="80"/>
         <property name="GDL_order" value="7"/>
         <property name="classes" value="c103e"/>
-    </glyph>
+    <property name="GDL_origWidth" value="823m"/></glyph>
 </font>
