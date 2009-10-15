@@ -569,6 +569,7 @@ g1002 g103e g1082 g103a;
 ckinzi > @2{sOrder=2} / cCons _ g103b;
 
 // slot Mon Asat
+g103a > @2 / (g103e, g103e_102f, g103e_1030, g1082) _ g1037;
 g103a > @3{sOrder=8} / cCons (g103e, g103e_102f, g103e_1030, g1082) _;
 
 // slot Shan E vowel
