@@ -4214,14 +4214,9 @@
     
   </glyph>
     <glyph GID="333" PSName="u1088" UID="1088">
-        <point type="FAKE">
-            <location x="0" y="0"/>
-        </point>
-    
         <property name="mark" value="80"/>
         <property name="GDL_order" value="21"/>
-    
-  </glyph>
+    </glyph>
     <glyph GID="334" PSName="u1089" UID="1089">
         <point type="FAKE">
             <location x="0" y="0"/>

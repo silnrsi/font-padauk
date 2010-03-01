@@ -305,6 +305,8 @@ c103c_only = (g103c, g103c_wide, g103c_alt_narr, g103c_alt_wide);
 c103c_mix = (g103c_103d_narr, g103c_103d_narr_tri, g103c_103d_wide, g103c_103d_wide_tri, g103c_102f_narr, 
         g103c_102f_wide, g103c_103d_alt_narr, g103c_103d_alt_narr_tri, g103c_102f_alt_narr, 
         g103c_103d_alt_wide, g103c_103d_alt_wide_tri, g103c_102f_alt_wide);
+c103c_103d = (g103c_103d_narr, g103c_103d_narr_tri, g103c_103d_wide, g103c_103d_wide_tri, 
+        g103c_103d_alt_narr, g103c_103d_alt_narr_tri, g103c_103d_alt_wide, g103c_103d_alt_wide_tri);
 c103c = (c103c_only, c103c_mix);
 c103c_nar = (g103c, g103c_103d_narr, g103c_102f_narr, g103c_103d_narr_tri);
 c103c_naralt = (g103c_alt_narr, g103c_103d_alt_narr, g103c_102f_alt_narr, g103c_103d_alt_narr_tri);
@@ -678,6 +680,8 @@ inside a wrap.
 g1030 > @u / c103c_only cConsSVowel cUVowel? _=u ^;
 g102f > @u / c103c_only cConsSVowel cUVowel? _=u ^;
 if (!uTall)
+    // The next rule prevents the following, shorter rule matching
+    cLVowel > cLVowel / c103c_103d ^ cConsSVowel cUVowel? _;
     cLVowel > cLVowelM / ^ cConsSVowel cUVowel? _;
     g1014 cLVowel > g1014_alt:(1) cLVowelM:(3) / ^ _ cUVowel? _;
     g100a cLVowel > g100a_alt:(1) cLVowelM:(3) / ^ _ cUVowel? _;

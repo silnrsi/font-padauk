@@ -8,11 +8,12 @@
 <xsl:variable name="metrics" select="document($metricsFile)/font/glyphs"/>
 <xsl:variable name="psNameMap" select="document($fontXml)/font/glyphs"/>
 
-<!-- add Fake attachments to prevent glyphs becoming marks in make_volt -->
+<!-- add Fake attachments to prevent glyphs becoming marks in make_volt
+                    glyph[@PSName='u1088'] |
+ -->
 <xsl:template match="glyph[@PSName='u1037'] |
                     glyph[@PSName='u1038'] |
                     glyph[@PSName='u1087'] |
-                    glyph[@PSName='u1088'] |
                     glyph[@PSName='u1089'] |
                     glyph[@PSName='u108A'] |
                     glyph[@PSName='u108B'] |
