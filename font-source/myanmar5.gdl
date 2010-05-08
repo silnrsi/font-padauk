@@ -476,8 +476,6 @@ g1014 gKill g1010 g103c > g1014_1010_103c:(1 2 3 4){sOrder=order} _ _ _;
 g101e gKill g1010 g103c > g101e_1010_103c:(1 2 3 4){sOrder=order} _ _ _;
 g102d g1032 > g1032_102d:(1 3) _ / ^ _ cLVowel? _;
 
-// handle normalized text which unfortunately reorders U+103A U+1037
-g1037 g103a > g103a:2{sOrder=order} g1037:1{sOrder=order};
 g103a g1036 > g103a_1036:(1 2){sOrder=order} _;
 
 g103b g103d g103e > g103b_103d_103e:(1 2 3){sOrder=order} _ _;
@@ -713,6 +711,9 @@ Tall -a vowel ligature
 
 g102b g103a > g102b_103a:(1 2) _;
 g1062 g103a > g1062_103a:(1 2) _;
+// Allow for normalized text
+g102b g103a > g102b_103a:(1 3) _ / _ g1037 _;
+g1062 g103a > g1062_103a:(1 3) _ / _ g1037 _;
 g102b g1036 > @2 @1;
 
 /* @doc
