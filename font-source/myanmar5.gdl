@@ -539,7 +539,9 @@ All this in two rules! Mind you the two rules do check every glyph.
 @enddoc */
 #if (1)
 
-if (dottedc)
+// The dottedc pass does not run with the pass constraints compiler even though dottedc defaults to 1
+// this results in bad rendering beyond just not inserting 25cc e.g. U+1000 U+102F gets a tall glyph
+//if (dottedc)
 pass(pass_insert);
 
 /* @doc
@@ -606,7 +608,7 @@ _ ANY > g25cc:2 @2 / _ _{sOrder > 1};
 // _ > g25cc:3 / # _ ANY{sOrder > 1};
 
 endpass;
-endif;
+//endif;
 
 #endif
 
@@ -694,6 +696,7 @@ Glyphs that take an alternate form with certain diacritics.
 g1014 > g1014_alt / ^ _ t1014;
 g100a > g100a_alt / ^ _ t100a;
 g1009 > g1025 / ^ _ g103a;          // is this the rule?
+g1009 > g1025 / ^ _ g1037? g103a;          // is this the rule?
 g1009 > g1025 / ^ _ cmed;
 // MLC dictionary doesn't show this occurring at least with u1010 u103A
 //g1009 > g1025 / ^ _ c103e? cPreVowel? cUVowel? cCons;
