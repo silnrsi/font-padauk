@@ -590,6 +590,8 @@ _ g1037 > g25cc:3 @3{sOrder=13} / g1037{sOrder == 13} _ _;
 
 // slot Lower Dot
 g1037 > @2{sOrder=18} / ANY{sOrder >= 13 && sOrder < 18} _;
+// backwards compatibility
+g1037 > @2{sOrder=18} / ANY{sOrder == 20} _ ^;
 
 // slot Mon h
 g103e > @2{sOrder=19} / g102c _ g103a;
