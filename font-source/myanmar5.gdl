@@ -942,7 +942,7 @@ c102b {kern.x = xkern / 2} / c103c cCons cLVowel? cLDia? _;
 cConsNar / g102b_103a=a _ cLowDia? cUDia;
 cCons {kern.x = -@a.xkern} / g102b_103a=a _;
 cPreVowel {kern.x = -@a.xkern} / g102b_103a=a _;
-cRDia {shift.x = (@r.advancewidth + @r.advance.x - advance.x) / 2 + @r.position.x - position.x} / cTakesRDia=r _;
+// cRDia {shift.x = (@r.advancewidth + @r.advance.x - advance.x) / 2 + @r.position.x - position.x} / cTakesRDia=r _;
 cUVowel {advance.x = 0m} / c103b _ ;
 // fix kinzi lig in cemetary
 g1004_kinzi_102d {kern.x = - advance.x } / c103b _ cLVowel? cCons g103a;
