@@ -2891,9 +2891,7 @@
         <point type="L">
             <location x="418" y="-80"/>
         </point>
-        <point type="U">
-            <location x="418" y="742"/>
-        </point>
+        <point type="U"><location x="292" y="495"/></point>
         <property name="mark" value="130"/>
         <property name="GDL_order" value="1"/>
     </glyph>

@@ -2822,9 +2822,7 @@
         <point type="L">
             <location x="327" y="-62"/>
         </point>
-        <point type="U">
-            <location x="327" y="579"/>
-        </point>
+        <point type="U"><location x="293" y="495"/></point>
         <property name="mark" value="130"/>
         <property name="GDL_order" value="1"/>
     </glyph>

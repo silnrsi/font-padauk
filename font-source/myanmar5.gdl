@@ -569,6 +569,9 @@ _ > g25cc:3 / (g1036, g1032) _ cLVowel ^;
 // prevent decomposed 1081 getting a circle with asat
 g1002 g103e g1082 g103a;
 
+// allow zero after another number to take a vowel for currency
+g1040 > @2{sOrder=1} / cNum _ (g102d, g102b);
+
 // kinzi is best rendered before 103b when there is no vowel ligature
 ckinzi > @2{sOrder=2} / cCons _ g103b;
 
