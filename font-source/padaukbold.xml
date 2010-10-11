@@ -841,9 +841,7 @@
         <point type="L">
             <location x="637" y="-53"/>
         </point>
-        <point type="U">
-            <location x="671" y="495"/>
-        </point>
+        <point type="U"><location x="1062" y="495"/></point>
         <property name="mark" value="80"/>
         <property name="GDL_order" value="1"/>
     </glyph>
@@ -3329,9 +3327,7 @@
         <point type="L">
             <location x="297" y="-58"/>
         </point>
-        <point type="U">
-            <location x="297" y="545"/>
-        </point>
+        <point type="U"><location x="293" y="495"/></point>
         <property name="mark" value="130"/>
         <property name="GDL_order" value="1"/>
         <property name="classes" value="cConsSVowel cConsNar cCons"/>

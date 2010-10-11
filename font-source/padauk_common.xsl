@@ -65,6 +65,20 @@ This is needed for [narrow cons] U+1039 [wide cons]
 </xsl:copy>
 </xsl:template>
 
+<!-- hack for U attachment -->
+<xsl:template match="point[@type = 'U' and ../@PSName='u105C']">
+	<xsl:copy>
+		<xsl:apply-templates select="@*"/>
+		<xsl:copy-of select="../../glyph[@PSName = 'u101D']/point[@type = 'U']/location" />
+	</xsl:copy>
+</xsl:template>
+<xsl:template match="point[@type = 'U' and ../@PSName='u100A_u100A']">
+	<xsl:copy>
+		<xsl:apply-templates select="@*"/>
+		<xsl:copy-of select="../../glyph[@PSName = 'u103F']/point[@type = 'U']/location" />
+	</xsl:copy>
+</xsl:template>
+
 <!-- default copy template -->
 <xsl:template match="@*|node()">
   <xsl:copy>
