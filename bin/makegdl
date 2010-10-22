@@ -4,10 +4,10 @@ use Font::TTF::Scripts::GDL;
 use IO::File;
 use Getopt::Std;
 
-getopts('i:r');
+getopts('a:i:r');
 
-$f = Font::TTF::Scripts::GDL->read_font($ARGV[1], $ARGV[0]) || die "Can't read font information";
-$outfh = IO::File->new("> $ARGV[2]") || die "Can't open $ARGV[2] for writing";
+$f = Font::TTF::Scripts::GDL->read_font($ARGV[0], $opt_a) || die "Can't read font information";
+$outfh = IO::File->new("> $ARGV[1]") || die "Can't open $ARGV[1] for writing";
 
 foreach $g (@{$f->{'glyphs'}})
 {

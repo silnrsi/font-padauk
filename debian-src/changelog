@@ -1,6 +1,6 @@
-ttf-sil-padauk (2.7.1-1) unstable; urgency=low
+ttf-sil-padauk (2.7.5-1) unstable; urgency=low
 
-  * New upstream release, version 2.7.1 (Closes: )
+  * New upstream release, version 2.7.5 (Closes: )
   * Package co-maintained by the Debian Fonts Task Force (pkg-fonts Alioth project)
 
  -- Nicolas Spalinger <nicolas.spalinger@sil.org>  Thu,  8 Feb 2007 13:32:16 +0100
