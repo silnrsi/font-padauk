@@ -1,6 +1,7 @@
 #!/usr/bin/python
-
+# encoding: utf-8
 #from waflib import Context
+import codecs
 
 TESTDIR='test-suite'
 VERSION='2.7.5'
@@ -10,6 +11,19 @@ DESC_SHORT='Burmese Unicode 6 truetype font with OT and Graphite support'
 DESC_LONG = ''
 COPYRIGHT='Copyright SIL International, all rights reserved'
 LICENSE='OFL.txt'
+
+mystrings = {
+    'Regular' : u'ပိုမှန်',
+    'Bold' : u'စာလုံးမဲ',
+    'Padauk' : u'ပိတောက်',
+    'Padauk Book' : u'ပိတောက်စာအုပ်'
+}
+namestrings = {
+    '' :            ('Padauk', 'Regular'),
+    'bookbold' :    ('Padauk Book', 'Bold'),
+    'bold' :        ('Padauk', 'Bold'),
+    'book' :        ('Padauk Book', 'Regular')
+}
 
 #def init(ctx) :
 #    Context.load_tool("font", tooldir=["/home/mhosken/Work/shorts/waf/trunk/bin"])
@@ -21,7 +35,11 @@ for f in ['', 'bold', 'book', 'bookbold'] :
         target = 'Padauk.ttf'
 
     legacyfile = '../super/padauk' + f + '.ttf'
-    fnt = font(target = process(target, name("Padauk Book" if 'book' in f else "Padauk", lang="en-US")),
+#    import pdb; pdb.set_trace()
+    fnt = font(target = process(target, name(namestrings[f][0], lang='en-US',
+                                                full=((namestrings[f][0] + " " + namestrings[f][1]) if 'bold' in f else namestrings[f][0])),
+                                        name(mystrings[namestrings[f][0]], lang='my',
+                                                full=(((mystrings[namestrings[f][0]] + u" " + mystrings[namestrings[f][1]]) if 'bold' in f else mystrings[namestrings[f][0]])))),
                 version = TTF_VERSION,
                 license = ofl("Padauk"),
                 copyright = COPYRIGHT,
