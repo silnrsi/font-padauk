@@ -1,5 +1,6 @@
 #!/usr/bin/python
 # encoding: utf-8
+
 #from waflib import Context
 import codecs
 
@@ -62,7 +63,8 @@ for f in ['', 'bold', 'book', 'bookbold'] :
                                 params = '-i -x font-source/padauk' + f + '_tt.xml'),
                 graphite = gdl(fsf + '.gdl',
                                 master = 'font-source/myanmar5.gdl',
-                                params = '-w3521 -q -d -v2')
+                                params = '-w3521 -q -d -v2'),
+                script = 'mymr'
             )
 
     process(fnt.ap, cmd('xsltproc -o ${TGT} '
