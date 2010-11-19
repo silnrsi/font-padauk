@@ -14,10 +14,10 @@ COPYRIGHT='Copyright SIL International, all rights reserved'
 LICENSE='OFL.txt'
 
 mystrings = {
-    'Regular' : u'ပိုမှန်',
-    'Bold' : u'စာလုံးမဲ',
-    'Padauk' : u'ပိတောက်',
-    'Padauk Book' : u'ပိတောက်စာအုပ်'
+    'Regular' : 'ပိုမှန်',
+    'Bold' : 'စာလုံးမဲ',
+    'Padauk' : 'ပိတောက်',
+    'Padauk Book' : 'ပိတောက်စာအုပ်'
 }
 namestrings = {
     '' :            ('Padauk', 'Regular'),
@@ -40,7 +40,7 @@ for f in ['', 'bold', 'book', 'bookbold'] :
     fnt = font(target = process(target, name(namestrings[f][0], lang='en-US',
                                                 full=((namestrings[f][0] + " " + namestrings[f][1]) if 'bold' in f else namestrings[f][0])),
                                         name(mystrings[namestrings[f][0]], lang='my',
-                                                full=(((mystrings[namestrings[f][0]] + u" " + mystrings[namestrings[f][1]]) if 'bold' in f else mystrings[namestrings[f][0]])))),
+                                                full=(((mystrings[namestrings[f][0]] + " " + mystrings[namestrings[f][1]]) if 'bold' in f else mystrings[namestrings[f][0]])))),
                 version = TTF_VERSION,
                 license = ofl("Padauk"),
                 copyright = COPYRIGHT,
