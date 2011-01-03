@@ -28,6 +28,14 @@ namestrings = {
 
 #def init(ctx) :
 #    Context.load_tool("font", tooldir=["/home/mhosken/Work/shorts/waf/trunk/bin"])
+test = fonttest(targets = { 'pdfs' : tex(), 
+                            'svg' : svg(files={
+                                            'ksw_Wordlist.txt' : 'lang=ksw',
+                                            'kyu_wdl.txt' : 'lang=ksw',
+                                            'my_HeadwordSyllables.txt' : 'ulon=1'}
+                                       )}
+               )
+
 for f in ['', 'bold', 'book', 'bookbold'] :
     fsf = 'font-source/padauk' + f
     if len(f) :
@@ -64,6 +72,7 @@ for f in ['', 'bold', 'book', 'bookbold'] :
                 graphite = gdl(fsf + '.gdl',
                                 master = 'font-source/myanmar5.gdl',
                                 params = '-w3521 -q -d -v2'),
+                tests = test,
                 script = 'mymr'
             )
 
