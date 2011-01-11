@@ -28,14 +28,13 @@ namestrings = {
 
 #def init(ctx) :
 #    Context.load_tool("font", tooldir=["/home/mhosken/Work/shorts/waf/trunk/bin"])
-test = fonttest(targets = { 'pdfs' : tex(), 
-                            'svg' : svg(files={
-                                            'ksw_Wordlist.txt' : 'lang=ksw',
-                                            'kyu_wdl.txt' : 'lang=ksw',
+test = fonttest(targets = { 'pdfs' : tex(),
+                            'svgs' : svg() }
+#                                    files={
+#                                        'ksw_Wordlist.txt' : 'lang=ksw',
                                             'my_HeadwordSyllables.txt' : 'ulon=1'},
                                         grsvg_gr = 'graphite',
                                         grsvg_ot = 'icu'
-                                       )}
                )
 
 for f in ['', 'bold', 'book', 'bookbold'] :
