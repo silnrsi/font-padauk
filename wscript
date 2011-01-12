@@ -32,7 +32,9 @@ test = fonttest(targets = { 'pdfs' : tex(),
                             'svg' : svg(files={
                                             'ksw_Wordlist.txt' : 'lang=ksw',
                                             'kyu_wdl.txt' : 'lang=ksw',
-                                            'my_HeadwordSyllables.txt' : 'ulon=1'}
+                                            'my_HeadwordSyllables.txt' : 'ulon=1'},
+                                        grsvg_gr = 'graphite',
+                                        grsvg_ot = 'icu'
                                        )}
                )
 
