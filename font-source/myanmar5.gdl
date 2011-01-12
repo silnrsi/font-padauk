@@ -333,7 +333,7 @@ to interact with it (usually underneath). These classes list the various diacrit
 the particular base character to change shape.
 @enddoc */
 
-t1014 = (cmed, c103d, c103e, cLVowelAll, c103b, g1039, g105e, g105f, g1060, g1082);
+t1014 = (cmed, c103d, c103e, cLVowelAll, c103b, g1039, g105e, g105f, g1060, g1082 g1010_103d_med);
 t100a = (t1014);
 
 /* @doc
