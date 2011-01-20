@@ -964,6 +964,8 @@ cConsNar { shift.x = (@m.origWidth - @n.advance.x) / 2; advance.x += (@m.origWid
 cConsNar {shift.x = (@m.origWidth - @n.advance.x) / 2; advance.x += (@m.origWidth - @n.advance.x) / 2} / (g101b, g103b) cUVowel? _=n cBDDia=m;
 (cConsNar, g1014_alt, g101b_alt) {kern.x = (@n.advance.x) / 4 }/ (g101b, g103b, g102f, g1030) cUVowel? _=n cMedHUu;
 
+g1037 / cYMed cUVowel? cLVowel? c1036? _ cTone;
+g1037 / cYMed cUVowel? cLVowel? c1036? _ (g1063 g106c g106d g108f);
 g1037 { advance.x = 1m } / cYMed cUVowel? cLVowel? c1036? _;
 // the next rule in conjunction with the other (g103d g103d_103e) causes a corrupt font
 // g1037 { advance.x = 10m } / (g103d g103d_103e) cUVowel? cLVowel? c1036? _;

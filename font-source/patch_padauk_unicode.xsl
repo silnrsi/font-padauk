@@ -34,6 +34,23 @@ different OpenType implementations -->
     </xsl:copy>
 </xsl:template>
 
+
+<xsl:template match="glyph[contains(@PSName,'.kinzi')]">
+    <xsl:variable name="psName" select="@PSName"/>
+    <xsl:variable name="psName2" select="base/@PSName"/>
+    <xsl:copy><xsl:apply-templates select="@*"/>
+        <xsl:element name="base">
+        <xsl:if test="base/@PSName">
+                <xsl:attribute name="PSName"><xsl:value-of select="base/@PSName"/></xsl:attribute>
+        </xsl:if>
+        <xsl:if test="base/@UID">
+            <xsl:attribute name="UID"><xsl:value-of select="base/@UID"/></xsl:attribute>
+        </xsl:if>
+        <advance width="0"/>
+        </xsl:element>
+    </xsl:copy>
+</xsl:template>
+
 <!-- default copy template -->
 <xsl:template match="@*|node()">
   <xsl:copy>
