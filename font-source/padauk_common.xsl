@@ -78,6 +78,12 @@ This is needed for [narrow cons] U+1039 [wide cons]
 		<xsl:copy-of select="../../glyph[@PSName = 'u103F']/point[@type = 'U']/location" />
 	</xsl:copy>
 </xsl:template>
+<xsl:template match="point[@type = '_U' and ../@PSName='u101B.kinzi_u103A']">
+	<xsl:copy>
+		<xsl:apply-templates select="@*"/>
+		<xsl:copy-of select="../../glyph[@PSName = 'u101B.kinzi_u102E']/point[@type = '_U']/location" />
+	</xsl:copy>
+</xsl:template>
 
 <!-- default copy template -->
 <xsl:template match="@*|node()">
