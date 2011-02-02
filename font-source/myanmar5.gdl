@@ -334,7 +334,7 @@ the particular base character to change shape.
 @enddoc */
 
 t1014 = (cmed, c103d, c103e, cLVowelAll, c103b, g1039, g105e, g105f, g1060, g1082 g1010_103d_med);
-t100a = (t1014);
+t100a = (cmed, c103d, c103e, c103b, g1039, g105e, g105f, g1060, g1082 g1010_103d_med);
 
 /* @doc
 A list of glyphs that move the ldot to the left, particular for Sgaw
@@ -690,13 +690,13 @@ inside a wrap.
 // (wrap is by now in front of consonant)
 g1030 > @u / c103c_only cConsSVowel cUVowel? _=u ^;
 g102f > @u / c103c_only cConsSVowel cUVowel? _=u ^;
-if (!uTall)
+if (uTall==0)
     // The next rule prevents the following, shorter rule matching
     cLVowel > cLVowel / c103c_103d ^ cConsSVowel cUVowel? _;
     cLVowel > cLVowelM / ^ cConsSVowel cUVowel? _;
-    g1014 cLVowel > g1014_alt:(1) cLVowelM:(3) / ^ _ cUVowel? _;
     g100a cLVowel > g100a_alt:(1) cLVowelM:(3) / ^ _ cUVowel? _;
 endif;
+g1014 cLVowel > g1014_alt:(1) cLVowelM:(3) / ^ _ cUVowel? _;
 // g103d_103e > g103d_103e_small / c103c cCons _;
 cUTakesMa g1036 > cUWithMa:(1 3) _ / ^ _ cLVowel? _;
 
@@ -706,6 +706,9 @@ Glyphs that take an alternate form with certain diacritics.
 
 g1014 > g1014_alt / ^ _ t1014;
 g100a > g100a_alt / ^ _ t100a;
+if (uTall == 0)
+g100a > g100a_alt / ^ _ cLVowelAll;
+endif;
 g1009 > g1025 / ^ _ g103a;          // is this the rule?
 g1009 > g1025 / ^ _ g1037? g103a;          // is this the rule?
 g1009 > g1025 / ^ _ cmed;
