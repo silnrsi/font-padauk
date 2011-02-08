@@ -2,12 +2,13 @@
 # encoding: utf-8
 
 #from waflib import Context
-import codecs
+import codecs, os
 
 TESTDIR='test-suite'
-VERSION='2.7.5'
-TTF_VERSION='2.705'
+VERSION='2.8'
+TTF_VERSION='2.8'
 APPNAME='padauk'
+SRCDIST="{0}-src.{1}".format(APPNAME, VERSION)
 DESC_SHORT='Burmese Unicode 6 truetype font with OT and Graphite support'
 DESC_LONG = ''
 COPYRIGHT='Copyright SIL International, all rights reserved'
@@ -58,25 +59,32 @@ for f in ['', 'bold', 'book', 'bookbold'] :
         target = 'Padauk.ttf'
 
     legacyfile = '../super/padauk' + f + '.ttf'
+    if os.path.exists(legacyfile) :
+        legmetrics = create(fsf + '_metrics.xml',
+                            cmd('../bin/ttfgetadv ${SRC} ${TGT}', [legacyfile]))
+        legxml = create(fsf + '_unicode_patched.xml',
+                     cmd('xsltproc -o ${TGT} --path .. --stringparam metricsFile '
+                            '${SRC[0].path_from(bld.srcnode.search("font-source"))} '
+                            '${SRC[1].bldpath()} ${SRC[2].bldpath()}',
+                         [legmetrics,
+                             'font-source/patch_padauk_unicode.xsl',
+                             'font-source/padauk_unicode.xml']))
+        src = legacy(fsf + '_src.ttf',
+                        source = legacyfile,
+                        xml = legxml,
+                        ap = '../super/padauk' + f + '.xml')
+    else :
+        src = fsf + '_src.ttf'
+
 #    import pdb; pdb.set_trace()
     fnt = font(target = process(target, name(namestrings[f][0], lang='en-US',
-                                                full=((namestrings[f][0] + " " + namestrings[f][1]) if 'bold' in f else namestrings[f][0])),
+            full=((namestrings[f][0] + " " + namestrings[f][1]) if 'bold' in f else namestrings[f][0])),
                                         name(mystrings[namestrings[f][0]], lang='my',
-                                                full=(((mystrings[namestrings[f][0]] + " " + mystrings[namestrings[f][1]]) if 'bold' in f else mystrings[namestrings[f][0]])))),
+            full=(((mystrings[namestrings[f][0]] + " " + mystrings[namestrings[f][1]]) if 'bold' in f else mystrings[namestrings[f][0]])))),
                 version = TTF_VERSION,
                 license = ofl("Padauk"),
                 copyright = COPYRIGHT,
-                source = legacy(fsf + '_src.ttf',
-                                source = legacyfile,
-                                xml = create(fsf + '_unicode_patched.xml',
-                                             cmd('xsltproc -o ${TGT} --path .. --stringparam metricsFile '
-                                                    '${SRC[0].path_from(bld.srcnode.search("font-source"))} '
-                                                    '${SRC[1].bldpath()} ${SRC[2].bldpath()}',
-                                                [create(fsf + '_metrics.xml',
-                                                        cmd('../bin/ttfgetadv ${SRC} ${TGT}', [legacyfile])),
-                                                 'font-source/patch_padauk_unicode.xsl',
-                                                 'font-source/padauk_unicode.xml'])),
-                                ap = '../super/padauk' + f + '.xml'),
+                source = src,
                 ap = fsf + '.xml',
                 classes = 'font-source/padauk_classes.xml',
                 opentype = volt(fsf + '.vtp',
@@ -87,14 +95,16 @@ for f in ['', 'bold', 'book', 'bookbold'] :
                                 master = 'font-source/myanmar5.gdl',
                                 params = '-w3521 -q -d -v2'),
                 tests = test,
-                script = 'mymr'
+                script = 'mymr',
+                extra_srcs = [fsf + '_src.ttf', 'bin/makegdl', 'font-source/myfeatures.gdl']
             )
-
-    process(fnt.ap, cmd('xsltproc -o ${TGT} '
+    
+    if os.path.exists(legacyfile) :
+        process(fnt.ap, cmd('xsltproc -o ${TGT} '
                         '--stringparam metricsFile ${SRC[0].path_from(bld.srcnode.search("font-source"))} '
                         '--stringparam fontXml ${SRC[1].path_from(bld.srcnode.search("font-source"))} '
                         '${SRC[2].bldpath()} ${DEP}',
-                        [fsf + '_metrics.xml', fnt.legacy.xml, fsf + '_src.xsl']))
+                        [legmetrics, legxml, fsf + '_src.xsl']))
 
 def configure(ctx) :
     ctx.env['MAKE_GDL'] = 'perl ../bin/makegdl'
