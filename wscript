@@ -10,7 +10,17 @@ TTF_VERSION='2.8'
 APPNAME='padauk'
 SRCDIST="{0}-src.{1}".format(APPNAME, VERSION)
 DESC_SHORT='Burmese Unicode 6 truetype font with OT and Graphite support'
-DESC_LONG = ''
+DESC_LONG = '''
+Padauk is a pan Burma Unicode font designed to support all the languages
+that use the Burmese script. It supports all the characters in the Burmese
+blocks for Unicode 6.0 and has OpenType and Graphite tables in it.
+
+There is specific language styling support for: kht, ksw, kyu
+
+There is feature support in Graphite for the following features: kdot, fdot,
+lldt, wtri, ulon, utal, dotc, hsln (value: 0-2), nnya, vtta
+'''
+DEBPKG='ttf-sil-padauk'
 COPYRIGHT='Copyright SIL International, all rights reserved'
 LICENSE='OFL.txt'
 
