@@ -530,5 +530,16 @@
 <glyph PSName="u103E_u1030.slantr"><base PSName="u103E_u1030.altk"/></glyph>
 <glyph PSName="u103E_u1030.slanth"><base PSName="u103E_u1030.sgaw"/></glyph>
 
+<!-- Tai Laing
+<glyph PSName="uAA7C" UID="AA7D"><base PSName="u108D" noaps="1"><shift y="777"/><point name="_U" x="-296" y="495"/></base></glyph>
+<glyph PSName="uAA7C_u102D"/><base PSName="u108D" noaps="1"><shift y="777"/></base><base PSName="u102D"/></glyph>
+<glyph PSName="uAA7C_u102E"/><base PSName="u108D" noaps="1"><shift y="777"/></base><base PSName="u102E"/></glyph>
+<glyph PSName="uAA7C_u1086"/><base PSName="u108D" noaps="1"><shift y="777"/></base><base PSName="u1086"/></glyph>
+<glyph PSName="uAA7C_uA9E5"/><base PSName="u108D" noaps="1"><shift y="777"/></base><base PSName="uA9E5"/></glyph>
+<glyph PSName="u108D_u102F"/><base PSName="u108D" noaps="1"/><base PSName="u102F.med"/></glyph>
+<glyph PSName="u108D_u1030"/><base PSName="u108D" noaps="1"/><base PSName="u1030.med"/></glyph>
+<glyph PSName="u108D_u103D"/><base PSName="u108D" noaps="1"/><base PSName="u103D"/></glyph>
+<glyph PSName="u108D_u1082"/><base PSName="u108D" noaps="1"/><base PSName="u1082"/></glyph>
+ see bottom p22 of tai laing primer -->
 </glyphs>
 </font>
