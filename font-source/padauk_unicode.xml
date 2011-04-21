@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!--
+2.4     MJPH    21-APR-2011     Add Tai Laing and shwe palaung
 2.3     MJPH    12-APR-2008     Add Mon ligatures for 2.3
 2.2     MJPH    23-OCT-2007     Prepare for 2.2 release
 2.1     MJPH     5-DEC-2006     Add PDAM4 glyphs
@@ -14,7 +15,7 @@
 
 <names>
     <string num="name">Padauk</string>
-    <string num="5">Version 2.7</string>
+    <string num="5">Version 2.9</string>
     <string num="6">Padauk<name num="2"/></string>
     <string num="9">Debbi Hosken</string>
     <string num="11">http://scripts.sil.org</string>
@@ -247,11 +248,15 @@
 <glyph UID="102C" PSName="u102C"><base UID="102C"/></glyph>
 <glyph UID="102D" PSName="u102D"><base UID="102D"/></glyph>
 <glyph PSName="u102D_u1036"><base PSName="u102D_u1036"/></glyph>
+<glyph PSName="u102D_uAA7C"><base PSName="uAA6E_u102D"/></glyph>
 <glyph UID="102E" PSName="u102E"><base UID="102E"/></glyph>
+<glyph PSName="u102E_uAA7C"><base PSName="uAA6E_u102E"/></glyph>
 <glyph UID="102F" PSName="u102F"><base UID="102F"/></glyph>
 <glyph PSName="u102F.med"><base PSName="u102F.med"/></glyph>
+<glyph PSName="u102F_u108D"><base PSName="u108D_u102F"/></glyph>
 <glyph UID="1030" PSName="u1030"><base UID="1030"/></glyph>
 <glyph PSName="u1030.med"><base PSName="u1030.med"/></glyph>
+<glyph PSName="u1030_u108D"><base PSName="u108D_u1030"/></glyph>
 <glyph UID="1031" PSName="u1031"><base UID="1031"/></glyph>
 <glyph UID="1032" PSName="u1032"><base UID="1032"/></glyph>
 <glyph PSName="u1032_u102D"><base PSName="u1032_u102D"/></glyph>
@@ -287,6 +292,7 @@
 <glyph PSName="u103D" UID="103D"><base PSName="u103D"/></glyph>
 <glyph PSName="u103D_u103E"><base PSName="u103D_u103E"/></glyph>
 <glyph PSName="u103D_u103E.small"><base PSName="u103D_u103E.small"/></glyph>
+<glyph PSName="u103D_u108D"><base PSName="u108D_u103D"/></glyph>
 <glyph PSName="u103E" UID="103E"><base PSName="u103E"/></glyph>
 <glyph PSName="u103E.alt"><base PSName="u103E.alt"/></glyph>
 <glyph PSName="u103E_u102F"><base PSName="u103E_u102F"/></glyph>
@@ -391,21 +397,19 @@
         <attach UID="1082" at="BS" with="_BS"/>
     </base>
 </glyph>
+<glyph PSName="u1082_u108D"><base PSName="u108D_u1082"/></glyph>
 <glyph UID="1083" PSName="u1083"><base UID="1083"/></glyph>
 <glyph UID="1084" PSName="u1084"><base UID="1084"/></glyph>
 <glyph UID="1085" PSName="u1085"><base UID="1085"/></glyph>
 <glyph UID="1086" PSName="u1086"><base UID="1086"/></glyph>
+<glyph PSName="u1086_uAA7C"><base PSName="uAA6E_u1086"/></glyph>
 <glyph UID="1087" PSName="u1087"><base UID="1087"/></glyph>
 <glyph UID="1088" PSName="u1088"><base UID="1088"/></glyph>
 <glyph UID="1089" PSName="u1089"><base UID="1089"/></glyph>
 <glyph UID="108A" PSName="u108A"><base UID="108A"/></glyph>
 <glyph UID="108B" PSName="u108B"><base UID="108B"/></glyph>
 <glyph UID="108C" PSName="u108C"><base UID="108C"/></glyph>
-<glyph UID="108D" PSName="u108D">
-    <base PSName="space.attach">
-        <attach UID="108D" at="BS" with="_BS"/>
-    </base>
-</glyph>
+<glyph UID="108D" PSName="u108D"><base UID="108D"/></glyph>
 <glyph UID="108E" PSName="u108E"><base UID="108E"/></glyph>
 <glyph UID="108F" PSName="u108F"><base UID="108F"/></glyph>
 <glyph UID="1090" PSName="u1090"><base UID="1090"/></glyph>
@@ -438,6 +442,30 @@
 <glyph UID="25CC" PSName="circledash"><base UID="25CC"/></glyph>
 <glyph UID="1700" PSName="u1700"><base UID="25CC"/></glyph>     <!-- fool stupid IE -->
 <glyph UID="A92E" PSName="uA92E"><base UID="A92E"/></glyph>
+
+<glyph UID="A9E0" PSName="uA9E0"><base UID="A9E0"/></glyph>
+<glyph UID="A9E1" PSName="uA9E1"><base UID="A9E1"/></glyph>
+<glyph UID="A9E2" PSName="uA9E2"><base UID="A9E2"/></glyph>
+<glyph UID="A9E3" PSName="uA9E3"><base UID="A9E3"/></glyph>
+<glyph UID="A9E4" PSName="uA9E4"><base UID="A9E4"/></glyph>
+<glyph UID="A9E5" PSName="uA9E5"><base UID="A9E5"/></glyph>
+<glyph PSName="uA9E5_uAA7C"><base PSName="uAA65_uA9E5"/></glyph>
+<glyph UID="A9E6" PSName="uA9E6"><base UID="A9E6"/></glyph>
+<glyph UID="A9E7" PSName="uA9E7"><base UID="AA6F"/></glyph>
+<glyph UID="A9E8" PSName="uA9E8"><base UID="AA70"/></glyph>
+<glyph UID="A9E9" PSName="uA9E9"><base UID="AA71"/></glyph>
+
+<glyph UID="A9F0" PSName="uA9F0"><base UID="E320"/></glyph>
+<glyph UID="A9F1" PSName="uA9F1"><base UID="E321"/></glyph>
+<glyph UID="A9F2" PSName="uA9F2"><base UID="E322"/></glyph>
+<glyph UID="A9F3" PSName="uA9F3"><base UID="E323"/></glyph>
+<glyph UID="A9F4" PSName="uA9F4"><base UID="E324"/></glyph>
+<glyph UID="A9F5" PSName="uA9F5"><base UID="E325"/></glyph>
+<glyph UID="A9F6" PSName="uA9F6"><base UID="E326"/></glyph>
+<glyph UID="A9F7" PSName="uA9F7"><base UID="E327"/></glyph>
+<glyph UID="A9F8" PSName="uA9F8"><base UID="E328"/></glyph>
+<glyph UID="A9F9" PSName="uA9F9"><base UID="E329"/></glyph>
+
 <glyph UID="AA60" PSName="uAA60"><base UID="E334"/></glyph>
 <glyph PSName="uAA60.med"><base PSName="uE334.med.kham"/></glyph>
 <glyph PSName="uAA60.med.kham"><base PSName="uE334.med.kham"/></glyph>
@@ -468,6 +496,10 @@
 <glyph UID="AA79" PSName="uAA79"><base UID="AA6D"/></glyph>
 <glyph UID="AA7A" PSName="uAA7A"><base UID="AA6A"/></glyph>
 <glyph UID="AA7B" PSName="uAA7B"><base UID="AA7B"/></glyph>
+<glyph UID="AA7C" PSName="uAA7C"><base UID="AA6E"/></glyph>
+<glyph UID="AA7D" PSName="uAA7D"><base UID="002D"/></glyph>
+<glyph UID="AA7E" PSName="uAA7E"><base UID="AA73"/></glyph>
+<glyph UID="AA7F" PSName="uAA7F"><base UID="AA72"/></glyph>
 
 <!-- khamti extensions -->
 <glyph PSName="u1000.kham"><base PSName="u1000.kham"/></glyph>
