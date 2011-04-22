@@ -33,7 +33,7 @@
     u1078.kham u1080.kham uAA60.kham uAA61.kham uAA62.kham uAA63.kham 
     uAA64.kham uAA65.kham uAA66.kham uAA6B.kham uAA6C.kham uAA6F.kham 
     uAA73.kham
-    uA9E7 uA9E8 uA9E9
+    uA9E0 uA9E1 uA9E2 uA9E3 uA9E4 uA9E7 uA9E8 uA9E9
     uA9F0 uA9F1 uA9F2 uA9F3 uA9F4 uA9F5 uA9F6 uA9F7 uA9F8 uA9F9
   </property>
   <property name="GDL_order" value="2" exts=".kham">
@@ -74,7 +74,7 @@
     u1004.kinzi u1004.kinzi_u102D u1004.kinzi_u102E u1004.kinzi_u1032 
     u1004.kinzi_u1033 u1004.kinzi_u102D_u1036 u101B.kinzi u102D u102D_u1036 
     u102E u1032 u1032_u102D u1033 u1034 u1035 u1071 u1072 u1073 u1074 u1085 
-    u1004.kinzi_u1036 u1036 u1036.dot
+    u1004.kinzi_u1036 u1036 u1036.dot uA9E5
   </property>
   <property name="GDL_order" value="12">
     u102F u102F.med u1030 u1030.med u1032.kham u1032_uAA70 
@@ -101,8 +101,9 @@
     u1061 u1065 u1066 u106E u106F 
     u1070 u1075 u1076 u1077 u1078 u1079 u107A u107B u107C u107D u107E u107F
     u1080 u1081 u108E
+    uA9E0 uA9E1 uA9E2 uA9E3 uA9E4 uA9E7 uA9E8 uA9E9
     uAA60 uAA61 uAA62 uAA63 uAA64 uAA65 uAA66 uAA67 uAA68 uAA69 uAA6A uAA6B uAA6C uAA6D uAA6E uAA6F
-    uAA71 uAA72 uAA73 uAA74 uAA75 uAA76 uAA7A
+    uAA71 uAA72 uAA73 uAA74 uAA75 uAA76 uAA7A uAA7E uAA7F
     u25CC
   </class>
   <class name="cConsNar" exts=".kham">
@@ -112,8 +113,9 @@
     u1061 u1065 u1066 
     u1075 u1076 u1077 u107F
     u108E u25CC
+    uA9E0
     uAA62 uAA6B uAA6D uAA6F
-    uAA73 
+    uAA73 uAA7E
   </class>
   <class name="cConsWide" exts=".kham">
     u1000 u1003 u1006 u1008 u1009 u100A u100F
@@ -121,8 +123,9 @@
     u1020 u1021 u1022 u1029 u103F 
     u106E u106F 
     u1070 u1078 u1079 u107A u107B u107C u107D u107E u1080 
+    uA9E1 uA9E2 uA9E3 uA9E4 uA9E7 uA9E8 uA9E9
     uAA60 uAA61 uAA63 uAA64 uAA65 uAA66 uAA67 uAA68 uAA69 uAA6A uAA6C uAA6E 
-    uAA71 uAA72 uAA74 uAA75 uAA76 uAA7A
+    uAA71 uAA72 uAA74 uAA75 uAA76 uAA7A uAA7F
   </class>
   <class name="cMedWide">
     u1000.med u1003.med u1006.med u100A.med u100F.med
@@ -136,6 +139,7 @@
     u1065 u106E 
     u1075 u1076 u1077 u1078 u1079 u107B u107C u107D u107F
     u1080 u108E
+    uA9E0 uA9E1 uA9E2 uA9E3 uA9E4 uA9E7 uA9E8 uA9E9
     uAA60 uAA61 uAA62 uAA63 uAA64 uAA66 uAA67 uAA68 uAA69 uAA6A uAA6B uAA6C uAA6D uAA6E uAA6F
     uAA71 uAA72 uAA73 u25CC
   </class>
@@ -147,6 +151,12 @@
   </class>
   <class name="c103e" exts=".slantr .slanth .tri">
     u103E u103E_u102F u103E_u1030 u103D_u103E u103B_u103E
+  </class>
+  <class name="cSpaceVowel">
+    u102B u102C u1062 u1063 u1067 u1068 u1083
+  </class>
+  <class name="cToneDia">
+    u108D uAA7C
   </class>
 
 </classes>

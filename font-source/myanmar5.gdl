@@ -183,7 +183,8 @@ wj {breakweight = -BW_CHAR};
 // encourage breaking after signs
 cSigns = (g104c, g104d, g104f) {breakweight = BW_WORD};
 cNum = (g1040, g1041, g1042, g1043, g1044, g1045, g1046, g1047, g1048, g1049,
-        g1090, g1091, g1092, g1093, g1094, g1095, g1096, g1097, g1098, g1099) {breakweight = -BW_CHAR};
+        g1090, g1091, g1092, g1093, g1094, g1095, g1096, g1097, g1098, g1099
+        ga9f0, ga9f1, ga9f2, ga9f3, ga9f4, ga9f5, ga9f6, ga9f7, ga9f8, ga9f8) {breakweight = -BW_CHAR};
 // discourage breaking inside quotes
 cLQuote = (g_parenleft, g_quotedblleft, g_quoteleft) {breakweight = -BW_SYLL};
 cRQuote = (g_parenright, g_quotedblright, g_quoteright) {breakweight = BW_WORD};
@@ -270,6 +271,8 @@ cNgaUVowel = (g1004_kinzi_102e, g1004_kinzi_102d, g1004_kinzi_1032, g1004_kinzi_
 cUTakesMa = (g102d, g1004_kinzi);
 cUWithMa = (g102d_1036, g1004_kinzi_1036);
 c1036 = (g1036, g1004_kinzi_1036, g102d_1036, g103a_1036);
+cUVowelBar = (ga9e5, g102d, g102e, g1086);
+cBarUVowel = (ga9e5_aa7c, g102d_aa7c, g102e_aa7c, g1086_aa7c);
 
 /* @doc
 Create a general below diacritic class consisting of single and double width below diacritics.
@@ -282,6 +285,8 @@ Create classes for base characters that change shape when they have a below diac
 @enddoc */
 cLDiaMod = (g100a, g1014, g101b);
 cLDiaModed = (g100a_alt, g1014_alt, g101b_alt);
+cLDiaBar = (g103d, g102f_med, g1030_med, g1082);
+cBarLDia = (g103d_108d, g102f_108d, g1030_108d, g1082_108d);
 
 /* @doc
 For each medialised cluster glyph we list all the forms it may take, including
@@ -293,7 +298,7 @@ when it ligates with another medial.
 // c103e = (g103e, g103e_102f, g103e_1030, g103d_103e, g103b_103e, g103d_103e_tri);
 
 /* @doc
-U+1039 U+101B (wrap) takes numerous forms depending on context. We list various sets of these
+U+103C (wrap) takes numerous forms depending on context. We list various sets of these
 forms here. First we separate the non-ligating forms and the ligating forms. Then we list
 by width: narrow and wide. And then we also list be normal and alternate forms. Alternate
 forms are those with a gap at the top for a spacing upper vowel.
@@ -741,6 +746,11 @@ g1062 g103a > g1062_103a:(1 2) _;
 g102b g103a > g102b_103a:(1 3) _ / _ g1037 _;
 g1062 g103a > g1062_103a:(1 3) _ / _ g1037 _;
 g102b g1036 > @2 @1;
+
+/* I'm sure there are things that can intervene between these here */
+cUVowelBar gaa7c > cBarUVowel:(1 3) _ / _ cLVowelM? _;
+cLDiaBar g108d > cBarLDia:(1 3) _ / _ cUVowel? _;
+cSpaceVowel cToneDia > @2 @1;
 
 /* @doc
 Khamti reduplication ligatures
