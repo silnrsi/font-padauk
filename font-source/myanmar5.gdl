@@ -514,6 +514,7 @@ g1051 gKill g100c > g1051_100c:(1 2 3){sOrder=order} _ _;
 g1051 gKill g100d > g1051_100d:(1 2 3){sOrder=order} _ _;
 g105a > g1004 / ^ _ (g103a g1039);
 g1081 _ > g1002 g103e:1 / ^ _ g103b? g103c? g103d? _;
+gKill g101c g103d > g101c_med_103d:(1 2 3){sOrder = order} _ _;
 
 // there should be no gKill left now
 // gKill > _;
@@ -611,11 +612,14 @@ g1037 > @2{sOrder=18} / ANY{sOrder == 20} _ ^;
 g103e > @2{sOrder=19} / g102c _ g103a;
 
 // Visible virama
-g103a > @2{sOrder=20} / ANY{sOrder >= 13 && sOrder < 20} _{sOrder == 3};
+g103a > @2{sOrder=20} / ANY{sOrder >= 12 && sOrder < 20} _{sOrder == 3};
+g103a > @2{sOrder=20} / (g103c_102f_narr) _{sOrder == 3};
 // Allow 103a 1037 for backwards compatibility, but not 103a 1037 103a
 _ g103a > g25cc:4 @4 / g103a g1037 _ _;
 gaa70 > @2 / g_space _;
 gaa70 > @1;
+
+_ > g25cc:3 / g1005 _ g103b ^;
 
 // these rules have sort length 2 which is awkward for any ligature processing
 

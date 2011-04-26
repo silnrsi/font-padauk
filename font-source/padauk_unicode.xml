@@ -210,6 +210,7 @@
 <glyph PSName="u101B.kinzi_u103A"><base PSName="u101B.kinzi_u103A"/></glyph>
 <glyph UID="101C" PSName="u101C"><base UID="101C"/></glyph>
 <glyph PSName="u101C.med"><base PSName="u101C.med"/></glyph>
+<glyph PSName="u101C.med_u103D"><base PSName="u101C_u103D.med"/></glyph>
 <glyph UID="101D" PSName="u101D"><base UID="101D"/></glyph>
 <glyph UID="101E" PSName="u101E"><base UID="101E"/></glyph>
 <glyph PSName="u101E.med"><base PSName="u101E.med"/></glyph>
