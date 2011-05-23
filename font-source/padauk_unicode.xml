@@ -452,9 +452,20 @@
 <glyph UID="A9E5" PSName="uA9E5"><base UID="A9E5"/></glyph>
 <glyph PSName="uA9E5_uAA7C"><base PSName="uAA65_uA9E5"/></glyph>
 <glyph UID="A9E6" PSName="uA9E6"><base UID="A9E6"/></glyph>
-<glyph UID="A9E7" PSName="uA9E7"><base UID="AA6F"/></glyph>
-<glyph UID="A9E8" PSName="uA9E8"><base UID="AA70"/></glyph>
-<glyph UID="A9E9" PSName="uA9E9"><base UID="AA71"/></glyph>
+<glyph UID="A9E7" PSName="uA9E7"><base UID="AA70"/></glyph>
+<glyph UID="A9E8" PSName="uA9E8"><base UID="AA71"/></glyph>
+<glyph UID="A9E9" PSName="uA9E9"><base UID="A9EA"/></glyph>
+<glyph UID="A9EA" PSName="uA9EA"><base UID="A9EB"/></glyph>
+<glyph UID="A9EB" PSName="uA9EB"><base UID="A9EC"/></glyph>
+<glyph UID="A9EC" PSName="uA9EC"><base UID="A9ED"/></glyph>
+<glyph UID="A9ED" PSName="uA9ED"><base UID="A9EE"/></glyph>
+<glyph UID="A9EE" PSName="uA9EE"><base UID="A9EF"/></glyph>
+<glyph UID="A9EF" PSName="uA9EF"><base UID="A9FA"/></glyph>
+<glyph UID="A9FA" PSName="uA9FA"><base UID="A9FB"/></glyph>
+<glyph UID="A9FB" PSName="uA9FB"><base UID="A9FC"/></glyph>
+<glyph UID="A9FC" PSName="uA9FC"><base UID="A9FD"/></glyph>
+<glyph UID="A9FD" PSName="uA9FD"><base UID="A9FE"/></glyph>
+<glyph UID="A9FE" PSName="uA9FE"><base UID="A9FF"/></glyph>
 
 <glyph UID="A9F0" PSName="uA9F0"><base UID="E320"/></glyph>
 <glyph UID="A9F1" PSName="uA9F1"><base UID="E321"/></glyph>
