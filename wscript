@@ -88,9 +88,11 @@ for f in ['', 'bold', 'book', 'bookbold'] :
 
 #    import pdb; pdb.set_trace()
     fnt = font(target = process(target, name(namestrings[f][0], lang='en-US',
-            full=((namestrings[f][0] + " " + namestrings[f][1]) if 'bold' in f else namestrings[f][0])),
+                                            full=((namestrings[f][0] + " " + namestrings[f][1]) 
+                                                if 'bold' in f else namestrings[f][0])),
                                         name(mystrings[namestrings[f][0]], lang='my',
-            full=(((mystrings[namestrings[f][0]] + " " + mystrings[namestrings[f][1]]) if 'bold' in f else mystrings[namestrings[f][0]])))),
+                                            full=(((mystrings[namestrings[f][0]] + " " + mystrings[namestrings[f][1]]) 
+                                                if 'bold' in f else mystrings[namestrings[f][0]])))),
                 version = TTF_VERSION,
                 license = ofl("Padauk"),
                 copyright = COPYRIGHT,

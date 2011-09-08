@@ -28,7 +28,8 @@
     circledash u1700 uAA60 uAA61 
     uAA62 uAA63 uAA64 uAA65 uAA66 uAA67 uAA68 uAA69 uAA6A uAA6B uAA6C uAA6D 
     uAA6E uAA6F uAA71 uAA72 uAA73 uAA74 uAA75 uAA76 uAA75.kham uAA76.kham 
-    uAA79 uAA7A uAA7E uAA7F u1000.kham u1002.kham u1004.kham 
+    uAA79 uAA7A uAA7E uAA7F
+    u1000.kham u1002.kham u1004.kham 
     u1010.kham u1015.kham u1019.kham u101A.kham u101C.kham u1022.kham 
     u1078.kham u1080.kham uAA60.kham uAA61.kham uAA62.kham uAA63.kham 
     uAA64.kham uAA65.kham uAA66.kham uAA6B.kham uAA6C.kham uAA6F.kham 
@@ -60,7 +61,7 @@
   </property>
   <property name="GDL_order" value="6">
     u103D u103D_u103E u103D_u103E.small u103D.tri u103D_u103E.tri
-    u1058 u1059 u1082 u101C.med_u103
+    u1058 u1059 u1082 u101C.med_u103D
   </property>
   <property name="GDL_order" value="7">
     u103E u103E.alt u103E_u102F u103E_u1030 u103E.slantr u103E.slanth 
