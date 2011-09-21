@@ -327,16 +327,8 @@
 <glyph UID="1055" PSName="u1055"><base UID="1055"/></glyph>
 <glyph UID="1056" PSName="u1056"><base UID="1056"/></glyph>
 <glyph UID="1057" PSName="u1057"><base UID="1057"/></glyph>
-<glyph UID="1058" PSName="u1058">
-    <base PSName="space.attach">
-        <attach UID="1058" at="BS" with="_BS"/>
-    </base>
-</glyph>
-<glyph UID="1059" PSName="u1059">
-    <base PSName="space.attach">
-        <attach UID="1059" at="BS" with="_BS"/>
-    </base>
-</glyph>
+<glyph UID="1058" PSName="u1058"><base UID="1058"/></glyph>
+<glyph UID="1059" PSName="u1059"><base UID="1059"/></glyph>
 <glyph UID="105A" PSName="u105A"><base UID="105A"/></glyph>
 <glyph PSName="u105A.med"><base PSName="u105A.med"/></glyph>
 <glyph UID="105B" PSName="u105B"><base UID="105B"/></glyph>
@@ -366,22 +358,12 @@
 <glyph UID="106E" PSName="u106E"><base UID="106E"/></glyph>
 <glyph UID="106F" PSName="u106F"><base UID="106F"/></glyph>
 <glyph UID="1070" PSName="u1070"><base UID="1070"/></glyph>
-<glyph UID="1071" PSName="u1071">
-    <base PSName="space.attach">
-        <attach PSName="u1071" at="U" with="_U"/>
-    </base>
-</glyph>
+<glyph UID="1071" PSName="u1071"><base PSName="u1071"/></glyph>
 <glyph UID="1072" PSName="u1072"><base UID="103A"/></glyph>
-<glyph UID="1073" PSName="u1073">
-    <base PSName="space.attach">
-        <attach PSName="u1073" at="U" with="_U"/>
-    </base>
-</glyph>
+<glyph UID="1073" PSName="u1073"><base PSName="u1073"/></glyph>
 <glyph UID="1074" PSName="u1074"><base UID="1074"/></glyph>
 <glyph UID="1075" PSName="u1075"><base UID="1075"/></glyph>
-<glyph UID="1076" PSName="u1076">
-    <base UID="1076"/>
-</glyph>
+<glyph UID="1076" PSName="u1076"><base UID="1076"/></glyph>
 <glyph UID="1077" PSName="u1077"><base UID="1077"/></glyph>
 <glyph UID="1078" PSName="u1078"><base UID="1078"/></glyph>
 <glyph UID="1079" PSName="u1079"><base UID="1079"/></glyph>
@@ -393,11 +375,7 @@
 <glyph UID="107F" PSName="u107F"><base UID="107F"/></glyph>
 <glyph UID="1080" PSName="u1080"><base UID="1080"/></glyph>
 <glyph UID="1081" PSName="u1081"><base UID="1081"/></glyph>
-<glyph UID="1082" PSName="u1082">
-    <base PSName="space.attach">
-        <attach UID="1082" at="BS" with="_BS"/>
-    </base>
-</glyph>
+<glyph UID="1082" PSName="u1082"><base UID="1082"/></glyph>
 <glyph PSName="u1082_u108D"><base PSName="u108D_u1082"/></glyph>
 <glyph UID="1083" PSName="u1083"><base UID="1083"/></glyph>
 <glyph UID="1084" PSName="u1084"><base UID="1084"/></glyph>

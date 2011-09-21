@@ -39,27 +39,29 @@ namestrings = {
 
 #def init(ctx) :
 #    Context.load_tool("font", tooldir=["/home/mhosken/Work/shorts/waf/trunk/bin"])
-test = fonttest(targets = { 'pdfs' : tex(),
-                            'svg' : svg(files={
-                                        'badSequences.txt' : '',
-                                        'blk_syllables.txt' : 'lang=blk',
-                                        'kht_extas.txt' : 'lang=kht',
-                                        'kht_syllables.txt' : 'lang=kht',
-                                        'ksw_Wordlist.txt' : 'lang=ksw',
-                                        'kyu_regression.txt' : 'lang=kyu',
-                                        'kyu_syllables.txt' : 'lang=kyu',
-                                        'mnw_shorto62_syllables.txt' : 'lang=mnw',
-                                        'mon.txt' : 'lang=mnw',
-                                        'my_HeadwordSyllables.txt' : 'ulon=1',
-                                        'pwo_syllables.txt' : 'lang=pwo',
-                                        'regression.txt' : '',
-                                        'sanskrit.txt' : '',
-                                        'shn_syllables.txt' : ''
-                                        },
-                                        grsvg_gr = 'graphite',
-                                        grsvg_ot = 'harfbuzzng'
-                                        )}
-               )
+test = fonttest(targets = {
+        'pdfs' : tex(),
+        'svg' : svg(files={
+                        'badSequences.txt' : '',
+                        'blk_syllables.txt' : 'lang=blk',
+                        'kht_extas.txt' : 'lang=kht',
+                        'kht_syllables.txt' : 'lang=kht',
+                        'ksw_Wordlist.txt' : 'lang=ksw',
+                        'kyu_regression.txt' : 'lang=kyu',
+                        'kyu_syllables.txt' : 'lang=kyu',
+                        'mnw_shorto62_syllables.txt' : 'lang=mnw',
+                        'mon.txt' : 'lang=mnw',
+                        'my_HeadwordSyllables.txt' : 'ulon=1',
+                        'pwo_syllables.txt' : 'lang=pwo',
+                        'regression.txt' : '',
+                        'sanskrit.txt' : '',
+                        'shn_syllables.txt' : ''},
+                    grsvg_gr = 'graphite',
+                    grsvg_ot = 'harfbuzzng'),
+        'test' : tests({
+            'regression' :
+                cmd('/usr/local/bin/cmptxtrender -e ${shaper} -s "${script}" -t ${SRC[1].bldpath()} -o ${TGT} ${fileinfo} ${SRC[0].bldpath()} ${SRC[2].bldpath()}')})
+    })
 
 for f in ['', 'bold', 'book', 'bookbold'] :
     fsf = 'font-source/padauk' + f
@@ -68,10 +70,12 @@ for f in ['', 'bold', 'book', 'bookbold'] :
     else :
         target = 'Padauk.ttf'
 
-    legacyfile = '../super/padauk' + f + '.ttf'
+    legacyfile = '../super/padauk' + f + '.ufo'
     if os.path.exists(legacyfile) :
+        source = create(fsf + '_super.sfd', cmd('ufo2sfd -a ${SRC[1].bldpath()} -b R ${SRC[0].bld_dir()} ${TGT}',
+                                                [legacyfile + '/fontinfo.plist', '../super/padauk' + f + '.xml']))
         legmetrics = create(fsf + '_metrics.xml',
-                            cmd('../bin/ttfgetadv ${SRC} ${TGT}', [legacyfile]))
+                            cmd('../bin/ttfgetadv ${SRC} ${TGT}', [source]))
         legxml = create(fsf + '_unicode_patched.xml',
                      cmd('xsltproc -o ${TGT} --path .. --stringparam metricsFile '
                             '${SRC[0].path_from(bld.srcnode.search("font-source"))} '
@@ -79,8 +83,8 @@ for f in ['', 'bold', 'book', 'bookbold'] :
                          [legmetrics,
                              'font-source/patch_padauk_unicode.xsl',
                              'font-source/padauk_unicode.xml']))
-        src = legacy(fsf + '_src.ttf',
-                        source = legacyfile,
+        src = legacy(fsf + '_src.sfd',
+                        source = source,
                         xml = legxml,
                         ap = '../super/padauk' + f + '.xml')
     else :
