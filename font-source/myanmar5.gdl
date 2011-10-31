@@ -586,8 +586,8 @@ g1040 > @2{sOrder=1} / cNum _ (g102d, g102b);
 ckinzi > @2{sOrder=2} / cCons _ g103b;
 
 // slot Mon Asat
-g103a > @2 / (g103e, g103e_102f, g103e_1030, g1082) _ g1037;
-g103a > @3{sOrder=8} / cCons (g103e, g103e_102f, g103e_1030, g1082) _;
+g103a > @2 / (g103e, g103e_102f, g103e_1030, g1082, g103c, g103c_103d_narr, g103c_102f_narr) _ g1037;
+g103a > @3{sOrder=8} / cCons (g103e, g103e_102f, g103e_1030, g1082, g103c, g103c_103d_narr, g103c_102f_narr) _;
 
 // slot Shan E vowel
 g1031 > @3{sOrder=10} / ANY{sOrder > 0 && sOrder < 9} g1031 _;
@@ -616,8 +616,11 @@ g103a > @2{sOrder=20} / ANY{sOrder >= 12 && sOrder < 20} _{sOrder == 3};
 g103a > @2{sOrder=20} / (g103c_102f_narr) _{sOrder == 3};
 // Allow 103a 1037 for backwards compatibility, but not 103a 1037 103a
 _ g103a > g25cc:4 @4 / g103a g1037 _ _;
-gaa70 > @2 / g_space _;
+// gaa70 > @2 / g_space _;
 gaa70 > @1;
+
+// allow ||: for question mark
+g1038 > @2 / g104b _;
 
 _ > g25cc:3 / g1005 _ g103b ^;
 
@@ -672,8 +675,8 @@ corresponding class the wrap glyphs should be mapped to. We also move the wrap t
 // suboptimal matches all around here
 _ c103c_nar > c103c_wide:r$r _ / ^ _ cConsWide cmed? c103b? _=r;
 _ c103c_nar > c103c_widalt:r$r _ / ^ _ cConsNar cMedWide _=r c103d? c103e? cUSpace;
-_ c103c_nar > c103c_naralt:r$r _ / ^ _ cConsNar cmed? _=r c103d? c103e? cUSpace;
-_ c103c_nar > c103c_widalt:r$r _ / ^ _ cConsWide cmed? _=r c103d? c103e? cUSpace;
+_ c103c_nar > c103c_naralt:r$r _ / ^ _ cConsNar cmed? c103b? _=r c103d? c103e? cUSpace;
+_ c103c_nar > c103c_widalt:r$r _ / ^ _ cConsWide cmed? c103b? _=r c103d? c103e? cUSpace;
 _ c103c_nar > c103c_widalt:r$r _ / ^ _ cConsNar cMedWide g103a _=r;
 _ c103c_nar > c103c_naralt:r$r _ / ^ _ cConsNar cmed? g103a _=r;
 _ c103c_nar > c103c_widalt:r$r _ / ^ _ cConsWide cmed? g103a _=r;
@@ -875,14 +878,20 @@ if (lldot)
                                         / ^ _ _ {attached == 0}; 
 endif;
 
+if (ldotrt == 0)
 cConsSVowel c1037 {attach {to = @2; at = LS; with = LM}; attached = 1} \
                                         / ^ c103c_only? _ cUDia? _{attached == 0};
+c103c_mix c1037 {attach {to = @1; at = LS; with = LM}; attached = 1} \
+                                        / ^ _ cConsSVowel cUDia? _{attached == 0};
+else
+c103c c1037 {attach {to = @1; at = LS; with = LM}; attached = 1} \
+                                        / ^ _ cConsSVowel cUDia? _{attached == 0};
+endif;
+
 c103c c1037 {attach {to = @1; at = LS; with = LM}; attached = 1} \
                                         / ^ _ cConsSVowel cmed c103e_dia? cUDia? _{attached == 0};
 c103c c1037 {attach {to = @1; at = LS; with = LM}; attached = 1} \
                                         / ^ _ cConsSVowel cmed? c103e_dia cUDia? _{attached == 0};
-c103c_mix c1037 {attach {to = @1; at = LS; with = LM}; attached = 1} \
-                                        / ^ _ cConsSVowel cUDia? _{attached == 0};
 c101b c1037 {attach {to = @1; at = LS; with = LM}; attached = 1} \
                                         / ^ _ (cmed, cClusDia) cUVowel? cLVowelM? c1036? _{attached == 0};
 c101b c1037 {attach {to = @1; at = LS; with = LM}; attached = 1} \

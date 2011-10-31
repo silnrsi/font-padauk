@@ -91,6 +91,13 @@ vartta
     default = 0;
 }
 
+ldotrt
+{
+    id = "dotr";
+    name.LG_USENG = string("Move ldot right when possible");
+    default = 0;
+}
+
 endtable;
 
 table(language)

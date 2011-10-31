@@ -60,7 +60,7 @@ test = fonttest(targets = {
                     grsvg_ot = 'harfbuzzng'),
         'test' : tests({
             'regression' :
-                cmd('/usr/local/bin/cmptxtrender -e ${shaper} -s "${script}" -t ${SRC[1].bldpath()} -o ${TGT} ${fileinfo} ${SRC[0].bldpath()} ${SRC[2].bldpath()}')})
+                cmd('cmptxtrender -k -e ${shaper} -s "${script}" -t ${SRC[1].bldpath()} -o ${TGT} ${fileinfo} ${SRC[0].bldpath()} ${SRC[2].bldpath()}')})
     })
 
 for f in ['', 'bold', 'book', 'bookbold'] :
