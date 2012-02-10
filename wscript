@@ -63,6 +63,7 @@ test = fonttest(targets = {
                 cmd('cmptxtrender -k -e ${shaper} -s "${script}" -t ${SRC[1].bldpath()} -o ${TGT} ${fileinfo} ${SRC[0].bldpath()} ${SRC[2].bldpath()}')})
     })
 
+# import pdb; pdb.set_trace()
 for f in ['', 'bold', 'book', 'bookbold'] :
     fsf = 'font-source/padauk' + f
     if len(f) :
@@ -71,11 +72,11 @@ for f in ['', 'bold', 'book', 'bookbold'] :
         target = 'Padauk.ttf'
 
     legacyfile = '../super/padauk' + f + '.ufo'
-    if os.path.exists(legacyfile) :
+    if os.path.exists(src(legacyfile)) :
         source = create(fsf + '_super.sfd', cmd('ufo2sfd -a ${SRC[1].bldpath()} -b R ${SRC[0].bld_dir()} ${TGT}',
                                                 [legacyfile + '/fontinfo.plist', '../super/padauk' + f + '.xml']))
         legmetrics = create(fsf + '_metrics.xml',
-                            cmd('../bin/ttfgetadv ${SRC} ${TGT}', [source]))
+                            cmd(src('bin/ttfgetadv') + ' ${SRC} ${TGT}', [source]))
         legxml = create(fsf + '_unicode_patched.xml',
                      cmd('xsltproc -o ${TGT} --path .. --stringparam metricsFile '
                             '${SRC[0].path_from(bld.srcnode.search("font-source"))} '
@@ -83,12 +84,12 @@ for f in ['', 'bold', 'book', 'bookbold'] :
                          [legmetrics,
                              'font-source/patch_padauk_unicode.xsl',
                              'font-source/padauk_unicode.xml']))
-        src = legacy(fsf + '_src.sfd',
+        srcfile = legacy(fsf + '_src.sfd',
                         source = source,
                         xml = legxml,
                         ap = '../super/padauk' + f + '.xml')
     else :
-        src = fsf + '_src.ttf'
+        srcfile = fsf + '_src.ttf'
 
 #    import pdb; pdb.set_trace()
     fnt = font(target = process(target, name(namestrings[f][0], lang='en-US',
@@ -100,7 +101,7 @@ for f in ['', 'bold', 'book', 'bookbold'] :
                 version = TTF_VERSION,
                 license = ofl("Padauk"),
                 copyright = COPYRIGHT,
-                source = src,
+                source = srcfile,
                 ap = fsf + '.xml',
                 classes = 'font-source/padauk_classes.xml',
                 opentype = volt(fsf + '.vtp',
@@ -115,7 +116,7 @@ for f in ['', 'bold', 'book', 'bookbold'] :
                 extra_srcs = [fsf + '_src.ttf', 'bin/makegdl', 'font-source/myfeatures.gdl']
             )
     
-    if os.path.exists(legacyfile) :
+    if os.path.exists(src(legacyfile)) :
         process(fnt.ap, cmd('xsltproc -o ${TGT} '
                         '--stringparam metricsFile ${SRC[0].path_from(bld.srcnode.search("font-source"))} '
                         '--stringparam fontXml ${SRC[1].path_from(bld.srcnode.search("font-source"))} '
@@ -123,4 +124,4 @@ for f in ['', 'bold', 'book', 'bookbold'] :
                         [legmetrics, legxml, fsf + '_src.xsl']))
 
 def configure(ctx) :
-    ctx.env['MAKE_GDL'] = 'perl ../bin/makegdl'
+    ctx.env['MAKE_GDL'] = 'perl ' + src('bin/makegdl')
