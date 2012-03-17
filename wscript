@@ -5,7 +5,7 @@
 import codecs, os
 
 TESTDIR='test-suite'
-VERSION='2.91'
+VERSION='2.92'
 TTF_VERSION='2.9'
 APPNAME='padauk'
 SRCDIST="{0}-src.{1}".format(APPNAME, VERSION)
@@ -37,8 +37,6 @@ namestrings = {
     'book' :        ('Padauk Book', 'Regular')
 }
 
-#def init(ctx) :
-#    Context.load_tool("font", tooldir=["/home/mhosken/Work/shorts/waf/trunk/bin"])
 test = fonttest(targets = {
         'pdfs' : tex(),
         'svg' : svg(files={
@@ -64,6 +62,7 @@ test = fonttest(targets = {
     })
 
 # import pdb; pdb.set_trace()
+opts = preprocess_args({'opt' : '--nosuper'})
 for f in ['', 'bold', 'book', 'bookbold'] :
     fsf = 'font-source/padauk' + f
     if len(f) :
@@ -72,7 +71,7 @@ for f in ['', 'bold', 'book', 'bookbold'] :
         target = 'Padauk.ttf'
 
     legacyfile = '../super/padauk' + f + '.ufo'
-    if os.path.exists(src(legacyfile)) :
+    if os.path.exists(src(legacyfile)) and '--nosuper' not in opts :
         source = create(fsf + '_super.sfd', cmd('ufo2sfd -a ${SRC[1].bldpath()} -b R ${SRC[0].bld_dir()} ${TGT}',
                                                 [legacyfile + '/fontinfo.plist', '../super/padauk' + f + '.xml']))
         legmetrics = create(fsf + '_metrics.xml',
@@ -89,7 +88,7 @@ for f in ['', 'bold', 'book', 'bookbold'] :
                         xml = legxml,
                         ap = '../super/padauk' + f + '.xml')
     else :
-        srcfile = fsf + '_src.ttf'
+        srcfile = fsf + '_src.sfd'
 
 #    import pdb; pdb.set_trace()
     fnt = font(target = process(target, 
@@ -117,7 +116,7 @@ for f in ['', 'bold', 'book', 'bookbold'] :
                 extra_srcs = [fsf + '_src.ttf', 'bin/makegdl', 'font-source/myfeatures.gdl']
             )
     
-    if os.path.exists(src(legacyfile)) :
+    if os.path.exists(src(legacyfile)) and '--nosuper' not in opts :
         process(fnt.ap, cmd('xsltproc -o ${TGT} '
                         '--stringparam metricsFile ${SRC[0].path_from(bld.srcnode.search("font-source"))} '
                         '--stringparam fontXml ${SRC[1].path_from(bld.srcnode.search("font-source"))} '
@@ -126,3 +125,13 @@ for f in ['', 'bold', 'book', 'bookbold'] :
 
 def configure(ctx) :
     ctx.env['MAKE_GDL'] = 'perl ' + src('bin/makegdl')
+
+def srcdist(ctx) :
+    for p in package.packages() :
+        for f in p.fonts :
+            try :
+                del f.legacy
+            except :
+                pass
+            
+    

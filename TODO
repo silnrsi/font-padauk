@@ -1,0 +1,7 @@
+* Support Win8 shaping
+* Convert to FontForge for OpenType shaping
+* Add WOFF outputs
+* Add OFL guff to keep others happy
+* Test Tai Laing support
+* Release 2.10
+
