@@ -23,6 +23,7 @@ lldt, wtri, ulon, utal, dotc, hsln (value: 0-2), nnya, vtta
 DEBPKG='ttf-sil-padauk'
 COPYRIGHT='Copyright SIL International, all rights reserved'
 LICENSE='OFL.txt'
+DOCDIR='doc'
 
 mystrings = {
     'Regular' : 'ပိုမှန်',
