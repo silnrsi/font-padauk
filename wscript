@@ -5,7 +5,7 @@
 import codecs, os
 
 TESTDIR='test-suite'
-VERSION='2.92'
+VERSION='2.93'
 TTF_VERSION='2.9'
 APPNAME='padauk'
 SRCDIST="{0}-src.{1}".format(APPNAME, VERSION)
@@ -74,7 +74,8 @@ for f in ['', 'bold', 'book', 'bookbold'] :
     legacyfile = '../super/padauk' + f + '.ufo'
     if os.path.exists(src(legacyfile)) and '--nosuper' not in opts :
         source = create(fsf + '_super.sfd', cmd('ufo2sfd -a ${SRC[1].bldpath()} -b R ${SRC[0].bld_dir()} ${TGT}',
-                                                [legacyfile + '/fontinfo.plist', '../super/padauk' + f + '.xml']))
+                                                [legacyfile + '/fontinfo.plist', '../super/padauk' + f + '.xml']),
+                                            cmd('../bin/fixsfd ${DEP} ${TGT}'))
         legmetrics = create(fsf + '_metrics.xml',
                             cmd(src('bin/ttfgetadv') + ' ${SRC} ${TGT}', [source]))
         legxml = create(fsf + '_unicode_patched.xml',
