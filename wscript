@@ -5,7 +5,7 @@
 import codecs, os
 
 TESTDIR='test-suite'
-VERSION='2.93'
+VERSION='2.94'
 TTF_VERSION='2.9'
 APPNAME='padauk'
 SRCDIST="{0}-src.{1}".format(APPNAME, VERSION)
@@ -94,12 +94,13 @@ for f in ['', 'bold', 'book', 'bookbold'] :
 
 #    import pdb; pdb.set_trace()
     fnt = font(target = process(target, 
-#                                        name(mystrings[namestrings[f][0]], lang='my', nopost=1,
-#                                            full=(((mystrings[namestrings[f][0]] + " " + mystrings[namestrings[f][1]])
-#                                                if 'bold' in f else mystrings[namestrings[f][0]]))),
-                                        name(namestrings[f][0], lang='en-US',
-                                            full=((namestrings[f][0] + " " + namestrings[f][1]) 
-                                                if 'bold' in f else namestrings[f][0]))),
+#                       name(mystrings[namestrings[f][0]], lang='my', nopost=1,
+#                            full=(((mystrings[namestrings[f][0]] + " " + mystrings[namestrings[f][1]])
+#                                if 'bold' in f else mystrings[namestrings[f][0]]))),
+                        name(namestrings[f][0], lang='en-US'),
+#                            full=((namestrings[f][0] + " " + namestrings[f][1]))),
+                        name(namestrings[f][1], string="2"),
+                        cmd('hackos2 -u 1 ${DEP} ${TGT}')),
                 version = TTF_VERSION,
                 license = ofl("Padauk"),
                 copyright = COPYRIGHT,
@@ -124,6 +125,7 @@ for f in ['', 'bold', 'book', 'bookbold'] :
                         '--stringparam fontXml ${SRC[1].path_from(bld.srcnode.search("font-source"))} '
                         '${SRC[2].bldpath()} ${DEP}',
                         [legmetrics, legxml, fsf + '_src.xsl']))
+        
 
 def configure(ctx) :
     ctx.env['MAKE_GDL'] = 'perl ' + src('bin/makegdl')

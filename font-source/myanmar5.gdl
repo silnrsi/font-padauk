@@ -221,10 +221,11 @@ when medialised. I.e. are true medials. Whereas the other characters indicate sy
 chaining when medialised.
 @enddoc */
 
-cClusMed = (g103b, g103c, g103d, g103e, g105e, g105f, g1060){breakweight = -BW_NEVER};
-cClusMedNot103b = (g103c, g103d, g103e, g105e, g105f, g1060){breakweight = -BW_NEVER};
-cClusDia = (g103b, g103b_103d, g103b_103d_103e, g103b_103e, g103d, g103d_103e, g103e, 
+cClusMed = (g103b, g103c, g103d, g1082, g103e, g105e, g105f, g1060){breakweight = -BW_NEVER};
+cClusMedNot103b = (g103c, g103d, g1082, g103e, g105e, g105f, g1060){breakweight = -BW_NEVER};
+cClusDia = (g103b, g103b_103d, g103b_103d_103e, g103b_103e, g103d, g103d_103e, g1082, g103e, 
             g103e_102f, g103e_1030, g105e, g105f, g1060);
+cWaHa = (g1082, g103e);
 
 /* @doc
 y-medials are diacritics, but they don't have attachment points to attach to the base character
@@ -353,6 +354,7 @@ Extend the kinzi class to include Mon Nga
 
 ckinzi += (g1004_kinzi);
 cno_kinzi += (g105a);
+callkinzi = (g1004_kinzi, g101b_kinzi, g1004_kinzi_103a, g101b_kinzi_103a);
 
 /* @doc
 Finally we have a list of glyphs that require special kerning when interacting with U+101B
@@ -449,18 +451,19 @@ table(substitution);
 pass(pass_medial);
 
 cno_kinzi g103a gKill _ > _ _ _ ckinzi$1:(1 2 3) / 
-    _ _ _ ^ (cCons, cNum, g104e)? [gKill cno_med]? opt4(cClusMedNot103b) cPreVowel? _;      // need opt4() here for opt()
+    _ _ _ ^ (cCons, cNum, g104e)? [gKill cno_med]? opt4(cClusMedNot103b) opt2(cPreVowel) _;      // need opt4() here for opt()
 (g1004 g105a) g103a gKill g103a _ > _ _ _ _ g1004_kinzi_103a:(1 2 3 a) / 
-    _ _ _ ^ (cCons, cNum, g104e)? [gKill cno_med]? _=a opt4(cClusMedNot103b) _;      // need opt4() here for opt()
+    _ _ _ ^ (cCons, cNum, g104e)? [gKill cno_med]? _=a opt4(cClusMedNot103b) _;      (g1004 g105a) g103a gKill g103a _ > _ _ _ _ g1004_kinzi_103a:(1 2 3 a) / 
+    _ _ _ ^ (cCons, cNum, g104e)? [gKill cno_med]? opt4(cWaHa) _=a _;      // need opt4() here for opt()
 g101b g103a gKill g103a _ > _ _ _ _ g101b_kinzi_103a:(1 2 3 a) / 
     _ _ _ ^ (cCons, cNum, g104e)? [gKill cno_med]? _=a opt4(cClusMedNot103b) _;      // need opt4() here for opt()
 (g1004 g105a) g103a gKill cUVowelNga > _ _ _ cNgaUVowel:(1 2 3 u) /
-    _ _ _ ^ (cCons, cNum, g104e) [gKill cno_med]? opt4(cClusMed) cPreVowel? _=u;
+    _ _ _ ^ (cCons, cNum, g104e) [gKill cno_med]? opt4(cClusMed) opt2(cPreVowel) _=u;
 g101b g103a gKill g102d > _ _ _ g101b_kinzi_102d:(1 2 3 u) /
-    _ _ _ ^ (cCons, cNum, g104e) [gKill cno_med]? opt4(cClusMed) cPreVowel? _=u;
+    _ _ _ ^ (cCons, cNum, g104e) [gKill cno_med]? opt4(cClusMed) opt2(cPreVowel) _=u;
 g101b g103a gKill g102e > _ _ _ g101b_kinzi_102e:(1 2 3 u) /
-    _ _ _ ^ (cCons, cNum, g104e) [gKill cno_med]? opt4(cClusMed) cPreVowel? _=u;
-(g1004 g105a) g103a gKill g102d g1036 > _ _ _ _ g1004_kinzi_102d_1036:(1 2 3 i t) / _ _ _ ^ (cCons, cNum, g104e) [gKill cno_med]? opt4(cClusMed) cPreVowel? _=i _=t;
+    _ _ _ ^ (cCons, cNum, g104e) [gKill cno_med]? opt4(cClusMed) opt2(cPreVowel) _=u;
+(g1004 g105a) g103a gKill g102d g1036 > _ _ _ _ g1004_kinzi_102d_1036:(1 2 3 i t) / _ _ _ ^ (cCons, cNum, g104e) [gKill cno_med]? opt4(cClusMed) opt2(cPreVowel) _=i _=t;
 gKill cno_med > _ cmed:(1 2){sOrder=2};
 
 // lots of ligatures, as many as we can do adjacently
@@ -481,7 +484,7 @@ g1014 gKill g1010 g103c > g1014_1010_103c:(1 2 3 4){sOrder=order} _ _ _;
 g101e gKill g1010 g103c > g101e_1010_103c:(1 2 3 4){sOrder=order} _ _ _;
 g102d g1032 > g1032_102d:(1 3) _ / ^ _ cLVowel? _;
 
-g103a g1036 > g103a_1036:(1 2){sOrder=order} _;
+g103a g1036 > g103a_1036:(1 2){sOrder=@2.order} _;
 
 g103b g103d g103e > g103b_103d_103e:(1 2 3){sOrder=order} _ _;
 g103b g103e > g103b_103e:(1 2){sOrder=order} _;
@@ -583,11 +586,11 @@ g1002 g103e g1082 g103a;
 g1040 > @2{sOrder=1} / cNum _ (g102d, g102b);
 
 // kinzi is best rendered before 103b when there is no vowel ligature
-ckinzi > @2{sOrder=2} / cCons _ g103b;
+callkinzi > @2{sOrder=3} / (cCons cmed) _ c103b;
 
 // slot Mon Asat
 g103a > @2 / (g103e, g103e_102f, g103e_1030, g1082, g103c, g103c_103d_narr, g103c_102f_narr) _ g1037;
-g103a > @3{sOrder=8} / cCons (g103e, g103e_102f, g103e_1030, g1082, g103c, g103c_103d_narr, g103c_102f_narr) _;
+g103a > @3{sOrder=8} / ANY (g103e, g103e_102f, g103e_1030, g1082, g103c, g103c_103d_narr, g103c_102f_narr) ^ _;
 
 // slot Shan E vowel
 g1031 > @3{sOrder=10} / ANY{sOrder > 0 && sOrder < 9} g1031 _;

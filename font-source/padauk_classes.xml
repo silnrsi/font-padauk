@@ -47,7 +47,7 @@
     u1010_u103D.med.tri u101C.med_u103D
     uAA60.med
   </property>
-  <property name="GDL_order" value="3">u103A u103A_uAA70 u1004.kinzi_u103A u101B.kinzi_u103A</property>
+  <property name="GDL_order" value="3">u103A u103A_uAA70</property>
   <property name="GDL_order" value="4">
     u103B u103B_u103D u103B_u103D_u103E u103B_u103E u103B_u103D.tri u105E 
     u105F 
@@ -71,11 +71,12 @@
   <property name="GDL_order" value="9">
     u1031 u1084 
   </property>
+  <property name="GDL_order" value="8">u1004.kinzi_u103A u101B.kinzi_u103A</property>
   <property name="GDL_order" value="11">
     u1004.kinzi u1004.kinzi_u102D u1004.kinzi_u102E u1004.kinzi_u1032 
     u1004.kinzi_u1033 u1004.kinzi_u102D_u1036 u101B.kinzi u102D u102D_u1036 
     u102E u1032 u1032_u102D u1033 u1034 u1035 u1071 u1072 u1073 u1074 u1085 
-    u1004.kinzi_u1036 u1036 u1036.dot uA9E5
+    u1004.kinzi_u1036 u1036 u1036.dot u109D uA9E5
   </property>
   <property name="GDL_order" value="12">
     u102F u102F.med u1030 u1030.med u1032.kham u1032_uAA70 
@@ -88,7 +89,7 @@
   </property>
   <property name="GDL_order" value="17">u1064 u1069 u106A u106B u106C u106D</property>
   <property name="GDL_order" value="21">
-    u1038 u1087 u1088 u1089 u108A u108B u108C u108D u108F u109A u109B u109C u109D uAA7B
+    u1038 u1087 u1088 u1089 u108A u108B u108C u108D u108F u109A u109B u109C uAA7B
     u1038.dot u1087.dot u1088.dot u1089.dot u108A.dot u109A.dot u109B.dot uAA7B.dot
     uAA7C uAA7D
   </property>
@@ -145,7 +146,7 @@
     uAA71 uAA72 uAA73 u25CC
   </class>
   <class name="c103b" exts=".tri">
-    u103B u103B_u103D u103B_u103E
+    u103B u103B_u103D u103B_u103E u103B_u103D_u103E
   </class>
   <class name="c103d" exts=".small .tri">
     u103D u103B_u103D u103D_u103E
