@@ -97,9 +97,9 @@ for f in ['', 'bold', 'book', 'bookbold'] :
 #                       name(mystrings[namestrings[f][0]], lang='my', nopost=1,
 #                            full=(((mystrings[namestrings[f][0]] + " " + mystrings[namestrings[f][1]])
 #                                if 'bold' in f else mystrings[namestrings[f][0]]))),
-                        name(namestrings[f][0], lang='en-US'),
-#                            full=((namestrings[f][0] + " " + namestrings[f][1]))),
-                        name(namestrings[f][1], string="2"),
+                        name(namestrings[f][0], lang='en-US',
+                            full=namestrings[f][0] + (" " + namestrings[f][1] if 'bold' in f else "")),
+                        name(namestrings[f][1], string="2"), cmd('${TTFNAME} -r 16 ${DEP} ${TGT}'),
                         cmd('hackos2 -u 1 ${DEP} ${TGT}')),
                 version = TTF_VERSION,
                 license = ofl("Padauk"),
@@ -118,6 +118,8 @@ for f in ['', 'bold', 'book', 'bookbold'] :
                 script = 'mymr',
                 extra_srcs = [fsf + '_src.ttf', 'bin/makegdl', 'font-source/myfeatures.gdl']
             )
+    if 'bold' not in f :
+        process(fnt.target, cmd('${TTFNAME} -r 17 ${DEP} ${TGT}'))
     
     if os.path.exists(src(legacyfile)) and '--nosuper' not in opts :
         process(fnt.ap, cmd('xsltproc -o ${TGT} '

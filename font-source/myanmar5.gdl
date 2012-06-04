@@ -586,37 +586,37 @@ g1002 g103e g1082 g103a;
 g1040 > @2{sOrder=1} / cNum _ (g102d, g102b);
 
 // kinzi is best rendered before 103b when there is no vowel ligature
-callkinzi > @2{sOrder=3} / (cCons cmed) _ c103b;
+callkinzi > @2{sOrder=30} / (cCons cmed) _ c103b;
 
 // slot Mon Asat
 g103a > @2 / (g103e, g103e_102f, g103e_1030, g1082, g103c, g103c_103d_narr, g103c_102f_narr) _ g1037;
-g103a > @3{sOrder=8} / ANY (g103e, g103e_102f, g103e_1030, g1082, g103c, g103c_103d_narr, g103c_102f_narr) ^ _;
+g103a > @3{sOrder=80} / ANY (g103e, g103e_102f, g103e_1030, g1082, g103c, g103c_103d_narr, g103c_102f_narr) ^ _;
 
 // slot Shan E vowel
-g1031 > @3{sOrder=10} / ANY{sOrder > 0 && sOrder < 9} g1031 _;
+g1031 > @3{sOrder=100} / ANY{sOrder > 0 && sOrder < 90} g1031 _;
 
 // slot A Vowel
-g1062 > @2{sOrder=15} / ANY{sOrder >= 13 && sOrder < 15} _;
+g1062 > @2{sOrder=150} / ANY{sOrder >= 130 && sOrder < 150} _;
 
 // slot Anusvara
-_ g1032 > g25cc:b @b / g1032 ANY{sOrder == 12}? _ _=b;
-_ g1036 > g25cc:b @b / g1036 ANY{sOrder == 12}? _ _=b;
-(g1036, g1032) > @2{sOrder=16} / ANY{sOrder >= 11 && sOrder < 16} _;
+_ g1032 > g25cc:b @b / g1032 ANY{sOrder == 120}? _ _=b;
+_ g1036 > g25cc:b @b / g1036 ANY{sOrder == 120}? _ _=b;
+(g1036, g1032) > @2{sOrder=160} / ANY{sOrder >= 110 && sOrder < 160} _;
 
 // double 1037 is always wrong, so we should highlight it
-_ g1037 > g25cc:3 @3{sOrder=13} / g1037{sOrder == 13} _ _;
+_ g1037 > g25cc:3 @3{sOrder=130} / g1037{sOrder == 130} _ _;
 
 // slot Lower Dot
-g1037 > @2{sOrder=18} / ANY{sOrder >= 13 && sOrder < 18} _;
+g1037 > @2{sOrder=180} / ANY{sOrder >= 130 && sOrder < 180} _;
 // backwards compatibility
-g1037 > @2{sOrder=18} / ANY{sOrder == 20} _ ^;
+g1037 > @2{sOrder=180} / ANY{sOrder == 200} _ ^;
 
 // slot Mon h
-g103e > @2{sOrder=19} / g102c _ g103a;
+g103e > @2{sOrder=190} / g102c _ g103a;
 
 // Visible virama
-g103a > @2{sOrder=20} / ANY{sOrder >= 12 && sOrder < 20} _{sOrder == 3};
-g103a > @2{sOrder=20} / (g103c_102f_narr) _{sOrder == 3};
+g103a > @2{sOrder=200} / ANY{sOrder >= 120 && sOrder < 200} _{sOrder == 30};
+g103a > @2{sOrder=200} / (g103c_102f_narr) _{sOrder == 30};
 // Allow 103a 1037 for backwards compatibility, but not 103a 1037 103a
 _ g103a > g25cc:4 @4 / g103a g1037 _ _;
 // gaa70 > @2 / g_space _;
