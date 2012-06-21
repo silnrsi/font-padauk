@@ -471,6 +471,7 @@
 <glyph UID="AA6A" PSName="uAA6A"><base UID="E33C"/></glyph>
 <glyph UID="AA6B" PSName="uAA6B"><base UID="AA63"/></glyph>
 <glyph UID="AA6C" PSName="uAA6C"><base UID="E331"/></glyph>
+<glyph PSName="uAA6C.alt"><base UID="AA6F"/></glyph>
 <glyph UID="AA6D" PSName="uAA6D"><base UID="AA65"/></glyph>
 <glyph UID="AA6E" PSName="uAA6E"><base UID="E332"/></glyph>
 <glyph UID="AA6F" PSName="uAA6F"><base UID="AA68"/></glyph>
