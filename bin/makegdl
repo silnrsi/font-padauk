@@ -38,6 +38,6 @@ $f->make_classes();
 $f->out_gdl($outfh);
 $f->out_classes($outfh);
 $f->endtable($outfh);
-$f->end_gdl($outfh, $opt_i);
+$f->end_gdl($outfh, [$opt_i]);
 
 $outfh->close();
