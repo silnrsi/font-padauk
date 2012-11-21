@@ -114,9 +114,10 @@ to be able to re-allocate pass numbers quickly and easily
 @enddoc */
 
 #define pass_medial 1
-#define pass_insert 2
-#define pass_front 3
-#define pass_tidy 4
+#define pass_order 2
+#define pass_insert 3
+#define pass_front 4
+#define pass_tidy 5
 
 /* @doc
 There are a few glyph names that I prefer to rename. I do that here just by defining my
@@ -464,67 +465,66 @@ g101b g103a gKill g102d > _ _ _ g101b_kinzi_102d:(1 2 3 u) /
 g101b g103a gKill g102e > _ _ _ g101b_kinzi_102e:(1 2 3 u) /
     _ _ _ ^ (cCons, cNum, g104e) [gKill cno_med]? opt4(cClusMed) opt2(cPreVowel) _=u;
 (g1004 g105a) g103a gKill g102d g1036 > _ _ _ _ g1004_kinzi_102d_1036:(1 2 3 i t) / _ _ _ ^ (cCons, cNum, g104e) [gKill cno_med]? opt4(cClusMed) opt2(cPreVowel) _=i _=t;
-gKill cno_med > _ cmed:(1 2){sOrder=order};
+gKill cno_med > _ cmed:(1 2);
 
 // lots of ligatures, as many as we can do adjacently
-gKill g1010 g103d > g1010_103d_med:(1 2 3){sOrder=order} _ _;
+gKill g1010 g103d > g1010_103d_med:(1 2 3) _ _;
 
 if (nnya == 0)
-g100a gKill g100a > g100a_100a:(1 2 3){sOrder=order} _ _;
+g100a gKill g100a > g100a_100a:(1 2 3) _ _;
 endif;
 
-g100b gKill g100b > g100b_100b:(1 2 3){sOrder=order} _ _;
-g100b gKill g100c > g100b_100c:(1 2 3){sOrder=order} _ _;
-g100d gKill g100d > g100d_100d:(1 2 3){sOrder=order} _ _;
-g100d gKill g100e > g100d_100e:(1 2 3){sOrder=order} _ _; // this way round is consistent with other Myanmar fonts
-g100f gKill g100b > g100f_100b:(1 2 3){sOrder=order} _ _;
-g100f gKill g100d > g100f_100d:(1 2 3){sOrder=order} _ _;
-g1014 gKill g1010 g103c > g1014_1010_103c:(1 2 3 4){sOrder=order} _ _ _;
-g1014 gKill g1010 g103c > g1014_1010_103c:(1 2 3 4){sOrder=order} _ _ _;
-g101e gKill g1010 g103c > g101e_1010_103c:(1 2 3 4){sOrder=order} _ _ _;
+g100b gKill g100b > g100b_100b:(1 2 3) _ _;
+g100b gKill g100c > g100b_100c:(1 2 3) _ _;
+g100d gKill g100d > g100d_100d:(1 2 3) _ _;
+g100d gKill g100e > g100d_100e:(1 2 3) _ _; // this way round is consistent with other Myanmar fonts
+g100f gKill g100b > g100f_100b:(1 2 3) _ _;
+g100f gKill g100d > g100f_100d:(1 2 3) _ _;
+g1014 gKill g1010 g103c > g1014_1010_103c:(1 2 3 4) _ _ _;
+g1014 gKill g1010 g103c > g1014_1010_103c:(1 2 3 4) _ _ _;
+g101e gKill g1010 g103c > g101e_1010_103c:(1 2 3 4) _ _ _;
 g102d g1032 > g1032_102d:(1 3) _ / ^ _ cLVowel? _;
 
-g103a g1036 > g103a_1036:(1 2){sOrder=@2.order} _;
+g103a g1036 > g103a_1036:(1 2) _;
 
-g103b g103d g103e > g103b_103d_103e:(1 2 3){sOrder=order} _ _;
-g103b g103e > g103b_103e:(1 2){sOrder=order} _;
-g103c g103d g103e > @1{sOrder=order} g103d_103e_small:(2 3){sOrder=order} _;
-g103c g103d > g103c_103d_narr:(1 2){sOrder=order} _;
-// g103d g103e > g103d_103e_small:(2 3){sOrder=order} _ / g103c _ _ ;
-g103d g103e > g103d_103e:(1 2){sOrder=order} _;
-g103b g103d > g103b_103d:(1 2){sOrder=order} _;
-gKill cno_med g103c g102f > _ cmed:(1 2){sOrder=order} @r{sOrder=order} @u{sOrder=order} / _ _ _=r ^ cPreVowel? cUVowel? _=u;
+g103b g103d g103e > g103b_103d_103e:(1 2 3) _ _;
+g103b g103e > g103b_103e:(1 2) _;
+g103c g103d g103e > @1 g103d_103e_small:(2 3) _;
+g103c g103d > g103c_103d_narr:(1 2) _;
+// g103d g103e > g103d_103e_small:(2 3) _ / g103c _ _ ;
+g103d g103e > g103d_103e:(1 2) _;
+g103b g103d > g103b_103d:(1 2) _;
+gKill cno_med g103c g102f > _ cmed:(1 2) @r @u / _ _ _=r ^ cPreVowel? cUVowel? _=u;
 if (!uTall)
-    g103c g103e g102f > @r{sOrder=order} @h{sOrder=order} @u{sOrder=order} / _=r _=h ^ g103a? cPreVowel? cUVowel? _=u;
-    g103c g103e g1030 > @r{sOrder=order} @h{sOrder=order} @u{sOrder=order} / _=r _=h ^ g103a? cPreVowel? cUVowel? _=u;
+    g103c g103e g102f > @r @h @u / _=r _=h ^ g103a? cPreVowel? cUVowel? _=u;
+    g103c g103e g1030 > @r @h @u / _=r _=h ^ g103a? cPreVowel? cUVowel? _=u;
     if (!uLong)
-        g103c g102f > g103c_102f_narr:(1 4){sOrder=order} _ / _ ^ cPreVowel? cUVowel? _;
-        g103e g1030 > g103e_1030:(1 5){sOrder=order} _ / _ ^ g103a? cPreVowel? cUVowel? _;
+        g103c g102f > g103c_102f_narr:(1 4) _ / _ ^ cPreVowel? cUVowel? _;
+        g103e g1030 > g103e_1030:(1 5) _ / _ ^ g103a? cPreVowel? cUVowel? _;
     endif;
     // prevent match for illegal sequence otherwise it won't be detected in the next pass
     g103e g102f > g103e g102f / _ _ g103a;
     if (uLong)
         // disable with U+100a
-        g103e g102f > g103e:(2){sOrder=order} g102f:(6){sOrder=order} / g100a _ ^ g103a? cPreVowel? cUVowel? _;
+        g103e g102f > g103e:(2) g102f:(6) / g100a _ ^ g103a? cPreVowel? cUVowel? _;
     endif;
-    g103e g102f > g103e_102f:(1 5){sOrder=order} _ / _ ^ g103a? cPreVowel? cUVowel? _;
+    g103e g102f > g103e_102f:(1 5) _ / _ ^ g103a? cPreVowel? cUVowel? _;
 endif;
-g1020 g1039 g1020 > g1020_1020:(1 2 3){sOrder=order} _ _;
-g1020 g103e > g1020_103e:(1 2){sOrder=order} _;
+g1020 g1039 g1020 > g1020_1020:(1 2 3) _ _;
+g1020 g103e > g1020_103e:(1 2) _;
 g1026 _ > g1025 g102e:1 / ^ _ _;
 g1029 _ > g101e g103c:1 / ^ _ _;
-g1051 gKill g100c > g1051_100c:(1 2 3){sOrder=order} _ _;
-g1051 gKill g100d > g1051_100d:(1 2 3){sOrder=order} _ _;
+g1051 gKill g100c > g1051_100c:(1 2 3) _ _;
+g1051 gKill g100d > g1051_100d:(1 2 3) _ _;
 g105a > g1004 / ^ _ (g103a g1039);
 g1081 _ > g1002 g103e:1 / ^ _ g103b? g103c? g103d? _;
-gKill g101c g103d > g101c_med_103d:(1 2 3){sOrder = order} _ _;
+gKill g101c g103d > g101c_med_103d:(1 2 3) _ _;
 
 // there should be no gKill left now
 // gKill > _;
-ANY g200C > ANY:(1 2){sOrder=order} _;
-ANY g200d > ANY:(1 2){sOrder=order} _;
-ANY wj > ANY:(1 2){sOrder=order} _;
-ANY > @1{sOrder=order};
+ANY g200C > ANY:(1 2) _;
+ANY g200d > ANY:(1 2) _;
+ANY wj > ANY:(1 2) _;
 
 endpass;
 
@@ -557,6 +557,10 @@ All this in two rules! Mind you the two rules do check every glyph.
 // this results in bad rendering beyond just not inserting 25cc e.g. U+1000 U+102F gets a tall glyph
 // if (dottedc)
 if (dottedc)
+pass(pass_order);
+ANY > @1{sOrder=order};
+endpass;
+
 pass(pass_insert);
 if (dottedc)
 
