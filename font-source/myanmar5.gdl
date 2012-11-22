@@ -606,6 +606,7 @@ g1031 > @3{sOrder=100} / ANY{sOrder > 0 && sOrder < 90} g1031 _;
 
 // slot Upper vowel
 (g1032, g1036){sOrder = 160} / _ ^ (g102f, g1030, g1086);
+// support both orders: g1036{sOrder = 160} / _ ^ (g102b);
 
 // Karen Vowel
 g1062{sOrder = 150} / (g102f, g1030) _;
