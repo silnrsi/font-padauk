@@ -63,7 +63,7 @@ test = fonttest(targets = {
     })
 
 # import pdb; pdb.set_trace()
-opts = preprocess_args({'opt' : '--nosuper'})
+opts = preprocess_args({'opt' : '--super'})
 for f in ['', 'bold', 'book', 'bookbold'] :
     fsf = 'font-source/padauk' + f
     if len(f) :
@@ -72,7 +72,7 @@ for f in ['', 'bold', 'book', 'bookbold'] :
         target = 'Padauk.ttf'
 
     legacyfile = '../super/padauk' + f + '.ufo'
-    if os.path.exists(src(legacyfile)) and '--nosuper' not in opts :
+    if os.path.exists(src(legacyfile)) and '--super' in opts :
         source = create(fsf + '_super.sfd', cmd('ufo2sfd -a ${SRC[1].bldpath()} -b R ${SRC[0].bld_dir()} ${TGT}',
                                                 [legacyfile + '/fontinfo.plist', '../super/padauk' + f + '.xml']),
                                             cmd('../bin/fixsfd ${DEP} ${TGT}'))
@@ -122,7 +122,7 @@ for f in ['', 'bold', 'book', 'bookbold'] :
 #    if 'bold' not in f :
 #        process(fnt.target, cmd('${TTFNAME} -r 17 ${DEP} ${TGT}'))
     
-    if os.path.exists(src(legacyfile)) and '--nosuper' not in opts :
+    if os.path.exists(src(legacyfile)) and '--super' in opts :
         process(fnt.ap, cmd('xsltproc -o ${TGT} '
                         '--stringparam metricsFile ${SRC[0].path_from(bld.srcnode.search("font-source"))} '
                         '--stringparam fontXml ${SRC[1].path_from(bld.srcnode.search("font-source"))} '

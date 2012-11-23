@@ -902,7 +902,7 @@ fallback is to treat g1037 as a simple cBSDia in a later rule, so we only need t
 
 // This lot is a bit messy. We could probably simplify this, but at least it works!
 if (lldot)
-    cLeftLDot c1037 {attach {to = @1; at = LLS; with = LM}; attached = 1} \
+    cLeftLDot c1037 {attach {to = @1; at = LLMS; with = LM}; attached = 1} \
                                         / ^ _ _ {attached == 0}; 
 endif;
 
@@ -1019,12 +1019,12 @@ g1036 {shift.x = (@i.advance.x - @u.advance.x) / 2 + 100m } / g1025=i g102f=u _;
 g1063 { kern.x = advance.x/4 } / (g101b, g1061) g103e? g1037 _ ;
 
 // narrow above, wide medial below
-cBDDia {advance.x = (origWidth - @n.advance.x) / 2 } / cConsNar=n _ cConsNar cBDDia;
+cBDDia {advance.x = -BDM.x - @n.advance.x / 2 } / cConsNar=n _ cConsNar cBDDia;
 cBDDia {advance.x = 10m } / cConsNar=n _ (g102f, g1030);
-cBDDia {advance.x = (origWidth - @n.advance.x) / 2 } / cConsNar=n _ c103c;
-cConsNar { shift.x = (@m.origWidth - @n.advance.x) / 2; advance.x += (@m.origWidth - @n.advance.x) / 2} / c103c cCons cUVowel? _=n cBDDia=m;
-cConsNar { shift.x = (@m.origWidth - @n.advance.x) / 2; advance.x += (@m.origWidth - @n.advance.x) / 2} / (g102f, g1030)  _=n cBDDia=m;
-cConsNar {shift.x = (@m.origWidth - @n.advance.x) / 2; advance.x += (@m.origWidth - @n.advance.x) / 2} / (g101b, g103b) cUVowel? _=n cBDDia=m;
+cBDDia {advance.x = -BDM.x - @n.advance.x / 2 } / cConsNar=n _ c103c;
+cConsNar { shift.x = -@m.BDM.x - @n.advance.x / 2; advance.x += -@m.BDM.x - @n.advance.x / 2} / c103c cCons cUVowel? _=n cBDDia=m;
+cConsNar { shift.x = -@m.BDM.x - @n.advance.x / 2; advance.x += -@m.BDM.x - @n.advance.x / 2} / (g102f, g1030)  _=n cBDDia=m;
+cConsNar {shift.x = -@m.BDM.x - @n.advance.x / 2; advance.x += -@m.BDM.x - @n.advance.x / 2} / (g101b, g103b) cUVowel? _=n cBDDia=m;
 (cConsNar, g1014_alt, g101b_alt) {kern.x = (@n.advance.x) / 4 }/ (g101b, g103b, g102f, g1030) cUVowel? _=n cMedHUu;
 
 g1037 / cYMed cUVowel? cLVowel? c1036? _ cTone;
