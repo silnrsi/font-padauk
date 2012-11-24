@@ -85,7 +85,7 @@ for f in ['', 'bold', 'book', 'bookbold'] :
                          [legmetrics,
                              'font-source/patch_padauk_unicode.xsl',
                              'font-source/padauk_unicode.xml']))
-        srcfile = legacy(fsf + '_src.sfd',
+        srcfile = legacy(fsf + '_src_auto.sfd',
                         source = source,
                         xml = legxml,
                         ap = '../super/padauk' + f + '.xml')
