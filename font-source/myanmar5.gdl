@@ -371,6 +371,7 @@ Tone context characters that can occur before a U+AA70 khamti reduplication
 cTone = (g1038, g1087, g1088, g1089, g108a, g109a, g109b);
 cToneKham = (g1038_dot, g1087_dot, g1088_dot, g1089_dot, g108a_dot, g109a_dot, g109b_dot);
 
+cSpacingTone = (g1064, g1067, g1068, g1069, g106a, g106b, g106c, g106d);
 c1037 = (g1037);
 
 endtable; // glyph table
@@ -976,7 +977,7 @@ right is a major part of the testing.
 // According to official rules, lower dot should be to right with h medial, so disable this rule
 //g101f_med cLDia {attach {to = @1; at = LLS; with = LM}; attached = 1} \
 //                                        / ^ _ opt3(cnTakesLDia) _{attached == 0};
-cTakesLDia cLDia {attach {to = @1; at = LS; with = LM}; attached = 1} \
+cTakesLDia cLDia {attach {to = @1; at = LS; with = LM}; attached = 2} \
                                         / ^ _ opt3(cnTakesLDia) _{attached == 0};
 
 /* @doc
@@ -985,6 +986,12 @@ Attach the non-attached
 
 cCons cYMed {attach.to = @1; attached = 1} / ^ _ cmed? g103a? _{attached == 0};
 
+endpass;
+
+pass(2);
+
+cTakesLMDia cLDia {attach {to = @1; at = LMS; with = LM}; attached = 1} \
+                                        / ^ _ opt3(cnTakesLMDia) _{attached != 1};
 endpass;
 
 /* @doc
@@ -999,7 +1006,7 @@ attachment point in the wrap and the BDS on the consonant. But we don't have tha
 in the font.
 @enddoc */
 
-pass(2);
+pass(3);
 
 g101b_alt {kern.x = @2.rkern + 10m} cHasRkern {shift.x = -rkern};
 // c102c_tall {kern.x = -xkern} / cCons cLowDia? _;
@@ -1018,6 +1025,7 @@ g1063 {shift.x = advance.x / 3 } / g101b_long g103e c1037=d _;
 g1036 {shift.x = (@i.advance.x - @u.advance.x) / 2 + 100m } / g1025=i g102f=u _;
 g1063 { kern.x = advance.x/4 } / (g101b, g1061) g103e? g1037 _ ;
 
+/*
 // narrow above, wide medial below
 cBDDia {advance.x = -BDM.x - @n.advance.x / 2 } / cConsNar=n _ cConsNar cBDDia;
 cBDDia {advance.x = 10m } / cConsNar=n _ (g102f, g1030);
@@ -1026,6 +1034,8 @@ cConsNar { shift.x = -@m.BDM.x - @n.advance.x / 2; advance.x += -@m.BDM.x - @n.a
 cConsNar { shift.x = -@m.BDM.x - @n.advance.x / 2; advance.x += -@m.BDM.x - @n.advance.x / 2} / (g102f, g1030)  _=n cBDDia=m;
 cConsNar {shift.x = -@m.BDM.x - @n.advance.x / 2; advance.x += -@m.BDM.x - @n.advance.x / 2} / (g101b, g103b) cUVowel? _=n cBDDia=m;
 (cConsNar, g1014_alt, g101b_alt) {kern.x = (@n.advance.x) / 4 }/ (g101b, g103b, g102f, g1030) cUVowel? _=n cMedHUu;
+*/
+g1037 {advance.x = 0} / _ cSpacingTone;
 
 g1037 / cYMed cUVowel? cLVowel? c1036? _ cTone;
 g1037 / cYMed cUVowel? cLVowel? c1036? _ (g1063 g1064 g1069 g106a g106b g106c g106d g108f);

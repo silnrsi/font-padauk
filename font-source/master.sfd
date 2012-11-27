@@ -17979,7 +17979,7 @@ VWidth: 0
 GlyphClass: 4
 Flags: HW
 AnchorPoint: "LLM" -556 -53 basemark 0
-AnchorPoint: "BSL" -235 -53 mark 0
+AnchorPoint: "BS" -235 -53 mark 0
 AnchorPoint: "BSM" -235 -53 mark 0
 AnchorPoint: "BSM" -556 -53 basemark 0
 LayerCount: 2

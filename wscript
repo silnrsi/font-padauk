@@ -114,10 +114,11 @@ for f in ['', 'bold', 'book', 'bookbold'] :
                 sfd_master = 'font-source/master.sfd',
                 graphite = gdl('padauk' + f + '.gdl',
                                 master = '../font-source/myanmar5.gdl',
-                                params = '-w3521 -q -d -v2'),
+                                params = '-w3521 -q -d -v2', make_params="-ignore _R"),
                 tests = test,
                 script = 'mymr',
-                extra_srcs = [fsf + '_src.ttf', 'bin/makegdl', 'font-source/myfeatures.gdl']
+                extra_srcs = [fsf + '_src.ttf', 'bin/makegdl', 'font-source/myfeatures.gdl'],
+                pdf = fret()
             )
 #    if 'bold' not in f :
 #        process(fnt.target, cmd('${TTFNAME} -r 17 ${DEP} ${TGT}'))
@@ -130,8 +131,8 @@ for f in ['', 'bold', 'book', 'bookbold'] :
                         [legmetrics, legxml, fsf + '_src.xsl']))
         
 
-def configure(ctx) :
-    ctx.env['MAKE_GDL'] = 'perl ' + src('bin/makegdl')
+#def configure(ctx) :
+#    ctx.env['MAKE_GDL'] = 'perl ' + src('bin/makegdl')
 
 def srcdist(ctx) :
     for p in package.packages() :
