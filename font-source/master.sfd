@@ -16462,6 +16462,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "U" 292 495 basechar 0
+AnchorPoint: "BS" 292 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -19722,6 +19723,7 @@ GlyphClass: 2
 Flags: HW
 AnchorPoint: "R" 0 0 mark 0
 AnchorPoint: "BS" 292 -53 basechar 0
+AnchorPoint: "L" 292 -53 basechar 0
 AnchorPoint: "U" 292 495 basechar 0
 AnchorPoint: "BD" 292 -53 basechar 0
 LayerCount: 2

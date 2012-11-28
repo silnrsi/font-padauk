@@ -114,7 +114,7 @@ for f in ['', 'bold', 'book', 'bookbold'] :
                 sfd_master = 'font-source/master.sfd',
                 graphite = gdl('padauk' + f + '.gdl',
                                 master = '../font-source/myanmar5.gdl',
-                                params = '-w3521 -q -d -v2', make_params="-ignore _R"),
+                                params = '-w3521 -w3530 -q -d -v2', make_params="-m _R"),
                 tests = test,
                 script = 'mymr',
                 extra_srcs = [fsf + '_src.ttf', 'bin/makegdl', 'font-source/myfeatures.gdl'],
