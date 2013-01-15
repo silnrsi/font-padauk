@@ -1,21 +1,15 @@
 <?xml version="1.0"?>
 <classes>
   <property name="GDL_order" value="0">
-    .notdef .null nonmarkingreturn 
-    space exclam quotedbl numbersign dollar percent ampersand quotesingle parenleft parenright asterisk plus comma hyphen period
-    zero one two three four five six seven eight nine
-    slash colon semicolon less equal greater at question backslash asciicircum underscore
-    a b c d e f g h i j k l m n o p q r s t u v w x y z
-    A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-    bracketleft bracketright grave
-    braceleft braceright bar asciitilde multiply u1024 u102A u1040
+    space exclam numbersign percent parenleft asterisk plus comma hyphen period 
+    slash colon semicolon equal question backslash asciicircum underscore 
+    braceleft braceright asciitilde multiply u1024 u102A u1040
     u104A u104B u104C 
     u104D u104F u1058 u1059 u200B 
     u200C u200D quotedblleft quotedblright quoteleft quoteright endash emdash 
-    u2060 notequal
-    uA92E uAA77 uAA78
+    u2060 notequal 
   </property>
-  <property name="GDL_order" value="1" exts=".alt .kham">
+  <property name="GDL_order" value="1">
     parenright u1000 u1000_u1001_u103B u1000_u103B_u1015_u103A u1001
     u1002 u1003 u1004 u1005 u1006 u1007 u1008 u1009 u1009_u102C u100A 
     u100A.alt u100A_u100A u100B u100B.alt u100B_u100B u100B_u100C u100C 
@@ -35,10 +29,15 @@
     uAA62 uAA63 uAA64 uAA65 uAA66 uAA67 uAA68 uAA69 uAA6A uAA6B uAA6C uAA6D 
     uAA6E uAA6F uAA71 uAA72 uAA73 uAA74 uAA75 uAA76 uAA75.kham uAA76.kham 
     uAA79 uAA7A uAA7E uAA7F
+    u1000.kham u1002.kham u1004.kham 
+    u1010.kham u1015.kham u1019.kham u101A.kham u101C.kham u1022.kham 
+    u1078.kham u1080.kham uAA60.kham uAA61.kham uAA62.kham uAA63.kham 
+    uAA64.kham uAA65.kham uAA66.kham uAA6B.kham uAA6C.kham uAA6F.kham 
+    uAA73.kham
     uA9E0 uA9E1 uA9E2 uA9E3 uA9E4 uA9E7 uA9E8 uA9E9
     uA9E8 uA9E9 uA9EA uA9EB uA9EC uA9ED uA9EE uA9EF
     uA9F0 uA9F1 uA9F2 uA9F3 uA9F4 uA9F5 uA9F6 uA9F7 uA9F8 uA9F9
-    uA9FA uA9FB uA9FC uA9FD uA9FE uA9FF
+    uA9FA uA9FB uA9FC uA9FD uA9FF uA9FF
   </property>
   <property name="GDL_order" value="20" exts=".kham">
     u1000.med u1001.med u1002.med u1003.med u1004.med u1005.med u1006.med 
@@ -63,8 +62,8 @@
     u103C_u103D.narr.tri u103C_u103D.wide.tri 
   </property>
   <property name="GDL_order" value="60">
-    u103D u103D_u103E u103D_u103E.small u103D.tri u103D_u103E.tri u103D_u108D
-    u1058 u1059 u1082 u1082_u108D u101C.med_u103D
+    u103D u103D_u103E u103D_u103E.small u103D.tri u103D_u103E.tri
+    u1058 u1059 u1082 u101C.med_u103D
   </property>
   <property name="GDL_order" value="70">
     u103E u103E.alt u103E_u102F u103E_u1030 u103E.slantr u103E.slanth 
@@ -82,18 +81,16 @@
     u1004.kinzi_u102D u1004.kinzi_u102E u1004.kinzi_u1032 
     u1004.kinzi_u1033 u1004.kinzi_u102D_u1036 
     u101B.kinzi_u102D u101B.kinzi_u102E
-    u102D u102D_u1036 u102D_uAA7C
+    u102D u102D_u1036 
     u103A_u1036
-    u102E u102E_uAA7C u1032 u1032_u102D u1033 u1034 u1035 u1071 u1072 u1073 u1074 u1085 
-    u1004.kinzi_u1036 u1036 u1036.dot u109D uA9E5 uA9E5_uAA7C
+    u102E u1032 u1032_u102D u1033 u1034 u1035 u1071 u1072 u1073 u1074 u1085 
+    u1004.kinzi_u1036 u1036 u1036.dot u109D uA9E5
   </property>
   <property name="GDL_order" value="120">
-    u102F u102F.med u102F_u108D
-    u1030 u1030.med u1030_u108D
-    u1032.kham u1032_uAA70 
+    u102F u102F.med u1030 u1030.med u1032.kham u1032_uAA70 
   </property>
   <property name="GDL_order" value="130">u1062 u1062_u103A</property>
-  <property name="GDL_order" value="140">u1086 u1086_uAA7C</property>
+  <property name="GDL_order" value="140">u1086</property>
   <property name="GDL_order" value="145">u1037</property>
   <property name="GDL_order" value="150">
     u102B u102B_u103A u102C u1063 u1063_u103A u1067
@@ -105,7 +102,7 @@
     u1038.dot u1087.dot u1088.dot u1089.dot u108A.dot u109A.dot u109B.dot uAA7B.dot
     uAA7C uAA7D
   </property>
-  <property name="GDL_order" value="220">uAA70 uA9E6</property>
+  <property name="GDL_order" value="220">uAA70</property>
 
   <class name="cCons" exts=".kham">
     u1000 u1001 u1002 u1003 u1004 u1005 u1006 u1007 u1008 u1009 u100A u100B u100C u100D u100E u100F
