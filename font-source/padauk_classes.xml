@@ -79,15 +79,19 @@
   </property>
   <property name="GDL_order" value="110">
     u1004.kinzi_u102D u1004.kinzi_u102E u1004.kinzi_u1032 
-    u1004.kinzi_u1033 u1004.kinzi_u102D_u1036 u102D u102D_u1036 
+    u1004.kinzi_u1033 u1004.kinzi_u102D_u1036 
+    u101B.kinzi_u102D u101B.kinzi_u102E
+    u102D u102D_u1036 
+    u103A_u1036
     u102E u1032 u1032_u102D u1033 u1034 u1035 u1071 u1072 u1073 u1074 u1085 
     u1004.kinzi_u1036 u1036 u1036.dot u109D uA9E5
   </property>
   <property name="GDL_order" value="120">
     u102F u102F.med u1030 u1030.med u1032.kham u1032_uAA70 
   </property>
-  <property name="GDL_order" value="130">u1037 u1062 u1062_u103A</property>
+  <property name="GDL_order" value="130">u1062 u1062_u103A</property>
   <property name="GDL_order" value="140">u1086</property>
+  <property name="GDL_order" value="145">u1037</property>
   <property name="GDL_order" value="150">
     u102B u102B_u103A u102C u1063 u1063_u103A u1067
     u1068 u1083 
@@ -158,6 +162,9 @@
   </class>
   <class name="c103e" exts=".slantr .slanth .tri">
     u103E u103E_u102F u103E_u1030 u103D_u103E u103B_u103E
+  </class>
+  <class name="c103eStart" exts=".slantr .slanth .tri">
+    u103E u103E_u102F u103E_u1030
   </class>
   <class name="cSpaceVowel">
     u102B u102C u1062 u1063 u1067 u1068 u1083
