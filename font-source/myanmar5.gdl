@@ -518,7 +518,7 @@ g1029 _ > g101e g103c:1 / ^ _ _;
 g1051 gKill g100c > g1051_100c:(1 2 3) _ _;
 g1051 gKill g100d > g1051_100d:(1 2 3) _ _;
 g105a > g1004 / ^ _ (g103a g1039);
-g1081 _ > g1002 g103e:1 / ^ _ g103b? g103c? g103d? _;
+g1081 _ > g1002 g103e:1 / _ g103b? g103c? (g103d, g1082) _;
 gKill g101c g103d > g101c_med_103d:(1 2 3) _ _;
 
 // there should be no gKill left now
@@ -771,6 +771,7 @@ When does the -h slant? Inside a wrap and after a consonant that forces it to sl
 
 g103e > g103e_alt / ^ c103c cConsSVowel _;
 g103e > g103e_alt / cConsSlantH _;
+g103e > g103e_slanth / g1082 _;
 
 /* @doc
 Tall -a vowel ligature
