@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1353573771
-ModificationTime: 1363861598
+ModificationTime: 1363869792
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -52,8 +52,7 @@ OS2StrikeYSize: 52
 OS2StrikeYPos: 262
 OS2Vendor: 'SIL '
 OS2CodePages: 00000001.00000000
-Lookup: 4 0 0 "ngakinzi"  {"cligContextualLigaturesinMyanma subtable"  } ['clig' ('mymr' <'KHT ' 'KSW ' 'KYU ' 'dflt' > ) ]
-Lookup: 4 0 0 "rphf_kinzi"  {"rphf_kinzi-1"  } ['rphf' ('DFLT' <'dflt' > 'mym2' <'KHT ' 'KSW ' 'KYU ' 'dflt' > ) ]
+Lookup: 4 0 0 "ngakinzi"  {"cligContextualLigaturesinMyanma subtable"  } ['clig' ('mymr' <'KHT ' 'KSW ' 'KYU ' 'dflt' > ) 'rphf' ('DFLT' <'dflt' > 'mym2' <'KHT ' 'KSW ' 'KYU ' 'dflt' > ) ]
 Lookup: 2 0 0 "insert25cc"  {"sub_mult_cligmymr_0 subtable"  } ['clig' ('mymr' <'KHT ' 'KSW ' 'KYU ' 'dflt' > ) ]
 Lookup: 4 0 0 "remove25ccAsat-Ligature"  {"LigatureSubstitutionlookup103 subtable"  } []
 Lookup: 6 0 0 "remove25ccAsat"  {"sub_chain_cligmymr_0 contextual 0"  "sub_chain_cligmymr_0 contextual 1"  "sub_chain_cligmymr_0 contextual 2"  "sub_chain_cligmymr_0 contextual 3"  "sub_chain_cligmymr_0 contextual 4"  "sub_chain_cligmymr_0 contextual 5"  "sub_chain_cligmymr_0 contextual 6"  "sub_chain_cligmymr_0 contextual 7"  "sub_chain_cligmymr_0 contextual 8"  "sub_chain_cligmymr_0 contextual 9"  } ['clig' ('mymr' <'KHT ' 'KSW ' 'KYU ' 'dflt' > ) ]
@@ -4387,7 +4386,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 54 27 9
+WinInfo: 28 28 10
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "BD"  "markMarkPositioninginMyanmarloo subtable" "BDM"  "mkmkMarktoMarkinMyanmarlookup1 subtable" "BS"  "pos_mark2base_markmymr_0 subtable" "BSM"  "mkmkMarktoMarkinMyanmarlookup3 subtable" "U"  "pos_mark2base_markmymr_2 subtable" "UM"  "mkmkMarktoMarkinMyanmarlookup7 subtable" "dot"  "_someAnchorsbase" "Y"  "_someAnchorsbase" "LLM"  "_someAnchorsmark" "LR"  "_someAnchorsbase" "R"  "_someAnchorsbase" "L"  "_someAnchorsbase" "LM"  "_someAnchorsmark" "LL"  "_someAnchorsbase" 
@@ -7650,8 +7649,6 @@ SplineSet
  -66 573 -50 585 -33 604 c 0
  0 586 l 0
 EndSplineSet
-Ligature2: "rphf_kinzi-1" u105A u103A u1039
-Ligature2: "rphf_kinzi-1" u1004 u103A u1039
 Substitution2: "SingleSubstitutionlookup177 subtable" u1004.kinzi_u1036
 Substitution2: "SingleSubstitutionlookup176 subtable" u1004.kinzi_u103A
 Substitution2: "SingleSubstitutionlookup175 subtable" u1004.kinzi_u1032
@@ -12172,7 +12169,6 @@ SplineSet
  -194 686 -157 647 -114 647 c 0
  -103 647 -89 648 -74 657 c 0
 EndSplineSet
-Ligature2: "rphf_kinzi-1" u101B u103A u1039
 Substitution2: "SingleSubstitutionlookup176 subtable" u101B.kinzi_u103A
 Substitution2: "Single Substitution lookup 151 subtable" u101B.kinzi_u102E
 Substitution2: "SingleSubstitutionlookup173 subtable" u101B.kinzi_u102D

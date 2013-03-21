@@ -116,7 +116,7 @@ for f in ['', 'bold', 'book', 'bookbold'] :
                                 master = '../font-source/myanmar5.gdl',
                                 params = '-w3521 -q -d -v2'),
                 tests = test,
-                script = 'mymr',
+                script = ['mymr', 'mym2'],
                 extra_srcs = [fsf + '_src.ttf', 'bin/makegdl', 'font-source/myfeatures.gdl']
             )
 #    if 'bold' not in f :
