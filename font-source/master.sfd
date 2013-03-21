@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1353573771
-ModificationTime: 1353645443
+ModificationTime: 1363861598
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -53,6 +53,7 @@ OS2StrikeYPos: 262
 OS2Vendor: 'SIL '
 OS2CodePages: 00000001.00000000
 Lookup: 4 0 0 "ngakinzi"  {"cligContextualLigaturesinMyanma subtable"  } ['clig' ('mymr' <'KHT ' 'KSW ' 'KYU ' 'dflt' > ) ]
+Lookup: 4 0 0 "rphf_kinzi"  {"rphf_kinzi-1"  } ['rphf' ('DFLT' <'dflt' > 'mym2' <'KHT ' 'KSW ' 'KYU ' 'dflt' > ) ]
 Lookup: 2 0 0 "insert25cc"  {"sub_mult_cligmymr_0 subtable"  } ['clig' ('mymr' <'KHT ' 'KSW ' 'KYU ' 'dflt' > ) ]
 Lookup: 4 0 0 "remove25ccAsat-Ligature"  {"LigatureSubstitutionlookup103 subtable"  } []
 Lookup: 6 0 0 "remove25ccAsat"  {"sub_chain_cligmymr_0 contextual 0"  "sub_chain_cligmymr_0 contextual 1"  "sub_chain_cligmymr_0 contextual 2"  "sub_chain_cligmymr_0 contextual 3"  "sub_chain_cligmymr_0 contextual 4"  "sub_chain_cligmymr_0 contextual 5"  "sub_chain_cligmymr_0 contextual 6"  "sub_chain_cligmymr_0 contextual 7"  "sub_chain_cligmymr_0 contextual 8"  "sub_chain_cligmymr_0 contextual 9"  } ['clig' ('mymr' <'KHT ' 'KSW ' 'KYU ' 'dflt' > ) ]
@@ -777,68 +778,56 @@ EndFPST
 ChainSub2: coverage "sub_chain_cligmymr_118 contextual 5"  0 0 0 1
  2 2 1
   Coverage: 753 u1000 u1001 u1002 u1003 u1004 u1005 u1006 u1007 u1008 u1009 u100A u100A.alt u100A_u100A u100B u100B_u100B u100B_u100C u100C u100D u100D_u100D u100D_u100E u100E u100F u100F_u100B u100F_u100D u1010 u1011 u1012 u1013 u1014 u1014.alt u1014_u1010_u103C u1015 u1016 u1017 u1018 u1019 u101A u101B u101B.alt u101B.long u101C u101D u101E u101E_u1010_u103C u101F u1020 u1021 u1022 u1025 u1027 u1029 u103F u104E u1050 u1051 u1052 u1053 u1054 u1055 u105A u105B u105C u105D u1061 u1065 u106E u106F u1070 u1075 u1076 u1077 u1078 u1079 u107A u107B u107C u107D u107E u107F u1080 u1081 u108E u109D u109F circledash uAA60 uAA61 uAA62 uAA63 uAA64 uAA65 uAA66 uAA67 uAA68 uAA69 uAA6A uAA6B uAA6C uAA6D uAA6E uAA6F uAA71 uAA72 uAA73 uAA74 uAA75 uAA76 uAA77 uAA78 uAA79 uAA7A
-  Coverage: 40 u103D u103D_u103E u103E u105F u1060 u1082
+  Coverage: 40 u103D u103D_u103E u103E u105F u1060 u108
+  BCoverage: 0 
   BCoverage: 5 u1031
-  BCoverage: 5 u200C
-  FCoverage: 11 u103E_u1030
- 2
-  SeqLookup: 0 "CYWHc-Lig" 
-  SeqLookup: 1 "CYWHc-Lig" 
+  FCoverage: 5 u200C
+ 0
 EndFPST
 ChainSub2: coverage "sub_chain_cligmymr_118 contextual 4"  0 0 0 1
  2 2 1
   Coverage: 753 u1000 u1001 u1002 u1003 u1004 u1005 u1006 u1007 u1008 u1009 u100A u100A.alt u100A_u100A u100B u100B_u100B u100B_u100C u100C u100D u100D_u100D u100D_u100E u100E u100F u100F_u100B u100F_u100D u1010 u1011 u1012 u1013 u1014 u1014.alt u1014_u1010_u103C u1015 u1016 u1017 u1018 u1019 u101A u101B u101B.alt u101B.long u101C u101D u101E u101E_u1010_u103C u101F u1020 u1021 u1022 u1025 u1027 u1029 u103F u104E u1050 u1051 u1052 u1053 u1054 u1055 u105A u105B u105C u105D u1061 u1065 u106E u106F u1070 u1075 u1076 u1077 u1078 u1079 u107A u107B u107C u107D u107E u107F u1080 u1081 u108E u109D u109F circledash uAA60 uAA61 uAA62 uAA63 uAA64 uAA65 uAA66 uAA67 uAA68 uAA69 uAA6A uAA6B uAA6C uAA6D uAA6E uAA6F uAA71 uAA72 uAA73 uAA74 uAA75 uAA76 uAA77 uAA78 uAA79 uAA7A
-  Coverage: 40 u103D u103D_u103E u103E u105F u1060 u1082
+  Coverage: 40 u103D u103D_u103E u103E u105F u1060 u108
+  BCoverage: 0 
   BCoverage: 5 u1031
-  BCoverage: 5 u200C
-  FCoverage: 11 u103E_u102F
- 2
-  SeqLookup: 0 "CYWHc-Lig" 
-  SeqLookup: 1 "CYWHc-Lig" 
+  FCoverage: 5 u200C
+ 0
 EndFPST
 ChainSub2: coverage "sub_chain_cligmymr_118 contextual 3"  0 0 0 1
  2 2 1
   Coverage: 753 u1000 u1001 u1002 u1003 u1004 u1005 u1006 u1007 u1008 u1009 u100A u100A.alt u100A_u100A u100B u100B_u100B u100B_u100C u100C u100D u100D_u100D u100D_u100E u100E u100F u100F_u100B u100F_u100D u1010 u1011 u1012 u1013 u1014 u1014.alt u1014_u1010_u103C u1015 u1016 u1017 u1018 u1019 u101A u101B u101B.alt u101B.long u101C u101D u101E u101E_u1010_u103C u101F u1020 u1021 u1022 u1025 u1027 u1029 u103F u104E u1050 u1051 u1052 u1053 u1054 u1055 u105A u105B u105C u105D u1061 u1065 u106E u106F u1070 u1075 u1076 u1077 u1078 u1079 u107A u107B u107C u107D u107E u107F u1080 u1081 u108E u109D u109F circledash uAA60 uAA61 uAA62 uAA63 uAA64 uAA65 uAA66 uAA67 uAA68 uAA69 uAA6A uAA6B uAA6C uAA6D uAA6E uAA6F uAA71 uAA72 uAA73 uAA74 uAA75 uAA76 uAA77 uAA78 uAA79 uAA7A
-  Coverage: 40 u103D u103D_u103E u103E u105F u1060 u1082
+  Coverage: 40 u103D u103D_u103E u103E u105F u1060 u108
+  BCoverage: 0 
   BCoverage: 5 u1031
-  BCoverage: 5 u200C
-  FCoverage: 18  u105F u1060 u1082
- 2
-  SeqLookup: 0 "CYWHc-Lig" 
-  SeqLookup: 1 "CYWHc-Lig" 
+  FCoverage: 5 u200C
+ 0
 EndFPST
 ChainSub2: coverage "sub_chain_cligmymr_118 contextual 2"  0 0 0 1
  2 2 1
   Coverage: 753 u1000 u1001 u1002 u1003 u1004 u1005 u1006 u1007 u1008 u1009 u100A u100A.alt u100A_u100A u100B u100B_u100B u100B_u100C u100C u100D u100D_u100D u100D_u100E u100E u100F u100F_u100B u100F_u100D u1010 u1011 u1012 u1013 u1014 u1014.alt u1014_u1010_u103C u1015 u1016 u1017 u1018 u1019 u101A u101B u101B.alt u101B.long u101C u101D u101E u101E_u1010_u103C u101F u1020 u1021 u1022 u1025 u1027 u1029 u103F u104E u1050 u1051 u1052 u1053 u1054 u1055 u105A u105B u105C u105D u1061 u1065 u106E u106F u1070 u1075 u1076 u1077 u1078 u1079 u107A u107B u107C u107D u107E u107F u1080 u1081 u108E u109D u109F circledash uAA60 uAA61 uAA62 uAA63 uAA64 uAA65 uAA66 uAA67 uAA68 uAA69 uAA6A uAA6B uAA6C uAA6D uAA6E uAA6F uAA71 uAA72 uAA73 uAA74 uAA75 uAA76 uAA77 uAA78 uAA79 uAA7A
-  Coverage: 40 u103D u103D_u103E u103E u105F u1060 u1082
+  Coverage: 40 u103D u103D_u103E u103E u105F u1060 u108
+  BCoverage: 0 
   BCoverage: 5 u1031
-  BCoverage: 5 u200C
-  FCoverage: 11 u103D_u103E
- 2
-  SeqLookup: 0 "CYWHc-Lig" 
-  SeqLookup: 1 "CYWHc-Lig" 
+  FCoverage: 5 u200C
+ 0
 EndFPST
 ChainSub2: coverage "sub_chain_cligmymr_118 contextual 1"  0 0 0 1
  2 2 1
   Coverage: 753 u1000 u1001 u1002 u1003 u1004 u1005 u1006 u1007 u1008 u1009 u100A u100A.alt u100A_u100A u100B u100B_u100B u100B_u100C u100C u100D u100D_u100D u100D_u100E u100E u100F u100F_u100B u100F_u100D u1010 u1011 u1012 u1013 u1014 u1014.alt u1014_u1010_u103C u1015 u1016 u1017 u1018 u1019 u101A u101B u101B.alt u101B.long u101C u101D u101E u101E_u1010_u103C u101F u1020 u1021 u1022 u1025 u1027 u1029 u103F u104E u1050 u1051 u1052 u1053 u1054 u1055 u105A u105B u105C u105D u1061 u1065 u106E u106F u1070 u1075 u1076 u1077 u1078 u1079 u107A u107B u107C u107D u107E u107F u1080 u1081 u108E u109D u109F circledash uAA60 uAA61 uAA62 uAA63 uAA64 uAA65 uAA66 uAA67 uAA68 uAA69 uAA6A uAA6B uAA6C uAA6D uAA6E uAA6F uAA71 uAA72 uAA73 uAA74 uAA75 uAA76 uAA77 uAA78 uAA79 uAA7A
-  Coverage: 40 u103D u103D_u103E u103E u105F u1060 u1082
+  Coverage: 40 u103D u103D_u103E u103E u105F u1060 u108
+  BCoverage: 0 
   BCoverage: 5 u1031
-  BCoverage: 5 u200C
-  FCoverage: 5 u103E
- 2
-  SeqLookup: 0 "CYWHc-Lig" 
-  SeqLookup: 1 "CYWHc-Lig" 
+  FCoverage: 5 u200C
+ 0
 EndFPST
 ChainSub2: coverage "sub_chain_cligmymr_118 contextual 0"  0 0 0 1
  2 2 1
   Coverage: 753 u1000 u1001 u1002 u1003 u1004 u1005 u1006 u1007 u1008 u1009 u100A u100A.alt u100A_u100A u100B u100B_u100B u100B_u100C u100C u100D u100D_u100D u100D_u100E u100E u100F u100F_u100B u100F_u100D u1010 u1011 u1012 u1013 u1014 u1014.alt u1014_u1010_u103C u1015 u1016 u1017 u1018 u1019 u101A u101B u101B.alt u101B.long u101C u101D u101E u101E_u1010_u103C u101F u1020 u1021 u1022 u1025 u1027 u1029 u103F u104E u1050 u1051 u1052 u1053 u1054 u1055 u105A u105B u105C u105D u1061 u1065 u106E u106F u1070 u1075 u1076 u1077 u1078 u1079 u107A u107B u107C u107D u107E u107F u1080 u1081 u108E u109D u109F circledash uAA60 uAA61 uAA62 uAA63 uAA64 uAA65 uAA66 uAA67 uAA68 uAA69 uAA6A uAA6B uAA6C uAA6D uAA6E uAA6F uAA71 uAA72 uAA73 uAA74 uAA75 uAA76 uAA77 uAA78 uAA79 uAA7A
-  Coverage: 40 u103D u103D_u103E u103E u105F u1060 u1082
+  Coverage: 40 u103D u103D_u103E u103E u105F u1060 u108
+  BCoverage: 0 
   BCoverage: 5 u1031
-  BCoverage: 5 u200C
-  FCoverage: 5 u103D
- 2
-  SeqLookup: 0 "CYWHc-Lig" 
-  SeqLookup: 1 "CYWHc-Lig" 
+  FCoverage: 5 u200C
+ 0
 EndFPST
 ChainSub2: coverage "sub_chain_cligmymr_116 subtable"  0 0 0 1
  2 4 0
@@ -3620,12 +3609,11 @@ ChainPos2: coverage "pos_chain_kernmymr_10 contextual 40"  0 0 0 1
 EndFPST
 ChainPos2: coverage "pos_chain_kernmymr_10 contextual 39"  0 0 0 1
  1 3 0
-  Coverage: 88 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
+  Coverage: 88 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7
+  BCoverage: 0 
   BCoverage: 5 u1037
   BCoverage: 89 u102D u102D_u1036 u102E u1032_u102D u1033 u1034 u1035 u1071 u1072 u1073 u1074 u1085 u1086
-  BCoverage: 5 u1014
- 1
-  SeqLookup: 0 "toneAfterDot-Single" 
+ 0
 EndFPST
 ChainPos2: coverage "pos_chain_kernmymr_10 contextual 38"  0 0 0 1
  1 3 0
@@ -3647,12 +3635,11 @@ ChainPos2: coverage "pos_chain_kernmymr_10 contextual 37"  0 0 0 1
 EndFPST
 ChainPos2: coverage "pos_chain_kernmymr_10 contextual 36"  0 0 0 1
  1 3 0
-  Coverage: 88 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
+  Coverage: 88 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7
+  BCoverage: 0 
   BCoverage: 5 u1037
   BCoverage: 5 u1032
-  BCoverage: 5 u1014
- 1
-  SeqLookup: 0 "toneAfterDot-Single" 
+ 0
 EndFPST
 ChainPos2: coverage "pos_chain_kernmymr_10 contextual 35"  0 0 0 1
  1 2 0
@@ -3672,11 +3659,10 @@ ChainPos2: coverage "pos_chain_kernmymr_10 contextual 34"  0 0 0 1
 EndFPST
 ChainPos2: coverage "pos_chain_kernmymr_10 contextual 33"  0 0 0 1
  1 2 0
-  Coverage: 88 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
+  Coverage: 88 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7
+  BCoverage: 0 
   BCoverage: 5 u1037
-  BCoverage: 5 u1014
- 1
-  SeqLookup: 0 "toneAfterDot-Single" 
+ 0
 EndFPST
 ChainPos2: coverage "pos_chain_kernmymr_10 contextual 32"  0 0 0 1
  1 2 0
@@ -3696,11 +3682,10 @@ ChainPos2: coverage "pos_chain_kernmymr_10 contextual 31"  0 0 0 1
 EndFPST
 ChainPos2: coverage "pos_chain_kernmymr_10 contextual 30"  0 0 0 1
  1 2 0
-  Coverage: 88 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
+  Coverage: 88 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7
+  BCoverage: 0 
   BCoverage: 5 u1037
-  BCoverage: 5 u1061
- 1
-  SeqLookup: 0 "toneAfterDot-Single" 
+ 0
 EndFPST
 ChainPos2: coverage "pos_chain_kernmymr_10 contextual 29"  0 0 0 1
  1 3 0
@@ -3722,12 +3707,11 @@ ChainPos2: coverage "pos_chain_kernmymr_10 contextual 28"  0 0 0 1
 EndFPST
 ChainPos2: coverage "pos_chain_kernmymr_10 contextual 27"  0 0 0 1
  1 3 0
-  Coverage: 88 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
+  Coverage: 88 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7
+  BCoverage: 0 
   BCoverage: 5 u1037
   BCoverage: 5 u103E
-  BCoverage: 10 u101B.long
- 1
-  SeqLookup: 0 "toneAfterDot-Single" 
+ 0
 EndFPST
 ChainPos2: coverage "pos_chain_kernmymr_10 contextual 26"  0 0 0 1
  1 2 0
@@ -3747,11 +3731,10 @@ ChainPos2: coverage "pos_chain_kernmymr_10 contextual 25"  0 0 0 1
 EndFPST
 ChainPos2: coverage "pos_chain_kernmymr_10 contextual 24"  0 0 0 1
  1 2 0
-  Coverage: 88 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
+  Coverage: 88 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7
+  BCoverage: 0 
   BCoverage: 5 u1037
-  BCoverage: 5 u101B
- 1
-  SeqLookup: 0 "toneAfterDot-Single" 
+ 0
 EndFPST
 ChainPos2: coverage "pos_chain_kernmymr_10 contextual 23"  0 0 0 1
  1 2 0
@@ -3771,11 +3754,10 @@ ChainPos2: coverage "pos_chain_kernmymr_10 contextual 22"  0 0 0 1
 EndFPST
 ChainPos2: coverage "pos_chain_kernmymr_10 contextual 21"  0 0 0 1
  1 2 0
-  Coverage: 88 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
+  Coverage: 88 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7
+  BCoverage: 0 
   BCoverage: 5 u1037
-  BCoverage: 9 uAA6C.alt
- 1
-  SeqLookup: 0 "toneAfterDot-Single" 
+ 0
 EndFPST
 ChainPos2: coverage "pos_chain_kernmymr_10 contextual 20"  0 0 0 1
  1 3 0
@@ -3797,12 +3779,11 @@ ChainPos2: coverage "pos_chain_kernmymr_10 contextual 19"  0 0 0 1
 EndFPST
 ChainPos2: coverage "pos_chain_kernmymr_10 contextual 18"  0 0 0 1
  1 3 0
-  Coverage: 88 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
+  Coverage: 88 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7
+  BCoverage: 0 
   BCoverage: 5 u1037
   BCoverage: 5 u1032
-  BCoverage: 5 u103D
- 1
-  SeqLookup: 0 "toneAfterDot-Single" 
+ 0
 EndFPST
 ChainPos2: coverage "pos_chain_kernmymr_10 contextual 17"  0 0 0 1
  1 2 0
@@ -3822,11 +3803,10 @@ ChainPos2: coverage "pos_chain_kernmymr_10 contextual 16"  0 0 0 1
 EndFPST
 ChainPos2: coverage "pos_chain_kernmymr_10 contextual 15"  0 0 0 1
  1 2 0
-  Coverage: 88 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
+  Coverage: 88 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7
+  BCoverage: 0 
   BCoverage: 5 u1037
-  BCoverage: 5 u103D
- 1
-  SeqLookup: 0 "toneAfterDot-Single" 
+ 0
 EndFPST
 ChainPos2: coverage "pos_chain_kernmymr_10 contextual 14"  0 0 0 1
  1 2 0
@@ -3846,11 +3826,10 @@ ChainPos2: coverage "pos_chain_kernmymr_10 contextual 13"  0 0 0 1
 EndFPST
 ChainPos2: coverage "pos_chain_kernmymr_10 contextual 12"  0 0 0 1
  1 2 0
-  Coverage: 88 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
+  Coverage: 88 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7
+  BCoverage: 0 
   BCoverage: 5 u1037
-  BCoverage: 5 u1030
- 1
-  SeqLookup: 0 "toneAfterDot-Single" 
+ 0
 EndFPST
 ChainPos2: coverage "pos_chain_kernmymr_10 contextual 11"  0 0 0 1
  1 2 0
@@ -3870,11 +3849,10 @@ ChainPos2: coverage "pos_chain_kernmymr_10 contextual 10"  0 0 0 1
 EndFPST
 ChainPos2: coverage "pos_chain_kernmymr_10 contextual 9"  0 0 0 1
  1 2 0
-  Coverage: 88 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
+  Coverage: 88 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7
+  BCoverage: 0 
   BCoverage: 5 u1037
-  BCoverage: 5 u102F
- 1
-  SeqLookup: 0 "toneAfterDot-Single" 
+ 0
 EndFPST
 ChainPos2: coverage "pos_chain_kernmymr_10 contextual 8"  0 0 0 1
  1 2 0
@@ -3894,11 +3872,10 @@ ChainPos2: coverage "pos_chain_kernmymr_10 contextual 7"  0 0 0 1
 EndFPST
 ChainPos2: coverage "pos_chain_kernmymr_10 contextual 6"  0 0 0 1
  1 2 0
-  Coverage: 88 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
+  Coverage: 88 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7
+  BCoverage: 0 
   BCoverage: 5 u1037
-  BCoverage: 29 u103B u103B_u103D u103B_u103E
- 1
-  SeqLookup: 0 "toneAfterDot-Single" 
+ 0
 EndFPST
 ChainPos2: coverage "pos_chain_kernmymr_10 contextual 5"  0 0 0 1
  1 4 0
@@ -3922,13 +3899,12 @@ ChainPos2: coverage "pos_chain_kernmymr_10 contextual 4"  0 0 0 1
 EndFPST
 ChainPos2: coverage "pos_chain_kernmymr_10 contextual 3"  0 0 0 1
  1 4 0
-  Coverage: 88 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
+  Coverage: 88 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7
+  BCoverage: 0 
   BCoverage: 5 u1037
   BCoverage: 89 u102D u102D_u1036 u102E u1032_u102D u1033 u1034 u1035 u1071 u1072 u1073 u1074 u1085 u1086
   BCoverage: 237 u1000 u1003 u1006 u100A u100A.alt u100F u1010 u1011 u1018 u101A u101C u101E u101F u1021 u1022 u106E u106F u1078 u1079 u107B u107C u107D u1080 uAA60 uAA61 uAA63 uAA64 uAA65 uAA66 uAA67 uAA68 uAA69 uAA6A uAA6C uAA6D uAA6E uAA6F uAA71 uAA72
-  BCoverage: 109 u103C_u103D.narr u103C_u103D.wide u103C_u102F.narr u103C_u102F.wide u103C_u102F.alt.narr u103C_u102F.alt.wide
- 1
-  SeqLookup: 0 "toneAfterDot-Single" 
+ 0
 EndFPST
 ChainPos2: coverage "pos_chain_kernmymr_10 contextual 2"  0 0 0 1
  1 4 0
@@ -3952,13 +3928,12 @@ ChainPos2: coverage "pos_chain_kernmymr_10 contextual 1"  0 0 0 1
 EndFPST
 ChainPos2: coverage "pos_chain_kernmymr_10 contextual 0"  0 0 0 1
  1 4 0
-  Coverage: 88 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
+  Coverage: 88 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7
+  BCoverage: 0 
   BCoverage: 5 u1037
   BCoverage: 89 u102D u102D_u1036 u102E u1032_u102D u1033 u1034 u1035 u1071 u1072 u1073 u1074 u1085 u1086
   BCoverage: 236 u1001 u1002 u1004 u1005 u1007 u100E u1012 u1013 u1014 u1014.alt u1015 u1016 u1017 u1019 u101B u101D u1027 u1050 u1051 u1052 u1053 u1054 u1055 u1056 u1057 u105C u1065 u1075 u1076 u1077 u107F u1081 u1084 u108E circledash uAA62 uAA6B uAA73
-  BCoverage: 109 u103C_u103D.narr u103C_u103D.wide u103C_u102F.narr u103C_u102F.wide u103C_u102F.alt.narr u103C_u102F.alt.wide
- 1
-  SeqLookup: 0 "toneAfterDot-Single" 
+ 0
 EndFPST
 ChainPos2: coverage "pos_chain_kernmymr_8 contextual 11"  0 0 0 1
  1 3 0
@@ -4412,11 +4387,11 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 27 27 9
+WinInfo: 54 27 9
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "BD"  "markMarkPositioninginMyanmarloo subtable" "BDM"  "mkmkMarktoMarkinMyanmarlookup1 subtable" "BS"  "pos_mark2base_markmymr_0 subtable" "BSM"  "mkmkMarktoMarkinMyanmarlookup3 subtable" "U"  "pos_mark2base_markmymr_2 subtable" "UM"  "mkmkMarktoMarkinMyanmarlookup7 subtable" "dot"  "_someAnchorsbase" "Y"  "_someAnchorsbase" "LLM"  "_someAnchorsmark" "LR"  "_someAnchorsbase" "R"  "_someAnchorsbase" "L"  "_someAnchorsbase" "LM"  "_someAnchorsmark" "LL"  "_someAnchorsbase" 
-BeginChars: 65708 507
+BeginChars: 65708 508
 
 StartChar: .notdef
 Encoding: 0 -1 0
@@ -6895,7 +6870,9 @@ Encoding: 99 4096 97
 Width: 1002
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
+HStem: -15 51<656.623 797.304> 408 51<211.273 372.761 638.988 797.304>
+VStem: 55 51<99.7477 299.309> 478 51<101.55 282.72> 895 51<134.358 309.23>
 AnchorPoint: "R" 0 0 mark 0
 AnchorPoint: "BS" 714 -53 basechar 0
 AnchorPoint: "L" 714 -53 basechar 0
@@ -6965,7 +6942,9 @@ Encoding: 100 -1 98
 Width: 0
 VWidth: 0
 GlyphClass: 4
-Flags: HW
+Flags: W
+HStem: -450 40<-279.217 -166.368> -125 39<-631.533 -488.751 -296.086 -166.368>
+VStem: -743 39<-361.8 -201.291> -417 40<-364.983 -213.396> -95 39<-338.185 -196.097>
 AnchorPoint: "LLM" -872 -53 basemark 0
 AnchorPoint: "LL" -872 -53 basemark 0
 AnchorPoint: "BD" -393 -53 mark 0
@@ -7140,7 +7119,9 @@ Encoding: 103 4097 101
 Width: 576
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
+HStem: -15 51<188.671 371.317> 153 51<122.59 299.414> 408 51<195.29 368.872>
+VStem: 469 51<133.614 309.008>
 AnchorPoint: "R" 0 0 mark 0
 AnchorPoint: "BS" 283 -53 basechar 0
 AnchorPoint: "L" 283 -53 basechar 0
@@ -7390,7 +7371,9 @@ Encoding: 107 4099 105
 Width: 999
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
+HStem: -15 51<194.582 371.14 636.168 794.304> 405 51<103.2 183.537 654.167 800.758>
+VStem: 55 51<117.975 217.926 397.601 402.48> 195 51<307.438 394.741> 471 51<159.355 343.522> 892 51<134.358 309.23>
 AnchorPoint: "R" 0 0 mark 0
 AnchorPoint: "BS" 712 -53 basechar 0
 AnchorPoint: "L" 712 -53 basechar 0
@@ -7518,7 +7501,9 @@ Encoding: 109 4100 107
 Width: 568
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
+HStem: -15 51<206.554 380.298> 408 51<206.554 378.804>
+VStem: 55 51<136.348 307.24>
 AnchorPoint: "R" 0 0 mark 0
 AnchorPoint: "BS" 292 -53 basechar 0
 AnchorPoint: "L" 292 -53 basechar 0
@@ -7596,7 +7581,9 @@ Encoding: 110 -1 108
 Width: 0
 VWidth: 0
 GlyphClass: 4
-Flags: HW
+Flags: W
+HStem: -450 40<-286.985 -142.684> -124 39<-286.985 -145.35>
+VStem: -399 40<-337.985 -196.093>
 AnchorPoint: "BS" -216 -53 mark 0
 AnchorPoint: "LLM" -495 -53 basemark 0
 AnchorPoint: "BSM" -216 -53 mark 0
@@ -7663,6 +7650,8 @@ SplineSet
  -66 573 -50 585 -33 604 c 0
  0 586 l 0
 EndSplineSet
+Ligature2: "rphf_kinzi-1" u105A u103A u1039
+Ligature2: "rphf_kinzi-1" u1004 u103A u1039
 Substitution2: "SingleSubstitutionlookup177 subtable" u1004.kinzi_u1036
 Substitution2: "SingleSubstitutionlookup176 subtable" u1004.kinzi_u103A
 Substitution2: "SingleSubstitutionlookup175 subtable" u1004.kinzi_u1032
@@ -8024,7 +8013,9 @@ Encoding: 119 4101 117
 Width: 576
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
+HStem: -15 51<222.52 373.759> 408 51<221.822 371.853>
+VStem: 55 51<133.136 308.137> 241 51<140.125 306.67> 469 51<134.136 309.008>
 AnchorPoint: "R" 0 0 mark 0
 AnchorPoint: "BS" 288 -53 basechar 0
 AnchorPoint: "L" 288 -53 basechar 0
@@ -8107,7 +8098,9 @@ Encoding: 120 -1 118
 Width: 0
 VWidth: 0
 GlyphClass: 4
-Flags: HW
+Flags: W
+HStem: -450 40<-284.629 -165.209> -125 41<-283.675 -165.209>
+VStem: -413 39<-339.146 -195.822> -266 35<-332.485 -200.498> -95 39<-338.185 -195.941>
 AnchorPoint: "BS" -234 -53 mark 0
 AnchorPoint: "LLM" -557 -53 basemark 0
 AnchorPoint: "BSM" -234 -53 mark 0
@@ -8152,7 +8145,9 @@ Encoding: 121 4102 119
 Width: 990
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
+HStem: -15 51<186.605 372.086 616.417 787.241> 153 51<126.111 298.695> 408 51<197.648 368.248 618.365 785.304>
+VStem: 469 51<134.119 309.894> 883 51<134.136 309.008>
 AnchorPoint: "R" 0 0 mark 0
 AnchorPoint: "BS" 702 -53 basechar 0
 AnchorPoint: "L" 702 -53 basechar 0
@@ -8226,7 +8221,9 @@ Encoding: 122 -1 120
 Width: 0
 VWidth: 0
 GlyphClass: 4
-Flags: HW
+Flags: W
+HStem: -450 40<-635.94 -483.827 -306.054 -166.368> -315 36<-681.941 -544.795> -125 41<-630.047 -486.504 -306.054 -166.368>
+VStem: -414 39<-337.745 -196.507> -95 39<-338.185 -198.011>
 AnchorPoint: "LLM" -878 -53 basemark 0
 AnchorPoint: "BD" -395 -53 mark 0
 AnchorPoint: "BSM" 88 -53 basemark 0
@@ -8281,7 +8278,9 @@ Encoding: 123 4103 121
 Width: 609
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
+HStem: -15 51<198.647 375.684> 153 51<313.264 421.396> 289 51<317.211 423.225> 408 51<205.382 373.089>
+VStem: 55 51<130.575 307.71> 259 51<209.917 282.403>
 AnchorPoint: "R" 0 0 mark 0
 AnchorPoint: "BS" 286 -53 basechar 0
 AnchorPoint: "L" 286 -53 basechar 0
@@ -8369,7 +8368,9 @@ Encoding: 124 -1 122
 Width: 0
 VWidth: 0
 GlyphClass: 4
-Flags: HW
+Flags: W
+HStem: -450 40<-345.815 -198.322> -320 39<-252.943 -170.618> -215 39<-251.319 -167.402> -125 41<-342.732 -201.006>
+VStem: -452 39<-339.296 -197.24> -294 39<-277.416 -218.456>
 AnchorPoint: "BS" -283 -53 mark 0
 AnchorPoint: "LLM" -596 -53 basemark 0
 AnchorPoint: "BSM" -283 -53 mark 0
@@ -11874,7 +11875,9 @@ Encoding: 176 4123 174
 Width: 588
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
+HStem: -450 51<532 615> -15 51<205.009 332.235> 177 55<112 247.177> 408 49<208.434 378.385>
+VStem: 481 51<-399 299.405>
 AnchorPoint: "R" 0 0 mark 0
 AnchorPoint: "BS" 247 -53 basechar 0
 AnchorPoint: "LL" 292 -53 basechar 0
@@ -12169,6 +12172,7 @@ SplineSet
  -194 686 -157 647 -114 647 c 0
  -103 647 -89 648 -74 657 c 0
 EndSplineSet
+Ligature2: "rphf_kinzi-1" u101B u103A u1039
 Substitution2: "SingleSubstitutionlookup176 subtable" u101B.kinzi_u103A
 Substitution2: "Single Substitution lookup 151 subtable" u101B.kinzi_u102E
 Substitution2: "SingleSubstitutionlookup173 subtable" u101B.kinzi_u102D
@@ -17491,7 +17495,9 @@ Encoding: 288 4186 286
 Width: 568
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
+HStem: -450 51<285.902 343.966> -152 51<257.228 326.963> -15 51<206.348 382.403> 408 51<206.348 380.392>
+VStem: 55 51<136.348 307.24> 203 50<-192 -155.089> 233 52<-398.588 -317.18> 330 50<-230.591 -155.189>
 AnchorPoint: "R" 0 0 mark 0
 AnchorPoint: "BS" 292 -53 basechar 0
 AnchorPoint: "L" 292 -53 basechar 0
@@ -17500,7 +17506,7 @@ AnchorPoint: "BD" 292 -53 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-513 121 m 0
+513 121 m 0xf9
  476 30 380 -15 292 -15 c 0
  161 -15 55 91 55 222 c 0
  55 351 161 459 292 459 c 0
@@ -17510,18 +17516,18 @@ SplineSet
  190 408 106 324 106 222 c 0
  106 120 190 36 292 36 c 0
  364 36 432 75 469 147 c 0
- 513 121 l 0
+ 513 121 l 0xf9
 380 -192 m 0
  380 -248 285 -317 285 -373 c 0
  285 -386 292 -399 311 -399 c 0
  322 -399 331 -395 339 -388 c 0
  353 -433 l 0
  344 -442 328 -450 311 -450 c 0
- 274 -450 233 -434 233 -373 c 0
+ 274 -450 233 -434 233 -373 c 0xfb
  233 -298 330 -219 330 -192 c 0
  330 -158 309 -152 290 -152 c 0
  267 -152 253 -169 253 -192 c 0
- 203 -192 l 0
+ 203 -192 l 0xfd
  203 -152 232 -101 290 -101 c 0
  330 -101 380 -124 380 -192 c 0
 EndSplineSet
@@ -19996,7 +20002,9 @@ Encoding: 333 4226 331
 Width: 426
 VWidth: 0
 GlyphClass: 4
-Flags: HW
+Flags: W
+HStem: -465 40<265.603 401.348> -134 39<276.057 337>
+VStem: 154 39<-353.06 -211.958>
 AnchorPoint: "BS" 238 -53 mark 0
 AnchorPoint: "BSM" 556 -53 basemark 0
 AnchorPoint: "LM" 25 -53 basemark 0
@@ -20058,7 +20066,9 @@ Encoding: 335 4227 333
 Width: 283
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
+HStem: -450 51<196 323> 393 51<20 148>
+VStem: 148 48<-399 393>
 AnchorPoint: "U" 173 495 basechar 0
 LayerCount: 2
 Fore
@@ -20223,7 +20233,9 @@ Encoding: 340 4231 338
 Width: 258
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
+HStem: 0 28<96.8365 155.481> 123 28<96.4294 160.928>
+VStem: 54 28<42.9652 108.858> 175 29<42.0859 108.768>
 LayerCount: 2
 Fore
 SplineSet
@@ -20255,7 +20267,9 @@ Encoding: 341 4232 339
 Width: 258
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
+HStem: 0 28<97.2578 155.719> 123 28<96.8458 160.928> 307 29<96.8458 160.928> 430 29<96.4438 161.318>
+VStem: 54 28<43.3646 108.246 350.469 415.192> 175 29<43.6609 109.755 350.055 416.42>
 LayerCount: 2
 Fore
 SplineSet
@@ -20325,7 +20339,9 @@ Encoding: 343 4234 341
 Width: 351
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
+HStem: 0 28<98.8861 160.458> 121 29<97.1873 163.727> 309 28<98.8861 160.719> 430 29<97.1873 163.727>
+VStem: 55 29<41.2195 107.318 350.219 416.318> 178 29<48.3716 106.928 357.372 415.928>
 LayerCount: 2
 Fore
 SplineSet
@@ -27108,6 +27124,43 @@ EndSplineSet
 Comment: "GDL_order: 6+AAoA-mark: 80+AAoA" 
 EndChar
 
+StartChar: _temp0
+Encoding: 65700 -1 497
+Width: 1
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: _temp1
+Encoding: 65701 -1 498
+Width: 468
+VWidth: 0
+Flags: W
+HStem: -450 41<165.297 311.8> -255 36<224.457 361.717> -124 40<164.805 313.477>
+VStem: 55 39<-337.848 -195.42>
+LayerCount: 2
+Fore
+SplineSet
+368 -198 m 0
+ 344 -211 320 -219 293 -219 c 0
+ 241 -219 184 -186 163 -142 c 0
+ 186 -131 211 -124 236 -124 c 0
+ 289 -124 345 -150 368 -198 c 0
+412 -214 m 0
+ 412 -177 355 -84 236 -84 c 0
+ 136 -84 55 -165 55 -267 c 0
+ 55 -368 136 -450 236 -450 c 0
+ 303 -450 377 -412 406 -345 c 0
+ 373 -324 l 0
+ 344 -380 291 -409 236 -409 c 0
+ 157 -409 94 -345 94 -267 c 0
+ 94 -228 108 -194 136 -166 c 0
+ 162 -217 239 -255 293 -255 c 0
+ 334 -255 368 -238 412 -214 c 0
+EndSplineSet
+EndChar
+
 StartChar: u1000.med.kham
 Encoding: 499 -1 499
 Width: 805
@@ -27149,76 +27202,6 @@ SplineSet
  668 -85 750 -170 750 -270 c 0
 EndSplineSet
 Comment: "GDL_order: 2+AAoA-mark: 210+AAoA" 
-EndChar
-
-StartChar: _temp0
-Encoding: 65700 -1 497
-Width: 1
-VWidth: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: _temp1
-Encoding: 65701 -1 498
-Width: 468
-VWidth: 0
-Flags: W
-HStem: -450 41<165.297 311.8> -255 36<224.457 361.717> -124 40<164.805 313.477>
-VStem: 55 39<-337.848 -195.42>
-LayerCount: 2
-Fore
-SplineSet
-368 -198 m 0
- 344 -211 320 -219 293 -219 c 0
- 241 -219 184 -186 163 -142 c 0
- 186 -131 211 -124 236 -124 c 0
- 289 -124 345 -150 368 -198 c 0
-412 -214 m 0
- 412 -177 355 -84 236 -84 c 0
- 136 -84 55 -165 55 -267 c 0
- 55 -368 136 -450 236 -450 c 0
- 303 -450 377 -412 406 -345 c 0
- 373 -324 l 0
- 344 -380 291 -409 236 -409 c 0
- 157 -409 94 -345 94 -267 c 0
- 94 -228 108 -194 136 -166 c 0
- 162 -217 239 -255 293 -255 c 0
- 334 -255 368 -238 412 -214 c 0
-EndSplineSet
-EndChar
-
-StartChar: _temp2
-Encoding: 65702 -1 499
-Width: 469
-VWidth: 0
-Flags: W
-HStem: -450 40<136.782 190.342 301.202 343.008> -364 39<233.595 257.845> -251 40<219.565 365.702> -123 39<170.455 315.802>
-VStem: 55 40<-353.704 -194.181> 374 33<-364.199 -339.97>
-LayerCount: 2
-Fore
-SplineSet
-367 -193 m 0
- 339 -206 313 -211 292 -211 c 0
- 238 -211 198 -187 169 -140 c 0
- 190 -130 211 -123 238 -123 c 0
- 290 -123 339 -144 367 -193 c 0
-413 -213 m 0
- 410 -176 359 -84 238 -84 c 0
- 137 -84 55 -166 55 -267 c 0
- 55 -348 100 -450 172 -450 c 0
- 226 -450 230 -364 246 -364 c 0
- 261 -364 264 -450 318 -450 c 0
- 361 -450 397 -387 407 -344 c 0
- 374 -325 l 0
- 366 -353 339 -410 318 -410 c 0
- 295 -410 292 -325 246 -325 c 0
- 199 -325 196 -410 173 -410 c 0
- 127 -410 95 -324 95 -267 c 0
- 95 -227 110 -192 135 -165 c 0
- 170 -217 225 -251 294 -251 c 0
- 336 -251 370 -235 413 -213 c 0
-EndSplineSet
 EndChar
 
 StartChar: _temp3
@@ -27335,6 +27318,39 @@ Width: 1000
 VWidth: 0
 Flags: W
 LayerCount: 2
+EndChar
+
+StartChar: _temp2
+Encoding: 65702 -1 507
+Width: 469
+VWidth: 0
+Flags: W
+HStem: -450 40<136.782 190.342 301.202 343.008> -364 39<233.595 257.845> -251 40<219.565 365.702> -123 39<170.455 315.802>
+VStem: 55 40<-353.704 -194.181> 374 33<-364.199 -339.97>
+LayerCount: 2
+Fore
+SplineSet
+367 -193 m 0
+ 339 -206 313 -211 292 -211 c 0
+ 238 -211 198 -187 169 -140 c 0
+ 190 -130 211 -123 238 -123 c 0
+ 290 -123 339 -144 367 -193 c 0
+413 -213 m 0
+ 410 -176 359 -84 238 -84 c 0
+ 137 -84 55 -166 55 -267 c 0
+ 55 -348 100 -450 172 -450 c 0
+ 226 -450 230 -364 246 -364 c 0
+ 261 -364 264 -450 318 -450 c 0
+ 361 -450 397 -387 407 -344 c 0
+ 374 -325 l 0
+ 366 -353 339 -410 318 -410 c 0
+ 295 -410 292 -325 246 -325 c 0
+ 199 -325 196 -410 173 -410 c 0
+ 127 -410 95 -324 95 -267 c 0
+ 95 -227 110 -192 135 -165 c 0
+ 170 -217 225 -251 294 -251 c 0
+ 336 -251 370 -235 413 -213 c 0
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
