@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1353573771
-ModificationTime: 1363869792
+ModificationTime: 1363878527
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -86,7 +86,7 @@ Lookup: 4 0 0 "remove25ccTone-Ligature"  {"LigatureSubstitutionlookup117 subtabl
 Lookup: 6 0 0 "remove25ccTone"  {"sub_chain_cligmymr_28 contextual 0"  "sub_chain_cligmymr_28 contextual 1"  "sub_chain_cligmymr_28 contextual 2"  "sub_chain_cligmymr_28 contextual 3"  "sub_chain_cligmymr_28 contextual 4"  "sub_chain_cligmymr_28 contextual 5"  "sub_chain_cligmymr_28 contextual 6"  "sub_chain_cligmymr_28 contextual 7"  "sub_chain_cligmymr_28 contextual 8"  "sub_chain_cligmymr_28 contextual 9"  "sub_chain_cligmymr_28 contextual 10"  "sub_chain_cligmymr_28 contextual 11"  "sub_chain_cligmymr_28 contextual 12"  "sub_chain_cligmymr_28 contextual 13"  "sub_chain_cligmymr_28 contextual 14"  "sub_chain_cligmymr_28 contextual 15"  "sub_chain_cligmymr_28 contextual 16"  "sub_chain_cligmymr_28 contextual 17"  "sub_chain_cligmymr_28 contextual 18"  "sub_chain_cligmymr_28 contextual 19"  "sub_chain_cligmymr_28 contextual 20"  "sub_chain_cligmymr_28 contextual 21"  "sub_chain_cligmymr_28 contextual 22"  } ['clig' ('mymr' <'KHT ' 'KSW ' 'KYU ' 'dflt' > ) ]
 Lookup: 4 0 0 "remove25ccKinzi-Ligature"  {"LigatureSubstitutionlookup118 subtable"  } []
 Lookup: 6 0 0 "remove25ccKinzi"  {"sub_chain_cligmymr_30 contextual 0"  "sub_chain_cligmymr_30 contextual 1"  } ['clig' ('mymr' <'KHT ' 'KSW ' 'KYU ' 'dflt' > ) ]
-Lookup: 4 0 0 "u1039med"  {"sub_ligature_cligmymr_0 subtable"  } ['clig' ('mymr' <'KHT ' 'KSW ' 'KYU ' 'dflt' > ) ]
+Lookup: 4 0 0 "u1039med"  {"sub_ligature_cligmymr_0 subtable"  } ['blwf' ('DFLT' <'dflt' > 'mym2' <'KHT ' 'KSW ' 'KYU ' 'dflt' > ) 'clig' ('mymr' <'KHT ' 'KSW ' 'KYU ' 'dflt' > ) ]
 Lookup: 2 0 0 "shan1081"  {"sub_mult_cligmymr_2 subtable"  } ['clig' ('mymr' <'KHT ' 'KSW ' 'KYU ' 'dflt' > ) ]
 Lookup: 4 0 0 "miscLigKhamti"  {"sub_ligature_cligmymr_2 subtable"  } ['clig' ('mymr' <'KHT ' 'KSW ' 'KYU ' 'dflt' > ) ]
 Lookup: 4 0 0 "miscLig"  {"sub_ligature_cligmymr_4 subtable"  } ['clig' ('mymr' <'KHT ' 'KSW ' 'KYU ' 'dflt' > ) ]
@@ -4386,7 +4386,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 28 28 10
+WinInfo: 84 28 10
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "BD"  "markMarkPositioninginMyanmarloo subtable" "BDM"  "mkmkMarktoMarkinMyanmarlookup1 subtable" "BS"  "pos_mark2base_markmymr_0 subtable" "BSM"  "mkmkMarktoMarkinMyanmarlookup3 subtable" "U"  "pos_mark2base_markmymr_2 subtable" "UM"  "mkmkMarktoMarkinMyanmarlookup7 subtable" "dot"  "_someAnchorsbase" "Y"  "_someAnchorsbase" "LLM"  "_someAnchorsmark" "LR"  "_someAnchorsbase" "R"  "_someAnchorsbase" "L"  "_someAnchorsbase" "LM"  "_someAnchorsmark" "LL"  "_someAnchorsbase" 
