@@ -1,7 +1,7 @@
 SplineFontDB: 3.0
-FontName: PadaukBold
-FullName: Padauk Bold
-FamilyName: Padauk
+FontName: PadaukBookBold
+FullName: Padauk Book Bold
+FamilyName: Padauk Book
 Weight: Bold
 Copyright: Copyright (c) 2002-2010 SIL International.
 UComments: "2012-11-23: Created." 
@@ -20,8 +20,8 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1353655976
-ModificationTime: 1354003203
-PfmFamily: 16
+ModificationTime: 1376644779
+PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
 LineGap: 0
@@ -34,7 +34,7 @@ OS2TypoDOffset: 0
 OS2TypoLinegap: 0
 OS2WinAscent: 1010
 OS2WinAOffset: 0
-OS2WinDescent: -500
+OS2WinDescent: 500
 OS2WinDOffset: 0
 HheadAscent: 1010
 HheadAOffset: 0
@@ -278,6 +278,7 @@ Lookup: 257 0 0 "move1032with102F-Single"  {"SinglePositioninglookup47 per glyph
 Lookup: 264 0 0 "move1032with102F"  {"pos_chain_kernmymr_34 contextual 0"  "pos_chain_kernmymr_34 contextual 1"  } ['kern' ('mymr' <'KSW ' 'KYU ' 'dflt' > ) ]
 Lookup: 257 0 0 "slantHU-Single"  {"SinglePositioninglookup48 per glyph data 0"  } []
 Lookup: 264 0 0 "slantHU"  {"pos_chain_kernmymr_36 contextual 0"  "pos_chain_kernmymr_36 contextual 1"  "pos_chain_kernmymr_36 contextual 2"  "pos_chain_kernmymr_36 contextual 3"  "pos_chain_kernmymr_36 contextual 4"  "pos_chain_kernmymr_36 contextual 5"  } ['kern' ('mymr' <'KHT ' 'KSW ' 'KYU ' 'dflt' > ) ]
+MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: coverage "sub_chain_cligmymr_162 contextual 1"  0 0 0 1
  2 1 0
@@ -4404,13 +4405,16 @@ ChainPos2: coverage "kernHorizontalKerninginMyanmarl contextual 0"  0 0 0 1
   SeqLookup: 0 "narrWideTallAfter-Pair" 
   SeqLookup: 1 "narrWideTallAfter-Pair" 
 EndFPST
-LangName: 1033 "" "Padauk Super Book" "Bold" "SIL: Padauk Super Book Bold: 2010" "Padauk Super Book Bold" "Version 2.9" "Padauk" " " "SIL" "Debbi Hosken" "" "http://scripts.sil.org" "" "Released under the Open Font License." "http://scripts.sil.org/OFL" "" "" "" "Padauk Super Book Bold" 
+LangName: 1033 "" "" "" "" "" "Version 2.9" "" " " "SIL" "Debbi Hosken" "" "http://scripts.sil.org" "" "Released under the Open Font License." "http://scripts.sil.org/OFL" "" "" "" "Padauk Book Bold" 
 Encoding: Original
 UnicodeInterp: none
 NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
+WinInfo: 27 27 9
+BeginPrivate: 0
+EndPrivate
 AnchorClass2: "BD"  "markMarkPositioninginMyanmarloo subtable" "BDM"  "mkmkMarktoMarkinMyanmarlookup1 subtable" "BS"  "pos_mark2base_markmymr_0 subtable" "BSM"  "mkmkMarktoMarkinMyanmarlookup3 subtable" "U"  "pos_mark2base_markmymr_2 subtable" "UM"  "mkmkMarktoMarkinMyanmarlookup7 subtable" "dot"  "_someAnchorsbase" "Y"  "_someAnchorsbase" "LLM"  "_someAnchorsmark" "LR"  "_someAnchorsbase" "R"  "_someAnchorsbase" "L"  "_someAnchorsbase" "LM"  "_someAnchorsmark" "LL"  "_someAnchorsbase" 
 BeginChars: 499 499
 

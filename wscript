@@ -5,7 +5,7 @@
 import codecs, os
 
 TESTDIR='test-suite'
-VERSION='2.95.1'
+VERSION='2.95.2'
 TTF_VERSION='2.9'
 APPNAME='padauk'
 SRCDIST="{0}-src.{1}".format(APPNAME, VERSION)
@@ -97,8 +97,9 @@ for f in ['', 'bold', 'book', 'bookbold'] :
 #                       name(mystrings[namestrings[f][0]], lang='my', nopost=1,
 #                            full=(((mystrings[namestrings[f][0]] + " " + mystrings[namestrings[f][1]])
 #                                if 'bold' in f else mystrings[namestrings[f][0]]))),
-                        name(namestrings[f][0], lang='en-US', subfamily = namestrings[f][1]),
-                        cmd('hackos2 -u 1 ${DEP} ${TGT}')),
+                        name(namestrings[f][0], lang='en-US', subfamily = namestrings[f][1])),
+#                        name(namestrings[f][0], lang='en-US', subfamily = namestrings[f][1]),
+#                        cmd('hackos2 -u 1 ${DEP} ${TGT}')),
 #    fnt = font(target = target,
                 version = TTF_VERSION,
                 license = ofl("Padauk"),
@@ -116,7 +117,7 @@ for f in ['', 'bold', 'book', 'bookbold'] :
                                 master = '../font-source/myanmar5.gdl',
                                 params = '-w3521 -w3530 -q -d -v2', make_params="-m _R"),
                 tests = test,
-                script = 'mymr',
+                script = ['mymr', 'mym2'],
                 extra_srcs = [fsf + '_src.ttf', 'bin/makegdl', 'font-source/myfeatures.gdl'],
                 pdf = fret()
             )
