@@ -5,7 +5,7 @@
 import codecs, os
 
 TESTDIR='test-suite'
-VERSION='2.95.2'
+VERSION='2.95.3'
 TTF_VERSION='2.9'
 APPNAME='padauk'
 SRCDIST="{0}-src.{1}".format(APPNAME, VERSION)
@@ -117,7 +117,8 @@ for f in ['', 'bold', 'book', 'bookbold'] :
                                 master = '../font-source/myanmar5.gdl',
                                 params = '-w3521 -w3530 -q -d -v2', make_params="-m _R"),
                 tests = test,
-                script = ['mymr', 'mym2'],
+#                script = ['mymr', 'mym2'],
+                script = ['mymr'],
                 extra_srcs = [fsf + '_src.ttf', 'bin/makegdl', 'font-source/myfeatures.gdl'],
                 pdf = fret()
             )

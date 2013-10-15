@@ -894,7 +894,7 @@ base character to the wrap, we need to change the advance of the wrap to be the 
 wrap. We do this here.
 @enddoc */
 
-c103c {advance.x = advx; hasadv = 1} / ^ _{hasadv == 0};
+c103c {advance.x = advx; hasadv = 1} / _{hasadv == 0};
 
 /* @doc
 First we address the lower dot (U+1037) and decide which glyph is its base character. In different
@@ -984,6 +984,8 @@ cTakesLDia cLDia {attach {to = @1; at = LS; with = LM}; attached = 2} \
 /* @doc
 Attach the non-attached
 @enddoc */
+
+c103c_only g103b {attach {to = @1; at = LLS; with = LLS}; attached = 1} / ^ _ cCons cmed? g103a? _{attached == 0};
 
 cCons cYMed {attach.to = @1; attached = 1} / ^ _ cmed? g103a? _{attached == 0};
 
