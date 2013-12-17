@@ -8,7 +8,7 @@
     a b c d e f g h i j k l m n o p q r s t u v w x y z
     A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
     bracketleft bracketright grave
-    braceleft braceright bar asciitilde multiply u1024 u102A u1040
+    braceleft braceright bar asciitilde multiply u1024 u102A
     u104A u104B u104C 
     u104D u104F u1058 u1059 u200B 
     u200C u200D quotedblleft quotedblright quoteleft quoteright endash emdash 
@@ -24,7 +24,7 @@
     u1014_u1010_u103C u1015 u1016 u1017 u1018 u1019 u101A u101B u101B.alt 
     u101B.long u101C u101D u101E u101E_u1010_u103C u101F u1020 u1020.long 
     u1020_u1020 u1020_u103E u1021 u1022 u1023 u1025 u1026 u1027 u1028 
-    u1029 u103F u1041 u1042 u1043 u1044 
+    u1029 u103F u1040 u1041 u1042 u1043 u1044 
     u1045 u1046 u1047 u1048 u1049 u104E u1050 u1051 
     u1051_u100C u1051_u100D u1052 
     u1053 u1054 u1055 u1056 u1057 u105A u105B u105C u105D u1061 
@@ -91,6 +91,7 @@
     u103A_u1036
     u102E u102E_uAA7C u1032 u1032_u102D u1033 u1034 u1035 u1071 u1072 u1073 u1074 u1085 
     u1004.kinzi_u1036 u1036 u1036.dot u109D uA9E5 uA9E5_uAA7C
+    u1086 u1086_uAA7C
   </property>
   <property name="GDL_order" value="120">
     u102F u102F.med u102F_u108D
@@ -98,7 +99,7 @@
     u1032.kham u1032_uAA70 
   </property>
   <property name="GDL_order" value="130">u1062 u1062_u103A</property>
-  <property name="GDL_order" value="140">u1086 u1086_uAA7C</property>
+  <!-- <property name="GDL_order" value="140">u1086 u1086_uAA7C</property> -->
   <property name="GDL_order" value="145">u1037</property>
   <property name="GDL_order" value="150">
     u102B u102B_u103A u102C u1063 u1063_u103A u1067

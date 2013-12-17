@@ -5,7 +5,7 @@
 import codecs, os
 
 TESTDIR='test-suite'
-VERSION='2.95.3'
+VERSION='2.96'
 TTF_VERSION='2.9'
 APPNAME='padauk'
 SRCDIST="{0}-src.{1}".format(APPNAME, VERSION)
@@ -21,7 +21,7 @@ There is feature support in Graphite for the following features: kdot, fdot,
 lldt, wtri, ulon, utal, dotc, hsln (value: 0-2), nnya, vtta
 '''
 DEBPKG='ttf-sil-padauk'
-COPYRIGHT='Copyright SIL International, all rights reserved'
+COPYRIGHT='Copyright 2013 SIL International, all rights reserved'
 LICENSE='OFL.txt'
 DOCDIR='doc'
 
@@ -59,7 +59,7 @@ test = fonttest(targets = {
                     grsvg_ot = 'harfbuzzng'),
         'test' : tests({
             'regression' :
-                cmd('cmptxtrender -k -e ${shaper} -s "${script}" -t ${SRC[1].bldpath()} -o ${TGT} ${fileinfo} ${SRC[0].bldpath()} ${SRC[2].bldpath()}')})
+                cmd('cmptxtrender -k -e ${shaper} -s "${script}" -t ${SRC[1]} -o ${TGT} ${fileinfo} ${SRC[0]} ${SRC[2]}')})
     })
 
 # import pdb; pdb.set_trace()
