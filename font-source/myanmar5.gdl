@@ -264,7 +264,7 @@ would want if the sequence: cons U+1036 U+102C were to occur.
 
 cUVowel = (g103a, g1004_kinzi, g1004_kinzi_102d, g1004_kinzi_102e, g1004_kinzi_1032, g1004_kinzi_1036, g1004_kinzi_103a, g101b_kinzi, g101b_kinzi_102d, g101b_kinzi_102e, g101b_kinzi_103a, g102d,
             g102d_1036, g102e, g1032, g1032_102d, g1033, g1034, g1035, 
-            g1071, g1072, g1073, g1074, g1081, g1082){breakweight = -BW_NEVER};
+            g1071, g1072, g1073, g1074, g1085, g1086){breakweight = -BW_NEVER};
 cUSpace = (g1032, g1032_102d, g103a, g102d, g102e, g1004_kinzi_102e, g1004_kinzi_102d, g1004_kinzi,
             g1004_kinzi_1036, g1004_kinzi_103a, g101b_kinzi, g101b_kinzi_102d, g101b_kinzi_102e, g101b_kinzi_103a, g1033, g1034, g1035, g1071, g1072, g1073, g1074,
             g1085);
@@ -518,7 +518,7 @@ g1029 _ > g101e g103c:1 / ^ _ _;
 g1051 gKill g100c > g1051_100c:(1 2 3) _ _;
 g1051 gKill g100d > g1051_100d:(1 2 3) _ _;
 g105a > g1004 / ^ _ (g103a g1039);
-g1081 _ > g1002 g103e:1 / _ g103b? g103c? (g103d, g1082) _;
+// g1081 _ > g1002 g103e:1 / _ g103b? g103c? (g103d, g1082) _;
 gKill g101c g103d > g101c_med_103d:(1 2 3) _ _;
 
 // there should be no gKill left now
@@ -588,7 +588,7 @@ cmed > @r{sOrder = 25} / cCons cmed{sOrder == 20} _=r;
 //_ > g25cc:3 / cUSpace _ g103a ^;
 
 // prevent decomposed 1081 getting a circle with asat
-g1002 g103e g1082 g103a;
+//g1002 g103e g1082 g103a;
 
 // allow zero after another number to take a vowel for currency
 g1040 > @2{sOrder=1} / cNum _ (g102d, g102b);

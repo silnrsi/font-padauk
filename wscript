@@ -5,7 +5,7 @@
 import codecs, os
 
 TESTDIR='test-suite'
-VERSION='2.96'
+VERSION='2.96.1'
 TTF_VERSION='2.9'
 APPNAME='padauk'
 SRCDIST="{0}-src.{1}".format(APPNAME, VERSION)
@@ -115,7 +115,8 @@ for f in ['', 'bold', 'book', 'bookbold'] :
                 sfd_master = 'font-source/master.sfd',
                 graphite = gdl('padauk' + f + '.gdl',
                                 master = '../font-source/myanmar5.gdl',
-                                params = '-w3521 -w3530 -q -d -v2', make_params="-m _R"),
+                                params = '-w3521 -w3530 -q -d -v2', make_params="-m _R",
+                                depends = ['font-source/myfeatures.gdl']),
                 tests = test,
 #                script = ['mymr', 'mym2'],
                 script = ['mymr'],
