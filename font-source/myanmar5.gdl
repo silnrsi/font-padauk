@@ -222,12 +222,6 @@ when medialised. I.e. are true medials. Whereas the other characters indicate sy
 chaining when medialised.
 @enddoc */
 
-cClusMed = (g103b, g103c, g103d, g1082, g103e, g105e, g105f, g1060){breakweight = -BW_NEVER};
-cClusMedNot103b = (g103c, g103d, g1082, g103e, g105e, g105f, g1060){breakweight = -BW_NEVER};
-cClusDia = (g103b, g103b_103d, g103b_103d_103e, g103b_103e, g103d, g103d_103e, g1082, g103e, 
-            g103e_102f, g103e_1030, g105e, g105f, g1060);
-cWaHa = (g1082, g103e);
-
 /* @doc
 y-medials are diacritics, but they don't have attachment points to attach to the base character
 with. So we need to write a special rule to attach them so that inter character spacing and
@@ -300,7 +294,6 @@ when it ligates with another medial.
 // c103e = (g103e, g103e_102f, g103e_1030, g103d_103e, g103b_103e, g103d_103e_tri);
 
 /* @doc
-U+103C (wrap) takes numerous forms depending on context. We list various sets of these
 forms here. First we separate the non-ligating forms and the ligating forms. Then we list
 by width: narrow and wide. And then we also list be normal and alternate forms. Alternate
 forms are those with a gap at the top for a spacing upper vowel.
@@ -475,15 +468,6 @@ if (nnya == 0)
 g100a gKill g100a > g100a_100a:(1 2 3) _ _;
 endif;
 
-g100b gKill g100b > g100b_100b:(1 2 3) _ _;
-g100b gKill g100c > g100b_100c:(1 2 3) _ _;
-g100d gKill g100d > g100d_100d:(1 2 3) _ _;
-g100d gKill g100e > g100d_100e:(1 2 3) _ _; // this way round is consistent with other Myanmar fonts
-g100f gKill g100b > g100f_100b:(1 2 3) _ _;
-g100f gKill g100d > g100f_100d:(1 2 3) _ _;
-g1014 gKill g1010 g103c > g1014_1010_103c:(1 2 3 4) _ _ _;
-g1014 gKill g1010 g103c > g1014_1010_103c:(1 2 3 4) _ _ _;
-g101e gKill g1010 g103c > g101e_1010_103c:(1 2 3 4) _ _ _;
 g102d g1032 > g1032_102d:(1 3) _ / ^ _ cLVowel? _;
 
 g103a g1036 > g103a_1036:(1 2) _;
@@ -511,8 +495,6 @@ if (!uTall)
     endif;
     g103e g102f > g103e_102f:(1 5) _ / _ ^ g103a? cPreVowel? cUVowel? _;
 endif;
-g1020 g1039 g1020 > g1020_1020:(1 2 3) _ _;
-g1020 g103e > g1020_103e:(1 2) _;
 g1026 _ > g1025 g102e:1 / ^ _ _;
 g1029 _ > g101e g103c:1 / ^ _ _;
 g1051 gKill g100c > g1051_100c:(1 2 3) _ _;
@@ -521,12 +503,14 @@ g105a > g1004 / ^ _ (g103a g1039);
 // g1081 _ > g1002 g103e:1 / _ g103b? g103c? (g103d, g1082) _;
 gKill g101c g103d > g101c_med_103d:(1 2 3) _ _;
 
+g1081 _ > g1002 g103e:1 / ^ _ g103b? g103c? g103d? _;
 // there should be no gKill left now
 // gKill > _;
 ANY g200C > ANY:(1 2) _;
 ANY g200d > ANY:(1 2) _;
 ANY wj > ANY:(1 2) _;
 
+ANY > @1{sOrder=order};
 endpass;
 
 /* @doc
@@ -557,14 +541,11 @@ All this in two rules! Mind you the two rules do check every glyph.
 // so remove for backwards compatibility
 // this results in bad rendering beyond just not inserting 25cc e.g. U+1000 U+102F gets a tall glyph
 // if (dottedc)
-if (dottedc)
-pass(pass_order);
-ANY > @1{sOrder=order};
-endpass;
-
 pass(pass_insert);
 if (dottedc)
 
+if (dottedc)
+pass(pass_order);
 /* @doc
 A special rule to handle contractions (reduplications). It allows a killer directly after a
 consonant and for any diacritic to follow that killer. Notice that the rule needs to be
@@ -620,13 +601,6 @@ g1037{sOrder = 180} / _ ^ (g1032, g1036);
 // slot A Vowel
 g1062 > @2{sOrder=150} / ANY{sOrder >= 130 && sOrder < 150} _;
 
-// slot Mon h
-c103eStart > @2{sOrder=152} / g102c _ g103a;
-
-// slot A Asat
-g103a > @2{sOrder=155} / (g103e, g1062) _;
-g103a > @2{sOrder=155} / ANY{sOrder == 150} _;
-
 // slot Anusvara
 (g1036, g1032) > @2{sOrder=160} / ANY{sOrder >= 120 && sOrder <= 150} _;
 (g1036, g1032) > @2{sOrder=160} / g102d _;
@@ -638,6 +612,13 @@ _ g1037 > g25cc:3 @3{sOrder=130} / g1037{sOrder == 130} _ _;
 g1037 > @2{sOrder=180} / ANY{sOrder >= 120 && sOrder < 180} _;
 // backwards compatibility
 g1037 > @2{sOrder=180} / ANY{sOrder == 200} _ ^;
+
+// slot Mon h
+c103eStart > @2{sOrder=152} / g102c _ g103a;
+
+// slot A Asat
+g103a > @2{sOrder=155} / (g103e, g1062) _;
+g103a > @2{sOrder=155} / ANY{sOrder == 150} _;
 
 // Visible virama
 g103a > @2{sOrder=200} / ANY{sOrder >= 170 && sOrder < 200} _{sOrder == 30};
@@ -664,7 +645,6 @@ _ ANY > g25cc:2 @2 / _ _{sOrder > 1};
 endif // for v3 compatibility
 
 endpass;
-endif;
 
 #endif
 
@@ -738,6 +718,7 @@ g102f > @u / c103c_only cConsSVowel cUVowel? _=u ^;
 if (uTall == 0 && uLong == 0)
     g100a cLVowel > g100a_alt:(1) cLVowelM:(3) / ^ _ cUVowel? _;
 endif;
+
 if (uTall==0)
     // The next rule prevents the following, shorter rule matching
     cLVowel > cLVowel / c103c_103d ^ cConsSVowel cUVowel? _;
@@ -802,7 +783,6 @@ else
 g1032 gaa70 > g1032_aa70:(1 3) _ / _ cTone? _;
 g103a gaa70 > g103a_aa70:(1 3) _ / _ cTone? _;
 endif;
-
 /* @doc
 Handle feature substitutions
 @enddoc */
@@ -830,7 +810,6 @@ g100b > g100b_alt;
 endif;
 
 endpass;
-
 endtable; // substitution table
 
 /* @doc
@@ -894,8 +873,6 @@ base character to the wrap, we need to change the advance of the wrap to be the 
 wrap. We do this here.
 @enddoc */
 
-c103c {advance.x = advx; hasadv = 1} / _{hasadv == 0};
-
 /* @doc
 First we address the lower dot (U+1037) and decide which glyph is its base character. In different
 contexts it takes a different base character. We describe them all in the environments. The final
@@ -904,24 +881,23 @@ fallback is to treat g1037 as a simple cBSDia in a later rule, so we only need t
 
 // This lot is a bit messy. We could probably simplify this, but at least it works!
 if (lldot)
-    cTakesLLMDia c1037 {attach {to = @1; at = LLMS; with = LM}; attached = 1} \
+    cLeftLDot c1037 {attach {to = @1; at = LLMS; with = LM}; attached = 1} \
                                         / ^ _ _ {attached == 0}; 
 endif;
 
-if (ldotrt == 0)
 cConsSVowel c1037 {attach {to = @2; at = LS; with = LM}; attached = 1} \
                                         / ^ c103c_only? _ cUDia? _{attached == 0};
-c103c_mix c1037 {attach {to = @1; at = LS; with = LM}; attached = 1} \
-                                        / ^ _ cConsSVowel cUDia? _{attached == 0};
-else
 c103c c1037 {attach {to = @1; at = LS; with = LM}; attached = 1} \
                                         / ^ _ cConsSVowel cUDia? _{attached == 0};
+c103c c1037 {attach {to = @1; at = LS; with = LM}; attached = 1} \
+                                        / ^ _ cConsSVowel cmed c103e_dia? cUDia? _{attached == 0};
 endif;
 
 c103c c1037 {attach {to = @1; at = LS; with = LM}; attached = 1} \
-                                        / ^ _ cConsSVowel cmed c103e_dia? cUDia? _{attached == 0};
-c103c c1037 {attach {to = @1; at = LS; with = LM}; attached = 1} \
                                         / ^ _ cConsSVowel cmed? c103e_dia cUDia? _{attached == 0};
+c103c_mix c1037 {attach {to = @1; at = LS; with = LM}; attached = 1} \
+                                        / ^ _ cConsSVowel cUDia? _{attached == 0};
+else
 c101b c1037 {attach {to = @1; at = LS; with = LM}; attached = 1} \
                                         / ^ _ (cmed, cClusDia) cUVowel? cLVowelM? c1036? _{attached == 0};
 c101b c1037 {attach {to = @1; at = LS; with = LM}; attached = 1} \
@@ -985,19 +961,12 @@ cTakesLDia cLDia {attach {to = @1; at = LS; with = LM}; attached = 2} \
 Attach the non-attached
 @enddoc */
 
-c103c_only g103b {attach {to = @1; at = LLS; with = LLS}; attached = 1} / ^ _ cCons cmed? g103a? _{attached == 0};
-
 cCons cYMed {attach.to = @1; attached = 1} / ^ _ cmed? g103a? _{attached == 0};
 
 endpass;
 
-pass(2);
-
-cTakesLMDia cLDia {attach {to = @1; at = LMS; with = LM}; attached = 1} \
-                                        / ^ _ opt3(cnTakesLMDia) _{attached != 1};
-endpass;
-
 /* @doc
+U+103C (wrap) takes numerous forms depending on context. We list various sets of these
 <h2>Kerning</h2>
 
 There is very little kerning to be done. We need to kern a diacritic in relation to U+101B
@@ -1009,7 +978,23 @@ attachment point in the wrap and the BDS on the consonant. But we don't have tha
 in the font.
 @enddoc */
 
+cClusMed = (g103b, g103c, g103d, g1082, g103e, g105e, g105f, g1060){breakweight = -BW_NEVER};
+cClusMedNot103b = (g103c, g103d, g1082, g103e, g105e, g105f, g1060){breakweight = -BW_NEVER};
+cClusDia = (g103b, g103b_103d, g103b_103d_103e, g103b_103e, g103d, g103d_103e, g1082, g103e, 
+            g103e_102f, g103e_1030, g105e, g105f, g1060);
+cWaHa = (g1082, g103e);
+
+c103c {advance.x = advx; hasadv = 1} / _{hasadv == 0};
+
+c103c_only g103b {attach {to = @1; at = LLS; with = LLS}; attached = 1} / ^ _ cCons cmed? g103a? _{attached == 0};
+
 pass(3);
+
+pass(2);
+
+cTakesLMDia cLDia {attach {to = @1; at = LMS; with = LM}; attached = 1} \
+                                        / ^ _ opt3(cnTakesLMDia) _{attached != 1};
+endpass;
 
 g101b_alt {kern.x = @2.rkern + 10m} cHasRkern {shift.x = -rkern};
 // c102c_tall {kern.x = -xkern} / cCons cLowDia? _;
@@ -1035,6 +1020,8 @@ cBDDia {advance.x = 1m } / cConsNar=n _ c103c;
 cConsNar { shift.x = -@m.BDM.x - @n.advance.x / 2; advance.x += -@m.BDM.x - @n.advance.x / 2} / c103c cCons cUVowel? _=n cBDDia=m;
 cConsNar { shift.x = -@m.BDM.x - @n.advance.x / 2; advance.x += -@m.BDM.x - @n.advance.x / 2} / (g102f, g1030)  _=n cBDDia=m;
 cConsNar {shift.x = -@m.BDM.x - @n.advance.x / 2; advance.x += -@m.BDM.x - @n.advance.x / 2} / (g101b, g103b) cUVowel? _=n cBDDia=m;
+cBDDia {advance.x = -BDM.x - @n.advance.x / 2 } / cConsNar=n _ cConsNar cBDDia;
+cBDDia {advance.x = -BDM.x - @n.advance.x / 2 } / cConsNar=n _ c103c;
 (cConsNar, g1014_alt, g101b_alt) {kern.x = (@n.advance.x) / 4 }/ (g101b, g103b, g102f, g1030) cUVowel? _=n cMedHUu;
 g103b {advance.x += @4.BSM.x - @4.boundingbox.left - @3.BSS.x}  / _ cUVowel? ^ cConsNar (g103e_1030_slantr, g103e_1030_slanth);
 
@@ -1054,6 +1041,22 @@ if (slanth == sgaw)
 c1037 { kern.x = -100m; kern.y = -100m; } / g101b_long g103e_slanth _;
 endif;
 
+endpass;
+
+endif;
+
+g100b gKill g100b > g100b_100b:(1 2 3) _ _;
+g100b gKill g100c > g100b_100c:(1 2 3) _ _;
+g100d gKill g100d > g100d_100d:(1 2 3) _ _;
+g100d gKill g100e > g100d_100e:(1 2 3) _ _; // this way round is consistent with other Myanmar fonts
+g100f gKill g100b > g100f_100b:(1 2 3) _ _;
+g100f gKill g100d > g100f_100d:(1 2 3) _ _;
+g1014 gKill g1010 g103c > g1014_1010_103c:(1 2 3 4) _ _ _;
+g1014 gKill g1010 g103c > g1014_1010_103c:(1 2 3 4) _ _ _;
+g101e gKill g1010 g103c > g101e_1010_103c:(1 2 3 4) _ _ _;
+g1020 g1039 g1020 > g1020_1020:(1 2 3) _ _;
+g1020 g103e > g1020_103e:(1 2) _;
+if (ldotrt == 0)
 endpass;
 
 endtable; // positioning table

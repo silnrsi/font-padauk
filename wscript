@@ -7,6 +7,7 @@ import codecs, os
 TESTDIR='test-suite'
 VERSION='2.96.1'
 TTF_VERSION='2.9'
+VERSION='2.95'
 APPNAME='padauk'
 SRCDIST="{0}-src.{1}".format(APPNAME, VERSION)
 DESC_SHORT='Burmese Unicode 6 truetype font with OT and Graphite support'
@@ -59,7 +60,7 @@ test = fonttest(targets = {
                     grsvg_ot = 'harfbuzzng'),
         'test' : tests({
             'regression' :
-                cmd('cmptxtrender -k -e ${shaper} -s "${script}" -t ${SRC[1]} -o ${TGT} ${fileinfo} ${SRC[0]} ${SRC[2]}')})
+                cmd('cmptxtrender -k -e ${shaper} -s "${script}" -t ${SRC[1].bldpath()} -o ${TGT} ${fileinfo} ${SRC[0].bldpath()} ${SRC[2].bldpath()}')})
     })
 
 # import pdb; pdb.set_trace()
@@ -85,7 +86,7 @@ for f in ['', 'bold', 'book', 'bookbold'] :
                          [legmetrics,
                              'font-source/patch_padauk_unicode.xsl',
                              'font-source/padauk_unicode.xml']))
-        srcfile = legacy(fsf + '_src_auto.sfd',
+        srcfile = legacy(fsf + '_src.sfd',
                         source = source,
                         xml = legxml,
                         ap = '../super/padauk' + f + '.xml')
@@ -97,7 +98,8 @@ for f in ['', 'bold', 'book', 'bookbold'] :
 #                       name(mystrings[namestrings[f][0]], lang='my', nopost=1,
 #                            full=(((mystrings[namestrings[f][0]] + " " + mystrings[namestrings[f][1]])
 #                                if 'bold' in f else mystrings[namestrings[f][0]]))),
-                        name(namestrings[f][0], lang='en-US', subfamily = namestrings[f][1])),
+                        name(namestrings[f][0], lang='en-US', subfamily = namestrings[f][1]),
+                        cmd('hackos2 -u 1 ${DEP} ${TGT}')),
 #                        name(namestrings[f][0], lang='en-US', subfamily = namestrings[f][1]),
 #                        cmd('hackos2 -u 1 ${DEP} ${TGT}')),
 #    fnt = font(target = target,
@@ -115,9 +117,11 @@ for f in ['', 'bold', 'book', 'bookbold'] :
                 sfd_master = 'font-source/master.sfd',
                 graphite = gdl('padauk' + f + '.gdl',
                                 master = '../font-source/myanmar5.gdl',
-                                params = '-w3521 -w3530 -q -d -v2', make_params="-m _R",
-                                depends = ['font-source/myfeatures.gdl']),
+                                params = '-w3521 -q -d -v2'),
                 tests = test,
+                script = ['mymr', 'mym2'],
+                extra_srcs = [fsf + '_src.ttf', 'bin/makegdl', 'font-source/myfeatures.gdl']
+            )
 #                script = ['mymr', 'mym2'],
                 script = ['mymr'],
                 extra_srcs = [fsf + '_src.ttf', 'bin/makegdl', 'font-source/myfeatures.gdl'],
@@ -137,12 +141,5 @@ for f in ['', 'bold', 'book', 'bookbold'] :
 #def configure(ctx) :
 #    ctx.env['MAKE_GDL'] = 'perl ' + src('bin/makegdl')
 
-def srcdist(ctx) :
-    for p in package.packages() :
-        for f in p.fonts :
-            try :
-                del f.legacy
-            except :
-                pass
-            
-    
+def configure(ctx) :
+    ctx.env['MAKE_GDL'] = 'perl ../bin/makegdl'
