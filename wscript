@@ -5,9 +5,8 @@
 import codecs, os
 
 TESTDIR='test-suite'
-VERSION='2.96.1'
-TTF_VERSION='2.9'
 VERSION='2.95'
+TTF_VERSION='2.9'
 APPNAME='padauk'
 SRCDIST="{0}-src.{1}".format(APPNAME, VERSION)
 DESC_SHORT='Burmese Unicode 6 truetype font with OT and Graphite support'
@@ -22,7 +21,7 @@ There is feature support in Graphite for the following features: kdot, fdot,
 lldt, wtri, ulon, utal, dotc, hsln (value: 0-2), nnya, vtta
 '''
 DEBPKG='ttf-sil-padauk'
-COPYRIGHT='Copyright 2013 SIL International, all rights reserved'
+COPYRIGHT='Copyright SIL International, all rights reserved'
 LICENSE='OFL.txt'
 DOCDIR='doc'
 
@@ -100,8 +99,6 @@ for f in ['', 'bold', 'book', 'bookbold'] :
 #                                if 'bold' in f else mystrings[namestrings[f][0]]))),
                         name(namestrings[f][0], lang='en-US', subfamily = namestrings[f][1]),
                         cmd('hackos2 -u 1 ${DEP} ${TGT}')),
-#                        name(namestrings[f][0], lang='en-US', subfamily = namestrings[f][1]),
-#                        cmd('hackos2 -u 1 ${DEP} ${TGT}')),
 #    fnt = font(target = target,
                 version = TTF_VERSION,
                 license = ofl("Padauk"),
@@ -119,13 +116,8 @@ for f in ['', 'bold', 'book', 'bookbold'] :
                                 master = '../font-source/myanmar5.gdl',
                                 params = '-w3521 -q -d -v2'),
                 tests = test,
-#                script = ['mymr', 'mym2'],
-#                extra_srcs = [fsf + '_src.ttf', 'bin/makegdl', 'font-source/myfeatures.gdl']
-#            )
-#                script = ['mymr', 'mym2'],
-                script = ['mymr'],
-                extra_srcs = [fsf + '_src.ttf', 'bin/makegdl', 'font-source/myfeatures.gdl'],
-                pdf = fret()
+                script = ['mymr', 'mym2'],
+                extra_srcs = [fsf + '_src.ttf', 'bin/makegdl', 'font-source/myfeatures.gdl']
             )
 #    if 'bold' not in f :
 #        process(fnt.target, cmd('${TTFNAME} -r 17 ${DEP} ${TGT}'))
@@ -138,8 +130,15 @@ for f in ['', 'bold', 'book', 'bookbold'] :
                         [legmetrics, legxml, fsf + '_src.xsl']))
         
 
-#def configure(ctx) :
-#    ctx.env['MAKE_GDL'] = 'perl ' + src('bin/makegdl')
-
 def configure(ctx) :
-    ctx.env['MAKE_GDL'] = 'perl ../bin/makegdl'
+    ctx.env['MAKE_GDL'] = 'perl ' + src('bin/makegdl')
+
+def srcdist(ctx) :
+    for p in package.packages() :
+        for f in p.fonts :
+            try :
+                del f.legacy
+            except :
+                pass
+            
+    
