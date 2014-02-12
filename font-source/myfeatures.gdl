@@ -121,5 +121,10 @@ kayah {
     slanth = angle;
 };
 
+shan {
+    languages = ("shn");
+    watri = 1;
+};
+
 endtable;
 

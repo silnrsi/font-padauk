@@ -264,7 +264,7 @@ would want if the sequence: cons U+1036 U+102C were to occur.
 
 cUVowel = (g103a, g1004_kinzi, g1004_kinzi_102d, g1004_kinzi_102e, g1004_kinzi_1032, g1004_kinzi_1036, g1004_kinzi_103a, g101b_kinzi, g101b_kinzi_102d, g101b_kinzi_102e, g101b_kinzi_103a, g102d,
             g102d_1036, g102e, g1032, g1032_102d, g1033, g1034, g1035, 
-            g1071, g1072, g1073, g1074, g1081, g1082){breakweight = -BW_NEVER};
+            g1071, g1072, g1073, g1074, g1085, g1086){breakweight = -BW_NEVER};
 cUSpace = (g1032, g1032_102d, g103a, g102d, g102e, g1004_kinzi_102e, g1004_kinzi_102d, g1004_kinzi,
             g1004_kinzi_1036, g1004_kinzi_103a, g101b_kinzi, g101b_kinzi_102d, g101b_kinzi_102e, g101b_kinzi_103a, g1033, g1034, g1035, g1071, g1072, g1073, g1074,
             g1085);
@@ -371,6 +371,7 @@ Tone context characters that can occur before a U+AA70 khamti reduplication
 cTone = (g1038, g1087, g1088, g1089, g108a, g109a, g109b);
 cToneKham = (g1038_dot, g1087_dot, g1088_dot, g1089_dot, g108a_dot, g109a_dot, g109b_dot);
 
+cSpacingTone = (g1064, g1067, g1068, g1069, g106a, g106b, g106c, g106d);
 c1037 = (g1037);
 
 endtable; // glyph table
@@ -517,7 +518,7 @@ g1029 _ > g101e g103c:1 / ^ _ _;
 g1051 gKill g100c > g1051_100c:(1 2 3) _ _;
 g1051 gKill g100d > g1051_100d:(1 2 3) _ _;
 g105a > g1004 / ^ _ (g103a g1039);
-g1081 _ > g1002 g103e:1 / ^ _ g103b? g103c? g103d? _;
+// g1081 _ > g1002 g103e:1 / _ g103b? g103c? (g103d, g1082) _;
 gKill g101c g103d > g101c_med_103d:(1 2 3) _ _;
 
 // there should be no gKill left now
@@ -587,7 +588,7 @@ cmed > @r{sOrder = 25} / cCons cmed{sOrder == 20} _=r;
 //_ > g25cc:3 / cUSpace _ g103a ^;
 
 // prevent decomposed 1081 getting a circle with asat
-g1002 g103e g1082 g103a;
+//g1002 g103e g1082 g103a;
 
 // allow zero after another number to take a vowel for currency
 g1040 > @2{sOrder=1} / cNum _ (g102d, g102b);
@@ -770,6 +771,7 @@ When does the -h slant? Inside a wrap and after a consonant that forces it to sl
 
 g103e > g103e_alt / ^ c103c cConsSVowel _;
 g103e > g103e_alt / cConsSlantH _;
+g103e > g103e_slanth / g1082 _;
 
 /* @doc
 Tall -a vowel ligature
@@ -892,7 +894,7 @@ base character to the wrap, we need to change the advance of the wrap to be the 
 wrap. We do this here.
 @enddoc */
 
-c103c {advance.x = advx; hasadv = 1} / ^ _{hasadv == 0};
+c103c {advance.x = advx; hasadv = 1} / _{hasadv == 0};
 
 /* @doc
 First we address the lower dot (U+1037) and decide which glyph is its base character. In different
@@ -902,7 +904,7 @@ fallback is to treat g1037 as a simple cBSDia in a later rule, so we only need t
 
 // This lot is a bit messy. We could probably simplify this, but at least it works!
 if (lldot)
-    cLeftLDot c1037 {attach {to = @1; at = LLMS; with = LM}; attached = 1} \
+    cTakesLLMDia c1037 {attach {to = @1; at = LLMS; with = LM}; attached = 1} \
                                         / ^ _ _ {attached == 0}; 
 endif;
 
@@ -976,15 +978,23 @@ right is a major part of the testing.
 // According to official rules, lower dot should be to right with h medial, so disable this rule
 //g101f_med cLDia {attach {to = @1; at = LLS; with = LM}; attached = 1} \
 //                                        / ^ _ opt3(cnTakesLDia) _{attached == 0};
-cTakesLDia cLDia {attach {to = @1; at = LS; with = LM}; attached = 1} \
+cTakesLDia cLDia {attach {to = @1; at = LS; with = LM}; attached = 2} \
                                         / ^ _ opt3(cnTakesLDia) _{attached == 0};
 
 /* @doc
 Attach the non-attached
 @enddoc */
 
+c103c_only g103b {attach {to = @1; at = LLS; with = LLS}; attached = 1} / ^ _ cCons cmed? g103a? _{attached == 0};
+
 cCons cYMed {attach.to = @1; attached = 1} / ^ _ cmed? g103a? _{attached == 0};
 
+endpass;
+
+pass(2);
+
+cTakesLMDia cLDia {attach {to = @1; at = LMS; with = LM}; attached = 1} \
+                                        / ^ _ opt3(cnTakesLMDia) _{attached != 1};
 endpass;
 
 /* @doc
@@ -999,7 +1009,7 @@ attachment point in the wrap and the BDS on the consonant. But we don't have tha
 in the font.
 @enddoc */
 
-pass(2);
+pass(3);
 
 g101b_alt {kern.x = @2.rkern + 10m} cHasRkern {shift.x = -rkern};
 // c102c_tall {kern.x = -xkern} / cCons cLowDia? _;
@@ -1019,13 +1029,14 @@ g1036 {shift.x = (@i.advance.x - @u.advance.x) / 2 + 100m } / g1025=i g102f=u _;
 g1063 { kern.x = advance.x/4 } / (g101b, g1061) g103e? g1037 _ ;
 
 // narrow above, wide medial below
-cBDDia {advance.x = -BDM.x - @n.advance.x / 2 } / cConsNar=n _ cConsNar cBDDia;
-cBDDia {advance.x = 10m } / cConsNar=n _ (g102f, g1030);
-cBDDia {advance.x = -BDM.x - @n.advance.x / 2 } / cConsNar=n _ c103c;
+cBDDia {advance.x = 1m} / cConsNar=n _ cConsNar cBDDia;
+cBDDia {advance.x = 1m} / cConsNar=n _ (g102f, g1030);
+cBDDia {advance.x = 1m } / cConsNar=n _ c103c;
 cConsNar { shift.x = -@m.BDM.x - @n.advance.x / 2; advance.x += -@m.BDM.x - @n.advance.x / 2} / c103c cCons cUVowel? _=n cBDDia=m;
 cConsNar { shift.x = -@m.BDM.x - @n.advance.x / 2; advance.x += -@m.BDM.x - @n.advance.x / 2} / (g102f, g1030)  _=n cBDDia=m;
 cConsNar {shift.x = -@m.BDM.x - @n.advance.x / 2; advance.x += -@m.BDM.x - @n.advance.x / 2} / (g101b, g103b) cUVowel? _=n cBDDia=m;
 (cConsNar, g1014_alt, g101b_alt) {kern.x = (@n.advance.x) / 4 }/ (g101b, g103b, g102f, g1030) cUVowel? _=n cMedHUu;
+g103b {advance.x += @4.BSM.x - @4.boundingbox.left - @3.BSS.x}  / _ cUVowel? ^ cConsNar (g103e_1030_slantr, g103e_1030_slanth);
 
 g1037 / cYMed cUVowel? cLVowel? c1036? _ cTone;
 g1037 / cYMed cUVowel? cLVowel? c1036? _ (g1063 g1064 g1069 g106a g106b g106c g106d g108f);
