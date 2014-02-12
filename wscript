@@ -59,7 +59,7 @@ test = fonttest(targets = {
                     grsvg_ot = 'harfbuzzng'),
         'test' : tests({
             'regression' :
-                cmd('cmptxtrender -k -e ${shaper} -s "${script}" -t ${SRC[1]} -o ${TGT} ${fileinfo} ${SRC[0]} ${SRC[2]}')})
+                cmd('cmptxtrender -p -k -e ${shaper} -s "${script}" -L test -L standard -t ${SRC[1]} -o ${TGT} --copy ${fileinfo} ${SRC[0]} ${SRC[2]}')})
     })
 
 # import pdb; pdb.set_trace()
@@ -114,12 +114,12 @@ for f in ['', 'bold', 'book', 'bookbold'] :
                 opentype = internal(),
                 sfd_master = 'font-source/master.sfd',
                 graphite = gdl('padauk' + f + '.gdl',
-                                master = '../font-source/myanmar5.gdl',
+                                master = 'font-source/myanmar5.gdl',
                                 params = '-w3521 -w3530 -q -d -v2', make_params="-m _R",
                                 depends = ['font-source/myfeatures.gdl']),
                 tests = test,
-#                script = ['mymr', 'mym2'],
-                script = ['mymr'],
+                script = ['mymr', 'mym2'],
+#                script = ['mymr'],
                 extra_srcs = [fsf + '_src.ttf', 'bin/makegdl', 'font-source/myfeatures.gdl'],
                 pdf = fret()
             )
