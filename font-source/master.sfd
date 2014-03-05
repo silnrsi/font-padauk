@@ -1,6 +1,10 @@
 SplineFontDB: 3.0
 FontName: Padauk
 FullName: Padauk
+FamilyName: Padauk
+Weight: Regular
+Copyright: 
+Version: 
 ItalicAngle: 0
 UnderlinePosition: -450
 UnderlineWidth: 50
@@ -13,8 +17,8 @@ XUID: [1021 988 686867477 13624295]
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
-CreationTime: 1387266104
-ModificationTime: 1387324701
+CreationTime: 1393962599
+ModificationTime: 1394046849
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -46,7 +50,7 @@ OS2StrikeYSize: 52
 OS2StrikeYPos: 262
 OS2Vendor: 'SIL '
 OS2CodePages: 00000001.00000000
-Lookup: 4 0 0 "ngakinzi"  {"cligContextualLigaturesinMyanma subtable"  } ['clig' ('mymr' <'KHT ' 'KSW ' 'KYU ' 'dflt' > ) ]
+Lookup: 4 0 0 "ngakinzi"  {"cligContextualLigaturesinMyanma subtable"  } ['clig' ('mymr' <'KHT ' 'KSW ' 'KYU ' 'dflt' > ) 'rphf' ('mym2' <'KHT ' 'KSW ' 'KYU ' 'dflt' > ) ]
 Lookup: 2 0 0 "insert25cc"  {"sub_mult_cligmymr_0 subtable"  } ['clig' ('mymr' <'KHT ' 'KSW ' 'KYU ' 'dflt' > ) ]
 Lookup: 4 0 0 "remove25ccAsat-Ligature"  {"LigatureSubstitutionlookup103 subtable"  } []
 Lookup: 6 0 0 "remove25ccAsat"  {"sub_chain_cligmymr_0 contextual 0"  "sub_chain_cligmymr_0 contextual 1"  "sub_chain_cligmymr_0 contextual 2"  "sub_chain_cligmymr_0 contextual 3"  "sub_chain_cligmymr_0 contextual 4"  "sub_chain_cligmymr_0 contextual 5"  "sub_chain_cligmymr_0 contextual 6"  "sub_chain_cligmymr_0 contextual 7"  "sub_chain_cligmymr_0 contextual 8"  "sub_chain_cligmymr_0 contextual 9"  } ['clig' ('mymr' <'KHT ' 'KSW ' 'KYU ' 'dflt' > ) ]
@@ -80,7 +84,7 @@ Lookup: 4 0 0 "remove25ccTone-Ligature"  {"LigatureSubstitutionlookup117 subtabl
 Lookup: 6 0 0 "remove25ccTone"  {"sub_chain_cligmymr_28 contextual 0"  "sub_chain_cligmymr_28 contextual 1"  "sub_chain_cligmymr_28 contextual 2"  "sub_chain_cligmymr_28 contextual 3"  "sub_chain_cligmymr_28 contextual 4"  "sub_chain_cligmymr_28 contextual 5"  "sub_chain_cligmymr_28 contextual 6"  "sub_chain_cligmymr_28 contextual 7"  "sub_chain_cligmymr_28 contextual 8"  "sub_chain_cligmymr_28 contextual 9"  "sub_chain_cligmymr_28 contextual 10"  "sub_chain_cligmymr_28 contextual 11"  "sub_chain_cligmymr_28 contextual 12"  "sub_chain_cligmymr_28 contextual 13"  "sub_chain_cligmymr_28 contextual 14"  "sub_chain_cligmymr_28 contextual 15"  "sub_chain_cligmymr_28 contextual 16"  "sub_chain_cligmymr_28 contextual 17"  "sub_chain_cligmymr_28 contextual 18"  "sub_chain_cligmymr_28 contextual 19"  "sub_chain_cligmymr_28 contextual 20"  "sub_chain_cligmymr_28 contextual 21"  "sub_chain_cligmymr_28 contextual 22"  } ['clig' ('mymr' <'KHT ' 'KSW ' 'KYU ' 'dflt' > ) ]
 Lookup: 4 0 0 "remove25ccKinzi-Ligature"  {"LigatureSubstitutionlookup118 subtable"  } []
 Lookup: 6 0 0 "remove25ccKinzi"  {"sub_chain_cligmymr_30 contextual 0"  "sub_chain_cligmymr_30 contextual 1"  } ['clig' ('mymr' <'KHT ' 'KSW ' 'KYU ' 'dflt' > ) ]
-Lookup: 4 0 0 "u1039med"  {"sub_ligature_cligmymr_0 subtable"  } ['clig' ('mymr' <'KHT ' 'KSW ' 'KYU ' 'dflt' > ) ]
+Lookup: 4 0 0 "u1039med"  {"sub_ligature_cligmymr_0 subtable"  } ['blwf' ('mym2' <'KHT ' 'KSW ' 'KYU ' 'dflt' > ) 'clig' ('mymr' <'KHT ' 'KSW ' 'KYU ' 'dflt' > ) ]
 Lookup: 2 0 0 "shan1081"  {"sub_mult_cligmymr_2 subtable"  } ['clig' ('mymr' <'KHT ' 'KSW ' 'KYU ' 'dflt' > ) ]
 Lookup: 4 0 0 "miscLigKhamti"  {"sub_ligature_cligmymr_2 subtable"  } ['clig' ('mymr' <'KHT ' 'KSW ' 'KYU ' 'dflt' > ) ]
 Lookup: 4 0 0 "miscLig"  {"sub_ligature_cligmymr_4 subtable"  } ['clig' ('mymr' <'KHT ' 'KSW ' 'KYU ' 'dflt' > ) ]
@@ -4160,7 +4164,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 270 27 9
+WinInfo: 250 25 9
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "BD"  "markMarkPositioninginMyanmarloo subtable" "BDM"  "mkmkMarktoMarkinMyanmarlookup1 subtable" "BS"  "pos_mark2base_markmymr_0 subtable" "BSM"  "mkmkMarktoMarkinMyanmarlookup3 subtable" "U"  "pos_mark2base_markmymr_2 subtable" "UM"  "mkmkMarktoMarkinMyanmarlookup7 subtable" "dot"  "_someAnchorsbase" "Y"  "_someAnchorsbase" "LLM"  "_someAnchorsmark" "LR"  "_someAnchorsbase" "R"  "_someAnchorsbase" "L"  "_someAnchorsbase" "LM"  "_someAnchorsmark" "LL"  "_someAnchorsbase" 
@@ -6643,7 +6647,9 @@ Encoding: 99 4096 97
 Width: 1002
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
+HStem: -15 51<656.623 797.304> 408 51<211.273 372.761 638.988 797.304>
+VStem: 55 51<99.7477 299.309> 478 51<101.55 282.72> 895 51<134.358 309.23>
 AnchorPoint: "R" 0 0 mark 0
 AnchorPoint: "BS" 714 -53 basechar 0
 AnchorPoint: "L" 714 -53 basechar 0
@@ -6713,7 +6719,9 @@ Encoding: 100 -1 98
 Width: 0
 VWidth: 0
 GlyphClass: 4
-Flags: HW
+Flags: W
+HStem: -450 40<-279.217 -166.368> -125 39<-631.533 -488.751 -296.086 -166.368>
+VStem: -743 39<-361.8 -201.291> -417 40<-364.983 -213.396> -95 39<-338.185 -196.097>
 AnchorPoint: "LLM" -872 -53 basemark 0
 AnchorPoint: "LL" -872 -53 basemark 0
 AnchorPoint: "BD" -393 -53 mark 0
@@ -26825,7 +26833,7 @@ StartChar: u1081
 Encoding: 499 4225 499
 Width: 567
 VWidth: 0
-Flags: HWO
+Flags: HW
 AnchorPoint: "R" 0 0 mark 0
 AnchorPoint: "BS" 410 -53 basechar 0
 AnchorPoint: "L" 410 -53 basechar 0
