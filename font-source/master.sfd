@@ -17,8 +17,8 @@ XUID: [1021 988 686867477 13624295]
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
-CreationTime: 1393962599
-ModificationTime: 1394046849
+CreationTime: 1397656251
+ModificationTime: 1397659076
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -50,7 +50,7 @@ OS2StrikeYSize: 52
 OS2StrikeYPos: 262
 OS2Vendor: 'SIL '
 OS2CodePages: 00000001.00000000
-Lookup: 4 0 0 "ngakinzi"  {"cligContextualLigaturesinMyanma subtable"  } ['clig' ('mymr' <'KHT ' 'KSW ' 'KYU ' 'dflt' > ) 'rphf' ('mym2' <'KHT ' 'KSW ' 'KYU ' 'dflt' > ) ]
+Lookup: 4 0 0 "ngakinzi"  {"cligContextualLigaturesinMyanma subtable"  } ['clig' ('mymr' <'KHT ' 'KSW ' 'KYU ' 'dflt' > ) ]
 Lookup: 2 0 0 "insert25cc"  {"sub_mult_cligmymr_0 subtable"  } ['clig' ('mymr' <'KHT ' 'KSW ' 'KYU ' 'dflt' > ) ]
 Lookup: 4 0 0 "remove25ccAsat-Ligature"  {"LigatureSubstitutionlookup103 subtable"  } []
 Lookup: 6 0 0 "remove25ccAsat"  {"sub_chain_cligmymr_0 contextual 0"  "sub_chain_cligmymr_0 contextual 1"  "sub_chain_cligmymr_0 contextual 2"  "sub_chain_cligmymr_0 contextual 3"  "sub_chain_cligmymr_0 contextual 4"  "sub_chain_cligmymr_0 contextual 5"  "sub_chain_cligmymr_0 contextual 6"  "sub_chain_cligmymr_0 contextual 7"  "sub_chain_cligmymr_0 contextual 8"  "sub_chain_cligmymr_0 contextual 9"  } ['clig' ('mymr' <'KHT ' 'KSW ' 'KYU ' 'dflt' > ) ]
@@ -84,7 +84,7 @@ Lookup: 4 0 0 "remove25ccTone-Ligature"  {"LigatureSubstitutionlookup117 subtabl
 Lookup: 6 0 0 "remove25ccTone"  {"sub_chain_cligmymr_28 contextual 0"  "sub_chain_cligmymr_28 contextual 1"  "sub_chain_cligmymr_28 contextual 2"  "sub_chain_cligmymr_28 contextual 3"  "sub_chain_cligmymr_28 contextual 4"  "sub_chain_cligmymr_28 contextual 5"  "sub_chain_cligmymr_28 contextual 6"  "sub_chain_cligmymr_28 contextual 7"  "sub_chain_cligmymr_28 contextual 8"  "sub_chain_cligmymr_28 contextual 9"  "sub_chain_cligmymr_28 contextual 10"  "sub_chain_cligmymr_28 contextual 11"  "sub_chain_cligmymr_28 contextual 12"  "sub_chain_cligmymr_28 contextual 13"  "sub_chain_cligmymr_28 contextual 14"  "sub_chain_cligmymr_28 contextual 15"  "sub_chain_cligmymr_28 contextual 16"  "sub_chain_cligmymr_28 contextual 17"  "sub_chain_cligmymr_28 contextual 18"  "sub_chain_cligmymr_28 contextual 19"  "sub_chain_cligmymr_28 contextual 20"  "sub_chain_cligmymr_28 contextual 21"  "sub_chain_cligmymr_28 contextual 22"  } ['clig' ('mymr' <'KHT ' 'KSW ' 'KYU ' 'dflt' > ) ]
 Lookup: 4 0 0 "remove25ccKinzi-Ligature"  {"LigatureSubstitutionlookup118 subtable"  } []
 Lookup: 6 0 0 "remove25ccKinzi"  {"sub_chain_cligmymr_30 contextual 0"  "sub_chain_cligmymr_30 contextual 1"  } ['clig' ('mymr' <'KHT ' 'KSW ' 'KYU ' 'dflt' > ) ]
-Lookup: 4 0 0 "u1039med"  {"sub_ligature_cligmymr_0 subtable"  } ['blwf' ('mym2' <'KHT ' 'KSW ' 'KYU ' 'dflt' > ) 'clig' ('mymr' <'KHT ' 'KSW ' 'KYU ' 'dflt' > ) ]
+Lookup: 4 0 0 "u1039med"  {"sub_ligature_cligmymr_0 subtable"  } ['clig' ('mymr' <'KHT ' 'KSW ' 'KYU ' 'dflt' > ) ]
 Lookup: 2 0 0 "shan1081"  {"sub_mult_cligmymr_2 subtable"  } ['clig' ('mymr' <'KHT ' 'KSW ' 'KYU ' 'dflt' > ) ]
 Lookup: 4 0 0 "miscLigKhamti"  {"sub_ligature_cligmymr_2 subtable"  } ['clig' ('mymr' <'KHT ' 'KSW ' 'KYU ' 'dflt' > ) ]
 Lookup: 4 0 0 "miscLig"  {"sub_ligature_cligmymr_4 subtable"  } ['clig' ('mymr' <'KHT ' 'KSW ' 'KYU ' 'dflt' > ) ]
@@ -1904,17 +1904,17 @@ ChainSub2: coverage "sub_chain_cligmymr_28 contextual 1"  0 0 0 1
   SeqLookup: 0 "remove25ccTone-Ligature" 
 EndFPST
 ChainSub2: coverage "sub_chain_cligmymr_28 contextual 0"  0 0 0 1
- 2 1 0
+ 1 1 1
   Coverage: 10 circledash
-  Coverage: 89 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
   BCoverage: 762 u1000 u1001 u1002 u1003 u1004 u1005 u1006 u1007 u1008 u1009 u100A u100A.alt u100A_u100A u100B u100B_u100B u100B_u100C u100C u100D u100D_u100D u100D_u100E u100E u100F u100F_u100B u100F_u100D u1010 u1011 u1012 u1013 u1014 u1014.alt u1014_u1010_u103C u1015 u1016 u1017 u1018 u1019 u101A u101B u101B.alt u101B.long u101C u101D u101E u101E_u1010_u103C u101F u1020 u1021 u1022 u1025 u1027 u1029 u103F u104E u1050 u1051 u1052 u1053 u1054 u1055 u105A u105B u105C u105D u1061 u1065 u106E u106F u1070 u1075 u1076 u1077 u1078 u1079 u107A u107B u107C u107D u107E u107F u1080 u1081 u1081.straight u108E u109D u109F circledash uAA60 uAA61 uAA62 uAA63 uAA64 uAA65 uAA66 uAA67 uAA68 uAA69 uAA6A uAA6B uAA6C uAA6D uAA6E uAA6F uAA71 uAA72 uAA73 uAA74 uAA75 uAA76 uAA77 uAA78 uAA79
+  FCoverage: 89 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
  0
 EndFPST
 ChainSub2: coverage "sub_chain_cligmymr_26 subtable"  0 0 0 1
- 2 1 0
+ 1 1 1
   Coverage: 10 circledash
-  Coverage: 30  u1069 u106A u106B u106C u106D
   BCoverage: 5 u1037
+  FCoverage: 35 u1064 u1069 u106A u106B u106C u106D
  1
   SeqLookup: 0 "remove25ccAfter1037-Ligature" 
 EndFPST
@@ -4164,7 +4164,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 250 25 9
+WinInfo: 125 25 10
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "BD"  "markMarkPositioninginMyanmarloo subtable" "BDM"  "mkmkMarktoMarkinMyanmarlookup1 subtable" "BS"  "pos_mark2base_markmymr_0 subtable" "BSM"  "mkmkMarktoMarkinMyanmarlookup3 subtable" "U"  "pos_mark2base_markmymr_2 subtable" "UM"  "mkmkMarktoMarkinMyanmarlookup7 subtable" "dot"  "_someAnchorsbase" "Y"  "_someAnchorsbase" "LLM"  "_someAnchorsmark" "LR"  "_someAnchorsbase" "R"  "_someAnchorsbase" "L"  "_someAnchorsbase" "LM"  "_someAnchorsmark" "LL"  "_someAnchorsbase" 
@@ -17694,7 +17694,7 @@ SplineSet
  -112 -399 -106 -384 -106 -359 c 0
  -106 -251 l 0
 EndSplineSet
-MultipleSubs2: "sub_mult_cligmymr_0 subtable" circledash
+MultipleSubs2: "sub_mult_cligmymr_0 subtable" circledash u105E
 Comment: "GDL_order: 2+AAoA-mark: 130+AAoA" 
 EndChar
 
@@ -17986,8 +17986,8 @@ SplineSet
  343 0 l 0
 EndSplineSet
 Position2: "SinglePositioninglookup35 per glyph data 0" dx=-140 dy=0 dh=-140 dv=0
-Ligature2: "LigatureSubstitutionlookup117 subtable" circledash
-MultipleSubs2: "sub_mult_cligmymr_0 subtable" circledash
+Ligature2: "LigatureSubstitutionlookup117 subtable" circledash u1064
+MultipleSubs2: "sub_mult_cligmymr_0 subtable" circledash u1064
 Comment: "GDL_order: 1+AAoA-mark: 130+AAoA" 
 EndChar
 
