@@ -1,10 +1,7 @@
 SplineFontDB: 3.0
 FontName: Padauk
-FullName: Padauk
 FamilyName: Padauk
-Weight: Regular
 Copyright: 
-Version: 
 ItalicAngle: 0
 UnderlinePosition: -450
 UnderlineWidth: 50
@@ -17,8 +14,8 @@ XUID: [1021 988 686867477 13624295]
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
-CreationTime: 1397656251
-ModificationTime: 1397659076
+CreationTime: 1397670633
+ModificationTime: 1397670633
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -1731,7 +1728,7 @@ ChainSub2: coverage "sub_chain_cligmymr_28 contextual 22"  0 0 0 1
  1 1 1
   Coverage: 10 circledash
   BCoverage: 5 u106D
-  FCoverage: 89 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
+  FCoverage: 95 u1038 u1064 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
  1
   SeqLookup: 0 "remove25ccTone-Ligature" 
 EndFPST
@@ -1739,7 +1736,7 @@ ChainSub2: coverage "sub_chain_cligmymr_28 contextual 21"  0 0 0 1
  1 1 1
   Coverage: 10 circledash
   BCoverage: 5 u106C
-  FCoverage: 89 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
+  FCoverage: 95 u1038 u1064 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
  1
   SeqLookup: 0 "remove25ccTone-Ligature" 
 EndFPST
@@ -1747,7 +1744,7 @@ ChainSub2: coverage "sub_chain_cligmymr_28 contextual 20"  0 0 0 1
  1 1 1
   Coverage: 10 circledash
   BCoverage: 5 u106B
-  FCoverage: 89 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
+  FCoverage: 95 u1038 u1064 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
  1
   SeqLookup: 0 "remove25ccTone-Ligature" 
 EndFPST
@@ -1755,7 +1752,7 @@ ChainSub2: coverage "sub_chain_cligmymr_28 contextual 19"  0 0 0 1
  1 1 1
   Coverage: 10 circledash
   BCoverage: 5 u106A
-  FCoverage: 89 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
+  FCoverage: 95 u1038 u1064 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
  1
   SeqLookup: 0 "remove25ccTone-Ligature" 
 EndFPST
@@ -1763,7 +1760,7 @@ ChainSub2: coverage "sub_chain_cligmymr_28 contextual 18"  0 0 0 1
  1 1 1
   Coverage: 10 circledash
   BCoverage: 5 u1069
-  FCoverage: 89 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
+  FCoverage: 95 u1038 u1064 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
  1
   SeqLookup: 0 "remove25ccTone-Ligature" 
 EndFPST
@@ -1771,7 +1768,7 @@ ChainSub2: coverage "sub_chain_cligmymr_28 contextual 17"  0 0 0 1
  1 1 1
   Coverage: 10 circledash
   BCoverage: 5 u1068
-  FCoverage: 89 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
+  FCoverage: 95 u1038 u1064 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
  1
   SeqLookup: 0 "remove25ccTone-Ligature" 
 EndFPST
@@ -1779,7 +1776,7 @@ ChainSub2: coverage "sub_chain_cligmymr_28 contextual 16"  0 0 0 1
  1 1 1
   Coverage: 10 circledash
   BCoverage: 5 u1067
-  FCoverage: 89 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
+  FCoverage: 95 u1038 u1064 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
  1
   SeqLookup: 0 "remove25ccTone-Ligature" 
 EndFPST
@@ -1787,7 +1784,7 @@ ChainSub2: coverage "sub_chain_cligmymr_28 contextual 15"  0 0 0 1
  1 1 1
   Coverage: 10 circledash
   BCoverage: 0 
-  FCoverage: 89 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
+  FCoverage: 95 u1038 u1064 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
  1
   SeqLookup: 0 "remove25ccTone-Ligature" 
 EndFPST
@@ -1795,7 +1792,7 @@ ChainSub2: coverage "sub_chain_cligmymr_28 contextual 14"  0 0 0 1
  1 1 1
   Coverage: 10 circledash
   BCoverage: 5 u1037
-  FCoverage: 89 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
+  FCoverage: 95 u1038 u1064 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
  1
   SeqLookup: 0 "remove25ccTone-Ligature" 
 EndFPST
@@ -1803,7 +1800,7 @@ ChainSub2: coverage "sub_chain_cligmymr_28 contextual 13"  0 0 0 1
  1 1 1
   Coverage: 10 circledash
   BCoverage: 5 u1036
-  FCoverage: 89 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
+  FCoverage: 95 u1038 u1064 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
  1
   SeqLookup: 0 "remove25ccTone-Ligature" 
 EndFPST
@@ -1811,7 +1808,7 @@ ChainSub2: coverage "sub_chain_cligmymr_28 contextual 12"  0 0 0 1
  1 1 1
   Coverage: 10 circledash
   BCoverage: 5 u1032
-  FCoverage: 89 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
+  FCoverage: 95 u1038 u1064 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
  1
   SeqLookup: 0 "remove25ccTone-Ligature" 
 EndFPST
@@ -1819,7 +1816,7 @@ ChainSub2: coverage "sub_chain_cligmymr_28 contextual 11"  0 0 0 1
  1 1 1
   Coverage: 10 circledash
   BCoverage: 5 u1026
-  FCoverage: 89 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
+  FCoverage: 95 u1038 u1064 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
  1
   SeqLookup: 0 "remove25ccTone-Ligature" 
 EndFPST
@@ -1827,7 +1824,7 @@ ChainSub2: coverage "sub_chain_cligmymr_28 contextual 10"  0 0 0 1
  1 1 1
   Coverage: 10 circledash
   BCoverage: 29 u102B u102C u1062 u1063 u1083
-  FCoverage: 89 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
+  FCoverage: 95 u1038 u1064 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
  1
   SeqLookup: 0 "remove25ccTone-Ligature" 
 EndFPST
@@ -1835,7 +1832,7 @@ ChainSub2: coverage "sub_chain_cligmymr_28 contextual 9"  0 0 0 1
  1 1 1
   Coverage: 10 circledash
   BCoverage: 23 u102F u1030 u1058 u1059
-  FCoverage: 89 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
+  FCoverage: 95 u1038 u1064 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
  1
   SeqLookup: 0 "remove25ccTone-Ligature" 
 EndFPST
@@ -1843,7 +1840,7 @@ ChainSub2: coverage "sub_chain_cligmymr_28 contextual 8"  0 0 0 1
  1 1 1
   Coverage: 10 circledash
   BCoverage: 89 u102D u102D_u1036 u102E u1032_u102D u1033 u1034 u1035 u1071 u1072 u1073 u1074 u1085 u1086
-  FCoverage: 89 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
+  FCoverage: 95 u1038 u1064 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
  1
   SeqLookup: 0 "remove25ccTone-Ligature" 
 EndFPST
@@ -1851,7 +1848,7 @@ ChainSub2: coverage "sub_chain_cligmymr_28 contextual 7"  0 0 0 1
  1 1 1
   Coverage: 10 circledash
   BCoverage: 11 u1031 u1084
-  FCoverage: 89 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
+  FCoverage: 95 u1038 u1064 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
  1
   SeqLookup: 0 "remove25ccTone-Ligature" 
 EndFPST
@@ -1859,7 +1856,7 @@ ChainSub2: coverage "sub_chain_cligmymr_28 contextual 6"  0 0 0 1
  1 1 1
   Coverage: 10 circledash
   BCoverage: 17 u105F u1060 u1082
-  FCoverage: 89 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
+  FCoverage: 95 u1038 u1064 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
  1
   SeqLookup: 0 "remove25ccTone-Ligature" 
 EndFPST
@@ -1867,7 +1864,7 @@ ChainSub2: coverage "sub_chain_cligmymr_28 contextual 5"  0 0 0 1
  1 1 1
   Coverage: 10 circledash
   BCoverage: 5 u103E
-  FCoverage: 89 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
+  FCoverage: 95 u1038 u1064 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
  1
   SeqLookup: 0 "remove25ccTone-Ligature" 
 EndFPST
@@ -1875,7 +1872,7 @@ ChainSub2: coverage "sub_chain_cligmymr_28 contextual 4"  0 0 0 1
  1 1 1
   Coverage: 10 circledash
   BCoverage: 5 u103D
-  FCoverage: 89 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
+  FCoverage: 95 u1038 u1064 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
  1
   SeqLookup: 0 "remove25ccTone-Ligature" 
 EndFPST
@@ -1883,7 +1880,7 @@ ChainSub2: coverage "sub_chain_cligmymr_28 contextual 3"  0 0 0 1
  1 1 1
   Coverage: 10 circledash
   BCoverage: 5 u103C
-  FCoverage: 89 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
+  FCoverage: 95 u1038 u1064 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
  1
   SeqLookup: 0 "remove25ccTone-Ligature" 
 EndFPST
@@ -1891,7 +1888,7 @@ ChainSub2: coverage "sub_chain_cligmymr_28 contextual 2"  0 0 0 1
  1 1 1
   Coverage: 10 circledash
   BCoverage: 5 u103B
-  FCoverage: 89 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
+  FCoverage: 95 u1038 u1064 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
  1
   SeqLookup: 0 "remove25ccTone-Ligature" 
 EndFPST
@@ -1899,7 +1896,7 @@ ChainSub2: coverage "sub_chain_cligmymr_28 contextual 1"  0 0 0 1
  1 1 1
   Coverage: 10 circledash
   BCoverage: 5 u103A
-  FCoverage: 89 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
+  FCoverage: 95 u1038 u1064 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
  1
   SeqLookup: 0 "remove25ccTone-Ligature" 
 EndFPST
@@ -1907,7 +1904,7 @@ ChainSub2: coverage "sub_chain_cligmymr_28 contextual 0"  0 0 0 1
  1 1 1
   Coverage: 10 circledash
   BCoverage: 762 u1000 u1001 u1002 u1003 u1004 u1005 u1006 u1007 u1008 u1009 u100A u100A.alt u100A_u100A u100B u100B_u100B u100B_u100C u100C u100D u100D_u100D u100D_u100E u100E u100F u100F_u100B u100F_u100D u1010 u1011 u1012 u1013 u1014 u1014.alt u1014_u1010_u103C u1015 u1016 u1017 u1018 u1019 u101A u101B u101B.alt u101B.long u101C u101D u101E u101E_u1010_u103C u101F u1020 u1021 u1022 u1025 u1027 u1029 u103F u104E u1050 u1051 u1052 u1053 u1054 u1055 u105A u105B u105C u105D u1061 u1065 u106E u106F u1070 u1075 u1076 u1077 u1078 u1079 u107A u107B u107C u107D u107E u107F u1080 u1081 u1081.straight u108E u109D u109F circledash uAA60 uAA61 uAA62 uAA63 uAA64 uAA65 uAA66 uAA67 uAA68 uAA69 uAA6A uAA6B uAA6C uAA6D uAA6E uAA6F uAA71 uAA72 uAA73 uAA74 uAA75 uAA76 uAA77 uAA78 uAA79
-  FCoverage: 89 u1038 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
+  FCoverage: 95 u1038 u1064 u1069 u106A u106B u106C u106D u1087 u1088 u1089 u108A u108B u108C u108D u108F uAA7B
  0
 EndFPST
 ChainSub2: coverage "sub_chain_cligmymr_26 subtable"  0 0 0 1
