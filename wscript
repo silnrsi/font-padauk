@@ -59,7 +59,7 @@ test = fonttest(targets = {
                     grsvg_ot = 'harfbuzzng'),
         'test' : tests({
             'regression' :
-                cmd('cmptxtrender -p -k -e ${shaper} -s "${script}" -L test -L standard -t ${SRC[1]} -o ${TGT} --copy ${fileinfo} ${SRC[0]} ${SRC[2]}')})
+                cmd('cmptxtrender -p -k -e ${shaper} -s "${script}" -L test -L standard -t ${SRC[1]} -o ${TGT} --copy=fonts ${SRC[0]} ${SRC[2]}')})
     })
 
 # import pdb; pdb.set_trace()
@@ -71,26 +71,7 @@ for f in ['', 'bold', 'book', 'bookbold'] :
     else :
         target = 'Padauk.ttf'
 
-    legacyfile = '../super/padauk' + f + '.ufo'
-    if os.path.exists(src(legacyfile)) and '--super' in opts :
-        source = create(fsf + '_super.sfd', cmd('ufo2sfd -a ${SRC[1].bldpath()} -b R ${SRC[0].bld_dir()} ${TGT}',
-                                                [legacyfile + '/fontinfo.plist', '../super/padauk' + f + '.xml']),
-                                            cmd('../bin/fixsfd ${DEP} ${TGT}'))
-        legmetrics = create(fsf + '_metrics.xml',
-                            cmd(src('bin/ttfgetadv') + ' ${SRC} ${TGT}', [source]))
-        legxml = create(fsf + '_unicode_patched.xml',
-                     cmd('xsltproc -o ${TGT} --path .. --stringparam metricsFile '
-                            '${SRC[0].path_from(bld.srcnode.search("font-source"))} '
-                            '${SRC[1].bldpath()} ${SRC[2].bldpath()}',
-                         [legmetrics,
-                             'font-source/patch_padauk_unicode.xsl',
-                             'font-source/padauk_unicode.xml']))
-        srcfile = legacy(fsf + '_src_auto.sfd',
-                        source = source,
-                        xml = legxml,
-                        ap = '../super/padauk' + f + '.xml')
-    else :
-        srcfile = fsf + '_src.sfd'
+    srcfile = fsf + '_src.sfd'
 
 #    import pdb; pdb.set_trace()
     fnt = font(target = process(target, 
@@ -104,6 +85,8 @@ for f in ['', 'bold', 'book', 'bookbold'] :
                 version = TTF_VERSION,
                 license = ofl("Padauk"),
                 copyright = COPYRIGHT,
+#                source = create(srcfile[:-4]+"_fea"+srcfile[-4:], cmd("${FONTFORGE} -lang=ff -c 'Open($1); MergeFeature($2); Save($3)' ${SRC} ${TGT}",
+#                                    [srcfile, "font-source/padauk-mym2_merge.fea"], shell=1)),
                 source = srcfile,
                 ap = fsf + '.xml',
                 classes = 'font-source/padauk_classes.xml',
@@ -112,7 +95,8 @@ for f in ['', 'bold', 'book', 'bookbold'] :
 #                                make_params = '-t -m "_R _LL _L"',
 #                                params = '-i -x font-source/padauk' + f + '_tt.xml'),
                 opentype = internal(),
-                sfd_master = 'font-source/master.sfd',
+                sfd_master = create('master.sfd', cmd("${FONTFORGE} -lang=ff -c 'Open($1); MergeFeature($2); Save($3)' ${SRC} ${TGT}",
+                                        ['font-source/master.sfd', 'font-source/padauk-mym2_merge.fea'], shell=1)),
                 graphite = gdl('padauk' + f + '.gdl',
                                 master = 'font-source/myanmar5.gdl',
                                 params = '-w3521 -w3530 -q -d -v2', make_params="-m _R",
@@ -123,19 +107,6 @@ for f in ['', 'bold', 'book', 'bookbold'] :
                 extra_srcs = [fsf + '_src.ttf', 'bin/makegdl', 'font-source/myfeatures.gdl'],
                 pdf = fret()
             )
-#    if 'bold' not in f :
-#        process(fnt.target, cmd('${TTFNAME} -r 17 ${DEP} ${TGT}'))
-    
-    if os.path.exists(src(legacyfile)) and '--super' in opts :
-        process(fnt.ap, cmd('xsltproc -o ${TGT} '
-                        '--stringparam metricsFile ${SRC[0].path_from(bld.srcnode.search("font-source"))} '
-                        '--stringparam fontXml ${SRC[1].path_from(bld.srcnode.search("font-source"))} '
-                        '${SRC[2].bldpath()} ${DEP}',
-                        [legmetrics, legxml, fsf + '_src.xsl']))
-        
-
-#def configure(ctx) :
-#    ctx.env['MAKE_GDL'] = 'perl ' + src('bin/makegdl')
 
 def srcdist(ctx) :
     for p in package.packages() :
