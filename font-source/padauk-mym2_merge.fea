@@ -136,19 +136,15 @@ feature mkmk {
      language dflt ;
       lookup base_BD_mark;
       lookup base_BS_mark;
-      lookup base_U_mark;
      language KHT  exclude_dflt;
       lookup base_BD_mark;
       lookup base_BS_mark;
-      lookup base_U_mark;
      language KSW  exclude_dflt;
       lookup base_BD_mark;
       lookup base_BS_mark;
-      lookup base_U_mark;
      language KYU  exclude_dflt;
       lookup base_BD_mark;
       lookup base_BS_mark;
-      lookup base_U_mark;
 } mkmk;
 
 feature kern {

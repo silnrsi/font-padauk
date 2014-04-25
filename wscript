@@ -1,7 +1,6 @@
 #!/usr/bin/python
 # encoding: utf-8
 
-#from waflib import Context
 import codecs, os
 
 TESTDIR='test-suite'
@@ -62,7 +61,6 @@ test = fonttest(targets = {
                 cmd('cmptxtrender -p -k -e ${shaper} -s "${script}" -L test -L standard -t ${SRC[1]} -o ${TGT} --copy=fonts ${SRC[0]} ${SRC[2]}')})
     })
 
-# import pdb; pdb.set_trace()
 opts = preprocess_args({'opt' : '--super'})
 for f in ['', 'bold', 'book', 'bookbold'] :
     fsf = 'font-source/padauk' + f
@@ -73,37 +71,25 @@ for f in ['', 'bold', 'book', 'bookbold'] :
 
     srcfile = fsf + '_src.sfd'
 
-#    import pdb; pdb.set_trace()
     fnt = font(target = process(target, 
-#                       name(mystrings[namestrings[f][0]], lang='my', nopost=1,
-#                            full=(((mystrings[namestrings[f][0]] + " " + mystrings[namestrings[f][1]])
-#                                if 'bold' in f else mystrings[namestrings[f][0]]))),
                         name(namestrings[f][0], lang='en-US', subfamily = namestrings[f][1])),
-#                        name(namestrings[f][0], lang='en-US', subfamily = namestrings[f][1]),
-#                        cmd('hackos2 -u 1 ${DEP} ${TGT}')),
-#    fnt = font(target = target,
                 version = TTF_VERSION,
                 license = ofl("Padauk"),
                 copyright = COPYRIGHT,
-#                source = create(srcfile[:-4]+"_fea"+srcfile[-4:], cmd("${FONTFORGE} -lang=ff -c 'Open($1); MergeFeature($2); Save($3)' ${SRC} ${TGT}",
-#                                    [srcfile, "font-source/padauk-mym2_merge.fea"], shell=1)),
                 source = srcfile,
                 ap = fsf + '.xml',
                 classes = 'font-source/padauk_classes.xml',
-#                opentype = volt(fsf + '.vtp',
-#                                master = fsf + '_src.vtp',
-#                                make_params = '-t -m "_R _LL _L"',
-#                                params = '-i -x font-source/padauk' + f + '_tt.xml'),
                 opentype = internal(),
                 sfd_master = create('master.sfd', cmd("${FONTFORGE} -lang=ff -c 'Open($1); MergeFeature($2); Save($3)' ${SRC} ${TGT}",
-                                        ['font-source/master.sfd', 'font-source/padauk-mym2_merge.fea'], shell=1)),
+                                        ['font-source/master.sfd', 'font-source/padauk-mymr_merge.fea'], shell=1),
+                                        cmd("${FONTFORGE} -lang=ff -c 'Open($1); MergeFeature($2); Save($3)' ${DEP} ${SRC} ${TGT}",
+                                        ['font-source/padauk-mym2_merge.fea'], shell=1)),
                 graphite = gdl('padauk' + f + '.gdl',
                                 master = 'font-source/myanmar5.gdl',
                                 params = '-w3521 -w3530 -q -d -v2', make_params="-m _R",
                                 depends = ['font-source/myfeatures.gdl']),
                 tests = test,
                 script = ['mymr', 'mym2'],
-#                script = ['mymr'],
                 extra_srcs = [fsf + '_src.ttf', 'bin/makegdl', 'font-source/myfeatures.gdl'],
                 pdf = fret()
             )
