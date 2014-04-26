@@ -60,8 +60,18 @@ test = fonttest(targets = {
             'regression' :
                 cmd('cmptxtrender -p -k -e ${shaper} -s "${script}" -L test -L standard -t ${SRC[1]} -o ${TGT} --copy=fonts ${SRC[0]} ${SRC[2]}')})
     })
+# we only want one master.sfd:
+opts = preprocess_args({'opt' : '--no2'})
 
-opts = preprocess_args({'opt' : '--super'})
+scriptcode = 'mymr' if '--no2' in opts else 'mym2'
+
+mastercmds = [cmd("${FONTFORGE} -lang=ff -c 'Open($1); MergeFeature($2); Save($3)' ${SRC} ${TGT}",
+                                ['font-source/master.sfd', 'font-source/padauk-'+scriptcode+'_merge.fea'], shell=1))]
+if '--no2' not in opts :
+    mastercmds.insert(0, cmd("${FONTFORGE} -lang=ff -c 'Open($1); MergeFeature($2); Save($3)' ${SRC} ${TGT}",
+                                ['font-source/master.sfd', 'font-source/padauk-mymr_merge.fea'], shell=1))
+master = create('master.sfd', *mastercmds)
+
 for f in ['', 'bold', 'book', 'bookbold'] :
     fsf = 'font-source/padauk' + f
     if len(f) :
@@ -80,16 +90,13 @@ for f in ['', 'bold', 'book', 'bookbold'] :
                 ap = fsf + '.xml',
                 classes = 'font-source/padauk_classes.xml',
                 opentype = internal(),
-                sfd_master = create('master.sfd', cmd("${FONTFORGE} -lang=ff -c 'Open($1); MergeFeature($2); Save($3)' ${SRC} ${TGT}",
-                                        ['font-source/master.sfd', 'font-source/padauk-mymr_merge.fea'], shell=1),
-                                        cmd("${FONTFORGE} -lang=ff -c 'Open($1); MergeFeature($2); Save($3)' ${DEP} ${SRC} ${TGT}",
-                                        ['font-source/padauk-mym2_merge.fea'], shell=1)),
+                sfd_master = master,
                 graphite = gdl('padauk' + f + '.gdl',
                                 master = 'font-source/myanmar5.gdl',
                                 params = '-w3521 -w3530 -q -d -v2', make_params="-m _R",
                                 depends = ['font-source/myfeatures.gdl']),
                 tests = test,
-                script = ['mymr', 'mym2'],
+                script = [scriptcode],
                 extra_srcs = [fsf + '_src.ttf', 'bin/makegdl', 'font-source/myfeatures.gdl'],
                 pdf = fret()
             )
