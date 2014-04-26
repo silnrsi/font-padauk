@@ -4,7 +4,15 @@ languagesystem mym2 KHT ;
 languagesystem mym2 KSW ;
 languagesystem mym2 KYU ;
 
+# -------------
 # GSUB lookups
+# -------------
+
+# *** add mym2_locl_xxxx GSUB lookups here ***
+
+# ****
+# rphf
+# ****
 
 lookup mym2_rphf_kinzi {
   lookupflag 0;
@@ -13,7 +21,24 @@ lookup mym2_rphf_kinzi {
     sub \u101B \u103A \u1039  by \u101B.kinzi;
 } mym2_rphf_kinzi;
 
-# add mym2_pref_xxxx GSUB lookups here
+# ****
+# pref
+# ****
+
+lookup mym2_pref_medLig {
+  lookupflag 0;
+    sub \u103B \u103D  by \u103B_u103D;
+    sub \u103D \u103E  by \u103D_u103E;
+    sub \u103B_u103D \u103E  by \u103B_u103D_u103E;
+    sub \u103B_u103D \u103E.alt  by \u103B_u103D_u103E;
+} mym2_pref_medLig;
+
+# *** add more mym2_pref_xxxx GSUB lookups here ***
+
+
+# ****
+# blwf
+# ****
 
 lookup mym2_blwf_u1039med {
   lookupflag 0;
@@ -61,10 +86,203 @@ lookup mym2_blwf_shan1081 {
     sub \u1081 by \u1002 \u103E ;
 } mym2_blwf_shan1081;
 
+# ****
+# pstf
+# ****
+
+lookup mym2_pstf_asatLig {
+  lookupflag 0;
+    sub \u102B \u103A  by \u102B_u103A;
+    sub \u1062 \u103A  by \u1062_u103A;
+    sub \u103A \u1036  by \u103A_u1036;
+    sub \u103A \uAA70  by \u103A_uAA70;
+} mym2_pstf_asatLig;
+
+lookup mym2_pstf_signsLig {
+  lookupflag 0;
+    sub \u102D \u1036  by \u102D_u1036;
+    sub \u102D \u1032  by \u1032_u102D;
+    sub \u1004.kinzi \u102D  by \u1004.kinzi_u102D;
+    sub \u1004.kinzi \u102E  by \u1004.kinzi_u102E;
+    sub \u1004.kinzi \u1032  by \u1004.kinzi_u1032;
+    sub \u1004.kinzi \u1033  by \u1004.kinzi_u1033;
+    sub \u1004.kinzi \u1036  by \u1004.kinzi_u1036;
+    sub \u1004.kinzi \u103A  by \u1004.kinzi_u103A;
+    sub \u1004.kinzi \u102D_u1036  by \u1004.kinzi_u102D_u1036;
+    sub \u101B.kinzi \u102D  by \u101B.kinzi_u102D;
+    sub \u101B.kinzi \u102E  by \u101B.kinzi_u102E;
+    sub \u101B.kinzi \u103A  by \u101B.kinzi_u103A;
+} mym2_pstf_signsLig;
+
+# ****
+# pres
+# ****
+
+lookup raULigSubst {
+  lookupflag 0;
+    sub \u103C by \u103C_u102F.narr;
+    sub \u103C.wide by \u103C_u102F.wide;
+} raULigSubst;
+
+lookup mym2_pres_raULig {
+  lookupflag 0;
+    sub [\u103C \u103C.wide ]'lookup raULigSubst [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
+	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
+	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
+	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
+	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
+	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
+	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
+	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
+	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
+	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
+	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
+	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
+	\uAA76 \uAA77 \uAA78 \uAA79 ] [\u102F] ;
+  subtable;
+    sub [\u103C \u103C.wide ]'lookup raULigSubst [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
+	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
+	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
+	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
+	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
+	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
+	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
+	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
+	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
+	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
+	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
+	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
+	\uAA76 \uAA77 \uAA78 \uAA79 ] [\u102D ] [\u102F] ;
+  subtable;
+    sub [\u103C \u103C.wide ]'lookup raULigSubst [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
+	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
+	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
+	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
+	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
+	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
+	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
+	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
+	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
+	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
+	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
+	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
+	\uAA76 \uAA77 \uAA78 \uAA79 ] [\u1072 ] [\u102F];
+  subtable;
+    sub [\u103C \u103C.wide ]'lookup raULigSubst [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
+	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
+	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
+	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
+	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
+	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
+	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
+	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
+	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
+	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
+	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
+	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
+	\uAA76 \uAA77 \uAA78 \uAA79 ] [\u1033 ] [\u102F] ;
+  subtable;
+    sub [\u103C \u103C.wide ]'lookup raULigSubst [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
+	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
+	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
+	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
+	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
+	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
+	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
+	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
+	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
+	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
+	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
+	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
+	\uAA76 \uAA77 \uAA78 \uAA79 ] [\u1035 ] [\u102F] ;
+  subtable;
+    sub [\u103C \u103C.wide ]'lookup raULigSubst [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
+	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
+	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
+	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
+	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
+	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
+	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
+	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
+	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
+	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
+	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
+	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
+	\uAA76 \uAA77 \uAA78 \uAA79 ] [\u1000.med \u1001.med \u1002.med \u1003.med \u1004.med \u1005.med \u1006.med 
+	\u1007.med \u1008.med \u100A.med \u100B.med \u100C.med \u100D.med 
+	\u100E.med \u100F.med \u1010.med \u1011.med \u1012.med \u1013.med 
+	\u1014.med \u1015.med \u1016.med \u1017.med \u1018.med \u1019.med 
+	\u101A.med \u101B.med \u101C.med \u101E.med \u1021.med \u102F.med 
+	\u1030.med \u1050.med \u1051.med \u105A.med \u105B.med \u105C.med 
+	\uAA60.med ] [\u102F] ;
+  subtable;
+    sub [\u103C \u103C.wide ]'lookup raULigSubst [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
+	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
+	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
+	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
+	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
+	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
+	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
+	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
+	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
+	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
+	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
+	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
+	\uAA76 \uAA77 \uAA78 \uAA79 ] [\u1004.kinzi ] [\u102F] ;
+  subtable;
+    sub [\u103C \u103C.wide ]'lookup raULigSubst [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
+	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
+	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
+	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
+	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
+	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
+	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
+	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
+	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
+	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
+	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
+	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
+	\uAA76 \uAA77 \uAA78 \uAA79 ] [\u1004.kinzi ] [\u102D ] [\u102F] ;
+  subtable;
+    sub [\u103C \u103C.wide ]'lookup raULigSubst [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
+	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
+	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
+	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
+	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
+	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
+	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
+	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
+	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
+	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
+	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
+	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
+	\uAA76 \uAA77 \uAA78 \uAA79 ] [\u101B.kinzi ] [\u102F] ;
+  subtable;
+    sub [\u103C \u103C.wide ]'lookup raULigSubst [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
+	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
+	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
+	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
+	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
+	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
+	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
+	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
+	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
+	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
+	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
+	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
+	\uAA76 \uAA77 \uAA78 \uAA79 ] [\u101B.kinzi ] [\u102D ] [\u102F] ;
+} mym2_pres_raULig;
+
+
+
 # add more GSUB lookups here
 
 
+
+
+# -------------
 # GSUB features
+# -------------
 
 feature rphf {
 
@@ -79,34 +297,77 @@ feature rphf {
       lookup mym2_rphf_kinzi;
 } rphf;
 
-# feature pref {
-#
-# } pref
+feature pref {
+
+ script mym2;
+     language dflt ;
+      lookup mym2_pref_medLig;
+     language KHT  exclude_dflt;
+      lookup mym2_pref_medLig;
+     language KSW  exclude_dflt;
+      lookup mym2_pref_medLig;
+     language KYU  exclude_dflt;
+      lookup mym2_pref_medLig;
+} pref;
 
 feature blwf {
 
  script mym2;
      language dflt ;
       lookup mym2_blwf_u1039med;
-	  lookup mym2_blwf_shan1081;
+	    lookup mym2_blwf_shan1081;
      language KHT  exclude_dflt;
       lookup mym2_blwf_u1039med;
-	  lookup mym2_blwf_shan1081;
+	    lookup mym2_blwf_shan1081;
      language KSW  exclude_dflt;
       lookup mym2_blwf_u1039med;
-	  lookup mym2_blwf_shan1081;
+	    lookup mym2_blwf_shan1081;
      language KYU  exclude_dflt;
       lookup mym2_blwf_u1039med;
-	  lookup mym2_blwf_shan1081;
+	    lookup mym2_blwf_shan1081;
 } blwf;
+
+feature pstf {
+
+ script mym2;
+     language dflt ;
+      lookup mym2_pstf_asatLig;
+      lookup mym2_pstf_signsLig;
+     language KHT  exclude_dflt;
+      lookup mym2_pstf_asatLig;
+      lookup mym2_pstf_signsLig;
+     language KSW  exclude_dflt;
+      lookup mym2_pstf_asatLig;
+      lookup mym2_pstf_signsLig;
+     language KYU  exclude_dflt;
+      lookup mym2_pstf_asatLig;
+      lookup mym2_pstf_signsLig;
+} pstf;
+
+feature pres {
+
+ script mym2;
+     language dflt ;
+      lookup mym2_pres_raULig;
+     language KHT  exclude_dflt;
+      lookup mym2_pres_raULig;
+     language KSW  exclude_dflt;
+      lookup mym2_pres_raULig;
+     language KYU  exclude_dflt;
+      lookup mym2_pres_raULig;
+} pres;
+
 
 # add more GSUB features here
 
-
+# -------------
 # GPOS lookups
+# -------------
 # none at the moment - reusing old code to see if that works
 
-# GPOS features 
+# -------------
+# GPOS features
+# ------------- 
 # merging mym2 with old code
 
 feature mark {
@@ -136,15 +397,19 @@ feature mkmk {
      language dflt ;
       lookup base_BD_mark;
       lookup base_BS_mark;
+      lookup base_U_mark;
      language KHT  exclude_dflt;
       lookup base_BD_mark;
       lookup base_BS_mark;
+      lookup base_U_mark;
      language KSW  exclude_dflt;
       lookup base_BD_mark;
       lookup base_BS_mark;
+      lookup base_U_mark;
      language KYU  exclude_dflt;
       lookup base_BD_mark;
       lookup base_BS_mark;
+      lookup base_U_mark;
 } mkmk;
 
 feature kern {
