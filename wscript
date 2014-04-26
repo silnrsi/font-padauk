@@ -64,12 +64,13 @@ test = fonttest(targets = {
 opts = preprocess_args({'opt' : '--no2'})
 
 scriptcode = 'mymr' if '--no2' in opts else 'mym2'
-
 mastercmds = [cmd("${FONTFORGE} -lang=ff -c 'Open($1); MergeFeature($2); Save($3)' ${SRC} ${TGT}",
-                                ['font-source/master.sfd', 'font-source/padauk-'+scriptcode+'_merge.fea'], shell=1))]
+                    ['font-source/master.sfd', 'font-source/padauk-mymr_merge.fea'], shell=1)]
+
 if '--no2' not in opts :
-    mastercmds.insert(0, cmd("${FONTFORGE} -lang=ff -c 'Open($1); MergeFeature($2); Save($3)' ${SRC} ${TGT}",
-                                ['font-source/master.sfd', 'font-source/padauk-mymr_merge.fea'], shell=1))
+    mastercmds.append(cmd("${FONTFORGE} -lang=ff -c 'Open($1); MergeFeature($2); Save($3)' ${DEP} ${SRC} ${TGT}",
+                                ['font-source/padauk-mym2_merge.fea'], shell=1))
+
 master = create('master.sfd', *mastercmds)
 
 for f in ['', 'bold', 'book', 'bookbold'] :

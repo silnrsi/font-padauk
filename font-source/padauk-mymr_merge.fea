@@ -540,7 +540,7 @@ lookup remove25cc1036 {
 	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
 	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
 	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ] [\circledash ]'lookup remove25cc1036 [\u1032 \u1036 ]' ;
+	\uAA76 \uAA77 \uAA78 \uAA79 ] [\circledash ]'lookup remove25cc1036Ligature [\u1032 \u1036 ]' ;
   subtable;
     sub [\u103A ] [\circledash ]'lookup remove25cc1036Ligature  [\u1032 \u1036 ]';
   subtable;
