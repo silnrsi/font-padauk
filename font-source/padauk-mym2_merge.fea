@@ -20,12 +20,27 @@ languagesystem mym2 KYU ;
     \u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60
     \uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A
     \uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75
-    \uAA76 \uAA77 \uAA78 \uAA79 ];
+    \uAA76 \uAA77 \uAA78 \uAA79];
+
+    @cBDDia = [\u1000.med \u1003.med \u1006.med \u100A.med \u100C.med \u100F.med \u1010.med
+    \u1011.med \u1018.med \u101A.med \u101C.med \u101C.med_u103D
+    \u101E.med \u1021.med \uAA60.med \uAA60.med.kham];
+
+    @cBSDia = [\u1001.med \u1002.med \u1004.med \u1005.med \u1007.med \u100B.med \u100D.med
+    \u100E.med \u1010_u103D.med \u1012.med \u1013.med \u1014.med
+    \u1015.med \u1016.med \u1017.med \u1019.med \u101B.med \u102F.med
+    \u102F_u108D \u1030.med \u1030_u108D \u1039 \u103D \u103D_u103E
+    \u103D_u103E.small \u103D_u108D \u103E \u103E.alt \u103E_u102F
+    \u103E_u1030 \u1050.med \u1051.med \u1058 \u1059 \u105A.med
+    \u105C.med \u105F \u1082 \u1082_u108D \u108D \u1010_u103D.med.tri
+    \u103D.tri \u103D_u103E.tri \u103D_u103E.small.tri \u103E.slantr
+    \u103E.slanth \u103E_u102F.slantr \u103E_u102F.slanth
+    \u103E_u1030.slantr \u103E_u1030.slanth];
 
     @classConsWide = [\u1000 \u1003 \u1006 \u100A \u100A.alt \u100F \u1010 \u1011 \u1018 \u101A \u101C
     \u101E \u101F \u1021 \u1022 \u106E \u106F \u1078 \u1079 \u107B \u107C
     \u107D \u1080 \uAA60 \uAA61 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68
-    \uAA69 \uAA6A \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ];
+    \uAA69 \uAA6A \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72];
 
     @classMedial = [\u1000.med \u1001.med \u1002.med \u1003.med \u1004.med \u1005.med \u1006.med
     \u1007.med \u1008.med \u100A.med \u100B.med \u100C.med \u100D.med
@@ -45,6 +60,18 @@ languagesystem mym2 KYU ;
 
     @classNarrBelow = [\u102F.med \u1030.med];
 
+    @classUpperVowel = [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073
+    \u1074 \u1085 \u1086];
+
+    @cUDia = [\asciicircum \u1004.kinzi \u1004.kinzi_u102D \u1004.kinzi_u102E
+    \u1004.kinzi_u1032 \u1004.kinzi_u1033 \u1004.kinzi_u1036
+    \u1004.kinzi_u103A \u1004.kinzi_u102D_u1036 \u101B.kinzi
+    \u101B.kinzi_u102D \u101B.kinzi_u102E \u101B.kinzi_u103A \u102D
+    \u102D_u1036 \u102D_uAA7C \u102E \u102E_uAA7C \u1032 \u1032_u102D
+    \u1033 \u1034 \u1035 \u1036 \u103A \u103A_u1036 \u1071 \u1072 \u1073
+    \u1074 \u1085 \u1086 \u1086_uAA7C \u109D \uA9E5 \uA9E5_uAA7C \uAA7C
+    \u1032.kham \u1032_uAA70 \u103A_uAA70 \u1036.dot];
+
 # -------------
 # GSUB lookups
 # -------------
@@ -62,6 +89,7 @@ lookup mym2_rphf_kinzi {
     sub \u101B \u103A \u1039  by \u101B.kinzi;
 } mym2_rphf_kinzi;
 
+
 # ****
 # pref
 # ****
@@ -74,17 +102,15 @@ lookup mym2_pref_medLig {
     sub \u103B_u103D \u103E.alt  by \u103B_u103D_u103E;
 } mym2_pref_medLig;
 
-lookup mym2_pref_u103CwideSubst {
+lookup mym2_u103CwideSubst {
   lookupflag 0;
     sub \u103C by \u103C.wide;
-} mym2_pref_u103CwideSubst;
+} mym2_u103CwideSubst;
 
 lookup mym2_pref_u103Cwide {
   lookupflag 0;
-    sub [\u103C]' lookup mym2_pref_u103CwideSubst [@classConsWide];
+    sub [\u103C]' lookup mym2_u103CwideSubst [@classConsWide];
 } mym2_pref_u103Cwide;
-
-# *** add more mym2_pref_xxxx GSUB lookups here ***
 
 
 # ****
@@ -131,11 +157,11 @@ lookup mym2_blwf_u1039med {
     sub \u1039 \uAA60  by \uAA60.med;
 } mym2_blwf_u1039med;
 
-lookup mym2_blwf_shan1081 {
-  lookupflag 0;
-    sub \u1081.straight by \u1002 \u103E ;
-    sub \u1081 by \u1002 \u103E ;
-} mym2_blwf_shan1081;
+# lookup mym2_blwf_shan1081 {
+#   lookupflag 0;
+#     sub \u1081.straight by \u1002 \u103E ;
+#     sub \u1081 by \u1002 \u103E ;
+# } mym2_blwf_shan1081;
 
 # ****
 # pstf
@@ -169,13 +195,21 @@ lookup mym2_pstf_signsLig {
 # pres
 # ****
 
+# ****
+# abvs
+# ****
+
+# ****
+# blws
+# ****
+
 lookup mym2_raULigSubst {
   lookupflag 0;
     sub \u103C by \u103C_u102F.narr;
     sub \u103C.wide by \u103C_u102F.wide;
 } mym2_raULigSubst;
 
-lookup mym2_pres_raULig {
+lookup mym2_blws_raULig {
   lookupflag 0;
     sub [\u103C \u103C.wide ]'lookup mym2_raULigSubst [@classAllCons] [\u102F] ;
   subtable;
@@ -196,7 +230,60 @@ lookup mym2_pres_raULig {
     sub [\u103C \u103C.wide ]'lookup mym2_raULigSubst [@classAllCons] [\u101B.kinzi ] [\u102F] ;
   subtable;
     sub [\u103C \u103C.wide ]'lookup mym2_raULigSubst [@classAllCons] [\u101B.kinzi ] [\u102D ] [\u102F] ;
-} mym2_pres_raULig;
+} mym2_blws_raULig;
+
+lookup mym2_sub1014Subst {
+  lookupflag 0;
+    sub \u100A by \u100A.alt ;
+    sub \u1014 by \u1014.alt ;
+} mym2_sub1014Subst;
+
+lookup mym2_blws_sub1014 {
+  lookupflag 0;
+    sub [\u100A \u1014 ]'lookup mym2_sub1014Subst  [@cBDDia] ;
+  subtable;
+    sub [\u100A \u1014 ]'lookup mym2_sub1014Subst  [@cUDia] [@cBSDia] ;
+  subtable;
+    sub [\u100A \u1014 ]'lookup mym2_sub1014Subst  [@cBSDia] ;
+  subtable;
+    sub [\u100A \u1014 ]'lookup mym2_sub1014Subst  [\u103B ] ;
+  subtable;
+    sub [\u100A \u1014 ]'lookup mym2_sub1014Subst  [\u102F ] ;
+  subtable;
+    sub [\u100A \u1014 ]'lookup mym2_sub1014Subst  [\u1030 ] ;
+  subtable;
+    sub [\u100A \u1014 ]'lookup mym2_sub1014Subst  [\u102F.med ] ;
+  subtable;
+    sub [\u100A \u1014 ]'lookup mym2_sub1014Subst  [\u1030.med ] ;
+  subtable;
+    sub [\u100A \u1014 ]'lookup mym2_sub1014Subst  [\u1060 ] ;
+} mym2_blws_sub1014;
+
+lookup mym2_raLongSubst {
+  lookupflag 0;
+    sub [\u101B] by [\u101B.long];
+} mym2_raLongSubst;
+
+lookup mym2_blws_raLong {
+  lookupflag 0;
+    sub [\u101B]'lookup mym2_raLongSubst [\u103E ];
+} mym2_blws_raLong;
+
+lookup mym2_raShortSubst {
+  lookupflag 0;
+    sub \u101B by \u101B.alt ;
+} mym2_raShortSubst;
+
+lookup mym2_blws_raShort {
+  lookupflag 0;
+    sub [\u101B ]'lookup mym2_raShortSubst  [@cBSDia] ; # @cBSDia contains \u103E but above lookup raLong should override it
+  subtable;
+    sub [\u101B ]'lookup mym2_raShortSubst  [\u103B ] ;
+  subtable;
+    sub [\u101B ]'lookup mym2_raShortSubst  [@classUpperVowel] [\u102F.med ] ;
+  subtable;
+    sub [\u101B ]'lookup mym2_raShortSubst  [@classUpperVowel] [\u1030.med ] ;
+} mym2_blws_raShort;
 
 
 
@@ -227,16 +314,16 @@ feature pref {
  script mym2;
      language dflt ;
       lookup mym2_pref_medLig;
-      lookup mym2_pref_u103CwideSubst;
+      lookup mym2_pref_u103Cwide;
      language KHT  exclude_dflt;
       lookup mym2_pref_medLig;
-      lookup mym2_pref_u103CwideSubst;
+      lookup mym2_pref_u103Cwide;
      language KSW  exclude_dflt;
       lookup mym2_pref_medLig;
-      lookup mym2_pref_u103CwideSubst;
+      lookup mym2_pref_u103Cwide;
      language KYU  exclude_dflt;
       lookup mym2_pref_medLig;
-      lookup mym2_pref_u103CwideSubst;
+      lookup mym2_pref_u103Cwide;
 } pref;
 
 feature blwf {
@@ -244,16 +331,16 @@ feature blwf {
  script mym2;
      language dflt ;
       lookup mym2_blwf_u1039med;
-      lookup mym2_blwf_shan1081;
+#       lookup mym2_blwf_shan1081;
      language KHT  exclude_dflt;
       lookup mym2_blwf_u1039med;
-      lookup mym2_blwf_shan1081;
+#       lookup mym2_blwf_shan1081;
      language KSW  exclude_dflt;
       lookup mym2_blwf_u1039med;
-      lookup mym2_blwf_shan1081;
+#       lookup mym2_blwf_shan1081;
      language KYU  exclude_dflt;
       lookup mym2_blwf_u1039med;
-      lookup mym2_blwf_shan1081;
+#       lookup mym2_blwf_shan1081;
 } blwf;
 
 feature pstf {
@@ -273,18 +360,30 @@ feature pstf {
       lookup mym2_pstf_signsLig;
 } pstf;
 
-feature pres {
+feature blws {
 
  script mym2;
      language dflt ;
-      lookup mym2_pres_raULig;
+      lookup mym2_blws_raULig;
+      lookup mym2_blws_sub1014;
+      lookup mym2_blws_raLong;
+      lookup mym2_blws_raShort;
      language KHT  exclude_dflt;
-      lookup mym2_pres_raULig;
+      lookup mym2_blws_raULig;
+      lookup mym2_blws_sub1014;
+      lookup mym2_blws_raLong;
+      lookup mym2_blws_raShort;
      language KSW  exclude_dflt;
-      lookup mym2_pres_raULig;
+      lookup mym2_blws_raULig;
+      lookup mym2_blws_sub1014;
+      lookup mym2_blws_raLong;
+      lookup mym2_blws_raShort;
      language KYU  exclude_dflt;
-      lookup mym2_pres_raULig;
-} pres;
+      lookup mym2_blws_raULig;
+      lookup mym2_blws_sub1014;
+      lookup mym2_blws_raLong;
+      lookup mym2_blws_raShort;
+} blws;
 
 
 # add more GSUB features here
