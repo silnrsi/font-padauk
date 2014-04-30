@@ -10,6 +10,13 @@ khamti
     default = 0;
 }
 
+aitonph
+{
+    id = "aiph";
+    name.LG_USENG = string("Aiton Phake special characters over Khamti");
+    default = 0;
+}
+
 filled
 {
     id = "fdot";
@@ -125,6 +132,14 @@ shan {
     languages = ("shn");
     watri = 1;
 };
+
+aiph {
+    languages = ("aio", "phk");
+    khamti = 1;
+    aitonph = 1;
+    filled = 1;
+};
+
 
 endtable;
 

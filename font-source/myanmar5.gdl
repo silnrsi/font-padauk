@@ -811,6 +811,10 @@ if (khamti)
 cno_kham > ckham;
 endif;
 
+if (aitonph)
+cno_aiph > caiph;
+endif;
+
 if (filled)
 cno_dot > cdot;
 endif;
