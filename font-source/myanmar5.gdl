@@ -13,27 +13,27 @@
                                 with wide diacritics take a wide wrap.
 1.02    MJPH     8-OCT-2003     Add u1004.med_u102F
 1.03    MJPH    28-OCT-2003     Add support for contractions (reduplication) killer order
-1.04	KRS		31-MAY-2004		Fixed some ligature issues with kinzi
-1.05	KRS		09-JUN-2004		Added breakweights for section markers
-								Fixed tall yecha for 1012 + wasway
-								Swapped order of U+100E/U+100D stacked ligature
-1.06    KRS     14-JUL-2004		Made yecha tall with U+1001 etc and Kinzi
+1.04    KRS     31-MAY-2004     Fixed some ligature issues with kinzi
+1.05    KRS     09-JUN-2004     Added breakweights for section markers
+                                Fixed tall yecha for 1012 + wasway
+                                Swapped order of U+100E/U+100D stacked ligature
+1.06    KRS     14-JUL-2004     Made yecha tall with U+1001 etc and Kinzi
                                 Moved lower dot to right of U+101B when hatto is present
                                 U+102D is now always above the consonant in a wrap
                                 even if there is a u/uu vowel present
                                 U+101B is short when there is a Yapin present
-1.07	KRS		31-AUG-2004		Yecha is tall when U+1012 has a stacked consonant
-1.08	KRS		04-SEP-2004		Numbers can now take upper diacritics for abbreviations
+1.07    KRS     31-AUG-2004     Yecha is tall when U+1012 has a stacked consonant
+1.08    KRS     04-SEP-2004     Numbers can now take upper diacritics for abbreviations
                                 U+1004 U+1039 is now always Kinzi as per myanmar_uni.pdf
                                 U+1004 U+200D U+1039 U+101d etc is used to prevent kinzi
 1.09    KRS     06-DEC-2004     Yecha is tall when U+1002 has a stacked consonant
                                 NLP propose using U+200D differently to UTN 11
                                 Comment out the g101a, g101b, g101d, g101f, line in the
                                 tKinzi class to give this behaviour
-1.10    MJPH    13-MAY-2005     no break between sign and section, 
+1.10    MJPH    13-MAY-2005     no break between sign and section,
                                 tidy up font, remove hack rules, add docs for APs
                                 add necessary associations to insertion rules
-1.11	MJPH	 2-AUG-2005	    Fix kern on killed tall 102C preceding 1031 glyph
+1.11    MJPH     2-AUG-2005     Fix kern on killed tall 102C preceding 1031 glyph
 1.12    MJPH    27-OCT-2005     Apply KRS changes to handle 'I', section breaks.
                                 Use new breakweights. Change syllable break from 20 to 15
 2.00    MJPH    15-APR-2006     Unicode 5.1 - remove tall-a logic, change to disunified medials, etc.
@@ -204,7 +204,7 @@ Ligatures with medial h and uu
 
 cMedHUu = (g103e_1030, g103e_1030_slantr, g103e_1030_slanth);
 
-/* @doc 
+/* @doc
 Stacked consonant ligatures
 @enddoc */
 cStackLig = (g100a_100a, g100b_100b, g100b_100c, g100d_100d, g100d_100e,
@@ -224,7 +224,7 @@ chaining when medialised.
 
 cClusMed = (g103b, g103c, g103d, g1082, g103e, g105e, g105f, g1060){breakweight = -BW_NEVER};
 cClusMedNot103b = (g103c, g103d, g1082, g103e, g105e, g105f, g1060){breakweight = -BW_NEVER};
-cClusDia = (g103b, g103b_103d, g103b_103d_103e, g103b_103e, g103d, g103d_103e, g1082, g103e, 
+cClusDia = (g103b, g103b_103d, g103b_103d_103e, g103b_103e, g103d, g103d_103e, g1082, g103e,
             g103e_102f, g103e_1030, g105e, g105f, g1060);
 cWaHa = (g1082, g103e);
 
@@ -263,7 +263,7 @@ would want if the sequence: cons U+1036 U+102C were to occur.
 @enddoc */
 
 cUVowel = (g103a, g1004_kinzi, g1004_kinzi_102d, g1004_kinzi_102e, g1004_kinzi_1032, g1004_kinzi_1036, g1004_kinzi_103a, g101b_kinzi, g101b_kinzi_102d, g101b_kinzi_102e, g101b_kinzi_103a, g102d,
-            g102d_1036, g102e, g1032, g1032_102d, g1033, g1034, g1035, 
+            g102d_1036, g102e, g1032, g1032_102d, g1033, g1034, g1035,
             g1071, g1072, g1073, g1074, g1085, g1086){breakweight = -BW_NEVER};
 cUSpace = (g1032, g1032_102d, g103a, g102d, g102e, g1004_kinzi_102e, g1004_kinzi_102d, g1004_kinzi,
             g1004_kinzi_1036, g1004_kinzi_103a, g101b_kinzi, g101b_kinzi_102d, g101b_kinzi_102e, g101b_kinzi_103a, g1033, g1034, g1035, g1071, g1072, g1073, g1074,
@@ -309,10 +309,10 @@ The last set is of the various forms of the medialised U+101F in its non-ligatin
 @enddoc */
 
 c103c_only = (g103c, g103c_wide, g103c_alt_narr, g103c_alt_wide);
-c103c_mix = (g103c_103d_narr, g103c_103d_narr_tri, g103c_103d_wide, g103c_103d_wide_tri, g103c_102f_narr, 
-        g103c_102f_wide, g103c_103d_alt_narr, g103c_103d_alt_narr_tri, g103c_102f_alt_narr, 
+c103c_mix = (g103c_103d_narr, g103c_103d_narr_tri, g103c_103d_wide, g103c_103d_wide_tri, g103c_102f_narr,
+        g103c_102f_wide, g103c_103d_alt_narr, g103c_103d_alt_narr_tri, g103c_102f_alt_narr,
         g103c_103d_alt_wide, g103c_103d_alt_wide_tri, g103c_102f_alt_wide);
-c103c_103d = (g103c_103d_narr, g103c_103d_narr_tri, g103c_103d_wide, g103c_103d_wide_tri, 
+c103c_103d = (g103c_103d_narr, g103c_103d_narr_tri, g103c_103d_wide, g103c_103d_wide_tri,
         g103c_103d_alt_narr, g103c_103d_alt_narr_tri, g103c_103d_alt_wide, g103c_103d_alt_wide_tri);
 c103c = (c103c_only, c103c_mix);
 c103c_nar = (g103c, g103c_103d_narr, g103c_102f_narr, g103c_103d_narr_tri);
@@ -404,7 +404,7 @@ gSpace {breakweight = BW_WORD} / _ ^ cCons;
 // no line breaks before visibly killed char
 cTakesUDia {breakweight = -BW_CHAR} g103a {breakweight = -BW_NEVER} / _ ^ [gKill cmed]? opt4(cnTakesUDia) _ ;
 
-// g1004 {breakweight = -5} gKill {breakweight = -5} /   g200d  _ ^; 
+// g1004 {breakweight = -5} gKill {breakweight = -5} /   g200d  _ ^;
 
 // no line breaks before a syllable chained consonant
 cCons {breakweight = -BW_CHAR} cno_med {breakweight = -BW_NEVER} / _ gKill _ ;
@@ -423,13 +423,13 @@ ANY {breakweight = +BW_CLIP} / cLQuote ^ _;
 ANY {breakweight = -BW_CLIP}  / _ ^ cRQuote;
 
 // discourage breaks within numbers
-cSection {breakweight = +BW_CHAR} / _ cNum;  
+cSection {breakweight = +BW_CHAR} / _ cNum;
 // encourage breaks between consonants and numbers
 cNum {breakweight = -BW_SYLL} / cCons _;
 cSigns {breakweight = -BW_SYLL} / cSection _;
 
 // discourage break between sign and a section
-cSigns {breakweight = +BW_CLIP} / _ cSection; 
+cSigns {breakweight = +BW_CLIP} / _ cSection;
 
 endtable; // linebreak table
 
@@ -452,12 +452,12 @@ table(substitution);
 
 pass(pass_medial);
 
-cno_kinzi g103a gKill _ > _ _ _ ckinzi$1:(1 2 3) / 
+cno_kinzi g103a gKill _ > _ _ _ ckinzi$1:(1 2 3) /
     _ _ _ ^ (cCons, cNum, g104e)? [gKill cno_med]? opt4(cClusMedNot103b) opt2(cPreVowel) _;      // need opt4() here for opt()
-(g1004 g105a) g103a gKill g103a _ > _ _ _ _ g1004_kinzi_103a:(1 2 3 a) / 
-    _ _ _ ^ (cCons, cNum, g104e)? [gKill cno_med]? _=a opt4(cClusMedNot103b) _;      (g1004 g105a) g103a gKill g103a _ > _ _ _ _ g1004_kinzi_103a:(1 2 3 a) / 
+(g1004 g105a) g103a gKill g103a _ > _ _ _ _ g1004_kinzi_103a:(1 2 3 a) /
+    _ _ _ ^ (cCons, cNum, g104e)? [gKill cno_med]? _=a opt4(cClusMedNot103b) _;      (g1004 g105a) g103a gKill g103a _ > _ _ _ _ g1004_kinzi_103a:(1 2 3 a) /
     _ _ _ ^ (cCons, cNum, g104e)? [gKill cno_med]? opt4(cWaHa) _=a _;      // need opt4() here for opt()
-g101b g103a gKill g103a _ > _ _ _ _ g101b_kinzi_103a:(1 2 3 a) / 
+g101b g103a gKill g103a _ > _ _ _ _ g101b_kinzi_103a:(1 2 3 a) /
     _ _ _ ^ (cCons, cNum, g104e)? [gKill cno_med]? _=a opt4(cClusMedNot103b) _;      // need opt4() here for opt()
 (g1004 g105a) g103a gKill cUVowelNga > _ _ _ cNgaUVowel:(1 2 3 u) /
     _ _ _ ^ (cCons, cNum, g104e) [gKill cno_med]? opt4(cClusMed) opt2(cPreVowel) _=u;
@@ -909,7 +909,7 @@ fallback is to treat g1037 as a simple cBSDia in a later rule, so we only need t
 // This lot is a bit messy. We could probably simplify this, but at least it works!
 if (lldot)
     cTakesLLMDia c1037 {attach {to = @1; at = LLMS; with = LM}; attached = 1} \
-                                        / ^ _ _ {attached == 0}; 
+                                        / ^ _ _ {attached == 0};
 endif;
 
 if (ldotrt == 0)
