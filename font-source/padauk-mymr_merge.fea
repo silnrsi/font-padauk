@@ -7211,7 +7211,7 @@ lookup base_L_base {
   pos base [\u1003 \u1022 ] <anchor 712 -53> mark @L;
   pos base [\u1005 \u1013 \u108E ] <anchor 288 -53> mark @L;
   pos base [\u1006 \u1009_u102C \u100A \u100A.alt \u100A_u100A \u1011.aiph \u1011 \u101E \uA9EE \uA9FC \uAA61 \uAA67 \uAA69 \uAA6A \u1022.kham \uAA61.kham ] <anchor 702 -53> mark @L;
-  pos base [\u1007 \u101D \u1047 ] <anchor 286 -53> mark @L;
+  pos base [\u1007 \u101D.aiph \u101D \u1047 ] <anchor 286 -53> mark @L;
   pos base [\u1008 ] <anchor 810 -53> mark @L;
   pos base [\u1008.med ] <anchor 250 -53> mark @L;
   pos base [\u1009 \u1025 \u1026 \u1063 \u1063_u103A ] <anchor 276 -53> mark @L;
@@ -7344,7 +7344,7 @@ lookup base_LL_cbase {
         \u103B_u103D_u103E \u103B_u103D_u103E.tri \u103B_u103E \u103C \u103C.alt.narr \u103C.alt.wide \u103C.wide
         \u103C_u103D.narr \u103C_u103D.wide \u103C_u103D.alt.narr \u103C_u103D.alt.wide \u103C_u102F.narr \u103C_u102F.wide
         \u103C_u102F.alt.narr \u103C_u103D.alt.wide \u103C_u103D.alt.narr.tri \u103C_u103D.alt.wide.tri \u103C_u103D.narr.tri
-        \u103C_u103D.wide.tri \u1061 \u107A.aiph \u107A \uAA77]'lookup base_LL_base [\u1037]';
+        \u103C_u103D.wide.tri \u1061 \u107A.aiph \u107A \uAA77] [\u1037]'lookup base_LL_base;
 } base_LL_cbase;
 
 lookup base_Y_base {
@@ -7366,7 +7366,7 @@ lookup base_Y_base {
 lookup _holdAnchorsbase {
   lookupflag 0;
   markClass [\dummy2 ] <anchor 309 685> @dot;
-  markClass [\u1000 \u1000_u1001_u103B \u1000_u103B_u1015_u103A \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u1009_u102C \u100A \u100A.alt \u100A_u100A \u100B \u100B.alt \u100B_u100B \u100B_u100C \u100C \u100D \u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D \u1010 \u1011.aiph \u1011 \u1012 \u1013 \u1014.alt \u1014_u1010_u103B \u1014_u1010_u103C \u1015 \u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101C \u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1020.long \u1020_u1020 \u1020_u103E \u1021 \u1022 \u102C \u1031 \u103F \u1041 \u1050 \u1051 \u1051_u100C \u1051_u100D \u1052 \u1054 \u1055 \u1056 \u1057 \u105A \u105B \u105C \u105D \u1061 \u1063 \u1065 \u1066 \u1069 \u106D \u106E \u106F \u1070 \u1075 \u1076 \u1077 \u1078 \u1079 \u107A.aiph \u107A \u107B \u107C \u107D \u107E \u107F \u1080 \u1081.straight \u108E \u1092 \circledash \u1700 \uA9E0 \uA9E1 \uA9E2 \uA9E3 \uA9E4 \uA9E7 \uA9E8 \uA9E9 \uA9EA \uA9EB \uA9EC \uA9ED \uA9EE \uA9FA \uA9FB \uA9FC \uA9FD \uA9FE \uAA60 \uAA61 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A \uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA73 \uAA79 \uAA7A \uAA7E \uAA7F \u1000.kham \u1002.kham \u1004.kham \u1010.kham \u1015.kham \u1019.kham \u101A.kham \u101C.kham \u1022.kham \u1075.kham \u1078.kham \u1080.kham \uAA60.kham \uAA61.kham \uAA63.kham \uAA64.kham \uAA65.kham \uAA66.kham \uAA6B.kham \uAA6C.kham \uAA6F.kham \u1081 ] <anchor 0 0> @R;
+  markClass [\u1000 \u1000_u1001_u103B \u1000_u103B_u1015_u103A \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u1009_u102C \u100A \u100A.alt \u100A_u100A \u100B \u100B.alt \u100B_u100B \u100B_u100C \u100C \u100D \u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D \u1010 \u1011.aiph \u1011 \u1012 \u1013 \u1014.alt \u1014_u1010_u103B \u1014_u1010_u103C \u1015 \u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101C \u101D.aiph \u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1020.long \u1020_u1020 \u1020_u103E \u1021 \u1022 \u102C \u1031 \u103F \u1041 \u1050 \u1051 \u1051_u100C \u1051_u100D \u1052 \u1054 \u1055 \u1056 \u1057 \u105A \u105B \u105C \u105D \u1061 \u1063 \u1065 \u1066 \u1069 \u106D \u106E \u106F \u1070 \u1075 \u1076 \u1077 \u1078 \u1079 \u107A.aiph \u107A \u107B \u107C \u107D \u107E \u107F \u1080 \u1081.straight \u108E \u1092 \circledash \u1700 \uA9E0 \uA9E1 \uA9E2 \uA9E3 \uA9E4 \uA9E7 \uA9E8 \uA9E9 \uA9EA \uA9EB \uA9EC \uA9ED \uA9EE \uA9FA \uA9FB \uA9FC \uA9FD \uA9FE \uAA60 \uAA61 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A \uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA73 \uAA79 \uAA7A \uAA7E \uAA7F \u1000.kham \u1002.kham \u1004.kham \u1010.kham \u1015.kham \u1019.kham \u101A.kham \u101C.kham \u1022.kham \u1075.kham \u1078.kham \u1080.kham \uAA60.kham \uAA61.kham \uAA63.kham \uAA64.kham \uAA65.kham \uAA66.kham \uAA6B.kham \uAA6C.kham \uAA6F.kham \u1081 ] <anchor 0 0> @R;
   markClass [\u1014 ] <anchor 12 0> @R;
   markClass [\u101B.alt \u101B.long ] <anchor 3 0> @R;
   markClass [\u1053 ] <anchor 30 0> @R;
@@ -7405,7 +7405,7 @@ lookup base_BD_base {
   pos base [\u1002 \u1004 \u1015 \u1016 \u1017 \u1027 \u1028 \u1031 \u1040 \u1046 \u1048 \u1049 \u1050 \u1051 \u105A \u1066 \u107F \u1081.straight \uA9FD \u1002.kham \u1004.kham \u1015.kham ] <anchor 292 -53> mark @BD;
   pos base [\u1003 \u1006 \u1011.aiph \u1011 \u1022 \uA9E3 \uA9EC \uA9EE \uA9FC \uAA67 \uAA69 \uAA6A \uAA6C \uAA6C.kham ] <anchor 495 -53> mark @BD;
   pos base [\u1005 \u1013 \u108E ] <anchor 288 -53> mark @BD;
-  pos base [\u1007 \u1014.alt \u101D \u1047 ] <anchor 286 -53> mark @BD;
+  pos base [\u1007 \u1014.alt \u101D.aiph \u101D \u1047 ] <anchor 286 -53> mark @BD;
   pos base [\u1008 ] <anchor 810 -53> mark @BD;
   pos base [\u1009 ] <anchor 450 -53> mark @BD;
   pos base [\u1009_u102C \u100A \u100A_u100A ] <anchor 1063 -53> mark @BD;
@@ -7575,7 +7575,7 @@ lookup base_BS_base {
   pos base [\u1005 \u1013 \u103D_u103E \u108E ] <anchor 288 -53> mark @BS;
   pos base [\u1005.med ] <anchor 234 -53> mark @BS;
   pos base [\u1006 \u100A.alt \u1011.aiph \u1011 \u101E \uA9EE \uA9FC \uAA61 \uAA67 \uAA69 \uAA6A \u1022.kham \uAA61.kham ] <anchor 702 -53> mark @BS;
-  pos base [\u1007 \u101D \u1047 ] <anchor 286 -53> mark @BS;
+  pos base [\u1007 \u101D.aiph \u101D \u1047 ] <anchor 286 -53> mark @BS;
   pos base [\u1008 ] <anchor 810 -53> mark @BS;
   pos base [\u1008.med \u103B \u103B_u103D \u103B_u103D_u103E \u103B_u103E \u105B.med \u103B_u103D.tri \u103B_u103D_u103E.tri ] <anchor 250 -53> mark @BS;
   pos base [\u1009 ] <anchor 450 -53> mark @BS;
@@ -7825,7 +7825,7 @@ lookup base_U_base {
   pos base [\u101B \u1061 ] <anchor 295 495> mark @U;
   pos base [\u101B.long ] <anchor 308 495> mark @U;
   pos base [\u101C \uA9EA \uA9FA \uAA6E \u101C.kham ] <anchor 679 495> mark @U;
-  pos base [\u101D \u1047 \u1075.kham ] <anchor 286 495> mark @U;
+  pos base [\u101D.aiph \u101D \u1047 \u1075.kham ] <anchor 286 495> mark @U;
   pos base [\u1021 ] <anchor 648 495> mark @U;
   pos base [\u1023 \u107E ] <anchor 715 495> mark @U;
   pos base [\u1028 ] <anchor 292 570> mark @U;
@@ -7886,7 +7886,7 @@ lookup raTallA {
 	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
 	\u1010 \u1011.aiph \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
 	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
-	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
+	\u101D.aiph \u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
 	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
 	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
 	\u1076 \u1077 \u1078 \u1079 \u107A \u107A.aiph \u107B \u107C \u107D \u107E \u107F 
@@ -7995,7 +7995,7 @@ lookup lDotWide {
 	\uAA69 \uAA6A \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ] [\u1037 ]'lookup lDotWideSingle  ;
   subtable;
     ignore pos [] [\u1001 \u1002 \u1004 \u1005 \u1007 \u100E \u1012 \u1013 \u1014 \u1014.alt \u1015 
-	\u1016 \u1017 \u1019 \u101B \u101D \u1027 \u1050 \u1051 \u1052 \u1053 
+	\u1016 \u1017 \u1019 \u101B \u101D.aiph \u101D \u1027 \u1050 \u1051 \u1052 \u1053 
 	\u1054 \u1055 \u1056 \u1057 \u105C \u1065 \u1075 \u1076 \u1077 \u107F 
 	\u1081 \u1081.straight \u1084 \u108E \circledash \uAA62 \uAA6B ] [\u1037 ]' ;
   subtable;
@@ -8013,12 +8013,12 @@ lookup lDotWide {
 	\u1074 \u1085 \u1086 ] [\u1037 ]'lookup lDotWideSingle  ;
   subtable;
     ignore pos [] [\u1001 \u1002 \u1004 \u1005 \u1007 \u100E \u1012 \u1013 \u1014 \u1014.alt \u1015 
-	\u1016 \u1017 \u1019 \u101B \u101D \u1027 \u1050 \u1051 \u1052 \u1053 
+	\u1016 \u1017 \u1019 \u101B \u101D.aiph \u101D \u1027 \u1050 \u1051 \u1052 \u1053 
 	\u1054 \u1055 \u1056 \u1057 \u105C \u1065 \u1075 \u1076 \u1077 \u107F 
 	\u1081 \u1081.straight \u1084 \u108E \circledash \uAA62 \uAA6B ] [\u1036 ] [\u1037 ]' ;
   subtable;
     ignore pos [] [\u1001 \u1002 \u1004 \u1005 \u1007 \u100E \u1012 \u1013 \u1014 \u1014.alt \u1015 
-	\u1016 \u1017 \u1019 \u101B \u101D \u1027 \u1050 \u1051 \u1052 \u1053 
+	\u1016 \u1017 \u1019 \u101B \u101D.aiph \u101D \u1027 \u1050 \u1051 \u1052 \u1053 
 	\u1054 \u1055 \u1056 \u1057 \u105C \u1065 \u1075 \u1076 \u1077 \u107F 
 	\u1081 \u1081.straight \u1084 \u108E \circledash \uAA62 \uAA6B ] [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 
 	\u1074 \u1085 \u1086 ] [\u1037 ]' ;
@@ -8049,20 +8049,20 @@ lookup toneAfterDotSingle {
 lookup toneAfterDot {
   lookupflag 0;
     ignore pos [\u1001 \u1002 \u1004 \u1005 \u1007 \u100E \u1012 \u1013 \u1014 \u1014.alt \u1015 
-	\u1016 \u1017 \u1019 \u101B \u101D \u1027 \u1050 \u1051 \u1052 \u1053 
+	\u1016 \u1017 \u1019 \u101B \u101D.aiph \u101D \u1027 \u1050 \u1051 \u1052 \u1053 
 	\u1054 \u1055 \u1056 \u1057 \u105C \u1065 \u1075 \u1076 \u1077 \u107F 
 	\u1081 \u1081.straight \u1084 \u108E \circledash \uAA62 \uAA6B ] [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 
 	\u1074 \u1085 \u1086 ] [\u1037 ] [] [\u1038 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B \u108C 
 	\u108D \u108F \uAA7D ]' ;
   subtable;
     ignore pos [] [\u1001 \u1002 \u1004 \u1005 \u1007 \u100E \u1012 \u1013 \u1014 \u1014.alt \u1015 
-	\u1016 \u1017 \u1019 \u101B \u101D \u1027 \u1050 \u1051 \u1052 \u1053 
+	\u1016 \u1017 \u1019 \u101B \u101D.aiph \u101D \u1027 \u1050 \u1051 \u1052 \u1053 
 	\u1054 \u1055 \u1056 \u1057 \u105C \u1065 \u1075 \u1076 \u1077 \u107F 
 	\u1081 \u1081.straight \u1084 \u108E \circledash \uAA62 \uAA6B ] [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 
 	\u1074 \u1085 \u1086 ] [\u1037 ] [\u1062_u103A ]' ;
   subtable;
     ignore pos [] [\u1001 \u1002 \u1004 \u1005 \u1007 \u100E \u1012 \u1013 \u1014 \u1014.alt \u1015 
-	\u1016 \u1017 \u1019 \u101B \u101D \u1027 \u1050 \u1051 \u1052 \u1053 
+	\u1016 \u1017 \u1019 \u101B \u101D.aiph \u101D \u1027 \u1050 \u1051 \u1052 \u1053 
 	\u1054 \u1055 \u1056 \u1057 \u105C \u1065 \u1075 \u1076 \u1077 \u107F 
 	\u1081 \u1081.straight \u1084 \u108E \circledash \uAA62 \uAA6B ] [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 
 	\u1074 \u1085 \u1086 ] [\u1037 ] [\u102C ]' ;
@@ -8212,7 +8212,7 @@ lookup lDotWideBelow {
 	\u1074 \u1085 \u1086 ] [\u1037 ]'lookup lDotWideBelowSingle  ;
   subtable;
     ignore pos [\u1001 \u1002 \u1004 \u1005 \u1007 \u100E \u1012 \u1013 \u1014 \u1014.alt \u1015 
-	\u1016 \u1017 \u1019 \u101B \u101D \u1027 \u1050 \u1051 \u1052 \u1053 
+	\u1016 \u1017 \u1019 \u101B \u101D.aiph \u101D \u1027 \u1050 \u1051 \u1052 \u1053 
 	\u1054 \u1055 \u1056 \u1057 \u105C \u1065 \u1075 \u1076 \u1077 \u107F 
 	\u1081 \u1081.straight \u1084 \u108E \circledash \uAA62 \uAA6B ] [\u1030.med \u103D \u103D_u103E \u103E_u102F \u103E_u1030 ] [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 
 	\u1074 \u1085 \u1086 ] [\u1037 ]' ;
@@ -8228,12 +8228,12 @@ lookup lDotWideBelow {
 	\uAA69 \uAA6A \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ] [\u1030.med \u103D \u103D_u103E \u103E_u102F \u103E_u1030 ] [\u1036 ] [\u1037 ]'lookup lDotWideBelowSingle  ;
   subtable;
     ignore pos [\u1001 \u1002 \u1004 \u1005 \u1007 \u100E \u1012 \u1013 \u1014 \u1014.alt \u1015 
-	\u1016 \u1017 \u1019 \u101B \u101D \u1027 \u1050 \u1051 \u1052 \u1053 
+	\u1016 \u1017 \u1019 \u101B \u101D.aiph \u101D \u1027 \u1050 \u1051 \u1052 \u1053 
 	\u1054 \u1055 \u1056 \u1057 \u105C \u1065 \u1075 \u1076 \u1077 \u107F 
 	\u1081 \u1081.straight \u1084 \u108E \circledash \uAA62 \uAA6B ] [\u1030.med \u103D \u103D_u103E \u103E_u102F \u103E_u1030 ] [\u1032 ] [\u1037 ]' ;
   subtable;
     ignore pos [\u1001 \u1002 \u1004 \u1005 \u1007 \u100E \u1012 \u1013 \u1014 \u1014.alt \u1015 
-	\u1016 \u1017 \u1019 \u101B \u101D \u1027 \u1050 \u1051 \u1052 \u1053 
+	\u1016 \u1017 \u1019 \u101B \u101D.aiph \u101D \u1027 \u1050 \u1051 \u1052 \u1053 
 	\u1054 \u1055 \u1056 \u1057 \u105C \u1065 \u1075 \u1076 \u1077 \u107F 
 	\u1081 \u1081.straight \u1084 \u108E \circledash \uAA62 \uAA6B ] [\u1030.med \u103D \u103D_u103E \u103E_u102F \u103E_u1030 ] [\u1036 ] [\u1037 ]' ;
   subtable;
@@ -8243,12 +8243,12 @@ lookup lDotWideBelow {
 	\uAA69 \uAA6A \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ] [\u102D ] [\u1037 ]'lookup lDotWideBelowSingle  ;
   subtable;
     ignore pos [] [\u1001 \u1002 \u1004 \u1005 \u1007 \u100E \u1012 \u1013 \u1014 \u1014.alt \u1015 
-	\u1016 \u1017 \u1019 \u101B \u101D \u1027 \u1050 \u1051 \u1052 \u1053 
+	\u1016 \u1017 \u1019 \u101B \u101D.aiph \u101D \u1027 \u1050 \u1051 \u1052 \u1053 
 	\u1054 \u1055 \u1056 \u1057 \u105C \u1065 \u1075 \u1076 \u1077 \u107F 
 	\u1081 \u1081.straight \u1084 \u108E \circledash \uAA62 \uAA6B ] [\u102D ] [\u1037 ]' ;
   subtable;
     ignore pos [] [\u1001 \u1002 \u1004 \u1005 \u1007 \u100E \u1012 \u1013 \u1014 \u1014.alt \u1015 
-	\u1016 \u1017 \u1019 \u101B \u101D \u1027 \u1050 \u1051 \u1052 \u1053 
+	\u1016 \u1017 \u1019 \u101B \u101D.aiph \u101D \u1027 \u1050 \u1051 \u1052 \u1053 
 	\u1054 \u1055 \u1056 \u1057 \u105C \u1065 \u1075 \u1076 \u1077 \u107F 
 	\u1081 \u1081.straight \u1084 \u108E \circledash \uAA62 \uAA6B ] [\u1037 ]' ;
   subtable;
@@ -8556,6 +8556,7 @@ feature mark {
       lookup base_BS_base;
       lookup base_U_base;
       lookup base_Y_base;
+      lookup base_LL_cbase;
      language KHT  exclude_dflt;
       lookup base_BD_base;
       lookup base_BS_base;
@@ -8598,15 +8599,15 @@ feature kern {
       lookup narrWideTallBefore;
       lookup raTallA;
 #      lookup iVowelTallu;
-      lookup lDotMed;
-      lookup lDotWide;
+#      lookup lDotMed;
+#      lookup lDotWide;
       lookup toneAfterDot;
-      lookup lDotWideBelow;
-      lookup lDotNarr;
+#      lookup lDotWideBelow;
+#      lookup lDotNarr;
       lookup kinziTallA;
       lookup wideBelowU;
-      lookup lDotLeft;
-      lookup rAltDot;
+#      lookup lDotLeft;
+#      lookup rAltDot;
 #      lookup mon102b1036;
 #      lookup moveKinziLig;
 #      lookup move1032with102F;

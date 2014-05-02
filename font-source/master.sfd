@@ -17,8 +17,8 @@ XUID: [1021 988 686867477 13624295]
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
-CreationTime: 1398419160
-ModificationTime: 1398863103
+CreationTime: 1398913557
+ModificationTime: 1398915037
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -61,7 +61,7 @@ FitToEm: 1
 WinInfo: 275 25 10
 BeginPrivate: 0
 EndPrivate
-BeginChars: 504 502
+BeginChars: 504 504
 
 StartChar: .notdef
 Encoding: 0 -1 0
@@ -16566,6 +16566,56 @@ SplineSet
  153 -15 55 91 55 222 c 0
 EndSplineSet
 Comment: "GDL_order: 1" 
+EndChar
+
+StartChar: u101D.aiph
+Encoding: 502 -1 502
+Width: 575
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+167 223 m 4
+ 167 180 132 146 92 146 c 4
+ 51 146 17 180 17 223 c 4
+ 17 266 51 298 92 298 c 4
+ 132 298 167 266 167 223 c 4
+520 222 m 0
+ 520 91 415 -15 287 -15 c 0
+ 160 -15 55 91 55 222 c 0
+ 55 351 160 459 287 459 c 0
+ 415 459 520 351 520 222 c 0
+469 222 m 0
+ 469 324 386 408 287 408 c 0
+ 185 408 106 324 106 222 c 0
+ 106 120 185 36 287 36 c 0
+ 386 36 469 120 469 222 c 0
+EndSplineSet
+EndChar
+
+StartChar: u1031.aiph
+Encoding: 503 -1 503
+Width: 561
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+106 222 m 0
+ 106 324 190 408 292 408 c 0
+ 363 408 432 367 469 297 c 0
+ 513 322 l 0
+ 475 412 381 459 292 459 c 0
+ 162 459 55 351 55 222 c 0
+ 55 91 153 -15 280 -15 c 0
+ 336 -15 370 21 370 61 c 0
+ 370 102 336 136 295 136 c 0
+ 255 136 220 102 220 61 c 0
+ 220 55 227.0390625 44.1015625 222 46 c 0
+ 153 72 106 141 106 222 c 0
+EndSplineSet
+Comment: "GDL_order: 7" 
 EndChar
 EndChars
 EndSplineFont

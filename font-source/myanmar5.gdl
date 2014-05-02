@@ -117,7 +117,7 @@ to be able to re-allocate pass numbers quickly and easily
 #define pass_order 2
 #define pass_insert 3
 #define pass_front 4
-#define pass_tidy 5
+#define pass_subst 5
 
 /* @doc
 There are a few glyph names that I prefer to rename. I do that here just by defining my
@@ -803,6 +803,9 @@ g1032 gaa70 > g1032_aa70:(1 3) _ / _ cTone? _;
 g103a gaa70 > g103a_aa70:(1 3) _ / _ cTone? _;
 endif;
 
+endpass;
+
+pass(pass_subst);
 /* @doc
 Handle feature substitutions
 @enddoc */
