@@ -383,7 +383,7 @@ feature blwf {
 feature pstf {
 
  script mym2;
-     language dflt ;
+     language dflt;
       lookup mym2_pstf_asatLig;
       lookup mym2_pstf_signsLig;
      language KHT  exclude_dflt;
@@ -400,7 +400,16 @@ feature pstf {
 #feature pres {
 
 script mym2;
-    language dflt ;
+    language dflt;
+     lookup mym2_pres_raUpperVowel;
+     lookup mym2_pres_raTriUpperVowel;
+    language KHT  exclude_dflt;
+     lookup mym2_pres_raUpperVowel;
+     lookup mym2_pres_raTriUpperVowel;
+    language KSW  exclude_dflt;
+     lookup mym2_pres_raUpperVowel;
+     lookup mym2_pres_raTriUpperVowel;
+    language KYU  exclude_dflt;
      lookup mym2_pres_raUpperVowel;
      lookup mym2_pres_raTriUpperVowel;
 } pres;
