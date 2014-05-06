@@ -234,7 +234,6 @@ lookup mym2_pres_raUpperVowel {
     sub [@class103C_noalt]'lookup mym2_raUpperVowelSubst [@classAllCons] [\u103D_u103E] [@classBigUpperVowel];
   subtable;
     sub [@class103C_noalt]'lookup mym2_raUpperVowelSubst [@classAllCons] [@cmed] [@classBigUpperVowel];
-  subtable
 } mym2_pres_raUpperVowel;
 
 lookup mym2_raTriUpperVowelSubst {
@@ -254,7 +253,6 @@ lookup mym2_pres_raTriUpperVowel {
     sub [@class103C_noalt]'lookup mym2_raTriUpperVowelSubst [@classAllCons] [\u103D_u103E] [@classBigUpperVowel];
   subtable;
     sub [@class103C_noalt]'lookup mym2_raTriUpperVowelSubst [@classAllCons] [@cmed] [@classBigUpperVowel];
-  subtable
 } mym2_pres_raTriUpperVowel;
 
 
@@ -397,7 +395,7 @@ feature pstf {
       lookup mym2_pstf_signsLig;
 } pstf;
 
-#feature pres {
+feature pres {
 
 script mym2;
     language dflt;
