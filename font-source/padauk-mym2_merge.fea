@@ -260,6 +260,13 @@ lookup mym2_pres_raTriUpperVowel {
 # abvs
 # ****
 
+lookup mym2_abvs_redupLig {
+  lookupflag IgnoreBaseGlyphs, IgnoreLigatures;
+    sub \u1032 \uAA70  by \u1032_uAA70;
+    sub \u103A \uAA70  by \u103A_uAA70;
+} mym2_abvs_redupLig;
+
+
 # ****
 # blws
 # ****
@@ -411,6 +418,21 @@ script mym2;
      lookup mym2_pres_raUpperVowel;
      lookup mym2_pres_raTriUpperVowel;
 } pres;
+
+
+feature abvs {
+
+ script mym2;
+     language dflt ;
+      lookup mym2_abvs_redupLig;
+     language KHT  exclude_dflt;
+      lookup mym2_abvs_redupLig;
+     language KSW  exclude_dflt;
+      lookup mym2_abvs_redupLig;
+     language KYU  exclude_dflt;
+      lookup mym2_abvs_redupLig;
+} abvs;
+
 
 feature blws {
 
