@@ -79,6 +79,9 @@ languagesystem mym2 KYU ;
     \u1074 \u1085 \u1086 \u1086_uAA7C \u109D \uA9E5 \uA9E5_uAA7C \uAA7C
     \u1032.kham \u1032_uAA70 \u103A_uAA70 \u1036.dot];
 
+@class1036 = [\u1036];
+
+
 # -------------
 # GSUB lookups
 # -------------
@@ -174,6 +177,12 @@ lookup mym2_rphf_kinzi {
 # pref
 # ****
 
+lookup mym2_pref_miscLig {
+  lookupflag 0;
+    sub \u103C \u1014 \u1039 \u1010 by \u1014_u1010_u103C;
+    sub \u103C \u101E \u1039 \u1010 by \u101E_u1010_u103C;
+} mym2_pref_miscLig;
+
 lookup mym2_pref_medLig {
   lookupflag 0;
     sub \u103B \u103D  by \u103B_u103D;
@@ -201,7 +210,6 @@ lookup mym2_pref_u103CLig {
     sub \u103C.wide \u103D by \u103C_u103D.wide;
     sub \u103C.wide \u103D.tri by \u103C_u103D.wide.tri;
 } mym2_pref_u103CLig;
-
 
 
 # ****
@@ -254,6 +262,7 @@ lookup mym2_blwf_u1039med {
 #     sub \u1081 by \u1002 \u103E ;
 # } mym2_blwf_shan1081;
 
+
 # ****
 # pstf
 # ****
@@ -262,6 +271,7 @@ lookup mym2_pstf_asatLig {
   lookupflag 0;
     sub \u102B \u103A  by \u102B_u103A;
     sub \u1062 \u103A  by \u1062_u103A;
+    sub \u1063 \u103A  by \u1063_u103A;
     sub \u103A \u1036  by \u103A_u1036;
     sub \u103A \uAA70  by \u103A_uAA70;
 } mym2_pstf_asatLig;
@@ -281,6 +291,7 @@ lookup mym2_pstf_signsLig {
     sub \u101B.kinzi \u102E  by \u101B.kinzi_u102E;
     sub \u101B.kinzi \u103A  by \u101B.kinzi_u103A;
 } mym2_pstf_signsLig;
+
 
 # ****
 # pres
@@ -334,7 +345,7 @@ lookup mym2_pres_raTriUpperVowel {
 # ****
 
 lookup mym2_abvs_redupLig {
-  lookupflag IgnoreBaseGlyphs, IgnoreLigatures; # may also need MarkAttachmentType for u1036
+  lookupflag IgnoreBaseGlyphs, IgnoreLigatures, MarkAttachmentType @class1036;
     sub \u1032 \uAA70  by \u1032_uAA70; #used by default (dflt) lang if Khamti (KHT ) is not enabled
     sub \u103A \uAA70  by \u103A_uAA70;
     sub \u1032.kham \uAA70  by \u1032_uAA70;
@@ -398,9 +409,34 @@ lookup mym2_blws_raShort {
     sub [\u101B ]'lookup mym2_raShortSubst  [@classUpperVowel] [\u1030.med ] ;
 } mym2_blws_raShort;
 
+lookup mym2_blws_miscLig {
+  lookupflag 0;
+    sub \u100B \u100B.med  by \u100B_u100B;
+    sub \u100B \u100C.med  by \u100B_u100C;
+    sub \u100D \u100D.med  by \u100D_u100D;
+    sub \u100D \u100E.med  by \u100D_u100E;
+    sub \u100F \u100B.med  by \u100F_u100B;
+    sub \u100F \u100D.med  by \u100F_u100D;
+    sub \u1010.med \u103D  by \u1010_u103D.med;
+    sub \u1020 \u1020  by \u1020_u1020;
+    sub \u1020 \u103E  by \u1020_u103E;
+    sub \u1051 \u100C.med  by \u1051_u100C;
+    sub \u1051 \u100D.med  by \u1051_u100D;
+} mym2_blws_miscLig;
 
-# add more GSUB lookups here
 
+# ****
+# psts
+# ****
+
+lookup mym2_psts_miscLig {
+  lookupflag 0;
+    sub \u1000 \u103B \u1015 \u103A  by \u1000_u103B_u1015_u103A;
+    sub \u1000 \u1001.med \u103B  by \u1000_u1001_u103B;
+    sub \u1009 \u102C  by \u1009_u102C;
+    sub \u100A \u100A.med  by \u100A_u100A;
+    sub \u1014 \u1010.med \u103B  by \u1014_u1010_u103B;
+} mym2_psts_miscLig;
 
 
 
@@ -409,7 +445,6 @@ lookup mym2_blws_raShort {
 # -------------
 
 feature locl {
-
  script mym2;
      language KHT  exclude_dflt;
       lookup mym2_locl_dot;
@@ -422,8 +457,8 @@ feature locl {
       lookup mym2_locl_slantr;
 } locl;
 
-feature rphf {
 
+feature rphf {
  script mym2;
      language dflt ;
       lookup mym2_rphf_kinzi;
@@ -435,29 +470,33 @@ feature rphf {
       lookup mym2_rphf_kinzi;
 } rphf;
 
-feature pref {
 
+feature pref {
  script mym2;
-     language dflt ;
+     language dflt;
+      lookup mym2_pref_miscLig;
       lookup mym2_pref_medLig;
       lookup mym2_pref_u103Cwide;
       lookup mym2_pref_u103CLig;
      language KHT  exclude_dflt;
+      lookup mym2_pref_miscLig;
       lookup mym2_pref_medLig;
       lookup mym2_pref_u103Cwide;
       lookup mym2_pref_u103CLig;
      language KSW  exclude_dflt;
+      lookup mym2_pref_miscLig;
       lookup mym2_pref_medLig;
       lookup mym2_pref_u103Cwide;
       lookup mym2_pref_u103CLig;
      language KYU  exclude_dflt;
+      lookup mym2_pref_miscLig;
       lookup mym2_pref_medLig;
       lookup mym2_pref_u103Cwide;
       lookup mym2_pref_u103CLig;
 } pref;
 
-feature blwf {
 
+feature blwf {
  script mym2;
      language dflt ;
       lookup mym2_blwf_u1039med;
@@ -473,8 +512,8 @@ feature blwf {
 #       lookup mym2_blwf_shan1081;
 } blwf;
 
-feature pstf {
 
+feature pstf {
  script mym2;
      language dflt;
       lookup mym2_pstf_asatLig;
@@ -490,9 +529,9 @@ feature pstf {
       lookup mym2_pstf_signsLig;
 } pstf;
 
-feature pres {
 
-script mym2;
+feature pres {
+ script mym2;
     language dflt;
      lookup mym2_pres_raUpperVowel;
      lookup mym2_pres_raTriUpperVowel;
@@ -509,7 +548,6 @@ script mym2;
 
 
 feature abvs {
-
  script mym2;
      language dflt ;
       lookup mym2_abvs_redupLig;
@@ -523,28 +561,42 @@ feature abvs {
 
 
 feature blws {
-
  script mym2;
      language dflt ;
       lookup mym2_blws_sub1014;
       lookup mym2_blws_raLong;
       lookup mym2_blws_raShort;
+      lookup mym2_blws_miscLig;
      language KHT  exclude_dflt;
       lookup mym2_blws_sub1014;
       lookup mym2_blws_raLong;
       lookup mym2_blws_raShort;
+      lookup mym2_blws_miscLig;
      language KSW  exclude_dflt;
       lookup mym2_blws_sub1014;
       lookup mym2_blws_raLong;
       lookup mym2_blws_raShort;
+      lookup mym2_blws_miscLig;
      language KYU  exclude_dflt;
       lookup mym2_blws_sub1014;
       lookup mym2_blws_raLong;
       lookup mym2_blws_raShort;
+      lookup mym2_blws_miscLig;
 } blws;
 
 
-# add more GSUB features here
+feature psts {
+ script mym2;
+     language dflt ;
+      lookup mym2_psts_miscLig;
+     language KHT  exclude_dflt;
+      lookup mym2_psts_miscLig;
+     language KSW  exclude_dflt;
+      lookup mym2_psts_miscLig;
+     language KYU  exclude_dflt;
+      lookup mym2_psts_miscLig;
+} psts;
+
 
 # -------------
 # GPOS lookups
@@ -557,7 +609,6 @@ feature blws {
 # merging mym2 with old code
 
 feature mark {
-
  script mym2;
      language dflt ;
       lookup base_BD_base;
@@ -578,7 +629,6 @@ feature mark {
 } mark;
 
 feature mkmk {
-
  script mym2;
      language dflt ;
       lookup base_BD_mark;
@@ -595,7 +645,6 @@ feature mkmk {
 } mkmk;
 
 feature kern {
-
  script mym2;
      language dflt ;
       lookup narrWideTallAfter;
