@@ -93,7 +93,6 @@
     u103A_u1036
     u102E u102E_uAA7C u1032 u1032_u102D u1033 u1034 u1035 u1071 u1072 u1073 u1074 u1085 
     u1004.kinzi_u1036 u1036 u1036.dot u109D uA9E5 uA9E5_uAA7C
-    u1086 u1086_uAA7C
   </property>
   <property name="GDL_order" value="120">
     u102F u102F.med u102F_u108D
@@ -101,7 +100,7 @@
     u1032.kham u1032_uAA70 
   </property>
   <property name="GDL_order" value="130">u1062 u1062_u103A</property>
-  <!-- <property name="GDL_order" value="140">u1086 u1086_uAA7C</property> -->
+  <property name="GDL_order" value="140">u1086 u1086_uAA7C</property>
   <property name="GDL_order" value="145">u1037</property>
   <property name="GDL_order" value="150">
     u102B u102B_u103A u102C u1063 u1063_u103A u1067

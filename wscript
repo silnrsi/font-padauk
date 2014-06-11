@@ -39,23 +39,6 @@ namestrings = {
 
 test = fonttest(targets = {
         'pdfs' : tex(),
-        'svg' : svg(files={
-                        'badSequences.txt' : '',
-                        'blk_syllables.txt' : 'lang=blk',
-                        'kht_extas.txt' : 'lang=kht',
-                        'kht_syllables.txt' : 'lang=kht',
-                        'ksw_Wordlist.txt' : 'lang=ksw',
-                        'kyu_regression.txt' : 'lang=kyu',
-                        'kyu_syllables.txt' : 'lang=kyu',
-                        'mnw_shorto62_syllables.txt' : 'lang=mnw',
-                        'mon.txt' : 'lang=mnw',
-                        'my_HeadwordSyllables.txt' : 'ulon=1',
-                        'pwo_syllables.txt' : 'lang=pwo',
-                        'regression.txt' : '',
-                        'sanskrit.txt' : '',
-                        'shn_syllables.txt' : ''},
-                    grsvg_gr = 'graphite',
-                    grsvg_ot = 'harfbuzzng'),
         'test' : tests({
             'regression' :
                 cmd('cmptxtrender -p -k -e ${shaper} -s "${script}" -L test -L standard -t ${SRC[1]} -o ${TGT} --copy=fonts ${SRC[0]} ${SRC[2]}')})

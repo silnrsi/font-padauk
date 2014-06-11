@@ -117,7 +117,7 @@ sgaw {
 };
 
 khamti {
-    languages = ("kht");
+    languages = ("khn", "kht");
     khamti = 1;
     filled = 1;
 };
