@@ -263,16 +263,16 @@ would want if the sequence: cons U+1036 U+102C were to occur.
 @enddoc */
 
 cUVowel = (g103a, g1004_kinzi, g1004_kinzi_102d, g1004_kinzi_102e, g1004_kinzi_1032, g1004_kinzi_1036, g1004_kinzi_103a, g101b_kinzi, g101b_kinzi_102d, g101b_kinzi_102e, g101b_kinzi_103a, g102d,
-            g102d_1036, g102e, g1032, g1032_102d, g1033, g1034, g1035,
+            g102d_1036, g102e, g102e_1036, g1032, g1032_102d, g1032_1036, g1033, g1034, g1035,
             g1071, g1072, g1073, g1074, g1085, g1086){breakweight = -BW_NEVER};
 cUSpace = (g1032, g1032_102d, g103a, g102d, g102e, g1004_kinzi_102e, g1004_kinzi_102d, g1004_kinzi,
             g1004_kinzi_1036, g1004_kinzi_103a, g101b_kinzi, g101b_kinzi_102d, g101b_kinzi_102e, g101b_kinzi_103a, g1033, g1034, g1035, g1071, g1072, g1073, g1074,
             g1085);
 cUVowelNga = (g102e, g102d, g1032, g1033, g1036);
 cNgaUVowel = (g1004_kinzi_102e, g1004_kinzi_102d, g1004_kinzi_1032, g1004_kinzi_1033, g1004_kinzi_1036);
-cUTakesMa = (g102d, g1004_kinzi);
-cUWithMa = (g102d_1036, g1004_kinzi_1036);
-c1036 = (g1036, g1004_kinzi_1036, g102d_1036, g103a_1036);
+cUTakesMa = (g102d, g102e, g1032, g1004_kinzi);
+cUWithMa = (g102d_1036, g102e_1036, g1032_1036, g1004_kinzi_1036);
+c1036 = (g1036, g1004_kinzi_1036, g102d_1036, g102e_1036, g1032_1036, g103a_1036);
 cUVowelBar = (ga9e5, g102d, g102e, g1086);
 cBarUVowel = (ga9e5_aa7c, g102d_aa7c, g102e_aa7c, g1086_aa7c);
 
@@ -399,7 +399,8 @@ table(linebreak)
 
 // encourage breaks between section and consonant
 cSection {breakweight = BW_WORD} / _ ^ cCons;
-gSpace {breakweight = BW_WORD} / _ ^ cCons;
+//gSpace {breakweight = BW_WORD} / _ ^ cCons;
+cCons {breakweight = -BW_WORD} / gSpace _;
 
 // no line breaks before visibly killed char
 cTakesUDia {breakweight = -BW_CHAR} g103a {breakweight = -BW_NEVER} / _ ^ [gKill cmed]? opt4(cnTakesUDia) _ ;
@@ -629,7 +630,7 @@ g103a > @2{sOrder=155} / ANY{sOrder == 150} _;
 
 // slot Anusvara
 (g1036, g1032) > @2{sOrder=160} / ANY{sOrder >= 120 && sOrder <= 150} _;
-(g1036, g1032) > @2{sOrder=160} / g102d _;
+(g1036, g1032) > @2{sOrder=160} / (g102d, g102e, g1032) _;
 
 // double 1037 is always wrong, so we should highlight it
 _ g1037 > g25cc:3 @3{sOrder=130} / g1037{sOrder == 130} _ _;

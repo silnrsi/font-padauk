@@ -7349,7 +7349,7 @@ lookup base_LL_cbase {
 
 lookup base_Y_base {
   lookupflag 0;
-  markClass [\u1004.kinzi \u1004.kinzi_u102D \u1004.kinzi_u102E \u1004.kinzi_u1033 \u1004.kinzi_u103A \u101B.kinzi_u102D \u101B.kinzi_u102E \u102D_u1036 \u102D_uAA7C \u102E_uAA7C \u1032_u102D \u1086_uAA7C ] <anchor -20 495> @Y;
+  markClass [\u1004.kinzi \u1004.kinzi_u102D \u1004.kinzi_u102E \u1004.kinzi_u1033 \u1004.kinzi_u103A \u101B.kinzi_u102D \u101B.kinzi_u102E \u102D_u1036 \u102D_uAA7C \u102E_u1036 \u102E_uAA7C \u1032_u102D \u1032_u1036 \u1086_uAA7C ] <anchor -20 495> @Y;
   markClass [\u1004.kinzi_u102D_u1036 ] <anchor -185 495> @Y;
   markClass [\u101B.kinzi_u103A ] <anchor -43 495> @Y;
   markClass [\u102D \u102E \u1033 \u1034 \u1035 \u1074 \u1086 ] <anchor -75 495> @Y;
@@ -7786,7 +7786,7 @@ lookup base_U_base {
   markClass [\u101B.kinzi_u102D \u101B.kinzi_u102E ] <anchor -304 492> @U;
   markClass [\u101B.kinzi_u103A ] <anchor -302 495> @U;
   markClass [\u102D \u1033 \uAA7C ] <anchor -234 495> @U;
-  markClass [\u102D_u1036 ] <anchor -269 495> @U;
+  markClass [\u102D_u1036 \u102E_u1036 \u1032_u1036 ] <anchor -269 495> @U;
   markClass [\u102D_uAA7C ] <anchor -179 495> @U;
   markClass [\u102E ] <anchor -237 495> @U;
   markClass [\u102E_uAA7C ] <anchor -182 495> @U;
