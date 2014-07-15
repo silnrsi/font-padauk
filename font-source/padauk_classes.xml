@@ -125,7 +125,7 @@
     uA9E0 uA9E1 uA9E2 uA9E3 uA9E4 uA9E7 uA9E8 uA9E9
     uAA60 uAA61 uAA62 uAA63 uAA64 uAA65 uAA66 uAA67 uAA68 uAA69 uAA6A uAA6B uAA6C uAA6D uAA6E uAA6F
     uAA71 uAA72 uAA73 uAA74 uAA75 uAA76 uAA7A uAA7E uAA7F
-    u25CC
+    circledash
   </class>
   <class name="cConsNar" exts=".kham">
     u1001 u1002 u1004 u1005 u1007 u100B u100C u100D u100E 
@@ -133,7 +133,7 @@
     u1027 u1028 u104E u1050 u1051 u105A u105B u105C u105D
     u1061 u1065 u1066 
     u1075 u1076 u1077 u107F
-    u108E u25CC
+    u108E circledash
     uA9E0
     uAA62 uAA6B uAA6D uAA6F
     uAA73 uAA7E
@@ -162,7 +162,7 @@
     u1080 u1081 u108E
     uA9E0 uA9E1 uA9E2 uA9E3 uA9E4 uA9E7 uA9E8 uA9E9
     uAA60 uAA61 uAA62 uAA63 uAA64 uAA66 uAA67 uAA68 uAA69 uAA6A uAA6B uAA6C uAA6D uAA6E uAA6F
-    uAA71 uAA72 uAA73 u25CC
+    uAA71 uAA72 uAA73 circledash
   </class>
   <class name="c103b" exts=".tri">
     u103B u103B_u103D u103B_u103E u103B_u103D_u103E
