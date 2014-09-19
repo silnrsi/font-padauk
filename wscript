@@ -38,15 +38,15 @@ namestrings = {
     'book' :        ('Padauk Book', 'Regular')
 }
 
-test = fonttest(targets = {
-        'pdfs' : tex(),
-        'test' : tests({
-            'regression' :
-                cmd('cmptxtrender -p -k -e ${shaper} -s "${script}" -L test -L standard -t ${SRC[1]} -o ${TGT} --copy=fonts ${SRC[0]} ${SRC[2]}')}),
-        'xtest' : tests({
-            'cross' :
-                cmd('cmptxtrender -p -k -e ${shaper} -s "${script}" -e ${altshaper} -L shaper -L other -t ${SRC[1]} -o ${TGT} --copy=fonts ${SRC[0]} ${SRC[0]}')}, coverage='shaperpairs')
-    })
+#test = fonttest(targets = {
+#        'pdfs' : tex(),
+#        'test' : tests({
+#            'regression' :
+#                cmd('cmptxtrender -p -k -e ${shaper} -s "${script}" -L test -L standard -t ${SRC[1]} -o ${TGT} --copy=fonts ${SRC[0]} ${SRC[2]}')})
+#        'xtest' : tests({
+#            'cross' :
+#                cmd('cmptxtrender -p -k -e ${shaper} -s "${script}" -e ${altshaper} -L shaper -L other -t ${SRC[1]} -o ${TGT} --copy=fonts ${SRC[0]} ${SRC[0]}')}, coverage='shaperpairs')
+#    })
 # we only want one master.sfd:
 opts = preprocess_args({'opt' : '--no2'})
 
@@ -83,7 +83,7 @@ for f in ['', 'bold', 'book', 'bookbold'] :
                                 master = 'font-source/myanmar5.gdl',
                                 params = '-w3521 -w3530 -q -d -v2', make_params="-m _R",
                                 depends = ['font-source/myfeatures.gdl']),
-                tests = test,
+#                tests = test,
                 script = [scriptcode],
                 extra_srcs = [fsf + '_src.ttf', 'bin/makegdl', 'font-source/myfeatures.gdl'],
                 pdf = fret()
