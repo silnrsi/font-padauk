@@ -6,15 +6,16 @@ UnderlinePosition: -450
 UnderlineWidth: 50
 Ascent: 819
 Descent: 205
+InvalidEm: 0
 LayerCount: 2
-Layer: 0 0 "Back"  1
-Layer: 1 0 "Fore"  0
+Layer: 0 0 "Back" 1
+Layer: 1 0 "Fore" 0
 XUID: [1021 988 686867477 13624295]
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1404948244
-ModificationTime: 1404948244
+ModificationTime: 1411024704
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -47,7 +48,7 @@ OS2StrikeYPos: 262
 OS2Vendor: 'SIL '
 OS2CodePages: 00000001.00000000
 DEI: 91125
-LangName: 1033 "" "Padauk Super" "Normal" "SIL: Padauk Super: 2010" "Padauk Super" "Version 2.9" "PadaukSuper" " " "SIL" "Debbi Hosken" "" "http://scripts.sil.org" "" "Released under the Open Font License." "http://scripts.sil.org/OFL" "" "" "" "Padauk Super" 
+LangName: 1033 "" "Padauk Super" "Normal" "SIL: Padauk Super: 2010" "Padauk Super" "Version 2.9" "PadaukSuper" " " "SIL" "Debbi Hosken" "" "http://scripts.sil.org" "" "Released under the Open Font License." "http://scripts.sil.org/OFL" "" "" "" "Padauk Super"
 Encoding: Custom
 UnicodeInterp: none
 NameList: Adobe Glyph List
@@ -57,7 +58,7 @@ FitToEm: 1
 WinInfo: 175 25 10
 BeginPrivate: 0
 EndPrivate
-BeginChars: 504 504
+BeginChars: 506 506
 
 StartChar: .notdef
 Encoding: 0 -1 0
@@ -82,18 +83,34 @@ SplineSet
 EndSplineSet
 EndChar
 
+StartChar: .null
+Encoding: 1 -1 1
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: nonmarkingreturn
+Encoding: 2 13 2
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
 StartChar: space
-Encoding: 3 32 1
+Encoding: 3 32 3
 Width: 378
 VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: exclam
-Encoding: 4 33 2
+Encoding: 4 33 4
 Width: 229
 VWidth: 0
 GlyphClass: 2
@@ -116,11 +133,11 @@ SplineSet
  80 725 80 743 81 757 c 0
  83 799 97 813 115 813 c 0
 EndSplineSet
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: quotedbl
-Encoding: 5 34 3
+Encoding: 5 34 5
 Width: 403
 VWidth: 0
 GlyphClass: 2
@@ -139,11 +156,11 @@ SplineSet
  61 643 l 0
  156 643 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: numbersign
-Encoding: 6 35 4
+Encoding: 6 35 6
 Width: 516
 VWidth: 0
 GlyphClass: 2
@@ -186,11 +203,11 @@ SplineSet
  309 162 l 0
  324 282 l 0
 EndSplineSet
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: dollar
-Encoding: 7 36 5
+Encoding: 7 36 7
 Width: 498
 VWidth: 0
 GlyphClass: 2
@@ -226,11 +243,11 @@ SplineSet
  273 66 l 0
  343 67 376 90 376 166 c 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: percent
-Encoding: 8 37 6
+Encoding: 8 37 8
 Width: 624
 VWidth: 0
 GlyphClass: 2
@@ -264,11 +281,11 @@ SplineSet
  397 54 430 19 472 19 c 0
  511 19 546 54 546 94 c 0
 EndSplineSet
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: ampersand
-Encoding: 9 38 7
+Encoding: 9 38 9
 Width: 682
 VWidth: 0
 GlyphClass: 2
@@ -304,11 +321,11 @@ SplineSet
  142 141 196 63 274 63 c 0
  328 63 384 74 432 116 c 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: quotesingle
-Encoding: 10 39 8
+Encoding: 10 39 10
 Width: 328
 VWidth: 0
 GlyphClass: 2
@@ -322,11 +339,11 @@ SplineSet
  117 643 l 0
  210 643 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: parenleft
-Encoding: 11 40 9
+Encoding: 11 40 11
 Width: 396
 VWidth: 0
 GlyphClass: 2
@@ -342,11 +359,11 @@ SplineSet
  193 703 126 500 126 210 c 0
  126 -41 188 -262 340 -450 c 0
 EndSplineSet
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: parenright
-Encoding: 12 41 10
+Encoding: 12 41 12
 Width: 396
 VWidth: 0
 GlyphClass: 2
@@ -362,11 +379,11 @@ SplineSet
  106 915 l 0
  258 704 321 494 321 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: asterisk
-Encoding: 13 42 11
+Encoding: 13 42 13
 Width: 564
 VWidth: 0
 GlyphClass: 2
@@ -394,11 +411,11 @@ SplineSet
  337 456 l 0
  509 358 l 0
 EndSplineSet
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: plus
-Encoding: 14 43 12
+Encoding: 14 43 14
 Width: 570
 VWidth: 0
 GlyphClass: 2
@@ -420,11 +437,11 @@ SplineSet
  310 247 l 0
  477 247 l 0
 EndSplineSet
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: comma
-Encoding: 15 44 13
+Encoding: 15 44 15
 Width: 231
 VWidth: 0
 GlyphClass: 2
@@ -442,11 +459,11 @@ SplineSet
  40 101 79 133 116 133 c 0
  154 133 191 105 191 53 c 0
 EndSplineSet
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: hyphen
-Encoding: 16 45 14
+Encoding: 16 45 16
 Width: 495
 VWidth: 0
 GlyphClass: 2
@@ -460,11 +477,11 @@ SplineSet
  55 247 l 0
  439 247 l 0
 EndSplineSet
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: period
-Encoding: 17 46 15
+Encoding: 17 46 17
 Width: 199
 VWidth: 0
 GlyphClass: 2
@@ -478,11 +495,11 @@ SplineSet
  40 73 69 99 100 99 c 0
  131 99 159 73 159 42 c 0
 EndSplineSet
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: slash
-Encoding: 18 47 16
+Encoding: 18 47 18
 Width: 495
 VWidth: 0
 GlyphClass: 2
@@ -496,11 +513,11 @@ SplineSet
  402 813 l 0
  439 775 l 0
 EndSplineSet
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: zero
-Encoding: 19 48 17
+Encoding: 19 48 19
 Width: 498
 VWidth: 0
 GlyphClass: 2
@@ -519,11 +536,11 @@ SplineSet
  130 195 144 61 249 61 c 0
  352 61 367 195 367 334 c 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: one
-Encoding: 20 49 18
+Encoding: 20 49 20
 Width: 498
 VWidth: 0
 GlyphClass: 2
@@ -540,11 +557,11 @@ SplineSet
  337 643 l 0
  337 0 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: two
-Encoding: 21 50 19
+Encoding: 21 50 21
 Width: 498
 VWidth: 0
 GlyphClass: 2
@@ -565,11 +582,11 @@ SplineSet
  442 69 l 0
  442 0 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: three
-Encoding: 22 51 20
+Encoding: 22 51 22
 Width: 498
 VWidth: 0
 GlyphClass: 2
@@ -594,11 +611,11 @@ SplineSet
  447 399 417 363 379 337 c 0
  425 308 456 275 456 171 c 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: four
-Encoding: 23 52 21
+Encoding: 23 52 23
 Width: 498
 VWidth: 0
 GlyphClass: 2
@@ -623,11 +640,11 @@ SplineSet
  97 231 l 0
  309 231 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: five
-Encoding: 24 53 22
+Encoding: 24 53 24
 Width: 498
 VWidth: 0
 GlyphClass: 2
@@ -652,11 +669,11 @@ SplineSet
  177 406 207 427 274 427 c 0
  388 427 450 325 450 210 c 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: six
-Encoding: 25 54 23
+Encoding: 25 54 25
 Width: 498
 VWidth: 0
 GlyphClass: 2
@@ -680,11 +697,11 @@ SplineSet
  139 105 171 55 253 55 c 0
  334 55 366 105 366 192 c 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: seven
-Encoding: 26 55 24
+Encoding: 26 55 26
 Width: 498
 VWidth: 0
 GlyphClass: 2
@@ -701,11 +718,11 @@ SplineSet
  447 643 l 0
  447 553 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: eight
-Encoding: 27 56 25
+Encoding: 27 56 27
 Width: 498
 VWidth: 0
 GlyphClass: 2
@@ -733,11 +750,11 @@ SplineSet
  123 111 160 57 249 57 c 0
  340 57 373 111 373 183 c 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: nine
-Encoding: 28 57 26
+Encoding: 28 57 28
 Width: 498
 VWidth: 0
 GlyphClass: 2
@@ -761,11 +778,11 @@ SplineSet
  132 363 162 313 244 313 c 0
  327 313 357 363 357 450 c 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: colon
-Encoding: 29 58 27
+Encoding: 29 58 29
 Width: 199
 VWidth: 0
 GlyphClass: 2
@@ -784,11 +801,11 @@ SplineSet
  40 75 69 100 100 100 c 0
  131 100 159 75 159 43 c 0
 EndSplineSet
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: semicolon
-Encoding: 30 59 28
+Encoding: 30 59 30
 Width: 207
 VWidth: 0
 GlyphClass: 2
@@ -811,11 +828,11 @@ SplineSet
  40 72 69 99 97 99 c 0
  129 99 160 72 160 33 c 0
 EndSplineSet
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: less
-Encoding: 31 60 29
+Encoding: 31 60 31
 Width: 891
 VWidth: 0
 GlyphClass: 2
@@ -832,11 +849,11 @@ SplineSet
  235 267 l 0
  712 90 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: equal
-Encoding: 32 61 30
+Encoding: 32 61 32
 Width: 576
 VWidth: 0
 GlyphClass: 2
@@ -855,11 +872,11 @@ SplineSet
  55 333 l 0
  520 333 l 0
 EndSplineSet
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: greater
-Encoding: 33 62 31
+Encoding: 33 62 33
 Width: 891
 VWidth: 0
 GlyphClass: 2
@@ -876,11 +893,11 @@ SplineSet
  178 499 l 0
  712 295 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: question
-Encoding: 34 63 32
+Encoding: 34 63 34
 Width: 446
 VWidth: 0
 GlyphClass: 2
@@ -907,11 +924,11 @@ SplineSet
  35 637 78 773 213 773 c 0
  321 773 391 685 391 590 c 0
 EndSplineSet
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: at
-Encoding: 35 64 33
+Encoding: 35 64 35
 Width: 891
 VWidth: 0
 GlyphClass: 2
@@ -946,11 +963,11 @@ SplineSet
  333 162 351 84 430 84 c 0
  496 84 528 160 528 237 c 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: A
-Encoding: 36 65 34
+Encoding: 36 65 36
 Width: 667
 VWidth: 0
 GlyphClass: 2
@@ -972,11 +989,11 @@ SplineSet
  210 247 l 0
  453 247 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: B
-Encoding: 37 66 35
+Encoding: 37 66 37
 Width: 600
 VWidth: 0
 GlyphClass: 2
@@ -1005,11 +1022,11 @@ SplineSet
  301 78 l 0
  394 78 459 123 459 189 c 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: C
-Encoding: 38 67 36
+Encoding: 38 67 38
 Width: 606
 VWidth: 0
 GlyphClass: 2
@@ -1029,11 +1046,11 @@ SplineSet
  399 58 462 88 462 171 c 0
  552 171 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: D
-Encoding: 39 68 37
+Encoding: 39 68 39
 Width: 640
 VWidth: 0
 GlyphClass: 2
@@ -1054,11 +1071,11 @@ SplineSet
  273 78 l 0
  412 78 499 166 499 322 c 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: E
-Encoding: 40 69 38
+Encoding: 40 69 40
 Width: 540
 VWidth: 0
 GlyphClass: 2
@@ -1080,11 +1097,11 @@ SplineSet
  478 78 l 0
  478 0 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: F
-Encoding: 41 70 39
+Encoding: 41 70 41
 Width: 507
 VWidth: 0
 GlyphClass: 2
@@ -1104,11 +1121,11 @@ SplineSet
  427 367 l 0
  427 291 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: G
-Encoding: 42 71 40
+Encoding: 42 71 42
 Width: 678
 VWidth: 0
 GlyphClass: 2
@@ -1132,11 +1149,11 @@ SplineSet
  606 343 l 0
  606 31 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: H
-Encoding: 43 72 41
+Encoding: 43 72 43
 Width: 631
 VWidth: 0
 GlyphClass: 2
@@ -1158,11 +1175,11 @@ SplineSet
  561 643 l 0
  561 0 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: I
-Encoding: 44 73 42
+Encoding: 44 73 44
 Width: 232
 VWidth: 0
 GlyphClass: 2
@@ -1178,11 +1195,11 @@ SplineSet
  160 643 l 0
  160 0 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: J
-Encoding: 45 74 43
+Encoding: 45 74 45
 Width: 507
 VWidth: 0
 GlyphClass: 2
@@ -1200,11 +1217,11 @@ SplineSet
  435 643 l 0
  435 192 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: K
-Encoding: 46 75 44
+Encoding: 46 75 46
 Width: 592
 VWidth: 0
 GlyphClass: 2
@@ -1225,11 +1242,11 @@ SplineSet
  264 366 l 0
  570 0 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: L
-Encoding: 47 76 45
+Encoding: 47 76 47
 Width: 471
 VWidth: 0
 GlyphClass: 2
@@ -1245,11 +1262,11 @@ SplineSet
  445 78 l 0
  445 0 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: M
-Encoding: 48 77 46
+Encoding: 48 77 48
 Width: 799
 VWidth: 0
 GlyphClass: 2
@@ -1272,11 +1289,11 @@ SplineSet
  727 643 l 0
  727 0 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: N
-Encoding: 49 78 47
+Encoding: 49 78 49
 Width: 643
 VWidth: 0
 GlyphClass: 2
@@ -1296,11 +1313,11 @@ SplineSet
  573 643 l 0
  573 0 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: O
-Encoding: 50 79 48
+Encoding: 50 79 50
 Width: 688
 VWidth: 0
 GlyphClass: 2
@@ -1321,11 +1338,11 @@ SplineSet
  145 199 189 66 345 66 c 0
  501 66 543 199 543 334 c 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: P
-Encoding: 51 80 49
+Encoding: 51 80 51
 Width: 555
 VWidth: 0
 GlyphClass: 2
@@ -1348,11 +1365,11 @@ SplineSet
  256 351 l 0
  363 351 415 378 415 457 c 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: Q
-Encoding: 52 81 50
+Encoding: 52 81 52
 Width: 699
 VWidth: 0
 GlyphClass: 2
@@ -1375,11 +1392,11 @@ SplineSet
  145 199 189 66 345 66 c 0
  501 66 543 199 543 334 c 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: R
-Encoding: 53 82 51
+Encoding: 53 82 53
 Width: 561
 VWidth: 0
 GlyphClass: 2
@@ -1407,11 +1424,11 @@ SplineSet
  273 369 l 0
  360 369 417 393 417 466 c 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: S
-Encoding: 54 83 52
+Encoding: 54 83 54
 Width: 589
 VWidth: 0
 GlyphClass: 2
@@ -1433,11 +1450,11 @@ SplineSet
  205 577 151 553 151 477 c 0
  151 310 535 441 535 178 c 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: T
-Encoding: 55 84 53
+Encoding: 55 84 55
 Width: 546
 VWidth: 0
 GlyphClass: 2
@@ -1455,11 +1472,11 @@ SplineSet
  528 643 l 0
  528 565 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: U
-Encoding: 56 85 54
+Encoding: 56 85 56
 Width: 655
 VWidth: 0
 GlyphClass: 2
@@ -1479,11 +1496,11 @@ SplineSet
  585 643 l 0
  585 286 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: V
-Encoding: 57 86 55
+Encoding: 57 86 57
 Width: 582
 VWidth: 0
 GlyphClass: 2
@@ -1500,11 +1517,11 @@ SplineSet
  468 643 l 0
  568 643 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: W
-Encoding: 58 87 56
+Encoding: 58 87 58
 Width: 865
 VWidth: 0
 GlyphClass: 2
@@ -1527,11 +1544,11 @@ SplineSet
  757 643 l 0
  852 643 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: X
-Encoding: 59 88 57
+Encoding: 59 88 59
 Width: 627
 VWidth: 0
 GlyphClass: 2
@@ -1553,11 +1570,11 @@ SplineSet
  367 343 l 0
  604 0 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: Y
-Encoding: 60 89 58
+Encoding: 60 89 60
 Width: 594
 VWidth: 0
 GlyphClass: 2
@@ -1576,11 +1593,11 @@ SplineSet
  478 643 l 0
  579 643 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: Z
-Encoding: 61 90 59
+Encoding: 61 90 61
 Width: 549
 VWidth: 0
 GlyphClass: 2
@@ -1600,11 +1617,11 @@ SplineSet
  508 78 l 0
  508 0 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: bracketleft
-Encoding: 62 91 60
+Encoding: 62 91 62
 Width: 352
 VWidth: 0
 GlyphClass: 2
@@ -1622,11 +1639,11 @@ SplineSet
  259 -132 l 0
  259 -177 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: backslash
-Encoding: 63 92 61
+Encoding: 63 92 63
 Width: 495
 VWidth: 0
 GlyphClass: 2
@@ -1640,11 +1657,11 @@ SplineSet
  93 813 l 0
  439 -174 l 0
 EndSplineSet
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: bracketright
-Encoding: 64 93 62
+Encoding: 64 93 64
 Width: 352
 VWidth: 0
 GlyphClass: 2
@@ -1662,11 +1679,11 @@ SplineSet
  259 643 l 0
  259 -177 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: asciicircum
-Encoding: 65 94 63
+Encoding: 65 94 65
 Width: 453
 VWidth: 0
 GlyphClass: 4
@@ -1682,11 +1699,11 @@ SplineSet
  226 867 l 0
  453 640 l 0
 EndSplineSet
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: underscore
-Encoding: 66 95 64
+Encoding: 66 95 66
 Width: 576
 VWidth: 0
 GlyphClass: 4
@@ -1700,11 +1717,11 @@ SplineSet
  576 -86 l 0
  576 -137 l 0
 EndSplineSet
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: grave
-Encoding: 67 96 65
+Encoding: 67 96 67
 Width: 204
 VWidth: 0
 GlyphClass: 4
@@ -1718,11 +1735,11 @@ SplineSet
  67 687 l 0
  156 534 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: a
-Encoding: 68 97 66
+Encoding: 68 97 68
 Width: 492
 VWidth: 0
 GlyphClass: 4
@@ -1752,11 +1769,11 @@ SplineSet
  126 78 166 48 214 48 c 0
  325 48 345 126 345 219 c 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: b
-Encoding: 69 98 67
+Encoding: 69 98 69
 Width: 525
 VWidth: 0
 GlyphClass: 4
@@ -1780,11 +1797,11 @@ SplineSet
  141 112 184 48 268 48 c 0
  339 48 394 117 394 232 c 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: c
-Encoding: 70 99 68
+Encoding: 70 99 70
 Width: 463
 VWidth: 0
 GlyphClass: 4
@@ -1806,11 +1823,11 @@ SplineSet
  318 48 340 111 340 150 c 0
  420 150 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: d
-Encoding: 71 100 69
+Encoding: 71 100 71
 Width: 526
 VWidth: 0
 GlyphClass: 4
@@ -1834,11 +1851,11 @@ SplineSet
  126 132 177 52 255 52 c 0
  343 52 381 144 381 219 c 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: e
-Encoding: 72 101 70
+Encoding: 72 101 72
 Width: 496
 VWidth: 0
 GlyphClass: 4
@@ -1862,11 +1879,11 @@ SplineSet
  162 400 138 319 130 268 c 0
  363 268 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: f
-Encoding: 73 102 71
+Encoding: 73 102 73
 Width: 294
 VWidth: 0
 GlyphClass: 4
@@ -1892,11 +1909,11 @@ SplineSet
  251 651 272 649 294 643 c 0
  294 577 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: g
-Encoding: 74 103 72
+Encoding: 74 103 74
 Width: 525
 VWidth: 0
 GlyphClass: 4
@@ -1923,11 +1940,11 @@ SplineSet
  127 136 169 69 252 69 c 0
  346 69 381 150 381 235 c 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: h
-Encoding: 75 104 73
+Encoding: 75 104 75
 Width: 510
 VWidth: 0
 GlyphClass: 4
@@ -1949,11 +1966,11 @@ SplineSet
  400 456 448 400 448 276 c 0
  448 0 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: i
-Encoding: 76 105 74
+Encoding: 76 105 76
 Width: 204
 VWidth: 0
 GlyphClass: 4
@@ -1972,11 +1989,11 @@ SplineSet
  142 445 l 0
  142 0 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: j
-Encoding: 77 106 75
+Encoding: 77 106 77
 Width: 256
 VWidth: 0
 GlyphClass: 4
@@ -1999,11 +2016,11 @@ SplineSet
  193 445 l 0
  193 -72 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: k
-Encoding: 78 107 76
+Encoding: 78 107 78
 Width: 444
 VWidth: 0
 GlyphClass: 4
@@ -2024,11 +2041,11 @@ SplineSet
  234 252 l 0
  426 0 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: l
-Encoding: 79 108 77
+Encoding: 79 108 79
 Width: 204
 VWidth: 0
 GlyphClass: 4
@@ -2042,11 +2059,11 @@ SplineSet
  142 643 l 0
  142 0 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: m
-Encoding: 80 109 78
+Encoding: 80 109 80
 Width: 798
 VWidth: 0
 GlyphClass: 4
@@ -2075,11 +2092,11 @@ SplineSet
  715 456 736 360 736 288 c 0
  736 0 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: n
-Encoding: 81 110 79
+Encoding: 81 110 81
 Width: 511
 VWidth: 0
 GlyphClass: 4
@@ -2101,11 +2118,11 @@ SplineSet
  405 456 448 387 448 292 c 0
  448 0 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: o
-Encoding: 82 111 80
+Encoding: 82 111 82
 Width: 526
 VWidth: 0
 GlyphClass: 4
@@ -2126,11 +2143,11 @@ SplineSet
  127 138 168 46 264 46 c 0
  357 46 399 138 399 222 c 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: p
-Encoding: 83 112 81
+Encoding: 83 112 83
 Width: 534
 VWidth: 0
 GlyphClass: 4
@@ -2154,11 +2171,11 @@ SplineSet
  142 130 178 45 273 45 c 0
  366 45 403 130 403 222 c 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: q
-Encoding: 84 113 82
+Encoding: 84 113 84
 Width: 534
 VWidth: 0
 GlyphClass: 4
@@ -2182,11 +2199,11 @@ SplineSet
  129 130 166 45 261 45 c 0
  354 45 391 130 391 222 c 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: r
-Encoding: 85 114 83
+Encoding: 85 114 85
 Width: 322
 VWidth: 0
 GlyphClass: 4
@@ -2204,11 +2221,11 @@ SplineSet
  165 423 192 445 306 445 c 0
  306 373 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: s
-Encoding: 86 115 84
+Encoding: 86 115 86
 Width: 448
 VWidth: 0
 GlyphClass: 4
@@ -2230,11 +2247,11 @@ SplineSet
  175 400 136 373 136 334 c 0
  136 220 403 307 403 130 c 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: t
-Encoding: 87 116 85
+Encoding: 87 116 87
 Width: 312
 VWidth: 0
 GlyphClass: 4
@@ -2260,11 +2277,11 @@ SplineSet
  253 49 270 52 285 57 c 0
  285 0 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: u
-Encoding: 88 117 86
+Encoding: 88 117 88
 Width: 510
 VWidth: 0
 GlyphClass: 4
@@ -2286,11 +2303,11 @@ SplineSet
  448 445 l 0
  448 0 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: v
-Encoding: 89 118 87
+Encoding: 89 118 89
 Width: 477
 VWidth: 0
 GlyphClass: 4
@@ -2307,11 +2324,11 @@ SplineSet
  378 445 l 0
  463 445 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: w
-Encoding: 90 119 88
+Encoding: 90 119 90
 Width: 724
 VWidth: 0
 GlyphClass: 4
@@ -2334,11 +2351,11 @@ SplineSet
  627 445 l 0
  711 445 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: x
-Encoding: 91 120 89
+Encoding: 91 120 91
 Width: 487
 VWidth: 0
 GlyphClass: 4
@@ -2361,11 +2378,11 @@ SplineSet
  292 231 l 0
  469 0 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: y
-Encoding: 92 121 90
+Encoding: 92 121 92
 Width: 477
 VWidth: 0
 GlyphClass: 4
@@ -2387,11 +2404,11 @@ SplineSet
  376 445 l 0
  463 445 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: z
-Encoding: 93 122 91
+Encoding: 93 122 93
 Width: 417
 VWidth: 0
 GlyphClass: 4
@@ -2411,11 +2428,11 @@ SplineSet
  372 61 l 0
  372 0 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: braceleft
-Encoding: 94 123 92
+Encoding: 94 123 94
 Width: 406
 VWidth: 0
 GlyphClass: 4
@@ -2435,11 +2452,11 @@ SplineSet
  231 -230 247 -393 351 -393 c 0
  351 -443 l 0
 EndSplineSet
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: bar
-Encoding: 95 124 93
+Encoding: 95 124 95
 Width: 307
 VWidth: 0
 GlyphClass: 4
@@ -2453,11 +2470,11 @@ SplineSet
  177 709 l 0
  177 -230 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: braceright
-Encoding: 96 125 94
+Encoding: 96 125 96
 Width: 406
 VWidth: 0
 GlyphClass: 4
@@ -2477,11 +2494,11 @@ SplineSet
  216 892 226 676 226 403 c 0
  226 301 336 270 336 225 c 0
 EndSplineSet
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: asciitilde
-Encoding: 97 126 95
+Encoding: 97 126 97
 Width: 562
 VWidth: 0
 GlyphClass: 4
@@ -2499,11 +2516,11 @@ SplineSet
  407 219 432 230 481 268 c 0
  507 238 l 0
 EndSplineSet
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: multiply
-Encoding: 98 215 96
+Encoding: 98 215 98
 Width: 495
 VWidth: 0
 GlyphClass: 4
@@ -2525,11 +2542,11 @@ SplineSet
  283 222 l 0
  400 105 l 0
 EndSplineSet
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1000
-Encoding: 99 4096 97
+Encoding: 99 4096 99
 Width: 1002
 VWidth: 0
 GlyphClass: 2
@@ -2560,11 +2577,11 @@ SplineSet
  549 396 625 459 714 459 c 0
  840 459 946 351 946 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1000.med
-Encoding: 100 -1 98
+Encoding: 100 -1 100
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -2595,11 +2612,11 @@ SplineSet
  -362 -132 -303 -86 -236 -86 c 0
  -138 -86 -56 -165 -56 -267 c 0
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1000_u1001_u103B
-Encoding: 101 -1 99
+Encoding: 101 -1 101
 Width: 1147
 VWidth: 0
 GlyphClass: 2
@@ -2650,11 +2667,11 @@ SplineSet
  604 -369 661 -395 714 -395 c 0
  739 -395 765 -387 787 -377 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1000_u103B_u1015_u103A
-Encoding: 102 -1 100
+Encoding: 102 -1 102
 Width: 1716
 VWidth: 0
 GlyphClass: 2
@@ -2711,11 +2728,11 @@ SplineSet
  1330 828 1417 903 1509 903 c 0
  1569 903 1623 873 1645 826 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1001
-Encoding: 103 4097 101
+Encoding: 103 4097 103
 Width: 576
 VWidth: 0
 GlyphClass: 2
@@ -2740,11 +2757,11 @@ SplineSet
  151 66 215 36 283 36 c 0
  318 36 346 44 374 59 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1001.med
-Encoding: 104 -1 102
+Encoding: 104 -1 104
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -2771,11 +2788,11 @@ SplineSet
  -347 -384 -290 -410 -237 -410 c 0
  -212 -410 -186 -402 -164 -392 c 0
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1002
-Encoding: 105 4098 103
+Encoding: 105 4098 105
 Width: 585
 VWidth: 0
 GlyphClass: 2
@@ -2797,11 +2814,11 @@ SplineSet
  55 355 162 457 292 457 c 0
  423 457 529 355 529 202 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1002.med
-Encoding: 106 -1 104
+Encoding: 106 -1 106
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -2823,11 +2840,11 @@ SplineSet
  -422 -167 -341 -86 -239 -86 c 0
  -137 -86 -56 -167 -56 -282 c 0
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1003
-Encoding: 107 4099 105
+Encoding: 107 4099 107
 Width: 999
 VWidth: 0
 GlyphClass: 2
@@ -2860,11 +2877,11 @@ SplineSet
  663 454 687 459 711 459 c 0
  837 459 943 351 943 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1003.med
-Encoding: 108 -1 106
+Encoding: 108 -1 108
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -2899,11 +2916,11 @@ SplineSet
  -272 -87 -254 -86 -234 -86 c 0
  -137 -86 -56 -165 -56 -267 c 0
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1004
-Encoding: 109 4100 107
+Encoding: 109 4100 109
 Width: 568
 VWidth: 0
 GlyphClass: 2
@@ -2923,11 +2940,11 @@ SplineSet
  363 36 432 76 469 147 c 0
  513 121 l 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1004.med
-Encoding: 110 -1 108
+Encoding: 110 -1 110
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -2947,11 +2964,11 @@ SplineSet
  -161 -410 -108 -380 -80 -325 c 0
  -46 -345 l 0
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1004.kinzi
-Encoding: 111 -1 109
+Encoding: 111 -1 111
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -2980,11 +2997,11 @@ SplineSet
  -66 573 -50 585 -33 604 c 0
  0 586 l 0
 EndSplineSet
-Comment: "GDL_order: 8+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 8+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1004.kinzi_u102D
-Encoding: 112 -1 110
+Encoding: 112 -1 112
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -3021,11 +3038,11 @@ SplineSet
  -461 573 -445 585 -428 604 c 0
  -395 586 l 0
 EndSplineSet
-Comment: "GDL_order: 8+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 8+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1004.kinzi_u102E
-Encoding: 113 -1 111
+Encoding: 113 -1 113
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -3069,11 +3086,11 @@ SplineSet
  -461 573 -445 585 -428 604 c 0
  -395 586 l 0
 EndSplineSet
-Comment: "GDL_order: 8+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 8+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1004.kinzi_u1032
-Encoding: 114 -1 112
+Encoding: 114 -1 114
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -3105,11 +3122,11 @@ SplineSet
  -461 573 -445 585 -428 604 c 0
  -395 586 l 0
 EndSplineSet
-Comment: "GDL_order: 8+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 8+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1004.kinzi_u1033
-Encoding: 115 -1 113
+Encoding: 115 -1 115
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -3156,11 +3173,11 @@ SplineSet
  -461 573 -445 585 -428 604 c 0
  -395 586 l 0
 EndSplineSet
-Comment: "GDL_order: 8+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 8+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1004.kinzi_u1036
-Encoding: 116 -1 114
+Encoding: 116 -1 116
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -3197,11 +3214,11 @@ SplineSet
  -231 573 -215 585 -198 604 c 0
  -165 586 l 0
 EndSplineSet
-Comment: "GDL_order: 10+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 10+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1004.kinzi_u103A
-Encoding: 117 -1 115
+Encoding: 117 -1 117
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -3237,11 +3254,11 @@ SplineSet
  -461 573 -445 585 -428 604 c 0
  -395 586 l 0
 EndSplineSet
-Comment: "GDL_order: 8+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 8+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1004.kinzi_u102D_u1036
-Encoding: 118 -1 116
+Encoding: 118 -1 118
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -3288,11 +3305,11 @@ SplineSet
  -626 573 -610 585 -593 604 c 0
  -560 586 l 0
 EndSplineSet
-Comment: "GDL_order: 8+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 8+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1005
-Encoding: 119 4101 117
+Encoding: 119 4101 119
 Width: 576
 VWidth: 0
 GlyphClass: 2
@@ -3318,11 +3335,11 @@ SplineSet
  106 163 131 111 174 78 c 0
  226 130 241 187 241 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1005.med
-Encoding: 120 -1 118
+Encoding: 120 -1 120
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -3348,11 +3365,11 @@ SplineSet
  -374 -314 -353 -357 -318 -380 c 0
  -278 -339 -266 -296 -266 -267 c 0
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1006
-Encoding: 121 4102 119
+Encoding: 121 4102 121
 Width: 990
 VWidth: 0
 GlyphClass: 2
@@ -3386,11 +3403,11 @@ SplineSet
  151 63 215 36 283 36 c 0
  318 36 345 45 373 58 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1006.med
-Encoding: 122 -1 120
+Encoding: 122 -1 122
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -3424,11 +3441,11 @@ SplineSet
  -666 -385 -609 -410 -557 -410 c 0
  -531 -410 -506 -402 -483 -392 c 0
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1007
-Encoding: 123 4103 121
+Encoding: 123 4103 123
 Width: 609
 VWidth: 0
 GlyphClass: 2
@@ -3459,11 +3476,11 @@ SplineSet
  310 217 333 204 361 204 c 0
  393 204 432 217 436 261 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1007.med
-Encoding: 124 -1 122
+Encoding: 124 -1 124
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -3494,11 +3511,11 @@ SplineSet
  -255 -270 -239 -281 -216 -281 c 0
  -192 -281 -164 -269 -159 -237 c 0
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1008
-Encoding: 125 4104 123
+Encoding: 125 4104 125
 Width: 721
 VWidth: 0
 GlyphClass: 2
@@ -3534,11 +3551,11 @@ SplineSet
  106 163 132 112 172 78 c 0
  226 130 241 187 241 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1008.med
-Encoding: 126 -1 124
+Encoding: 126 -1 126
 Width: 162
 VWidth: 0
 GlyphClass: 2
@@ -3572,11 +3589,11 @@ SplineSet
  -357 -299 -336 -342 -302 -365 c 0
  -261 -324 -249 -278 -249 -252 c 0
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1009
-Encoding: 127 4105 125
+Encoding: 127 4105 127
 Width: 568
 VWidth: 0
 GlyphClass: 2
@@ -3610,11 +3627,11 @@ SplineSet
  868 -302 l 0
  919 -302 l 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1009_u102C
-Encoding: 128 -1 126
+Encoding: 128 -1 128
 Width: 990
 VWidth: 0
 GlyphClass: 2
@@ -3658,11 +3675,11 @@ SplineSet
  535 397 613 459 702 459 c 0
  828 459 934 351 934 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u100A
-Encoding: 129 4106 127
+Encoding: 129 4106 129
 Width: 990
 VWidth: 0
 GlyphClass: 2
@@ -3705,11 +3722,11 @@ SplineSet
  654 452 681 459 702 459 c 0
  828 459 934 351 934 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u100A.alt
-Encoding: 130 -1 128
+Encoding: 130 -1 130
 Width: 990
 VWidth: 0
 GlyphClass: 2
@@ -3747,11 +3764,11 @@ SplineSet
  654 452 681 459 702 459 c 0
  828 459 934 351 934 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u100A.med
-Encoding: 131 -1 129
+Encoding: 131 -1 131
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -3790,11 +3807,11 @@ SplineSet
  -250 -91 -219 -84 -203 -84 c 0
  -116 -84 -55 -137 -55 -226 c 0
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u100A_u100A
-Encoding: 132 -1 130
+Encoding: 132 -1 132
 Width: 1410
 VWidth: 0
 GlyphClass: 2
@@ -3846,11 +3863,11 @@ SplineSet
  1075 452 1102 459 1123 459 c 0
  1249 459 1355 351 1355 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u100B
-Encoding: 133 4107 131
+Encoding: 133 4107 133
 Width: 568
 VWidth: 0
 GlyphClass: 2
@@ -3891,11 +3908,11 @@ SplineSet
  538 -395 573 -380 583 -374 c 0
  597 -423 l 0xfb
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u100B.alt
-Encoding: 134 -1 132
+Encoding: 134 -1 134
 Width: 568
 VWidth: 0
 GlyphClass: 2
@@ -3926,11 +3943,11 @@ SplineSet
  574 -399 l 0
  574 -450 l 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u100B.med
-Encoding: 135 -1 133
+Encoding: 135 -1 135
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -3954,11 +3971,11 @@ SplineSet
  -26 -411 l 0
  -26 -450 l 0
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u100B_u100B
-Encoding: 136 -1 134
+Encoding: 136 -1 136
 Width: 568
 VWidth: 0
 GlyphClass: 2
@@ -4004,11 +4021,11 @@ SplineSet
  397 -411 l 0
  397 -450 l 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u100B_u100C
-Encoding: 137 -1 135
+Encoding: 137 -1 137
 Width: 556
 VWidth: 0
 GlyphClass: 2
@@ -4051,11 +4068,11 @@ SplineSet
  363 36 432 76 469 147 c 0
  513 121 l 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u100C
-Encoding: 138 4108 136
+Encoding: 138 4108 138
 Width: 568
 VWidth: 0
 GlyphClass: 2
@@ -4090,11 +4107,11 @@ SplineSet
  363 36 432 76 469 147 c 0
  513 121 l 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u100C.med
-Encoding: 139 -1 137
+Encoding: 139 -1 139
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -4131,11 +4148,11 @@ SplineSet
  -420 -180 -339 -99 -238 -99 c 0
  -136 -99 -55 -180 -55 -281 c 0xbe
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u100D
-Encoding: 140 4109 138
+Encoding: 140 4109 140
 Width: 568
 VWidth: 0
 GlyphClass: 2
@@ -4166,11 +4183,11 @@ SplineSet
  547 -399 l 0
  547 -450 l 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u100D.med
-Encoding: 141 -1 139
+Encoding: 141 -1 141
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -4200,11 +4217,11 @@ SplineSet
  -55 -410 l 0
  -55 -440 l 0
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u100D_u100D
-Encoding: 142 -1 140
+Encoding: 142 -1 142
 Width: 568
 VWidth: 0
 GlyphClass: 2
@@ -4256,11 +4273,11 @@ SplineSet
  382 -420 l 0
  382 -450 l 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u100D_u100E
-Encoding: 143 -1 141
+Encoding: 143 -1 143
 Width: 577
 VWidth: 0
 GlyphClass: 2
@@ -4300,11 +4317,11 @@ SplineSet
  424 457 l 0
  483 411 522 349 522 240 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u100E
-Encoding: 144 4110 142
+Encoding: 144 4110 144
 Width: 577
 VWidth: 0
 GlyphClass: 2
@@ -4328,11 +4345,11 @@ SplineSet
  424 457 l 0
  483 411 522 349 522 240 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u100E.med
-Encoding: 145 -1 143
+Encoding: 145 -1 145
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -4356,11 +4373,11 @@ SplineSet
  -130 -86 l 0
  -84 -128 -56 -170 -56 -254 c 0
 EndSplineSet
-Comment: "GDL_order: 5+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 5+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u100F
-Encoding: 146 4111 144
+Encoding: 146 4111 146
 Width: 1032
 VWidth: 0
 GlyphClass: 2
@@ -4403,11 +4420,11 @@ SplineSet
  580 138 558 190 558 222 c 0
  558 282 573 337 603 381 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u100F.med
-Encoding: 147 -1 145
+Encoding: 147 -1 147
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -4450,11 +4467,11 @@ SplineSet
  -360 -330 -378 -293 -378 -267 c 0
  -378 -219 -366 -179 -342 -146 c 0
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u100F_u100B
-Encoding: 148 -1 146
+Encoding: 148 -1 148
 Width: 1032
 VWidth: 0
 GlyphClass: 2
@@ -4512,11 +4529,11 @@ SplineSet
  580 138 558 190 558 222 c 0
  558 282 573 337 603 381 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u100F_u100D
-Encoding: 149 -1 147
+Encoding: 149 -1 149
 Width: 1032
 VWidth: 0
 GlyphClass: 2
@@ -4581,11 +4598,11 @@ SplineSet
  580 138 558 190 558 222 c 0
  558 282 573 337 603 381 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1010
-Encoding: 150 4112 148
+Encoding: 150 4112 150
 Width: 997
 VWidth: 0
 GlyphClass: 2
@@ -4613,11 +4630,11 @@ SplineSet
  106 120 187 36 286 36 c 0
  394 36 469 127 469 217 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1010.med
-Encoding: 151 -1 149
+Encoding: 151 -1 151
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -4645,11 +4662,11 @@ SplineSet
  -684 -345 -622 -410 -544 -410 c 0
  -460 -410 -405 -339 -405 -270 c 0
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1010_u103D.med
-Encoding: 152 -1 150
+Encoding: 152 -1 152
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -4687,11 +4704,11 @@ SplineSet
  -376 -185 -346 -218 -312 -218 c 0
  -277 -218 -244 -186 -244 -152 c 0
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1011
-Encoding: 153 4113 151
+Encoding: 153 4113 153
 Width: 990
 VWidth: 0
 GlyphClass: 2
@@ -4719,11 +4736,11 @@ SplineSet
  106 120 187 36 286 36 c 0
  388 36 469 120 469 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1011.med
-Encoding: 154 -1 152
+Encoding: 154 -1 154
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -4751,11 +4768,11 @@ SplineSet
  -695 -345 -632 -410 -554 -410 c 0
  -477 -410 -414 -345 -414 -267 c 0
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1012
-Encoding: 155 4114 153
+Encoding: 155 4114 155
 Width: 534
 VWidth: 0
 GlyphClass: 2
@@ -4780,11 +4797,11 @@ SplineSet
  478 274 447 232 394 222 c 0
  447 211 478 169 478 123 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1012.med
-Encoding: 156 -1 154
+Encoding: 156 -1 156
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -4809,11 +4826,11 @@ SplineSet
  -62 -227 -87 -260 -128 -267 c 0
  -87 -273 -62 -308 -62 -344 c 0
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1013
-Encoding: 157 4115 155
+Encoding: 157 4115 157
 Width: 576
 VWidth: 0
 GlyphClass: 2
@@ -4839,11 +4856,11 @@ SplineSet
  180 62 230 36 286 36 c 0
  345 36 397 64 430 108 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1013.med
-Encoding: 158 -1 156
+Encoding: 158 -1 158
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -4869,11 +4886,11 @@ SplineSet
  -320 -386 -287 -410 -234 -410 c 0
  -182 -410 -147 -386 -122 -351 c 0
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1014
-Encoding: 159 4116 157
+Encoding: 159 4116 159
 Width: 530
 VWidth: 0
 GlyphClass: 2
@@ -4905,11 +4922,11 @@ SplineSet
  106 41 180 36 238 36 c 0
  277 36 l 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1014.alt
-Encoding: 160 -1 158
+Encoding: 160 -1 160
 Width: 529
 VWidth: 0
 GlyphClass: 2
@@ -4940,11 +4957,11 @@ SplineSet
  107 41 180 36 237 36 c 0
  276 36 317 36 353 48 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1014.med
-Encoding: 161 -1 159
+Encoding: 161 -1 161
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -4975,11 +4992,11 @@ SplineSet
  -339 -407 -283 -411 -237 -411 c 0
  -211 -411 -187 -411 -148 -401 c 0
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1014_u1010_u103B
-Encoding: 162 -1 160
+Encoding: 162 -1 162
 Width: 909
 VWidth: 0
 GlyphClass: 2
@@ -5035,11 +5052,11 @@ SplineSet
  204 41 277 36 334 36 c 0
  373 36 414 36 450 48 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1014_u1010_u103C
-Encoding: 163 -1 161
+Encoding: 163 -1 163
 Width: 753
 VWidth: 0
 GlyphClass: 2
@@ -5116,11 +5133,11 @@ SplineSet
  231 41 304 36 361 36 c 0
  400 36 441 36 477 48 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1015
-Encoding: 164 4117 162
+Encoding: 164 4117 164
 Width: 584
 VWidth: 0
 GlyphClass: 2
@@ -5140,11 +5157,11 @@ SplineSet
  432 457 l 0
  491 410 529 349 529 240 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1015.med
-Encoding: 165 -1 163
+Encoding: 165 -1 165
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -5164,11 +5181,11 @@ SplineSet
  -131 -86 l 0
  -87 -122 -56 -170 -56 -254 c 0
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1016
-Encoding: 166 4118 164
+Encoding: 166 4118 166
 Width: 585
 VWidth: 0
 GlyphClass: 2
@@ -5193,11 +5210,11 @@ SplineSet
  370 200 394 153 442 117 c 0
  465 149 478 192 478 240 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1016.med
-Encoding: 167 -1 165
+Encoding: 167 -1 167
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -5222,11 +5239,11 @@ SplineSet
  -183 -286 -163 -327 -128 -356 c 0
  -111 -331 -96 -309 -96 -254 c 0
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1017
-Encoding: 168 4119 166
+Encoding: 168 4119 168
 Width: 585
 VWidth: 0
 GlyphClass: 2
@@ -5249,11 +5266,11 @@ SplineSet
  106 120 192 36 292 36 c 0
  392 36 478 120 478 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1017.med
-Encoding: 169 -1 167
+Encoding: 169 -1 169
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -5276,11 +5293,11 @@ SplineSet
  -381 -345 -317 -411 -239 -411 c 0
  -162 -411 -96 -345 -96 -267 c 0
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1018
-Encoding: 170 4120 168
+Encoding: 170 4120 170
 Width: 986
 VWidth: 0
 GlyphClass: 2
@@ -5309,11 +5326,11 @@ SplineSet
  534 397 610 459 699 459 c 0
  825 459 931 351 931 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1018.med
-Encoding: 171 -1 169
+Encoding: 171 -1 171
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -5342,11 +5359,11 @@ SplineSet
  -358 -131 -303 -84 -236 -84 c 0
  -136 -84 -56 -166 -56 -267 c 0
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1019
-Encoding: 172 4121 170
+Encoding: 172 4121 172
 Width: 585
 VWidth: 0
 GlyphClass: 2
@@ -5373,11 +5390,11 @@ SplineSet
  183 61 235 36 292 36 c 0
  352 36 400 59 436 106 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1019.med
-Encoding: 173 -1 171
+Encoding: 173 -1 173
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -5404,11 +5421,11 @@ SplineSet
  -326 -386 -291 -411 -239 -411 c 0
  -191 -411 -153 -390 -126 -351 c 0
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u101A
-Encoding: 174 4122 172
+Encoding: 174 4122 174
 Width: 994
 VWidth: 0
 GlyphClass: 2
@@ -5437,11 +5454,11 @@ SplineSet
  658 454 681 459 706 459 c 0
  832 459 939 351 939 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u101A.med
-Encoding: 175 -1 173
+Encoding: 175 -1 175
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -5470,11 +5487,11 @@ SplineSet
  -272 -89 -254 -86 -235 -86 c 0
  -137 -86 -55 -167 -55 -269 c 0
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u101B
-Encoding: 176 4123 174
+Encoding: 176 4123 176
 Width: 588
 VWidth: 0
 GlyphClass: 2
@@ -5504,11 +5521,11 @@ SplineSet
  132 97 203 36 292 36 c 0
  305 36 319 37 333 40 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u101B.alt
-Encoding: 177 -1 175
+Encoding: 177 -1 177
 Width: 588
 VWidth: 0
 GlyphClass: 2
@@ -5536,11 +5553,11 @@ SplineSet
  132 97 203 36 292 36 c 0
  305 36 319 37 333 40 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u101B.long
-Encoding: 178 -1 176
+Encoding: 178 -1 178
 Width: 588
 VWidth: 0
 GlyphClass: 2
@@ -5568,11 +5585,11 @@ SplineSet
  132 97 203 36 292 36 c 0
  308 36 318 36 333 39 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u101B.med
-Encoding: 179 -1 177
+Encoding: 179 -1 179
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -5600,11 +5617,11 @@ SplineSet
  -302 -305 -273 -319 -210 -319 c 0
  -200 -319 -189 -319 -179 -316 c 0
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u101B.kinzi
-Encoding: 180 -1 178
+Encoding: 180 -1 180
 Width: 87
 VWidth: 0
 GlyphClass: 4
@@ -5630,11 +5647,11 @@ SplineSet
  -194 686 -157 647 -114 647 c 0
  -103 647 -89 648 -74 657 c 0
 EndSplineSet
-Comment: "GDL_order: 8+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 8+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u101B.kinzi_u102D
-Encoding: 181 -1 179
+Encoding: 181 -1 181
 Width: 87
 VWidth: 0
 GlyphClass: 4
@@ -5668,11 +5685,11 @@ SplineSet
  -557 686 -520 647 -477 647 c 0
  -466 647 -452 648 -437 657 c 0
 EndSplineSet
-Comment: "GDL_order: 8+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 8+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u101B.kinzi_u102E
-Encoding: 182 -1 180
+Encoding: 182 -1 182
 Width: 87
 VWidth: 0
 GlyphClass: 4
@@ -5713,11 +5730,11 @@ SplineSet
  -557 686 -520 647 -477 647 c 0
  -466 647 -452 648 -437 657 c 0
 EndSplineSet
-Comment: "GDL_order: 8+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 8+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u101B.kinzi_u103A
-Encoding: 183 -1 181
+Encoding: 183 -1 183
 Width: 87
 VWidth: 0
 GlyphClass: 4
@@ -5752,11 +5769,11 @@ SplineSet
  -557 686 -520 647 -477 647 c 0
  -466 647 -452 648 -437 657 c 0
 EndSplineSet
-Comment: "GDL_order: 8+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 8+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u101C
-Encoding: 184 4124 182
+Encoding: 184 4124 184
 Width: 960
 VWidth: 0
 GlyphClass: 2
@@ -5784,11 +5801,11 @@ SplineSet
  631 454 654 459 679 459 c 0
  808 459 904 351 904 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u101C.med
-Encoding: 185 -1 183
+Encoding: 185 -1 185
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -5816,11 +5833,11 @@ SplineSet
  -265 -87 -249 -84 -230 -84 c 0
  -131 -84 -56 -166 -56 -267 c 0
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u101C.med_u103D
-Encoding: 186 -1 184
+Encoding: 186 -1 186
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -5858,11 +5875,11 @@ SplineSet
  -373 -345 -310 -411 -233 -411 c 0
  -157 -411 -94 -345 -94 -267 c 0
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 1+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: u101D
-Encoding: 187 4125 185
+Encoding: 187 4125 187
 Width: 575
 VWidth: 0
 GlyphClass: 2
@@ -5881,11 +5898,11 @@ SplineSet
  106 120 185 36 287 36 c 0
  386 36 469 120 469 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u101E
-Encoding: 188 4126 186
+Encoding: 188 4126 188
 Width: 990
 VWidth: 0
 GlyphClass: 2
@@ -5914,11 +5931,11 @@ SplineSet
  652 454 676 459 702 459 c 0
  828 459 934 351 934 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u101E.med
-Encoding: 189 -1 187
+Encoding: 189 -1 189
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -5947,11 +5964,11 @@ SplineSet
  -274 -89 -254 -84 -236 -84 c 0
  -138 -84 -56 -167 -56 -267 c 0
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u101E_u1010_u103C
-Encoding: 190 -1 188
+Encoding: 190 -1 190
 Width: 1174
 VWidth: 0
 GlyphClass: 2
@@ -6026,11 +6043,11 @@ SplineSet
  409 -278 459 -330 523 -330 c 0
  588 -330 637 -278 637 -213 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u101F
-Encoding: 191 4127 189
+Encoding: 191 4127 191
 Width: 1002
 VWidth: 0
 GlyphClass: 2
@@ -6059,11 +6076,11 @@ SplineSet
  561 405 634 459 714 459 c 0
  840 459 946 351 946 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1020
-Encoding: 192 4128 190
+Encoding: 192 4128 192
 Width: 583
 VWidth: 0
 GlyphClass: 2
@@ -6104,11 +6121,11 @@ SplineSet
  513 121 l 0
  513 -89 l 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1020.long
-Encoding: 193 -1 191
+Encoding: 193 -1 193
 Width: 568
 VWidth: 0
 GlyphClass: 2
@@ -6137,11 +6154,11 @@ SplineSet
  341 -107 404 -86 468 -51 c 0
  468 -450 l 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1020_u1020
-Encoding: 194 -1 192
+Encoding: 194 -1 194
 Width: 583
 VWidth: 0
 GlyphClass: 2
@@ -6197,11 +6214,11 @@ SplineSet
  387 -339 l 0
  387 -378 l 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1020_u103E
-Encoding: 195 -1 193
+Encoding: 195 -1 195
 Width: 583
 VWidth: 0
 GlyphClass: 2
@@ -6249,11 +6266,11 @@ SplineSet
  308 -180 l 0
  345 -194 l 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1021
-Encoding: 196 4129 194
+Encoding: 196 4129 196
 Width: 940
 VWidth: 0
 GlyphClass: 2
@@ -6295,11 +6312,11 @@ SplineSet
  687 36 724 47 755 69 c 0
  790 93 816 131 829 180 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1021.med
-Encoding: 197 -1 195
+Encoding: 197 -1 197
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -6339,11 +6356,11 @@ SplineSet
  -231 -409 -221 -410 -211 -410 c 0
  -147 -410 -89 -369 -73 -302 c 0
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1022
-Encoding: 198 4130 196
+Encoding: 198 4130 198
 Width: 999
 VWidth: 0
 GlyphClass: 2
@@ -6376,11 +6393,11 @@ SplineSet
  543 397 622 459 711 459 c 0
  837 459 943 352 943 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1023
-Encoding: 199 4131 197
+Encoding: 199 4131 199
 Width: 1008
 VWidth: 0
 GlyphClass: 2
@@ -6428,11 +6445,11 @@ SplineSet
  883 -411 l 0
  883 -450 l 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1024
-Encoding: 200 4132 198
+Encoding: 200 4132 200
 Width: 1180
 VWidth: 0
 GlyphClass: 2
@@ -6482,11 +6499,11 @@ SplineSet
  865 589 1110 589 1110 390 c 0
  1110 -450 l 0
 EndSplineSet
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1025
-Encoding: 201 4133 199
+Encoding: 201 4133 201
 Width: 568
 VWidth: 0
 GlyphClass: 2
@@ -6520,11 +6537,11 @@ SplineSet
  447 -302 l 0
  498 -302 l 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1026
-Encoding: 202 4134 200
+Encoding: 202 4134 202
 Width: 568
 VWidth: 0
 GlyphClass: 2
@@ -6575,11 +6592,11 @@ SplineSet
  447 -302 l 0
  498 -302 l 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1027
-Encoding: 203 4135 201
+Encoding: 203 4135 203
 Width: 576
 VWidth: 0
 GlyphClass: 2
@@ -6609,11 +6626,11 @@ SplineSet
  235 43 264 36 292 36 c 0
  359 36 420 64 456 121 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1028
-Encoding: 204 4136 202
+Encoding: 204 4136 204
 Width: 576
 VWidth: 0
 GlyphClass: 2
@@ -6645,11 +6662,11 @@ SplineSet
  397 -399 469 -302 469 -214 c 0
  520 -214 l 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 130+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u1029
-Encoding: 205 4137 203
+Encoding: 205 4137 205
 Width: 1174
 VWidth: 0
 GlyphClass: 2
@@ -6705,11 +6722,11 @@ SplineSet
  1068 -110 l 0
  1119 -110 l 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u102A
-Encoding: 206 4138 204
+Encoding: 206 4138 206
 Width: 2149
 VWidth: 0
 GlyphClass: 2
@@ -6800,11 +6817,11 @@ SplineSet
  1777 828 1864 903 1954 903 c 0
  2015 903 2069 873 2092 826 c 0
 EndSplineSet
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u102B
-Encoding: 207 4139 205
+Encoding: 207 4139 207
 Width: 177
 VWidth: 0
 GlyphClass: 2
@@ -6822,11 +6839,11 @@ SplineSet
  57 898 121 835 121 714 c 0
  121 0 l 0
 EndSplineSet
-Comment: "GDL_xkern: 270m+AAoA-GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_xkern: 270m+AAoA-GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u102B_u103A
-Encoding: 208 -1 206
+Encoding: 208 -1 208
 Width: 462
 VWidth: 0
 GlyphClass: 2
@@ -6849,11 +6866,11 @@ SplineSet
  123 868 166 898 240 898 c 0
  349 898 406 823 406 714 c 0
 EndSplineSet
-Comment: "GDL_xkern: 270m+AAoA-GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_xkern: 270m+AAoA-GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u102C
-Encoding: 209 4140 207
+Encoding: 209 4140 209
 Width: 421
 VWidth: 0
 GlyphClass: 2
@@ -6873,11 +6890,11 @@ SplineSet
  -30 408 33 459 133 459 c 0
  259 459 366 351 366 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u102D
-Encoding: 210 4141 208
+Encoding: 210 4141 210
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -6896,11 +6913,11 @@ SplineSet
  -373 641 -310 576 -234 576 c 0
  -157 576 -94 641 -94 720 c 0
 EndSplineSet
-Comment: "GDL_order: 8+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 8+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u102D_u1036
-Encoding: 211 -1 209
+Encoding: 211 -1 211
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -6929,11 +6946,11 @@ SplineSet
  -122 691 -102 672 -75 672 c 0
  -50 672 -29 691 -29 720 c 0
 EndSplineSet
-Comment: "GDL_order: 8+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 8+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u102D_uAA7C
-Encoding: 212 -1 210
+Encoding: 212 -1 212
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -6957,11 +6974,11 @@ SplineSet
  -442 740 l 0
  -442 700 l 0
 EndSplineSet
-Comment: "GDL_order: 8+AAoA-mark: 1+AAoA" 
+Comment: "GDL_order: 8+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: u102E
-Encoding: 213 4142 211
+Encoding: 213 4142 213
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -6987,11 +7004,11 @@ SplineSet
  -322 603 -277 576 -234 576 c 0
  -187 576 -145 597 -120 634 c 0
 EndSplineSet
-Comment: "GDL_order: 8+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 8+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u102E_uAA7C
-Encoding: 214 -1 212
+Encoding: 214 -1 214
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -7022,11 +7039,11 @@ SplineSet
  -442 740 l 0
  -442 700 l 0
 EndSplineSet
-Comment: "GDL_order: 8+AAoA-mark: 1+AAoA" 
+Comment: "GDL_order: 8+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: u102F
-Encoding: 215 4143 213
+Encoding: 215 4143 215
 Width: 147
 VWidth: 0
 GlyphClass: 1
@@ -7042,11 +7059,11 @@ SplineSet
  174 -399 l 0
  174 -450 l 0
 EndSplineSet
-Comment: "GDL_order: 9+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 9+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u102F.med
-Encoding: 216 -1 214
+Encoding: 216 -1 216
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -7062,11 +7079,11 @@ SplineSet
  27 -399 l 0
  27 -450 l 0
 EndSplineSet
-Comment: "GDL_rkern: 2m+AAoA-GDL_order: 9+AAoA-mark: 80+AAoA" 
+Comment: "GDL_rkern: 2m+AAoA-GDL_order: 9+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u102F_u108D
-Encoding: 217 -1 215
+Encoding: 217 -1 217
 Width: 162
 VWidth: 0
 GlyphClass: 4
@@ -7089,11 +7106,11 @@ SplineSet
  -50 -252 l 0
  -50 -292 l 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 1+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: u1030
-Encoding: 218 4144 216
+Encoding: 218 4144 218
 Width: 295
 VWidth: 0
 GlyphClass: 2
@@ -7114,11 +7131,11 @@ SplineSet
  91 444 l 0
  91 -450 l 0
 EndSplineSet
-Comment: "GDL_order: 9+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 9+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1030.med
-Encoding: 219 -1 217
+Encoding: 219 -1 219
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -7139,11 +7156,11 @@ SplineSet
  -204 -95 l 0
  -204 -450 l 0
 EndSplineSet
-Comment: "GDL_rkern: 43m+AAoA-GDL_order: 9+AAoA-mark: 80+AAoA" 
+Comment: "GDL_rkern: 43m+AAoA-GDL_order: 9+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1030_u108D
-Encoding: 220 -1 218
+Encoding: 220 -1 220
 Width: 310
 VWidth: 0
 GlyphClass: 4
@@ -7171,11 +7188,11 @@ SplineSet
  -50 -252 l 0
  -50 -292 l 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 1+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: u1031
-Encoding: 221 4145 219
+Encoding: 221 4145 221
 Width: 576
 VWidth: 0
 GlyphClass: 2
@@ -7202,11 +7219,11 @@ SplineSet
  230 45 259 36 292 36 c 0
  360 36 424 63 460 127 c 0
 EndSplineSet
-Comment: "GDL_order: 7+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 7+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1032
-Encoding: 222 4146 220
+Encoding: 222 4146 222
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -7222,11 +7239,11 @@ SplineSet
  -354 880 l 0
  -55 643 l 0
 EndSplineSet
-Comment: "GDL_order: 8+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 8+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1032_u102D
-Encoding: 223 -1 221
+Encoding: 223 -1 223
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -7250,11 +7267,11 @@ SplineSet
  -318 641 -255 576 -179 576 c 0
  -102 576 -39 641 -39 720 c 0
 EndSplineSet
-Comment: "GDL_order: 8+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 8+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1033
-Encoding: 224 4147 222
+Encoding: 224 4147 224
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -7283,11 +7300,11 @@ SplineSet
  -279 693 -259 672 -232 672 c 0
  -207 672 -186 693 -186 720 c 0
 EndSplineSet
-Comment: "GDL_order: 8+AAoA-mark: 130+AAoA" 
+Comment: "GDL_order: 8+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u1034
-Encoding: 225 4148 223
+Encoding: 225 4148 225
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -7301,11 +7318,11 @@ SplineSet
  -78 852 l 0
  -55 819 l 0
 EndSplineSet
-Comment: "GDL_order: 8+AAoA-mark: 130+AAoA" 
+Comment: "GDL_order: 8+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u1035
-Encoding: 226 4149 224
+Encoding: 226 4149 226
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -7330,11 +7347,11 @@ SplineSet
  -281 587 -256 579 -231 579 c 0
  -178 579 -122 606 -99 654 c 0
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1036
-Encoding: 227 4150 225
+Encoding: 227 4150 227
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -7342,22 +7359,22 @@ Flags: HW
 LayerCount: 2
 Fore
 SplineSet
--55 663 m 0
- -55 622 -90 586 -130 586 c 0
- -171 586 -205 622 -205 663 c 0
- -205 703 -171 738 -130 738 c 0
- -90 738 -55 703 -55 663 c 0
--84 663 m 0
- -84 688 -105 709 -130 709 c 0
- -157 709 -177 688 -177 663 c 0
- -177 636 -157 615 -130 615 c 0
- -105 615 -84 636 -84 663 c 0
+-55 663 m 4
+ -55 622 -90 586 -130 586 c 4
+ -171 586 -205 622 -205 663 c 4
+ -205 703 -171 738 -130 738 c 4
+ -90 738 -55 703 -55 663 c 4
+-84 663 m 4
+ -84 688 -105 709 -130 709 c 4
+ -157 709 -177 688 -177 663 c 4
+ -177 636 -157 615 -130 615 c 4
+ -105 615 -84 636 -84 663 c 4
 EndSplineSet
-Comment: "GDL_order: 10+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 10+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1037
-Encoding: 228 4151 226
+Encoding: 228 4151 228
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -7376,11 +7393,11 @@ SplineSet
  -122 -252 -102 -275 -75 -275 c 0
  -50 -275 -29 -252 -29 -227 c 0
 EndSplineSet
-Comment: "GDL_order: 13+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 13+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1038
-Encoding: 229 4152 227
+Encoding: 229 4152 229
 Width: 260
 VWidth: 0
 GlyphClass: 2
@@ -7411,11 +7428,11 @@ SplineSet
  83 361 101 336 130 336 c 0
  158 336 176 361 176 384 c 0
 EndSplineSet
-Comment: "GDL_order: 14+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 14+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1039
-Encoding: 230 4153 228
+Encoding: 230 4153 230
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -7506,11 +7523,11 @@ SplineSet
  -46 -319 -41 -314 -29 -314 c 0
  -19 -314 -13 -319 -13 -331 c 0x3e1f80
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103A
-Encoding: 231 4154 229
+Encoding: 231 4154 231
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -7530,11 +7547,11 @@ SplineSet
  -315 836 -228 911 -138 911 c 0
  -77 911 -23 881 0 834 c 0
 EndSplineSet
-Comment: "GDL_order: 12+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 12+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103A_u1036
-Encoding: 232 -1 230
+Encoding: 232 -1 232
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -7557,11 +7574,11 @@ SplineSet
  -182 753 -161 774 -135 774 c 0
  -110 774 -89 753 -89 728 c 0
 EndSplineSet
-Comment: "GDL_order: 12+AAoA-mark: 170+AAoA" 
+Comment: "GDL_order: 12+AAoA-mark: 170+AAoA"
 EndChar
 
 StartChar: u103B
-Encoding: 233 4155 231
+Encoding: 233 4155 233
 Width: 162
 VWidth: 0
 GlyphClass: 2
@@ -7579,11 +7596,11 @@ SplineSet
  106 444 l 0
  106 -450 l 0
 EndSplineSet
-Comment: "GDL_order: 3+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 3+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103B_u103D
-Encoding: 234 -1 232
+Encoding: 234 -1 234
 Width: 162
 VWidth: 0
 GlyphClass: 2
@@ -7608,11 +7625,11 @@ SplineSet
  -357 -330 -294 -396 -218 -396 c 0
  -141 -396 -78 -330 -78 -252 c 0
 EndSplineSet
-Comment: "GDL_order: 3+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 3+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103B_u103D_u103E
-Encoding: 235 -1 233
+Encoding: 235 -1 235
 Width: 162
 VWidth: 0
 GlyphClass: 2
@@ -7642,11 +7659,11 @@ SplineSet
  -357 -330 -294 -396 -218 -396 c 0
  -141 -396 -78 -330 -78 -252 c 0
 EndSplineSet
-Comment: "GDL_order: 3+AAoA-mark: 130+AAoA" 
+Comment: "GDL_order: 3+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u103B_u103E
-Encoding: 236 -1 234
+Encoding: 236 -1 236
 Width: 202
 VWidth: 0
 GlyphClass: 2
@@ -7669,11 +7686,11 @@ SplineSet
  106 444 l 0
  106 -450 l 0
 EndSplineSet
-Comment: "GDL_order: 3+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 3+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103C
-Encoding: 237 4156 235
+Encoding: 237 4156 237
 Width: 172
 VWidth: 0
 GlyphClass: 1
@@ -7711,11 +7728,11 @@ SplineSet
  646 -95 l 0
  697 -95 l 0
 EndSplineSet
-Comment: "GDL_order: 4+AAoA-GDL_advx: 753m+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 4+AAoA-GDL_advx: 753m+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103C.alt.narr
-Encoding: 238 -1 236
+Encoding: 238 -1 238
 Width: 172
 VWidth: 0
 GlyphClass: 2
@@ -7745,11 +7762,11 @@ SplineSet
  646 -95 l 0
  697 -95 l 0
 EndSplineSet
-Comment: "GDL_order: 4+AAoA-GDL_advx: 753m+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 4+AAoA-GDL_advx: 753m+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103C.alt.wide
-Encoding: 239 -1 237
+Encoding: 239 -1 239
 Width: 172
 VWidth: 0
 GlyphClass: 2
@@ -7781,11 +7798,11 @@ SplineSet
  1068 -95 l 0
  1119 -95 l 0
 EndSplineSet
-Comment: "GDL_order: 4+AAoA-GDL_advx: 1174m+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 4+AAoA-GDL_advx: 1174m+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103C.wide
-Encoding: 240 -1 238
+Encoding: 240 -1 240
 Width: 172
 VWidth: 0
 GlyphClass: 1
@@ -7821,11 +7838,11 @@ SplineSet
  1068 -110 l 0
  1119 -110 l 0
 EndSplineSet
-Comment: "GDL_order: 4+AAoA-GDL_advx: 1174m+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 4+AAoA-GDL_advx: 1174m+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103C_u103D.narr
-Encoding: 241 -1 239
+Encoding: 241 -1 241
 Width: 172
 VWidth: 0
 GlyphClass: 2
@@ -7864,11 +7881,11 @@ SplineSet
  514 955 575 944 633 885 c 0
  677 839 697 781 699 742 c 0
 EndSplineSet
-Comment: "GDL_order: 4+AAoA-GDL_advx: 753m+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 4+AAoA-GDL_advx: 753m+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103C_u103D.wide
-Encoding: 242 -1 240
+Encoding: 242 -1 242
 Width: 172
 VWidth: 0
 GlyphClass: 2
@@ -7907,11 +7924,11 @@ SplineSet
  840 -404 847 -404 876 -404 c 0
  952 -404 1015 -344 1015 -267 c 0
 EndSplineSet
-Comment: "GDL_order: 4+AAoA-GDL_advx: 1174m+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 4+AAoA-GDL_advx: 1174m+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103C_u103D.alt.narr
-Encoding: 243 -1 241
+Encoding: 243 -1 243
 Width: 172
 VWidth: 0
 GlyphClass: 2
@@ -7945,11 +7962,11 @@ SplineSet
  433 -403 445 -404 474 -404 c 0
  550 -404 613 -344 613 -267 c 0
 EndSplineSet
-Comment: "GDL_order: 4+AAoA-GDL_advx: 753m+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 4+AAoA-GDL_advx: 753m+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103C_u103D.alt.wide
-Encoding: 244 -1 242
+Encoding: 244 -1 244
 Width: 172
 VWidth: 0
 GlyphClass: 2
@@ -7984,11 +8001,11 @@ SplineSet
  839 -404 847 -404 876 -404 c 0
  952 -404 1015 -344 1015 -267 c 0
 EndSplineSet
-Comment: "GDL_order: 4+AAoA-GDL_advx: 1174m+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 4+AAoA-GDL_advx: 1174m+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103C_u102F.narr
-Encoding: 245 -1 243
+Encoding: 245 -1 245
 Width: 172
 VWidth: 0
 GlyphClass: 2
@@ -8033,11 +8050,11 @@ SplineSet
  720 -399 l 0
  720 -450 l 0
 EndSplineSet
-Comment: "GDL_order: 4+AAoA-GDL_advx: 753m+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 4+AAoA-GDL_advx: 753m+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103C_u102F.wide
-Encoding: 246 -1 244
+Encoding: 246 -1 246
 Width: 172
 VWidth: 0
 GlyphClass: 2
@@ -8080,11 +8097,11 @@ SplineSet
  853 -95 l 0
  904 -95 l 0
 EndSplineSet
-Comment: "GDL_order: 4+AAoA-GDL_advx: 1174m+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 4+AAoA-GDL_advx: 1174m+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103C_u102F.alt.narr
-Encoding: 247 -1 245
+Encoding: 247 -1 247
 Width: 172
 VWidth: 0
 GlyphClass: 2
@@ -8123,11 +8140,11 @@ SplineSet
  439 -95 l 0
  490 -95 l 0
 EndSplineSet
-Comment: "GDL_order: 4+AAoA-GDL_advx: 753m+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 4+AAoA-GDL_advx: 753m+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103C_u102F.alt.wide
-Encoding: 248 -1 246
+Encoding: 248 -1 248
 Width: 172
 VWidth: 0
 GlyphClass: 2
@@ -8166,11 +8183,11 @@ SplineSet
  853 -95 l 0
  904 -95 l 0
 EndSplineSet
-Comment: "GDL_order: 4+AAoA-GDL_advx: 1174m+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 4+AAoA-GDL_advx: 1174m+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103D
-Encoding: 249 4157 247
+Encoding: 249 4157 249
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -8191,11 +8208,11 @@ SplineSet
  -373 -345 -310 -411 -233 -411 c 0
  -157 -411 -94 -345 -94 -267 c 0
 EndSplineSet
-Comment: "GDL_order: 5+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 5+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103D_u103E
-Encoding: 250 -1 248
+Encoding: 250 -1 250
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -8221,11 +8238,11 @@ SplineSet
  -374 -345 -311 -411 -233 -411 c 0
  -153 -411 -95 -345 -95 -267 c 0
 EndSplineSet
-Comment: "GDL_order: 5+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 5+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103D_u103E.small
-Encoding: 251 -1 249
+Encoding: 251 -1 251
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -8249,11 +8266,11 @@ SplineSet
  -362 -289 -313 -341 -254 -341 c 0
  -195 -341 -144 -289 -144 -228 c 0
 EndSplineSet
-Comment: "GDL_order: 5+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 5+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103D_u108D
-Encoding: 252 -1 250
+Encoding: 252 -1 252
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -8277,11 +8294,11 @@ SplineSet
  -497 -252 l 0
  -497 -292 l 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 1+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: u103E
-Encoding: 253 4158 251
+Encoding: 253 4158 253
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -8299,11 +8316,11 @@ SplineSet
  -55 -95 l 0
  -55 -450 l 0
 EndSplineSet
-Comment: "GDL_order: 6+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 6+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103E.alt
-Encoding: 254 -1 252
+Encoding: 254 -1 254
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -8319,11 +8336,11 @@ SplineSet
  -109 -78 l 0
  -61 -96 l 0
 EndSplineSet
-Comment: "GDL_order: 6+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 6+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103E_u102F
-Encoding: 255 -1 253
+Encoding: 255 -1 255
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -8346,11 +8363,11 @@ SplineSet
  -271 -95 l 0
  -271 -450 l 0
 EndSplineSet
-Comment: "GDL_rkern: 78m+AAoA-GDL_order: 6+AAoA-mark: 80+AAoA" 
+Comment: "GDL_rkern: 78m+AAoA-GDL_order: 6+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103E_u1030
-Encoding: 256 -1 254
+Encoding: 256 -1 256
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -8378,11 +8395,11 @@ SplineSet
  -414 -95 l 0
  -414 -450 l 0
 EndSplineSet
-Comment: "GDL_rkern: 90m+AAoA-GDL_order: 6+AAoA-mark: 80+AAoA" 
+Comment: "GDL_rkern: 90m+AAoA-GDL_order: 6+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103F
-Encoding: 257 4159 255
+Encoding: 257 4159 257
 Width: 1411
 VWidth: 0
 GlyphClass: 2
@@ -8420,11 +8437,11 @@ SplineSet
  1074 454 1097 459 1123 459 c 0
  1253 459 1356 351 1356 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1040
-Encoding: 258 4160 256
+Encoding: 258 4160 258
 Width: 576
 VWidth: 0
 GlyphClass: 2
@@ -8443,11 +8460,11 @@ SplineSet
  106 120 186 36 286 36 c 0
  387 36 469 120 469 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 130+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u1041
-Encoding: 259 4161 257
+Encoding: 259 4161 259
 Width: 576
 VWidth: 0
 GlyphClass: 2
@@ -8467,11 +8484,11 @@ SplineSet
  96 412 190 459 279 459 c 0
  409 459 516 351 516 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 130+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u1042
-Encoding: 260 4162 258
+Encoding: 260 4162 260
 Width: 503
 VWidth: 0
 GlyphClass: 2
@@ -8489,11 +8506,11 @@ SplineSet
  397 445 l 0
  448 445 l 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 130+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u1043
-Encoding: 261 4163 259
+Encoding: 261 4163 261
 Width: 576
 VWidth: 0
 GlyphClass: 2
@@ -8517,11 +8534,11 @@ SplineSet
  98 410 187 459 279 459 c 0
  409 459 516 351 516 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 130+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u1044
-Encoding: 262 4164 260
+Encoding: 262 4164 262
 Width: 576
 VWidth: 0
 GlyphClass: 2
@@ -8545,11 +8562,11 @@ SplineSet
  366 36 435 76 474 147 c 0
  517 121 l 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 130+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u1045
-Encoding: 263 4165 261
+Encoding: 263 4165 263
 Width: 576
 VWidth: 0
 GlyphClass: 2
@@ -8580,11 +8597,11 @@ SplineSet
  106 190 133 163 165 163 c 0
  197 163 225 190 225 225 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 130+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u1046
-Encoding: 264 4166 262
+Encoding: 264 4166 264
 Width: 576
 VWidth: 0
 GlyphClass: 2
@@ -8616,11 +8633,11 @@ SplineSet
  273 307 299 279 331 279 c 0
  366 279 390 307 390 340 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 130+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u1047
-Encoding: 265 4167 263
+Encoding: 265 4167 265
 Width: 576
 VWidth: 0
 GlyphClass: 2
@@ -8642,11 +8659,11 @@ SplineSet
  359 -399 375 -389 387 -377 c 0
  421 -414 l 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 130+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u1048
-Encoding: 266 4168 264
+Encoding: 266 4168 266
 Width: 585
 VWidth: 0
 GlyphClass: 2
@@ -8671,11 +8688,11 @@ SplineSet
  106 145 138 103 177 64 c 0
  206 111 214 152 214 184 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 130+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u1049
-Encoding: 267 4169 265
+Encoding: 267 4169 267
 Width: 576
 VWidth: 0
 GlyphClass: 2
@@ -8707,11 +8724,11 @@ SplineSet
  273 41 298 15 331 15 c 0
  366 15 390 41 390 73 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 130+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u104A
-Encoding: 268 4170 266
+Encoding: 268 4170 268
 Width: 162
 VWidth: 0
 GlyphClass: 2
@@ -8725,11 +8742,11 @@ SplineSet
  106 444 l 0
  106 0 l 0
 EndSplineSet
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u104B
-Encoding: 269 4171 267
+Encoding: 269 4171 269
 Width: 310
 VWidth: 0
 GlyphClass: 2
@@ -8748,11 +8765,11 @@ SplineSet
  106 444 l 0
  106 0 l 0
 EndSplineSet
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u104C
-Encoding: 270 4172 268
+Encoding: 270 4172 270
 Width: 568
 VWidth: 0
 GlyphClass: 2
@@ -8802,11 +8819,11 @@ SplineSet
  183 828 270 903 361 903 c 0
  421 903 475 873 498 826 c 0
 EndSplineSet
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u104D
-Encoding: 271 4173 269
+Encoding: 271 4173 271
 Width: 766
 VWidth: 0
 GlyphClass: 2
@@ -8857,11 +8874,11 @@ SplineSet
  131 97 205 36 292 36 c 0
  309 36 318 36 333 39 c 0
 EndSplineSet
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u104E
-Encoding: 272 4174 270
+Encoding: 272 4174 272
 Width: 568
 VWidth: 0
 GlyphClass: 2
@@ -8884,11 +8901,11 @@ SplineSet
  513 121 l 0
  513 -450 l 0
 EndSplineSet
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u104F
-Encoding: 273 4175 271
+Encoding: 273 4175 273
 Width: 912
 VWidth: 0
 GlyphClass: 2
@@ -8937,11 +8954,11 @@ SplineSet
  241 332 289 296 363 296 c 0
  392 296 426 305 456 322 c 0
 EndSplineSet
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1050
-Encoding: 274 4176 272
+Encoding: 274 4176 274
 Width: 585
 VWidth: 0
 GlyphClass: 2
@@ -8971,11 +8988,11 @@ SplineSet
  231 167 257 140 292 140 c 0
  325 140 352 167 352 202 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 16+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 16+AAoA"
 EndChar
 
 StartChar: u1050.med
-Encoding: 275 -1 273
+Encoding: 275 -1 275
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -9005,11 +9022,11 @@ SplineSet
  -288 -313 -268 -334 -240 -334 c 0
  -215 -334 -193 -313 -193 -285 c 0
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 16+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 16+AAoA"
 EndChar
 
 StartChar: u1051
-Encoding: 276 4177 274
+Encoding: 276 4177 276
 Width: 585
 VWidth: 0
 GlyphClass: 2
@@ -9039,11 +9056,11 @@ SplineSet
  231 205 257 178 292 178 c 0
  325 178 352 205 352 240 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 16+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 16+AAoA"
 EndChar
 
 StartChar: u1051.med
-Encoding: 277 -1 275
+Encoding: 277 -1 277
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -9073,11 +9090,11 @@ SplineSet
  -288 -282 -268 -303 -240 -303 c 0
  -215 -303 -193 -282 -193 -257 c 0
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 16+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 16+AAoA"
 EndChar
 
 StartChar: u1051_u100C
-Encoding: 278 -1 276
+Encoding: 278 -1 278
 Width: 568
 VWidth: 0
 GlyphClass: 2
@@ -9123,11 +9140,11 @@ SplineSet
  371 -107 423 -82 498 -42 c 0
  498 -275 l 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1051_u100D
-Encoding: 279 -1 277
+Encoding: 279 -1 279
 Width: 568
 VWidth: 0
 GlyphClass: 2
@@ -9163,11 +9180,11 @@ SplineSet
  574 -399 l 0
  574 -450 l 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1052
-Encoding: 280 4178 278
+Encoding: 280 4178 280
 Width: 577
 VWidth: 0
 GlyphClass: 2
@@ -9191,11 +9208,11 @@ SplineSet
  410 405 382 388 382 339 c 0
  382 285 522 295 522 168 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 16+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 16+AAoA"
 EndChar
 
 StartChar: u1053
-Encoding: 281 4179 279
+Encoding: 281 4179 281
 Width: 630
 VWidth: 0
 GlyphClass: 2
@@ -9223,11 +9240,11 @@ SplineSet
  384 417 433 457 487 457 c 0
  540 457 568 420 574 403 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 16+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 16+AAoA"
 EndChar
 
 StartChar: u1054
-Encoding: 282 4180 280
+Encoding: 282 4180 282
 Width: 576
 VWidth: 0
 GlyphClass: 2
@@ -9252,11 +9269,11 @@ SplineSet
  238 327 297 291 362 291 c 0
  390 291 423 300 460 317 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 16+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 16+AAoA"
 EndChar
 
 StartChar: u1055
-Encoding: 283 4181 281
+Encoding: 283 4181 283
 Width: 576
 VWidth: 0
 GlyphClass: 2
@@ -9285,11 +9302,11 @@ SplineSet
  239 325 296 293 362 293 c 0
  390 293 423 300 460 317 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 16+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 16+AAoA"
 EndChar
 
 StartChar: u1056
-Encoding: 284 4182 282
+Encoding: 284 4182 284
 Width: 502
 VWidth: 0
 GlyphClass: 2
@@ -9311,11 +9328,11 @@ SplineSet
  270 409 253 389 253 364 c 0
  253 301 447 329 447 175 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 16+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 16+AAoA"
 EndChar
 
 StartChar: u1057
-Encoding: 285 4183 283
+Encoding: 285 4183 285
 Width: 511
 VWidth: 0
 GlyphClass: 2
@@ -9341,11 +9358,11 @@ SplineSet
  279 409 262 389 262 364 c 0
  262 301 456 329 456 175 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 16+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 16+AAoA"
 EndChar
 
 StartChar: u1058
-Encoding: 286 4184 284
+Encoding: 286 4184 286
 Width: 468
 VWidth: 0
 GlyphClass: 4
@@ -9370,11 +9387,11 @@ SplineSet
  184 -186 241 -219 293 -219 c 0
  320 -219 344 -211 368 -198 c 0
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 16+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 16+AAoA"
 EndChar
 
 StartChar: u1059
-Encoding: 287 4185 285
+Encoding: 287 4185 287
 Width: 469
 VWidth: 0
 GlyphClass: 4
@@ -9403,11 +9420,11 @@ SplineSet
  198 -187 238 -211 292 -211 c 0
  313 -211 339 -206 367 -193 c 0
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 16+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 16+AAoA"
 EndChar
 
 StartChar: u105A
-Encoding: 288 4186 286
+Encoding: 288 4186 288
 Width: 568
 VWidth: 0
 GlyphClass: 2
@@ -9440,11 +9457,11 @@ SplineSet
  203 -152 232 -101 290 -101 c 0
  330 -101 380 -124 380 -192 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 130+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u105A.med
-Encoding: 289 -1 287
+Encoding: 289 -1 289
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -9466,11 +9483,11 @@ SplineSet
  -233 -152 -204 -101 -146 -101 c 0
  -106 -101 -56 -124 -56 -192 c 0
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 130+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u105B
-Encoding: 290 4187 288
+Encoding: 290 4187 290
 Width: 721
 VWidth: 0
 GlyphClass: 2
@@ -9509,11 +9526,11 @@ SplineSet
  310 217 333 204 361 204 c 0
  394 204 431 217 436 261 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 130+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u105B.med
-Encoding: 291 -1 289
+Encoding: 291 -1 291
 Width: 162
 VWidth: 0
 GlyphClass: 2
@@ -9548,11 +9565,11 @@ SplineSet
  -200 -255 -184 -266 -161 -266 c 0
  -137 -266 -109 -254 -104 -222 c 0
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 130+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u105C
-Encoding: 292 4188 290
+Encoding: 292 4188 292
 Width: 575
 VWidth: 0
 GlyphClass: 2
@@ -9581,11 +9598,11 @@ SplineSet
  229 187 255 160 290 160 c 0
  323 160 350 187 350 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 130+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u105C.med
-Encoding: 293 -1 291
+Encoding: 293 -1 293
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -9614,11 +9631,11 @@ SplineSet
  -280 -294 -260 -315 -233 -315 c 0
  -208 -315 -187 -294 -187 -267 c 0
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 130+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u105D
-Encoding: 294 4189 292
+Encoding: 294 4189 294
 Width: 584
 VWidth: 0
 GlyphClass: 2
@@ -9658,11 +9675,11 @@ SplineSet
  183 61 235 36 292 36 c 0
  352 36 400 59 436 106 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 130+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u105E
-Encoding: 295 4190 293
+Encoding: 295 4190 295
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -9687,11 +9704,11 @@ SplineSet
  -112 -399 -106 -384 -106 -359 c 0
  -106 -251 l 0
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 130+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u105F
-Encoding: 296 4191 294
+Encoding: 296 4191 296
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -9712,11 +9729,11 @@ SplineSet
  -61 -399 -8 -390 41 -357 c 0
  61 -387 l 0
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 130+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u1060
-Encoding: 297 4192 295
+Encoding: 297 4192 297
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -9732,11 +9749,11 @@ SplineSet
  -55 -399 l 0
  -55 -450 l 0
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 130+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u1061
-Encoding: 298 4193 296
+Encoding: 298 4193 298
 Width: 588
 VWidth: 0
 GlyphClass: 2
@@ -9771,11 +9788,11 @@ SplineSet
  384 -95 l 0
  384 -450 l 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 130+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u1062
-Encoding: 299 4194 297
+Encoding: 299 4194 299
 Width: 271
 VWidth: 0
 GlyphClass: 2
@@ -9791,11 +9808,11 @@ SplineSet
  216 444 l 0
  216 0 l 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 130+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u1062_u103A
-Encoding: 300 -1 298
+Encoding: 300 -1 300
 Width: 426
 VWidth: 0
 GlyphClass: 2
@@ -9820,11 +9837,11 @@ SplineSet
  238 443 l 0
  238 0 l 0
 EndSplineSet
-Comment: "GDL_order: 11+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 11+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1063
-Encoding: 301 4195 299
+Encoding: 301 4195 301
 Width: 568
 VWidth: 0
 GlyphClass: 2
@@ -9847,11 +9864,11 @@ SplineSet
  85 394 165 459 276 459 c 0
  406 459 513 351 513 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 130+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u1063_u103A
-Encoding: 302 -1 300
+Encoding: 302 -1 302
 Width: 568
 VWidth: 0
 GlyphClass: 2
@@ -9882,11 +9899,11 @@ SplineSet
  276 459 l 0
  406 459 513 351 513 222 c 0
 EndSplineSet
-Comment: "GDL_order: 11+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 11+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1064
-Encoding: 303 4196 301
+Encoding: 303 4196 303
 Width: 384
 VWidth: 0
 GlyphClass: 2
@@ -9906,11 +9923,11 @@ SplineSet
  343 51 l 0
  343 0 l 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 130+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u1065
-Encoding: 304 4197 302
+Encoding: 304 4197 304
 Width: 576
 VWidth: 0
 GlyphClass: 2
@@ -9930,11 +9947,11 @@ SplineSet
  96 412 190 459 279 459 c 0
  409 459 516 351 516 222 c 0
 EndSplineSet
-Comment: "GDL_order: 7+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 7+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1066
-Encoding: 305 4198 303
+Encoding: 305 4198 305
 Width: 584
 VWidth: 0
 GlyphClass: 2
@@ -9961,11 +9978,11 @@ SplineSet
  318 -95 l 0
  318 -450 l 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1067
-Encoding: 306 4199 304
+Encoding: 306 4199 306
 Width: 277
 VWidth: 0
 GlyphClass: 2
@@ -9987,11 +10004,11 @@ SplineSet
  91 58 112 36 138 36 c 0
  166 36 184 60 184 84 c 0
 EndSplineSet
-Comment: "GDL_order: 11+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 11+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1068
-Encoding: 307 4200 305
+Encoding: 307 4200 307
 Width: 336
 VWidth: 0
 GlyphClass: 2
@@ -10017,11 +10034,11 @@ SplineSet
  231 444 l 0
  231 0 l 0
 EndSplineSet
-Comment: "GDL_order: 11+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 11+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1069
-Encoding: 308 4201 306
+Encoding: 308 4201 308
 Width: 354
 VWidth: 0
 GlyphClass: 2
@@ -10047,11 +10064,11 @@ SplineSet
  103 454 159 460 186 460 c 0
  255 460 313 417 313 334 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u106A
-Encoding: 309 4202 307
+Encoding: 309 4202 309
 Width: 291
 VWidth: 0
 GlyphClass: 2
@@ -10069,11 +10086,11 @@ SplineSet
  200 444 l 0
  251 444 l 0
 EndSplineSet
-Comment: "GDL_order: 11+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 11+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u106B
-Encoding: 310 4203 308
+Encoding: 310 4203 310
 Width: 291
 VWidth: 0
 GlyphClass: 2
@@ -10093,11 +10110,11 @@ SplineSet
  195 459 235 414 235 346 c 0
  235 0 l 0
 EndSplineSet
-Comment: "GDL_order: 11+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 11+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u106C
-Encoding: 311 4204 309
+Encoding: 311 4204 311
 Width: 291
 VWidth: 0
 GlyphClass: 2
@@ -10117,11 +10134,11 @@ SplineSet
  160 36 184 54 184 82 c 0
  235 82 l 0
 EndSplineSet
-Comment: "GDL_order: 11+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 11+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u106D
-Encoding: 312 4205 310
+Encoding: 312 4205 312
 Width: 354
 VWidth: 0
 GlyphClass: 2
@@ -10149,11 +10166,11 @@ SplineSet
  142 268 211 261 247 242 c 0
  301 213 313 162 313 139 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u106E
-Encoding: 313 4206 311
+Encoding: 313 4206 313
 Width: 1185
 VWidth: 0
 GlyphClass: 2
@@ -10190,11 +10207,11 @@ SplineSet
  733 396 809 459 898 459 c 0
  1024 459 1130 351 1130 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u106F
-Encoding: 314 4207 312
+Encoding: 314 4207 314
 Width: 1002
 VWidth: 0
 GlyphClass: 2
@@ -10230,11 +10247,11 @@ SplineSet
  737 -95 l 0
  737 -450 l 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1070
-Encoding: 315 4208 313
+Encoding: 315 4208 315
 Width: 999
 VWidth: 0
 GlyphClass: 2
@@ -10274,11 +10291,11 @@ SplineSet
  737 -95 l 0
  737 -450 l 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1071
-Encoding: 316 4209 314
+Encoding: 316 4209 316
 Width: 462
 VWidth: 0
 GlyphClass: 4
@@ -10307,11 +10324,11 @@ SplineSet
  286 591 305 566 333 566 c 0
  361 566 379 591 379 614 c 0
 EndSplineSet
-Comment: "GDL_order: 14+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 14+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1072
-Encoding: 317 4210 315
+Encoding: 317 4210 317
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -10329,11 +10346,11 @@ SplineSet
  -370 836 -283 911 -193 911 c 0
  -132 911 -78 881 -55 834 c 0
 EndSplineSet
-Comment: "GDL_order: 12+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 12+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1073
-Encoding: 318 4211 316
+Encoding: 318 4211 318
 Width: 453
 VWidth: 0
 GlyphClass: 4
@@ -10349,11 +10366,11 @@ SplineSet
  226 867 l 0
  453 640 l 0
 EndSplineSet
-Comment: "GDL_order: 8+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 8+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1074
-Encoding: 319 4212 317
+Encoding: 319 4212 319
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -10369,11 +10386,11 @@ SplineSet
  -84 867 l 0
  -55 839 l 0
 EndSplineSet
-Comment: "GDL_order: 8+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 8+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1075
-Encoding: 320 4213 318
+Encoding: 320 4213 320
 Width: 577
 VWidth: 0
 GlyphClass: 2
@@ -10397,11 +10414,11 @@ SplineSet
  55 354 144 457 285 457 c 0
  417 457 522 354 522 202 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1076
-Encoding: 321 4214 319
+Encoding: 321 4214 321
 Width: 582
 VWidth: 0
 GlyphClass: 2
@@ -10430,11 +10447,11 @@ SplineSet
  157 63 222 36 289 36 c 0
  324 36 351 45 379 58 c 0
 EndSplineSet
-Comment: "GDL_order: 7+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 7+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1077
-Encoding: 322 4215 320
+Encoding: 322 4215 322
 Width: 577
 VWidth: 0
 GlyphClass: 2
@@ -10463,11 +10480,11 @@ SplineSet
  363 152 370 111 401 64 c 0
  438 103 471 145 471 202 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1078
-Encoding: 323 4216 321
+Encoding: 323 4216 323
 Width: 997
 VWidth: 0
 GlyphClass: 2
@@ -10495,11 +10512,11 @@ SplineSet
  528 127 603 36 711 36 c 0
  810 36 891 120 891 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1079
-Encoding: 324 4217 322
+Encoding: 324 4217 324
 Width: 937
 VWidth: 0
 GlyphClass: 2
@@ -10534,11 +10551,11 @@ SplineSet
  204 176 181 182 155 182 c 0
  141 182 127 180 112 177 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u107A
-Encoding: 325 4218 323
+Encoding: 325 4218 325
 Width: 1008
 VWidth: 0
 GlyphClass: 2
@@ -10571,11 +10588,11 @@ SplineSet
  672 454 696 459 720 459 c 0
  847 459 952 351 952 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u107B
-Encoding: 326 4219 324
+Encoding: 326 4219 326
 Width: 937
 VWidth: 0
 GlyphClass: 2
@@ -10610,11 +10627,11 @@ SplineSet
  619 37 632 36 644 36 c 0
  728 36 803 93 825 177 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u107C
-Encoding: 327 4220 325
+Encoding: 327 4220 327
 Width: 990
 VWidth: 0
 GlyphClass: 2
@@ -10654,11 +10671,11 @@ SplineSet
  598 56 652 36 706 36 c 0
  763 36 832 64 865 126 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u107D
-Encoding: 328 4221 326
+Encoding: 328 4221 328
 Width: 1002
 VWidth: 0
 GlyphClass: 2
@@ -10697,11 +10714,11 @@ SplineSet
  652 45 682 36 715 36 c 0
  783 36 847 64 883 127 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u107E
-Encoding: 329 4222 327
+Encoding: 329 4222 329
 Width: 1002
 VWidth: 0
 GlyphClass: 2
@@ -10747,11 +10764,11 @@ SplineSet
  652 45 682 36 715 36 c 0
  783 36 847 64 883 127 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u107F
-Encoding: 330 4223 328
+Encoding: 330 4223 330
 Width: 585
 VWidth: 0
 GlyphClass: 2
@@ -10776,11 +10793,11 @@ SplineSet
  106 192 119 149 142 117 c 0
  190 153 214 200 214 259 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1080
-Encoding: 331 4224 329
+Encoding: 331 4224 331
 Width: 997
 VWidth: 0
 GlyphClass: 2
@@ -10816,11 +10833,11 @@ SplineSet
  151 63 216 36 283 36 c 0
  318 36 345 45 373 58 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1081.straight
-Encoding: 332 -1 330
+Encoding: 332 -1 332
 Width: 585
 VWidth: 0
 GlyphClass: 2
@@ -10849,11 +10866,11 @@ SplineSet
  318 -95 l 0
  318 -450 l 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1082
-Encoding: 333 4226 331
+Encoding: 333 4226 333
 Width: 426
 VWidth: 0
 GlyphClass: 4
@@ -10871,11 +10888,11 @@ SplineSet
  368 -425 412 -412 441 -365 c 0
  469 -389 l 0
 EndSplineSet
-Comment: "GDL_order: 12+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 12+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1082_u108D
-Encoding: 334 -1 332
+Encoding: 334 -1 334
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -10898,11 +10915,11 @@ SplineSet
  -400 -252 l 0
  -400 -292 l 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 1+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: u1083
-Encoding: 335 4227 333
+Encoding: 335 4227 335
 Width: 283
 VWidth: 0
 GlyphClass: 2
@@ -10920,11 +10937,11 @@ SplineSet
  323 -399 l 0
  323 -450 l 0
 EndSplineSet
-Comment: "GDL_order: 11+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 11+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1084
-Encoding: 336 4228 334
+Encoding: 336 4228 336
 Width: 534
 VWidth: 0
 GlyphClass: 2
@@ -10951,11 +10968,11 @@ SplineSet
  370 37 432 65 432 133 c 0
  478 115 l 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1085
-Encoding: 337 4229 335
+Encoding: 337 4229 337
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -10980,11 +10997,11 @@ SplineSet
  -144 577 -91 601 -91 654 c 0
  -55 639 l 0
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1086
-Encoding: 338 4230 336
+Encoding: 338 4230 338
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -11007,11 +11024,11 @@ SplineSet
  -243 757 -213 712 -169 712 c 0
  -123 712 -94 752 -94 792 c 0
 EndSplineSet
-Comment: "GDL_order: 14+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 14+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1086_uAA7C
-Encoding: 339 -1 337
+Encoding: 339 -1 339
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -11039,11 +11056,11 @@ SplineSet
  -309 740 l 0
  -309 700 l 0
 EndSplineSet
-Comment: "GDL_order: 14+AAoA-mark: 1+AAoA" 
+Comment: "GDL_order: 14+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: u1087
-Encoding: 340 4231 338
+Encoding: 340 4231 340
 Width: 258
 VWidth: 0
 GlyphClass: 2
@@ -11066,11 +11083,11 @@ SplineSet
  82 54 100 28 129 28 c 0
  158 28 175 49 175 76 c 0
 EndSplineSet
-Comment: "GDL_order: 14+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 14+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1088
-Encoding: 341 4232 339
+Encoding: 341 4232 341
 Width: 258
 VWidth: 0
 GlyphClass: 2
@@ -11103,11 +11120,11 @@ SplineSet
  82 361 101 336 129 336 c 0
  157 336 175 361 175 384 c 0
 EndSplineSet
-Comment: "GDL_order: 14+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 14+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1089
-Encoding: 342 4233 340
+Encoding: 342 4233 342
 Width: 258
 VWidth: 0
 GlyphClass: 2
@@ -11126,11 +11143,11 @@ SplineSet
  82 54 100 28 129 28 c 0
  157 28 175 54 175 76 c 0
 EndSplineSet
-Comment: "GDL_order: 14+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 14+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u108A
-Encoding: 343 4234 341
+Encoding: 343 4234 343
 Width: 351
 VWidth: 0
 GlyphClass: 2
@@ -11167,11 +11184,11 @@ SplineSet
  84 46 108 28 130 28 c 0
  153 28 178 46 178 75 c 0
 EndSplineSet
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u108B
-Encoding: 344 4235 342
+Encoding: 344 4235 344
 Width: 258
 VWidth: 0
 GlyphClass: 2
@@ -11190,11 +11207,11 @@ SplineSet
  82 206 101 181 129 181 c 0
  157 181 175 206 175 229 c 0
 EndSplineSet
-Comment: "GDL_order: 14+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 14+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u108C
-Encoding: 345 4236 343
+Encoding: 345 4236 345
 Width: 462
 VWidth: 0
 GlyphClass: 2
@@ -11225,11 +11242,11 @@ SplineSet
  286 206 305 181 333 181 c 0
  361 181 379 206 379 229 c 0
 EndSplineSet
-Comment: "GDL_order: 14+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 14+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u108D
-Encoding: 346 4237 344
+Encoding: 346 4237 346
 Width: 580
 VWidth: 0
 GlyphClass: 4
@@ -11244,11 +11261,11 @@ SplineSet
  525 -84 l 0
  525 -135 l 0
 EndSplineSet
-Comment: "GDL_order: 6+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 6+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u108E
-Encoding: 347 4238 345
+Encoding: 347 4238 347
 Width: 576
 VWidth: 0
 GlyphClass: 2
@@ -11276,11 +11293,11 @@ SplineSet
  197 284 253 273 286 273 c 0
  321 273 377 284 429 337 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u108F
-Encoding: 348 4239 346
+Encoding: 348 4239 348
 Width: 258
 VWidth: 0
 GlyphClass: 2
@@ -11315,11 +11332,11 @@ SplineSet
  82 361 100 336 129 336 c 0
  157 336 175 361 175 384 c 0
 EndSplineSet
-Comment: "GDL_order: 14+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 14+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1090
-Encoding: 349 4240 347
+Encoding: 349 4240 349
 Width: 575
 VWidth: 0
 GlyphClass: 2
@@ -11342,11 +11359,11 @@ SplineSet
  105 -323 184 -399 287 -399 c 0
  390 -399 469 -323 469 -213 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 1+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: u1091
-Encoding: 350 4241 348
+Encoding: 350 4241 350
 Width: 605
 VWidth: 0
 GlyphClass: 2
@@ -11364,11 +11381,11 @@ SplineSet
  530 -273 l 0
  550 -319 l 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 1+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: u1092
-Encoding: 351 4242 349
+Encoding: 351 4242 351
 Width: 584
 VWidth: 0
 GlyphClass: 2
@@ -11391,11 +11408,11 @@ SplineSet
  140 413 207 458 295 458 c 0
  425 458 529 350 529 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 1+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: u1093
-Encoding: 352 4243 350
+Encoding: 352 4243 352
 Width: 654
 VWidth: 0
 GlyphClass: 2
@@ -11417,11 +11434,11 @@ SplineSet
  515 9 599 -115 599 -228 c 0
  599 -450 l 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 1+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: u1094
-Encoding: 353 4244 351
+Encoding: 353 4244 353
 Width: 720
 VWidth: 0
 GlyphClass: 2
@@ -11440,11 +11457,11 @@ SplineSet
  645 -273 l 0
  665 -319 l 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 1+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: u1095
-Encoding: 354 4245 352
+Encoding: 354 4245 354
 Width: 647
 VWidth: 0
 GlyphClass: 2
@@ -11471,11 +11488,11 @@ SplineSet
  106 -311 192 -401 289 -401 c 0
  391 -401 478 -317 478 -194 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 1+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: u1096
-Encoding: 355 4246 353
+Encoding: 355 4246 355
 Width: 647
 VWidth: 0
 GlyphClass: 2
@@ -11502,11 +11519,11 @@ SplineSet
  106 114 183 35 339 35 c 0
  478 35 l 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 1+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: u1097
-Encoding: 356 4247 354
+Encoding: 356 4247 356
 Width: 526
 VWidth: 0
 GlyphClass: 2
@@ -11524,11 +11541,11 @@ SplineSet
  471 -399 l 0
  471 -450 l 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 1+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: u1098
-Encoding: 357 4248 355
+Encoding: 357 4248 357
 Width: 584
 VWidth: 0
 GlyphClass: 2
@@ -11557,11 +11574,11 @@ SplineSet
  112 -322 201 -399 294 -399 c 0
  387 -399 476 -319 476 -212 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 1+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: u1099
-Encoding: 358 4249 356
+Encoding: 358 4249 358
 Width: 584
 VWidth: 0
 GlyphClass: 2
@@ -11590,11 +11607,11 @@ SplineSet
  112 112 204 23 293 23 c 0
  384 23 476 111 476 219 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 1+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: u109A
-Encoding: 359 4250 357
+Encoding: 359 4250 359
 Width: 258
 VWidth: 0
 GlyphClass: 3
@@ -11613,11 +11630,11 @@ SplineSet
  82 361 101 336 129 336 c 0
  157 336 175 361 175 384 c 0
 EndSplineSet
-Comment: "GDL_order: 14+AAoA-mark: 183+AAoA" 
+Comment: "GDL_order: 14+AAoA-mark: 183+AAoA"
 EndChar
 
 StartChar: u109B
-Encoding: 360 4251 358
+Encoding: 360 4251 360
 Width: 258
 VWidth: 0
 GlyphClass: 3
@@ -11639,11 +11656,11 @@ SplineSet
  82 592 100 566 129 566 c 0
  157 566 175 592 175 614 c 0
 EndSplineSet
-Comment: "GDL_order: 14+AAoA-mark: 183+AAoA" 
+Comment: "GDL_order: 14+AAoA-mark: 183+AAoA"
 EndChar
 
 StartChar: u109C
-Encoding: 361 4252 359
+Encoding: 361 4252 361
 Width: 351
 VWidth: 0
 GlyphClass: 2
@@ -11680,11 +11697,11 @@ SplineSet
  84 47 108 29 130 29 c 0
  153 29 178 47 178 75 c 0
 EndSplineSet
-Comment: "GDL_order: 14+AAoA-mark: 183+AAoA" 
+Comment: "GDL_order: 14+AAoA-mark: 183+AAoA"
 EndChar
 
 StartChar: u109D
-Encoding: 362 4253 360
+Encoding: 362 4253 362
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -11702,11 +11719,11 @@ SplineSet
  -152 738 -100 687 -100 626 c 0
  -100 347 l 0
 EndSplineSet
-Comment: "GDL_order: 14+AAoA-mark: 183+AAoA" 
+Comment: "GDL_order: 14+AAoA-mark: 183+AAoA"
 EndChar
 
 StartChar: u109E
-Encoding: 363 4254 361
+Encoding: 363 4254 363
 Width: 283
 VWidth: 0
 GlyphClass: 2
@@ -11734,11 +11751,11 @@ SplineSet
  93 591 112 566 140 566 c 0
  168 566 186 591 186 614 c 0
 EndSplineSet
-Comment: "GDL_order: 11+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 11+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u109F
-Encoding: 364 4255 362
+Encoding: 364 4255 364
 Width: 766
 VWidth: 0
 GlyphClass: 2
@@ -11772,41 +11789,41 @@ SplineSet
  451 589 696 589 696 390 c 0
  696 -328 l 0xfe
 EndSplineSet
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u200B
-Encoding: 365 8203 363
+Encoding: 365 8203 365
 Width: 0
 VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u200C
-Encoding: 366 8204 364
+Encoding: 366 8204 366
 Width: 0
 VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u200D
-Encoding: 367 8205 365
+Encoding: 367 8205 367
 Width: 0
 VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: quotedblleft
-Encoding: 368 8220 366
+Encoding: 368 8220 368
 Width: 464
 VWidth: 0
 GlyphClass: 2
@@ -11833,11 +11850,11 @@ SplineSet
  336 713 378 732 399 732 c 0
  421 732 424 699 424 679 c 0
 EndSplineSet
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: quotedblright
-Encoding: 369 8221 367
+Encoding: 369 8221 369
 Width: 464
 VWidth: 0
 GlyphClass: 2
@@ -11864,11 +11881,11 @@ SplineSet
  40 851 79 883 116 883 c 0
  154 883 191 855 191 803 c 0
 EndSplineSet
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: quoteleft
-Encoding: 370 8216 368
+Encoding: 370 8216 370
 Width: 231
 VWidth: 0
 GlyphClass: 2
@@ -11886,11 +11903,11 @@ SplineSet
  103 713 145 732 166 732 c 0
  188 732 191 699 191 679 c 0
 EndSplineSet
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: quoteright
-Encoding: 371 8217 369
+Encoding: 371 8217 371
 Width: 233
 VWidth: 0
 GlyphClass: 2
@@ -11908,11 +11925,11 @@ SplineSet
  40 851 79 883 116 883 c 0
  154 883 191 855 191 803 c 0
 EndSplineSet
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: endash
-Encoding: 372 8211 370
+Encoding: 372 8211 372
 Width: 465
 VWidth: 0
 GlyphClass: 2
@@ -11926,11 +11943,11 @@ SplineSet
  465 247 l 0
  465 196 l 0
 EndSplineSet
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: emdash
-Encoding: 373 8212 371
+Encoding: 373 8212 373
 Width: 824
 VWidth: 0
 GlyphClass: 2
@@ -11944,21 +11961,21 @@ SplineSet
  824 247 l 0
  824 196 l 0
 EndSplineSet
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u2060
-Encoding: 374 8288 372
+Encoding: 374 8288 374
 Width: 0
 VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: notequal
-Encoding: 375 8800 373
+Encoding: 375 8800 375
 Width: 576
 VWidth: 0
 GlyphClass: 2
@@ -11988,11 +12005,11 @@ SplineSet
  520 162 l 0
  520 111 l 0
 EndSplineSet
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: circledash
-Encoding: 376 9676 374
+Encoding: 376 9676 376
 Width: 636
 VWidth: 0
 GlyphClass: 2
@@ -12083,11 +12100,11 @@ SplineSet
  514 156 522 163 538 163 c 0
  553 163 561 156 561 139 c 0x3e1f80
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1700
-Encoding: 377 5888 375
+Encoding: 377 5888 377
 Width: 636
 VWidth: 0
 GlyphClass: 2
@@ -12176,11 +12193,11 @@ SplineSet
  514 156 522 163 538 163 c 0
  553 163 561 156 561 139 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: uA92E
-Encoding: 378 43310 376
+Encoding: 378 43310 378
 Width: 548
 VWidth: 0
 GlyphClass: 2
@@ -12196,11 +12213,11 @@ SplineSet
  347 291 417 266 492 214 c 0
  492 176 l 0
 EndSplineSet
-Comment: "mark: 80+AAoA" 
+Comment: "mark: 80+AAoA"
 EndChar
 
 StartChar: uA9E0
-Encoding: 379 43488 377
+Encoding: 379 43488 379
 Width: 575
 VWidth: 0
 GlyphClass: 2
@@ -12233,11 +12250,11 @@ SplineSet
  114 288 130 273 150 273 c 0
  170 273 186 290 186 309 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 1+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: uA9E1
-Encoding: 380 43489 378
+Encoding: 380 43489 380
 Width: 940
 VWidth: 0
 GlyphClass: 2
@@ -12272,11 +12289,11 @@ SplineSet
  600 454 626 459 649 459 c 0
  787 459 885 351 885 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 1+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: uA9E2
-Encoding: 381 43490 379
+Encoding: 381 43490 381
 Width: 938
 VWidth: 0
 GlyphClass: 2
@@ -12310,11 +12327,11 @@ SplineSet
  95 410 184 459 276 459 c 0
  407 459 513 353 513 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 1+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: uA9E3
-Encoding: 382 43491 380
+Encoding: 382 43491 382
 Width: 989
 VWidth: 0
 GlyphClass: 2
@@ -12358,11 +12375,11 @@ SplineSet
  111 284 127 269 147 269 c 0
  167 269 183 286 183 305 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 1+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: uA9E4
-Encoding: 383 43492 381
+Encoding: 383 43492 383
 Width: 997
 VWidth: 0
 GlyphClass: 2
@@ -12397,11 +12414,11 @@ SplineSet
  477 704 584 807 711 807 c 0
  774 807 815 794 855 770 c 0
 EndSplineSet
-Comment: "GDL_order: 7+AAoA-mark: 1+AAoA" 
+Comment: "GDL_order: 7+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: uA9E5
-Encoding: 384 43493 382
+Encoding: 384 43493 384
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -12425,11 +12442,11 @@ SplineSet
  -220 762 -166 818 -101 818 c 0
  -53 818 -21 795 -2 764 c 0
 EndSplineSet
-Comment: "GDL_order: 8+AAoA-mark: 1+AAoA" 
+Comment: "GDL_order: 8+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: uA9E5_uAA7C
-Encoding: 385 -1 383
+Encoding: 385 -1 385
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -12458,11 +12475,11 @@ SplineSet
  -319 720 l 0
  -319 680 l 0
 EndSplineSet
-Comment: "GDL_order: 8+AAoA-mark: 1+AAoA" 
+Comment: "GDL_order: 8+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: uA9E6
-Encoding: 386 43494 384
+Encoding: 386 43494 386
 Width: 240
 VWidth: 0
 GlyphClass: 2
@@ -12481,11 +12498,11 @@ SplineSet
  280 814 l 0
  122 541 l 0
 EndSplineSet
-Comment: "GDL_order: 8+AAoA-mark: 1+AAoA" 
+Comment: "GDL_order: 8+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: uA9E7
-Encoding: 387 43495 385
+Encoding: 387 43495 387
 Width: 998
 VWidth: 0
 GlyphClass: 2
@@ -12520,11 +12537,11 @@ SplineSet
  543 397 622 459 711 459 c 0
  837 459 943 352 943 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 1+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: uA9E8
-Encoding: 388 43496 386
+Encoding: 388 43496 388
 Width: 997
 VWidth: 0
 GlyphClass: 2
@@ -12564,11 +12581,11 @@ SplineSet
  477 704 584 807 711 807 c 0
  774 807 815 794 855 770 c 0
 EndSplineSet
-Comment: "GDL_order: 7+AAoA-mark: 1+AAoA" 
+Comment: "GDL_order: 7+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: uA9E9
-Encoding: 389 43497 387
+Encoding: 389 43497 389
 Width: 1001
 VWidth: 0
 GlyphClass: 2
@@ -12602,11 +12619,11 @@ SplineSet
  640 262 673 295 714 295 c 0
  755 295 788 262 788 221 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 1+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: uA9EA
-Encoding: 390 43498 388
+Encoding: 390 43498 390
 Width: 959
 VWidth: 0
 GlyphClass: 2
@@ -12639,11 +12656,11 @@ SplineSet
  604 262 637 295 678 295 c 0
  719 295 752 262 752 221 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 1+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: uA9EB
-Encoding: 391 43499 389
+Encoding: 391 43499 391
 Width: 997
 VWidth: 0
 GlyphClass: 2
@@ -12676,11 +12693,11 @@ SplineSet
  635 261 668 294 709 294 c 0
  750 294 783 261 783 220 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 1+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: uA9EC
-Encoding: 392 43500 390
+Encoding: 392 43500 392
 Width: 989
 VWidth: 0
 GlyphClass: 2
@@ -12713,11 +12730,11 @@ SplineSet
  652 263 685 296 726 296 c 0
  767 296 800 263 800 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 1+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: uA9ED
-Encoding: 393 43501 391
+Encoding: 393 43501 393
 Width: 997
 VWidth: 0
 GlyphClass: 2
@@ -12755,11 +12772,11 @@ SplineSet
  634 265 668 297 709 297 c 0
  749 297 784 265 784 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 1+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: uA9EE
-Encoding: 394 43502 392
+Encoding: 394 43502 394
 Width: 989
 VWidth: 0
 GlyphClass: 2
@@ -12797,11 +12814,11 @@ SplineSet
  627 265 661 297 702 297 c 0
  742 297 777 265 777 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 1+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: uA9EF
-Encoding: 395 43503 393
+Encoding: 395 43503 395
 Width: 703
 VWidth: 0
 GlyphClass: 2
@@ -12837,11 +12854,11 @@ SplineSet
  387 249 418 277 455 277 c 0
  491 277 522 249 522 210 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 1+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: uA9FA
-Encoding: 396 43514 394
+Encoding: 396 43514 396
 Width: 959
 VWidth: 0
 GlyphClass: 2
@@ -12874,11 +12891,11 @@ SplineSet
  205 265 239 297 280 297 c 0
  320 297 355 265 355 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 1+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: uA9FB
-Encoding: 397 43515 395
+Encoding: 397 43515 397
 Width: 997
 VWidth: 0
 GlyphClass: 2
@@ -12911,11 +12928,11 @@ SplineSet
  634 265 668 297 709 297 c 0
  749 297 784 265 784 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 1+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: uA9FC
-Encoding: 398 43516 396
+Encoding: 398 43516 398
 Width: 989
 VWidth: 0
 GlyphClass: 2
@@ -12948,11 +12965,11 @@ SplineSet
  627 265 661 297 702 297 c 0
  742 297 777 265 777 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 1+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: uA9FD
-Encoding: 399 43517 397
+Encoding: 399 43517 399
 Width: 584
 VWidth: 0
 GlyphClass: 2
@@ -12977,11 +12994,11 @@ SplineSet
  217 275 251 307 292 307 c 0
  332 307 367 275 367 232 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 1+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: uA9FE
-Encoding: 400 43518 398
+Encoding: 400 43518 400
 Width: 997
 VWidth: 0
 GlyphClass: 2
@@ -13021,11 +13038,11 @@ SplineSet
  477 649 584 752 711 752 c 0
  774 752 815 739 855 715 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 1+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: uA9F0
-Encoding: 401 43504 399
+Encoding: 401 43504 401
 Width: 575
 VWidth: 0
 GlyphClass: 2
@@ -13048,11 +13065,11 @@ SplineSet
  105 112 184 36 287 36 c 0
  390 36 469 112 469 222 c 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: uA9F1
-Encoding: 402 43505 400
+Encoding: 402 43505 402
 Width: 532
 VWidth: 0
 GlyphClass: 2
@@ -13099,11 +13116,11 @@ SplineSet
  105 542 121 527 140 527 c 0
  158 527 175 542 175 563 c 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: uA9F2
-Encoding: 403 43506 401
+Encoding: 403 43506 403
 Width: 576
 VWidth: 0
 GlyphClass: 2
@@ -13137,11 +13154,11 @@ SplineSet
  469 747 l 0
  520 747 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: uA9F3
-Encoding: 404 43507 402
+Encoding: 404 43507 404
 Width: 576
 VWidth: 0
 GlyphClass: 2
@@ -13173,11 +13190,11 @@ SplineSet
  177 311 209 349 284 349 c 0
  424 349 521 291 521 166 c 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: uA9F4
-Encoding: 405 43508 403
+Encoding: 405 43508 405
 Width: 576
 VWidth: 0
 GlyphClass: 2
@@ -13209,11 +13226,11 @@ SplineSet
  378 36 445 74 476 146 c 0
  521 121 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: uA9F5
-Encoding: 406 43509 404
+Encoding: 406 43509 406
 Width: 584
 VWidth: 0
 GlyphClass: 2
@@ -13240,11 +13257,11 @@ SplineSet
  150 413 217 447 292 447 c 0
  423 447 529 345 529 202 c 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: uA9F6
-Encoding: 407 43510 405
+Encoding: 407 43510 407
 Width: 584
 VWidth: 0
 GlyphClass: 2
@@ -13271,11 +13288,11 @@ SplineSet
  478 611 448 662 401 704 c 0
  431 747 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: uA9F7
-Encoding: 408 43511 406
+Encoding: 408 43511 408
 Width: 564
 VWidth: 0
 GlyphClass: 2
@@ -13304,11 +13321,11 @@ SplineSet
  142 395 167 366 202 366 c 0
  236 366 260 395 260 426 c 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: uA9F8
-Encoding: 409 43512 407
+Encoding: 409 43512 409
 Width: 584
 VWidth: 0
 GlyphClass: 2
@@ -13335,11 +13352,11 @@ SplineSet
  65 597 161 670 292 670 c 0
  348 670 399 661 440 639 c 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: uA9F9
-Encoding: 410 43513 408
+Encoding: 410 43513 410
 Width: 795
 VWidth: 0
 GlyphClass: 2
@@ -13366,11 +13383,11 @@ SplineSet
  55 278 64 329 86 370 c 0
  131 346 l 0
 EndSplineSet
-Comment: "mark: 1+AAoA" 
+Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: uAA60
-Encoding: 411 43616 409
+Encoding: 411 43616 411
 Width: 938
 VWidth: 0
 GlyphClass: 2
@@ -13406,11 +13423,11 @@ SplineSet
  619 37 632 36 645 36 c 0
  728 36 804 89 825 177 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA60.med
-Encoding: 412 -1 410
+Encoding: 412 -1 412
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -13448,11 +13465,11 @@ SplineSet
  -262 -411 -252 -412 -242 -412 c 0
  -177 -412 -118 -372 -102 -302 c 0
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA60.med.kham
-Encoding: 413 -1 411
+Encoding: 413 -1 413
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -13490,11 +13507,11 @@ SplineSet
  -262 -411 -252 -412 -242 -412 c 0
  -177 -412 -118 -372 -102 -302 c 0
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA61
-Encoding: 414 43617 412
+Encoding: 414 43617 414
 Width: 991
 VWidth: 0
 GlyphClass: 2
@@ -13527,11 +13544,11 @@ SplineSet
  522 120 603 36 705 36 c 0
  805 36 885 120 885 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 183+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 183+AAoA"
 EndChar
 
 StartChar: uAA62
-Encoding: 415 43618 413
+Encoding: 415 43618 415
 Width: 640
 VWidth: 0
 GlyphClass: 2
@@ -13556,11 +13573,11 @@ SplineSet
  342 455 363 459 382 459 c 0
  510 459 585 352 585 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 183+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 183+AAoA"
 EndChar
 
 StartChar: uAA63
-Encoding: 416 43619 414
+Encoding: 416 43619 416
 Width: 990
 VWidth: 0
 GlyphClass: 2
@@ -13598,11 +13615,11 @@ SplineSet
  363 153 369 111 400 64 c 0
  451 110 471 154 471 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA64
-Encoding: 417 43620 415
+Encoding: 417 43620 417
 Width: 999
 VWidth: 0
 GlyphClass: 2
@@ -13631,11 +13648,11 @@ SplineSet
  529 120 609 36 709 36 c 0
  810 36 892 120 892 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA65
-Encoding: 418 43621 416
+Encoding: 418 43621 418
 Width: 1006
 VWidth: 0
 GlyphClass: 2
@@ -13675,11 +13692,11 @@ SplineSet
  560 402 633 459 718 459 c 0
  846 459 951 352 951 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 183+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 183+AAoA"
 EndChar
 
 StartChar: uAA66
-Encoding: 419 43622 417
+Encoding: 419 43622 419
 Width: 997
 VWidth: 0
 GlyphClass: 2
@@ -13712,11 +13729,11 @@ SplineSet
  214 265 248 297 289 297 c 0
  329 297 364 265 364 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA67
-Encoding: 420 43623 418
+Encoding: 420 43623 420
 Width: 990
 VWidth: 0
 GlyphClass: 2
@@ -13749,11 +13766,11 @@ SplineSet
  214 265 248 297 289 297 c 0
  329 297 364 265 364 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA68
-Encoding: 421 43624 419
+Encoding: 421 43624 421
 Width: 937
 VWidth: 0
 GlyphClass: 2
@@ -13793,11 +13810,11 @@ SplineSet
  214 265 248 297 289 297 c 0
  329 297 364 265 364 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA69
-Encoding: 422 43625 420
+Encoding: 422 43625 422
 Width: 990
 VWidth: 0
 GlyphClass: 2
@@ -13838,11 +13855,11 @@ SplineSet
  214 265 248 297 289 297 c 0
  329 297 364 265 364 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA6A
-Encoding: 423 43626 421
+Encoding: 423 43626 423
 Width: 990
 VWidth: 0
 GlyphClass: 2
@@ -13878,11 +13895,11 @@ SplineSet
  106 119 188 36 286 36 c 0
  387 36 469 119 469 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA6B
-Encoding: 424 43627 422
+Encoding: 424 43627 424
 Width: 714
 VWidth: 0
 GlyphClass: 2
@@ -13913,11 +13930,11 @@ SplineSet
  231 146 253 77 298 48 c 0
  309 55 325 78 325 109 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 183+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 183+AAoA"
 EndChar
 
 StartChar: uAA6C
-Encoding: 425 43628 423
+Encoding: 425 43628 425
 Width: 990
 VWidth: 0
 GlyphClass: 2
@@ -13945,11 +13962,11 @@ SplineSet
  691 454 714 459 732 459 c 0
  859 459 934 352 934 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 170+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 170+AAoA"
 EndChar
 
 StartChar: uAA6C.alt
-Encoding: 426 -1 424
+Encoding: 426 -1 426
 Width: 950
 VWidth: 0
 GlyphClass: 2
@@ -13983,11 +14000,11 @@ SplineSet
  55 357 144 460 285 460 c 0
  425 460 522 344 522 204 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 1+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: uAA6D
-Encoding: 427 43629 425
+Encoding: 427 43629 427
 Width: 843
 VWidth: 0
 GlyphClass: 2
@@ -14026,11 +14043,11 @@ SplineSet
  195 313 222 289 253 289 c 0
  285 289 313 313 313 348 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA6E
-Encoding: 428 43630 426
+Encoding: 428 43630 428
 Width: 960
 VWidth: 0
 GlyphClass: 2
@@ -14064,11 +14081,11 @@ SplineSet
  131 96 204 36 291 36 c 0
  304 36 317 37 331 40 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA6F
-Encoding: 429 43631 427
+Encoding: 429 43631 429
 Width: 726
 VWidth: 0
 GlyphClass: 2
@@ -14093,11 +14110,11 @@ SplineSet
  256 120 336 36 436 36 c 0
  537 36 619 120 619 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 183+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 183+AAoA"
 EndChar
 
 StartChar: uAA70
-Encoding: 430 43632 428
+Encoding: 430 43632 430
 Width: 534
 VWidth: 0
 GlyphClass: 4
@@ -14121,11 +14138,11 @@ SplineSet
  129 688 198 721 267 721 c 0
  334 721 404 688 448 628 c 0
 EndSplineSet
-Comment: "GDL_order: 0+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA71
-Encoding: 431 43633 429
+Encoding: 431 43633 431
 Width: 1002
 VWidth: 0
 GlyphClass: 2
@@ -14160,11 +14177,11 @@ SplineSet
  106 145 139 102 177 64 c 0
  207 111 214 153 214 184 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA72
-Encoding: 432 43634 430
+Encoding: 432 43634 432
 Width: 1207
 VWidth: 0
 GlyphClass: 2
@@ -14203,11 +14220,11 @@ SplineSet
  105 122 163 39 218 36 c 0
  218 72 210 126 191 160 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA73
-Encoding: 433 43635 431
+Encoding: 433 43635 433
 Width: 640
 VWidth: 0
 GlyphClass: 2
@@ -14230,11 +14247,11 @@ SplineSet
  342 455 363 459 382 459 c 0
  510 459 585 352 585 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 183+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 183+AAoA"
 EndChar
 
 StartChar: uAA74
-Encoding: 434 43636 432
+Encoding: 434 43636 434
 Width: 749
 VWidth: 0
 GlyphClass: 3
@@ -14285,11 +14302,11 @@ SplineSet
  410 63 l 0
  453 103 478 162 478 238 c 0
 EndSplineSet
-Comment: "GDL_order: 0+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA75
-Encoding: 435 43637 433
+Encoding: 435 43637 435
 Width: 1120
 VWidth: 0
 GlyphClass: 3
@@ -14345,11 +14362,11 @@ SplineSet
  627 -308 608 -329 608 -353 c 0
  608 -377 627 -399 654 -399 c 0
 EndSplineSet
-Comment: "GDL_order: 0+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA76
-Encoding: 436 43638 434
+Encoding: 436 43638 436
 Width: 1139
 VWidth: 0
 GlyphClass: 3
@@ -14411,11 +14428,11 @@ SplineSet
  638 -308 618 -329 618 -353 c 0
  618 -377 638 -399 664 -399 c 0
 EndSplineSet
-Comment: "GDL_order: 0+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA77
-Encoding: 437 43639 435
+Encoding: 437 43639 437
 Width: 832
 VWidth: 0
 GlyphClass: 2
@@ -14455,11 +14472,11 @@ SplineSet
  792 51 l 0
  792 0 l 0
 EndSplineSet
-Comment: "mark: 183+AAoA" 
+Comment: "mark: 183+AAoA"
 EndChar
 
 StartChar: uAA78
-Encoding: 438 43640 436
+Encoding: 438 43640 438
 Width: 492
 VWidth: 0
 GlyphClass: 3
@@ -14495,11 +14512,11 @@ SplineSet
  86 388 l 0
  120 360 164 306 164 223 c 0
 EndSplineSet
-Comment: "mark: 183+AAoA" 
+Comment: "mark: 183+AAoA"
 EndChar
 
 StartChar: uAA79
-Encoding: 439 43641 437
+Encoding: 439 43641 439
 Width: 588
 VWidth: 0
 GlyphClass: 2
@@ -14523,11 +14540,11 @@ SplineSet
  615 -399 l 0
  615 -450 l 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 183+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 183+AAoA"
 EndChar
 
 StartChar: uAA7A
-Encoding: 440 43642 438
+Encoding: 440 43642 440
 Width: 1090
 VWidth: 0
 GlyphClass: 2
@@ -14569,11 +14586,11 @@ SplineSet
  747 454 770 459 795 459 c 0
  924 459 1020 351 1020 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 183+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 183+AAoA"
 EndChar
 
 StartChar: uAA7B
-Encoding: 441 43643 439
+Encoding: 441 43643 441
 Width: 258
 VWidth: 0
 GlyphClass: 3
@@ -14598,11 +14615,11 @@ SplineSet
  83 54 101 28 129 28 c 0
  158 28 176 54 176 76 c 0
 EndSplineSet
-Comment: "GDL_order: 14+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 14+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: uAA7C
-Encoding: 442 43644 440
+Encoding: 442 43644 442
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -14616,11 +14633,11 @@ SplineSet
  0 648 l 0
  0 597 l 0
 EndSplineSet
-Comment: "GDL_order: 6+AAoA-mark: 1+AAoA" 
+Comment: "GDL_order: 6+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: uAA7D
-Encoding: 443 43645 441
+Encoding: 443 43645 443
 Width: 495
 VWidth: 0
 GlyphClass: 2
@@ -14634,11 +14651,11 @@ SplineSet
  55 247 l 0
  439 247 l 0
 EndSplineSet
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: uAA7E
-Encoding: 444 43646 442
+Encoding: 444 43646 444
 Width: 726
 VWidth: 0
 GlyphClass: 2
@@ -14675,11 +14692,11 @@ SplineSet
  671 444 l 0
  671 -455 l 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 1+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: uAA7F
-Encoding: 445 43647 443
+Encoding: 445 43647 445
 Width: 1140
 VWidth: 0
 GlyphClass: 2
@@ -14725,11 +14742,11 @@ SplineSet
  1085 444 l 0
  1085 -450 l 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 1+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: u1000.kham
-Encoding: 446 -1 444
+Encoding: 446 -1 446
 Width: 1002
 VWidth: 0
 GlyphClass: 2
@@ -14760,11 +14777,11 @@ SplineSet
  549 397 625 459 714 459 c 0
  840 459 946 351 946 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u1002.kham
-Encoding: 447 -1 445
+Encoding: 447 -1 447
 Width: 585
 VWidth: 0
 GlyphClass: 2
@@ -14786,11 +14803,11 @@ SplineSet
  55 354 161 457 292 457 c 0
  423 457 529 354 529 202 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u1004.kham
-Encoding: 448 -1 446
+Encoding: 448 -1 448
 Width: 568
 VWidth: 0
 GlyphClass: 2
@@ -14812,11 +14829,11 @@ SplineSet
  364 36 432 75 469 147 c 0
  513 121 l 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u1010.kham
-Encoding: 449 -1 447
+Encoding: 449 -1 449
 Width: 997
 VWidth: 0
 GlyphClass: 2
@@ -14846,11 +14863,11 @@ SplineSet
  106 120 187 36 286 36 c 0
  394 36 469 127 469 217 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u1015.kham
-Encoding: 450 -1 448
+Encoding: 450 -1 450
 Width: 585
 VWidth: 0
 GlyphClass: 2
@@ -14872,11 +14889,11 @@ SplineSet
  432 457 l 0
  491 410 529 349 529 240 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u1019.kham
-Encoding: 451 -1 449
+Encoding: 451 -1 451
 Width: 585
 VWidth: 0
 GlyphClass: 2
@@ -14905,11 +14922,11 @@ SplineSet
  184 61 234 36 292 36 c 0
  352 36 400 60 436 106 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u101A.kham
-Encoding: 452 -1 450
+Encoding: 452 -1 452
 Width: 994
 VWidth: 0
 GlyphClass: 2
@@ -14940,11 +14957,11 @@ SplineSet
  658 454 681 459 706 459 c 0
  832 459 939 351 939 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u101C.kham
-Encoding: 453 -1 451
+Encoding: 453 -1 453
 Width: 960
 VWidth: 0
 GlyphClass: 2
@@ -14973,11 +14990,11 @@ SplineSet
  631 454 654 459 679 459 c 0
  807 459 904 351 904 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u1022.kham
-Encoding: 454 -1 452
+Encoding: 454 -1 454
 Width: 994
 VWidth: 0
 GlyphClass: 2
@@ -15013,11 +15030,11 @@ SplineSet
  541 394 619 459 706 459 c 0
  834 459 939 351 939 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u1032.kham
-Encoding: 455 -1 453
+Encoding: 455 -1 455
 Width: 60
 VWidth: 0
 GlyphClass: 4
@@ -15033,11 +15050,11 @@ SplineSet
  -165 735 -179 699 -218 688 c 0
  -189 635 -62 597 42 577 c 0
 EndSplineSet
-Comment: "GDL_order: 9+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 9+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u1075.kham
-Encoding: 456 -1 454
+Encoding: 456 -1 456
 Width: 578
 VWidth: 0
 GlyphClass: 2
@@ -15063,11 +15080,11 @@ SplineSet
  55 366 153 457 285 457 c 0
  417 457 522 354 522 202 c 0
 EndSplineSet
-Comment: "GDL_order: 7+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 7+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u1078.kham
-Encoding: 457 -1 455
+Encoding: 457 -1 457
 Width: 999
 VWidth: 0
 GlyphClass: 2
@@ -15098,11 +15115,11 @@ SplineSet
  529 120 610 36 712 36 c 0
  812 36 892 120 892 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u1080.kham
-Encoding: 458 -1 456
+Encoding: 458 -1 458
 Width: 997
 VWidth: 0
 GlyphClass: 2
@@ -15139,11 +15156,11 @@ SplineSet
  151 63 215 36 283 36 c 0
  318 36 345 45 373 58 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA60.kham
-Encoding: 459 -1 457
+Encoding: 459 -1 459
 Width: 938
 VWidth: 0
 GlyphClass: 2
@@ -15181,11 +15198,11 @@ SplineSet
  619 37 632 36 645 36 c 0
  728 36 804 89 825 177 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA61.kham
-Encoding: 460 -1 458
+Encoding: 460 -1 460
 Width: 991
 VWidth: 0
 GlyphClass: 2
@@ -15220,11 +15237,11 @@ SplineSet
  522 120 603 36 705 36 c 0
  805 36 885 120 885 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA62.kham
-Encoding: 461 -1 459
+Encoding: 461 -1 461
 Width: 640
 VWidth: 0
 GlyphClass: 2
@@ -15252,11 +15269,11 @@ SplineSet
  342 455 363 459 382 459 c 0
  510 459 585 352 585 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA63.kham
-Encoding: 462 -1 460
+Encoding: 462 -1 462
 Width: 990
 VWidth: 0
 GlyphClass: 2
@@ -15296,11 +15313,11 @@ SplineSet
  363 153 369 111 400 64 c 0
  439 103 471 147 471 199 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA64.kham
-Encoding: 463 -1 461
+Encoding: 463 -1 463
 Width: 999
 VWidth: 0
 GlyphClass: 2
@@ -15331,11 +15348,11 @@ SplineSet
  529 120 609 36 709 36 c 0
  810 36 892 120 892 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA65.kham
-Encoding: 464 -1 462
+Encoding: 464 -1 464
 Width: 1006
 VWidth: 0
 GlyphClass: 2
@@ -15377,11 +15394,11 @@ SplineSet
  560 402 633 459 718 459 c 0
  846 459 951 352 951 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA66.kham
-Encoding: 465 -1 463
+Encoding: 465 -1 465
 Width: 997
 VWidth: 0
 GlyphClass: 2
@@ -15416,11 +15433,11 @@ SplineSet
  214 264 248 297 289 297 c 0
  329 297 364 264 364 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA6B.kham
-Encoding: 466 -1 464
+Encoding: 466 -1 466
 Width: 714
 VWidth: 0
 GlyphClass: 2
@@ -15451,11 +15468,11 @@ SplineSet
  231 146 253 77 298 48 c 0
  309 55 325 78 325 109 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA6C.kham
-Encoding: 467 -1 465
+Encoding: 467 -1 467
 Width: 990
 VWidth: 0
 GlyphClass: 2
@@ -15484,11 +15501,11 @@ SplineSet
  691 455 713 459 732 459 c 0
  860 459 934 352 934 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA6F.kham
-Encoding: 468 -1 466
+Encoding: 468 -1 468
 Width: 726
 VWidth: 0
 GlyphClass: 2
@@ -15516,11 +15533,11 @@ SplineSet
  256 120 337 36 436 36 c 0
  538 36 619 120 619 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA73.kham
-Encoding: 469 -1 467
+Encoding: 469 -1 469
 Width: 640
 VWidth: 0
 GlyphClass: 2
@@ -15546,11 +15563,11 @@ SplineSet
  342 455 363 459 382 459 c 0
  510 459 585 352 585 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA75.kham
-Encoding: 470 -1 468
+Encoding: 470 -1 470
 Width: 1120
 VWidth: 0
 GlyphClass: 2
@@ -15608,11 +15625,11 @@ SplineSet
  627 -308 608 -329 608 -353 c 0
  608 -377 627 -399 654 -399 c 0
 EndSplineSet
-Comment: "GDL_order: 0+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA76.kham
-Encoding: 471 -1 469
+Encoding: 471 -1 471
 Width: 1139
 VWidth: 0
 GlyphClass: 2
@@ -15677,11 +15694,11 @@ SplineSet
  638 -308 618 -329 618 -353 c 0
  618 -377 638 -399 664 -399 c 0
 EndSplineSet
-Comment: "GDL_order: 0+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 0+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u1032_uAA70
-Encoding: 472 -1 470
+Encoding: 472 -1 472
 Width: 60
 VWidth: 0
 GlyphClass: 4
@@ -15704,11 +15721,11 @@ SplineSet
  -98 735 l 0
  -61 716 9 692 59 684 c 0
 EndSplineSet
-Comment: "GDL_order: 9+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 9+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u103A_uAA70
-Encoding: 473 -1 471
+Encoding: 473 -1 473
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -15735,11 +15752,11 @@ SplineSet
  -203 794 -169 809 -137 809 c 0
  -105 809 -71 794 -46 759 c 0
 EndSplineSet
-Comment: "GDL_order: 12+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 12+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u1036.dot
-Encoding: 474 -1 472
+Encoding: 474 -1 474
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -15753,11 +15770,11 @@ SplineSet
  -150 760 -116 795 -75 795 c 0
  -35 795 0 760 0 720 c 0
 EndSplineSet
-Comment: "GDL_order: 10+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 10+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u1038.dot
-Encoding: 475 -1 473
+Encoding: 475 -1 475
 Width: 258
 VWidth: 0
 GlyphClass: 2
@@ -15776,11 +15793,11 @@ SplineSet
  54 426 88 459 129 459 c 0
  169 459 204 426 204 384 c 0
 EndSplineSet
-Comment: "GDL_order: 14+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 14+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u1087.dot
-Encoding: 476 -1 474
+Encoding: 476 -1 476
 Width: 261
 VWidth: 0
 GlyphClass: 2
@@ -15797,11 +15814,11 @@ SplineSet
  55 -119 88 -84 129 -84 c 0
  169 -84 206 -117 206 -169 c 0
 EndSplineSet
-Comment: "GDL_order: 14+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 14+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u1088.dot
-Encoding: 477 -1 475
+Encoding: 477 -1 477
 Width: 262
 VWidth: 0
 GlyphClass: 2
@@ -15823,11 +15840,11 @@ SplineSet
  55 425 90 459 130 459 c 0
  170 459 205 425 205 384 c 0
 EndSplineSet
-Comment: "GDL_order: 14+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 14+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u1089.dot
-Encoding: 478 -1 476
+Encoding: 478 -1 478
 Width: 261
 VWidth: 0
 GlyphClass: 2
@@ -15841,11 +15858,11 @@ SplineSet
  55 -116 90 -84 130 -84 c 0
  171 -84 205 -116 205 -159 c 0
 EndSplineSet
-Comment: "GDL_order: 14+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 14+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u108A.dot
-Encoding: 479 -1 477
+Encoding: 479 -1 479
 Width: 415
 VWidth: 0
 GlyphClass: 2
@@ -15870,11 +15887,11 @@ SplineSet
  240 46 320 91 344 128 c 0
  360 122 l 0
 EndSplineSet
-Comment: "GDL_order: 14+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 14+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u109A.dot
-Encoding: 480 -1 478
+Encoding: 480 -1 480
 Width: 258
 VWidth: 0
 GlyphClass: 2
@@ -15888,11 +15905,11 @@ SplineSet
  54 427 88 459 129 459 c 4
  169 459 204 427 204 384 c 4
 EndSplineSet
-Comment: "GDL_order: 14+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 14+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u109B.dot
-Encoding: 481 -1 479
+Encoding: 481 -1 481
 Width: 206
 VWidth: 0
 GlyphClass: 2
@@ -15909,11 +15926,11 @@ SplineSet
  0 652 33 687 74 687 c 0
  114 687 151 654 151 602 c 0
 EndSplineSet
-Comment: "GDL_order: 14+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 14+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA7B.dot
-Encoding: 482 -1 480
+Encoding: 482 -1 482
 Width: 261
 VWidth: 0
 GlyphClass: 2
@@ -15930,11 +15947,11 @@ SplineSet
  129 -234 125 -234 120 -233 c 0
  120 -269 167 -349 202 -373 c 0
 EndSplineSet
-Comment: "GDL_order: 14+AAoA-mark: 210+AAoA" 
+Comment: "GDL_order: 14+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u1010_u103D.med.tri
-Encoding: 483 -1 481
+Encoding: 483 -1 483
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -15972,11 +15989,11 @@ SplineSet
  -210 -411 -191 -420 -152 -420 c 0
  -108 -420 -93 -411 -93 -395 c 0
 EndSplineSet
-Comment: "GDL_order: 2+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103B_u103D.tri
-Encoding: 484 -1 482
+Encoding: 484 -1 484
 Width: 162
 VWidth: 0
 GlyphClass: 2
@@ -16001,11 +16018,11 @@ SplineSet
  -345 -383 -291 -396 -218 -396 c 0
  -134 -396 -90 -381 -90 -335 c 0
 EndSplineSet
-Comment: "GDL_order: 3+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 3+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103B_u103D_u103E.tri
-Encoding: 485 -1 483
+Encoding: 485 -1 485
 Width: 162
 VWidth: 0
 GlyphClass: 2
@@ -16036,11 +16053,11 @@ SplineSet
  -346 -383 -293 -396 -218 -396 c 0
  -134 -396 -91 -382 -91 -335 c 0
 EndSplineSet
-Comment: "GDL_order: 3+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 3+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103C_u103D.alt.narr.tri
-Encoding: 486 -1 484
+Encoding: 486 -1 486
 Width: 172
 VWidth: 0
 GlyphClass: 2
@@ -16073,11 +16090,11 @@ SplineSet
  346 -398 399 -411 474 -411 c 0
  558 -411 601 -397 601 -350 c 0
 EndSplineSet
-Comment: "GDL_order: 4+AAoA-GDL_advx: 753m+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 4+AAoA-GDL_advx: 753m+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103C_u103D.alt.wide.tri
-Encoding: 487 -1 485
+Encoding: 487 -1 487
 Width: 172
 VWidth: 0
 GlyphClass: 2
@@ -16111,11 +16128,11 @@ SplineSet
  748 -398 804 -411 876 -411 c 0
  960 -411 1003 -397 1003 -350 c 0
 EndSplineSet
-Comment: "GDL_order: 4+AAoA-GDL_advx: 1174m+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 4+AAoA-GDL_advx: 1174m+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103C_u103D.narr.tri
-Encoding: 488 -1 486
+Encoding: 488 -1 488
 Width: 172
 VWidth: 0
 GlyphClass: 2
@@ -16153,11 +16170,11 @@ SplineSet
  346 -398 399 -411 474 -411 c 0
  558 -411 601 -397 601 -350 c 0
 EndSplineSet
-Comment: "GDL_order: 4+AAoA-GDL_advx: 753m+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 4+AAoA-GDL_advx: 753m+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103C_u103D.wide.tri
-Encoding: 489 -1 487
+Encoding: 489 -1 489
 Width: 172
 VWidth: 0
 GlyphClass: 2
@@ -16195,11 +16212,11 @@ SplineSet
  748 -398 804 -411 876 -411 c 0
  960 -411 1003 -397 1003 -350 c 0
 EndSplineSet
-Comment: "GDL_order: 4+AAoA-GDL_advx: 1174m+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 4+AAoA-GDL_advx: 1174m+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103D.tri
-Encoding: 490 -1 488
+Encoding: 490 -1 490
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -16218,11 +16235,11 @@ SplineSet
  -353 -398 -300 -411 -225 -411 c 0
  -141 -411 -98 -397 -98 -350 c 0
 EndSplineSet
-Comment: "GDL_order: 5+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 5+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103D_u103E.tri
-Encoding: 491 -1 489
+Encoding: 491 -1 491
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -16247,11 +16264,11 @@ SplineSet
  -353 -398 -300 -411 -225 -411 c 0
  -141 -411 -98 -397 -98 -350 c 0
 EndSplineSet
-Comment: "GDL_order: 5+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 5+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103D_u103E.small.tri
-Encoding: 492 -1 490
+Encoding: 492 -1 492
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -16276,11 +16293,11 @@ SplineSet
  -298 -333 -257 -344 -197 -344 c 0
  -132 -344 -97 -332 -97 -296 c 0
 EndSplineSet
-Comment: "GDL_order: 5+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 5+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103E.slantr
-Encoding: 493 -1 491
+Encoding: 493 -1 493
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -16296,11 +16313,11 @@ SplineSet
  -52 -86 l 0
  -4 -102 l 0
 EndSplineSet
-Comment: "GDL_order: 6+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 6+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103E.slanth
-Encoding: 494 -1 492
+Encoding: 494 -1 494
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -16320,11 +16337,11 @@ SplineSet
  -52 -86 l 0
  -4 -102 l 0
 EndSplineSet
-Comment: "GDL_order: 6+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 6+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103E_u102F.slantr
-Encoding: 495 -1 493
+Encoding: 495 -1 495
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -16347,11 +16364,11 @@ SplineSet
  -240 -102 l 0
  -366 -450 l 0
 EndSplineSet
-Comment: "GDL_order: 6+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 6+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103E_u102F.slanth
-Encoding: 496 -1 494
+Encoding: 496 -1 496
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -16378,11 +16395,11 @@ SplineSet
  -288 -86 l 0
  -240 -102 l 0
 EndSplineSet
-Comment: "GDL_order: 6+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 6+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103E_u1030.slantr
-Encoding: 497 -1 495
+Encoding: 497 -1 497
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -16410,11 +16427,11 @@ SplineSet
  -431 -86 l 0
  -383 -102 l 0
 EndSplineSet
-Comment: "GDL_order: 6+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 6+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103E_u1030.slanth
-Encoding: 498 -1 496
+Encoding: 498 -1 498
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -16446,23 +16463,7 @@ SplineSet
  -431 -86 l 0
  -383 -102 l 0
 EndSplineSet
-Comment: "GDL_order: 6+AAoA-mark: 80+AAoA" 
-EndChar
-
-StartChar: .null
-Encoding: 0 -1 497
-Width: 1000
-VWidth: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: nonmarkingreturn
-Encoding: 13 13 498
-Width: 1000
-VWidth: 0
-Flags: W
-LayerCount: 2
+Comment: "GDL_order: 6+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1081
@@ -16489,7 +16490,7 @@ SplineSet
  363 408 432 367 469 297 c 1
  513 322 l 1
 EndSplineSet
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA" 
+Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1011.aiph
@@ -16524,7 +16525,7 @@ SplineSet
  532 406 612 459 702 459 c 0
  828 459 934 351 934 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1" 
+Comment: "GDL_order: 1"
 EndChar
 
 StartChar: u107A.aiph
@@ -16561,7 +16562,7 @@ SplineSet
  370 21 336 -15 280 -15 c 0
  153 -15 55 91 55 222 c 0
 EndSplineSet
-Comment: "GDL_order: 1" 
+Comment: "GDL_order: 1"
 EndChar
 
 StartChar: u101D.aiph
@@ -16611,7 +16612,7 @@ SplineSet
  220 55 227.0390625 44.1015625 222 46 c 0
  153 72 106 141 106 222 c 0
 EndSplineSet
-Comment: "GDL_order: 7" 
+Comment: "GDL_order: 7"
 EndChar
 
 StartChar: u102E_u1036
@@ -16654,27 +16655,30 @@ EndChar
 
 StartChar: u1032_u1036
 Encoding: 505 -1 505
-Width: 55
+Width: 0
 VWidth: 0
 Flags: HW
+HStem: 610 270
+VStem: -376 321
 LayerCount: 2
 Fore
 SplineSet
--155 643 m 0
- -178 610 l 0
- -476 847 l 0
- -454 880 l 0
- -155 643 l 0
-0 720 m 0
- 0 677 -35 643 -75 643 c 0
- -116 643 -150 677 -150 720 c 0
- -150 760 -116 795 -75 795 c 0
- -35 795 0 760 0 720 c 0
--29 720 m 0
- -29 745 -50 765 -75 765 c 0
- -102 765 -122 745 -122 720 c 0
- -122 691 -102 672 -75 672 c 0
- -50 672 -29 691 -29 720 c 0
+-55 733 m 4
+ -55 692 -90 656 -130 656 c 4
+ -171 656 -205 692 -205 733 c 4
+ -205 773 -171 808 -130 808 c 4
+ -90 808 -55 773 -55 733 c 4
+-84 733 m 4
+ -84 758 -105 779 -130 779 c 4
+ -157 779 -177 758 -177 733 c 4
+ -177 706 -157 685 -130 685 c 4
+ -105 685 -84 706 -84 733 c 4
+-235 643 m 4
+ -258 610 l 4
+ -556 847 l 4
+ -534 880 l 4
+ -235 643 l 4
 EndSplineSet
-EndCharEndChars
+EndChar
+EndChars
 EndSplineFont

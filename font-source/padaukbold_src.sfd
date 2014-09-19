@@ -4414,7 +4414,7 @@ AnchorClass2: "BD"  "markMarkPositioninginMyanmarloo subtable" "BDM"  "mkmkMarkt
 BeginChars: 500 502
 
 StartChar: .notdef
-Encoding: -1 -1 0
+Encoding: 0 -1 0
 Width: 1
 VWidth: 0
 GlyphClass: 2
@@ -4436,7 +4436,7 @@ EndSplineSet
 EndChar
 
 StartChar: space
-Encoding: 1 32 1
+Encoding: 3 32 3
 Width: 505
 VWidth: 0
 GlyphClass: 2
@@ -4446,7 +4446,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: exclam
-Encoding: 2 33 2
+Encoding: 4 33 4
 Width: 273
 VWidth: 0
 GlyphClass: 2
@@ -4473,7 +4473,7 @@ Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: quotedbl
-Encoding: 3 34 3
+Encoding: 5 34 5
 Width: 443
 VWidth: 0
 GlyphClass: 2
@@ -4496,7 +4496,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: numbersign
-Encoding: 4 35 4
+Encoding: 6 35 6
 Width: 555
 VWidth: 0
 GlyphClass: 2
@@ -4543,7 +4543,7 @@ Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: dollar
-Encoding: 5 36 5
+Encoding: 7 36 7
 Width: 507
 VWidth: 0
 GlyphClass: 2
@@ -4583,7 +4583,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: percent
-Encoding: 6 37 6
+Encoding: 8 37 8
 Width: 743
 VWidth: 0
 GlyphClass: 2
@@ -4621,7 +4621,7 @@ Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: ampersand
-Encoding: 7 38 7
+Encoding: 9 38 9
 Width: 696
 VWidth: 0
 GlyphClass: 2
@@ -4660,7 +4660,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: quotesingle
-Encoding: 8 39 8
+Encoding: 10 39 10
 Width: 353
 VWidth: 0
 GlyphClass: 2
@@ -4678,7 +4678,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: parenleft
-Encoding: 9 40 9
+Encoding: 11 40 11
 Width: 441
 VWidth: 0
 GlyphClass: 2
@@ -4698,7 +4698,7 @@ Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: parenright
-Encoding: 10 41 10
+Encoding: 12 41 12
 Width: 442
 VWidth: 0
 GlyphClass: 2
@@ -4718,7 +4718,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: asterisk
-Encoding: -1 42 11
+Encoding: 13 42 13
 Width: 568
 VWidth: 0
 GlyphClass: 2
@@ -4750,7 +4750,7 @@ Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: plus
-Encoding: 12 43 12
+Encoding: 14 43 14
 Width: 578
 VWidth: 0
 GlyphClass: 2
@@ -4776,7 +4776,7 @@ Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: comma
-Encoding: 13 44 13
+Encoding: 15 44 15
 Width: 249
 VWidth: 0
 GlyphClass: 2
@@ -4798,7 +4798,7 @@ Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: hyphen
-Encoding: 14 45 14
+Encoding: 16 45 16
 Width: 503
 VWidth: 0
 GlyphClass: 2
@@ -4816,7 +4816,7 @@ Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: period
-Encoding: 15 46 15
+Encoding: 17 46 17
 Width: 243
 VWidth: 0
 GlyphClass: 2
@@ -4834,7 +4834,7 @@ Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: slash
-Encoding: 16 47 16
+Encoding: 18 47 18
 Width: 537
 VWidth: 0
 GlyphClass: 2
@@ -4852,7 +4852,7 @@ Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: zero
-Encoding: 17 48 17
+Encoding: 19 48 19
 Width: 507
 VWidth: 0
 GlyphClass: 2
@@ -4875,7 +4875,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: one
-Encoding: 18 49 18
+Encoding: 20 49 20
 Width: 507
 VWidth: 0
 GlyphClass: 2
@@ -4896,7 +4896,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: two
-Encoding: 19 50 19
+Encoding: 21 50 21
 Width: 507
 VWidth: 0
 GlyphClass: 2
@@ -4921,7 +4921,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: three
-Encoding: 20 51 20
+Encoding: 22 51 22
 Width: 507
 VWidth: 0
 GlyphClass: 2
@@ -4950,7 +4950,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: four
-Encoding: 21 52 21
+Encoding: 23 52 23
 Width: 507
 VWidth: 0
 GlyphClass: 2
@@ -4979,7 +4979,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: five
-Encoding: 22 53 22
+Encoding: 24 53 24
 Width: 507
 VWidth: 0
 GlyphClass: 2
@@ -5008,7 +5008,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: six
-Encoding: 23 54 23
+Encoding: 25 54 25
 Width: 507
 VWidth: 0
 GlyphClass: 2
@@ -5036,7 +5036,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: seven
-Encoding: 24 55 24
+Encoding: 26 55 26
 Width: 507
 VWidth: 0
 GlyphClass: 2
@@ -5057,7 +5057,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: eight
-Encoding: 25 56 25
+Encoding: 27 56 27
 Width: 507
 VWidth: 0
 GlyphClass: 2
@@ -5089,7 +5089,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: nine
-Encoding: 26 57 26
+Encoding: 28 57 28
 Width: 507
 VWidth: 0
 GlyphClass: 2
@@ -5117,7 +5117,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: colon
-Encoding: 27 58 27
+Encoding: 29 58 29
 Width: 243
 VWidth: 0
 GlyphClass: 2
@@ -5140,7 +5140,7 @@ Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: semicolon
-Encoding: 28 59 28
+Encoding: 30 59 30
 Width: 246
 VWidth: 0
 GlyphClass: 2
@@ -5167,7 +5167,7 @@ Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: less
-Encoding: 29 60 29
+Encoding: 31 60 31
 Width: 891
 VWidth: 0
 GlyphClass: 2
@@ -5188,7 +5188,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: equal
-Encoding: 30 61 30
+Encoding: 32 61 32
 Width: 586
 VWidth: 0
 GlyphClass: 2
@@ -5211,7 +5211,7 @@ Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: greater
-Encoding: 31 62 31
+Encoding: 33 62 33
 Width: 891
 VWidth: 0
 GlyphClass: 2
@@ -5232,7 +5232,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: question
-Encoding: 32 63 32
+Encoding: 34 63 34
 Width: 447
 VWidth: 0
 GlyphClass: 2
@@ -5263,7 +5263,7 @@ Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: at
-Encoding: 33 64 33
+Encoding: 35 64 35
 Width: 915
 VWidth: 0
 GlyphClass: 2
@@ -5302,7 +5302,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: A
-Encoding: 34 65 34
+Encoding: 36 65 36
 Width: 644
 VWidth: 0
 GlyphClass: 2
@@ -5328,7 +5328,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: B
-Encoding: 35 66 35
+Encoding: 37 66 37
 Width: 600
 VWidth: 0
 GlyphClass: 2
@@ -5361,7 +5361,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: C
-Encoding: 36 67 36
+Encoding: 38 67 38
 Width: 634
 VWidth: 0
 GlyphClass: 2
@@ -5385,7 +5385,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: D
-Encoding: 37 68 37
+Encoding: 39 68 39
 Width: 646
 VWidth: 0
 GlyphClass: 2
@@ -5410,7 +5410,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: E
-Encoding: 38 69 38
+Encoding: 40 69 40
 Width: 552
 VWidth: 0
 GlyphClass: 2
@@ -5436,7 +5436,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: F
-Encoding: 39 70 39
+Encoding: 41 70 41
 Width: 516
 VWidth: 0
 GlyphClass: 2
@@ -5460,7 +5460,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: G
-Encoding: 40 71 40
+Encoding: 42 71 42
 Width: 687
 VWidth: 0
 GlyphClass: 2
@@ -5488,7 +5488,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: H
-Encoding: 41 72 41
+Encoding: 43 72 43
 Width: 635
 VWidth: 0
 GlyphClass: 2
@@ -5514,7 +5514,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: I
-Encoding: 42 73 42
+Encoding: 44 73 44
 Width: 249
 VWidth: 0
 GlyphClass: 2
@@ -5532,7 +5532,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: J
-Encoding: 43 74 43
+Encoding: 45 74 45
 Width: 541
 VWidth: 0
 GlyphClass: 2
@@ -5554,7 +5554,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: K
-Encoding: 44 75 44
+Encoding: 46 75 46
 Width: 610
 VWidth: 0
 GlyphClass: 2
@@ -5579,7 +5579,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: L
-Encoding: 45 76 45
+Encoding: 47 76 47
 Width: 496
 VWidth: 0
 GlyphClass: 2
@@ -5599,7 +5599,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: M
-Encoding: 46 77 46
+Encoding: 48 77 48
 Width: 818
 VWidth: 0
 GlyphClass: 2
@@ -5626,7 +5626,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: N
-Encoding: 47 78 47
+Encoding: 49 78 49
 Width: 670
 VWidth: 0
 GlyphClass: 2
@@ -5650,7 +5650,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: O
-Encoding: 48 79 48
+Encoding: 50 79 50
 Width: 701
 VWidth: 0
 GlyphClass: 2
@@ -5673,7 +5673,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: P
-Encoding: 49 80 49
+Encoding: 51 80 51
 Width: 575
 VWidth: 0
 GlyphClass: 2
@@ -5700,7 +5700,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: Q
-Encoding: 50 81 50
+Encoding: 52 81 52
 Width: 729
 VWidth: 0
 GlyphClass: 2
@@ -5727,7 +5727,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: R
-Encoding: 51 82 51
+Encoding: 53 82 53
 Width: 592
 VWidth: 0
 GlyphClass: 2
@@ -5759,7 +5759,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: S
-Encoding: 52 83 52
+Encoding: 54 83 54
 Width: 601
 VWidth: 0
 GlyphClass: 2
@@ -5785,7 +5785,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: T
-Encoding: 53 84 53
+Encoding: 55 84 55
 Width: 560
 VWidth: 0
 GlyphClass: 2
@@ -5807,7 +5807,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: U
-Encoding: 54 85 54
+Encoding: 56 85 56
 Width: 667
 VWidth: 0
 GlyphClass: 2
@@ -5831,7 +5831,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: V
-Encoding: 55 86 55
+Encoding: 57 86 57
 Width: 632
 VWidth: 0
 GlyphClass: 2
@@ -5852,7 +5852,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: W
-Encoding: 56 87 56
+Encoding: 58 87 58
 Width: 882
 VWidth: 0
 GlyphClass: 2
@@ -5879,7 +5879,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: X
-Encoding: 57 88 57
+Encoding: 59 88 59
 Width: 621
 VWidth: 0
 GlyphClass: 2
@@ -5905,7 +5905,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: Y
-Encoding: 58 89 58
+Encoding: 60 89 60
 Width: 587
 VWidth: 0
 GlyphClass: 2
@@ -5928,7 +5928,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: Z
-Encoding: 59 90 59
+Encoding: 61 90 61
 Width: 559
 VWidth: 0
 GlyphClass: 2
@@ -5952,7 +5952,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: bracketleft
-Encoding: 60 91 60
+Encoding: 62 91 62
 Width: 349
 VWidth: 0
 GlyphClass: 2
@@ -5974,7 +5974,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: backslash
-Encoding: 61 92 61
+Encoding: 63 92 63
 Width: 537
 VWidth: 0
 GlyphClass: 2
@@ -5992,7 +5992,7 @@ Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: bracketright
-Encoding: 62 93 62
+Encoding: 64 93 64
 Width: 349
 VWidth: 0
 GlyphClass: 2
@@ -6014,7 +6014,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: asciicircum
-Encoding: 63 94 63
+Encoding: 65 94 65
 Width: 536
 VWidth: 0
 GlyphClass: 4
@@ -6036,7 +6036,7 @@ Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: underscore
-Encoding: 64 95 64
+Encoding: 66 95 66
 Width: 577
 VWidth: 0
 GlyphClass: 4
@@ -6054,7 +6054,7 @@ Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: grave
-Encoding: 65 96 65
+Encoding: 67 96 67
 Width: 218
 VWidth: 0
 GlyphClass: 4
@@ -6072,7 +6072,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: a
-Encoding: 66 97 66
+Encoding: 68 97 68
 Width: 491
 VWidth: 0
 GlyphClass: 4
@@ -6106,7 +6106,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: b
-Encoding: 67 98 67
+Encoding: 69 98 69
 Width: 539
 VWidth: 0
 GlyphClass: 4
@@ -6134,7 +6134,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: c
-Encoding: 68 99 68
+Encoding: 70 99 70
 Width: 461
 VWidth: 0
 GlyphClass: 4
@@ -6159,7 +6159,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: d
-Encoding: 69 100 69
+Encoding: 71 100 71
 Width: 539
 VWidth: 0
 GlyphClass: 4
@@ -6187,7 +6187,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: e
-Encoding: 70 101 70
+Encoding: 72 101 72
 Width: 493
 VWidth: 0
 GlyphClass: 4
@@ -6215,7 +6215,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: f
-Encoding: 71 102 71
+Encoding: 73 102 73
 Width: 309
 VWidth: 0
 GlyphClass: 4
@@ -6245,7 +6245,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: g
-Encoding: 72 103 72
+Encoding: 74 103 74
 Width: 539
 VWidth: 0
 GlyphClass: 4
@@ -6276,7 +6276,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: h
-Encoding: 73 104 73
+Encoding: 75 104 75
 Width: 524
 VWidth: 0
 GlyphClass: 4
@@ -6302,7 +6302,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: i
-Encoding: 74 105 74
+Encoding: 76 105 76
 Width: 225
 VWidth: 0
 GlyphClass: 4
@@ -6325,7 +6325,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: j
-Encoding: 75 106 75
+Encoding: 77 106 77
 Width: 294
 VWidth: 0
 GlyphClass: 4
@@ -6352,7 +6352,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: k
-Encoding: 76 107 76
+Encoding: 78 107 78
 Width: 475
 VWidth: 0
 GlyphClass: 4
@@ -6377,7 +6377,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: l
-Encoding: 77 108 77
+Encoding: 79 108 79
 Width: 225
 VWidth: 0
 GlyphClass: 4
@@ -6395,7 +6395,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: m
-Encoding: 78 109 78
+Encoding: 80 109 80
 Width: 808
 VWidth: 0
 GlyphClass: 4
@@ -6428,7 +6428,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: n
-Encoding: 79 110 79
+Encoding: 81 110 81
 Width: 524
 VWidth: 0
 GlyphClass: 4
@@ -6454,7 +6454,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: o
-Encoding: 80 111 80
+Encoding: 82 111 82
 Width: 535
 VWidth: 0
 GlyphClass: 4
@@ -6477,7 +6477,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: p
-Encoding: 81 112 81
+Encoding: 83 112 83
 Width: 542
 VWidth: 0
 GlyphClass: 4
@@ -6505,7 +6505,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: q
-Encoding: 82 113 82
+Encoding: 84 113 84
 Width: 542
 VWidth: 0
 GlyphClass: 4
@@ -6533,7 +6533,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: r
-Encoding: 83 114 83
+Encoding: 85 114 85
 Width: 338
 VWidth: 0
 GlyphClass: 4
@@ -6555,7 +6555,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: s
-Encoding: 84 115 84
+Encoding: 86 115 86
 Width: 458
 VWidth: 0
 GlyphClass: 4
@@ -6581,7 +6581,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: t
-Encoding: 85 116 85
+Encoding: 87 116 87
 Width: 353
 VWidth: 0
 GlyphClass: 4
@@ -6611,7 +6611,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: u
-Encoding: 86 117 86
+Encoding: 88 117 88
 Width: 524
 VWidth: 0
 GlyphClass: 4
@@ -6637,7 +6637,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: v
-Encoding: 87 118 87
+Encoding: 89 118 89
 Width: 482
 VWidth: 0
 GlyphClass: 4
@@ -6658,7 +6658,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: w
-Encoding: 88 119 88
+Encoding: 90 119 90
 Width: 750
 VWidth: 0
 GlyphClass: 4
@@ -6685,7 +6685,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: x
-Encoding: 89 120 89
+Encoding: 91 120 91
 Width: 487
 VWidth: 0
 GlyphClass: 4
@@ -6711,7 +6711,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: y
-Encoding: 90 121 90
+Encoding: 92 121 92
 Width: 481
 VWidth: 0
 GlyphClass: 4
@@ -6737,7 +6737,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: z
-Encoding: 91 122 91
+Encoding: 93 122 93
 Width: 441
 VWidth: 0
 GlyphClass: 4
@@ -6761,7 +6761,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: braceleft
-Encoding: 92 123 92
+Encoding: 94 123 94
 Width: 430
 VWidth: 0
 GlyphClass: 4
@@ -6785,7 +6785,7 @@ Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: bar
-Encoding: 93 124 93
+Encoding: 95 124 95
 Width: 336
 VWidth: 0
 GlyphClass: 4
@@ -6803,7 +6803,7 @@ Comment: "mark: 1+AAoA"
 EndChar
 
 StartChar: braceright
-Encoding: 94 125 94
+Encoding: 96 125 96
 Width: 429
 VWidth: 0
 GlyphClass: 4
@@ -6827,7 +6827,7 @@ Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: asciitilde
-Encoding: 95 126 95
+Encoding: 97 126 97
 Width: 571
 VWidth: 0
 GlyphClass: 4
@@ -6849,7 +6849,7 @@ Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: multiply
-Encoding: 96 215 96
+Encoding: 98 215 98
 Width: 530
 VWidth: 0
 GlyphClass: 4
@@ -6875,7 +6875,7 @@ Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1000
-Encoding: 97 4096 97
+Encoding: 99 4096 99
 Width: 985
 VWidth: 0
 GlyphClass: 2
@@ -6945,7 +6945,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1000.med
-Encoding: 98 -1 98
+Encoding: 100 -1 100
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -6994,7 +6994,7 @@ Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1000_u1001_u103B
-Encoding: 99 -1 99
+Encoding: 101 -1 101
 Width: 1154
 VWidth: 0
 GlyphClass: 2
@@ -7058,7 +7058,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1000_u103B_u1015_u103A
-Encoding: 100 -1 100
+Encoding: 102 -1 102
 Width: 1756
 VWidth: 0
 GlyphClass: 2
@@ -7120,7 +7120,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1001
-Encoding: 101 4097 101
+Encoding: 103 4097 103
 Width: 592
 VWidth: 0
 GlyphClass: 2
@@ -7202,7 +7202,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1001.med
-Encoding: 102 -1 102
+Encoding: 104 -1 104
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -7246,7 +7246,7 @@ Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1002
-Encoding: 103 4098 103
+Encoding: 105 4098 105
 Width: 595
 VWidth: 0
 GlyphClass: 2
@@ -7324,7 +7324,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1002.med
-Encoding: 104 -1 104
+Encoding: 106 -1 106
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -7363,7 +7363,7 @@ Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1003
-Encoding: 105 4099 105
+Encoding: 107 4099 107
 Width: 979
 VWidth: 0
 GlyphClass: 2
@@ -7436,7 +7436,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1003.med
-Encoding: 106 -1 106
+Encoding: 108 -1 108
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -7489,7 +7489,7 @@ Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1004
-Encoding: 107 4100 107
+Encoding: 109 4100 109
 Width: 574
 VWidth: 0
 GlyphClass: 2
@@ -7567,7 +7567,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1004.med
-Encoding: 108 -1 108
+Encoding: 110 -1 110
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -7606,7 +7606,7 @@ Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1004.kinzi
-Encoding: 109 -1 109
+Encoding: 111 -1 111
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -7650,7 +7650,7 @@ Comment: "GDL_order: 8+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1004.kinzi_u102D
-Encoding: 110 -1 110
+Encoding: 112 -1 112
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -7698,7 +7698,7 @@ Comment: "GDL_order: 8+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1004.kinzi_u102E
-Encoding: 111 -1 111
+Encoding: 113 -1 113
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -7752,7 +7752,7 @@ Comment: "GDL_order: 8+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1004.kinzi_u1032
-Encoding: 112 -1 112
+Encoding: 114 -1 114
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -7791,7 +7791,7 @@ Comment: "GDL_order: 8+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1004.kinzi_u1033
-Encoding: 113 -1 113
+Encoding: 115 -1 115
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -7847,7 +7847,7 @@ Comment: "GDL_order: 8+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1004.kinzi_u1036
-Encoding: 114 -1 114
+Encoding: 116 -1 116
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -7893,7 +7893,7 @@ Comment: "GDL_order: 10+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1004.kinzi_u103A
-Encoding: 115 -1 115
+Encoding: 117 -1 117
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -7938,7 +7938,7 @@ Comment: "GDL_order: 8+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1004.kinzi_u102D_u1036
-Encoding: 116 -1 116
+Encoding: 118 -1 118
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -7993,7 +7993,7 @@ Comment: "GDL_order: 8+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1005
-Encoding: 117 4101 117
+Encoding: 119 4101 119
 Width: 586
 VWidth: 0
 GlyphClass: 2
@@ -8076,7 +8076,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1005.med
-Encoding: 118 -1 118
+Encoding: 120 -1 120
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -8121,7 +8121,7 @@ Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1006
-Encoding: 119 4102 119
+Encoding: 121 4102 121
 Width: 974
 VWidth: 0
 GlyphClass: 2
@@ -8195,7 +8195,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1006.med
-Encoding: 120 -1 120
+Encoding: 122 -1 122
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -8250,7 +8250,7 @@ Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1007
-Encoding: 121 4103 121
+Encoding: 123 4103 123
 Width: 635
 VWidth: 0
 GlyphClass: 2
@@ -8338,7 +8338,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1007.med
-Encoding: 122 -1 122
+Encoding: 124 -1 124
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -8388,7 +8388,7 @@ Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1008
-Encoding: 123 4104 123
+Encoding: 125 4104 125
 Width: 799
 VWidth: 0
 GlyphClass: 2
@@ -8460,7 +8460,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1008.med
-Encoding: 124 -1 124
+Encoding: 126 -1 126
 Width: 204
 VWidth: 0
 GlyphClass: 2
@@ -8509,7 +8509,7 @@ Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1009
-Encoding: 125 4105 125
+Encoding: 127 4105 127
 Width: 575
 VWidth: 0
 GlyphClass: 2
@@ -8582,7 +8582,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1009_u102C
-Encoding: 126 -1 126
+Encoding: 128 -1 128
 Width: 966
 VWidth: 0
 GlyphClass: 2
@@ -8636,7 +8636,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u100A
-Encoding: 127 4106 127
+Encoding: 129 4106 129
 Width: 966
 VWidth: 0
 GlyphClass: 2
@@ -8720,7 +8720,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u100A.alt
-Encoding: 128 -1 128
+Encoding: 130 -1 130
 Width: 966
 VWidth: 0
 GlyphClass: 2
@@ -8798,7 +8798,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u100A.med
-Encoding: 129 -1 129
+Encoding: 131 -1 131
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -8857,7 +8857,7 @@ Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u100A_u100A
-Encoding: 130 -1 130
+Encoding: 132 -1 132
 Width: 1358
 VWidth: 0
 GlyphClass: 2
@@ -8947,7 +8947,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u100B
-Encoding: 131 4107 131
+Encoding: 133 4107 133
 Width: 622
 VWidth: 0
 GlyphClass: 2
@@ -9023,7 +9023,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u100B.alt
-Encoding: 132 -1 132
+Encoding: 134 -1 134
 Width: 608
 VWidth: 0
 GlyphClass: 2
@@ -9064,7 +9064,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u100B.med
-Encoding: 133 -1 133
+Encoding: 135 -1 135
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -9107,7 +9107,7 @@ Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u100B_u100B
-Encoding: 134 -1 134
+Encoding: 136 -1 136
 Width: 618
 VWidth: 0
 GlyphClass: 2
@@ -9191,7 +9191,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u100B_u100C
-Encoding: 135 -1 135
+Encoding: 137 -1 137
 Width: 571
 VWidth: 0
 GlyphClass: 2
@@ -9270,7 +9270,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u100C
-Encoding: 136 4108 136
+Encoding: 138 4108 138
 Width: 574
 VWidth: 0
 GlyphClass: 2
@@ -9342,7 +9342,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u100C.med
-Encoding: 137 -1 137
+Encoding: 139 -1 139
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -9397,7 +9397,7 @@ Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u100D
-Encoding: 138 4109 138
+Encoding: 140 4109 140
 Width: 589
 VWidth: 0
 GlyphClass: 2
@@ -9466,7 +9466,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u100D.med
-Encoding: 139 -1 139
+Encoding: 141 -1 141
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -9515,7 +9515,7 @@ Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u100D_u100D
-Encoding: 140 -1 140
+Encoding: 142 -1 142
 Width: 589
 VWidth: 0
 GlyphClass: 2
@@ -9605,7 +9605,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u100D_u100E
-Encoding: 141 -1 141
+Encoding: 143 -1 143
 Width: 587
 VWidth: 0
 GlyphClass: 2
@@ -9684,7 +9684,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u100E
-Encoding: 142 4110 142
+Encoding: 144 4110 144
 Width: 587
 VWidth: 0
 GlyphClass: 2
@@ -9765,7 +9765,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u100E.med
-Encoding: 143 -1 143
+Encoding: 145 -1 145
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -9808,7 +9808,7 @@ Comment: "GDL_order: 5+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u100F
-Encoding: 144 4111 144
+Encoding: 146 4111 146
 Width: 1047
 VWidth: 0
 GlyphClass: 2
@@ -9891,7 +9891,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u100F.med
-Encoding: 145 -1 145
+Encoding: 147 -1 147
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -9954,7 +9954,7 @@ Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u100F_u100B
-Encoding: 146 -1 146
+Encoding: 148 -1 148
 Width: 1047
 VWidth: 0
 GlyphClass: 2
@@ -10051,7 +10051,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u100F_u100D
-Encoding: 147 -1 147
+Encoding: 149 -1 149
 Width: 1047
 VWidth: 0
 GlyphClass: 2
@@ -10155,7 +10155,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1010
-Encoding: 148 4112 148
+Encoding: 150 4112 150
 Width: 976
 VWidth: 0
 GlyphClass: 2
@@ -10224,7 +10224,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1010.med
-Encoding: 149 -1 149
+Encoding: 151 -1 151
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -10272,7 +10272,7 @@ Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1010_u103D.med
-Encoding: 150 -1 150
+Encoding: 152 -1 152
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -10323,7 +10323,7 @@ Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1011
-Encoding: 151 4113 151
+Encoding: 153 4113 153
 Width: 971
 VWidth: 0
 GlyphClass: 2
@@ -10391,7 +10391,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1011.med
-Encoding: 152 -1 152
+Encoding: 154 -1 154
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -10439,7 +10439,7 @@ Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1012
-Encoding: 153 4114 153
+Encoding: 155 4114 155
 Width: 546
 VWidth: 0
 GlyphClass: 2
@@ -10521,7 +10521,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1012.med
-Encoding: 154 -1 154
+Encoding: 156 -1 156
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -10565,7 +10565,7 @@ Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1013
-Encoding: 155 4115 155
+Encoding: 157 4115 157
 Width: 586
 VWidth: 0
 GlyphClass: 2
@@ -10648,7 +10648,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1013.med
-Encoding: 156 -1 156
+Encoding: 158 -1 158
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -10696,7 +10696,7 @@ Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1014
-Encoding: 157 4116 157
+Encoding: 159 4116 159
 Width: 555
 VWidth: 0
 GlyphClass: 2
@@ -10786,7 +10786,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1014.alt
-Encoding: 158 -1 158
+Encoding: 160 -1 160
 Width: 577
 VWidth: 0
 GlyphClass: 2
@@ -10874,7 +10874,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1014.med
-Encoding: 159 -1 159
+Encoding: 161 -1 161
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -10924,7 +10924,7 @@ Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1014_u1010_u103B
-Encoding: 160 -1 160
+Encoding: 162 -1 162
 Width: 937
 VWidth: 0
 GlyphClass: 2
@@ -10990,7 +10990,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1014_u1010_u103C
-Encoding: 161 -1 161
+Encoding: 163 -1 163
 Width: 816
 VWidth: 0
 GlyphClass: 2
@@ -11104,7 +11104,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1015
-Encoding: 162 4117 162
+Encoding: 164 4117 164
 Width: 595
 VWidth: 0
 GlyphClass: 2
@@ -11182,7 +11182,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1015.med
-Encoding: 163 -1 163
+Encoding: 165 -1 165
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -11221,7 +11221,7 @@ Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1016
-Encoding: 164 4118 164
+Encoding: 166 4118 166
 Width: 594
 VWidth: 0
 GlyphClass: 2
@@ -11303,7 +11303,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1016.med
-Encoding: 165 -1 165
+Encoding: 167 -1 167
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -11346,7 +11346,7 @@ Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1017
-Encoding: 166 4119 166
+Encoding: 168 4119 168
 Width: 595
 VWidth: 0
 GlyphClass: 2
@@ -11426,7 +11426,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1017.med
-Encoding: 167 -1 167
+Encoding: 169 -1 169
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -11468,7 +11468,7 @@ Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1018
-Encoding: 168 4120 168
+Encoding: 170 4120 170
 Width: 965
 VWidth: 0
 GlyphClass: 2
@@ -11537,7 +11537,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1018.med
-Encoding: 169 -1 169
+Encoding: 171 -1 171
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -11585,7 +11585,7 @@ Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1019
-Encoding: 170 4121 170
+Encoding: 172 4121 172
 Width: 595
 VWidth: 0
 GlyphClass: 2
@@ -11670,7 +11670,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1019.med
-Encoding: 171 -1 171
+Encoding: 173 -1 173
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -11716,7 +11716,7 @@ Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u101A
-Encoding: 172 4122 172
+Encoding: 174 4122 174
 Width: 983
 VWidth: 0
 GlyphClass: 2
@@ -11786,7 +11786,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u101A.med
-Encoding: 173 -1 173
+Encoding: 175 -1 175
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -11834,7 +11834,7 @@ Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u101B
-Encoding: 174 4123 174
+Encoding: 176 4123 176
 Width: 635
 VWidth: 0
 GlyphClass: 2
@@ -11923,7 +11923,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u101B.alt
-Encoding: 175 -1 175
+Encoding: 177 -1 177
 Width: 629
 VWidth: 0
 GlyphClass: 2
@@ -11990,7 +11990,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u101B.long
-Encoding: 176 -1 176
+Encoding: 178 -1 178
 Width: 629
 VWidth: 0
 GlyphClass: 2
@@ -12055,7 +12055,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u101B.med
-Encoding: 177 -1 177
+Encoding: 179 -1 179
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -12101,7 +12101,7 @@ Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u101B.kinzi
-Encoding: 178 -1 178
+Encoding: 180 -1 180
 Width: 93
 VWidth: 0
 GlyphClass: 4
@@ -12137,7 +12137,7 @@ Comment: "GDL_order: 8+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u101B.kinzi_u102D
-Encoding: 179 -1 179
+Encoding: 181 -1 181
 Width: 66
 VWidth: 0
 GlyphClass: 4
@@ -12180,7 +12180,7 @@ Comment: "GDL_order: 8+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u101B.kinzi_u102E
-Encoding: 180 -1 180
+Encoding: 182 -1 182
 Width: 66
 VWidth: 0
 GlyphClass: 4
@@ -12230,7 +12230,7 @@ Comment: "GDL_order: 8+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u101B.kinzi_u103A
-Encoding: 181 -1 181
+Encoding: 183 -1 183
 Width: 66
 VWidth: 0
 GlyphClass: 4
@@ -12272,7 +12272,7 @@ Comment: "GDL_order: 8+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u101C
-Encoding: 182 4124 182
+Encoding: 184 4124 184
 Width: 977
 VWidth: 0
 GlyphClass: 2
@@ -12341,7 +12341,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u101C.med
-Encoding: 183 -1 183
+Encoding: 185 -1 185
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -12388,7 +12388,7 @@ Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u101C.med_u103D
-Encoding: 184 -1 184
+Encoding: 186 -1 186
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -12435,7 +12435,7 @@ EndSplineSet
 EndChar
 
 StartChar: u101D
-Encoding: 185 4125 185
+Encoding: 187 4125 187
 Width: 585
 VWidth: 0
 GlyphClass: 2
@@ -12511,7 +12511,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u101E
-Encoding: 186 4126 186
+Encoding: 188 4126 188
 Width: 966
 VWidth: 0
 GlyphClass: 2
@@ -12580,7 +12580,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u101E.med
-Encoding: 187 -1 187
+Encoding: 189 -1 189
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -12628,7 +12628,7 @@ Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u101E_u1010_u103C
-Encoding: 188 -1 188
+Encoding: 190 -1 190
 Width: 1195
 VWidth: 0
 GlyphClass: 2
@@ -12740,7 +12740,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u101F
-Encoding: 189 4127 189
+Encoding: 191 4127 191
 Width: 984
 VWidth: 0
 GlyphClass: 2
@@ -12809,7 +12809,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1020
-Encoding: 190 4128 190
+Encoding: 192 4128 192
 Width: 602
 VWidth: 0
 GlyphClass: 2
@@ -12887,7 +12887,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1020.long
-Encoding: 191 -1 191
+Encoding: 193 -1 193
 Width: 589
 VWidth: 0
 GlyphClass: 2
@@ -12926,7 +12926,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1020_u1020
-Encoding: 192 -1 192
+Encoding: 194 -1 194
 Width: 602
 VWidth: 0
 GlyphClass: 2
@@ -12992,7 +12992,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1020_u103E
-Encoding: 193 -1 193
+Encoding: 195 -1 195
 Width: 602
 VWidth: 0
 GlyphClass: 2
@@ -13049,7 +13049,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1021
-Encoding: 194 4129 194
+Encoding: 196 4129 196
 Width: 932
 VWidth: 0
 GlyphClass: 2
@@ -13129,7 +13129,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1021.med
-Encoding: 195 -1 195
+Encoding: 197 -1 197
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -13187,7 +13187,7 @@ Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1022
-Encoding: 196 4130 196
+Encoding: 198 4130 198
 Width: 979
 VWidth: 0
 GlyphClass: 2
@@ -13261,7 +13261,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1023
-Encoding: 197 4131 197
+Encoding: 199 4131 199
 Width: 985
 VWidth: 0
 GlyphClass: 2
@@ -13318,7 +13318,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1024
-Encoding: 198 4132 198
+Encoding: 200 4132 200
 Width: 1202
 VWidth: 0
 GlyphClass: 2
@@ -13372,7 +13372,7 @@ Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1025
-Encoding: 199 4133 199
+Encoding: 201 4133 201
 Width: 574
 VWidth: 0
 GlyphClass: 2
@@ -13442,7 +13442,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1026
-Encoding: 200 4134 200
+Encoding: 202 4134 202
 Width: 574
 VWidth: 0
 GlyphClass: 2
@@ -13501,7 +13501,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1027
-Encoding: 201 4135 201
+Encoding: 203 4135 203
 Width: 597
 VWidth: 0
 GlyphClass: 2
@@ -13587,7 +13587,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1028
-Encoding: 202 4136 202
+Encoding: 204 4136 204
 Width: 585
 VWidth: 0
 GlyphClass: 2
@@ -13627,7 +13627,7 @@ Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u1029
-Encoding: 203 4137 203
+Encoding: 205 4137 205
 Width: 1195
 VWidth: 0
 GlyphClass: 2
@@ -13719,7 +13719,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u102A
-Encoding: 204 4138 204
+Encoding: 206 4138 206
 Width: 2193
 VWidth: 0
 GlyphClass: 2
@@ -13814,7 +13814,7 @@ Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u102B
-Encoding: 205 4139 205
+Encoding: 207 4139 207
 Width: 215
 VWidth: 0
 GlyphClass: 2
@@ -13844,7 +13844,7 @@ Comment: "GDL_xkern: 270m+AAoA-GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u102B_u103A
-Encoding: 206 -1 206
+Encoding: 208 -1 208
 Width: 468
 VWidth: 0
 GlyphClass: 2
@@ -13875,7 +13875,7 @@ Comment: "GDL_xkern: 270m+AAoA-GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u102C
-Encoding: 207 4140 207
+Encoding: 209 4140 209
 Width: 426
 VWidth: 0
 GlyphClass: 2
@@ -13907,7 +13907,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u102D
-Encoding: 208 4141 208
+Encoding: 210 4141 210
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -13942,7 +13942,7 @@ Comment: "GDL_order: 8+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u102D_u1036
-Encoding: 209 -1 209
+Encoding: 211 -1 211
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -13982,7 +13982,7 @@ Comment: "GDL_order: 8+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u102D_uAA7C
-Encoding: 210 -1 210
+Encoding: 212 -1 212
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -14012,7 +14012,7 @@ EndSplineSet
 EndChar
 
 StartChar: u102E
-Encoding: 211 4142 211
+Encoding: 213 4142 213
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -14048,7 +14048,7 @@ Comment: "GDL_order: 8+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u102E_uAA7C
-Encoding: 212 -1 212
+Encoding: 214 -1 214
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -14085,7 +14085,7 @@ EndSplineSet
 EndChar
 
 StartChar: u102F
-Encoding: 213 4143 213
+Encoding: 215 4143 215
 Width: 190
 VWidth: 0
 GlyphClass: 2
@@ -14115,7 +14115,7 @@ Comment: "GDL_order: 9+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u102F.med
-Encoding: 214 -1 214
+Encoding: 216 -1 216
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -14152,7 +14152,7 @@ Comment: "GDL_rkern: 2m+AAoA-GDL_order: 9+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u102F_u108D
-Encoding: 215 -1 215
+Encoding: 217 -1 217
 Width: 200
 VWidth: 0
 GlyphClass: 4
@@ -14182,7 +14182,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1030
-Encoding: 216 4144 216
+Encoding: 218 4144 218
 Width: 357
 VWidth: 0
 GlyphClass: 2
@@ -14215,7 +14215,7 @@ Comment: "GDL_order: 9+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1030.med
-Encoding: 217 -1 217
+Encoding: 219 -1 219
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -14254,7 +14254,7 @@ Comment: "GDL_rkern: 43m+AAoA-GDL_order: 9+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1030_u108D
-Encoding: 218 -1 218
+Encoding: 220 -1 220
 Width: 362
 VWidth: 0
 GlyphClass: 4
@@ -14289,7 +14289,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1031
-Encoding: 219 4145 219
+Encoding: 221 4145 221
 Width: 592
 VWidth: 0
 GlyphClass: 2
@@ -14334,7 +14334,7 @@ Comment: "GDL_order: 7+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1032
-Encoding: 220 4146 220
+Encoding: 222 4146 222
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -14361,7 +14361,7 @@ Comment: "GDL_order: 8+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1032_u102D
-Encoding: 221 -1 221
+Encoding: 223 -1 223
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -14395,7 +14395,7 @@ Comment: "GDL_order: 8+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1033
-Encoding: 222 4147 222
+Encoding: 224 4147 224
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -14435,7 +14435,7 @@ Comment: "GDL_order: 8+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u1034
-Encoding: 223 4148 223
+Encoding: 225 4148 225
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -14460,7 +14460,7 @@ Comment: "GDL_order: 8+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u1035
-Encoding: 224 4149 224
+Encoding: 226 4149 226
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -14496,7 +14496,7 @@ Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1036
-Encoding: 225 4150 225
+Encoding: 227 4150 227
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -14528,7 +14528,7 @@ Comment: "GDL_order: 10+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1037
-Encoding: 226 4151 226
+Encoding: 228 4151 228
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -14564,7 +14564,7 @@ Comment: "GDL_order: 13+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1038
-Encoding: 227 4152 227
+Encoding: 229 4152 229
 Width: 309
 VWidth: 0
 GlyphClass: 2
@@ -14602,7 +14602,7 @@ Comment: "GDL_order: 14+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1039
-Encoding: 228 4153 228
+Encoding: 230 4153 230
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -14703,7 +14703,7 @@ Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103A
-Encoding: 229 4154 229
+Encoding: 231 4154 231
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -14742,7 +14742,7 @@ Comment: "GDL_order: 12+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103A_u1036
-Encoding: 230 -1 230
+Encoding: 232 -1 232
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -14772,7 +14772,7 @@ Comment: "GDL_order: 12+AAoA-mark: 170+AAoA"
 EndChar
 
 StartChar: u103B
-Encoding: 231 4155 231
+Encoding: 233 4155 233
 Width: 204
 VWidth: 0
 GlyphClass: 2
@@ -14813,7 +14813,7 @@ Comment: "GDL_order: 3+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103B_u103D
-Encoding: 232 -1 232
+Encoding: 234 -1 234
 Width: 204
 VWidth: 0
 GlyphClass: 2
@@ -14855,7 +14855,7 @@ Comment: "GDL_order: 3+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103B_u103D_u103E
-Encoding: 233 -1 233
+Encoding: 235 -1 235
 Width: 204
 VWidth: 0
 GlyphClass: 2
@@ -14902,7 +14902,7 @@ Comment: "GDL_order: 3+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u103B_u103E
-Encoding: 234 -1 234
+Encoding: 236 -1 236
 Width: 217
 VWidth: 0
 GlyphClass: 2
@@ -14941,7 +14941,7 @@ Comment: "GDL_order: 3+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103C
-Encoding: 235 4156 235
+Encoding: 237 4156 237
 Width: 214
 VWidth: 0
 GlyphClass: 2
@@ -14994,7 +14994,7 @@ Comment: "GDL_order: 4+AAoA-GDL_advx: 753m+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103C.alt.narr
-Encoding: 236 -1 236
+Encoding: 238 -1 238
 Width: 214
 VWidth: 0
 GlyphClass: 2
@@ -15037,7 +15037,7 @@ Comment: "GDL_order: 4+AAoA-GDL_advx: 753m+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103C.alt.wide
-Encoding: 237 -1 237
+Encoding: 239 -1 239
 Width: 214
 VWidth: 0
 GlyphClass: 2
@@ -15082,7 +15082,7 @@ Comment: "GDL_order: 4+AAoA-GDL_advx: 1174m+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103C.wide
-Encoding: 238 -1 238
+Encoding: 240 -1 240
 Width: 214
 VWidth: 0
 GlyphClass: 2
@@ -15133,7 +15133,7 @@ Comment: "GDL_order: 4+AAoA-GDL_advx: 1174m+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103C_u103D.narr
-Encoding: 239 -1 239
+Encoding: 241 -1 241
 Width: 214
 VWidth: 0
 GlyphClass: 2
@@ -15186,7 +15186,7 @@ Comment: "GDL_order: 4+AAoA-GDL_advx: 753m+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103C_u103D.wide
-Encoding: 240 -1 240
+Encoding: 242 -1 242
 Width: 214
 VWidth: 0
 GlyphClass: 2
@@ -15239,7 +15239,7 @@ Comment: "GDL_order: 4+AAoA-GDL_advx: 1174m+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103C_u103D.alt.narr
-Encoding: 241 -1 241
+Encoding: 243 -1 243
 Width: 214
 VWidth: 0
 GlyphClass: 2
@@ -15281,7 +15281,7 @@ Comment: "GDL_order: 4+AAoA-GDL_advx: 753m+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103C_u103D.alt.wide
-Encoding: 242 -1 242
+Encoding: 244 -1 244
 Width: 214
 VWidth: 0
 GlyphClass: 2
@@ -15325,7 +15325,7 @@ Comment: "GDL_order: 4+AAoA-GDL_advx: 1174m+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103C_u102F.narr
-Encoding: 243 -1 243
+Encoding: 245 -1 245
 Width: 214
 VWidth: 0
 GlyphClass: 2
@@ -15383,7 +15383,7 @@ Comment: "GDL_order: 4+AAoA-GDL_advx: 753m+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103C_u102F.wide
-Encoding: 244 -1 244
+Encoding: 246 -1 246
 Width: 214
 VWidth: 0
 GlyphClass: 2
@@ -15440,7 +15440,7 @@ Comment: "GDL_order: 4+AAoA-GDL_advx: 1174m+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103C_u102F.alt.narr
-Encoding: 245 -1 245
+Encoding: 247 -1 247
 Width: 214
 VWidth: 0
 GlyphClass: 2
@@ -15492,7 +15492,7 @@ Comment: "GDL_order: 4+AAoA-GDL_advx: 753m+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103C_u102F.alt.wide
-Encoding: 246 -1 246
+Encoding: 248 -1 248
 Width: 214
 VWidth: 0
 GlyphClass: 2
@@ -15544,7 +15544,7 @@ Comment: "GDL_order: 4+AAoA-GDL_advx: 1174m+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103D
-Encoding: 247 4157 247
+Encoding: 249 4157 249
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -15581,7 +15581,7 @@ Comment: "GDL_order: 5+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103D_u103E
-Encoding: 248 -1 248
+Encoding: 250 -1 250
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -15624,7 +15624,7 @@ Comment: "GDL_order: 5+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103D_u103E.small
-Encoding: 249 -1 249
+Encoding: 251 -1 251
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -15656,7 +15656,7 @@ Comment: "GDL_order: 5+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103D_u108D
-Encoding: 250 -1 250
+Encoding: 252 -1 252
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -15689,7 +15689,7 @@ EndSplineSet
 EndChar
 
 StartChar: u103E
-Encoding: 251 4158 251
+Encoding: 253 4158 253
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -15728,7 +15728,7 @@ Comment: "GDL_order: 6+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103E.alt
-Encoding: 252 -1 252
+Encoding: 254 -1 254
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -15755,7 +15755,7 @@ Comment: "GDL_order: 6+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103E_u102F
-Encoding: 253 -1 253
+Encoding: 255 -1 255
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -15796,7 +15796,7 @@ Comment: "GDL_rkern: 78m+AAoA-GDL_order: 6+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103E_u1030
-Encoding: 254 -1 254
+Encoding: 256 -1 256
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -15842,7 +15842,7 @@ Comment: "GDL_rkern: 90m+AAoA-GDL_order: 6+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103F
-Encoding: 255 4159 255
+Encoding: 257 4159 257
 Width: 1356
 VWidth: 0
 GlyphClass: 2
@@ -15917,7 +15917,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1040
-Encoding: 256 4160 256
+Encoding: 258 4160 258
 Width: 585
 VWidth: 0
 GlyphClass: 2
@@ -15944,7 +15944,7 @@ Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u1041
-Encoding: 257 4161 257
+Encoding: 259 4161 259
 Width: 577
 VWidth: 0
 GlyphClass: 2
@@ -15973,7 +15973,7 @@ Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u1042
-Encoding: 258 4162 258
+Encoding: 260 4162 260
 Width: 568
 VWidth: 0
 GlyphClass: 2
@@ -15999,7 +15999,7 @@ Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u1043
-Encoding: 259 4163 259
+Encoding: 261 4163 261
 Width: 592
 VWidth: 0
 GlyphClass: 2
@@ -16031,7 +16031,7 @@ Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u1044
-Encoding: 260 4164 260
+Encoding: 262 4164 262
 Width: 592
 VWidth: 0
 GlyphClass: 2
@@ -16063,7 +16063,7 @@ Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u1045
-Encoding: 261 4165 261
+Encoding: 263 4165 263
 Width: 592
 VWidth: 0
 GlyphClass: 2
@@ -16101,7 +16101,7 @@ Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u1046
-Encoding: 262 4166 262
+Encoding: 264 4166 264
 Width: 592
 VWidth: 0
 GlyphClass: 2
@@ -16141,7 +16141,7 @@ Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u1047
-Encoding: 263 4167 263
+Encoding: 265 4167 265
 Width: 586
 VWidth: 0
 GlyphClass: 2
@@ -16171,7 +16171,7 @@ Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u1048
-Encoding: 264 4168 264
+Encoding: 266 4168 266
 Width: 595
 VWidth: 0
 GlyphClass: 2
@@ -16204,7 +16204,7 @@ Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u1049
-Encoding: 265 4169 265
+Encoding: 267 4169 267
 Width: 592
 VWidth: 0
 GlyphClass: 2
@@ -16244,7 +16244,7 @@ Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u104A
-Encoding: 266 4170 266
+Encoding: 268 4170 268
 Width: 205
 VWidth: 0
 GlyphClass: 2
@@ -16262,7 +16262,7 @@ Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u104B
-Encoding: 267 4171 267
+Encoding: 269 4171 269
 Width: 376
 VWidth: 0
 GlyphClass: 2
@@ -16285,7 +16285,7 @@ Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u104C
-Encoding: 268 4172 268
+Encoding: 270 4172 270
 Width: 587
 VWidth: 0
 GlyphClass: 2
@@ -16342,7 +16342,7 @@ Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u104D
-Encoding: 269 4173 269
+Encoding: 271 4173 271
 Width: 842
 VWidth: 0
 GlyphClass: 2
@@ -16395,7 +16395,7 @@ Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u104E
-Encoding: 270 4174 270
+Encoding: 272 4174 272
 Width: 574
 VWidth: 0
 GlyphClass: 2
@@ -16451,7 +16451,7 @@ Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u104F
-Encoding: 271 4175 271
+Encoding: 273 4175 273
 Width: 1017
 VWidth: 0
 GlyphClass: 2
@@ -16504,7 +16504,7 @@ Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1050
-Encoding: 272 4176 272
+Encoding: 274 4176 274
 Width: 595
 VWidth: 0
 GlyphClass: 2
@@ -16591,7 +16591,7 @@ Comment: "GDL_order: 1+AAoA-mark: 16+AAoA"
 EndChar
 
 StartChar: u1050.med
-Encoding: 273 -1 273
+Encoding: 275 -1 275
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -16640,7 +16640,7 @@ Comment: "GDL_order: 2+AAoA-mark: 16+AAoA"
 EndChar
 
 StartChar: u1051
-Encoding: 274 4177 274
+Encoding: 276 4177 276
 Width: 595
 VWidth: 0
 GlyphClass: 2
@@ -16727,7 +16727,7 @@ Comment: "GDL_order: 1+AAoA-mark: 16+AAoA"
 EndChar
 
 StartChar: u1051.med
-Encoding: 275 -1 275
+Encoding: 277 -1 277
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -16776,7 +16776,7 @@ Comment: "GDL_order: 2+AAoA-mark: 16+AAoA"
 EndChar
 
 StartChar: u1051_u100C
-Encoding: 276 -1 276
+Encoding: 278 -1 278
 Width: 589
 VWidth: 0
 GlyphClass: 2
@@ -16833,7 +16833,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1051_u100D
-Encoding: 277 -1 277
+Encoding: 279 -1 279
 Width: 608
 VWidth: 0
 GlyphClass: 2
@@ -16880,7 +16880,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1052
-Encoding: 278 4178 278
+Encoding: 280 4178 280
 Width: 587
 VWidth: 0
 GlyphClass: 2
@@ -16961,7 +16961,7 @@ Comment: "GDL_order: 1+AAoA-mark: 16+AAoA"
 EndChar
 
 StartChar: u1053
-Encoding: 279 4179 279
+Encoding: 281 4179 281
 Width: 662
 VWidth: 0
 GlyphClass: 2
@@ -17046,7 +17046,7 @@ Comment: "GDL_order: 1+AAoA-mark: 16+AAoA"
 EndChar
 
 StartChar: u1054
-Encoding: 280 4180 280
+Encoding: 282 4180 282
 Width: 592
 VWidth: 0
 GlyphClass: 2
@@ -17128,7 +17128,7 @@ Comment: "GDL_order: 1+AAoA-mark: 16+AAoA"
 EndChar
 
 StartChar: u1055
-Encoding: 281 4181 281
+Encoding: 283 4181 283
 Width: 592
 VWidth: 0
 GlyphClass: 2
@@ -17214,7 +17214,7 @@ Comment: "GDL_order: 1+AAoA-mark: 16+AAoA"
 EndChar
 
 StartChar: u1056
-Encoding: 282 4182 282
+Encoding: 284 4182 284
 Width: 527
 VWidth: 0
 GlyphClass: 2
@@ -17265,7 +17265,7 @@ Comment: "GDL_order: 1+AAoA-mark: 16+AAoA"
 EndChar
 
 StartChar: u1057
-Encoding: 283 4183 283
+Encoding: 285 4183 285
 Width: 511
 VWidth: 0
 GlyphClass: 2
@@ -17320,7 +17320,7 @@ Comment: "GDL_order: 1+AAoA-mark: 16+AAoA"
 EndChar
 
 StartChar: u1058
-Encoding: 284 4184 284
+Encoding: 286 4184 286
 Width: 482
 VWidth: 0
 GlyphClass: 4
@@ -17364,7 +17364,7 @@ Comment: "GDL_order: 2+AAoA-mark: 16+AAoA"
 EndChar
 
 StartChar: u1059
-Encoding: 285 4185 285
+Encoding: 287 4185 287
 Width: 482
 VWidth: 0
 GlyphClass: 4
@@ -17412,7 +17412,7 @@ Comment: "GDL_order: 2+AAoA-mark: 16+AAoA"
 EndChar
 
 StartChar: u105A
-Encoding: 286 4186 286
+Encoding: 288 4186 288
 Width: 574
 VWidth: 0
 GlyphClass: 2
@@ -17483,7 +17483,7 @@ Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u105A.med
-Encoding: 287 -1 287
+Encoding: 289 -1 289
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -17524,7 +17524,7 @@ Comment: "GDL_order: 2+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u105B
-Encoding: 288 4187 288
+Encoding: 290 4187 290
 Width: 781
 VWidth: 0
 GlyphClass: 2
@@ -17600,7 +17600,7 @@ Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u105B.med
-Encoding: 289 -1 289
+Encoding: 291 -1 291
 Width: 204
 VWidth: 0
 GlyphClass: 2
@@ -17653,7 +17653,7 @@ Comment: "GDL_order: 2+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u105C
-Encoding: 290 4188 290
+Encoding: 292 4188 292
 Width: 591
 VWidth: 0
 GlyphClass: 2
@@ -17739,7 +17739,7 @@ Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u105C.med
-Encoding: 291 -1 291
+Encoding: 293 -1 293
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -17787,7 +17787,7 @@ Comment: "GDL_order: 2+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u105D
-Encoding: 292 4189 292
+Encoding: 294 4189 294
 Width: 594
 VWidth: 0
 GlyphClass: 2
@@ -17864,7 +17864,7 @@ Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u105E
-Encoding: 293 4190 293
+Encoding: 295 4190 295
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -17900,7 +17900,7 @@ Comment: "GDL_order: 2+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u105F
-Encoding: 294 4191 294
+Encoding: 296 4191 296
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -17932,7 +17932,7 @@ Comment: "GDL_order: 2+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u1060
-Encoding: 295 4192 295
+Encoding: 297 4192 297
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -17956,7 +17956,7 @@ Comment: "GDL_order: 2+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u1061
-Encoding: 296 4193 296
+Encoding: 298 4193 298
 Width: 629
 VWidth: 0
 GlyphClass: 2
@@ -18027,7 +18027,7 @@ Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u1062
-Encoding: 297 4194 297
+Encoding: 299 4194 299
 Width: 313
 VWidth: 0
 GlyphClass: 2
@@ -18053,7 +18053,7 @@ Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u1062_u103A
-Encoding: 298 -1 298
+Encoding: 300 -1 300
 Width: 465
 VWidth: 0
 GlyphClass: 2
@@ -18088,7 +18088,7 @@ Comment: "GDL_order: 11+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1063
-Encoding: 299 4195 299
+Encoding: 301 4195 301
 Width: 574
 VWidth: 0
 GlyphClass: 2
@@ -18122,7 +18122,7 @@ Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u1063_u103A
-Encoding: 300 -1 300
+Encoding: 302 -1 302
 Width: 574
 VWidth: 0
 GlyphClass: 2
@@ -18160,7 +18160,7 @@ Comment: "GDL_order: 11+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1064
-Encoding: 301 4196 301
+Encoding: 303 4196 303
 Width: 427
 VWidth: 0
 GlyphClass: 2
@@ -18189,7 +18189,7 @@ Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
 StartChar: u1065
-Encoding: 302 4197 302
+Encoding: 304 4197 304
 Width: 577
 VWidth: 0
 GlyphClass: 2
@@ -18266,7 +18266,7 @@ Comment: "GDL_order: 7+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1066
-Encoding: 303 4198 303
+Encoding: 305 4198 305
 Width: 595
 VWidth: 0
 GlyphClass: 2
@@ -18302,7 +18302,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1067
-Encoding: 304 4199 304
+Encoding: 306 4199 306
 Width: 345
 VWidth: 0
 GlyphClass: 2
@@ -18332,7 +18332,7 @@ Comment: "GDL_order: 11+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1068
-Encoding: 305 4200 305
+Encoding: 307 4200 307
 Width: 385
 VWidth: 0
 GlyphClass: 2
@@ -18365,7 +18365,7 @@ Comment: "GDL_order: 11+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1069
-Encoding: 306 4201 306
+Encoding: 308 4201 308
 Width: 382
 VWidth: 0
 GlyphClass: 2
@@ -18403,7 +18403,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u106A
-Encoding: 307 4202 307
+Encoding: 309 4202 309
 Width: 352
 VWidth: 0
 GlyphClass: 2
@@ -18432,7 +18432,7 @@ Comment: "GDL_order: 11+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u106B
-Encoding: 308 4203 308
+Encoding: 310 4203 310
 Width: 352
 VWidth: 0
 GlyphClass: 2
@@ -18460,7 +18460,7 @@ Position2: "SinglePositioninglookup35 per glyph data 0" dx=-140 dy=0 dh=-140 dv=
 EndChar
 
 StartChar: u106C
-Encoding: 309 4204 309
+Encoding: 311 4204 311
 Width: 352
 VWidth: 0
 GlyphClass: 2
@@ -18489,7 +18489,7 @@ Comment: "GDL_order: 11+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u106D
-Encoding: 310 4205 310
+Encoding: 312 4205 312
 Width: 382
 VWidth: 0
 GlyphClass: 2
@@ -18527,7 +18527,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u106E
-Encoding: 311 4206 311
+Encoding: 313 4206 313
 Width: 1204
 VWidth: 0
 GlyphClass: 2
@@ -18604,7 +18604,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u106F
-Encoding: 312 4207 312
+Encoding: 314 4207 314
 Width: 984
 VWidth: 0
 GlyphClass: 2
@@ -18680,7 +18680,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1070
-Encoding: 313 4208 313
+Encoding: 315 4208 315
 Width: 979
 VWidth: 0
 GlyphClass: 2
@@ -18757,7 +18757,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1071
-Encoding: 314 4209 314
+Encoding: 316 4209 316
 Width: 558
 VWidth: 0
 GlyphClass: 4
@@ -18801,7 +18801,7 @@ Comment: "GDL_order: 14+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1072
-Encoding: 315 4210 315
+Encoding: 317 4210 317
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -18829,7 +18829,7 @@ Comment: "GDL_order: 12+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1073
-Encoding: 316 4211 316
+Encoding: 318 4211 318
 Width: 462
 VWidth: 0
 GlyphClass: 4
@@ -18863,7 +18863,7 @@ Comment: "GDL_order: 8+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1074
-Encoding: 317 4212 317
+Encoding: 319 4212 319
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -18890,7 +18890,7 @@ Comment: "GDL_order: 8+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1075
-Encoding: 318 4213 318
+Encoding: 320 4213 320
 Width: 587
 VWidth: 0
 GlyphClass: 2
@@ -18972,7 +18972,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1076
-Encoding: 319 4214 319
+Encoding: 321 4214 321
 Width: 592
 VWidth: 0
 GlyphClass: 2
@@ -19058,7 +19058,7 @@ Comment: "GDL_order: 7+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1077
-Encoding: 320 4215 320
+Encoding: 322 4215 322
 Width: 594
 VWidth: 0
 GlyphClass: 2
@@ -19144,7 +19144,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1078
-Encoding: 321 4216 321
+Encoding: 323 4216 323
 Width: 976
 VWidth: 0
 GlyphClass: 2
@@ -19213,7 +19213,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1079
-Encoding: 322 4217 322
+Encoding: 324 4217 324
 Width: 947
 VWidth: 0
 GlyphClass: 2
@@ -19286,7 +19286,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u107A
-Encoding: 323 4218 323
+Encoding: 325 4218 325
 Width: 1014
 VWidth: 0
 GlyphClass: 2
@@ -19357,7 +19357,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u107B
-Encoding: 324 4219 324
+Encoding: 326 4219 326
 Width: 947
 VWidth: 0
 GlyphClass: 2
@@ -19430,7 +19430,7 @@ Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u107C
-Encoding: 325 4220 325
+Encoding: 327 4220 327
 Width: 1013
 VWidth: 0
 GlyphClass: 2
@@ -19510,7 +19510,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u107D
-Encoding: 326 4221 326
+Encoding: 328 4221 328
 Width: 976
 VWidth: 0
 GlyphClass: 2
@@ -19589,7 +19589,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u107E
-Encoding: 327 4222 327
+Encoding: 329 4222 329
 Width: 976
 VWidth: 0
 GlyphClass: 2
@@ -19672,7 +19672,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u107F
-Encoding: 328 4223 328
+Encoding: 330 4223 330
 Width: 595
 VWidth: 0
 GlyphClass: 2
@@ -19753,7 +19753,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1080
-Encoding: 329 4224 329
+Encoding: 331 4224 331
 Width: 982
 VWidth: 0
 GlyphClass: 2
@@ -19828,7 +19828,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1081.straight
-Encoding: 330 -1 330
+Encoding: 332 -1 332
 Width: 595
 VWidth: 0
 GlyphClass: 2
@@ -19898,7 +19898,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1082
-Encoding: 331 4226 331
+Encoding: 333 4226 333
 Width: 435
 VWidth: 0
 GlyphClass: 4
@@ -19934,7 +19934,7 @@ Comment: "GDL_order: 12+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1082_u108D
-Encoding: 332 -1 332
+Encoding: 334 -1 334
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -19966,7 +19966,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1083
-Encoding: 333 4227 333
+Encoding: 335 4227 335
 Width: 319
 VWidth: 0
 GlyphClass: 2
@@ -19991,7 +19991,7 @@ Comment: "GDL_order: 11+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1084
-Encoding: 334 4228 334
+Encoding: 336 4228 336
 Width: 546
 VWidth: 0
 GlyphClass: 2
@@ -20028,7 +20028,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1085
-Encoding: 335 4229 335
+Encoding: 337 4229 337
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -20062,7 +20062,7 @@ Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1086
-Encoding: 336 4230 336
+Encoding: 338 4230 338
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -20094,7 +20094,7 @@ Comment: "GDL_order: 14+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1086_uAA7C
-Encoding: 337 -1 337
+Encoding: 339 -1 339
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -20128,7 +20128,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1087
-Encoding: 338 4231 338
+Encoding: 340 4231 340
 Width: 303
 VWidth: 0
 GlyphClass: 2
@@ -20160,7 +20160,7 @@ Comment: "GDL_order: 14+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1088
-Encoding: 339 4232 339
+Encoding: 341 4232 341
 Width: 303
 VWidth: 0
 GlyphClass: 2
@@ -20202,7 +20202,7 @@ Comment: "GDL_order: 14+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1089
-Encoding: 340 4233 340
+Encoding: 342 4233 342
 Width: 302
 VWidth: 0
 GlyphClass: 2
@@ -20230,7 +20230,7 @@ Comment: "GDL_order: 14+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u108A
-Encoding: 341 4234 341
+Encoding: 343 4234 343
 Width: 427
 VWidth: 0
 GlyphClass: 2
@@ -20276,7 +20276,7 @@ Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u108B
-Encoding: 342 4235 342
+Encoding: 344 4235 344
 Width: 308
 VWidth: 0
 GlyphClass: 2
@@ -20302,7 +20302,7 @@ Comment: "GDL_order: 14+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u108C
-Encoding: 343 4236 343
+Encoding: 345 4236 345
 Width: 558
 VWidth: 0
 GlyphClass: 2
@@ -20338,7 +20338,7 @@ Comment: "GDL_order: 14+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u108D
-Encoding: 344 4237 344
+Encoding: 346 4237 346
 Width: 550
 VWidth: 0
 GlyphClass: 4
@@ -20367,7 +20367,7 @@ Comment: "GDL_order: 6+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u108E
-Encoding: 345 4238 345
+Encoding: 347 4238 347
 Width: 586
 VWidth: 0
 GlyphClass: 2
@@ -20434,7 +20434,7 @@ Position2: "SinglePositioninglookup30 subtable" dx=140 dy=0 dh=140 dv=0
 EndChar
 
 StartChar: u108F
-Encoding: 346 4239 346
+Encoding: 348 4239 348
 Width: 303
 VWidth: 0
 GlyphClass: 2
@@ -20474,7 +20474,7 @@ Comment: "GDL_order: 14+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1090
-Encoding: 347 4240 347
+Encoding: 349 4240 349
 Width: 586
 VWidth: 0
 GlyphClass: 2
@@ -20505,7 +20505,7 @@ Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: u1091
-Encoding: 348 4241 348
+Encoding: 350 4241 350
 Width: 628
 VWidth: 0
 GlyphClass: 2
@@ -20528,7 +20528,7 @@ Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: u1092
-Encoding: 349 4242 349
+Encoding: 351 4242 351
 Width: 594
 VWidth: 0
 GlyphClass: 2
@@ -20556,7 +20556,7 @@ Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: u1093
-Encoding: 350 4243 350
+Encoding: 352 4243 352
 Width: 673
 VWidth: 0
 GlyphClass: 2
@@ -20583,7 +20583,7 @@ Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: u1094
-Encoding: 351 4244 351
+Encoding: 353 4244 353
 Width: 750
 VWidth: 0
 GlyphClass: 2
@@ -20607,7 +20607,7 @@ Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: u1095
-Encoding: 352 4245 352
+Encoding: 354 4245 354
 Width: 656
 VWidth: 0
 GlyphClass: 2
@@ -20639,7 +20639,7 @@ Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: u1096
-Encoding: 353 4246 353
+Encoding: 355 4246 355
 Width: 656
 VWidth: 0
 GlyphClass: 2
@@ -20671,7 +20671,7 @@ Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: u1097
-Encoding: 354 4247 354
+Encoding: 356 4247 356
 Width: 540
 VWidth: 0
 GlyphClass: 2
@@ -20694,7 +20694,7 @@ Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: u1098
-Encoding: 355 4248 355
+Encoding: 357 4248 357
 Width: 594
 VWidth: 0
 GlyphClass: 2
@@ -20731,7 +20731,7 @@ Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: u1099
-Encoding: 356 4249 356
+Encoding: 358 4249 358
 Width: 594
 VWidth: 0
 GlyphClass: 2
@@ -20768,7 +20768,7 @@ Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
 StartChar: u109A
-Encoding: 357 4250 357
+Encoding: 359 4250 359
 Width: 302
 VWidth: 0
 GlyphClass: 3
@@ -20793,7 +20793,7 @@ Comment: "GDL_order: 14+AAoA-mark: 183+AAoA"
 EndChar
 
 StartChar: u109B
-Encoding: 358 4251 358
+Encoding: 360 4251 360
 Width: 303
 VWidth: 0
 GlyphClass: 3
@@ -20821,7 +20821,7 @@ Comment: "GDL_order: 14+AAoA-mark: 183+AAoA"
 EndChar
 
 StartChar: u109C
-Encoding: 359 4252 359
+Encoding: 361 4252 361
 Width: 427
 VWidth: 0
 GlyphClass: 2
@@ -20862,7 +20862,7 @@ Comment: "GDL_order: 14+AAoA-mark: 183+AAoA"
 EndChar
 
 StartChar: u109D
-Encoding: 360 4253 360
+Encoding: 362 4253 362
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -20914,7 +20914,7 @@ Comment: "GDL_order: 14+AAoA-mark: 183+AAoA"
 EndChar
 
 StartChar: u109E
-Encoding: 361 4254 361
+Encoding: 363 4254 363
 Width: 319
 VWidth: 0
 GlyphClass: 2
@@ -20947,7 +20947,7 @@ Comment: "GDL_order: 11+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u109F
-Encoding: 362 4255 362
+Encoding: 364 4255 364
 Width: 842
 VWidth: 0
 GlyphClass: 2
@@ -21011,7 +21011,7 @@ Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u200B
-Encoding: 363 8203 363
+Encoding: 365 8203 365
 Width: 0
 VWidth: 0
 GlyphClass: 2
@@ -21021,7 +21021,7 @@ Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u200C
-Encoding: 364 8204 364
+Encoding: 366 8204 366
 Width: 0
 VWidth: 0
 GlyphClass: 2
@@ -21031,7 +21031,7 @@ Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u200D
-Encoding: 365 8205 365
+Encoding: 367 8205 367
 Width: 0
 VWidth: 0
 GlyphClass: 2
@@ -21041,7 +21041,7 @@ Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: quotedblleft
-Encoding: 366 8220 366
+Encoding: 368 8220 368
 Width: 503
 VWidth: 0
 GlyphClass: 2
@@ -21072,7 +21072,7 @@ Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: quotedblright
-Encoding: 367 8221 367
+Encoding: 369 8221 369
 Width: 503
 VWidth: 0
 GlyphClass: 2
@@ -21103,7 +21103,7 @@ Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: quoteleft
-Encoding: 368 8216 368
+Encoding: 370 8216 370
 Width: 259
 VWidth: 0
 GlyphClass: 2
@@ -21125,7 +21125,7 @@ Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: quoteright
-Encoding: 369 8217 369
+Encoding: 371 8217 371
 Width: 260
 VWidth: 0
 GlyphClass: 2
@@ -21147,7 +21147,7 @@ Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: endash
-Encoding: 370 8211 370
+Encoding: 372 8211 372
 Width: 475
 VWidth: 0
 GlyphClass: 2
@@ -21165,7 +21165,7 @@ Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: emdash
-Encoding: 371 8212 371
+Encoding: 373 8212 373
 Width: 842
 VWidth: 0
 GlyphClass: 2
@@ -21183,7 +21183,7 @@ Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u2060
-Encoding: 372 8288 372
+Encoding: 374 8288 374
 Width: 0
 VWidth: 0
 GlyphClass: 2
@@ -21193,7 +21193,7 @@ Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: notequal
-Encoding: 373 8800 373
+Encoding: 375 8800 375
 Width: 599
 VWidth: 0
 GlyphClass: 2
@@ -21227,7 +21227,7 @@ Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: circledash
-Encoding: 374 9676 374
+Encoding: 376 9676 376
 Width: 648
 VWidth: 0
 GlyphClass: 2
@@ -21373,7 +21373,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u1700
-Encoding: 375 5888 375
+Encoding: 377 5888 377
 Width: 648
 VWidth: 0
 GlyphClass: 2
@@ -21471,7 +21471,7 @@ Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: uA92E
-Encoding: 376 43310 376
+Encoding: 378 43310 378
 Width: 547
 VWidth: 0
 GlyphClass: 2
@@ -21491,7 +21491,7 @@ Comment: "mark: 80+AAoA"
 EndChar
 
 StartChar: uA9E0
-Encoding: 377 43488 377
+Encoding: 379 43488 379
 Width: 588
 VWidth: 0
 GlyphClass: 2
@@ -21532,7 +21532,7 @@ EndSplineSet
 EndChar
 
 StartChar: uA9E1
-Encoding: 378 43489 378
+Encoding: 380 43489 380
 Width: 964
 VWidth: 0
 GlyphClass: 2
@@ -21575,7 +21575,7 @@ EndSplineSet
 EndChar
 
 StartChar: uA9E2
-Encoding: 379 43490 379
+Encoding: 381 43490 381
 Width: 950
 VWidth: 0
 GlyphClass: 2
@@ -21616,7 +21616,7 @@ EndSplineSet
 EndChar
 
 StartChar: uA9E3
-Encoding: 380 43491 380
+Encoding: 382 43491 382
 Width: 972
 VWidth: 0
 GlyphClass: 2
@@ -21668,7 +21668,7 @@ EndSplineSet
 EndChar
 
 StartChar: uA9E4
-Encoding: 381 43492 381
+Encoding: 383 43492 383
 Width: 976
 VWidth: 0
 GlyphClass: 2
@@ -21711,7 +21711,7 @@ EndSplineSet
 EndChar
 
 StartChar: uA9E5
-Encoding: 382 43493 382
+Encoding: 384 43493 384
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -21740,7 +21740,7 @@ EndSplineSet
 EndChar
 
 StartChar: uA9E5_uAA7C
-Encoding: 383 -1 383
+Encoding: 385 -1 385
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -21774,7 +21774,7 @@ EndSplineSet
 EndChar
 
 StartChar: uA9E6
-Encoding: 384 43494 384
+Encoding: 386 43494 386
 Width: 282
 VWidth: 0
 GlyphClass: 2
@@ -21796,7 +21796,7 @@ EndSplineSet
 EndChar
 
 StartChar: uA9E7
-Encoding: 385 43495 385
+Encoding: 387 43495 387
 Width: 979
 VWidth: 0
 GlyphClass: 2
@@ -21839,7 +21839,7 @@ EndSplineSet
 EndChar
 
 StartChar: uA9E8
-Encoding: 386 43496 386
+Encoding: 388 43496 388
 Width: 976
 VWidth: 0
 GlyphClass: 2
@@ -21887,7 +21887,7 @@ EndSplineSet
 EndChar
 
 StartChar: uA9E9
-Encoding: 387 43497 387
+Encoding: 389 43497 389
 Width: 984
 VWidth: 0
 GlyphClass: 2
@@ -21929,7 +21929,7 @@ EndSplineSet
 EndChar
 
 StartChar: uA9EA
-Encoding: 388 43498 388
+Encoding: 390 43498 390
 Width: 977
 VWidth: 0
 GlyphClass: 2
@@ -21970,7 +21970,7 @@ EndSplineSet
 EndChar
 
 StartChar: uA9EB
-Encoding: 389 43499 389
+Encoding: 391 43499 391
 Width: 976
 VWidth: 0
 GlyphClass: 2
@@ -22011,7 +22011,7 @@ EndSplineSet
 EndChar
 
 StartChar: uA9EC
-Encoding: 390 43500 390
+Encoding: 392 43500 392
 Width: 1007
 VWidth: 0
 GlyphClass: 2
@@ -22052,7 +22052,7 @@ EndSplineSet
 EndChar
 
 StartChar: uA9ED
-Encoding: 391 43501 391
+Encoding: 393 43501 393
 Width: 977
 VWidth: 0
 GlyphClass: 2
@@ -22098,7 +22098,7 @@ EndSplineSet
 EndChar
 
 StartChar: uA9EE
-Encoding: 392 43502 392
+Encoding: 394 43502 394
 Width: 970
 VWidth: 0
 GlyphClass: 2
@@ -22144,7 +22144,7 @@ EndSplineSet
 EndChar
 
 StartChar: uA9EF
-Encoding: 393 43503 393
+Encoding: 395 43503 395
 Width: 720
 VWidth: 0
 GlyphClass: 2
@@ -22188,7 +22188,7 @@ EndSplineSet
 EndChar
 
 StartChar: uA9FA
-Encoding: 394 43514 394
+Encoding: 396 43514 396
 Width: 977
 VWidth: 0
 GlyphClass: 2
@@ -22229,7 +22229,7 @@ EndSplineSet
 EndChar
 
 StartChar: uA9FB
-Encoding: 395 43515 395
+Encoding: 397 43515 397
 Width: 977
 VWidth: 0
 GlyphClass: 2
@@ -22270,7 +22270,7 @@ EndSplineSet
 EndChar
 
 StartChar: uA9FC
-Encoding: 396 43516 396
+Encoding: 398 43516 398
 Width: 970
 VWidth: 0
 GlyphClass: 2
@@ -22311,7 +22311,7 @@ EndSplineSet
 EndChar
 
 StartChar: uA9FD
-Encoding: 397 43517 397
+Encoding: 399 43517 399
 Width: 594
 VWidth: 0
 GlyphClass: 2
@@ -22344,7 +22344,7 @@ EndSplineSet
 EndChar
 
 StartChar: uA9FE
-Encoding: 398 43518 398
+Encoding: 400 43518 400
 Width: 976
 VWidth: 0
 GlyphClass: 2
@@ -22392,7 +22392,7 @@ EndSplineSet
 EndChar
 
 StartChar: uA9F0
-Encoding: 399 43504 399
+Encoding: 401 43504 401
 Width: 586
 VWidth: 0
 GlyphClass: 2
@@ -22418,7 +22418,7 @@ EndSplineSet
 EndChar
 
 StartChar: uA9F1
-Encoding: 400 43505 400
+Encoding: 402 43505 402
 Width: 602
 VWidth: 0
 GlyphClass: 2
@@ -22468,7 +22468,7 @@ EndSplineSet
 EndChar
 
 StartChar: uA9F2
-Encoding: 401 43506 401
+Encoding: 403 43506 403
 Width: 589
 VWidth: 0
 GlyphClass: 2
@@ -22506,7 +22506,7 @@ EndSplineSet
 EndChar
 
 StartChar: uA9F3
-Encoding: 402 43507 402
+Encoding: 404 43507 404
 Width: 590
 VWidth: 0
 GlyphClass: 2
@@ -22541,7 +22541,7 @@ EndSplineSet
 EndChar
 
 StartChar: uA9F4
-Encoding: 403 43508 403
+Encoding: 405 43508 405
 Width: 590
 VWidth: 0
 GlyphClass: 2
@@ -22576,7 +22576,7 @@ EndSplineSet
 EndChar
 
 StartChar: uA9F5
-Encoding: 404 43509 404
+Encoding: 406 43509 406
 Width: 595
 VWidth: 0
 GlyphClass: 2
@@ -22608,7 +22608,7 @@ EndSplineSet
 EndChar
 
 StartChar: uA9F6
-Encoding: 405 43510 405
+Encoding: 407 43510 407
 Width: 595
 VWidth: 0
 GlyphClass: 2
@@ -22639,7 +22639,7 @@ EndSplineSet
 EndChar
 
 StartChar: uA9F7
-Encoding: 406 43511 406
+Encoding: 408 43511 408
 Width: 581
 VWidth: 0
 GlyphClass: 2
@@ -22671,7 +22671,7 @@ EndSplineSet
 EndChar
 
 StartChar: uA9F8
-Encoding: 407 43512 407
+Encoding: 409 43512 409
 Width: 591
 VWidth: 0
 GlyphClass: 2
@@ -22701,7 +22701,7 @@ EndSplineSet
 EndChar
 
 StartChar: uA9F9
-Encoding: 408 43513 408
+Encoding: 410 43513 410
 Width: 818
 VWidth: 0
 GlyphClass: 2
@@ -22731,7 +22731,7 @@ EndSplineSet
 EndChar
 
 StartChar: uAA60
-Encoding: 409 43616 409
+Encoding: 411 43616 411
 Width: 953
 VWidth: 0
 GlyphClass: 2
@@ -22806,7 +22806,7 @@ Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA60.med
-Encoding: 410 -1 410
+Encoding: 412 -1 412
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -22862,7 +22862,7 @@ Comment: "GDL_order: 2+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA60.med.kham
-Encoding: 411 -1 411
+Encoding: 413 -1 413
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -22908,7 +22908,7 @@ Comment: "GDL_order: 2+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA61
-Encoding: 412 43617 412
+Encoding: 414 43617 414
 Width: 977
 VWidth: 0
 GlyphClass: 2
@@ -22982,7 +22982,7 @@ Comment: "GDL_order: 1+AAoA-mark: 183+AAoA"
 EndChar
 
 StartChar: uAA62
-Encoding: 413 43618 413
+Encoding: 415 43618 415
 Width: 655
 VWidth: 0
 GlyphClass: 2
@@ -23050,7 +23050,7 @@ Comment: "GDL_order: 1+AAoA-mark: 183+AAoA"
 EndChar
 
 StartChar: uAA63
-Encoding: 414 43619 414
+Encoding: 416 43619 416
 Width: 982
 VWidth: 0
 GlyphClass: 2
@@ -23129,7 +23129,7 @@ Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA64
-Encoding: 415 43620 415
+Encoding: 417 43620 417
 Width: 977
 VWidth: 0
 GlyphClass: 2
@@ -23199,7 +23199,7 @@ Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA65
-Encoding: 416 43621 416
+Encoding: 418 43621 418
 Width: 1001
 VWidth: 0
 GlyphClass: 2
@@ -23281,7 +23281,7 @@ Comment: "GDL_order: 1+AAoA-mark: 183+AAoA"
 EndChar
 
 StartChar: uAA66
-Encoding: 417 43622 417
+Encoding: 419 43622 419
 Width: 977
 VWidth: 0
 GlyphClass: 2
@@ -23355,7 +23355,7 @@ Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA67
-Encoding: 418 43623 418
+Encoding: 420 43623 420
 Width: 971
 VWidth: 0
 GlyphClass: 2
@@ -23428,7 +23428,7 @@ Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA68
-Encoding: 419 43624 419
+Encoding: 421 43624 421
 Width: 952
 VWidth: 0
 GlyphClass: 2
@@ -23506,7 +23506,7 @@ Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA69
-Encoding: 420 43625 420
+Encoding: 422 43625 422
 Width: 970
 VWidth: 0
 GlyphClass: 2
@@ -23585,7 +23585,7 @@ Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA6A
-Encoding: 421 43626 421
+Encoding: 423 43626 423
 Width: 970
 VWidth: 0
 GlyphClass: 2
@@ -23659,7 +23659,7 @@ Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA6B
-Encoding: 422 43627 422
+Encoding: 424 43627 424
 Width: 709
 VWidth: 0
 GlyphClass: 2
@@ -23733,7 +23733,7 @@ Comment: "GDL_order: 1+AAoA-mark: 183+AAoA"
 EndChar
 
 StartChar: uAA6C
-Encoding: 423 43628 423
+Encoding: 425 43628 425
 Width: 1008
 VWidth: 0
 GlyphClass: 2
@@ -23802,7 +23802,7 @@ Comment: "GDL_order: 1+AAoA-mark: 170+AAoA"
 EndChar
 
 StartChar: uAA6C.alt
-Encoding: 424 -1 424
+Encoding: 426 -1 426
 Width: 958
 VWidth: 0
 GlyphClass: 2
@@ -23839,7 +23839,7 @@ EndSplineSet
 EndChar
 
 StartChar: uAA6D
-Encoding: 425 43629 425
+Encoding: 427 43629 427
 Width: 820
 VWidth: 0
 GlyphClass: 2
@@ -23918,7 +23918,7 @@ Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA6E
-Encoding: 426 43630 426
+Encoding: 428 43630 428
 Width: 977
 VWidth: 0
 GlyphClass: 2
@@ -23990,7 +23990,7 @@ Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA6F
-Encoding: 427 43631 427
+Encoding: 429 43631 429
 Width: 746
 VWidth: 0
 GlyphClass: 2
@@ -24057,7 +24057,7 @@ Comment: "GDL_order: 1+AAoA-mark: 183+AAoA"
 EndChar
 
 StartChar: uAA70
-Encoding: 428 43632 428
+Encoding: 430 43632 430
 Width: 574
 VWidth: 0
 GlyphClass: 4
@@ -24084,7 +24084,7 @@ Comment: "GDL_order: 0+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA71
-Encoding: 429 43633 429
+Encoding: 431 43633 431
 Width: 985
 VWidth: 0
 GlyphClass: 2
@@ -24159,7 +24159,7 @@ Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA72
-Encoding: 430 43634 430
+Encoding: 432 43634 432
 Width: 1212
 VWidth: 0
 GlyphClass: 2
@@ -24240,7 +24240,7 @@ Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA73
-Encoding: 431 43635 431
+Encoding: 433 43635 433
 Width: 653
 VWidth: 0
 GlyphClass: 2
@@ -24306,7 +24306,7 @@ Comment: "GDL_order: 1+AAoA-mark: 183+AAoA"
 EndChar
 
 StartChar: uAA74
-Encoding: 432 43636 432
+Encoding: 434 43636 434
 Width: 811
 VWidth: 0
 GlyphClass: 3
@@ -24389,7 +24389,7 @@ Comment: "GDL_order: 0+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA75
-Encoding: 433 43637 433
+Encoding: 435 43637 435
 Width: 1137
 VWidth: 0
 GlyphClass: 3
@@ -24478,7 +24478,7 @@ Comment: "GDL_order: 0+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA76
-Encoding: 434 43638 434
+Encoding: 436 43638 436
 Width: 1218
 VWidth: 0
 GlyphClass: 3
@@ -24573,7 +24573,7 @@ Comment: "GDL_order: 0+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA77
-Encoding: 435 43639 435
+Encoding: 437 43639 437
 Width: 923
 VWidth: 0
 GlyphClass: 2
@@ -24651,7 +24651,7 @@ Comment: "mark: 183+AAoA"
 EndChar
 
 StartChar: uAA78
-Encoding: 436 43640 436
+Encoding: 438 43640 438
 Width: 697
 VWidth: 0
 GlyphClass: 3
@@ -24718,7 +24718,7 @@ Comment: "mark: 183+AAoA"
 EndChar
 
 StartChar: uAA79
-Encoding: 437 43641 437
+Encoding: 439 43641 439
 Width: 635
 VWidth: 0
 GlyphClass: 2
@@ -24780,7 +24780,7 @@ Comment: "GDL_order: 1+AAoA-mark: 183+AAoA"
 EndChar
 
 StartChar: uAA7A
-Encoding: 438 43642 438
+Encoding: 440 43642 440
 Width: 1126
 VWidth: 0
 GlyphClass: 2
@@ -24859,7 +24859,7 @@ Comment: "GDL_order: 1+AAoA-mark: 183+AAoA"
 EndChar
 
 StartChar: uAA7B
-Encoding: 439 43643 439
+Encoding: 441 43643 441
 Width: 303
 VWidth: 0
 GlyphClass: 3
@@ -24891,7 +24891,7 @@ Comment: "GDL_order: 14+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: uAA7C
-Encoding: 440 43644 440
+Encoding: 442 43644 442
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -24910,7 +24910,7 @@ EndSplineSet
 EndChar
 
 StartChar: uAA7D
-Encoding: 441 43645 441
+Encoding: 443 43645 443
 Width: 503
 VWidth: 0
 GlyphClass: 2
@@ -24928,7 +24928,7 @@ Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: uAA7E
-Encoding: 442 43646 442
+Encoding: 444 43646 444
 Width: 777
 VWidth: 0
 GlyphClass: 2
@@ -24973,7 +24973,7 @@ EndSplineSet
 EndChar
 
 StartChar: uAA7F
-Encoding: 443 43647 443
+Encoding: 445 43647 445
 Width: 1159
 VWidth: 0
 GlyphClass: 2
@@ -25027,7 +25027,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1000.kham
-Encoding: 444 -1 444
+Encoding: 446 -1 446
 Width: 985
 VWidth: 0
 GlyphClass: 2
@@ -25067,7 +25067,7 @@ Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u1002.kham
-Encoding: 445 -1 445
+Encoding: 447 -1 447
 Width: 596
 VWidth: 0
 GlyphClass: 2
@@ -25098,7 +25098,7 @@ Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u1004.kham
-Encoding: 446 -1 446
+Encoding: 448 -1 448
 Width: 574
 VWidth: 0
 GlyphClass: 2
@@ -25129,7 +25129,7 @@ Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u1010.kham
-Encoding: 447 -1 447
+Encoding: 449 -1 449
 Width: 976
 VWidth: 0
 GlyphClass: 2
@@ -25168,7 +25168,7 @@ Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u1015.kham
-Encoding: 448 -1 448
+Encoding: 450 -1 450
 Width: 595
 VWidth: 0
 GlyphClass: 2
@@ -25199,7 +25199,7 @@ Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u1019.kham
-Encoding: 449 -1 449
+Encoding: 451 -1 451
 Width: 595
 VWidth: 0
 GlyphClass: 2
@@ -25237,7 +25237,7 @@ Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u101A.kham
-Encoding: 450 -1 450
+Encoding: 452 -1 452
 Width: 982
 VWidth: 0
 GlyphClass: 2
@@ -25277,7 +25277,7 @@ Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u101C.kham
-Encoding: 451 -1 451
+Encoding: 453 -1 453
 Width: 978
 VWidth: 0
 GlyphClass: 2
@@ -25315,7 +25315,7 @@ Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u1022.kham
-Encoding: 452 -1 452
+Encoding: 454 -1 454
 Width: 982
 VWidth: 0
 GlyphClass: 2
@@ -25360,7 +25360,7 @@ Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u1032.kham
-Encoding: 453 -1 453
+Encoding: 455 -1 455
 Width: 60
 VWidth: 0
 GlyphClass: 4
@@ -25382,7 +25382,7 @@ Comment: "GDL_order: 9+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u1075.kham
-Encoding: 454 -1 454
+Encoding: 456 -1 456
 Width: 595
 VWidth: 0
 GlyphClass: 2
@@ -25417,7 +25417,7 @@ Comment: "GDL_order: 7+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u1078.kham
-Encoding: 455 -1 455
+Encoding: 457 -1 457
 Width: 976
 VWidth: 0
 GlyphClass: 2
@@ -25457,7 +25457,7 @@ Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u1080.kham
-Encoding: 456 -1 456
+Encoding: 458 -1 458
 Width: 966
 VWidth: 0
 GlyphClass: 2
@@ -25503,7 +25503,7 @@ Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA60.kham
-Encoding: 457 -1 457
+Encoding: 459 -1 459
 Width: 953
 VWidth: 0
 GlyphClass: 2
@@ -25548,7 +25548,7 @@ Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA61.kham
-Encoding: 458 -1 458
+Encoding: 460 -1 460
 Width: 977
 VWidth: 0
 GlyphClass: 2
@@ -25592,7 +25592,7 @@ Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA62.kham
-Encoding: 459 -1 459
+Encoding: 461 -1 461
 Width: 655
 VWidth: 0
 GlyphClass: 2
@@ -25629,7 +25629,7 @@ Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA63.kham
-Encoding: 460 -1 460
+Encoding: 462 -1 462
 Width: 982
 VWidth: 0
 GlyphClass: 2
@@ -25678,7 +25678,7 @@ Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA64.kham
-Encoding: 461 -1 461
+Encoding: 463 -1 463
 Width: 977
 VWidth: 0
 GlyphClass: 2
@@ -25718,7 +25718,7 @@ Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA65.kham
-Encoding: 462 -1 462
+Encoding: 464 -1 464
 Width: 1001
 VWidth: 0
 GlyphClass: 2
@@ -25770,7 +25770,7 @@ Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA66.kham
-Encoding: 463 -1 463
+Encoding: 465 -1 465
 Width: 977
 VWidth: 0
 GlyphClass: 2
@@ -25813,7 +25813,7 @@ Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA6B.kham
-Encoding: 464 -1 464
+Encoding: 466 -1 466
 Width: 742
 VWidth: 0
 GlyphClass: 2
@@ -25853,7 +25853,7 @@ Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA6C.kham
-Encoding: 465 -1 465
+Encoding: 467 -1 467
 Width: 1007
 VWidth: 0
 GlyphClass: 2
@@ -25890,7 +25890,7 @@ Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA6F.kham
-Encoding: 466 -1 466
+Encoding: 468 -1 468
 Width: 746
 VWidth: 0
 GlyphClass: 2
@@ -25928,7 +25928,7 @@ Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA73.kham
-Encoding: 467 -1 467
+Encoding: 469 -1 469
 Width: 653
 VWidth: 0
 GlyphClass: 2
@@ -25963,7 +25963,7 @@ Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA75.kham
-Encoding: 468 -1 468
+Encoding: 470 -1 470
 Width: 1144
 VWidth: 0
 GlyphClass: 2
@@ -26025,7 +26025,7 @@ Comment: "GDL_order: 0+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA76.kham
-Encoding: 469 -1 469
+Encoding: 471 -1 471
 Width: 1218
 VWidth: 0
 GlyphClass: 2
@@ -26093,7 +26093,7 @@ Comment: "GDL_order: 0+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u1032_uAA70
-Encoding: 470 -1 470
+Encoding: 472 -1 472
 Width: 60
 VWidth: 0
 GlyphClass: 4
@@ -26121,7 +26121,7 @@ Comment: "GDL_order: 9+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u103A_uAA70
-Encoding: 471 -1 471
+Encoding: 473 -1 473
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -26154,7 +26154,7 @@ Comment: "GDL_order: 12+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u1036.dot
-Encoding: 472 -1 472
+Encoding: 474 -1 474
 Width: 55
 VWidth: 0
 GlyphClass: 4
@@ -26174,7 +26174,7 @@ Comment: "GDL_order: 10+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u1038.dot
-Encoding: 473 -1 473
+Encoding: 475 -1 475
 Width: 278
 VWidth: 0
 GlyphClass: 2
@@ -26197,7 +26197,7 @@ Comment: "GDL_order: 14+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u1087.dot
-Encoding: 474 -1 474
+Encoding: 476 -1 476
 Width: 282
 VWidth: 0
 GlyphClass: 2
@@ -26218,7 +26218,7 @@ Comment: "GDL_order: 14+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u1088.dot
-Encoding: 475 -1 475
+Encoding: 477 -1 477
 Width: 282
 VWidth: 0
 GlyphClass: 2
@@ -26244,7 +26244,7 @@ Comment: "GDL_order: 14+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u1089.dot
-Encoding: 476 -1 476
+Encoding: 478 -1 478
 Width: 279
 VWidth: 0
 GlyphClass: 2
@@ -26262,7 +26262,7 @@ Comment: "GDL_order: 14+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u108A.dot
-Encoding: 477 -1 477
+Encoding: 479 -1 479
 Width: 451
 VWidth: 0
 GlyphClass: 2
@@ -26291,7 +26291,7 @@ Comment: "GDL_order: 14+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u109A.dot
-Encoding: 478 -1 478
+Encoding: 480 -1 480
 Width: 278
 VWidth: 0
 GlyphClass: 2
@@ -26309,7 +26309,7 @@ Comment: "GDL_order: 14+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u109B.dot
-Encoding: 479 -1 479
+Encoding: 481 -1 481
 Width: 227
 VWidth: 0
 GlyphClass: 2
@@ -26330,7 +26330,7 @@ Comment: "GDL_order: 14+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: uAA7B.dot
-Encoding: 480 -1 480
+Encoding: 482 -1 482
 Width: 282
 VWidth: 0
 GlyphClass: 2
@@ -26351,7 +26351,7 @@ Comment: "GDL_order: 14+AAoA-mark: 210+AAoA"
 EndChar
 
 StartChar: u1010_u103D.med.tri
-Encoding: 481 -1 481
+Encoding: 483 -1 483
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -26399,7 +26399,7 @@ Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103B_u103D.tri
-Encoding: 482 -1 482
+Encoding: 484 -1 484
 Width: 204
 VWidth: 0
 GlyphClass: 2
@@ -26433,7 +26433,7 @@ Comment: "GDL_order: 3+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103B_u103D_u103E.tri
-Encoding: 483 -1 483
+Encoding: 485 -1 485
 Width: 204
 VWidth: 0
 GlyphClass: 2
@@ -26473,7 +26473,7 @@ Comment: "GDL_order: 3+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103C_u103D.alt.narr.tri
-Encoding: 484 -1 484
+Encoding: 486 -1 486
 Width: 214
 VWidth: 0
 GlyphClass: 2
@@ -26513,7 +26513,7 @@ Comment: "GDL_order: 4+AAoA-GDL_advx: 753m+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103C_u103D.alt.wide.tri
-Encoding: 485 -1 485
+Encoding: 487 -1 487
 Width: 214
 VWidth: 0
 GlyphClass: 2
@@ -26555,7 +26555,7 @@ Comment: "GDL_order: 4+AAoA-GDL_advx: 1174m+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103C_u103D.narr.tri
-Encoding: 486 -1 486
+Encoding: 488 -1 488
 Width: 214
 VWidth: 0
 GlyphClass: 2
@@ -26600,7 +26600,7 @@ Comment: "GDL_order: 4+AAoA-GDL_advx: 753m+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103C_u103D.wide.tri
-Encoding: 487 -1 487
+Encoding: 489 -1 489
 Width: 214
 VWidth: 0
 GlyphClass: 2
@@ -26646,7 +26646,7 @@ Comment: "GDL_order: 4+AAoA-GDL_advx: 1174m+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103D.tri
-Encoding: 488 -1 488
+Encoding: 490 -1 490
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -26675,7 +26675,7 @@ Comment: "GDL_order: 5+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103D_u103E.tri
-Encoding: 489 -1 489
+Encoding: 491 -1 491
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -26710,7 +26710,7 @@ Comment: "GDL_order: 5+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103D_u103E.small.tri
-Encoding: 490 -1 490
+Encoding: 492 -1 492
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -26742,7 +26742,7 @@ Comment: "GDL_order: 5+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103E.slantr
-Encoding: 491 -1 491
+Encoding: 493 -1 493
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -26768,7 +26768,7 @@ Comment: "GDL_order: 6+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103E.slanth
-Encoding: 492 -1 492
+Encoding: 494 -1 494
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -26798,7 +26798,7 @@ Comment: "GDL_order: 6+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103E_u102F.slantr
-Encoding: 493 -1 493
+Encoding: 495 -1 495
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -26831,7 +26831,7 @@ Comment: "GDL_order: 6+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103E_u102F.slanth
-Encoding: 494 -1 494
+Encoding: 496 -1 496
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -26868,7 +26868,7 @@ Comment: "GDL_order: 6+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103E_u1030.slantr
-Encoding: 495 -1 495
+Encoding: 497 -1 497
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -26906,7 +26906,7 @@ Comment: "GDL_order: 6+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u103E_u1030.slanth
-Encoding: 496 -1 496
+Encoding: 498 -1 498
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -26948,7 +26948,7 @@ Comment: "GDL_order: 6+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: .null
-Encoding: 0 0 497
+Encoding: 1 0 1
 Width: 1000
 VWidth: 0
 Flags: W
@@ -26956,7 +26956,7 @@ LayerCount: 2
 EndChar
 
 StartChar: nonmarkingreturn
-Encoding: 11 13 498
+Encoding: 2 13 2
 Width: 1000
 VWidth: 0
 Flags: W
@@ -26964,7 +26964,7 @@ LayerCount: 2
 EndChar
 
 StartChar: u1081
-Encoding: 497 4225 499
+Encoding: 499 4225 499
 Width: 575
 VWidth: 0
 Flags: HW
@@ -26990,7 +26990,7 @@ EndSplineSet
 EndChar
 
 StartChar: u102E_u1036
-Encoding: 498 -1 500
+Encoding: 500 -1 500
 Width: 55
 VWidth: 0
 Flags: HW
@@ -27031,7 +27031,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1032_u1036
-Encoding: 499 -1 501
+Encoding: 501 -1 501
 Width: 55
 VWidth: 0
 Flags: HW

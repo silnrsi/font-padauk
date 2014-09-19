@@ -23,6 +23,7 @@ DEBPKG='ttf-sil-padauk'
 COPYRIGHT='Copyright 2013 SIL International, all rights reserved'
 LICENSE='OFL.txt'
 DOCDIR='doc'
+VCS='hg'
 
 mystrings = {
     'Regular' : 'ပိုမှန်',
