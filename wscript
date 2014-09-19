@@ -42,7 +42,10 @@ test = fonttest(targets = {
         'pdfs' : tex(),
         'test' : tests({
             'regression' :
-                cmd('cmptxtrender -p -k -e ${shaper} -s "${script}" -L test -L standard -t ${SRC[1]} -o ${TGT} --copy=fonts ${SRC[0]} ${SRC[2]}')})
+                cmd('cmptxtrender -p -k -e ${shaper} -s "${script}" -L test -L standard -t ${SRC[1]} -o ${TGT} --copy=fonts ${SRC[0]} ${SRC[2]}')}),
+        'xtest' : tests({
+            'cross' :
+                cmd('cmptxtrender -p -k -e ${shaper} -s "${script}" -e ${altshaper} -L shaper -L other -t ${SRC[1]} -o ${TGT} --copy=fonts ${SRC[0]} ${SRC[0]}')}, coverage='shaperpairs')
     })
 # we only want one master.sfd:
 opts = preprocess_args({'opt' : '--no2'})
