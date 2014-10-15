@@ -4,7 +4,7 @@
 import codecs, os
 
 TESTDIR='test-suite'
-VERSION='2.96.1'
+VERSION='2.96.2'
 TTF_VERSION='2.9'
 APPNAME='padauk'
 SRCDIST="{0}-src.{1}".format(APPNAME, VERSION)

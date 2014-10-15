@@ -86,43 +86,26 @@ lookup remove25ccAsat {
 	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
 	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
 	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
+	\u1027 \u1029 \u102B \u102C \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
 	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
 	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
 	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
 	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
 	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
 	\uAA76 \uAA77 \uAA78 \uAA79 ] [\circledash ] [\u1037 ] [\circledash ]' [\u103A ]' by \u103A ;
-  subtable;
-    sub [\u102B ] [\circledash ] [\u1037 ] [\circledash ]' [\u103A ]' by \u103A ;
-  subtable;
-    sub [\u102C ] [\circledash ] [\u1037 ] [\circledash ]' [\u103A ]' by \u103A;
-  subtable;
     sub [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
 	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
 	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
 	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
 	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
 	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
-	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
+	\u1027 \u1029 \u102B \u102C \u1036 \u103E \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
+	\u105A \u105B \u105C \u105D \u1061 \u1062 \u1063 \u1065 \u106E \u106F \u1070 \u1075 
 	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
-	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
+	\u1080 \u1081 \u1081.straight \u1082 \u1083 \u108E \u109D \u109F \circledash \uAA60 
 	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
 	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
 	\uAA76 \uAA77 \uAA78 \uAA79 ] [\circledash ]' [\u103A ]' by \u103A ;
-  subtable;
-    sub [\u102B \u102C \u1062 \u1063 \u1083 ] [\circledash ]' [\u103A ]' by \u103A;
-  subtable;
-    sub [\u1062 ] [\circledash ]' [\u103A ]' by \u103A;
-  subtable;
-    sub [\u1063 ] [\circledash ]' [\u103A ]' by \u103A;
-  subtable;
-    sub [\u1036 ] [\circledash ]' [\u103A ]' by \u103A;
-  subtable;
-    sub [\u103E ] [\circledash ]' [\u103A ]' by \u103A;
-  subtable;
-    sub [\u1082 ] [\circledash ]' [\u103A ]' by \u103A;
 } remove25ccAsat;
 
 lookup remove25cc1039Ligature {
@@ -132,24 +115,16 @@ lookup remove25cc1039Ligature {
 
 lookup remove25cc1039 {
   lookupflag 0;
-    sub [\u1004 ] [\u103A ] [\circledash ]'lookup remove25cc1039Ligature  [\u1039 ]';
-  subtable;
-    sub [\u105A ] [\u103A ] [\circledash ]'lookup remove25cc1039Ligature  [\u1039 ]';
-  subtable;
-    sub [\u101B ] [\u103A ] [\circledash ]'lookup remove25cc1039Ligature  [\u1039 ]';
-  subtable;
-    sub [\u1000 \u1003 \u1006 \u100A \u100A.alt \u100F \u1010 \u1011 \u1018 \u101A \u101C 
-	\u101E \u101F \u1021 \u1022 \u106E \u106F \u1078 \u1079 \u107B \u107C 
-	\u107D \u1080 \uAA60 \uAA61 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 
-	\uAA69 \uAA6A \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ] [\circledash ]'lookup remove25cc1039Ligature  [\u1039 ]';
-  subtable;
-    sub [\u1001 \u1002 \u1004 \u1005 \u1007 \u100E \u1012 \u1013 \u1014 \u1014.alt \u1015 
-	\u1016 \u1017 \u1019 \u101B \u101D \u1027 \u1050 \u1051 \u1052 \u1053 
-	\u1054 \u1055 \u1056 \u1057 \u105C \u1065 \u1075 \u1076 \u1077 \u107F 
-	\u1081 \u1081.straight \u1084 \u108E \circledash \uAA62 \uAA6B ] [\circledash ]'lookup remove25cc1039Ligature [\u1039 ]' ;
-  subtable;
-    sub [\u1008 \u1009 \u100B \u100C \u100D \u1020 \u105A \u105B \u105D \u1070 \u107A \u107E 
-	\uAA74 \uAA75 \uAA76 \uAA77 \uAA7A ] [\circledash ]'lookup remove25cc1039Ligature  [\u1039 ]';
+    sub [\u1004 \u101B \u105A ] [\u103A ] [\circledash ]'lookup remove25cc1039Ligature  [\u1039 ]';
+    sub [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A
+    \u100A.alt \u100B \u100C \u100D \u100E \u100F \u1010 \u1011 \u1012 \u1013 \u1014
+    \u1014.alt \u1015 \u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101C \u101D 
+	\u101E \u101F \u1020 \u1021 \u1022 \u1027 \u1050 \u1051 \u1052 \u1053 \u1054 \u1055
+    \u1056 \u1057 \u105A \u105B \u105C \u105D \u1065 \u106E \u106F \u1070 \u1075 \u1076
+    \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F \u1080 \u1081 \u1081.straight
+    \u1084 \u108E \circledash \uAA60 \uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 
+	\uAA69 \uAA6A \uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA74 \uAA75 \uAA76 \uAA77 \uAA7A ] 
+        [\circledash ]'lookup remove25cc1039Ligature  [\u1039 ]';
 } remove25cc1039;
 
 lookup remove25cc103BLigature {
@@ -172,7 +147,6 @@ lookup remove25ccya {
 	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
 	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
 	\uAA76 \uAA77 \uAA78 \uAA79 ] [\circledash ]'lookup remove25cc103BLigature [\u103B ]' ;
-  subtable;
     sub [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
 	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
 	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
@@ -208,7 +182,6 @@ lookup remove25ccra {
 	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
 	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
 	\uAA76 \uAA77 \uAA78 \uAA79 ] [\circledash ]'lookup remove25cc103CLigature [\u103C ]' ;
-  subtable;
     sub [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
 	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
 	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
@@ -221,21 +194,7 @@ lookup remove25ccra {
 	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
 	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
 	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ] [\u103A ] [\circledash ]'lookup remove25cc103CLigature [\u103C ]' ;
-  subtable;
-    sub [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
-	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
-	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
-	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
-	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
-	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
-	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
-	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
-	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
-	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
-	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ] [\u103B ] [\circledash ]'lookup remove25cc103CLigature [\u103C ]' ;
+	\uAA76 \uAA77 \uAA78 \uAA79 ] [\u103A \u103B ] [\circledash ]'lookup remove25cc103CLigature [\u103C ]' ;
 } remove25ccra;
 
 lookup remove25ccMonShanLigature {
@@ -260,7 +219,7 @@ lookup remove25ccMonShan {
 	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
 	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
 	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ] [\circledash ]'lookup remove25ccMonShanLigature [\u105F \u1060 \u1082 ]' ;
+	\uAA76 \uAA77 \uAA78 \uAA79 ] [\circledash ]'lookup remove25ccMonShanLigature [\u105E \u105F \u1060 \u1082 ]' ;
 } remove25ccMonShan;
 
 lookup remove25ccwaLigature {
@@ -276,19 +235,13 @@ lookup remove25ccwa {
 	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
 	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
 	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
+	\u1027 \u1029 \u103A \u103B \u103C \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
 	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
 	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
 	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
 	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
 	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
 	\uAA76 \uAA77 \uAA78 \uAA79 ] [\circledash ]'lookup remove25ccwaLigature [\u103D ]' ;
-  subtable;
-    sub [\u103B ] [\circledash ]'lookup remove25ccwaLigature  [\u103D ]';
-  subtable;
-    sub [\u103C ] [\circledash ]'lookup remove25ccwaLigature  [\u103D ]';
-  subtable;
-    sub [\u103A ] [\circledash ]'lookup remove25ccwaLigature  [\u103D ]';
 } remove25ccwa;
 
 lookup remove25ccHaLigature {
@@ -304,21 +257,13 @@ lookup remove25ccHa {
 	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
 	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
 	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
-	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
+	\u1027 \u1029 \u102B \u102C \u103B \u103C \u103D \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
+	\u105A \u105B \u105C \u105D \u1061 \u1062 \u1063 \u1065 \u106E \u106F \u1070 \u1075 
 	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
-	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
+	\u1080 \u1081 \u1081.straight \u1083 \u108E \u109D \u109F \circledash \uAA60 
 	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
 	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
 	\uAA76 \uAA77 \uAA78 \uAA79 ] [\circledash ]'lookup remove25ccHaLigature [\u103E ]' ;
-  subtable;
-    sub [\u103B ] [\circledash ]'lookup remove25ccHaLigature  [\u103E ]';
-  subtable;
-    sub [\u103C ] [\circledash ]'lookup remove25ccHaLigature  [\u103E ]';
-  subtable;
-    sub [\u103D ] [\circledash ]'lookup remove25ccHaLigature  [\u103E ]';
-  subtable;
-    sub [\u102B \u102C \u1062 \u1063 \u1083 ] [\circledash ]'lookup remove25ccHaLigature  [\u103E ]' ;
 } remove25ccHa;
 
 lookup remove25ccELigature {
@@ -335,25 +280,13 @@ lookup remove25ccE {
 	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
 	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
 	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
-	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
+	\u1027 \u1029 \u103A \u103B \u103C \u103D \u103E \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
+	\u105A \u105B \u105C \u105D \u105F \u1060 \u1061 \u1065 \u106E \u106F \u1070 \u1075 
 	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
-	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
+	\u1080 \u1081 \u1081.straight \u1082 \u108E \u109D \u109F \circledash \uAA60 
 	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
 	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
 	\uAA76 \uAA77 \uAA78 \uAA79 ] [\circledash ]'lookup remove25ccELigature [\u1031 \u1084 ]' ;
-  subtable;
-    sub [\u103A ] [\circledash ]'lookup remove25ccELigature  [\u1031 \u1084 ]';
-  subtable;
-    sub [\u103B ] [\circledash ]'lookup remove25ccELigature  [\u1031 \u1084 ]';
-  subtable;
-    sub [\u103C ] [\circledash ]'lookup remove25ccELigature  [\u1031 \u1084 ]';
-  subtable;
-    sub [\u103D ] [\circledash ]'lookup remove25ccELigature  [\u1031 \u1084 ]';
-  subtable;
-    sub [\u103E ] [\circledash ]'lookup remove25ccELigature  [\u1031 \u1084 ]';
-  subtable;
-    sub [\u105F \u1060 \u1082 ] [\circledash ]'lookup remove25ccELigature  [\u1031 \u1084 ]';
 } remove25ccE;
 
 lookup remove25ccUpperLigature {
@@ -375,50 +308,26 @@ lookup remove25ccUpperLigature {
 
 lookup remove25ccUpper {
   lookupflag 0;
-    sub [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
+  sub [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
 	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
 	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
 	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
 	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
-	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
-	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
+	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1023 \u1025 
+	\u1027 \u1029 \u102B \u102C \u1031 \u103B \u103C \u103D \u103E \u103F \u1041
+    \u1042 \u1043 \u1044 \u1045 \u1046 \u1047 \u1048 \u1049 \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
+	\u105A \u105B \u105C \u105D \u105F \u1060 \u1061 \u1062 \u1063 \u1065 \u106E \u106F \u1070 \u1075 
 	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
-	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
+	\u1080 \u1081 \u1081.straight \u1082 \u1083 \u1084 \u108E \u109D \u109F \circledash \uAA60 
 	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
 	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ] [\circledash ]'lookup remove25ccUpperLigature [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 
-	\u1074 \u1085 \u1086 ]' ;
-  subtable;
-    sub [\u1023 ] [\circledash ]'lookup remove25ccUpperLigature  [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 
-	\u1074 \u1085 \u1086 ]';
-  subtable;
-    sub [\u1041 \u1042 \u1043 \u1044 \u1045 \u1046 \u1047 \u1048 \u1049 ] [\circledash ]'lookup remove25ccUpperLigature  [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 
-	\u1074 \u1085 \u1086 ]';
-  subtable;
-    sub [\u1040 \u1041 \u1042 \u1043 \u1044 \u1045 \u1046 \u1047 \u1048 \u1049 ] [\u1040 \u1041 \u1042 \u1043 \u1044 \u1045 \u1046 \u1047 \u1048 \u1049 ] [\circledash ]'lookup remove25ccUpperLigature  [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 
-	\u1074 \u1085 \u1086 ]';
-  subtable;
-    sub [\u103B ] [\circledash ]'lookup remove25ccUpperLigature  [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 
-	\u1074 \u1085 \u1086 ]';
-  subtable;
-    sub [\u103C ] [\circledash ]'lookup remove25ccUpperLigature  [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 
-	\u1074 \u1085 \u1086 ]';
-  subtable;
-    sub [\u103D ] [\circledash ]'lookup remove25ccUpperLigature  [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 
-	\u1074 \u1085 \u1086 ]';
-  subtable;
-    sub [\u103E ] [\circledash ]'lookup remove25ccUpperLigature  [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 
-	\u1074 \u1085 \u1086 ]';
-  subtable;
-    sub [\u1031 \u1084 ] [\circledash ]'lookup remove25ccUpperLigature  [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 
-	\u1074 \u1085 \u1086 ]';
-  subtable;
-    sub [\u105F \u1060 \u1082 ] [\circledash ]'lookup remove25ccUpperLigature  [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 
-	\u1074 \u1085 \u1086 ]';
-  subtable;
-    sub [\u102B \u102C \u1062 \u1063 \u1083 ] [\circledash ]'lookup remove25ccUpperLigature  [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 
-	\u1074 \u1085 \u1086 ]';
+	\uAA76 \uAA77 \uAA78 \uAA79 ] 
+    [\circledash ]'lookup remove25ccUpperLigature
+    [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 \u1074 \u1085 \u1086 ]' ;
+  sub [\u1040 \u1041 \u1042 \u1043 \u1044 \u1045 \u1046 \u1047 \u1048 \u1049 ] 
+    [\u1040 \u1041 \u1042 \u1043 \u1044 \u1045 \u1046 \u1047 \u1048 \u1049 ] 
+    [\circledash ]'lookup remove25ccUpperLigature 
+    [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 \u1074 \u1085 \u1086 ]';
 } remove25ccUpper;
 
 lookup remove25ccLowerLigature {
@@ -437,30 +346,15 @@ lookup remove25ccLower {
 	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
 	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
 	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
-	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
+	\u1027 \u1029 \u102D \u102D_u1036 \u102E \u1031 \u1032_u102D \u1033 \u1034 
+    \u1035 \u103A \u103B \u103C \u103D \u103E \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
+	\u105A \u105B \u105C \u105D \u105F \u1060 \u1061 \u1065 \u106E \u106F \u1070 \u1071 \u1072 \u1073 \u1074 \u1075 
 	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
-	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
+	\u1080 \u1081 \u1081.straight \u1082 \u1084 \u1085 \u1086 \u108E \u109D \u109F \circledash \uAA60 
 	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
 	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ] [\circledash ]'lookup remove25ccLowerLigature [\u102F \u1030 \u1058 \u1059 ]' ;
-  subtable;
-    sub [\u103A ] [\circledash ]'lookup remove25ccLowerLigature  [\u102F \u1030 \u1058 \u1059 ]';
-  subtable;
-    sub [\u103B ] [\circledash ]'lookup remove25ccLowerLigature  [\u102F \u1030 \u1058 \u1059 ]';
-  subtable;
-    sub [\u103C ] [\circledash ]'lookup remove25ccLowerLigature  [\u102F \u1030 \u1058 \u1059 ]';
-  subtable;
-    sub [\u103D ] [\circledash ]'lookup remove25ccLowerLigature  [\u102F \u1030 \u1058 \u1059 ]';
-  subtable;
-    sub [\u103E ] [\circledash ]'lookup remove25ccLowerLigature  [\u102F \u1030 \u1058 \u1059 ]';
-  subtable;
-    sub [\u1031 \u1084 ] [\circledash ]'lookup remove25ccLowerLigature  [\u102F \u1030 \u1058 \u1059 ]';
-  subtable;
-    sub [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 
-	\u1074 \u1085 \u1086 ] [\circledash ]'lookup remove25ccLowerLigature  [\u102F \u1030 \u1058 \u1059 ]';
-  subtable;
-    sub [\u105F \u1060 \u1082 ] [\circledash ]'lookup remove25ccLowerLigature  [\u102F \u1030 \u1058 \u1059 ]';
+	\uAA76 \uAA77 \uAA78 \uAA79 ] 
+    [\circledash ]'lookup remove25ccLowerLigature [\u102F \u1030 \u1058 \u1059 ]' ;
 } remove25ccLower;
 
 lookup remove25ccALigature {
@@ -480,44 +374,17 @@ lookup remove25ccA {
 	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
 	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
 	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
-	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
+	\u1027 \u1029 \u102D \u102D_u1036 \u102E \u102F \u1030 \u1031 \u1032 \u1032_u102D \u1033 \u1034 \u1035 \u1036 \u1037 \u103A \u103B \u103C \u103D \u103E \u103F \u1041 \u1042 \u1043 \u1044 \u1045 \u1046 \u1047 \u1048 \u1049 \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 \u1058 \u1059 
+	\u105A \u105B \u105C \u105D \u105F \u1060 \u1061 \u1062 \u1065 \u106E \u106F \u1070 \u1071 \u1072 \u1073 \u1074 \u1075 
 	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
-	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
+	\u1080 \u1081 \u1081.straight \u1082 \u1084 \u1085 \u1086 \u108E \u109D \u109F \circledash \uAA60 
 	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
 	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ] [\circledash ]'lookup remove25ccALigature [\u102B \u102C \u1062 \u1063 \u1083 ]' ;
-  subtable;
-    sub [\u1041 \u1042 \u1043 \u1044 \u1045 \u1046 \u1047 \u1048 \u1049 ] [\circledash ]'lookup remove25ccALigature  [\u102B \u102C \u1062 \u1063 \u1083 ]';
-  subtable;
-    sub [\u1040 \u1041 \u1042 \u1043 \u1044 \u1045 \u1046 \u1047 \u1048 \u1049 ] [\u1040 \u1041 \u1042 \u1043 \u1044 \u1045 \u1046 \u1047 \u1048 \u1049 ] [\circledash ]'lookup remove25ccALigature  [\u102B \u102C \u1062 \u1063 \u1083 ]';
-  subtable;
-    sub [\u103A ] [\circledash ]'lookup remove25ccALigature  [\u102B \u102C \u1062 \u1063 \u1083 ]';
-  subtable;
-    sub [\u103B ] [\circledash ]'lookup remove25ccALigature  [\u102B \u102C \u1062 \u1063 \u1083 ]';
-  subtable;
-    sub [\u103C ] [\circledash ]'lookup remove25ccALigature  [\u102B \u102C \u1062 \u1063 \u1083 ]';
-  subtable;
-    sub [\u103D ] [\circledash ]'lookup remove25ccALigature  [\u102B \u102C \u1062 \u1063 \u1083 ]';
-  subtable;
-    sub [\u103E ] [\circledash ]'lookup remove25ccALigature  [\u102B \u102C \u1062 \u1063 \u1083 ]';
-  subtable;
-    sub [\u1031 \u1084 ] [\circledash ]'lookup remove25ccALigature  [\u102B \u102C \u1062 \u1063 \u1083 ]';
-  subtable;
-    sub [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 
-	\u1074 \u1085 \u1086 ] [\circledash ]'lookup remove25ccALigature  [\u102B \u102C \u1062 \u1063 \u1083 ]';
-  subtable;
-    sub [\u102F \u1030 \u1058 \u1059 ] [\circledash ]'lookup remove25ccALigature  [\u102B \u102C \u1062 \u1063 \u1083 ]';
-  subtable;
-    sub [\u1037 ] [\circledash ]'lookup remove25ccALigature  [\u102B \u102C \u1062 \u1063 \u1083 ]';
-  subtable;
-    sub [\u1032 ] [\circledash ]'lookup remove25ccALigature  [\u102B \u102C \u1062 \u1063 \u1083 ]';
-  subtable;
-    sub [\u1036 ] [\circledash ]'lookup remove25ccALigature  [\u102B \u102C \u1062 \u1063 \u1083 ]';
-  subtable;
-    sub [\u1062 ] [\circledash ]'lookup remove25ccALigature  [\u102B \u102C \u1062 \u1063 \u1083 ]';
-  subtable;
-    sub [\u105F \u1060 \u1082 ] [\circledash ]'lookup remove25ccALigature  [\u102B \u102C \u1062 \u1063 \u1083 ]';
+	\uAA76 \uAA77 \uAA78 \uAA79 ]
+    [\circledash ]'lookup remove25ccALigature [\u102B \u102C \u1062 \u1063 \u1083 ]' ;
+  sub [\u1040 \u1041 \u1042 \u1043 \u1044 \u1045 \u1046 \u1047 \u1048 \u1049 ] 
+    [\u1040 \u1041 \u1042 \u1043 \u1044 \u1045 \u1046 \u1047 \u1048 \u1049 ] 
+    [\circledash ]'lookup remove25ccALigature  [\u102B \u102C \u1062 \u1063 \u1083 ]';
 } remove25ccA;
 
 lookup remove25cc1036Ligature {
@@ -534,34 +401,16 @@ lookup remove25cc1036 {
 	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
 	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
 	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
-	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
+	\u1027 \u1029 \u102B \u102C \u102D \u102D_u1036 \u102E \u102F \u1030 \u1031 
+    \u1032_u102D \u1033 \u1034 \u1035 \u103A \u103B \u103C \u103D \u103E \u103F 
+    \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
+	\u1058 \u1059 \u105A \u105B \u105C \u105D \u105F \u1060 \u1061 \u1062 \u1063 
+    \u1065 \u106E \u106F \u1070 \u1071 \u1072 \u1073 \u1074 \u1075 
 	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
-	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
+	\u1080 \u1081 \u1081.straight \u1082 \u1083 \u1084 \u1085 \u1086 \u108E \u109D \u109F \circledash \uAA60 
 	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
 	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
 	\uAA76 \uAA77 \uAA78 \uAA79 ] [\circledash ]'lookup remove25cc1036Ligature [\u1032 \u1036 ]' ;
-  subtable;
-    sub [\u103A ] [\circledash ]'lookup remove25cc1036Ligature  [\u1032 \u1036 ]';
-  subtable;
-    sub [\u103B ] [\circledash ]'lookup remove25cc1036Ligature  [\u1032 \u1036 ]';
-  subtable;
-    sub [\u103C ] [\circledash ]'lookup remove25cc1036Ligature  [\u1032 \u1036 ]';
-  subtable;
-    sub [\u103D ] [\circledash ]'lookup remove25cc1036Ligature  [\u1032 \u1036 ]';
-  subtable;
-    sub [\u103E ] [\circledash ]'lookup remove25cc1036Ligature  [\u1032 \u1036 ]';
-  subtable;
-    sub [\u1031 \u1084 ] [\circledash ]'lookup remove25cc1036Ligature  [\u1032 \u1036 ]';
-  subtable;
-    sub [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 
-	\u1074 \u1085 \u1086 ] [\circledash ]'lookup remove25cc1036Ligature  [\u1032 \u1036 ]';
-  subtable;
-    sub [\u102F \u1030 \u1058 \u1059 ] [\circledash ]'lookup remove25cc1036Ligature  [\u1032 \u1036 ]';
-  subtable;
-    sub [\u102B \u102C \u1062 \u1063 \u1083 ] [\circledash ]'lookup remove25cc1036Ligature  [\u1032 \u1036 ]';
-  subtable;
-    sub [\u105F \u1060 \u1082 ] [\circledash ]'lookup remove25cc1036Ligature  [\u1032 \u1036 ]';
 } remove25cc1036;
 
 lookup remove25cc1037Ligature {
@@ -571,84 +420,35 @@ lookup remove25cc1037Ligature {
 
 lookup remove25cc1037 {
   lookupflag 0;
-    sub [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
+  sub [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
 	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
 	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
 	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
 	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
 	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
-	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
+	\u1027 \u1029 \u102B \u102C \u102D \u102D_u1036 \u102E \u102F \u1030 
+    \u1031 \u1032 \u1032_u102D \u1033 \u1034 \u1035 \u1036 \u103B \u103C
+    \u103D \u103E \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
+	\u1058 \u1059 \u105A \u105B \u105C \u105D \u1060 \u1061 \u1065 \u1069
+    \u106A \u106B \u106C \u106D \u106E \u106F \u1070 \u1071 \u1072 \u1073 \u1074 \u1075 
 	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
-	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
+	\u1080 \u1081 \u1081.straight \u1082 \u1085 \u1086 \u108E \u109D \u109F \circledash \uAA60 
 	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
 	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
 	\uAA76 \uAA77 \uAA78 \uAA79 ] [\circledash ]'lookup remove25cc1037Ligature [\u1037 ]' ;
-  subtable;
-    sub [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
+  sub [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
 	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
 	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
 	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
 	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
 	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
+	\u1027 \u1029 \u102B \u102C \u102D \u102F \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
 	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
 	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
 	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
 	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
 	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
 	\uAA76 \uAA77 \uAA78 \uAA79 ] [\u103A ] [\circledash ]'lookup remove25cc1037Ligature [\u1037 ]' ;
-  subtable;
-    sub [\u102D ] [\u103A ] [\circledash ]'lookup remove25cc1037Ligature  [\u1037 ]';
-  subtable;
-    sub [\u102F ] [\u103A ] [\circledash ]'lookup remove25cc1037Ligature  [\u1037 ]';
-  subtable;
-    sub [\u103B ] [\circledash ]'lookup remove25cc1037Ligature  [\u1037 ]';
-  subtable;
-    sub [\u103C ] [\circledash ]'lookup remove25cc1037Ligature  [\u1037 ]';
-  subtable;
-    sub [\u103D ] [\circledash ]'lookup remove25cc1037Ligature  [\u1037 ]';
-  subtable;
-    sub [\u103E ] [\circledash ]'lookup remove25cc1037Ligature  [\u1037 ]';
-  subtable;
-    sub [] [\circledash ]'lookup remove25cc1037Ligature  [\u1037 ]';
-  subtable;
-    sub [\u1082 ] [\circledash ]'lookup remove25cc1037Ligature  [\u1037 ]';
-  subtable;
-    sub [\u1060 ] [\circledash ]'lookup remove25cc1037Ligature  [\u1037 ]';
-  subtable;
-    sub [] [\circledash ]'lookup remove25cc1037Ligature  [\u1037 ]';
-  subtable;
-    sub [\u1069 ] [\circledash ]'lookup remove25cc1037Ligature  [\u1037 ]';
-  subtable;
-    sub [\u106A ] [\circledash ]'lookup remove25cc1037Ligature  [\u1037 ]';
-  subtable;
-    sub [\u106B ] [\circledash ]'lookup remove25cc1037Ligature  [\u1037 ]';
-  subtable;
-    sub [\u106C ] [\circledash ]'lookup remove25cc1037Ligature  [\u1037 ]';
-  subtable;
-    sub [\u106D ] [\circledash ]'lookup remove25cc1037Ligature  [\u1037 ]';
-  subtable;
-    sub [\u1031 ] [\circledash ]'lookup remove25cc1037Ligature  [\u1037 ]';
-  subtable;
-    sub [\u1036 ] [\circledash ]'lookup remove25cc1037Ligature  [\u1037 ]';
-  subtable;
-    sub [\u1032 ] [\circledash ]'lookup remove25cc1037Ligature  [\u1037 ]';
-  subtable;
-    sub [\u1086 ] [\circledash ]'lookup remove25cc1037Ligature  [\u1037 ]';
-  subtable;
-    sub [\u102B ] [\circledash ]'lookup remove25cc1037Ligature  [\u1037 ]';
-  subtable;
-    sub [\u102C ] [\circledash ]'lookup remove25cc1037Ligature  [\u1037 ]';
-  subtable;
-    sub [\u102B ] [\u103A ] [\circledash ]'lookup remove25cc1037Ligature  [\u1037 ]';
-  subtable;
-    sub [\u102C ] [\u103A ] [\circledash ]'lookup remove25cc1037Ligature  [\u1037 ]';
-  subtable;
-    sub [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 
-	\u1074 \u1085 \u1086 ] [\circledash ]'lookup remove25cc1037Ligature  [\u1037 ]';
-  subtable;
-    sub [\u102F \u1030 \u1058 \u1059 ] [\circledash ]'lookup remove25cc1037Ligature  [\u1037 ]';
 } remove25cc1037;
 
 lookup remove25ccAfter1037 {
@@ -683,82 +483,21 @@ lookup remove25ccTone {
 	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
 	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
 	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
-	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
-	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
+	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 \u1026 
+	\u1027 \u1029 \u102B \u102C \u102D \u102D_u1036 \u102E \u102F \u1030 \u1031 
+    \u1032 \u1032_u102D \u1033 \u1034 \u1035 \u1036 \u1037 \u103A \u103B \u103C 
+    \u103D \u103E \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 \u1058 \u1059 
+	\u105A \u105B \u105C \u105D \u105F \u1060 \u1061 \u1062 \u1063 \u1065 \u1067 
+    \u1068 \u1069 \u106A \u106B \u106C \u106D \u106E \u106F \u1070 \u1071 \u1072 \u1073 \u1074 \u1075 
 	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
-	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
+	\u1080 \u1081 \u1081.straight \u1082 \u1083 \u1084 \u1085 \u1086 \u108E \u109D \u109F \circledash \uAA60 
 	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
 	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ] [\circledash ]'lookup remove25ccToneLigature [\u1038 \u1064 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B 
-	\u108C \u108D \u108F \uAA7B ] ;
-  subtable;
-    sub [\u103A ] [\circledash ]'lookup remove25ccToneLigature  [\u1038 \u1064 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B 
-	\u108C \u108D \u108F \uAA7B ] ;
-  subtable;
-    sub [\u103B ] [\circledash ]'lookup remove25ccToneLigature  [\u1038 \u1064 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B 
-	\u108C \u108D \u108F \uAA7B ] ;
-  subtable;
-    sub [\u103C ] [\circledash ]'lookup remove25ccToneLigature  [\u1038 \u1064 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B 
-	\u108C \u108D \u108F \uAA7B ] ;
-  subtable;
-    sub [\u103D ] [\circledash ]'lookup remove25ccToneLigature  [\u1038 \u1064 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B 
-	\u108C \u108D \u108F \uAA7B ] ;
-  subtable;
-    sub [\u103E ] [\circledash ]'lookup remove25ccToneLigature  [\u1038 \u1064 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B 
-	\u108C \u108D \u108F \uAA7B ] ;
-  subtable;
-    sub [\u105F \u1060 \u1082 ] [\circledash ]'lookup remove25ccToneLigature  [\u1038 \u1064 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B 
-	\u108C \u108D \u108F \uAA7B ] ;
-  subtable;
-    sub [\u1031 \u1084 ] [\circledash ]'lookup remove25ccToneLigature  [\u1038 \u1064 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B 
-	\u108C \u108D \u108F \uAA7B ] ;
-  subtable;
-    sub [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 
-	\u1074 \u1085 \u1086 ] [\circledash ]'lookup remove25ccToneLigature  [\u1038 \u1064 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B 
-	\u108C \u108D \u108F \uAA7B ] ;
-  subtable;
-    sub [\u102F \u1030 \u1058 \u1059 ] [\circledash ]'lookup remove25ccToneLigature  [\u1038 \u1064 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B 
-	\u108C \u108D \u108F \uAA7B ] ;
-  subtable;
-    sub [\u102B \u102C \u1062 \u1063 \u1083 ] [\circledash ]'lookup remove25ccToneLigature  [\u1038 \u1064 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B 
-	\u108C \u108D \u108F \uAA7B ] ;
-  subtable;
-    sub [\u1026 ] [\circledash ]'lookup remove25ccToneLigature  [\u1038 \u1064 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B 
-	\u108C \u108D \u108F \uAA7B ] ;
-  subtable;
-    sub [\u1032 ] [\circledash ]'lookup remove25ccToneLigature  [\u1038 \u1064 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B 
-	\u108C \u108D \u108F \uAA7B ] ;
-  subtable;
-    sub [\u1036 ] [\circledash ]'lookup remove25ccToneLigature  [\u1038 \u1064 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B 
-	\u108C \u108D \u108F \uAA7B ] ;
-  subtable;
-    sub [\u1037 ] [\circledash ]'lookup remove25ccToneLigature  [\u1038 \u1064 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B 
-	\u108C \u108D \u108F \uAA7B ] ;
-  subtable;
-    sub [] [\circledash ]'lookup remove25ccToneLigature  [\u1038 \u1064 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B 
-	\u108C \u108D \u108F \uAA7B ] ;
-  subtable;
-    sub [\u1067 ] [\circledash ]'lookup remove25ccToneLigature  [\u1038 \u1064 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B 
-	\u108C \u108D \u108F \uAA7B ] ;
-  subtable;
-    sub [\u1068 ] [\circledash ]'lookup remove25ccToneLigature  [\u1038 \u1064 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B 
-	\u108C \u108D \u108F \uAA7B ] ;
-  subtable;
-    sub [\u1069 ] [\circledash ]'lookup remove25ccToneLigature  [\u1038 \u1064 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B 
-	\u108C \u108D \u108F \uAA7B ] ;
-  subtable;
-    sub [\u106A ] [\circledash ]'lookup remove25ccToneLigature  [\u1038 \u1064 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B 
-	\u108C \u108D \u108F \uAA7B ] ;
-  subtable;
-    sub [\u106B ] [\circledash ]'lookup remove25ccToneLigature  [\u1038 \u1064 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B 
-	\u108C \u108D \u108F \uAA7B ] ;
-  subtable;
-    sub [\u106C ] [\circledash ]'lookup remove25ccToneLigature  [\u1038 \u1064 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B 
-	\u108C \u108D \u108F \uAA7B ] ;
-  subtable;
-    sub [\u106D ] [\circledash ]'lookup remove25ccToneLigature  [\u1038 \u1064 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B 
-	\u108C \u108D \u108F \uAA7B ] ;
+	\uAA76 \uAA77 \uAA78 \uAA79 ]
+        [\circledash ]'lookup remove25ccToneLigature
+        [\u1038 \u1064 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B \u108C \u108D \u108F \uAA7B ] ;
+#    sub [] [\circledash ]'lookup remove25ccToneLigature 
+#        [\u1038 \u1064 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B \u108C \u108D \u108F \uAA7B ] ;
 } remove25ccTone;
 
 lookup remove25ccKinziLigature {
@@ -883,25 +622,22 @@ lookup medialLigLigature {
 
 lookup medialLig {
   lookupflag 0;
-    sub [\u1000 \u1003 \u1006 \u100A \u100A.alt \u100F \u1010 \u1011 \u1018 \u101A \u101C 
-	\u101E \u101F \u1021 \u1022 \u106E \u106F \u1078 \u1079 \u107B \u107C 
-	\u107D \u1080 \uAA60 \uAA61 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 
-	\uAA69 \uAA6A \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ] [\u103B \u103C \u103E ]'lookup medialLigLigature  [\u102F \u1030 \u103D \u103D_u103E \u103E ]';
-  subtable;
-    sub [\u1001 \u1002 \u1004 \u1005 \u1007 \u100E \u1012 \u1013 \u1014 \u1014.alt \u1015 
-	\u1016 \u1017 \u1019 \u101B \u101D \u1027 \u1050 \u1051 \u1052 \u1053 
-	\u1054 \u1055 \u1056 \u1057 \u105C \u1065 \u1075 \u1076 \u1077 \u107F 
-	\u1081 \u1081.straight \u1084 \u108E \circledash \uAA62 \uAA6B ] [\u103B \u103C \u103E ]'lookup medialLigLigature [\u102F \u1030 \u103D \u103D_u103E \u103E ]' ;
-  subtable;
-    sub [\u1000 \u1003 \u1006 \u100A \u100A.alt \u100F \u1010 \u1011 \u1018 \u101A \u101C 
-	\u101E \u101F \u1021 \u1022 \u106E \u106F \u1078 \u1079 \u107B \u107C 
-	\u107D \u1080 \uAA60 \uAA61 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 
-	\uAA69 \uAA6A \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ] [\u103B ] [\u103B \u103C \u103E ]'lookup medialLigLigature  [\u102F \u1030 \u103D \u103D_u103E \u103E ]';
-  subtable;
-    sub [\u1001 \u1002 \u1004 \u1005 \u1007 \u100E \u1012 \u1013 \u1014 \u1014.alt \u1015 
-	\u1016 \u1017 \u1019 \u101B \u101D \u1027 \u1050 \u1051 \u1052 \u1053 
-	\u1054 \u1055 \u1056 \u1057 \u105C \u1065 \u1075 \u1076 \u1077 \u107F 
-	\u1081 \u1081.straight \u1084 \u108E \circledash \uAA62 \uAA6B ] [\u103B ] [\u103B \u103C \u103E ]'lookup medialLigLigature [\u102F \u1030 \u103D \u103D_u103E \u103E ]' ;
+    sub [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u100A \u100A.alt
+    \u100E \u100F \u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1015 \u1016 \u1017
+    \u1018 \u1019 \u101A \u101B \u101C \u101D \u101E \u101F \u1021 \u1022 \u1027
+    \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 \u1056 \u1057 \u105C \u1065 \u106E \u106F
+    \u1075 \u1076 \u1077 \u1078 \u1079 \u107B \u107C \u107D \u107F \u1080 \u1081 
+    \u1081.straight \u1084 \u108E \circledash \uAA60 \uAA61 \uAA62 \uAA63 \uAA64 
+    \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A \uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ] 
+    [\u103B \u103C \u103E ]'lookup medialLigLigature  [\u102F \u1030 \u103D \u103D_u103E \u103E ]';
+    sub [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u100A \u100A.alt
+    \u100E \u100F \u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1015 \u1016 \u1017
+    \u1018 \u1019 \u101A \u101B \u101C \u101D \u101E \u101F \u1021 \u1022 \u1027
+    \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 \u1056 \u1057 \u105C \u1065 \u106E \u106F
+    \u1075 \u1076 \u1077 \u1078 \u1079 \u107B \u107C \u107D \u107F \u1080 \u1081 
+    \u1081.straight \u1084 \u108E \circledash \uAA60 \uAA61 \uAA62 \uAA63 \uAA64 
+    \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A \uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ] 
+    [\u103B ] [\u103B \u103C \u103E ]'lookup medialLigLigature  [\u102F \u1030 \u103D \u103D_u103E \u103E ]';
 } medialLig;
 
 lookup monNgaAsat {
@@ -917,7 +653,8 @@ lookup kinziInFrontMultiple {
 
 lookup kinziInFront {
   lookupflag 0;
-    sub [\u1004.kinzi \u101B.kinzi ]'lookup kinziInFrontMultiple [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
+    sub [\u1004.kinzi \u101B.kinzi ]'lookup kinziInFrontMultiple 
+    [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
 	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
 	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
 	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
@@ -1235,7 +972,8 @@ lookup removeKinziLigature {
 
 lookup removeKinziE {
   lookupflag 0;
-    sub [\u1004.kinzi \u101B.kinzi ]'lookup removeKinziLigature [\u200D ]' [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
+    sub [\u1004.kinzi \u101B.kinzi ]'lookup removeKinziLigature [\u200D ]' 
+    [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
 	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
 	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
 	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
@@ -1248,38 +986,8 @@ lookup removeKinziE {
 	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
 	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
 	\uAA76 \uAA77 \uAA78 \uAA79 ]' [\u1031 ] ;
-  subtable;
-    sub [\u1004.kinzi \u101B.kinzi ]'lookup removeKinziLigature [\u200D ]' [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
-	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
-	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
-	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
-	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
-	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
-	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
-	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
-	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
-	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
-	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ]' [\u103C \u103C.alt.narr \u103C.alt.wide \u103C.wide \u103C_u103D.narr 
-	\u103C_u103D.wide \u103C_u102F.narr \u103C_u102F.wide 
-	\u103C_u102F.alt.narr \u103C_u102F.alt.wide ] [\u1031 ] ;
-  subtable;
-    sub [\u1004.kinzi \u101B.kinzi ]'lookup removeKinziLigature [\u200D ]' [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
-	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
-	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
-	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
-	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
-	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
-	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
-	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
-	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
-	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
-	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ]' [\u1031 ] ;
-  subtable;
-    sub [\u1004.kinzi \u101B.kinzi ]'lookup removeKinziLigature [\u200D ]' [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
+    sub [\u1004.kinzi \u101B.kinzi ]'lookup removeKinziLigature [\u200D ]' 
+    [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
 	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
 	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
 	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
@@ -1364,7 +1072,8 @@ lookup yKinziRa {
 
 lookup removeKinziRa {
   lookupflag 0;
-    ignore sub [\u1004.kinzi \u101B.kinzi ]'lookup removeKinziLigature [\u200D ]' [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
+    ignore sub [\u1004.kinzi \u101B.kinzi ]'lookup removeKinziLigature [\u200D ]' 
+    [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
 	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
 	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
 	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
@@ -1378,23 +1087,7 @@ lookup removeKinziRa {
 	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
 	\uAA76 \uAA77 \uAA78 \uAA79 ]' [\u103C \u103C.alt.narr \u103C.alt.wide \u103C.wide \u103C_u103D.narr 
 	\u103C_u103D.wide \u103C_u102F.narr \u103C_u102F.wide 
-	\u103C_u102F.alt.narr \u103C_u102F.alt.wide ]' [\u1004.kinzi]' ;
-  subtable;
-    sub [\u1004.kinzi \u101B.kinzi ]'lookup removeKinziLigature [\u200D ]' [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
-	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
-	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
-	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
-	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
-	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
-	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
-	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
-	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
-	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
-	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ]' [\u103C \u103C.alt.narr \u103C.alt.wide \u103C.wide \u103C_u103D.narr 
-	\u103C_u103D.wide \u103C_u102F.narr \u103C_u102F.wide 
-	\u103C_u102F.alt.narr \u103C_u102F.alt.wide ]' [\u101B.kinzi]' ;
+	\u103C_u102F.alt.narr \u103C_u102F.alt.wide ]' [\u1004.kinzi \u101B.kinzi]' ;
 } removeKinziRa;
 
 lookup kinziMultiple {
@@ -1673,21 +1366,7 @@ lookup removeKinzi {
 	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
 	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
 	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ]' [\u1004.kinzi] ;
-  subtable;
-    ignore sub [\u1004.kinzi \u101B.kinzi ]'lookup removeKinziLigature [\u200D ]' [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
-	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
-	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
-	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
-	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
-	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
-	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
-	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
-	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
-	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
-	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ]' [\u101B.kinzi] ;
+	\uAA76 \uAA77 \uAA78 \uAA79 ]' [\u1004.kinzi \u101B.kinzi] ;
 } removeKinzi;
 
 lookup rMedsmallSubst {
@@ -1717,19 +1396,18 @@ lookup lVowelSubst {
 lookup lVowel {
   lookupflag 0;
     sub [\u1000 \u1003 \u1006 \u100A \u100A.alt \u100F \u1010 \u1011 \u1018 \u101A \u101C 
-	\u101E \u101F \u1021 \u1022 \u106E \u106F \u1078 \u1079 \u107B \u107C 
+	\u101E \u101F \u1021 \u1022 \u103F \u106E \u106F \u1078 \u1079 \u107B \u107C 
 	\u107D \u1080 \uAA60 \uAA61 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 
 	\uAA69 \uAA6A \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ] [\u102F \u1030 ]'lookup lVowelSubst  ;
-  subtable;
     ignore sub [\u1001 \u1002 \u1004 \u1005 \u1007 \u100E \u1012 \u1013 \u1014 \u1014.alt \u1015 
 	\u1016 \u1017 \u1019 \u101B \u101D \u1027 \u1050 \u1051 \u1052 \u1053 
 	\u1054 \u1055 \u1056 \u1057 \u105C \u1065 \u1075 \u1076 \u1077 \u107F 
 	\u1081 \u1081.straight \u1084 \u108E \circledash \uAA62 \uAA6B ] [\u102F \u1030 ]' ;
-  subtable;
     sub [\u1000 \u1003 \u1006 \u100A \u100A.alt \u100F \u1010 \u1011 \u1018 \u101A \u101C 
-	\u101E \u101F \u1021 \u1022 \u106E \u106F \u1078 \u1079 \u107B \u107C 
+	\u101E \u101F \u1021 \u1022 \u103F \u106E \u106F \u1078 \u1079 \u107B \u107C 
 	\u107D \u1080 \uAA60 \uAA61 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 
-	\uAA69 \uAA6A \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ] [\asciicircum \u1004.kinzi \u1004.kinzi_u102D \u1004.kinzi_u102E 
+	\uAA69 \uAA6A \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ]
+    [\asciicircum \u1004.kinzi \u1004.kinzi_u102D \u1004.kinzi_u102E 
 	\u1004.kinzi_u1032 \u1004.kinzi_u1033 \u1004.kinzi_u1036 
 	\u1004.kinzi_u103A \u1004.kinzi_u102D_u1036 \u101B.kinzi 
 	\u101B.kinzi_u102D \u101B.kinzi_u102E \u101B.kinzi_u103A \u102D 
@@ -1737,11 +1415,11 @@ lookup lVowel {
 	\u1033 \u1034 \u1035 \u1036 \u103A \u103A_u1036 \u1071 \u1072 \u1073 
 	\u1074 \u1085 \u1086 \u1086_uAA7C \u109D \uA9E5 \uA9E5_uAA7C \uAA7C 
 	\u1032.kham \u1032_uAA70 \u103A_uAA70 \u1036.dot ] [\u102F \u1030 ]'lookup lVowelSubst  ;
-  subtable;
     sub [\u1001 \u1002 \u1004 \u1005 \u1007 \u100E \u1012 \u1013 \u1014 \u1014.alt \u1015 
 	\u1016 \u1017 \u1019 \u101B \u101D \u1027 \u1050 \u1051 \u1052 \u1053 
 	\u1054 \u1055 \u1056 \u1057 \u105C \u1065 \u1075 \u1076 \u1077 \u107F 
-	\u1081 \u1081.straight \u1084 \u108E \circledash \uAA62 \uAA6B ] [\asciicircum \u1004.kinzi \u1004.kinzi_u102D \u1004.kinzi_u102E 
+	\u1081 \u1081.straight \u1084 \u108E \circledash \uAA62 \uAA6B ]
+    [\asciicircum \u1004.kinzi \u1004.kinzi_u102D \u1004.kinzi_u102E 
 	\u1004.kinzi_u1032 \u1004.kinzi_u1033 \u1004.kinzi_u1036 
 	\u1004.kinzi_u103A \u1004.kinzi_u102D_u1036 \u101B.kinzi 
 	\u101B.kinzi_u102D \u101B.kinzi_u102E \u101B.kinzi_u103A \u102D 
@@ -1749,23 +1427,10 @@ lookup lVowel {
 	\u1033 \u1034 \u1035 \u1036 \u103A \u103A_u1036 \u1071 \u1072 \u1073 
 	\u1074 \u1085 \u1086 \u1086_uAA7C \u109D \uA9E5 \uA9E5_uAA7C \uAA7C 
 	\u1032.kham \u1032_uAA70 \u103A_uAA70 \u1036.dot ] [\u102F \u1030 ]'lookup lVowelSubst ;
-  subtable;
-    sub [\u103F ] [\asciicircum \u1004.kinzi \u1004.kinzi_u102D \u1004.kinzi_u102E 
-	\u1004.kinzi_u1032 \u1004.kinzi_u1033 \u1004.kinzi_u1036 
-	\u1004.kinzi_u103A \u1004.kinzi_u102D_u1036 \u101B.kinzi 
-	\u101B.kinzi_u102D \u101B.kinzi_u102E \u101B.kinzi_u103A \u102D 
-	\u102D_u1036 \u102D_uAA7C \u102E \u102E_uAA7C \u1032 \u1032_u102D 
-	\u1033 \u1034 \u1035 \u1036 \u103A \u103A_u1036 \u1071 \u1072 \u1073 
-	\u1074 \u1085 \u1086 \u1086_uAA7C \u109D \uA9E5 \uA9E5_uAA7C \uAA7C 
-	\u1032.kham \u1032_uAA70 \u103A_uAA70 \u1036.dot ] [\u102F \u1030 ]'lookup lVowelSubst  ;
-  subtable;
-    sub [\u103F ] [\u102F \u1030 ]'lookup lVowelSubst  ;
-  subtable;
     sub [\u1000 \u1003 \u1006 \u100A \u100A.alt \u100F \u1010 \u1011 \u1018 \u101A \u101C 
 	\u101E \u101F \u1021 \u1022 \u106E \u106F \u1078 \u1079 \u107B \u107C 
 	\u107D \u1080 \uAA60 \uAA61 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 
 	\uAA69 \uAA6A \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ] [\u1031 \u1084 ] [\u102F \u1030 ]'lookup lVowelSubst  ;
-  subtable;
     sub [\u1001 \u1002 \u1004 \u1005 \u1007 \u100E \u1012 \u1013 \u1014 \u1014.alt \u1015 
 	\u1016 \u1017 \u1019 \u101B \u101D \u1027 \u1050 \u1051 \u1052 \u1053 
 	\u1054 \u1055 \u1056 \u1057 \u105C \u1065 \u1075 \u1076 \u1077 \u107F 
@@ -1859,7 +1524,6 @@ lookup cRa {
 	\u107D \u107F \u1080 \u1081 \u1081.straight \u1084 \u108E \circledash 
 	\uAA60 \uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 
 	\uAA6A \uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ]'lookup cRaMultiple [\u103C] ;
-  subtable;
     sub [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u100A \u100A.alt \u100E 
 	\u100F \u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1015 \u1016 \u1017 
 	\u1018 \u1019 \u101A \u101B \u101C \u101D \u101E \u101F \u1021 \u1022 
@@ -1867,32 +1531,14 @@ lookup cRa {
 	\u1065 \u106E \u106F \u1075 \u1076 \u1077 \u1078 \u1079 \u107B \u107C 
 	\u107D \u107F \u1080 \u1081 \u1081.straight \u1084 \u108E \circledash 
 	\uAA60 \uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 
-	\uAA6A \uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ]'lookup cRaMultiple [\u103B] [\u103C] ;
-  subtable;
-    sub [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u100A \u100A.alt \u100E 
-	\u100F \u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1015 \u1016 \u1017 
-	\u1018 \u1019 \u101A \u101B \u101C \u101D \u101E \u101F \u1021 \u1022 
-	\u1027 \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 \u1056 \u1057 \u105C 
-	\u1065 \u106E \u106F \u1075 \u1076 \u1077 \u1078 \u1079 \u107B \u107C 
-	\u107D \u107F \u1080 \u1081 \u1081.straight \u1084 \u108E \circledash 
-	\uAA60 \uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 
-	\uAA6A \uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ]'lookup cRaMultiple [\u103A ] [\u103C] ;
-  subtable;
-    sub [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u100A \u100A.alt \u100E 
-	\u100F \u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1015 \u1016 \u1017 
-	\u1018 \u1019 \u101A \u101B \u101C \u101D \u101E \u101F \u1021 \u1022 
-	\u1027 \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 \u1056 \u1057 \u105C 
-	\u1065 \u106E \u106F \u1075 \u1076 \u1077 \u1078 \u1079 \u107B \u107C 
-	\u107D \u107F \u1080 \u1081 \u1081.straight \u1084 \u108E \circledash 
-	\uAA60 \uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 
-	\uAA6A \uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ]'lookup cRaMultiple [\u1000.med \u1001.med \u1002.med \u1003.med \u1004.med \u1005.med \u1006.med 
+	\uAA6A \uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ]'lookup cRaMultiple 
+    [\u1000.med \u1001.med \u1002.med \u1003.med \u1004.med \u1005.med \u1006.med 
 	\u1007.med \u1008.med \u100A.med \u100B.med \u100C.med \u100D.med 
 	\u100E.med \u100F.med \u1010.med \u1011.med \u1012.med \u1013.med 
 	\u1014.med \u1015.med \u1016.med \u1017.med \u1018.med \u1019.med 
 	\u101A.med \u101B.med \u101C.med \u101E.med \u1021.med \u102F.med 
 	\u1030.med \u1050.med \u1051.med \u105A.med \u105B.med \u105C.med 
-	\uAA60.med ] [\u103C] ;
-  subtable;
+	\uAA60.med \u103A \u103B \u1004.kinzi \u101B.kinzi ] [\u103C] ;
     sub [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u100A \u100A.alt \u100E 
 	\u100F \u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1015 \u1016 \u1017 
 	\u1018 \u1019 \u101A \u101B \u101C \u101D \u101E \u101F \u1021 \u1022 
@@ -1900,31 +1546,14 @@ lookup cRa {
 	\u1065 \u106E \u106F \u1075 \u1076 \u1077 \u1078 \u1079 \u107B \u107C 
 	\u107D \u107F \u1080 \u1081 \u1081.straight \u1084 \u108E \circledash 
 	\uAA60 \uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 
-	\uAA6A \uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ]'lookup cRaMultiple [\u1000.med \u1001.med \u1002.med \u1003.med \u1004.med \u1005.med \u1006.med 
+	\uAA6A \uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ]'lookup cRaMultiple 
+    [\u1000.med \u1001.med \u1002.med \u1003.med \u1004.med \u1005.med \u1006.med 
 	\u1007.med \u1008.med \u100A.med \u100B.med \u100C.med \u100D.med 
 	\u100E.med \u100F.med \u1010.med \u1011.med \u1012.med \u1013.med 
 	\u1014.med \u1015.med \u1016.med \u1017.med \u1018.med \u1019.med 
 	\u101A.med \u101B.med \u101C.med \u101E.med \u1021.med \u102F.med 
 	\u1030.med \u1050.med \u1051.med \u105A.med \u105B.med \u105C.med 
 	\uAA60.med ] [\u103A ] [\u103C] ;
-  subtable;
-    sub [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u100A \u100A.alt \u100E 
-	\u100F \u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1015 \u1016 \u1017 
-	\u1018 \u1019 \u101A \u101B \u101C \u101D \u101E \u101F \u1021 \u1022 
-	\u1027 \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 \u1056 \u1057 \u105C 
-	\u1065 \u106E \u106F \u1075 \u1076 \u1077 \u1078 \u1079 \u107B \u107C 
-	\u107D \u107F \u1080 \u1081 \u1081.straight \u1084 \u108E \circledash 
-	\uAA60 \uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 
-	\uAA6A \uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ]'lookup cRaMultiple [\u1004.kinzi ] [\u103C] ;
-  subtable;
-    sub [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u100A \u100A.alt \u100E 
-	\u100F \u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1015 \u1016 \u1017 
-	\u1018 \u1019 \u101A \u101B \u101C \u101D \u101E \u101F \u1021 \u1022 
-	\u1027 \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 \u1056 \u1057 \u105C 
-	\u1065 \u106E \u106F \u1075 \u1076 \u1077 \u1078 \u1079 \u107B \u107C 
-	\u107D \u107F \u1080 \u1081 \u1081.straight \u1084 \u108E \circledash 
-	\uAA60 \uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 
-	\uAA6A \uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ]'lookup cRaMultiple [\u101B.kinzi ] [\u103C] ;
 } cRa;
 
 lookup cRUaMultiple {
@@ -2244,7 +1873,6 @@ lookup eVowel2 {
 	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
 	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
 	\uAA76 \uAA77 \uAA78 \uAA79 ]'lookup eVowel2Multiple [\u1084] ;
-  subtable;
     sub [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
 	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
 	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
@@ -2257,28 +1885,15 @@ lookup eVowel2 {
 	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
 	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
 	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ]'lookup eVowel2Multiple [\u1084] [\u1000.med \u1001.med \u1002.med \u1003.med \u1004.med \u1005.med \u1006.med 
+	\uAA76 \uAA77 \uAA78 \uAA79 ]'lookup eVowel2Multiple [\u1084] 
+    [\u1000.med \u1001.med \u1002.med \u1003.med \u1004.med \u1005.med \u1006.med 
 	\u1007.med \u1008.med \u100A.med \u100B.med \u100C.med \u100D.med 
 	\u100E.med \u100F.med \u1010.med \u1011.med \u1012.med \u1013.med 
 	\u1014.med \u1015.med \u1016.med \u1017.med \u1018.med \u1019.med 
 	\u101A.med \u101B.med \u101C.med \u101E.med \u1021.med \u102F.med 
 	\u1030.med \u1050.med \u1051.med \u105A.med \u105B.med \u105C.med 
-	\uAA60.med ] ;
-  subtable;
-    sub [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
-	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
-	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
-	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
-	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
-	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
-	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
-	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
-	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
-	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
-	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ]'lookup eVowel2Multiple [\u1084] [\u103B \u103B_u103D \u103B_u103D_u103E \u103B_u103E \u103D \u103D_u103E \u103E 
-	\u103E_u102F \u103E_u1030 ] ;
+	\uAA60.med \u103B \u103B_u103D \u103B_u103D_u103E \u103B_u103E \u103D
+    \u103D_u103E \u103E \u103E_u102F \u103E_u1030 ] ;
 } eVowel2;
 
 lookup CSEaMult {
@@ -2331,15 +1946,7 @@ lookup CSEa {
 	\u1014.med \u1015.med \u1016.med \u1017.med \u1018.med \u1019.med 
 	\u101A.med \u101B.med \u101C.med \u101E.med \u1021.med \u102F.med 
 	\u1030.med \u1050.med \u1051.med \u105A.med \u105B.med \u105C.med 
-	\uAA60.med ]'lookup CSEaMult  [\u1031 ] ;
-  subtable;
-    sub [\u1000.med \u1001.med \u1002.med \u1003.med \u1004.med \u1005.med \u1006.med 
-	\u1007.med \u1008.med \u100A.med \u100B.med \u100C.med \u100D.med 
-	\u100E.med \u100F.med \u1010.med \u1011.med \u1012.med \u1013.med 
-	\u1014.med \u1015.med \u1016.med \u1017.med \u1018.med \u1019.med 
-	\u101A.med \u101B.med \u101C.med \u101E.med \u1021.med \u102F.med 
-	\u1030.med \u1050.med \u1051.med \u105A.med \u105B.med \u105C.med 
-	\uAA60.med ]'lookup CSEaMult  [\u103C ] ;
+	\uAA60.med ]'lookup CSEaMult  [\u1031 \u103C ] ;
 } CSEa;
 
 lookup cEaMultiple {
@@ -2472,7 +2079,6 @@ lookup CEa {
 	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
 	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
 	\uAA76 \uAA77 \uAA78 \uAA79 ]'lookup cEaMultiple [\u1031] ;
-  subtable;
     sub [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
 	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
 	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
@@ -2485,14 +2091,14 @@ lookup CEa {
 	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
 	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
 	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ]'lookup cEaMultiple [\u1039 ] [\u1000.med \u1001.med \u1002.med \u1003.med \u1004.med \u1005.med \u1006.med 
+	\uAA76 \uAA77 \uAA78 \uAA79 ]'lookup cEaMultiple [\u1039 ]
+    [\u1000.med \u1001.med \u1002.med \u1003.med \u1004.med \u1005.med \u1006.med 
 	\u1007.med \u1008.med \u100A.med \u100B.med \u100C.med \u100D.med 
 	\u100E.med \u100F.med \u1010.med \u1011.med \u1012.med \u1013.med 
 	\u1014.med \u1015.med \u1016.med \u1017.med \u1018.med \u1019.med 
 	\u101A.med \u101B.med \u101C.med \u101E.med \u1021.med \u102F.med 
 	\u1030.med \u1050.med \u1051.med \u105A.med \u105B.med \u105C.med 
 	\uAA60.med ] [\u1031] ;
-  subtable;
     sub [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
 	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
 	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
@@ -2505,8 +2111,8 @@ lookup CEa {
 	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
 	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
 	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ]'lookup cEaMultiple [\u103A ] [\u1031] ;
-  subtable;
+	\uAA76 \uAA77 \uAA78 \uAA79 ]'lookup cEaMultiple
+    [\u103A \u103B \u103B_u103D \u103B_u103E \u103B_u103D_u103E \u103D \u103D_u103E \u103E \u105F \u1060 \u1082 ] [\u1031] ;
     sub [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
 	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
 	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
@@ -2519,187 +2125,18 @@ lookup CEa {
 	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
 	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
 	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ]'lookup cEaMultiple [\u103B ] [\u1031] ;
-  subtable;
-    sub [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
-	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
-	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
-	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
-	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
-	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
-	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
-	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
-	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
-	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
-	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ]'lookup cEaMultiple [\u103B_u103D ] [\u1031] ;
-  subtable;
-    sub [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
-	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
-	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
-	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
-	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
-	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
-	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
-	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
-	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
-	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
-	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ]'lookup cEaMultiple [\u103B_u103E ] [\u1031] ;
-  subtable;
-    sub [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
-	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
-	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
-	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
-	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
-	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
-	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
-	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
-	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
-	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
-	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ]'lookup cEaMultiple [\u103B_u103D_u103E ] [\u1031] ;
-  subtable;
-    sub [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
-	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
-	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
-	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
-	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
-	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
-	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
-	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
-	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
-	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
-	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ]'lookup cEaMultiple [\u103D ] [\u1031] ;
-  subtable;
-    sub [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
-	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
-	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
-	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
-	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
-	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
-	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
-	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
-	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
-	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
-	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ]'lookup cEaMultiple [\u103D_u103E ] [\u1031] ;
-  subtable;
-    sub [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
-	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
-	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
-	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
-	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
-	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
-	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
-	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
-	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
-	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
-	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ]'lookup cEaMultiple [\u103E ] [\u1031] ;
-  subtable;
-    sub [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
-	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
-	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
-	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
-	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
-	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
-	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
-	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
-	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
-	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
-	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ]'lookup cEaMultiple [\u103E ] [\u103A ] [\u1031] ;
-  subtable;
-    sub [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
-	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
-	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
-	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
-	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
-	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
-	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
-	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
-	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
-	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
-	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ]'lookup cEaMultiple [\u1004.kinzi ] [\u103B \u103B_u103D \u103B_u103D_u103E \u103B_u103E \u103D \u103D_u103E \u103E 
-	\u103E_u102F \u103E_u1030 ] [\u1031] ;
-  subtable;
-    sub [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
-	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
-	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
-	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
-	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
-	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
-	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
-	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
-	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
-	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
-	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ]'lookup cEaMultiple [\u101B.kinzi ] [\u103B \u103B_u103D \u103B_u103D_u103E \u103B_u103E \u103D \u103D_u103E \u103E 
-	\u103E_u102F \u103E_u1030 ] [\u1031] ;
-  subtable;
-    sub [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
-	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
-	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
-	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
-	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
-	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
-	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
-	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
-	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
-	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
-	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ]'lookup cEaMultiple [\u105F \u1060 \u1082 ] [\u1031] ;
+	\uAA76 \uAA77 \uAA78 \uAA79 ]'lookup cEaMultiple [\u1004.kinzi \u101B.kinzi ] 
+    [\u103B \u103B_u103D \u103B_u103D_u103E \u103B_u103E \u103D \u103D_u103E \u103E \u103E_u102F \u103E_u1030 ] [\u1031] ;
 } CEa;
-
-lookup haOVowelSubst {
-  lookupflag 0;
-    sub \u103E by \u103E_u102F ;
-} haOVowelSubst;
 
 lookup haOVowel {
   lookupflag 0;
-    sub [\u103E ]'lookup haOVowelSubst  [\u102D ] [\u102F ] ;
-  subtable;
-    sub [\u103E ]'lookup haOVowelSubst  [\u1033 ] [\u102F ] ;
-  subtable;
-    sub [\u103E ]'lookup haOVowelSubst  [\u1034 ] [\u102F ] ;
-  subtable;
-    sub [\u103E ]'lookup haOVowelSubst  [\u1035 ] [\u102F ] ;
-  subtable;
-    sub [\u103E ]'lookup haOVowelSubst  [\u1072 ] [\u102F ] ;
-  subtable;
-    sub [\u103E ]'lookup haOVowelSubst  [\u1073 ] [\u102F ] ;
-  subtable;
-    sub [\u103E ]'lookup haOVowelSubst  [\u1074 ] [\u102F ] ;
-  subtable;
-    sub [\u103E ]'lookup haOVowelSubst  [\u103A ] [\u102F ] ;
+    sub [\u103E ]' [\u102D \u1033 \u1034 \u1035 \u103A \u1072 \u1073 \u1074 ] [\u102F ]  by \u103E_u102F;
 } haOVowel;
-
-lookup haIUUVowelSubst {
-  lookupflag 0;
-    sub \u103E by \u103E_u1030 ;
-} haIUUVowelSubst;
 
 lookup haIUUVowel {
   lookupflag 0;
-    sub [\u103E ]'lookup haIUUVowelSubst  [\u102D ] [\u1030 ] ;
-  subtable;
-    sub [\u103E ]'lookup haIUUVowelSubst  [\u1034 ] [\u1030 ] ;
-  subtable;
-    sub [\u103E ]'lookup haIUUVowelSubst  [\u1074 ] [\u1030 ] ;
+    sub [\u103E ]' [\u102D \u1034 \u1074 ] [\u1030 ] by \u103E_u1030 ;
 } haIUUVowel;
 
 lookup maukcha1037 {
@@ -2725,18 +2162,18 @@ lookup sub1014Subst {
 
 lookup sub1014 {
   lookupflag 0;
-    sub [\u100A \u1014 ]'lookup sub1014Subst  [\u1000.med \u1003.med \u1006.med \u100A.med \u100C.med \u100F.med \u1010.med 
-	\u1011.med \u1018.med \u101A.med \u101C.med \u101C.med_u103D 
-	\u101E.med \u1021.med \uAA60.med \uAA60.med.kham ] ;
+    sub [\u100A \u1014 ]'lookup sub1014Subst  [] ;
   subtable;
-    sub [\u100A \u1014 ]'lookup sub1014Subst  [\asciicircum \u1004.kinzi \u1004.kinzi_u102D \u1004.kinzi_u102E 
+    sub [\u100A \u1014 ]'lookup sub1014Subst 
+    [\asciicircum \u1004.kinzi \u1004.kinzi_u102D \u1004.kinzi_u102E 
 	\u1004.kinzi_u1032 \u1004.kinzi_u1033 \u1004.kinzi_u1036 
 	\u1004.kinzi_u103A \u1004.kinzi_u102D_u1036 \u101B.kinzi 
 	\u101B.kinzi_u102D \u101B.kinzi_u102E \u101B.kinzi_u103A \u102D 
 	\u102D_u1036 \u102D_uAA7C \u102E \u102E_uAA7C \u1032 \u1032_u102D 
 	\u1033 \u1034 \u1035 \u1036 \u103A \u103A_u1036 \u1071 \u1072 \u1073 
 	\u1074 \u1085 \u1086 \u1086_uAA7C \u109D \uA9E5 \uA9E5_uAA7C \uAA7C 
-	\u1032.kham \u1032_uAA70 \u103A_uAA70 \u1036.dot ] [\u1001.med \u1002.med \u1004.med \u1005.med \u1007.med \u100B.med \u100D.med 
+	\u1032.kham \u1032_uAA70 \u103A_uAA70 \u1036.dot ] 
+    [\u1001.med \u1002.med \u1004.med \u1005.med \u1007.med \u100B.med \u100D.med 
 	\u100E.med \u1010_u103D.med \u1012.med \u1013.med \u1014.med 
 	\u1015.med \u1016.med \u1017.med \u1019.med \u101B.med \u102F.med 
 	\u102F_u108D \u1030.med \u1030_u108D \u1039 \u103D \u103D_u103E 
@@ -2747,7 +2184,8 @@ lookup sub1014 {
 	\u103E.slanth \u103E_u102F.slantr \u103E_u102F.slanth 
 	\u103E_u1030.slantr \u103E_u1030.slanth ] ;
   subtable;
-    sub [\u100A \u1014 ]'lookup sub1014Subst  [\u1001.med \u1002.med \u1004.med \u1005.med \u1007.med \u100B.med \u100D.med 
+    sub [\u100A \u1014 ]'lookup sub1014Subst 
+    [\u1001.med \u1002.med \u1004.med \u1005.med \u1007.med \u100B.med \u100D.med 
 	\u100E.med \u1010_u103D.med \u1012.med \u1013.med \u1014.med 
 	\u1015.med \u1016.med \u1017.med \u1019.med \u101B.med \u102F.med 
 	\u102F_u108D \u1030.med \u1030_u108D \u1039 \u103D \u103D_u103E 
@@ -2756,19 +2194,10 @@ lookup sub1014 {
 	\u105C.med \u105F \u1082 \u1082_u108D \u108D \u1010_u103D.med.tri 
 	\u103D.tri \u103D_u103E.tri \u103D_u103E.small.tri \u103E.slantr 
 	\u103E.slanth \u103E_u102F.slantr \u103E_u102F.slanth 
-	\u103E_u1030.slantr \u103E_u1030.slanth ] ;
-  subtable;
-    sub [\u100A \u1014 ]'lookup sub1014Subst  [\u103B ] ;
-  subtable;
-    sub [\u100A \u1014 ]'lookup sub1014Subst  [\u102F ] ;
-  subtable;
-    sub [\u100A \u1014 ]'lookup sub1014Subst  [\u1030 ] ;
-  subtable;
-    sub [\u100A \u1014 ]'lookup sub1014Subst  [\u102F.med ] ;
-  subtable;
-    sub [\u100A \u1014 ]'lookup sub1014Subst  [\u1030.med ] ;
-  subtable;
-    sub [\u100A \u1014 ]'lookup sub1014Subst  [\u1060 ] ;
+	\u103E_u1030.slantr \u103E_u1030.slanth \u103B \u102F \u1030 \u102F.med 
+    \u1030.med \u1060 \u1000.med \u1003.med \u1006.med \u100A.med \u100C.med 
+    \u100F.med \u1010.med \u1011.med \u1018.med \u101A.med \u101C.med
+    \u101C.med_u103D \u101E.med \u1021.med \uAA60.med \uAA60.med.kham ] ;
 } sub1014;
 
 lookup raShortSubst {
@@ -2778,7 +2207,8 @@ lookup raShortSubst {
 
 lookup raShort {
   lookupflag 0;
-    sub [\u101B ]'lookup raShortSubst  [\u1001.med \u1002.med \u1004.med \u1005.med \u1007.med \u100B.med \u100D.med 
+    sub [\u101B ]'lookup raShortSubst 
+    [\u1001.med \u1002.med \u1004.med \u1005.med \u1007.med \u100B.med \u100D.med 
 	\u100E.med \u1010_u103D.med \u1012.med \u1013.med \u1014.med 
 	\u1015.med \u1016.med \u1017.med \u1019.med \u101B.med \u102F.med 
 	\u102F_u108D \u1030.med \u1030_u108D \u1039 \u103D \u103D_u103E 
@@ -2787,15 +2217,10 @@ lookup raShort {
 	\u105C.med \u105F \u1082 \u1082_u108D \u108D \u1010_u103D.med.tri 
 	\u103D.tri \u103D_u103E.tri \u103D_u103E.small.tri \u103E.slantr 
 	\u103E.slanth \u103E_u102F.slantr \u103E_u102F.slanth 
-	\u103E_u1030.slantr \u103E_u1030.slanth ] ;
-  subtable;
-    sub [\u101B ]'lookup raShortSubst  [\u103B ] ;
-  subtable;
-    sub [\u101B ]'lookup raShortSubst  [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 
-	\u1074 \u1085 \u1086 ] [\u102F.med ] ;
-  subtable;
-    sub [\u101B ]'lookup raShortSubst  [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 
-	\u1074 \u1085 \u1086 ] [\u1030.med ] ;
+	\u103E_u1030.slantr \u103E_u1030.slanth \u103B ] ;
+    sub [\u101B ]'lookup raShortSubst
+    [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 \u1074 \u1085 \u1086 ] 
+    [\u102F.med \u1030.med ] ;
 } raShort;
 
 lookup ralong {
@@ -2810,17 +2235,15 @@ lookup kill1009Subst {
 
 lookup kill1009 {
   lookupflag 0;
-    sub [\u1009 ]'lookup kill1009Subst  [\u103A ] ;
-  subtable;
     sub [\u1009 ]'lookup kill1009Subst  [\u1037 ] [\u103A ] ;
-  subtable;
-    sub [\u1009 ]'lookup kill1009Subst  [\u1000.med \u1001.med \u1002.med \u1003.med \u1004.med \u1005.med \u1006.med 
+    sub [\u1009 ]'lookup kill1009Subst  
+    [\u1000.med \u1001.med \u1002.med \u1003.med \u1004.med \u1005.med \u1006.med 
 	\u1007.med \u1008.med \u100A.med \u100B.med \u100C.med \u100D.med 
 	\u100E.med \u100F.med \u1010.med \u1011.med \u1012.med \u1013.med 
 	\u1014.med \u1015.med \u1016.med \u1017.med \u1018.med \u1019.med 
 	\u101A.med \u101B.med \u101C.med \u101E.med \u1021.med \u102F.med 
 	\u1030.med \u1050.med \u1051.med \u105A.med \u105B.med \u105C.med 
-	\uAA60.med ] ;
+	\uAA60.med \u103A ] ;
 } kill1009;
 
 lookup medOVowelLig {
@@ -2842,9 +2265,9 @@ lookup medOVowelLig {
 
 lookup medOVowel {
   lookupflag 0;
-    sub [\u103E_u102F ] [\u102D \u1033 \u1034 \u1035 \u103A \u1072 \u1073 \u1074 ]'lookup medOVowelLig  [\u102F \u102F.med \u1030 ]';
-  subtable;
-    sub [\u103E_u1030 ] [\u102D \u1033 \u1034 \u1035 \u103A \u1072 \u1073 \u1074 ]'lookup medOVowelLig  [\u102F \u102F.med \u1030 ]';
+    sub [\u103E_u102F \u103E_u1030] 
+    [\u102D \u1033 \u1034 \u1035 \u103A \u1072 \u1073 \u1074 ]'lookup medOVowelLig
+    [\u102F \u102F.med \u1030 ]';
 } medOVowel;
 
 lookup cREbMultiple {
@@ -2865,7 +2288,8 @@ lookup CREb {
   lookupflag 0;
     sub [\u200C ] [\u103C \u103C.alt.narr \u103C.alt.wide \u103C.wide \u103C_u103D.narr 
 	\u103C_u103D.wide \u103C_u102F.narr \u103C_u102F.wide 
-	\u103C_u102F.alt.narr \u103C_u102F.alt.wide ]'lookup cREbMultiple [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
+	\u103C_u102F.alt.narr \u103C_u102F.alt.wide ]'lookup cREbMultiple 
+    [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
 	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
 	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
 	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
@@ -2880,10 +2304,10 @@ lookup CREb {
 	\uAA76 \uAA77 \uAA78 \uAA79 ] [\u103C \u103C.alt.narr \u103C.alt.wide \u103C.wide \u103C_u103D.narr 
 	\u103C_u103D.wide \u103C_u102F.narr \u103C_u102F.wide 
 	\u103C_u102F.alt.narr \u103C_u102F.alt.wide ] [\u1031];
-  subtable;
     sub [\u200C ] [\u103C \u103C.alt.narr \u103C.alt.wide \u103C.wide \u103C_u103D.narr 
 	\u103C_u103D.wide \u103C_u102F.narr \u103C_u102F.wide 
-	\u103C_u102F.alt.narr \u103C_u102F.alt.wide ]'lookup cREbMultiple [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
+	\u103C_u102F.alt.narr \u103C_u102F.alt.wide ]'lookup cREbMultiple 
+    [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
 	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
 	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
 	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
@@ -2898,10 +2322,10 @@ lookup CREb {
 	\uAA76 \uAA77 \uAA78 \uAA79 ] [\u103A ] [\u103C \u103C.alt.narr \u103C.alt.wide \u103C.wide \u103C_u103D.narr 
 	\u103C_u103D.wide \u103C_u102F.narr \u103C_u102F.wide 
 	\u103C_u102F.alt.narr \u103C_u102F.alt.wide ] [\u1031];
-  subtable;
     sub [\u200C ] [\u103C \u103C.alt.narr \u103C.alt.wide \u103C.wide \u103C_u103D.narr 
 	\u103C_u103D.wide \u103C_u102F.narr \u103C_u102F.wide 
-	\u103C_u102F.alt.narr \u103C_u102F.alt.wide ]'lookup cREbMultiple [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
+	\u103C_u102F.alt.narr \u103C_u102F.alt.wide ]'lookup cREbMultiple 
+    [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
 	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
 	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
 	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
@@ -2915,26 +2339,7 @@ lookup CREb {
 	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
 	\uAA76 \uAA77 \uAA78 \uAA79 ] [\u103C \u103C.alt.narr \u103C.alt.wide \u103C.wide \u103C_u103D.narr 
 	\u103C_u103D.wide \u103C_u102F.narr \u103C_u102F.wide 
-	\u103C_u102F.alt.narr \u103C_u102F.alt.wide ] [\u103E.alt ] [\u1031];
-  subtable;
-    sub [\u200C ] [\u103C \u103C.alt.narr \u103C.alt.wide \u103C.wide \u103C_u103D.narr 
-	\u103C_u103D.wide \u103C_u102F.narr \u103C_u102F.wide 
-	\u103C_u102F.alt.narr \u103C_u102F.alt.wide ]'lookup cREbMultiple [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
-	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
-	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
-	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
-	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
-	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
-	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
-	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
-	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
-	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
-	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ] [\u103C \u103C.alt.narr \u103C.alt.wide \u103C.wide \u103C_u103D.narr 
-	\u103C_u103D.wide \u103C_u102F.narr \u103C_u102F.wide 
-	\u103C_u102F.alt.narr \u103C_u102F.alt.wide ] [\u103D_u103E.small ] [\u1031] ;
-  subtable;
+	\u103C_u102F.alt.narr \u103C_u102F.alt.wide ] [\u103E.alt \u103D_u103E.small ] [\u1031];
     sub [\u200C ] [\u103C \u103C.alt.narr \u103C.alt.wide \u103C.wide \u103C_u103D.narr 
 	\u103C_u103D.wide \u103C_u102F.narr \u103C_u102F.wide 
 	\u103C_u102F.alt.narr \u103C_u102F.alt.wide ]'lookup cREbMultiple [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
@@ -2989,21 +2394,7 @@ lookup cYEbLigature {
 
 lookup CYEb {
   lookupflag 0;
-    sub [\u200C] [\u1031 ] [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
-	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
-	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
-	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
-	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
-	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
-	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
-	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
-	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
-	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
-	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ] [\u103B \u103B_u103D \u103B_u103D_u103E \u103B_u103E \u103E ]'lookup cYEbLigature [\u1031 \u1084 ]' ;
-  subtable;
-    sub [\u200C] [\u1084 ] [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
+    sub [\u200C] [\u1031 \u1084 ] [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
 	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
 	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
 	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
@@ -3422,27 +2813,7 @@ lookup CSEdLigature {
 
 lookup CSEd {
   lookupflag 0;
-    sub [\u200C] [\u1031 ] [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
-	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
-	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
-	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
-	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
-	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
-	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
-	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
-	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
-	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
-	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ] [\u1000.med \u1001.med \u1002.med \u1003.med \u1004.med \u1005.med \u1006.med 
-	\u1007.med \u1008.med \u100A.med \u100B.med \u100C.med \u100D.med 
-	\u100E.med \u100F.med \u1010.med \u1011.med \u1012.med \u1013.med 
-	\u1014.med \u1015.med \u1016.med \u1017.med \u1018.med \u1019.med 
-	\u101A.med \u101B.med \u101C.med \u101E.med \u1021.med \u102F.med 
-	\u1030.med \u1050.med \u1051.med \u105A.med \u105B.med \u105C.med 
-	\uAA60.med ]'lookup CSEdLigature [\u1031 \u103C ]' ;
-  subtable;
-    sub [\u200C] [\u103C \u103C.alt.narr \u103C.alt.wide \u103C.wide \u103C_u103D.narr 
+    sub [\u200C] [\u1031 \u103C \u103C.alt.narr \u103C.alt.wide \u103C.wide \u103C_u103D.narr 
 	\u103C_u103D.wide \u103C_u102F.narr \u103C_u102F.wide 
 	\u103C_u102F.alt.narr \u103C_u102F.alt.wide ] [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
 	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
@@ -4311,7 +3682,8 @@ lookup CYWHv {
 	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
 	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
 	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ]'lookup CYWHvLigature [\u103D \u103D_u103E \u103E \u105F \u1060 \u1082 ]' [\u103D ] ;
+	\uAA76 \uAA77 \uAA78 \uAA79 ]'lookup CYWHvLigature [\u103D \u103D_u103E \u103E \u105E \u105F \u1060 \u1082 ]' 
+    [\u103D \u103E \u103D_u103E \u103E_u102F \u103E_u1030 \u105E \u105F \u1060 \u1082 ] ;
   subtable;
     sub [\u200C] [\u1031]  [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
 	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
@@ -4325,63 +3697,7 @@ lookup CYWHv {
 	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
 	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
 	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ]'lookup CYWHvLigature [\u103D \u103D_u103E \u103E \u105F \u1060 \u1082 ]' [\u103E ] ;
-  subtable;
-    sub [\u200C] [\u1031]  [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
-	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
-	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
-	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
-	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
-	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
-	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
-	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
-	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
-	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
-	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ]'lookup CYWHvLigature [\u103D \u103D_u103E \u103E \u105F \u1060 \u1082 ]' [\u103D_u103E ] ;
-  subtable;
-    sub [\u200C] [\u1031]  [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
-	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
-	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
-	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
-	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
-	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
-	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
-	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
-	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
-	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
-	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ]'lookup CYWHvLigature [\u103D \u103D_u103E \u103E \u105F \u1060 \u1082 ]' [\u105E \u105F \u1060 \u1082 ] ;
-  subtable;
-    sub [\u200C] [\u1031]  [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
-	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
-	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
-	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
-	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
-	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
-	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
-	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
-	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
-	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
-	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ]'lookup CYWHvLigature [\u103D \u103D_u103E \u103E \u105F \u1060 \u1082 ]' [\u103E_u102F ] ;
-  subtable;
-    sub [\u200C] [\u1031]  [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
-	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
-	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
-	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
-	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
-	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
-	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
-	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
-	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
-	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
-	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ]'lookup CYWHvLigature [\u103D \u103D_u103E \u103E \u105F \u1060 \u1082 ]' [\u103E_u1030 ] ;
+	\uAA76 \uAA77 \uAA78 \uAA79 ]'lookup CYWHvLigature [\u103D \u103D_u103E \u103E \u105E \u105F \u1060 \u1082 ]' ;
 } CYWHv;
 
 lookup CEbLigature {
@@ -5798,7 +5114,26 @@ lookup raULig {
 	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
 	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
 	\uAA76 \uAA77 \uAA78 \uAA79 ] [\u102F] ;
-  subtable;
+    sub [\u103C \u103C.wide ]'lookup raULigSubst 
+    [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
+	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
+	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
+	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
+	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
+	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
+	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
+	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
+	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
+	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
+	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
+	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
+	\uAA76 \uAA77 \uAA78 \uAA79 ] 
+    [\u102D \u1033 \u1035 \u1072 \u1000.med \u1001.med \u1002.med \u1003.med 
+    \u1004.med \u1005.med \u1006.med \u1007.med \u1008.med \u100A.med \u100B.med 
+    \u100C.med \u100D.med \u100E.med \u100F.med \u1010.med \u1011.med \u1012.med 
+    \u1013.med \u1014.med \u1015.med \u1016.med \u1017.med \u1018.med \u1019.med 
+    \u101A.med \u101B.med \u101C.med \u101E.med \u1021.med \u102F.med \u1030.med 
+    \u1050.med \u1051.med \u105A.med \u105B.med \u105C.med \uAA60.med \u1004.kinzi \u101B.kinzi ]  [\u102F] ;
     sub [\u103C \u103C.wide ]'lookup raULigSubst [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
 	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
 	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
@@ -5811,125 +5146,7 @@ lookup raULig {
 	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
 	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
 	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ] [\u102D ] [\u102F] ;
-  subtable;
-    sub [\u103C \u103C.wide ]'lookup raULigSubst [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
-	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
-	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
-	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
-	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
-	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
-	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
-	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
-	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
-	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
-	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ] [\u1072 ] [\u102F];
-  subtable;
-    sub [\u103C \u103C.wide ]'lookup raULigSubst [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
-	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
-	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
-	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
-	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
-	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
-	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
-	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
-	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
-	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
-	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ] [\u1033 ] [\u102F] ;
-  subtable;
-    sub [\u103C \u103C.wide ]'lookup raULigSubst [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
-	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
-	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
-	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
-	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
-	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
-	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
-	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
-	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
-	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
-	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ] [\u1035 ] [\u102F] ;
-  subtable;
-    sub [\u103C \u103C.wide ]'lookup raULigSubst [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
-	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
-	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
-	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
-	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
-	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
-	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
-	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
-	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
-	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
-	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ] [\u1000.med \u1001.med \u1002.med \u1003.med \u1004.med \u1005.med \u1006.med 
-	\u1007.med \u1008.med \u100A.med \u100B.med \u100C.med \u100D.med 
-	\u100E.med \u100F.med \u1010.med \u1011.med \u1012.med \u1013.med 
-	\u1014.med \u1015.med \u1016.med \u1017.med \u1018.med \u1019.med 
-	\u101A.med \u101B.med \u101C.med \u101E.med \u1021.med \u102F.med 
-	\u1030.med \u1050.med \u1051.med \u105A.med \u105B.med \u105C.med 
-	\uAA60.med ] [\u102F] ;
-  subtable;
-    sub [\u103C \u103C.wide ]'lookup raULigSubst [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
-	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
-	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
-	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
-	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
-	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
-	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
-	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
-	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
-	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
-	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ] [\u1004.kinzi ] [\u102F] ;
-  subtable;
-    sub [\u103C \u103C.wide ]'lookup raULigSubst [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
-	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
-	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
-	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
-	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
-	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
-	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
-	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
-	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
-	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
-	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ] [\u1004.kinzi ] [\u102D ] [\u102F] ;
-  subtable;
-    sub [\u103C \u103C.wide ]'lookup raULigSubst [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
-	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
-	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
-	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
-	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
-	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
-	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
-	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
-	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
-	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
-	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ] [\u101B.kinzi ] [\u102F] ;
-  subtable;
-    sub [\u103C \u103C.wide ]'lookup raULigSubst [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
-	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
-	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
-	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
-	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
-	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
-	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
-	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
-	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
-	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
-	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ] [\u101B.kinzi ] [\u102D ] [\u102F] ;
+	\uAA76 \uAA77 \uAA78 \uAA79 ] [\u1004.kinzi \u101B.kinzi ] [\u102D ] [\u102F] ;
 } raULig;
 
 lookup kinziLig {
@@ -5979,10 +5196,9 @@ lookup kinziMed1032Subst {
 
 lookup kinziMed1032 {
   lookupflag 0;
-    sub [\u1004.kinzi ]'lookup kinziMed1032Subst  [\u103B \u103B_u103D \u103B_u103D_u103E \u103B_u103E \u103D \u103D_u103E \u103E 
-	\u103E_u102F \u103E_u1030 ] [\u1032 ] ;
-  subtable;
-    sub [\u1004.kinzi ]'lookup kinziMed1032Subst  [\u1000.med \u1001.med \u1002.med \u1003.med \u1004.med \u1005.med \u1006.med 
+    sub [\u1004.kinzi ]'lookup kinziMed1032Subst  
+    [\u103B \u103B_u103D \u103B_u103D_u103E \u103B_u103E \u103D \u103D_u103E 
+    \u103E \u103E_u102F \u103E_u1030 \u1000.med \u1001.med \u1002.med \u1003.med \u1004.med \u1005.med \u1006.med 
 	\u1007.med \u1008.med \u100A.med \u100B.med \u100C.med \u100D.med 
 	\u100E.med \u100F.med \u1010.med \u1011.med \u1012.med \u1013.med 
 	\u1014.med \u1015.med \u1016.med \u1017.med \u1018.med \u1019.med 
@@ -5999,10 +5215,9 @@ lookup kinziMed103ASubst {
 
 lookup kinziMed103A {
   lookupflag 0;
-    sub [\u1004.kinzi \u101B.kinzi ]'lookup kinziMed103ASubst  [\u103B \u103B_u103D \u103B_u103D_u103E \u103B_u103E \u103D \u103D_u103E \u103E 
-	\u103E_u102F \u103E_u1030 ] [\u103A ] ;
-  subtable;
-    sub [\u1004.kinzi \u101B.kinzi ]'lookup kinziMed103ASubst  [\u1000.med \u1001.med \u1002.med \u1003.med \u1004.med \u1005.med \u1006.med 
+    sub [\u1004.kinzi \u101B.kinzi ]'lookup kinziMed103ASubst  
+    [\u103B \u103B_u103D \u103B_u103D_u103E \u103B_u103E \u103D \u103D_u103E 
+    \u103E \u103E_u102F \u103E_u1030 \u1000.med \u1001.med \u1002.med \u1003.med \u1004.med \u1005.med \u1006.med 
 	\u1007.med \u1008.med \u100A.med \u100B.med \u100C.med \u100D.med 
 	\u100E.med \u100F.med \u1010.med \u1011.med \u1012.med \u1013.med 
 	\u1014.med \u1015.med \u1016.med \u1017.med \u1018.med \u1019.med 
@@ -6019,15 +5234,12 @@ lookup kinziMed1036Subst {
 
 lookup kinziMed1036 {
   lookupflag 0;
-    sub [\u1004.kinzi \u102D ]'lookup kinziMed1036Subst  [\u102F ] [\u1036 ] ;
-  subtable;
-    sub [\u1004.kinzi \u102D ]'lookup kinziMed1036Subst  [\u102F.med ] [\u1036 ] ;
-  subtable;
-    sub [\u1004.kinzi \u102D ]'lookup kinziMed1036Subst  [\u103B \u103B_u103D \u103B_u103D_u103E \u103B_u103E \u103D \u103D_u103E \u103E 
-	\u103E_u102F \u103E_u1030 ] [\u1036 ] ;
-  subtable;
-    sub [\u1004.kinzi \u102D ]'lookup kinziMed1036Subst  [\u103B \u103B_u103D \u103B_u103D_u103E \u103B_u103E \u103D \u103D_u103E \u103E 
-	\u103E_u102F \u103E_u1030 ] [\u102F ] [\u1036 ] ;
+    sub [\u1004.kinzi \u102D ]'lookup kinziMed1036Subst  
+    [\u102F \u102F.med \u103B \u103B_u103D \u103B_u103D_u103E \u103B_u103E
+    \u103D \u103D_u103E \u103E \u103E_u102F \u103E_u1030 ] [\u1036 ] ;
+    sub [\u1004.kinzi \u102D ]'lookup kinziMed1036Subst 
+    [\u103B \u103B_u103D \u103B_u103D_u103E \u103B_u103E \u103D \u103D_u103E \u103E
+    \u103E_u102F \u103E_u1030 ] [\u102F ] [\u1036 ] ;
 } kinziMed1036;
 
 lookup redupLig {
@@ -6241,88 +5453,9 @@ lookup removeKinziLigVowelLig {
 
 lookup removeKinziLigVowel {
   lookupflag 0;
-    sub [\u1004.kinzi_u102D ] [\u1000.med \u1001.med \u1002.med \u1003.med \u1004.med \u1005.med \u1006.med 
-	\u1007.med \u1008.med \u100A.med \u100B.med \u100C.med \u100D.med 
-	\u100E.med \u100F.med \u1010.med \u1011.med \u1012.med \u1013.med 
-	\u1014.med \u1015.med \u1016.med \u1017.med \u1018.med \u1019.med 
-	\u101A.med \u101B.med \u101C.med \u101E.med \u1021.med \u102F 
-	\u102F.med \u1030.med \u103B \u103B_u103D \u103B_u103D_u103E 
-	\u103B_u103E \u103D \u103D_u103E \u103E \u103E_u102F \u103E_u1030 
-	\u1050.med \u1051.med \u105A.med \u105B.med \u105C.med \uAA60.med ]'lookup removeKinziLigVowelLig  [\u102D \u102E \u1032 \u1036 \u103A ]';
-  subtable;
-    sub [\u1004.kinzi_u102E ] [\u1000.med \u1001.med \u1002.med \u1003.med \u1004.med \u1005.med \u1006.med 
-	\u1007.med \u1008.med \u100A.med \u100B.med \u100C.med \u100D.med 
-	\u100E.med \u100F.med \u1010.med \u1011.med \u1012.med \u1013.med 
-	\u1014.med \u1015.med \u1016.med \u1017.med \u1018.med \u1019.med 
-	\u101A.med \u101B.med \u101C.med \u101E.med \u1021.med \u102F 
-	\u102F.med \u1030.med \u103B \u103B_u103D \u103B_u103D_u103E 
-	\u103B_u103E \u103D \u103D_u103E \u103E \u103E_u102F \u103E_u1030 
-	\u1050.med \u1051.med \u105A.med \u105B.med \u105C.med \uAA60.med ]'lookup removeKinziLigVowelLig  [\u102D \u102E \u1032 \u1036 \u103A ]';
-  subtable;
-    sub [\u1004.kinzi_u1036 ] [\u1000.med \u1001.med \u1002.med \u1003.med \u1004.med \u1005.med \u1006.med 
-	\u1007.med \u1008.med \u100A.med \u100B.med \u100C.med \u100D.med 
-	\u100E.med \u100F.med \u1010.med \u1011.med \u1012.med \u1013.med 
-	\u1014.med \u1015.med \u1016.med \u1017.med \u1018.med \u1019.med 
-	\u101A.med \u101B.med \u101C.med \u101E.med \u1021.med \u102F 
-	\u102F.med \u1030.med \u103B \u103B_u103D \u103B_u103D_u103E 
-	\u103B_u103E \u103D \u103D_u103E \u103E \u103E_u102F \u103E_u1030 
-	\u1050.med \u1051.med \u105A.med \u105B.med \u105C.med \uAA60.med ]'lookup removeKinziLigVowelLig  [\u102D \u102E \u1032 \u1036 \u103A ]';
-  subtable;
-    sub [\u1004.kinzi_u1032 ] [\u1000.med \u1001.med \u1002.med \u1003.med \u1004.med \u1005.med \u1006.med 
-	\u1007.med \u1008.med \u100A.med \u100B.med \u100C.med \u100D.med 
-	\u100E.med \u100F.med \u1010.med \u1011.med \u1012.med \u1013.med 
-	\u1014.med \u1015.med \u1016.med \u1017.med \u1018.med \u1019.med 
-	\u101A.med \u101B.med \u101C.med \u101E.med \u1021.med \u102F 
-	\u102F.med \u1030.med \u103B \u103B_u103D \u103B_u103D_u103E 
-	\u103B_u103E \u103D \u103D_u103E \u103E \u103E_u102F \u103E_u1030 
-	\u1050.med \u1051.med \u105A.med \u105B.med \u105C.med \uAA60.med ]'lookup removeKinziLigVowelLig  [\u102D \u102E \u1032 \u1036 \u103A ]';
-  subtable;
-    sub [\u1004.kinzi_u103A ] [\u1000.med \u1001.med \u1002.med \u1003.med \u1004.med \u1005.med \u1006.med 
-	\u1007.med \u1008.med \u100A.med \u100B.med \u100C.med \u100D.med 
-	\u100E.med \u100F.med \u1010.med \u1011.med \u1012.med \u1013.med 
-	\u1014.med \u1015.med \u1016.med \u1017.med \u1018.med \u1019.med 
-	\u101A.med \u101B.med \u101C.med \u101E.med \u1021.med \u102F 
-	\u102F.med \u1030.med \u103B \u103B_u103D \u103B_u103D_u103E 
-	\u103B_u103E \u103D \u103D_u103E \u103E \u103E_u102F \u103E_u1030 
-	\u1050.med \u1051.med \u105A.med \u105B.med \u105C.med \uAA60.med ]'lookup removeKinziLigVowelLig  [\u102D \u102E \u1032 \u1036 \u103A ]';
-  subtable;
-    sub [\u101B.kinzi_u102D ] [\u1000.med \u1001.med \u1002.med \u1003.med \u1004.med \u1005.med \u1006.med 
-	\u1007.med \u1008.med \u100A.med \u100B.med \u100C.med \u100D.med 
-	\u100E.med \u100F.med \u1010.med \u1011.med \u1012.med \u1013.med 
-	\u1014.med \u1015.med \u1016.med \u1017.med \u1018.med \u1019.med 
-	\u101A.med \u101B.med \u101C.med \u101E.med \u1021.med \u102F 
-	\u102F.med \u1030.med \u103B \u103B_u103D \u103B_u103D_u103E 
-	\u103B_u103E \u103D \u103D_u103E \u103E \u103E_u102F \u103E_u1030 
-	\u1050.med \u1051.med \u105A.med \u105B.med \u105C.med \uAA60.med ]'lookup removeKinziLigVowelLig  [\u102D \u102E \u1032 \u1036 \u103A ]';
-  subtable;
-    sub [\u101B.kinzi_u102E ] [\u1000.med \u1001.med \u1002.med \u1003.med \u1004.med \u1005.med \u1006.med 
-	\u1007.med \u1008.med \u100A.med \u100B.med \u100C.med \u100D.med 
-	\u100E.med \u100F.med \u1010.med \u1011.med \u1012.med \u1013.med 
-	\u1014.med \u1015.med \u1016.med \u1017.med \u1018.med \u1019.med 
-	\u101A.med \u101B.med \u101C.med \u101E.med \u1021.med \u102F 
-	\u102F.med \u1030.med \u103B \u103B_u103D \u103B_u103D_u103E 
-	\u103B_u103E \u103D \u103D_u103E \u103E \u103E_u102F \u103E_u1030 
-	\u1050.med \u1051.med \u105A.med \u105B.med \u105C.med \uAA60.med ]'lookup removeKinziLigVowelLig  [\u102D \u102E \u1032 \u1036 \u103A ]';
-  subtable;
-    sub [\u101B.kinzi_u103A ] [\u1000.med \u1001.med \u1002.med \u1003.med \u1004.med \u1005.med \u1006.med 
-	\u1007.med \u1008.med \u100A.med \u100B.med \u100C.med \u100D.med 
-	\u100E.med \u100F.med \u1010.med \u1011.med \u1012.med \u1013.med 
-	\u1014.med \u1015.med \u1016.med \u1017.med \u1018.med \u1019.med 
-	\u101A.med \u101B.med \u101C.med \u101E.med \u1021.med \u102F 
-	\u102F.med \u1030.med \u103B \u103B_u103D \u103B_u103D_u103E 
-	\u103B_u103E \u103D \u103D_u103E \u103E \u103E_u102F \u103E_u1030 
-	\u1050.med \u1051.med \u105A.med \u105B.med \u105C.med \uAA60.med ]'lookup removeKinziLigVowelLig  [\u102D \u102E \u1032 \u1036 \u103A ]';
-  subtable;
-    sub [\u1032_u102D ] [\u1000.med \u1001.med \u1002.med \u1003.med \u1004.med \u1005.med \u1006.med 
-	\u1007.med \u1008.med \u100A.med \u100B.med \u100C.med \u100D.med 
-	\u100E.med \u100F.med \u1010.med \u1011.med \u1012.med \u1013.med 
-	\u1014.med \u1015.med \u1016.med \u1017.med \u1018.med \u1019.med 
-	\u101A.med \u101B.med \u101C.med \u101E.med \u1021.med \u102F 
-	\u102F.med \u1030.med \u103B \u103B_u103D \u103B_u103D_u103E 
-	\u103B_u103E \u103D \u103D_u103E \u103E \u103E_u102F \u103E_u1030 
-	\u1050.med \u1051.med \u105A.med \u105B.med \u105C.med \uAA60.med ]'lookup removeKinziLigVowelLig  [\u102D \u102E \u1032 \u1036 \u103A ]';
-  subtable;
-    sub [\u102D_u1036 ] [\u1000.med \u1001.med \u1002.med \u1003.med \u1004.med \u1005.med \u1006.med 
+    sub [\u1004.kinzi_u102D \u1004.kinzi_u102E \u1004.kinzi_u1036 \u1004.kinzi_u1032 
+    \u1004.kinzi_u103A \u101B.kinzi_u102D \u101B.kinzi_u102E \u1032_u102D \u102D_u1036 ] 
+    [\u1000.med \u1001.med \u1002.med \u1003.med \u1004.med \u1005.med \u1006.med 
 	\u1007.med \u1008.med \u100A.med \u100B.med \u100C.med \u100D.med 
 	\u100E.med \u100F.med \u1010.med \u1011.med \u1012.med \u1013.med 
 	\u1014.med \u1015.med \u1016.med \u1017.med \u1018.med \u1019.med 
@@ -6380,67 +5513,14 @@ lookup raUpperVowel {
 	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
 	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
 	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ] [\u103D_u103E.small ]
-    [\u1004.kinzi \u1004.kinzi_u102D \u1004.kinzi_u102E \u1004.kinzi_u1036 \u1004.kinzi_u103A
-    \u101B.kinzi \u101B.kinzi_u102D \u101B.kinzi_u102E \u101B.kinzi_u103A \u102D \u102D_u1036 \u102E \u1032 \u1032_u102D
-    \u1033 \u1034 \u1035 \u103A \u1072 \u1073 \u1074 \u1085 ] ;
-  subtable;
-    sub [\u103C \u103C.wide \u103C_u103D.narr \u103C_u103D.wide \u103C_u102F.narr 
-	\u103C_u102F.wide ]'lookup raUpperVowelSubst [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
-	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
-	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
-	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
-	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
-	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
-	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
-	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
-	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
-	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
-	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ] [\u1000.med \u1001.med \u1002.med \u1003.med \u1004.med \u1005.med \u1006.med 
+	\uAA76 \uAA77 \uAA78 \uAA79 ] [\u103D_u103E.small \u103E.alt \u103B \u103B_u103D 
+    \u103B_u103E \u103B_u103D.tri \u1000.med \u1001.med \u1002.med \u1003.med \u1004.med \u1005.med \u1006.med 
 	\u1007.med \u1008.med \u100A.med \u100B.med \u100C.med \u100D.med 
 	\u100E.med \u100F.med \u1010.med \u1011.med \u1012.med \u1013.med 
 	\u1014.med \u1015.med \u1016.med \u1017.med \u1018.med \u1019.med 
 	\u101A.med \u101B.med \u101C.med \u101E.med \u1021.med \u102F.med 
 	\u1030.med \u1050.med \u1051.med \u105A.med \u105B.med \u105C.med 
 	\uAA60.med ]
-    [\u1004.kinzi \u1004.kinzi_u102D \u1004.kinzi_u102E \u1004.kinzi_u1036 \u1004.kinzi_u103A
-    \u101B.kinzi \u101B.kinzi_u102D \u101B.kinzi_u102E \u101B.kinzi_u103A \u102D \u102D_u1036 \u102E \u1032 \u1032_u102D
-    \u1033 \u1034 \u1035 \u103A \u1072 \u1073 \u1074 \u1085 ] ;
-  subtable;
-    sub [\u103C \u103C.wide \u103C_u103D.narr \u103C_u103D.wide \u103C_u102F.narr 
-	\u103C_u102F.wide ]'lookup raUpperVowelSubst [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
-	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
-	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
-	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
-	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
-	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
-	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
-	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
-	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
-	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
-	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ] [\u103E.alt ]
-    [\u1004.kinzi \u1004.kinzi_u102D \u1004.kinzi_u102E \u1004.kinzi_u1036 \u1004.kinzi_u103A
-    \u101B.kinzi \u101B.kinzi_u102D \u101B.kinzi_u102E \u101B.kinzi_u103A \u102D \u102D_u1036 \u102E \u1032 \u1032_u102D
-    \u1033 \u1034 \u1035 \u103A \u1072 \u1073 \u1074 \u1085 ] ;
-  subtable;
-    sub [\u103C \u103C.wide \u103C_u103D.narr \u103C_u103D.wide \u103C_u102F.narr 
-	\u103C_u102F.wide ]'lookup raUpperVowelSubst [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
-	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
-	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
-	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
-	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
-	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
-	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
-	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
-	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
-	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
-	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ] [\u103B \u103B_u103D \u103B_u103E \u103B_u103D.tri ]
     [\u1004.kinzi \u1004.kinzi_u102D \u1004.kinzi_u102E \u1004.kinzi_u1036 \u1004.kinzi_u103A
     \u101B.kinzi \u101B.kinzi_u102D \u101B.kinzi_u102E \u101B.kinzi_u103A \u102D \u102D_u1036 \u102E \u1032 \u1032_u102D
     \u1033 \u1034 \u1035 \u103A \u1072 \u1073 \u1074 \u1085 ] ;
@@ -6457,21 +5537,7 @@ lookup removeAfterRaULigature {
 
 lookup removeAfterRaU {
   lookupflag 0;
-    sub [\u103C_u102F.alt.narr] [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
-	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
-	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
-	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
-	\u1016 \u1017 \u1018 \u1019 \u101A \u101B \u101B.alt \u101B.long \u101C 
-	\u101D \u101E \u101E_u1010_u103C \u101F \u1020 \u1021 \u1022 \u1025 
-	\u1027 \u1029 \u103F \u104E \u1050 \u1051 \u1052 \u1053 \u1054 \u1055 
-	\u105A \u105B \u105C \u105D \u1061 \u1065 \u106E \u106F \u1070 \u1075 
-	\u1076 \u1077 \u1078 \u1079 \u107A \u107B \u107C \u107D \u107E \u107F 
-	\u1080 \u1081 \u1081.straight \u108E \u109D \u109F \circledash \uAA60 
-	\uAA61 \uAA62 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 \uAA69 \uAA6A 
-	\uAA6B \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 \uAA73 \uAA74 \uAA75 
-	\uAA76 \uAA77 \uAA78 \uAA79 ] [\u1004.kinzi_u102D \u102D \u1033 \u1035 \u1072 ]'lookup removeAfterRaULigature [\u102F ]' ;
-  subtable;
-    sub [\u103C_u102F.alt.wide] [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
+    sub [\u103C_u102F.alt.narr \u103C_u102F.alt.wide] [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A 
 	\u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D 
 	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D 
 	\u1010 \u1011 \u1012 \u1013 \u1014 \u1014.alt \u1014_u1010_u103C \u1015 
@@ -6522,9 +5588,7 @@ lookup removeRedupLig {
 
 lookup removeRedup {
   lookupflag 0;
-    sub [\u1032_uAA70 ] [\u1036 \u1038 \u1087 \u1088 \u1089 \u108A \u109A \u109B \uAA7B ]'lookup removeRedupLig  [\uAA70 ]';
-  subtable;
-    sub [\u103A_uAA70 ] [\u1036 \u1038 \u1087 \u1088 \u1089 \u108A \u109A \u109B \uAA7B ]'lookup removeRedupLig  [\uAA70 ]';
+    sub [\u1032_uAA70 \u103A_uAA70 ] [\u1036 \u1038 \u1087 \u1088 \u1089 \u108A \u109A \u109B \uAA7B ]'lookup removeRedupLig  [\uAA70 ]';
 } removeRedup;
 
 lookup dot {
@@ -7915,57 +6979,16 @@ lookup lDotMedSingle {
 
 lookup lDotMed {
   lookupflag 0;
-    pos [\u103B ] [\u102F ] [\u1037 ]'lookup lDotMedSingle  ;
-  subtable;
-    pos [\u103B ] [\u1036 ] [\u1037 ]'lookup lDotMedSingle  ;
-  subtable;
-    pos [\u103B ] [\u1032 ] [\u1037 ]'lookup lDotMedSingle  ;
-  subtable;
+    pos [\u103B ] [\u102F \u1032 \u1036 ] [\u1037 ]'lookup lDotMedSingle  ;
     pos [\u101B ] [\u1037 ]'lookup lDotMedSingle  ;
-  subtable;
-    pos [\u101B ] [\u1036 ] [\u1037 ]'lookup lDotMedSingle  ;
-  subtable;
-    pos [\u101B ] [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 
-	\u1074 \u1085 \u1086 ] [\u1037 ]'lookup lDotMedSingle  ;
-  subtable;
-    pos [\u101B.alt ] [\u103D ] [\u1032 ] [\u1037 ]'lookup lDotMedSingle  ;
-  subtable;
-    pos [\u101B.alt ] [\u103D ] [\u1036 ] [\u1037 ]'lookup lDotMedSingle  ;
-  subtable;
-    pos [\u101B.alt ] [\u103D_u103E ] [\u1036 ] [\u1037 ]'lookup lDotMedSingle  ;
-  subtable;
-    pos [\u101B.alt ] [\u103E_u102F ] [\u1036 ] [\u1037 ]'lookup lDotMedSingle  ;
-  subtable;
-    pos [\u101B.alt ] [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 
-	\u1074 \u1085 \u1086 ] [\u102F.med ] [\u1037 ]'lookup lDotMedSingle  ;
-  subtable;
-    pos [\u101B.alt ] [\u103E_u102F ] [\u1037 ]'lookup lDotMedSingle  ;
-  subtable;
-    pos [\u101B.alt ] [\u103E_u102F ] [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 
-	\u1074 \u1085 \u1086 ] [\u1037 ]'lookup lDotMedSingle  ;
-  subtable;
-    pos [\u101B.alt ] [\u103D ] [\u1037 ]'lookup lDotMedSingle  ;
-  subtable;
-    pos [\u101B.alt ] [\u103D_u103E ] [\u1037 ]'lookup lDotMedSingle  ;
-  subtable;
-    pos [\u101B.alt ] [\u103D ] [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 
-	\u1074 \u1085 \u1086 ] [\u1037 ]'lookup lDotMedSingle  ;
-  subtable;
-    pos [\u101B.alt ] [\u103D_u103E ] [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 
-	\u1074 \u1085 \u1086 ] [\u1037 ]'lookup lDotMedSingle  ;
-  subtable;
-    pos [\u101B.long ] [\u103E ] [\u1037 ]'lookup lDotMedSingle  ;
-  subtable;
-    pos [\u101B.long ] [\u103E ] [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 
-	\u1074 \u1085 \u1086 ] [\u1037 ]'lookup lDotMedSingle  ;
-  subtable;
-    pos [\u101B.alt ] [\u102F.med ] [\u1037 ]'lookup lDotMedSingle  ;
-  subtable;
+    pos [\u101B ] [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1036 \u1071 \u1072 \u1073 \u1074 \u1085 \u1086 ] [\u1037 ]'lookup lDotMedSingle  ;
+    pos [\u101B.alt ] [\u103D ] [\u1032 \u1036 ] [\u1037 ]'lookup lDotMedSingle  ;
+    pos [\u101B.alt ] [\u102D \u102D_u1036 \u102E \u102F.med \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 \u1074 \u1085 \u1086 ] [\u102F.med ] [\u1037 ]'lookup lDotMedSingle  ;
+    pos [\u101B.alt ] [\u103D \u103D_u103E \u103E \u103E_u102F ] [\u1037 ]'lookup lDotMedSingle  ;
+    pos [\u101B.alt ] [\u103E_u102F \u103D \u103D_u103E] [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1036 \u1071 \u1072 \u1073 \u1074 \u1085 \u1086 ] [\u1037 ]'lookup lDotMedSingle  ;
+    pos [\u101B.long ] [\u103E ] [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 \u1074 \u1085 \u1086 ] [\u1037 ]'lookup lDotMedSingle  ;
     pos [\u101B.alt ] [\u102F.med ] [\u1036 ] [\u1037 ]'lookup lDotMedSingle  ;
-  subtable;
-    pos [\u102F ] [\u1037 ]'lookup lDotMedSingle  ;
-  subtable;
-    pos [\u1030 ] [\u1037 ]'lookup lDotMedSingle  ;
+    pos [\u102F \u1030 ] [\u1037 ]'lookup lDotMedSingle  ;
 } lDotMed;
 
 lookup lDotWideSingle {
@@ -7975,53 +6998,25 @@ lookup lDotWideSingle {
 
 lookup lDotWide {
   lookupflag 0;
-    pos [\u101B ] [\u1032 ] [\u1037 ]'lookup lDotWideSingle  ;
-  subtable;
-    pos [\u1014 ] [\u103A ] [\u1037 ]'lookup lDotWideSingle  ;
-  subtable;
-    pos [\u1014 ] [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 
-	\u1074 \u1085 \u1086 ] [\u1037 ]'lookup lDotWideSingle  ;
-  subtable;
-    pos [\u1014 ] [\u1032 ] [\u1037 ]'lookup lDotWideSingle  ;
-  subtable;
-    pos [\u1014 ] [\u1036 ] [\u1037 ]'lookup lDotWideSingle  ;
-  subtable;
+    pos [\u1014 \u101B ] [\u1032 ] [\u1037 ]'lookup lDotWideSingle  ;
+    pos [\u1014 ] [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1036 \u103A \u1071 \u1072 \u1073 \u1074 \u1085 \u1086 ] [\u1037 ]'lookup lDotWideSingle  ;
     pos [\u1014 ] [\u1037 ]'lookup lDotWideSingle  ;
-  subtable;
     pos [\u103C_u103D.narr \u103C_u103D.wide \u103C_u102F.narr \u103C_u102F.wide 
 	\u103C_u102F.alt.narr \u103C_u102F.alt.wide ] [\u1000 \u1003 \u1006 \u100A \u100A.alt \u100F \u1010 \u1011.aiph \u1011 \u1018 \u101A \u101C 
 	\u101E \u101F \u1021 \u1022 \u106E \u106F \u1078 \u1079 \u107B \u107C 
 	\u107D \u1080 \uAA60 \uAA61 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 
 	\uAA69 \uAA6A \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ] [\u1037 ]'lookup lDotWideSingle  ;
-  subtable;
-    ignore pos [] [\u1001 \u1002 \u1004 \u1005 \u1007 \u100E \u1012 \u1013 \u1014 \u1014.alt \u1015 
+    ignore pos [\u1001 \u1002 \u1004 \u1005 \u1007 \u100E \u1012 \u1013 \u1014 \u1014.alt \u1015 
 	\u1016 \u1017 \u1019 \u101B \u101D.aiph \u101D \u1027 \u1050 \u1051 \u1052 \u1053 
 	\u1054 \u1055 \u1056 \u1057 \u105C \u1065 \u1075 \u1076 \u1077 \u107F 
 	\u1081 \u1081.straight \u1084 \u108E \circledash \uAA62 \uAA6B ] [\u1037 ]' ;
-  subtable;
     pos [\u103C_u103D.narr \u103C_u103D.wide \u103C_u102F.narr \u103C_u102F.wide 
 	\u103C_u102F.alt.narr \u103C_u102F.alt.wide ] [\u1000 \u1003 \u1006 \u100A \u100A.alt \u100F \u1010 \u1011.aiph \u1011 \u1018 \u101A \u101C 
 	\u101E \u101F \u1021 \u1022 \u106E \u106F \u1078 \u1079 \u107B \u107C 
 	\u107D \u1080 \uAA60 \uAA61 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 
-	\uAA69 \uAA6A \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ] [\u1036 ] [\u1037 ]'lookup lDotWideSingle  ;
-  subtable;
-    pos [\u103C_u103D.narr \u103C_u103D.wide \u103C_u102F.narr \u103C_u102F.wide 
-	\u103C_u102F.alt.narr \u103C_u102F.alt.wide ] [\u1000 \u1003 \u1006 \u100A \u100A.alt \u100F \u1010 \u1011.aiph \u1011 \u1018 \u101A \u101C 
-	\u101E \u101F \u1021 \u1022 \u106E \u106F \u1078 \u1079 \u107B \u107C 
-	\u107D \u1080 \uAA60 \uAA61 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 
-	\uAA69 \uAA6A \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ] [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 
+	\uAA69 \uAA6A \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ] 
+    [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1036 \u1071 \u1072 \u1073 
 	\u1074 \u1085 \u1086 ] [\u1037 ]'lookup lDotWideSingle  ;
-  subtable;
-    ignore pos [] [\u1001 \u1002 \u1004 \u1005 \u1007 \u100E \u1012 \u1013 \u1014 \u1014.alt \u1015 
-	\u1016 \u1017 \u1019 \u101B \u101D.aiph \u101D \u1027 \u1050 \u1051 \u1052 \u1053 
-	\u1054 \u1055 \u1056 \u1057 \u105C \u1065 \u1075 \u1076 \u1077 \u107F 
-	\u1081 \u1081.straight \u1084 \u108E \circledash \uAA62 \uAA6B ] [\u1036 ] [\u1037 ]' ;
-  subtable;
-    ignore pos [] [\u1001 \u1002 \u1004 \u1005 \u1007 \u100E \u1012 \u1013 \u1014 \u1014.alt \u1015 
-	\u1016 \u1017 \u1019 \u101B \u101D.aiph \u101D \u1027 \u1050 \u1051 \u1052 \u1053 
-	\u1054 \u1055 \u1056 \u1057 \u105C \u1065 \u1075 \u1076 \u1077 \u107F 
-	\u1081 \u1081.straight \u1084 \u108E \circledash \uAA62 \uAA6B ] [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 
-	\u1074 \u1085 \u1086 ] [\u1037 ]' ;
 } lDotWide;
 
 lookup toneAfterDotSingle {
@@ -8052,128 +7047,35 @@ lookup toneAfterDot {
 	\u1016 \u1017 \u1019 \u101B \u101D.aiph \u101D \u1027 \u1050 \u1051 \u1052 \u1053 
 	\u1054 \u1055 \u1056 \u1057 \u105C \u1065 \u1075 \u1076 \u1077 \u107F 
 	\u1081 \u1081.straight \u1084 \u108E \circledash \uAA62 \uAA6B ] [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 
-	\u1074 \u1085 \u1086 ] [\u1037 ] [] [\u1038 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B \u108C 
+	\u1074 \u1085 \u1086 ] [\u1037 ] 
+    [\u102C \u1038 \u1062_u103A \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B \u108C 
 	\u108D \u108F \uAA7D ]' ;
-  subtable;
-    ignore pos [] [\u1001 \u1002 \u1004 \u1005 \u1007 \u100E \u1012 \u1013 \u1014 \u1014.alt \u1015 
-	\u1016 \u1017 \u1019 \u101B \u101D.aiph \u101D \u1027 \u1050 \u1051 \u1052 \u1053 
-	\u1054 \u1055 \u1056 \u1057 \u105C \u1065 \u1075 \u1076 \u1077 \u107F 
-	\u1081 \u1081.straight \u1084 \u108E \circledash \uAA62 \uAA6B ] [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 
-	\u1074 \u1085 \u1086 ] [\u1037 ] [\u1062_u103A ]' ;
-  subtable;
-    ignore pos [] [\u1001 \u1002 \u1004 \u1005 \u1007 \u100E \u1012 \u1013 \u1014 \u1014.alt \u1015 
-	\u1016 \u1017 \u1019 \u101B \u101D.aiph \u101D \u1027 \u1050 \u1051 \u1052 \u1053 
-	\u1054 \u1055 \u1056 \u1057 \u105C \u1065 \u1075 \u1076 \u1077 \u107F 
-	\u1081 \u1081.straight \u1084 \u108E \circledash \uAA62 \uAA6B ] [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 
-	\u1074 \u1085 \u1086 ] [\u1037 ] [\u102C ]' ;
-  subtable;
     ignore pos [\u1000 \u1003 \u1006 \u100A \u100A.alt \u100F \u1010 \u1011.aiph \u1011 \u1018 \u101A \u101C 
 	\u101E \u101F \u1021 \u1022 \u106E \u106F \u1078 \u1079 \u107B \u107C 
 	\u107D \u1080 \uAA60 \uAA61 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 
 	\uAA69 \uAA6A \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ] [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 
-	\u1074 \u1085 \u1086 ] [\u1037 ] [] [\u1038 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B \u108C 
-	\u108D \u108F \uAA7D ]' ;
-  subtable;
+	\u1074 \u1085 \u1086 ] [\u1037 ] [\u1038 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B \u108C \u108D \u108F \uAA7D ]' ;
     pos [\u103C_u103D.narr \u103C_u103D.wide \u103C_u102F.narr \u103C_u102F.wide 
 	\u103C_u102F.alt.narr \u103C_u102F.alt.wide ] [\u1000 \u1003 \u1006 \u100A \u100A.alt \u100F \u1010 \u1011.aiph \u1011 \u1018 \u101A \u101C 
 	\u101E \u101F \u1021 \u1022 \u106E \u106F \u1078 \u1079 \u107B \u107C 
 	\u107D \u1080 \uAA60 \uAA61 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 
 	\uAA69 \uAA6A \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ] [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 
-	\u1074 \u1085 \u1086 ] [\u1037 ] [\u1062_u103A ]'lookup toneAfterDotSingle  ;
-  subtable;
-    pos [\u103C_u103D.narr \u103C_u103D.wide \u103C_u102F.narr \u103C_u102F.wide 
-	\u103C_u102F.alt.narr \u103C_u102F.alt.wide ] [\u1000 \u1003 \u1006 \u100A \u100A.alt \u100F \u1010 \u1011.aiph \u1011 \u1018 \u101A \u101C 
-	\u101E \u101F \u1021 \u1022 \u106E \u106F \u1078 \u1079 \u107B \u107C 
-	\u107D \u1080 \uAA60 \uAA61 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 
-	\uAA69 \uAA6A \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ] [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 
-	\u1074 \u1085 \u1086 ] [\u1037 ] [\u102C ]'lookup toneAfterDotSingle  ;
-  subtable;
-    ignore pos [\u1037 ] [] [\u1038 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B \u108C 
-	\u108D \u108F \uAA7D ]' ;
-  subtable;
-    pos [\u103B \u103B_u103D \u103B_u103E ] [\u1037 ] [\u1062_u103A ]'lookup toneAfterDotSingle  ;
-  subtable;
-    pos [\u103B \u103B_u103D \u103B_u103E ] [\u1037 ] [\u102C ]'lookup toneAfterDotSingle  ;
-  subtable;
-    ignore pos [\u1037 ] [] [\u1038 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B \u108C 
-	\u108D \u108F \uAA7D ]' ;
-  subtable;
-    pos [\u102F ] [\u1037 ] [\u1062_u103A ]'lookup toneAfterDotSingle  ;
-  subtable;
-    pos [\u102F ] [\u1037 ] [\u102C ]'lookup toneAfterDotSingle  ;
-  subtable;
-    ignore pos [\u1037 ] [] [\u1038 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B \u108C 
-	\u108D \u108F \uAA7D ]' ;
-  subtable;
-    pos [\u1030 ] [\u1037 ] [\u1062_u103A ]'lookup toneAfterDotSingle  ;
-  subtable;
-    pos [\u1030 ] [\u1037 ] [\u102C ]'lookup toneAfterDotSingle  ;
-  subtable;
-    ignore pos [\u1037 ] [] [\u1038 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B \u108C 
-	\u108D \u108F \uAA7D ]' ;
-  subtable;
-    pos [\u103D ] [\u1037 ] [\u1062_u103A ]'lookup toneAfterDotSingle  ;
-  subtable;
-    pos [\u103D ] [\u1037 ] [\u102C ]'lookup toneAfterDotSingle  ;
-  subtable;
-    ignore pos [\u1032 ] [\u1037 ] [] [\u1038 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B \u108C 
-	\u108D \u108F \uAA7D ]' ;
-  subtable;
-    pos [\u103D ] [\u1032 ] [\u1037 ] [\u1062_u103A ]'lookup toneAfterDotSingle  ;
-  subtable;
-    pos [\u103D ] [\u1032 ] [\u1037 ] [\u102C ]'lookup toneAfterDotSingle  ;
-  subtable;
-    ignore pos [\u1037 ] [] [\u1038 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B \u108C 
-	\u108D \u108F \uAA7D ]' ;
-  subtable;
-    pos [\uAA6C.alt ] [\u1037 ] [\u1062_u103A ]'lookup toneAfterDotSingle  ;
-  subtable;
-    pos [\uAA6C.alt ] [\u1037 ] [\u102C ]'lookup toneAfterDotSingle  ;
-  subtable;
-    ignore pos [\u1037 ] [] [\u1038 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B \u108C 
-	\u108D \u108F \uAA7D ]' ;
-  subtable;
-    pos [\u101B ] [\u1037 ] [\u1062_u103A ]'lookup toneAfterDotSingle  ;
-  subtable;
-    pos [\u101B ] [\u1037 ] [\u102C ]'lookup toneAfterDotSingle  ;
-  subtable;
-    ignore pos [\u103E ] [\u1037 ] [] [\u1038 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B \u108C 
-	\u108D \u108F \uAA7D ]' ;
-  subtable;
-    pos [\u101B.long ] [\u103E ] [\u1037 ] [\u1062_u103A ]'lookup toneAfterDotSingle  ;
-  subtable;
-    pos [\u101B.long ] [\u103E ] [\u1037 ] [\u102C ]'lookup toneAfterDotSingle  ;
-  subtable;
-    ignore pos [\u1037 ] [] [\u1038 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B \u108C 
-	\u108D \u108F \uAA7D ]' ;
-  subtable;
-    pos [\u1061 ] [\u1037 ] [\u1062_u103A ]'lookup toneAfterDotSingle  ;
-  subtable;
-    pos [\u1061 ] [\u1037 ] [\u102C ]'lookup toneAfterDotSingle  ;
-  subtable;
-    ignore pos [\u1037 ] [] [\u1038 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B \u108C 
-	\u108D \u108F \uAA7D ]' ;
-  subtable;
-    pos [\u1014 ] [\u1037 ] [\u1062_u103A ]'lookup toneAfterDotSingle  ;
-  subtable;
-    pos [\u1014 ] [\u1037 ] [\u102C ]'lookup toneAfterDotSingle  ;
-  subtable;
-    ignore pos [\u1032 ] [\u1037 ] [] [\u1038 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B \u108C 
-	\u108D \u108F \uAA7D ]' ;
-  subtable;
-    pos [\u1014 ] [\u1032 ] [\u1037 ] [\u1062_u103A ]'lookup toneAfterDotSingle  ;
-  subtable;
-    pos [\u1014 ] [\u1032 ] [\u1037 ] [\u102C ]'lookup toneAfterDotSingle  ;
-  subtable;
+	\u1074 \u1085 \u1086 ] [\u1037 ] [\u102C \u1062_u103A ]'lookup toneAfterDotSingle  ;
+    ignore pos [\u1037 ] [\u1038 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B \u108C \u108D \u108F \uAA7D ]' ;
+    pos [\u102F \u1030 \u103B \u103B_u103D \u103B_u103E \u103D ] [\u1037 ] [\u102C \u1062_u103A ]'lookup toneAfterDotSingle  ;
+    ignore pos [\u1032 ] [\u1037 ] [\u1038 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B \u108C \u108D \u108F \uAA7D ]' ;
+    pos [\u1014 \u103D ] [\u1032 ] [\u1037 ] [\u102C \u1062_u103A ]'lookup toneAfterDotSingle  ;
+    ignore pos [\u1037 ] [\u1038 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B \u108C \u108D \u108F \uAA7D ]' ;
+    pos [\u101B \uAA6C.alt ] [\u1037 ] [\u102C \u1062_u103A ]'lookup toneAfterDotSingle  ;
+    ignore pos [\u103E ] [\u1037 ] [\u1038 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B \u108C \u108D \u108F \uAA7D ]' ;
+    pos [\u101B.long ] [\u103E ] [\u1037 ] [\u102C \u1062_u103A ]'lookup toneAfterDotSingle  ;
+    ignore pos [\u1037 ] [\u1038 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B \u108C \u108D \u108F \uAA7D ]' ;
+    pos [\u1014 \u1061 ] [\u1037 ] [\u102C \u1062_u103A ]'lookup toneAfterDotSingle  ;
     ignore pos [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 
-	\u1074 \u1085 \u1086 ] [\u1037 ] [] [\u1038 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B \u108C 
+	\u1074 \u1085 \u1086 ] [\u1037 ] [\u1038 \u1069 \u106A \u106B \u106C \u106D \u1087 \u1088 \u1089 \u108A \u108B \u108C 
 	\u108D \u108F \uAA7D ]' ;
-  subtable;
     pos [\u1014 ] [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 
-	\u1074 \u1085 \u1086 ] [\u1037 ] [\u1062_u103A ]'lookup toneAfterDotSingle  ;
-  subtable;
-    pos [\u1014 ] [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 
-	\u1074 \u1085 \u1086 ] [\u1037 ] [\u102C ]'lookup toneAfterDotSingle  ;
+	\u1074 \u1085 \u1086 ] [\u1037 ] [\u102C \u1062_u103A ]'lookup toneAfterDotSingle  ;
 } toneAfterDot;
 
 lookup lDotWideBelowSingle {
@@ -8188,116 +7090,69 @@ lookup lDotWideBelow {
 	\u100E.med \u100F.med \u1010.med \u1011.med \u1012.med \u1013.med 
 	\u1014.med \u1015.med \u1016.med \u1017.med \u1018.med \u1019.med 
 	\u101A.med \u101B.med \u101C.med \u101E.med \u1021.med \u1050.med 
-	\u1051.med \u105A.med \u105B.med \u105C.med \uAA60.med ] [\u1032 ] [\u1037 ]'lookup lDotWideBelowSingle  ;
-  subtable;
-    pos [\u1000.med \u1001.med \u1002.med \u1003.med \u1004.med \u1005.med \u1006.med 
-	\u1007.med \u1008.med \u100A.med \u100B.med \u100C.med \u100D.med 
-	\u100E.med \u100F.med \u1010.med \u1011.med \u1012.med \u1013.med 
-	\u1014.med \u1015.med \u1016.med \u1017.med \u1018.med \u1019.med 
-	\u101A.med \u101B.med \u101C.med \u101E.med \u1021.med \u1050.med 
-	\u1051.med \u105A.med \u105B.med \u105C.med \uAA60.med ] [\u1036 ] [\u1037 ]'lookup lDotWideBelowSingle  ;
-  subtable;
-    pos [\u1000.med \u1001.med \u1002.med \u1003.med \u1004.med \u1005.med \u1006.med 
-	\u1007.med \u1008.med \u100A.med \u100B.med \u100C.med \u100D.med 
-	\u100E.med \u100F.med \u1010.med \u1011.med \u1012.med \u1013.med 
-	\u1014.med \u1015.med \u1016.med \u1017.med \u1018.med \u1019.med 
-	\u101A.med \u101B.med \u101C.med \u101E.med \u1021.med \u1050.med 
-	\u1051.med \u105A.med \u105B.med \u105C.med \uAA60.med ] [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 
-	\u1074 \u1085 \u1086 ] [\u1037 ]'lookup lDotWideBelowSingle  ;
-  subtable;
+	\u1051.med \u105A.med \u105B.med \u105C.med \uAA60.med ] 
+    [\u1032 \u1036 \u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 \u1074 \u1085 \u1086 ] 
+    [\u1037 ]'lookup lDotWideBelowSingle  ;
     pos [\u1000 \u1003 \u1006 \u100A \u100A.alt \u100F \u1010 \u1011.aiph \u1011 \u1018 \u101A \u101C 
 	\u101E \u101F \u1021 \u1022 \u106E \u106F \u1078 \u1079 \u107B \u107C 
 	\u107D \u1080 \uAA60 \uAA61 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 
-	\uAA69 \uAA6A \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ] [\u1030.med \u103D \u103D_u103E \u103E_u102F \u103E_u1030 ] [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 
-	\u1074 \u1085 \u1086 ] [\u1037 ]'lookup lDotWideBelowSingle  ;
-  subtable;
+	\uAA69 \uAA6A \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ] 
+    [\u1030.med \u103D \u103D_u103E \u103E_u102F \u103E_u1030 ] 
+    [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 \u1074 \u1085 \u1086 ] 
+    [\u1037 ]'lookup lDotWideBelowSingle  ;
     ignore pos [\u1001 \u1002 \u1004 \u1005 \u1007 \u100E \u1012 \u1013 \u1014 \u1014.alt \u1015 
 	\u1016 \u1017 \u1019 \u101B \u101D.aiph \u101D \u1027 \u1050 \u1051 \u1052 \u1053 
 	\u1054 \u1055 \u1056 \u1057 \u105C \u1065 \u1075 \u1076 \u1077 \u107F 
-	\u1081 \u1081.straight \u1084 \u108E \circledash \uAA62 \uAA6B ] [\u1030.med \u103D \u103D_u103E \u103E_u102F \u103E_u1030 ] [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 
-	\u1074 \u1085 \u1086 ] [\u1037 ]' ;
-  subtable;
+	\u1081 \u1081.straight \u1084 \u108E \circledash \uAA62 \uAA6B ] 
+    [\u1030.med \u103D \u103D_u103E \u103E_u102F \u103E_u1030 ] 
+    [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 \u1074 \u1085 \u1086 ] [\u1037 ]' ;
     pos [\u1000 \u1003 \u1006 \u100A \u100A.alt \u100F \u1011.aiph \u1011 \u1018 \u101A \u101C 
 	\u101E \u101F \u1021 \u1022 \u106E \u106F \u1078 \u1079 \u107B \u107C 
 	\u107D \u1080 \uAA60 \uAA61 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 
-	\uAA69 \uAA6A \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ] [\u1030.med \u103D \u103D_u103E \u103E_u102F \u103E_u1030 ] [\u1032 ] [\u1037 ]'lookup lDotWideBelowSingle  ;
-  subtable;
-    pos [\u1000 \u1003 \u1006 \u100A \u100A.alt \u100F \u1010 \u1011.aiph \u1011 \u1018 \u101A \u101C 
-	\u101E \u101F \u1021 \u1022 \u106E \u106F \u1078 \u1079 \u107B \u107C 
-	\u107D \u1080 \uAA60 \uAA61 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 
-	\uAA69 \uAA6A \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ] [\u1030.med \u103D \u103D_u103E \u103E_u102F \u103E_u1030 ] [\u1036 ] [\u1037 ]'lookup lDotWideBelowSingle  ;
-  subtable;
+	\uAA69 \uAA6A \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ] 
+    [\u1030.med \u103D \u103D_u103E \u103E_u102F \u103E_u1030 ] [\u1032 \u1036 ] [\u1037 ]'lookup lDotWideBelowSingle  ;
     ignore pos [\u1001 \u1002 \u1004 \u1005 \u1007 \u100E \u1012 \u1013 \u1014 \u1014.alt \u1015 
 	\u1016 \u1017 \u1019 \u101B \u101D.aiph \u101D \u1027 \u1050 \u1051 \u1052 \u1053 
 	\u1054 \u1055 \u1056 \u1057 \u105C \u1065 \u1075 \u1076 \u1077 \u107F 
-	\u1081 \u1081.straight \u1084 \u108E \circledash \uAA62 \uAA6B ] [\u1030.med \u103D \u103D_u103E \u103E_u102F \u103E_u1030 ] [\u1032 ] [\u1037 ]' ;
-  subtable;
-    ignore pos [\u1001 \u1002 \u1004 \u1005 \u1007 \u100E \u1012 \u1013 \u1014 \u1014.alt \u1015 
-	\u1016 \u1017 \u1019 \u101B \u101D.aiph \u101D \u1027 \u1050 \u1051 \u1052 \u1053 
-	\u1054 \u1055 \u1056 \u1057 \u105C \u1065 \u1075 \u1076 \u1077 \u107F 
-	\u1081 \u1081.straight \u1084 \u108E \circledash \uAA62 \uAA6B ] [\u1030.med \u103D \u103D_u103E \u103E_u102F \u103E_u1030 ] [\u1036 ] [\u1037 ]' ;
-  subtable;
+	\u1081 \u1081.straight \u1084 \u108E \circledash \uAA62 \uAA6B ] 
+    [\u1030.med \u103D \u103D_u103E \u103E_u102F \u103E_u1030 ] [\u1032 \u1036 ] [\u1037 ]' ;
     pos [\u103C_u102F.alt.wide ] [\u1000 \u1003 \u1006 \u100A \u100A.alt \u100F \u1010 \u1011.aiph \u1011 \u1018 \u101A \u101C 
 	\u101E \u101F \u1021 \u1022 \u106E \u106F \u1078 \u1079 \u107B \u107C 
 	\u107D \u1080 \uAA60 \uAA61 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 
 	\uAA69 \uAA6A \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ] [\u102D ] [\u1037 ]'lookup lDotWideBelowSingle  ;
-  subtable;
-    ignore pos [] [\u1001 \u1002 \u1004 \u1005 \u1007 \u100E \u1012 \u1013 \u1014 \u1014.alt \u1015 
+    ignore pos [\u1001 \u1002 \u1004 \u1005 \u1007 \u100E \u1012 \u1013 \u1014 \u1014.alt \u1015 
 	\u1016 \u1017 \u1019 \u101B \u101D.aiph \u101D \u1027 \u1050 \u1051 \u1052 \u1053 
 	\u1054 \u1055 \u1056 \u1057 \u105C \u1065 \u1075 \u1076 \u1077 \u107F 
 	\u1081 \u1081.straight \u1084 \u108E \circledash \uAA62 \uAA6B ] [\u102D ] [\u1037 ]' ;
-  subtable;
-    ignore pos [] [\u1001 \u1002 \u1004 \u1005 \u1007 \u100E \u1012 \u1013 \u1014 \u1014.alt \u1015 
+    ignore pos [\u1001 \u1002 \u1004 \u1005 \u1007 \u100E \u1012 \u1013 \u1014 \u1014.alt \u1015 
 	\u1016 \u1017 \u1019 \u101B \u101D.aiph \u101D \u1027 \u1050 \u1051 \u1052 \u1053 
 	\u1054 \u1055 \u1056 \u1057 \u105C \u1065 \u1075 \u1076 \u1077 \u107F 
 	\u1081 \u1081.straight \u1084 \u108E \circledash \uAA62 \uAA6B ] [\u1037 ]' ;
-  subtable;
     pos [\u103C_u103D.wide ] [\u1000 \u1003 \u1006 \u100A \u100A.alt \u100F \u1010 \u1011.aiph \u1011 \u1018 \u101A \u101C 
 	\u101E \u101F \u1021 \u1022 \u106E \u106F \u1078 \u1079 \u107B \u107C 
 	\u107D \u1080 \uAA60 \uAA61 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 
 	\uAA69 \uAA6A \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ] [\u1037 ]'lookup lDotWideBelowSingle  ;
-  subtable;
-    ignore pos [] [\u1001 \u1002 \u1004 \u1005 \u1007 \u100E \u1012 \u1013 \u1014 \u1014.alt \u1015 
+    ignore pos [\u1001 \u1002 \u1004 \u1005 \u1007 \u100E \u1012 \u1013 \u1014 \u1014.alt \u1015 
 	\u1016 \u1017 \u1019 \u101B \u101D \u1027 \u1050 \u1051 \u1052 \u1053 
 	\u1054 \u1055 \u1056 \u1057 \u105C \u1065 \u1075 \u1076 \u1077 \u107F 
 	\u1081 \u1081.straight \u1084 \u108E \circledash \uAA62 \uAA6B ] [\u1036 ] [\u1037 ]' ;
-  subtable;
-    pos [\u103C_u103D.wide ] [\u1000 \u1003 \u1006 \u100A \u100A.alt \u100F \u1010 \u1011 \u1011.aiph \u1011 \u1018 \u101A \u101C 
+    pos [\u103C_u102F.wide \u103C_u103D.wide ] [\u1000 \u1003 \u1006 \u100A \u100A.alt \u100F \u1010 \u1011.aiph \u1011 \u1018 \u101A \u101C 
 	\u101E \u101F \u1021 \u1022 \u106E \u106F \u1078 \u1079 \u107B \u107C 
 	\u107D \u1080 \uAA60 \uAA61 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 
 	\uAA69 \uAA6A \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ] [\u1036 ] [\u1037 ]'lookup lDotWideBelowSingle  ;
-  subtable;
-    pos [\u103C_u102F.wide ] [\u1000 \u1003 \u1006 \u100A \u100A.alt \u100F \u1010 \u1011.aiph \u1011 \u1018 \u101A \u101C 
-	\u101E \u101F \u1021 \u1022 \u106E \u106F \u1078 \u1079 \u107B \u107C 
-	\u107D \u1080 \uAA60 \uAA61 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 
-	\uAA69 \uAA6A \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ] [\u1036 ] [\u1037 ]'lookup lDotWideBelowSingle  ;
-  subtable;
-    ignore pos [] [\u1001 \u1002 \u1004 \u1005 \u1007 \u100E \u1012 \u1013 \u1014 \u1014.alt \u1015 
+    ignore pos [\u1001 \u1002 \u1004 \u1005 \u1007 \u100E \u1012 \u1013 \u1014 \u1014.alt \u1015 
 	\u1016 \u1017 \u1019 \u101B \u101D \u1027 \u1050 \u1051 \u1052 \u1053 
 	\u1054 \u1055 \u1056 \u1057 \u105C \u1065 \u1075 \u1076 \u1077 \u107F 
 	\u1081 \u1081.straight \u1084 \u108E \circledash \uAA62 \uAA6B ] [\u1036 ] [\u1037 ]' ;
-  subtable;
     pos [\u103E_u1030 ] [\u1037 ]'lookup lDotWideBelowSingle  ;
-  subtable;
     ignore pos [\u1001 \u1002 \u1004 \u1005 \u1007 \u100E \u1012 \u1013 \u1014 \u1014.alt \u1015 
 	\u1016 \u1017 \u1019 \u101B \u101D \u1027 \u1050 \u1051 \u1052 \u1053 
 	\u1054 \u1055 \u1056 \u1057 \u105C \u1065 \u1075 \u1076 \u1077 \u107F 
-	\u1081 \u1081.straight \u1084 \u108E \circledash \uAA62 \uAA6B ] [\u103D_u103E ] [\u1037 ]' ;
-  subtable;
-    ignore pos [\u1001 \u1002 \u1004 \u1005 \u1007 \u100E \u1012 \u1013 \u1014 \u1014.alt \u1015 
-	\u1016 \u1017 \u1019 \u101B \u101D \u1027 \u1050 \u1051 \u1052 \u1053 
-	\u1054 \u1055 \u1056 \u1057 \u105C \u1065 \u1075 \u1076 \u1077 \u107F 
-	\u1081 \u1081.straight \u1084 \u108E \circledash \uAA62 \uAA6B ] [\u103D ] [\u1037 ]' ;
-  subtable;
+	\u1081 \u1081.straight \u1084 \u108E \circledash \uAA62 \uAA6B ] [\u103D \u103D_u103E ] [\u1037 ]' ;
     pos [\u1000 \u1003 \u1006 \u100A \u100A.alt \u100F \u1010 \u1011.aiph \u1011 \u1018 \u101A \u101C 
 	\u101E \u101F \u1021 \u1022 \u106E \u106F \u1078 \u1079 \u107B \u107C 
 	\u107D \u1080 \uAA60 \uAA61 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 
-	\uAA69 \uAA6A \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ] [\u103D_u103E ] [\u1037 ]'lookup lDotWideBelowSingle  ;
-  subtable;
-    pos [\u1000 \u1003 \u1006 \u100A \u100A.alt \u100F \u1010 \u1011.aiph \u1011 \u1018 \u101A \u101C 
-	\u101E \u101F \u1021 \u1022 \u106E \u106F \u1078 \u1079 \u107B \u107C 
-	\u107D \u1080 \uAA60 \uAA61 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 
-	\uAA69 \uAA6A \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ] [\u103D ] [\u1037 ]'lookup lDotWideBelowSingle  ;
+	\uAA69 \uAA6A \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ] [\u103D \u103D_u103E ] [\u1037 ]'lookup lDotWideBelowSingle  ;
 } lDotWideBelow;
 
 lookup lDotNarrSingle {
@@ -8308,22 +7163,16 @@ lookup lDotNarrSingle {
 lookup lDotNarr {
   lookupflag 0;
     pos [\u1061 ] [\u1037 ]'lookup lDotNarrSingle  ;
-  subtable;
     pos [\u1000 \u1003 \u1006 \u100A \u100A.alt \u100F \u1010 \u1011.aiph \u1011 \u1018 \u101A \u101C 
 	\u101E \u101F \u1021 \u1022 \u106E \u106F \u1078 \u1079 \u107B \u107C 
 	\u107D \u1080 \uAA60 \uAA61 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 
 	\uAA69 \uAA6A \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ] [\u103B \u103B_u103D \u103B_u103E ] [\u1037 ]'lookup lDotNarrSingle  ;
-  subtable;
     ignore pos [\u1001 \u1002 \u1004 \u1005 \u1007 \u100E \u1012 \u1013 \u1014 \u1014.alt \u1015 
 	\u1016 \u1017 \u1019 \u101B \u101D \u1027 \u1050 \u1051 \u1052 \u1053 
 	\u1054 \u1055 \u1056 \u1057 \u105C \u1065 \u1075 \u1076 \u1077 \u107F 
 	\u1081 \u1081.straight \u1084 \u108E \circledash \uAA62 \uAA6B ] [\u103B \u103B_u103D \u103B_u103E ] [\u1037 ]' ;
-  subtable;
     pos [\u102F ] [\u1036 ] [\u1037 ]'lookup lDotNarrSingle  ;
-  subtable;
-    pos [\u103B \u103B_u103D \u103B_u103E ] [\u102D ] [\u1037 ]'lookup lDotNarrSingle  ;
-  subtable;
-    pos [\u103B \u103B_u103D \u103B_u103E ] [\u102E ] [\u1037 ]'lookup lDotNarrSingle  ;
+    pos [\u103B \u103B_u103D \u103B_u103E ] [\u102D \u102E ] [\u1037 ]'lookup lDotNarrSingle  ;
 } lDotNarr;
 
 lookup kinziTallA {
@@ -8354,11 +7203,7 @@ lookup ldotSgawHaSingle {
 
 lookup ldotSgawHa {
   lookupflag 0;
-    pos [\u101B ] [\u1037 ]'lookup ldotSgawHaSingle  ;
-  subtable;
-    pos [\u103E.slanth ] [\u1037 ]'lookup ldotSgawHaSingle  ;
-  subtable;
-    pos [\u103E.slantr ] [\u1037 ]'lookup ldotSgawHaSingle  ;
+    pos [\u101B \u103E.slanth \u103E.slantr] [\u1037 ]'lookup ldotSgawHaSingle  ;
 } ldotSgawHa;
 
 lookup ldotSgawSingle {
@@ -8368,11 +7213,7 @@ lookup ldotSgawSingle {
 
 lookup ldotSgaw {
   lookupflag 0;
-    pos [\u103D ] [\u1037 ]'lookup ldotSgawSingle  ;
-  subtable;
-    pos [\u103D.tri ] [\u1037 ]'lookup ldotSgawSingle  ;
-  subtable;
-    pos [\u1061 ] [\u1037 ]'lookup ldotSgawSingle  ;
+    pos [\u103D \u103D.tri \u1061] [\u1037 ]'lookup ldotSgawSingle  ;
 } ldotSgaw;
 
 lookup lDotLeftSingle {
@@ -8386,68 +7227,51 @@ lookup lDotLeft {
 	\u101E \u101F \u1021 \u1022 \u106E \u106F \u1078 \u1079 \u107B \u107C 
 	\u107D \u1080 \uAA60 \uAA61 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 
 	\uAA69 \uAA6A \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ] [\u1037 ]'lookup lDotLeftSingle  ;
-  subtable;
     ignore pos [\u1001 \u1002 \u1004 \u1005 \u1007 \u100E \u1012 \u1013 \u1014 \u1014.alt \u1015 
 	\u1016 \u1017 \u1019 \u101D \u1027 \u1050 \u1051 \u1052 \u1053 \u1054 
 	\u1055 \u1056 \u1057 \u105C \u1065 \u1075 \u1076 \u1077 \u107F \u1081 
 	\u1081.straight \u1084 \u108E \circledash \uAA62 \uAA6B ] [\u1037 ]' ;
-  subtable;
     pos [\u1000 \u1003 \u1006 \u100A \u100A.alt \u100F \u1010 \u1011.aiph \u1011 \u1018 \u101A \u101C 
 	\u101E \u101F \u1021 \u1022 \u106E \u106F \u1078 \u1079 \u107B \u107C 
 	\u107D \u1080 \uAA60 \uAA61 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 
 	\uAA69 \uAA6A \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ] [\u1037 ]'lookup lDotLeftSingle  [\u103A ] ;
-  subtable;
     pos [\u1000 \u1003 \u1006 \u100A \u100A.alt \u100F \u1010 \u1011.aiph \u1011 \u1018 \u101A \u101C 
 	\u101E \u101F \u1021 \u1022 \u106E \u106F \u1078 \u1079 \u107B \u107C 
 	\u107D \u1080 \uAA60 \uAA61 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 
 	\uAA69 \uAA6A \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ] [\u103A ] [\u1037 ]'lookup lDotLeftSingle  ;
-  subtable;
     ignore pos [\u1001 \u1002 \u1004 \u1005 \u1007 \u100E \u1012 \u1013 \u1014 \u1014.alt \u1015 
 	\u1016 \u1017 \u1019 \u101D \u1027 \u1050 \u1051 \u1052 \u1053 \u1054 
 	\u1055 \u1056 \u1057 \u105C \u1065 \u1075 \u1076 \u1077 \u107F \u1081 
 	\u1081.straight \u1084 \u108E \circledash \uAA62 \uAA6B ] [\u103A ] [\u1037 ]' ;
-  subtable;
     pos [\u1000 \u1003 \u1006 \u100A \u100A.alt \u100F \u1010 \u1011.aiph \u1011 \u1018 \u101A \u101C 
 	\u101E \u101F \u1021 \u1022 \u106E \u106F \u1078 \u1079 \u107B \u107C 
 	\u107D \u1080 \uAA60 \uAA61 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 
 	\uAA69 \uAA6A \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ] [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 
 	\u1074 \u1085 \u1086 ] [\u1037 ]'lookup lDotLeftSingle  ;
-  subtable;
     ignore pos [\u1001 \u1002 \u1004 \u1005 \u1007 \u100E \u1012 \u1013 \u1014 \u1014.alt \u1015 
 	\u1016 \u1017 \u1019 \u101D \u1027 \u1050 \u1051 \u1052 \u1053 \u1054 
 	\u1055 \u1056 \u1057 \u105C \u1065 \u1075 \u1076 \u1077 \u107F \u1081 
 	\u1081.straight \u1084 \u108E \circledash \uAA62 \uAA6B ] [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073 
 	\u1074 \u1085 \u1086 ] [\u1037 ]' ;
-  subtable;
     pos [\u1000 \u1003 \u1006 \u100A \u100A.alt \u100F \u1010 \u1011.aiph \u1011 \u1018 \u101A \u101C 
 	\u101E \u101F \u1021 \u1022 \u106E \u106F \u1078 \u1079 \u107B \u107C 
 	\u107D \u1080 \uAA60 \uAA61 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 
 	\uAA69 \uAA6A \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ] [\u1032 ] [\u1037 ]'lookup lDotLeftSingle  ;
-  subtable;
     ignore pos [\u1001 \u1002 \u1004 \u1005 \u1007 \u100E \u1012 \u1013 \u1014 \u1014.alt \u1015 
 	\u1016 \u1017 \u1019 \u101D \u1027 \u1050 \u1051 \u1052 \u1053 \u1054 
 	\u1055 \u1056 \u1057 \u105C \u1065 \u1075 \u1076 \u1077 \u107F \u1081 
 	\u1081.straight \u1084 \u108E \circledash \uAA62 \uAA6B ] [\u1032 ] [\u1037 ]' ;
-  subtable;
     pos [\u1000 \u1003 \u1006 \u100A \u100A.alt \u100F \u1010 \u1011.aiph \u1011 \u1018 \u101A \u101C 
 	\u101E \u101F \u1021 \u1022 \u106E \u106F \u1078 \u1079 \u107B \u107C 
 	\u107D \u1080 \uAA60 \uAA61 \uAA63 \uAA64 \uAA65 \uAA66 \uAA67 \uAA68 
 	\uAA69 \uAA6A \uAA6C \uAA6D \uAA6E \uAA6F \uAA71 \uAA72 ] [\u1036 ] [\u1037 ]'lookup lDotLeftSingle  ;
-  subtable;
     ignore pos [\u1001 \u1002 \u1004 \u1005 \u1007 \u100E \u1012 \u1013 \u1014 \u1014.alt \u1015 
 	\u1016 \u1017 \u1019 \u101D \u1027 \u1050 \u1051 \u1052 \u1053 \u1054 
 	\u1055 \u1056 \u1057 \u105C \u1065 \u1075 \u1076 \u1077 \u107F \u1081 
 	\u1081.straight \u1084 \u108E \circledash \uAA62 \uAA6B ] [\u1036 ] [\u1037 ]' ;
-  subtable;
-    pos [\u1025 ] [\u103A ] [\u1037 ]'lookup lDotLeftSingle  ;
-  subtable;
+    pos [\u1025 \u102C ] [\u103A ] [\u1037 ]'lookup lDotLeftSingle  ;
     pos [\u1025 ] [\u1037 ]'lookup lDotLeftSingle  [\u103A ] ;
-  subtable;
-    pos [\u102C ] [\u1037 ]'lookup lDotLeftSingle  ;
-  subtable;
-    pos [\u102C ] [\u103A ] [\u1037 ]'lookup lDotLeftSingle  ;
-  subtable;
-    pos [\u102B_u103A ] [\u1037 ]'lookup lDotLeftSingle  ;
+    pos [\u102B_u103A \u102C ] [\u1037 ]'lookup lDotLeftSingle  ;
 } lDotLeft;
 
 lookup rAltDot {
@@ -8475,9 +7299,7 @@ lookup move1032with102FSingle {
 
 lookup move1032with102F {
   lookupflag 0;
-    pos [\u102F ] [\u1032 ]'lookup move1032with102FSingle  ;
-  subtable;
-    pos [\u102F ] [\u1036 ]'lookup move1032with102FSingle  ;
+    pos [\u102F ] [\u1032 \u1036 ]'lookup move1032with102FSingle  ;
 } move1032with102F;
 
 lookup slantHUSingle {
