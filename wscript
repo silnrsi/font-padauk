@@ -51,14 +51,14 @@ namestrings = {
 opts = preprocess_args({'opt' : '--no2'})
 
 scriptcode = 'mymr' if '--no2' in opts else 'mymr'
-mastercmds = [cmd("${FONTFORGE} -lang=ff -c 'Open($1); MergeFeature($2); Save($3)' ${SRC} ${TGT}",
-                    ['font-source/master.sfd', 'font-source/padauk-mymr_merge.fea'], shell=1)]
+#mastercmds = [cmd("${FONTFORGE} -lang=ff -c 'Open($1); MergeFeature($2); Save($3)' ${SRC} ${TGT}",
+#                    ['font-source/master.sfd', 'font-source/padauk-mymr_merge.fea'], shell=1)]
 
-if '--no2' not in opts :
-    mastercmds.append(cmd("${FONTFORGE} -lang=ff -c 'Open($1); MergeFeature($2); Save($3)' ${DEP} ${SRC} ${TGT}",
-                                ['font-source/padauk-mym2_merge.fea'], shell=1))
+#if '--no2' not in opts :
+#    mastercmds.append(cmd("${FONTFORGE} -lang=ff -c 'Open($1); MergeFeature($2); Save($3)' ${DEP} ${SRC} ${TGT}",
+#                                ['font-source/padauk-mym2_merge.fea'], shell=1))
 
-master = create('master.sfd', *mastercmds)
+#master = create('master.sfd', *mastercmds)
 
 for f in ['', 'bold', 'book', 'bookbold'] :
     fsf = 'font-source/padauk' + f
@@ -77,8 +77,10 @@ for f in ['', 'bold', 'book', 'bookbold'] :
                 source = srcfile,
                 ap = fsf + '.xml',
                 classes = 'font-source/padauk_classes.xml',
-                opentype = internal(),
-                sfd_master = master,
+                opentype = fea('font-source/padauk' + f + '.fea',
+                                master = 'font-source/padauk-' + scriptcode + '_merge.fea',
+                                make_params="-m _R"),
+                sfd_master = 'font-source/master.sfd',
                 graphite = gdl('padauk' + f + '.gdl',
                                 master = 'font-source/myanmar5.gdl',
                                 params = '-w3521 -w3530 -q -d -v2', make_params="-m _R",

@@ -1,3 +1,4 @@
+include(../font-source/padauk-mymr_merge.fea;)
 
 languagesystem mym2 dflt;
 languagesystem mym2 KHT ;
