@@ -50,9 +50,9 @@ namestrings = {
 # we only want one master.sfd:
 opts = preprocess_args({'opt' : '--no2'})
 
-scriptcode = 'mymr' if '--no2' in opts else 'mymr'
-#mastercmds = [cmd("${FONTFORGE} -lang=ff -c 'Open($1); MergeFeature($2); Save($3)' ${SRC} ${TGT}",
-#                    ['font-source/master.sfd', 'font-source/padauk-mymr_merge.fea'], shell=1)]
+scriptcode = 'mymr' if '--no2' in opts else 'mym2'
+mastercmds = [cmd("${FONTFORGE} -lang=ff -c 'Open($1); MergeFeature($2); Save($3)' ${SRC} ${TGT}",
+                    ['font-source/master.sfd', 'font-source/padauk-mymr_merge.fea'], shell=1)]
 
 #if '--no2' not in opts :
 #    mastercmds.append(cmd("${FONTFORGE} -lang=ff -c 'Open($1); MergeFeature($2); Save($3)' ${DEP} ${SRC} ${TGT}",

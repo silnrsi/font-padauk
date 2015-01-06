@@ -86,7 +86,7 @@ languagesystem mym2 KYU ;
     \u102D_u1036 \u102D_uAA7C \u102E \u102E_uAA7C \u1032 \u1032_u102D
     \u1033 \u1034 \u1035 \u1036 \u103A \u103A_u1036 \u1071 \u1072 \u1073
     \u1074 \u1085 \u1086 \u1086_uAA7C \u109D \uA9E5 \uA9E5_uAA7C \uAA7C
-    \u1032.kham \u1032_uAA70 \u103A_uAA70 \u1036.dot];
+    \u1086.kham \u1032_uAA70 \u103A_uAA70 \u1036.dot];
 
 #Mark attachment classes (defined in GDEF, used in lookupflags)
 @class103CLig = [\u102F.med \u103D \u103D.tri];
@@ -125,7 +125,7 @@ lookup mym2_locl_kham {
     sub \u101A by \u101A.kham ;
     sub \u101C by \u101C.kham ;
     sub \u1022 by \u1022.kham ;
-    sub \u1032 by \u1032.kham ;
+    sub \u1032 by \u1086.kham ;
     sub \u1075 by \u1075.kham ;
     sub \u1078 by \u1078.kham ;
     sub \u1080 by \u1080.kham ;
@@ -387,7 +387,7 @@ lookup mym2_abvs_redupLig {
   lookupflag IgnoreBaseGlyphs, IgnoreLigatures, MarkAttachmentType @class1036;
     sub \u1032 \uAA70  by \u1032_uAA70; #used by default (dflt) lang if Khamti (KHT ) is not enabled
     sub \u103A \uAA70  by \u103A_uAA70;
-    sub \u1032.kham \uAA70  by \u1032_uAA70;
+    sub \u1086.kham \uAA70  by \u1032_uAA70;
 } mym2_abvs_redupLig;
 
 
