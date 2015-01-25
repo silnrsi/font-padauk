@@ -9,7 +9,7 @@ languagesystem mym2 KYU ;
 # define named classes
 # *********************
 
-# @cCons -- use of generated AllCons class prefered
+# @cCons -- use of generated @cCons class preferred over @classAllCons
 @classAllCons = [\u1000 \u1001 \u1002 \u1003 \u1004 \u1005 \u1006 \u1007 \u1008 \u1009 \u100A
     \u100A.alt \u100A_u100A \u100B \u100B_u100B \u100B_u100C \u100C \u100D
     \u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D
@@ -80,14 +80,15 @@ languagesystem mym2 KYU ;
 @classUpperVowel = [\u102D \u102D_u1036 \u102E \u1032_u102D \u1033 \u1034 \u1035 \u1071 \u1072 \u1073
     \u1074 \u1085 \u1086];
 
-@cUDia = [\asciicircum \u1004.kinzi \u1004.kinzi_u102D \u1004.kinzi_u102E
-    \u1004.kinzi_u1032 \u1004.kinzi_u1033 \u1004.kinzi_u1036
-    \u1004.kinzi_u103A \u1004.kinzi_u102D_u1036 \u101B.kinzi
-    \u101B.kinzi_u102D \u101B.kinzi_u102E \u101B.kinzi_u103A \u102D
-    \u102D_u1036 \u102D_uAA7C \u102E \u102E_uAA7C \u1032 \u1032_u102D
-    \u1033 \u1034 \u1035 \u1036 \u103A \u103A_u1036 \u1071 \u1072 \u1073
-    \u1074 \u1085 \u1086 \u1086_uAA7C \u109D \uA9E5 \uA9E5_uAA7C \uAA7C
-    \u1086.kham \u1032_uAA70 \u103A_uAA70 \u1036.dot];
+# @cUDia is now a class in the generated .fea file
+# @cUDia = [\asciicircum \u1004.kinzi \u1004.kinzi_u102D \u1004.kinzi_u102E
+#     \u1004.kinzi_u1032 \u1004.kinzi_u1033 \u1004.kinzi_u1036
+#     \u1004.kinzi_u103A \u1004.kinzi_u102D_u1036 \u101B.kinzi
+#     \u101B.kinzi_u102D \u101B.kinzi_u102E \u101B.kinzi_u103A \u102D
+#     \u102D_u1036 \u102D_uAA7C \u102E \u102E_uAA7C \u1032 \u1032_u102D
+#     \u1033 \u1034 \u1035 \u1036 \u103A \u103A_u1036 \u1071 \u1072 \u1073
+#     \u1074 \u1085 \u1086 \u1086_uAA7C \u109D \uA9E5 \uA9E5_uAA7C \uAA7C
+#     \u1086.kham \u1032_uAA70 \u103A_uAA70 \u1036.dot];
 
 #Mark attachment classes (defined in GDEF, used in lookupflags)
 @class103CLig = [\u102F.med \u103D \u103D.tri];
@@ -189,7 +190,6 @@ lookup mym2_rphf_kinzi {
 # pref
 # ****
 
-
 lookup mym2_pref_miscLig {
   lookupflag 0;
     sub \u103C \u1014 \u1039 \u1010 by \u1014_u1010_u103C;
@@ -233,6 +233,7 @@ lookup mym2_blws_medVowels {
 # Now back to regular pref rules
 
 lookup mym2_pref_u103CLig {
+#  lookupflag IgnoreBaseGlyphs, IgnoreLigatures, MarkAttachmentType @class103CLig;
   lookupflag IgnoreBaseGlyphs, MarkAttachmentType @class103CLig;
     sub \u103C \u102F.med by \u103C_u102F.narr;
     sub \u103C \u103D by \u103C_u103D.narr;
