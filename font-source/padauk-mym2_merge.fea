@@ -660,12 +660,34 @@ feature psts {
 # -------------
 # GPOS lookups
 # -------------
-# using lookups in the generated .fea files
+# lookups from the generated .fea files
+# plus these below
+
+# We're actually overriding the LL and pointing to the L AP -- mark feature
+lookup override_base_L_base {
+  lookupflag 0;
+  markClass [\u1037] <anchor -74 -53> @L;
+  pos base [\u103B] <anchor 250 -53> mark @L;
+  pos base [\u103C_u102F.narr] <anchor 781 -53> mark @L;
+  pos base [\u103C_u102F.wide] <anchor 1195 -53> mark @L;
+  pos base [\u103C_u102F.alt.narr] <anchor 781 -53> mark @L;
+  pos base [\u103C_u102F.alt.wide] <anchor 1195 -53> mark @L;
+} override_base_L_base;
+
+# This must have a "pos mark" to make it work -- mkmk feature
+# The generated fea uses "pos base" but doesn't work for mkmk feature
+lookup override_base_LM_mark {
+  lookupflag 0;
+  markClass [\u1037] <anchor -74 -53> @LM;
+  pos mark [\u103D] <anchor 89 -53> mark @LM;
+} override_base_LM_mark; # feature mkmk
+
 
 # -------------
 # GPOS features
 # -------------
 # features from the generated .fea files
+# plus those from above
 
 feature mark {
  script mym2;
@@ -677,6 +699,7 @@ feature mark {
       lookup base_R_base;
       lookup base_U_base;
       lookup base_Y_base;
+      lookup override_base_L_base;
      language KHT  exclude_dflt;
       lookup base_BD_base;
       lookup base_BS_base;
@@ -715,6 +738,7 @@ feature mkmk {
       lookup base_LLM_mark;
       lookup base_LLM_1_mark;
       lookup base_LM_mark;
+      lookup override_base_LM_mark;
      language KHT  exclude_dflt;
       lookup base_BD_mark;
       lookup base_BDM_mark;
