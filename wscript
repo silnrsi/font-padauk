@@ -4,7 +4,7 @@
 import codecs, os
 
 TESTDIR='test-suite'
-VERSION='2.96.2'
+VERSION='2.96.3'
 TTF_VERSION='2.9'
 APPNAME='padauk'
 SRCDIST="{0}-src.{1}".format(APPNAME, VERSION)
@@ -38,27 +38,9 @@ namestrings = {
     'book' :        ('Padauk Book', 'Regular')
 }
 
-#test = fonttest(targets = {
-#        'pdfs' : tex(),
-#        'test' : tests({
-#            'regression' :
-#                cmd('cmptxtrender -p -k -e ${shaper} -s "${script}" -L test -L standard -t ${SRC[1]} -o ${TGT} --copy=fonts ${SRC[0]} ${SRC[2]}')})
-#        'xtest' : tests({
-#            'cross' :
-#                cmd('cmptxtrender -p -k -e ${shaper} -s "${script}" -e ${altshaper} -L shaper -L other -t ${SRC[1]} -o ${TGT} --copy=fonts ${SRC[0]} ${SRC[0]}')}, coverage='shaperpairs')
-#    })
-# we only want one master.sfd:
 opts = preprocess_args({'opt' : '--no2'})
 
 scriptcode = 'mymr' if '--no2' in opts else 'mym2'
-mastercmds = [cmd("${FONTFORGE} -lang=ff -c 'Open($1); MergeFeature($2); Save($3)' ${SRC} ${TGT}",
-                    ['font-source/master.sfd', 'font-source/padauk-mymr_merge.fea'], shell=1)]
-
-#if '--no2' not in opts :
-#    mastercmds.append(cmd("${FONTFORGE} -lang=ff -c 'Open($1); MergeFeature($2); Save($3)' ${DEP} ${SRC} ${TGT}",
-#                                ['font-source/padauk-mym2_merge.fea'], shell=1))
-
-#master = create('master.sfd', *mastercmds)
 
 for f in ['', 'bold', 'book', 'bookbold'] :
     fsf = 'font-source/padauk' + f
@@ -90,12 +72,3 @@ for f in ['', 'bold', 'book', 'bookbold'] :
                 extra_srcs = [fsf + '_src.ttf', 'bin/makegdl', 'font-source/myfeatures.gdl'],
                 pdf = fret()
             )
-
-#def srcdist(ctx) :
-#    for p in package.packages() :
-#        for f in p.fonts :
-#            try :
-#                del f.legacy
-#            except :
-#                pass
-
