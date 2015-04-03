@@ -60,7 +60,7 @@ for f in ['', 'bold', 'book', 'bookbold'] :
                 ap = fsf + '.xml',
                 classes = 'font-source/padauk_classes.xml',
                 opentype = fea('font-source/padauk' + f + '.fea',
-                                master = 'font-source/padauk-mym2_merge.fea',
+                                master = 'font-source/padauk' + f + '_ext.fea',
                                 make_params="-m _R -z 8"),
                 sfd_master = 'font-source/master.sfd',
                 graphite = gdl('padauk' + f + '.gdl',
