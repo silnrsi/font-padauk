@@ -4,8 +4,8 @@
 import codecs, os
 
 TESTDIR='test-suite'
-VERSION='2.97.1'
-TTF_VERSION='2.971'
+VERSION='2.97.2'
+TTF_VERSION='2.972'
 APPNAME='padauk'
 SRCDIST="{0}-src.{1}".format(APPNAME, VERSION)
 DESC_SHORT='Burmese Unicode 6 truetype font with OT and Graphite support'
@@ -52,7 +52,7 @@ for f in ['', 'bold', 'book', 'bookbold'] :
     srcfile = fsf + '_src.sfd'
 
     fnt = font(target = process(target, 
-                        name(namestrings[f][0], lang='en-US', subfamily = namestrings[f][1])),
+                        name(namestrings[f][0] + " beta", lang='en-US', subfamily = namestrings[f][1])),
                 version = TTF_VERSION,
                 license = ofl("Padauk"),
                 copyright = COPYRIGHT,
