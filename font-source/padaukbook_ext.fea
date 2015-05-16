@@ -63,7 +63,8 @@ lookup dist_101Balt {
     pos u101B.alt' <88 0 88 0>   u103E_u102F;
     pos u101B.alt' <53 0 53 0>   u1030.med;
     pos u101B.alt' <12 0 12 0>   u102F.med;
-    pos u101B.alt' <12 0 12 0>   u1036 u102F.med; # OTLS re-orders marks
+    # OTLS re-orders marks
+    pos u101B.alt' <12 0 12 0>   [u1032 u1036] u102F.med;
 } dist_101Balt;
 
 # Since OTLS zeros out the width of marks the width of 101B.alt doesn't
@@ -74,7 +75,8 @@ lookup kern_101Balt {
     pos u101B.alt u103E_u102F' <-78 0 0 0>;
     pos u101B.alt u1030.med'   <-43 0 0 0>;
     pos u101B.alt u102F.med'   <-2 0 0 0>;
-#    pos u101B.alt u1036 u102F.med' <-2 0 0 0>; # OTLS re-orders marks
+    # OTLS re-orders marks
+#    pos u101B.alt [u1032 u1036] u102F.med' <-2 0 0 0>;
 } kern_101Balt;
 
 # Not sure why this doesn't work but it's no big deal - only 2 points.
@@ -96,7 +98,26 @@ lookup kern_misc {
     pos u1014.alt' 132 [u1011.med] u1014.alt [u1010.med]; # 414
     pos u1014.alt'  26 [u103D]     u1014.alt [u1010.med]; # 1175
     pos u101B' 101 [u1005] [u1006.med]; # 2020
+    pos u1032' 135 u102B; # Mon language
 } kern_misc; 
+
+# This is a Mon language sequence
+# This sequence can not be reordered easily in OT but this rule works 
+# for the all the words I can find. It may need to be refined.
+lookup kern_TallAA {
+  lookupflag 0;
+    pos u102B' <135 0 0 0> u1036' <-341 0 0 0>;
+    pos u103C [@cCons] u102B' <182 0 182 0>;
+} kern_TallAA;
+
+# Original sequence was u102F u1032 with u1032 attaching at U 
+# OTLS reordered the pair so now we kern to make it appear to attach
+# Adding 172 to LSB works for many but may need contextual rules for precise placement
+# feature disabled
+lookup kern_102F_1032 {
+  lookupflag 0;
+    pos u1032' <197 0 0 0> u102F;
+} kern_102F_1032;
 
 
 # ****

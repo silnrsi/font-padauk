@@ -194,9 +194,11 @@ feature dist {
    language dflt;
      lookup dist_103C;
      lookup dist_101Balt;
-     lookup kern_misc;
      lookup kern_101Balt;
      lookup kern_101Balt_1036;
+     lookup kern_misc;
+     lookup kern_TallAA;
+#     lookup kern_102F_1032;
    language KHT  exclude_dflt;
      lookup dist_103C;
    language KSW  exclude_dflt;
