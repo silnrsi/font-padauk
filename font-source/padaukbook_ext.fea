@@ -51,6 +51,32 @@ lookup dist_103C {
     pos u103C_u103D.wide.tri <0 0 192 0>;
 } dist_103C; 
 
+# Normally u1037 attaches to u103D or u102F. But when the latter two
+# become part of a 103C ligature, they become reordered before a 
+# consonant and the attachment breaks. (I've had no luck in fixing it.) 
+# This 'hack' gets it close to where it should be.
+### NB: Some configurations and advance width still need to be adjusted
+lookup kern_103Clig_1037 {
+  lookupflag 0;
+    pos u103C_u103D.narr [@cCons] [@cUDia] u1037' <332 0 0 0>;
+    pos u103C_u103D.narr [@cCons]          u1037' <332 0 169 0>;
+#    pos u103C_u103D.wide [@cCons] [@cUDia] u1037' <0 0 0 0>;
+#    pos u103C_u103D.wide [@cCons]          u1037' <0 0 0 0>;
+#    pos u103C_u103D.alt.narr [@cCons] [@cUDia] u1037' <0 0 0 0>;
+#    pos u103C_u103D.alt.narr [@cCons]          u1037' <0 0 0 0>;
+#    pos u103C_u103D.alt.wide [@cCons] [@cUDia] u1037' <0 0 0 0>;
+#    pos u103C_u103D.alt.wide [@cCons]          u1037' <0 0 0 0>;
+    pos u103C_u102F.narr [@cCons] [@cUDia] u1037' <315 0 153 0>;
+    pos u103C_u102F.narr [@cCons]          u1037' <315 0 0 0>;
+#    pos u103C_u102F.wide [@cCons] [@cUDia] u1037' <0 0 0 0>;
+#    pos u103C_u102F.wide [@cCons]          u1037' <0 0 0 0>;
+    pos u103C_u102F.alt.narr [@cCons] [@cUDia] u1037' <315 0 153 0>;
+    pos u103C_u102F.alt.narr [@cCons]          u1037' <315 0 0 0>;
+    pos u103C_u102F.alt.wide [@cCons] [@cUDia] u1037' <309 0 150 0>;
+    pos u103C_u102F.alt.wide [@cCons]          u1037' <309 0 0 0>;
+} kern_103Clig_1037;
+
+
 #-----------------------------------------------------------------------
 # This section deals with 101B and some lower diacritics
 
@@ -97,7 +123,7 @@ lookup kern_misc {
     pos u1014.alt' 123 [u1010.med] u102F; # 412
     pos u1014.alt' 132 [u1011.med] u1014.alt [u1010.med]; # 414
     pos u1014.alt'  26 [u103D]     u1014.alt [u1010.med]; # 1175
-    pos u101B' 101 [u1005] [u1006.med]; # 2020
+    pos u101B' 106 [@cConsNar] [@cMedWide]; # 2020 2045 ###this needs refining
     pos u1032' 135 u102B; # Mon language
 } kern_misc; 
 
