@@ -196,7 +196,7 @@ lookup mym2_medVowelSubst {
     sub u1030 by u1030.med;
 } mym2_medVowelSubst;
 
-@classneedsUtall = [u100D u1025 u105A u105B u105D];
+@classneedsUtall = [u100D u1025 u105A u105B u105D u1061];
 lookup mym2_blws_medVowels {
   lookupflag 0;
     ignore sub u103C [@cCons] u103E [@cUDia] [u102F u1030]';
@@ -209,8 +209,8 @@ lookup mym2_blws_medVowels {
     sub [@cCons]                   [u102F u1030]'lookup mym2_medVowelSubst;
     sub [@cCons]          [@cUDia] [u102F u1030]'lookup mym2_medVowelSubst;
     sub [@cCons] [@cUDia] [@cUDia] [u102F u1030]'lookup mym2_medVowelSubst;
-    sub [@cCons]  u103E            [u102F u1030]'lookup mym2_medVowelSubst;
-    sub [@cCons]  u103E   [@cUDia] [u102F u1030]'lookup mym2_medVowelSubst;
+    sub [@cCons] [u103E u103E.slantr u103E.slanth]          [u102F u1030]'lookup mym2_medVowelSubst;
+    sub [@cCons] [u103E u103E.slantr u103E.slanth] [@cUDia] [u102F u1030]'lookup mym2_medVowelSubst;
 } mym2_blws_medVowels;
 
 # Now back to regular pref rules
@@ -295,7 +295,7 @@ lookup mym2_pstf_asatLig {
   lookupflag 0;
     sub \u102B \u103A  by \u102B_u103A;
     sub \u1062 \u103A  by \u1062_u103A;
-    sub \u1063 \u103A  by \u1063_u103A;
+#    sub \u1063 \u103A  by \u1063_u103A; # lig not used by Sgaw Karen
     sub \u103A \u1036  by \u103A_u1036;
     sub \u103A \uAA70  by \u103A_uAA70;
 } mym2_pstf_asatLig;
