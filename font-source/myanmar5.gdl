@@ -914,7 +914,7 @@ fallback is to treat g1037 as a simple cBSDia in a later rule, so we only need t
 // This lot is a bit messy. We could probably simplify this, but at least it works!
 if (lldot)
     cTakesLLMDia c1037 {attach {to = @1; at = LLMS; with = LM}; attached = 1} \
-                                        / ^ _ _ {attached == 0};
+                                        / ^ _ opt3(cnTakesLMDia) _ {attached != 1};
 endif;
 
 if (ldotrt == 0)
