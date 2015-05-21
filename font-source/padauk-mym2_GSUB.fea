@@ -134,16 +134,16 @@ lookup mym2_locl_tri {
 
 lookup mym2_locl_slantr {
   lookupflag 0;
-    sub \u103E by \u103E.slantr ;
+    sub u103E by u103E.slantr ;
 #    sub \u103E_u102F by \u103E_u102F.slantr ;
 #    sub \u103E_u1030 by \u103E_u1030.slantr ;
 } mym2_locl_slantr;
 
 lookup mym2_locl_slanth {
   lookupflag 0;
-    sub \u103E by \u103E.slanth ;
+    sub u103E by u103E.slanth ;
 #    sub \u103E_u102F by \u103E_u102F.slanth ;
- #   sub \u103E_u1030 by \u103E_u1030.slanth ;
+#    sub \u103E_u1030 by \u103E_u1030.slanth ;
 } mym2_locl_slanth;
 
 
@@ -396,19 +396,20 @@ lookup mym2_abvs_redupLig {
 
 lookup mym2_blws_miscLig {
   lookupflag 0;
-    sub \u100A \u100A.med  by \u100A_u100A; # Mon stylistic default
-    sub \u100B \u100B.med  by \u100B_u100B;
-    sub \u100B \u100C.med  by \u100B_u100C;
-    sub \u100D \u100D.med  by \u100D_u100D;
-    sub \u100D \u100E.med  by \u100D_u100E;
-    sub \u100F \u100B.med  by \u100F_u100B;
-    sub \u100F \u100D.med  by \u100F_u100D;
-    sub \u1010.med \u103D  by \u1010_u103D.med;
-    sub \u1020 \u1020  by \u1020_u1020;
-    sub \u1020 \u103E  by \u1020_u103E;
-    sub \u103B \u103E  by \u103B_u103E;
-    sub \u1051 \u100C.med  by \u1051_u100C;
-    sub \u1051 \u100D.med  by \u1051_u100D;
+    sub u100A u100A.med  by u100A_u100A; # Mon stylistic default
+    sub u100B u100B.med  by u100B_u100B;
+    sub u100B u100C.med  by u100B_u100C;
+    sub u100D u100D.med  by u100D_u100D;
+    sub u100D u100E.med  by u100D_u100E;
+    sub u100F u100B.med  by u100F_u100B;
+    sub u100F u100D.med  by u100F_u100D;
+    sub u1010.med u103D  by u1010_u103D.med;
+    sub u1020 u1020  by u1020_u1020;
+    sub u1020 u103E  by u1020_u103E;
+    sub u103B u103E  by u103B_u103E;
+    sub u103B u103E.slanth  by u103B_u103E; # Sgaw Karen
+    sub u1051 u100C.med  by u1051_u100C;
+    sub u1051 u100D.med  by u1051_u100D;
 } mym2_blws_miscLig;
 
 @class103ELig = [u102F.med u1030.med u103E u103E.slantr u103E.slanth];

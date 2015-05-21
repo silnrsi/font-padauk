@@ -204,6 +204,14 @@ feature dist {
      lookup dist_103C;
    language KSW  exclude_dflt;
      lookup dist_103C;
+     lookup kern_103Clig_1037;
+     lookup dist_101Balt;
+     lookup kern_101Balt;
+     lookup kern_101Balt_1036;
+     lookup kern_misc;
+     lookup kern_TallAA;
+#     lookup kern_102F_1032;
+     lookup kern_KSW_LLMark; # Exclusive to KSW
    language KYU  exclude_dflt;
      lookup dist_103C;
 } dist ;
@@ -232,7 +240,7 @@ feature mark {
       lookup base_BD_base;
       lookup base_BS_base;
       lookup base_L_base;
-      lookup base_LL_base;
+#      lookup base_LL_base;
 #      lookup base_R_base;  # Not used for OpenType
       lookup base_U_base;
       lookup base_Y_base;

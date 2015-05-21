@@ -125,6 +125,12 @@ lookup kern_misc {
     pos u1014.alt'  35 [u103D]     u1014.alt [u1010.med]; # 1175
     pos u101B' 106 [@cConsNar] [@cMedWide]; # 2020 2045 ###this needs refining
     pos u1032' 135 u102B; # Mon language
+    pos u103C.wide [@cCons]' <0 0 147 0> u102B;
+    pos u103C      [@cCons]' <0 0 135 0> u102B;
+    pos u1014 u1037'  79 u1063; # KSW (Sgaw Karen) language
+    pos u101B u1037' 187 u1063; # KSW (Sgaw Karen) language
+    pos u103B u1037' 180 u1063; # KSW (Sgaw Karen) language
+    pos u1061 u1037' 180 u1063; # KSW (Sgaw Karen) language
 } kern_misc; 
 
 # This is a Mon language sequence
@@ -133,7 +139,6 @@ lookup kern_misc {
 lookup kern_TallAA {
   lookupflag 0;
     pos u102B' <135 0 0 0> u1036' <-341 0 0 0>;
-    pos u103C [@cCons] u102B' <182 0 182 0>;
 } kern_TallAA;
 
 # Original sequence was u102F u1032 with u1032 attaching at U 
@@ -144,6 +149,16 @@ lookup kern_102F_1032 {
   lookupflag 0;
     pos u1032' <197 0 0 0> u102F;
 } kern_102F_1032;
+
+# This lookup excluively for KSW (Sgaw Karen) language
+# It shifts u1037 to the left of any lower diacritic
+@classKSW_LLMark = [u1030.med u1037 u103D u103E.slanth];
+lookup kern_KSW_LLMark {
+  lookupflag 0;
+  pos u1030.med    u1037' <-243 0 0 0>;
+  pos u103D.tri    u1037' <-308 0 0 0>;
+  pos u103E.slanth u1037' <-221 0 0 0>;
+} kern_KSW_LLMark;
 
 
 # ****
@@ -189,8 +204,6 @@ lookup extend_base_L_base {
 # ****
 # mkmk
 # ****
-
-
 
 # ----------------------------------------------------------------------
 # GPOS features
