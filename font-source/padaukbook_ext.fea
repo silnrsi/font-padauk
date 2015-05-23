@@ -49,6 +49,10 @@ lookup dist_103C {
     pos u103C_u103D.alt.wide.tri <0 0 192 0>;
     pos u103C_u103D.narr.tri <0 0 192 0>;
     pos u103C_u103D.wide.tri <0 0 192 0>;
+    # Sneak this in here for Shan - #3334
+    # Rendering engines apparently don't recognize this letter yet so this rule
+    # may need to be removed later. Diacritic attachment not happening either.
+    pos u1081 <0 0 571 0>; 
 } dist_103C; 
 
 # Normally u1037 attaches to u103D or u102F. But when the latter two

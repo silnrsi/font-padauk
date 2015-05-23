@@ -14,6 +14,8 @@ feature locl {
      language KYU  exclude_dflt;
       lookup mym2_locl_tri;
       lookup mym2_locl_slantr;
+     language SHN  exclude_dflt;
+      lookup mym2_locl_tri;
 } locl;
 
 
@@ -26,6 +28,8 @@ feature rphf {
      language KSW  exclude_dflt;
       lookup mym2_rphf_kinzi;
      language KYU  exclude_dflt;
+      lookup mym2_rphf_kinzi;
+     language SHN  exclude_dflt;
       lookup mym2_rphf_kinzi;
 } rphf;
 
@@ -57,6 +61,12 @@ feature pref {
       lookup mym2_pref_u103Cwide;
       lookup mym2_blws_medVowels;
       lookup mym2_pref_u103CLig;
+     language SHN  exclude_dflt;
+      lookup mym2_pref_miscLig;
+      lookup mym2_pref_medLig;
+      lookup mym2_pref_u103Cwide;
+      lookup mym2_blws_medVowels;
+      lookup mym2_pref_u103CLig;
 } pref;
 
 
@@ -73,6 +83,9 @@ feature blwf {
       lookup mym2_blwf_u1039med;
 #       lookup mym2_blwf_shan1081;
      language KYU  exclude_dflt;
+      lookup mym2_blwf_u1039med;
+#       lookup mym2_blwf_shan1081;
+     language SHN  exclude_dflt;
       lookup mym2_blwf_u1039med;
 #       lookup mym2_blwf_shan1081;
 } blwf;
@@ -100,6 +113,11 @@ feature pstf {
       lookup mym2_pstf_signsLig;
       lookup mym2_pstf_1009;
       lookup mym2_pstf_tall_U;
+     language SHN  exclude_dflt;
+      lookup mym2_pstf_asatLig;
+      lookup mym2_pstf_signsLig;
+      lookup mym2_pstf_1009;
+      lookup mym2_pstf_tall_U;
 } pstf;
 
 
@@ -117,6 +135,9 @@ feature pres {
     language KYU  exclude_dflt;
      lookup mym2_pres_raUpperVowel;
      lookup mym2_pres_raTriUpperVowel;
+    language SHN  exclude_dflt;
+     lookup mym2_pres_raUpperVowel;
+     lookup mym2_pres_raTriUpperVowel;
 } pres;
 
 
@@ -129,6 +150,8 @@ feature abvs {
      language KSW  exclude_dflt;
       lookup mym2_abvs_redupLig;
      language KYU  exclude_dflt;
+      lookup mym2_abvs_redupLig;
+     language SHN  exclude_dflt;
       lookup mym2_abvs_redupLig;
 } abvs;
 
@@ -167,6 +190,14 @@ feature blws {
       lookup mym2_blws_raLong;
       lookup mym2_blws_raShort;
       lookup mym2_blws_103Ealt;
+     language SHN  exclude_dflt;
+#      lookup mym2_blws_medVowels;
+      lookup mym2_blws_miscLig;
+      lookup mym2_blws_103ELig;
+      lookup mym2_blws_sub1014;
+      lookup mym2_blws_raLong;
+      lookup mym2_blws_raShort;
+      lookup mym2_blws_103Ealt;
 } blws;
 
 
@@ -179,6 +210,8 @@ feature psts {
      language KSW  exclude_dflt;
       lookup mym2_psts_miscLig;
      language KYU  exclude_dflt;
+      lookup mym2_psts_miscLig;
+     language SHN  exclude_dflt;
       lookup mym2_psts_miscLig;
 } psts;
 
@@ -233,6 +266,16 @@ feature dist {
      lookup kern_TallAA;
 #     lookup kern_102F_1032;
      lookup dist_advance;
+   language SHN  exclude_dflt;
+     lookup dist_103C;
+     lookup kern_103Clig_1037;
+     lookup dist_101Balt;
+     lookup kern_101Balt;
+     lookup kern_101Balt_1036;
+     lookup kern_misc;
+     lookup kern_TallAA;
+#     lookup kern_102F_1032;
+     lookup dist_advance;
 } dist ;
 
 feature mark {
@@ -273,6 +316,15 @@ feature mark {
       lookup base_U_base;
       lookup base_Y_base;
       lookup extend_base_L_base;
+     language SHN  exclude_dflt;
+      lookup base_BD_base;
+      lookup base_BS_base;
+      lookup base_L_base;
+      lookup base_LL_base;
+#      lookup base_R_base;  # Not used for OpenType
+      lookup base_U_base;
+      lookup base_Y_base;
+      lookup extend_base_L_base;
 } mark;
 
 feature mkmk {
@@ -298,6 +350,7 @@ feature mkmk {
       lookup base_LLM_mark;
       lookup base_LLM_1_mark;
       lookup base_LM_mark;
+      lookup mk2mk_LM;
      language KSW  exclude_dflt;
       lookup base_BD_mark;
       lookup base_BDM_mark;
@@ -308,6 +361,7 @@ feature mkmk {
       lookup base_LLM_mark;
       lookup base_LLM_1_mark;
       lookup base_LM_mark;
+      lookup mk2mk_LM;
      language KYU  exclude_dflt;
       lookup base_BD_mark;
       lookup base_BDM_mark;
@@ -318,6 +372,18 @@ feature mkmk {
       lookup base_LLM_mark;
       lookup base_LLM_1_mark;
       lookup base_LM_mark;
+      lookup mk2mk_LM;
+     language SHN  exclude_dflt;
+      lookup base_BD_mark;
+      lookup base_BDM_mark;
+      lookup base_BS_mark;
+      lookup base_BSM_mark;
+      lookup base_L_mark;
+      lookup base_LL_mark;
+      lookup base_LLM_mark;
+      lookup base_LLM_1_mark;
+      lookup base_LM_mark;
+      lookup mk2mk_LM;
 } mkmk;
 
 
