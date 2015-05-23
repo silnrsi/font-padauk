@@ -198,7 +198,7 @@ lookup dist_advance {
     pos [@classConsAsat_29]' 79  [u1032 u1036] u1037 u103A; # 
     pos [@classConsAsat_29]'100                u1037 u103A; # 64
     pos [@classConsAsat_29]' 25                      u103A; # 65
-    pos [@classConsAsat_32]' 29                      u103A; # 137 2678
+    pos [@classConsAsat_32]' 29                           ; # 137 2678
     pos u102B         u100C' 10                      u103A; # 
     
     pos u1031      u1014'  79                                u1037; # 1096 - for reordered 1031

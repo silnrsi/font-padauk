@@ -194,6 +194,7 @@ feature dist {
    language dflt;
      lookup dist_103C;
      lookup kern_103Clig_1037;
+     lookup dist_103C_Cons;
      lookup dist_101Balt;
      lookup kern_101Balt;
      lookup kern_101Balt_1036;
