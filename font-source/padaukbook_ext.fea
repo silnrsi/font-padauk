@@ -76,6 +76,14 @@ lookup kern_103Clig_1037 {
     pos u103C_u102F.alt.wide [@cCons]          u1037' <309 0 0 0>;
 } kern_103Clig_1037;
 
+# Additional dist needed for some cons to clear 103C
+@class103CConsNarr_05 = [u1001 ]; # alt.narr with/without 102E, BOTHlig.alt.narr with/without 102D
+@class103CConsNarr_13 = [u1004 ]; # alt.narr , lig.alt.narr with/without 102D
+@class103CConsNarr_47 = [u1012 ]; # 
+@class103CConsWide_05 = [u1010 ]; # 
+@class103CConsWide_25 = [u1000 ]; # 
+# Need to add a lookup here...
+
 
 #-----------------------------------------------------------------------
 # This section deals with 101B and some lower diacritics
@@ -119,15 +127,20 @@ lookup kern_101Balt_1036 {
 
 lookup kern_misc {
   lookupflag 0;
-    pos u1002' 135 [u1004.kinzi] u102B;
-    pos u1014.alt' 123 [u1010.med] u102F; # 412
-    pos u1014.alt' 132 [u1011.med] u1014.alt [u1010.med]; # 414
-    pos u1014.alt'  26 [u103D]     u1014.alt [u1010.med]; # 1175
-    pos u101B' 106 [@cConsNar] [@cMedWide]; # 2020 2045 ###this needs refining
-    pos u1032' 135 u102B; # Mon language
-    pos u103C.wide [@cCons]' <0 0 135 0> u102B;
-    pos u103C      [@cCons]' <0 0 135 0> u102B;
-    pos u1014 u1037' 100 u1063; # KSW (Sgaw Karen) language
+    pos u1002'     135 [u1004.kinzi] u102B;
+    pos u1014.alt' 137 [u1010.med]   u102F;
+    pos u1014.alt' 153 [u1011.med]   u1014.alt [u1010.med]; # 414
+    pos u1014.alt'  35 [u103D]       u1014.alt [u1010.med]; # 1175
+    pos u101B'     106 [@cConsNar]  [@cMedWide]; # 2020 2045 ###this needs refining
+    pos u1032'     135  u102B; # Mon language plus maybe others
+    
+    pos u103B           u102D' <148 0 0 0>  u102F;          # Shifts 102D over stem of 103B
+    
+    pos u103C.alt.narr [u1017 ]' 107 u102D [@cCons]; # 1611
+    pos u103C.wide     [@cCons]' 147 u102B;
+    pos u103C          [@cCons]' 135 u102B;
+    
+    pos u1014 u1037'  79 u1063; # KSW (Sgaw Karen) language
     pos u101B u1037' 187 u1063; # KSW (Sgaw Karen) language
     pos u103B u1037' 180 u1063; # KSW (Sgaw Karen) language
     pos u1061 u1037' 180 u1063; # KSW (Sgaw Karen) language
@@ -160,6 +173,54 @@ lookup kern_KSW_LLMark {
   pos u103E.slanth u1037' <-231 0 0 0>;
 } kern_KSW_LLMark;
 
+# ----------------------------------------------------------------------
+# Clean up of advance width
+# Make this the last "dist" lookup
+
+@classConsAsat_00 = [u1000 u1005 u100A u1010 u1015 u1019 u101A u1025 u101E ];
+@classConsAsat_05 = [u100C u101C ]; # 9
+@classConsAsat_10 = [u1004 u100B ]; # 9
+@classConsAsat_13 = [u100F ]; # 10
+@classConsAsat_19 = [u1012 ]; # 19
+@classConsAsat_29 = [u1014 ]; # 25
+@classConsAsat_32 = [u1000_u103B_u1015_u103A ]; # 29
+
+lookup dist_advance {
+  lookupflag 0;
+    pos [@classConsAsat_05]'  9                u1037 u103A; # 
+    pos [@classConsAsat_05]'  9                      u103A; # 1283
+    pos [@classConsAsat_10]'  9                u1037 u103A; # 
+    pos [@classConsAsat_10]'  9                      u103A; # 31
+    pos [@classConsAsat_13]' 10                u1037 u103A; # 
+    pos [@classConsAsat_13]' 10                      u103A; # 45
+    pos [@classConsAsat_19]' 19                u1037 u103A; # 
+    pos [@classConsAsat_19]' 19                      u103A; # 1305
+    pos [@classConsAsat_29]' 79  [u1032 u1036] u1037 u103A; # 
+    pos [@classConsAsat_29]'100                u1037 u103A; # 64
+    pos [@classConsAsat_29]' 25                      u103A; # 65
+    pos [@classConsAsat_32]' 29                      u103A; # 137 2678
+    pos u102B         u100C' 10                      u103A; # 
+    
+    pos u1031      u1014'  79                                u1037; # 1096 - for reordered 1031
+    pos u1014     [u1032 u1036]                         u1037'  79; # 1098 1103
+    pos u1031      u101B' 187                                u1037; # 1986 - for reordered 1031
+    pos u101B     [u1032 u1036]                         u1037' 187; # 1989, 1994
+    pos u101B.alt  u103D        [u1032 u1036]           u1037' 217; # 2077, 2079, 3354 
+    pos u101B.alt [u103D u103D u103D_u103E u103E_u102F] u1037' 217; # 2073, 2138, 3351, 3375
+    pos u101B.alt [u103E_u102F] [u102D u1036]           u1037' 217; # 2105, 2133, 2140
+    
+    pos u101B.alt'  217    u102D  u102F.med             u1037;      # 1996
+    pos u101B.long' 217    u103E                        u1037;      # 2098, 3362
+    
+    pos u102B                                           u1037'  48; # 390, 462, 470, 1003, 1219, 1233, 2805, 3098
+    
+    pos [u103B u103B_u103E] [u102D u1036] u102F         u1037' 218; # 115, 142, 293, 324, 1350, 1588, 1880, 2295, 2762
+    pos  u103B              [u1032 u1036]               u1037' 163; # 113, 288, 
+    pos  u103B' 109          u1002                  u1003.med     ; # 1591 
+    
+    pos u103C                u1014.alt' 52          u1012.med     ; # 545, 575, 713, 1948, 3638
+} dist_advance; 
+# ----------------------------------------------------------------------
 
 # ****
 # mark

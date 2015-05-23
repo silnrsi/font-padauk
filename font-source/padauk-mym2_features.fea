@@ -200,8 +200,17 @@ feature dist {
      lookup kern_misc;
      lookup kern_TallAA;
 #     lookup kern_102F_1032;
+     lookup dist_advance;
    language KHT  exclude_dflt;
      lookup dist_103C;
+     lookup kern_103Clig_1037;
+     lookup dist_101Balt;
+     lookup kern_101Balt;
+     lookup kern_101Balt_1036;
+     lookup kern_misc;
+     lookup kern_TallAA;
+#     lookup kern_102F_1032;
+     lookup dist_advance;
    language KSW  exclude_dflt;
      lookup dist_103C;
      lookup kern_103Clig_1037;
@@ -212,8 +221,17 @@ feature dist {
      lookup kern_TallAA;
 #     lookup kern_102F_1032;
      lookup kern_KSW_LLMark; # Exclusive to KSW
+     lookup dist_advance;
    language KYU  exclude_dflt;
      lookup dist_103C;
+     lookup kern_103Clig_1037;
+     lookup dist_101Balt;
+     lookup kern_101Balt;
+     lookup kern_101Balt_1036;
+     lookup kern_misc;
+     lookup kern_TallAA;
+#     lookup kern_102F_1032;
+     lookup dist_advance;
 } dist ;
 
 feature mark {
