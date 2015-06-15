@@ -225,7 +225,7 @@ feature psts {
 feature dist {
  script mym2;
    language dflt;
-     lookup dist_103C;
+     lookup dist_SpacingMarks;
      lookup kern_103Clig_1037;
      lookup dist_103C_Cons;
      lookup dist_101Balt;
@@ -234,10 +234,9 @@ feature dist {
      lookup kern_misc;
      lookup kern_TallAA;
 #     lookup kern_102F_1032;
-     lookup kern_SHN_1086;
      lookup dist_advance;
    language KHT  exclude_dflt;
-     lookup dist_103C;
+     lookup dist_SpacingMarks;
      lookup kern_103Clig_1037;
      lookup dist_101Balt;
      lookup kern_101Balt;
@@ -247,7 +246,7 @@ feature dist {
 #     lookup kern_102F_1032;
      lookup dist_advance;
    language KSW  exclude_dflt;
-     lookup dist_103C;
+     lookup dist_SpacingMarks;
      lookup kern_103Clig_1037;
      lookup dist_101Balt;
      lookup kern_101Balt;
@@ -258,7 +257,7 @@ feature dist {
      lookup kern_KSW_LLMark; # Exclusive to KSW
      lookup dist_advance;
    language KYU  exclude_dflt;
-     lookup dist_103C;
+     lookup dist_SpacingMarks;
      lookup kern_103Clig_1037;
      lookup dist_101Balt;
      lookup kern_101Balt;
@@ -268,7 +267,7 @@ feature dist {
 #     lookup kern_102F_1032;
      lookup dist_advance;
    language SHN  exclude_dflt;
-     lookup dist_103C;
+     lookup dist_SpacingMarks;
      lookup kern_103Clig_1037;
      lookup dist_101Balt;
      lookup kern_101Balt;
@@ -276,7 +275,6 @@ feature dist {
      lookup kern_misc;
      lookup kern_TallAA;
 #     lookup kern_102F_1032;
-     lookup kern_SHN_1086;
      lookup dist_advance;
 } dist ;
 
@@ -420,7 +418,7 @@ feature mkmk {
 	\u103B_u103D_u103E \u103B_u103E \u103F \u1040 \u1041 \u1042 \u1043 
 	\u1044 \u1045 \u1046 \u1047 \u1048 \u1049 \u104A \u104B \u104C \u104D \u104E \u104F 
 	\u1050 \u1051 \u1051_u100C \u1051_u100D \u1052 \u1053 \u1054 \u1055 \u1056 \u1057 
-	\u105A \u105B \u105B.med \u105C \u105D \u1061 \u1062 \u1062_u103A \u1063 
+	\u105A \u105B \u105B.med \u105C \u105D \u1061        \u1062_u103A \u1063 
 	\u1063_u103A \u1064 \u1065 \u1066 \u1067 \u1068 \u1069 \u106A \u106B \u106C \u106D 
 	\u106E \u106F \u1070 \u1075 \u1076 \u1077 \u1078 \u1079 \u107A.aiph \u107A \u107B \u107C \u107D 
 	\u107E \u107F \u1080 \u1081.straight \u1083 \u1084 \u1087 \u1088 \u1089 \u108A 
@@ -459,7 +457,11 @@ feature mkmk {
 	
 	\u103D \u103D_u103E \u103D_u103E.small \u103D_u108D 
 	\u103E \u103E.alt \u103E_u102F \u103E_u1030 \u1050.med \u1051.med \u1058 \u1059 
-	\u105A.med \u105C.med \u105E \u105F \u1060 \u1071 \u1072 \u1073 \u1074 \u1082 
+	\u105A.med \u105C.med 
+	
+	\u1062
+	
+	\u105E \u105F \u1060 \u1071 \u1072 \u1073 \u1074 \u1082 
 	\u1082_u108D \u1085 \u1086 \u1086_uAA7C \u108D \u109D \uA9E5 \uA9E5_uAA7C 
 	\uAA60.med \uAA60.med.kham \uAA70 \uAA7C \u1086.kham \u1032_uAA70 \u103A_uAA70 
 	\u1036.dot 

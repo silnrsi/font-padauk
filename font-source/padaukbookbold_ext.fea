@@ -31,7 +31,7 @@ include(../font-source/padauk-mym2_GSUB.fea)
 
 
 # Adding advanced width for spacing marks
-lookup dist_103C {
+lookup dist_SpacingMarks {
   lookupflag 0;
     pos u103C <0 0 234 0>;
     pos u103C.alt.narr <0 0 234 0>;
@@ -49,11 +49,14 @@ lookup dist_103C {
     pos u103C_u103D.alt.wide.tri <0 0 234 0>;
     pos u103C_u103D.narr.tri <0 0 234 0>;
     pos u103C_u103D.wide.tri <0 0 234 0>;
+    # Glyph u1062 classified as mark in GDEF for Shan 
+    # so a u1086 coming after u1062 can ignore u1062 and attach to cons
+    pos u1062 <0 0 333 0>; 
     # Sneak this in here for Shan - #3334
     # Rendering engines apparently don't recognize this letter *yet* so this rule
     # may need to be removed later. Diacritic attachment not happening either.
     pos u1081 <0 0 579 0>; 
-} dist_103C; 
+} dist_SpacingMarks; 
 
 # Normally u1037 attaches to u103D or u102F. But when the latter two
 # become part of a 103C ligature, they become reordered before a 
@@ -176,31 +179,6 @@ lookup kern_KSW_LLMark {
   pos u103D.tri    u1037' <-333 0 0 0>;
   pos u103E.slanth u1037' <-250 0 0 0>;
 } kern_KSW_LLMark;
-
-# This lookup pertains to the Shan language
-# In the sequence U+1062 U+1086, U+1086 is rendered over the preceding 
-# consonant. Since we can't easily reorder, we shift it left.
-lookup kern_SHN_1086 {
-  lookupflag 0;
-  pos [u1004]       u1062 u1086' <-504 0 0 0>;
-  pos [u1010]       u1062 u1086' <-524 0 0 0>;
-  pos [u1011]       u1062 u1086' <-519 0 0 0>;
-  pos [u1015]       u1062 u1086' <-525 0 0 0>;
-  pos [u1019]       u1062 u1086' <-525 0 0 0>;
-  pos [u101A]       u1062 u1086' <-524 0 0 0>;
-  pos [u101B]       u1062 u1086' <-585 0 0 0>;
-  pos [u101C]       u1062 u1086' <-511 0 0 0>;
-  pos [u101D]       u1062 u1086' <-518 0 0 0>;
-  pos [u101E]       u1062 u1086' <-524 0 0 0>;
-  pos [u1022]       u1062 u1086' <-524 0 0 0>;
-  pos [u1075] u1082 u1062 u1086' <-525 0 0 0>;
-  pos [u1075]       u1062 u1086' <-525 0 0 0>;
-  pos [u1076] u1082 u1062 u1086' <-510 0 0 0>;
-  pos [u1076]       u1062 u1086' <-510 0 0 0>;
-  pos [u1078]       u1062 u1086' <-519 0 0 0>;
-  pos [u107C]       u1062 u1086' <-513 0 0 0>;
-  pos [u107D]       u1062 u1086' <-523 0 0 0>;
-} kern_SHN_1086;
 
 # ----------------------------------------------------------------------
 # Clean up of advance width
