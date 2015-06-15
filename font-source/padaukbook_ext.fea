@@ -50,7 +50,7 @@ lookup dist_103C {
     pos u103C_u103D.narr.tri <0 0 192 0>;
     pos u103C_u103D.wide.tri <0 0 192 0>;
     # Sneak this in here for Shan - #3334
-    # Rendering engines apparently don't recognize this letter yet so this rule
+    # Rendering engines apparently don't recognize this letter *yet* so this rule
     # may need to be removed later. Diacritic attachment not happening either.
     pos u1081 <0 0 571 0>; 
 } dist_103C; 
@@ -158,7 +158,7 @@ lookup kern_TallAA {
     pos u102B' <135 0 0 0> u1036' <-341 0 0 0>;
 } kern_TallAA;
 
-# Original sequence was u102F u1032 with u1032 attaching at U 
+# Input sequence is u102F u1032 with u1032 attaching at U 
 # OTLS reordered the pair so now we kern to make it appear to attach
 # Adding 172 to LSB works for many but may need contextual rules for precise placement
 # feature disabled
@@ -176,6 +176,31 @@ lookup kern_KSW_LLMark {
   pos u103D.tri    u1037' <-316 0 0 0>;
   pos u103E.slanth u1037' <-231 0 0 0>;
 } kern_KSW_LLMark;
+
+# This lookup pertains to the Shan language
+# In the sequence U+1062 U+1086, U+1086 is rendered over the preceding 
+# consonant. Since we can't easily reorder, we shift it left.
+lookup kern_SHN_1086 {
+  lookupflag 0;
+  pos [u1004]       u1062 u1086' <-480 0 0 0>;
+  pos [u1010]       u1062 u1086' <-495 0 0 0>;
+  pos [u1011]       u1062 u1086' <-493 0 0 0>;
+  pos [u1015]       u1062 u1086' <-497 0 0 0>;
+  pos [u1019]       u1062 u1086' <-498 0 0 0>;
+  pos [u101A]       u1062 u1086' <-494 0 0 0>;
+  pos [u101B]       u1062 u1086' <-518 0 0 0>;
+  pos [u101C]       u1062 u1086' <-485 0 0 0>;
+  pos [u101D]       u1062 u1086' <-493 0 0 0>;
+  pos [u101E]       u1062 u1086' <-495 0 0 0>;
+  pos [u1022]       u1062 u1086' <-494 0 0 0>;
+  pos [u1075] u1082 u1062 u1086' <-498 0 0 0>;
+  pos [u1075]       u1062 u1086' <-498 0 0 0>;
+  pos [u1076] u1082 u1062 u1086' <-493 0 0 0>;
+  pos [u1076]       u1062 u1086' <-493 0 0 0>;
+  pos [u1078]       u1062 u1086' <-493 0 0 0>;
+  pos [u107C]       u1062 u1086' <-490 0 0 0>;
+  pos [u107D]       u1062 u1086' <-494 0 0 0>;
+} kern_SHN_1086;
 
 # ----------------------------------------------------------------------
 # Clean up of advance width

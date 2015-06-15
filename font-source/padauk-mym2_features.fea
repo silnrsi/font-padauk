@@ -234,6 +234,7 @@ feature dist {
      lookup kern_misc;
      lookup kern_TallAA;
 #     lookup kern_102F_1032;
+     lookup kern_SHN_1086;
      lookup dist_advance;
    language KHT  exclude_dflt;
      lookup dist_103C;
@@ -275,6 +276,7 @@ feature dist {
      lookup kern_misc;
      lookup kern_TallAA;
 #     lookup kern_102F_1032;
+     lookup kern_SHN_1086;
      lookup dist_advance;
 } dist ;
 

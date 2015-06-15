@@ -196,7 +196,7 @@ lookup mym2_medVowelSubst {
     sub u1030 by u1030.med;
 } mym2_medVowelSubst;
 
-@classneedsUtall = [u1008 u100B u100D u1025 u105A u105B u105D u1061];
+@classneedsUtall = [u1008 u100B u100D u1025 u105A u105B u105D u1061 u107A u107E];
 lookup mym2_blws_medVowels {
   lookupflag 0;
     ignore sub u103C [@cCons] u103E [@cUDia] [u102F u1030]';
