@@ -238,6 +238,7 @@ feature dist {
    language KHT  exclude_dflt;
      lookup dist_SpacingMarks;
      lookup kern_103Clig_1037;
+     lookup dist_103C_Cons;
      lookup dist_101Balt;
      lookup kern_101Balt;
      lookup kern_101Balt_1036;
@@ -248,6 +249,7 @@ feature dist {
    language KSW  exclude_dflt;
      lookup dist_SpacingMarks;
      lookup kern_103Clig_1037;
+     lookup dist_103C_Cons;
      lookup dist_101Balt;
      lookup kern_101Balt;
      lookup kern_101Balt_1036;
@@ -259,6 +261,7 @@ feature dist {
    language KYU  exclude_dflt;
      lookup dist_SpacingMarks;
      lookup kern_103Clig_1037;
+     lookup dist_103C_Cons;
      lookup dist_101Balt;
      lookup kern_101Balt;
      lookup kern_101Balt_1036;
@@ -269,6 +272,7 @@ feature dist {
    language SHN  exclude_dflt;
      lookup dist_SpacingMarks;
      lookup kern_103Clig_1037;
+     lookup dist_103C_Cons;
      lookup dist_101Balt;
      lookup kern_101Balt;
      lookup kern_101Balt_1036;
@@ -284,7 +288,7 @@ feature mark {
       lookup base_BD_base;
       lookup base_BS_base;
       lookup base_L_base;
-      lookup base_LL_base;
+#      lookup base_LL_base;
 #      lookup base_R_base;  # Not used for OpenType
       lookup base_U_base;
       lookup base_Y_base;
@@ -293,7 +297,7 @@ feature mark {
       lookup base_BD_base;
       lookup base_BS_base;
       lookup base_L_base;
-      lookup base_LL_base;
+#      lookup base_LL_base;
 #      lookup base_R_base;  # Not used for OpenType
       lookup base_U_base;
       lookup base_Y_base;
@@ -311,7 +315,7 @@ feature mark {
       lookup base_BD_base;
       lookup base_BS_base;
       lookup base_L_base;
-      lookup base_LL_base;
+#      lookup base_LL_base;
 #      lookup base_R_base;  # Not used for OpenType
       lookup base_U_base;
       lookup base_Y_base;
@@ -320,7 +324,7 @@ feature mark {
       lookup base_BD_base;
       lookup base_BS_base;
       lookup base_L_base;
-      lookup base_LL_base;
+#      lookup base_LL_base;
 #      lookup base_R_base;  # Not used for OpenType
       lookup base_U_base;
       lookup base_Y_base;
