@@ -151,13 +151,20 @@ lookup kern_101Balt_1036 {
 
 lookup kern_misc {
   lookupflag 0;
-    pos [u1001 u1002]'     135 [u1004.kinzi] u102B;
+    pos [u1001 u1002]' 135 [u1004.kinzi] u102B; # 2425 Shifts 102B away from 1004.kinzi
+    pos u1002'     58  u1004.kinzi_u102D u101F; # 2433 Shifts 101F/
+    
     pos u1014.alt' 137 [u1010.med]   u102F;
     pos u1014.alt' 153 [u1011.med]   u1014.alt [u1010.med]; # 414
     pos u1014.alt'  35 [u103D]       u1014.alt [u1010.med]; # 1175
+    
+    pos u1017'     101  u1018.med    u1014.alt  u1010.med ; # 3647/
+    pos u1017'     101  u1018.med    u102F    ; # 3646/
     pos u1019'     103  u1018.med    u1030    ; # 1953/
+    
     pos u101B'     107  u1005      [@cMedWide]; # 2020/
     pos u101B'     115  u1014.alt  [@cMedWide]; # 2045/
+    
     pos u1032'     135  u102B; # Mon language plus maybe others
     
     pos u103B           u102D' <148 0 0 0>  u102F;          # Shifts 102D over stem of 103B
@@ -165,8 +172,6 @@ lookup kern_misc {
     pos u103C.alt.narr [u1017 ]' 107 u102D [@cCons]; # 1611
     pos u103C.wide     [@cCons]' 147 u102B;
     pos u103C          [@cCons]' 135 u102B;
-    
-#    pos u1004.kinzi u102B' <135 0 135 0>; # 2425
     
     pos u1014 u1037'  79 u1063; # KSW (Sgaw Karen) language
     pos u101B u1037' 187 u1063; # KSW (Sgaw Karen) language
@@ -190,6 +195,9 @@ lookup kern_reorderedMarks {
     pos u1011.med u1036' <296 0 0 0> u102F; # 867/
     pos u1025     u1036' <310 0 0 0> u102F; # 3656/
     pos u103B     u1036' <-58 0 0 0> u102F; # 141-143, 324, 325, 446, 2679/
+    pos u103E.alt u1036' <301 0 0 0> u102F; # 1892/
+    
+    pos u1001 u1004.kinzi_u102D' <191 0 0 0> u103B; # 2430/
     
     pos u1000 u1004.kinzi_u102E' <93 0 0 0> u103B; # 3581/
 } kern_reorderedMarks;
@@ -232,6 +240,8 @@ lookup dist_advance {
     pos [@classConsAsat_29]' 79                u1037 u103A; # NB: Incremented by 50
     pos [@classConsAsat_29]' 29                      u103A;
     pos [@classConsAsat_32]' 32                           ;
+    
+    pos u1002' 58  u1004.kinzi_u102E; # 2441 adv width/
     
     pos u1031      u1014'  79                                  u1037; # 1096 - for reordered u1031
     pos u1014     [u1032 u1036]                           u1037'  79; # 1098 1103
