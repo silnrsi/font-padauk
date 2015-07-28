@@ -53,7 +53,7 @@ lookup dist_SpacingMarks {
     pos u1062 <0 0 271 0>; 
     # Sneak this in here for Shan u1081 - #3334
     # Rendering engines apparently don't recognize this letter *yet* so this rule
-    # may need to be removed later. Diacritic attachment not happening either.
+    # may need to be removed later. (Diacritic attachment not happening either.)
     pos u1081 <0 0 567 0>; 
 } dist_SpacingMarks; 
 
@@ -80,7 +80,7 @@ lookup kern_103Clig_1037 {
     pos u103C_u102F.alt.narr [u1017]   u102D   u1037' <317 0 153 0>; #1605/
     pos u103C_u102F.alt.narr [@cCons] [@cUDia] u1037' <315 0 153 0>;
     pos u103C_u102F.alt.narr [@cCons]          u1037' <315 0 0 0>;
-    pos u103C_u102F.alt.wide [@cCons] [@cUDia] u1037' <309 0 150 0>;
+    pos u103C_u102F.alt.wide [@cCons] [@cUDia] u1037' <309 0 150 0>; # 163
     pos u103C_u102F.alt.wide [@cCons]          u1037' <309 0 0 0>;
 } kern_103Clig_1037;
 
@@ -167,7 +167,7 @@ lookup kern_misc {
     
     pos u1032'     135  u102B; # Mon language plus maybe others
     
-    pos u103B           u102D' <148 0 0 0>  u102F;          # Shifts 102D over stem of 103B
+    pos u103B           u102D' <148 0 0 0>  u102F;          # 114-116 Shifts 102D over stem of 103B
     
     pos u103C.alt.narr [u1017 ]' 107 u102D [@cCons]; # 1611
     pos u103C.wide     [@cCons]' 147 u102B;
