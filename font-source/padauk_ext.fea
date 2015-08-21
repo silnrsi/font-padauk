@@ -97,8 +97,8 @@ lookup kern_103Clig_1037 {
 
 lookup dist_103C_Cons {
   lookupflag 0;
-    pos [@class103CNarr] [@class103CConsNarr_05]'  5 [@cUDia];
-    pos [@class103CNarr] [@class103CConsNarr_05]'  5         ;
+    pos [@class103CNarr] [@class103CConsNarr_05]'  5 [@cUDia]; # 327-350 376-378;
+    pos [@class103CNarr] [@class103CConsNarr_05]'  5         ; # 327-350 376-378;
     pos [@class103CNarr] [@class103CConsNarr_13]' 13 [@cUDia];
     pos [@class103CNarr] [@class103CConsNarr_13]' 13         ;
     pos [@class103CNarr] [@class103CConsNarr_47]' 47 [@cUDia];
@@ -154,7 +154,7 @@ lookup kern_misc {
     pos [u1001 u1002]' 135 [u1004.kinzi] u102B; # 2425 Shifts 102B away from 1004.kinzi
     pos u1002'     58  u1004.kinzi_u102D u101F; # 2433 Shifts 101F/
     
-    pos u1014.alt' 137 [u1010.med]   u102F;
+    pos u1014.alt' 137 [u1010.med]   u102F; # 412
     pos u1014.alt' 153 [u1011.med]   u1014.alt [u1010.med]; # 414
     pos u1014.alt'  35 [u103D]       u1014.alt [u1010.med]; # 1175
     
