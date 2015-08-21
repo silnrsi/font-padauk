@@ -86,14 +86,14 @@ lookup kern_103Clig_1037 {
 
 #-----------------------------------------------------------------------
 # Additional dist needed for some cons to clear 103C
-@class103CConsNarr_05 = [u1001 ]; # 
-@class103CConsNarr_13 = [u1004 ]; # 
-@class103CConsNarr_47 = [u1012 ]; # 
-@class103CConsWide_05 = [u1010 ]; # 
-@class103CConsWide_25 = [u1000 ]; # 
+#@class103CConsNarr_05 = [u1001 ]; # 
+#@class103CConsNarr_13 = [u1004 ]; # 
+#@class103CConsNarr_47 = [u1012 ]; # 
+#@class103CConsWide_05 = [u1010 ]; # 
+#@class103CConsWide_25 = [u1000 ]; # 
 
-@class103CNarr = [u103C      u103C.alt.narr u103C_u103D.narr u103C_u103D.alt.narr u103C_u102F.narr u103C_u102F.alt.narr]; 
-@class103CWide = [u103C.wide u103C.alt.wide u103C_u103D.wide u103C_u103D.alt.wide u103C_u102F.wide u103C_u102F.alt.wide]; 
+#@class103CNarr = [u103C      u103C.alt.narr u103C_u103D.narr u103C_u103D.alt.narr u103C_u102F.narr u103C_u102F.alt.narr]; 
+#@class103CWide = [u103C.wide u103C.alt.wide u103C_u103D.wide u103C_u103D.alt.wide u103C_u102F.wide u103C_u102F.alt.wide]; 
 
 lookup dist_103C_Cons {
   lookupflag 0;
@@ -101,11 +101,11 @@ lookup dist_103C_Cons {
 #    pos [@class103CNarr] [@class103CConsNarr_05]'  5         ; # 327-350 376-378; Not needed for Bold
 #    pos [@class103CNarr] [@class103CConsNarr_13]' 13 [@cUDia]; # 495-508; Not needed for Bold
 #    pos [@class103CNarr] [@class103CConsNarr_13]' 13         ; # 495-508; Not needed for Bold
-    pos [@class103CNarr] [@class103CConsNarr_47]' 47 [@cUDia];
-    pos [@class103CNarr] [@class103CConsNarr_47]' 47         ;
-    pos [@class103CWide] [@class103CConsWide_05]'  5 [@cUDia];
-    pos [u103C.wide]     [@class103CConsWide_05]'  5         ;
-    pos u103C.alt.wide        u1000' 25     u1004.kinzi_u1036; # 549
+#    pos [@class103CNarr] [@class103CConsNarr_47]' 47 [@cUDia]; # 1058-1060; Not needed for Bold
+#    pos [@class103CNarr] [@class103CConsNarr_47]' 47         ; # 1058-1060; Not needed for Bold
+#    pos [@class103CWide] [@class103CConsWide_05]'  5 [@cUDia]; # 900, 901, 903; Not needed for Bold
+#    pos [u103C.wide]     [@class103CConsWide_05]'  5         ; # 898, 899, 902; Not needed for Bold
+    pos u103C.alt.wide          u1000' 0     u1004.kinzi_u1036; # 549; Not needed for Bold
 } dist_103C_Cons;
 #-----------------------------------------------------------------------
 
@@ -216,7 +216,7 @@ lookup kern_102F_1032 {
 # Make this the last "dist" lookup
 
 @classConsAsat_00 = [u1000 u1005 u100A u1010 u1015 u1019 u101A u1025 u101E ];
-@classConsAsat_05 = [u100C u101C ]; # 8
+@classConsAsat_05 = [u100C ]; # 8 (removed u101C, see line 243)
 @classConsAsat_10 = [u1004 u100B ]; # 8
 @classConsAsat_13 = [u100F ]; # 6
 @classConsAsat_19 = [u1012 ]; # 13
@@ -239,9 +239,11 @@ lookup dist_advance {
     pos [@classConsAsat_29]' 71  [u1032 u1036] u1037 u103A; # 
     pos [@classConsAsat_29]'122                u1037 u103A; # 64
     pos [@classConsAsat_29]' 21                      u103A; # 65
-    pos [@classConsAsat_32]' 28                           ; # 137 2678
+    pos [@classConsAsat_32]' 28                           ; # 137, 2678
+    pos [u101C]            '  1                      u103A; # 415, 881
     
     pos u1002' 58  u1004.kinzi_u102E; # 2441 adv width/
+    pos u1010' 56  u102D_u1036      ; # 886
     
     pos u1031      u1014'  79                                u1037; # 1096 - for reordered u1031
     pos u1014     [u1032 u1036]                         u1037'  79; # 1098 1103

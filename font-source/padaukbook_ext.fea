@@ -101,11 +101,11 @@ lookup dist_103C_Cons {
 #    pos [@class103CNarr] [@class103CConsNarr_05]'  5         ; # 327-350 376-378; Not needed for Book
 #    pos [@class103CNarr] [@class103CConsNarr_13]' 13 [@cUDia]; # 495-508; Not needed for Book
 #    pos [@class103CNarr] [@class103CConsNarr_13]' 13         ; # 495-508; Not needed for Book
-    pos [@class103CNarr] [@class103CConsNarr_47]' 47 [@cUDia];
-    pos [@class103CNarr] [@class103CConsNarr_47]' 47         ;
-    pos [@class103CWide] [@class103CConsWide_05]'  5 [@cUDia];
-    pos [u103C.wide]     [@class103CConsWide_05]'  5         ;
-    pos u103C.alt.wide        u1000' 25     u1004.kinzi_u1036; # 549
+    pos [@class103CNarr] [@class103CConsNarr_47]' 21 [@cUDia]; # 1058-1060; 21 for Book
+    pos [@class103CNarr] [@class103CConsNarr_47]' 21         ; # 1058-1060; 21 for Book
+#    pos [@class103CWide] [@class103CConsWide_05]'  5 [@cUDia]; # 900, 901, 903; Not needed for Book
+#    pos [u103C.wide]     [@class103CConsWide_05]'  5         ; # 898, 899, 902; Not needed for Book
+    pos u103C.alt.wide        u1000' 10     u1004.kinzi_u1036; # 549 (25 -> 10)
 } dist_103C_Cons;
 #-----------------------------------------------------------------------
 
@@ -216,10 +216,10 @@ lookup kern_102F_1032 {
 # Make this the last "dist" lookup
 
 @classConsAsat_00 = [u1000 u1005 u100A u1010 u1015 u1019 u101A u1025 u101E ];
-@classConsAsat_05 = [u100C u101C ]; # 9
+@classConsAsat_05 = [u100C ]; # 9 (removed u101C, see line 243)
 @classConsAsat_10 = [u1004 u100B ]; # 9
 @classConsAsat_13 = [u100F ]; # 10
-@classConsAsat_19 = [u1012 ]; # 19
+@classConsAsat_19 = [u1012 ]; # 16
 @classConsAsat_29 = [u1014 ]; # 25
 @classConsAsat_32 = [u1000_u103B_u1015_u103A ]; # 29
 
@@ -234,14 +234,16 @@ lookup dist_advance {
     pos [@classConsAsat_10]'  9                      u103A; # 31
     pos [@classConsAsat_13]' 10                u1037 u103A; # 
     pos [@classConsAsat_13]' 10                      u103A; # 45
-    pos [@classConsAsat_19]' 19                u1037 u103A; # 
-    pos [@classConsAsat_19]' 19                      u103A; # 1305
+    pos [@classConsAsat_19]' 16                u1037 u103A; # 
+    pos [@classConsAsat_19]' 16                      u103A; # 570, 1305
     pos [@classConsAsat_29]' 79  [u1032 u1036] u1037 u103A; # 
     pos [@classConsAsat_29]'100                u1037 u103A; # 64
     pos [@classConsAsat_29]' 25                      u103A; # 65
     pos [@classConsAsat_32]' 29                           ; # 137 2678
+    pos [u101C]            '  4                      u103A; # 415, 881
     
     pos u1002' 58  u1004.kinzi_u102E; # 2441 adv width/
+    pos u1010' 45  u102D_u1036      ; # 886
     
     pos u1031      u1014'  79                                u1037; # 1096 - for reordered u1031
     pos u1014     [u1032 u1036]                         u1037'  79; # 1098 1103

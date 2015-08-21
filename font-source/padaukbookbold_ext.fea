@@ -101,11 +101,11 @@ lookup dist_103C_Cons {
     pos [@class103CNarr] [@class103CConsNarr_05]' 14         ; # 327-350 376-378; 14 for Bookbold
     pos [@class103CNarr] [@class103CConsNarr_13]' 37 [@cUDia]; # 495-508
     pos [@class103CNarr] [@class103CConsNarr_13]' 37         ; # 495-508
-    pos [@class103CNarr] [@class103CConsNarr_47]' 47 [@cUDia];
-    pos [@class103CNarr] [@class103CConsNarr_47]' 47         ;
-    pos [@class103CWide] [@class103CConsWide_05]'  5 [@cUDia];
-    pos [u103C.wide]     [@class103CConsWide_05]'  5         ;
-    pos u103C.alt.wide        u1000' 25     u1004.kinzi_u1036; # 549
+    pos [@class103CNarr] [@class103CConsNarr_47]' 62 [@cUDia]; # 1058-1060; 62 for Bookbold
+    pos [@class103CNarr] [@class103CConsNarr_47]' 62         ; # 1058-1060; 62 for Bookbold
+    pos [@class103CWide] [@class103CConsWide_05]'  6 [@cUDia]; # 900, 901, 903; 6 for Bookbold
+    pos [u103C.wide]     [@class103CConsWide_05]'  6         ; # 898, 899, 902; 6 for Bookbold
+#    pos u103C.alt.wide        u1000' 25     u1004.kinzi_u1036; # 549; Not needed for Bookbold
 } dist_103C_Cons;
 #-----------------------------------------------------------------------
 
@@ -240,8 +240,10 @@ lookup dist_advance {
     pos [@classConsAsat_29]'143                u1037 u103A; # 64
     pos [@classConsAsat_29]' 17                      u103A; # 65
     pos [@classConsAsat_32]' 57                           ; # 137 2678
+#    pos [u101C]            '  0                      u103A; # 415, 881; Not needed for Bookbold
     
     pos u1002' 58  u1004.kinzi_u102E; # 2441 adv width/
+    pos u1010' 65  u102D_u1036      ; # 886
     
     pos u1031      u1014'  79                                u1037; # 1096 - for reordered u1031
     pos u1014     [u1032 u1036]                         u1037'  79; # 1098 1103

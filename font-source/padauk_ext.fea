@@ -240,8 +240,10 @@ lookup dist_advance {
     pos [@classConsAsat_29]' 79                u1037 u103A; # NB: Incremented by 50
     pos [@classConsAsat_29]' 29                      u103A;
     pos [@classConsAsat_32]' 32                           ;
+#    pos [u101C]            '  0                      u103A; # 415, 881; Not needed for Regular
     
     pos u1002' 58  u1004.kinzi_u102E; # 2441 adv width/
+    pos u1010' 36  u102D_u1036      ; # 886
     
     pos u1031      u1014'  79                                  u1037; # 1096 - for reordered u1031
     pos u1014     [u1032 u1036]                           u1037'  79; # 1098 1103
