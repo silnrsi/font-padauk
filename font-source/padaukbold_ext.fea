@@ -64,20 +64,20 @@ lookup dist_SpacingMarks {
 ### NB: Some configurations and advance width still need to be adjusted
 lookup kern_103Clig_1037 {
   lookupflag 0;
-    pos u103C_u103D.narr [@cCons] [@cUDia] u1037' <332 0 0 0>;
-    pos u103C_u103D.narr [@cCons]          u1037' <332 0 169 0>;
+    pos u103C_u103D.narr [@cCons] [@cUDia] u1037' <359 0 0 0>;
+    pos u103C_u103D.narr [@cCons]          u1037' <359 0 212 0>; #1425
 #    pos u103C_u103D.wide [@cCons] [@cUDia] u1037' <0 0 0 0>;
 #    pos u103C_u103D.wide [@cCons]          u1037' <0 0 0 0>;
 #    pos u103C_u103D.alt.narr [@cCons] [@cUDia] u1037' <0 0 0 0>;
 #    pos u103C_u103D.alt.narr [@cCons]          u1037' <0 0 0 0>;
 #    pos u103C_u103D.alt.wide [@cCons] [@cUDia] u1037' <0 0 0 0>;
 #    pos u103C_u103D.alt.wide [@cCons]          u1037' <0 0 0 0>;
-    pos u103C_u102F.narr     [u1016]   u1036   u1037' <317 0 153 0>; #1527/
+    pos u103C_u102F.narr     [u1016]   u1036   u1037' <368 0 222 0>; #1527
     pos u103C_u102F.narr [@cCons] [@cUDia] u1037' <315 0 153 0>;
     pos u103C_u102F.narr [@cCons]          u1037' <315 0 0 0>;
 #    pos u103C_u102F.wide [@cCons] [@cUDia] u1037' <0 0 0 0>;
 #    pos u103C_u102F.wide [@cCons]          u1037' <0 0 0 0>;
-    pos u103C_u102F.alt.narr [u1017]   u102D   u1037' <317 0 153 0>; #1605/
+    pos u103C_u102F.alt.narr [u1017]   u102D   u1037' <368 0 221 0>; #1605
     pos u103C_u102F.alt.narr [@cCons] [@cUDia] u1037' <315 0 153 0>;
     pos u103C_u102F.alt.narr [@cCons]          u1037' <315 0 0 0>;
     pos u103C_u102F.alt.wide [@cCons] [@cUDia] u1037' <339 0 195 0>; # 163
@@ -105,6 +105,8 @@ lookup dist_103C_Cons {
 #    pos [@class103CNarr] [@class103CConsNarr_47]' 47         ; # 1058-1060; Not needed for Bold
 #    pos [@class103CWide] [@class103CConsWide_05]'  5 [@cUDia]; # 900, 901, 903; Not needed for Bold
 #    pos [u103C.wide]     [@class103CConsWide_05]'  5         ; # 898, 899, 902; Not needed for Bold
+#    pos [@class103CNarr] [u1016]'                  0 [@cUDia]; # 1499-1526, 1528); Bookbold ONLY
+#    pos [@class103CNarr] [u1016]'                  0         ; # 1499-1526, 1528); Bookbold ONLY
     pos u103C.alt.wide          u1000' 0     u1004.kinzi_u1036; # 549; Not needed for Bold
 } dist_103C_Cons;
 #-----------------------------------------------------------------------
@@ -156,7 +158,7 @@ lookup kern_misc {
 #    pos u1002'     135 [u1004.kinzi] u102B;
     pos u1014.alt' 107 [u1010.med]   u102F; # 412
     pos u1014.alt' 112 [u1011.med]   u1014.alt [u1010.med]; # 414
-    pos u1014.alt'  35 [u103D]       u1014.alt [u1010.med]; # 1175
+    pos u1014.alt'  16 [u103D]       u1014.alt [u1010.med]; # 1175
     
     pos u1017'     101  u1018.med    u1014.alt  u1010.med ; # 3647/
     pos u1017'     101  u1018.med    u102F    ; # 3646/
@@ -167,9 +169,10 @@ lookup kern_misc {
     
     pos u1032'     135  u102B; # Mon language plus maybe others
     
+    pos u103B'      94  u1002           u1003.med; # 1591
     pos u103B           u102D' <189 0 0 0>  u102F;          # 114-116 Shifts 102D over stem of 103B
     
-    pos u103C.alt.narr [u1017 ]' 107 u102D [@cCons]; # 1611
+    pos u103C.alt.narr [u1017 ]'  95 u102D [@cCons]; # 1611
     pos u103C.wide     [@cCons]' 147 u102B;
     pos u103C          [@cCons]' 135 u102B;
     
@@ -216,7 +219,7 @@ lookup kern_102F_1032 {
 # Make this the last "dist" lookup
 
 @classConsAsat_00 = [u1000 u1005 u100A u1010 u1015 u1019 u101A u1025 u101E ];
-@classConsAsat_05 = [u100C ]; # 8 (removed u101C, see line 243)
+@classConsAsat_05 = [u100C ]; # 8 (removed u101C, see line 246)
 @classConsAsat_10 = [u1004 u100B ]; # 8
 @classConsAsat_13 = [u100F ]; # 6
 @classConsAsat_19 = [u1012 ]; # 13
@@ -225,11 +228,11 @@ lookup kern_102F_1032 {
 
 lookup dist_advance {
   lookupflag 0;
-    pos u102B         u100C' 10                      u103A; # 1283
+    pos u102B         u100C'  8                      u103A; # 1283
     
     pos [@classConsAsat_05]'  5  u1082         u1037 u103A; # Shan #1492
     pos [@classConsAsat_05]'  8                u1037 u103A; #
-    pos [@classConsAsat_05]'  8                      u103A; # 1283
+    pos [@classConsAsat_05]'  8                      u103A; #
     pos [@classConsAsat_10]'  8                u1037 u103A; #
     pos [@classConsAsat_10]'  8                      u103A; # 31
     pos [@classConsAsat_13]'  6                u1037 u103A; #
@@ -245,8 +248,8 @@ lookup dist_advance {
     pos u1002' 58  u1004.kinzi_u102E; # 2441 adv width/
     pos u1010' 56  u102D_u1036      ; # 886
     
-    pos u1031      u1014'  79                                u1037; # 1096 - for reordered u1031
-    pos u1014     [u1032 u1036]                         u1037'  79; # 1098 1103
+    pos u1031      u1014' 122                                u1037; # 1096 - for reordered u1031
+    pos u1014     [u1032 u1036]                         u1037' 122; # 1098 1103
     pos u1031      u101B' 187                                u1037; # 1986 - for reordered u1031
     pos u101B     [u1032 u1036]                         u1037' 187; # 1989, 1994
     pos u101B.alt  u103D        [u1032 u1036]           u1037' 217; # 2077, 2079, 3354 
@@ -259,8 +262,7 @@ lookup dist_advance {
     pos u102B                                           u1037'  49; # 390, 462, 470, 1003, 1219, 1233, 2805, 3098
     
     pos [u103B u103B_u103E] [u102D u1036] u102F         u1037' 226; #m 115, 142, 293, 324, 1350, 1588, 1880, 2295, 2762
-    pos  u103B              [u1032 u1036]               u1037' 197; # 113, 288, 
-    pos  u103B' 109          u1002                  u1003.med     ; # 1591
+    pos  u103B              [u1032 u1036]               u1037' 197; # 113, 288,
     pos  u106B                                          u1037'  48; # PWO - pwo_syllables.txt
     
 #    pos u103C                u1014.alt'  0          u1012.med     ; # 545, 575, 713, 1948, 3638; Not needed for Bold
