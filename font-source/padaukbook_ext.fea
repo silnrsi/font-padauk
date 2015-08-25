@@ -162,10 +162,10 @@ lookup kern_misc {
     
     pos u1017'     101  u1018.med    u1014.alt  u1010.med ; # 3647/
     pos u1017'     101  u1018.med    u102F    ; # 3646/
-    pos u1019'     103  u1018.med    u1030    ; # 1953/
+    pos u1019'      96  u1018.med    u1030    ; # 1953
     
-    pos u101B'     107  u1005      [@cMedWide]; # 2020/
-    pos u101B'     115  u1014.alt  [@cMedWide]; # 2045/
+    pos u101B'     101  u1005      [@cMedWide]; # 2020
+    pos u101B'     105  u1014.alt  [@cMedWide]; # 2045
     
     pos u1032'     135  u102B; # Mon language plus maybe others
     
@@ -248,16 +248,16 @@ lookup dist_advance {
     pos u1002' 58  u1004.kinzi_u102E; # 2441 adv width/
     pos u1010' 45  u102D_u1036      ; # 886
     
-    pos u1031      u1014' 100                                u1037; # 1096 - for reordered u1031
-    pos u1014     [u1032 u1036]                         u1037' 100; # 1098 1103
-    pos u1031      u101B' 187                                u1037; # 1986 - for reordered u1031
-    pos u101B     [u1032 u1036]                         u1037' 187; # 1989, 1994
-    pos u101B.alt  u103D        [u1032 u1036]           u1037' 217; # 2077, 2079, 3354 
-    pos u101B.alt [u103D u103D u103D_u103E u103E_u102F] u1037' 217; # 2073, 2138, 3351, 3375
-    pos u101B.alt [u103E_u102F] [u102D u1036]           u1037' 217; # 2105, 2133, 2140
+    pos u1031      u1014' 100                                  u1037; # 1096 - for reordered u1031
+    pos u1014     [u1032 u1036]                           u1037' 100; # 1098 1103
+    pos u1031      u101B' 209                                  u1037; # 1986 - for reordered u1031
+    pos u101B     [u1032 u1036]                           u1037' 209; # 1989, 1994
+    pos u101B.alt  u103D        [u1032 u1036]             u1037' 233; # 2077, 2079, 3354 
+    pos u101B.alt [u103D u103E u103D_u103E u103E_u102F]   u1037' 233; # 2073, 2138, 3351, 3375
+    pos u101B.alt [u103D_u103E u103E_u102F] [u102D u1036] u1037' 233; # 2105, 2133, 2140
     
-    pos u101B.alt'  217    u102D  u102F.med             u1037;      # 1996
-    pos u101B.long' 217    u103E                        u1037;      # 2098, 3362
+    pos u101B.alt'  233    u102D  u102F.med             u1037;      # 1996
+    pos u101B.long' 234    u103E                        u1037;      # 2098, 3362
     
     pos u102B                                           u1037'  48; # 390, 462, 470, 1003, 1219, 1233, 2805, 3098
     
@@ -283,7 +283,7 @@ lookup dist_advance {
 lookup mk2mk_LM {
   lookupflag UseMarkFilteringSet @classmk2mkLM;
   markClass [u1037] <anchor -85 -53> @LM;
-  pos mark [u1010.med] <anchor 104 -53> mark @LM; # 2195/
+  pos mark [u1010.med] <anchor 105 -53> mark @LM; # 2195
   pos mark [u102F.med] <anchor 91 -53> mark @LM;
   pos mark [u1030.med] <anchor 92 -53> mark @LM;
   pos mark [u103D] <anchor 95 -53> mark @LM;

@@ -283,7 +283,7 @@ lookup dist_advance {
 lookup mk2mk_LM {
   lookupflag UseMarkFilteringSet @classmk2mkLM;
   markClass [u1037] <anchor -74 -53> @LM;
-  pos mark [u1010.med] <anchor 104 -53> mark @LM; # 2195/
+  pos mark [u1010.med] <anchor 104 -53> mark @LM; # 2195
   pos mark [u102F.med] <anchor 88 -53> mark @LM;
   pos mark [u1030.med] <anchor 89 -53> mark @LM;
   pos mark [u103D] <anchor 89 -53> mark @LM;
