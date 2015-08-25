@@ -64,29 +64,29 @@ lookup dist_SpacingMarks {
 ### NB: Some configurations and advance width still need to be adjusted
 lookup kern_103Clig_1037 {
   lookupflag 0;
-    pos u103C_u103D.narr [@cCons] [@cUDia] u1037' <372 0 0 0>;
-    pos u103C_u103D.narr [@cCons]          u1037' <372 0 220 0>; #1425
-#    pos u103C_u103D.wide [@cCons] [@cUDia] u1037' <0 0 0 0>;
-#    pos u103C_u103D.wide [@cCons]          u1037' <0 0 0 0>;
+    pos u103C_u103D.narr     [@cCons] [@cUDia] u1037' <372 0 0 0>;
+    pos u103C_u103D.narr     [@cCons]          u1037' <372 0 220 0>; #1425
+#    pos u103C_u103D.wide     [@cCons] [@cUDia] u1037' <0 0 0 0>;
+#    pos u103C_u103D.wide     [@cCons]          u1037' <0 0 0 0>;
 #    pos u103C_u103D.alt.narr [@cCons] [@cUDia] u1037' <0 0 0 0>;
 #    pos u103C_u103D.alt.narr [@cCons]          u1037' <0 0 0 0>;
 #    pos u103C_u103D.alt.wide [@cCons] [@cUDia] u1037' <0 0 0 0>;
 #    pos u103C_u103D.alt.wide [@cCons]          u1037' <0 0 0 0>;
     pos u103C_u102F.narr     [u1016]   u1036   u1037' <393 0 241 0>; #1527
-    pos u103C_u102F.narr [@cCons] [@cUDia] u1037' <315 0 153 0>;
-    pos u103C_u102F.narr [@cCons]          u1037' <315 0 0 0>;
-#    pos u103C_u102F.wide [@cCons] [@cUDia] u1037' <0 0 0 0>;
-#    pos u103C_u102F.wide [@cCons]          u1037' <0 0 0 0>;
+    pos u103C_u102F.narr     [@cCons] [@cUDia] u1037' <393 0 241 0>; #1830
+    pos u103C_u102F.narr     [@cCons]          u1037' <393 0 0 0>;
+#    pos u103C_u102F.wide     [@cCons] [@cUDia] u1037' <0 0 0 0>;
+#    pos u103C_u102F.wide     [@cCons]          u1037' <0 0 0 0>;
     pos u103C_u102F.alt.narr [u1017]   u102D   u1037' <393 0 241 0>; #1605
-    pos u103C_u102F.alt.narr [@cCons] [@cUDia] u1037' <315 0 153 0>;
-    pos u103C_u102F.alt.narr [@cCons]          u1037' <315 0 0 0>;
+    pos u103C_u102F.alt.narr [@cCons] [@cUDia] u1037' <393 0 241 0>; #1805
+    pos u103C_u102F.alt.narr [@cCons]          u1037' <393 0 0 0>;
     pos u103C_u102F.alt.wide [@cCons] [@cUDia] u1037' <355 0 219 0>;
     pos u103C_u102F.alt.wide [@cCons]          u1037' <309 0 0 0>;
 } kern_103Clig_1037;
 
 #-----------------------------------------------------------------------
 # Additional dist needed for some cons to clear 103C
-@class103CConsNarr_05 = [u1001 u1015 u1017]; # SPECIAL u1015, u1017 added for Bookbold ONLY
+@class103CConsNarr_05 = [u1001 u1015 u1017 u1019]; # SPECIAL u1015, u1017 u1019 added for Bookbold ONLY
 @class103CConsNarr_13 = [u1004 ]; # 
 @class103CConsNarr_47 = [u1012 ]; # 
 @class103CConsWide_05 = [u1010 ]; # 
@@ -97,8 +97,8 @@ lookup kern_103Clig_1037 {
 
 lookup dist_103C_Cons {
   lookupflag 0;
-    pos [@class103CNarr] [@class103CConsNarr_05]' 14 [@cUDia]; # 327-350 376-378 (sp. 1362-1410, 1600-1619); 14 for Bookbold
-    pos [@class103CNarr] [@class103CConsNarr_05]' 14         ; # 327-350 376-378 (sp. 1362-1410, 1600-1619); 14 for Bookbold
+    pos [@class103CNarr] [@class103CConsNarr_05]' 14 [@cUDia]; # 327-350 376-378 (sp. 1362-1410, 1600-1619, 1789-1891); 14 for Bookbold
+    pos [@class103CNarr] [@class103CConsNarr_05]' 14         ; # 327-350 376-378 (sp. 1362-1410, 1600-1619, 1789-1891); 14 for Bookbold
     pos [@class103CNarr] [@class103CConsNarr_13]' 37 [@cUDia]; # 495-508
     pos [@class103CNarr] [@class103CConsNarr_13]' 37         ; # 495-508
     pos [@class103CNarr] [@class103CConsNarr_47]' 62 [@cUDia]; # 1058-1060; 62 for Bookbold

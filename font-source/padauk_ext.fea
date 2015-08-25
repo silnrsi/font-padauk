@@ -77,7 +77,7 @@ lookup kern_103Clig_1037 {
     pos u103C_u102F.narr     [@cCons]          u1037' <315 0 0 0>;
 #    pos u103C_u102F.wide     [@cCons] [@cUDia] u1037' <0 0 0 0>;
 #    pos u103C_u102F.wide     [@cCons]          u1037' <0 0 0 0>;
-    pos u103C_u102F.alt.narr [u1017]   u102D   u1037' <317 0 153 0>; #1605/
+    pos u103C_u102F.alt.narr [u1017]   u102D   u1037' <317 0 153 0>; #1605
     pos u103C_u102F.alt.narr [@cCons] [@cUDia] u1037' <315 0 153 0>;
     pos u103C_u102F.alt.narr [@cCons]          u1037' <315 0 0 0>;
     pos u103C_u102F.alt.wide [@cCons] [@cUDia] u1037' <309 0 150 0>; # 163
