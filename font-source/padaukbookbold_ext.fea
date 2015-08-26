@@ -166,11 +166,15 @@ lookup kern_misc {
     pos u1032'     135  u102B; # Mon language plus maybe others
     
     pos u103B'      86  u1002           u1003.med; # 1591
-    pos u103B           u102D' <210 0 0 0>  u102F;          # 114-116 Shifts 102D over stem of 103B
+    pos u103B           u102D' <210 0 0 0>  u102F; # 114-116 Shifts 102D over stem of 103B (attachment not working)
+    pos u103B           u102D' <392 0 0 0>  u1030; # Shan #2334-35 Shifts 102D over stem of 103B (attachment not working)
     
     pos u103C.alt.narr [u1017 ]'  89 u102D [@cCons]; # 1611
     pos u103C.wide     [@cCons]' 147 u102B;
     pos u103C          [@cCons]' 135 u102B;
+    
+    pos u103C.wide  u101E' 18    u1083       ; # Shan #1851
+    pos u1081' 21   u1082 u103A [u1087 u1088]; # Shan #3537-38
     
     pos u1014 u1037'  79 u1063; # KSW (Sgaw Karen) language
     pos u101B u1037' 187 u1063; # KSW (Sgaw Karen) language
@@ -215,7 +219,7 @@ lookup kern_102F_1032 {
 # Make this the last "dist" lookup
 
 @classConsAsat_00 = [u1000 u1005 u100A u1010 u1015 u1019 u101A u1025 u101E ];
-@classConsAsat_05 = [u100C ]; # 7 (removed u101C, see line 242)
+@classConsAsat_05 = [u100C ]; # 7 (removed u101C and added spec. rules below)
 @classConsAsat_10 = [u1004 ]; # 7 (removed u100B) Not needed for Bookbold - #2347
 @classConsAsat_13 = [u100F ]; # 3
 @classConsAsat_19 = [u1012 ]; # 10
@@ -226,9 +230,11 @@ lookup dist_advance {
   lookupflag 0;
     pos u102B         u100C'  7                      u103A; # 1283
     
-    pos [@classConsAsat_05]'  5  u1082         u1037 u103A; # Shan #1492
+#    pos [u101C]            '  0  u1082               u103A; # Shan #1492; Not needed for Bookbold
+#    pos [u101C]            '  0                      u103A; # 415, 881; Not needed for Bookbold
     pos [@classConsAsat_05]'  7                u1037 u103A; # 
     pos [@classConsAsat_05]'  7                      u103A; #
+    pos [@classConsAsat_10]'  7  u1082               u103A; # Shan #121
     pos [@classConsAsat_10]'  7                u1037 u103A; # 
     pos [@classConsAsat_10]'  7                      u103A; # 31
     pos [@classConsAsat_13]'  3                u1037 u103A; # 
@@ -239,7 +245,6 @@ lookup dist_advance {
     pos [@classConsAsat_29]'143                u1037 u103A; # 64
     pos [@classConsAsat_29]' 17                      u103A; # 65
     pos [@classConsAsat_32]' 57                           ; # 137 2678
-#    pos [u101C]            '  0                      u103A; # 415, 881; Not needed for Bookbold
     
     pos u1002' 64  u1004.kinzi_u102E; # 2441 adv width
     pos u1010' 65  u102D_u1036      ; # 886

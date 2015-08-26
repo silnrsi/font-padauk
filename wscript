@@ -52,7 +52,7 @@ for f in ['', 'bold', 'book', 'bookbold'] :
     srcfile = fsf + '_src.sfd'
 
     fnt = font(target = process(target, 
-                        name(namestrings[f][0] + " beta", lang='en-US', subfamily = namestrings[f][1])),
+                        name(namestrings[f][0], lang='en-US', subfamily = namestrings[f][1])),
                 version = TTF_VERSION,
                 license = ofl("Padauk"),
                 copyright = COPYRIGHT,

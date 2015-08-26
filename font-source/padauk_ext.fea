@@ -166,11 +166,15 @@ lookup kern_misc {
     pos u1032'     135  u102B; # Mon language plus maybe others
     
     pos u103B'     109  u1002           u1003.med; # 1591
-    pos u103B           u102D' <148 0 0 0>  u102F;          # 114-116 Shifts 102D over stem of 103B
+    pos u103B           u102D' <148 0 0 0>  u102F; # 114-116 Shifts 102D over stem of 103B (attachment not working)
+    pos u103B           u102D' <295 0 0 0>  u1030; # Shan #2334-35 Shifts 102D over stem of 103B (attachment not working)
     
     pos u103C.alt.narr [u1017 ]' 107 u102D [@cCons]; # 1611
     pos u103C.wide     [@cCons]' 147 u102B;
     pos u103C          [@cCons]' 135 u102B;
+    
+    pos u103C.wide  u101E' 12    u1083       ; # Shan #1851
+    pos u1081' 11   u1082 u103A [u1087 u1088]; # Shan #3537-38
     
     pos u1014 u1037'  79 u1063; # KSW (Sgaw Karen) language
     pos u101B u1037' 187 u1063; # KSW (Sgaw Karen) language
@@ -226,9 +230,11 @@ lookup dist_advance {
   lookupflag 0;
     pos u102B         u100C' 10                      u103A; # 1283
     
-    pos [@classConsAsat_05]'  5  u1082         u1037 u103A; # Shan #1492
+    pos [u101C]            '  5  u1082               u103A; # Shan #1492
+#    pos [u101C]            '  0                      u103A; # 415, 881; Not needed for Regular
     pos [@classConsAsat_05]'  5                u1037 u103A;
     pos [@classConsAsat_05]'  5                      u103A;
+    pos [@classConsAsat_10]' 10  u1082               u103A; # Shan #121
     pos [@classConsAsat_10]' 10                u1037 u103A;
     pos [@classConsAsat_10]' 10                      u103A;
     pos [@classConsAsat_13]' 13                u1037 u103A;
@@ -239,7 +245,6 @@ lookup dist_advance {
     pos [@classConsAsat_29]' 79                u1037 u103A; # NB: Incremented by 50
     pos [@classConsAsat_29]' 29                      u103A;
     pos [@classConsAsat_32]' 32                           ;
-#    pos [u101C]            '  0                      u103A; # 415, 881; Not needed for Regular
     
     pos u1002' 58  u1004.kinzi_u102E; # 2441 adv width
     pos u1010' 36  u102D_u1036      ; # 886
