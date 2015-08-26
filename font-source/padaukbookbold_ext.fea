@@ -48,13 +48,9 @@ lookup dist_SpacingMarks {
     pos u103C_u103D.alt.wide.tri <0 0 234 0>;
     pos u103C_u103D.narr.tri <0 0 234 0>;
     pos u103C_u103D.wide.tri <0 0 234 0>;
-    # Glyph u1062 classified as mark in GDEF for Shan 
+    # Glyph u1062 classified as mark in GDEF for Shan. I did this 
     # so a u1086 coming after u1062 can ignore u1062 and attach to cons
     pos u1062 <0 0 333 0>; 
-    # Sneak this in here for Shan u1081 - #3334
-    # Rendering engines apparently don't recognize this letter *yet* so this rule
-    # may need to be removed later. Diacritic attachment not happening either.
-    pos u1081 <0 0 579 0>; 
 } dist_SpacingMarks; 
 
 # Normally u1037 attaches to u103D or u102F. But when the latter two
@@ -219,7 +215,7 @@ lookup kern_102F_1032 {
 # Make this the last "dist" lookup
 
 @classConsAsat_00 = [u1000 u1005 u100A u1010 u1015 u1019 u101A u1025 u101E ];
-@classConsAsat_05 = [u100C ]; # 7 (removed u101C, see line 246)
+@classConsAsat_05 = [u100C ]; # 7 (removed u101C, see line 242)
 @classConsAsat_10 = [u1004 u100B ]; # 7
 @classConsAsat_13 = [u100F ]; # 3
 @classConsAsat_19 = [u1012 ]; # 10

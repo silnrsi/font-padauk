@@ -440,7 +440,7 @@ feature mkmk {
 	\u1080.kham \uAA60.kham \uAA61.kham \uAA62.kham \uAA63.kham \uAA64.kham 
 	\uAA65.kham \uAA66.kham \uAA6B.kham \uAA6C.kham \uAA6F.kham \uAA73.kham 
 	\uAA75.kham \uAA76.kham \u1038.dot \u1087.dot \u1088.dot \u1089.dot \u108A.dot 
-	\u109A.dot \u109B.dot \uAA7B.dot \u103B_u103D.tri \u103B_u103D_u103E.tri ];
+	\u109A.dot \u109B.dot \uAA7B.dot \u103B_u103D.tri \u103B_u103D_u103E.tri \u1081 ];
 @GDEF_Ligature = [\u109A \u109B \uAA74 \uAA75 \uAA76 \uAA78 \uAA7B];
 @GDEF_Mark = [\asciicircum \underscore \grave \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p 
 	\q \r \s \t \u \v \w \x \y \z \braceleft \bar \braceright \asciitilde \multiply 
@@ -476,7 +476,7 @@ feature mkmk {
 	
 	\u1010_u103D.med.tri \u103D.tri \u103D_u103E.tri 
 	\u103D_u103E.small.tri \u103E.slantr \u103E.slanth \u103E_u102F.slantr 
-	\u103E_u102F.slanth \u103E_u1030.slantr \u103E_u1030.slanth \u1081 ];	  
+	\u103E_u102F.slanth \u103E_u1030.slantr \u103E_u1030.slanth ];	  
 	
 
 table GDEF {
