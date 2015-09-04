@@ -103,6 +103,8 @@ lookup dist_103C_Cons {
     pos [@class103CNarr] u1012' 47         ; # 1058-1060
 #    pos [@class103CNarr] u1016'  0 [@cUDia]; # 1499-1526, 1528); Bookbold ONLY
 #    pos [@class103CNarr] u1016'  0         ; # 1499-1526, 1528); Bookbold ONLY
+    pos [@class103CNarr] u1065'  5 [@cUDia]; # PWO 1402-05
+    pos [@class103CNarr] u1065'  5         ; # PWO 1402-05
     pos [@class103CNarr] u1075'  4          ; # Shan 2365-66
 #    pos [@class103CNarr] u1076'  0         ; # Shan #2628; Bookbold ONLY
     
