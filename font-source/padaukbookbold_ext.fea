@@ -29,7 +29,7 @@ include(../font-source/padauk-mym2_GSUB.fea)
 # GDEF table. (See padauk-mym2_features.fea)
 #-----------------------------------------------------------------------
 
-# Adding advanced width for spacing marks (defined as such in GDEF)
+# Adding advanced width for spacing marks (defined as marks in GDEF)
 lookup dist_SpacingMarks {
   lookupflag 0;
     pos u103C <0 0 234 0>;
@@ -81,30 +81,42 @@ lookup kern_103Clig_1037 {
 } kern_103Clig_1037;
 
 #-----------------------------------------------------------------------
-# Additional dist needed for some cons to clear 103C
-@class103CConsNarr_05 = [u1001 u1015 u1017 u1019]; # SPECIAL u1015, u1017 u1019 added for Bookbold ONLY
-@class103CConsNarr_13 = [u1004 ]; # 
-@class103CConsNarr_47 = [u1012 ]; # 
-@class103CConsWide_05 = [u1010 ]; # 
-@class103CConsWide_25 = [u1000 ]; # 
+# Additional dist needed for some cons to clear u103C
 
-@class103CNarr = [u103C      u103C.alt.narr u103C_u103D.narr u103C_u103D.alt.narr u103C_u102F.narr u103C_u102F.alt.narr]; 
-@class103CWide = [u103C.wide u103C.alt.wide u103C_u103D.wide u103C_u103D.alt.wide u103C_u102F.wide u103C_u102F.alt.wide]; 
+@class103CNarr = [u103C      u103C.alt.narr u103C_u103D.narr u103C_u103D.alt.narr u103C_u102F.narr u103C_u102F.alt.narr u103C_u103D.alt.narr.tri u103C_u103D.narr.tri]; 
+@class103CWide = [u103C.wide u103C.alt.wide u103C_u103D.wide u103C_u103D.alt.wide u103C_u102F.wide u103C_u102F.alt.wide u103C_u103D.alt.wide.tri u103C_u103D.wide.tri]; 
 
 lookup dist_103C_Cons {
   lookupflag 0;
-    pos [@class103CNarr] [@class103CConsNarr_05]' 14 [@cUDia]; # 327-350 376-378 (sp. 1362-1410, 1600-1619, 1789-1891); 14 for Bookbold
-    pos [@class103CNarr] [@class103CConsNarr_05]' 14         ; # 327-350 376-378 (sp. 1362-1410, 1600-1619, 1789-1891); 14 for Bookbold
-    pos [@class103CNarr] [@class103CConsNarr_13]' 37 [@cUDia]; # 495-508
-    pos [@class103CNarr] [@class103CConsNarr_13]' 37         ; # 495-508
-    pos [@class103CNarr] [@class103CConsNarr_47]' 62 [@cUDia]; # 1058-1060; 62 for Bookbold
-    pos [@class103CNarr] [@class103CConsNarr_47]' 62         ; # 1058-1060; 62 for Bookbold
-    pos [@class103CWide] [@class103CConsWide_05]'  6 [@cUDia]; # 900, 901, 903; 6 for Bookbold
-    pos [u103C.wide]     [@class103CConsWide_05]'  6         ; # 898, 899, 902; 6 for Bookbold
-    pos [@class103CNarr] [u1016]'                 15 [@cUDia]; # 1499-1526, 1528); Bookbold ONLY
-    pos [@class103CNarr] [u1016]'                 15         ; # 1499-1526, 1528); Bookbold ONLY
-#    pos u103C.alt.wide        u1000' 25     u1004.kinzi_u1036; # 549; Not needed for Bookbold
-    pos u103C u1005'  23; # KSW (Sgaw Karen) #294-5
+  # By design u102B has negative overhang so in this first group we compensate so it doesn't collide with u103C
+    pos u103C            u1015' 149   u102B; # Sgaw Karen #704
+    pos u103C            u1016' 150   u102B; # Sgaw Karen #788
+    pos u103C.wide       u101E' 153   u102B; # Sgaw Karen #1167
+    pos u103C.wide       u1010' 141   u102B; # Sgaw Karen #457
+    
+    pos [@class103CNarr] [u1001 u1015 u1017 u1019]' 14 [@cUDia]; # 327-350 376-378 (sp. 1362-1410, 1600-1619, 1789-1891); 14 for Bookbold
+    pos [@class103CNarr] [u1001 u1015 u1017 u1019]' 14         ; # 327-350 376-378 (sp. 1362-1410, 1600-1619, 1789-1891); 14 for Bookbold
+    pos [@class103CNarr] u1004' 37 [@cUDia]; # 495-508
+    pos [@class103CNarr] u1004' 37         ; # 495-508
+    pos [@class103CNarr] u1005' 23         ; # Sgaw Karen #294-95
+    pos [@class103CNarr] u1012' 62 [@cUDia]; # 1058-1060;
+    pos [@class103CNarr] u1012' 62         ; # 1058-1060;
+    pos [@class103CNarr] u1016' 15 [@cUDia]; # 1499-1526, 1528); Bookbold ONLY
+    pos [@class103CNarr] u1016' 15         ; # 1499-1526, 1528); Bookbold ONLY
+    pos [@class103CNarr] u1075' 22         ; # Shan 2365-66
+    pos [@class103CNarr] u1076' 17         ; # Shan #2628; Bookbold ONLY
+    
+    pos [@class103CWide] u1010'  6 [@cUDia]; # 900, 901, 903;
+    pos [@class103CWide] u1010'  6         ; # 898, 899, 902; Sgaw Karen #1462
+    pos [@class103CWide] u1018' 18 [@cUDia]; # Sgaw Karen #868-73
+    pos [@class103CWide] u1018' 18         ; # Sgaw Karen #874-76
+    pos [@class103CWide] u101E' 18 [@cUDia]; # Sgaw Karen #1168-69
+    pos [@class103CWide] u101E' 18         ; # Sgaw Karen #1170-73
+    pos [@class103CWide] u1078'  6         ; # Shan #2856
+    pos [@class103CWide] u107D'  9         ; # Shan #3247; Bookbold ONLY
+    
+#    pos u103C.alt.wide u1000'    25   u1004.kinzi_u1036; # 549; Not needed for Bookbold
+    pos u103C          u1014.alt' 13  u1012.med        ; # 545, 575, 713, 1948, 3638
 } dist_103C_Cons;
 #-----------------------------------------------------------------------
 
@@ -170,17 +182,9 @@ lookup kern_misc {
     pos u103B           u102D' <210 0 0 0>  u102F; # 114-116 Shifts 102D over stem of 103B (attachment not working)
     pos u103B           u102D' <392 0 0 0>  u1030; # Shan #2334-35 Shifts 102D over stem of 103B (attachment not working)
     
-    pos u103C.alt.narr [u1017 ]'  89 u102D [@cCons]; # 1611
-    pos u103C.wide     [@cCons]' 147 u102B;
-    pos u103C          [@cCons]' 135 u102B;
+    pos u103C.alt.narr u1017'     89  u102D [@cCons]; # 1611
     
-    pos u103C.wide  u101E' 18    u1083       ; # Shan #1851
     pos u1081' 21   u1082 u103A [u1087 u1088]; # Shan #3537-38
-    
-#    pos u1014 u1037'  79 u1063; # KSW (Sgaw Karen)
-#    pos u101B u1037' 187 u1063; # KSW (Sgaw Karen)
-#    pos u103B u1037' 180 u1063; # KSW (Sgaw Karen)
-#    pos u1061 u1037' 180 u1063; # KSW (Sgaw Karen)
 } kern_misc; 
 
 # This is a Mon language sequence
@@ -191,9 +195,9 @@ lookup kern_TallAA {
     pos u102B' <135 0 0 0> u1036' <-341 0 0 0>;
 } kern_TallAA;
 
-# OTLS reordered the pair so now we kern to make it appear to attach
-# 
-# 
+# OTLS reordered u102F and u1036 
+# so now we kern to make it appear to attach 
+
 lookup kern_reorderedMarks {
   lookupflag 0;
     pos u1011.med u1036' <296 0 0 0> u102F; # 867
@@ -203,7 +207,7 @@ lookup kern_reorderedMarks {
     
     pos u1001 u1004.kinzi_u102D' <191 0 0 0> u103B; # 2430
     
-    pos u1000 u1004.kinzi_u102E' <93 0 0 0> u103B; # 3581/
+    pos u1000 u1004.kinzi_u102E' <144 0 0 0> u103B; # 3581
 } kern_reorderedMarks;
 
 # Input sequence is u102F u1032 with u1032 attaching at U 
@@ -231,8 +235,9 @@ lookup dist_advance {
     
     pos u1000_u103B_u1015_u103A' 57         ; # 137, 2678 (to match graphite output)
     
-    pos u1012' 10                u1037 u103A; # 
-    pos u1012' 10                      u103A; # 1305
+    pos u1012' 10                u1037 u103A; #
+    pos u1012' 10                u103A_u1036; # Sgaw Karen #1945
+    pos u1012' 10                      u103A; # 570, 1305
     pos u1014' 79  [u1032 u1036] u1037 u103A; # 
     pos u1014'143                u1037 u103A; # 64
     pos u1014' 17                      u103A; # 65
@@ -252,6 +257,7 @@ lookup dist_advance {
     
     pos u1031 u101B' 252                                       u1037; # 1986 - for reordered u1031
     pos u101B' 252     [u1032 u1036]                           u1037; # 1989, 1994
+    pos u101B' 252                                             u1037; # Sgaw Karen #1039-45
     pos u101B.alt' 266  u103D        [u1032 u1036]             u1037; # 2077, 2079, 3354 
     pos u101B.alt' 266 [u103D u103E u103D_u103E u103E_u102F]   u1037; # 2073, 2138, 3351, 3375
     pos u101B.alt' 266 [u103D_u103E u103E_u102F] [u102D u1036] u1037; # 2105, 2133, 2140
@@ -262,13 +268,11 @@ lookup dist_advance {
     
     pos [u103B u103B_u103E] [u102D u1036] u102F' 231           u1037; # 115, 142, 293, 324, 1350, 1588, 1880, 2295, 2762
     pos  u103B' 214              [u1032 u1036]                 u1037; # 113, 288,
-    pos  u103B' 268                                      u1037 u1038; # Sgaw Karen #71
+#    pos  u103B' 268                                      u1037 u1038; # Sgaw Karen #71
     pos  u103B' 214                                            u1037; # Sgaw Karen #69, 162
 #    pos  u1061' 233                                      u1037 u1063; # Sgaw Karen #397
     pos  u1061' 269                                            u1037; # Sgaw Karen #394-96, 401
     pos  u106B'  48                                            u1037; # PWO - pwo_syllables.txt
-    
-    pos u103C                u1014.alt' 13            u1012.med     ; # 545, 575, 713, 1948, 3638
 } dist_advance; 
 # ----------------------------------------------------------------------
 
