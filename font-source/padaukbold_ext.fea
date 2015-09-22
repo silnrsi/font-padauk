@@ -227,8 +227,10 @@ lookup kern_102F_1032 {
 
 lookup dist_advance {
   lookupflag 0;
-    pos u1002' 62  u1004.kinzi_u102E; # 2441 adv width
-    pos u1010' 56  u102D_u1036      ; # 886
+    pos u1002' 62     u1004.kinzi_u102E; # 2441 adv width
+    pos u1010' 56     u102D_u1036      ; # 886
+    pos [@cCons]' 56  u102E_u1036      ; # Moken
+    pos [@cCons]' 56  u1032_u1036      ; # Moken
     
   # --- Consonants with u103A --------------
     pos [u1004]'  8              u1037 u103A; #    (removed u100B - not needed for Bold - #2347)

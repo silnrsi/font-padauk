@@ -304,6 +304,8 @@ lookup mym2_pstf_signsLig {
   lookupflag IgnoreBaseGlyphs, UseMarkFilteringSet @cUDia;
     sub \u102D \u1036  by \u102D_u1036;
     sub \u102D \u1032  by \u1032_u102D;
+    sub \u102E \u1036  by \u102E_u1036; # Moken
+    sub \u1032 \u1036  by \u1032_u1036; # Moken
     sub \u1004.kinzi \u102D  by \u1004.kinzi_u102D;
     sub \u1004.kinzi \u102E  by \u1004.kinzi_u102E;
     sub \u1004.kinzi \u1032  by \u1004.kinzi_u1032;
