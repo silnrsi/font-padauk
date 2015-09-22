@@ -101,6 +101,7 @@ lookup mym2_locl_kham {
     sub \u101C by \u101C.kham ;
     sub \u1022 by \u1022.kham ;
     sub \u1032 by \u1086.kham ;
+    sub \u1086 by \u1086.kham ;
     sub \u1075 by \u1075.kham ;
     sub \u1078 by \u1078.kham ;
     sub \u1080 by \u1080.kham ;
@@ -302,10 +303,6 @@ lookup mym2_pstf_asatLig {
 
 lookup mym2_pstf_signsLig {
   lookupflag IgnoreBaseGlyphs, UseMarkFilteringSet @cUDia;
-    sub \u102D \u1036  by \u102D_u1036;
-    sub \u102D \u1032  by \u1032_u102D;
-    sub \u102E \u1036  by \u102E_u1036; # Moken
-    sub \u1032 \u1036  by \u1032_u1036; # Moken
     sub \u1004.kinzi \u102D  by \u1004.kinzi_u102D;
     sub \u1004.kinzi \u102E  by \u1004.kinzi_u102E;
     sub \u1004.kinzi \u1032  by \u1004.kinzi_u1032;
@@ -316,6 +313,14 @@ lookup mym2_pstf_signsLig {
     sub \u101B.kinzi \u102D  by \u101B.kinzi_u102D;
     sub \u101B.kinzi \u102E  by \u101B.kinzi_u102E;
     sub \u101B.kinzi \u103A  by \u101B.kinzi_u103A;
+    sub \u102D \u1036  by \u102D_u1036;
+    sub \u102D \uAA7C  by \u102D_uAA7C;
+    sub \u102E \uAA7C  by \u102E_uAA7C;
+    sub \u1086 \uAA7C  by \u1086_uAA7C;
+    sub \uA9E5 \uAA7C  by \uA9E5_uAA7C;
+    sub \u102D \u1032  by \u1032_u102D;
+    sub \u102E \u1036  by \u102E_u1036; # Moken
+    sub \u1032 \u1036  by \u1032_u1036; # Moken
 } mym2_pstf_signsLig;
 
 lookup mym2_pstf_1009 {
