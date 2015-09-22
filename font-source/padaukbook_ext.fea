@@ -275,7 +275,7 @@ lookup dist_advance {
 #    pos  u103B' 234                                      u1037 u1038; # Sgaw Karen #71
     pos  u103B' 180                                            u1037; # Sgaw Karen #69, 162
 #    pos  u1061' 176                                      u1037 u1063; # Sgaw Karen #397
-#    pos  u1061' 214                                            u1037; # Sgaw Karen #394-96, 401
+    pos  u1061' 214                                            u1037; # Sgaw Karen #394-96, 401; PWO #477-479
     pos  u106B'  49                                            u1037; # PWO - pwo_syllables.txt
 } dist_advance; 
 # ----------------------------------------------------------------------
