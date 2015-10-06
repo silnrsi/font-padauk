@@ -216,6 +216,17 @@ feature psts {
 } psts;
 
 
+feature rclt {
+ script mym2;
+     language dflt ;
+      lookup mym2_rclt_UDiac_102Fmed_reorder;
+      lookup mym2_rclt_UDiac_102F_reorder;
+      lookup mym2_rclt_102Fmed_UDiac_reorder;
+      lookup mym2_rclt_102F_UDiac_reorder;
+} rclt;
+
+
+
 # -------------
 # GPOS features
 # -------------
