@@ -692,7 +692,7 @@ we have removed the -e).
 @enddoc */
 
 _ cPreVowel > @e:e _ / _ ^ c103c? cCons ckinzi? cmed? opt4(cClusDia) g103a? _=e;
-cStackLig cPreVowel > @e:e _ / _=s _=e;
+cStackLig cPreVowel > @e @s / _=s _=e;
 
 /* @doc
 Here we get the right wrap into the right place. We start with a narrow form. Usually the glyph is
@@ -720,12 +720,9 @@ or a full length leg with no foot.
 @enddoc */
 
 g101b > g101b_alt / ^ _ c103e? cUVowel? cLVowelAll;
-g101b > g101b_alt / ^ _ c103d;
-g101b > g101b_alt / ^ _ c103b;
-g101b > g101b_alt / ^ _ g1039;
-g101b > g101b_long / ^ _ g103e;
+g101b > g101b_alt / ^ _ (c103d c103b g1039);
+(g101b g1020) > (g101b_long g1020_long) / ^ _ g103e;
 g101b > g101b_long / ^ _ cmed cUVowel? cLVowel;
-g1020 > g1020_long / ^ _ g103e;         // Mon shaping
 
 /* @doc
 Map full height lower vowels into short form, if appropriate. Also handle special glyphs when
@@ -734,8 +731,7 @@ inside a wrap.
 
 // krs the next rule is to prevent medial being substitued with wrap
 // (wrap is by now in front of consonant)
-g1030 > @u / c103c_only cConsSVowel cUVowel? _=u ^;
-g102f > @u / c103c_only cConsSVowel cUVowel? _=u ^;
+(g102f g1030) > @u / c103c_only cConsSVowel cUVowel? _=u ^;
 if (uTall == 0 && uLong == 0)
     g100a cLVowel > g100a_alt:(1) cLVowelM:(3) / ^ _ cUVowel? _;
 endif;
@@ -760,7 +756,6 @@ endif;
 if (uTall == 0 && uLong == 0)
 g100a > g100a_alt / ^ _ cLVowelAll;
 endif;
-g1009 > g1025 / ^ _ g103a;          // is this the rule?
 g1009 > g1025 / ^ _ g1037? g103a;          // is this the rule?
 g1009 > g1025 / ^ _ cmed;
 // MLC dictionary doesn't show this occurring at least with u1010 u103A
@@ -778,12 +773,9 @@ g103e > g103e_slanth / g1082 _;
 Tall -a vowel ligature
 @enddoc */
 
-g102b g103a > g102b_103a:(1 2) _;
-g1062 g103a > g1062_103a:(1 2) _;
 // Allow for normalized text
-g102b g103a > g102b_103a:(1 3) _ / _ g1037 _;
-g1062 g103a > g1062_103a:(1 3) _ / _ g1037 _;
-g102b g1036 > @2 @1;
+(g102b g1062) g103a > (g102b_103a g1062_103a):(1 3) _ / _ g1037? _;
+(cLVowel g102b) g1036 > @2 @1;
 g1062 g1086 > @2 @1;
 
 /* I'm sure there are things that can intervene between these here */
@@ -796,13 +788,10 @@ Khamti reduplication ligatures
 @enddoc */
 
 if (filled)
-g1032 gaa70 > g1032_aa70:(1 2) _ / _ _;
-g103a gaa70 > g103a_aa70:(1 2) _ / _ _;
-g1032 cTone gaa70 > g1032_aa70:(1 3) cToneKham _ / _ _ _;
-g103a cTone gaa70 > g103a_aa70:(1 3) cToneKham _ / _ _ _;
+(g1032 g103a) gaa70 > (g1032_aa70 g103a_aa70):(1 2) _ / _ _;
+(g1032 g103a) cTone gaa70 > (g1032_aa70 g103a_aa70):(1 3) cToneKham _ / _ _ _;
 else
-g1032 gaa70 > g1032_aa70:(1 3) _ / _ cTone? _;
-g103a gaa70 > g103a_aa70:(1 3) _ / _ cTone? _;
+(g1032 g103a) gaa70 > (g1032_aa70 g103a_aa70):(1 3) _ / _ cTone? _;
 endif;
 
 endpass;
@@ -903,7 +892,11 @@ base character to the wrap, we need to change the advance of the wrap to be the 
 wrap. We do this here.
 @enddoc */
 
-c103c {advance.x = advx; hasadv = 1} / _{hasadv == 0};
+c103c {advance.x = advx};
+
+endpass;
+
+pass(2)
 
 /* @doc
 First we address the lower dot (U+1037) and decide which glyph is its base character. In different
@@ -913,43 +906,35 @@ fallback is to treat g1037 as a simple cBSDia in a later rule, so we only need t
 
 // This lot is a bit messy. We could probably simplify this, but at least it works!
 if (lldot)
-    cTakesLLMDia c1037 {attach {to = @1; at = LLMS; with = LM}; attached = 1} \
-                                        / ^ _ opt3(cnTakesLMDia) _ {attached != 1};
+    c1037 {attach {to = @1; at = LLMS; with = LM}} / cTakesLLMDia opt3(cnTakesLMDia) _;
+    c1037 {attach {to = @1; at = LLS; with = LM}} / cTakesLLDia cConsSVowel? opt3(cnTakesLLDia) _;
+else
+    g1037 {attach {to = @1; at = LMS; with = LM}} / cTakesLMDia opt3(cnTakesLMDia) _;
 endif;
 
 if (ldotrt == 0)
-cConsSVowel c1037 {attach {to = @2; at = LS; with = LM}; attached = 1} \
-                                        / ^ c103c_only? _ cUDia? _{attached == 0};
-c103c_mix c1037 {attach {to = @1; at = LS; with = LM}; attached = 1} \
-                                        / ^ _ cConsSVowel cUDia? _{attached == 0};
+    c1037 {attach {to = @2; at = LS; with = LM}} / c103c_only? cConsSVowel cUDia? _;
+    c1037 {attach {to = @1; at = LS; with = LM}} / c103c_mix cConsSVowel cUDia? _;
 else
-c103c c1037 {attach {to = @1; at = LS; with = LM}; attached = 1} \
-                                        / ^ _ cConsSVowel cUDia? _{attached == 0};
+    c1037 {attach {to = @1; at = LS; with = LM}} / c103c cConsSVowel cUDia? _;
 endif;
 
-c103c c1037 {attach {to = @1; at = LS; with = LM}; attached = 1} \
-                                        / ^ _ cConsSVowel cmed c103e_dia? cUDia? _{attached == 0};
-c103c c1037 {attach {to = @1; at = LS; with = LM}; attached = 1} \
-                                        / ^ _ cConsSVowel cmed? c103e_dia cUDia? _{attached == 0};
-c101b c1037 {attach {to = @1; at = LS; with = LM}; attached = 1} \
-                                        / ^ _ (cmed, cClusDia) cUVowel? cLVowelM? c1036? _{attached == 0};
-c101b c1037 {attach {to = @1; at = LS; with = LM}; attached = 1} \
-                                        / ^ _ cUVowel? cLVowelM c1036? _{attached == 0};
-c101b c1037 {attach {to = @1; at = LLS; with = LM}; attached = 1} \
-                                        / ^ _ cUDia? _{attached == 0};
-
-// applies in the ulon=1 case and should take precedence over attaching to tall u
-cTakesUDia cUDia {attach {to = @c; at = US; with = UM}; attached = 1} \
-                                        / ^ _=c g102f _{attached == 0};
+c1037 {attach {to = @1; at = LS; with = LM}} / c103c cConsSVowel cmed c103e_dia? cUDia? _;
+c1037 {attach {to = @1; at = LS; with = LM}} / c103c cConsSVowel cmed? c103e_dia cUDia? _;
+c1037 {attach {to = @1; at = LS; with = LM}} / c101b (cmed, cClusDia) cUVowel? cLVowelM? c1036? _;
+c1037 {attach {to = @1; at = LS; with = LM}} / c101b cUVowel? cLVowelM c1036? _;
+c1037 {attach {to = @1; at = LLS; with = LM}} / c101b cUDia? _;
 
 // Attaching to full height u/uu and yapin. Yes cnTakesUDia is correct here.
 // Locate the rules here before UDia attachment so they take precedence.
-cYDia {attach {to = @y; at = YS; with = YM}; attached = 1} cTakesYDia \
-                                          / ^ _{attached == 0} opt2(cnTakesUDia) _=y;
-cTakesYDia cYDia {attach {to = @y; at = YS; with = YM}; attached = 1} cTakesYDia \
-                                          / ^ _ opt2(cnTakesUDia) _{attached == 0} opt2(cnTakesUDia) _=y;
-cTakesYDia cYDia {attach {to = @1; at = YS; with = YM}; attached = 1} \
-                                          / ^ _ opt2(cnTakesUDia) _{attached == 0};
+
+cUDia {attach {to = @u; at = US; with = UM}} / c103c cTakesUDia=u opt2(cnTakesUDia) _;
+//cYDia {attach {to = @y; at = YS; with = YM}} / _ ^ opt2(cnTakesUDia) cTakesYDia=y;
+cYDia {attach {to = @y; at = YS; with = YM}} / cTakesYDia=y opt2(cnTakesUDia)  _;
+
+// applies in the ulon=1 case and should take precedence over attaching to tall u
+cUDia {attach {to = @c; at = US; with = UM}} / cTakesUDia=c g102f _;
+cUDia {attach {to = @1; at = US; with = UM}} / cTakesUDia opt2(cnTakesUDia) _;
 
 /* @doc
 Now we do the standard attachment rules. Notice that we first try to attach a wide lower diacritic
@@ -958,52 +943,29 @@ as the narrow diacritics. This is controlled by the contents of the cTakes class
 automatically generated as part of generating the font specific GDL, based on which APs a glyph has.
 @enddoc */
 
-cTakesBSDia cBSDia {attach {to = @1; at = BSS; with = BSM}; attached = 1} \
-                                        / ^ _ opt(cnTakesBSDia) _{attached == 0};
-cTakesBDDia cBDDia {attach {to = @1; at = BDS; with = BDM}; attached = 1} \
-                                        / ^ _ opt(cnTakesBDDia) _{attached == 0};
-cTakesBSDia cBDDia {attach {to = @1; at = BSS; with = BDM}; attached = 1} \
-                                        / ^ _ opt(cnTakesBSDia) _{attached == 0};
-cTakesUDia cUDia {attach {to = @1; at = US; with = UM}; attached = 1} \
-                                        / ^ _ opt2(cnTakesUDia) _{attached == 0};
+cBSDia {attach {to = @1; at = BSS; with = BSM}} / cTakesBSDia opt(cnTakesBSDia) _;
+cBDDia {attach {to = @1; at = BDS; with = BDM}} / cTakesBDDia opt(cnTakesBDDia) _;
+cBDDia {attach {to = @1; at = BSS; with = BDM}} / cTakesBSDia opt(cnTakesBSDia) _;
 
 /* @doc
 Attaching the base character to the wrap is a radical way of ensuring that the user cannot insert
 a cursor between the base character and the wrap.
 @enddoc */
 
-cTakesRDia cRDia {attach {to = @1; at = RS; with = RM}; attached = 1; insert = 1} / ^ _ _=r{attached == 0};
-
-
-/* @doc
-More lower dot (U+1037 which is the contents of <code>cLDia</code>) rules. Getting these things
-right is a major part of the testing.
-@enddoc */
-
-// c101b_med cLDia {attach {to = @l; at = LS; with = LM}; attached = 1} \
-//                                      / ^ cCons cmed? opt2(cLowDia) _=l cUDia? _{attached == 0};
-// cTakesLLDia cLDia {attach {to = @1; at = LLS; with = LM}; attached = 1} \
-//                                      / ^ _ opt3(cnTakesLLDia) _{attached == 0};
-// According to official rules, lower dot should be to right with h medial, so disable this rule
-//g101f_med cLDia {attach {to = @1; at = LLS; with = LM}; attached = 1} \
-//                                        / ^ _ opt3(cnTakesLDia) _{attached == 0};
-cTakesLDia cLDia {attach {to = @1; at = LS; with = LM}; attached = 2} \
-                                        / ^ _ opt3(cnTakesLDia) _{attached == 0};
+cRDia {attach {to = @1; at = RS; with = RM}; insert = 1} / cTakesRDia _=r;
 
 /* @doc
 Attach the non-attached
 @enddoc */
 
-c103c_only g103b {attach {to = @1; at = LLS; with = LLS}; attached = 1} / ^ _ cCons cmed? g103a? _{attached == 0};
+g103b {attach {to = @1; at = LLS; with = LLS}} / c103c_only cCons cmed? g103a? _;
 
-cCons cYMed {attach.to = @1; attached = 1} / ^ _ cmed? g103a? _{attached == 0};
+cYMed {attach.to = @1} / cCons cmed? g103a? _;
 
 endpass;
 
-pass(2);
-
-cTakesLMDia cLDia {attach {to = @1; at = LMS; with = LM}; attached = 1} \
-                                        / ^ _ opt3(cnTakesLMDia) _{attached != 1};
+pass(3)
+g1037 {attach {to = @1; at = LS; with = LM}} / cTakesLDia opt3(cnTakesLDia) _{attach.to == 0};
 endpass;
 
 /* @doc
@@ -1018,7 +980,7 @@ attachment point in the wrap and the BDS on the consonant. But we don't have tha
 in the font.
 @enddoc */
 
-pass(3);
+pass(4);
 
 g101b_alt {kern.x = @2.rkern + 10m} cHasRkern {shift.x = -rkern};
 // c102c_tall {kern.x = -xkern} / cCons cLowDia? _;
@@ -1038,9 +1000,9 @@ g1036 {shift.x = (@i.advance.x - @u.advance.x) / 2 + 100m } / g1025=i g102f=u _;
 g1063 { kern.x = advance.x/4 } / (g101b, g1061) g103e? g1037 _ ;
 
 // narrow above, wide medial below
-cBDDia {advance.x = 1m} / cConsNar=n _ cConsNar cBDDia;
-cBDDia {advance.x = 1m} / cConsNar=n _ (g102f, g1030);
-cBDDia {advance.x = 1m } / cConsNar=n _ c103c;
+cBDDia {advance.x = 50m} / cConsNar=n _ cConsNar cBDDia;
+cBDDia {advance.x = 50m} / cConsNar=n _ (g102f, g1030);
+cBDDia {advance.x = 50m } / cConsNar=n _ c103c;
 cConsNar { shift.x = -@m.BDM.x - @n.advance.x / 2; advance.x += -@m.BDM.x - @n.advance.x / 2} / c103c cCons cUVowel? _=n cBDDia=m;
 cConsNar { shift.x = -@m.BDM.x - @n.advance.x / 2; advance.x += -@m.BDM.x - @n.advance.x / 2} / (g102f, g1030)  _=n cBDDia=m;
 cConsNar {shift.x = -@m.BDM.x - @n.advance.x / 2; advance.x += -@m.BDM.x - @n.advance.x / 2} / (g101b, g103b) cUVowel? _=n cBDDia=m;
