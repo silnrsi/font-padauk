@@ -16,7 +16,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1392216402
-ModificationTime: 1403159616
+ModificationTime: 1444192977
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -46,6 +46,8 @@ OS2SupXOff: 0
 OS2SupYOff: 300
 OS2StrikeYSize: 52
 OS2StrikeYPos: 262
+OS2CapHeight: 0
+OS2XHeight: 0
 OS2Vendor: 'SIL '
 OS2CodePages: 00000001.00000000
 Lookup: 4 0 0 "ngakinzi" { "cligContextualLigaturesinMyanma subtable"  } ['clig' ('mymr' <'KHT ' 'KSW ' 'KYU ' 'dflt' > ) ]
@@ -4412,7 +4414,7 @@ WinInfo: 216 27 9
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "BD" "markMarkPositioninginMyanmarloo subtable" "BDM" "mkmkMarktoMarkinMyanmarlookup1 subtable" "BS" "pos_mark2base_markmymr_0 subtable" "BSM" "mkmkMarktoMarkinMyanmarlookup3 subtable" "U" "pos_mark2base_markmymr_2 subtable" "UM" "mkmkMarktoMarkinMyanmarlookup7 subtable" "dot" "_someAnchorsbase" "Y" "_someAnchorsbase" "LLM" "_someAnchorsmark" "LR" "_someAnchorsbase" "R" "_someAnchorsbase" "L" "_someAnchorsbase" "LM" "_someAnchorsmark" "LL" "_someAnchorsbase" 
-BeginChars: 502 502
+BeginChars: 506 506
 
 StartChar: .notdef
 Encoding: 0 -1 0
@@ -4421,6 +4423,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 525 461 m 0
@@ -4442,6 +4445,8 @@ Width: 1000
 VWidth: 0
 Flags: W
 LayerCount: 2
+Back
+Fore
 EndChar
 
 StartChar: nonmarkingreturn
@@ -4450,6 +4455,8 @@ Width: 1000
 VWidth: 0
 Flags: W
 LayerCount: 2
+Back
+Fore
 EndChar
 
 StartChar: space
@@ -4459,7 +4466,8 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
+Back
+Fore
 EndChar
 
 StartChar: exclam
@@ -4469,6 +4477,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 196 50 m 0
@@ -4496,6 +4505,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 360 643 m 0
@@ -4519,6 +4529,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 479 99 m 0
@@ -4566,6 +4577,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 473 177 m 0
@@ -4606,6 +4618,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 553 452 m 0
@@ -4644,6 +4657,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 681 0 m 0
@@ -4683,6 +4697,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 223 643 m 0
@@ -4701,6 +4716,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 368 -457 m 0
@@ -4721,6 +4737,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 344 223 m 0
@@ -4741,6 +4758,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 511 371 m 0
@@ -4773,6 +4791,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 481 259 m 0
@@ -4799,6 +4818,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 200 58 m 0
@@ -4821,6 +4841,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 443 257 m 0
@@ -4839,6 +4860,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 181 50 m 0
@@ -4857,6 +4879,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 460 766 m 0
@@ -4875,6 +4898,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 462 330 m 0
@@ -4898,6 +4922,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 345 0 m 0
@@ -4919,6 +4944,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 456 0 m 0
@@ -4944,6 +4970,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 460 174 m 0
@@ -4973,6 +5000,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 478 151 m 0
@@ -5002,6 +5030,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 459 215 m 0
@@ -5031,6 +5060,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 464 200 m 0
@@ -5059,6 +5089,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 455 542 m 0
@@ -5080,6 +5111,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 467 165 m 0
@@ -5112,6 +5144,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 464 341 m 0
@@ -5140,6 +5173,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 181 392 m 0
@@ -5163,6 +5197,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 181 393 m 0
@@ -5190,6 +5225,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 712 100 m 0
@@ -5211,6 +5247,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 535 166 m 0
@@ -5234,6 +5271,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 712 295 m 0
@@ -5255,6 +5293,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 268 56 m 0
@@ -5286,6 +5325,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 855 268 m 0
@@ -5325,6 +5365,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 644 0 m 0
@@ -5351,6 +5392,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 548 174 m 0
@@ -5384,6 +5426,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 568 186 m 0
@@ -5408,6 +5451,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 592 322 m 0
@@ -5433,6 +5477,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 484 0 m 0
@@ -5459,6 +5504,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 436 287 m 0
@@ -5483,6 +5529,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 613 30 m 0
@@ -5511,6 +5558,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 565 0 m 0
@@ -5537,6 +5585,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 172 0 m 0
@@ -5555,6 +5604,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 455 191 m 0
@@ -5577,6 +5627,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 576 0 m 0
@@ -5602,6 +5653,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 459 0 m 0
@@ -5622,6 +5674,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 740 0 m 0
@@ -5649,6 +5702,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 589 0 m 0
@@ -5673,6 +5727,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 643 330 m 0
@@ -5696,6 +5751,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 512 452 m 0
@@ -5723,6 +5779,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 685 0 m 0
@@ -5750,6 +5807,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 540 0 m 0
@@ -5782,6 +5840,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 543 181 m 0
@@ -5808,6 +5867,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 532 557 m 0
@@ -5830,6 +5890,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 594 279 m 0
@@ -5854,6 +5915,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 594 643 m 0
@@ -5875,6 +5937,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 862 643 m 0
@@ -5902,6 +5965,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 605 0 m 0
@@ -5928,6 +5992,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 577 643 m 0
@@ -5951,6 +6016,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 513 0 m 0
@@ -5975,6 +6041,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 264 -177 m 0
@@ -5997,6 +6064,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 460 -178 m 0
@@ -6015,6 +6083,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 264 -177 m 0
@@ -6039,6 +6108,7 @@ Flags: HW
 AnchorPoint: "U" 247 485 mark 0
 AnchorPoint: "UM" 226 495 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 476 630 m 0
@@ -6059,6 +6129,7 @@ VWidth: 0
 GlyphClass: 4
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 576 -158 m 0
@@ -6077,6 +6148,7 @@ VWidth: 0
 GlyphClass: 4
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 162 534 m 0
@@ -6095,6 +6167,7 @@ VWidth: 0
 GlyphClass: 4
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 443 0 m 0
@@ -6129,6 +6202,7 @@ VWidth: 0
 GlyphClass: 4
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 490 233 m 0
@@ -6157,6 +6231,7 @@ VWidth: 0
 GlyphClass: 4
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 420 154 m 0
@@ -6183,6 +6258,7 @@ VWidth: 0
 GlyphClass: 4
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 471 0 m 0
@@ -6211,6 +6287,7 @@ VWidth: 0
 GlyphClass: 4
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 447 141 m 0
@@ -6239,6 +6316,7 @@ VWidth: 0
 GlyphClass: 4
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 301 572 m 0
@@ -6269,6 +6347,7 @@ VWidth: 0
 GlyphClass: 4
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 471 18 m 0
@@ -6300,6 +6379,7 @@ VWidth: 0
 GlyphClass: 4
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 457 0 m 0
@@ -6326,6 +6406,7 @@ VWidth: 0
 GlyphClass: 4
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 159 549 m 0
@@ -6349,6 +6430,7 @@ VWidth: 0
 GlyphClass: 4
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 218 588 m 0
@@ -6376,6 +6458,7 @@ VWidth: 0
 GlyphClass: 4
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 443 0 m 0
@@ -6401,6 +6484,7 @@ VWidth: 0
 GlyphClass: 4
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 154 0 m 0
@@ -6419,6 +6503,7 @@ VWidth: 0
 GlyphClass: 4
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 742 0 m 0
@@ -6452,6 +6537,7 @@ VWidth: 0
 GlyphClass: 4
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 453 0 m 0
@@ -6478,6 +6564,7 @@ VWidth: 0
 GlyphClass: 4
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 488 222 m 0
@@ -6501,6 +6588,7 @@ VWidth: 0
 GlyphClass: 4
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 495 224 m 0
@@ -6529,6 +6617,7 @@ VWidth: 0
 GlyphClass: 4
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 476 -177 m 0
@@ -6557,6 +6646,7 @@ VWidth: 0
 GlyphClass: 4
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 314 367 m 0
@@ -6579,6 +6669,7 @@ VWidth: 0
 GlyphClass: 4
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 410 133 m 0
@@ -6605,6 +6696,7 @@ VWidth: 0
 GlyphClass: 4
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 307 1 m 0
@@ -6635,6 +6727,7 @@ VWidth: 0
 GlyphClass: 4
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 457 0 m 0
@@ -6661,6 +6754,7 @@ VWidth: 0
 GlyphClass: 4
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 467 445 m 0
@@ -6682,6 +6776,7 @@ VWidth: 0
 GlyphClass: 4
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 725 445 m 0
@@ -6709,6 +6804,7 @@ VWidth: 0
 GlyphClass: 4
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 472 0 m 0
@@ -6735,6 +6831,7 @@ VWidth: 0
 GlyphClass: 4
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 467 445 m 0
@@ -6761,6 +6858,7 @@ VWidth: 0
 GlyphClass: 4
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 385 0 m 0
@@ -6785,6 +6883,7 @@ VWidth: 0
 GlyphClass: 4
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 363 -428 m 0
@@ -6809,6 +6908,7 @@ VWidth: 0
 GlyphClass: 4
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 194 -230 m 0
@@ -6827,6 +6927,7 @@ VWidth: 0
 GlyphClass: 4
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 347 225 m 0
@@ -6851,6 +6952,7 @@ VWidth: 0
 GlyphClass: 4
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 511 236 m 0
@@ -6873,6 +6975,7 @@ VWidth: 0
 GlyphClass: 4
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 418 111 m 0
@@ -6904,6 +7007,7 @@ AnchorPoint: "L" 702 -53 basechar 0
 AnchorPoint: "BD" 502 -53 basechar 0
 AnchorPoint: "U" 702 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 938 222 m 0
@@ -6927,6 +7031,7 @@ SplineSet
  542 404 615 461 702 461 c 0
  830 461 938 352 938 222 c 0
 EndSplineSet
+LCarets2: 2 0 0
 Substitution2: "sub_single_cligmymr_2 subtable" u1000.kham
 Ligature2: "LigatureSubstitutionlookup169 subtable" u1000 u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u1000 u103C u1031
@@ -6976,6 +7081,7 @@ AnchorPoint: "BSM" 886 -53 mark 0
 AnchorPoint: "BSM" 88 -53 basemark 0
 AnchorPoint: "BDM" -393 -53 mark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -55 -272 m 0
@@ -7024,6 +7130,7 @@ AnchorPoint: "L" 1245 -53 basechar 0
 AnchorPoint: "U" 916 495 basechar 0
 AnchorPoint: "BD" 1236 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 1095 -457 m 0
@@ -7083,6 +7190,7 @@ GlyphClass: 2
 Flags: HW
 AnchorPoint: "R" 0 0 mark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 1105 -457 m 0
@@ -7149,6 +7257,7 @@ AnchorPoint: "L" 289 -53 basechar 0
 AnchorPoint: "U" 289 495 basechar 0
 AnchorPoint: "BD" 283 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 529 222 m 0
@@ -7232,6 +7341,7 @@ AnchorPoint: "LM" 94 -53 basemark 0
 AnchorPoint: "BS" -237 -53 basemark 0
 AnchorPoint: "BSM" -237 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -56 -272 m 0
@@ -7275,6 +7385,7 @@ AnchorPoint: "L" 295 -53 basechar 0
 AnchorPoint: "U" 295 495 basechar 0
 AnchorPoint: "BD" 292 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 535 204 m 0
@@ -7354,6 +7465,7 @@ AnchorPoint: "LM" 94 -53 basemark 0
 AnchorPoint: "BS" 238 -53 basemark 0
 AnchorPoint: "BSM" 565 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -56 -286 m 0
@@ -7392,6 +7504,7 @@ AnchorPoint: "L" 698 -53 basechar 0
 AnchorPoint: "BD" 491 -53 basechar 0
 AnchorPoint: "U" 698 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 934 222 m 0
@@ -7467,6 +7580,7 @@ AnchorPoint: "BSM" 883 -53 mark 0
 AnchorPoint: "BDM" -401 -53 mark 0
 AnchorPoint: "BD" 394 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -56 -272 m 0
@@ -7518,6 +7632,7 @@ AnchorPoint: "L" 294 -53 basechar 0
 AnchorPoint: "U" 294 495 basechar 0
 AnchorPoint: "BD" 292 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 516 117 m 0
@@ -7597,6 +7712,7 @@ AnchorPoint: "LM" 84 -53 basemark 0
 AnchorPoint: "BS" -174 -53 basemark 0
 AnchorPoint: "BSM" 111 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -49 -356 m 0
@@ -7633,6 +7749,7 @@ AnchorPoint: "Y" -26 495 mark 0
 AnchorPoint: "U" -95 495 mark 0
 AnchorPoint: "UM" -92 495 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 0 592 m 0
@@ -7677,6 +7794,7 @@ AnchorPoint: "Y" -28 495 mark 0
 AnchorPoint: "U" -300 495 mark 0
 AnchorPoint: "UM" -296 495 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 0 724 m 0
@@ -7725,6 +7843,7 @@ AnchorPoint: "Y" -28 495 mark 0
 AnchorPoint: "U" -300 495 mark 0
 AnchorPoint: "UM" -296 495 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 0 723 m 0
@@ -7778,6 +7897,7 @@ Flags: HW
 AnchorPoint: "U" -300 485 mark 0
 AnchorPoint: "UM" -296 495 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 0 634 m 0
@@ -7818,6 +7938,7 @@ AnchorPoint: "Y" -28 495 mark 0
 AnchorPoint: "U" -300 495 mark 0
 AnchorPoint: "UM" -296 495 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 0 725 m 0
@@ -7873,6 +7994,7 @@ Flags: HW
 AnchorPoint: "U" -246 495 mark 0
 AnchorPoint: "UM" -258 495 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 0 678 m 0
@@ -7920,6 +8042,7 @@ AnchorPoint: "Y" -28 495 mark 0
 AnchorPoint: "U" -300 495 mark 0
 AnchorPoint: "UM" -296 495 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 0 832 m 0
@@ -7965,6 +8088,7 @@ AnchorPoint: "Y" -135 495 mark 0
 AnchorPoint: "U" -390 495 mark 0
 AnchorPoint: "UM" -376 495 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -188 724 m 0
@@ -8022,6 +8146,7 @@ AnchorPoint: "L" 290 -53 basechar 0
 AnchorPoint: "U" 290 495 basechar 0
 AnchorPoint: "BD" 288 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 525 222 m 0
@@ -8106,6 +8231,7 @@ AnchorPoint: "LM" 95 -53 basemark 0
 AnchorPoint: "BS" 234 -53 basemark 0
 AnchorPoint: "BSM" 556 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -55 -272 m 0
@@ -8150,6 +8276,7 @@ AnchorPoint: "L" 692 -53 basechar 0
 AnchorPoint: "BD" 492 -53 basechar 0
 AnchorPoint: "U" 692 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 927 222 m 0
@@ -8226,6 +8353,7 @@ AnchorPoint: "BSM" 877 -53 mark 0
 AnchorPoint: "BDM" -395 -53 mark 0
 AnchorPoint: "BD" 394 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -55 -272 m 0
@@ -8263,7 +8391,7 @@ Ligature2: "LigatureSubstitutionlookup159 subtable" u1006.med u1031
 Ligature2: "LigatureSubstitutionlookup159 subtable" u1006.med u103C
 Ligature2: "sub_ligature_cligmymr_0 subtable" u1039 u1006
 MultipleSubs2: "MultipleSubstitutionlookup138 subtable" u1039 u1006.med
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -8279,6 +8407,7 @@ AnchorPoint: "L" 290 -53 basechar 0
 AnchorPoint: "U" 291 495 basechar 0
 AnchorPoint: "BD" 286 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 581 154 m 0
@@ -8368,6 +8497,7 @@ AnchorPoint: "LM" 34 -53 basemark 0
 AnchorPoint: "BS" 224 -53 basemark 0
 AnchorPoint: "BSM" 532 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -56 -325 m 0
@@ -8418,6 +8548,7 @@ AnchorPoint: "L" 841 -53 basechar 0
 AnchorPoint: "U" 541 489 basechar 0
 AnchorPoint: "BD" 810 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 692 -457 m 0
@@ -8488,6 +8619,7 @@ AnchorPoint: "L" 277 -53 basechar 0
 AnchorPoint: "dot" -221 -53 basechar 0
 AnchorPoint: "U" 0 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 127 -457 m 0
@@ -8539,6 +8671,7 @@ AnchorPoint: "L" 285 -53 basechar 0
 AnchorPoint: "U" 277 495 basechar 0
 AnchorPoint: "BD" 450 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 910 -292 m 0
@@ -8611,6 +8744,7 @@ AnchorPoint: "L" 670 -53 basechar 0
 AnchorPoint: "U" 686 495 basechar 0
 AnchorPoint: "BD" 1063 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 923 222 m 0
@@ -8665,6 +8799,7 @@ AnchorPoint: "L" 670 -53 basechar 0
 AnchorPoint: "U" 686 495 basechar 0
 AnchorPoint: "BD" 1063 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 923 222 m 0
@@ -8749,6 +8884,7 @@ AnchorPoint: "L" 686 -53 basechar 0
 AnchorPoint: "BD" 480 -53 basechar 0
 AnchorPoint: "U" 686 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 923 222 m 0
@@ -8829,6 +8965,7 @@ AnchorPoint: "BSM" 839 -53 mark 0
 AnchorPoint: "BDM" -368 -53 mark 0
 AnchorPoint: "BD" 361 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -69 -221 m 0
@@ -8886,6 +9023,7 @@ AnchorPoint: "L" 670 -53 basechar 0
 AnchorPoint: "U" 686 495 basechar 0
 AnchorPoint: "BD" 1063 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 1330 222 m 0
@@ -8976,6 +9114,7 @@ AnchorPoint: "L" 666 -53 basechar 0
 AnchorPoint: "U" 295 495 basechar 0
 AnchorPoint: "BD" 657 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 596 -426 m 0
@@ -9053,6 +9192,7 @@ AnchorPoint: "L" 651 -53 basechar 0
 AnchorPoint: "BD" 44 -173 basechar 0
 AnchorPoint: "U" 294 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 516 117 m 0
@@ -9094,6 +9234,7 @@ AnchorPoint: "LM" 74 -53 basemark 0
 AnchorPoint: "BS" 166 -53 basemark 0
 AnchorPoint: "BSM" 415 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -36 -457 m 0
@@ -9136,6 +9277,7 @@ AnchorPoint: "L" 666 -53 basechar 0
 AnchorPoint: "U" 294 495 basechar 0
 AnchorPoint: "BD" 657 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 516 117 m 0
@@ -9220,6 +9362,7 @@ AnchorPoint: "L" 656 -53 basechar 0
 AnchorPoint: "U" 294 495 basechar 0
 AnchorPoint: "BD" 642 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 506 -26 m 0
@@ -9299,6 +9442,7 @@ AnchorPoint: "L" 666 -53 basechar 0
 AnchorPoint: "U" 294 495 basechar 0
 AnchorPoint: "BD" 657 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 516 117 m 0
@@ -9373,6 +9517,7 @@ AnchorPoint: "BSM" 900 -53 mark 0
 AnchorPoint: "BDM" -405 -53 mark 0
 AnchorPoint: "BD" 406 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -56 -287 m 0
@@ -9427,6 +9572,7 @@ AnchorPoint: "BD" 14 -173 basechar 0
 AnchorPoint: "U" 277 495 basechar 0
 AnchorPoint: "R" 0 0 mark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 546 -457 m 0
@@ -9496,6 +9642,7 @@ AnchorPoint: "LM" 53 -53 basemark 0
 AnchorPoint: "BS" 172 -53 basemark 0
 AnchorPoint: "BSM" 426 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -55 -447 m 0
@@ -9544,6 +9691,7 @@ AnchorPoint: "L" 632 -53 basechar 0
 AnchorPoint: "U" 277 495 basechar 0
 AnchorPoint: "BD" 627 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 558 -457 m 0
@@ -9635,6 +9783,7 @@ AnchorPoint: "L" 475 -53 basechar 0
 AnchorPoint: "U" 287 495 basechar 0
 AnchorPoint: "BD" 528 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 527 240 m 0
@@ -9713,6 +9862,7 @@ AnchorPoint: "L" 287 -53 basechar 0
 AnchorPoint: "U" 287 495 basechar 0
 AnchorPoint: "BD" 285 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 527 240 m 0
@@ -9795,6 +9945,7 @@ AnchorPoint: "LM" 103 -53 basemark 0
 AnchorPoint: "BS" 232 -53 basemark 0
 AnchorPoint: "BSM" -238 -53 mark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -52 -259 m 0
@@ -9837,6 +9988,7 @@ AnchorPoint: "L" 763 -53 basechar 0
 AnchorPoint: "BD" 521 -53 basechar 0
 AnchorPoint: "U" 763 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 984 222 m 0
@@ -9922,6 +10074,7 @@ AnchorPoint: "BSM" 907 -53 mark 0
 AnchorPoint: "BDM" -410 -53 mark 0
 AnchorPoint: "BD" 409 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -55 -272 m 0
@@ -9984,6 +10137,7 @@ AnchorPoint: "L" 946 -53 basechar 0
 AnchorPoint: "U" 763 495 basechar 0
 AnchorPoint: "BD" 1027 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 883 -457 m 0
@@ -10081,6 +10235,7 @@ AnchorPoint: "L" 987 -53 basechar 0
 AnchorPoint: "U" 763 495 basechar 0
 AnchorPoint: "BD" -30 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 879 -191 m 0
@@ -10184,6 +10339,7 @@ AnchorPoint: "L" 695 -53 basechar 0
 AnchorPoint: "BD" 495 -53 basechar 0
 AnchorPoint: "U" 695 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 932 222 m 0
@@ -10255,6 +10411,7 @@ AnchorPoint: "BSM" 867 -53 mark 0
 AnchorPoint: "BDM" -379 -53 mark 0
 AnchorPoint: "BD" 384 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -45 -272 m 0
@@ -10302,6 +10459,7 @@ AnchorPoint: "LM" 95 -53 basemark 0
 AnchorPoint: "BS" 235 -53 basemark 0
 AnchorPoint: "BSM" 555 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -65 -369 m 0
@@ -10352,6 +10510,7 @@ AnchorPoint: "L" 690 -53 basechar 0
 AnchorPoint: "BD" 490 -53 basechar 0
 AnchorPoint: "U" 690 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 925 222 m 0
@@ -10422,6 +10581,7 @@ AnchorPoint: "BSM" 877 -53 mark 0
 AnchorPoint: "BDM" -395 -53 mark 0
 AnchorPoint: "BD" -395 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -55 -272 m 0
@@ -10468,6 +10628,7 @@ AnchorPoint: "L" 270 -53 basechar 0
 AnchorPoint: "U" 270 495 basechar 0
 AnchorPoint: "BD" 267 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 485 126 m 0
@@ -10551,6 +10712,7 @@ AnchorPoint: "LM" 90 -53 basemark 0
 AnchorPoint: "BS" 219 -53 basemark 0
 AnchorPoint: "BSM" 526 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -60 -346 m 0
@@ -10594,6 +10756,7 @@ AnchorPoint: "L" 291 -53 basechar 0
 AnchorPoint: "U" 291 495 basechar 0
 AnchorPoint: "BD" 288 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 525 222 m 0
@@ -10678,6 +10841,7 @@ AnchorPoint: "LM" 95 -53 basemark 0
 AnchorPoint: "BS" 234 -53 basemark 0
 AnchorPoint: "BSM" 556 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -55 -272 m 0
@@ -10724,6 +10888,7 @@ AnchorPoint: "L" 502 -53 basechar 0
 AnchorPoint: "U" 281 495 basechar 0
 AnchorPoint: "BD" 531 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 491 143 m 0
@@ -10814,6 +10979,7 @@ AnchorPoint: "L" 284 -53 basechar 0
 AnchorPoint: "BD" 294 -53 basechar 0
 AnchorPoint: "U" 284 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 523 -17 m 0
@@ -10903,6 +11069,7 @@ AnchorPoint: "LM" 92 -53 basemark 0
 AnchorPoint: "BS" 223 -53 basemark 0
 AnchorPoint: "BSM" 522 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -32 -461 m 0
@@ -10952,6 +11119,7 @@ AnchorPoint: "L" 1021 -53 basechar 0
 AnchorPoint: "U" 756 495 basechar 0
 AnchorPoint: "BD" 1049 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 867 -457 m 0
@@ -11017,6 +11185,7 @@ AnchorPoint: "BS" 878 -53 basechar 0
 AnchorPoint: "L" 878 -53 basechar 0
 AnchorPoint: "BD" 841 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 728 -98 m 0
@@ -11132,6 +11301,7 @@ AnchorPoint: "L" 295 -53 basechar 0
 AnchorPoint: "U" 295 495 basechar 0
 AnchorPoint: "BD" 292 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 534 239 m 0
@@ -11211,6 +11381,7 @@ AnchorPoint: "LM" 94 -53 basemark 0
 AnchorPoint: "BS" 238 -53 basemark 0
 AnchorPoint: "BSM" 565 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -56 -259 m 0
@@ -11249,6 +11420,7 @@ AnchorPoint: "L" 295 -53 basechar 0
 AnchorPoint: "U" 295 495 basechar 0
 AnchorPoint: "BD" 292 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 534 239 m 0
@@ -11331,6 +11503,7 @@ AnchorPoint: "LM" -576 -53 basemark 0
 AnchorPoint: "BS" 238 -53 basemark 0
 AnchorPoint: "BSM" -89 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -56 -259 m 0
@@ -11374,6 +11547,7 @@ AnchorPoint: "L" 295 -53 basechar 0
 AnchorPoint: "U" 295 495 basechar 0
 AnchorPoint: "BD" 292 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 534 227 m 0
@@ -11455,6 +11629,7 @@ AnchorPoint: "LM" 94 -53 basemark 0
 AnchorPoint: "BS" 237 -53 basemark 0
 AnchorPoint: "BSM" 565 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -56 -268 m 0
@@ -11496,6 +11671,7 @@ AnchorPoint: "L" 684 -53 basechar 0
 AnchorPoint: "BD" 484 -53 basechar 0
 AnchorPoint: "U" 684 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 921 222 m 0
@@ -11566,6 +11742,7 @@ AnchorPoint: "LM" 94 -53 basemark 0
 AnchorPoint: "BDM" -393 -53 mark 0
 AnchorPoint: "BD" 393 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -56 -272 m 0
@@ -11613,6 +11790,7 @@ AnchorPoint: "L" 296 -53 basechar 0
 AnchorPoint: "U" 295 495 basechar 0
 AnchorPoint: "BD" 294 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 534 239 m 0
@@ -11699,6 +11877,7 @@ AnchorPoint: "LM" 94 -53 basemark 0
 AnchorPoint: "BS" 238 -53 basemark 0
 AnchorPoint: "BSM" 565 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -56 -259 m 0
@@ -11744,6 +11923,7 @@ AnchorPoint: "L" 697 -53 basechar 0
 AnchorPoint: "BD" 500 -53 basechar 0
 AnchorPoint: "U" 697 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 933 222 m 0
@@ -11815,6 +11995,7 @@ AnchorPoint: "LM" 79 -53 basemark 0
 AnchorPoint: "BDM" -392 -53 mark 0
 AnchorPoint: "BD" 405 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -54 -273 m 0
@@ -11863,6 +12044,7 @@ AnchorPoint: "L" 680 -53 basechar 0
 AnchorPoint: "BD" 90 -53 basechar 0
 AnchorPoint: "U" 296 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 630 -457 m 0
@@ -11953,6 +12135,7 @@ AnchorPoint: "L" 701 -53 basechar 0
 AnchorPoint: "BD" 245 -53 basechar 0
 AnchorPoint: "U" 296 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 552 -290 m 0
@@ -12021,6 +12204,7 @@ AnchorPoint: "L" 702 -53 basechar 0
 AnchorPoint: "BD" 128 -53 basechar 0
 AnchorPoint: "U" 310 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 552 -457 m 0
@@ -12087,6 +12271,7 @@ AnchorPoint: "LM" 92 -53 basemark 0
 AnchorPoint: "BS" 211 -53 basemark 0
 AnchorPoint: "BSM" -217 -53 mark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 5 -457 m 0
@@ -12130,6 +12315,7 @@ Flags: HW
 AnchorPoint: "U" -119 495 mark 0
 AnchorPoint: "UM" -114 495 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 0 863 m 0
@@ -12168,6 +12354,7 @@ AnchorPoint: "Y" -28 495 mark 0
 AnchorPoint: "U" -304 493 mark 0
 AnchorPoint: "UM" -304 492 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 0 725 m 0
@@ -12212,6 +12399,7 @@ AnchorPoint: "Y" -28 495 mark 0
 AnchorPoint: "U" -304 493 mark 0
 AnchorPoint: "UM" -304 492 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 0 725 m 0
@@ -12263,6 +12451,7 @@ AnchorPoint: "Y" -43 495 mark 0
 AnchorPoint: "U" -304 495 mark 0
 AnchorPoint: "UM" -304 492 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 0 832 m 0
@@ -12308,6 +12497,7 @@ AnchorPoint: "L" 686 -53 basechar 0
 AnchorPoint: "BD" 484 -53 basechar 0
 AnchorPoint: "U" 686 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 913 222 m 0
@@ -12378,6 +12568,7 @@ AnchorPoint: "LM" 95 -53 basemark 0
 AnchorPoint: "BDM" -390 -53 mark 0
 AnchorPoint: "BD" 375 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -55 -272 m 0
@@ -12425,6 +12616,7 @@ AnchorPoint: "LM" 94 -53 basemark 0
 AnchorPoint: "BDM" -560 -53 mark 0
 AnchorPoint: "BD" 608 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -468 -272 m 0
@@ -12471,6 +12663,7 @@ AnchorPoint: "L" 290 -53 basechar 0
 AnchorPoint: "U" 290 495 basechar 0
 AnchorPoint: "BD" 286 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 525 222 m 0
@@ -12547,6 +12740,7 @@ AnchorPoint: "L" 686 -53 basechar 0
 AnchorPoint: "BD" 484 -53 basechar 0
 AnchorPoint: "U" 686 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 923 222 m 0
@@ -12617,6 +12811,7 @@ AnchorPoint: "LM" 91 -53 basemark 0
 AnchorPoint: "BDM" -396 -53 mark 0
 AnchorPoint: "BD" 393 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -56 -272 m 0
@@ -12663,6 +12858,7 @@ AnchorPoint: "BS" 1279 -53 basechar 0
 AnchorPoint: "L" 1279 -53 basechar 0
 AnchorPoint: "BD" 1263 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 1129 -107 m 0
@@ -12776,6 +12972,7 @@ AnchorPoint: "L" 701 -53 basechar 0
 AnchorPoint: "BD" 506 -53 basechar 0
 AnchorPoint: "U" 701 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 938 222 m 0
@@ -12845,6 +13042,7 @@ AnchorPoint: "L" 664 -53 basechar 0
 AnchorPoint: "U" 294 495 basechar 0
 AnchorPoint: "BD" 654 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 516 -97 m 0
@@ -12924,6 +13122,7 @@ AnchorPoint: "BD" 14 -173 basechar 0
 AnchorPoint: "U" 277 495 basechar 0
 AnchorPoint: "R" 0 0 mark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 472 -457 m 0
@@ -12962,6 +13161,7 @@ AnchorPoint: "L" 666 -53 basechar 0
 AnchorPoint: "U" 294 495 basechar 0
 AnchorPoint: "BD" 657 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 522 -344 m 0
@@ -13027,6 +13227,7 @@ AnchorPoint: "BS" 666 -53 basechar 0
 AnchorPoint: "L" 666 -53 basechar 0
 AnchorPoint: "U" 294 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 522 -344 m 0
@@ -13085,6 +13286,7 @@ AnchorPoint: "L" 642 -53 basechar 0
 AnchorPoint: "BD" 459 -53 basechar 0
 AnchorPoint: "U" 642 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 881 222 m 0
@@ -13168,6 +13370,7 @@ AnchorPoint: "BSM" 874 -53 mark 0
 AnchorPoint: "BDM" -331 -53 mark 0
 AnchorPoint: "BD" 393 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -30 -272 m 0
@@ -13225,6 +13428,7 @@ AnchorPoint: "L" 698 -53 basechar 0
 AnchorPoint: "BD" 491 -53 basechar 0
 AnchorPoint: "U" 698 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 934 222 m 0
@@ -13299,6 +13503,7 @@ AnchorPoint: "U" 701 495 basechar 0
 AnchorPoint: "BS" 993 -53 basechar 0
 AnchorPoint: "BD" 993 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 941 204 m 0
@@ -13351,6 +13556,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 938 -277 m 0
@@ -13409,6 +13615,7 @@ AnchorPoint: "L" 277 -53 basechar 0
 AnchorPoint: "U" 277 495 basechar 0
 AnchorPoint: "BD" 276 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 504 -292 m 0
@@ -13479,6 +13686,7 @@ AnchorPoint: "L" 277 -53 basechar 0
 AnchorPoint: "U" 277 495 basechar 0
 AnchorPoint: "BD" 276 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 457 725 m 0
@@ -13538,6 +13746,7 @@ AnchorPoint: "L" 299 -53 basechar 0
 AnchorPoint: "U" 299 495 basechar 0
 AnchorPoint: "BD" 292 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 531 141 m 0
@@ -13624,6 +13833,7 @@ AnchorPoint: "L" 293 -53 basechar 0
 AnchorPoint: "U" 293 545 basechar 0
 AnchorPoint: "BD" 292 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 525 -219 m 0
@@ -13664,6 +13874,7 @@ AnchorPoint: "BS" 1279 -53 basechar 0
 AnchorPoint: "L" 1279 -53 basechar 0
 AnchorPoint: "BD" 1263 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 1113 222 m 0
@@ -13752,6 +13963,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 1707 736 m 0
@@ -13850,6 +14062,7 @@ AnchorPoint: "BS" 104 -53 basechar 0
 AnchorPoint: "L" 104 -53 basechar 0
 AnchorPoint: "BD" 96 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 140 0 m 0
@@ -13880,6 +14093,7 @@ AnchorPoint: "BS" 105 -53 basechar 0
 AnchorPoint: "L" 104 -53 basechar 0
 AnchorPoint: "BD" 96 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 409 718 m 0
@@ -13913,6 +14127,7 @@ AnchorPoint: "L" 133 -53 basechar 0
 AnchorPoint: "U" 133 495 basechar 0
 AnchorPoint: "BD" 133 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 368 222 m 0
@@ -13943,6 +14158,7 @@ AnchorPoint: "Y" -83 495 mark 0
 AnchorPoint: "U" -235 495 mark 0
 AnchorPoint: "UM" -234 495 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -55 725 m 0
@@ -13978,6 +14194,7 @@ AnchorPoint: "Y" -24 495 mark 0
 AnchorPoint: "U" -282 495 mark 0
 AnchorPoint: "UM" -269 495 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -204 725 m 0
@@ -14001,7 +14218,7 @@ SplineSet
  -133 699 -114 677 -87 677 c 0
  -62 677 -41 698 -41 725 c 0
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "sub_ligature_cligmymr_4 subtable" u102D u1036
 Ligature2: "LigatureSubstitutionlookup111 subtable" circledash u102D_u1036
 MultipleSubs2: "sub_mult_cligmymr_0 subtable" circledash u102D_u1036
@@ -14018,6 +14235,7 @@ AnchorPoint: "Y" -28 495 mark 0
 AnchorPoint: "U" -180 495 mark 0
 AnchorPoint: "UM" -179 495 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 0 724 m 0
@@ -14048,6 +14266,7 @@ AnchorPoint: "Y" -83 495 mark 0
 AnchorPoint: "U" -237 495 mark 0
 AnchorPoint: "UM" -237 495 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -55 725 m 4
@@ -14068,7 +14287,7 @@ SplineSet
  -313 618 -275 595 -236 595 c 4
  -194 595 -157 614 -134 647 c 4
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "LigatureSubstitutionlookup111 subtable" circledash u102E
 MultipleSubs2: "sub_mult_cligmymr_0 subtable" circledash u102E
 Comment: "GDL_order: 8+AAoA-mark: 80+AAoA"
@@ -14084,6 +14303,7 @@ AnchorPoint: "Y" -28 495 mark 0
 AnchorPoint: "U" -182 495 mark 0
 AnchorPoint: "UM" -182 495 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 0 725 m 0
@@ -14123,6 +14343,7 @@ AnchorPoint: "L" 305 -53 basechar 0
 AnchorPoint: "U" 77 495 basechar 0
 AnchorPoint: "BD" 290 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 195 -457 m 0
@@ -14154,6 +14375,7 @@ AnchorPoint: "LM" 91 -53 basemark 0
 AnchorPoint: "BS" 81 -53 basemark 0
 AnchorPoint: "BSM" 250 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 27 -457 m 0
@@ -14191,6 +14413,7 @@ AnchorPoint: "LM" 272 -53 basemark 0
 AnchorPoint: "BS" 81 -53 basemark 0
 AnchorPoint: "BSM" 81 -53 mark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 208 -457 m 0
@@ -14220,6 +14443,7 @@ AnchorPoint: "L" 448 -53 basechar 0
 AnchorPoint: "U" 235 495 basechar 0
 AnchorPoint: "BD" 384 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 352 -457 m 0
@@ -14254,6 +14478,7 @@ AnchorPoint: "LM" 92 -53 basemark 0
 AnchorPoint: "BS" 154 -53 basemark 0
 AnchorPoint: "BSM" 399 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 27 -457 m 0
@@ -14293,6 +14518,7 @@ AnchorPoint: "LM" 428 -53 basemark 0
 AnchorPoint: "BS" 154 -53 basemark 0
 AnchorPoint: "BSM" 154 -53 mark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 363 -457 m 0
@@ -14327,6 +14553,7 @@ AnchorPoint: "L" 294 -53 basechar 0
 AnchorPoint: "U" 294 495 basechar 0
 AnchorPoint: "BD" 292 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 528 166 m 0
@@ -14370,6 +14597,7 @@ AnchorPoint: "Y" -89 535 mark 0
 AnchorPoint: "U" -263 535 mark 0
 AnchorPoint: "UM" -247 537 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -55 634 m 4
@@ -14378,7 +14606,7 @@ SplineSet
  -357 874 l 4
  -55 634 l 4
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Substitution2: "sub_single_cligmymr_2 subtable" u1086.kham
 Substitution2: "Single Substitution lookup 159 subtable" u1032_uAA70
 Ligature2: "LigatureSubstitutionlookup114 subtable" circledash u1032
@@ -14397,6 +14625,7 @@ AnchorPoint: "Y" -28 495 mark 0
 AnchorPoint: "U" -181 495 mark 0
 AnchorPoint: "UM" -180 495 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -394 634 m 0
@@ -14431,6 +14660,7 @@ AnchorPoint: "Y" -83 495 mark 0
 AnchorPoint: "U" -235 495 mark 0
 AnchorPoint: "UM" -234 495 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -55 725 m 0
@@ -14471,6 +14701,7 @@ AnchorPoint: "Y" -83 507 mark 0
 AnchorPoint: "U" -205 507 mark 0
 AnchorPoint: "UM" -193 495 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -55 810 m 0
@@ -14496,6 +14727,7 @@ AnchorPoint: "Y" -84 495 mark 0
 AnchorPoint: "U" -236 495 mark 0
 AnchorPoint: "UM" -231 495 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -56 683 m 0
@@ -14532,6 +14764,7 @@ AnchorPoint: "Y" -76 495 mark 0
 AnchorPoint: "U" -140 495 mark 0
 AnchorPoint: "UM" -129 495 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -55 667 m 0
@@ -14562,6 +14795,7 @@ GlyphClass: 4
 Flags: HW
 AnchorPoint: "L" -85 -53 mark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 0 -231 m 0
@@ -14597,6 +14831,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 228 84 m 0
@@ -14641,6 +14876,7 @@ AnchorPoint: "LM" 150 -53 basemark 0
 AnchorPoint: "BS" -178 -53 basemark 0
 AnchorPoint: "BSM" 144 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 0 -271 m 0
@@ -14736,8 +14972,9 @@ VWidth: 0
 GlyphClass: 4
 Flags: HW
 AnchorPoint: "U" -231 489 mark 0
-AnchorPoint: "UM" -231 495 basemark 0
+AnchorPoint: "UM" -231 495 mark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 0 837 m 0
@@ -14750,6 +14987,7 @@ SplineSet
  -319 842 -229 916 -137 916 c 0
  -83 916 -28 889 0 837 c 0
 EndSplineSet
+LCarets2: 2 0 0
 Substitution2: "Single Substitution lookup 159 subtable" u103A_uAA70
 Ligature2: "Ligature Substitution lookup 138 subtable" u103A u103C u1031
 Ligature2: "Ligature Substitution lookup 138 subtable" u103A u103C.wide u1031
@@ -14777,6 +15015,7 @@ Flags: HW
 AnchorPoint: "U" -231 489 mark 0
 AnchorPoint: "UM" -231 495 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -40 805 m 0
@@ -14812,6 +15051,7 @@ AnchorPoint: "dot" -255 -53 basechar 0
 AnchorPoint: "U" -31 495 basechar 0
 AnchorPoint: "BD" 250 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 127 -457 m 0
@@ -14851,6 +15091,7 @@ AnchorPoint: "L" 277 -53 basechar 0
 AnchorPoint: "dot" -226 -53 basechar 0
 AnchorPoint: "U" -59 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 127 -457 m 0
@@ -14893,6 +15134,7 @@ AnchorPoint: "L" 277 -53 basechar 0
 AnchorPoint: "dot" -226 -53 basechar 0
 AnchorPoint: "U" -59 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 127 -457 m 0
@@ -14940,6 +15182,7 @@ AnchorPoint: "L" 277 -53 basechar 0
 AnchorPoint: "dot" -226 -39 basechar 0
 AnchorPoint: "U" -59 483 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 127 -457 m 0
@@ -14979,6 +15222,7 @@ AnchorPoint: "LL" 500 -53 basechar 0
 AnchorPoint: "L" 868 -53 basechar 0
 AnchorPoint: "BD" 841 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 728 -92 m 0
@@ -15032,6 +15276,7 @@ AnchorPoint: "LL" 507 -53 basechar 0
 AnchorPoint: "L" 878 -53 basechar 0
 AnchorPoint: "BD" 841 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 728 -92 m 0
@@ -15075,6 +15320,7 @@ AnchorPoint: "LL" 908 -53 basechar 0
 AnchorPoint: "L" 1279 -53 basechar 0
 AnchorPoint: "BD" 1263 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 1129 -92 m 0
@@ -15120,6 +15366,7 @@ AnchorPoint: "LL" 908 -53 basechar 0
 AnchorPoint: "L" 1279 -53 basechar 0
 AnchorPoint: "BD" 1263 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 1129 -107 m 0
@@ -15169,6 +15416,7 @@ AnchorPoint: "R" 192 0 basechar 0
 AnchorPoint: "BS" 832 -53 basechar 0
 AnchorPoint: "L" 832 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 628 -270 m 0
@@ -15223,6 +15471,7 @@ AnchorPoint: "BS" 1214 -53 basechar 0
 AnchorPoint: "LL" 553 -53 basechar 0
 AnchorPoint: "L" 1214 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 1129 736 m 0
@@ -15275,6 +15524,7 @@ AnchorPoint: "R" 192 0 basechar 0
 AnchorPoint: "BS" 832 -53 basechar 0
 AnchorPoint: "L" 832 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 683 -272 m 0
@@ -15318,6 +15568,7 @@ AnchorPoint: "BS" 1214 -53 basechar 0
 AnchorPoint: "LL" 553 -53 basechar 0
 AnchorPoint: "L" 1214 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 1064 -272 m 0
@@ -15363,6 +15614,7 @@ AnchorPoint: "LL" 307 -53 basechar 0
 AnchorPoint: "L" 829 -53 basechar 0
 AnchorPoint: "BD" 781 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 730 736 m 0
@@ -15421,6 +15673,7 @@ AnchorPoint: "LL" 693 -53 basechar 0
 AnchorPoint: "L" 1219 -53 basechar 0
 AnchorPoint: "BD" 1195 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 1154 -457 m 0
@@ -15478,6 +15731,7 @@ AnchorPoint: "LL" 307 -53 basechar 0
 AnchorPoint: "L" 829 -53 basechar 0
 AnchorPoint: "BD" 781 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 765 -457 m 0
@@ -15530,6 +15784,7 @@ AnchorPoint: "LL" 693 -53 basechar 0
 AnchorPoint: "L" 1219 -53 basechar 0
 AnchorPoint: "BD" 1195 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 1154 -457 m 0
@@ -15583,6 +15838,7 @@ AnchorPoint: "LM" 95 -53 basemark 0
 AnchorPoint: "BS" -178 -53 basemark 0
 AnchorPoint: "BSM" 144 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -55 -272 m 0
@@ -15620,6 +15876,7 @@ AnchorPoint: "LM" 86 -53 basemark 0
 AnchorPoint: "BS" 288 -53 basemark 0
 AnchorPoint: "BSM" 610 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -55 -272 m 0
@@ -15660,6 +15917,7 @@ AnchorPoint: "BS" -238 -53 mark 0
 AnchorPoint: "BS" -254 -53 basemark 0
 AnchorPoint: "BSM" -254 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -92 -233 m 0
@@ -15695,6 +15953,7 @@ AnchorPoint: "LM" 95 -53 basemark 0
 AnchorPoint: "BS" -233 -53 basemark 0
 AnchorPoint: "BSM" 144 -53 mark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -54 -279 m 0
@@ -15728,6 +15987,7 @@ AnchorPoint: "LM" 97 -53 basemark 0
 AnchorPoint: "BS" -26 -53 basemark 0
 AnchorPoint: "BSM" 144 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -55 -457 m 0
@@ -15767,6 +16027,7 @@ AnchorPoint: "LM" 45 -53 basemark 0
 AnchorPoint: "BS" -33 -53 basemark 0
 AnchorPoint: "BSM" 101 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -58 -92 m 0
@@ -15794,6 +16055,7 @@ AnchorPoint: "LM" 20 -53 basemark 0
 AnchorPoint: "BS" 222 -53 basemark 0
 AnchorPoint: "BSM" 466 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -45 -457 m 0
@@ -15835,6 +16097,7 @@ AnchorPoint: "LM" 20 -53 basemark 0
 AnchorPoint: "BS" 294 -53 basemark 0
 AnchorPoint: "BSM" 609 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -46 -457 m 0
@@ -15880,6 +16143,7 @@ AnchorPoint: "L" 1092 -53 basechar 0
 AnchorPoint: "BD" 686 -53 basechar 0
 AnchorPoint: "U" 1092 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 1329 222 m 0
@@ -15954,6 +16218,7 @@ AnchorPoint: "L" 292 -53 basechar 0
 AnchorPoint: "U" 292 495 basechar 0
 AnchorPoint: "BD" 292 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 525 222 m 0
@@ -15982,6 +16247,7 @@ AnchorPoint: "U" 287 495 basechar 0
 AnchorPoint: "R" 0 0 mark 0
 AnchorPoint: "BD" 272 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 518 222 m 0
@@ -16010,6 +16276,7 @@ AnchorPoint: "L" 268 -53 basechar 0
 AnchorPoint: "U" 268 495 basechar 0
 AnchorPoint: "BD" 252 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 468 452 m 0
@@ -16036,6 +16303,7 @@ AnchorPoint: "L" 281 -53 basechar 0
 AnchorPoint: "U" 281 495 basechar 0
 AnchorPoint: "BD" 279 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 520 222 m 0
@@ -16068,6 +16336,7 @@ AnchorPoint: "L" 302 -53 basechar 0
 AnchorPoint: "U" 302 495 basechar 0
 AnchorPoint: "BD" 297 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 524 117 m 0
@@ -16100,6 +16369,7 @@ AnchorPoint: "L" 289 -53 basechar 0
 AnchorPoint: "U" 289 495 basechar 0
 AnchorPoint: "BD" 283 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 527 -220 m 0
@@ -16139,6 +16409,7 @@ AnchorPoint: "L" 295 -53 basechar 0
 AnchorPoint: "U" 297 495 basechar 0
 AnchorPoint: "BD" 292 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 527 221 m 0
@@ -16179,6 +16450,7 @@ AnchorPoint: "L" 289 -53 basechar 0
 AnchorPoint: "U" 289 495 basechar 0
 AnchorPoint: "BD" 286 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 453 -409 m 0
@@ -16209,6 +16481,7 @@ AnchorPoint: "L" 301 -53 basechar 0
 AnchorPoint: "U" 295 495 basechar 0
 AnchorPoint: "BD" 292 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 534 204 m 0
@@ -16242,6 +16515,7 @@ AnchorPoint: "L" 295 -53 basechar 0
 AnchorPoint: "U" 295 495 basechar 0
 AnchorPoint: "BD" 292 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 527 -199 m 0
@@ -16278,6 +16552,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 127 0 m 0
@@ -16296,6 +16571,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 287 0 m 0
@@ -16322,6 +16598,7 @@ AnchorPoint: "BS" 640 -53 basechar 0
 AnchorPoint: "L" 640 -53 basechar 0
 AnchorPoint: "BD" 624 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 523 222 m 0
@@ -16376,6 +16653,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 738 -277 m 0
@@ -16431,7 +16709,9 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "U" 294 495 basechar 0
+AnchorPoint: "BS" 292 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 516 -457 m 0
@@ -16487,6 +16767,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 714 -3 m 0
@@ -16545,6 +16826,7 @@ AnchorPoint: "L" 295 -53 basechar 0
 AnchorPoint: "U" 295 495 basechar 0
 AnchorPoint: "BD" 292 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 535 204 m 0
@@ -16633,6 +16915,7 @@ AnchorPoint: "BSM" 565 -53 basemark 0
 AnchorPoint: "BSM" -251 -53 mark 0
 AnchorPoint: "LM" 86 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -55 -288 m 0
@@ -16681,6 +16964,7 @@ AnchorPoint: "L" 295 -53 basechar 0
 AnchorPoint: "U" 295 495 basechar 0
 AnchorPoint: "BD" 292 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 535 239 m 0
@@ -16769,6 +17053,7 @@ AnchorPoint: "BSM" 565 -53 basemark 0
 AnchorPoint: "BSM" -251 -53 mark 0
 AnchorPoint: "LM" 86 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -55 -262 m 0
@@ -16818,6 +17103,7 @@ AnchorPoint: "L" 642 -53 basechar 0
 AnchorPoint: "BD" 63 -173 basechar 0
 AnchorPoint: "U" 295 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 534 239 m 0
@@ -16875,6 +17161,7 @@ AnchorPoint: "L" 642 -53 basechar 0
 AnchorPoint: "BD" 62 -173 basechar 0
 AnchorPoint: "U" 294 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 534 239 m 0
@@ -16921,6 +17208,7 @@ AnchorPoint: "L" 287 -53 basechar 0
 AnchorPoint: "U" 287 495 basechar 0
 AnchorPoint: "BD" 285 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 527 167 m 0
@@ -17002,6 +17290,7 @@ AnchorPoint: "L" 322 -53 basechar 0
 AnchorPoint: "U" 322 495 basechar 0
 AnchorPoint: "BD" 315 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 590 404 m 0
@@ -17087,6 +17376,7 @@ AnchorPoint: "U" 289 495 basechar 0
 AnchorPoint: "L" 283 -53 basechar 0
 AnchorPoint: "BD" 283 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 528 278 m 0
@@ -17169,6 +17459,7 @@ AnchorPoint: "U" 289 495 basechar 0
 AnchorPoint: "L" 283 -53 basechar 0
 AnchorPoint: "BD" 283 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 528 278 m 0
@@ -17255,6 +17546,7 @@ AnchorPoint: "L" 249 -53 basechar 0
 AnchorPoint: "U" 285 495 basechar 0
 AnchorPoint: "BD" 238 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 459 166 m 0
@@ -17306,6 +17598,7 @@ AnchorPoint: "L" 249 -53 basechar 0
 AnchorPoint: "U" 285 495 basechar 0
 AnchorPoint: "BD" 238 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 465 166 m 0
@@ -17369,6 +17662,7 @@ AnchorPoint: "BSM" 32 -53 basemark 0
 AnchorPoint: "U" -293 495 basechar 0
 AnchorPoint: "BD" -495 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 419 -229 m 0
@@ -17413,6 +17707,7 @@ AnchorPoint: "BSM" 25 -53 basemark 0
 AnchorPoint: "U" -293 495 basechar 0
 AnchorPoint: "BD" -495 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 420 -228 m 0
@@ -17453,6 +17748,7 @@ AnchorPoint: "L" 294 -53 basechar 0
 AnchorPoint: "U" 294 495 basechar 0
 AnchorPoint: "BD" 292 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 516 117 m 0
@@ -17525,6 +17821,7 @@ AnchorPoint: "LM" 83 -44 basemark 0
 AnchorPoint: "BS" 142 -53 basemark 0
 AnchorPoint: "BSM" 376 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -56 -199 m 0
@@ -17565,6 +17862,7 @@ AnchorPoint: "L" 228 -53 basechar 0
 AnchorPoint: "U" 291 495 basechar 0
 AnchorPoint: "BD" 148 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 695 -457 m 0
@@ -17641,6 +17939,7 @@ AnchorPoint: "L" 277 -53 basechar 0
 AnchorPoint: "dot" -225 -53 basechar 0
 AnchorPoint: "U" -59 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 127 -457 m 0
@@ -17694,6 +17993,7 @@ AnchorPoint: "L" 293 -64 basechar 0
 AnchorPoint: "U" 293 495 basechar 0
 AnchorPoint: "BD" 290 -69 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 528 222 m 0
@@ -17781,6 +18081,7 @@ AnchorPoint: "LM" 89 -44 basemark 0
 AnchorPoint: "BS" 234 -53 basemark 0
 AnchorPoint: "BSM" 556 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -49 -272 m 0
@@ -17828,6 +18129,7 @@ AnchorPoint: "L" 296 -53 basechar 0
 AnchorPoint: "U" 295 495 basechar 0
 AnchorPoint: "BD" 294 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 534 -267 m 0
@@ -17906,6 +18208,7 @@ AnchorPoint: "LM" 90 -53 basemark 0
 AnchorPoint: "BS" -25 -53 basemark 0
 AnchorPoint: "BSM" 144 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 67 -266 m 0
@@ -17942,6 +18245,7 @@ AnchorPoint: "LM" 127 -53 basemark 0
 AnchorPoint: "BS" -25 -53 basemark 0
 AnchorPoint: "BSM" 144 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 60 -391 m 0
@@ -17971,6 +18275,7 @@ AnchorPoint: "L" -248 -53 mark 0
 AnchorPoint: "LL" -501 -53 basemark 0
 AnchorPoint: "L" 144 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -55 -457 m 0
@@ -17998,6 +18303,7 @@ AnchorPoint: "L" 682 -53 basechar 0
 AnchorPoint: "BD" 90 -53 basechar 0
 AnchorPoint: "U" 296 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 552 -457 m 0
@@ -18069,6 +18375,7 @@ AnchorPoint: "L" 203 -53 basechar 0
 AnchorPoint: "U" 203 495 basechar 0
 AnchorPoint: "BD" 192 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 236 0 m 0
@@ -18094,6 +18401,7 @@ AnchorPoint: "BS" 223 -53 basechar 0
 AnchorPoint: "L" 223 -53 basechar 0
 AnchorPoint: "BD" 216 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 389 743 m 0
@@ -18131,6 +18439,7 @@ AnchorPoint: "L" 277 -53 basechar 0
 AnchorPoint: "U" 277 495 basechar 0
 AnchorPoint: "BD" 276 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 516 222 m 0
@@ -18163,6 +18472,7 @@ AnchorPoint: "BS" 328 -53 basechar 0
 AnchorPoint: "L" 296 -53 basechar 0
 AnchorPoint: "BD" 306 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 516 222 m 0
@@ -18202,6 +18512,7 @@ AnchorPoint: "L" 203 -53 basechar 0
 AnchorPoint: "U" 203 495 basechar 0
 AnchorPoint: "BD" 192 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 364 0 m 0
@@ -18232,6 +18543,7 @@ AnchorPoint: "L" 279 -53 basechar 0
 AnchorPoint: "U" 282 495 basechar 0
 AnchorPoint: "BD" 279 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 518 222 m 0
@@ -18309,6 +18621,7 @@ AnchorPoint: "L" 295 -53 basechar 0
 AnchorPoint: "U" 295 495 basechar 0
 AnchorPoint: "BD" 292 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 535 239 m 0
@@ -18344,6 +18657,7 @@ AnchorPoint: "L" 153 -53 basechar 0
 AnchorPoint: "U" 228 495 basechar 0
 AnchorPoint: "BD" 138 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 266 464 m 0
@@ -18373,6 +18687,7 @@ AnchorPoint: "BS" 147 -53 basechar 0
 AnchorPoint: "L" 147 -53 basechar 0
 AnchorPoint: "BD" 134 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 305 667 m 0
@@ -18408,6 +18723,7 @@ AnchorPoint: "L" 186 -53 basechar 0
 AnchorPoint: "U" 190 496 basechar 0
 AnchorPoint: "BD" 180 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 325 331 m 0
@@ -18445,6 +18761,7 @@ AnchorPoint: "L" 167 -53 basechar 0
 AnchorPoint: "U" 238 495 basechar 0
 AnchorPoint: "BD" 154 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 276 454 m 0
@@ -18474,6 +18791,7 @@ AnchorPoint: "L" 230 -53 basechar 0
 AnchorPoint: "U" 156 495 basechar 0
 AnchorPoint: "BD" 210 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 266 -3 m 0
@@ -18502,6 +18820,7 @@ AnchorPoint: "L" 155 -53 basechar 0
 AnchorPoint: "U" 81 495 basechar 0
 AnchorPoint: "BD" 138 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 266 96 m 0
@@ -18532,6 +18851,7 @@ AnchorPoint: "L" 182 -52 basechar 0
 AnchorPoint: "U" 178 496 basechar 0
 AnchorPoint: "BD" 174 -51 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 327 142 m 0
@@ -18570,6 +18890,7 @@ AnchorPoint: "L" 904 -53 basechar 0
 AnchorPoint: "BD" 597 -53 basechar 0
 AnchorPoint: "U" 904 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 1139 222 m 0
@@ -18647,6 +18968,7 @@ AnchorPoint: "L" 505 -53 basechar 0
 AnchorPoint: "BD" 263 -53 basechar 0
 AnchorPoint: "U" 701 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 938 222 m 0
@@ -18723,6 +19045,7 @@ AnchorPoint: "L" 505 -53 basechar 0
 AnchorPoint: "BD" 263 -53 basechar 0
 AnchorPoint: "U" 698 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 934 222 m 0
@@ -18804,6 +19127,7 @@ AnchorPoint: "L" -90 -53 basechar 0
 AnchorPoint: "LL" -665 -53 basechar 0
 AnchorPoint: "BD" -495 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 228 627 m 0
@@ -18841,6 +19165,7 @@ Flags: HW
 AnchorPoint: "U" -286 489 mark 0
 AnchorPoint: "UM" -286 495 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -55 837 m 0
@@ -18877,6 +19202,7 @@ AnchorPoint: "L" -90 -53 basechar 0
 AnchorPoint: "LL" -665 -53 basechar 0
 AnchorPoint: "BD" -495 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 457 630 m 0
@@ -18904,6 +19230,7 @@ AnchorPoint: "Y" -83 495 mark 0
 AnchorPoint: "U" -284 495 mark 0
 AnchorPoint: "UM" -282 495 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -55 820 m 0
@@ -18933,6 +19260,7 @@ AnchorPoint: "L" 287 -53 basechar 0
 AnchorPoint: "U" 287 495 basechar 0
 AnchorPoint: "BD" 285 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 527 203 m 0
@@ -19015,6 +19343,7 @@ AnchorPoint: "L" 292 -53 basechar 0
 AnchorPoint: "U" 297 495 basechar 0
 AnchorPoint: "BD" 289 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 531 222 m 0
@@ -19101,6 +19430,7 @@ AnchorPoint: "L" 292 -53 basechar 0
 AnchorPoint: "U" 292 495 basechar 0
 AnchorPoint: "BD" 285 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 534 203 m 0
@@ -19187,6 +19517,7 @@ AnchorPoint: "L" 697 -53 basechar 0
 AnchorPoint: "BD" 500 -53 basechar 0
 AnchorPoint: "U" 697 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 931 222 m 0
@@ -19256,6 +19587,7 @@ AnchorPoint: "L" 654 -53 basechar 0
 AnchorPoint: "BD" 471 -53 basechar 0
 AnchorPoint: "U" 654 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 887 222 m 0
@@ -19331,6 +19663,7 @@ AnchorPoint: "L" 734 -53 basechar 0
 AnchorPoint: "U" 581 495 basechar 0
 AnchorPoint: "BD" 750 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 956 222 m 0
@@ -19401,6 +19734,7 @@ AnchorPoint: "L" 641 -53 basechar 0
 AnchorPoint: "BD" 466 -53 basechar 0
 AnchorPoint: "U" 644 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 887 222 m 0
@@ -19475,6 +19809,7 @@ AnchorPoint: "L" 714 -53 basechar 0
 AnchorPoint: "BD" 488 -53 basechar 0
 AnchorPoint: "U" 714 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 943 128 m 0
@@ -19555,6 +19890,7 @@ AnchorPoint: "L" 698 -53 basechar 0
 AnchorPoint: "BD" 498 -53 basechar 0
 AnchorPoint: "U" 698 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 931 166 m 0
@@ -19634,6 +19970,7 @@ AnchorPoint: "L" 449 -53 basechar 0
 AnchorPoint: "BD" 257 -53 basechar 0
 AnchorPoint: "U" 699 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 732 -457 m 0
@@ -19715,7 +20052,9 @@ AnchorPoint: "R" 0 0 mark 0
 AnchorPoint: "BS" 295 -53 basechar 0
 AnchorPoint: "U" 295 495 basechar 0
 AnchorPoint: "BD" 292 -53 basechar 0
+AnchorPoint: "L" 292 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 534 239 m 0
@@ -19798,6 +20137,7 @@ AnchorPoint: "L" 698 -53 basechar 0
 AnchorPoint: "BD" 498 -53 basechar 0
 AnchorPoint: "U" 698 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 934 222 m 0
@@ -19873,6 +20213,7 @@ AnchorPoint: "L" 295 -53 basechar 0
 AnchorPoint: "U" 295 495 basechar 0
 AnchorPoint: "BD" 292 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 535 204 m 0
@@ -19936,21 +20277,18 @@ Encoding: 333 4226 333
 Width: 430
 VWidth: 0
 GlyphClass: 4
-Flags: HW
+Flags: HWO
 AnchorPoint: "BS" 242 -53 mark 0
 AnchorPoint: "BSM" 566 -53 basemark 0
-AnchorPoint: "LL" -195 -53 basechar 0
 AnchorPoint: "L" 566 -53 basechar 0
-AnchorPoint: "BDM" -495 -53 basemark 0
 AnchorPoint: "LM" 25 -53 mark 0
 AnchorPoint: "LR" 61 -53 basechar 0
 AnchorPoint: "BSM" 238 -53 mark 0
 AnchorPoint: "LLM" -770 -53 mark 0
-AnchorPoint: "UM" -293 495 basemark 0
-AnchorPoint: "BS" -293 -53 basemark 0
-AnchorPoint: "U" -293 495 basechar 0
+AnchorPoint: "BS" -293 -53 basechar 0
 AnchorPoint: "BD" -495 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 472 -391 m 0
@@ -19980,6 +20318,7 @@ AnchorPoint: "LM" 76 -53 basemark 0
 AnchorPoint: "BS" -242 -53 basemark 0
 AnchorPoint: "BSM" 76 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 0 -391 m 0
@@ -20007,6 +20346,7 @@ GlyphClass: 2
 Flags: HW
 AnchorPoint: "U" 187 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 346 -457 m 0
@@ -20031,6 +20371,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 484 117 m 0
@@ -20071,6 +20412,7 @@ AnchorPoint: "Y" -89 495 mark 0
 AnchorPoint: "U" -220 495 mark 0
 AnchorPoint: "UM" -219 495 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -55 645 m 0
@@ -20105,6 +20447,7 @@ AnchorPoint: "Y" -86 495 mark 0
 AnchorPoint: "U" -173 495 mark 0
 AnchorPoint: "UM" -169 495 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -58 795 m 0
@@ -20137,6 +20480,7 @@ AnchorPoint: "Y" -28 495 mark 0
 AnchorPoint: "U" -115 495 mark 0
 AnchorPoint: "UM" -114 495 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 0 795 m 0
@@ -20168,6 +20512,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 227 85 m 0
@@ -20200,6 +20545,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 227 75 m 0
@@ -20242,6 +20588,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 227 84 m 0
@@ -20270,6 +20617,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 333 396 m 0
@@ -20316,6 +20664,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 228 226 m 0
@@ -20342,6 +20691,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 228 226 m 0
@@ -20386,6 +20736,7 @@ AnchorPoint: "UM" -293 495 basemark 0
 AnchorPoint: "BS" 290 -53 basemark 0
 AnchorPoint: "BSM" -89 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 510 -156 m 0
@@ -20412,6 +20763,7 @@ AnchorPoint: "L" 291 -53 basechar 0
 AnchorPoint: "U" 291 495 basechar 0
 AnchorPoint: "BD" 288 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 525 222 m 0
@@ -20474,6 +20826,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 227 85 m 0
@@ -20518,6 +20871,7 @@ AnchorPoint: "L" 287 -40 basechar 0
 AnchorPoint: "U" 289 515 basechar 0
 AnchorPoint: "BD" 283 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 526 -221 m 0
@@ -20546,6 +20900,7 @@ GlyphClass: 2
 Flags: HW
 AnchorPoint: "U" 165 515 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 561 -318 m 0
@@ -20569,6 +20924,7 @@ GlyphClass: 2
 Flags: HW
 AnchorPoint: "R" 0 0 mark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 534 222 m 0
@@ -20597,6 +20953,7 @@ GlyphClass: 2
 Flags: HW
 AnchorPoint: "U" 184 515 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 609 -457 m 0
@@ -20624,6 +20981,7 @@ GlyphClass: 2
 Flags: HW
 AnchorPoint: "U" 209 515 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 680 -318 m 0
@@ -20648,6 +21006,7 @@ GlyphClass: 2
 Flags: HW
 AnchorPoint: "R" 1 0 mark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 597 -49 m 0
@@ -20680,6 +21039,7 @@ GlyphClass: 2
 Flags: HW
 AnchorPoint: "R" 1 0 mark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 596 -18 m 0
@@ -20712,6 +21072,7 @@ GlyphClass: 2
 Flags: HW
 AnchorPoint: "U" 221 515 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 478 -457 m 0
@@ -20738,6 +21099,7 @@ AnchorPoint: "L" 294 -40 basechar 0
 AnchorPoint: "U" 294 515 basechar 0
 AnchorPoint: "BD" 290 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 530 -209 m 0
@@ -20775,6 +21137,7 @@ AnchorPoint: "L" 294 -40 basechar 0
 AnchorPoint: "U" 296 515 basechar 0
 AnchorPoint: "BD" 290 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 534 -236 m 0
@@ -20808,6 +21171,7 @@ VWidth: 0
 GlyphClass: 3
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 227 375 m 0
@@ -20833,6 +21197,7 @@ VWidth: 0
 GlyphClass: 3
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 227 631 m 0
@@ -20861,6 +21226,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 333 353 m 0
@@ -20904,6 +21270,7 @@ Flags: HW
 AnchorPoint: "U" -122 495 mark 0
 AnchorPoint: "UM" -114 495 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -100 347 m 0
@@ -20955,6 +21322,7 @@ GlyphClass: 2
 Flags: HW
 AnchorPoint: "U" 187 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 346 -457 m 0
@@ -20987,6 +21355,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 738 -316 m 0
@@ -21051,7 +21420,8 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
+Back
+Fore
 EndChar
 
 StartChar: u200C
@@ -21061,7 +21431,8 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
+Back
+Fore
 EndChar
 
 StartChar: u200D
@@ -21071,7 +21442,8 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
+Back
+Fore
 EndChar
 
 StartChar: quotedblleft
@@ -21081,6 +21453,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 205 673 m 0
@@ -21112,6 +21485,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 438 795 m 0
@@ -21143,6 +21517,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 205 673 m 0
@@ -21165,6 +21540,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 200 795 m 0
@@ -21187,6 +21563,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 470 185 m 0
@@ -21205,6 +21582,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 833 185 m 0
@@ -21223,7 +21601,8 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
+Back
+Fore
 EndChar
 
 StartChar: notequal
@@ -21233,6 +21612,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 541 99 m 0
@@ -21272,6 +21652,7 @@ AnchorPoint: "L" 321 -53 basechar 0
 AnchorPoint: "U" 321 495 basechar 0
 AnchorPoint: "BD" 318 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 586 231 m 0
@@ -21418,6 +21799,7 @@ AnchorPoint: "L" 321 -53 basechar 0
 AnchorPoint: "U" 321 495 basechar 0
 AnchorPoint: "BD" 318 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 586 231 m 0
@@ -21511,6 +21893,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 492 160 m 0
@@ -21536,6 +21919,7 @@ AnchorPoint: "L" 287 -53 basechar 0
 AnchorPoint: "U" 287 495 basechar 0
 AnchorPoint: "BD" 283 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 526 222 m 0
@@ -21577,6 +21961,7 @@ AnchorPoint: "L" 658 -53 basechar 0
 AnchorPoint: "BD" 483 -53 basechar 0
 AnchorPoint: "U" 658 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 370 369 m 0
@@ -21620,6 +22005,7 @@ AnchorPoint: "L" 650 -53 basechar 0
 AnchorPoint: "BD" 463 -53 basechar 0
 AnchorPoint: "U" 650 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 810 250 m 0
@@ -21662,6 +22048,7 @@ AnchorPoint: "L" 693 -53 basechar 0
 AnchorPoint: "BD" 490 -53 basechar 0
 AnchorPoint: "U" 693 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 453 222 m 0
@@ -21714,6 +22101,7 @@ AnchorPoint: "L" 698 -53 basechar 0
 AnchorPoint: "BD" 502 -53 basechar 0
 AnchorPoint: "U" 697 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 860 222 m 0
@@ -21755,6 +22143,7 @@ AnchorPoint: "Y" -33 495 mark 0
 AnchorPoint: "U" -114 495 mark 0
 AnchorPoint: "UM" -111 495 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -4 763 m 0
@@ -21785,6 +22174,7 @@ AnchorPoint: "Y" -33 495 mark 0
 AnchorPoint: "U" -114 495 mark 0
 AnchorPoint: "UM" -111 495 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -4 763 m 0
@@ -21817,6 +22207,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 28 541 m 0
@@ -21844,6 +22235,7 @@ AnchorPoint: "L" 781 -53 basechar 0
 AnchorPoint: "BD" 482 -53 basechar 0
 AnchorPoint: "U" 698 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 934 222 m 0
@@ -21887,6 +22279,7 @@ AnchorPoint: "L" 721 -53 basechar 0
 AnchorPoint: "BD" 502 -53 basechar 0
 AnchorPoint: "U" 697 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 860 222 m 0
@@ -21935,6 +22328,7 @@ AnchorPoint: "L" 702 -53 basechar 0
 AnchorPoint: "BD" 502 -53 basechar 0
 AnchorPoint: "U" 702 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 938 222 m 0
@@ -21977,6 +22371,7 @@ AnchorPoint: "L" 682 -53 basechar 0
 AnchorPoint: "BD" 484 -53 basechar 0
 AnchorPoint: "U" 682 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 913 222 m 0
@@ -22018,6 +22413,7 @@ AnchorPoint: "L" 697 -53 basechar 0
 AnchorPoint: "BD" 500 -53 basechar 0
 AnchorPoint: "U" 697 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 931 222 m 0
@@ -22059,6 +22455,7 @@ AnchorPoint: "L" 723 -53 basechar 0
 AnchorPoint: "BD" 499 -53 basechar 0
 AnchorPoint: "U" 723 500 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 943 221 m 0
@@ -22100,6 +22497,7 @@ AnchorPoint: "L" 695 -53 basechar 0
 AnchorPoint: "BD" 495 -53 basechar 0
 AnchorPoint: "U" 695 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 932 222 m 0
@@ -22146,6 +22544,7 @@ AnchorPoint: "L" 689 -53 basechar 0
 AnchorPoint: "BD" 490 -53 basechar 0
 AnchorPoint: "U" 689 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 925 222 m 0
@@ -22192,6 +22591,7 @@ AnchorPoint: "L" 412 -53 basechar 0
 AnchorPoint: "U" 412 495 basechar 0
 AnchorPoint: "BD" 411 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 657 204 m 0
@@ -22236,6 +22636,7 @@ AnchorPoint: "L" 686 -53 basechar 0
 AnchorPoint: "BD" 484 -53 basechar 0
 AnchorPoint: "U" 686 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 913 222 m 0
@@ -22277,6 +22678,7 @@ AnchorPoint: "L" 695 -53 basechar 0
 AnchorPoint: "BD" 495 -53 basechar 0
 AnchorPoint: "U" 695 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 932 222 m 0
@@ -22318,6 +22720,7 @@ AnchorPoint: "L" 690 -53 basechar 0
 AnchorPoint: "BD" 490 -53 basechar 0
 AnchorPoint: "U" 690 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 925 222 m 0
@@ -22359,6 +22762,7 @@ AnchorPoint: "L" 295 -53 basechar 0
 AnchorPoint: "U" 295 495 basechar 0
 AnchorPoint: "BD" 292 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 534 239 m 0
@@ -22392,6 +22796,7 @@ AnchorPoint: "L" 697 -53 basechar 0
 AnchorPoint: "BD" 495 -53 basechar 0
 AnchorPoint: "U" 697 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 860 222 m 0
@@ -22435,6 +22840,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 526 219 m 0
@@ -22461,6 +22867,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 488 -18 m 0
@@ -22511,6 +22918,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 445 517 m 0
@@ -22549,6 +22957,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 528 166 m 0
@@ -22584,6 +22993,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 528 119 m 0
@@ -22619,6 +23029,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 535 204 m 0
@@ -22649,6 +23060,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 439 749 m 0
@@ -22679,6 +23091,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 599 -18 m 0
@@ -22711,6 +23124,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 462 178 m 0
@@ -22741,6 +23155,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 681 219 m 0
@@ -22776,6 +23191,7 @@ AnchorPoint: "L" 651 -53 basechar 0
 AnchorPoint: "BD" 474 -53 basechar 0
 AnchorPoint: "U" 651 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 891 222 m 0
@@ -22854,6 +23270,7 @@ AnchorPoint: "LM" 83 -53 basemark 0
 AnchorPoint: "BDM" -382 -53 mark 0
 AnchorPoint: "BD" 375 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -55 -272 m 0
@@ -22912,6 +23329,7 @@ AnchorPoint: "LM" 83 -53 basemark 0
 AnchorPoint: "BDM" -382 -53 mark 0
 AnchorPoint: "BD" 375 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -55 -272 m 0
@@ -22959,6 +23377,7 @@ AnchorPoint: "L" 693 -53 basechar 0
 AnchorPoint: "BD" 499 -53 basechar 0
 AnchorPoint: "U" 695 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 929 222 m 0
@@ -23033,6 +23452,7 @@ AnchorPoint: "L" 312 -53 basechar 0
 AnchorPoint: "U" 304 495 basechar 0
 AnchorPoint: "BD" 303 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 592 221 m 0
@@ -23101,6 +23521,7 @@ AnchorPoint: "L" 695 -53 basechar 0
 AnchorPoint: "BD" 503 -53 basechar 0
 AnchorPoint: "U" 695 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 931 222 m 0
@@ -23180,6 +23601,7 @@ AnchorPoint: "L" 699 -53 basechar 0
 AnchorPoint: "BD" 501 -53 basechar 0
 AnchorPoint: "U" 699 314 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 932 222 m 0
@@ -23251,6 +23673,7 @@ AnchorPoint: "L" 720 -53 basechar 0
 AnchorPoint: "U" 711 495 basechar 0
 AnchorPoint: "BD" 744 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 948 222 m 0
@@ -23332,6 +23755,7 @@ AnchorPoint: "L" 695 -53 basechar 0
 AnchorPoint: "BD" 495 -53 basechar 0
 AnchorPoint: "U" 695 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 932 222 m 0
@@ -23406,6 +23830,7 @@ AnchorPoint: "L" 689 -53 basechar 0
 AnchorPoint: "BD" 490 -53 basechar 0
 AnchorPoint: "U" 689 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 925 222 m 0
@@ -23479,6 +23904,7 @@ AnchorPoint: "L" 648 -53 basechar 0
 AnchorPoint: "U" 648 495 basechar 0
 AnchorPoint: "BD" 645 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 888 222 m 0
@@ -23558,6 +23984,7 @@ AnchorPoint: "L" 689 -53 basechar 0
 AnchorPoint: "BD" 490 -53 basechar 0
 AnchorPoint: "U" 689 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 924 222 m 0
@@ -23639,6 +24066,7 @@ AnchorPoint: "L" 689 -53 basechar 0
 AnchorPoint: "BD" 490 -53 basechar 0
 AnchorPoint: "U" 689 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 924 222 m 0
@@ -23715,6 +24143,7 @@ AnchorPoint: "L" 415 -53 basechar 0
 AnchorPoint: "U" 415 495 basechar 0
 AnchorPoint: "BD" 421 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 655 204 m 0
@@ -23789,6 +24218,7 @@ AnchorPoint: "L" 723 -53 basechar 0
 AnchorPoint: "BD" 499 -53 basechar 0
 AnchorPoint: "U" 723 500 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 943 221 m 0
@@ -23853,6 +24283,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 527 204 m 0
@@ -23895,6 +24326,7 @@ AnchorPoint: "L" 540 -53 basechar 0
 AnchorPoint: "U" 540 495 basechar 0
 AnchorPoint: "BD" 555 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 776 222 m 0
@@ -23974,6 +24406,7 @@ AnchorPoint: "L" 686 -53 basechar 0
 AnchorPoint: "BD" 484 -53 basechar 0
 AnchorPoint: "U" 686 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 913 222 m 0
@@ -24047,6 +24480,7 @@ AnchorPoint: "L" 445 -53 basechar 0
 AnchorPoint: "U" 443 495 basechar 0
 AnchorPoint: "BD" 436 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 680 222 m 0
@@ -24108,6 +24542,7 @@ VWidth: 0
 GlyphClass: 4
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 488 799 m 0
@@ -24140,6 +24575,7 @@ AnchorPoint: "L" 701 -53 basechar 0
 AnchorPoint: "BD" 508 -53 basechar 0
 AnchorPoint: "U" 701 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 938 222 m 0
@@ -24215,6 +24651,7 @@ AnchorPoint: "L" 918 -53 basechar 0
 AnchorPoint: "BD" 733 -53 basechar 0
 AnchorPoint: "U" 918 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 1154 222 m 0
@@ -24298,6 +24735,7 @@ AnchorPoint: "L" 314 -53 basechar 0
 AnchorPoint: "U" 314 495 basechar 0
 AnchorPoint: "BD" 303 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 591 221 m 0
@@ -24359,6 +24797,7 @@ VWidth: 0
 GlyphClass: 3
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 713 816 m 0
@@ -24442,6 +24881,7 @@ VWidth: 0
 GlyphClass: 3
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 1089 816 m 0
@@ -24531,6 +24971,7 @@ VWidth: 0
 GlyphClass: 3
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 1132 816 m 0
@@ -24632,6 +25073,7 @@ AnchorPoint: "BD" 155 -53 basechar 0
 AnchorPoint: "U" 294 495 basechar 0
 AnchorPoint: "R" 0 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 832 0 m 0
@@ -24704,6 +25146,7 @@ VWidth: 0
 GlyphClass: 3
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 799 630 m 0
@@ -24777,6 +25220,7 @@ AnchorPoint: "L" 682 -53 basechar 0
 AnchorPoint: "BD" 133 -53 basechar 0
 AnchorPoint: "U" 294 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 630 -457 m 0
@@ -24838,6 +25282,7 @@ AnchorPoint: "L" 896 -53 basechar 0
 AnchorPoint: "BD" 616 -53 basechar 0
 AnchorPoint: "U" 815 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 1043 222 m 0
@@ -24912,6 +25357,7 @@ VWidth: 0
 GlyphClass: 3
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 227 85 m 0
@@ -24946,6 +25392,7 @@ Flags: HW
 AnchorPoint: "U" -237 495 mark 0
 AnchorPoint: "UM" -234 495 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 0 594 m 0
@@ -24963,6 +25410,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 443 257 m 0
@@ -24986,6 +25434,7 @@ AnchorPoint: "L" 58 -53 basechar 0
 AnchorPoint: "U" 290 495 basechar 0
 AnchorPoint: "BD" 84 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 371 75 m 0
@@ -25031,6 +25480,7 @@ AnchorPoint: "L" 443 -53 basechar 0
 AnchorPoint: "BD" 335 -53 basechar 0
 AnchorPoint: "U" 693 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 854 222 m 0
@@ -25085,6 +25535,7 @@ AnchorPoint: "L" 702 -53 basechar 0
 AnchorPoint: "BD" 502 -53 basechar 0
 AnchorPoint: "U" 702 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 938 222 m 0
@@ -25125,6 +25576,7 @@ AnchorPoint: "L" 295 -53 basechar 0
 AnchorPoint: "U" 295 495 basechar 0
 AnchorPoint: "BD" 292 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 535 204 m 0
@@ -25156,6 +25608,7 @@ AnchorPoint: "L" 294 -53 basechar 0
 AnchorPoint: "U" 294 495 basechar 0
 AnchorPoint: "BD" 292 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 516 117 m 0
@@ -25187,6 +25640,7 @@ AnchorPoint: "L" 695 -53 basechar 0
 AnchorPoint: "BD" 495 -53 basechar 0
 AnchorPoint: "U" 695 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 931 222 m 0
@@ -25226,6 +25680,7 @@ AnchorPoint: "L" 295 -53 basechar 0
 AnchorPoint: "U" 295 480 basechar 0
 AnchorPoint: "BD" 292 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 534 239 m 0
@@ -25257,6 +25712,7 @@ AnchorPoint: "L" 296 -53 basechar 0
 AnchorPoint: "U" 295 495 basechar 0
 AnchorPoint: "BD" 294 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 534 239 m 0
@@ -25295,6 +25751,7 @@ AnchorPoint: "L" 697 -53 basechar 0
 AnchorPoint: "BD" 499 -53 basechar 0
 AnchorPoint: "U" 697 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 933 222 m 0
@@ -25335,6 +25792,7 @@ AnchorPoint: "L" 686 -53 basechar 0
 AnchorPoint: "BD" 484 -53 basechar 0
 AnchorPoint: "U" 686 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 913 222 m 0
@@ -25373,6 +25831,7 @@ AnchorPoint: "L" 693 -53 basechar 0
 AnchorPoint: "BD" 500 -53 basechar 0
 AnchorPoint: "U" 695 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 933 222 m 0
@@ -25415,6 +25874,7 @@ Flags: HW
 AnchorPoint: "U" -153 495 mark 0
 AnchorPoint: "UM" -158 495 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 46 595 m 0
@@ -25440,6 +25900,7 @@ AnchorPoint: "L" 291 -53 basechar 0
 AnchorPoint: "U" 292 495 basechar 0
 AnchorPoint: "BD" 284 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 531 203 m 0
@@ -25475,6 +25936,7 @@ AnchorPoint: "L" 699 -53 basechar 0
 AnchorPoint: "BD" 508 -53 basechar 0
 AnchorPoint: "U" 699 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 932 222 m 0
@@ -25515,6 +25977,7 @@ AnchorPoint: "L" 690 -53 basechar 0
 AnchorPoint: "BD" 493 -53 basechar 0
 AnchorPoint: "U" 690 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 926 222 m 0
@@ -25561,6 +26024,7 @@ AnchorPoint: "L" 651 -53 basechar 0
 AnchorPoint: "BD" 474 -53 basechar 0
 AnchorPoint: "U" 651 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 891 222 m 0
@@ -25608,6 +26072,7 @@ AnchorPoint: "L" 693 -53 basechar 0
 AnchorPoint: "BD" 499 -53 basechar 0
 AnchorPoint: "U" 695 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 929 222 m 0
@@ -25652,6 +26117,7 @@ AnchorPoint: "L" 312 -53 basechar 0
 AnchorPoint: "U" 304 495 basechar 0
 AnchorPoint: "BD" 303 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 592 221 m 0
@@ -25689,6 +26155,7 @@ AnchorPoint: "L" 695 -53 basechar 0
 AnchorPoint: "BD" 503 -53 basechar 0
 AnchorPoint: "U" 695 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 931 222 m 0
@@ -25738,6 +26205,7 @@ AnchorPoint: "L" 699 -53 basechar 0
 AnchorPoint: "BD" 501 -53 basechar 0
 AnchorPoint: "U" 699 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 932 222 m 0
@@ -25779,6 +26247,7 @@ AnchorPoint: "L" 720 -53 basechar 0
 AnchorPoint: "U" 711 495 basechar 0
 AnchorPoint: "BD" 744 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 948 222 m 0
@@ -25830,6 +26299,7 @@ AnchorPoint: "L" 701 -53 basechar 0
 AnchorPoint: "BD" 495 -53 basechar 0
 AnchorPoint: "U" 695 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 932 222 m 0
@@ -25873,6 +26343,7 @@ AnchorPoint: "L" 432 -53 basechar 0
 AnchorPoint: "U" 432 495 basechar 0
 AnchorPoint: "BD" 421 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 672 204 m 0
@@ -25913,6 +26384,7 @@ AnchorPoint: "L" 723 -53 basechar 0
 AnchorPoint: "BD" 495 -53 basechar 0
 AnchorPoint: "U" 723 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 943 221 m 0
@@ -25950,6 +26422,7 @@ AnchorPoint: "L" 445 -53 basechar 0
 AnchorPoint: "U" 443 495 basechar 0
 AnchorPoint: "BD" 436 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 680 222 m 0
@@ -25987,6 +26460,7 @@ AnchorPoint: "L" 314 -53 basechar 0
 AnchorPoint: "U" 314 495 basechar 0
 AnchorPoint: "BD" 303 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 591 221 m 0
@@ -26017,6 +26491,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 1092 816 m 0
@@ -26079,6 +26554,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 1132 816 m 0
@@ -26149,6 +26625,7 @@ Flags: HW
 AnchorPoint: "U" -138 487 mark 0
 AnchorPoint: "UM" -158 495 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 49 593 m 0
@@ -26177,6 +26654,7 @@ Flags: HW
 AnchorPoint: "U" -231 489 mark 0
 AnchorPoint: "UM" -231 495 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 0 838 m 0
@@ -26210,13 +26688,14 @@ Flags: HW
 AnchorPoint: "U" -79 495 mark 0
 AnchorPoint: "UM" -74 495 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-0 716 m 0
- 0 673 -37 635 -80 635 c 0
- -122 635 -159 673 -159 716 c 0
- -159 759 -122 795 -80 795 c 0
- -37 795 0 759 0 716 c 0
+0 716 m 4
+ 0 673 -37 635 -80 635 c 4
+ -122 635 -159 673 -159 716 c 4
+ -159 759 -122 795 -80 795 c 4
+ -37 795 0 759 0 716 c 4
 EndSplineSet
 Comment: "GDL_order: 10+AAoA-mark: 210+AAoA"
 EndChar
@@ -26228,6 +26707,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 213 62 m 0
@@ -26251,6 +26731,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 216 -181 m 0
@@ -26272,6 +26753,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 217 50 m 0
@@ -26298,6 +26780,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 214 -166 m 0
@@ -26316,6 +26799,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 378 446 m 0
@@ -26345,6 +26829,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 213 382 m 0
@@ -26363,6 +26848,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 161 602 m 0
@@ -26384,6 +26870,7 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
+Back
 Fore
 SplineSet
 211 -393 m 0
@@ -26411,6 +26898,7 @@ AnchorPoint: "LM" 95 -53 basemark 0
 AnchorPoint: "BS" 234 -51 basemark 0
 AnchorPoint: "BSM" 553 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -55 -157 m 0
@@ -26458,6 +26946,7 @@ AnchorPoint: "L" 277 -53 basechar 0
 AnchorPoint: "dot" -220 -53 basechar 0
 AnchorPoint: "U" -59 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 127 -457 m 0
@@ -26492,6 +26981,7 @@ AnchorPoint: "L" 277 -53 basechar 0
 AnchorPoint: "dot" -220 -53 basechar 0
 AnchorPoint: "U" -59 495 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 127 -457 m 0
@@ -26530,6 +27020,7 @@ AnchorPoint: "R" 192 0 basechar 0
 AnchorPoint: "BS" 773 -53 basechar 0
 AnchorPoint: "L" 773 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 672 -362 m 0
@@ -26571,6 +27062,7 @@ AnchorPoint: "BS" 1167 -53 basechar 0
 AnchorPoint: "LL" 594 -53 basechar 0
 AnchorPoint: "L" 1167 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 1053 -362 m 0
@@ -26612,6 +27104,7 @@ AnchorPoint: "R" 192 0 basechar 0
 AnchorPoint: "BS" 773 -53 basechar 0
 AnchorPoint: "L" 773 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 730 736 m 0
@@ -26658,6 +27151,7 @@ AnchorPoint: "BS" 1167 -53 basechar 0
 AnchorPoint: "LL" 594 -53 basechar 0
 AnchorPoint: "L" 1167 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 1129 736 m 0
@@ -26706,6 +27200,7 @@ AnchorPoint: "LM" 90 -53 basemark 0
 AnchorPoint: "BS" 228 -53 basemark 0
 AnchorPoint: "BSM" 532 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -56 -361 m 0
@@ -26735,6 +27230,7 @@ AnchorPoint: "LM" 91 -53 basemark 0
 AnchorPoint: "BS" 216 -53 basemark 0
 AnchorPoint: "BSM" 523 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -55 -362 m 0
@@ -26767,6 +27263,7 @@ AnchorPoint: "BS" -195 -53 mark 0
 AnchorPoint: "BSM" -195 -53 mark 0
 AnchorPoint: "BS" 317 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -61 -306 m 0
@@ -26802,6 +27299,7 @@ AnchorPoint: "LM" 73 -53 basemark 0
 AnchorPoint: "BS" 226 -53 basemark 0
 AnchorPoint: "BSM" 333 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -22 -111 m 0
@@ -26828,6 +27326,7 @@ AnchorPoint: "LM" 74 -53 basemark 0
 AnchorPoint: "BS" 215 -53 basemark 0
 AnchorPoint: "BSM" 396 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -6 -111 m 0
@@ -26858,6 +27357,7 @@ AnchorPoint: "LM" -511 -53 basemark 0
 AnchorPoint: "BS" 222 -53 basemark 0
 AnchorPoint: "BSM" 466 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -45 -457 m 0
@@ -26891,6 +27391,7 @@ AnchorPoint: "LM" -516 -53 basemark 0
 AnchorPoint: "BS" 222 -53 basemark 0
 AnchorPoint: "BSM" 462 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -45 -457 m 0
@@ -26928,6 +27429,7 @@ AnchorPoint: "LM" -668 -53 basemark 0
 AnchorPoint: "BS" 294 -53 basemark 0
 AnchorPoint: "BSM" -21 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -46 -457 m 0
@@ -26966,6 +27468,7 @@ AnchorPoint: "LM" -672 -53 basemark 0
 AnchorPoint: "BS" 294 -53 basemark 0
 AnchorPoint: "BSM" 612 -53 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -46 -457 m 0
@@ -27000,7 +27503,13 @@ Encoding: 499 4225 499
 Width: 571
 VWidth: 0
 Flags: HW
+AnchorPoint: "U" 292 495 basechar 0
+AnchorPoint: "BS" 410 -53 basechar 0
+AnchorPoint: "BD" 410 -53 basechar 0
+AnchorPoint: "R" 0 0 mark 0
+AnchorPoint: "L" 410 -53 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 516 327 m 1
@@ -27030,6 +27539,7 @@ AnchorPoint: "UM" -269 495 basemark 0
 AnchorPoint: "U" -282 495 mark 0
 AnchorPoint: "Y" -24 495 mark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -203 725 m 0
@@ -27071,6 +27581,7 @@ AnchorPoint: "UM" -269 495 basemark 0
 AnchorPoint: "U" -282 495 mark 0
 AnchorPoint: "Y" -24 495 mark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -175 634 m 0
@@ -27088,6 +27599,163 @@ SplineSet
  -115 770 -134 749 -134 725 c 0
  -134 700 -115 678 -88 678 c 0
  -63 678 -42 699 -42 725 c 0
+EndSplineSet
+EndChar
+
+StartChar: u1011.aiph
+Encoding: 502 -1 502
+Width: 980
+VWidth: 0
+Flags: HW
+AnchorPoint: "R" 0 0 mark 0
+AnchorPoint: "BS" 690 -53 basechar 0
+AnchorPoint: "L" 690 -53 basechar 0
+AnchorPoint: "BD" 490 -53 basechar 0
+AnchorPoint: "U" 690 495 basechar 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+453 222 m 0
+ 453 313 380 390 292 390 c 0
+ 224.056025417 390 166.474915904 348.003125765 141.007866551 289.385771563 c 1
+ 164.088529783 275.386298737 180 250.198288443 180 222 c 0
+ 180 193.926725015 164.22929993 167.984625715 141.314418452 153.356770355 c 1
+ 166.807501386 95.061510657 223.581486413 54 289 54 c 0
+ 380 54 453 130 453 222 c 0
+853 222 m 0
+ 853 313 780 390 690 390 c 0
+ 600 390 527 313 527 222 c 0
+ 527 130 600 54 689 54 c 0
+ 780 54 853 130 853 222 c 0
+925 222 m 0
+ 925 90 818 -18 690 -18 c 0
+ 605 -18 529 28 490 98 c 1
+ 448 29 376 -18 292 -18 c 0
+ 184.394787559 -18 95.7724215526 52.6947384482 65.8526302831 149.59811976 c 1
+ 39.8205539487 163.207552412 20.9999999212 191.332117138 21 222 c 0
+ 21 252.590072424 39.7251723326 279.637544676 65.6546244209 292.70160786 c 1
+ 95.4467041559 389.227196687 184.321759053 461 289 461 c 0
+ 375 461 448 414 490 345 c 1
+ 529 414 605 461 689 461 c 0
+ 818 461 925 352 925 222 c 0
+EndSplineSet
+EndChar
+
+StartChar: u107A.aiph
+Encoding: 503 -1 503
+Width: 1011
+VWidth: 0
+Flags: HW
+AnchorPoint: "R" 0 0 mark 0
+AnchorPoint: "BS" 776 -53 basechar 0
+AnchorPoint: "LL" 290 -53 basechar 0
+AnchorPoint: "L" 734 -53 basechar 0
+AnchorPoint: "U" 581 495 basechar 0
+AnchorPoint: "BD" 750 -53 basechar 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+956 222 m 0
+ 956 90 848 -18 719 -18 c 0
+ 652 -18 593 19 552 67 c 1
+ 552 -385 l 1
+ 630 -385 l 1
+ 630 -457 l 1
+ 481 -457 l 1
+ 481 180 l 2
+ 481 314 383 390 293 390 c 0
+ 198 390 130 312 130 223 c 0
+ 130 134.102961589 193.525148705 70.7709220469 263.980734751 56.8691211053 c 1
+ 263.336148409 60.8482709908 263 64.9014227651 263 69 c 0
+ 263 112 300 148 342 148 c 0
+ 385 148 422 112 422 69 c 0
+ 422 41.4476414609 406.809139503 15.9481019079 384.58258198 1.18268439129 c 1
+ 385 0 l 2
+ 382.236114116 -1.26678103 379.339605573 -2.48051299627 376.325747 -3.63661308861 c 0
+ 368.17528699 -7.77340786674 359.313523193 -10.5287147459 350.068320844 -11.5535144077 c 0
+ 332.336034524 -15.6575984477 312.668017268 -18.0000001081 293 -18 c 0
+ 167 -18 58 86 58 222 c 0
+ 58 346 156 460 293 460 c 0
+ 423 460 538 367 551 209 c 1
+ 569 135 640 54 719 54 c 0
+ 810 54 884 130 884 222 c 0
+ 884 313 810 390 719 390 c 0
+ 705 390 689 387 677 381 c 1
+ 649 447 l 1
+ 670 457 695 461 719 461 c 0
+ 848 461 956 353 956 222 c 0
+EndSplineSet
+EndChar
+
+StartChar: u101D.aiph
+Encoding: 504 -1 504
+Width: 580
+VWidth: 0
+Flags: HW
+AnchorPoint: "R" 0 0 mark 0
+AnchorPoint: "BS" 290 -53 basechar 0
+AnchorPoint: "L" 290 -53 basechar 0
+AnchorPoint: "U" 290 495 basechar 0
+AnchorPoint: "BD" 286 -53 basechar 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+453 222 m 0
+ 453 313 379 390 290 390 c 0
+ 223.478968324 390 167.936906491 349.743777238 142.274756552 293.046518696 c 1
+ 167.884976313 279.747964071 186 253.087565357 186 223 c 0
+ 186 192.83479225 167.791362321 165.130211213 142.076341829 151.278979811 c 1
+ 167.764975434 94.0881869019 223.635202426 54 289 54 c 0
+ 379 54 453 130 453 222 c 0
+525 222 m 0
+ 525 90 420 -18 290 -18 c 0
+ 187.920372519 -18 94.6507902063 55.1911444744 64.8649262743 154.710285379 c 1
+ 42.519181346 169.400161615 26.9999996339 195.151487394 27 223 c 0
+ 27 250.854614728 42.5259836565 275.771881197 64.8796169804 289.868934228 c 1
+ 94.0097461321 387.819666241 184.119701769 461 289 461 c 0
+ 420 461 525 352 525 222 c 0
+EndSplineSet
+EndChar
+
+StartChar: u1031.aiph
+Encoding: 505 -1 505
+Width: 584
+VWidth: 0
+Flags: HW
+AnchorPoint: "R" 0 0 mark 0
+AnchorPoint: "BS" 294 -53 basechar 0
+AnchorPoint: "L" 294 -53 basechar 0
+AnchorPoint: "U" 294 495 basechar 0
+AnchorPoint: "BD" 292 -53 basechar 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+446 136 m 1
+ 415 149 387 155 358 155 c 0
+ 294 155 246 126 212 75 c 1
+ 237 62 264 54 294 54 c 0
+ 351 54 411 79 446 136 c 1
+528 166 m 1
+ 526 88 433 -18 294 -18 c 0
+ 158 -18 55 92 55 222 c 0
+ 55 344 156 461 294 461 c 0
+ 378.082655109 461 469.468918576 418.091300899 509.713970404 338.38007892 c 0
+ 511.271694747 335.639595307 512.631299648 332.781434962 513.771384052 329.825622588 c 0
+ 514.18784992 328.888489857 514.597417225 327.946612605 515 327 c 2
+ 514.818004647 326.897260688 l 1
+ 516.811526604 320.847460247 517.89453125 314.431431825 517.89453125 307.810546875 c 0
+ 517.89453125 272.98046875 487.924804688 242.200195312 453.094726562 242.200195312 c 0
+ 419.075195312 242.200195312 389.10546875 272.98046875 389.10546875 307.810546875 c 0
+ 389.10546875 323.584889626 395.253000542 338.196391553 405.140040783 349.462662426 c 1
+ 373.721718316 375.415111201 335.437603893 390 294 390 c 0
+ 190 390 127 297 127 222 c 0
+ 127 183 142 149 164 122 c 1
+ 214 188 286 220 360 220 c 0
+ 411 220 467 201 528 166 c 1
 EndSplineSet
 EndChar
 EndChars

@@ -62,7 +62,7 @@ for f in ['', 'bold', 'book', 'bookbold'] :
                 opentype = fea('font-source/padauk' + f + '.fea',
                                 master = 'font-source/padauk' + f + '_ext.fea',
                                 make_params="-m _R -z 8"),
-                sfd_master = 'font-source/master.sfd',
+#                sfd_master = 'font-source/master.sfd',
                 graphite = gdl('padauk' + f + '.gdl',
                                 master = 'font-source/myanmar5.gdl',
                                 params = '-w3521 -w3530 -q -d -v2', make_params="-m _R",
