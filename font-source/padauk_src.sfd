@@ -4,7 +4,7 @@ FullName: Padauk
 FamilyName: Padauk
 Weight: Regular
 Copyright: Copyright (c) 2002-2010 SIL International.
-Version: 
+Version 
 ItalicAngle: 0
 UnderlinePosition: -450
 UnderlineWidth: 50
@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1387324841
-ModificationTime: 1444105763
+ModificationTime: 1444198192
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -4172,7 +4172,7 @@ WinInfo: 162 27 9
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "BD" "markMarkPositioninginMyanmarloo subtable" "BDM" "mkmkMarktoMarkinMyanmarlookup1 subtable" "BS" "pos_mark2base_markmymr_0 subtable" "BSM" "mkmkMarktoMarkinMyanmarlookup3 subtable" "U" "pos_mark2base_markmymr_2 subtable" "UM" "mkmkMarktoMarkinMyanmarlookup7 subtable" "dot" "_someAnchorsbase" "Y" "_someAnchorsbase" "LLM" "_someAnchorsmark" "LR" "_someAnchorsbase" "R" "_someAnchorsbase" "L" "_someAnchorsbase" "LM" "_someAnchorsmark" "LL" "_someAnchorsbase" 
-BeginChars: 502 502
+BeginChars: 506 506
 
 StartChar: .notdef
 Encoding: 0 -1 0
@@ -4227,7 +4227,6 @@ Flags: HW
 LayerCount: 2
 Back
 Fore
-Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: exclam
@@ -6841,6 +6840,7 @@ Width: 0
 VWidth: 0
 GlyphClass: 4
 Flags: HW
+AnchorPoint: "BS" 235 -53 basemark 0
 AnchorPoint: "LLM" -872 -53 basemark 0
 AnchorPoint: "LL" -872 -53 basemark 0
 AnchorPoint: "BD" -393 -53 mark 0
@@ -7101,13 +7101,14 @@ Encoding: 104 -1 104
 Width: 0
 VWidth: 0
 GlyphClass: 4
-Flags: W
+Flags: HW
 HStem: -450 40<-315.207 -165.783> -315 35<-362.016 -225.878> -125 41<-311.255 -166.297>
 VStem: -95 39<-339.102 -195.941>
-AnchorPoint: "BS" -237 -53 mark 0
+AnchorPoint: "BS" 235 -53 basemark 0
 AnchorPoint: "LLM" -557 -53 basemark 0
 AnchorPoint: "LL" -557 -53 basemark 0
 AnchorPoint: "BSM" -237 -53 mark 0
+AnchorPoint: "BS" -237 -53 mark 0
 AnchorPoint: "LM" 88 -53 basemark 0
 AnchorPoint: "L" 88 -53 basemark 0
 AnchorPoint: "BSM" -237 -53 basemark 0
@@ -7346,9 +7347,10 @@ Encoding: 108 -1 108
 Width: 0
 VWidth: 0
 GlyphClass: 4
-Flags: W
+Flags: HW
 HStem: -450 40<-639.782 -491.706 -296.975 -165.209> -126 39<-714.761 -638.324 -277.825 -165.209>
 VStem: -740 39<-351.11 -267.764 -133.344 -127.296> -632 39<-201.185 -131.851> -420 42<-325.359 -171.286> -95 39<-338.185 -196.097>
+AnchorPoint: "BS" 235 -53 basemark 0
 AnchorPoint: "LLM" -884 -53 basemark 0
 AnchorPoint: "BD" -401 -53 mark 0
 AnchorPoint: "BSM" 88 -53 basemark 0
@@ -8124,6 +8126,7 @@ Width: 0
 VWidth: 0
 GlyphClass: 4
 Flags: HW
+AnchorPoint: "BS" 235 -53 basemark 0
 AnchorPoint: "LLM" -878 -53 basemark 0
 AnchorPoint: "BD" -395 -53 mark 0
 AnchorPoint: "BSM" 88 -53 basemark 0
@@ -8269,9 +8272,10 @@ Width: 0
 VWidth: 0
 GlyphClass: 4
 Flags: HW
-AnchorPoint: "BS" -283 -53 mark 0
+AnchorPoint: "BS" 235 -53 basemark 0
 AnchorPoint: "LLM" -596 -53 basemark 0
 AnchorPoint: "BSM" -283 -53 mark 0
+AnchorPoint: "BS" -283 -53 mark 0
 AnchorPoint: "LM" 25 -53 basemark 0
 AnchorPoint: "BSM" 532 -53 basemark 0
 LayerCount: 2
@@ -8394,11 +8398,11 @@ Encoding: 126 -1 126
 Width: 162
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -435 40<-268.135 -148.251> -110 41<-267.635 -148.572> 424 20G<55 106>
 VStem: -396 39<-323.514 -180.341> -249 34<-314.857 -186.992> -78 39<-323.117 -180.941> 55 51<-384 444>
 DStem2: -68 -351 -107 -395 0.968242 -0.250015<0 127.344>
-AnchorPoint: "BS" 250 -53 basechar 0
+AnchorPoint: "BS" 235 -53 basemark 0
 AnchorPoint: "L" 250 -53 basechar 0
 AnchorPoint: "dot" -218 -53 basechar 0
 AnchorPoint: "U" 0 495 basechar 0
@@ -8741,6 +8745,7 @@ Width: 0
 VWidth: 0
 GlyphClass: 4
 Flags: HW
+AnchorPoint: "BS" 235 -53 basemark 0
 AnchorPoint: "LLM" -832 -53 basemark 0
 AnchorPoint: "BD" -368 -53 mark 0
 AnchorPoint: "BSM" 110 -53 basemark 0
@@ -9013,9 +9018,10 @@ Width: 0
 VWidth: 0
 GlyphClass: 4
 Flags: HW
-AnchorPoint: "BS" -161 -53 mark 0
+AnchorPoint: "BS" 235 -53 basemark 0
 AnchorPoint: "LLM" -416 -53 basemark 0
 AnchorPoint: "BSM" -161 -53 mark 0
+AnchorPoint: "BS" -161 -53 mark 0
 AnchorPoint: "LM" 88 -53 basemark 0
 AnchorPoint: "BSM" 166 -53 basemark 0
 LayerCount: 2
@@ -9295,9 +9301,10 @@ Encoding: 139 -1 139
 Width: 0
 VWidth: 0
 GlyphClass: 4
-Flags: W
+Flags: HW
 HStem: -450 39<-674.242 -370> -149 39<-710.146 -643.201> -138 39<-308.896 -166.689>
 VStem: -756 39<-367.503 -156.546> -636 39<-230.452 -156.316> -420 39<-351.91 -209.66> -94 39<-352.516 -209.66>
+AnchorPoint: "BS" 235 -53 basemark 0
 AnchorPoint: "LLM" -900 -53 basemark 0
 AnchorPoint: "BD" -405 -53 mark 0
 AnchorPoint: "BSM" 89 -53 basemark 0
@@ -9424,9 +9431,10 @@ Width: 0
 VWidth: 0
 GlyphClass: 4
 Flags: HW
-AnchorPoint: "BS" -204 -53 mark 0
+AnchorPoint: "BS" 235 -53 basemark 0
 AnchorPoint: "LLM" -465 -53 basemark 0
 AnchorPoint: "BSM" -204 -53 mark 0
+AnchorPoint: "BS" -204 -53 mark 0
 AnchorPoint: "LM" 50 -53 basemark 0
 AnchorPoint: "BSM" 172 -53 basemark 0
 LayerCount: 2
@@ -9726,9 +9734,10 @@ Width: 0
 VWidth: 0
 GlyphClass: 4
 Flags: HW
-AnchorPoint: "BS" -238 -53 mark 0
+AnchorPoint: "BS" 235 -53 basemark 0
 AnchorPoint: "LLM" -559 -53 basemark 0
 AnchorPoint: "BSM" 95 -53 basemark 0
+AnchorPoint: "BS" 95 -53 basemark 0
 AnchorPoint: "LM" 95 -53 basemark 0
 AnchorPoint: "BSM" 232 -53 basemark 0
 LayerCount: 2
@@ -9853,6 +9862,7 @@ Width: 0
 VWidth: 0
 GlyphClass: 4
 Flags: HW
+AnchorPoint: "BS" 235 -53 basemark 0
 AnchorPoint: "LLM" -908 -53 basemark 0
 AnchorPoint: "BD" -410 -53 mark 0
 AnchorPoint: "BSM" 88 -53 basemark 0
@@ -10190,6 +10200,7 @@ Width: 0
 VWidth: 0
 GlyphClass: 4
 Flags: HW
+AnchorPoint: "BS" 235 -53 basemark 0
 AnchorPoint: "LLM" -867 -53 basemark 0
 AnchorPoint: "BD" -379 -53 mark 0
 AnchorPoint: "BSM" 104 -53 basemark 0
@@ -10239,7 +10250,6 @@ Width: 0
 VWidth: 0
 GlyphClass: 4
 Flags: HW
-AnchorPoint: "BS" -231 -53 mark 0
 AnchorPoint: "LLM" -553 -53 basemark 0
 AnchorPoint: "BSM" -231 -53 mark 0
 AnchorPoint: "LM" 89 -53 basemark 0
@@ -10359,6 +10369,7 @@ Width: 0
 VWidth: 0
 GlyphClass: 4
 Flags: HW
+AnchorPoint: "BS" 235 -53 basemark 0
 AnchorPoint: "LLM" 88 -53 basemark 0
 AnchorPoint: "BD" -395 -53 mark 0
 AnchorPoint: "BSM" 88 -53 basemark 0
@@ -10491,9 +10502,10 @@ Width: 0
 VWidth: 0
 GlyphClass: 4
 Flags: HW
-AnchorPoint: "BS" -225 -53 mark 0
+AnchorPoint: "BS" 235 -53 basemark 0
 AnchorPoint: "LLM" -533 -53 basemark 0
 AnchorPoint: "BSM" -225 -53 mark 0
+AnchorPoint: "BS" -225 -53 mark 0
 AnchorPoint: "LM" 82 -53 basemark 0
 AnchorPoint: "BSM" 219 -53 basemark 0
 LayerCount: 2
@@ -10619,9 +10631,10 @@ Width: 0
 VWidth: 0
 GlyphClass: 4
 Flags: HW
-AnchorPoint: "BS" -234 -53 mark 0
+AnchorPoint: "BS" 235 -53 basemark 0
 AnchorPoint: "LLM" -557 -53 basemark 0
 AnchorPoint: "BSM" -234 -53 mark 0
+AnchorPoint: "BS" -234 -53 mark 0
 AnchorPoint: "LM" 88 -53 basemark 0
 AnchorPoint: "BSM" 234 -53 basemark 0
 LayerCount: 2
@@ -10844,9 +10857,10 @@ Width: 0
 VWidth: 0
 GlyphClass: 4
 Flags: HW
-AnchorPoint: "BS" -210 -53 mark 0
+AnchorPoint: "BS" 235 -53 basemark 0
 AnchorPoint: "LLM" -522 -53 basemark 0
 AnchorPoint: "BSM" -210 -53 mark 0
+AnchorPoint: "BS" -210 -53 mark 0
 AnchorPoint: "LM" 89 -53 basemark 0
 AnchorPoint: "BSM" 223 -53 basemark 0
 LayerCount: 2
@@ -11155,9 +11169,10 @@ Width: 0
 VWidth: 0
 GlyphClass: 4
 Flags: HW
-AnchorPoint: "BS" -239 -53 mark 0
+AnchorPoint: "BS" 235 -53 basemark 0
 AnchorPoint: "LLM" -566 -53 basemark 0
 AnchorPoint: "BSM" -239 -53 mark 0
+AnchorPoint: "BS" -239 -53 mark 0
 AnchorPoint: "LM" 88 -53 basemark 0
 AnchorPoint: "BSM" 238 -53 basemark 0
 LayerCount: 2
@@ -11277,8 +11292,9 @@ Width: 0
 VWidth: 0
 GlyphClass: 4
 Flags: HW
-AnchorPoint: "BS" -239 -53 mark 0
+AnchorPoint: "BS" 235 -53 basemark 0
 AnchorPoint: "BSM" -239 -53 mark 0
+AnchorPoint: "BS" -239 -53 mark 0
 AnchorPoint: "LM" -566 -53 basemark 0
 AnchorPoint: "BSM" 238 -53 basemark 0
 LayerCount: 2
@@ -11401,9 +11417,10 @@ Width: 0
 VWidth: 0
 GlyphClass: 4
 Flags: HW
-AnchorPoint: "BS" -240 -53 mark 0
+AnchorPoint: "BS" 235 -53 basemark 0
 AnchorPoint: "LLM" -567 -53 basemark 0
 AnchorPoint: "BSM" -240 -53 mark 0
+AnchorPoint: "BS" -240 -53 mark 0
 AnchorPoint: "LM" 88 -53 basemark 0
 AnchorPoint: "BSM" 237 -53 basemark 0
 LayerCount: 2
@@ -11513,6 +11530,7 @@ Width: 0
 VWidth: 0
 GlyphClass: 4
 Flags: HW
+AnchorPoint: "BS" 235 -53 basemark 0
 AnchorPoint: "LLM" -875 -53 basemark 0
 AnchorPoint: "BD" -393 -53 mark 0
 AnchorPoint: "BSM" 88 -53 basemark 0
@@ -11648,9 +11666,10 @@ Width: 0
 VWidth: 0
 GlyphClass: 4
 Flags: HW
-AnchorPoint: "BS" -239 -53 mark 0
+AnchorPoint: "BS" 235 -53 basemark 0
 AnchorPoint: "LLM" -566 -53 basemark 0
 AnchorPoint: "BSM" -239 -53 mark 0
+AnchorPoint: "BS" -239 -53 mark 0
 AnchorPoint: "LM" 88 -53 basemark 0
 AnchorPoint: "BSM" 238 -53 basemark 0
 LayerCount: 2
@@ -11765,6 +11784,7 @@ Width: 0
 VWidth: 0
 GlyphClass: 4
 Flags: HW
+AnchorPoint: "BS" 235 -53 basemark 0
 AnchorPoint: "LLM" -866 -53 basemark 0
 AnchorPoint: "BD" -392 -53 mark 0
 AnchorPoint: "BSM" 69 -53 basemark 0
@@ -12041,9 +12061,10 @@ Width: 0
 VWidth: 0
 GlyphClass: 4
 Flags: HW
-AnchorPoint: "BS" -217 -53 mark 0
+AnchorPoint: "BS" 235 -53 basemark 0
 AnchorPoint: "LLM" -550 -53 basemark 0
 AnchorPoint: "BSM" -217 -53 mark 0
+AnchorPoint: "BS" -217 -53 mark 0
 AnchorPoint: "LM" 97 -53 basemark 0
 AnchorPoint: "BSM" 211 -53 basemark 0
 LayerCount: 2
@@ -12341,6 +12362,7 @@ Width: 0
 VWidth: 0
 GlyphClass: 4
 Flags: HW
+AnchorPoint: "BS" 235 -53 basemark 0
 AnchorPoint: "LLM" -854 -53 basemark 0
 AnchorPoint: "BD" -390 -53 mark 0
 AnchorPoint: "BSM" 88 -53 basemark 0
@@ -12585,6 +12607,7 @@ Width: 0
 VWidth: 0
 GlyphClass: 4
 Flags: HW
+AnchorPoint: "BS" 235 -53 basemark 0
 AnchorPoint: "LLM" -878 -53 basemark 0
 AnchorPoint: "BD" -396 -53 mark 0
 AnchorPoint: "BSM" 85 -53 basemark 0
@@ -13145,6 +13168,7 @@ Width: 0
 VWidth: 0
 GlyphClass: 4
 Flags: HW
+AnchorPoint: "BS" 235 -53 basemark 0
 AnchorPoint: "LLM" -813 -53 basemark 0
 AnchorPoint: "BD" -331 -53 mark 0
 AnchorPoint: "BSM" 150 -53 basemark 0
@@ -21219,7 +21243,6 @@ Flags: HW
 LayerCount: 2
 Back
 Fore
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u200C
@@ -21231,7 +21254,6 @@ Flags: W
 LayerCount: 2
 Back
 Fore
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: u200D
@@ -21243,7 +21265,6 @@ Flags: W
 LayerCount: 2
 Back
 Fore
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: quotedblleft
@@ -21403,7 +21424,6 @@ Flags: HW
 LayerCount: 2
 Back
 Fore
-Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
 StartChar: notequal
@@ -22250,11 +22270,11 @@ SplineSet
  604 408 528 321 528 217 c 0
  528 127 603 36 711 36 c 0
  810 36 891 120 891 222 c 0
-783 220 m 0
- 783 179 750 146 709 146 c 0
- 668 146 635 179 635 220 c 0
- 635 261 668 294 709 294 c 0
- 750 294 783 261 783 220 c 0
+783 220 m 4
+ 783 179 750 146 709 146 c 4
+ 668 146 635 179 635 220 c 4
+ 635 261 668 294 709 294 c 4
+ 750 294 783 261 783 220 c 4
 EndSplineSet
 Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
@@ -22341,11 +22361,11 @@ SplineSet
  248 146 214 179 214 222 c 0
  214 265 248 297 289 297 c 0
  329 297 364 265 364 222 c 0
-784 222 m 0
- 784 179 749 146 709 146 c 0
- 668 146 634 179 634 222 c 0
- 634 265 668 297 709 297 c 0
- 749 297 784 265 784 222 c 0
+784 222 m 4
+ 784 179 749 146 709 146 c 4
+ 668 146 634 179 634 222 c 4
+ 634 265 668 297 709 297 c 4
+ 749 297 784 265 784 222 c 4
 EndSplineSet
 Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
@@ -26538,11 +26558,11 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-0 720 m 0
- 0 679 -35 643 -75 643 c 0
- -116 643 -150 679 -150 720 c 0
- -150 760 -116 795 -75 795 c 0
- -35 795 0 760 0 720 c 0
+0 720 m 4
+ 0 679 -35 643 -75 643 c 4
+ -116 643 -150 679 -150 720 c 4
+ -150 760 -116 795 -75 795 c 4
+ -35 795 0 760 0 720 c 4
 EndSplineSet
 Comment: "GDL_order: 10+AAoA-mark: 210+AAoA"
 EndChar
@@ -27477,6 +27497,164 @@ SplineSet
  -586 847 l 0
  -564 880 l 0
  -265 643 l 0
+EndSplineSet
+EndChar
+
+StartChar: u1011.aiph
+Encoding: 502 -1 502
+Width: 990
+VWidth: 0
+Flags: HW
+AnchorPoint: "R" 0 0 mark 0
+AnchorPoint: "BS" 702 -53 basechar 0
+AnchorPoint: "L" 702 -53 basechar 0
+AnchorPoint: "BD" 495 -53 basechar 0
+AnchorPoint: "U" 702 495 basechar 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+469 222 m 0
+ 469 324 388 408 289 408 c 0
+ 209.516130077 408 142.784220663 356.992157963 117.195733113 286.20708138 c 1
+ 141.434825716 274.081358057 158 249.048578942 158 220 c 0
+ 158 191.441083149 141.988585873 166.763721237 118.41491957 154.417076215 c 1
+ 144.755622529 85.3917614947 210.085836819 36 286 36 c 0
+ 388 36 469 120 469 222 c 0
+883 222 m 0
+ 883 324 802 408 702 408 c 0
+ 601 408 520 324 520 222 c 0
+ 520 120 601 36 702 36 c 0
+ 802 36 883 120 883 222 c 0
+934 222 m 0
+ 934 91 828 -15 702 -15 c 0
+ 612 -15 532 37 495 114 c 1
+ 454 37 379 -15 289 -15 c 0
+ 183.005072151 -15 96.354022969 53.3483712895 66.3259980166 148.106074648 c 1
+ 33.9170687594 155.989167522 10.0000003209 185.095545213 10 220 c 0
+ 10 254.57141693 33.4628403704 283.454872559 65.4006490341 291.662494808 c 1
+ 94.7403033608 387.647786559 182.772462286 459 286 459 c 0
+ 378 459 454 406 495 330 c 1
+ 532 406 612 459 702 459 c 0
+ 828 459 934 351 934 222 c 0
+EndSplineSet
+EndChar
+
+StartChar: u107A.aiph
+Encoding: 503 -1 503
+Width: 1008
+VWidth: 0
+Flags: HW
+AnchorPoint: "R" 0 0 mark 0
+AnchorPoint: "BS" 750 -53 basechar 0
+AnchorPoint: "LL" 286 -53 basechar 0
+AnchorPoint: "L" 720 -53 basechar 0
+AnchorPoint: "U" 720 495 basechar 0
+AnchorPoint: "BD" 750 -53 basechar 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+952 222 m 0
+ 952 91 847 -15 720 -15 c 0
+ 643 -15 576 33 532 93 c 1
+ 532 -399 l 1
+ 615 -399 l 1
+ 615 -450 l 1
+ 481 -450 l 1
+ 481 202 l 2
+ 481 324 388 408 286 408 c 0
+ 187 408 106 322 106 223 c 0
+ 106 120.371172207 179.270791612 51.9884752754 257.58073366 38.4635508118 c 1
+ 255.257601264 45.8300742842 254 53.7300957797 254 62 c 0
+ 254 105 288 137 329 137 c 0
+ 369 137 404 105 404 62 c 0
+ 404 40.1387589984 394.953496466 20.8622332923 380.80270456 7.1927878395 c 1
+ 382 4 l 2
+ 378.644779761 2.24250368444 374.855596827 0.561589020925 370.705864396 -1.02235037878 c 0
+ 358.612687588 -9.25627216423 344.165717485 -14.0000008888 329 -14 c 0
+ 325.147006909 -14 321.355833502 -13.7085643426 317.648888 -13.1447816983 c 0
+ 307.299913263 -14.3423067845 296.608850807 -14.9999997922 286 -15 c 0
+ 163 -15 55 85 55 222 c 0
+ 55 349 154 457 286 457 c 0
+ 414 457 526 360 532 213 c 1
+ 549 129 630 36 720 36 c 0
+ 820 36 901 120 901 222 c 0
+ 901 324 820 408 720 408 c 0
+ 703 408 684 405 669 397 c 1
+ 649 444 l 1
+ 672 454 696 459 720 459 c 0
+ 847 459 952 351 952 222 c 0
+EndSplineSet
+EndChar
+
+StartChar: u101D.aiph
+Encoding: 504 -1 504
+Width: 575
+VWidth: 0
+Flags: HW
+AnchorPoint: "R" 0 0 mark 0
+AnchorPoint: "BS" 286 -53 basechar 0
+AnchorPoint: "L" 286 -53 basechar 0
+AnchorPoint: "U" 286 495 basechar 0
+AnchorPoint: "BD" 286 -53 basechar 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+520 222 m 0
+ 520 91 415 -15 287 -15 c 0
+ 185.047839452 -15 97.2734547665 53.3111018839 66.6162715641 148.028565015 c 1
+ 33.8182358283 155.823660302 8.99999997751 185.262089581 9 222 c 0
+ 9 258.714293534 33.7863374196 287.409477902 66.553029067 295.014232845 c 1
+ 97.1525936665 389.304135243 184.977643941 459 287 459 c 0
+ 415 459 520 351 520 222 c 0
+469 222 m 0
+ 469 324 386 408 287 408 c 0
+ 208.523037116 408 143.660893069 358.276313812 117.917906914 288.887626752 c 1
+ 141.887089933 276.756524985 159 252.067434075 159 222 c 0
+ 159 192.034956666 142.003443066 166.926072455 118.162539797 154.456708828 c 1
+ 144.069989293 85.4106686195 208.770438823 36 287 36 c 0
+ 386 36 469 120 469 222 c 0
+EndSplineSet
+EndChar
+
+StartChar: u1031.aiph
+Encoding: 505 -1 505
+Width: 576
+VWidth: 0
+Flags: HW
+HStem: -15 51<204.389 388.016> 151 51<271.589 456.461> 408 51<206.554 378.3>
+VStem: 55 51<134.586 307.02>
+AnchorPoint: "R" 0 0 mark 0
+AnchorPoint: "BS" 292 -53 basechar 0
+AnchorPoint: "L" 292 -53 basechar 0
+AnchorPoint: "U" 292 495 basechar 0
+AnchorPoint: "BD" 292 -53 basechar 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+460 127 m 1
+ 428 143 396 151 363 151 c 0
+ 291 151 239 119 202 58 c 1
+ 230 45 259 36 292 36 c 0
+ 360 36 424 63 460 127 c 1
+520 153 m 1
+ 517 105 449 -15 292 -15 c 0
+ 162 -15 55 91 55 222 c 0
+ 55 351 162 459 292 459 c 0
+ 386 459 479 409 513 322 c 1
+ 511.788650172 321.311733053 l 2
+ 512.581603892 317.563420134 513 313.711497847 513 309.799804688 c 0
+ 513 277 485 248.200195312 453 248.200195312 c 0
+ 420.200195312 248.200195312 393 277 393 309.799804688 c 0
+ 393 329.718203216 403.538550984 348.086825964 419.406359181 359.117725749 c 1
+ 383.230084416 390.342983256 338.035447369 408 292 408 c 0
+ 190 408 106 323 106 222 c 0
+ 106 170 127 126 159 91 c 1
+ 208 164 278 202 366 202 c 0
+ 419 202 464 182 520 153 c 1
 EndSplineSet
 EndChar
 EndChars
