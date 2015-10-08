@@ -42,6 +42,26 @@ opts = preprocess_args({'opt' : '--no2'})
 
 scriptcode = 'mymr' if '--no2' in opts else 'mym2'
 
+for f in ['', 'bold', 'book', 'bookbold'] :
+    fsf = 'font-source/padauk' + f
+    if len(f) :
+        target = 'Padauk-' + f + '.ttf'
+    else :
+        target = 'Padauk.ttf'
+
+    srcfile = fsf + '_src.sfd'
+
+    fnt = font(target = process(target, 
+                        name(namestrings[f][0], lang='en-US', subfamily = namestrings[f][1])),
+                version = TTF_VERSION,
+                license = ofl("Padauk"),
+                copyright = COPYRIGHT,
+                source = srcfile,
+                ap = fsf + '.xml',
+                classes = 'font-source/padauk_classes.xml',
+                opentype = fea('font-source/padauk' + f + '.fea',
+                                master = 'font-source/padauk' + f + '_ext.fea',
+                                make_params="-m _R -z 8"),
 #                sfd_master = 'font-source/master.sfd',
                 graphite = gdl('padauk' + f + '.gdl',
                                 master = 'font-source/myanmar5.gdl',
