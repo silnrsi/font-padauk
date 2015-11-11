@@ -5,54 +5,6 @@
     License:        Open Font License 1.1
 
 0.01    MJPH    22-JUN-2001     Original
-0.90    MJPH    10-JUN-2003     Add documentation, first candidate release
-0.92    MJPH     4-AUG-2003     Improve line breaking algorithm
-1.00    MJPH     7-AUG-2003     Release - no changes
-1.01    MJPH    16-SEP-2003     Latest ZWJ and ZWNJ usages,
-                                Start to finesse: centre clusters in wraps, narrow cons
-                                with wide diacritics take a wide wrap.
-1.02    MJPH     8-OCT-2003     Add u1004.med_u102F
-1.03    MJPH    28-OCT-2003     Add support for contractions (reduplication) killer order
-1.04    KRS     31-MAY-2004     Fixed some ligature issues with kinzi
-1.05    KRS     09-JUN-2004     Added breakweights for section markers
-                                Fixed tall yecha for 1012 + wasway
-                                Swapped order of U+100E/U+100D stacked ligature
-1.06    KRS     14-JUL-2004     Made yecha tall with U+1001 etc and Kinzi
-                                Moved lower dot to right of U+101B when hatto is present
-                                U+102D is now always above the consonant in a wrap
-                                even if there is a u/uu vowel present
-                                U+101B is short when there is a Yapin present
-1.07    KRS     31-AUG-2004     Yecha is tall when U+1012 has a stacked consonant
-1.08    KRS     04-SEP-2004     Numbers can now take upper diacritics for abbreviations
-                                U+1004 U+1039 is now always Kinzi as per myanmar_uni.pdf
-                                U+1004 U+200D U+1039 U+101d etc is used to prevent kinzi
-1.09    KRS     06-DEC-2004     Yecha is tall when U+1002 has a stacked consonant
-                                NLP propose using U+200D differently to UTN 11
-                                Comment out the g101a, g101b, g101d, g101f, line in the
-                                tKinzi class to give this behaviour
-1.10    MJPH    13-MAY-2005     no break between sign and section,
-                                tidy up font, remove hack rules, add docs for APs
-                                add necessary associations to insertion rules
-1.11    MJPH     2-AUG-2005     Fix kern on killed tall 102C preceding 1031 glyph
-1.12    MJPH    27-OCT-2005     Apply KRS changes to handle 'I', section breaks.
-                                Use new breakweights. Change syllable break from 20 to 15
-2.00    MJPH    15-APR-2006     Unicode 5.1 - remove tall-a logic, change to disunified medials, etc.
-2.01    MJPH    24-APR-2006     Attach y-medials
-2.02    MJPH    16-MAY-2006     udia over y-medial loses advance to stop -u from spacing
-2.03    MJPH    14-JUN-2006     U+101E U+1039 U+101E was ligating as U+103F, now it stacks
-2.04    MJPH    16-JUN-2006     no U103C_102F if following a stack, U+100A U+102D U+102F handled
-2.05    MJPH    10-JUL-2006     Add left ldot class for Sgaw, 1018 added to cConsWide
-2.1     MJPH     2-FEB-2007     Add PDAM4 stuff
-2.1.1   MJPH    20-FEB-2007     Create cPreVowel to add U+1080
-2.2     MJPH    31-OCT-2007     Add chars for v2.2
-2.2.1   MJPH    20-NOV-2007     U+1029 can have U+1031
-2.2.2   MJPH    18-DEC-2007     change u1004.med to u1004.kinzi, add u1004.med
-2.3     MJPH    12-APR-2008     Add Mon ligatures
-        KRS     28-APR-2008     Fix kinzi+102d indexing, 1009+med, Mon upper vowels
-2.4.1   MJPH    15-AUG-2008     Add Mon Nga rules for preceding asat
-2.4.2   MJPH    10-FEB-2009     Add u101A.med. Fix 1032_102d
-2.5     MJPH    27-FEB-2009     Add feature to disable great nya
-2.5.1   MJPH     9-MAR-2009     Move some classes out to glyph property classes
                                 */
 
 
@@ -191,6 +143,19 @@ cLQuote = (g_parenleft, g_quotedblleft, g_quoteleft) {breakweight = -BW_SYLL};
 cRQuote = (g_parenright, g_quotedblright, g_quoteright) {breakweight = BW_WORD};
 
 cCons {breakweight = -BW_SYLL};
+
+/* @doc
+Variation sequences
+@enddoc */
+
+cVarBase = (g1000, g1002, g1004, g1010, g1011, g1015, g1019, g101a, g101c, g101d,
+            g1022, g1031, g1075, g1078, g107a, g1080,
+            gaa60, gaa61, gaa62, gaa63, gaa64, gaa65, gaa66, gaa6b, gaa6c, gaa6f);
+cVar1 = (g1000_kham, g1002_kham, g1004_kham, g1010_kham, g1011_aiph, g1015_kham,
+         g1019_kham, g101a_kham, g101c_kham, g101d_aiph,
+         g1022_kham, g1031_aiph, g1075_kham, g1078_kham, g107a_aiph, g1080_kham,
+         gaa60_kham, gaa61_kham, gaa62_kham, gaa63_kham, gaa64_kham, gaa65_kham,
+         gaa66_kham, gaa6b_kham, gaa6c_kham, gaa6f_kham);
 
 /* @doc
 Lists all the consonants that require a medial h to slant
@@ -524,9 +489,8 @@ gKill g101c g103d > g101c_med_103d:(1 2 3) _ _;
 
 // there should be no gKill left now
 // gKill > _;
-ANY g200C > ANY:(1 2) _;
-ANY g200d > ANY:(1 2) _;
-ANY wj > ANY:(1 2) _;
+cVarBase gfe00 > cVar1:(1 2) _;
+ANY (g200C, g200d, wj, gfe00) > ANY:(1 2) _;
 
 endpass;
 
