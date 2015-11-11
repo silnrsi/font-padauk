@@ -4,7 +4,6 @@ FullName: Padauk
 FamilyName: Padauk
 Weight: Regular
 Copyright: Copyright (c) 2002-2010 SIL International.
-Version 
 ItalicAngle: 0
 UnderlinePosition: -450
 UnderlineWidth: 50
@@ -20,7 +19,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1387324841
-ModificationTime: 1444198192
+ModificationTime: 1447230549
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -4168,11 +4167,11 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 162 27 9
+WinInfo: 270 27 9
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "BD" "markMarkPositioninginMyanmarloo subtable" "BDM" "mkmkMarktoMarkinMyanmarlookup1 subtable" "BS" "pos_mark2base_markmymr_0 subtable" "BSM" "mkmkMarktoMarkinMyanmarlookup3 subtable" "U" "pos_mark2base_markmymr_2 subtable" "UM" "mkmkMarktoMarkinMyanmarlookup7 subtable" "dot" "_someAnchorsbase" "Y" "_someAnchorsbase" "LLM" "_someAnchorsmark" "LR" "_someAnchorsbase" "R" "_someAnchorsbase" "L" "_someAnchorsbase" "LM" "_someAnchorsmark" "LL" "_someAnchorsbase" 
-BeginChars: 506 506
+BeginChars: 512 512
 
 StartChar: .notdef
 Encoding: 0 -1 0
@@ -15230,7 +15229,7 @@ Encoding: 241 -1 241
 Width: 172
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 AnchorPoint: "LL" 224 1 basechar 0
 AnchorPoint: "R" 172 0 basechar 0
 AnchorPoint: "BS" 796 -53 basechar 0
@@ -25750,6 +25749,7 @@ EndChar
 
 StartChar: u1075.kham
 Encoding: 456 -1 456
+AltUni2: 001075.00fe00.0
 Width: 578
 VWidth: 0
 GlyphClass: 2
@@ -25786,6 +25786,7 @@ EndChar
 
 StartChar: u1078.kham
 Encoding: 457 -1 457
+AltUni2: 001078.00fe00.0
 Width: 999
 VWidth: 0
 GlyphClass: 2
@@ -25827,6 +25828,7 @@ EndChar
 
 StartChar: u1080.kham
 Encoding: 458 -1 458
+AltUni2: 001080.00fe00.0
 Width: 997
 VWidth: 0
 GlyphClass: 2
@@ -25874,6 +25876,7 @@ EndChar
 
 StartChar: uAA60.kham
 Encoding: 459 -1 459
+AltUni2: 00aa60.00fe00.0
 Width: 938
 VWidth: 0
 GlyphClass: 2
@@ -25922,6 +25925,7 @@ EndChar
 
 StartChar: uAA61.kham
 Encoding: 460 -1 460
+AltUni2: 00aa61.00fe00.0
 Width: 991
 VWidth: 0
 GlyphClass: 2
@@ -25967,6 +25971,7 @@ EndChar
 
 StartChar: uAA62.kham
 Encoding: 461 -1 461
+AltUni2: 00aa62.00fe00.0
 Width: 640
 VWidth: 0
 GlyphClass: 2
@@ -26005,6 +26010,7 @@ EndChar
 
 StartChar: uAA63.kham
 Encoding: 462 -1 462
+AltUni2: 00aa63.00fe00.0
 Width: 990
 VWidth: 0
 GlyphClass: 2
@@ -26055,6 +26061,7 @@ EndChar
 
 StartChar: uAA64.kham
 Encoding: 463 -1 463
+AltUni2: 00aa64.00fe00.0
 Width: 999
 VWidth: 0
 GlyphClass: 2
@@ -26096,6 +26103,7 @@ EndChar
 
 StartChar: uAA65.kham
 Encoding: 464 -1 464
+AltUni2: 00aa65.00fe00.0
 Width: 1006
 VWidth: 0
 GlyphClass: 2
@@ -26149,6 +26157,7 @@ EndChar
 
 StartChar: uAA66.kham
 Encoding: 465 -1 465
+AltUni2: 00aa66.00fe00.0
 Width: 997
 VWidth: 0
 GlyphClass: 2
@@ -26194,6 +26203,7 @@ EndChar
 
 StartChar: uAA6B.kham
 Encoding: 466 -1 466
+AltUni2: 00aa6b.00fe00.0
 Width: 714
 VWidth: 0
 GlyphClass: 2
@@ -26235,6 +26245,7 @@ EndChar
 
 StartChar: uAA6C.kham
 Encoding: 467 -1 467
+AltUni2: 00aa6c.00fe00.0
 Width: 990
 VWidth: 0
 GlyphClass: 2
@@ -26274,6 +26285,7 @@ EndChar
 
 StartChar: uAA6F.kham
 Encoding: 468 -1 468
+AltUni2: 00aa6f.00fe00.0
 Width: 726
 VWidth: 0
 GlyphClass: 2
@@ -27655,6 +27667,247 @@ SplineSet
  106 170 127 126 159 91 c 1
  208 164 278 202 366 202 c 0
  419 202 464 182 520 153 c 1
+EndSplineSet
+EndChar
+
+StartChar: uAA7A.aiph
+Encoding: 506 -1 506
+Width: 1090
+VWidth: 0
+Flags: HW
+AnchorPoint: "R" 0 0 mark 0
+AnchorPoint: "BS" 794 -53 basechar 0
+AnchorPoint: "L" 860 -53 basechar 0
+AnchorPoint: "BD" 596 -53 basechar 0
+AnchorPoint: "U" 795 495 basechar 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+1020 222 m 0
+ 1020 91 924 -15 795 -15 c 0
+ 771 -15 749 -11 729 -4 c 1
+ 734 -33 737 -63 737 -94 c 0
+ 737 -270 643 -450 418 -450 c 0
+ 208 -450 70 -276 70 -95 c 2
+ 70 317 l 2
+ 70 536 201 648 361 648 c 0
+ 495 648 596 680 637 757 c 1
+ 681 727 l 1
+ 643 645 524 597 361 597 c 0
+ 208 597 121 493 121 329 c 2
+ 121 -77 l 2
+ 121 -236 230 -399 418 -399 c 0
+ 605 -399 687 -247 687 -91 c 0
+ 687 -51 682 -10 671 28 c 1
+ 617 71 584 142 570 222 c 0
+ 554 322 498 408 396 408 c 0
+ 298 408 222 323 222 222 c 0
+ 222 132.397785508 279.514404749 57.9309406868 358.993319809 40.0743423803 c 1
+ 355.771475164 48.5432659373 354 57.6413774419 354 67 c 0
+ 354 107 388 142 429 142 c 0
+ 469 142 504 107 504 67 c 0
+ 504 39.1529579393 487.854240747 13.6124529147 464.962268661 0.091349558413 c 1
+ 465 0 l 2
+ 464.654182976 -0.164674773497 464.307823596 -0.327993657942 463.960922656 -0.489958048842 c 0
+ 457.119602987 -4.39279369084 449.697825016 -7.22771774591 441.940206531 -8.74196003959 c 0
+ 427.461209794 -12.913987055 412.147807653 -15.0000005627 396 -15 c 0
+ 269 -15 171 91 171 222 c 0
+ 171 351 269 459 396 459 c 0
+ 524 459 602 349 621 222 c 0
+ 636 122 696 36 795 36 c 0
+ 894 36 969 119 969 222 c 0
+ 969 309.407803748 912.828123546 384.832273853 833.540856184 403.549929869 c 1
+ 836.417474307 395.784983853 838 387.505529476 838 379 c 0
+ 838 338 803 302 763 302 c 0
+ 722 302 688 338 688 379 c 0
+ 688 405.954165539 703.438699598 430.637934078 726.054550157 443.871807132 c 1
+ 726 444 l 2
+ 726.526178383 444.250561135 727.053612384 444.497983226 727.582302636 444.74226513 c 0
+ 733.857231642 448.222005449 740.655683284 450.829124619 747.808410163 452.375568975 c 0
+ 762.655682779 456.791855869 778.386212774 458.999999317 795 459 c 0
+ 924 459 1020 351 1020 222 c 0
+EndSplineSet
+EndChar
+
+StartChar: uniFE00
+Encoding: 507 65024 507
+Width: 0
+VWidth: 0
+Flags: W
+LayerCount: 2
+Back
+Fore
+EndChar
+
+StartChar: u1000.aiph
+Encoding: 508 -1 508
+Width: 1002
+VWidth: 0
+Flags: HW
+AnchorPoint: "R" 0 0 mark 0
+AnchorPoint: "BS" 714 -53 basechar 0
+AnchorPoint: "L" 714 -53 basechar 0
+AnchorPoint: "BD" 508 -53 basechar 0
+AnchorPoint: "U" 714 495 basechar 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+946 222 m 0
+ 946 91 840 -15 714 -15 c 0
+ 696.088381236 -15 678.176762473 -12.7720410643 660.680834973 -7.06904939369 c 0
+ 627.356766178 0.914576990127 601.999999893 32.5928202218 602 68 c 0
+ 602 108 636 143 677 143 c 0
+ 717 143 752 108 752 68 c 0
+ 752 57.8432089161 749.852103403 47.9932602032 746.012388335 38.9214345909 c 1
+ 830.730991636 54.567972964 895 131.142985553 895 222 c 0
+ 895 324 814 408 714 408 c 0
+ 615 408 529 293 529 192 c 0
+ 529 86 487 27 432 -15 c 1
+ 402 28 l 1
+ 449 71 478 126 478 202 c 0
+ 478 322 394 406 292 406 c 0
+ 190 406 106 322 106 202 c 0
+ 106 169 112 139 123 111 c 1
+ 138 126 157 136 180 136 c 0
+ 220 136 255 102 255 61 c 0
+ 255 21 220 -15 180 -15 c 0
+ 99 -15 55 106 55 202 c 0
+ 55 354 161 457 292 457 c 0
+ 388 457 471 404 508 313 c 1
+ 549 397 625 459 714 459 c 0
+ 840 459 946 351 946 222 c 0
+EndSplineSet
+EndChar
+
+StartChar: u1078.aiph
+Encoding: 509 -1 509
+Width: 999
+VWidth: 0
+Flags: HW
+AnchorPoint: "R" 0 0 mark 0
+AnchorPoint: "BS" 714 -53 basechar 0
+AnchorPoint: "L" 714 -53 basechar 0
+AnchorPoint: "BD" 508 -53 basechar 0
+AnchorPoint: "U" 714 495 basechar 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+628 222 m 0
+ 628 181 593 145 553 145 c 0
+ 512 145 478 181 478 222 c 0
+ 478 262 512 297 553 297 c 0
+ 593 297 628 262 628 222 c 0
+943 222 m 0
+ 943 93 841 -15 709 -15 c 0
+ 626 -15 555 29 514 96 c 0
+ 495 45 468 12 432 -15 c 0
+ 402 28 l 0
+ 449 71 478 126 478 202 c 0
+ 478 322 394 406 292 406 c 0
+ 190 406 106 322 106 202 c 0
+ 106 169 112 139 123 111 c 0
+ 138 126 157 136 180 136 c 0
+ 220 136 255 102 255 61 c 0
+ 255 21 220 -15 180 -15 c 0
+ 99 -15 55 106 55 202 c 0
+ 55 354 161 457 292 457 c 0
+ 393 457 465 405 501 325 c 0
+ 538 405 617 459 712 459 c 0
+ 840 459 943 352 943 222 c 0
+892 222 m 0
+ 892 324 810 408 709 408 c 0
+ 609 408 529 324 529 222 c 0
+ 529 120 610 36 712 36 c 0
+ 812 36 892 120 892 222 c 0
+EndSplineSet
+EndChar
+
+StartChar: u101A.aiph
+Encoding: 510 -1 510
+Width: 994
+VWidth: 0
+Flags: HW
+AnchorPoint: "R" 0 0 mark 0
+AnchorPoint: "BS" 706 -53 basechar 0
+AnchorPoint: "L" 706 -53 basechar 0
+AnchorPoint: "BD" 504 -53 basechar 0
+AnchorPoint: "U" 706 495 basechar 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+939 222 m 0
+ 939 91 832 -15 706 -15 c 0
+ 621 -15 547 48 507 127 c 1
+ 468 39 388 -15 292 -15 c 0
+ 161 -15 55 88 55 240 c 0
+ 55 372 127 456 180 456 c 0
+ 220 456 255 421 255 381 c 0
+ 255 340 220 304 180 304 c 0
+ 157 304 138 315 123 331 c 1
+ 112 303 106 273 106 240 c 0
+ 106 120 190 36 292 36 c 0
+ 394 36 478 120 478 240 c 0
+ 478 316 449 371 402 414 c 1
+ 432 457 l 1
+ 503 398 529 331 529 247 c 0
+ 529 145 610 36 706 36 c 0
+ 807 36 888 120 888 222 c 0
+ 888 311.062599881 826.244532631 386.40176257 743.341955594 404.080576454 c 1
+ 746.344442465 396.162644655 748 387.699576437 748 379 c 0
+ 748 338 713 302 673 302 c 0
+ 632 302 598 338 598 379 c 0
+ 598 405.953289253 613.437695782 430.636329125 636.052344439 443.870516387 c 1
+ 636 444 l 2
+ 636.431912164 444.196323711 636.864209758 444.390720272 637.296900037 444.583190239 c 0
+ 644.324973672 448.520205924 652.016370089 451.360576842 660.13147144 452.838063176 c 0
+ 674.774918081 456.946020318 689.976663427 458.999998889 706 459 c 0
+ 832 459 939 351 939 222 c 0
+EndSplineSet
+EndChar
+
+StartChar: u101C.aiph
+Encoding: 511 -1 511
+Width: 960
+VWidth: 0
+Flags: HW
+AnchorPoint: "R" 0 0 mark 0
+AnchorPoint: "BS" 679 -53 basechar 0
+AnchorPoint: "L" 679 -53 basechar 0
+AnchorPoint: "BD" 480 -53 basechar 0
+AnchorPoint: "U" 679 495 basechar 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+904 222 m 0
+ 904 91 807 -15 679 -15 c 0
+ 552 -15 475 93 454 222 c 0
+ 438 322 381 408 280 408 c 0
+ 181 408 106 324 106 222 c 0
+ 106 141 153 72 222 46 c 1
+ 220 51 220 55 220 61 c 0
+ 220 102 255 136 295 136 c 0
+ 336 136 370 102 370 61 c 0
+ 370 21 336 -15 280 -15 c 0
+ 153 -15 55 91 55 222 c 0
+ 55 351 153 459 280 459 c 0
+ 408 459 485 349 505 222 c 0
+ 521 121 579 36 679 36 c 0
+ 778 36 853 120 853 222 c 0
+ 853 311.245925592 795.583367685 386.711859428 714.91143969 404.189012922 c 1
+ 718.185801511 395.954536597 720 387.106853905 720 378 c 0
+ 720 337 685 301 645 301 c 0
+ 604 301 570 337 570 378 c 0
+ 570 405.723960001 586.333131611 431.045988884 610.009604125 443.977430305 c 0
+ 610.009604125 443.984953537 610 443.992476768 610 444 c 0
+ 610.13622424 444.064868686 610.272532639 444.129526974 610.408924563 444.193976043 c 0
+ 614.961326499 446.645068549 619.78148407 448.639187217 624.806154479 450.106063234 c 0
+ 641.684911257 456.035354873 659.749526364 459.000000693 679 459 c 0
+ 807 459 904 351 904 222 c 0
 EndSplineSet
 EndChar
 EndChars

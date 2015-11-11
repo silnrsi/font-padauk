@@ -14,6 +14,7 @@
     u200C u200D quotedblleft quotedblright quoteleft quoteright endash emdash 
     u2060 notequal 
     uA92E uAA77 uAA78
+    uFE00
     dummy dummy1 dummy2 dummy3
   </property>
   <property name="GDL_order" value="1" exts=".alt .kham .aiph">
