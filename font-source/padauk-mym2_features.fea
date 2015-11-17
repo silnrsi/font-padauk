@@ -216,14 +216,14 @@ feature psts {
 } psts;
 
 
-feature rclt {
- script mym2;
-     language dflt ;
-      lookup mym2_rclt_UDiac_102Fmed_reorder;
-      lookup mym2_rclt_UDiac_102F_reorder;
-      lookup mym2_rclt_102Fmed_UDiac_reorder;
-      lookup mym2_rclt_102F_UDiac_reorder;
-} rclt;
+#feature rclt {
+# script mym2;
+#     language dflt ;
+#      lookup mym2_rclt_UDiac_102Fmed_reorder;
+#      lookup mym2_rclt_UDiac_102F_reorder;
+#      lookup mym2_rclt_102Fmed_UDiac_reorder;
+#      lookup mym2_rclt_102F_UDiac_reorder;
+#} rclt;
 
 
 
@@ -244,7 +244,7 @@ feature dist {
      lookup kern_101Balt_1036;
      lookup kern_misc;
      lookup kern_TallAA;
-     lookup kern_reorderedMarks;
+#     lookup kern_reorderedMarks;
 #     lookup kern_102F_1032;
      lookup dist_advance;
    language KHT  exclude_dflt;
@@ -351,10 +351,10 @@ feature mkmk {
       lookup base_BS_mark;
       lookup base_BSM_mark;
       lookup base_L_mark;
-      lookup base_LL_mark;
-      lookup base_LLM_mark;
-      lookup base_LLM_1_mark;
-      lookup base_LM_mark;
+#      lookup base_LL_mark;
+#      lookup base_LLM_mark;
+#      lookup base_LLM_1_mark;
+#      lookup base_LM_mark;
       lookup mk2mk_LM;
      language KHT  exclude_dflt;
       lookup base_BD_mark;
@@ -362,10 +362,10 @@ feature mkmk {
       lookup base_BS_mark;
       lookup base_BSM_mark;
       lookup base_L_mark;
-      lookup base_LL_mark;
-      lookup base_LLM_mark;
-      lookup base_LLM_1_mark;
-      lookup base_LM_mark;
+#      lookup base_LL_mark;
+#      lookup base_LLM_mark;
+#      lookup base_LLM_1_mark;
+#      lookup base_LM_mark;
       lookup mk2mk_LM;
      language KSW  exclude_dflt;
       lookup base_BD_mark;
@@ -373,10 +373,10 @@ feature mkmk {
       lookup base_BS_mark;
       lookup base_BSM_mark;
       lookup base_L_mark;
-      lookup base_LL_mark;
-      lookup base_LLM_mark;
-      lookup base_LLM_1_mark;
-      lookup base_LM_mark;
+#      lookup base_LL_mark;
+#      lookup base_LLM_mark;
+#      lookup base_LLM_1_mark;
+#      lookup base_LM_mark;
       lookup mk2mk_LM;
      language KYU  exclude_dflt;
       lookup base_BD_mark;
@@ -384,10 +384,10 @@ feature mkmk {
       lookup base_BS_mark;
       lookup base_BSM_mark;
       lookup base_L_mark;
-      lookup base_LL_mark;
-      lookup base_LLM_mark;
-      lookup base_LLM_1_mark;
-      lookup base_LM_mark;
+#      lookup base_LL_mark;
+#      lookup base_LLM_mark;
+#      lookup base_LLM_1_mark;
+#      lookup base_LM_mark;
       lookup mk2mk_LM;
      language SHN  exclude_dflt;
       lookup base_BD_mark;
@@ -395,10 +395,10 @@ feature mkmk {
       lookup base_BS_mark;
       lookup base_BSM_mark;
       lookup base_L_mark;
-      lookup base_LL_mark;
-      lookup base_LLM_mark;
-      lookup base_LLM_1_mark;
-      lookup base_LM_mark;
+#      lookup base_LL_mark;
+#      lookup base_LLM_mark;
+#      lookup base_LLM_1_mark;
+#      lookup base_LM_mark;
       lookup mk2mk_LM;
 } mkmk;
 

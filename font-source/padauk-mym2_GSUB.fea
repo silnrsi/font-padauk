@@ -516,56 +516,56 @@ lookup mym2_psts_miscLig {
 # Given input of u102F followed by some upper diacritics (u1032, u1036) 
 # harfbuzz rendering reorders them which these lookups correct
 # NB: Uniscribe doesn't appear to reorder these (lookups won't apply)
-
-lookup mym2_UDiac_102FmedSubst {
-  lookupflag 0;
-    sub u1032 by u102F.med u1032;
+#
+#lookup mym2_UDiac_102FmedSubst {
+#  lookupflag 0;
+#    sub u1032 by u102F.med u1032;
+##    sub u1036 by u102F u1036;
+#    sub u1036 by u102F.med u1036;
+#} mym2_UDiac_102FmedSubst;
+#
+#lookup mym2_rclt_UDiac_102Fmed_reorder {
+#  lookupflag 0;
+#    sub u1032' lookup mym2_UDiac_102FmedSubst u102F.med;
+##    sub u1036' lookup mym2_UDiac_102FSubst u102F;
+#    sub u1036' lookup mym2_UDiac_102FmedSubst u102F.med;
+#} mym2_rclt_UDiac_102Fmed_reorder;
+#
+#lookup mym2_UDiac_102FSubst {
+#  lookupflag 0;
 #    sub u1036 by u102F u1036;
-    sub u1036 by u102F.med u1036;
-} mym2_UDiac_102FmedSubst;
-
-lookup mym2_rclt_UDiac_102Fmed_reorder {
-  lookupflag 0;
-    sub u1032' lookup mym2_UDiac_102FmedSubst u102F.med;
+#} mym2_UDiac_102FSubst;
+#
+#lookup mym2_rclt_UDiac_102F_reorder {
+#  lookupflag 0;
 #    sub u1036' lookup mym2_UDiac_102FSubst u102F;
-    sub u1036' lookup mym2_UDiac_102FmedSubst u102F.med;
-} mym2_rclt_UDiac_102Fmed_reorder;
-
-lookup mym2_UDiac_102FSubst {
-  lookupflag 0;
-    sub u1036 by u102F u1036;
-} mym2_UDiac_102FSubst;
-
-lookup mym2_rclt_UDiac_102F_reorder {
-  lookupflag 0;
-    sub u1036' lookup mym2_UDiac_102FSubst u102F;
-} mym2_rclt_UDiac_102F_reorder;
-
-
-
-lookup mym2_102Fmed_UDiacSubst {
-  lookupflag 0;
-    sub u1032 u102F.med by u1032;
+#} mym2_rclt_UDiac_102F_reorder;
+#
+#
+#
+#lookup mym2_102Fmed_UDiacSubst {
+#  lookupflag 0;
+#    sub u1032 u102F.med by u1032;
+##    sub u1036 u102F by u1036;
+#    sub u1036 u102F.med by u1036;
+#} mym2_102Fmed_UDiacSubst;
+#
+#lookup mym2_rclt_102Fmed_UDiac_reorder {
+#  lookupflag 0;
+#    sub u102F.med u1032' lookup mym2_102Fmed_UDiacSubst u102F.med';
+##    sub u102F u1036' lookup mym2_102F_UDiacSubst u102F';
+#    sub u102F.med u1036' lookup mym2_102Fmed_UDiacSubst u102F.med';
+#} mym2_rclt_102Fmed_UDiac_reorder;
+#
+#lookup mym2_102F_UDiacSubst {
+#  lookupflag 0;
 #    sub u1036 u102F by u1036;
-    sub u1036 u102F.med by u1036;
-} mym2_102Fmed_UDiacSubst;
-
-lookup mym2_rclt_102Fmed_UDiac_reorder {
-  lookupflag 0;
-    sub u102F.med u1032' lookup mym2_102Fmed_UDiacSubst u102F.med';
+#} mym2_102F_UDiacSubst;
+#
+#lookup mym2_rclt_102F_UDiac_reorder {
+#  lookupflag 0;
 #    sub u102F u1036' lookup mym2_102F_UDiacSubst u102F';
-    sub u102F.med u1036' lookup mym2_102Fmed_UDiacSubst u102F.med';
-} mym2_rclt_102Fmed_UDiac_reorder;
-
-lookup mym2_102F_UDiacSubst {
-  lookupflag 0;
-    sub u1036 u102F by u1036;
-} mym2_102F_UDiacSubst;
-
-lookup mym2_rclt_102F_UDiac_reorder {
-  lookupflag 0;
-    sub u102F u1036' lookup mym2_102F_UDiacSubst u102F';
-} mym2_rclt_102F_UDiac_reorder;
+#} mym2_rclt_102F_UDiac_reorder;
 
 
 # ----------------------------------------------------------------------
