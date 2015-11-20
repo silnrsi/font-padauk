@@ -170,12 +170,10 @@ lookup kern_misc {
   lookupflag 0;
     pos [u1001 u1002]' 135 [u1004.kinzi] u102B; # 2425 Shifts 102B away from 1004.kinzi
     pos u1002'     58  u1004.kinzi_u102D u101F; # 2433 Shifts 101F
-    
-    pos u1014.alt' 186 u1010.med; # 412, blk #134
-    pos u1014.alt' 202 u1011.med; #
-#    pos u1014.alt' 137 [u1010.med]           [u102F u1030]; # 412, blk #134
-#    pos u1014.alt' 153 [u1011.med]   u1014.alt [u1010.med]; # 414
-    pos u1014.alt'  35 [u103D]       u1014.alt [u1010.med]; # 1175
+
+    pos u1014.alt' 186  u1010.med           [u102F u1030]; # 412, blk #134
+    pos u1014.alt' 202  u1011.med     u1014.alt u1010.med; # 414
+    pos u1014.alt'  35  u103D         u1014.alt u1010.med; # 1175
     
     pos u1017'     150  u1018.med    u1014.alt  u1010.med ; # 3647
     pos u1017'     150  u1018.med    u102F    ; # 3646
