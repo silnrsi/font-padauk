@@ -244,7 +244,7 @@ feature dist {
      lookup kern_101Balt_1036;
      lookup kern_misc;
      lookup kern_TallAA;
-#     lookup kern_reorderedMarks;
+     lookup kern_reorderedMarks;
 #     lookup kern_102F_1032;
      lookup dist_advance;
    language KHT  exclude_dflt;
