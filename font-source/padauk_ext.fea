@@ -88,11 +88,13 @@ lookup kern_103Clig_1037 {
 
 lookup dist_103C_Cons {
   lookupflag 0;
-  # By design u102B has negative overhang so in this first group we compensate so it doesn't collide with u103C
+  # By design u102B, u103B have negative overhang so in this first group 
+  # we compensate so it doesn't collide with u103C
     pos u103C            u1015' 135   u102B; # Sgaw Karen #704
     pos u103C            u1016' 135   u102B; # Sgaw Karen #788
     pos u103C.wide       u101E' 147   u102B; # Sgaw Karen #1167
-    pos u103C.wide       u1010' 140   u102B; # Sgaw Karen #457
+    pos u103C.wide       u1010' 140   u102B; # Sgaw Karen #457    
+    pos u103C.alt.narr   u1001' 105   u103B; # regression #25
     
     pos [@class103CNarr] u1001'  5 [@cUDia]; # 327-350 376-378;
     pos [@class103CNarr] u1001'  5         ; # 327-350 376-378;
@@ -112,6 +114,8 @@ lookup dist_103C_Cons {
     pos [@class103CWide] u1010'  5         ; # 898, 899, 902; Sgaw Karen #1462
     pos [@class103CWide] u1018' 16 [@cUDia]; # Sgaw Karen #868-73
     pos [@class103CWide] u1018' 16         ; # Sgaw Karen #874-76
+    pos [@class103CWide] u101A'  8 [@cUDia]; # regression #7
+    pos [@class103CWide] u101A'  8         ; # 
     pos [@class103CWide] u101E' 12 [@cUDia]; # Sgaw Karen #1168-69
     pos [@class103CWide] u101E' 12         ; # Sgaw Karen #1170-73
     pos [@class103CWide] u1078'  5         ; # Shan #2856
@@ -180,6 +184,8 @@ lookup kern_misc {
     pos u101B'     107  u1005      [@cMedWide]; # 2020
     pos u101B'     115  u1014.alt  [@cMedWide]; # 2045
     
+    pos u1030'     164  u1037 u103C.wide; # regression #14
+    pos u1032'     164  u1037 u103C.wide; # regression #6
     pos u1032'     135  u102B; # Mon language plus maybe others
     
     pos u103B'     109  u1002           u1003.med; # 1591
