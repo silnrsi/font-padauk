@@ -110,6 +110,7 @@ lookup dist_103C_Cons {
     pos [@class103CNarr] u1075' 22         ; # Shan 2365-66
     pos [@class103CNarr] u1076' 17         ; # Shan #2628; Bookbold ONLY
     
+    pos [@class103CWide] u1006'  6         ; # Pa'o (blk) #1036
     pos [@class103CWide] u1010'  6 [@cUDia]; # 900, 901, 903;
     pos [@class103CWide] u1010'  6         ; # 898, 899, 902; Sgaw Karen #1462
     pos [@class103CWide] u1018' 18 [@cUDia]; # Sgaw Karen #868-73
@@ -244,27 +245,28 @@ lookup dist_advance {
     
     pos u1000_u103B_u1015_u103A' 57         ; # 137, 2678 (to match graphite output)
     
-    pos u1012' 10                u1037 u103A; #
-    pos u1012' 10                u103A_u1036; # Sgaw Karen #1945
-    pos u1012' 10                      u103A; # 570, 1305
-    pos u1014' 79  [u1032 u1036] u1037 u103A; # 
-    pos u1014'143                u1037 u103A; # 64
-    pos u1014' 17                      u103A; # 65
-    pos u100C'  7                u1037 u103A; # 
-    pos u100C'  7                      u103A; #
-    pos u100F'  3                u1037 u103A; # 
-    pos u100F'  3                      u103A; # 45
-    pos u101C'  0                u1037 u103A; #
-#    pos u101C'  0                u1082 u103A; # Shan #1492; Not needed for Bookbold 
-#    pos u101C'  0                      u103A; # 415, 881; Not needed for Bookbold
+    pos u1012'  10                u1037 u103A; #
+    pos u1012'  10                u103A_u1036; # Sgaw Karen #1945
+    pos u1012'  10                      u103A; # 570, 1305
+    
+    pos u1014' 143                u103A u1037; # Pa'o (blk) #139,790 *u103A u1037 reversed from normal*
+    pos u1014'  79  [u1032 u1036] u1037 u103A; # 
+    pos u1014' 143                u1037 u103A; # 64
+    pos u1014'  17                      u103A; # 65
+    
+    pos u100C'   7                u1037 u103A; # 
+    pos u100C'   7                      u103A; #
+    pos u100F'   3                u1037 u103A; # 
+    pos u100F'   3                      u103A; # 45
+    pos u101C'   0                u1037 u103A; #
+#    pos u101C'   0                u1082 u103A; # Shan #1492; Not needed for Bookbold 
+#    pos u101C'   0                      u103A; # 415, 881; Not needed for Bookbold
 
 
   # --- Consonants with u1037 --------------
     pos u1031 u1014' 143                                       u1037; # 1096 - for reordered u1031
     pos u1014' 143     [u1032 u1036]                           u1037; # 1098 1103
     pos u1014' 143                                             u1037; # Sgaw Karen #641-47
-# 07-Oct not working, look at later
-    pos u1014'  50      u103A                                  u1037; # Pa'o (blk) #139,790 *u103A u1037 reversed from normal*
     
     pos u1031 u101B' 252                                       u1037; # 1986 - for reordered u1031
     pos u101B' 252     [u1032 u1036]                           u1037; # 1989, 1994
