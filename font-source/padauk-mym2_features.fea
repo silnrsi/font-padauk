@@ -73,19 +73,24 @@ feature pref {
 feature blwf {
  script mym2;
      language dflt ;
+      lookup mym2_blwf_103Ealt;
       lookup mym2_blwf_MonNga;
       lookup mym2_blwf_u1039med;
 #       lookup mym2_blwf_shan1081;
      language KHT  exclude_dflt;
+      lookup mym2_blwf_103Ealt;
       lookup mym2_blwf_u1039med;
 #       lookup mym2_blwf_shan1081;
      language KSW  exclude_dflt;
+      lookup mym2_blwf_103Ealt;
       lookup mym2_blwf_u1039med;
 #       lookup mym2_blwf_shan1081;
      language KYU  exclude_dflt;
+      lookup mym2_blwf_103Ealt;
       lookup mym2_blwf_u1039med;
 #       lookup mym2_blwf_shan1081;
      language SHN  exclude_dflt;
+      lookup mym2_blwf_103Ealt;
       lookup mym2_blwf_u1039med;
 #       lookup mym2_blwf_shan1081;
 } blwf;
@@ -165,7 +170,6 @@ feature blws {
       lookup mym2_blws_sub1014;
       lookup mym2_blws_raLong;
       lookup mym2_blws_raShort;
-      lookup mym2_blws_103Ealt;
      language KHT  exclude_dflt;
 #      lookup mym2_blws_medVowels;
       lookup mym2_blws_miscLig;
@@ -173,7 +177,6 @@ feature blws {
       lookup mym2_blws_sub1014;
       lookup mym2_blws_raLong;
       lookup mym2_blws_raShort;
-      lookup mym2_blws_103Ealt;
      language KSW  exclude_dflt;
 #      lookup mym2_blws_medVowels;
       lookup mym2_blws_miscLig;
@@ -181,7 +184,6 @@ feature blws {
       lookup mym2_blws_sub1014;
       lookup mym2_blws_raLong;
       lookup mym2_blws_raShort;
-      lookup mym2_blws_103Ealt;
      language KYU  exclude_dflt;
 #      lookup mym2_blws_medVowels;
       lookup mym2_blws_miscLig;
@@ -189,7 +191,6 @@ feature blws {
       lookup mym2_blws_sub1014;
       lookup mym2_blws_raLong;
       lookup mym2_blws_raShort;
-      lookup mym2_blws_103Ealt;
      language SHN  exclude_dflt;
 #      lookup mym2_blws_medVowels;
       lookup mym2_blws_miscLig;
@@ -197,7 +198,6 @@ feature blws {
       lookup mym2_blws_sub1014;
       lookup mym2_blws_raLong;
       lookup mym2_blws_raShort;
-      lookup mym2_blws_103Ealt;
 } blws;
 
 

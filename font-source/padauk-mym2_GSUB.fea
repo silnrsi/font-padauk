@@ -124,14 +124,14 @@ lookup mym2_locl_kham {
 
 lookup mym2_locl_tri {
   lookupflag 0;
-    sub \u1010_u103D.med by \u1010_u103D.med.tri ;
-    sub \u103B_u103D by \u103B_u103D.tri ;
-    sub \u103C_u103D.narr by \u103C_u103D.narr.tri ;
-    sub \u103C_u103D.wide by \u103C_u103D.wide.tri ;
-    sub \u103C_u103D.alt.narr by \u103C_u103D.alt.narr.tri ;
-    sub \u103C_u103D.alt.wide by \u103C_u103D.alt.wide.tri ;
     sub \u103D by \u103D.tri ;
-    sub \u103D_u103E by \u103D_u103E.tri ;
+#    sub \u1010_u103D.med by \u1010_u103D.med.tri ;
+#    sub \u103B_u103D by \u103B_u103D.tri ;
+#    sub \u103C_u103D.narr by \u103C_u103D.narr.tri ;
+#    sub \u103C_u103D.wide by \u103C_u103D.wide.tri ;
+#    sub \u103C_u103D.alt.narr by \u103C_u103D.alt.narr.tri ;
+#    sub \u103C_u103D.alt.wide by \u103C_u103D.alt.wide.tri ;
+#    sub \u103D_u103E by \u103D_u103E.tri ;
 } mym2_locl_tri;
 
 lookup mym2_locl_slantr {
@@ -219,18 +219,34 @@ lookup mym2_blws_medVowels {
 
 lookup mym2_pref_u103CLig {
   lookupflag IgnoreBaseGlyphs, MarkAttachmentType @class103CLig;
-    sub \u103C \u102F.med by \u103C_u102F.narr;
-    sub \u103C \u103D by \u103C_u103D.narr;
-    sub \u103C \u103D.tri by \u103C_u103D.narr.tri;
-    sub \u103C.wide \u102F.med by \u103C_u102F.wide;
-    sub \u103C.wide \u103D by \u103C_u103D.wide;
-    sub \u103C.wide \u103D.tri by \u103C_u103D.wide.tri;
+    sub u103C u102F.med by u103C_u102F.narr;
+    sub u103C u103D     by u103C_u103D.narr;
+    sub u103C u103D.tri by u103C_u103D.narr.tri;
+    
+    sub u103C.wide u102F.med by u103C_u102F.wide;
+    sub u103C.wide u103D     by u103C_u103D.wide;
+    sub u103C.wide u103D.tri by u103C_u103D.wide.tri;
 } mym2_pref_u103CLig;
 
 
 # ****
 # blwf
 # ****
+
+lookup mym2_103Ealt_Subst {
+  lookupflag 0;
+    sub u103D_u103E  by u103D_u103E.small;
+    sub u103E.slantr by u103E.alt;
+    sub u103E        by u103E.alt;
+} mym2_103Ealt_Subst;
+
+lookup mym2_blwf_103Ealt {
+  lookupflag 0;
+    sub [@c103C] [@cCons] u103D_u103E'  lookup mym2_103Ealt_Subst;
+    sub [@c103C] [@cCons] u103E.slantr' lookup mym2_103Ealt_Subst;
+    sub [@c103C] [@cCons] u103E'        lookup mym2_103Ealt_Subst;
+    sub            u1009  u103E'        lookup mym2_103Ealt_Subst;
+} mym2_blwf_103Ealt;
 
 lookup mym2_MonNgaSubst {
   lookupflag 0;
@@ -401,21 +417,6 @@ lookup mym2_abvs_redupLig {
 # ****
 # blws
 # ****
-
-lookup mym2_103Ealt_Subst {
-  lookupflag 0;
-    sub u103D_u103E  by u103D_u103E.small;
-    sub u103E.slantr by u103E.alt;
-    sub u103E        by u103E.alt;
-} mym2_103Ealt_Subst;
-
-lookup mym2_blws_103Ealt {
-  lookupflag 0;
-    sub [@c103C] [@cCons] u103D_u103E'  lookup mym2_103Ealt_Subst;
-    sub [@c103C] [@cCons] u103E.slantr' lookup mym2_103Ealt_Subst;
-    sub [@c103C] [@cCons] u103E'        lookup mym2_103Ealt_Subst;
-    sub            u1009  u103E'        lookup mym2_103Ealt_Subst;
-} mym2_blws_103Ealt;
 
 lookup mym2_blws_miscLig {
   lookupflag 0;
