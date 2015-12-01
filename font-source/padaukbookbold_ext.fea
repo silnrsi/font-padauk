@@ -188,8 +188,7 @@ lookup kern_misc {
     pos u1032'     135  u102B; # Mon language plus maybe others
     
     pos u103B'      86  u1002           u1003.med; # 1591
-#g3    pos u103B           u102D' <210 0 0 0>  u102F; # 114-116 Shifts 102D over stem of 103B (attachment not working)
-    pos u103B           u102D' <392 0 0 0>  u1030; # Shan #2334-35 Shifts 102D over stem of 103B (attachment not working)
+    pos u103B'     264  u1032 u1005 u103E_u1030.slantr; # Kayah kyu_wdl #1545, 2163, 8345, 10782
     
     pos u103C.alt.narr u1017'     89  u102D [@cCons]; # 1611
     

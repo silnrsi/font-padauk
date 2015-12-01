@@ -170,7 +170,7 @@ lookup kern_101Balt_1036 {
 lookup kern_misc {
   lookupflag 0;
     pos [u1001 u1002]' 135 [u1004.kinzi] u102B; # 2425 Shifts 102B away from 1004.kinzi
-    pos u1002'     58  u1004.kinzi_u102D u101F; # 2433 Shifts 101F
+    pos u1002'      58  u1004.kinzi_u102D u101F; # 2433 Shifts 101F
 
     pos u1014.alt' 186  u1010.med          [u102F u1030]; # 412, blk #134
     pos u1014.alt' 202  u1011.med    u1014.alt u1010.med; # 414
@@ -188,8 +188,7 @@ lookup kern_misc {
     pos u1032'     135  u102B; # Mon language plus maybe others
     
     pos u103B'     109  u1002           u1003.med; # 1591
-#g3    pos u103B           u102D' <148 0 0 0>  u102F; # 114-116 Shifts 102D over stem of 103B (attachment not working)
-    pos u103B           u102D' <295 0 0 0>  u1030; # Shan #2334-35 Shifts 102D over stem of 103B (attachment not working)
+    pos u103B'     197  u1032 u1005 u103E_u1030.slantr; # Kayah kyu_wdl #1545, 2163, 8345, 10782
     
     pos u103C.alt.narr u1017' 107  u102D [@cCons]; # 1611
     

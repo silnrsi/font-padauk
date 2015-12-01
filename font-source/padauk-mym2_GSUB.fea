@@ -3,6 +3,7 @@ languagesystem mym2 dflt;
 languagesystem mym2 KHT ;
 languagesystem mym2 KSW ;
 languagesystem mym2 KYU ;
+languagesystem mym2 SHN ;
 
 # *********************
 # define named classes
@@ -250,9 +251,9 @@ lookup mym2_blwf_103Ealt {
 
 # -------------------------  Kayah (KYU ) ---------------------------
 #	I tried to prevent the u103C_u103D.narr.tri ligature formation
-#	by first creating the u103D_u103E.small.tri but that didn't work.
-#	So I reversed the u103C_u103D.narr.tri ligature while creating
-#	the u103D_u103E.small.tri. Maybe someone will find a better way.
+#	by creating the u103D_u103E.small.tri first, but that didn't work.
+#	So here I reversed the u103C_u103D.narr.tri ligature while creating
+#	the u103D_u103E.small.tri. Maybe someone will find more elegant way.
 
 lookup mym2_smalltri_Subst1 {
   lookupflag 0;
