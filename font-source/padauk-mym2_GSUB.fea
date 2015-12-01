@@ -248,6 +248,28 @@ lookup mym2_blwf_103Ealt {
     sub            u1009  u103E'        lookup mym2_103Ealt_Subst;
 } mym2_blwf_103Ealt;
 
+# -------------------------  Kayah (KYU ) ---------------------------
+#	I tried to prevent the u103C_u103D.narr.tri ligature formation
+#	by first creating the u103D_u103E.small.tri but that didn't work.
+#	So I reversed the u103C_u103D.narr.tri ligature while creating
+#	the u103D_u103E.small.tri. Maybe someone will find a better way.
+
+lookup mym2_smalltri_Subst1 {
+  lookupflag 0;
+    sub u103C_u103D.narr.tri by u103C; # Kayah
+} mym2_smalltri_Subst1;
+
+lookup mym2_smalltri_Subst2 {
+  lookupflag 0;
+    sub u103E.alt by u103D_u103E.small.tri; # Kayah
+} mym2_smalltri_Subst2;
+
+lookup mym2_blwf_smalltri {
+  lookupflag 0;
+    sub u103C_u103D.narr.tri' lookup mym2_smalltri_Subst1 [@cCons] u103E.alt' lookup mym2_smalltri_Subst2; # Kayah
+} mym2_blwf_smalltri;
+# -------------------------------------------------------------------
+
 lookup mym2_MonNgaSubst {
   lookupflag 0;
     sub u105A by u1004;
@@ -369,13 +391,14 @@ lookup mym2_raUpperVowelSubst {
     sub u103C_u103D.wide by u103C_u103D.alt.wide;
 } mym2_raUpperVowelSubst;
 
+# NB: Eventually the last 4 could maybe be consolidated
 lookup mym2_pres_raUpperVowel {
   lookupflag 0;
     sub [@class103C_noalt]'lookup mym2_raUpperVowelSubst [@cCons]  [@classBigUpperVowel];
   subtable;
     sub [@class103C_noalt]'lookup mym2_raUpperVowelSubst [@cCons] [u103B] [@classBigUpperVowel];
   subtable;
-    sub [@class103C_noalt]'lookup mym2_raUpperVowelSubst [@cCons] [u103E u103E.alt] [@classBigUpperVowel];
+    sub [@class103C_noalt]'lookup mym2_raUpperVowelSubst [@cCons] [u103E u103E.alt u103D_u103E.small.tri] [@classBigUpperVowel];
   subtable;
     sub [@class103C_noalt]'lookup mym2_raUpperVowelSubst [@cCons] [u103D_u103E] [@classBigUpperVowel];
   subtable;

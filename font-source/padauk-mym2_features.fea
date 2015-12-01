@@ -86,6 +86,7 @@ feature blwf {
       lookup mym2_blwf_u1039med;
 #       lookup mym2_blwf_shan1081;
      language KYU  exclude_dflt;
+      lookup mym2_blwf_smalltri; # Only in KYU
       lookup mym2_blwf_103Ealt;
       lookup mym2_blwf_u1039med;
 #       lookup mym2_blwf_shan1081;
