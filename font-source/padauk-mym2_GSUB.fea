@@ -336,10 +336,23 @@ lookup mym2_pstf_asatLig {
   lookupflag 0;
     sub \u102B \u103A  by \u102B_u103A;
     sub \u1062 \u103A  by \u1062_u103A;
-#    sub \u1063 \u103A  by \u1063_u103A; # lig not used by Sgaw Karen
+#    sub \u1063 \u103A  by \u1063_u103A; # lig not used (Sgaw Karen)
     sub \u103A \u1036  by \u103A_u1036;
     sub \u103A \uAA70  by \u103A_uAA70;
 } mym2_pstf_asatLig;
+
+# --- for some reason this contextual lookup doesn't work 
+# --- but sort of works in next lookup mym2_pstf_signsLig
+#lookup mym2_cntxLigSubst {
+#  lookupflag 0;
+#    sub u102D uAA7C by u102D_uAA7C; # Tai Laing
+#} mym2_cntxLigSubst;
+#
+#lookup mym2_abvs_cntxLig {
+#  lookupflag 0;
+#    sub u102D'lookup mym2_cntxLigSubst u1030.med uAA7C';
+#} mym2_abvs_cntxLig;
+
 
 lookup mym2_pstf_signsLig {
   lookupflag IgnoreBaseGlyphs, UseMarkFilteringSet @cUDia;
@@ -354,8 +367,8 @@ lookup mym2_pstf_signsLig {
     sub \u101B.kinzi \u102E  by \u101B.kinzi_u102E;
     sub \u101B.kinzi \u103A  by \u101B.kinzi_u103A;
     sub \u102D \u1036  by \u102D_u1036;
-    sub \u102D \uAA7C  by \u102D_uAA7C;
-    sub \u102E \uAA7C  by \u102E_uAA7C;
+    sub \u102D \uAA7C  by \u102D_uAA7C; # Tai Laing (stays decomposed?)
+    sub \u102E \uAA7C  by \u102E_uAA7C; # Tai Laing
     sub \u1086 \uAA7C  by \u1086_uAA7C;
     sub \uA9E5 \uAA7C  by \uA9E5_uAA7C;
     sub \u102D \u1032  by \u1032_u102D;
@@ -392,7 +405,7 @@ lookup mym2_raUpperVowelSubst {
     sub u103C_u103D.wide by u103C_u103D.alt.wide;
 } mym2_raUpperVowelSubst;
 
-# NB: Eventually the last 4 could maybe be consolidated
+# NB: Eventually the last 4 could maybe be consolidated into one rule
 lookup mym2_pres_raUpperVowel {
   lookupflag 0;
     sub [@class103C_noalt]'lookup mym2_raUpperVowelSubst [@cCons]  [@classBigUpperVowel];
@@ -454,6 +467,7 @@ lookup mym2_blws_miscLig {
     sub u1010.med u103D  by u1010_u103D.med;
     sub u1020 u1020  by u1020_u1020;
     sub u1020 u103E  by u1020_u103E;
+    sub u1030.med u108D  by u1030_u108D; # Tai Laing
     sub u103B u103D.tri u103E.slantr  by u103B_u103D_u103E.tri; # Kayah #43
     sub u103B u103D.tri  by u103B_u103D.tri; # Shan #704
     sub u103B u103E  by u103B_u103E;
@@ -462,6 +476,8 @@ lookup mym2_blws_miscLig {
     sub u103D.tri u103E.slantr  by u103D_u103E.tri; # Kayah
     sub u1051 u100C.med  by u1051_u100C;
     sub u1051 u100D.med  by u1051_u100D;
+    sub u1086 uAA7C  by u1086_uAA7C; # Tai Laing (abvs, but works here too)
+    sub uA9E5 uAA7C  by uA9E5_uAA7C; # Tai Laing (abvs, but works here too)
 } mym2_blws_miscLig;
 
 @class103ELig = [u102F.med u1030.med u103D.tri u103E u103E.slantr u103E.slanth];
@@ -545,6 +561,60 @@ lookup mym2_psts_miscLig {
 # ****
 # rclt
 # ****
+
+# ------------------------- Tai Laing (tla) --------------------------
+# reorder tone to precede the vowel; tone should then attach to consonant
+# @class_tla_tone = [u108D uAA7C];
+
+# reorder so that tone u108D precedes vowel u1062 or u1083
+lookup mym2_tla_Vowelu108DSubst1 {
+  lookupflag 0;
+    sub u1062 by u108D u1062;
+    sub u1083 by u108D u1083;
+} mym2_tla_Vowelu108DSubst1;
+
+lookup mym2_rclt_tla_Vowelu108D_order1 {
+  lookupflag 0;
+    sub [u1062 u1083]' lookup mym2_tla_Vowelu108DSubst1 u108D;
+} mym2_rclt_tla_Vowelu108D_order1;
+
+lookup mym2_tla_Vowelu108DSubst2 {
+  lookupflag 0;
+    sub u1062 u108D by u1062;
+    sub u1083 u108D by u1083;
+} mym2_tla_Vowelu108DSubst2;
+
+lookup mym2_rclt_tla_Vowelu108D_order2 {
+  lookupflag 0;
+    sub u108D [u1062 u1083]' lookup mym2_tla_Vowelu108DSubst2 u108D';
+} mym2_rclt_tla_Vowelu108D_order2;
+
+# I have to have separate lookup groups for each *tone* 
+# Otherwise it keeps adding tones if more than one rule in each lookup
+# Using a class for the tones doesn't work either
+
+# reorder so that tone uAA7C precedes vowel u1083
+lookup mym2_tla_VoweluAA7CSubst1 {
+  lookupflag 0;
+    sub u1083 by uAA7C u1083;
+} mym2_tla_VoweluAA7CSubst1;
+
+lookup mym2_rclt_tla_VoweluAA7C_order1 {
+  lookupflag 0;
+    sub u1083' lookup mym2_tla_VoweluAA7CSubst1 uAA7C;
+} mym2_rclt_tla_VoweluAA7C_order1;
+
+lookup mym2_tla_VoweluAA7CSubst2 {
+  lookupflag 0;
+    sub u1083 uAA7C by u1083;
+} mym2_tla_VoweluAA7CSubst2;
+
+lookup mym2_rclt_tla_VoweluAA7C_order2 {
+  lookupflag 0;
+    sub uAA7C u1083' lookup mym2_tla_VoweluAA7CSubst2 uAA7C';
+} mym2_rclt_tla_VoweluAA7C_order2;
+
+# ------------------------- Tai Laing (tla) --------------------------
 
 # *** EXPERMENTAL - testing needed to make sure it doesn't break other sequences ***
 # Given input of u102F followed by some upper diacritics (u1032, u1036) 

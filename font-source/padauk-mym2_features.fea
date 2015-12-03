@@ -149,7 +149,8 @@ feature pres {
 
 feature abvs {
  script mym2;
-     language dflt ;
+     language dflt;
+#      lookup mym2_abvs_cntxLig;
       lookup mym2_abvs_redupLig;
      language KHT  exclude_dflt;
       lookup mym2_abvs_redupLig;
@@ -217,14 +218,18 @@ feature psts {
 } psts;
 
 
-#feature rclt {
-# script mym2;
-#     language dflt ;
+feature rclt {
+ script mym2;
+     language dflt;
+      lookup mym2_rclt_tla_Vowelu108D_order1;
+      lookup mym2_rclt_tla_Vowelu108D_order2;
+      lookup mym2_rclt_tla_VoweluAA7C_order1;
+      lookup mym2_rclt_tla_VoweluAA7C_order2;
 #      lookup mym2_rclt_UDiac_102Fmed_reorder;
 #      lookup mym2_rclt_UDiac_102F_reorder;
 #      lookup mym2_rclt_102Fmed_UDiac_reorder;
 #      lookup mym2_rclt_102F_UDiac_reorder;
-#} rclt;
+} rclt;
 
 
 
