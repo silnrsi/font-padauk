@@ -225,10 +225,10 @@ feature rclt {
       lookup mym2_rclt_tla_Vowelu108D_order2;
       lookup mym2_rclt_tla_VoweluAA7C_order1;
       lookup mym2_rclt_tla_VoweluAA7C_order2;
-#      lookup mym2_rclt_UDiac_102Fmed_reorder;
-#      lookup mym2_rclt_UDiac_102F_reorder;
-#      lookup mym2_rclt_102Fmed_UDiac_reorder;
-#      lookup mym2_rclt_102F_UDiac_reorder;
+      lookup mym2_rclt_UDiac_102Fmed_order1;
+      lookup mym2_rclt_UDiac_102Fmed_order2;
+      lookup mym2_rclt_UDiac_102F_order1;
+      lookup mym2_rclt_UDiac_102F_order2;
 } rclt;
 
 
