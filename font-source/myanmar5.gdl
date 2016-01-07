@@ -240,7 +240,7 @@ cYMed = (g103b, g103b_103d, g103b_103d_103e, g103b_103e);
 There are two prevowels that reorder before their base consonant cluster
 @enddoc */
 
-cPreVowel = (g1031, g1084);
+cPreVowel = (g1031, g1084, g1031_aiph);
 
 /* @doc
 The lower vowels must occur in a particular place in the order. (See the section on ensuring
@@ -776,7 +776,7 @@ Tall -a vowel ligature
 // Allow for normalized text
 (g102b g1062) g103a > (g102b_103a g1062_103a):(1 3) _ / _ g1037? _;
 (cLVowel g102b) g1036 > @2 @1;
-g1062 g1086 > @2 @1;
+g1062 g1086 > @2 @1 / ^ _ _;
 
 /* I'm sure there are things that can intervene between these here */
 cUVowelBar gaa7c > cBarUVowel:(1 3) _ / _ cLVowelM? _;
@@ -788,10 +788,10 @@ Khamti reduplication ligatures
 @enddoc */
 
 if (filled)
-(g1032 g103a) gaa70 > (g1032_aa70 g103a_aa70):(1 2) _ / _ _;
-(g1032 g103a) cTone gaa70 > (g1032_aa70 g103a_aa70):(1 3) cToneKham _ / _ _ _;
+(g1086 g103a) gaa70 > (g1032_aa70 g103a_aa70):(1 v) _ / _ g1062? cToneKham? _=v;
+(g1086 g103a) cTone gaa70 > (g1032_aa70 g103a_aa70):(1 v) cToneKham _ / _ g1062? _ _=v;
 else
-(g1032 g103a) gaa70 > (g1032_aa70 g103a_aa70):(1 3) _ / _ cTone? _;
+(g1086 g103a) gaa70 > (g1032_aa70 g103a_aa70):(1 v) _ / _ g1062? cTone? _=v;
 endif;
 
 endpass;
