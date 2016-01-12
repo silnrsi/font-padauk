@@ -172,10 +172,16 @@ lookup kern_misc {
     pos [u1001 u1002]' 135 [u1004.kinzi] u102B; # 2425 Shifts 102B away from 1004.kinzi
     pos u1002'     60  u1004.kinzi_u102D u101F; # 2433 Shifts 101F
 
+    pos u1005'     148  u1006.med  [u102F u1030]; # MNW #2444
+
     pos u1014.alt' 172  u1010.med          [u102F u1030]; # 412, blk #134
     pos u1014.alt' 181  u1011.med    u1014.alt u1010.med; # 414
     pos u1014.alt'  26  u103D        u1014.alt u1010.med; # 1175
     
+    pos u1015'     127  u100A.med  [u102F u1030]; # MNW #1453
+    pos u1015'     134  u1010.med  [u102F u1030]; # MNW #1470
+    pos u1015'     143  u1011.med  [u102F u1030]; # MNW #1481
+    pos u1015'      93  u1021.med  [u102F u1030]; # MNW #1486-87
     pos u1017'     143  u1018.med    u1014.alt u1010.med; # 3647
     pos u1017'     143  u1018.med    u102F    ; # 3646
     pos u1019'     145  u1018.med    u1030    ; # 1953
@@ -236,6 +242,8 @@ lookup dist_advance {
     pos u1010' 45     u102D_u1036      ; # 886
     pos [@cCons]' 47  u102E_u1036      ; # Moken
     pos [@cCons]' 46  u1032_u1036      ; # Moken
+    
+    pos u102B' 135     u1036; # MNW multiple
     
   # --- Consonants with u103A --------------
     pos [u1004]'  9                u1037 u103A; #    (removed u100B - not needed for Book - #2347)    
