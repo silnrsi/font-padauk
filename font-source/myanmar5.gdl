@@ -266,7 +266,7 @@ cUVowel = (g103a, g1004_kinzi, g1004_kinzi_102d, g1004_kinzi_102e, g1004_kinzi_1
             g102d_1036, g102e, g102e_1036, g1032, g1032_102d, g1032_1036, g1033, g1034, g1035,
             g1071, g1072, g1073, g1074, g1085, g1086){breakweight = -BW_NEVER};
 cUSpace = (g1032, g1032_102d, g103a, g102d, g102e, g1004_kinzi_102e, g1004_kinzi_102d, g1004_kinzi,
-            g1004_kinzi_1036, g1004_kinzi_103a, g101b_kinzi, g101b_kinzi_102d, g101b_kinzi_102e, g101b_kinzi_103a, g1033, g1034, g1035, g1071, g1072, g1073, g1074,
+            g1004_kinzi_1036, g1004_kinzi_103a, g101b_kinzi, g101b_kinzi_102d, g101b_kinzi_102e, g101b_kinzi_103a, g1032, g1033, g1034, g1035, g1071, g1072, g1073, g1074,
             g1085);
 cUVowelNga = (g102e, g102d, g1032, g1033, g1036);
 cNgaUVowel = (g1004_kinzi_102e, g1004_kinzi_102d, g1004_kinzi_1032, g1004_kinzi_1033, g1004_kinzi_1036);
@@ -704,9 +704,9 @@ corresponding class the wrap glyphs should be mapped to. We also move the wrap t
 
 // suboptimal matches all around here
 _ c103c_nar > c103c_wide:r$r _ / ^ _ cConsWide cmed? c103b? _=r;
-_ c103c_nar > c103c_widalt:r$r _ / ^ _ cConsNar cMedWide _=r c103d? c103e? cUSpace;
-_ c103c_nar > c103c_naralt:r$r _ / ^ _ cConsNar cmed? c103b? _=r c103d? c103e? cUSpace;
-_ c103c_nar > c103c_widalt:r$r _ / ^ _ cConsWide cmed? c103b? _=r c103d? c103e? cUSpace;
+_ c103c_nar > c103c_widalt:r$r _ / ^ _ cConsNar cMedWide _=r c103d? c103e? cPreVowel? cUSpace;
+_ c103c_nar > c103c_naralt:r$r _ / ^ _ cConsNar cmed? c103b? _=r c103d? c103e? cPreVowel? cUSpace;
+_ c103c_nar > c103c_widalt:r$r _ / ^ _ cConsWide cmed? c103b? _=r c103d? c103e? cPreVowel? cUSpace;
 _ c103c_nar > c103c_widalt:r$r _ / ^ _ cConsNar cMedWide g103a _=r;
 _ c103c_nar > c103c_naralt:r$r _ / ^ _ cConsNar cmed? g103a _=r;
 _ c103c_nar > c103c_widalt:r$r _ / ^ _ cConsWide cmed? g103a _=r;
