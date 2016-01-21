@@ -18271,9 +18271,10 @@ Width: 0
 VWidth: 0
 GlyphClass: 4
 Flags: HW
-AnchorPoint: "L" -248 -53 mark 0
-AnchorPoint: "LL" -501 -53 basemark 0
-AnchorPoint: "L" 144 -53 basemark 0
+AnchorPoint: "BS" -248 -53 mark 0
+AnchorPoint: "BSM" -248 -53 mark 0
+AnchorPoint: "LLM" -501 -53 basemark 0
+AnchorPoint: "BSM" -501 -53 basemark 0
 LayerCount: 2
 Back
 Fore
