@@ -225,6 +225,7 @@ feature rclt {
       lookup mym2_rclt_tla_Vowelu108D_order2;
       lookup mym2_rclt_tla_VoweluAA7C_order1;
       lookup mym2_rclt_tla_VoweluAA7C_order2;
+      lookup mym2_102B_1036swap;
       lookup mym2_rclt_UDiac_102Fmed_order1;
       lookup mym2_rclt_UDiac_102Fmed_order2;
       lookup mym2_rclt_UDiac_102F_order1;

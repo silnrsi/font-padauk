@@ -616,6 +616,25 @@ lookup mym2_rclt_tla_VoweluAA7C_order2 {
 
 # ------------------------- Tai Laing (tla) --------------------------
 
+# ---------------------- MNW u102B-u1036 swap ------------------------
+
+lookup mym2_102B_1036swap_Subst1 {
+  lookupflag 0;
+    sub u102B by u1036;
+} mym2_102B_1036swap_Subst1;
+
+lookup mym2_102B_1036swap_Subst2 {
+  lookupflag 0;
+    sub u1036 by u102B;
+} mym2_102B_1036swap_Subst2;
+
+lookup mym2_102B_1036swap {
+  lookupflag 0;
+    sub u102B' lookup mym2_102B_1036swap_Subst1 u1036' lookup mym2_102B_1036swap_Subst2;
+} mym2_102B_1036swap;
+
+# ---------------------- MNW u102B-u1036 swap ------------------------
+
 # ---------------------------- u102F.med -----------------------------
 # EXPERMENTAL - testing needed to make sure it doesn't break other sequences
 # Given input of u102F followed by some upper diacritics (u1032, u1036) 
