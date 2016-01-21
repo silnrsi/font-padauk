@@ -14462,7 +14462,6 @@ AnchorPoint: "BS" -198 -53 mark 0
 AnchorPoint: "LLM" -495 -53 basemark 0
 AnchorPoint: "BSM" -198 -53 mark 0
 AnchorPoint: "LM" 99 -53 basemark 0
-AnchorPoint: "BS" 154 -53 basemark 0
 AnchorPoint: "BSM" 399 -53 basemark 0
 LayerCount: 2
 Back
@@ -19176,14 +19175,7 @@ GlyphClass: 4
 Flags: HW
 AnchorPoint: "Y" 423 495 mark 0
 AnchorPoint: "U" 235 495 mark 0
-AnchorPoint: "U" -293 495 basemark 0
-AnchorPoint: "BDM" -495 -53 basemark 0
-AnchorPoint: "LR" 61 -53 basechar 0
-AnchorPoint: "BS" -293 -53 basechar 0
-AnchorPoint: "UM" 226 495 mark 0
-AnchorPoint: "L" -90 -53 basechar 0
-AnchorPoint: "LL" -665 -53 basechar 0
-AnchorPoint: "BD" -495 -53 basechar 0
+AnchorPoint: "UM" -293 495 basemark 0
 LayerCount: 2
 Back
 Fore
