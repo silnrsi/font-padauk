@@ -90,6 +90,8 @@ lookup dist_103C_Cons {
   lookupflag 0;
   # By design u102B, u103B have negative overhang so in this first group 
   # we compensate so it doesn't collide with u103C
+  # This section comes first so it overrides u103C-cons rules below
+    pos u103C            u1012' 182   u102B; # MNW #1241
     pos u103C            u1015' 135   u102B; # Sgaw Karen #704
     pos u103C            u1016' 135   u102B; # Sgaw Karen #788
     pos u103C.wide       u101E' 147   u102B; # Sgaw Karen #1167
