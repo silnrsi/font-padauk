@@ -172,9 +172,7 @@ lookup kern_101Balt_1036 {
 lookup kern_misc {
   lookupflag 0;
     pos [u1001 u1002]' 135 [u1004.kinzi] u102B; # 2425 Shifts 102B away from 1004.kinzi
-    pos u1002'      58  u1004.kinzi_u102D u101F; # 2433 Shifts 101F
-
-    pos u1005'     157  u1006.med  [u102F u1030]; # MNW #2444
+    pos u1002'      58  u1004.kinzi_u102D    u101F; # 2433 Shifts 101F
     
     pos u1014.alt' 186  u1010.med          [u102F u1030]; # 412, blk #134
     pos u1014.alt' 202  u1011.med    u1014.alt u1010.med; # 414
@@ -240,21 +238,29 @@ lookup kern_102F_1032 {
 
 lookup dist_advance {
   lookupflag 0;
-    pos u1002' 58     u1004.kinzi_u102E; # 2441 adv width
-    pos u1010' 36     u102D_u1036      ; # 886
-    pos [@cCons]' 36  u102E_u1036      ; # Moken
-#    pos [@cCons]'  0  u1032_u1036      ; # Moken
+    pos u1002'  58  u1004.kinzi_u102E         ; # 2441 adv width
+    pos u1005' 157  u1006.med    [u102F u1030]; # MNW #2444
+    pos u1005' 157  u102D_u1036  [u102F u1030]; # MNW #584 (adv. width)
+    pos u1010'  36  u102D_u1036               ; # 886
+    
+    pos [@cCons]' 36  u102E_u1036; # Moken
+#    pos [@cCons]'  0  u1032_u1036; # Moken
     
     pos u102B' 135     u1036; # MNW multiple
     
   # --- Consonants with u103A --------------
+    pos u1000_u103B_u1015_u103A' 32         ; # 137, 2678 (to match graphite output)
+    
     pos [u1004 u100B]' 10        u1037 u103A;
     pos [u1004 u100B]' 10        u1082 u103A; # Shan #121
     pos [u1004 u100B]' 10              u103A;
+        
+    pos u100C'   5                u1037 u103A;
+    pos u100C'  10                      u103A; #1283, Pa'o (blk) #1909
+    pos u100F'  13        [u1037 u103E] u103A; #MNW #935, 937
+    pos u100F'  13                      u103A; # 45
     
-    pos u1000_u103B_u1015_u103A' 32         ; # 137, 2678 (to match graphite output)
-    
-    pos u1012'  19                u1037 u103A;
+    pos u1012'  19        [u1037 u103E] u103A; #MNW #1261, 1263
     pos u1012'  19                u103A_u1036; # Sgaw Karen #1945
     pos u1012'  19                      u103A; # 570, 1305
     
@@ -262,14 +268,14 @@ lookup dist_advance {
     pos u1014'  79  [u1032 u1036] u1037 u103A;
     pos u1014'  79                u1037 u103A; # 64
     pos u1014'  29                      u103A; # 65
+    pos u1014.alt'  28            u103E u103A; # MNW #1369,1375
     
-    pos u100C'   5                u1037 u103A;
-    pos u100C'  10                      u103A; #1283, Pa'o (blk) #1909
-    pos u100F'  13                u1037 u103A;
-    pos u100F'  13                      u103A; # 45
-    pos u101C'   5                u1037 u103A;
+    pos u101B.long'  6            u103E u103A; # MNW #2196, 2199
+    
+    pos u101C'   5        [u1037 u103E] u103A; #MNW #2351, 2359
     pos u101C'   5                u1082 u103A; # Shan #1492
     pos u101C'   5                      u103A; # 415, 881
+    pos u105C'   1                u103E u103A; #MNW #3099, 3100
     
     
   # --- Consonants with u1037 --------------
