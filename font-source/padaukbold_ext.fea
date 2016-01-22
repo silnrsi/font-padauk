@@ -173,6 +173,7 @@ lookup kern_misc {
   lookupflag 0;
     pos [u1001 u1002]' 135 [u1004.kinzi] u102B; # 2425 Shifts 102B away from 1004.kinzi
     pos u1002'      62  u1004.kinzi_u102D    u101F; # 2433 Shifts 101F
+    pos u1005'     140  u1006.med    [u102F u1030]; # MNW #2444
 
     pos u1014.alt' 156  u1010.med          [u102F u1030]; # 412, blk #134
     pos u1014.alt' 161  u1011.med    u1014.alt u1010.med; # 414
@@ -239,8 +240,7 @@ lookup kern_102F_1032 {
 lookup dist_advance {
   lookupflag 0;
     pos u1002'  62  u1004.kinzi_u102E         ; # 2441 adv width
-    pos u1005' 140  u1006.med    [u102F u1030]; # MNW #2444
-    pos u1005'  57  u102D_u1036  [u102F u1030]; # MNW #584 (adv. width)
+    pos u1005'  57  u102D_u1036      u102F.med; # MNW #584
     pos u1010'  56  u102D_u1036               ; # 886
     
     pos [@cCons]' 56  u102E_u1036; # Moken
