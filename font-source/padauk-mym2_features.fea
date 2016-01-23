@@ -115,6 +115,7 @@ feature blwf {
 feature pstf {
  script mym2;
      language dflt;
+      lookup mym2_swap_1037_103A; # Actually a clig lookup
       lookup mym2_pstf_asatLig;
       lookup mym2_pstf_signsLig;
       lookup mym2_pstf_1009;
@@ -252,19 +253,18 @@ feature psts {
 } psts;
 
 
-feature rclt {
+feature clig {
  script mym2;
      language dflt;
-      lookup mym2_rclt_tla_Vowelu108D_order1;
-      lookup mym2_rclt_tla_Vowelu108D_order2;
-      lookup mym2_rclt_tla_VoweluAA7C_order1;
-      lookup mym2_rclt_tla_VoweluAA7C_order2;
-      lookup mym2_102B_1036swap;
-      lookup mym2_rclt_UDiac_102Fmed_order1;
-      lookup mym2_rclt_UDiac_102Fmed_order2;
-      lookup mym2_rclt_UDiac_102F_order1;
-      lookup mym2_rclt_UDiac_102F_order2;
-} rclt;
+      lookup mym2_swap_tla_Vowelu108D_order1;
+      lookup mym2_swap_tla_Vowelu108D_order2;
+      lookup mym2_swap_tla_VoweluAA7C_order1;
+      lookup mym2_swap_tla_VoweluAA7C_order2;
+      lookup mym2_swap_1032_102F;
+      lookup mym2_swap_UDiac_102Fmed_order1;
+      lookup mym2_swap_UDiac_102Fmed_order2;
+      lookup mym2_swap_102B_1036;
+} clig;
 
 
 
