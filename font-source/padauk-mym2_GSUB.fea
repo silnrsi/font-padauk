@@ -332,7 +332,7 @@ lookup mym2_blwf_u1039med {
 # pstf
 # ****
 
-# This clig lookup group must come here so liga u102B_u103A can form --
+# -- This clig lookup group must come here so u102B_u103A can form --
 lookup g1037_103A_Subst1 {
   lookupflag 0;
     sub u1037 by u103A;
@@ -349,6 +349,7 @@ lookup mym2_swap_1037_103A {
     sub u102B u1037' lookup g1037_103A_Subst1 u103A' lookup g1037_103A_Subst2;
 } mym2_swap_1037_103A;
 # ---------------------- End of lookup group --------------------------
+
 
 lookup mym2_pstf_asatLig {
   lookupflag 0;
@@ -690,6 +691,47 @@ lookup mym2_swap_102B_1036 {
   lookupflag 0;
     sub u102B' lookup g102B_1036_Subst1 u1036' lookup g102B_1036_Subst2;
 } mym2_swap_102B_1036;
+
+# ---------------------------- u1086 ---------------------------------
+lookup g1062_1086_Subst1 {
+  lookupflag 0;
+    sub u1062 by u1086;
+} g1062_1086_Subst1;
+
+lookup g1062_1086_Subst2 {
+  lookupflag 0;
+    sub u1086 by u1062;
+} g1062_1086_Subst2;
+
+# --------------------------- u1086.kham -----------------------------
+lookup g1062_1086k_Subst1 {
+  lookupflag 0;
+    sub u1062 by u1086.kham;
+} g1062_1086k_Subst1;
+
+lookup g1062_1086k_Subst2 {
+  lookupflag 0;
+    sub u1086.kham by u1062;
+} g1062_1086k_Subst2;
+
+# -------------------------- u1032_uAA70 -----------------------------
+lookup g1062_1032_uAA70_Subst1 {
+  lookupflag 0;
+    sub u1062 by u1032_uAA70;
+} g1062_1032_uAA70_Subst1;
+
+lookup g1062_1032_uAA70_Subst2 {
+  lookupflag 0;
+    sub u1032_uAA70 by u1062;
+} g1062_1032_uAA70_Subst2;
+
+lookup mym2_swap_1062_1086k {
+  lookupflag 0;
+    sub u102B' lookup g102B_1036_Subst1 u1036'       lookup g102B_1036_Subst2;
+    sub u1062' lookup g1062_1086_Subst1  u1086'      lookup g1062_1086_Subst2; # Shan
+    sub u1062' lookup g1062_1086k_Subst1 u1086.kham' lookup g1062_1086k_Subst2; # Khamti Shan
+    sub u1062' lookup g1062_1032_uAA70_Subst1 u1032_uAA70' lookup g1062_1032_uAA70_Subst2; # Khamti Shan
+} mym2_swap_1062_1086k;
 
 
 # ----------------------------------------------------------------------

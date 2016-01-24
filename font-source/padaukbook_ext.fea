@@ -51,6 +51,8 @@ lookup dist_SpacingMarks {
     # Glyph u1062 classified as mark in GDEF for Shan. I did this 
     # so a u1086 coming after u1062 can ignore u1062 and attach to cons
     pos u1062 <0 0 291 0>;
+    # AA70 is a spacing mark in isolated form
+    pos uAA70 <0 0 554 0>;
 } dist_SpacingMarks; 
 
 # Normally u1037 attaches to u103D or u102F. But when the latter two
@@ -251,9 +253,10 @@ lookup dist_advance {
   # --- Consonants with u103A --------------
     pos u1000_u103B_u1015_u103A' 29         ; # 137, 2678 (to match graphite output)
     
-    pos [u1004]'  9                u1037 u103A; #    (removed u100B - not needed for Book - #2347)    
-    pos [u1004]'  9                u1082 u103A; # Shan #121 (removed u100B - not needed for Book - #2347)
-    pos [u1004]'  9                      u103A; # 31 (removed u100B - not needed for Book - #2347)
+    pos [u1004]'  9              u1037 u103A; #    (removed u100B - not needed for Book - #2347)    
+    pos [u1004]'  9              u1082 u103A; # Shan #121 (removed u100B - not needed for Book - #2347)
+    pos [u1004]'  9                    u103A; # 31 (removed u100B - not needed for Book - #2347)
+    pos  u1004.kham'  9  [u103A u103A_uAA70];
     
     pos u100C'   9                u1037 u103A; # 
     pos u100C'   9                      u103A; #

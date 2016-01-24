@@ -51,6 +51,8 @@ lookup dist_SpacingMarks {
     # Glyph u1062 classified as mark in GDEF for Shan. I did this 
     # so a u1086 coming after u1062 can ignore u1062 and attach to cons
     pos u1062 <0 0 271 0>;
+    # AA70 is a spacing mark in isolated form
+    pos uAA70 <0 0 534 0>;
 } dist_SpacingMarks; 
 
 # Normally u1037 attaches to u103D or u102F. But when the latter two
@@ -254,6 +256,7 @@ lookup dist_advance {
     pos [u1004 u100B]' 10        u1037 u103A;
     pos [u1004 u100B]' 10        u1082 u103A; # Shan #121
     pos [u1004 u100B]' 10              u103A;
+    pos  u1004.kham' 10  [u103A u103A_uAA70];
     
     pos u100C'   5                u1037 u103A;
     pos u100C'  10                      u103A; #1283, Pa'o (blk) #1909
