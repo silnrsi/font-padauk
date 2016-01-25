@@ -48,9 +48,6 @@ lookup dist_SpacingMarks {
     pos u103C_u103D.alt.wide.tri <0 0 234 0>;
     pos u103C_u103D.narr.tri <0 0 234 0>;
     pos u103C_u103D.wide.tri <0 0 234 0>;
-    # Glyph u1062 classified as mark in GDEF for Shan. I did this 
-    # so a u1086 coming after u1062 can ignore u1062 and attach to cons
-    pos u1062 <0 0 333 0>;
     # AA70 is a spacing mark in isolated form
     pos uAA70 <0 0 594 0>;
 } dist_SpacingMarks; 

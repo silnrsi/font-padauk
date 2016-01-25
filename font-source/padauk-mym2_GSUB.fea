@@ -332,7 +332,9 @@ lookup mym2_blwf_u1039med {
 # pstf
 # ****
 
-# -- This clig lookup group must come here so u102B_u103A can form --
+# --------------------------------------------------------------------
+# This clig lookup group must come here so u102B_u103A can form
+# --------------------------------------------------------------------
 lookup g1037_103A_Subst1 {
   lookupflag 0;
     sub u1037 by u103A;
@@ -348,8 +350,7 @@ lookup mym2_swap_1037_103A {
   lookupflag 0;
     sub u102B u1037' lookup g1037_103A_Subst1 u103A' lookup g1037_103A_Subst2;
 } mym2_swap_1037_103A;
-# ---------------------- End of lookup group --------------------------
-
+# ---------------------- End of lookup group -------------------------
 
 lookup mym2_pstf_asatLig {
   lookupflag 0;
@@ -359,19 +360,6 @@ lookup mym2_pstf_asatLig {
     sub \u103A \u1036  by \u103A_u1036;
     sub \u103A \uAA70  by \u103A_uAA70;
 } mym2_pstf_asatLig;
-
-# --- for some reason this contextual lookup doesn't work 
-# --- but sort of works in next lookup mym2_pstf_signsLig
-#lookup mym2_cntxLigSubst {
-#  lookupflag 0;
-#    sub u102D uAA7C by u102D_uAA7C; # Tai Laing
-#} mym2_cntxLigSubst;
-#
-#lookup mym2_abvs_cntxLig {
-#  lookupflag 0;
-#    sub u102D'lookup mym2_cntxLigSubst u1030.med uAA7C';
-#} mym2_abvs_cntxLig;
-
 
 lookup mym2_pstf_signsLig {
   lookupflag IgnoreBaseGlyphs, UseMarkFilteringSet @cUDia;
@@ -462,8 +450,9 @@ lookup mym2_pres_raTriUpperVowel {
 # abvs
 # ****
 
+@classAA70Lig = [u1032 u103A u1086.kham uAA70];
 lookup mym2_abvs_redupLig {
-  lookupflag IgnoreBaseGlyphs, IgnoreLigatures;
+  lookupflag IgnoreBaseGlyphs, IgnoreLigatures, UseMarkFilteringSet @classAA70Lig;
     sub \u1032 \uAA70  by \u1032_uAA70; #used by default (dflt) lang if Khamti (KHT ) is not enabled
     sub \u103A \uAA70  by \u103A_uAA70;
     sub \u1086.kham \uAA70  by \u1032_uAA70;
@@ -580,103 +569,24 @@ lookup mym2_psts_miscLig {
 # ****
 # clig (used for swapping glyphs)
 # ****
+# --------------------------------------------------------------------
+# First are sets of glyphs to be swapped
+# --------------------------------------------------------------------
 
-# ------------------------- Tai Laing (tla) --------------------------
-# reorder tone to precede the vowel; tone should then attach to consonant
-
-# reorder so that tone u108D precedes vowel u1062 or u1083
-lookup tla_Vowelu108DSubst1 {
-  lookupflag 0;
-    sub u1062 by u108D u1062;
-    sub u1083 by u108D u1083;
-} tla_Vowelu108DSubst1;
-
-lookup mym2_swap_tla_Vowelu108D_order1 {
-  lookupflag 0;
-    sub [u1062 u1083]' lookup tla_Vowelu108DSubst1 u108D;
-} mym2_swap_tla_Vowelu108D_order1;
-
-lookup tla_Vowelu108DSubst2 {
-  lookupflag 0;
-    sub u1062 u108D by u1062;
-    sub u1083 u108D by u1083;
-} tla_Vowelu108DSubst2;
-
-lookup mym2_swap_tla_Vowelu108D_order2 {
-  lookupflag 0;
-    sub u108D [u1062 u1083]' lookup tla_Vowelu108DSubst2 u108D';
-} mym2_swap_tla_Vowelu108D_order2;
-
-# I have to have separate lookup groups for each *tone* 
-# Otherwise it keeps adding tones if more than one rule in each lookup
-# Using a class for the tones doesn't work either
-
-# reorder so that tone uAA7C precedes vowel u1083
-lookup tla_VoweluAA7CSubst1 {
-  lookupflag 0;
-    sub u1083 by uAA7C u1083;
-} tla_VoweluAA7CSubst1;
-
-lookup mym2_swap_tla_VoweluAA7C_order1 {
-  lookupflag 0;
-    sub u1083' lookup tla_VoweluAA7CSubst1 uAA7C;
-} mym2_swap_tla_VoweluAA7C_order1;
-
-lookup tla_VoweluAA7CSubst2 {
-  lookupflag 0;
-    sub u1083 uAA7C by u1083;
-} tla_VoweluAA7CSubst2;
-
-lookup mym2_swap_tla_VoweluAA7C_order2 {
-  lookupflag 0;
-    sub uAA7C u1083' lookup tla_VoweluAA7CSubst2 uAA7C';
-} mym2_swap_tla_VoweluAA7C_order2;
-
-# ------------------------- Tai Laing (tla) --------------------------
-
-# ------------------------------ u102F -------------------------------
-lookup g1032_102F_Subst1 {
-  lookupflag 0;
-    sub u1032 by u102F;
-} g1032_102F_Subst1;
-
-lookup g1032_102F_Subst2 {
-  lookupflag 0;
-    sub u102F by u1032;
-} g1032_102F_Subst2;
-
-lookup mym2_swap_1032_102F {
-  lookupflag 0;
-    sub u1032' lookup g1032_102F_Subst1 u102F' lookup g1032_102F_Subst2;
-} mym2_swap_1032_102F;
-
-# ---------------------------- u102F.med -----------------------------
-
-# Pass #1 - add u102F.med before u1032 or u1036
+# ----------------------- UDiac - u102F.med --------------------------
 lookup UDiac_102FmedSubst1 {
   lookupflag 0;
     sub u1032 by u102F.med u1032;
     sub u1036 by u102F.med u1036;
 } UDiac_102FmedSubst1;
 
-lookup mym2_swap_UDiac_102Fmed_order1 {
-  lookupflag 0;
-    sub [u1032 u1036]' lookup UDiac_102FmedSubst1 u102F.med;
-} mym2_swap_UDiac_102Fmed_order1;
-
-# Pass #2 - remove the extra u102F.med
 lookup UDiac_102FmedSubst2 {
   lookupflag 0;
     sub u1032 u102F.med by u1032;
     sub u1036 u102F.med by u1036;
 } UDiac_102FmedSubst2;
 
-lookup mym2_swap_UDiac_102Fmed_order2 {
-  lookupflag 0;
-    sub u102F.med [u1032 u1036]' lookup UDiac_102FmedSubst2 u102F.med';
-} mym2_swap_UDiac_102Fmed_order2;
-
-# ------------------------------ u1036 -------------------------------
+# ----------------------- u102B - u1036 ------------------------------
 lookup g102B_1036_Subst1 {
   lookupflag 0;
     sub u102B by u1036;
@@ -687,12 +597,18 @@ lookup g102B_1036_Subst2 {
     sub u1036 by u102B;
 } g102B_1036_Subst2;
 
-lookup mym2_swap_102B_1036 {
+# ----------------------- u1032 - u102F ------------------------------
+lookup g1032_102F_Subst1 {
   lookupflag 0;
-    sub u102B' lookup g102B_1036_Subst1 u1036' lookup g102B_1036_Subst2;
-} mym2_swap_102B_1036;
+    sub u1032 by u102F;
+} g1032_102F_Subst1;
 
-# ---------------------------- u1086 ---------------------------------
+lookup g1032_102F_Subst2 {
+  lookupflag 0;
+    sub u102F by u1032;
+} g1032_102F_Subst2;
+
+# ----------------------- u1062 - u1086 ------------------------------
 lookup g1062_1086_Subst1 {
   lookupflag 0;
     sub u1062 by u1086;
@@ -703,7 +619,7 @@ lookup g1062_1086_Subst2 {
     sub u1086 by u1062;
 } g1062_1086_Subst2;
 
-# --------------------------- u1086.kham -----------------------------
+# ----------------------- u1062 - u1086.kham -------------------------
 lookup g1062_1086k_Subst1 {
   lookupflag 0;
     sub u1062 by u1086.kham;
@@ -714,7 +630,7 @@ lookup g1062_1086k_Subst2 {
     sub u1086.kham by u1062;
 } g1062_1086k_Subst2;
 
-# -------------------------- u1032_uAA70 -----------------------------
+# -----------------------u1062 - u1032_uAA70 -------------------------
 lookup g1062_1032_uAA70_Subst1 {
   lookupflag 0;
     sub u1062 by u1032_uAA70;
@@ -725,13 +641,59 @@ lookup g1062_1032_uAA70_Subst2 {
     sub u1032_uAA70 by u1062;
 } g1062_1032_uAA70_Subst2;
 
-lookup mym2_swap_1062_1086k {
+# ------------------------- Tai Laing (tla) --------------------------
+# reorder tone to precede the vowel; tone should then attach to consonant
+
+# reorder so that tone u108D precedes vowel u1062 or u1083
+lookup tla_Vowel108DSubst1 {
   lookupflag 0;
-    sub u102B' lookup g102B_1036_Subst1 u1036'       lookup g102B_1036_Subst2;
-    sub u1062' lookup g1062_1086_Subst1  u1086'      lookup g1062_1086_Subst2; # Shan
-    sub u1062' lookup g1062_1086k_Subst1 u1086.kham' lookup g1062_1086k_Subst2; # Khamti Shan
+    sub u1062 by u108D u1062;
+    sub u1083 by u108D u1083;
+} tla_Vowel108DSubst1;
+
+lookup tla_Vowel108DSubst2 {
+  lookupflag 0;
+    sub u1062 u108D by u1062;
+    sub u1083 u108D by u1083;
+} tla_Vowel108DSubst2;
+
+# I have to have separate lookup groups for each *tone* 
+# Otherwise it keeps adding tones if more than one rule in each lookup
+
+# reorder so that tone uAA7C precedes vowel u1083
+lookup tla_VowelAA7CSubst1 {
+  lookupflag 0;
+    sub u1083 by uAA7C u1083;
+} tla_VowelAA7CSubst1;
+
+lookup tla_VowelAA7CSubst2 {
+  lookupflag 0;
+    sub u1083 uAA7C by u1083;
+} tla_VowelAA7CSubst2;
+
+#lookup mym2_swap_tla_VoweluAA7C_order2 {
+#  lookupflag 0;
+#    sub uAA7C u1083' lookup tla_VoweluAA7CSubst2 uAA7C';
+#} mym2_swap_tla_VoweluAA7C_order2;
+
+# ------------------------- Tai Laing (tla) --------------------------
+
+# --------------------------------------------------------------------
+# Next, the glyph machine will put the glyphs in place
+# --------------------------------------------------------------------
+lookup mym2_swap_thing1_thing2 {
+  lookupflag 0;
+    sub u1032' lookup UDiac_102FmedSubst1     u102F.med'   lookup UDiac_102FmedSubst2; # Pa'o Karen
+    sub u1036' lookup UDiac_102FmedSubst1     u102F.med'   lookup UDiac_102FmedSubst2; # Pa'o Karen
+    sub u102B' lookup g102B_1036_Subst1       u1036'       lookup g102B_1036_Subst2;
+    sub u1032' lookup g1032_102F_Subst1       u102F'       lookup g1032_102F_Subst2;
+    sub u1062' lookup g1062_1086_Subst1       u1086'       lookup g1062_1086_Subst2; # Shan
+    sub u1062' lookup g1062_1086k_Subst1      u1086.kham'  lookup g1062_1086k_Subst2; # Khamti Shan
     sub u1062' lookup g1062_1032_uAA70_Subst1 u1032_uAA70' lookup g1062_1032_uAA70_Subst2; # Khamti Shan
-} mym2_swap_1062_1086k;
+    sub u1062' lookup tla_Vowel108DSubst1     u108D'       lookup tla_Vowel108DSubst2; #Tai Laing (tla)
+    sub u1083' lookup tla_Vowel108DSubst1     u108D'       lookup tla_Vowel108DSubst2; #Tai Laing (tla)
+    sub u1083' lookup tla_VowelAA7CSubst1     uAA7C'       lookup tla_VowelAA7CSubst2; #Tai Laing (tla)
+} mym2_swap_thing1_thing2;
 
 
 # ----------------------------------------------------------------------
