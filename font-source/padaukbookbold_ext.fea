@@ -123,6 +123,11 @@ lookup dist_103C_Cons {
     pos [@class103CWide] u1078'  6         ; # Shan #2856
     pos [@class103CWide] u107D'  9         ; # Shan #3247; Bookbold ONLY
     
+    pos [@class103CWide] u1010.kham'  6         ; # KHT #518-20
+#    pos [@class103CWide] u101C.kham'  0         ; # KHT #1318, 1321
+#    pos [@class103CWide] u101C.kham'  0 [@cUDia]; # KHT #1319-20
+    pos [@class103CWide] u1078.kham'  8         ; # KHT #2128
+    
 #    pos u103C.alt.wide u1000'    25   u1004.kinzi_u1036; # 549; Not needed for Bookbold
     pos u103C          u1014.alt' 13  u1012.med        ; # 545, 575, 713, 1948, 3638
 } dist_103C_Cons;
@@ -188,6 +193,7 @@ lookup kern_misc {
     
     pos u101B'      89  u1005      [@cMedWide]; # 2020
     pos u101B'      84  u1014.alt  [@cMedWide]; # 2045
+    pos u101B'      87  u1019        u101E.med; # MNW #2122
     
     pos u1030'     297  u1037 u103C.wide; # regression #14
     pos u1032'     208  u1037 u103C.wide; # regression #6
@@ -196,7 +202,8 @@ lookup kern_misc {
     pos u103B'      86  u1002           u1003.med; # 1591
     pos u103B'     264  u1032 u1005 u103E_u1030.slantr; # Kayah kyu_wdl #1545, 2163, 8345, 10782
     
-    pos u103C.alt.narr u1017'     89  u102D [@cCons]; # 1611
+    pos u103C.alt.narr u1017'  89  u102D [@cCons] u1006.med; # 1611
+    pos u103C.alt.narr u1017'  84  u1034 [@cCons] u1010.med; # MNW 1810
     
     pos u1081' 21   u1082 u103A [u1087 u1088]; # Shan #3537-38
 } kern_misc; 
@@ -223,14 +230,12 @@ lookup kern_reorderedMarks {
     pos u1000 u1004.kinzi_u102E' <144 0 0 0> u103B; # 3581
 } kern_reorderedMarks;
 
-# Input sequence is u102F u1032 with u1032 attaching at U 
-# OTLS reordered the pair so now we kern to make it appear to attach
-# Adding 172 to LSB works for many but may need contextual rules for precise placement
-# feature disabled
-lookup kern_102F_1032 {
+# Input sequence is "cons. u102F u1032" with u1032 attaching to the cons.
+lookup shift_1032 {
   lookupflag 0;
-    pos u1032' <197 0 0 0> u102F;
-} kern_102F_1032;
+    pos [u100D u1025 u105D] u102F u1032' <-220 0 0 0>; #MNW #865, 3014, 3104
+    pos u103B               u102F u1032' <-145 0 0 0>; #MNW #1660
+} shift_1032;
 
 # ----------------------------------------------------------------------
 # Clean up of advance width
@@ -246,6 +251,7 @@ lookup dist_advance {
     pos [@cCons]' 65  u1032_u1036; # Moken
     
     pos u102B' 135     u1036; # MNW multiple
+    pos u1062'  36     u1036.dot; # KHT #1993
     
   # --- Consonants with u103A --------------
     pos [u1004]'  7              u1037 u103A; #    (removed u100B - not needed for Bookbold - #2347)
@@ -276,6 +282,11 @@ lookup dist_advance {
 #    pos u101C'   0                u1082 u103A; # Shan #1492; Not needed for Bookbold 
 #    pos u101C'   0                      u103A; # 415, 881; Not needed for Bookbold
 #    pos u105C'   0                u103E u103A; #MNW #3099, 3100 (not needed for Bookbold)
+    
+    pos u1004.kham'   7     u1082       u103A; # KHT #355
+#    pos u101C.kham'   0     u1082       u103A; # KHT #1360
+#    pos u101C.kham'   0     u1082 u103A_uAA70; # KHT #1361
+#    pos u101C.kham'   0     u103A   u1088.dot; # KHT #1358-59
 
 
   # --- Consonants with u1037 --------------

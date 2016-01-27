@@ -685,7 +685,7 @@ lookup mym2_swap_thing1_thing2 {
   lookupflag 0;
     sub u1032' lookup UDiac_102FmedSubst1     u102F.med'   lookup UDiac_102FmedSubst2; # Pa'o Karen
     sub u1036' lookup UDiac_102FmedSubst1     u102F.med'   lookup UDiac_102FmedSubst2; # Pa'o Karen
-    sub u102B' lookup g102B_1036_Subst1       u1036'       lookup g102B_1036_Subst2;
+    sub u102B' lookup g102B_1036_Subst1       u1036'       lookup g102B_1036_Subst2; # Mon
     sub u1032' lookup g1032_102F_Subst1       u102F'       lookup g1032_102F_Subst2;
     sub u1062' lookup g1062_1086_Subst1       u1086'       lookup g1062_1086_Subst2; # Shan
     sub u1062' lookup g1062_1086k_Subst1      u1086.kham'  lookup g1062_1086k_Subst2; # Khamti Shan
