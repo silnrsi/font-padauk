@@ -99,6 +99,7 @@ lookup dist_103C_Cons {
     pos u103C.wide       u101E' 147   u102B; # Sgaw Karen #1167
     pos u103C.wide       u1010' 140   u102B; # Sgaw Karen #457    
     pos u103C.alt.narr   u1001' 105   u103B; # regression #25
+    pos u103C            u1019'  96   u103B; # PLL #1
     
     pos [@class103CNarr] u1001'  5 [@cUDia]; # 327-350 376-378;
     pos [@class103CNarr] u1001'  5         ; # 327-350 376-378;
