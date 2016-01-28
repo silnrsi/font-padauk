@@ -233,8 +233,10 @@ lookup kern_reorderedMarks {
 # Input sequence is "cons. u102F u1032" with u1032 attaching to the cons.
 lookup shift_1032 {
   lookupflag 0;
-    pos [u100D u1025 u105D] u102F u1032' <-220 0 0 0>; #MNW #865, 3014, 3104
-    pos u103B               u102F u1032' <-145 0 0 0>; #MNW #1660
+    pos u100D u102F u1032' <-220 0 0 0>; #MNW #865
+    pos u1025 u102F u1032' <-197 0 0 0>; #MNW #3014
+    pos u105D u102F u1032' <-199 0 0 0>; #MNW #3104
+    pos u103B u102F u1032' <-145 0 0 0>; #MNW #1660
 } shift_1032;
 
 # ----------------------------------------------------------------------
@@ -245,6 +247,7 @@ lookup dist_advance {
   lookupflag 0;
     pos u1002'  64  u1004.kinzi_u102E         ; # 2441 adv width
     pos u1005'  67  u102D_u1036      u102F.med; # MNW #584
+    pos u1018'  65  u102D_u1036      u102F.med; # MNW #2880
     pos u1010'  65  u102D_u1036               ; # 886
     
     pos [@cCons]' 66  u102E_u1036; # Moken
