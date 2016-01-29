@@ -151,6 +151,7 @@ feature pstf {
 feature pres {
  script mym2;
     language dflt;
+     lookup mym2_pres_u103Cwide;
      lookup mym2_pres_raUpperVowel;
      lookup mym2_pres_raTriUpperVowel;
     language KHN  exclude_dflt;

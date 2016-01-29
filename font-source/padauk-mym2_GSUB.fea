@@ -188,6 +188,7 @@ lookup mym2_u103CwideSubst {
 lookup mym2_pref_u103Cwide {
   lookupflag 0;
     sub [u103C]' lookup mym2_u103CwideSubst [@cConsWide];
+    sub [u103C]' lookup mym2_u103CwideSubst [@cConsNar] [@cMedWide]; # Some cases in Sanskrit
 } mym2_pref_u103Cwide;
 
 # These are blws rules really but we put them in pref to make sure they 
@@ -403,6 +404,11 @@ lookup mym2_pstf_tall_U {
 # ****
 # pres
 # ****
+
+lookup mym2_pres_u103Cwide {
+  lookupflag 0;
+    sub u103C' @cConsNar @cMedWide by u103C.wide; # Some cases in Sanskrit
+} mym2_pres_u103Cwide;
 
 lookup mym2_raUpperVowelSubst {
   lookupflag 0;

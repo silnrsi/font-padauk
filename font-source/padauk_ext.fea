@@ -132,8 +132,16 @@ lookup dist_103C_Cons {
     pos [@class103CWide] u101C.kham' 42 [@cUDia]; # KHT #1319-20
     pos [@class103CWide] u1078.kham'  3         ; # KHT #2128
     
+    #Wierd stuff goes here
     pos u103C.alt.wide u1000'     25  u1004.kinzi_u1036; # 549
+    pos u103C.alt.wide u101F'    103  u101B.kinzi_u102E; # Sanskrit #239
     pos u103C          u1014.alt' 52  u1012.med        ; # 545, 575, 713, 1948, 3638
+    
+    pos u103C                u1014.alt' <0 110 52 0>   u1013.med; # Sanskrit #126
+    pos @cwide' <0 0 158 0>  u1005'     <0 110 268 0>  u1006.med; # Sanskrit #57, 58,350
+    pos @cwide' <0 0 158 0>  u1012'     <0 110 310 0>  u1018.med; # Sanskrit #106
+    pos @cwide' <0 0 158 0>  u1051'     <0 110 259 0>  u1000.med; # Sanskrit #281, 282
+    
 } dist_103C_Cons;
 #-----------------------------------------------------------------------
 
