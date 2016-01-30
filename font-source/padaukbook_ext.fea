@@ -133,7 +133,13 @@ lookup dist_103C_Cons {
 #    pos [@class103CWide] u1078.kham'  0         ; # KHT #2128
     
     pos u103C.alt.wide u1000'     10  u1004.kinzi_u1036; # 549
+    pos u103C.alt.wide u101F'     88  u101B.kinzi_u102E; # Sanskrit #239
     pos u103C          u1014.alt'  8  u1012.med        ; # 545, 575, 713, 1948, 3638
+    
+    pos u103C                u1014.alt' <0 110 52 0>   u1013.med; # Sanskrit #126
+    pos @cwide' <0 0 158 0>  u1005'     <0 110 243 0>  u1006.med; # Sanskrit #57, 58, 350
+    pos @cwide' <0 0 158 0>  u1012'     <0 110 284 0>  u1018.med; # Sanskrit #106
+    pos @cwide' <0 0 158 0>  u1051'     <0 110 234 0>  u1000.med; # Sanskrit #281, 282
 } dist_103C_Cons;
 #-----------------------------------------------------------------------
 
@@ -182,6 +188,11 @@ lookup kern_misc {
     pos [u1001 u1002]' 135 [u1004.kinzi] u102B; # 2425 Shifts 102B away from 1004.kinzi
     pos u1002'      60  u1004.kinzi_u102D    u101F; # 2433 Shifts 101F
     pos u1005'     148  u1006.med    [u102F u1030]; # MNW #2444
+    # This next one is wierd. It appears that there is nothing to attach to.
+    pos u1007 u1007.med   u103D' <-308 0 725 0>; # Sanskrit #60
+    pos u1010 u101E.med   u1014.med' <150 0 450 0>; # Sanskrit #95
+    pos u1051 u100B.med   u103D' <-249 0 574 0>; # Sanskrit #287
+    pos u1014_u1010_u103C u103A' <-77 0 0 0>   ; # Sanskrit #371
 
     pos u1014.alt' 172  u1010.med          [u102F u1030]; # 412, blk #134
     pos u1014.alt' 181  u1011.med    u1014.alt u1010.med; # 414
