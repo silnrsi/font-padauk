@@ -272,6 +272,49 @@ lookup dist_advance {
     
     pos u102B' 135     u1036; # MNW multiple
     pos u1062'  46     u1036.dot; # KHT #1993
+        
+  # --- Consonants with kinzi ligatures --------------
+    pos u1000'  64  u1004.kinzi_u102D         ; # Sanskrit #48, 51
+    pos u1000'  89  u101B.kinzi_u102D         ; # Sanskrit #150
+    pos u1002'  85  u101B.kinzi_u102D         ; # Sanskrit #154
+    pos u1003'  64  u1004.kinzi_u1033         ; # Sanskrit #55
+    pos u1003'  89  u101B.kinzi_u102D         ; # Sanskrit #159
+    pos u1005'  89  u101B.kinzi_u102D         ; # Sanskrit #161
+    pos u1006'  90  u101B.kinzi_u102D         ; # Sanskrit #163
+    pos u1007'  49  u101B.kinzi_u102D         ; # Sanskrit #165
+    pos u1007'  49  u101B.kinzi_u102E         ; # Sanskrit #166
+#    pos u1008'   0  u101B.kinzi               ; # Sanskrit #170
+    pos u100D'  78  u101B.kinzi_u102D         ; # Sanskrit #172
+    pos u100F' 104  u101B.kinzi_u102D         ; # Sanskrit #174
+    pos u100F' 104  u101B.kinzi_u102E         ; # Sanskrit #175
+    pos u1010'  88  u101B.kinzi_u102D         ; # Sanskrit #178
+    pos u1010'  88  u101B.kinzi_u102E         ; # Sanskrit #179
+    pos u1011'  90  u101B.kinzi_u102D         ; # Sanskrit #187
+    pos u1011'  90  u101B.kinzi_u102E         ; # Sanskrit #188
+    pos u1012' 110  u101B.kinzi_u102D         ; # Sanskrit #191, 193
+    pos u1013'  90  u101B.kinzi_u102D         ; # Sanskrit #197
+    pos u1014' 119  u101B.kinzi_u102D         ; # Sanskrit #204
+    pos u1015'  86  u101B.kinzi_u102D         ; # Sanskrit #206
+    pos u1018'  89  u101B.kinzi_u102D         ; # Sanskrit #211
+    pos u1019'  85  u101B.kinzi_u102D         ; # Sanskrit #215
+    pos u101A'  89  u101B.kinzi_u102D         ; # Sanskrit #219
+    pos u101D'  90  u101B.kinzi_u102E         ; # Sanskrit #224
+    pos u1050'  85  u101B.kinzi_u102D         ; # Sanskrit #228
+    pos u1051'  85  u101B.kinzi_u102D         ; # Sanskrit #232
+    pos u101F'  88  u101B.kinzi_u102D         ; # Sanskrit #238
+    pos u1000'  64  u1004.kinzi_u103A         ; # Sanskrit #343-44
+    pos u1001'  60  u1004.kinzi_u103A         ; # Sanskrit #345
+    pos u1015'  61  u1004.kinzi_u103A         ; # Sanskrit #346
+    pos u1003'  64  u1004.kinzi_u103A         ; # Sanskrit #347
+    pos u1000'  89  u101B.kinzi_u103A         ; # Sanskrit #384
+    pos u1002'  85  u101B.kinzi_u103A         ; # Sanskrit #385
+    pos u1003'  89  u101B.kinzi_u103A         ; # Sanskrit #386
+    pos u1006'  90  u101B.kinzi_u103A         ; # Sanskrit #387
+    pos u1007'  49  u101B.kinzi_u103A         ; # Sanskrit #388
+    pos u100F' 104  u101B.kinzi_u103A         ; # Sanskrit #389
+    pos u1010'  88  u101B.kinzi_u103A         ; # Sanskrit #390
+    pos u1011'  90  u101B.kinzi_u103A         ; # Sanskrit #391
+    pos u1051'  85  u101B.kinzi_u103A         ; # Sanskrit #392
     
   # --- Consonants with u103A --------------
     pos u1000_u103B_u1015_u103A' 29         ; # 137, 2678 (to match graphite output)
