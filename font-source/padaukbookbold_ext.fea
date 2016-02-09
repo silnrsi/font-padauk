@@ -408,7 +408,7 @@ lookup mk2mk_LM {
 # lookup and pointing it back to the base_L_base
 lookup extend_base_L_base {
   lookupflag 0;
-  markClass [\u1037] <anchor -107 -53> @L;
+  markClass [u1037] <anchor -107 -53> @L;
   pos base [u1009] <anchor 304 -53> mark @L;
   pos base [u101B] <anchor 748 -53> mark @L;
   pos base [u101B.alt] <anchor 753 -53> mark @L;
