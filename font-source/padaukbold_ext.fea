@@ -151,36 +151,13 @@ lookup dist_103C_Cons {
 # Adding RSB to ensure that the next *base* glyph is spaced correctly
 lookup dist_101Balt {
   lookupflag 0;
-    pos u101B.alt' <100 0 100 0> u103E_u1030;
-    pos u101B.alt' <88 0 88 0>   u103E_u102F;
-    pos u101B.alt' <53 0 53 0>   u1030.med;
-    pos u101B.alt' <12 0 12 0>   u102F.med;
-    # OTLS re-orders marks
-    pos u101B.alt' <12 0 12 0>   [u1032 u1036] u102F.med;
+    pos u101B.alt' <100 0 100 0> u103E_u1030' <-90 0 0 0>;
+    pos u101B.alt' <88 0 88 0>   u103E_u102F' <-78 0 0 0>;
+    pos u101B.alt' <53 0 53 0>   u1030.med'   <-43 0 0 0>;
+    pos u101B.alt' <12 0 12 0>   u102F.med'   <-2 0 0 0>;
+    
+    pos u101B.alt' <12 0 12 0>   [u1032 u1036] u102F.med' <-2 0 0 0>;
 } dist_101Balt;
-
-# Since OTLS zeros out the width of marks the width of 101B.alt doesn't
-# affect them. We need to explicitly adjust width for them to kern.
-lookup kern_101Balt {
-  lookupflag 0;
-    pos u101B.alt u103E_u1030' <-90 0 0 0>;
-    pos u101B.alt u103E_u102F' <-78 0 0 0>;
-    pos u101B.alt u1030.med'   <-43 0 0 0>;
-    pos u101B.alt u102F.med'   <-2 0 0 0>;
-    # OTLS re-orders marks
-#    pos u101B.alt [u1032 u1036] u102F.med' <-2 0 0 0>;
-} kern_101Balt;
-
-# Not sure why this doesn't work but it's no big deal - only 2 points.
-lookup pos_101Balt_1036 {
-  lookupflag 0;
-    pos u102F.med' <-2 0 0 0>; # OTLS re-orders marks
-} pos_101Balt_1036;
-
-lookup kern_101Balt_1036 {
-  lookupflag 0;
-    pos u101B.alt u1036 u102F.med' lookup pos_101Balt_1036; 
-} kern_101Balt_1036;
 #-----------------------------------------------------------------------
 
 lookup kern_misc {
@@ -224,8 +201,7 @@ lookup kern_misc {
 } kern_misc; 
 
 # This is a Mon language sequence
-# This sequence can not be reordered easily in OT but this rule works 
-# for the all the words I can find. It may need to be refined.
+# Kern u1036 (attached to cons.) and u102B
 lookup kern_TallAA {
   lookupflag 0;
     pos u1036 u102B' <135 0 135 0>;
