@@ -271,10 +271,8 @@ feature dist {
      lookup kern_103Clig_1037;
      lookup dist_103C_Cons;
      lookup dist_101Balt;
-     lookup kern_misc;
-     lookup kern_TallAA;
-     lookup kern_reorderedMarks;
      lookup shift_1032;
+     lookup kern_misc;
      lookup dist_advance;
    language KHN  exclude_dflt;
      lookup dist_SpacingMarks;
@@ -282,7 +280,6 @@ feature dist {
      lookup dist_103C_Cons;
      lookup dist_101Balt;
      lookup kern_misc;
-     lookup kern_TallAA;
      lookup dist_advance;
    language KHT  exclude_dflt;
      lookup dist_SpacingMarks;
@@ -290,7 +287,6 @@ feature dist {
      lookup dist_103C_Cons;
      lookup dist_101Balt;
      lookup kern_misc;
-     lookup kern_TallAA;
      lookup dist_advance;
    language KSW  exclude_dflt;
      lookup dist_SpacingMarks;
@@ -298,7 +294,6 @@ feature dist {
      lookup dist_103C_Cons;
      lookup dist_101Balt;
      lookup kern_misc;
-     lookup kern_TallAA;
      lookup kern_KSW_LLMark; # Exclusive to KSW
      lookup dist_advance;
    language KYU  exclude_dflt;
@@ -307,7 +302,6 @@ feature dist {
      lookup dist_103C_Cons;
      lookup dist_101Balt;
      lookup kern_misc;
-     lookup kern_TallAA;
      lookup dist_advance;
    language SHN  exclude_dflt;
      lookup dist_SpacingMarks;
@@ -315,7 +309,6 @@ feature dist {
      lookup dist_103C_Cons;
      lookup dist_101Balt;
      lookup kern_misc;
-     lookup kern_TallAA;
      lookup dist_advance;
 } dist ;
 
