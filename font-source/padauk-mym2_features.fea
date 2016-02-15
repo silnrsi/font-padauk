@@ -458,7 +458,7 @@ feature dist {
      lookup dist_103C_Cons;
      lookup dist_101Balt;
      lookup kern_misc;
-     lookup kern_KSW_LLMark; # Exclusive to KSW
+     lookup dist_KSW_shift1037; # Exclusive to KSW
      lookup dist_advance;
    language KYU  exclude_dflt;
      lookup dist_SpacingMarks;
@@ -504,8 +504,8 @@ feature dist {
      lookup dist_103C_Cons;
      lookup dist_101Balt;
      lookup kern_misc;
-     lookup kern_KSW_LLMark; # Exclusive to KSW
      lookup dist_advance;
+     lookup dist_KSW_shift1037; # Exclusive to KSW
    language KYU  exclude_dflt;
      lookup dist_SpacingMarks;
      lookup kern_103Clig_1037;
@@ -583,8 +583,8 @@ feature mark {
      language dflt ;
       lookup base_BD_base;
       lookup base_BS_base;
+#      lookup base_BSM_base; # Only for regular?? None found in Bold, Book or Bookbold
       lookup base_L_base;
-#      lookup base_LL_base;
 #      lookup base_R_base;  # Not used for OpenType
       lookup base_U_base;
       lookup base_Y_base;
@@ -593,7 +593,6 @@ feature mark {
       lookup base_BD_base;
       lookup base_BS_base;
       lookup base_L_base;
-#      lookup base_LL_base;
 #      lookup base_R_base;  # Not used for OpenType
       lookup base_U_base;
       lookup base_Y_base;
@@ -602,7 +601,6 @@ feature mark {
       lookup base_BD_base;
       lookup base_BS_base;
       lookup base_L_base;
-#      lookup base_LL_base;
 #      lookup base_R_base;  # Not used for OpenType
       lookup base_U_base;
       lookup base_Y_base;
@@ -611,7 +609,6 @@ feature mark {
       lookup base_BD_base;
       lookup base_BS_base;
       lookup base_L_base;
-#      lookup base_LL_base;
 #      lookup base_R_base;  # Not used for OpenType
       lookup base_U_base;
       lookup base_Y_base;
@@ -620,7 +617,6 @@ feature mark {
       lookup base_BD_base;
       lookup base_BS_base;
       lookup base_L_base;
-#      lookup base_LL_base;
 #      lookup base_R_base;  # Not used for OpenType
       lookup base_U_base;
       lookup base_Y_base;
@@ -629,7 +625,6 @@ feature mark {
       lookup base_BD_base;
       lookup base_BS_base;
       lookup base_L_base;
-#      lookup base_LL_base;
 #      lookup base_R_base;  # Not used for OpenType
       lookup base_U_base;
       lookup base_Y_base;
@@ -712,10 +707,6 @@ feature mkmk {
       lookup base_BS_mark;
       lookup base_BSM_mark;
       lookup base_L_mark;
-#      lookup base_LL_mark;
-#      lookup base_LLM_mark;
-#      lookup base_LLM_1_mark;
-#      lookup base_LM_mark;
       lookup mk2mk_LM;
      language KHN  exclude_dflt;
       lookup base_BD_mark;
@@ -723,10 +714,6 @@ feature mkmk {
       lookup base_BS_mark;
       lookup base_BSM_mark;
       lookup base_L_mark;
-#      lookup base_LL_mark;
-#      lookup base_LLM_mark;
-#      lookup base_LLM_1_mark;
-#      lookup base_LM_mark;
       lookup mk2mk_LM;
      language KHT  exclude_dflt;
       lookup base_BD_mark;
@@ -734,10 +721,6 @@ feature mkmk {
       lookup base_BS_mark;
       lookup base_BSM_mark;
       lookup base_L_mark;
-#      lookup base_LL_mark;
-#      lookup base_LLM_mark;
-#      lookup base_LLM_1_mark;
-#      lookup base_LM_mark;
       lookup mk2mk_LM;
      language KSW  exclude_dflt;
       lookup base_BD_mark;
@@ -745,10 +728,6 @@ feature mkmk {
       lookup base_BS_mark;
       lookup base_BSM_mark;
       lookup base_L_mark;
-#      lookup base_LL_mark;
-#      lookup base_LLM_mark;
-#      lookup base_LLM_1_mark;
-#      lookup base_LM_mark;
       lookup mk2mk_LM;
      language KYU  exclude_dflt;
       lookup base_BD_mark;
@@ -756,10 +735,6 @@ feature mkmk {
       lookup base_BS_mark;
       lookup base_BSM_mark;
       lookup base_L_mark;
-#      lookup base_LL_mark;
-#      lookup base_LLM_mark;
-#      lookup base_LLM_1_mark;
-#      lookup base_LM_mark;
       lookup mk2mk_LM;
      language SHN  exclude_dflt;
       lookup base_BD_mark;
@@ -767,10 +742,6 @@ feature mkmk {
       lookup base_BS_mark;
       lookup base_BSM_mark;
       lookup base_L_mark;
-#      lookup base_LL_mark;
-#      lookup base_LLM_mark;
-#      lookup base_LLM_1_mark;
-#      lookup base_LM_mark;
       lookup mk2mk_LM;
 } mkmk;
 

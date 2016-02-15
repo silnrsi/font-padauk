@@ -381,9 +381,9 @@ lookup extend_base_L_base {
 
 # This lookup excluively for KSW (Sgaw Karen) language
 # It shifts u1037 to the left of any lower diacritic
-# !! This needs to come after lookup mkmk_LM to override the AP !!
+# !! This needs to come after mark and mkmk lookups to override the AP !!
 # Sometimes RSB value added to negate adv width rule when u1037 is on the right
-lookup kern_KSW_LLMark {
+lookup dist_KSW_shift1037 {
   lookupflag 0;
   pos u101B        u1037' <-405 0 -209 0>;
   pos u1030.med    u1037' <-523 0 0 0>;
@@ -391,7 +391,7 @@ lookup kern_KSW_LLMark {
   pos u103D.tri    u1037' <-316 0 0 0>;
   pos u103E.slanth u1037' <-231 0 0 0>;
   pos u1061        u1037' <-444 0 -214 0>;
-} kern_KSW_LLMark;
+} dist_KSW_shift1037;
 
 
 # ****
