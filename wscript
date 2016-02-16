@@ -42,6 +42,10 @@ opts = preprocess_args({'opt' : '--no2'})
 
 scriptcode = 'mymr' if '--no2' in opts else 'mym2'
 
+tests = fonttest(extras = {
+    'xtest1' : tests({'xtest1' : cmd('cmptxtrender -p -k -e ot -s mym2 -l "${lang}" -e ot -s dflt -L mym2 -L dflt -t ${SRC[1]} -o ${TGT} --copy=otfonts --strip ${fileinfo} ${SRC[0]} ${SRC[0]}')})
+})
+
 for f in ['', 'bold', 'book', 'bookbold'] :
     fsf = 'font-source/padauk' + f
     if len(f) :
@@ -61,7 +65,9 @@ for f in ['', 'bold', 'book', 'bookbold'] :
                 classes = 'font-source/padauk_classes.xml',
                 opentype = fea('font-source/padauk' + f + '.fea',
                                 master = 'font-source/padauk' + f + '_ext.fea',
-                                make_params="-m _R -z 8"),
+                                make_params="-m _R -z 8",
+                                depends = map(lambda x:"font-source/padauk-"+x+".fea", 
+                                    ('mym2_features', 'mym2_GSUB', 'dflt_GSUB'))),
 #                sfd_master = 'font-source/master.sfd',
                 graphite = gdl('padauk' + f + '.gdl',
                                 master = 'font-source/myanmar5.gdl',
@@ -70,5 +76,6 @@ for f in ['', 'bold', 'book', 'bookbold'] :
 #                tests = test,
                 script = ['mym2'],
                 extra_srcs = [fsf + '_src.ttf', 'bin/makegdl', 'font-source/myfeatures.gdl'],
-                pdf = fret()
+                pdf = fret(),
+                tests = tests
             )
