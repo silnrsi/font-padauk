@@ -265,6 +265,7 @@ feature clig {
 #      lookup mym2_rphf_kinzi;
       lookup mym2_pref_miscLig;
       lookup mym2_pref_u103Cwide;
+      lookup mym2_DFLT_signsLig;
       lookup mym2_blwf_u1039med;
       lookup mym2_blwf_medVowels;
       lookup mym2_pref_u103CLig;
@@ -273,7 +274,7 @@ feature clig {
 #      lookup mym2_blwf_u1039med;
       lookup mym2_swap_1037_103A; # Actually a clig lookup
       lookup mym2_pstf_asatLig;
-      lookup mym2_pstf_signsLig;
+ #     lookup mym2_pstf_signsLig;
       lookup mym2_pstf_1009;
       lookup mym2_pstf_tall_U;
       lookup mym2_pres_u103Cwide;
@@ -300,12 +301,13 @@ feature clig {
 #      lookup mym2_rphf_kinzi;
       lookup mym2_pref_miscLig;
       lookup mym2_pref_u103Cwide;
+      lookup mym2_DFLT_signsLig;
       lookup mym2_blwf_u1039med;
       lookup mym2_blwf_medVowels;
       lookup mym2_pref_u103CLig;
       lookup mym2_blwf_103Ealt;
       lookup mym2_pstf_asatLig;
-      lookup mym2_pstf_signsLig;
+#      lookup mym2_pstf_signsLig;
       lookup mym2_pstf_1009;
       lookup mym2_pstf_tall_U;
       lookup mym2_pres_raUpperVowel;
@@ -331,12 +333,13 @@ feature clig {
 #      lookup mym2_rphf_kinzi;
       lookup mym2_pref_miscLig;
       lookup mym2_pref_u103Cwide;
+      lookup mym2_DFLT_signsLig;
       lookup mym2_blwf_u1039med;
       lookup mym2_blwf_medVowels;
       lookup mym2_pref_u103CLig;
       lookup mym2_blwf_103Ealt;
       lookup mym2_pstf_asatLig;
-      lookup mym2_pstf_signsLig;
+#      lookup mym2_pstf_signsLig;
       lookup mym2_pstf_1009;
       lookup mym2_pstf_tall_U;
       lookup mym2_pres_raUpperVowel;
@@ -362,12 +365,13 @@ feature clig {
 #      lookup mym2_rphf_kinzi;
       lookup mym2_pref_miscLig;
       lookup mym2_pref_u103Cwide;
+      lookup mym2_DFLT_signsLig;
       lookup mym2_blwf_u1039med;
       lookup mym2_blwf_medVowels;
       lookup mym2_pref_u103CLig;
       lookup mym2_blwf_103Ealt;
       lookup mym2_pstf_asatLig;
-      lookup mym2_pstf_signsLig;
+#      lookup mym2_pstf_signsLig;
       lookup mym2_pstf_1009;
       lookup mym2_pstf_tall_U;
       lookup mym2_pres_raUpperVowel;
@@ -393,12 +397,13 @@ feature clig {
 #      lookup mym2_rphf_kinzi;
       lookup mym2_pref_miscLig;
       lookup mym2_pref_u103Cwide;
+      lookup mym2_DFLT_signsLig;
       lookup mym2_blwf_u1039med;
       lookup mym2_blwf_medVowels;
       lookup mym2_pref_u103CLig;
       lookup mym2_blwf_103Ealt;
       lookup mym2_pstf_asatLig;
-      lookup mym2_pstf_signsLig;
+#      lookup mym2_pstf_signsLig;
       lookup mym2_pstf_1009;
       lookup mym2_pstf_tall_U;
       lookup mym2_pres_raUpperVowel;
@@ -423,12 +428,13 @@ feature clig {
 #      lookup mym2_rphf_kinzi;
       lookup mym2_pref_miscLig;
       lookup mym2_pref_u103Cwide;
+      lookup mym2_DFLT_signsLig;
       lookup mym2_blwf_u1039med;
       lookup mym2_blwf_medVowels;
       lookup mym2_pref_u103CLig;
       lookup mym2_blwf_103Ealt;
       lookup mym2_pstf_asatLig;
-      lookup mym2_pstf_signsLig;
+#      lookup mym2_pstf_signsLig;
       lookup mym2_pstf_1009;
       lookup mym2_pstf_tall_U;
       lookup mym2_pres_raUpperVowel;
@@ -468,6 +474,7 @@ feature clig {
 feature kern {
  script DFLT;
    language dflt;
+     lookup DFLT_spacing;
 #     lookup dist_SpacingMarks;
      lookup kern_103Clig_1037;
      lookup dist_103C_Cons;
@@ -475,7 +482,6 @@ feature kern {
      lookup shift_1032;
      lookup kern_misc;
      lookup dist_advance;
-#     lookup DFLT_spacing;
    language KHN  exclude_dflt;
 #     lookup dist_SpacingMarks;
      lookup kern_103Clig_1037;
