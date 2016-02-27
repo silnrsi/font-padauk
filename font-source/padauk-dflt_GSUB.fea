@@ -1071,6 +1071,8 @@ lookup dflt_pree_subst {
 
 lookup dflt_pree_del {
     lookupflag 0;
+    sub u1004.kinzi u1031 by u1004.kinzi;
+    sub u101B.kinzi u1031 by u101B.kinzi;
     sub u103E u1031 by u103E;
     sub u103D u1031 by u103D;
     sub u103C u1031 by u103C;
@@ -1480,6 +1482,8 @@ lookup dflt_preshane_subst {
 
 lookup dflt_preshane_del {
     lookupflag 0;
+    sub u1004.kinzi u1084 by u1004.kinzi;
+    sub u101B.kinzi u1084 by u101B.kinzi;
     sub u103D u1084 by u103E;
     sub u103D u1084 by u103D;
     sub u103C u1084 by u103C;
@@ -2278,3 +2282,4 @@ lookup dflt_deligate {
     lookupflag 0;
     sub @cCons by @cCons;
 } dflt_deligate;
+

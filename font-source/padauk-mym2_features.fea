@@ -526,7 +526,7 @@ feature kern {
  script DFLT;
    language dflt;
 #     lookup DFLT_spacing;
-     lookup dist_SpacingMarks;
+     lookup dist_dflt_SpacingMarks;
      lookup kern_103Clig_1037;
      lookup dist_103C_Cons;
      lookup dist_101Balt;
