@@ -13,15 +13,11 @@ include(../font-source/padauk-mym2_GSUB.fea)
 # GPOS lookups
 # -------------
 
-lookup DFLT_spacing {
-  lookupflag 0;
-    pos @cCons' <0 0 147 0> @cmed u102F' <-147 0 294 0>;
-    pos @cCons @cmed u1030' 295;
-#    pos [@cCons] [@cmed] u102F' <1 0 147 0>;
-#    pos [@cCons] [@cmed] u1030' <1 0 295 0>;
-#    pos u102F' <0 0 147 0>;
-#    pos u1030' <0 0 295 0>;
-} DFLT_spacing;
+#lookup DFLT_spacing {
+#  lookupflag 0;
+#    pos @cCons' <0 0 147 0> @cmed u102F' <-147 0 0 0>;
+#    pos @cCons' <0 0 295 0> @cmed u1030' <-295 0 0 0>;
+#} DFLT_spacing;
 
 
 # --- NOTE on 103C and variants ----------------------------------------
