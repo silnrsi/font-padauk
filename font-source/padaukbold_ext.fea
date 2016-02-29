@@ -49,6 +49,27 @@ lookup dist_SpacingMarks {
     pos uAA70 <0 0 574 0>;
 } dist_SpacingMarks; 
 
+lookup dist_dflt_SpacingMarks {
+  lookupflag 0;
+    pos u103C @cCons' <214 0 214 0>;
+    pos u103C.alt.narr @cCons' <214 0 214 0>;
+    pos u103C.alt.wide @cCons' <214 0 214 0>;
+    pos u103C.wide @cCons' <214 0 214 0>;
+    pos u103C_u103D.narr @cCons' <214 0 214 0>;
+    pos u103C_u103D.wide @cCons' <214 0 214 0>;
+    pos u103C_u103D.alt.narr @cCons' <214 0 214 0>;
+    pos u103C_u103D.alt.wide @cCons' <214 0 214 0>;
+    pos u103C_u102F.narr @cCons' <214 0 214 0>;
+    pos u103C_u102F.wide @cCons' <214 0 214 0>;
+    pos u103C_u102F.alt.narr @cCons' <214 0 214 0>;
+    pos u103C_u102F.alt.wide @cCons' <214 0 214 0>;
+    pos u103C_u103D.narr.tri @cCons' <214 0 214 0>;
+    pos u103C_u103D.wide.tri @cCons' <214 0 214 0>;
+    pos u103C_u103D.alt.narr.tri @cCons' <214 0 214 0>;
+    pos u103C_u103D.alt.wide.tri @cCons' <214 0 214 0>;
+    pos uAA70 @cCons' <574 0 574 0>;
+} dist_dflt_SpacingMarks;
+
 # Normally u1037 attaches to u103D or u102F. But when the latter two
 # become part of a 103C ligature, they become reordered before a 
 # consonant and the attachment breaks.
