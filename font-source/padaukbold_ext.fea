@@ -100,6 +100,30 @@ lookup kern_103Clig_1037 {
     pos u103C_u102F.alt.wide [@cCons]          u1037' <309 0 0 0>;
 } kern_103Clig_1037;
 
+lookup dflt_kern_103Clig_1037 {
+  lookupflag 0;
+    pos u103C_u103D.narr     [@cCons] [@cUDia] u1037' <359 0 0 0>;
+    pos u103C_u103D.narr     [@cCons]' 212          u1037' <359 0 0 0>; #1425
+#    pos u103C_u103D.wide     [@cCons] [@cUDia] u1037' <0 0 0 0>;
+#    pos u103C_u103D.wide     [@cCons]          u1037' <0 0 0 0>;
+#    pos u103C_u103D.alt.narr [@cCons] [@cUDia] u1037' <0 0 0 0>;
+#    pos u103C_u103D.alt.narr [@cCons]          u1037' <0 0 0 0>;
+#    pos u103C_u103D.alt.wide [@cCons] [@cUDia] u1037' <0 0 0 0>;
+#    pos u103C_u103D.alt.wide [@cCons]          u1037' <0 0 0 0>;
+    pos u103C_u102F.narr     [u1016]' 222   u1036   u1037' <368 0 0 0>; #1527
+    pos u103C_u102F.narr     [@cCons]' 221 [@cUDia] u1037' <367 0 0 0>; #1830
+    pos u103C_u102F.narr     [@cCons]          u1037' <367 0 0 0>;
+#    pos u103C_u102F.wide    [@cCons] [@cUDia] u1037' <0 0 0 0>;
+#    pos u103C_u102F.wide     [@cCons]          u1037' <0 0 0 0>;
+    pos u103C_u102F.alt.narr [u1001]' 224   u102D   u1037' <370 0 0 0>; # BLK #498-99
+    pos u103C_u102F.alt.narr [u1015]' 221   u102D   u1037' <368 0 0 0>; # BLK #2017, 4840
+    pos u103C_u102F.alt.narr [u1016]' 222   u102D   u1037' <368 0 0 0>; # BLK #2249, 4939
+    pos u103C_u102F.alt.narr [u1017]' 221  u102D   u1037' <368 0 0 0>; #1605
+    pos u103C_u102F.alt.narr [@cCons]' 221 [@cUDia] u1037' <367 0 0 0>; #1805
+    pos u103C_u102F.alt.narr [@cCons]          u1037' <367 0 0 0>;
+    pos u103C_u102F.alt.wide [@cCons]' 195 [@cUDia] u1037' <339 0 0 0>; # 163
+    pos u103C_u102F.alt.wide [@cCons]          u1037' <309 0 0 0>;
+} dflt_kern_103Clig_1037;
 #-----------------------------------------------------------------------
 # Additional dist needed for some cons to clear u103C
 
