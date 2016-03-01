@@ -261,6 +261,17 @@ lookup kern_misc {
     pos u1081' 21   u1082 u103A [u1087 u1088]; # Shan #3537-38
 } kern_misc; 
 
+lookup dflt_kern_misc_extra {
+  lookupflag 0;
+    pos @cwide u1005' <108 0 108 0> u1006.med; # Sanskrit #57, 58, 350
+    pos @cwide u1012' <158 0 158 0> u1018.med; # Sanskrit #106
+    pos @cwide u1051' <108 0 108 0> u1000.med; # Sanskrit #281, 282
+#    pos u1007' 725 u1007.med   u103D;
+#    pos u1010' 450 u101E.med   u1014.med;
+#    pos u1051' 574 u100B.med   u103D;
+    pos u1036' 135 u102B;
+} dflt_kern_misc_extra;
+
 # ----------------------------------------------------------------------
 # Clean up of advance width
 # Make this the last "dist" lookup

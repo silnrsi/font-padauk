@@ -2709,6 +2709,7 @@ lookup dflt_greatya_del {
     sub u103D u103C by u103D;
     sub u103C u103C by u103C;
     sub u103B u103C by u103B;
+    sub u103A u103C by u103A;
     sub u1004.kinzi u103C by u1004.kinzi;
     sub u1004.kinzi_u102D u103C by u1004.kinzi_u102D;
     sub u1004.kinzi_u102D_u1036 u103C by u1004.kinzi_u102D_u1036;
@@ -2863,10 +2864,10 @@ lookup dflt_greatya {
     lookupflag 0;
 # since the string has grown the lookup against the final u103C is actually executed against the glyph before
 # which is what we want!
-    sub @cCons' lookup dflt_greatya_subst [u1004.kinzi u101B.kinzi]' lookup dflt_greatya_del u1039 @cCons u103B u103C' lookup dflt_greatya_del;
-    sub @cCons' lookup dflt_greatya_subst u1039' lookup dflt_greatya_del @cCons u103B u103C' lookup dflt_greatya_del;
-    sub @cCons' lookup dflt_greatya_subst [u1004.kinzi u101B.kinzi]' lookup dflt_greatya_del u103B u103C' lookup dflt_greatya_del;
-    sub @cCons' lookup dflt_greatya_subst u103B' lookup dflt_greatya_del u103C' lookup dflt_greatya_del;
+    sub @cCons' lookup dflt_greatya_subst [u1004.kinzi u101B.kinzi]' lookup dflt_greatya_del u1039 @cCons [u103A u103B] u103C' lookup dflt_greatya_del;
+    sub @cCons' lookup dflt_greatya_subst u1039' lookup dflt_greatya_del @cCons [u103A u103B] u103C' lookup dflt_greatya_del;
+    sub @cCons' lookup dflt_greatya_subst [u1004.kinzi u101B.kinzi]' lookup dflt_greatya_del [u103A u103B] u103C' lookup dflt_greatya_del;
+    sub @cCons' lookup dflt_greatya_subst [u103A u103B]' lookup dflt_greatya_del u103C' lookup dflt_greatya_del;
     sub @cCons' lookup dflt_greatya_subst [u1004.kinzi u101B.kinzi]' lookup dflt_greatya_del u1039 @cCons u103C' lookup dflt_greatya_del;
     sub @cCons' lookup dflt_greatya_subst u1039' lookup dflt_greatya_del @cCons u103C' lookup dflt_greatya_del;
     sub @cCons' lookup dflt_greatya_subst [u1004.kinzi u101B.kinzi]' lookup dflt_greatya_del u103C' lookup dflt_greatya_del;
