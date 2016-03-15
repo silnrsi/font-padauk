@@ -338,7 +338,6 @@ feature clig {
 feature kern {
  script DFLT;
    language dflt;
-#     lookup DFLT_spacing;
      lookup dist_dflt_SpacingMarks;
      lookup dflt_kern_103Clig_1037;
      lookup dist_103C_Cons;
@@ -350,7 +349,6 @@ feature kern {
 
  script mymr;
    language dflt;
-#     lookup DFLT_spacing;
      lookup dist_dflt_SpacingMarks;
      lookup dflt_kern_103Clig_1037;
      lookup dist_103C_Cons;
