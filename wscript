@@ -56,7 +56,8 @@ for f in ['', 'bold', 'book', 'bookbold'] :
     srcfile = fsf + '_src.sfd'
 
     fnt = font(target = process(target, 
-                        name(namestrings[f][0], lang='en-US', subfamily = namestrings[f][1])),
+                        name(namestrings[f][0], lang='en-US', subfamily = namestrings[f][1]),
+                        cmd('${TTFAUTOHINT} -n -W ${DEP} ${TGT}')),
                 version = TTF_VERSION,
                 license = ofl("Padauk"),
                 copyright = COPYRIGHT,
@@ -74,8 +75,11 @@ for f in ['', 'bold', 'book', 'bookbold'] :
                                 params = '-w3521 -w3530 -q -d -v2', make_params="-m _R",
                                 depends = ['font-source/myfeatures.gdl']),
 #                tests = test,
-                script = ['mym2'],
+                script = ['mym2', 'DFLT'],
                 extra_srcs = [fsf + '_src.ttf', 'bin/makegdl', 'font-source/myfeatures.gdl'],
                 pdf = fret(),
                 tests = tests
             )
+
+def configure(ctx) :
+    ctx.find_program('ttfautohint')
