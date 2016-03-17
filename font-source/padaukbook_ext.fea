@@ -104,7 +104,7 @@ lookup dflt_kern_103Clig_1037 {
   lookupflag 0;
     pos u103C_u103D.narr     [@cCons] [@cUDia] u1037' <345 0 191 0>;
     pos u103C_u103D.narr     [@cCons]          u1037' <345 0 191 0>; #1425
-    pos u103C_u103D.wide     [@cCons] [@cUDia] u1037' <345 0 191 0;
+    pos u103C_u103D.wide     [@cCons] [@cUDia] u1037' <345 0 191 0>;
     pos u103C_u103D.wide     [@cCons]          u1037' <345 0 191 0>;
 #    pos u103C_u103D.alt.narr [@cCons] [@cUDia] u1037' <0 0 0 0>;
 #    pos u103C_u103D.alt.narr [@cCons]          u1037' <0 0 0 0>;
@@ -396,8 +396,9 @@ lookup dist_advance {
     
     pos u102B'  48                                             u1037; # 390, 462, 470, 1003, 1219, 1233, 2805, 3098
     
-# graphite wrong?    pos [u103B u103B_u103E] [u102D u1036] u102F' 223           u1037; # 115, 142, 293, 324, 1350, 1588, 1880, 2295, 2762
-    pos u102F' 277                                             u1037; # 115, 142, Pa'o Karen (blk) #62, 63, 378, 692, 786, 953
+    pos [u103B u103B_u103E] u102D u102F' 223                   u1037; # 115, 142, 293, 324, 1350, 1588, 1880, 2295, 2762
+    pos [u103B u103B_u103E] u1036 u102F' 277                   u1037; # 142, 324
+#    pos u102F' 277                                             u1037; # 115, 142, Pa'o Karen (blk) #62, 63, 378, 692, 786, 953
     pos u103B' 180          [u1032 u1036]                      u1037; # 113, 288,
     pos u103B' 234             u1037 [u1069 u106A u106B u106C u106D]; # PWO 62-63, 946-946
     pos u103B' 180                                             u1037; # PWO 61
