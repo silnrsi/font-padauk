@@ -153,6 +153,21 @@ feature pres {
      lookup mym2_pres_u103Cwide;
      lookup mym2_pres_raUpperVowel;
      lookup mym2_pres_raTriUpperVowel;
+    language KHN  exclude_dflt;
+     lookup mym2_pres_raUpperVowel;
+     lookup mym2_pres_raTriUpperVowel;
+    language KHT  exclude_dflt;
+     lookup mym2_pres_raUpperVowel;
+     lookup mym2_pres_raTriUpperVowel;
+    language KSW  exclude_dflt;
+     lookup mym2_pres_raUpperVowel;
+     lookup mym2_pres_raTriUpperVowel;
+    language KYU  exclude_dflt;
+     lookup mym2_pres_raUpperVowel;
+     lookup mym2_pres_raTriUpperVowel;
+    language SHN  exclude_dflt;
+     lookup mym2_pres_raUpperVowel;
+     lookup mym2_pres_raTriUpperVowel;
 } pres;
 
 
