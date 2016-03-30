@@ -7336,7 +7336,6 @@ AnchorPoint: "BS" -240 -53 mark 0
 AnchorPoint: "LLM" -583 -53 basemark 0
 AnchorPoint: "BSM" -240 -53 mark 0
 AnchorPoint: "LM" 100 -53 basemark 0
-AnchorPoint: "BS" -237 -53 basemark 0
 AnchorPoint: "BSM" -237 -53 basemark 0
 LayerCount: 2
 Back
@@ -7460,7 +7459,6 @@ AnchorPoint: "BS" -242 -53 mark 0
 AnchorPoint: "LLM" -586 -53 basemark 0
 AnchorPoint: "BSM" -242 -53 mark 0
 AnchorPoint: "LM" 100 -53 basemark 0
-AnchorPoint: "BS" 238 -53 basemark 0
 AnchorPoint: "BSM" 565 -53 basemark 0
 LayerCount: 2
 Back
@@ -7575,8 +7573,7 @@ AnchorPoint: "BD" -391 -53 mark 0
 AnchorPoint: "BSM" 104 -53 basemark 0
 AnchorPoint: "LM" 100 -53 basemark 0
 AnchorPoint: "BSM" 883 -53 mark 0
-AnchorPoint: "BDM" -401 -53 mark 0
-AnchorPoint: "BD" 394 -53 basemark 0
+AnchorPoint: "BDM" 394 -53 basemark 0
 LayerCount: 2
 Back
 Fore
@@ -7707,7 +7704,6 @@ AnchorPoint: "BS" -227 -53 mark 0
 AnchorPoint: "LLM" -553 -53 basemark 0
 AnchorPoint: "BSM" -227 -53 mark 0
 AnchorPoint: "LM" 99 -53 basemark 0
-AnchorPoint: "BS" -174 -53 basemark 0
 AnchorPoint: "BSM" 111 -53 basemark 0
 LayerCount: 2
 Back
@@ -8226,7 +8222,6 @@ AnchorPoint: "BS" -237 -53 mark 0
 AnchorPoint: "LLM" -576 -53 basemark 0
 AnchorPoint: "BSM" -237 -53 mark 0
 AnchorPoint: "LM" 100 -53 basemark 0
-AnchorPoint: "BS" 234 -53 basemark 0
 AnchorPoint: "BSM" 556 -53 basemark 0
 LayerCount: 2
 Back
@@ -8349,7 +8344,6 @@ AnchorPoint: "BSM" 98 -53 basemark 0
 AnchorPoint: "LM" 100 -53 basemark 0
 AnchorPoint: "BSM" 877 -53 mark 0
 AnchorPoint: "BDM" -395 -53 mark 0
-AnchorPoint: "BD" 394 -53 basemark 0
 LayerCount: 2
 Back
 Fore
@@ -8492,7 +8486,6 @@ AnchorPoint: "BS" -290 -53 mark 0
 AnchorPoint: "LLM" -628 -53 basemark 0
 AnchorPoint: "BSM" -290 -53 mark 0
 AnchorPoint: "LM" 43 -53 basemark 0
-AnchorPoint: "BS" 224 -53 basemark 0
 AnchorPoint: "BSM" 532 -53 basemark 0
 LayerCount: 2
 Back
@@ -8961,7 +8954,6 @@ AnchorPoint: "BSM" 85 -53 basemark 0
 AnchorPoint: "LM" 85 -53 basemark 0
 AnchorPoint: "BSM" 839 -53 mark 0
 AnchorPoint: "BDM" -368 -53 mark 0
-AnchorPoint: "BD" 361 -53 basemark 0
 LayerCount: 2
 Back
 Fore
@@ -9229,7 +9221,6 @@ AnchorPoint: "BS" -179 -53 mark 0
 AnchorPoint: "LLM" -470 -53 basemark 0
 AnchorPoint: "BSM" -179 -53 mark 0
 AnchorPoint: "LM" 60 -53 basemark 0
-AnchorPoint: "BS" 166 -53 basemark 0
 AnchorPoint: "BSM" 415 -53 basemark 0
 LayerCount: 2
 Back
@@ -9513,7 +9504,6 @@ AnchorPoint: "BSM" 102 -53 basemark 0
 AnchorPoint: "LM" 99 -53 basemark 0
 AnchorPoint: "BSM" 900 -53 mark 0
 AnchorPoint: "BDM" -405 -53 mark 0
-AnchorPoint: "BD" 406 -53 basemark 0
 LayerCount: 2
 Back
 Fore
@@ -9637,7 +9627,6 @@ AnchorPoint: "BS" -204 -53 mark 0
 AnchorPoint: "LLM" -473 -53 basemark 0
 AnchorPoint: "BSM" -204 -53 mark 0
 AnchorPoint: "LM" 57 -53 basemark 0
-AnchorPoint: "BS" 172 -53 basemark 0
 AnchorPoint: "BSM" 426 -53 basemark 0
 LayerCount: 2
 Back
@@ -9940,7 +9929,6 @@ AnchorPoint: "BS" -234 -53 mark 0
 AnchorPoint: "LLM" -559 -53 basemark 0
 AnchorPoint: "BSM" 73 -53 basemark 0
 AnchorPoint: "LM" 112 -53 basemark 0
-AnchorPoint: "BS" 232 -53 basemark 0
 AnchorPoint: "BSM" -238 -53 mark 0
 LayerCount: 2
 Back
@@ -10070,7 +10058,6 @@ AnchorPoint: "BSM" 66 -53 basemark 0
 AnchorPoint: "LM" 99 -53 basemark 0
 AnchorPoint: "BSM" 907 -53 mark 0
 AnchorPoint: "BDM" -410 -53 mark 0
-AnchorPoint: "BD" 409 -53 basemark 0
 LayerCount: 2
 Back
 Fore
@@ -10407,7 +10394,6 @@ AnchorPoint: "BSM" 106 -53 basemark 0
 AnchorPoint: "LM" 106 -53 basemark 0
 AnchorPoint: "BSM" 867 -53 mark 0
 AnchorPoint: "BDM" -379 -53 mark 0
-AnchorPoint: "BD" 384 -53 basemark 0
 LayerCount: 2
 Back
 Fore
@@ -10454,7 +10440,6 @@ AnchorPoint: "BS" -229 -53 mark 0
 AnchorPoint: "LLM" -562 -53 basemark 0
 AnchorPoint: "BSM" -229 -53 mark 0
 AnchorPoint: "LM" 101 -53 basemark 0
-AnchorPoint: "BS" 235 -53 basemark 0
 AnchorPoint: "BSM" 555 -53 basemark 0
 LayerCount: 2
 Back
@@ -10577,7 +10562,6 @@ AnchorPoint: "BSM" 100 -53 basemark 0
 AnchorPoint: "LM" -868 -53 basemark 0
 AnchorPoint: "BSM" 877 -53 mark 0
 AnchorPoint: "BDM" -395 -53 mark 0
-AnchorPoint: "BD" -395 -53 basemark 0
 LayerCount: 2
 Back
 Fore
@@ -10707,7 +10691,6 @@ AnchorPoint: "BS" -224 -53 mark 0
 AnchorPoint: "LLM" -549 -53 basemark 0
 AnchorPoint: "BSM" -224 -53 mark 0
 AnchorPoint: "LM" 98 -53 basemark 0
-AnchorPoint: "BS" 219 -53 basemark 0
 AnchorPoint: "BSM" 526 -53 basemark 0
 LayerCount: 2
 Back
@@ -10836,7 +10819,6 @@ AnchorPoint: "BS" -237 -53 mark 0
 AnchorPoint: "LLM" -576 -53 basemark 0
 AnchorPoint: "BSM" -237 -53 mark 0
 AnchorPoint: "LM" 100 -53 basemark 0
-AnchorPoint: "BS" 234 -53 basemark 0
 AnchorPoint: "BSM" 556 -53 basemark 0
 LayerCount: 2
 Back
@@ -11065,7 +11047,6 @@ AnchorPoint: "BS" -228 -53 mark 0
 AnchorPoint: "LLM" -572 -53 basemark 0
 AnchorPoint: "BSM" -228 -53 mark 0
 AnchorPoint: "LM" 93 -53 basemark 0
-AnchorPoint: "BS" 223 -53 basemark 0
 AnchorPoint: "BSM" 522 -53 basemark 0
 LayerCount: 2
 Back
@@ -11377,7 +11358,6 @@ AnchorPoint: "BS" -242 -53 mark 0
 AnchorPoint: "LLM" -586 -53 basemark 0
 AnchorPoint: "BSM" -242 -53 mark 0
 AnchorPoint: "LM" 100 -53 basemark 0
-AnchorPoint: "BS" 238 -53 basemark 0
 AnchorPoint: "BSM" 565 -53 basemark 0
 LayerCount: 2
 Back
@@ -11499,7 +11479,6 @@ Flags: HW
 AnchorPoint: "BS" -243 -53 mark 0
 AnchorPoint: "BSM" -243 -53 mark 0
 AnchorPoint: "LM" -586 -53 basemark 0
-AnchorPoint: "BS" 238 -53 basemark 0
 AnchorPoint: "BSM" -89 -53 basemark 0
 LayerCount: 2
 Back
@@ -11625,7 +11604,6 @@ AnchorPoint: "BS" -246 -53 mark 0
 AnchorPoint: "LLM" -586 -53 basemark 0
 AnchorPoint: "BSM" -246 -53 mark 0
 AnchorPoint: "LM" 100 -53 basemark 0
-AnchorPoint: "BS" 237 -53 basemark 0
 AnchorPoint: "BSM" 565 -53 basemark 0
 LayerCount: 2
 Back
@@ -11739,7 +11717,6 @@ AnchorPoint: "BD" -389 -53 mark 0
 AnchorPoint: "BSM" 100 -53 basemark 0
 AnchorPoint: "LM" 100 -53 basemark 0
 AnchorPoint: "BDM" -393 -53 mark 0
-AnchorPoint: "BD" 393 -53 basemark 0
 LayerCount: 2
 Back
 Fore
@@ -11873,7 +11850,6 @@ AnchorPoint: "BS" -242 -53 mark 0
 AnchorPoint: "LLM" -586 -53 basemark 0
 AnchorPoint: "BSM" -242 -53 mark 0
 AnchorPoint: "LM" 100 -53 basemark 0
-AnchorPoint: "BS" 238 -53 basemark 0
 AnchorPoint: "BSM" 565 -53 basemark 0
 LayerCount: 2
 Back
@@ -11992,7 +11968,6 @@ AnchorPoint: "BD" -387 -53 mark 0
 AnchorPoint: "BSM" 87 -53 basemark 0
 AnchorPoint: "LM" 87 -53 basemark 0
 AnchorPoint: "BDM" -392 -53 mark 0
-AnchorPoint: "BD" 405 -53 basemark 0
 LayerCount: 2
 Back
 Fore
@@ -12264,7 +12239,6 @@ AnchorPoint: "BS" -216 -53 mark 0
 AnchorPoint: "LLM" -525 -53 basemark 0
 AnchorPoint: "BSM" 87 -53 basemark 0
 AnchorPoint: "LM" 87 -53 basemark 0
-AnchorPoint: "BS" 211 -53 basemark 0
 AnchorPoint: "BSM" -217 -53 mark 0
 LayerCount: 2
 Back
@@ -12557,7 +12531,6 @@ AnchorPoint: "BD" -392 -53 mark 0
 AnchorPoint: "BSM" 100 -53 basemark 0
 AnchorPoint: "LM" 100 -53 basemark 0
 AnchorPoint: "BDM" -390 -53 mark 0
-AnchorPoint: "BD" 375 -53 basemark 0
 LayerCount: 2
 Back
 Fore
@@ -12605,7 +12578,6 @@ AnchorPoint: "BD" -583 -53 mark 0
 AnchorPoint: "BSM" 99 -53 basemark 0
 AnchorPoint: "LM" 99 -53 basemark 0
 AnchorPoint: "BDM" -560 -53 mark 0
-AnchorPoint: "BD" 608 -53 basemark 0
 LayerCount: 2
 Back
 Fore
@@ -12800,7 +12772,6 @@ AnchorPoint: "BD" -390 -53 mark 0
 AnchorPoint: "BSM" 97 -53 basemark 0
 AnchorPoint: "LM" 97 -53 basemark 0
 AnchorPoint: "BDM" -396 -53 mark 0
-AnchorPoint: "BD" 393 -53 basemark 0
 LayerCount: 2
 Back
 Fore
@@ -13358,7 +13329,6 @@ AnchorPoint: "BSM" 150 -53 basemark 0
 AnchorPoint: "LM" 150 -53 basemark 0
 AnchorPoint: "BSM" 874 -53 mark 0
 AnchorPoint: "BDM" -331 -53 mark 0
-AnchorPoint: "BD" 393 -53 basemark 0
 LayerCount: 2
 Back
 Fore
@@ -14361,7 +14331,6 @@ AnchorPoint: "BS" -111 -53 mark 0
 AnchorPoint: "LLM" -301 -53 basemark 0
 AnchorPoint: "BSM" -111 -53 mark 0
 AnchorPoint: "LM" 96 -53 basemark 0
-AnchorPoint: "BS" 81 -53 basemark 0
 AnchorPoint: "BSM" 250 -53 basemark 0
 LayerCount: 2
 Back
@@ -14399,7 +14368,6 @@ AnchorPoint: "BS" 89 -53 mark 0
 AnchorPoint: "LLM" -101 -53 basemark 0
 AnchorPoint: "BSM" 296 -53 basemark 0
 AnchorPoint: "LM" 296 -53 basemark 0
-AnchorPoint: "BS" 81 -53 basemark 0
 AnchorPoint: "BSM" 81 -53 mark 0
 LayerCount: 2
 Back
@@ -14503,7 +14471,6 @@ AnchorPoint: "BS" 178 -53 mark 0
 AnchorPoint: "LLM" -101 -53 basemark 0
 AnchorPoint: "BSM" 458 -53 basemark 0
 AnchorPoint: "LM" 458 -53 basemark 0
-AnchorPoint: "BS" 154 -53 basemark 0
 AnchorPoint: "BSM" 154 -53 mark 0
 LayerCount: 2
 Back
@@ -14782,6 +14749,8 @@ VWidth: 0
 GlyphClass: 4
 Flags: HW
 AnchorPoint: "L" -96 -53 mark 0
+AnchorPoint: "LM" -96 -53 mark 0
+AnchorPoint: "LLM" -96 -53 mark 0
 LayerCount: 2
 Back
 Fore
@@ -14861,7 +14830,6 @@ AnchorPoint: "BS" -182 -53 mark 0
 AnchorPoint: "LLM" -521 -53 basemark 0
 AnchorPoint: "BSM" -182 -53 mark 0
 AnchorPoint: "LM" 155 -53 basemark 0
-AnchorPoint: "BS" -178 -53 basemark 0
 AnchorPoint: "BSM" 144 -53 basemark 0
 LayerCount: 2
 Back
@@ -15822,7 +15790,6 @@ AnchorPoint: "BS" -237 -53 mark 0
 AnchorPoint: "LLM" -576 -53 basemark 0
 AnchorPoint: "BSM" -237 -53 mark 0
 AnchorPoint: "LM" 100 -53 basemark 0
-AnchorPoint: "BS" -178 -53 basemark 0
 AnchorPoint: "BSM" 144 -53 basemark 0
 LayerCount: 2
 Back
@@ -15860,7 +15827,6 @@ AnchorPoint: "BS" -240 -53 mark 0
 AnchorPoint: "LLM" -738 -53 basemark 0
 AnchorPoint: "BSM" -240 -53 mark 0
 AnchorPoint: "LM" 84 -53 basemark 0
-AnchorPoint: "BS" 288 -53 basemark 0
 AnchorPoint: "BSM" 610 -53 basemark 0
 LayerCount: 2
 Back
@@ -15901,7 +15867,6 @@ VWidth: 0
 GlyphClass: 4
 Flags: HW
 AnchorPoint: "BS" -220 -53 mark 0
-AnchorPoint: "BS" -254 -53 basemark 0
 AnchorPoint: "BSM" -254 -53 basemark 0
 LayerCount: 2
 Back
@@ -15937,7 +15902,6 @@ AnchorPoint: "BS" -237 -53 mark 0
 AnchorPoint: "LLM" -576 -53 basemark 0
 AnchorPoint: "BSM" 100 -53 basemark 0
 AnchorPoint: "LM" 100 -53 basemark 0
-AnchorPoint: "BS" -233 -53 basemark 0
 AnchorPoint: "BSM" 144 -53 mark 0
 LayerCount: 2
 Back
@@ -15971,7 +15935,6 @@ AnchorPoint: "BS" -98 -53 mark 0
 AnchorPoint: "LLM" -300 -53 basemark 0
 AnchorPoint: "BSM" -98 -53 mark 0
 AnchorPoint: "LM" 105 -53 basemark 0
-AnchorPoint: "BS" -26 -53 basemark 0
 AnchorPoint: "BSM" 144 -53 basemark 0
 LayerCount: 2
 Back
@@ -16011,7 +15974,6 @@ AnchorPoint: "BS" -98 -53 mark 0
 AnchorPoint: "LLM" -409 -53 basemark 0
 AnchorPoint: "BSM" -98 -53 mark 0
 AnchorPoint: "LM" 51 -53 basemark 0
-AnchorPoint: "BS" -33 -53 basemark 0
 AnchorPoint: "BSM" 101 -53 basemark 0
 LayerCount: 2
 Back
@@ -16039,7 +16001,6 @@ AnchorPoint: "BS" -267 -54 mark 0
 AnchorPoint: "LLM" -546 -53 basemark 0
 AnchorPoint: "BSM" -267 -54 mark 0
 AnchorPoint: "LM" 17 -53 basemark 0
-AnchorPoint: "BS" 222 -53 basemark 0
 AnchorPoint: "BSM" 466 -53 basemark 0
 LayerCount: 2
 Back
@@ -16081,7 +16042,6 @@ AnchorPoint: "BS" -342 -53 mark 0
 AnchorPoint: "LLM" -701 -53 basemark 0
 AnchorPoint: "BSM" -342 -53 mark 0
 AnchorPoint: "LM" 18 -53 basemark 0
-AnchorPoint: "BS" 294 -53 basemark 0
 AnchorPoint: "BSM" 609 -53 basemark 0
 LayerCount: 2
 Back
@@ -16894,7 +16854,6 @@ GlyphClass: 4
 Flags: HW
 AnchorPoint: "BS" -251 -53 mark 0
 AnchorPoint: "LLM" -568 -53 basemark 0
-AnchorPoint: "BS" 228 -53 basemark 0
 AnchorPoint: "BSM" 565 -53 basemark 0
 AnchorPoint: "BSM" -251 -53 mark 0
 AnchorPoint: "LM" 86 -53 basemark 0
@@ -17032,7 +16991,6 @@ GlyphClass: 4
 Flags: HW
 AnchorPoint: "BS" -251 -53 mark 0
 AnchorPoint: "LLM" -568 -53 basemark 0
-AnchorPoint: "BS" 228 -53 basemark 0
 AnchorPoint: "BSM" 565 -53 basemark 0
 AnchorPoint: "BSM" -251 -53 mark 0
 AnchorPoint: "LM" 86 -53 basemark 0
@@ -17634,17 +17592,11 @@ GlyphClass: 4
 Flags: HW
 AnchorPoint: "BS" 242 -53 mark 0
 AnchorPoint: "BSM" 242 -53 mark 0
-AnchorPoint: "LL" -101 -53 basechar 0
-AnchorPoint: "L" 582 -53 basechar 0
 AnchorPoint: "BDM" -495 -53 basemark 0
 AnchorPoint: "LM" 32 -53 mark 0
-AnchorPoint: "LR" 61 -53 basechar 0
 AnchorPoint: "LLM" -613 -53 mark 0
 AnchorPoint: "UM" -293 495 basemark 0
-AnchorPoint: "BS" -293 -53 basemark 0
 AnchorPoint: "BSM" 32 -53 basemark 0
-AnchorPoint: "U" -293 495 basechar 0
-AnchorPoint: "BD" -495 -53 basechar 0
 LayerCount: 2
 Back
 Fore
@@ -17679,17 +17631,11 @@ GlyphClass: 4
 Flags: HW
 AnchorPoint: "BS" 244 -53 mark 0
 AnchorPoint: "BSM" 244 -53 mark 0
-AnchorPoint: "LL" -101 -53 basechar 0
-AnchorPoint: "L" 582 -53 basechar 0
 AnchorPoint: "BDM" -495 -53 basemark 0
 AnchorPoint: "LM" 25 -53 mark 0
-AnchorPoint: "LR" 61 -53 basechar 0
 AnchorPoint: "LLM" -620 -53 mark 0
 AnchorPoint: "UM" -293 495 basemark 0
-AnchorPoint: "BS" -293 -53 basemark 0
 AnchorPoint: "BSM" 25 -53 basemark 0
-AnchorPoint: "U" -293 495 basechar 0
-AnchorPoint: "BD" -495 -53 basechar 0
 LayerCount: 2
 Back
 Fore
@@ -17802,7 +17748,6 @@ AnchorPoint: "BS" -154 -36 mark 0
 AnchorPoint: "LLM" -383 -36 basemark 0
 AnchorPoint: "BSM" -154 -36 mark 0
 AnchorPoint: "LM" 79 -36 basemark 0
-AnchorPoint: "BS" 142 -53 basemark 0
 AnchorPoint: "BSM" 376 -53 basemark 0
 LayerCount: 2
 Back
@@ -18062,7 +18007,6 @@ AnchorPoint: "BS" -230 -36 mark 0
 AnchorPoint: "LLM" -551 -36 basemark 0
 AnchorPoint: "BSM" -230 -36 mark 0
 AnchorPoint: "LM" 89 -36 basemark 0
-AnchorPoint: "BS" 234 -53 basemark 0
 AnchorPoint: "BSM" 556 -53 basemark 0
 LayerCount: 2
 Back
@@ -18189,7 +18133,6 @@ AnchorPoint: "BS" -93 -53 mark 0
 AnchorPoint: "LLM" -273 -53 basemark 0
 AnchorPoint: "BSM" -93 -53 mark 0
 AnchorPoint: "LM" 92 -53 basemark 0
-AnchorPoint: "BS" -25 -53 basemark 0
 AnchorPoint: "BSM" 144 -53 basemark 0
 LayerCount: 2
 Back
@@ -18226,7 +18169,6 @@ AnchorPoint: "BS" -89 -54 mark 0
 AnchorPoint: "LLM" -344 -53 basemark 0
 AnchorPoint: "BSM" -89 -54 mark 0
 AnchorPoint: "LM" 165 -53 basemark 0
-AnchorPoint: "BS" -25 -53 basemark 0
 AnchorPoint: "BSM" 144 -53 basemark 0
 LayerCount: 2
 Back
@@ -19101,14 +19043,8 @@ VWidth: 0
 GlyphClass: 4
 Flags: HW
 AnchorPoint: "U" 279 495 mark 0
-AnchorPoint: "U" -293 495 basemark 0
 AnchorPoint: "BDM" -495 -53 basemark 0
-AnchorPoint: "LR" 61 -53 basechar 0
-AnchorPoint: "BS" -293 -53 basechar 0
 AnchorPoint: "UM" 231 495 mark 0
-AnchorPoint: "L" -90 -53 basechar 0
-AnchorPoint: "LL" -665 -53 basechar 0
-AnchorPoint: "BD" -495 -53 basechar 0
 LayerCount: 2
 Back
 Fore
@@ -20256,15 +20192,10 @@ GlyphClass: 4
 Flags: HW
 AnchorPoint: "BS" 245 -53 mark 0
 AnchorPoint: "BSM" 575 -53 basemark 0
-AnchorPoint: "LL" -151 -53 basechar 0
-AnchorPoint: "L" 575 -53 basechar 0
 AnchorPoint: "BDM" -495 -53 basemark 0
 AnchorPoint: "LM" 25 -53 mark 0
-AnchorPoint: "LR" 61 -53 basechar 0
 AnchorPoint: "BSM" 238 -53 mark 0
 AnchorPoint: "LLM" -770 -53 mark 0
-AnchorPoint: "BS" -293 -53 basemark 0
-AnchorPoint: "BD" -495 -53 basechar 0
 LayerCount: 2
 Back
 Fore
@@ -20293,7 +20224,6 @@ AnchorPoint: "BS" -268 -53 mark 0
 AnchorPoint: "LLM" -719 -53 basemark 0
 AnchorPoint: "BSM" -268 -53 mark 0
 AnchorPoint: "LM" 76 -53 basemark 0
-AnchorPoint: "BS" -242 -53 basemark 0
 AnchorPoint: "BSM" 76 -53 basemark 0
 LayerCount: 2
 Back
@@ -20711,7 +20641,6 @@ AnchorPoint: "BSM" 275 -53 mark 0
 AnchorPoint: "LM" 372 -53 basemark 0
 AnchorPoint: "BDM" -495 -53 basemark 0
 AnchorPoint: "UM" -293 495 basemark 0
-AnchorPoint: "BS" 290 -53 basemark 0
 AnchorPoint: "BSM" -89 -53 basemark 0
 LayerCount: 2
 Back
@@ -23244,7 +23173,6 @@ AnchorPoint: "BD" -385 -53 mark 0
 AnchorPoint: "BSM" 97 -53 basemark 0
 AnchorPoint: "LM" 97 -53 basemark 0
 AnchorPoint: "BDM" -382 -53 mark 0
-AnchorPoint: "BD" 375 -53 basemark 0
 LayerCount: 2
 Back
 Fore
@@ -23301,7 +23229,6 @@ AnchorPoint: "BD" -385 -53 mark 0
 AnchorPoint: "BSM" 97 -53 basemark 0
 AnchorPoint: "LM" 97 -53 basemark 0
 AnchorPoint: "BDM" -382 -53 mark 0
-AnchorPoint: "BD" 375 -53 basemark 0
 LayerCount: 2
 Back
 Fore
@@ -26881,7 +26808,6 @@ AnchorPoint: "BS" -229 -52 mark 0
 AnchorPoint: "LLM" -563 -53 basemark 0
 AnchorPoint: "BSM" -229 -52 mark 0
 AnchorPoint: "LM" 100 -53 basemark 0
-AnchorPoint: "BS" 234 -51 basemark 0
 AnchorPoint: "BSM" 553 -53 basemark 0
 LayerCount: 2
 Back
@@ -27183,7 +27109,6 @@ AnchorPoint: "BS" -223 -53 mark 0
 AnchorPoint: "LLM" -548 -53 basemark 0
 AnchorPoint: "BSM" -223 -53 mark 0
 AnchorPoint: "LM" 98 -53 basemark 0
-AnchorPoint: "BS" 228 -53 basemark 0
 AnchorPoint: "BSM" 532 -53 basemark 0
 LayerCount: 2
 Back
@@ -27213,7 +27138,6 @@ AnchorPoint: "BS" -225 -53 mark 0
 AnchorPoint: "LLM" -549 -53 basemark 0
 AnchorPoint: "BSM" -225 -53 mark 0
 AnchorPoint: "LM" 98 -53 basemark 0
-AnchorPoint: "BS" 216 -53 basemark 0
 AnchorPoint: "BSM" 523 -53 basemark 0
 LayerCount: 2
 Back
@@ -27247,7 +27171,6 @@ GlyphClass: 4
 Flags: HW
 AnchorPoint: "BS" -191 -53 mark 0
 AnchorPoint: "BSM" -191 -53 mark 0
-AnchorPoint: "BS" 317 -53 basemark 0
 LayerCount: 2
 Back
 Fore
@@ -27282,7 +27205,6 @@ AnchorPoint: "BS" -80 -53 mark 0
 AnchorPoint: "LLM" -335 -53 basemark 0
 AnchorPoint: "BSM" -80 -53 mark 0
 AnchorPoint: "LM" 68 -53 basemark 0
-AnchorPoint: "BS" 226 -53 basemark 0
 AnchorPoint: "BSM" 333 -53 basemark 0
 LayerCount: 2
 Back
@@ -27309,7 +27231,6 @@ AnchorPoint: "BS" -64 -53 mark 0
 AnchorPoint: "LLM" -304 -53 basemark 0
 AnchorPoint: "BSM" -64 -53 mark 0
 AnchorPoint: "LM" 85 -53 basemark 0
-AnchorPoint: "BS" 215 -53 basemark 0
 AnchorPoint: "BSM" 396 -53 basemark 0
 LayerCount: 2
 Back
@@ -27340,7 +27261,6 @@ AnchorPoint: "BS" -262 -53 mark 0
 AnchorPoint: "LLM" 18 -53 basemark 0
 AnchorPoint: "BSM" -262 -53 mark 0
 AnchorPoint: "LM" -557 -53 basemark 0
-AnchorPoint: "BS" 222 -53 basemark 0
 AnchorPoint: "BSM" 466 -53 basemark 0
 LayerCount: 2
 Back
@@ -27374,7 +27294,6 @@ AnchorPoint: "BS" -262 -53 mark 0
 AnchorPoint: "LLM" 18 -53 basemark 0
 AnchorPoint: "BSM" -262 -53 mark 0
 AnchorPoint: "LM" -559 -53 basemark 0
-AnchorPoint: "BS" 222 -53 basemark 0
 AnchorPoint: "BSM" 462 -53 basemark 0
 LayerCount: 2
 Back
@@ -27412,7 +27331,6 @@ AnchorPoint: "BS" -336 -53 mark 0
 AnchorPoint: "LLM" 39 -53 basemark 0
 AnchorPoint: "BSM" -336 -53 mark 0
 AnchorPoint: "LM" -727 -53 basemark 0
-AnchorPoint: "BS" 294 -53 basemark 0
 AnchorPoint: "BSM" -21 -53 basemark 0
 LayerCount: 2
 Back
@@ -27451,7 +27369,6 @@ AnchorPoint: "BS" -336 -53 mark 0
 AnchorPoint: "LLM" 39 -53 basemark 0
 AnchorPoint: "BSM" -336 -53 mark 0
 AnchorPoint: "LM" -729 -53 basemark 0
-AnchorPoint: "BS" 294 -53 basemark 0
 AnchorPoint: "BSM" 612 -53 basemark 0
 LayerCount: 2
 Back
