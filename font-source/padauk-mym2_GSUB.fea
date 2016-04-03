@@ -138,7 +138,8 @@ lookup mym2_pref_u103Cwide {
 # to make sure they run before u103C ligation
 
 lookup mym2_pstf_signsLig {
-  lookupflag IgnoreBaseGlyphs, UseMarkFilteringSet @cUDia;
+#  lookupflag IgnoreBaseGlyphs, UseMarkFilteringSet @cUDia;
+  lookupflag IgnoreBaseGlyphs;
     sub u1004.kinzi u102D  by u1004.kinzi_u102D;
     sub u1004.kinzi u102E  by u1004.kinzi_u102E;
     sub u1004.kinzi u1032  by u1004.kinzi_u1032;
@@ -161,7 +162,8 @@ lookup mym2_pstf_signsLig {
 
 lookup mym2_DFLT_signsLig {
 #  lookupflag IgnoreBaseGlyphs, UseMarkFilteringSet @cUDia;
-  lookupflag UseMarkFilteringSet @cUDia;
+#  lookupflag UseMarkFilteringSet @cUDia;
+    lookupflag 0;
     sub u1004.kinzi u102D  by u1004.kinzi_u102D;
     sub u1004.kinzi u102E  by u1004.kinzi_u102E;
     sub u1004.kinzi u1032  by u1004.kinzi_u1032;
@@ -254,7 +256,8 @@ lookup mym2_blwf_medVowels {
 # Now back to regular pref rules
 
 lookup mym2_pref_u103CLig {
-  lookupflag IgnoreBaseGlyphs, MarkAttachmentType @class103CLig;
+#  lookupflag IgnoreBaseGlyphs, MarkAttachmentType @class103CLig;
+  lookupflag IgnoreBaseGlyphs, MarkAttachmentType @cLowerMarkAttach;
     sub u103C      u102F.med by u103C_u102F.narr;
     sub u103C      u103D     by u103C_u103D.narr;
     sub u103C      u103D.tri by u103C_u103D.narr.tri;

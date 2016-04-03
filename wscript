@@ -66,7 +66,8 @@ for f in ['', 'bold', 'book', 'bookbold'] :
                 classes = 'font-source/padauk_classes.xml',
                 opentype = fea('font-source/padauk' + f + '.fea',
                                 master = 'font-source/padauk' + f + '_ext.fea',
-                                make_params="-m _R -z 8",
+                                preinclude = 'font-source/padauk' + f + '_init.fea',
+                                make_params="-m _R -z 8 --markattach BSM,LM,LLM=cLowerMarkAttach --markattach BDM=",
                                 depends = map(lambda x:"font-source/padauk-"+x+".fea", 
                                     ('mym2_features', 'mym2_GSUB', 'dflt_GSUB'))),
 #                sfd_master = 'font-source/master.sfd',
@@ -83,3 +84,4 @@ for f in ['', 'bold', 'book', 'bookbold'] :
 
 def configure(ctx) :
     ctx.find_program('ttfautohint')
+

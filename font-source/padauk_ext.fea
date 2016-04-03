@@ -361,11 +361,11 @@ lookup dist_advance {
     pos u1012'  19                u103A_u1036; # Sgaw Karen #1945
     pos u1012'  19                      u103A; # 570, 1305
     
-    pos u1014'  79                u103A u1037; # Pa'o (blk) #139,790 *u103A u1037 reversed from normal*
-    pos u1014'  79  [u1032 u1036] u1037 u103A;
-    pos u1014'  79                u1037 u103A; # 64
-    pos u1014'  29                      u103A; # 65
-    pos u1014.alt'  28            u103E u103A; # MNW #1369,1375
+#    pos u1014'  79                u103A u1037; # Pa'o (blk) #139,790 *u103A u1037 reversed from normal*
+#    pos u1014'  79  [u1032 u1036] u1037 u103A;
+#    pos u1014'  79                u1037 u103A; # 64
+#    pos u1014'  29                      u103A; # 65
+#    pos u1014.alt'  28            u103E u103A; # MNW #1369,1375
     
     pos u101B.long'  6            u103E u103A; # MNW #2196, 2199
     
@@ -382,8 +382,8 @@ lookup dist_advance {
     
   # --- Consonants with u1037 --------------
     pos u1031 u1014'  79                                       u1037; # 1096 - for reordered u1031
-    pos u1014'  79     [u1032 u1036]                           u1037; # 1098 1103
-    pos u1014'  79                                             u1037; # Sgaw Karen #641-47
+#    pos u1014'  79     [u1032 u1036]' <-79 0 0 0>                           u1037; # 1098 1103
+#    pos u1014'  79                                             u1037; # Sgaw Karen #641-47
     
     pos u1031 u101B' 187                                       u1037; # 1986 - for reordered u1031
     pos u101B' 187     [u1032 u1036]                           u1037; # 1989, 1994
