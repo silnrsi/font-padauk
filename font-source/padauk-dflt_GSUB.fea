@@ -103,7 +103,6 @@ lookup dflt_error2 {
     @evowel = [u1031 u1084];
     @usvowel = [u102D u102E u1033 u1034 u1035 u1071 u1072 u1073 u1074 u1085 u109D uA9E5];
     @uvowel = [@usvowel u1032 u1036];
-    @lvowel = [u102F u1030 u1058 u1059];
     @avowel = [u102B u102C u1056 u1057 u1062 u1063 u1067 u1068 u1083];
     @ptone = [u1064 u1069 u106A u106B u106C u106D];
     @visarga = [u1087 u1088 u1089 u108A u108B u108C u108D u108F u109A u109B u109C uAA7B uAA7C uAA7D];
@@ -114,18 +113,18 @@ lookup dflt_error2 {
     ignore sub [@cCons @meds @evowel] @uvowel';
     ignore sub [@usvowel u1032] u1036';
     ignore sub [@usvowel] u1032';
-    ignore sub [@cCons @meds @evowel @uvowel] @lvowel';
-    ignore sub [@cCons @meds @evowel @uvowel @lvowel] u1086';
-    ignore sub [@cCons @meds @evowel @uvowel @lvowel u1086] u1037';
-    ignore sub [@cCons @meds @evowel @uvowel @lvowel u1062 u1086 u1037] @avowel';
-    ignore sub [@cCons @meds @evowel @uvowel @lvowel u1086 u1037 @avowel u1032 u1036] @ptone';
-    ignore sub [u102D @lvowel @avowel] [u1036 u1032]';
-    ignore sub [@lvowel u1086 @avowel u1032 u1036 @ptone] u1037';
+    ignore sub [@cCons @meds @evowel @uvowel] @clvowel';
+    ignore sub [@cCons @meds @evowel @uvowel @clvowel] u1086';
+    ignore sub [@cCons @meds @evowel @uvowel @clvowel u1086] u1037';
+    ignore sub [@cCons @meds @evowel @uvowel @clvowel u1062 u1086 u1037] @avowel';
+    ignore sub [@cCons @meds @evowel @uvowel @clvowel u1086 u1037 @avowel u1032 u1036] @ptone';
+    ignore sub [u102D @clvowel @avowel] [u1036 u1032]';
+    ignore sub [@clvowel u1086 @avowel u1032 u1036 @ptone] u1037';
     ignore sub [@ptone u1037 u102B u102C u103E @cCons u1082] u103A';
-    ignore sub [@cCons @meds @evowel @uvowel @lvowel u1062 u1086 u1037 @avowel u1032 u1036 @ptone u103A u104B] @visarga';
-    ignore sub [@cCons @meds @evowel @uvowel @lvowel u1062 u1086 u1037 @avowel u1032 u1036 @ptone u103A @visarga u104B u1038] @redup';
+    ignore sub [@cCons @meds @evowel @uvowel @clvowel u1062 u1086 u1037 @avowel u1032 u1036 @ptone u103A u104B] @visarga';
+    ignore sub [@cCons @meds @evowel @uvowel @clvowel u1062 u1086 u1037 @avowel u1032 u1036 @ptone u103A @visarga u104B u1038] @redup';
 
-    sub [@evowel @uvowel @lvowel u1062 u1089 u1037 @avowel @ptone @visarga @redup]' lookup dflt_dc_before;
+    sub [@evowel @uvowel @clvowel u1062 u1089 u1037 @avowel @ptone @visarga @redup]' lookup dflt_dc_before;
     sub [@avowel u103E] u103A' lookup dflt_dc_before u1037;
 } dflt_error2;
     
