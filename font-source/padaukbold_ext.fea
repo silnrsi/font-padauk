@@ -198,10 +198,10 @@ lookup extend_base_L_base {
 lookup dist_KSW_shift1037 {
   lookupflag 0;
   pos u101B        u1037' <-457 0 -230 0>;
-  pos u1030.med    u1037' <-559 0 0 0>;
+#  pos u1030.med    u1037' <-559 0 0 0>;
   pos u103B        u1037' <-678 0 -197 0>;
-  pos u103D.tri    u1037' <-325 0 0 0>;
-  pos u103E.slanth u1037' <-240 0 0 0>;
+#  pos u103D.tri    u1037' <-325 0 0 0>;
+#  pos u103E.slanth u1037' <-240 0 0 0>;
   pos u1061        u1037' <-481 0 -242 0>;
 } dist_KSW_shift1037;
 
