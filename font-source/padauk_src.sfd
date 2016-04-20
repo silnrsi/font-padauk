@@ -19,7 +19,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1387324841
-ModificationTime: 1447230549
+ModificationTime: 1461135282
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -4167,7 +4167,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 270 27 9
+WinInfo: 162 27 9
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "BD" "markMarkPositioninginMyanmarloo subtable" "BDM" "mkmkMarktoMarkinMyanmarlookup1 subtable" "BS" "pos_mark2base_markmymr_0 subtable" "BSM" "mkmkMarktoMarkinMyanmarlookup3 subtable" "U" "pos_mark2base_markmymr_2 subtable" "UM" "mkmkMarktoMarkinMyanmarlookup7 subtable" "dot" "_someAnchorsbase" "Y" "_someAnchorsbase" "LLM" "_someAnchorsmark" "LR" "_someAnchorsbase" "R" "_someAnchorsbase" "L" "_someAnchorsbase" "LM" "_someAnchorsmark" "LL" "_someAnchorsbase" 
@@ -14162,6 +14162,7 @@ SplineSet
  27 -399 l 0
  27 -450 l 0
 EndSplineSet
+LCarets2: 2 0 0
 Ligature2: "Ligature Substitution lookup 163 subtable" u102F.med u1032
 Ligature2: "LigatureSubstitutionlookup179 subtable" u102F.med u102D
 Ligature2: "LigatureSubstitutionlookup179 subtable" u102F.med u102E
@@ -14852,6 +14853,7 @@ SplineSet
  106 444 l 0
  106 -450 l 0
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "LigatureSubstitutionlookup179 subtable" u103B u102E
 Ligature2: "LigatureSubstitutionlookup179 subtable" u103B u1032
 Ligature2: "LigatureSubstitutionlookup179 subtable" u103B u1036
@@ -14899,6 +14901,7 @@ SplineSet
  -357 -330 -294 -396 -218 -396 c 0
  -141 -396 -78 -330 -78 -252 c 0
 EndSplineSet
+LCarets2: 1 0
 Substitution2: "sub_single_cligmymr_4 subtable" u103B_u103D.tri
 Ligature2: "LigatureSubstitutionlookup179 subtable" u103B_u103D u102E
 Ligature2: "LigatureSubstitutionlookup179 subtable" u103B_u103D u1032
@@ -15649,6 +15652,7 @@ SplineSet
  -373 -345 -310 -411 -233 -411 c 0
  -157 -411 -94 -345 -94 -267 c 0
 EndSplineSet
+LCarets2: 1 0
 Substitution2: "sub_single_cligmymr_4 subtable" u103D.tri
 Ligature2: "LigatureSubstitutionlookup179 subtable" u103D u102E
 Ligature2: "LigatureSubstitutionlookup179 subtable" u103D u1032
@@ -15794,6 +15798,7 @@ SplineSet
  -55 -95 l 0
  -55 -450 l 0
 EndSplineSet
+LCarets2: 1 0
 Substitution2: "sub_single_cligmymr_8 subtable" u103E.slanth
 Substitution2: "sub_single_cligmymr_6 subtable" u103E.slantr
 Substitution2: "SingleSubstitutionlookup141 subtable" u103E_u1030
@@ -27337,12 +27342,12 @@ StartChar: u1081
 Encoding: 499 4225 499
 Width: 567
 VWidth: 0
-Flags: HW
+Flags: HWO
 AnchorPoint: "R" 0 0 mark 0
-AnchorPoint: "BS" 385 -53 basechar 0
-AnchorPoint: "L" 385 -53 basechar 0
+AnchorPoint: "BS" 460 -53 basechar 0
+AnchorPoint: "L" 460 -53 basechar 0
 AnchorPoint: "U" 292 495 basechar 0
-AnchorPoint: "BD" 385 -53 basechar 0
+AnchorPoint: "BD" 460 -53 basechar 0
 LayerCount: 2
 Back
 Fore

@@ -18,7 +18,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1403160000
-ModificationTime: 1447228574
+ModificationTime: 1461135445
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -27417,12 +27417,12 @@ StartChar: u1081
 Encoding: 499 4225 499
 Width: 579
 VWidth: 0
-Flags: HW
+Flags: HWO
 AnchorPoint: "U" 292 495 basechar 0
-AnchorPoint: "BS" 410 -53 basechar 0
-AnchorPoint: "BD" 410 -53 basechar 0
+AnchorPoint: "BS" 520 -53 basechar 0
+AnchorPoint: "BD" 520 -53 basechar 0
 AnchorPoint: "R" 0 0 mark 0
-AnchorPoint: "L" 410 -53 basechar 0
+AnchorPoint: "L" 520 -53 basechar 0
 LayerCount: 2
 Back
 Fore
