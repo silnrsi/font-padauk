@@ -152,6 +152,8 @@ lookup shift_1032 {
     pos u103B u102F u1032' <-130 0 0 0>; #MNW #1660
     pos u100F_u100D u102F u1032' <-181 0 0 0>; #BLK #2634
 } shift_1032;
+
+
 # ****
 # mark
 # ****
