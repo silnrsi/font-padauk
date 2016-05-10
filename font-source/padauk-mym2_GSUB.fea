@@ -138,8 +138,7 @@ lookup mym2_pref_u103Cwide {
 # to make sure they run before u103C ligation
 
 lookup mym2_pstf_signsLig {
-#  lookupflag IgnoreBaseGlyphs, UseMarkFilteringSet @cUDia;
-  lookupflag IgnoreBaseGlyphs;
+  lookupflag IgnoreBaseGlyphs, UseMarkFilteringSet @cUDia;
     sub u1004.kinzi u102D  by u1004.kinzi_u102D;
     sub u1004.kinzi u102E  by u1004.kinzi_u102E;
     sub u1004.kinzi u1032  by u1004.kinzi_u1032;
@@ -160,7 +159,7 @@ lookup mym2_pstf_signsLig {
     sub u1032 u1036  by u1032_u1036; # Moken
 } mym2_pstf_signsLig;
 
-lookup mym2_DFLT_signsLig {
+lookup DFLT_signsLig {
 #  lookupflag IgnoreBaseGlyphs, UseMarkFilteringSet @cUDia;
 #  lookupflag UseMarkFilteringSet @cUDia;
     lookupflag 0;
@@ -182,7 +181,7 @@ lookup mym2_DFLT_signsLig {
     sub u102D u1032  by u1032_u102D;
     sub u102E u1036  by u102E_u1036; # Moken
     sub u1032 u1036  by u1032_u1036; # Moken
-} mym2_DFLT_signsLig;
+} DFLT_signsLig;
 
 lookup mym2_blwf_u1039med {
   lookupflag 0;

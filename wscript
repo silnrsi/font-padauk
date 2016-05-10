@@ -76,7 +76,7 @@ for f in ['', 'bold', 'book', 'bookbold'] :
                                 params = '-w3521 -w3530 -q -d -v2', make_params="-m _R",
                                 depends = ['font-source/myfeatures.gdl']),
 #                tests = test,
-                script = ['mym2', 'DFLT'],
+                script = ['mym2'],
                 extra_srcs = [fsf + '_src.ttf', 'bin/makegdl', 'font-source/myfeatures.gdl'],
                 pdf = fret(),
                 tests = tests
