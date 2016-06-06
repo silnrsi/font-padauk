@@ -624,7 +624,6 @@ feature mark {
       lookup base_U_base;
       lookup base_Y_base;
       lookup extend_base_L_base;
-      lookup extend_base_U_base;
      language KHN  exclude_dflt;
       lookup base_BD_base;
       lookup base_BS_base;
