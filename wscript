@@ -23,7 +23,8 @@ DEBPKG='ttf-sil-padauk'
 COPYRIGHT='Copyright 2013 SIL International, all rights reserved'
 LICENSE='OFL.txt'
 DOCDIR='doc'
-VCS='hg'
+VCS='git'
+STANDARDS='standards'
 
 mystrings = {
     'Regular' : 'ပိုမှန်',
@@ -42,9 +43,11 @@ opts = preprocess_args({'opt' : '--no2'})
 
 scriptcode = 'mymr' if '--no2' in opts else 'mym2'
 
-tests = fonttest(extras = {
-    'xtest1' : tests({'xtest1' : cmd('cmptxtrender -p -k -e ot -s mym2 -l "${lang}" -e ot -s dflt -L mym2 -L dflt -t ${SRC[1]} -o ${TGT} --copy=otfonts --strip ${fileinfo} ${SRC[0]} ${SRC[0]}')})
-})
+#tests = fonttest(extras = {
+#    'xtest1' : tests({'xtest1' : cmd('cmptxtrender -p -k -e ot -s mym2 -l "${lang}" -e ot -s dflt -L mym2 -L dflt -t ${SRC[1]} -o ${TGT} --copy=otfonts --strip ${fileinfo} ${SRC[0]} ${SRC[0]}')})
+#})
+
+ftmlTest('bin/ftml.xsl')
 
 for f in ['', 'bold', 'book', 'bookbold'] :
     fsf = 'font-source/padauk' + f
@@ -76,10 +79,10 @@ for f in ['', 'bold', 'book', 'bookbold'] :
                                 params = '-w3521 -w3530 -q -d -v2', make_params="-m _R",
                                 depends = ['font-source/myfeatures.gdl']),
 #                tests = test,
-                script = ['mym2'],
-                extra_srcs = [fsf + '_src.ttf', 'bin/makegdl', 'font-source/myfeatures.gdl'],
-                pdf = fret(),
-                tests = tests
+                script = ['mym2', 'DFLT'],
+                extra_srcs = ['bin/makegdl', 'font-source/myfeatures.gdl'],
+                pdf = fret(params="-r -oi")
+#                tests = tests
             )
 
 def configure(ctx) :

@@ -1,4 +1,3 @@
-
 # -------------
 # GSUB features
 # -------------
@@ -624,6 +623,42 @@ feature mark {
       lookup base_U_base;
       lookup base_Y_base;
       lookup extend_base_L_base;
+     language KHN  exclude_dflt;
+      lookup base_BD_base;
+      lookup base_BS_base;
+      lookup base_L_base;
+      lookup base_U_base;
+      lookup base_Y_base;
+      lookup extend_base_L_base;
+     language KHT  exclude_dflt;
+      lookup base_BD_base;
+      lookup base_BS_base;
+      lookup base_L_base;
+      lookup base_U_base;
+      lookup base_Y_base;
+      lookup extend_base_L_base;
+     language KSW  exclude_dflt;
+      lookup base_BD_base;
+      lookup base_BS_base;
+      lookup base_L_base;
+      lookup base_U_base;
+      lookup base_Y_base;
+      lookup extend_base_L_base;
+     language KYU  exclude_dflt;
+      lookup base_BD_base;
+      lookup base_BS_base;
+      lookup base_L_base;
+      lookup base_U_base;
+      lookup base_Y_base;
+      lookup extend_base_L_base;
+     language SHN  exclude_dflt;
+      lookup base_BD_base;
+      lookup base_BS_base;
+      lookup base_L_base;
+      lookup base_U_base;
+      lookup base_Y_base;
+      lookup extend_base_L_base;
+#      lookup extend_base_U_base;
      language KHN  exclude_dflt;
       lookup base_BD_base;
       lookup base_BS_base;
