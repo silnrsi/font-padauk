@@ -4,8 +4,8 @@
 import codecs, os
 
 TESTDIR='test-suite'
-VERSION='2.98.5'
-TTF_VERSION='2.985'
+VERSION='3.0'
+TTF_VERSION='3.0'
 APPNAME='padauk'
 SRCDIST="{0}-src.{1}".format(APPNAME, VERSION)
 DESC_SHORT='Burmese Unicode 6 truetype font with OT and Graphite support'
@@ -21,7 +21,7 @@ lldt, wtri, ulon, utal, dotc, hsln (value: 0-2), nnya, vtta
 '''
 DEBPKG='ttf-sil-padauk'
 COPYRIGHT='Copyright 2013 SIL International, all rights reserved'
-LICENSE='OFL.txt'
+#LICENSE='OFL.txt'
 DOCDIR='doc'
 VCS='git'
 STANDARDS='standards'
@@ -62,7 +62,7 @@ for f in ['', 'bold', 'book', 'bookbold'] :
                         name(namestrings[f][0], lang='en-US', subfamily = namestrings[f][1]),
                         cmd('${TTFAUTOHINT} -n -W ${DEP} ${TGT}')),
                 version = TTF_VERSION,
-                license = ofl("Padauk"),
+#                license = ofl("Padauk"),
                 copyright = COPYRIGHT,
                 source = srcfile,
                 ap = fsf + '.xml',

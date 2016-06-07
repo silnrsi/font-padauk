@@ -1,0 +1,25 @@
+FONTLOG for Padauk
+
+See README.txt for details about the font.
+
+Changelog
+
+7th June 2016. Version 3.0
+- Add mym2 OpenType support
+- Support minority languages in OpenType
+- Support 4 faces, book and regular in bold and regular
+
+Acknowledgements
+
+N: Martin Hosken
+D: Chief Engineer
+
+N: Jon Coblentz
+D: OpenType engineering
+
+N: Debbi Hosken
+D: Glyph design
+
+N: Iska Routamaa
+D: Glyph design, book & bold interpolations
+
