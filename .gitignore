@@ -1,0 +1,86 @@
+# .gitignore template for an open font design workflow
+# Designed to tell git to ignore some intermediary and generated files and to keep your public git repository clean
+# To tweak to your particular needs, see http://git-scm.com/docs/gitignore and http://help.github.com/articles/ignoring-files
+
+# smith
+.waf-*
+.lock-*
+results/**
+
+# general backup files
+*~
+*.swp
+*.autosave
+*(Autosaved)*
+
+
+# OS X
+*.DS_STORE
+*__MACOSX
+.Spotlight-V100
+._.Trashes
+.Trashes
+.fseventsd
+.VolumeIcon.icns
+.AppleDouble
+.LSOverride
+Icon?
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.lnk
+
+
+# AFDKO
+current.fpr
+
+# Editors
+*.bak
+*.vfbak
+
+# Shares
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+$RECYCLE.BIN/
+.Spotlight-V100
+.Trashes
+
+# Fontforge temporary backups
+*.sfd-*
+
+# Opaque formats to keep out of git
+*.fog
+*.vfc
+
+# generated releases
+*.zip
+*.tar.gz
+*.tar.xz
+*.tar.bz2
+
+# installers
+*.exe
+*.deb
+*.pkg
+*.cab
+*.msi
+*.msm
+*.msp
+
+# VM stuff 
+.vagrant/
+
+# Other
+.sass-cache/
+.jekyll-metadata
+
+# Byte-compiled / optimized files
+*.py[co]
+*$py.class
+__pycache__/
+
