@@ -25,6 +25,7 @@ COPYRIGHT='Copyright 2013 SIL International, all rights reserved'
 DOCDIR='doc'
 VCS='git'
 STANDARDS='standards'
+README="README.md"
 
 mystrings = {
     'Regular' : 'ပိုမှန်',
