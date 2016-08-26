@@ -17,6 +17,9 @@ D: Chief Engineer
 N: Jon Coblentz
 D: OpenType engineering
 
+N: Keith Stribley
+D: OpenType engineering
+
 N: Debbi Hosken
 D: Glyph design
 

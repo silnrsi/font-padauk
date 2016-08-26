@@ -756,8 +756,10 @@ feature mkmk {
 	\ampersand \quotesingle \parenleft \parenright \asterisk \plus \comma \hyphen 
 	\period \slash \zero \one \two \three \four \five \six \seven \eight \nine \colon 
 	\semicolon \less \equal \greater \question \at \A \B \C \D \E \F \G \H \I \J \K \L \M \N \O 
-	\P \Q \R \S \T \U \V \W \X \Y \Z \bracketleft \backslash \bracketright \u1000 
-	\u1000_u1001_u103B \u1000_u103B_u1015_u103A \u1001 \u1002 \u1003 \u1004 \u1005 
+	\P \Q \R \S \T \U \V \W \X \Y \Z \bracketleft \backslash \bracketright
+    \asciicircum \underscore \grave \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p 
+	\q \r \s \t \u \v \w \x \y \z \braceleft \bar \braceright \asciitilde \multiply 
+	\u1000 \u1000_u1001_u103B \u1000_u103B_u1015_u103A \u1001 \u1002 \u1003 \u1004 \u1005 
 	\u1006 \u1007 \u1008 \u1008.med \u1009 \u1009_u102C \u100A \u100A.alt 
 	\u100A_u100A \u100B \u100B.alt \u100B_u100B \u100B_u100C \u100C \u100D 
 	\u100D_u100D \u100D_u100E \u100E \u100F \u100F_u100B \u100F_u100D \u1010 \u1011.aiph \u1011 
@@ -788,9 +790,7 @@ feature mkmk {
 	\uAA75.kham \uAA76.kham \u1038.dot \u1087.dot \u1088.dot \u1089.dot \u108A.dot 
 	\u109A.dot \u109B.dot \uAA7B.dot \u103B_u103D.tri \u103B_u103D_u103E.tri \u1081 ];
 @GDEF_Ligature = [\u109A \u109B \uAA74 \uAA75 \uAA76 \uAA78 \uAA7B];
-@GDEF_Mark = [\asciicircum \underscore \grave \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p 
-	\q \r \s \t \u \v \w \x \y \z \braceleft \bar \braceright \asciitilde \multiply 
-	\u1000.med \u1001.med \u1002.med \u1003.med \u1004.med \u1004.kinzi 
+@GDEF_Mark = [\u1000.med \u1001.med \u1002.med \u1003.med \u1004.med \u1004.kinzi 
 	\u1004.kinzi_u102D \u1004.kinzi_u102E \u1004.kinzi_u1032 \u1004.kinzi_u1033 
 	\u1004.kinzi_u1036 \u1004.kinzi_u103A \u1004.kinzi_u102D_u1036 \u1005.med 
 	\u1006.med \u1007.med \u100A.med \u100B.med \u100C.med \u100D.med \u100E.med 
