@@ -4,8 +4,8 @@
 import codecs, os
 
 TESTDIR='test-suite'
-VERSION='3.0'
-TTF_VERSION='3.0'
+VERSION='3.001'
+TTF_VERSION='3.001'
 APPNAME='padauk'
 SRCDIST="{0}-src.{1}".format(APPNAME, VERSION)
 DESC_SHORT='Burmese Unicode 6 truetype font with OT and Graphite support'
@@ -20,7 +20,7 @@ There is feature support in Graphite for the following features: kdot, fdot,
 lldt, wtri, ulon, utal, dotc, hsln (value: 0-2), nnya, vtta
 '''
 DEBPKG='ttf-sil-padauk'
-COPYRIGHT='Copyright 2013 SIL International, all rights reserved'
+COPYRIGHT='Copyright 2016 SIL International, all rights reserved'
 #LICENSE='OFL.txt'
 DOCDIR='doc'
 VCS='git'
