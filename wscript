@@ -22,7 +22,7 @@ lldt, wtri, ulon, utal, dotc, hsln (value: 0-2), nnya, vtta
 DEBPKG='ttf-sil-padauk'
 COPYRIGHT='Copyright 2016 SIL International, all rights reserved'
 #LICENSE='OFL.txt'
-DOCDIR='doc'
+DOCDIR='documentation'
 VCS='git'
 STANDARDS='standards'
 README="README.md"
