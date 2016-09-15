@@ -4,7 +4,7 @@ See README.txt for details about the font.
 
 Changelog
 
-8th September 2016. Version 3.001
+15th September 2016. Version 3.001
 - Change lower ascii characters from being marks to spacing
 
 7th June 2016. Version 3.0

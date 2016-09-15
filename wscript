@@ -4,7 +4,7 @@
 import codecs, os
 
 TESTDIR='test-suite'
-VERSION='3.001'
+VERSION='3.00.1'
 TTF_VERSION='3.001'
 APPNAME='padauk'
 SRCDIST="{0}-src.{1}".format(APPNAME, VERSION)
@@ -25,7 +25,7 @@ COPYRIGHT='Copyright 2016 SIL International, all rights reserved'
 DOCDIR='documentation'
 VCS='git'
 STANDARDS='standards'
-README="README.md"
+#README="README.md"
 
 mystrings = {
     'Regular' : 'ပိုမှန်',
