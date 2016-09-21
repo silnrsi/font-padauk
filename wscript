@@ -4,7 +4,7 @@
 import codecs, os
 
 TESTDIR='test-suite'
-VERSION='3.00.1'
+VERSION='3.001'
 TTF_VERSION='3.001'
 APPNAME='padauk'
 SRCDIST="{0}-src.{1}".format(APPNAME, VERSION)
@@ -82,8 +82,9 @@ for f in ['', 'bold', 'book', 'bookbold'] :
 #                tests = test,
                 script = ['mym2', 'DFLT'],
                 extra_srcs = ['bin/makegdl', 'font-source/myfeatures.gdl'],
-                pdf = fret(params="-r -oi")
+                pdf = fret(params="-r -oi"),
 #                tests = tests
+                woff = woff(params = '-v ' + VERSION + ' -m ../font-source/padauk-WOFF-metadata.xml')
             )
 
 def configure(ctx) :
