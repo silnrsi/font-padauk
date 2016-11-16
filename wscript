@@ -52,10 +52,13 @@ ftmlTest('bin/ftml.xsl')
 
 for f in ['', 'bold', 'book', 'bookbold'] :
     fsf = 'font-source/padauk' + f
+    target = namestrings[f][0].replace(' ', '') + '-' + namestrings[f][1].replace(' ', '')
 
-    fnt = font(target = process(namestrings[f][0].replace(' ', '') + '-' + namestrings[f][1].replace(' ', '') + '.ttf',
+    fnt = font(target = process(target + '.ttf',
                         name(namestrings[f][0], lang='en-US', subfamily = namestrings[f][1]),
-                        cmd('${TTFAUTOHINT} -n -W ${DEP} ${TGT}')),
+                        cmd('${TTFAUTOHINT} -n -W ${DEP} ${TGT}'),
+                        cmd('${TTX} -f -o ' + target + '.ttx' + ' ${DEP}; ${TTX} -f -o ${TGT} ' + target + '.ttx')
+                        ),
                 version = TTF_VERSION,
 #                license = ofl("Padauk"),
                 copyright = COPYRIGHT,
@@ -83,4 +86,4 @@ for f in ['', 'bold', 'book', 'bookbold'] :
 
 def configure(ctx) :
     ctx.find_program('ttfautohint')
-
+    ctx.find_program('ttx')
