@@ -52,20 +52,14 @@ ftmlTest('bin/ftml.xsl')
 
 for f in ['', 'bold', 'book', 'bookbold'] :
     fsf = 'font-source/padauk' + f
-    if len(f) :
-        target = 'Padauk-' + f + '.ttf'
-    else :
-        target = 'Padauk.ttf'
 
-    srcfile = fsf + '_src.sfd'
-
-    fnt = font(target = process(target, 
+    fnt = font(target = process(namestrings[f][0].replace(' ', '') + '-' + namestrings[f][1].replace(' ', '') + '.ttf',
                         name(namestrings[f][0], lang='en-US', subfamily = namestrings[f][1]),
                         cmd('${TTFAUTOHINT} -n -W ${DEP} ${TGT}')),
                 version = TTF_VERSION,
 #                license = ofl("Padauk"),
                 copyright = COPYRIGHT,
-                source = srcfile,
+                source = fsf + '_src.sfd',
                 ap = fsf + '.xml',
                 classes = 'font-source/padauk_classes.xml',
                 opentype = fea('font-source/padauk' + f + '.fea',
