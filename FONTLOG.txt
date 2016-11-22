@@ -4,6 +4,10 @@ See README.txt for details about the font.
 
 Changelog
 
+22 November 2016. Version 3.002
+- Run ttx optimisation during the build to reduce file size
+- Change font file names to more conventional file naming practice
+
 15th September 2016. Version 3.001
 - Change lower ascii characters from being marks to spacing
 
@@ -19,6 +23,9 @@ D: Chief Engineer
 
 N: Jon Coblentz
 D: OpenType engineering
+
+N: Bobby deVos
+D: Font engineer
 
 N: Keith Stribley
 D: OpenType engineering

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<metadata version="3.001">
-<uniqueid id="org.sil.fonts.padauk.3.001" />
+<metadata version="3.002">
+<uniqueid id="org.sil.fonts.padauk.3.002" />
 <vendor name="SIL International" url="http://software.sil.org" />
 <credits>
 <credit
@@ -11,6 +11,11 @@
             name="Jon Coblentz"
             url="http://scripts.sil.org/"
             role="OpenType engineering" />
+</credits>
+<credit
+            name="Bobby deVos"
+            url="http://scripts.sil.org/"
+            role="Font engineer" />
 </credits>
 <credit
             name="Keith Stribley"
@@ -52,9 +57,12 @@
         ---------
         (This should list both major and minor changes, most recent first.)
         
+        22 November 2016. Version 3.002
+        - Run ttx optimisation during the build to reduce file size
+        - Change font file names to more conventional file naming practice
+        
         15th September 2016. Version 3.001
         - Change lower ascii characters from being marks to spacing
-
         
         7th June 2016. Version 3.0
         - Add mym2 OpenType support
