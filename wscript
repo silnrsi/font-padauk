@@ -23,7 +23,7 @@ DEBPKG='ttf-sil-padauk'
 COPYRIGHT='Copyright 2016 SIL International, all rights reserved'
 #LICENSE='OFL.txt'
 DOCDIR='documentation'
-VCS='git'
+#VCS='git'
 STANDARDS='standards'
 #README="README.md"
 
@@ -41,6 +41,8 @@ namestrings = {
 }
 
 opts = preprocess_args({'opt' : '--no2'})
+devver = getversion()
+if devver != '' : VERSION += "-dev-"+devver
 
 scriptcode = 'mymr' if '--no2' in opts else 'mym2'
 
