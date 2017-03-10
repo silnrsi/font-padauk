@@ -20,7 +20,7 @@ There is feature support in Graphite for the following features: kdot, fdot,
 lldt, wtri, ulon, utal, dotc, hsln (value: 0-2), nnya, vtta
 '''
 DEBPKG='ttf-sil-padauk'
-COPYRIGHT='Copyright 2016 SIL International, all rights reserved'
+COPYRIGHT='Copyright 2017 SIL International, all rights reserved'
 #LICENSE='OFL.txt'
 DOCDIR='documentation'
 #VCS='git'
