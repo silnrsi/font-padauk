@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<metadata version="3.002">
-<uniqueid id="org.sil.fonts.padauk.3.002" />
+<metadata version="3.003">
+<uniqueid id="org.sil.fonts.padauk.3.003" />
 <vendor name="SIL International" url="http://software.sil.org" />
 <credits>
 <credit
@@ -56,7 +56,9 @@
         ChangeLog
         ---------
         (This should list both major and minor changes, most recent first.)
-        
+        10 March 2017. Version 3.003
+        - Run ttfautohint 1.6 which has support for Myanmar
+
         22 November 2016. Version 3.002
         - Run ttx optimisation during the build to reduce file size
         - Change font file names to more conventional file naming practice
@@ -73,7 +75,7 @@
 <license url="http://scripts.sil.org/OFL"
              id="org.sil.ofl.1.1">
 <text lang="en">
-            Copyright (c) 2003-2016 SIL International (http://www.sil.org/),
+            Copyright (c) 2003-2017 SIL International (http://www.sil.org/),
             with Reserved Font Name "Padauk".
 
             This Font Software is licensed under the SIL Open Font License, Version 1.1.
@@ -170,7 +172,7 @@
 </text>
 </license>
 <copyright>
-<text lang="en">Copyright (c) 2007-2016 SIL International (http://www.sil.org/)</text>
+<text lang="en">Copyright (c) 2007-2017 SIL International (http://www.sil.org/)</text>
 </copyright>
 <trademark>
 <text lang="en">Padauk is a trademark of SIL International</text>
