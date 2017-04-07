@@ -7,7 +7,6 @@ TESTDIR='test-suite'
 VERSION='3.004'
 TTF_VERSION='3.004'
 APPNAME='Padauk'
-SRCDIST="{0}-src.{1}".format(APPNAME, VERSION)
 DESC_SHORT='Burmese Unicode 6 truetype font with OT and Graphite support'
 DESC_LONG = '''
 Padauk is a pan Burma Unicode font designed to support all the languages
@@ -42,7 +41,6 @@ namestrings = {
 
 opts = preprocess_args({'opt' : '--no2'})
 devver = getversion()
-if devver != '' : VERSION += "-dev-"+devver
 
 scriptcode = 'mymr' if '--no2' in opts else 'mym2'
 
