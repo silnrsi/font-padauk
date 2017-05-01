@@ -10,9 +10,6 @@ feature locl {
      language KHT  exclude_dflt;
       lookup mym2_locl_dot;
       lookup mym2_locl_kham;
-     language KSW  exclude_dflt;
-      lookup mym2_locl_tri;
-      lookup mym2_locl_slanth;
      language KYU  exclude_dflt;
       lookup mym2_locl_tri;
       lookup mym2_locl_slantr;

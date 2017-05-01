@@ -111,8 +111,6 @@ table(language)
 
 sgaw {
     languages = ("ksw");
-    slanth = sgaw;
-    watri = 1;
     lldot = 1;
 };
 
