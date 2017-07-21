@@ -65,6 +65,7 @@ for f in ['', 'bold', 'book', 'bookbold'] :
                 source = fsf + '_src.sfd',
                 ap = fsf + '.xml',
                 classes = 'font-source/padauk_classes.xml',
+                buildusingfontforge = 1,
                 opentype = fea('font-source/padauk' + f + '.fea',
                                 master = 'font-source/padauk' + f + '_ext.fea',
                                 preinclude = 'font-source/padauk' + f + '_init.fea',
