@@ -75,7 +75,7 @@ for f in ['', 'bold', 'book', 'bookbold'] :
 #                sfd_master = 'font-source/master.sfd',
                 graphite = gdl('padauk' + f + '.gdl',
                                 master = 'font-source/myanmar5.gdl',
-                                params = '-w3521 -w3530 -q -d -v2', make_params="-m _R",
+                                params = '-w3521 -w3530 -q -d -D -v2', make_params="-m _R",
                                 depends = ['font-source/myfeatures.gdl']),
 #                tests = test,
                 script = ['mym2', 'DFLT'],

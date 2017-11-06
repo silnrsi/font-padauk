@@ -19,7 +19,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1387324841
-ModificationTime: 1465285385
+ModificationTime: 1496677336
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -4167,7 +4167,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 270 27 9
+WinInfo: 0 27 9
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "BD" "markMarkPositioninginMyanmarloo subtable" "BDM" "mkmkMarktoMarkinMyanmarlookup1 subtable" "BS" "pos_mark2base_markmymr_0 subtable" "BSM" "mkmkMarktoMarkinMyanmarlookup3 subtable" "U" "pos_mark2base_markmymr_2 subtable" "UM" "mkmkMarktoMarkinMyanmarlookup7 subtable" "dot" "_someAnchorsbase" "Y" "_someAnchorsbase" "LLM" "_someAnchorsmark" "LR" "_someAnchorsbase" "R" "_someAnchorsbase" "L" "_someAnchorsbase" "LM" "_someAnchorsmark" "LL" "_someAnchorsbase" 
@@ -4196,16 +4196,18 @@ SplineSet
  55 459 l 1
  520 459 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: .null
 Encoding: 1 -1 1
 Width: 1000
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
+Validated: 1
 EndChar
 
 StartChar: nonmarkingreturn
@@ -4216,6 +4218,7 @@ Flags: HW
 LayerCount: 2
 Back
 Fore
+Validated: 1
 EndChar
 
 StartChar: space
@@ -4227,6 +4230,7 @@ Flags: HW
 LayerCount: 2
 Back
 Fore
+Validated: 1
 EndChar
 
 StartChar: exclam
@@ -4254,6 +4258,7 @@ SplineSet
  56 73 84 99 115 99 c 0
  146 99 174 73 174 42 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -4278,6 +4283,7 @@ SplineSet
  246 643 l 1
  340 643 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -4326,6 +4332,7 @@ SplineSet
  460 162 l 1
  460 111 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -4367,6 +4374,7 @@ SplineSet
  273 363 l 1
  334 349 466 339 466 172 c 0
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -4406,6 +4414,7 @@ SplineSet
  477 495 l 1
  519 463 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -4447,6 +4456,7 @@ SplineSet
  579 265 566 196 531 129 c 1
  553 101 634 30 675 0 c 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -4466,6 +4476,7 @@ SplineSet
  117 643 l 1
  210 643 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -4487,6 +4498,7 @@ SplineSet
  193 703 126 500 126 210 c 0
  126 -41 188 -262 340 -450 c 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -4508,6 +4520,7 @@ SplineSet
  106 915 l 1
  258 704 321 494 321 222 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -4541,6 +4554,7 @@ SplineSet
  337 456 l 1
  509 358 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -4568,6 +4582,7 @@ SplineSet
  310 247 l 1
  477 247 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -4591,6 +4606,7 @@ SplineSet
  40 101 79 133 116 133 c 0
  154 133 191 105 191 53 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -4610,6 +4626,7 @@ SplineSet
  55 247 l 1
  439 247 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -4629,6 +4646,7 @@ SplineSet
  40 73 69 99 100 99 c 0
  131 99 159 73 159 42 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -4648,6 +4666,7 @@ SplineSet
  402 813 l 1
  439 775 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -4672,6 +4691,7 @@ SplineSet
  45 486 66 655 249 655 c 0
  432 655 453 486 453 334 c 0
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -4694,6 +4714,7 @@ SplineSet
  337 643 l 1
  337 0 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -4720,6 +4741,7 @@ SplineSet
  442 69 l 1
  442 0 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -4750,6 +4772,7 @@ SplineSet
  447 399 417 363 379 337 c 1
  425 308 456 275 456 171 c 0
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -4780,6 +4803,7 @@ SplineSet
  471 231 l 1
  471 156 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -4810,6 +4834,7 @@ SplineSet
  177 406 207 427 274 427 c 0
  388 427 450 325 450 210 c 0
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -4839,6 +4864,7 @@ SplineSet
  155 360 191 396 265 396 c 0
  432 396 456 265 456 192 c 0
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -4861,6 +4887,7 @@ SplineSet
  447 643 l 1
  447 553 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -4894,6 +4921,7 @@ SplineSet
  442 418 387 361 336 340 c 1
  384 322 460 265 460 165 c 0
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -4923,6 +4951,7 @@ SplineSet
  42 529 78 655 241 655 c 0
  438 655 456 543 456 337 c 0
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -4947,6 +4976,7 @@ SplineSet
  40 432 69 459 100 459 c 0
  131 459 159 432 159 400 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -4975,6 +5005,7 @@ SplineSet
  40 433 69 459 100 459 c 0
  131 459 159 433 159 402 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -4997,6 +5028,7 @@ SplineSet
  235 267 l 1
  712 90 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -5021,6 +5053,7 @@ SplineSet
  55 162 l 1
  520 162 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -5043,6 +5076,7 @@ SplineSet
  178 499 l 1
  712 295 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -5075,6 +5109,7 @@ SplineSet
  158 93 187 111 213 111 c 0
  238 111 268 93 268 55 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -5115,6 +5150,7 @@ SplineSet
  52 499 243 637 438 637 c 0
  678 637 837 510 837 265 c 0
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -5142,6 +5178,7 @@ SplineSet
  381 643 l 1
  654 0 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -5176,6 +5213,7 @@ SplineSet
  523 412 467 358 412 343 c 1
  482 324 546 263 546 178 c 0
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -5201,6 +5239,7 @@ SplineSet
  399 58 462 88 462 171 c 1
  552 171 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -5227,6 +5266,7 @@ SplineSet
  271 643 l 2
  514 643 588 486 588 322 c 0
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -5254,6 +5294,7 @@ SplineSet
  478 78 l 1
  478 0 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -5279,6 +5320,7 @@ SplineSet
  427 367 l 1
  427 291 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -5308,6 +5350,7 @@ SplineSet
  606 343 l 1
  606 31 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -5335,6 +5378,7 @@ SplineSet
  561 643 l 1
  561 0 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -5356,6 +5400,7 @@ SplineSet
  160 643 l 1
  160 0 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -5379,6 +5424,7 @@ SplineSet
  435 643 l 1
  435 192 l 2
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -5405,6 +5451,7 @@ SplineSet
  264 366 l 1
  570 0 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -5426,6 +5473,7 @@ SplineSet
  445 78 l 1
  445 0 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -5454,6 +5502,7 @@ SplineSet
  727 643 l 1
  727 0 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -5479,6 +5528,7 @@ SplineSet
  573 643 l 1
  573 0 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -5505,6 +5555,7 @@ SplineSet
  52 517 148 655 345 655 c 0
  543 655 636 517 636 334 c 0
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -5533,6 +5584,7 @@ SplineSet
  253 643 l 2
  376 643 501 619 501 457 c 0
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -5561,6 +5613,7 @@ SplineSet
  672 61 l 1
  672 0 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -5594,6 +5647,7 @@ SplineSet
  424 320 452 302 469 259 c 0
  488 210 484 108 523 0 c 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -5621,6 +5675,7 @@ SplineSet
  205 577 151 553 151 477 c 0
  151 310 535 441 535 178 c 0
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -5644,6 +5699,7 @@ SplineSet
  528 643 l 1
  528 565 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -5669,6 +5725,7 @@ SplineSet
  585 643 l 1
  585 286 l 2
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -5691,6 +5748,7 @@ SplineSet
  468 643 l 1
  568 643 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -5719,6 +5777,7 @@ SplineSet
  757 643 l 1
  852 643 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -5746,6 +5805,7 @@ SplineSet
  367 343 l 1
  604 0 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -5770,6 +5830,7 @@ SplineSet
  478 643 l 1
  579 643 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -5795,6 +5856,7 @@ SplineSet
  508 78 l 1
  508 0 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -5818,6 +5880,7 @@ SplineSet
  259 -132 l 1
  259 -177 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -5837,6 +5900,7 @@ SplineSet
  93 813 l 1
  439 -174 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -5860,6 +5924,7 @@ SplineSet
  259 643 l 1
  259 -177 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -5883,6 +5948,7 @@ SplineSet
  226 867 l 1
  453 640 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -5902,6 +5968,7 @@ SplineSet
  576 -86 l 1
  576 -137 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -5921,6 +5988,7 @@ SplineSet
  67 687 l 1
  156 534 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -5956,6 +6024,7 @@ SplineSet
  427 125 l 2
  427 84 429 25 439 0 c 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -5985,6 +6054,7 @@ SplineSet
  162 417 205 456 291 456 c 0
  438 456 481 322 481 241 c 0
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -6012,6 +6082,7 @@ SplineSet
  318 48 340 111 340 150 c 1
  420 150 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -6041,6 +6112,7 @@ SplineSet
  463 643 l 1
  463 0 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -6070,6 +6142,7 @@ SplineSet
  331 46 357 103 363 142 c 1
  448 142 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -6101,6 +6174,7 @@ SplineSet
  251 651 272 649 294 643 c 1
  294 577 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -6133,6 +6207,7 @@ SplineSet
  463 445 l 1
  463 25 l 2
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -6160,6 +6235,7 @@ SplineSet
  400 456 448 400 448 276 c 2
  448 0 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -6184,6 +6260,7 @@ SplineSet
  145 643 l 1
  145 561 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -6212,6 +6289,7 @@ SplineSet
  195 643 l 1
  195 561 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -6238,6 +6316,7 @@ SplineSet
  234 252 l 1
  426 0 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -6257,6 +6336,7 @@ SplineSet
  142 643 l 1
  142 0 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -6291,6 +6371,7 @@ SplineSet
  715 456 736 360 736 288 c 2
  736 0 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -6318,6 +6399,7 @@ SplineSet
  405 456 448 387 448 292 c 2
  448 0 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -6344,6 +6426,7 @@ SplineSet
  45 382 142 456 264 456 c 0
  384 456 483 382 483 222 c 0
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -6373,6 +6456,7 @@ SplineSet
  184 427 223 456 282 456 c 0
  433 456 489 352 489 222 c 0
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -6402,6 +6486,7 @@ SplineSet
  471 445 l 1
  471 -177 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -6425,6 +6510,7 @@ SplineSet
  165 423 192 445 306 445 c 1
  306 373 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -6452,6 +6538,7 @@ SplineSet
  175 400 136 373 136 334 c 0
  136 220 403 307 403 130 c 0
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -6483,6 +6570,7 @@ SplineSet
  253 49 270 52 285 57 c 1
  285 0 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -6510,6 +6598,7 @@ SplineSet
  448 445 l 1
  448 0 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -6532,6 +6621,7 @@ SplineSet
  378 445 l 1
  463 445 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -6560,6 +6650,7 @@ SplineSet
  627 445 l 1
  711 445 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -6589,6 +6680,7 @@ SplineSet
  292 231 l 1
  469 0 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -6616,6 +6708,7 @@ SplineSet
  376 445 l 1
  463 445 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -6641,6 +6734,7 @@ SplineSet
  372 61 l 1
  372 0 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -6666,6 +6760,7 @@ SplineSet
  231 -230 247 -393 351 -393 c 1
  351 -443 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -6685,6 +6780,7 @@ SplineSet
  177 709 l 1
  177 -230 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -6710,6 +6806,7 @@ SplineSet
  216 892 226 676 226 403 c 0
  226 301 336 270 336 225 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -6733,6 +6830,7 @@ SplineSet
  407 219 432 230 481 268 c 1
  507 238 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -6760,6 +6858,7 @@ SplineSet
  283 222 l 1
  400 105 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -6799,6 +6898,7 @@ SplineSet
  549 396 625 459 714 459 c 0
  840 459 946 351 946 222 c 0
 EndSplineSet
+Validated: 1
 Substitution2: "sub_single_cligmymr_2 subtable" u1000.kham
 Ligature2: "LigatureSubstitutionlookup169 subtable" u1000 u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u1000 u103C u1031
@@ -6872,6 +6972,7 @@ SplineSet
  -362 -132 -303 -86 -236 -86 c 0
  -138 -86 -56 -165 -56 -267 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1000.med u102D
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1000.med u102E
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1000.med u1032
@@ -6943,6 +7044,7 @@ SplineSet
  1092 444 l 1
  1092 -450 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "sub_ligature_cligmymr_4 subtable" u1000 u1001.med u103B
 Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
@@ -7007,6 +7109,7 @@ SplineSet
  1092 444 l 1
  1092 -450 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -7042,6 +7145,7 @@ SplineSet
  98 406 191 459 283 459 c 0
  414 459 520 351 520 222 c 0
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup48 per glyph data 0" dx=100 dy=0 dh=50 dv=0
 PairPos2: "PairwisePositioningkerninglooku subtable" uAA60.med.kham dx=-90 dy=0 dh=0 dv=0 dx=0 dy=0 dh=90 dv=0
 PairPos2: "PairwisePositioningkerninglooku subtable" uAA60.med dx=-90 dy=0 dh=0 dv=0 dx=0 dy=0 dh=90 dv=0
@@ -7127,6 +7231,7 @@ SplineSet
  -378 -122 -303 -84 -237 -84 c 0
  -137 -84 -56 -165 -56 -267 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1001.med u102D
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1001.med u102E
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1001.med u1032
@@ -7168,6 +7273,7 @@ SplineSet
  55 355 162 457 292 457 c 0
  423 457 529 355 529 202 c 0
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup48 per glyph data 0" dx=100 dy=0 dh=50 dv=0
 Position2: "SinglePositioninglookup30 subtable" dx=140 dy=0 dh=140 dv=0
 PairPos2: "PairwisePositioningkerninglooku subtable" uAA60.med.kham dx=-90 dy=0 dh=0 dv=0 dx=0 dy=0 dh=90 dv=0
@@ -7249,6 +7355,7 @@ SplineSet
  -422 -167 -341 -86 -239 -86 c 0
  -137 -86 -56 -167 -56 -282 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1002.med u102D
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1002.med u102E
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1002.med u1032
@@ -7301,6 +7408,7 @@ SplineSet
  663 454 687 459 711 459 c 0
  837 459 943 351 943 222 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" u1003 u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u1003 u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" u1003 u103C.wide u1031
@@ -7379,6 +7487,7 @@ SplineSet
  -272 -87 -254 -86 -234 -86 c 0
  -137 -86 -56 -165 -56 -267 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1003.med u102D
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1003.med u102E
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1003.med u1032
@@ -7418,6 +7527,7 @@ SplineSet
  363 36 432 76 469 147 c 1
  513 121 l 1
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup48 per glyph data 0" dx=100 dy=0 dh=50 dv=0
 Position2: "SinglePositioninglookup30 subtable" dx=140 dy=0 dh=140 dv=0
 PairPos2: "PairwisePositioningkerninglooku subtable" uAA60.med.kham dx=-90 dy=0 dh=0 dv=0 dx=0 dy=0 dh=90 dv=0
@@ -7497,6 +7607,7 @@ SplineSet
  -161 -410 -108 -380 -80 -325 c 1
  -46 -345 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1004.med u102D
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1004.med u102E
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1004.med u1032
@@ -7543,6 +7654,7 @@ SplineSet
  -66 573 -50 585 -33 604 c 1
  0 586 l 1
 EndSplineSet
+Validated: 1
 Substitution2: "SingleSubstitutionlookup177 subtable" u1004.kinzi_u1036
 Substitution2: "SingleSubstitutionlookup176 subtable" u1004.kinzi_u103A
 Substitution2: "SingleSubstitutionlookup175 subtable" u1004.kinzi_u1032
@@ -7598,6 +7710,7 @@ SplineSet
  -357 820 -276 903 -179 903 c 0
  -80 903 0 820 0 720 c 0
 EndSplineSet
+Validated: 1
 Position2: "Single Positioning lookup 43 subtable" dx=180 dy=0 dh=0 dv=0
 Ligature2: "LigatureSubstitutionlookup182 subtable" u1004.kinzi_u102D u102F
 Ligature2: "sub_ligature_cligmymr_8 subtable" u1004.kinzi u102D
@@ -7654,6 +7767,7 @@ SplineSet
  -357 822 -276 903 -179 903 c 0
  -80 903 0 817 0 717 c 0
 EndSplineSet
+Validated: 1
 Position2: "Single Positioning lookup 43 subtable" dx=180 dy=0 dh=0 dv=0
 Ligature2: "sub_ligature_cligmymr_8 subtable" u1004.kinzi u102E
 Ligature2: "sub_ligature_cligmymr_6 subtable" u1004.kinzi_u102E u200C u102E
@@ -7696,6 +7810,7 @@ SplineSet
  -299 880 l 1
  0 643 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "sub_ligature_cligmymr_8 subtable" u1004.kinzi u1032
 Comment: "GDL_order: 8+AAoA-mark: 80+AAoA"
 EndChar
@@ -7752,6 +7867,7 @@ SplineSet
  -358 819 -279 902 -180 902 c 0
  -79 902 0 819 0 720 c 0
 EndSplineSet
+Validated: 1
 Position2: "Single Positioning lookup 43 subtable" dx=180 dy=0 dh=0 dv=0
 Ligature2: "sub_ligature_cligmymr_8 subtable" u1004.kinzi u1033
 Comment: "GDL_order: 8+AAoA-mark: 80+AAoA"
@@ -7798,6 +7914,7 @@ SplineSet
  -150 715 -116 750 -75 750 c 0
  -35 750 0 715 0 675 c 0
 EndSplineSet
+Validated: 1
 Position2: "Single Positioning lookup 43 subtable" dx=180 dy=0 dh=0 dv=0
 Ligature2: "sub_ligature_cligmymr_8 subtable" u1004.kinzi u1036
 Ligature2: "sub_ligature_cligmymr_6 subtable" u1004.kinzi_u1036 u200C u1036
@@ -7845,6 +7962,7 @@ SplineSet
  -315 828 -228 903 -138 903 c 0
  -77 903 -23 873 0 826 c 1
 EndSplineSet
+Validated: 1
 Position2: "Single Positioning lookup 43 subtable" dx=180 dy=0 dh=0 dv=0
 Ligature2: "sub_ligature_cligmymr_8 subtable" u1004.kinzi u103A
 Comment: "GDL_order: 8+AAoA-mark: 80+AAoA"
@@ -7902,6 +8020,7 @@ SplineSet
  -522 820 -441 903 -344 903 c 0
  -245 903 -165 820 -165 720 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "sub_ligature_cligmymr_8 subtable" u1004.kinzi u102D_u1036
 Comment: "GDL_order: 8+AAoA-mark: 80+AAoA"
 EndChar
@@ -7939,6 +8058,7 @@ SplineSet
  55 351 158 459 286 459 c 0
  418 459 520 351 520 222 c 0
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup48 per glyph data 0" dx=100 dy=0 dh=50 dv=0
 Position2: "SinglePositioninglookup30 subtable" dx=140 dy=0 dh=140 dv=0
 PairPos2: "PairwisePositioningkerninglooku subtable" uAA60.med.kham dx=-90 dy=0 dh=0 dv=0 dx=0 dy=0 dh=90 dv=0
@@ -8023,6 +8143,7 @@ SplineSet
  -413 -165 -333 -84 -234 -84 c 0
  -137 -84 -56 -165 -56 -267 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1005.med u102D
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1005.med u102E
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1005.med u1032
@@ -8076,6 +8197,7 @@ SplineSet
  532 406 611 459 702 459 c 0
  828 459 934 351 934 222 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" u1006 u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u1006 u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" u1006 u103C.wide u1031
@@ -8153,6 +8275,7 @@ SplineSet
  -365 -126 -306 -84 -236 -84 c 0
  -138 -84 -56 -165 -56 -267 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1006.med u102D
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1006.med u102E
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1006.med u1032
@@ -8204,6 +8327,7 @@ SplineSet
  408 459 483 376 487 283 c 1
  511 255 549 192 568 156 c 1
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup48 per glyph data 0" dx=100 dy=0 dh=50 dv=0
 Position2: "SinglePositioninglookup30 subtable" dx=140 dy=0 dh=140 dv=0
 PairPos2: "PairwisePositioningkerninglooku subtable" uAA60.med.kham dx=-90 dy=0 dh=0 dv=0 dx=0 dy=0 dh=90 dv=0
@@ -8293,6 +8417,7 @@ SplineSet
  -177 -84 -120 -146 -119 -225 c 1
  -93 -254 -72 -290 -56 -318 c 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1007.med u102D
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1007.med u102E
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1007.med u1032
@@ -8350,6 +8475,7 @@ SplineSet
  666 444 l 1
  666 -450 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" u1008 u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u1008 u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" u1008 u103C.wide u1031
@@ -8421,6 +8547,7 @@ SplineSet
  106 444 l 1
  106 -450 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1008.med u102D
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1008.med u102E
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1008.med u1032
@@ -8475,6 +8602,7 @@ SplineSet
  868 -302 l 1
  919 -302 l 1
 EndSplineSet
+Validated: 1
 Substitution2: "SingleSubstitutionlookup146 subtable" u1025
 Ligature2: "LigatureSubstitutionlookup169 subtable" u1009 u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u1009 u103C u1031
@@ -8558,6 +8686,7 @@ SplineSet
  535 397 613 459 702 459 c 0
  828 459 934 351 934 222 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "sub_ligature_cligmymr_4 subtable" u1009 u102C
 Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
@@ -8612,6 +8741,7 @@ SplineSet
  654 452 681 459 702 459 c 0
  828 459 934 351 934 222 c 0
 EndSplineSet
+Validated: 1
 Substitution2: "SingleSubstitutionlookup143 subtable" u100A.alt
 Ligature2: "LigatureSubstitutionlookup169 subtable" u100A u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u100A u103C u1031
@@ -8692,6 +8822,7 @@ SplineSet
  654 452 681 459 702 459 c 0
  828 459 934 351 934 222 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" u100A.alt u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u100A.alt u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" u100A.alt u103C.wide u1031
@@ -8774,6 +8905,7 @@ SplineSet
  -250 -91 -219 -84 -203 -84 c 0
  -116 -84 -55 -137 -55 -226 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup179 subtable" u100A.med u102D
 Ligature2: "LigatureSubstitutionlookup179 subtable" u100A.med u102E
 Ligature2: "LigatureSubstitutionlookup179 subtable" u100A.med u1032
@@ -8845,6 +8977,7 @@ SplineSet
  1075 452 1102 459 1123 459 c 0
  1249 459 1355 351 1355 222 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" u100A_u100A u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u100A_u100A u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" u100A_u100A u103C.wide u1031
@@ -8925,6 +9058,7 @@ SplineSet
  538 -395 573 -380 583 -374 c 1
  597 -423 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" u100B u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u100B u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" u100B u103C.wide u1031
@@ -8995,6 +9129,7 @@ SplineSet
  363 36 432 76 469 147 c 1
  513 121 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -9029,6 +9164,7 @@ SplineSet
  -26 -411 l 1
  -26 -450 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup179 subtable" u100B.med u102D
 Ligature2: "LigatureSubstitutionlookup179 subtable" u100B.med u102E
 Ligature2: "LigatureSubstitutionlookup179 subtable" u100B.med u1032
@@ -9094,6 +9230,7 @@ SplineSet
  363 36 432 76 469 147 c 1
  513 121 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" u100B_u100B u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u100B_u100B u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" u100B_u100B u103C.wide u1031
@@ -9176,6 +9313,7 @@ SplineSet
  148 -80 213 -107 292 -107 c 0
  370 -107 424 -83 498 -42 c 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" u100B_u100C u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u100B_u100C u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" u100B_u100C u103C.wide u1031
@@ -9250,6 +9388,7 @@ SplineSet
  363 36 432 76 469 147 c 1
  513 121 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" u100C u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u100C u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" u100C u103C.wide u1031
@@ -9327,6 +9466,7 @@ SplineSet
  -420 -180 -339 -99 -238 -99 c 0
  -136 -99 -55 -180 -55 -281 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup179 subtable" u100C.med u102D
 Ligature2: "LigatureSubstitutionlookup179 subtable" u100C.med u102E
 Ligature2: "LigatureSubstitutionlookup179 subtable" u100C.med u1032
@@ -9378,6 +9518,7 @@ SplineSet
  547 -399 l 1
  547 -450 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" u100D u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u100D u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" u100D u103C.wide u1031
@@ -9446,6 +9587,7 @@ SplineSet
  -55 -410 l 1
  -55 -440 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup179 subtable" u100D.med u102D
 Ligature2: "LigatureSubstitutionlookup179 subtable" u100D.med u102E
 Ligature2: "LigatureSubstitutionlookup179 subtable" u100D.med u1032
@@ -9517,6 +9659,7 @@ SplineSet
  565 -399 l 1
  565 -450 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" u100D_u100D u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u100D_u100D u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" u100D_u100D u103C.wide u1031
@@ -9597,6 +9740,7 @@ SplineSet
  424 457 l 1
  483 411 522 349 522 240 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" u100D_u100E u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u100D_u100E u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" u100D_u100E u103C.wide u1031
@@ -9660,6 +9804,7 @@ SplineSet
  424 457 l 1
  483 411 522 349 522 240 c 0
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup48 per glyph data 0" dx=100 dy=0 dh=50 dv=0
 Position2: "SinglePositioninglookup30 subtable" dx=140 dy=0 dh=140 dv=0
 PairPos2: "PairwisePositioningkerninglooku subtable" uAA60.med.kham dx=-90 dy=0 dh=0 dv=0 dx=0 dy=0 dh=90 dv=0
@@ -9742,6 +9887,7 @@ SplineSet
  -130 -86 l 1
  -84 -128 -56 -170 -56 -254 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup179 subtable" u100E.med u102D
 Ligature2: "LigatureSubstitutionlookup179 subtable" u100E.med u102E
 Ligature2: "LigatureSubstitutionlookup179 subtable" u100E.med u1032
@@ -9804,6 +9950,7 @@ SplineSet
  673 444 712 459 759 459 c 0
  886 459 976 351 976 222 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" u100F u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u100F u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" u100F u103C.wide u1031
@@ -9890,6 +10037,7 @@ SplineSet
  -288 -95 -258 -84 -222 -84 c 0
  -122 -84 -56 -165 -56 -267 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup179 subtable" u100F.med u102D
 Ligature2: "LigatureSubstitutionlookup179 subtable" u100F.med u102E
 Ligature2: "LigatureSubstitutionlookup179 subtable" u100F.med u1032
@@ -9968,6 +10116,7 @@ SplineSet
  879 -410 l 1
  879 -450 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" u100F_u100B u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u100F_u100B u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" u100F_u100B u103C.wide u1031
@@ -10073,6 +10222,7 @@ SplineSet
  873 -77 l 1
  873 -171 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" u100F_u100D u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u100F_u100D u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" u100F_u100D u103C.wide u1031
@@ -10140,6 +10290,7 @@ SplineSet
  543 396 624 459 709 459 c 0
  835 459 942 351 942 222 c 0
 EndSplineSet
+Validated: 1
 Substitution2: "sub_single_cligmymr_2 subtable" u1010.kham
 Ligature2: "LigatureSubstitutionlookup169 subtable" u1010 u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u1010 u103C u1031
@@ -10212,6 +10363,7 @@ SplineSet
  -345 -132 -285 -84 -219 -84 c 0
  -121 -84 -40 -165 -40 -267 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1010.med u102D
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1010.med u102E
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1010.med u1032
@@ -10268,6 +10420,7 @@ SplineSet
  -238 -314 -201 -272 -151 -272 c 0
  -99 -272 -66 -315 -66 -363 c 0
 EndSplineSet
+Validated: 1
 Substitution2: "sub_single_cligmymr_4 subtable" u1010_u103D.med.tri
 Ligature2: "sub_ligature_cligmymr_4 subtable" u1010.med u103D
 Ligature2: "sub_ligature_cligmymr_4 subtable" u1039 u1010 u103D
@@ -10309,6 +10462,7 @@ SplineSet
  532 406 612 459 702 459 c 0
  828 459 934 351 934 222 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" u1011 u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u1011 u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" u1011 u103C.wide u1031
@@ -10380,6 +10534,7 @@ SplineSet
  -365 -126 -306 -84 -236 -84 c 0
  -138 -84 -56 -165 -56 -267 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1011.med u102D
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1011.med u102E
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1011.med u1032
@@ -10424,6 +10579,7 @@ SplineSet
  478 274 447 232 394 222 c 1
  447 211 478 169 478 123 c 0
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup48 per glyph data 0" dx=100 dy=0 dh=50 dv=0
 Position2: "SinglePositioninglookup30 subtable" dx=140 dy=0 dh=140 dv=0
 PairPos2: "PairwisePositioningkerninglooku subtable" uAA60.med.kham dx=-90 dy=0 dh=0 dv=0 dx=0 dy=0 dh=90 dv=0
@@ -10507,6 +10663,7 @@ SplineSet
  -62 -227 -87 -260 -128 -267 c 1
  -87 -273 -62 -308 -62 -344 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1012.med u102D
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1012.med u102E
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1012.med u1032
@@ -10552,6 +10709,7 @@ SplineSet
  55 351 158 459 286 459 c 0
  418 459 520 351 520 222 c 0
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup48 per glyph data 0" dx=100 dy=0 dh=50 dv=0
 Position2: "SinglePositioninglookup30 subtable" dx=140 dy=0 dh=140 dv=0
 PairPos2: "PairwisePositioningkerninglooku subtable" uAA60.med.kham dx=-90 dy=0 dh=0 dv=0 dx=0 dy=0 dh=90 dv=0
@@ -10636,6 +10794,7 @@ SplineSet
  -413 -165 -333 -84 -234 -84 c 0
  -137 -84 -56 -165 -56 -267 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1013.med u102D
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1013.med u102E
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1013.med u1032
@@ -10687,6 +10846,7 @@ SplineSet
  239 408 195 397 195 364 c 0
  195 298 475 309 475 145 c 0
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup48 per glyph data 0" dx=100 dy=0 dh=50 dv=0
 Position2: "SinglePositioninglookup30 subtable" dx=140 dy=0 dh=140 dv=0
 PairPos2: "PairwisePositioningkerninglooku subtable" uAA60.med.kham dx=-90 dy=0 dh=0 dv=0 dx=0 dy=0 dh=90 dv=0
@@ -10777,6 +10937,7 @@ SplineSet
  474 100 458 65 438 42 c 1
  470 11 495 -14 504 -26 c 1
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup48 per glyph data 0" dx=100 dy=0 dh=50 dv=0
 Position2: "SinglePositioninglookup30 subtable" dx=140 dy=0 dh=140 dv=0
 PairPos2: "PairwisePositioningkerninglooku subtable" uAA60.med.kham dx=-90 dy=0 dh=0 dv=0 dx=0 dy=0 dh=90 dv=0
@@ -10866,6 +11027,7 @@ SplineSet
  -55 -360 -64 -386 -84 -405 c 1
  -54 -434 -31 -459 -21 -470 c 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1014.med u102D
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1014.med u102E
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1014.med u1032
@@ -10941,6 +11103,7 @@ SplineSet
  853 444 l 1
  853 -450 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "sub_ligature_cligmymr_4 subtable" u1014 u1010.med u103B
 Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
@@ -11028,6 +11191,7 @@ SplineSet
  646 -95 l 1
  697 -95 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" u1014_u1010_u103C u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u1014_u1010_u103C u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" u1014_u1010_u103C u103C.wide u1031
@@ -11087,6 +11251,7 @@ SplineSet
  432 457 l 1
  491 410 529 349 529 240 c 0
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup48 per glyph data 0" dx=100 dy=0 dh=50 dv=0
 Position2: "SinglePositioninglookup30 subtable" dx=140 dy=0 dh=140 dv=0
 PairPos2: "PairwisePositioningkerninglooku subtable" uAA60.med.kham dx=-90 dy=0 dh=0 dv=0 dx=0 dy=0 dh=90 dv=0
@@ -11166,6 +11331,7 @@ SplineSet
  -131 -86 l 1
  -87 -122 -56 -170 -56 -254 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1015.med u102D
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1015.med u102E
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1015.med u1032
@@ -11210,6 +11376,7 @@ SplineSet
  319 317 334 388 405 457 c 1
  458 412 529 348 529 240 c 0
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup48 per glyph data 0" dx=100 dy=0 dh=50 dv=0
 Position2: "SinglePositioninglookup30 subtable" dx=140 dy=0 dh=140 dv=0
 PairPos2: "PairwisePositioningkerninglooku subtable" uAA60.med.kham dx=-90 dy=0 dh=0 dv=0 dx=0 dy=0 dh=90 dv=0
@@ -11292,6 +11459,7 @@ SplineSet
  -218 -194 -206 -140 -152 -86 c 1
  -107 -123 -56 -171 -56 -254 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1016.med u102D
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1016.med u102E
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1016.med u1032
@@ -11334,6 +11502,7 @@ SplineSet
  373 342 405 397 436 457 c 1
  497 417 529 322 529 222 c 0
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup48 per glyph data 0" dx=100 dy=0 dh=50 dv=0
 Position2: "SinglePositioninglookup30 subtable" dx=140 dy=0 dh=140 dv=0
 PairPos2: "PairwisePositioningkerninglooku subtable" uAA60.med.kham dx=-90 dy=0 dh=0 dv=0 dx=0 dy=0 dh=90 dv=0
@@ -11415,6 +11584,7 @@ SplineSet
  -177 -176 -153 -132 -128 -86 c 1
  -80 -117 -56 -188 -56 -267 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1017.med u102D
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1017.med u102E
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1017.med u1032
@@ -11463,6 +11633,7 @@ SplineSet
  534 397 610 459 699 459 c 0
  825 459 931 351 931 222 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" u1018 u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u1018 u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" u1018 u103C.wide u1031
@@ -11535,6 +11706,7 @@ SplineSet
  -358 -131 -303 -84 -236 -84 c 0
  -136 -84 -56 -166 -56 -267 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1018.med u102D
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1018.med u102E
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1018.med u1032
@@ -11581,6 +11753,7 @@ SplineSet
  432 457 l 1
  489 412 529 349 529 240 c 0
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup48 per glyph data 0" dx=100 dy=0 dh=50 dv=0
 Position2: "SinglePositioninglookup30 subtable" dx=140 dy=0 dh=140 dv=0
 PairPos2: "PairwisePositioningkerninglooku subtable" uAA60.med.kham dx=-90 dy=0 dh=0 dv=0 dx=0 dy=0 dh=90 dv=0
@@ -11667,6 +11840,7 @@ SplineSet
  -131 -86 l 1
  -87 -122 -56 -170 -56 -254 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1019.med u102D
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1019.med u102E
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1019.med u1032
@@ -11715,6 +11889,7 @@ SplineSet
  658 454 681 459 706 459 c 0
  832 459 939 351 939 222 c 0
 EndSplineSet
+Validated: 1
 Substitution2: "sub_single_cligmymr_2 subtable" u101A.kham
 Ligature2: "LigatureSubstitutionlookup169 subtable" u101A u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u101A u103C u1031
@@ -11788,6 +11963,7 @@ SplineSet
  -272 -89 -254 -86 -235 -86 c 0
  -137 -86 -55 -167 -55 -269 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup179 subtable" u101A.med u102D
 Ligature2: "LigatureSubstitutionlookup179 subtable" u101A.med u102E
 Ligature2: "LigatureSubstitutionlookup179 subtable" u101A.med u1032
@@ -11838,6 +12014,7 @@ SplineSet
  615 -399 l 1
  615 -450 l 1
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup48 per glyph data 0" dx=100 dy=0 dh=50 dv=0
 Position2: "SinglePositioninglookup30 subtable" dx=140 dy=0 dh=140 dv=0
 PairPos2: "PairwisePositioningkerninglooku subtable" uAA60.med.kham dx=-90 dy=0 dh=0 dv=0 dx=0 dy=0 dh=90 dv=0
@@ -11927,6 +12104,7 @@ SplineSet
  424 457 532 356 532 202 c 2
  532 -285 l 1
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup48 per glyph data 0" dx=100 dy=0 dh=50 dv=0
 Substitution2: "Single Substitution lookup 92 subtable" u101B.long
 Ligature2: "LigatureSubstitutionlookup169 subtable" u101B.alt u103C
@@ -11996,6 +12174,7 @@ SplineSet
  424 457 532 356 532 202 c 2
  532 -450 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" u101B.long u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u101B.long u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" u101B.long u103C.wide u1031
@@ -12062,6 +12241,7 @@ SplineSet
  9 -410 l 1
  9 -450 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup179 subtable" u101B.med u102D
 Ligature2: "LigatureSubstitutionlookup179 subtable" u101B.med u102E
 Ligature2: "LigatureSubstitutionlookup179 subtable" u101B.med u1032
@@ -12104,6 +12284,7 @@ SplineSet
  -246 834 -190 903 -108 903 c 0
  -56 903 -22 885 0 856 c 1
 EndSplineSet
+Validated: 1
 Substitution2: "SingleSubstitutionlookup176 subtable" u101B.kinzi_u103A
 Substitution2: "Single Substitution lookup 151 subtable" u101B.kinzi_u102E
 Substitution2: "SingleSubstitutionlookup173 subtable" u101B.kinzi_u102D
@@ -12153,6 +12334,7 @@ SplineSet
  -357 821 -277 903 -179 903 c 0
  -81 903 0 821 0 720 c 0
 EndSplineSet
+Validated: 1
 Position2: "Single Positioning lookup 43 subtable" dx=180 dy=0 dh=0 dv=0
 Ligature2: "sub_ligature_cligmymr_8 subtable" u101B.kinzi u102D
 Ligature2: "sub_ligature_cligmymr_6 subtable" u101B.kinzi_u102D u200C u102D
@@ -12205,6 +12387,7 @@ SplineSet
  -357 821 -276 903 -179 903 c 0
  -80 903 0 821 0 720 c 0
 EndSplineSet
+Validated: 1
 Position2: "Single Positioning lookup 43 subtable" dx=180 dy=0 dh=0 dv=0
 Ligature2: "sub_ligature_cligmymr_8 subtable" u101B.kinzi u102E
 Ligature2: "sub_ligature_cligmymr_6 subtable" u101B.kinzi_u102E u200C u102E
@@ -12251,6 +12434,7 @@ SplineSet
  -315 828 -228 903 -138 903 c 0
  -77 903 -23 873 0 826 c 1
 EndSplineSet
+Validated: 1
 Position2: "Single Positioning lookup 43 subtable" dx=180 dy=0 dh=0 dv=0
 Ligature2: "sub_ligature_cligmymr_8 subtable" u101B.kinzi u103A
 Ligature2: "sub_ligature_cligmymr_6 subtable" u101B.kinzi_u103A u200C u103A
@@ -12292,6 +12476,7 @@ SplineSet
  631 454 654 459 679 459 c 0
  808 459 904 351 904 222 c 0
 EndSplineSet
+Validated: 1
 Substitution2: "sub_single_cligmymr_2 subtable" u101C.kham
 Ligature2: "LigatureSubstitutionlookup169 subtable" u101C u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u101C u103C u1031
@@ -12364,6 +12549,7 @@ SplineSet
  -265 -87 -249 -84 -230 -84 c 0
  -131 -84 -56 -166 -56 -267 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup179 subtable" u101C.med u102D
 Ligature2: "LigatureSubstitutionlookup179 subtable" u101C.med u102E
 Ligature2: "LigatureSubstitutionlookup179 subtable" u101C.med u1032
@@ -12422,6 +12608,7 @@ SplineSet
  -668 -87 -652 -84 -633 -84 c 0
  -534 -84 -459 -166 -459 -267 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 2+AAoA-mark: 1+AAoA"
 EndChar
 
@@ -12451,6 +12638,7 @@ SplineSet
  55 351 160 459 287 459 c 0
  415 459 520 351 520 222 c 0
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup48 per glyph data 0" dx=100 dy=0 dh=50 dv=0
 Position2: "SinglePositioninglookup30 subtable" dx=140 dy=0 dh=140 dv=0
 PairPos2: "PairwisePositioningkerninglooku subtable" uAA60.med.kham dx=-90 dy=0 dh=0 dv=0 dx=0 dy=0 dh=90 dv=0
@@ -12538,6 +12726,7 @@ SplineSet
  652 454 676 459 702 459 c 0
  828 459 934 351 934 222 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" u101E u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u101E u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" u101E u103C.wide u1031
@@ -12610,6 +12799,7 @@ SplineSet
  -274 -89 -254 -84 -236 -84 c 0
  -138 -84 -56 -167 -56 -267 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup179 subtable" u101E.med u102D
 Ligature2: "LigatureSubstitutionlookup179 subtable" u101E.med u102E
 Ligature2: "LigatureSubstitutionlookup179 subtable" u101E.med u1032
@@ -12703,6 +12893,7 @@ SplineSet
  1068 -110 l 1
  1119 -110 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" u101E_u1010_u103C u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u101E_u1010_u103C u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" u101E_u1010_u103C u103C.wide u1031
@@ -12771,6 +12962,7 @@ SplineSet
  561 405 634 459 714 459 c 0
  840 459 946 351 946 222 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" u101F u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u101F u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" u101F u103C.wide u1031
@@ -12853,6 +13045,7 @@ SplineSet
  513 121 l 1
  513 -89 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" u1020 u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u1020 u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" u1020 u103C.wide u1031
@@ -12921,6 +13114,7 @@ SplineSet
  341 -107 404 -86 468 -51 c 1
  468 -450 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -12987,6 +13181,7 @@ SplineSet
  374 -247 388 -245 402 -245 c 0
  471 -245 513 -297 513 -347 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "sub_ligature_cligmymr_4 subtable" u1020 u1039 u1020
 Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
@@ -13046,6 +13241,7 @@ SplineSet
  351 -254 375 -245 402 -245 c 0
  471 -245 513 -297 513 -347 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "sub_ligature_cligmymr_4 subtable" u1020 u103E
 Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
@@ -13099,6 +13295,7 @@ SplineSet
  514 432 575 459 648 459 c 0
  778 459 885 353 885 222 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" u1021 u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u1021 u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" u1021 u103C.wide u1031
@@ -13182,6 +13379,7 @@ SplineSet
  -315 -104 -265 -84 -211 -84 c 0
  -111 -84 -30 -165 -30 -267 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1021.med u102D
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1021.med u102E
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1021.med u1032
@@ -13234,6 +13432,7 @@ SplineSet
  543 397 622 459 711 459 c 0
  837 459 943 352 943 222 c 0
 EndSplineSet
+Validated: 1
 Substitution2: "sub_single_cligmymr_2 subtable" u1022.kham
 Ligature2: "LigatureSubstitutionlookup169 subtable" u1022 u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u1022 u103C u1031
@@ -13324,6 +13523,7 @@ SplineSet
  544 406 623 457 715 457 c 0
  846 457 952 354 952 202 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -13379,6 +13579,7 @@ SplineSet
  840 459 946 351 946 222 c 2
  946 -275 l 2
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -13422,6 +13623,7 @@ SplineSet
  447 -302 l 1
  498 -302 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" u1025 u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u1025 u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" u1025 u103C.wide u1031
@@ -13510,6 +13712,7 @@ SplineSet
  98 821 179 903 276 903 c 0
  375 903 455 821 455 720 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -13549,6 +13752,7 @@ SplineSet
  214 150 281 189 366 189 c 0
  434 189 491 157 520 136 c 1
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup48 per glyph data 0" dx=100 dy=0 dh=50 dv=0
 Position2: "SinglePositioninglookup30 subtable" dx=140 dy=0 dh=140 dv=0
 PairPos2: "PairwisePositioningkerninglooku subtable" uAA60.med.kham dx=-90 dy=0 dh=0 dv=0 dx=0 dy=0 dh=90 dv=0
@@ -13638,6 +13842,7 @@ SplineSet
  397 -399 469 -302 469 -214 c 1
  520 -214 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
@@ -13702,6 +13907,7 @@ SplineSet
  823 454 846 459 871 459 c 0
  999 459 1104 351 1104 222 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" u1029 u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u1029 u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" u1029 u103C.wide u1031
@@ -13826,6 +14032,7 @@ SplineSet
  1493 955 1561 944 1619 885 c 0
  1663 839 1684 777 1687 742 c 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -13852,6 +14059,7 @@ SplineSet
  57 898 121 835 121 714 c 2
  121 0 l 1
 EndSplineSet
+Validated: 1
 Position2: "Single Positioning lookup 27 subtable" dx=100 dy=0 dh=100 dv=0
 Position2: "Single Positioning lookup 13 subtable" dx=200 dy=0 dh=200 dv=0
 Substitution2: "Single Substitution lookup 85 subtable" u102B_u103A
@@ -13888,6 +14096,7 @@ SplineSet
  123 868 166 898 240 898 c 0
  349 898 406 823 406 714 c 1
 EndSplineSet
+Validated: 1
 Ligature2: "sub_ligature_cligmymr_4 subtable" u102B u103A
 Comment: "GDL_xkern: 270m+AAoA-GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
@@ -13919,6 +14128,7 @@ SplineSet
  -30 408 33 459 133 459 c 0
  259 459 366 351 366 222 c 0
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup35 per glyph data 0" dx=-140 dy=0 dh=-140 dv=0
 Ligature2: "LigatureSubstitutionlookup113 subtable" circledash u102C
 MultipleSubs2: "sub_mult_cligmymr_0 subtable" circledash u102C
@@ -13949,6 +14159,7 @@ SplineSet
  -412 821 -332 903 -234 903 c 0
  -136 903 -55 821 -55 720 c 0
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup32 subtable" dx=150 dy=0 dh=0 dv=0
 Substitution2: "SingleSubstitutionlookup177 subtable" u102D_u1036
 Substitution2: "Single Substitution lookup 65 subtable" u1032_u102D
@@ -13995,6 +14206,7 @@ SplineSet
  -537 821 -456 903 -359 903 c 0
  -260 903 -180 821 -180 720 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "sub_ligature_cligmymr_4 subtable" u102D u1036
 Ligature2: "LigatureSubstitutionlookup111 subtable" circledash u102D_u1036
 MultipleSubs2: "sub_mult_cligmymr_0 subtable" circledash u102D_u1036
@@ -14030,6 +14242,7 @@ SplineSet
  -357 821 -277 903 -179 903 c 0
  -81 903 0 821 0 720 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 8+AAoA-mark: 1+AAoA"
 EndChar
 
@@ -14064,6 +14277,7 @@ SplineSet
  -412 821 -331 903 -234 903 c 0
  -135 903 -55 821 -55 720 c 0
 EndSplineSet
+Validated: 1
 LCarets2: 1 0
 Ligature2: "LigatureSubstitutionlookup111 subtable" circledash u102E
 MultipleSubs2: "sub_mult_cligmymr_0 subtable" circledash u102E
@@ -14106,6 +14320,7 @@ SplineSet
  -357 821 -276 903 -179 903 c 0
  -80 903 0 821 0 720 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 8+AAoA-mark: 1+AAoA"
 EndChar
 
@@ -14132,6 +14347,7 @@ SplineSet
  174 -399 l 1
  174 -450 l 1
 EndSplineSet
+Validated: 1
 Position2: "Single Positioning lookup 29 subtable" dx=100 dy=0 dh=100 dv=0
 Substitution2: "SingleSubstitutionlookup133 subtable" u102F.med
 Ligature2: "LigatureSubstitutionlookup179 subtable" u102F u1032
@@ -14163,6 +14379,7 @@ SplineSet
  27 -399 l 1
  27 -450 l 1
 EndSplineSet
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "Ligature Substitution lookup 163 subtable" u102F.med u1032
 Ligature2: "LigatureSubstitutionlookup179 subtable" u102F.med u102D
@@ -14206,6 +14423,7 @@ SplineSet
  189 -399 l 1
  189 -450 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
@@ -14237,6 +14455,7 @@ SplineSet
  321 -399 l 1
  321 -450 l 1
 EndSplineSet
+Validated: 1
 Substitution2: "SingleSubstitutionlookup133 subtable" u1030.med
 Ligature2: "LigatureSubstitutionlookup112 subtable" circledash u1030
 MultipleSubs2: "sub_mult_cligmymr_0 subtable" circledash u1030
@@ -14271,6 +14490,7 @@ SplineSet
  27 -399 l 1
  27 -450 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1030.med u102D
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1030.med u102E
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1030.med u1032
@@ -14315,6 +14535,7 @@ SplineSet
  337 -399 l 1
  337 -450 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
@@ -14352,6 +14573,7 @@ SplineSet
  208 164 278 202 366 202 c 0
  419 202 464 182 520 153 c 1
 EndSplineSet
+Validated: 1
 Substitution2: "Single Substitution lookup 116 subtable" u1082
 Substitution2: "Single Substitution lookup 114 subtable" u1060
 Substitution2: "Single Substitution lookup 112 subtable" u105F
@@ -14388,6 +14610,7 @@ SplineSet
  -354 880 l 1
  -55 643 l 1
 EndSplineSet
+Validated: 1
 LCarets2: 1 0
 Position2: "SinglePositioninglookup47 per glyph data 0" dx=-180 dy=0 dh=0 dv=0
 Substitution2: "sub_single_cligmymr_2 subtable" u1086.kham
@@ -14426,6 +14649,7 @@ SplineSet
  -686 880 l 1
  -387 643 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "sub_ligature_cligmymr_4 subtable" u102D u1032
 Ligature2: "LigatureSubstitutionlookup111 subtable" circledash u1032_u102D
 MultipleSubs2: "sub_mult_cligmymr_0 subtable" circledash u1032_u102D
@@ -14466,6 +14690,7 @@ SplineSet
  -413 819 -334 902 -235 902 c 0
  -134 902 -55 819 -55 720 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup182 subtable" u1033 u102F
 Ligature2: "LigatureSubstitutionlookup147 subtable" u1033 u102F
 Ligature2: "LigatureSubstitutionlookup111 subtable" circledash u1033
@@ -14492,6 +14717,7 @@ SplineSet
  -78 852 l 1
  -55 819 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup147 subtable" u1034 u102F
 Ligature2: "LigatureSubstitutionlookup147 subtable" u1034 u1030
 Ligature2: "LigatureSubstitutionlookup111 subtable" circledash u1034
@@ -14529,6 +14755,7 @@ SplineSet
  -301 671 -248 709 -174 709 c 0
  -133 709 -99 694 -55 670 c 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup182 subtable" u1035 u102F
 Ligature2: "LigatureSubstitutionlookup147 subtable" u1035 u102F
 Ligature2: "LigatureSubstitutionlookup111 subtable" circledash u1035
@@ -14560,6 +14787,7 @@ SplineSet
  -205 703 -171 738 -130 738 c 0
  -90 738 -55 703 -55 663 c 0
 EndSplineSet
+Validated: 1
 LCarets2: 1 0
 Position2: "SinglePositioninglookup47 per glyph data 0" dx=-180 dy=0 dh=0 dv=0
 Position2: "Single Positioning lookup 41 subtable" dx=-400 dy=0 dh=0 dv=0
@@ -14594,6 +14822,7 @@ SplineSet
  -150 -186 -116 -152 -75 -152 c 0
  -35 -152 0 -186 0 -227 c 0
 EndSplineSet
+Validated: 1
 LCarets2: 1 0
 Position2: "Single Positioning lookup 39 subtable" dx=-30 dy=0 dh=100 dv=0
 Position2: "SinglePositioninglookup43 subtable" dx=-200 dy=0 dh=0 dv=0
@@ -14643,6 +14872,7 @@ SplineSet
  55 118 89 151 130 151 c 0
  170 151 205 118 205 75 c 0
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup35 per glyph data 0" dx=-140 dy=0 dh=-140 dv=0
 Substitution2: "sub_single_cligmymr_0 subtable" u1038.dot
 Ligature2: "LigatureSubstitutionlookup184 subtable" u1038 uAA70
@@ -14749,6 +14979,7 @@ SplineSet
  -34 -255 -28 -249 -17 -249 c 0
  -5 -249 0 -255 0 -266 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup104 subtable" circledash u1039
 MultipleSubs2: "sub_mult_cligmymr_0 subtable" circledash u1039
 Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
@@ -14778,6 +15009,7 @@ SplineSet
  -315 836 -228 911 -138 911 c 0
  -77 911 -23 881 0 834 c 1
 EndSplineSet
+Validated: 1
 Substitution2: "Single Substitution lookup 159 subtable" u103A_uAA70
 Ligature2: "Ligature Substitution lookup 138 subtable" u103A u103C u1031
 Ligature2: "Ligature Substitution lookup 138 subtable" u103A u103C.wide u1031
@@ -14823,6 +15055,7 @@ SplineSet
  -77 911 -23 881 0 834 c 1
  -29 810 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "sub_ligature_cligmymr_4 subtable" u103A u1036
 Comment: "GDL_order: 12+AAoA-mark: 170+AAoA"
 EndChar
@@ -14854,6 +15087,7 @@ SplineSet
  106 444 l 1
  106 -450 l 1
 EndSplineSet
+Validated: 1
 LCarets2: 1 0
 Ligature2: "LigatureSubstitutionlookup179 subtable" u103B u102E
 Ligature2: "LigatureSubstitutionlookup179 subtable" u103B u1032
@@ -14902,6 +15136,7 @@ SplineSet
  106 444 l 1
  106 -450 l 1
 EndSplineSet
+Validated: 1
 LCarets2: 1 0
 Substitution2: "sub_single_cligmymr_4 subtable" u103B_u103D.tri
 Ligature2: "LigatureSubstitutionlookup179 subtable" u103B_u103D u102E
@@ -14951,6 +15186,7 @@ SplineSet
  106 444 l 1
  106 -450 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup179 subtable" u103B_u103D_u103E u102E
 Ligature2: "LigatureSubstitutionlookup179 subtable" u103B_u103D_u103E u1032
 Ligature2: "LigatureSubstitutionlookup179 subtable" u103B_u103D_u103E u1036
@@ -14992,6 +15228,7 @@ SplineSet
  106 444 l 1
  106 -450 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup179 subtable" u103B_u103E u102E
 Ligature2: "LigatureSubstitutionlookup179 subtable" u103B_u103E u1032
 Ligature2: "LigatureSubstitutionlookup179 subtable" u103B_u103E u1036
@@ -15047,6 +15284,7 @@ SplineSet
  646 -95 l 1
  697 -95 l 1
 EndSplineSet
+Validated: 1
 Substitution2: "SingleSubstitutionlookup181 subtable" u103C.alt.narr
 Substitution2: "SingleSubstitutionlookup172 subtable" u103C_u102F.narr
 Ligature2: "sub_ligature_cligmymr_10 subtable" u200C u103C
@@ -15095,6 +15333,7 @@ SplineSet
  646 -95 l 1
  697 -95 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "sub_ligature_cligmymr_10 subtable" u200C u103C.alt.narr
 MultipleSubs2: "MultipleSubstitutionlookup148 subtable" u1031 u103C.alt.narr
 MultipleSubs2: "MultipleSubstitutionlookup126 subtable" u103C.alt.narr u101B.kinzi
@@ -15141,6 +15380,7 @@ SplineSet
  1068 -95 l 1
  1119 -95 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "sub_ligature_cligmymr_10 subtable" u200C u103C.alt.wide
 MultipleSubs2: "MultipleSubstitutionlookup148 subtable" u1031 u103C.alt.wide
 MultipleSubs2: "MultipleSubstitutionlookup126 subtable" u103C.alt.wide u101B.kinzi
@@ -15191,6 +15431,7 @@ SplineSet
  1068 -110 l 1
  1119 -110 l 1
 EndSplineSet
+Validated: 1
 Substitution2: "SingleSubstitutionlookup181 subtable" u103C.alt.wide
 Substitution2: "SingleSubstitutionlookup172 subtable" u103C_u102F.wide
 Ligature2: "sub_ligature_cligmymr_10 subtable" u200C u103C.wide
@@ -15246,6 +15487,7 @@ SplineSet
  438 -404 445 -404 474 -404 c 0
  550 -404 613 -344 613 -267 c 0
 EndSplineSet
+Validated: 1
 LCarets2: 1 0
 Substitution2: "sub_single_cligmymr_4 subtable" u103C_u103D.narr.tri
 Substitution2: "SingleSubstitutionlookup181 subtable" u103C_u103D.alt.narr
@@ -15303,6 +15545,7 @@ SplineSet
  934 955 994 944 1052 885 c 0
  1096 839 1117 781 1119 742 c 1
 EndSplineSet
+Validated: 1
 Substitution2: "sub_single_cligmymr_4 subtable" u103C_u103D.wide.tri
 Substitution2: "SingleSubstitutionlookup181 subtable" u103C_u103D.alt.wide
 Ligature2: "sub_ligature_cligmymr_10 subtable" u200C u103C_u103D.wide
@@ -15352,6 +15595,7 @@ SplineSet
  295 -166 375 -84 474 -84 c 0
  571 -84 652 -166 652 -267 c 0
 EndSplineSet
+Validated: 1
 Substitution2: "sub_single_cligmymr_4 subtable" u103C_u103D.alt.narr.tri
 Comment: "GDL_order: 4+AAoA-GDL_advx: 753m+AAoA-mark: 80+AAoA"
 EndChar
@@ -15398,6 +15642,7 @@ SplineSet
  697 -166 777 -84 876 -84 c 0
  973 -84 1054 -166 1054 -267 c 0
 EndSplineSet
+Validated: 1
 Substitution2: "sub_single_cligmymr_4 subtable" u103C_u103D.alt.wide.tri
 Comment: "GDL_order: 4+AAoA-GDL_advx: 1174m+AAoA-mark: 80+AAoA"
 EndChar
@@ -15454,6 +15699,7 @@ SplineSet
  504 955 573 944 631 885 c 0
  677 837 699 777 699 742 c 1
 EndSplineSet
+Validated: 1
 Substitution2: "SingleSubstitutionlookup181 subtable" u103C_u102F.alt.narr
 Ligature2: "sub_ligature_cligmymr_10 subtable" u200C u103C_u102F.narr
 Ligature2: "LigatureSubstitutionlookup119 subtable" u103C u102F
@@ -15513,6 +15759,7 @@ SplineSet
  1134 -399 l 1
  1134 -450 l 1
 EndSplineSet
+Validated: 1
 Substitution2: "SingleSubstitutionlookup181 subtable" u103C_u102F.alt.wide
 Ligature2: "sub_ligature_cligmymr_10 subtable" u200C u103C_u102F.wide
 MultipleSubs2: "MultipleSubstitutionlookup148 subtable" u1031 u103C_u102F.wide
@@ -15567,6 +15814,7 @@ SplineSet
  720 -399 l 1
  720 -450 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "sub_ligature_cligmymr_10 subtable" u200C u103C_u102F.alt.narr
 MultipleSubs2: "MultipleSubstitutionlookup148 subtable" u1031 u103C_u102F.alt.narr
 MultipleSubs2: "MultipleSubstitutionlookup126 subtable" u103C_u102F.alt.narr u101B.kinzi
@@ -15620,6 +15868,7 @@ SplineSet
  1134 -399 l 1
  1134 -450 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "sub_ligature_cligmymr_10 subtable" u200C u103C_u102F.alt.wide
 MultipleSubs2: "MultipleSubstitutionlookup148 subtable" u1031 u103C_u102F.alt.wide
 MultipleSubs2: "MultipleSubstitutionlookup126 subtable" u103C_u102F.alt.wide u101B.kinzi
@@ -15653,6 +15902,7 @@ SplineSet
  -412 -166 -332 -84 -233 -84 c 0
  -136 -84 -55 -166 -55 -267 c 0
 EndSplineSet
+Validated: 1
 LCarets2: 1 0
 Substitution2: "sub_single_cligmymr_4 subtable" u103D.tri
 Ligature2: "LigatureSubstitutionlookup179 subtable" u103D u102E
@@ -15696,6 +15946,7 @@ SplineSet
  -354 -113 -304 -84 -233 -84 c 0
  -132 -84 -56 -166 -56 -267 c 0
 EndSplineSet
+Validated: 1
 Substitution2: "sub_single_cligmymr_4 subtable" u103D_u103E.tri
 Substitution2: "SingleSubstitutionlookup131 subtable" u103D_u103E.small
 Ligature2: "LigatureSubstitutionlookup179 subtable" u103D_u103E u102E
@@ -15736,6 +15987,7 @@ SplineSet
  -350 -105 -310 -83 -254 -83 c 0
  -175 -83 -110 -148 -110 -228 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup170 subtable" u103D_u103E.small u1031
 Comment: "GDL_order: 5+AAoA-mark: 80+AAoA"
 EndChar
@@ -15771,6 +16023,7 @@ SplineSet
  -412 -179 -332 -95 -233 -95 c 0
  -134 -95 -54 -179 -54 -278 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
@@ -15799,6 +16052,7 @@ SplineSet
  -55 -95 l 1
  -55 -450 l 1
 EndSplineSet
+Validated: 1
 LCarets2: 1 0
 Substitution2: "sub_single_cligmymr_8 subtable" u103E.slanth
 Substitution2: "sub_single_cligmymr_6 subtable" u103E.slantr
@@ -15839,6 +16093,7 @@ SplineSet
  -109 -78 l 1
  -61 -96 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup170 subtable" u103E.alt u1031
 Comment: "GDL_order: 6+AAoA-mark: 80+AAoA"
 EndChar
@@ -15873,6 +16128,7 @@ SplineSet
  -40 -399 l 1
  -40 -450 l 1
 EndSplineSet
+Validated: 1
 Substitution2: "sub_single_cligmymr_8 subtable" u103E_u102F.slanth
 Substitution2: "sub_single_cligmymr_6 subtable" u103E_u102F.slantr
 Ligature2: "LigatureSubstitutionlookup179 subtable" u103E_u102F u102E
@@ -15919,6 +16175,7 @@ SplineSet
  -41 -399 l 1
  -41 -450 l 1
 EndSplineSet
+Validated: 1
 Substitution2: "sub_single_cligmymr_8 subtable" u103E_u1030.slanth
 Substitution2: "sub_single_cligmymr_6 subtable" u103E_u1030.slantr
 Ligature2: "LigatureSubstitutionlookup179 subtable" u103E_u1030 u102E
@@ -15975,6 +16232,7 @@ SplineSet
  1074 454 1097 459 1123 459 c 0
  1253 459 1356 351 1356 222 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" u103F u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u103F u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" u103F u103C.wide u1031
@@ -16031,6 +16289,7 @@ SplineSet
  55 351 158 459 286 459 c 0
  418 459 520 351 520 222 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
@@ -16061,6 +16320,7 @@ SplineSet
  96 412 190 459 279 459 c 0
  409 459 516 351 516 222 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
@@ -16088,6 +16348,7 @@ SplineSet
  397 445 l 1
  448 445 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
@@ -16121,6 +16382,7 @@ SplineSet
  98 410 187 459 279 459 c 0
  409 459 516 351 516 222 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
@@ -16154,6 +16416,7 @@ SplineSet
  366 36 435 76 474 147 c 1
  517 121 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
@@ -16194,6 +16457,7 @@ SplineSet
  433 459 520 335 520 222 c 2
  520 -216 l 2
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
@@ -16235,6 +16499,7 @@ SplineSet
  441 305 428 277 402 256 c 1
  520 220 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
@@ -16266,6 +16531,7 @@ SplineSet
  359 -399 375 -389 387 -377 c 1
  421 -414 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
@@ -16300,6 +16566,7 @@ SplineSet
  55 356 162 457 292 457 c 0
  423 457 529 356 529 202 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
@@ -16341,6 +16608,7 @@ SplineSet
  396 -399 469 -317 469 -185 c 1
  520 -185 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
 EndChar
 
@@ -16360,6 +16628,7 @@ SplineSet
  106 444 l 1
  106 0 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -16384,6 +16653,7 @@ SplineSet
  255 444 l 1
  255 0 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -16442,6 +16712,7 @@ SplineSet
  92 412 188 459 276 459 c 0
  406 459 513 351 513 222 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -16498,6 +16769,7 @@ SplineSet
  451 589 696 589 696 390 c 2
  696 -275 l 2
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -16528,6 +16800,7 @@ SplineSet
  513 121 l 1
  513 -450 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" u104E u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u104E u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" u104E u103C.wide u1031
@@ -16610,6 +16883,7 @@ SplineSet
  646 459 678 398 678 319 c 2
  678 0 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -16650,6 +16924,7 @@ SplineSet
  55 354 161 457 292 457 c 0
  423 457 529 354 529 202 c 0
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup48 per glyph data 0" dx=100 dy=0 dh=50 dv=0
 Position2: "SinglePositioninglookup30 subtable" dx=140 dy=0 dh=140 dv=0
 PairPos2: "PairwisePositioningkerninglooku subtable" uAA60.med.kham dx=-90 dy=0 dh=0 dv=0 dx=0 dy=0 dh=90 dv=0
@@ -16738,6 +17013,7 @@ SplineSet
  -425 -167 -342 -87 -240 -87 c 0
  -139 -87 -55 -167 -55 -285 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1050.med u102D
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1050.med u102E
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1050.med u1032
@@ -16787,6 +17063,7 @@ SplineSet
  432 457 l 1
  490 412 529 351 529 240 c 0
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup48 per glyph data 0" dx=100 dy=0 dh=50 dv=0
 Position2: "SinglePositioninglookup30 subtable" dx=140 dy=0 dh=140 dv=0
 PairPos2: "PairwisePositioningkerninglooku subtable" uAA60.med.kham dx=-90 dy=0 dh=0 dv=0 dx=0 dy=0 dh=90 dv=0
@@ -16875,6 +17152,7 @@ SplineSet
  -131 -87 l 1
  -87 -124 -55 -169 -55 -257 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1051.med u102D
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1051.med u102E
 Ligature2: "LigatureSubstitutionlookup179 subtable" u1051.med u1032
@@ -16941,6 +17219,7 @@ SplineSet
  432 457 l 1
  491 410 529 349 529 240 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "sub_ligature_cligmymr_4 subtable" u1051 u100C.med
 Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
@@ -16989,6 +17268,7 @@ SplineSet
  432 457 l 1
  491 410 529 349 529 240 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "sub_ligature_cligmymr_4 subtable" u1051 u100D.med
 Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
@@ -17024,6 +17304,7 @@ SplineSet
  410 405 382 388 382 339 c 0
  382 285 522 295 522 168 c 0
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup48 per glyph data 0" dx=100 dy=0 dh=50 dv=0
 Position2: "SinglePositioninglookup30 subtable" dx=140 dy=0 dh=140 dv=0
 PairPos2: "PairwisePositioningkerninglooku subtable" uAA60.med.kham dx=-90 dy=0 dh=0 dv=0 dx=0 dy=0 dh=90 dv=0
@@ -17112,6 +17393,7 @@ SplineSet
  384 417 433 457 487 457 c 0
  540 457 568 420 574 403 c 1
 EndSplineSet
+Validated: 1
 LCarets2: 2 0 0
 Position2: "SinglePositioninglookup48 per glyph data 0" dx=100 dy=0 dh=50 dv=0
 Position2: "SinglePositioninglookup30 subtable" dx=140 dy=0 dh=140 dv=0
@@ -17196,6 +17478,7 @@ SplineSet
  55 353 161 459 292 459 c 0
  450 459 515 339 520 291 c 1
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup48 per glyph data 0" dx=100 dy=0 dh=50 dv=0
 Position2: "SinglePositioninglookup30 subtable" dx=140 dy=0 dh=140 dv=0
 PairPos2: "PairwisePositioningkerninglooku subtable" uAA60.med.kham dx=-90 dy=0 dh=0 dv=0 dx=0 dy=0 dh=90 dv=0
@@ -17283,6 +17566,7 @@ SplineSet
  55 353 161 459 292 459 c 0
  450 459 515 339 520 291 c 1
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup48 per glyph data 0" dx=100 dy=0 dh=50 dv=0
 Position2: "SinglePositioninglookup30 subtable" dx=140 dy=0 dh=140 dv=0
 PairPos2: "PairwisePositioningkerninglooku subtable" uAA60.med.kham dx=-90 dy=0 dh=0 dv=0 dx=0 dy=0 dh=90 dv=0
@@ -17363,6 +17647,7 @@ SplineSet
  270 409 253 389 253 364 c 0
  253 301 447 329 447 175 c 0
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup48 per glyph data 0" dx=100 dy=0 dh=50 dv=0
 Position2: "SinglePositioninglookup30 subtable" dx=140 dy=0 dh=140 dv=0
 PairPos2: "PairwisePositioningkerninglooku subtable" uAA60.med.kham dx=-90 dy=0 dh=0 dv=0 dx=0 dy=0 dh=90 dv=0
@@ -17419,6 +17704,7 @@ SplineSet
  279 409 262 389 262 364 c 0
  262 301 456 329 456 175 c 0
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup48 per glyph data 0" dx=100 dy=0 dh=50 dv=0
 Position2: "SinglePositioninglookup30 subtable" dx=140 dy=0 dh=140 dv=0
 PairPos2: "PairwisePositioningkerninglooku subtable" uAA60.med.kham dx=-90 dy=0 dh=0 dv=0 dx=0 dy=0 dh=90 dv=0
@@ -17474,6 +17760,7 @@ SplineSet
  55 -165 136 -84 236 -84 c 0
  355 -84 412 -177 412 -214 c 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup112 subtable" circledash u1058
 MultipleSubs2: "sub_mult_cligmymr_0 subtable" circledash u1058
 Comment: "GDL_order: 2+AAoA-mark: 16+AAoA"
@@ -17515,6 +17802,7 @@ SplineSet
  55 -166 137 -84 238 -84 c 0
  359 -84 410 -176 413 -213 c 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup112 subtable" circledash u1059
 MultipleSubs2: "sub_mult_cligmymr_0 subtable" circledash u1059
 Comment: "GDL_order: 2+AAoA-mark: 16+AAoA"
@@ -17560,6 +17848,7 @@ SplineSet
  364 36 432 75 469 147 c 1
  513 121 l 1
 EndSplineSet
+Validated: 1
 Substitution2: "Single Substitution lookup 41 subtable" u1004
 Ligature2: "LigatureSubstitutionlookup169 subtable" u105A u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u105A u103C u1031
@@ -17621,6 +17910,7 @@ SplineSet
  -233 -152 -204 -101 -146 -101 c 0
  -106 -101 -56 -124 -56 -192 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup179 subtable" u105A.med u102D
 Ligature2: "LigatureSubstitutionlookup179 subtable" u105A.med u102E
 Ligature2: "LigatureSubstitutionlookup179 subtable" u105A.med u1032
@@ -17679,6 +17969,7 @@ SplineSet
  666 444 l 1
  666 -450 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" u105B u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u105B u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" u105B u103C.wide u1031
@@ -17752,6 +18043,7 @@ SplineSet
  106 444 l 1
  106 -450 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup179 subtable" u105B.med u102D
 Ligature2: "LigatureSubstitutionlookup179 subtable" u105B.med u102E
 Ligature2: "LigatureSubstitutionlookup179 subtable" u105B.med u1032
@@ -17800,6 +18092,7 @@ SplineSet
  55 350 157 459 286 459 c 0
  418 459 520 350 520 222 c 0
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup48 per glyph data 0" dx=100 dy=0 dh=50 dv=0
 Position2: "SinglePositioninglookup30 subtable" dx=140 dy=0 dh=140 dv=0
 PairPos2: "PairwisePositioningkerninglooku subtable" uAA60.med.kham dx=-90 dy=0 dh=0 dv=0 dx=0 dy=0 dh=90 dv=0
@@ -17887,6 +18180,7 @@ SplineSet
  -414 -168 -335 -85 -236 -85 c 0
  -135 -85 -56 -168 -56 -267 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup179 subtable" u105C.med u102D
 Ligature2: "LigatureSubstitutionlookup179 subtable" u105C.med u102E
 Ligature2: "LigatureSubstitutionlookup179 subtable" u105C.med u1032
@@ -17946,6 +18240,7 @@ SplineSet
  489 412 529 349 529 240 c 2
  529 -265 l 2
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" u105D u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u105D u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" u105D u103C.wide u1031
@@ -18009,6 +18304,7 @@ SplineSet
  -55 -202 l 1
  -8 -209 31 -226 71 -263 c 1
 EndSplineSet
+Validated: 1
 MultipleSubs2: "sub_mult_cligmymr_0 subtable" circledash
 Comment: "GDL_order: 2+AAoA-mark: 130+AAoA"
 EndChar
@@ -18041,6 +18337,7 @@ SplineSet
  -61 -399 -8 -390 41 -357 c 1
  61 -387 l 1
 EndSplineSet
+Validated: 1
 MultipleSubs2: "sub_mult_cligmymr_0 subtable" circledash u105F
 Comment: "GDL_order: 2+AAoA-mark: 130+AAoA"
 EndChar
@@ -18067,6 +18364,7 @@ SplineSet
  -55 -399 l 1
  -55 -450 l 1
 EndSplineSet
+Validated: 1
 MultipleSubs2: "sub_mult_cligmymr_0 subtable" circledash u1060
 Comment: "GDL_order: 2+AAoA-mark: 130+AAoA"
 EndChar
@@ -18114,6 +18412,7 @@ SplineSet
  424 457 532 356 532 202 c 2
  532 -450 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" u1061 u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u1061 u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" u1061 u103C.wide u1031
@@ -18167,6 +18466,7 @@ SplineSet
  216 444 l 1
  216 0 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup113 subtable" circledash u1062
 MultipleSubs2: "sub_mult_cligmymr_0 subtable" circledash u1062
 Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
@@ -18202,6 +18502,7 @@ SplineSet
  55 739 142 814 234 814 c 0
  294 814 348 784 370 738 c 1
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup35 per glyph data 0" dx=-140 dy=0 dh=-140 dv=0
 Ligature2: "sub_ligature_cligmymr_4 subtable" u1062 u103A
 Ligature2: "sub_ligature_cligmymr_4 subtable" u1062 u103A
@@ -18238,6 +18539,7 @@ SplineSet
  85 394 165 459 276 459 c 0
  406 459 513 351 513 222 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup113 subtable" circledash u1063
 MultipleSubs2: "sub_mult_cligmymr_0 subtable" circledash u1063
 Comment: "GDL_order: 1+AAoA-mark: 130+AAoA"
@@ -18279,6 +18581,7 @@ SplineSet
  276 459 l 1
  406 459 513 351 513 222 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 11+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -18308,6 +18611,7 @@ SplineSet
  343 51 l 1
  343 0 l 1
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup35 per glyph data 0" dx=-140 dy=0 dh=-140 dv=0
 Ligature2: "LigatureSubstitutionlookup117 subtable" circledash
 MultipleSubs2: "sub_mult_cligmymr_0 subtable" circledash
@@ -18341,6 +18645,7 @@ SplineSet
  96 412 190 459 279 459 c 0
  409 459 516 351 516 222 c 0
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup48 per glyph data 0" dx=100 dy=0 dh=50 dv=0
 Position2: "SinglePositioninglookup30 subtable" dx=140 dy=0 dh=140 dv=0
 PairPos2: "PairwisePositioningkerninglooku subtable" uAA60.med.kham dx=-90 dy=0 dh=0 dv=0 dx=0 dy=0 dh=90 dv=0
@@ -18426,6 +18731,7 @@ SplineSet
  432 457 l 1
  491 410 529 349 529 240 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -18457,6 +18763,7 @@ SplineSet
  186 459 l 1
  237 459 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 11+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -18491,6 +18798,7 @@ SplineSet
  131 703 165 738 206 738 c 0
  246 738 281 703 281 663 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 11+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -18527,6 +18835,7 @@ SplineSet
  103 454 159 460 186 460 c 0
  255 460 313 417 313 334 c 0
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup35 per glyph data 0" dx=-140 dy=0 dh=-140 dv=0
 Ligature2: "LigatureSubstitutionlookup117 subtable" circledash u1069
 MultipleSubs2: "sub_mult_cligmymr_0 subtable" circledash u1069
@@ -18557,6 +18866,7 @@ SplineSet
  200 444 l 1
  251 444 l 1
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup35 per glyph data 0" dx=-140 dy=0 dh=-140 dv=0
 Ligature2: "LigatureSubstitutionlookup117 subtable" circledash u106A
 MultipleSubs2: "sub_mult_cligmymr_0 subtable" circledash u106A
@@ -18589,6 +18899,7 @@ SplineSet
  195 459 235 414 235 346 c 2
  235 0 l 1
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup35 per glyph data 0" dx=-140 dy=0 dh=-140 dv=0
 Ligature2: "LigatureSubstitutionlookup117 subtable" circledash u106B
 MultipleSubs2: "sub_mult_cligmymr_0 subtable" circledash u106B
@@ -18621,6 +18932,7 @@ SplineSet
  160 36 184 54 184 82 c 1
  235 82 l 1
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup35 per glyph data 0" dx=-140 dy=0 dh=-140 dv=0
 Ligature2: "LigatureSubstitutionlookup117 subtable" circledash u106C
 MultipleSubs2: "sub_mult_cligmymr_0 subtable" circledash u106C
@@ -18662,6 +18974,7 @@ SplineSet
  142 268 211 261 247 242 c 0
  301 213 313 162 313 139 c 0
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup35 per glyph data 0" dx=-140 dy=0 dh=-140 dv=0
 Ligature2: "LigatureSubstitutionlookup117 subtable" circledash u106D
 MultipleSubs2: "sub_mult_cligmymr_0 subtable" circledash u106D
@@ -18712,6 +19025,7 @@ SplineSet
  733 396 809 459 898 459 c 0
  1024 459 1130 351 1130 222 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" u106E u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u106E u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" u106E u103C.wide u1031
@@ -18789,6 +19103,7 @@ SplineSet
  561 405 634 459 714 459 c 0
  840 459 946 351 946 222 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" u106F u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u106F u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" u106F u103C.wide u1031
@@ -18870,6 +19185,7 @@ SplineSet
  663 454 686 459 711 459 c 0
  837 459 943 351 943 222 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" u1070 u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u1070 u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" u1070 u103C.wide u1031
@@ -18934,6 +19250,7 @@ SplineSet
  54 655 89 689 129 689 c 0
  169 689 204 655 204 614 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup111 subtable" circledash u1071
 MultipleSubs2: "sub_mult_cligmymr_0 subtable" circledash u1071
 Comment: "GDL_order: 14+AAoA-mark: 80+AAoA"
@@ -18961,6 +19278,7 @@ SplineSet
  -370 836 -283 911 -193 911 c 0
  -132 911 -78 881 -55 834 c 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup182 subtable" u1072 u102F
 Ligature2: "LigatureSubstitutionlookup147 subtable" u1072 u102F
 Ligature2: "LigatureSubstitutionlookup111 subtable" circledash u1072
@@ -18989,6 +19307,7 @@ SplineSet
  226 867 l 1
  453 640 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup147 subtable" u1073 u102F
 Ligature2: "LigatureSubstitutionlookup147 subtable" u1073 u1030
 Ligature2: "LigatureSubstitutionlookup111 subtable" circledash u1073
@@ -19017,6 +19336,7 @@ SplineSet
  -84 867 l 1
  -55 839 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup147 subtable" u1074 u102F
 Ligature2: "LigatureSubstitutionlookup147 subtable" u1074 u1030
 Ligature2: "LigatureSubstitutionlookup111 subtable" circledash u1074
@@ -19055,6 +19375,7 @@ SplineSet
  55 354 144 457 285 457 c 0
  417 457 522 354 522 202 c 0
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup48 per glyph data 0" dx=100 dy=0 dh=50 dv=0
 Position2: "SinglePositioninglookup30 subtable" dx=140 dy=0 dh=140 dv=0
 PairPos2: "PairwisePositioningkerninglooku subtable" uAA60.med.kham dx=-90 dy=0 dh=0 dv=0 dx=0 dy=0 dh=90 dv=0
@@ -19143,6 +19464,7 @@ SplineSet
  235 319 189 459 304 459 c 0
  420 459 526 348 526 222 c 0
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup48 per glyph data 0" dx=100 dy=0 dh=50 dv=0
 Position2: "SinglePositioninglookup30 subtable" dx=140 dy=0 dh=140 dv=0
 PairPos2: "PairwisePositioningkerninglooku subtable" uAA60.med.kham dx=-90 dy=0 dh=0 dv=0 dx=0 dy=0 dh=90 dv=0
@@ -19230,6 +19552,7 @@ SplineSet
  55 354 144 457 285 457 c 0
  416 457 522 357 522 202 c 0
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup48 per glyph data 0" dx=100 dy=0 dh=50 dv=0
 Position2: "SinglePositioninglookup30 subtable" dx=140 dy=0 dh=140 dv=0
 PairPos2: "PairwisePositioningkerninglooku subtable" uAA60.med.kham dx=-90 dy=0 dh=0 dv=0 dx=0 dy=0 dh=90 dv=0
@@ -19316,6 +19639,7 @@ SplineSet
  532 400 615 459 711 459 c 0
  838 459 942 351 942 222 c 0
 EndSplineSet
+Validated: 1
 Substitution2: "sub_single_cligmymr_2 subtable" u1078.kham
 Ligature2: "LigatureSubstitutionlookup169 subtable" u1078 u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u1078 u103C u1031
@@ -19393,6 +19717,7 @@ SplineSet
  519 427 582 459 651 459 c 0
  779 459 882 351 882 222 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" u1079 u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u1079 u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" u1079 u103C.wide u1031
@@ -19468,6 +19793,7 @@ SplineSet
  672 454 696 459 720 459 c 0
  847 459 952 351 952 222 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" u107A u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u107A u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" u107A u103C.wide u1031
@@ -19541,6 +19867,7 @@ SplineSet
  511 434 576 459 645 459 c 0
  775 459 882 354 882 222 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" u107B u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u107B u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" u107B u103C.wide u1031
@@ -19622,6 +19949,7 @@ SplineSet
  582 231 634 252 706 252 c 0
  787 252 874 222 928 129 c 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" u107C u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u107C u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" u107C u103C.wide u1031
@@ -19702,6 +20030,7 @@ SplineSet
  625 156 703 204 786 204 c 0
  840 204 891 183 943 153 c 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" u107D u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u107D u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" u107D u103C.wide u1031
@@ -19789,6 +20118,7 @@ SplineSet
  737 -95 l 1
  737 -450 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" u107E u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u107E u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" u107E u103C.wide u1031
@@ -19852,6 +20182,7 @@ SplineSet
  431 457 l 1
  487 412 529 349 529 240 c 0
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup48 per glyph data 0" dx=100 dy=0 dh=50 dv=0
 Position2: "SinglePositioninglookup30 subtable" dx=140 dy=0 dh=140 dv=0
 PairPos2: "PairwisePositioningkerninglooku subtable" uAA60.med.kham dx=-90 dy=0 dh=0 dv=0 dx=0 dy=0 dh=90 dv=0
@@ -19946,6 +20277,7 @@ SplineSet
  660 453 686 459 709 459 c 0
  837 459 942 351 942 222 c 0
 EndSplineSet
+Validated: 1
 Substitution2: "sub_single_cligmymr_2 subtable" u1080.kham
 Ligature2: "LigatureSubstitutionlookup169 subtable" u1080 u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u1080 u103C u1031
@@ -20017,6 +20349,7 @@ SplineSet
  55 354 161 457 292 457 c 0
  423 457 529 354 529 202 c 0
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup30 subtable" dx=140 dy=0 dh=140 dv=0
 Position2: "SinglePositioninglookup48 per glyph data 0" dx=100 dy=0 dh=50 dv=0
 Ligature2: "LigatureSubstitutionlookup124 subtable" u101B.kinzi u200D u1081.straight
@@ -20080,6 +20413,7 @@ SplineSet
  368 -425 412 -412 441 -365 c 1
  469 -389 l 1
 EndSplineSet
+Validated: 1
 MultipleSubs2: "sub_mult_cligmymr_0 subtable" circledash u1082
 Comment: "GDL_order: 12+AAoA-mark: 80+AAoA"
 EndChar
@@ -20114,6 +20448,7 @@ SplineSet
  -101 -425 -57 -412 -28 -365 c 1
  0 -389 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
@@ -20138,6 +20473,7 @@ SplineSet
  323 -399 l 1
  323 -450 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup113 subtable" circledash u1083
 MultipleSubs2: "sub_mult_cligmymr_0 subtable" circledash u1083
 Comment: "GDL_order: 11+AAoA-mark: 80+AAoA"
@@ -20172,6 +20508,7 @@ SplineSet
  370 37 432 65 432 133 c 1
  478 115 l 1
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup48 per glyph data 0" dx=100 dy=0 dh=50 dv=0
 Position2: "SinglePositioninglookup30 subtable" dx=140 dy=0 dh=140 dv=0
 Ligature2: "sub_ligature_cligmymr_10 subtable" u200C u1084
@@ -20213,6 +20550,7 @@ SplineSet
  -144 577 -91 601 -91 654 c 1
  -55 639 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup111 subtable" circledash u1085
 MultipleSubs2: "sub_mult_cligmymr_0 subtable" circledash u1085
 Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
@@ -20246,6 +20584,7 @@ SplineSet
  -282 856 -230 904 -169 904 c 0
  -106 904 -55 856 -55 792 c 2
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup111 subtable" circledash u1086
 MultipleSubs2: "sub_mult_cligmymr_0 subtable" circledash u1086
 Comment: "GDL_order: 14+AAoA-mark: 80+AAoA"
@@ -20284,6 +20623,7 @@ SplineSet
  -227 855 -175 903 -114 903 c 0
  -51 903 0 855 0 791 c 2
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 14+AAoA-mark: 1+AAoA"
 EndChar
 
@@ -20312,6 +20652,7 @@ SplineSet
  54 118 88 151 129 151 c 0
  169 151 204 118 204 76 c 2
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup35 per glyph data 0" dx=-140 dy=0 dh=-140 dv=0
 Substitution2: "sub_single_cligmymr_0 subtable" u1087.dot
 Ligature2: "LigatureSubstitutionlookup184 subtable" u1087 uAA70
@@ -20355,6 +20696,7 @@ SplineSet
  169 151 204 118 204 70 c 2
  204 69 l 2
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup35 per glyph data 0" dx=-140 dy=0 dh=-140 dv=0
 Substitution2: "sub_single_cligmymr_0 subtable" u1088.dot
 Ligature2: "LigatureSubstitutionlookup184 subtable" u1088 uAA70
@@ -20384,6 +20726,7 @@ SplineSet
  54 118 88 151 129 151 c 0
  169 151 204 118 204 76 c 0
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup35 per glyph data 0" dx=-140 dy=0 dh=-140 dv=0
 Substitution2: "sub_single_cligmymr_0 subtable" u1089.dot
 Ligature2: "LigatureSubstitutionlookup184 subtable" u1089 uAA70
@@ -20431,6 +20774,7 @@ SplineSet
  232 364 268 385 288 415 c 1
  295 405 l 1
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup35 per glyph data 0" dx=-140 dy=0 dh=-140 dv=0
 Substitution2: "sub_single_cligmymr_0 subtable" u108A.dot
 Ligature2: "LigatureSubstitutionlookup184 subtable" u108A uAA70
@@ -20460,6 +20804,7 @@ SplineSet
  54 270 89 304 129 304 c 0
  169 304 204 270 204 229 c 0
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup35 per glyph data 0" dx=-140 dy=0 dh=-140 dv=0
 Ligature2: "LigatureSubstitutionlookup117 subtable" circledash u108B
 MultipleSubs2: "sub_mult_cligmymr_0 subtable" circledash u108B
@@ -20499,6 +20844,7 @@ SplineSet
  54 270 89 304 129 304 c 0
  169 304 204 270 204 229 c 0
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup35 per glyph data 0" dx=-140 dy=0 dh=-140 dv=0
 Ligature2: "LigatureSubstitutionlookup117 subtable" circledash u108C
 MultipleSubs2: "sub_mult_cligmymr_0 subtable" circledash u108C
@@ -20528,6 +20874,7 @@ SplineSet
  525 -84 l 1
  525 -135 l 1
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup35 per glyph data 0" dx=-140 dy=0 dh=-140 dv=0
 Ligature2: "LigatureSubstitutionlookup117 subtable" circledash u108D
 MultipleSubs2: "sub_mult_cligmymr_0 subtable" circledash u108D
@@ -20569,6 +20916,7 @@ SplineSet
  55 351 158 459 286 459 c 0
  418 459 520 351 520 222 c 0
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup48 per glyph data 0" dx=100 dy=0 dh=50 dv=0
 Position2: "SinglePositioninglookup30 subtable" dx=140 dy=0 dh=140 dv=0
 Ligature2: "LigatureSubstitutionlookup169 subtable" u108E u103C
@@ -20642,6 +20990,7 @@ SplineSet
  54 118 88 151 129 151 c 0
  169 151 204 118 204 76 c 0
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup35 per glyph data 0" dx=-140 dy=0 dh=-140 dv=0
 Ligature2: "LigatureSubstitutionlookup117 subtable" circledash u108F
 MultipleSubs2: "sub_mult_cligmymr_0 subtable" circledash u108F
@@ -20677,6 +21026,7 @@ SplineSet
  436 459 520 335 520 222 c 2
  520 -216 l 2
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
@@ -20701,6 +21051,7 @@ SplineSet
  530 -273 l 1
  550 -319 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
@@ -20730,6 +21081,7 @@ SplineSet
  140 413 207 458 295 458 c 0
  425 458 529 350 529 222 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
@@ -20758,6 +21110,7 @@ SplineSet
  515 9 599 -115 599 -228 c 2
  599 -450 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
@@ -20783,6 +21136,7 @@ SplineSet
  645 -273 l 1
  665 -319 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
@@ -20816,6 +21170,7 @@ SplineSet
  592 23 l 1
  592 -27 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
@@ -20849,6 +21204,7 @@ SplineSet
  591 35 l 1
  591 -15 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
@@ -20873,6 +21229,7 @@ SplineSet
  471 -399 l 1
  471 -450 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
@@ -20911,6 +21268,7 @@ SplineSet
  529 88 433 22 383 3 c 1
  483 -36 527 -128 527 -212 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
@@ -20949,6 +21307,7 @@ SplineSet
  527 135 483 43 383 4 c 1
  433 -15 529 -81 529 -233 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
@@ -20973,6 +21332,7 @@ SplineSet
  54 425 89 459 129 459 c 0
  169 459 204 425 204 384 c 0
 EndSplineSet
+Validated: 1
 Substitution2: "sub_single_cligmymr_0 subtable" u109A.dot
 Ligature2: "LigatureSubstitutionlookup184 subtable" u109A uAA70
 Comment: "GDL_order: 14+AAoA-mark: 183+AAoA"
@@ -21002,6 +21362,7 @@ SplineSet
  54 656 88 689 129 689 c 0
  169 689 204 656 204 614 c 0
 EndSplineSet
+Validated: 1
 Substitution2: "sub_single_cligmymr_0 subtable" u109B.dot
 Ligature2: "LigatureSubstitutionlookup184 subtable" u109B uAA70
 Comment: "GDL_order: 14+AAoA-mark: 183+AAoA"
@@ -21046,6 +21407,7 @@ SplineSet
  131 459 l 2
  219 459 277 404 295 363 c 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 14+AAoA-mark: 183+AAoA"
 EndChar
 
@@ -21071,6 +21433,7 @@ SplineSet
  -152 738 -100 687 -100 626 c 2
  -100 347 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" u109D u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u109D u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" u109D u103C.wide u1031
@@ -21133,6 +21496,7 @@ SplineSet
  323 -399 l 1
  323 -450 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 11+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -21172,6 +21536,7 @@ SplineSet
  451 589 696 589 696 390 c 2
  696 -328 l 2
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" u109F u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" u109F u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" u109F u103C.wide u1031
@@ -21212,6 +21577,7 @@ Flags: HW
 LayerCount: 2
 Back
 Fore
+Validated: 1
 EndChar
 
 StartChar: u200C
@@ -21223,6 +21589,7 @@ Flags: HW
 LayerCount: 2
 Back
 Fore
+Validated: 1
 EndChar
 
 StartChar: u200D
@@ -21234,6 +21601,7 @@ Flags: HW
 LayerCount: 2
 Back
 Fore
+Validated: 1
 EndChar
 
 StartChar: quotedblleft
@@ -21265,6 +21633,7 @@ SplineSet
  103 713 145 732 166 732 c 0
  188 732 191 699 191 679 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -21297,6 +21666,7 @@ SplineSet
  273 851 312 883 349 883 c 0
  387 883 424 855 424 803 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -21320,6 +21690,7 @@ SplineSet
  103 713 145 732 166 732 c 0
  188 732 191 699 191 679 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -21343,6 +21714,7 @@ SplineSet
  40 851 79 883 116 883 c 0
  154 883 191 855 191 803 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -21362,6 +21734,7 @@ SplineSet
  465 247 l 1
  465 196 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -21381,6 +21754,7 @@ SplineSet
  824 247 l 1
  824 196 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -21393,6 +21767,7 @@ Flags: HW
 LayerCount: 2
 Back
 Fore
+Validated: 1
 EndChar
 
 StartChar: notequal
@@ -21427,6 +21802,7 @@ SplineSet
  520 162 l 1
  520 111 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -21528,6 +21904,7 @@ SplineSet
  532 247 540 255 556 255 c 0
  573 255 580 247 580 231 c 0
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup48 per glyph data 0" dx=100 dy=0 dh=50 dv=0
 Position2: "SinglePositioninglookup30 subtable" dx=140 dy=0 dh=140 dv=0
 PairPos2: "PairwisePositioningkerninglooku subtable" uAA60.med.kham dx=-90 dy=0 dh=0 dv=0 dx=0 dy=0 dh=90 dv=0
@@ -21675,6 +22052,7 @@ SplineSet
  532 247 540 255 556 255 c 0
  573 255 580 247 580 231 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -21696,6 +22074,7 @@ SplineSet
  347 291 417 266 492 214 c 1
  492 176 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 80+AAoA"
 EndChar
 
@@ -21739,6 +22118,7 @@ SplineSet
  124 422 203 459 283 459 c 0
  414 459 520 351 520 222 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
@@ -21784,6 +22164,7 @@ SplineSet
  148 300 180 291 213 291 c 0
  277 291 338 325 373 385 c 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
@@ -21828,6 +22209,7 @@ SplineSet
  634 320 698 263 785 263 c 0
  798 263 811 264 825 267 c 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
@@ -21882,6 +22264,7 @@ SplineSet
  132 196 209 201 468 201 c 1
  469 208 469 215 469 222 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
@@ -21927,6 +22310,7 @@ SplineSet
  528 121 604 36 711 36 c 0
  810 36 891 120 891 222 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 7+AAoA-mark: 1+AAoA"
 EndChar
 
@@ -21959,6 +22343,7 @@ SplineSet
  -220 762 -166 818 -101 818 c 0
  -53 818 -21 795 -2 764 c 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 8+AAoA-mark: 1+AAoA"
 EndChar
 
@@ -21996,6 +22381,7 @@ SplineSet
  -220 762 -166 818 -101 818 c 0
  -53 818 -21 795 -2 764 c 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 8+AAoA-mark: 1+AAoA"
 EndChar
 
@@ -22020,6 +22406,7 @@ SplineSet
  179 814 l 1
  20 541 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 8+AAoA-mark: 1+AAoA"
 EndChar
 
@@ -22065,6 +22452,7 @@ SplineSet
  543 397 622 459 711 459 c 0
  837 459 943 352 943 222 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
@@ -22115,6 +22503,7 @@ SplineSet
  528 121 604 36 711 36 c 0
  810 36 891 120 891 222 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 7+AAoA-mark: 1+AAoA"
 EndChar
 
@@ -22159,6 +22548,7 @@ SplineSet
  549 396 625 459 714 459 c 0
  840 459 946 351 946 222 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
@@ -22202,6 +22592,7 @@ SplineSet
  473 349 551 459 679 459 c 0
  806 459 904 351 904 222 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
@@ -22245,6 +22636,7 @@ SplineSet
  532 400 615 459 711 459 c 0
  838 459 942 351 942 222 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
@@ -22288,6 +22680,7 @@ SplineSet
  691 454 714 459 732 459 c 0
  859 459 934 352 934 222 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
@@ -22336,6 +22729,7 @@ SplineSet
  544 396 624 459 709 459 c 0
  835 459 942 351 942 222 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
@@ -22384,6 +22778,7 @@ SplineSet
  532 406 611 459 702 459 c 0
  828 459 934 351 934 222 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
@@ -22430,6 +22825,7 @@ SplineSet
  220 394 307 457 411 457 c 0
  542 457 648 354 648 202 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
@@ -22473,6 +22869,7 @@ SplineSet
  631 454 654 459 679 459 c 0
  808 459 904 351 904 222 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
@@ -22516,6 +22913,7 @@ SplineSet
  543 396 624 459 709 459 c 0
  835 459 942 351 942 222 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
@@ -22559,6 +22957,7 @@ SplineSet
  532 406 611 459 702 459 c 0
  828 459 934 351 934 222 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
@@ -22594,6 +22993,7 @@ SplineSet
  432 457 l 1
  491 410 529 349 529 240 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
@@ -22644,6 +23044,7 @@ SplineSet
  528 121 604 36 711 36 c 0
  810 36 891 120 891 222 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
@@ -22672,6 +23073,7 @@ SplineSet
  436 752 520 628 520 515 c 2
  520 219 l 2
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -22724,6 +23126,7 @@ SplineSet
  452 36 l 1
  452 -15 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -22763,6 +23166,7 @@ SplineSet
  469 747 l 1
  520 747 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -22800,6 +23204,7 @@ SplineSet
  177 311 209 349 284 349 c 0
  424 349 521 291 521 166 c 0
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -22837,6 +23242,7 @@ SplineSet
  378 36 445 74 476 146 c 1
  521 121 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -22869,6 +23275,7 @@ SplineSet
  150 413 217 447 292 447 c 0
  423 447 529 345 529 202 c 0
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -22901,6 +23308,7 @@ SplineSet
  478 611 448 662 401 704 c 1
  431 747 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -22935,6 +23343,7 @@ SplineSet
  591 36 l 1
  591 -15 l 1
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -22967,6 +23376,7 @@ SplineSet
  106 75 169 36 282 36 c 0
  395 36 478 95 478 178 c 0
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -22998,6 +23408,7 @@ SplineSet
  425 109 484 36 567 36 c 0
  650 36 689 109 689 222 c 0
 EndSplineSet
+Validated: 1
 Comment: "mark: 1+AAoA"
 EndChar
 
@@ -23044,6 +23455,7 @@ SplineSet
  500 418 560 459 645 459 c 0
  775 459 883 354 883 222 c 0
 EndSplineSet
+Validated: 1
 Substitution2: "sub_single_cligmymr_2 subtable" uAA60.kham
 Ligature2: "LigatureSubstitutionlookup169 subtable" uAA60 u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" uAA60 u103C u1031
@@ -23125,6 +23537,7 @@ SplineSet
  -350 -108 -308 -82 -242 -82 c 0
  -142 -82 -56 -165 -56 -267 c 0
 EndSplineSet
+Validated: 1
 Substitution2: "sub_single_cligmymr_2 subtable" uAA60.med.kham
 Ligature2: "LigatureSubstitutionlookup179 subtable" uAA60.med u102D
 Ligature2: "LigatureSubstitutionlookup179 subtable" uAA60.med u102E
@@ -23184,6 +23597,7 @@ SplineSet
  -350 -108 -308 -82 -242 -82 c 0
  -142 -82 -56 -165 -56 -267 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 2+AAoA-mark: 210+AAoA"
 EndChar
 
@@ -23227,6 +23641,7 @@ SplineSet
  532 406 609 459 705 459 c 0
  833 459 936 352 936 222 c 0
 EndSplineSet
+Validated: 1
 Substitution2: "sub_single_cligmymr_2 subtable" uAA61.kham
 Ligature2: "LigatureSubstitutionlookup169 subtable" uAA61 u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" uAA61 u103C u1031
@@ -23294,6 +23709,7 @@ SplineSet
  342 455 363 459 382 459 c 0
  510 459 585 352 585 222 c 0
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup48 per glyph data 0" dx=100 dy=0 dh=50 dv=0
 Position2: "SinglePositioninglookup30 subtable" dx=140 dy=0 dh=140 dv=0
 Substitution2: "sub_single_cligmymr_2 subtable" uAA62.kham
@@ -23376,6 +23792,7 @@ SplineSet
  533 404 609 459 701 459 c 0
  833 459 935 351 935 222 c 0
 EndSplineSet
+Validated: 1
 Substitution2: "sub_single_cligmymr_2 subtable" uAA63.kham
 Ligature2: "LigatureSubstitutionlookup169 subtable" uAA63 u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" uAA63 u103C u1031
@@ -23447,6 +23864,7 @@ SplineSet
  555 415 626 459 709 459 c 0
  841 459 943 351 943 222 c 0
 EndSplineSet
+Validated: 1
 Substitution2: "sub_single_cligmymr_2 subtable" uAA64.kham
 Ligature2: "LigatureSubstitutionlookup169 subtable" uAA64 u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" uAA64 u103C u1031
@@ -23530,6 +23948,7 @@ SplineSet
  560 402 633 459 718 459 c 0
  846 459 951 352 951 222 c 0
 EndSplineSet
+Validated: 1
 Substitution2: "sub_single_cligmymr_2 subtable" uAA65.kham
 Ligature2: "LigatureSubstitutionlookup169 subtable" uAA65 u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" uAA65 u103C u1031
@@ -23605,6 +24024,7 @@ SplineSet
  544 396 624 459 709 459 c 0
  835 459 942 351 942 222 c 0
 EndSplineSet
+Validated: 1
 Substitution2: "sub_single_cligmymr_2 subtable" uAA66.kham
 Ligature2: "LigatureSubstitutionlookup169 subtable" uAA66 u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" uAA66 u103C u1031
@@ -23680,6 +24100,7 @@ SplineSet
  532 406 611 459 702 459 c 0
  828 459 934 351 934 222 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" uAA67 u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" uAA67 u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" uAA67 u103C.wide u1031
@@ -23761,6 +24182,7 @@ SplineSet
  511 434 576 459 645 459 c 0
  775 459 882 354 882 222 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" uAA68 u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" uAA68 u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" uAA68 u103C.wide u1031
@@ -23843,6 +24265,7 @@ SplineSet
  534 405 610 459 701 459 c 0
  827 459 934 351 934 222 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" uAA69 u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" uAA69 u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" uAA69 u103C.wide u1031
@@ -23920,6 +24343,7 @@ SplineSet
  534 405 610 459 701 459 c 0
  827 459 934 351 934 222 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" uAA6A u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" uAA6A u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" uAA6A u103C.wide u1031
@@ -23992,6 +24416,7 @@ SplineSet
  230 394 317 457 421 457 c 0
  552 457 658 354 658 202 c 0
 EndSplineSet
+Validated: 1
 LCarets2: 2 0 0
 Position2: "SinglePositioninglookup48 per glyph data 0" dx=100 dy=0 dh=50 dv=0
 Position2: "SinglePositioninglookup30 subtable" dx=140 dy=0 dh=140 dv=0
@@ -24065,6 +24490,7 @@ SplineSet
  691 454 714 459 732 459 c 0
  859 459 934 352 934 222 c 0
 EndSplineSet
+Validated: 1
 Substitution2: "sub_single_cligmymr_2 subtable" uAA6C.kham
 Ligature2: "LigatureSubstitutionlookup169 subtable" uAA6C u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" uAA6C u103C u1031
@@ -24136,6 +24562,7 @@ SplineSet
  55 357 144 460 285 460 c 0
  425 460 522 344 522 204 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
@@ -24185,6 +24612,7 @@ SplineSet
  424 433 504 459 555 459 c 0
  682 459 787 351 787 222 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" uAA6D u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" uAA6D u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" uAA6D u103C.wide u1031
@@ -24260,6 +24688,7 @@ SplineSet
  631 454 654 459 679 459 c 0
  808 459 904 351 904 222 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" uAA6E u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" uAA6E u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" uAA6E u103C.wide u1031
@@ -24326,6 +24755,7 @@ SplineSet
  240 384 329 459 436 459 c 0
  568 459 670 351 670 222 c 0
 EndSplineSet
+Validated: 1
 Substitution2: "sub_single_cligmymr_2 subtable" uAA6F.kham
 Ligature2: "LigatureSubstitutionlookup169 subtable" uAA6F u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" uAA6F u103C u1031
@@ -24387,6 +24817,7 @@ SplineSet
  121 847 198 882 267 882 c 0
  334 882 412 847 463 787 c 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 0+AAoA-mark: 210+AAoA"
 EndChar
 
@@ -24432,6 +24863,7 @@ SplineSet
  549 394 627 459 714 459 c 0
  841 459 946 351 946 222 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" uAA71 u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" uAA71 u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" uAA71 u103C.wide u1031
@@ -24512,6 +24944,7 @@ SplineSet
  748 405 826 459 920 459 c 0
  1048 459 1151 352 1151 222 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" uAA72 u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" uAA72 u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" uAA72 u103C.wide u1031
@@ -24576,6 +25009,7 @@ SplineSet
  342 455 363 459 382 459 c 0
  510 459 585 352 585 222 c 0
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup48 per glyph data 0" dx=100 dy=0 dh=50 dv=0
 Position2: "SinglePositioninglookup30 subtable" dx=140 dy=0 dh=140 dv=0
 Substitution2: "sub_single_cligmymr_2 subtable" uAA73.kham
@@ -24666,6 +25100,7 @@ SplineSet
  369 825 449 904 549 904 c 0
  607 904 657 872 679 816 c 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" uAA74 u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" uAA74 u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" uAA74 u103C.wide u1031
@@ -24755,6 +25190,7 @@ SplineSet
  779 825 859 904 959 904 c 0
  1017 904 1071 870 1089 816 c 1
 EndSplineSet
+Validated: 1
 Substitution2: "sub_single_cligmymr_2 subtable" uAA75.kham
 Ligature2: "LigatureSubstitutionlookup169 subtable" uAA75 u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" uAA75 u103C u1031
@@ -24851,6 +25287,7 @@ SplineSet
  789 825 869 904 969 904 c 0
  1027 904 1082 870 1099 816 c 1
 EndSplineSet
+Validated: 1
 Substitution2: "sub_single_cligmymr_2 subtable" uAA76.kham
 Ligature2: "LigatureSubstitutionlookup169 subtable" uAA76 u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" uAA76 u103C u1031
@@ -24931,6 +25368,7 @@ SplineSet
  792 51 l 1
  792 0 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" uAA77 u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" uAA77 u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" uAA77 u103C.wide u1031
@@ -25000,6 +25438,7 @@ SplineSet
  395 386 586 681 681 681 c 0
  708 681 735 667 760 630 c 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" uAA78 u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" uAA78 u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" uAA78 u103C.wide u1031
@@ -25063,6 +25502,7 @@ SplineSet
  615 -399 l 1
  615 -450 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" uAA79 u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" uAA79 u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" uAA79 u103C.wide u1031
@@ -25143,6 +25583,7 @@ SplineSet
  747 454 770 459 795 459 c 0
  924 459 1020 351 1020 222 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "LigatureSubstitutionlookup169 subtable" uAA7A u103C
 Ligature2: "LigatureSubstitutionlookup167 subtable" uAA7A u103C u1031
 Ligature2: "LigatureSubstitutionlookup167 subtable" uAA7A u103C.wide u1031
@@ -25201,6 +25642,7 @@ SplineSet
  54 118 89 151 129 151 c 0
  170 151 204 118 204 76 c 0
 EndSplineSet
+Validated: 1
 Position2: "SinglePositioninglookup35 per glyph data 0" dx=-140 dy=0 dh=-140 dv=0
 Substitution2: "sub_single_cligmymr_0 subtable" uAA7B.dot
 Ligature2: "LigatureSubstitutionlookup184 subtable" uAA7B uAA70
@@ -25227,6 +25669,7 @@ SplineSet
  0 648 l 1
  0 597 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 6+AAoA-mark: 1+AAoA"
 EndChar
 
@@ -25246,6 +25689,7 @@ SplineSet
  55 247 l 1
  439 247 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 0+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -25293,6 +25737,7 @@ SplineSet
  151 66 215 36 283 36 c 0
  318 36 346 44 374 59 c 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
@@ -25349,6 +25794,7 @@ SplineSet
  520 119 602 36 702 36 c 0
  802 36 883 119 883 222 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 1+AAoA"
 EndChar
 
@@ -25390,6 +25836,7 @@ SplineSet
  549 397 625 459 714 459 c 0
  840 459 946 351 946 222 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
@@ -25422,6 +25869,7 @@ SplineSet
  55 354 161 457 292 457 c 0
  423 457 529 354 529 202 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
@@ -25454,6 +25902,7 @@ SplineSet
  364 36 432 75 469 147 c 1
  513 121 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
@@ -25494,6 +25943,7 @@ SplineSet
  543 396 624 459 709 459 c 0
  835 459 942 351 942 222 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
@@ -25526,6 +25976,7 @@ SplineSet
  432 457 l 1
  491 410 529 349 529 240 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
@@ -25565,6 +26016,7 @@ SplineSet
  432 457 l 1
  490 411 529 349 529 240 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
@@ -25606,6 +26058,7 @@ SplineSet
  658 454 681 459 706 459 c 0
  832 459 939 351 939 222 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
@@ -25645,6 +26098,7 @@ SplineSet
  631 454 654 459 679 459 c 0
  807 459 904 351 904 222 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
@@ -25691,6 +26145,7 @@ SplineSet
  541 394 619 459 706 459 c 0
  834 459 939 351 939 222 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
@@ -25714,6 +26169,7 @@ SplineSet
  -165 735 -179 699 -218 688 c 1
  -189 635 -62 597 42 577 c 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 9+AAoA-mark: 210+AAoA"
 EndChar
 
@@ -25751,6 +26207,7 @@ SplineSet
  55 366 153 457 285 457 c 0
  417 457 522 354 522 202 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 7+AAoA-mark: 210+AAoA"
 EndChar
 
@@ -25793,6 +26250,7 @@ SplineSet
  538 405 617 459 712 459 c 0
  840 459 943 352 943 222 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
@@ -25841,6 +26299,7 @@ SplineSet
  660 453 688 459 709 459 c 0
  837 459 942 351 942 222 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
@@ -25890,6 +26349,7 @@ SplineSet
  502 424 565 459 645 459 c 0
  775 459 883 354 883 222 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
@@ -25936,6 +26396,7 @@ SplineSet
  532 406 609 459 705 459 c 0
  833 459 936 352 936 222 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
@@ -25975,6 +26436,7 @@ SplineSet
  342 455 363 459 382 459 c 0
  510 459 585 352 585 222 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
@@ -26026,6 +26488,7 @@ SplineSet
  533 404 609 459 701 459 c 0
  833 459 935 351 935 222 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
@@ -26068,6 +26531,7 @@ SplineSet
  555 415 626 459 709 459 c 0
  841 459 943 351 943 222 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
@@ -26122,6 +26586,7 @@ SplineSet
  560 402 633 459 718 459 c 0
  846 459 951 352 951 222 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
@@ -26168,6 +26633,7 @@ SplineSet
  543 396 624 459 709 459 c 0
  835 459 942 351 942 222 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
@@ -26210,6 +26676,7 @@ SplineSet
  230 394 317 457 421 457 c 0
  552 457 658 354 658 202 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
@@ -26250,6 +26717,7 @@ SplineSet
  691 455 713 459 732 459 c 0
  860 459 934 352 934 222 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
@@ -26289,6 +26757,7 @@ SplineSet
  241 384 328 459 436 459 c 0
  567 459 670 351 670 222 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
@@ -26325,6 +26794,7 @@ SplineSet
  342 455 363 459 382 459 c 0
  510 459 585 352 585 222 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 1+AAoA-mark: 210+AAoA"
 EndChar
 
@@ -26388,6 +26858,7 @@ SplineSet
  779 825 859 904 959 904 c 0
  1017 904 1071 870 1089 816 c 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 0+AAoA-mark: 210+AAoA"
 EndChar
 
@@ -26458,6 +26929,7 @@ SplineSet
  789 825 869 904 969 904 c 0
  1027 904 1082 870 1099 816 c 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 0+AAoA-mark: 210+AAoA"
 EndChar
 
@@ -26488,6 +26960,7 @@ SplineSet
  -164 735 -178 699 -217 688 c 1
  -188 635 -58 595 46 575 c 1
 EndSplineSet
+Validated: 1
 Ligature2: "sub_ligature_cligmymr_2 subtable" u1032 uAA70
 Comment: "GDL_order: 9+AAoA-mark: 210+AAoA"
 EndChar
@@ -26523,6 +26996,7 @@ SplineSet
  -315 836 -228 911 -138 911 c 0
  -77 911 -23 881 0 834 c 1
 EndSplineSet
+Validated: 1
 Ligature2: "sub_ligature_cligmymr_4 subtable" u103A uAA70
 Ligature2: "sub_ligature_cligmymr_2 subtable" u103A uAA70
 Comment: "GDL_order: 12+AAoA-mark: 210+AAoA"
@@ -26546,6 +27020,7 @@ SplineSet
  -150 760 -116 795 -75 795 c 0
  -35 795 0 760 0 720 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 10+AAoA-mark: 210+AAoA"
 EndChar
 
@@ -26570,6 +27045,7 @@ SplineSet
  54 102 88 136 129 136 c 0
  169 136 204 102 204 60 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 14+AAoA-mark: 210+AAoA"
 EndChar
 
@@ -26592,6 +27068,7 @@ SplineSet
  55 -119 88 -84 129 -84 c 0
  169 -84 206 -117 206 -169 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 14+AAoA-mark: 210+AAoA"
 EndChar
 
@@ -26619,6 +27096,7 @@ SplineSet
  56 101 89 136 130 136 c 0
  170 136 207 103 207 51 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 14+AAoA-mark: 210+AAoA"
 EndChar
 
@@ -26638,6 +27116,7 @@ SplineSet
  55 -116 90 -84 130 -84 c 0
  171 -84 205 -116 205 -159 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 14+AAoA-mark: 210+AAoA"
 EndChar
 
@@ -26668,6 +27147,7 @@ SplineSet
  240 373 320 418 344 455 c 1
  360 449 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 14+AAoA-mark: 210+AAoA"
 EndChar
 
@@ -26687,6 +27167,7 @@ SplineSet
  54 427 88 459 129 459 c 0
  169 459 204 427 204 384 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 14+AAoA-mark: 210+AAoA"
 EndChar
 
@@ -26709,6 +27190,7 @@ SplineSet
  0 652 33 687 74 687 c 0
  114 687 151 654 151 602 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 14+AAoA-mark: 210+AAoA"
 EndChar
 
@@ -26731,6 +27213,7 @@ SplineSet
  129 -234 125 -234 120 -233 c 1
  120 -269 167 -349 202 -373 c 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 14+AAoA-mark: 210+AAoA"
 EndChar
 
@@ -26779,6 +27262,7 @@ SplineSet
  -214 -69 -187 -53 -152 -53 c 0
  -97 -53 -56 -101 -56 -153 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 2+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -26814,6 +27298,7 @@ SplineSet
  106 444 l 1
  106 -450 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 3+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -26855,6 +27340,7 @@ SplineSet
  106 444 l 1
  106 -450 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 3+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -26897,6 +27383,7 @@ SplineSet
  304 -267 450 -99 474 -99 c 0
  498 -99 643 -263 643 -357 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 4+AAoA-GDL_advx: 753m+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -26941,6 +27428,7 @@ SplineSet
  706 -267 852 -99 876 -99 c 0
  900 -99 1045 -263 1045 -357 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 4+AAoA-GDL_advx: 1174m+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -26988,6 +27476,7 @@ SplineSet
  503 955 574 947 633 886 c 0
  677 841 699 776 699 742 c 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 4+AAoA-GDL_advx: 753m+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -27036,6 +27525,7 @@ SplineSet
  934 955 994 944 1052 885 c 0
  1096 839 1117 781 1119 742 c 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 4+AAoA-GDL_advx: 1174m+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -27065,6 +27555,7 @@ SplineSet
  -395 -267 -249 -99 -225 -99 c 0
  -201 -99 -56 -263 -56 -356 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 5+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -27100,6 +27591,7 @@ SplineSet
  -251 -115 -235 -99 -225 -99 c 0
  -201 -99 -56 -263 -56 -357 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 5+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -27133,6 +27625,7 @@ SplineSet
  -210 -103 -202 -97 -197 -97 c 0
  -179 -97 -64 -228 -64 -301 c 0
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 5+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -27159,6 +27652,7 @@ SplineSet
  -52 -86 l 1
  -4 -102 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 6+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -27189,6 +27683,7 @@ SplineSet
  -52 -86 l 1
  -4 -102 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 6+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -27222,6 +27717,7 @@ SplineSet
  -40 -399 l 1
  -40 -450 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 6+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -27259,6 +27755,7 @@ SplineSet
  -40 -399 l 1
  -40 -450 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 6+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -27297,6 +27794,7 @@ SplineSet
  -41 -399 l 1
  -41 -450 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 6+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -27339,6 +27837,7 @@ SplineSet
  -41 -399 l 1
  -41 -450 l 1
 EndSplineSet
+Validated: 1
 Comment: "GDL_order: 6+AAoA-mark: 80+AAoA"
 EndChar
 
@@ -27372,6 +27871,7 @@ SplineSet
  55 351 162 459 292 459 c 0
  381 459 475 412 513 322 c 1
 EndSplineSet
+Validated: 1
 LCarets2: 2 0 0
 Position2: "SinglePositioninglookup30 subtable" dx=140 dy=0 dh=140 dv=0
 Position2: "SinglePositioninglookup48 per glyph data 0" dx=100 dy=0 dh=50 dv=0
@@ -27450,6 +27950,7 @@ SplineSet
  -537 821 -456 903 -359 903 c 0
  -260 903 -180 821 -180 720 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1032_u1036
@@ -27480,6 +27981,7 @@ SplineSet
  -215 763 -181 798 -140 798 c 0
  -100 798 -65 763 -65 723 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1011.aiph
@@ -27520,6 +28022,7 @@ SplineSet
  144.755622529 85.3917614947 210.085836819 36 286 36 c 0
  388 36 469 120 469 222 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u107A.aiph
@@ -27568,6 +28071,7 @@ SplineSet
  672 454 696 459 720 459 c 0
  847 459 952 351 952 222 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u101D.aiph
@@ -27599,6 +28103,7 @@ SplineSet
  97.1525936665 389.304135243 184.977643941 459 287 459 c 0
  415 459 520 351 520 222 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1031.aiph
@@ -27638,6 +28143,7 @@ SplineSet
  230 45 259 36 292 36 c 0
  360 36 424 63 460 127 c 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uAA7A.aiph
@@ -27694,6 +28200,7 @@ SplineSet
  469 142 504 107 504 67 c 0
  504 39.1529579393 486.852539062 13.03125 463.9609375 -0.490234375 c 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uniFE00
@@ -27704,6 +28211,7 @@ Flags: HW
 LayerCount: 2
 Back
 Fore
+Validated: 1
 EndChar
 
 StartChar: u1000.aiph
@@ -27745,6 +28253,7 @@ SplineSet
  549 397 625 459 714 459 c 0
  840 459 946 351 946 222 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1078.aiph
@@ -27752,6 +28261,8 @@ Encoding: 509 -1 509
 Width: 999
 VWidth: 0
 Flags: HW
+HStem: -15 151<126.297 231.196> -15 51<625.315 795.073> 408 51<211.073 373.212 625.152 791.938>
+VStem: 55 51<113.012 299.103> 478 150<173.443 267.138> 892 51<134.77 309.436>
 AnchorPoint: "R" 0 0 mark 0
 AnchorPoint: "BS" 714 -53 basechar 0
 AnchorPoint: "L" 714 -53 basechar 0
@@ -27761,19 +28272,17 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-544.037109375 296.438476562 m 0
- 542.880391264 293.708206087 541.0078125 296.438476562 544.037109375 296.438476562 c 0
- 584.037109375 296.438476562 628 262 628 222 c 0
- 628 181 585.165039062 145.440429688 545.165039062 145.440429688 c 0
- 542.521484375 145.440429688 544.937959045 145.852316647 545.165039062 145.440429688 c 0
- 584 75 637.219768517 36 712 36 c 4
+544 296 m 0x7c
+ 584 296 628 262 628 222 c 0
+ 628 181 585 145 545 145 c 0
+ 584 75 637 36 712 36 c 0
  812 36 892 120 892 222 c 0
  892 324 810 408 709 408 c 0
- 634.882602631 408 571.751953125 361.85546875 544.037109375 296.438476562 c 0
+ 635 408 572 362 544 296 c 0x7c
 943 222 m 0
  943 93 841 -15 709 -15 c 0
  626 -15 555 29 514 96 c 1
- 495 45 468 12 432 -15 c 1
+ 495 45 468 12 432 -15 c 1x7c
  402 28 l 1
  449 71 478 126 478 202 c 0
  478 322 394 406 292 406 c 0
@@ -27781,13 +28290,14 @@ SplineSet
  106 169 112 139 123 111 c 1
  138 126 157 136 180 136 c 0
  220 136 255 102 255 61 c 0
- 255 21 220 -15 180 -15 c 0
+ 255 21 220 -15 180 -15 c 0xbc
  99 -15 55 106 55 202 c 0
  55 354 161 457 292 457 c 0
  393 457 465 405 501 325 c 1
  538 405 617 459 712 459 c 0
  840 459 943 352 943 222 c 0
 EndSplineSet
+Validated: 1048577
 EndChar
 
 StartChar: u101A.aiph
@@ -27832,6 +28342,7 @@ SplineSet
  674.774918081 456.946020318 689.976663427 458.999998889 706 459 c 0
  832 459 939 351 939 222 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u101C.aiph
@@ -27873,6 +28384,7 @@ SplineSet
  641.684911257 456.035354873 659.749526364 459.000000693 679 459 c 0
  807 459 904 351 904 222 c 0
 EndSplineSet
+Validated: 1
 EndChar
 EndChars
 EndSplineFont
