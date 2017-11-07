@@ -67,6 +67,7 @@ for f in ['', 'bold', 'book', 'bookbold'] :
                 classes = 'font-source/padauk_classes.xml',
 #                buildusingfontforge = 1,
                 opentype = fea('font-source/padauk' + f + '.fea',
+                                old_make_fea = True,
                                 master = 'font-source/padauk' + f + '_ext.fea',
                                 preinclude = 'font-source/padauk' + f + '_init.fea',
                                 make_params="-m _R -z 8 --markattach BSM,LM,LLM=cLowerMarkAttach --markattach BDM=",
