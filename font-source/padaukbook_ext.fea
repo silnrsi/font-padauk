@@ -6,7 +6,7 @@
 # This lets us work on kerning and adjusting distances with ligatures
 # that have been formed in GSUB
 
-include(../font-source/padauk-mym2_GSUB.fea)
+include(../../font-source/padauk-mym2_GSUB.fea)
 
 
 # -------------
@@ -227,5 +227,5 @@ lookup dflt_dist_KSW_shift1037 {
 # Be sure to add new lookups to the list in the padauk-mym2_features.fea file
 # ----------------------------------------------------------------------
 
-include(../font-source/padauk-mym2_features.fea)
+include(../../font-source/padauk-mym2_features.fea)
 

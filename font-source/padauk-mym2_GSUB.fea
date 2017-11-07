@@ -32,7 +32,7 @@ languagesystem mym2 SHN ;
 @class103CLig = [u102F.med u103C u103C.wide u103C_u103D.narr u103C_u103D.wide u103C_u102F.narr
     u103C_u102F.wide u103D u103D.tri];
 
-include(../font-source/padauk-dflt_GSUB.fea)
+include(../../font-source/padauk-dflt_GSUB.fea)
 # -------------
 # GSUB lookups
 # -------------
@@ -138,7 +138,7 @@ lookup mym2_pref_u103Cwide {
 # to make sure they run before u103C ligation
 
 lookup mym2_pstf_signsLig {
-  lookupflag IgnoreBaseGlyphs, UseMarkFilteringSet @cUDia;
+  lookupflag IgnoreBaseGlyphs UseMarkFilteringSet @cUDia;
     sub u1004.kinzi u102D  by u1004.kinzi_u102D;
     sub u1004.kinzi u102E  by u1004.kinzi_u102E;
     sub u1004.kinzi u1032  by u1004.kinzi_u1032;
@@ -256,7 +256,7 @@ lookup mym2_blwf_medVowels {
 
 lookup mym2_pref_u103CLig {
 #  lookupflag IgnoreBaseGlyphs, MarkAttachmentType @class103CLig;
-  lookupflag IgnoreBaseGlyphs, MarkAttachmentType @cLowerMarkAttach;
+  lookupflag IgnoreBaseGlyphs MarkAttachmentType @cLowerMarkAttach;
     sub u103C      u102F.med by u103C_u102F.narr;
     sub u103C      u103D     by u103C_u103D.narr;
     sub u103C      u103D.tri by u103C_u103D.narr.tri;
@@ -417,7 +417,7 @@ lookup mym2_pres_raTriUpperVowel {
 
 @classAA70Lig = [u1032 u103A u1086.kham uAA70];
 lookup mym2_abvs_redupLig {
-  lookupflag IgnoreBaseGlyphs, IgnoreLigatures, UseMarkFilteringSet @classAA70Lig;
+  lookupflag IgnoreBaseGlyphs IgnoreLigatures UseMarkFilteringSet @classAA70Lig;
     sub u1032 uAA70  by u1032_uAA70; #used by default (dflt) lang if Khamti (KHT ) is not enabled
     sub u103A uAA70  by u103A_uAA70;
     sub u1086.kham uAA70  by u1032_uAA70;
