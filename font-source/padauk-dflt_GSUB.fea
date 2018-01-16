@@ -2158,7 +2158,7 @@ lookup dflt_prevowel {
     sub @cCons' lookup dflt_pree_subst [u1004.kinzi u101B.kinzi]' lookup dflt_pree_del @cPreE' @cPreE' @cPreE' u1031' lookup dflt_pree_del;
     sub @cCons' lookup dflt_pree_subst @cPreE' lookup dflt_pree_del @cPreE' @cPreE' u1031' lookup dflt_pree_del;
     sub @cCons' lookup dflt_pree_subst [u1004.kinzi u101B.kinzi]' lookup dflt_pree_del u1039' @cCons' @cPreE' @cPreE' u1031' lookup dflt_pree_del;
-    sub @cCons' lookup dflt_pree_subst u1039' lookup dflt_pree_del @cCons @cPreE' @cPreE' u1031' lookup dflt_pree_del;
+    sub @cCons' lookup dflt_pree_subst u1039' lookup dflt_pree_del @cCons' @cPreE' @cPreE' u1031' lookup dflt_pree_del;
     sub @cCons' lookup dflt_pree_subst [u1004.kinzi u101B.kinzi]' lookup dflt_pree_del @cPreE' @cPreE' u1031' lookup dflt_pree_del;
     sub @cCons' lookup dflt_pree_subst @cPreE' lookup dflt_pree_del @cPreE' u1031' lookup dflt_pree_del;
     sub @cCons' lookup dflt_pree_subst [u1004.kinzi u101B.kinzi]' lookup dflt_pree_del u1039' @cCons' @cPreE' u1031' lookup dflt_pree_del;
