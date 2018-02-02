@@ -3,7 +3,7 @@
 
 import codecs, os
 
-TESTDIR='test-suite'
+TESTDIR='tests'
 VERSION='3.004'
 TTF_VERSION='3.004'
 APPNAME='Padauk'
@@ -19,11 +19,11 @@ There is feature support in Graphite for the following features: kdot, fdot,
 lldt, wtri, ulon, utal, dotc, hsln (value: 0-2), nnya, vtta
 '''
 DEBPKG='ttf-sil-padauk'
-COPYRIGHT='Copyright 2017 SIL International, all rights reserved'
+COPYRIGHT='Copyright 2018 SIL International, all rights reserved'
 #LICENSE='OFL.txt'
 DOCDIR='documentation'
 #VCS='git'
-STANDARDS='standards'
+STANDARDS='tests/reference'
 #README="README.md"
 
 mystrings = {
@@ -48,10 +48,10 @@ scriptcode = 'mymr' if '--no2' in opts else 'mym2'
 #    'xtest1' : tests({'xtest1' : cmd('cmptxtrender -p -k -e ot -s mym2 -l "${lang}" -e ot -s dflt -L mym2 -L dflt -t ${SRC[1]} -o ${TGT} --copy=otfonts --strip ${fileinfo} ${SRC[0]} ${SRC[0]}')})
 #})
 
-ftmlTest('bin/ftml.xsl')
+ftmlTest('tools/ftml.xsl')
 
 for f in ['', 'bold', 'book', 'bookbold'] :
-    fsf = 'font-source/padauk' + f
+    fsf = 'source/padauk' + f
     target = namestrings[f][0].replace(' ', '') + '-' + namestrings[f][1].replace(' ', '')
 
     fnt = font(target = process(target + '.ttf',
@@ -64,26 +64,26 @@ for f in ['', 'bold', 'book', 'bookbold'] :
                 copyright = COPYRIGHT,
                 source = fsf + '_src.sfd',
                 ap = fsf + '.xml',
-                classes = 'font-source/padauk_classes.xml',
+                classes = 'source/padauk_classes.xml',
 #                buildusingfontforge = 1,
-                opentype = fea('font-source/padauk' + f + '.fea',
+                opentype = fea('source/padauk' + f + '.fea',
                                 old_make_fea = True,
-                                master = 'font-source/padauk' + f + '_ext.fea',
-                                preinclude = 'font-source/padauk' + f + '_init.fea',
+                                master = 'source/padauk' + f + '_ext.fea',
+                                preinclude = 'source/padauk' + f + '_init.fea',
                                 make_params="-m _R -z 8 --markattach BSM,LM,LLM=cLowerMarkAttach --markattach BDM=",
-                                depends = map(lambda x:"font-source/padauk-"+x+".fea", 
+                                depends = map(lambda x:"source/padauk-"+x+".fea", 
                                     ('mym2_features', 'mym2_GSUB', 'dflt_GSUB'))),
-#                sfd_master = 'font-source/master.sfd',
+#                sfd_master = 'source/master.sfd',
                 graphite = gdl('padauk' + f + '.gdl',
-                                master = 'font-source/myanmar5.gdl',
+                                master = 'source/myanmar5.gdl',
                                 params = '-w3521 -w3530 -q -d -D -v2', make_params="-m _R",
-                                depends = ['font-source/myfeatures.gdl']),
+                                depends = ['source/myfeatures.gdl']),
 #                tests = test,
                 script = ['mym2', 'DFLT'],
-                extra_srcs = ['bin/makegdl', 'font-source/myfeatures.gdl'],
+                extra_srcs = ['tools/bin/makegdl', 'source/myfeatures.gdl'],
                 pdf = fret(params="-r -oi"),
 #                tests = tests
-                woff = woff(params = '-v ' + VERSION + ' -m ../font-source/padauk-WOFF-metadata.xml')
+                woff = woff(params = '-v ' + VERSION + ' -m ../source/padauk-WOFF-metadata.xml')
             )
 
 def configure(ctx) :
