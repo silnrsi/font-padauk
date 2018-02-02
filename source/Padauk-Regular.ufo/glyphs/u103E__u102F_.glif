@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u103E_u102F" format="2">
+  <advance width="0"/>
+  <anchor x="-223" y="-53" name="_BS"/>
+  <anchor x="-466" y="-53" name="LLM"/>
+  <anchor x="-223" y="-53" name="_BSM"/>
+  <anchor x="21" y="-53" name="LM"/>
+  <anchor x="466" y="-53" name="BSM"/>
+  <outline>
+    <contour>
+      <point x="-271" y="-450" type="line"/>
+      <point x="-405" y="-450" type="line"/>
+      <point x="-405" y="-399" type="line"/>
+      <point x="-322" y="-399" type="line"/>
+      <point x="-322" y="-95" type="line"/>
+      <point x="-271" y="-95" type="line"/>
+    </contour>
+    <contour>
+      <point x="-40" y="-450" type="line"/>
+      <point x="-174" y="-450" type="line"/>
+      <point x="-174" y="-95" type="line"/>
+      <point x="-123" y="-95" type="line"/>
+      <point x="-123" y="-399" type="line"/>
+      <point x="-40" y="-399" type="line"/>
+    </contour>
+  </outline>
+</glyph>

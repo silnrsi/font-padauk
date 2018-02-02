@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u104B" format="2">
+  <advance width="310"/>
+  <unicode hex="104B"/>
+  <outline>
+    <contour>
+      <point x="106" y="0" type="line"/>
+      <point x="55" y="0" type="line"/>
+      <point x="55" y="444" type="line"/>
+      <point x="106" y="444" type="line"/>
+    </contour>
+    <contour>
+      <point x="255" y="0" type="line"/>
+      <point x="204" y="0" type="line"/>
+      <point x="204" y="444" type="line"/>
+      <point x="255" y="444" type="line"/>
+    </contour>
+  </outline>
+</glyph>

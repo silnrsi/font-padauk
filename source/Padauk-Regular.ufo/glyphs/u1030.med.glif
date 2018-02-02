@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1030.med" format="2">
+  <advance width="0"/>
+  <anchor x="-156" y="-53" name="_BS"/>
+  <anchor x="-399" y="-53" name="LLM"/>
+  <anchor x="-156" y="-53" name="_BSM"/>
+  <anchor x="89" y="-53" name="LM"/>
+  <anchor x="154" y="-53" name="BSM"/>
+  <outline>
+    <contour>
+      <point x="-204" y="-450" type="line"/>
+      <point x="-255" y="-450" type="line"/>
+      <point x="-255" y="-95" type="line"/>
+      <point x="-204" y="-95" type="line"/>
+    </contour>
+    <contour>
+      <point x="27" y="-450" type="line"/>
+      <point x="-106" y="-450" type="line"/>
+      <point x="-106" y="-95" type="line"/>
+      <point x="-55" y="-95" type="line"/>
+      <point x="-55" y="-399" type="line"/>
+      <point x="27" y="-399" type="line"/>
+    </contour>
+  </outline>
+</glyph>

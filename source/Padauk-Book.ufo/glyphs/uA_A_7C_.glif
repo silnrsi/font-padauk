@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uAA7C" format="2">
+  <advance width="55"/>
+  <unicode hex="AA7C"/>
+  <anchor x="-237" y="495" name="_U"/>
+  <anchor x="-234" y="495" name="UM"/>
+  <outline>
+    <contour>
+      <point x="0" y="594" type="line"/>
+      <point x="-470" y="594" type="line"/>
+      <point x="-470" y="664" type="line"/>
+      <point x="0" y="664" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uA92E" format="2">
+  <advance width="548"/>
+  <unicode hex="A92E"/>
+  <outline>
+    <contour>
+      <point x="492" y="176" type="line"/>
+      <point x="399" y="224"/>
+      <point x="347" y="241"/>
+      <point x="274" y="241" type="curve" smooth="yes"/>
+      <point x="204" y="241"/>
+      <point x="146" y="226"/>
+      <point x="55" y="175" type="curve"/>
+      <point x="55" y="214" type="line"/>
+      <point x="138" y="269"/>
+      <point x="201" y="291"/>
+      <point x="274" y="291" type="curve" smooth="yes"/>
+      <point x="347" y="291"/>
+      <point x="417" y="266"/>
+      <point x="492" y="214" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

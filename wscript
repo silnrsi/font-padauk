@@ -24,6 +24,7 @@ COPYRIGHT='Copyright 2018 SIL International, all rights reserved'
 DOCDIR='documentation'
 #VCS='git'
 STANDARDS='tests/reference'
+out = 'results'
 #README="README.md"
 
 mystrings = {
@@ -33,10 +34,10 @@ mystrings = {
     'Padauk Book' : 'ပိတောက်စာအုပ်'
 }
 namestrings = {
-    '' :            ('Padauk', 'Regular'),
-    'bookbold' :    ('Padauk Book', 'Bold'),
-    'bold' :        ('Padauk', 'Bold'),
-    'book' :        ('Padauk Book', 'Regular')
+    '-Regular' :     ('Padauk', 'Regular'),
+    '-BookBold' :    ('Padauk Book', 'Bold'),
+    '-Bold' :        ('Padauk', 'Bold'),
+    '-Book' :        ('Padauk Book', 'Regular')
 }
 
 opts = preprocess_args({'opt' : '--no2'})
@@ -50,8 +51,8 @@ scriptcode = 'mymr' if '--no2' in opts else 'mym2'
 
 ftmlTest('tools/ftml.xsl')
 
-for f in ['', 'bold', 'book', 'bookbold'] :
-    fsf = 'source/padauk' + f
+for f in ['-Regular', '-Bold', '-Book', '-BookBold'] :
+    fsf = 'source/Padauk' + f
     target = namestrings[f][0].replace(' ', '') + '-' + namestrings[f][1].replace(' ', '')
 
     fnt = font(target = process(target + '.ttf',
@@ -62,14 +63,14 @@ for f in ['', 'bold', 'book', 'bookbold'] :
                 version = TTF_VERSION,
 #                license = ofl("Padauk"),
                 copyright = COPYRIGHT,
-                source = fsf + '_src.sfd',
+                source = fsf + '.ufo',
                 ap = fsf + '.xml',
                 classes = 'source/padauk_classes.xml',
 #                buildusingfontforge = 1,
                 opentype = fea('source/padauk' + f + '.fea',
                                 old_make_fea = True,
-                                master = 'source/padauk' + f + '_ext.fea',
-                                preinclude = 'source/padauk' + f + '_init.fea',
+                                master = fsf + '_ext.fea',
+                                preinclude = fsf + '_init.fea',
                                 make_params="-m _R -z 8 --markattach BSM,LM,LLM=cLowerMarkAttach --markattach BDM=",
                                 depends = map(lambda x:"source/padauk-"+x+".fea", 
                                     ('mym2_features', 'mym2_GSUB', 'dflt_GSUB'))),

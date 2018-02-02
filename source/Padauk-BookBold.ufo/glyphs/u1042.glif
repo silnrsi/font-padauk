@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1042" format="2">
+  <advance width="600"/>
+  <unicode hex="1042"/>
+  <anchor x="300" y="-53" name="BS"/>
+  <anchor x="300" y="-53" name="L"/>
+  <anchor x="300" y="495" name="U"/>
+  <anchor x="252" y="-53" name="BD"/>
+  <outline>
+    <contour>
+      <point x="508" y="466" type="line"/>
+      <point x="508" y="-271" type="line" smooth="yes"/>
+      <point x="508" y="-384"/>
+      <point x="445" y="-471"/>
+      <point x="300" y="-471" type="curve" smooth="yes"/>
+      <point x="159" y="-471"/>
+      <point x="93" y="-377"/>
+      <point x="93" y="-242" type="curve"/>
+      <point x="205" y="-242" type="line"/>
+      <point x="205" y="-330"/>
+      <point x="250" y="-357"/>
+      <point x="300" y="-357" type="curve" smooth="yes"/>
+      <point x="356" y="-357"/>
+      <point x="394" y="-335"/>
+      <point x="394" y="-256" type="curve" smooth="yes"/>
+      <point x="394" y="466" type="line"/>
+    </contour>
+  </outline>
+</glyph>

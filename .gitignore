@@ -12,6 +12,7 @@ results/**
 *.swp
 *.autosave
 *(Autosaved)*
+*.log
 
 
 # OS X

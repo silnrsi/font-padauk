@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u103B" format="2">
+  <advance width="225"/>
+  <unicode hex="103B"/>
+  <anchor x="331" y="-53" name="BS"/>
+  <anchor x="-386" y="-53" name="LL"/>
+  <anchor x="331" y="-53" name="L"/>
+  <anchor x="112" y="495" name="Y"/>
+  <anchor x="-268" y="-53" name="dot"/>
+  <anchor x="-20" y="495" name="U"/>
+  <anchor x="250" y="-53" name="BD"/>
+  <outline>
+    <contour>
+      <point x="169" y="-471" type="line"/>
+      <point x="-225" y="-372" type="line"/>
+      <point x="-225" y="75" type="line"/>
+      <point x="-111" y="75" type="line"/>
+      <point x="-111" y="-282" type="line"/>
+      <point x="55" y="-324" type="line"/>
+      <point x="55" y="444" type="line"/>
+      <point x="169" y="444" type="line"/>
+    </contour>
+  </outline>
+</glyph>
