@@ -4413,7 +4413,7 @@ FitToEm: 1
 WinInfo: 270 27 9
 BeginPrivate: 0
 EndPrivate
-AnchorClass2: "BD" "markMarkPositioninginMyanmarloo subtable" "BDM" "mkmkMarktoMarkinMyanmarlookup1 subtable" "BS" "pos_mark2base_markmymr_0 subtable" "BSM" "mkmkMarktoMarkinMyanmarlookup3 subtable" "U" "pos_mark2base_markmymr_2 subtable" "UM" "mkmkMarktoMarkinMyanmarlookup7 subtable" "dot" "_someAnchorsbase" "Y" "_someAnchorsbase" "LLM" "_someAnchorsmark" "LR" "_someAnchorsbase" "R" "_someAnchorsbase" "L" "_someAnchorsbase" "LM" "_someAnchorsmark" "LL" "_someAnchorsbase" 
+AnchorClass2: "KRM""" "KR""" "KL""" "A""" "BD" "markMarkPositioninginMyanmarloo subtable" "BDM" "mkmkMarktoMarkinMyanmarlookup1 subtable" "BS" "pos_mark2base_markmymr_0 subtable" "BSM" "mkmkMarktoMarkinMyanmarlookup3 subtable" "U" "pos_mark2base_markmymr_2 subtable" "UM" "mkmkMarktoMarkinMyanmarlookup7 subtable" "dot" "_someAnchorsbase" "Y" "_someAnchorsbase" "LLM" "_someAnchorsmark" "LR" "_someAnchorsbase" "R" "_someAnchorsbase" "L" "_someAnchorsbase" "LM" "_someAnchorsmark" "LL" "_someAnchorsbase" 
 BeginChars: 512 512
 
 StartChar: .notdef
@@ -14028,6 +14028,7 @@ Width: 196
 VWidth: 0
 GlyphClass: 2
 Flags: HW
+AnchorPoint: "KL" -270 0 basechar 0
 AnchorPoint: "BS" 104 -53 basechar 0
 AnchorPoint: "L" 104 -53 basechar 0
 AnchorPoint: "BD" 96 -53 basechar 0
@@ -14059,6 +14060,8 @@ Width: 465
 VWidth: 0
 GlyphClass: 2
 Flags: HW
+AnchorPoint: "KL" -270 0 basechar 0
+AnchorPoint: "KR" 196 0 basechar 0
 AnchorPoint: "BS" 105 -53 basechar 0
 AnchorPoint: "L" 104 -53 basechar 0
 AnchorPoint: "BD" 96 -53 basechar 0
@@ -14338,6 +14341,7 @@ Width: 0
 VWidth: 0
 GlyphClass: 4
 Flags: HW
+AnchorPoint: "KRM" 2 0 basemark 0
 AnchorPoint: "BS" -96 -53 mark 0
 AnchorPoint: "LLM" -276 -53 basemark 0
 AnchorPoint: "BSM" -96 -53 mark 0
@@ -14439,6 +14443,7 @@ Width: 0
 VWidth: 0
 GlyphClass: 4
 Flags: HW
+AnchorPoint: "KRM" 43 0 basemark 0
 AnchorPoint: "BS" -170 -53 mark 0
 AnchorPoint: "LLM" -431 -53 basemark 0
 AnchorPoint: "BSM" -170 -53 mark 0
@@ -15183,6 +15188,7 @@ Width: 192
 VWidth: 0
 GlyphClass: 2
 Flags: HW
+AnchorPoint: "A" 753 0 basechar 0
 AnchorPoint: "R" 192 0 basechar 0
 AnchorPoint: "BS" 868 -53 basechar 0
 AnchorPoint: "LL" 500 -53 basechar 0
@@ -15237,6 +15243,7 @@ Width: 192
 VWidth: 0
 GlyphClass: 2
 Flags: HW
+AnchorPoint: "A" 753 0 basechar 0
 AnchorPoint: "R" 192 0 basechar 0
 AnchorPoint: "BS" 878 -53 basechar 0
 AnchorPoint: "LL" 507 -53 basechar 0
@@ -15281,6 +15288,7 @@ Width: 192
 VWidth: 0
 GlyphClass: 2
 Flags: HW
+AnchorPoint: "A" 1174 0 basechar 0
 AnchorPoint: "R" 192 0 basechar 0
 AnchorPoint: "BS" 1279 -53 basechar 0
 AnchorPoint: "LL" 908 -53 basechar 0
@@ -15327,6 +15335,7 @@ Width: 192
 VWidth: 0
 GlyphClass: 2
 Flags: HW
+AnchorPoint: "A" 1174 0 basechar 0
 AnchorPoint: "R" 192 0 basechar 0
 AnchorPoint: "BS" 1279 -53 basechar 0
 AnchorPoint: "LL" 908 -53 basechar 0
@@ -15379,6 +15388,7 @@ Width: 192
 VWidth: 0
 GlyphClass: 2
 Flags: HW
+AnchorPoint: "A" 753 0 basechar 0
 AnchorPoint: "R" 192 0 basechar 0
 AnchorPoint: "BS" 832 -53 basechar 0
 AnchorPoint: "L" 832 -53 basechar 0
@@ -15433,6 +15443,7 @@ Width: 192
 VWidth: 0
 GlyphClass: 2
 Flags: HW
+AnchorPoint: "A" 1174 0 basechar 0
 AnchorPoint: "R" 192 0 basechar 0
 AnchorPoint: "BS" 1214 -53 basechar 0
 AnchorPoint: "LL" 553 -53 basechar 0
@@ -15487,6 +15498,7 @@ Width: 192
 VWidth: 0
 GlyphClass: 2
 Flags: HW
+AnchorPoint: "A" 753 0 basechar 0
 AnchorPoint: "R" 192 0 basechar 0
 AnchorPoint: "BS" 832 -53 basechar 0
 AnchorPoint: "L" 832 -53 basechar 0
@@ -15530,6 +15542,7 @@ Width: 192
 VWidth: 0
 GlyphClass: 2
 Flags: HW
+AnchorPoint: "A" 1174 0 basechar 0
 AnchorPoint: "R" 192 0 basechar 0
 AnchorPoint: "BS" 1214 -53 basechar 0
 AnchorPoint: "LL" 553 -53 basechar 0
@@ -15575,6 +15588,7 @@ Width: 192
 VWidth: 0
 GlyphClass: 2
 Flags: HW
+AnchorPoint: "A" 753 0 basechar 0
 AnchorPoint: "R" 192 0 basechar 0
 AnchorPoint: "BS" 829 -53 basechar 0
 AnchorPoint: "LL" 307 -53 basechar 0
@@ -15634,6 +15648,7 @@ Width: 192
 VWidth: 0
 GlyphClass: 2
 Flags: HW
+AnchorPoint: "A" 1174 0 basechar 0
 AnchorPoint: "R" 192 0 basechar 0
 AnchorPoint: "BS" 1219 -53 basechar 0
 AnchorPoint: "LL" 693 -53 basechar 0
@@ -15692,6 +15707,7 @@ Width: 192
 VWidth: 0
 GlyphClass: 2
 Flags: HW
+AnchorPoint: "A" 753 0 basechar 0
 AnchorPoint: "R" 192 0 basechar 0
 AnchorPoint: "BS" 829 -53 basechar 0
 AnchorPoint: "LL" 307 -53 basechar 0
@@ -15745,6 +15761,7 @@ Width: 192
 VWidth: 0
 GlyphClass: 2
 Flags: HW
+AnchorPoint: "A" 1174 0 basechar 0
 AnchorPoint: "R" 192 0 basechar 0
 AnchorPoint: "BS" 1219 -53 basechar 0
 AnchorPoint: "LL" 693 -53 basechar 0
@@ -16009,6 +16026,7 @@ Width: 0
 VWidth: 0
 GlyphClass: 4
 Flags: HW
+AnchorPoint: "KRM" 78 0 basemark 0
 AnchorPoint: "BS" -244 -53 mark 0
 AnchorPoint: "LLM" -505 -53 basemark 0
 AnchorPoint: "BSM" -244 -53 mark 0
@@ -16050,6 +16068,7 @@ Width: 0
 VWidth: 0
 GlyphClass: 4
 Flags: HW
+AnchorPoint: "KRM" 90 0 basemark 0
 AnchorPoint: "BS" -318 -53 mark 0
 AnchorPoint: "LLM" -655 -53 basemark 0
 AnchorPoint: "BSM" -318 -53 mark 0
@@ -26957,6 +26976,7 @@ Width: 192
 VWidth: 0
 GlyphClass: 2
 Flags: HW
+AnchorPoint: "A" 753 0 basechar 0
 AnchorPoint: "R" 192 0 basechar 0
 AnchorPoint: "BS" 773 -53 basechar 0
 AnchorPoint: "L" 773 -53 basechar 0
@@ -26998,6 +27018,7 @@ Width: 192
 VWidth: 0
 GlyphClass: 2
 Flags: HW
+AnchorPoint: "A" 1174 0 basechar 0
 AnchorPoint: "R" 192 0 basechar 0
 AnchorPoint: "BS" 1167 -53 basechar 0
 AnchorPoint: "LL" 594 -53 basechar 0
@@ -27041,6 +27062,7 @@ Width: 192
 VWidth: 0
 GlyphClass: 2
 Flags: HW
+AnchorPoint: "A" 753 0 basechar 0
 AnchorPoint: "R" 192 0 basechar 0
 AnchorPoint: "BS" 773 -53 basechar 0
 AnchorPoint: "L" 773 -53 basechar 0
@@ -27087,6 +27109,7 @@ Width: 192
 VWidth: 0
 GlyphClass: 2
 Flags: HW
+AnchorPoint: "A" 1174 0 basechar 0
 AnchorPoint: "R" 192 0 basechar 0
 AnchorPoint: "BS" 1167 -53 basechar 0
 AnchorPoint: "LL" 594 -53 basechar 0

@@ -892,7 +892,7 @@ base character to the wrap, we need to change the advance of the wrap to be the 
 wrap. We do this here.
 @enddoc */
 
-c103c {advance.x = advx};
+c103c {advance.x = AS.x};
 
 endpass;
 
@@ -982,13 +982,13 @@ in the font.
 
 pass(4);
 
-g101b_alt {kern.x = @2.rkern + 10m} cHasRkern {shift.x = -rkern};
+g101b_alt {kern.x = @2.KRMS.x + 10m} cHasRkern {shift.x = -KRMS.x};
 // c102c_tall {kern.x = -xkern} / cCons cLowDia? _;
-c102b {kern.x = xkern / 2} / cUDia _;
-c102b {kern.x = xkern / 2} / c103c cCons cLVowel? cLDia? _;
+c102b {kern.x = -KLS.x / 2} / cUDia _;
+c102b {kern.x = -KLS.x / 2} / c103c cCons cLVowel? cLDia? _;
 cConsNar / g102b_103a=a _ cLowDia? cUDia;
-cCons {kern.x = -@a.xkern} / g102b_103a=a _;
-cPreVowel {kern.x = -@a.xkern} / g102b_103a=a _;
+cCons {kern.x = @a.KLS.x} / g102b_103a=a _;
+cPreVowel {kern.x = @a.KLS.x} / g102b_103a=a _;
 // cRDia {shift.x = (@r.advancewidth + @r.advance.x - advance.x) / 2 + @r.position.x - position.x} / cTakesRDia=r _;
 cUVowel {advance.x = 0m} / c103b _ ;
 // fix kinzi lig in cemetary
