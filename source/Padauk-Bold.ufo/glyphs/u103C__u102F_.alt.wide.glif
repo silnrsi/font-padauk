@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u103C_u102F.alt.wide" format="2">
   <advance width="214"/>
+  <anchor x="1174" y="0" name="A"/>
   <anchor x="214" y="0" name="R"/>
   <anchor x="1243" y="-53" name="BS"/>
   <anchor x="676" y="-53" name="LL"/>

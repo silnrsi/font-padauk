@@ -2,6 +2,7 @@
 <glyph name="u103C" format="2">
   <advance width="234"/>
   <unicode hex="103C"/>
+  <anchor x="848" y="0" name="A"/>
   <anchor x="234" y="0" name="R"/>
   <anchor x="924" y="-53" name="BS"/>
   <anchor x="496" y="-53" name="LL"/>

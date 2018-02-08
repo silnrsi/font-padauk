@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1030.med" format="2">
   <advance width="0"/>
+  <anchor x="43" y="0" name="KRM"/>
   <anchor x="-198" y="-53" name="_BS"/>
   <anchor x="-495" y="-53" name="LLM"/>
   <anchor x="-198" y="-53" name="_BSM"/>

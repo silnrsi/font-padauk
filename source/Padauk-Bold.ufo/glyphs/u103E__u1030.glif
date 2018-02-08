@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u103E_u1030" format="2">
   <advance width="0"/>
+  <anchor x="90" y="0" name="KRM"/>
   <anchor x="-342" y="-53" name="_BS"/>
   <anchor x="-701" y="-53" name="LLM"/>
   <anchor x="-342" y="-53" name="_BSM"/>

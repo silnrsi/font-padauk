@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u103C_u103D.alt.narr.tri" format="2">
   <advance width="214"/>
+  <anchor x="753" y="0" name="A"/>
   <anchor x="214" y="0" name="R"/>
   <anchor x="803" y="-53" name="BS"/>
   <anchor x="803" y="-53" name="L"/>
