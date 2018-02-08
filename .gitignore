@@ -6,6 +6,12 @@
 .waf-*
 .lock-*
 results/**
+graide/**
+
+# general project work
+bugs/**
+dev/**
+
 
 # general backup files
 *~
