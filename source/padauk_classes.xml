@@ -31,7 +31,7 @@
     u1051_u100C u1051_u100D u1052 
     u1053 u1054 u1055 u1056 u1057 u105A u105B u105C u105D u1061 
     u1065 u1066 u106E u106F u1070 u1075 u1075.kham u1076 u1077 u1078 u1079 u107A 
-    u107B u107C u107D u107E u107F u1080 u1081 u108E u1090 u1091 u1092 
+    u107B u107C u107D u107E u107F u1080 u1081 u1081.straight u108E u1090 u1091 u1092 
     u1093 u1094 u1095 u1096 u1097 u1098 u1099 u109E u109F 
     circledash u1700 uAA60 uAA61 
     uAA62 uAA63 uAA64 uAA65 uAA66 uAA67 uAA68 uAA69 uAA6A uAA6B uAA6C uAA6D 
@@ -59,19 +59,19 @@
     uAA60.med
   </property>
   <property name="GDL_order" value="30">u103A u103A_uAA70</property>
-  <property name="GDL_order" value="40">
-    u103B u103B_u103D u103B_u103D_u103E u103B_u103E u103B_u103D.tri u105E 
-    u105F 
+  <property name="GDL_order" value="40" exts=".tri">
+    u103B u103B_u103D u103B_u103D_u103E u103B_u103E u103B_u103D
+    u105E u105F 
   </property>
-  <property name="GDL_order" value="50">
-    u103C u103C.alt.narr u103C.alt.wide u103C.wide u103C_u103D.narr 
-    u103C_u103D.wide u103C_u103D.alt.narr u103C_u103D.alt.wide 
-    u103C_u102F.narr u103C_u102F.wide u103C_u102F.alt.narr 
-    u103C_u102F.alt.wide u103C_u103D.alt.narr.tri u103C_u103D.alt.wide.tri 
-    u103C_u103D.narr.tri u103C_u103D.wide.tri 
+  <property name="GDL_order" value="50" exts=".wide .narr .tri">
+    u103C u103C.alt u103C_u103D
+    u103C_u103D u103C_u103D.alt
+    u103C_u102F u103C_u102F.alt
+    u103C_u103D.alt.narr u103C_u103D.alt.wide 
+    u103C_u103D.narr u103C_u103D.wide 
   </property>
-  <property name="GDL_order" value="60">
-    u103D u103D_u103E u103D_u103E.small u103D.tri u103D_u103E.tri u103D_u108D
+  <property name="GDL_order" value="60" exts=".tri">
+    u103D u103D_u103E u103D_u103E.small u103D_u108D
     u1058 u1059 u1082 u101C.med_u103D u1082_u108D
   </property>
   <property name="GDL_order" value="70">
