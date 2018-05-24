@@ -1,0 +1,15 @@
+#!/bin/sh
+# Script for calling multiple routines on a project, typically prior to committing to a repository.
+
+# update psnames and sort order in Regular, which also normalizes it
+# psfsetpsnames -p checkfix=fix -i source/glyph_data.csv source/masters/Padauk-Regular.ufo -l source/logs/psnames.log
+# psfsetglyphorder --header sort_final -i source/glyph_data.csv source/masters/Padauk-Regular.ufo -l source/logs/sortorder.log
+
+# normalize other family members
+psfnormalize -p checkfix=fix source/masters/Padauk-Regular.ufo -l source/logs/normR.log
+psfnormalize -p checkfix=fix source/masters/Padauk-Book.ufo -l source/logs/normKR.log
+psfnormalize -p checkfix=fix source/masters/Padauk-Bold.ufo -l source/logs/normB.log
+psfnormalize -p checkfix=fix source/masters/Padauk-BookBold.ufo -l source/logs/normKB.log
+
+# copy psnames and glyphorder and any other updates to all fonts
+psfsyncmasters source/Padauk.designspace -l source/logs/sync.log
