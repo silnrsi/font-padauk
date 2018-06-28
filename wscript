@@ -51,42 +51,35 @@ scriptcode = 'mymr' if '--no2' in opts else 'mym2'
 
 ftmlTest('tools/ftml.xsl')
 
-for f in ['-Regular', '-Bold', '-Book', '-BookBold'] :
-    fsf = 'source/masters/Padauk' + f
-    sf  = 'source/Padauk' + f
-    target = namestrings[f][0].replace(' ', '') + '-' + namestrings[f][1].replace(' ', '')
+# for f in ['-Regular', '-Bold', '-Book', '-BookBold'] :
 
-    fnt = font(target = process(target + '.ttf',
-                        name(namestrings[f][0], lang='en-US', subfamily = namestrings[f][1]),
-                        cmd('${TTFAUTOHINT} -n -W ${DEP} ${TGT}'),
-                        cmd('${TTX} -f -o ' + target + '.ttx' + ' ${DEP}; ${TTX} -f -o ${TGT} ' + target + '.ttx')
-                        ),
-                version = TTF_VERSION,
-#                license = ofl("Padauk"),
-                copyright = COPYRIGHT,
-                source = fsf + '.ufo',
-                ap = sf + '.xml',
-                classes = 'source/padauk_classes.xml',
-#                buildusingfontforge = 1,
-                opentype = fea('source/padauk' + f + '.fea',
-                                old_make_fea = True,
-                                master = sf + '_ext.fea',
-                                preinclude = sf + '_init.fea',
-                                make_params="-m _R -z 8 --markattach BSM,LM,LLM=cLowerMarkAttach --markattach BDM=",
-                                depends = map(lambda x:"source/padauk-"+x+".fea", 
-                                    ('mym2_features', 'mym2_GSUB', 'dflt_GSUB'))),
-#                sfd_master = 'source/master.sfd',
-                graphite = gdl('padauk' + f + '.gdl',
-                                master = 'source/myanmar5.gdl',
-                                params = '-w3521 -w3530 -q -d -D -v2', make_params="-m _R",
-                                depends = ['source/myfeatures.gdl']),
-#                tests = test,
-                script = ['mym2', 'DFLT'],
-                extra_srcs = ['tools/bin/makegdl', 'source/myfeatures.gdl'],
-                pdf = fret(params="-r -oi"),
-#                tests = tests
-                woff = woff(params = '-v ' + VERSION + ' -m ../source/padauk-WOFF-metadata.xml')
-            )
+designspace('source/Padauk.designspace',
+    params = '-l ${DS:FILENAME_BASE}_createintance.log',
+    target = process('${DS:FILENAME_BASE}.ttf',
+        cmd('${TTFAUTOHINT} -n -W ${DEP} ${TGT}'),
+#        cmd('${TTX} -f -o ' + target + '.ttx' + ' ${DEP}; ${TTX} -f -o ${TGT} ' + target + '.ttx')
+    ),
+#    version = TTF_VERSION,
+#    license = ofl("Padauk"),
+#    copyright = COPYRIGHT,
+    ap = '${DS:FILENAME_BASE}.xml',
+    classes = 'source/padauk_classes.xml',
+    opentype = fea('source/${DS:FILENAME_BASE}.fea',
+        old_make_fea = True,
+        master = 'source/${DS:FILENAME_BASE}_ext.fea',
+        preinclude = 'source/${DS:FILENAME_BASE}_init.fea',
+        make_params="-m _R -z 8 --markattach BSM,LM,LLM=cLowerMarkAttach --markattach BDM=",
+        depends = map(lambda x:"source/padauk-"+x+".fea", 
+            ('mym2_features', 'mym2_GSUB', 'dflt_GSUB'))),
+    graphite = gdl('source/${DS:FILENAME_BASE}.gdl',
+        master = 'source/myanmar5.gdl',
+        params = '-w3521 -w3530 -q -d -D -v2', make_params="-m _R",
+        depends = ['source/myfeatures.gdl']),
+    script = ['mym2', 'DFLT'],
+    extra_srcs = ['tools/bin/makegdl', 'source/myfeatures.gdl'],
+    pdf = fret(params="-r -oi"),
+    woff = woff('web/${DS:FILENAME_BASE}.woff', params = '-v ' + VERSION + ' -m ../source/padauk-WOFF-metadata.xml')
+)
 
 def configure(ctx) :
     ctx.find_program('ttfautohint')
