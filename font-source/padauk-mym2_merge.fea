@@ -331,14 +331,7 @@ lookup mym2_raUpperVowelSubst {
 lookup mym2_pres_raUpperVowel {
   lookupflag 0;
     sub [@class103C_noalt]'lookup mym2_raUpperVowelSubst [@cCons]  [@classBigUpperVowel];
-  subtable;
-    sub [@class103C_noalt]'lookup mym2_raUpperVowelSubst [@cCons] [\u103B] [@classBigUpperVowel];
-  subtable;
-    sub [@class103C_noalt]'lookup mym2_raUpperVowelSubst [@cCons] [\u103E] [@classBigUpperVowel];
-  subtable;
-    sub [@class103C_noalt]'lookup mym2_raUpperVowelSubst [@cCons] [\u103D_u103E] [@classBigUpperVowel];
-  subtable;
-    sub [@class103C_noalt]'lookup mym2_raUpperVowelSubst [@cCons] [@cmed] [@classBigUpperVowel];
+    sub [@class103C_noalt]'lookup mym2_raUpperVowelSubst [@cCons] [u103B u103E u103D_u103E @cmed] [@classBigUpperVowel];
 } mym2_pres_raUpperVowel;
 
 lookup mym2_raTriUpperVowelSubst {
@@ -350,14 +343,7 @@ lookup mym2_raTriUpperVowelSubst {
 lookup mym2_pres_raTriUpperVowel {
   lookupflag 0;
     sub [@class103C_noalt]'lookup mym2_raTriUpperVowelSubst [@cCons]  [@classBigUpperVowel];
-  subtable;
-    sub [@class103C_noalt]'lookup mym2_raTriUpperVowelSubst [@cCons] [\u103B] [@classBigUpperVowel];
-  subtable;
-    sub [@class103C_noalt]'lookup mym2_raTriUpperVowelSubst [@cCons] [\u103E] [@classBigUpperVowel];
-  subtable;
-    sub [@class103C_noalt]'lookup mym2_raTriUpperVowelSubst [@cCons] [\u103D_u103E] [@classBigUpperVowel];
-  subtable;
-    sub [@class103C_noalt]'lookup mym2_raTriUpperVowelSubst [@cCons] [@cmed] [@classBigUpperVowel];
+    sub [@class103C_noalt]'lookup mym2_raTriUpperVowelSubst [@cCons] [u103B u103E u103D_u103E @cmed] [@classBigUpperVowel];
 } mym2_pres_raTriUpperVowel;
 
 
@@ -396,23 +382,8 @@ lookup mym2_sub1014Subst {
 
 lookup mym2_blws_sub1014 {
   lookupflag 0;
-    sub [\u100A \u1014 ]'lookup mym2_sub1014Subst  [@cBDDia] ;
-  subtable;
+    sub [\u100A \u1014 ]'lookup mym2_sub1014Subst  [@cBDDia @cBSDia u103B u102F u102F.med u1030 u1030.med u1060] ;
     sub [\u100A \u1014 ]'lookup mym2_sub1014Subst  [@cUDia] [@cBSDia] ;
-  subtable;
-    sub [\u100A \u1014 ]'lookup mym2_sub1014Subst  [@cBSDia] ;
-  subtable;
-    sub [\u100A \u1014 ]'lookup mym2_sub1014Subst  [\u103B ] ;
-  subtable;
-    sub [\u100A \u1014 ]'lookup mym2_sub1014Subst  [\u102F ] ;
-  subtable;
-    sub [\u100A \u1014 ]'lookup mym2_sub1014Subst  [\u1030 ] ;
-  subtable;
-    sub [\u100A \u1014 ]'lookup mym2_sub1014Subst  [\u102F.med ] ;
-  subtable;
-    sub [\u100A \u1014 ]'lookup mym2_sub1014Subst  [\u1030.med ] ;
-  subtable;
-    sub [\u100A \u1014 ]'lookup mym2_sub1014Subst  [\u1060 ] ;
 } mym2_blws_sub1014;
 
 lookup mym2_raLongSubst {
