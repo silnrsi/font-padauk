@@ -381,14 +381,7 @@ lookup mym2_raUpperVowelSubst {
 lookup mym2_pres_raUpperVowel {
   lookupflag 0;
     sub [@class103C_noalt]'lookup mym2_raUpperVowelSubst [@cCons]  [@classBigUpperVowel];
-  subtable;
-    sub [@class103C_noalt]'lookup mym2_raUpperVowelSubst [@cCons] [u103B] [@classBigUpperVowel];
-  subtable;
-    sub [@class103C_noalt]'lookup mym2_raUpperVowelSubst [@cCons] [u103E u103E.alt u103D_u103E.small.tri] [@classBigUpperVowel];
-  subtable;
-    sub [@class103C_noalt]'lookup mym2_raUpperVowelSubst [@cCons] [u103D_u103E] [@classBigUpperVowel];
-  subtable;
-    sub [@class103C_noalt]'lookup mym2_raUpperVowelSubst [@cCons] [@cmed] [@classBigUpperVowel];
+    sub [@class103C_noalt]'lookup mym2_raUpperVowelSubst [@cCons] [@cmed u103B u103D_u103E u103E u103E.alt u103D_u103E.small.tri] [@classBigUpperVowel];
 } mym2_pres_raUpperVowel;
 
 lookup mym2_raTriUpperVowelSubst {
@@ -400,14 +393,7 @@ lookup mym2_raTriUpperVowelSubst {
 lookup mym2_pres_raTriUpperVowel {
   lookupflag 0;
     sub [@class103C_noalt_tri]'lookup mym2_raTriUpperVowelSubst [@cCons]  [@classBigUpperVowel];
-  subtable;
-    sub [@class103C_noalt_tri]'lookup mym2_raTriUpperVowelSubst [@cCons] [u103B] [@classBigUpperVowel];
-  subtable;
-    sub [@class103C_noalt_tri]'lookup mym2_raTriUpperVowelSubst [@cCons] [u103E u103E.alt] [@classBigUpperVowel];
-  subtable;
-    sub [@class103C_noalt_tri]'lookup mym2_raTriUpperVowelSubst [@cCons] [u103D_u103E] [@classBigUpperVowel];
-  subtable;
-    sub [@class103C_noalt_tri]'lookup mym2_raTriUpperVowelSubst [@cCons] [@cmed] [@classBigUpperVowel];
+    sub [@class103C_noalt_tri]'lookup mym2_raTriUpperVowelSubst [@cCons] [@cmed u103B u103D_u103E u103E u103E.alt] [@classBigUpperVowel];
 } mym2_pres_raTriUpperVowel;
 
 

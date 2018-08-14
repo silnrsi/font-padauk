@@ -54,7 +54,7 @@ ftmlTest('tools/ftml.xsl')
 # for f in ['-Regular', '-Bold', '-Book', '-BookBold'] :
 
 designspace('source/Padauk.designspace',
-    params = '-l ${DS:FILENAME_BASE}_createintance.log',
+    params = '-l ${DS:FILENAME_BASE}_createinstance.log',
     target = process('${DS:FILENAME_BASE}.ttf',
         cmd('${TTFAUTOHINT} -n -W ${DEP} ${TGT}'),
 #        cmd('${TTX} -f -o ' + target + '.ttx' + ' ${DEP}; ${TTX} -f -o ${TGT} ' + target + '.ttx')
@@ -65,10 +65,10 @@ designspace('source/Padauk.designspace',
     ap = '${DS:FILENAME_BASE}.xml',
     classes = 'source/padauk_classes.xml',
     opentype = fea('source/${DS:FILENAME_BASE}.fea',
-        old_make_fea = True,
-        master = 'source/${DS:FILENAME_BASE}_ext.fea',
-        preinclude = 'source/${DS:FILENAME_BASE}_init.fea',
-        make_params="-m _R -z 8 --markattach BSM,LM,LLM=cLowerMarkAttach --markattach BDM=",
+#        old_make_fea = True,
+#        master = 'source/${DS:FILENAME_BASE}_ext.fea',
+#        preinclude = 'source/${DS:FILENAME_BASE}_init.fea',
+#        make_params="-m _R -z 8 --markattach BSM,LM,LLM=cLowerMarkAttach --markattach BDM=",
         depends = map(lambda x:"source/padauk-"+x+".fea", 
             ('mym2_features', 'mym2_GSUB', 'dflt_GSUB'))),
     graphite = gdl('source/${DS:FILENAME_BASE}.gdl',

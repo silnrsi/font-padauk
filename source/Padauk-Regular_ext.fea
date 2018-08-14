@@ -29,44 +29,14 @@ include(../../source/padauk-mym2_GSUB.fea)
 # Adding advanced width for spacing marks (defined as marks in GDEF)
 lookup dist_SpacingMarks {
   lookupflag 0;
-    pos u103C <0 0 172 0>;
-    pos u103C.alt.narr <0 0 172 0>;
-    pos u103C.alt.wide <0 0 172 0>;
-    pos u103C.wide <0 0 172 0>;
-    pos u103C_u103D.narr <0 0 172 0>;
-    pos u103C_u103D.wide <0 0 172 0>;
-    pos u103C_u103D.alt.narr <0 0 172 0>;
-    pos u103C_u103D.alt.wide <0 0 172 0>;
-    pos u103C_u102F.narr <0 0 172 0>;
-    pos u103C_u102F.wide <0 0 172 0>;
-    pos u103C_u102F.alt.narr <0 0 172 0>;
-    pos u103C_u102F.alt.wide <0 0 172 0>;
-    pos u103C_u103D.alt.narr.tri <0 0 172 0>;
-    pos u103C_u103D.alt.wide.tri <0 0 172 0>;
-    pos u103C_u103D.narr.tri <0 0 172 0>;
-    pos u103C_u103D.wide.tri <0 0 172 0>;
+    pos [@class103CNarr @class103CWide] <0 0 172 0>;
     # AA70 is a spacing mark in isolated form
     pos uAA70 <0 0 534 0>;
 } dist_SpacingMarks; 
 
 lookup dist_dflt_SpacingMarks {
   lookupflag 0;
-    pos u103C @cCons' <172 0 172 0>;
-    pos u103C.alt.narr @cCons' <172 0 172 0>;
-    pos u103C.alt.wide @cCons' <172 0 172 0>;
-    pos u103C.wide @cCons' <172 0 172 0>;
-    pos u103C_u103D.narr @cCons' <172 0 172 0>;
-    pos u103C_u103D.wide @cCons' <172 0 172 0>;
-    pos u103C_u103D.alt.narr @cCons' <172 0 172 0>;
-    pos u103C_u103D.alt.wide @cCons' <172 0 172 0>;
-    pos u103C_u102F.narr @cCons' <172 0 172 0>;
-    pos u103C_u102F.wide @cCons' <172 0 172 0>;
-    pos u103C_u102F.alt.narr @cCons' <172 0 172 0>;
-    pos u103C_u102F.alt.wide @cCons' <172 0 172 0>;
-    pos u103C_u103D.narr.tri @cCons' <172 0 172 0>;
-    pos u103C_u103D.wide.tri @cCons' <172 0 172 0>;
-    pos u103C_u103D.alt.narr.tri @cCons' <172 0 172 0>;
-    pos u103C_u103D.alt.wide.tri @cCons' <172 0 172 0>;
+    pos [@class103CNarr @class103CWide] @cCons' <172 0 172 0>;
     pos uAA70 @cCons' <534 0 534 0>;
 } dist_dflt_SpacingMarks;
 
@@ -162,21 +132,8 @@ lookup shift_1032 {
 # where certain upper marks or re-ordered glyphs are present
 # !! A mkmk lookup but it must come before lookup extend_base_L_base !!
 
-@classmk2mkLM = [u1010.med u102F.med u1030.med u1037 u103B u103D u103D_u103E 
-    u103D_u108D u103E u103E_u102F u103E_u1030];
-
 lookup mk2mk_LM {
-  lookupflag UseMarkFilteringSet @classmk2mkLM;
-  markClass [u1037] <anchor -74 -53> @LM;
-  pos mark [u1010.med] <anchor 104 -53> mark @LM; # 2195
-  pos mark [u102F.med] <anchor 88 -53> mark @LM;
-  pos mark [u1030.med] <anchor 89 -53> mark @LM;
-  pos mark [u103D] <anchor 89 -53> mark @LM;
-  pos mark [u103D_u103E] <anchor 88 -53> mark @LM;
-  pos mark [u103D_u108D] <anchor 89 -53> mark @LM;
-  pos mark [u103E] <anchor 89 -53> mark @LM;
-  pos mark [u103E_u102F] <anchor 21 -53> mark @LM;
-  pos mark [u103E_u1030] <anchor 21 -53> mark @LM;
+  pos mark @LM_MarkBase mark @_LM;
 } mk2mk_LM;
 
 # These have to be run again even though they are in 
