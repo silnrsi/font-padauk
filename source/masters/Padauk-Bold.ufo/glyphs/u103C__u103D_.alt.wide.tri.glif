@@ -6,6 +6,7 @@
   <anchor x="1199" y="-53" name="BS"/>
   <anchor x="581" y="-53" name="LL"/>
   <anchor x="1199" y="-53" name="L"/>
+  <anchor x="780" y="930" name="UL"/>
   <outline>
     <contour>
       <point x="984" y="-354" type="curve" smooth="yes"/>

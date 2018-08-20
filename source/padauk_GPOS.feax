@@ -1,0 +1,41 @@
+
+lookup base_BD_base {
+    pos base @BD mark @_BD;
+} base_BD_base;
+
+lookup base_BS_base {
+    pos base @BS mark @_BS;
+} base_BS_base;
+
+lookup base_L_base {
+    pos base @L mark @_L;
+} base_L_base;
+
+lookup base_U_base {
+    pos base @U mark @_U;
+} base_U_base;
+
+lookup base_Y_base {
+    pos base @Y mark @_Y;
+} base_Y_base;
+
+lookup base_BDM_mark {
+    pos mark @BDM_MarkBase mark @_BDM;
+} base_BDM_mark;
+
+lookup base_BSM_mark {
+    pos mark @BSM_MarkBase mark @_BSM;
+} base_BSM_mark;
+
+@LM_Filter = [@LM_MarkBase @_LM];
+lookup base_LM_mark {
+    lookupflag UseMarkFilteringSet @LM_Filter;
+    pos mark @LM_MarkBase mark @_LM;
+} base_LM_mark;
+
+@LLM_Filter = [@LLM_MarkBase @_LLM];
+lookup base_LLM_mark {
+    lookupflag UseMarkFilteringSet @LLM_Filter;
+    pos mark @LLM_MarkBase mark @_LLM;
+} base_LLM_mark;
+

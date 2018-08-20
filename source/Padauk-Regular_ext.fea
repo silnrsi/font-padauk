@@ -6,7 +6,9 @@
 # This lets us work on kerning and adjusting distances with ligatures
 # that have been formed in GSUB
 
-include(../../source/padauk-mym2_GSUB.fea)
+include(../source/Padauk-Regular_init.fea)
+include(../source/padauk-mym2_GSUB.fea)
+include(../source/padauk_GPOS.feax)
 
 
 # -------------
@@ -29,16 +31,43 @@ include(../../source/padauk-mym2_GSUB.fea)
 # Adding advanced width for spacing marks (defined as marks in GDEF)
 lookup dist_SpacingMarks {
   lookupflag 0;
-    pos [@class103CNarr @class103CWide] <0 0 172 0>;
-    # AA70 is a spacing mark in isolated form
-    pos uAA70 <0 0 534 0>;
+do  let a = ADVx("u103C");
+    let b = ADVx("uAA70");
+    {
+        pos [@class103CNarr @class103CWide] <0 0 $a 0>;
+        # AA70 is a spacing mark in isolated form
+        pos uAA70 <0 0 $b 0>;
+    }
 } dist_SpacingMarks; 
 
 lookup dist_dflt_SpacingMarks {
   lookupflag 0;
-    pos [@class103CNarr @class103CWide] @cCons' <172 0 172 0>;
-    pos uAA70 @cCons' <534 0 534 0>;
+do  let a = ADVx("u103C");
+    let b = ADVx("uAA70");
+    {
+        pos [@class103CNarr @class103CWide] @cCons' <$a 0 $a 0>;
+        pos uAA70 @cCons' <$b 0 $b 0>;
+    }
 } dist_dflt_SpacingMarks;
+
+lookup shift_103C_udia {
+  lookupflag 0;
+# shift upper diacritics that clash with the u103C
+do  for w = [narr wide];
+    for c = [@U];
+    for u = [@_U];
+    let g = "u103C.alt." + w;
+    let cname = "@class103C" + w.title();
+    let isgood = c in feaclass("cConsNar" if w == "narr" else "cConsWide");
+    let ydiff = APy(g, "UL") - MAXy(u) - APy(u, "_U") + APy(c, "U");
+    let maxs = APx(g, "UL") - ADVx(g);
+    let s = maxs - APx(c, "U") + APx(u, "_U") - MINx(u) + MAXx(u) if isgood else -1;
+    let s = s - maxs if ydiff >= 0 else s;
+    if s > 20;
+    {
+        pos [$cname] $c $u' <$s 0 $s 0>;
+    }
+} shift_103C_udia;
 
 # Normally u1037 attaches to u103D or u102F. But when the latter two
 # become part of a 103C ligature, they become reordered before a 
@@ -47,53 +76,19 @@ lookup dist_dflt_SpacingMarks {
 ### NB: Some configurations and advance width still need to be adjusted
 lookup kern_103Clig_1037 {
   lookupflag 0;
-    pos u103C_u103D.narr     [@cCons] [@cUDia] u1037' <332 0 0 0>;
-    pos u103C_u103D.narr     [@cCons]          u1037' <332 0 169 0>;
-#    pos u103C_u103D.wide     [@cCons] [@cUDia] u1037' <0 0 0 0>;
-#    pos u103C_u103D.wide     [@cCons]          u1037' <0 0 0 0>;
-#    pos u103C_u103D.alt.narr [@cCons] [@cUDia] u1037' <0 0 0 0>;
-#    pos u103C_u103D.alt.narr [@cCons]          u1037' <0 0 0 0>;
-#    pos u103C_u103D.alt.wide [@cCons] [@cUDia] u1037' <0 0 0 0>;
-#    pos u103C_u103D.alt.wide [@cCons]          u1037' <0 0 0 0>;
-    pos u103C_u102F.narr     [u1016]   u1036   u1037' <317 0 153 0>; #1527
-    pos u103C_u102F.narr     [@cCons] [@cUDia] u1037' <315 0 153 0>;
-    pos u103C_u102F.narr     [@cCons]          u1037' <315 0 0 0>;
-#    pos u103C_u102F.wide     [@cCons] [@cUDia] u1037' <0 0 0 0>;
-#    pos u103C_u102F.wide     [@cCons]          u1037' <0 0 0 0>;
-    pos u103C_u102F.alt.narr [u1001]   u102D   u1037' <326 0 157 0>; # BLK #498-99
-    pos u103C_u102F.alt.narr [u1015]   u102D   u1037' <317 0 154 0>; # BLK #2017, 4840
-    pos u103C_u102F.alt.narr [u1016]   u102D   u1037' <317 0 153 0>; # BLK #2249, 4939
-    pos u103C_u102F.alt.narr [u1017]   u102D   u1037' <317 0 153 0>; #1605
-    pos u103C_u102F.alt.narr [@cCons] [@cUDia] u1037' <315 0 153 0>;
-    pos u103C_u102F.alt.narr [@cCons]          u1037' <315 0 0 0>;
-    pos u103C_u102F.alt.wide [@cCons] [@cUDia] u1037' <309 0 150 0>; # 163
-    pos u103C_u102F.alt.wide [@cCons]          u1037' <309 0 0 0>;
+do  for w = [narr wide];
+    for alt = [none alt];
+    for g = [u103C_u103D u103C_u102F];
+    let gname = g + "." + alt + "." + w if alt == "alt" else g + "." + w;
+    let base = "u1002" if w == "narr" else "u1000";
+    let a = APx(gname, "L") - ADVx(gname) - APx(base, "L");
+    let b = -2 * APx("u1037", "_L") + 10;
+    if a > 0;
+    {
+        pos $gname [@cCons] [@_U] u1037' <$a 0 $b 0>;
+        pos $gname [@cCons]       u1037' <$a 0 $b 0>;
+    }
 } kern_103Clig_1037;
-
-lookup dflt_kern_103Clig_1037 {
-  lookupflag 0;
-    pos u103C_u103D.narr     [@cCons] [@cUDia] u1037' <332 0 169 0>; #jdc
-    pos u103C_u103D.narr     [@cCons]          u1037' <332 0 169 0>; #jdc
-    pos u103C_u103D.wide     [@cCons] [@cUDia] u1037' <332 0 169 0>; #jdc
-    pos u103C_u103D.wide     [@cCons]          u1037' <332 0 169 0>; #jdc
-#    pos u103C_u103D.alt.narr [@cCons] [@cUDia] u1037' <0 0 0 0>;
-#    pos u103C_u103D.alt.narr [@cCons]          u1037' <0 0 0 0>;
-#    pos u103C_u103D.alt.wide [@cCons] [@cUDia] u1037' <0 0 0 0>;
-#    pos u103C_u103D.alt.wide [@cCons]          u1037' <0 0 0 0>;
-    pos u103C_u102F.narr     [u1016]   u1036   u1037' <317 0 153 0>; #1527 #jdc
-    pos u103C_u102F.narr     [@cCons] [@cUDia] u1037' <315 0 153 0>; #jdc
-    pos u103C_u102F.narr     [@cCons]          u1037' <315 0 0 0>;
-#    pos u103C_u102F.wide     [@cCons] [@cUDia] u1037' <309 0 150 0>; #jdc
-#    pos u103C_u102F.wide     [@cCons]          u1037' <309 0 150 0>; #jdc
-    pos u103C_u102F.alt.narr [u1001]   u102D   u1037' <326 0 157 0>; # BLK #498-99 #jdc
-    pos u103C_u102F.alt.narr [u1015]   u102D   u1037' <317 0 154 0>; # BLK #2017, 4840 #jdc
-    pos u103C_u102F.alt.narr [u1016]   u102D   u1037' <317 0 153 0>; # BLK #2249, 4939 #jdc
-    pos u103C_u102F.alt.narr [u1017]   u102D   u1037' <317 0 153 0>; #1605 #jdc
-    pos u103C_u102F.alt.narr [@cCons] [@cUDia] u1037' <315 0 153 0>; #jdc
-    pos u103C_u102F.alt.narr [@cCons]          u1037' <315 0 0 0>;
-    pos u103C_u102F.alt.wide [@cCons] [@cUDia] u1037' <309 0 150 0>; # 163 #jdc
-    pos u103C_u102F.alt.wide [@cCons]          u1037' <309 0 0 0>;
-} dflt_kern_103Clig_1037;
 
 #-----------------------------------------------------------------------
 # This section deals with 101B and some lower diacritics
@@ -101,26 +96,29 @@ lookup dflt_kern_103Clig_1037 {
 # Adding LSB to ensure that the lower diacritic doesn't protrude 
 # backwards into a previous cluster.
 # Adding RSB to ensure that the next *base* glyph is spaced correctly
-lookup dist_101Balt {
+lookup mark_101Balt {
   lookupflag 0;
-    pos u101B.alt' <100 0 100 0> u103E_u1030' <-90 0 0 0>;
-    pos u101B.alt' <88 0 88 0>   u103E_u102F' <-78 0 0 0>;
-    pos u101B.alt' <53 0 53 0>   u1030.med'   <-43 0 0 0>;
-    pos u101B.alt' <12 0 12 0>   u102F.med'   <-2 0 0 0>;
+    pos u101B.alt u103E_u1030' lookup base_BD_base;
+#    pos u101B.alt' <100 0 100 0> u103E_u1030' <-90 0 0 0>;
+#    pos u101B.alt' <88 0 88 0>   u103E_u102F' <-78 0 0 0>;
+#    pos u101B.alt' <53 0 53 0>   u1030.med'   <-43 0 0 0>;
+#    pos u101B.alt' <12 0 12 0>   u102F.med'   <-2 0 0 0>;
     
-    pos u101B.alt' <12 0 12 0>   [u1032 u1036]' u102F.med' <-2 0 0 0>;
-} dist_101Balt;
+#    pos u101B.alt' <12 0 12 0>   [u1032 u1036]' u102F.med' <-2 0 0 0>;
+} mark_101Balt;
 #-----------------------------------------------------------------------
 
 #-----------------------------------------------------------------------
 # Input sequence is "cons. u102F u1032" with u1032 attaching to the cons.
 lookup shift_1032 {
   lookupflag 0;
-    pos u100D u102F u1032' <-196 0 0 0>; #MNW #865
-    pos u1025 u102F u1032' <-196 0 0 0>; #MNW #3014
-    pos u105D u102F u1032' <-196 0 0 0>; #MNW #3104
-    pos u103B u102F u1032' <-102 0 0 0>; #MNW #1660
-    pos u100F_u100D u102F u1032' <-177 0 0 0>; #BLK #2634
+# shift the 1032 so it sits over the cons
+do  for g = [u100D u1025 u105D u103B u100F_u100D];
+    let s = APx(g, "U") - ADVx(g) - APx("u102F", "Y") + APx("u1032", "_Y") - APx("u1032", "_U");
+    if s < 0;
+    {
+        pos $g u102F u1032' <$s 0 0 0>;
+    }
 } shift_1032;
 #-----------------------------------------------------------------------
 
@@ -138,41 +136,30 @@ lookup mk2mk_LM {
 
 # These have to be run again even though they are in 
 # the autogenerated lookup base_L_base
-lookup extend_base_L_base {
-  lookupflag 0;
-  markClass [u1037] <anchor -74 -53> @L;
-  pos base [u1009] <anchor 276 -53> mark @L;
-  pos base [u101B] <anchor 646 -53> mark @L;
-  pos base [u101B.alt] <anchor 676 -53> mark @L;
-  pos base [u101B.long] <anchor 676 -53> mark @L;
-  pos base [u1025] <anchor 276 -53> mark @L;
-  pos base [u102C] <anchor 133 -53> mark @L;
-  pos base [u103B] <anchor 250 -53> mark @L;
-} extend_base_L_base;
+#lookup extend_base_L_base {
+#  lookupflag 0;
+#  markClass [u1037] <anchor -74 -53> @L;
+#  pos base [u1009] <anchor 276 -53> mark @L;
+#  pos base [u101B] <anchor 646 -53> mark @L;
+#  pos base [u101B.alt] <anchor 676 -53> mark @L;
+#  pos base [u101B.long] <anchor 676 -53> mark @L;
+#  pos base [u1025] <anchor 276 -53> mark @L;
+#  pos base [u102C] <anchor 133 -53> mark @L;
+#  pos base [u103B] <anchor 250 -53> mark @L;
+#} extend_base_L_base;
 
 # This lookup excluively for KSW (Sgaw Karen) language
 # It shifts u1037 to the left of any lower diacritic
 # !! This needs to come after mark and mkmk lookups to override the AP !!
 # Sometimes RSB value added to negate adv width rule when u1037 is on the right
-lookup dist_KSW_shift1037 {
+lookup mark_KSW_shift1037 {
   lookupflag 0;
-  pos u101B        u1037' <-354 0 -187 0>;
-#  pos u1030.med    u1037' <-488 0 0 0>;
-  pos u103B        u1037' <-601 0 -163 0>;
-#  pos u103D.tri    u1037' <-308 0 0 0>;
-#  pos u103E.slanth u1037' <-221 0 0 0>;
-  pos u1061        u1037' <-410 0 -187 0>;
-} dist_KSW_shift1037;
-
-lookup dflt_dist_KSW_shift1037 {
-  lookupflag 0;
-  pos u101B' -187        u1037' <-354 0 0 0>;
-  pos u1030.med    u1037' <-488 0 0 0>;
-  pos u103B' -163        u1037' <-601 0 0 0>;
-  pos u103D.tri    u1037' <-308 0 0 0>;
-  pos u103E.slanth u1037' <-221 0 0 0>;
-  pos u1061' -187        u1037' <-410 0 0 0>;
-} dflt_dist_KSW_shift1037;
+do  for g = [u101B u103B u1061];
+    let gx = APx(g, "LL");
+    {
+        pos base $g <anchor $gx 0> mark @_L;
+    }
+} mark_KSW_shift1037;
 
 
 # ****
@@ -186,5 +173,5 @@ lookup dflt_dist_KSW_shift1037 {
 # Be sure to add new lookups to the list in the padauk-mym2_features.fea file
 # ----------------------------------------------------------------------
 
-include(../../source/padauk-mym2_features.fea)
+include(../source/padauk-mym2_features.fea)
 

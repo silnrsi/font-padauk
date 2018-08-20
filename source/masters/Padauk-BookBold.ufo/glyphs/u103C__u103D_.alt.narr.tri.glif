@@ -5,6 +5,7 @@
   <anchor x="234" y="0" name="R"/>
   <anchor x="832" y="-53" name="BS"/>
   <anchor x="832" y="-53" name="L"/>
+  <anchor x="440" y="930" name="UL"/>
   <outline>
     <contour>
       <point x="636" y="-356" type="curve" smooth="yes"/>

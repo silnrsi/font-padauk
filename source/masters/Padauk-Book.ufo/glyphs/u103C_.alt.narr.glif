@@ -7,6 +7,7 @@
   <anchor x="507" y="-53" name="LL"/>
   <anchor x="878" y="-53" name="L"/>
   <anchor x="841" y="-53" name="BD"/>
+  <anchor x="422" y="930" name="UL"/>
   <outline>
     <contour>
       <point x="728" y="-92" type="line"/>

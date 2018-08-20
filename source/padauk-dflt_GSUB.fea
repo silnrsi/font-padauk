@@ -113,18 +113,18 @@ lookup dflt_error2 {
     ignore sub [@cCons @meds @evowel] @uvowel';
     ignore sub [@usvowel u1032] u1036';
     ignore sub [@usvowel] u1032';
-    ignore sub [@cCons @meds @evowel @uvowel] @clvowel';
-    ignore sub [@cCons @meds @evowel @uvowel @clvowel] u1086';
-    ignore sub [@cCons @meds @evowel @uvowel @clvowel u1086] u1037';
-    ignore sub [@cCons @meds @evowel @uvowel @clvowel u1062 u1086 u1037] @avowel';
-    ignore sub [@cCons @meds @evowel @uvowel @clvowel u1086 u1037 @avowel u1032 u1036] @ptone';
-    ignore sub [u102D @clvowel @avowel] [u1036 u1032]';
-    ignore sub [@clvowel u1086 @avowel u1032 u1036 @ptone] u1037';
+    ignore sub [@cCons @meds @evowel @uvowel] @lvowel';
+    ignore sub [@cCons @meds @evowel @uvowel @lvowel] u1086';
+    ignore sub [@cCons @meds @evowel @uvowel @lvowel u1086] u1037';
+    ignore sub [@cCons @meds @evowel @uvowel @lvowel u1062 u1086 u1037] @avowel';
+    ignore sub [@cCons @meds @evowel @uvowel @lvowel u1086 u1037 @avowel u1032 u1036] @ptone';
+    ignore sub [u102D @lvowel @avowel] [u1036 u1032]';
+    ignore sub [@lvowel u1086 @avowel u1032 u1036 @ptone] u1037';
     ignore sub [@ptone u1037 u102B u102C u103E @cCons u1082] u103A';
-    ignore sub [@cCons @meds @evowel @uvowel @clvowel u1062 u1086 u1037 @avowel u1032 u1036 @ptone u103A u104B] @visarga';
-    ignore sub [@cCons @meds @evowel @uvowel @clvowel u1062 u1086 u1037 @avowel u1032 u1036 @ptone u103A @visarga u104B u1038] @redup';
+    ignore sub [@cCons @meds @evowel @uvowel @lvowel u1062 u1086 u1037 @avowel u1032 u1036 @ptone u103A u104B] @visarga';
+    ignore sub [@cCons @meds @evowel @uvowel @lvowel u1062 u1086 u1037 @avowel u1032 u1036 @ptone u103A @visarga u104B u1038] @redup';
 
-    sub [@evowel @uvowel @clvowel u1062 u1089 u1037 @avowel @ptone @visarga @redup]' lookup dflt_dc_before;
+    sub [@evowel @uvowel @lvowel u1062 u1089 u1037 @avowel @ptone @visarga @redup]' lookup dflt_dc_before;
     sub [@avowel u103E] u103A' lookup dflt_dc_before u1037;
 } dflt_error2;
     
