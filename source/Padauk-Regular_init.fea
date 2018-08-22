@@ -26,11 +26,17 @@ do  for b = [@cConsNarStack];
     let m = "u1000.med";
     let o = APx(m, "_BD") - APx(b, "BD");
     let l = o - MINx(m) - ADVx(m) - MAXx(m);
+    let l = l if l > 0 else 0;
     let r = ADVx(m) - ADVx(b) - o;
+    let r = r if r > 0 else 0;
     let a = l + r;
-    if l > 0 or r > 0;
+    if a > 0;
     {
-        pos $b' <$l 0 $a 0> @cMedWide;
+        pos [@cFillLowBefore @cLowerMarkAttach] $b' <$l 0 $a 0> @cMedWide [@_U] [@cFillLowAfter];
+        pos [@cFillLowBefore @cLowerMarkAttach] $b' <$l 0 $a 0> @cMedWide [@cFillLowAfter];
+        pos [@cFillLowBefore @cLowerMarkAttach] $b' <$l 0 $l 0> @cMedWide;
+        pos $b' <0 0 $r 0> @cMedWide [@_U] [@cFillLowAfter];
+        pos $b' <0 0 $r 0> @cMedWide [@cFillLowAfter];
     }
 
 # overlaps of upper consonants
@@ -51,22 +57,31 @@ do  for b = [@U];
     }
 } guard;
 
+lookup guard_dot {
+# wish we could update some notional advance in the base from the previous set of rules
+# right hanging U+1037
+do  for b = [@L];
+    let g = "u1037";
+    let a = APx(b, "L") - APx(g, "_L") + ADVx(g) - ADVx(b);
+    if not b.startswith("u103C") and a > 0;
+    {
+        pos $b' $a [@_U] $g;
+        pos $b' $a $g;
+    }
+} guard_dot;
+
 lookup dist_103C_Cons {
 # Move consnarr with wide base to the middle of the u103c.wide. Only needed for sanskrit
 do  for c = [@cConsNarStack];
     let m = "u1000.med";
-    let o = APx(m, "_BD") - APx(c, "BD");
-    let l = o - MINx(m) - ADVx(m) - MAXx(m);
-    let r = ADVx(m) - ADVx(c) - o;
-    let aold = l + r;
-    let s = int(APx("u103C.wide", "A") / 2) - ADVx("u103C.wide") - APx(c, "BS") - l;
-    let a = APx("u103C.wide", "A") - ADVx("u103C.wide") - s - ADVx(c) - l - aold; 
+    let s = int(APx("u103C.wide", "A") / 2) - APx(m, "_BD") + MINx(m) - ADVx("u103C.wide");
+    let a = APx("u103C.wide", "A") - ADVx("u103C.wide") - ADVx(c);
     if s > 0;
     {
-        pos @c_wide' $s $c' <$a 110 0 $a> @cMedWide;
+        pos @class103CWide $c' <$s 110 $a 0> @cMedWide;
     }
 
-    pos [@class103CNarr] [@cCons]' <0 110 0 0> @cMed;
+    pos [@class103CNarr @class103CWide] [@cCons]' <0 110 0 0> @cMed;
 
 #    pos u103C                u1014.alt' <0 110 52 0>   u1013.med; # Sanskrit #126
 } dist_103C_Cons;
