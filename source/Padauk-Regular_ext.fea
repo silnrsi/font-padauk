@@ -30,7 +30,6 @@ include(../source/padauk_GPOS.feax)
 
 # Adding advanced width for spacing marks (defined as marks in GDEF)
 lookup dist_SpacingMarks {
-  lookupflag 0;
 do  let a = ADVx("u103C");
     let b = ADVx("uAA70");
     {
@@ -41,7 +40,6 @@ do  let a = ADVx("u103C");
 } dist_SpacingMarks; 
 
 lookup dist_dflt_SpacingMarks {
-  lookupflag 0;
 do  let a = ADVx("u103C");
     let b = ADVx("uAA70");
     {
@@ -51,7 +49,6 @@ do  let a = ADVx("u103C");
 } dist_dflt_SpacingMarks;
 
 lookup shift_103C_udia {
-  lookupflag 0;
 # shift upper diacritics that clash with the u103C
 do  for w = [narr wide];
     for c = [@U];
@@ -75,7 +72,6 @@ do  for w = [narr wide];
 # This 'hack' gets it close to where it should be.
 ### NB: Some configurations and advance width still need to be adjusted
 lookup kern_103Clig_1037 {
-  lookupflag 0;
 do  for w = [narr wide];
     for alt = [none alt];
     for g = [u103C_u103D u103C_u102F];
@@ -97,7 +93,6 @@ do  for w = [narr wide];
 # backwards into a previous cluster.
 # Adding RSB to ensure that the next *base* glyph is spaced correctly
 lookup mark_101Balt {
-  lookupflag 0;
     pos u101B.alt u103E_u1030' lookup base_BD_base;
 #    pos u101B.alt' <100 0 100 0> u103E_u1030' <-90 0 0 0>;
 #    pos u101B.alt' <88 0 88 0>   u103E_u102F' <-78 0 0 0>;
@@ -111,7 +106,6 @@ lookup mark_101Balt {
 #-----------------------------------------------------------------------
 # Input sequence is "cons. u102F u1032" with u1032 attaching to the cons.
 lookup shift_1032 {
-  lookupflag 0;
 # shift the 1032 so it sits over the cons
 do  for g = [u100D u1025 u105D u103B u100F_u100D];
     let s = APx(g, "U") - ADVx(g) - APx("u102F", "Y") + APx("u1032", "_Y") - APx("u1032", "_U");
@@ -153,7 +147,6 @@ lookup mk2mk_LM {
 # !! This needs to come after mark and mkmk lookups to override the AP !!
 # Sometimes RSB value added to negate adv width rule when u1037 is on the right
 lookup mark_KSW_shift1037 {
-  lookupflag 0;
 do  for g = [u101B u103B u1061];
     let gx = APx(g, "LL");
     {

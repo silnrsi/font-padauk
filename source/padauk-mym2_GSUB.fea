@@ -35,73 +35,21 @@ include(../source/padauk-dflt_GSUB.fea)
 # locl
 # ****
 
-lookup mym2_locl_dot {
-  lookupflag 0;
-    sub u1036 by u1036.dot ;
-    sub u1038 by u1038.dot ;
-    sub u1087 by u1087.dot ;
-    sub u1088 by u1088.dot ;
-    sub u1089 by u1089.dot ;
-    sub u108A by u108A.dot ;
-    sub u109A by u109A.dot ;
-    sub u109B by u109B.dot ;
-    sub uAA7B by uAA7B.dot ;
-} mym2_locl_dot;
-
-lookup mym2_locl_kham {
-  lookupflag 0;
-    sub u1000 by u1000.kham ;
-    sub u1002 by u1002.kham ;
-    sub u1004 by u1004.kham ;
-    sub u1010 by u1010.kham ;
-    sub u1015 by u1015.kham ;
-    sub u1019 by u1019.kham ;
-    sub u101A by u101A.kham ;
-    sub u101C by u101C.kham ;
-    sub u1022 by u1022.kham ;
-    sub u1032 by u1086.kham ;
-    sub u1086 by u1086.kham ;
-    sub u1075 by u1075.kham ;
-    sub u1078 by u1078.kham ;
-    sub u1080 by u1080.kham ;
-    sub uAA60 by uAA60.kham ;
-    sub uAA60.med by uAA60.med.kham ;
-    sub uAA61 by uAA61.kham ;
-    sub uAA62 by uAA62.kham ;
-    sub uAA63 by uAA63.kham ;
-    sub uAA64 by uAA64.kham ;
-    sub uAA65 by uAA65.kham ;
-    sub uAA66 by uAA66.kham ;
-    sub uAA6B by uAA6B.kham ;
-    sub uAA6C by uAA6C.kham ;
-    sub uAA6F by uAA6F.kham ;
-    sub uAA73 by uAA73.kham ;
-    sub uAA75 by uAA75.kham ;
-    sub uAA76 by uAA76.kham ;
-} mym2_locl_kham;
-
-lookup mym2_locl_tri {
-  lookupflag 0;
-    sub u103D by u103D.tri;
-} mym2_locl_tri;
-
-lookup mym2_locl_slantr {
-  lookupflag 0;
-    sub u103E by u103E.slantr;
-} mym2_locl_slantr;
-
-lookup mym2_locl_slanth {
-  lookupflag 0;
-    sub u103E by u103E.slanth;
-} mym2_locl_slanth;
-
+do  for e = [dot kham tri slantr slanth];
+    let lk = "mym2_locl_"+e;
+    let no = "@cno_"+e;
+    let c = "@c_"+e;
+    {
+lookup $lk {
+    sub $no by $c;
+} $lk;
+    }
 
 # ****
 # rphf
 # ****
 
 lookup mym2_rphf_kinzi {
-  lookupflag 0;
     sub u1004 u103A u1039  by u1004.kinzi;
     sub u105A u103A u1039  by u1004.kinzi; # Mon kinzi
     sub u101B u103A u1039  by u101B.kinzi;
@@ -113,7 +61,6 @@ lookup mym2_rphf_kinzi {
 # ****
 
 lookup mym2_pref_miscLig {
-  lookupflag 0;
     sub u103C u1014 u1039 u1010 by u1014_u1010_u103C;
     sub u103C u101E u1039 u1010 by u101E_u1010_u103C;
     sub u103B u103D  by u103B_u103D;
@@ -123,7 +70,6 @@ lookup mym2_pref_miscLig {
 } mym2_pref_miscLig;
 
 lookup mym2_pref_u103Cwide {
-  lookupflag 0;
     sub u103C' [@cConsWide]            by u103C.wide;
     sub u103C' [@cConsNar] [@cMedWide] by u103C.wide; # Some cases in Sanskrit
 } mym2_pref_u103Cwide;
@@ -178,54 +124,16 @@ lookup DFLT_signsLig {
 } DFLT_signsLig;
 
 lookup mym2_blwf_u1039med {
-  lookupflag 0;
-    sub u1039 u1000  by u1000.med;
-    sub u1039 u1001  by u1001.med;
-    sub u1039 u1002  by u1002.med;
-    sub u1039 u1003  by u1003.med;
-    sub u1039 u1004  by u1004.med;
-    sub u1039 u1005  by u1005.med;
-    sub u1039 u1006  by u1006.med;
-    sub u1039 u1007  by u1007.med;
-    sub u1039 u1008  by u1008.med;
-    sub u1039 u100A  by u100A.med;
-    sub u1039 u100B  by u100B.med;
-    sub u1039 u100C  by u100C.med;
-    sub u1039 u100D  by u100D.med;
-    sub u1039 u100E  by u100E.med;
-    sub u1039 u100F  by u100F.med;
-    sub u1039 u1010  by u1010.med;
-    sub u1039 u1011  by u1011.med;
-    sub u1039 u1012  by u1012.med;
-    sub u1039 u1013  by u1013.med;
-    sub u1039 u1014  by u1014.med;
-    sub u1039 u1015  by u1015.med;
-    sub u1039 u1016  by u1016.med;
-    sub u1039 u1017  by u1017.med;
-    sub u1039 u1018  by u1018.med;
-    sub u1039 u1019  by u1019.med;
-    sub u1039 u101A  by u101A.med;
-    sub u1039 u101B  by u101B.med;
-    sub u1039 u101C  by u101C.med;
-    sub u1039 u101E  by u101E.med;
-    sub u1039 u1021  by u1021.med;
-    sub u1039 u1050  by u1050.med;
-    sub u1039 u1051  by u1051.med;
-    sub u1039 u105A  by u105A.med; # Mon medial form
-    sub u1039 u105B  by u105B.med;
-    sub u1039 u105C  by u105C.med;
-    sub u1039 uAA60  by uAA60.med;
+    sub u1039 @cno_med by @c_med;
 } mym2_blwf_u1039med;
 
 
 lookup mym2_medVowelSubst {
-  lookupflag 0;
     sub u102F by u102F.med;
     sub u1030 by u1030.med;
 } mym2_medVowelSubst;
 
 lookup mym2_blwf_medVowels {
-  lookupflag 0;
     @classneedsUtall = [u1008 u100B u100D u1020 u1025 u105A u105B u105D u1061 u107A u107E];
     
     ignore sub [@class103C] [@cCons] [u103E u103E.alt u103E.slantr] [@_U] [u102F u1030]';
@@ -265,14 +173,12 @@ lookup mym2_pref_u103CLig {
 # ****
 
 lookup mym2_103Ealt_Subst {
-  lookupflag 0;
     sub u103D_u103E  by u103D_u103E.small;
     sub u103E.slantr by u103E.alt;
     sub u103E        by u103E.alt;
 } mym2_103Ealt_Subst;
 
 lookup mym2_blwf_103Ealt {
-  lookupflag 0;
     sub [@class103C] [@cCons] u103D_u103E'  lookup mym2_103Ealt_Subst;
     sub [@class103C] [@cCons] u103E.slantr' lookup mym2_103Ealt_Subst;
     sub [@class103C] [@cCons] u103E'        lookup mym2_103Ealt_Subst;
@@ -286,23 +192,19 @@ lookup mym2_blwf_103Ealt {
 #	the u103D_u103E.small.tri. Maybe someone will find more elegant way.
 
 lookup mym2_smalltri_Subst1 {
-  lookupflag 0;
     sub u103C_u103D.narr.tri by u103C; # Kayah
 } mym2_smalltri_Subst1;
 
 lookup mym2_smalltri_Subst2 {
-  lookupflag 0;
     sub u103E.alt by u103D_u103E.small.tri; # Kayah
 } mym2_smalltri_Subst2;
 
 lookup mym2_blwf_smalltri {
-  lookupflag 0;
     sub u103C_u103D.narr.tri' lookup mym2_smalltri_Subst1 [@cCons]' u103E.alt' lookup mym2_smalltri_Subst2; # Kayah
 } mym2_blwf_smalltri;
 # -------------------------------------------------------------------
 
 lookup mym2_blwf_MonNga {
-  lookupflag 0;
     sub u105A' u103A by u1004;
 } mym2_blwf_MonNga;
 
@@ -314,20 +216,17 @@ lookup mym2_blwf_MonNga {
 # This clig lookup group must come here so u102B_u103A can form
 # --------------------------------------------------------------------
 lookup g1037_103A_Subst {
-  lookupflag 0;
     sub u1037 by u103A;
     sub u103A by u1037;
 } g1037_103A_Subst;
 
 # Use u102B as context so liga u102B_u103A can form
 lookup mym2_swap_1037_103A {
-  lookupflag 0;
     sub u102B u1037' lookup g1037_103A_Subst u103A' lookup g1037_103A_Subst;
 } mym2_swap_1037_103A;
 # ---------------------- End of lookup group -------------------------
 
 lookup mym2_pstf_asatLig {
-  lookupflag 0;
     sub u102B u103A  by u102B_u103A;
     sub u1062 u103A  by u1062_u103A;
 #    sub u1063 u103A  by u1063_u103A; # lig not used (Sgaw Karen)
@@ -336,14 +235,12 @@ lookup mym2_pstf_asatLig {
 } mym2_pstf_asatLig;
 
 lookup mym2_pstf_1009 {
-  lookupflag 0;
     sub u1009' u1037 u103A by u1025;
     sub u1009'       u103A by u1025;
     sub u1009' [@c_med]     by u1025;
 } mym2_pstf_1009;
 
 lookup mym2_pstf_tall_U {
-  lookupflag 0;
 #    sub [@c_med] [@_U] [u102F.med u1030.med]' by [u102F u1030];
 #    sub [@c_med]          [u102F.med u1030.med]' by [u102F u1030];
 #    sub [u102F.med u1030.med]' [@c_med]          by [u102F u1030];
@@ -357,12 +254,10 @@ lookup mym2_pstf_tall_U {
 # ****
 
 lookup mym2_pres_u103Cwide {
-  lookupflag 0;
     sub u103C' @cConsNar @cMedWide by u103C.wide; # Some cases in Sanskrit
 } mym2_pres_u103Cwide;
 
 lookup mym2_raUpperVowelSubst {
-  lookupflag 0;
     sub u103C by u103C.alt.narr;
     sub u103C.wide by u103C.alt.wide;
     sub u103C_u102F.narr by u103C_u102F.alt.narr;
@@ -373,19 +268,16 @@ lookup mym2_raUpperVowelSubst {
 
 # NB: Eventually the last 4 could maybe be consolidated into one rule
 lookup mym2_pres_raUpperVowel {
-  lookupflag 0;
     sub [@class103C_noalt]'lookup mym2_raUpperVowelSubst [@cCons]  [@classBigUpperVowel];
     sub [@class103C_noalt]'lookup mym2_raUpperVowelSubst [@cCons] [@c_med u103B u103D_u103E u103E u103E.alt u103D_u103E.small.tri] [@classBigUpperVowel];
 } mym2_pres_raUpperVowel;
 
 lookup mym2_raTriUpperVowelSubst {
-  lookupflag 0;
     sub u103C_u103D.narr.tri by u103C_u103D.alt.narr.tri;
     sub u103C_u103D.wide.tri by u103C_u103D.alt.wide.tri;
 } mym2_raTriUpperVowelSubst;
 
 lookup mym2_pres_raTriUpperVowel {
-  lookupflag 0;
     sub [@class103C_noalt_tri]'lookup mym2_raTriUpperVowelSubst [@cCons]  [@classBigUpperVowel];
     sub [@class103C_noalt_tri]'lookup mym2_raTriUpperVowelSubst [@cCons] [@c_med u103B u103D_u103E u103E u103E.alt] [@classBigUpperVowel];
 } mym2_pres_raTriUpperVowel;
@@ -409,7 +301,6 @@ lookup mym2_abvs_redupLig {
 # ****
 
 lookup mym2_blws_miscLig {
-  lookupflag 0;
     sub u100A u100A.med  by u100A_u100A; # Mon stylistic default
     sub u100B u100B.med  by u100B_u100B;
     sub u100B u100C.med  by u100B_u100C;
@@ -445,29 +336,24 @@ lookup mym2_blws_103ELig {
 } mym2_blws_103ELig;
 
 lookup mym2_sub1014Subst {
-  lookupflag 0;
     sub u100A by u100A.alt ;
     sub u1014 by u1014.alt ;
 } mym2_sub1014Subst;
 
 lookup mym2_blws_sub1014 {
-  lookupflag 0;
     sub [u100A u1014 ]'lookup mym2_sub1014Subst  [@_BD @_BS u103B u102F u102F.med u1030 u1030.med u1060 u1010_u103D.med] ;
     sub [u100A u1014 ]'lookup mym2_sub1014Subst  [@_U] [@_BS] ;
 } mym2_blws_sub1014;
 
 lookup mym2_blws_raLong {
-  lookupflag 0;
     sub u101B' [u103E u103E.slantr] by u101B.long;
 } mym2_blws_raLong;
 
 lookup mym2_raShortSubst {
-  lookupflag 0;
     sub u101B by u101B.alt ;
 } mym2_raShortSubst;
 
 lookup mym2_blws_raShort {
-  lookupflag 0;
     ignore sub u101B.long' [u103E u103E.slantr];
     sub u101B' [@_U] [@_BS] by u101B.alt;
     sub u101B' [@_BS]          by u101B.alt;
@@ -480,7 +366,6 @@ lookup mym2_blws_raShort {
 # ****
 
 lookup mym2_psts_miscLig {
-  lookupflag 0;
     sub u1000 u103B u1015 u103A  by u1000_u103B_u1015_u103A;
     sub u1000 u1001.med u103B  by u1000_u1001_u103B;
     sub u1009 u102C  by u1009_u102C;
@@ -496,57 +381,48 @@ lookup mym2_psts_miscLig {
 ### First are sets of glyphs to be swapped
 # --------------------------------------------------------------------
 
+@updot = [u1032 u1036];
 # ----------------------- UDiac - u102F.med --------------------------
 lookup UDiac_102FmedSubst1 {
-  lookupflag 0;
-    sub u1032 by u102F.med u1032;
-    sub u1036 by u102F.med u1036;
+    sub @updot by u102F.med @updot;
 } UDiac_102FmedSubst1;
 
 lookup UDiac_102FmedSubst2 {
-  lookupflag 0;
-    sub u1032 u102F.med by u1032;
-    sub u1036 u102F.med by u1036;
+    sub @updot u102F.med by @updot;
 } UDiac_102FmedSubst2;
 
 # ----------------------- u102B - u1036 ------------------------------
 lookup g102B_1036_Subst {
-  lookupflag 0;
     sub u102B by u1036;
     sub u1036 by u102B;
 } g102B_1036_Subst;
 
 # ----------------------- u1032 - u102F ------------------------------
 lookup g1032_102F_Subst {
-  lookupflag 0;
     sub u1032 by u102F;
     sub u102F by u1032;
 } g1032_102F_Subst;
 
 # ----------------------- u1032 - u1030.med --------------------------
 lookup g1032_1030med_Subst {
-  lookupflag 0;
     sub u1032 by u1030.med;
     sub u1030.med by u1032;
 } g1032_1030med_Subst;
 
 # ----------------------- u1062 - u1086 ------------------------------
 lookup g1062_1086_Subst {
-  lookupflag 0;
     sub u1062 by u1086;
     sub u1086 by u1062;
 } g1062_1086_Subst;
 
 # ----------------------- u1062 - u1086.kham -------------------------
 lookup g1062_1086k_Subst {
-  lookupflag 0;
     sub u1062 by u1086.kham;
     sub u1086.kham by u1062;
 } g1062_1086k_Subst;
 
 # -----------------------u1062 - u1032_uAA70 -------------------------
 lookup g1062_1032_uAA70_Subst {
-  lookupflag 0;
     sub u1062 by u1032_uAA70;
     sub u1032_uAA70 by u1062;
 } g1062_1032_uAA70_Subst;
@@ -556,13 +432,11 @@ lookup g1062_1032_uAA70_Subst {
 
 # reorder so that tone u108D precedes vowel u1062 or u1083
 lookup tla_Vowel108DSubst1 {
-  lookupflag 0;
     sub u1062 by u108D u1062;
     sub u1083 by u108D u1083;
 } tla_Vowel108DSubst1;
 
 lookup tla_Vowel108DSubst2 {
-  lookupflag 0;
     sub u1062 u108D by u1062;
     sub u1083 u108D by u1083;
 } tla_Vowel108DSubst2;
@@ -572,7 +446,6 @@ lookup tla_Vowel108DSubst2 {
 
 # reorder so that tone uAA7C precedes vowel u1083
 lookup tla_VowelAA7C_Subst {
-  lookupflag 0;
     sub u1083 by uAA7C;
     sub uAA7C by u1083;
 } tla_VowelAA7C_Subst;
@@ -582,7 +455,6 @@ lookup tla_VowelAA7C_Subst {
 ### Next is the list of glyphs to be swapped
 # --------------------------------------------------------------------
 lookup mym2_swap_thing1_thing2 {
-  lookupflag 0;
     sub u1032' lookup UDiac_102FmedSubst1    u102F.med'   lookup UDiac_102FmedSubst2; # Pa'o Karen
     sub u1036' lookup UDiac_102FmedSubst1    u102F.med'   lookup UDiac_102FmedSubst2; # Pa'o Karen
     sub u102B' lookup g102B_1036_Subst       u1036'       lookup g102B_1036_Subst; # Mon

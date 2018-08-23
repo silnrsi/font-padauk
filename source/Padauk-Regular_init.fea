@@ -5,7 +5,6 @@
 @class103CWide = [u103C.wide u103C.alt.wide u103C_u103D.wide u103C_u103D.alt.wide u103C_u102F.wide u103C_u102F.alt.wide u103C_u103D.alt.wide.tri u103C_u103D.wide.tri]; 
 
 lookup kernltall {
-    lookupflag 0;
 do  for g = [@KL];
     let x = -APx(g, "KL");
     {
