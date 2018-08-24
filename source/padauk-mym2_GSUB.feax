@@ -26,7 +26,7 @@
 @class103CLig = [u102F.med u103C u103C.wide u103C_u103D.narr u103C_u103D.wide u103C_u102F.narr
     u103C_u102F.wide u103D u103D.tri];
 
-include(../source/padauk-dflt_GSUB.fea)
+include(../source/padauk-dflt_GSUB.feax)
 # -------------
 # GSUB lookups
 # -------------

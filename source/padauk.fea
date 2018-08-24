@@ -1,3 +1,6 @@
+include(../source/padauk-mym2_GSUB.feax)
+include(../source/padauk_GPOS.feax)
+
 languagesystem DFLT dflt;
 languagesystem DFLT KHN;
 languagesystem DFLT KHT;
