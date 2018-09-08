@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uAA60.med" format="2">
-  <advance width="0"/>
-  <anchor x="-826" y="-53" name="LLM"/>
-  <anchor x="-382" y="-53" name="_BD"/>
-  <anchor x="68" y="-53" name="BSM"/>
-  <anchor x="68" y="-53" name="LM"/>
-  <anchor x="-382" y="-53" name="_BDM"/>
   <anchor x="375" y="-53" name="BDM"/>
+  <anchor x="68" y="-53" name="BSM"/>
+  <anchor x="-826" y="-53" name="LLM"/>
+  <anchor x="68" y="-53" name="LM"/>
+  <anchor x="-382" y="-53" name="_BD"/>
+  <anchor x="-382" y="-53" name="_BDM"/>
   <outline>
     <contour>
       <point x="-102" y="-302" type="curve"/>

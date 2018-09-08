@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u101C.med" format="2">
-  <advance width="0"/>
-  <anchor x="-891" y="-53" name="LLM"/>
-  <anchor x="-393" y="-53" name="_BD"/>
   <anchor x="107" y="-53" name="BSM"/>
+  <anchor x="-891" y="-53" name="LLM"/>
   <anchor x="107" y="-53" name="LM"/>
+  <anchor x="-393" y="-53" name="_BD"/>
   <anchor x="-390" y="-53" name="_BDM"/>
   <outline>
     <contour>

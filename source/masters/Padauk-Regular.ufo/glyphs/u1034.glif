@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1034" format="2">
-  <advance width="0"/>
   <unicode hex="1034"/>
-  <anchor x="-75" y="495" name="_Y"/>
-  <anchor x="-193" y="495" name="_U"/>
   <anchor x="-193" y="495" name="UM"/>
+  <anchor x="-193" y="495" name="_U"/>
+  <anchor x="-75" y="495" name="_Y"/>
   <outline>
     <contour>
       <point x="-55" y="819" type="line"/>

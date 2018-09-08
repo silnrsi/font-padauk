@@ -2,11 +2,11 @@
 <glyph name="circledash" format="2">
   <advance width="636"/>
   <unicode hex="25CC"/>
-  <anchor x="0" y="0" name="_R"/>
+  <anchor x="318" y="-53" name="BD"/>
   <anchor x="318" y="-53" name="BS"/>
   <anchor x="318" y="-53" name="L"/>
   <anchor x="318" y="495" name="U"/>
-  <anchor x="318" y="-53" name="BD"/>
+  <anchor x="0" y="0" name="_R"/>
   <outline>
     <contour>
       <point x="561" y="139" type="curve" smooth="yes"/>

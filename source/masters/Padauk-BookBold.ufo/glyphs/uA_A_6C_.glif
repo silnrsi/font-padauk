@@ -2,11 +2,11 @@
 <glyph name="uAA6C" format="2">
   <advance width="1017"/>
   <unicode hex="AA6C"/>
-  <anchor x="-2" y="0" name="_R"/>
+  <anchor x="508" y="-54" name="BD"/>
   <anchor x="736" y="-54" name="BS"/>
   <anchor x="736" y="-54" name="L"/>
-  <anchor x="508" y="-54" name="BD"/>
   <anchor x="736" y="510" name="U"/>
+  <anchor x="-2" y="0" name="_R"/>
   <outline>
     <contour>
       <point x="961" y="220" type="curve" smooth="yes"/>

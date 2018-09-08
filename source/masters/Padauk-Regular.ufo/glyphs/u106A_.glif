@@ -2,10 +2,10 @@
 <glyph name="u106A" format="2">
   <advance width="291"/>
   <unicode hex="106A"/>
+  <anchor x="154" y="-53" name="BD"/>
   <anchor x="154" y="-53" name="BS"/>
   <anchor x="154" y="-53" name="L"/>
   <anchor x="225" y="495" name="U"/>
-  <anchor x="154" y="-53" name="BD"/>
   <outline>
     <contour>
       <point x="251" y="444" type="line"/>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1004.kinzi_u1036" format="2">
   <advance width="55"/>
-  <anchor x="-258" y="495" name="_U"/>
   <anchor x="-258" y="495" name="UM"/>
+  <anchor x="-258" y="495" name="_U"/>
   <outline>
     <contour>
       <point x="-165" y="586" type="line"/>

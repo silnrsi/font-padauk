@@ -2,11 +2,11 @@
 <glyph name="uAA77" format="2">
   <advance width="832"/>
   <unicode hex="AA77"/>
-  <anchor x="0" y="0" name="R"/>
-  <anchor x="264" y="-53" name="BS"/>
-  <anchor x="292" y="-53" name="LL"/>
-  <anchor x="646" y="-53" name="L"/>
   <anchor x="155" y="-53" name="BD"/>
+  <anchor x="264" y="-53" name="BS"/>
+  <anchor x="646" y="-53" name="L"/>
+  <anchor x="292" y="-53" name="LL"/>
+  <anchor x="0" y="0" name="R"/>
   <anchor x="292" y="495" name="U"/>
   <outline>
     <contour>

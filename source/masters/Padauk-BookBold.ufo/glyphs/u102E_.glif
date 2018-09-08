@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u102E" format="2">
-  <advance width="0"/>
   <unicode hex="102E"/>
-  <anchor x="-98" y="495" name="_Y"/>
-  <anchor x="-237" y="495" name="_U"/>
   <anchor x="-237" y="495" name="UM"/>
+  <anchor x="-237" y="495" name="_U"/>
+  <anchor x="-98" y="495" name="_Y"/>
   <outline>
     <contour>
       <point x="-162" y="673" type="curve"/>

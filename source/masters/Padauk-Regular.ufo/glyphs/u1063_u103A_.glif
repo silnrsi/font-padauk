@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1063_u103A" format="2">
   <advance width="568"/>
+  <anchor x="306" y="-53" name="BD"/>
   <anchor x="306" y="-53" name="BS"/>
   <anchor x="276" y="-53" name="L"/>
-  <anchor x="306" y="-53" name="BD"/>
   <outline>
     <contour>
       <point x="513" y="222" type="curve" smooth="yes"/>

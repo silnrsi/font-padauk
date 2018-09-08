@@ -2,8 +2,8 @@
 <glyph name="u104E" format="2">
   <advance width="577"/>
   <unicode hex="104E"/>
-  <anchor x="298" y="495" name="U"/>
   <anchor x="292" y="0" name="BS"/>
+  <anchor x="298" y="495" name="U"/>
   <outline>
     <contour>
       <point x="522" y="-471" type="line"/>

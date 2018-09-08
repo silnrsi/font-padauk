@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u101A.aiph" format="2">
   <advance width="976"/>
-  <anchor x="0" y="0" name="_R"/>
+  <anchor x="490" y="-53" name="BD"/>
   <anchor x="678" y="-53" name="BS"/>
   <anchor x="678" y="-53" name="L"/>
-  <anchor x="490" y="-53" name="BD"/>
   <anchor x="678" y="495" name="U"/>
+  <anchor x="0" y="0" name="_R"/>
   <outline>
     <contour>
       <point x="921" y="222" type="curve" smooth="yes"/>

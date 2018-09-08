@@ -2,8 +2,8 @@
 <glyph name="u109D" format="2">
   <advance width="55"/>
   <unicode hex="109D"/>
-  <anchor x="-114" y="495" name="_U"/>
   <anchor x="-114" y="495" name="UM"/>
+  <anchor x="-114" y="495" name="_U"/>
   <outline>
     <contour>
       <point x="-100" y="347" type="line"/>

@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u105A.med" format="2">
-  <advance width="0"/>
-  <anchor x="-158" y="-27" name="_BS"/>
-  <anchor x="-386" y="-27" name="LLM"/>
-  <anchor x="-158" y="-27" name="_BSM"/>
-  <anchor x="74" y="-27" name="LM"/>
   <anchor x="376" y="-53" name="BSM"/>
+  <anchor x="-386" y="-27" name="LLM"/>
+  <anchor x="74" y="-27" name="LM"/>
+  <anchor x="-158" y="-27" name="_BS"/>
+  <anchor x="-158" y="-27" name="_BSM"/>
   <outline>
     <contour>
       <point x="-55" y="-213" type="curve" smooth="yes"/>

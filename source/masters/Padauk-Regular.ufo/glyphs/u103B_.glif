@@ -2,13 +2,13 @@
 <glyph name="u103B" format="2">
   <advance width="162"/>
   <unicode hex="103B"/>
+  <anchor x="250" y="-53" name="BD"/>
   <anchor x="250" y="-53" name="BS"/>
-  <anchor x="-351" y="-53" name="LL"/>
   <anchor x="250" y="-53" name="L"/>
+  <anchor x="-351" y="-53" name="LL"/>
+  <anchor x="-36" y="495" name="U"/>
   <anchor x="81" y="495" name="Y"/>
   <anchor x="-248" y="-53" name="dot"/>
-  <anchor x="-36" y="495" name="U"/>
-  <anchor x="250" y="-53" name="BD"/>
   <outline>
     <contour>
       <point x="106" y="-450" type="line"/>

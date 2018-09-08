@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u105E" format="2">
-  <advance width="0"/>
   <unicode hex="105E"/>
-  <anchor x="-99" y="-53" name="_BS"/>
-  <anchor x="-284" y="-53" name="LLM"/>
-  <anchor x="-99" y="-53" name="_BSM"/>
-  <anchor x="93" y="-53" name="LM"/>
   <anchor x="144" y="-53" name="BSM"/>
+  <anchor x="-284" y="-53" name="LLM"/>
+  <anchor x="93" y="-53" name="LM"/>
+  <anchor x="-99" y="-53" name="_BS"/>
+  <anchor x="-99" y="-53" name="_BSM"/>
   <outline>
     <contour>
       <point x="-142" y="-286" type="line"/>

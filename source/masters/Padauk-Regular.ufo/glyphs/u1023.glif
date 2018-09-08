@@ -2,11 +2,11 @@
 <glyph name="u1023" format="2">
   <advance width="1008"/>
   <unicode hex="1023"/>
-  <anchor x="993" y="-53" name="BS"/>
-  <anchor x="15" y="-53" name="LL"/>
-  <anchor x="993" y="-53" name="L"/>
-  <anchor x="715" y="495" name="U"/>
   <anchor x="993" y="-53" name="BD"/>
+  <anchor x="993" y="-53" name="BS"/>
+  <anchor x="993" y="-53" name="L"/>
+  <anchor x="15" y="-53" name="LL"/>
+  <anchor x="715" y="495" name="U"/>
   <outline>
     <contour>
       <point x="883" y="-450" type="line"/>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u101B.long" format="2">
   <advance width="588"/>
-  <anchor x="3" y="0" name="_R"/>
-  <anchor x="270" y="-53" name="BS"/>
-  <anchor x="87" y="-53" name="LL"/>
-  <anchor x="676" y="-53" name="L"/>
   <anchor x="132" y="-53" name="BD"/>
+  <anchor x="270" y="-53" name="BS"/>
+  <anchor x="676" y="-53" name="L"/>
+  <anchor x="87" y="-53" name="LL"/>
   <anchor x="308" y="495" name="U"/>
+  <anchor x="3" y="0" name="_R"/>
   <outline>
     <contour>
       <point x="333" y="39" type="curve"/>

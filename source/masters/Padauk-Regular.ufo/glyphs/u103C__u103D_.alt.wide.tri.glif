@@ -2,11 +2,11 @@
 <glyph name="u103C_u103D.alt.wide.tri" format="2">
   <advance width="172"/>
   <anchor x="1174" y="0" name="A"/>
-  <anchor x="172" y="0" name="R"/>
-  <anchor x="1135" y="-53" name="BS"/>
   <anchor x="1135" y="-53" name="BD"/>
-  <anchor x="607" y="-53" name="LL"/>
+  <anchor x="1135" y="-53" name="BS"/>
   <anchor x="1135" y="-53" name="L"/>
+  <anchor x="607" y="-53" name="LL"/>
+  <anchor x="172" y="0" name="R"/>
   <anchor x="694" y="920" name="UL"/>
   <outline>
     <contour>

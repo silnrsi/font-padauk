@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1014_u1010_u103C" format="2">
   <advance width="847"/>
-  <anchor x="0" y="0" name="_R"/>
+  <anchor x="841" y="-53" name="BD"/>
   <anchor x="954" y="-53" name="BS"/>
   <anchor x="954" y="-53" name="L"/>
-  <anchor x="841" y="-53" name="BD"/>
+  <anchor x="0" y="0" name="_R"/>
   <outline>
     <contour>
       <point x="504" y="73" type="curve"/>

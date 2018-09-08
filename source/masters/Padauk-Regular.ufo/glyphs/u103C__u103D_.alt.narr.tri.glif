@@ -2,10 +2,10 @@
 <glyph name="u103C_u103D.alt.narr.tri" format="2">
   <advance width="172"/>
   <anchor x="753" y="0" name="A"/>
-  <anchor x="172" y="0" name="R"/>
-  <anchor x="744" y="-53" name="BS"/>
   <anchor x="744" y="-53" name="BD"/>
+  <anchor x="744" y="-53" name="BS"/>
   <anchor x="744" y="-53" name="L"/>
+  <anchor x="172" y="0" name="R"/>
   <anchor x="352" y="910" name="UL"/>
   <outline>
     <contour>

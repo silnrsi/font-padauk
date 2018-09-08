@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u103A_uAA70" format="2">
   <advance width="55"/>
-  <anchor x="-231" y="477" name="_U"/>
   <anchor x="-231" y="495" name="UM"/>
+  <anchor x="-231" y="477" name="_U"/>
   <outline>
     <contour>
       <point x="-61" y="751" type="curve"/>

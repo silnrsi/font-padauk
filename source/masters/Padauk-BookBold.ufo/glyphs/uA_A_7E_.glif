@@ -2,11 +2,11 @@
 <glyph name="uAA7E" format="2">
   <advance width="802"/>
   <unicode hex="AA7E"/>
-  <anchor x="-2" y="0" name="_R"/>
+  <anchor x="84" y="-53" name="BD"/>
   <anchor x="57" y="-53" name="BS"/>
   <anchor x="39" y="-53" name="L"/>
   <anchor x="305" y="495" name="U"/>
-  <anchor x="84" y="-53" name="BD"/>
+  <anchor x="-2" y="0" name="_R"/>
   <outline>
     <contour>
       <point x="747" y="-476" type="line"/>

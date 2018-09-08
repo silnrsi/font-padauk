@@ -2,10 +2,10 @@
 <glyph name="u105B.med" format="2">
   <advance width="225"/>
   <anchor x="331" y="-53" name="BS"/>
-  <anchor x="-587" y="-53" name="LL"/>
   <anchor x="331" y="-53" name="L"/>
-  <anchor x="-239" y="-53" name="dot"/>
+  <anchor x="-587" y="-53" name="LL"/>
   <anchor x="-107" y="495" name="U"/>
+  <anchor x="-239" y="-53" name="dot"/>
   <outline>
     <contour>
       <point x="-135" y="-247" type="curve"/>

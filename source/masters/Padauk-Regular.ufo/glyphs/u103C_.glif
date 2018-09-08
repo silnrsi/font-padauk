@@ -3,11 +3,11 @@
   <advance width="172"/>
   <unicode hex="103C"/>
   <anchor x="753" y="0" name="A"/>
-  <anchor x="172" y="0" name="R"/>
-  <anchor x="841" y="-53" name="BS"/>
-  <anchor x="502" y="-53" name="LL"/>
-  <anchor x="841" y="-53" name="L"/>
   <anchor x="841" y="-53" name="BD"/>
+  <anchor x="841" y="-53" name="BS"/>
+  <anchor x="841" y="-53" name="L"/>
+  <anchor x="502" y="-53" name="LL"/>
+  <anchor x="172" y="0" name="R"/>
   <outline>
     <contour>
       <point x="697" y="-95" type="line"/>

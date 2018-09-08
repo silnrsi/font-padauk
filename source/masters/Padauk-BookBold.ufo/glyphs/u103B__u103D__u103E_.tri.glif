@@ -2,10 +2,10 @@
 <glyph name="u103B_u103D_u103E.tri" format="2">
   <advance width="225"/>
   <anchor x="331" y="-53" name="BS"/>
-  <anchor x="-570" y="-53" name="LL"/>
   <anchor x="331" y="-53" name="L"/>
-  <anchor x="-225" y="-53" name="dot"/>
+  <anchor x="-570" y="-53" name="LL"/>
   <anchor x="-107" y="495" name="U"/>
+  <anchor x="-225" y="-53" name="dot"/>
   <outline>
     <contour>
       <point x="-150" y="-341" type="curve" smooth="yes"/>

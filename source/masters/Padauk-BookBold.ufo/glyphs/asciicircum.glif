@@ -2,8 +2,8 @@
 <glyph name="asciicircum" format="2">
   <advance width="577"/>
   <unicode hex="005E"/>
-  <anchor x="291" y="465" name="_U"/>
   <anchor x="226" y="495" name="UM"/>
+  <anchor x="291" y="465" name="_U"/>
   <outline>
     <contour>
       <point x="522" y="609" type="line"/>

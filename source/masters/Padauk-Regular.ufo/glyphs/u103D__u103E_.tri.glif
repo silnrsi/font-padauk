@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u103D_u103E.tri" format="2">
-  <advance width="0"/>
-  <anchor x="-225" y="-53" name="_BS"/>
-  <anchor x="-530" y="-53" name="LLM"/>
-  <anchor x="-225" y="-53" name="_BSM"/>
-  <anchor x="82" y="-53" name="LM"/>
   <anchor x="216" y="-53" name="BSM"/>
+  <anchor x="-530" y="-53" name="LLM"/>
+  <anchor x="82" y="-53" name="LM"/>
+  <anchor x="-225" y="-53" name="_BS"/>
+  <anchor x="-225" y="-53" name="_BSM"/>
   <outline>
     <contour>
       <point x="-98" y="-350" type="curve" smooth="yes"/>

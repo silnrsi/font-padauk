@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u102D_uAA7C" format="2">
   <advance width="55"/>
-  <anchor x="-20" y="495" name="_Y"/>
-  <anchor x="-179" y="495" name="_U"/>
   <anchor x="-179" y="495" name="UM"/>
+  <anchor x="-179" y="495" name="_U"/>
+  <anchor x="-20" y="495" name="_Y"/>
   <outline>
     <contour>
       <point x="-442" y="700" type="line"/>

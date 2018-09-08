@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u103D_u103E.small.tri" format="2">
-  <advance width="0"/>
+  <anchor x="317" y="-53" name="BSM"/>
   <anchor x="-197" y="-53" name="_BS"/>
   <anchor x="-197" y="-53" name="_BSM"/>
-  <anchor x="317" y="-53" name="BSM"/>
   <outline>
     <contour>
       <point x="-97" y="-296" type="curve" smooth="yes"/>

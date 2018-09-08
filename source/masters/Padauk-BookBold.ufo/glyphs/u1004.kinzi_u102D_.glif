@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1004.kinzi_u102D" format="2">
   <advance width="55"/>
-  <anchor x="-43" y="495" name="_Y"/>
-  <anchor x="-309" y="495" name="_U"/>
   <anchor x="-296" y="495" name="UM"/>
+  <anchor x="-309" y="495" name="_U"/>
+  <anchor x="-43" y="495" name="_Y"/>
   <outline>
     <contour>
       <point x="-407" y="603" type="line"/>

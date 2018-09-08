@@ -2,12 +2,12 @@
 <glyph name="uAA79" format="2">
   <advance width="658"/>
   <unicode hex="AA79"/>
-  <anchor x="0" y="0" name="_R"/>
-  <anchor x="254" y="-53" name="BS"/>
-  <anchor x="240" y="-53" name="LL"/>
-  <anchor x="756" y="-53" name="L"/>
   <anchor x="133" y="-53" name="BD"/>
+  <anchor x="254" y="-53" name="BS"/>
+  <anchor x="756" y="-53" name="L"/>
+  <anchor x="240" y="-53" name="LL"/>
   <anchor x="298" y="495" name="U"/>
+  <anchor x="0" y="0" name="_R"/>
   <outline>
     <contour>
       <point x="661" y="-471" type="line"/>

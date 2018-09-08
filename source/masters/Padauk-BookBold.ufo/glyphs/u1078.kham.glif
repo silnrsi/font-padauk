@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1078.kham" format="2">
   <advance width="964"/>
-  <anchor x="0" y="0" name="_R"/>
+  <anchor x="508" y="-53" name="BD"/>
   <anchor x="669" y="-53" name="BS"/>
   <anchor x="669" y="-53" name="L"/>
-  <anchor x="508" y="-53" name="BD"/>
   <anchor x="669" y="495" name="U"/>
+  <anchor x="0" y="0" name="_R"/>
   <outline>
     <contour>
       <point x="796" y="222" type="curve" smooth="yes"/>

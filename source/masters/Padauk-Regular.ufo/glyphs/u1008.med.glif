@@ -2,8 +2,8 @@
 <glyph name="u1008.med" format="2">
   <advance width="162"/>
   <anchor x="250" y="-53" name="L"/>
-  <anchor x="-218" y="-53" name="dot"/>
   <anchor x="0" y="495" name="U"/>
+  <anchor x="-218" y="-53" name="dot"/>
   <outline>
     <contour>
       <point x="-249" y="-252" type="curve" smooth="yes"/>

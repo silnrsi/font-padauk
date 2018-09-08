@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1000.aiph" format="2">
   <advance width="976"/>
-  <anchor x="0" y="0" name="_R"/>
+  <anchor x="490" y="-53" name="BD"/>
   <anchor x="678" y="-53" name="BS"/>
   <anchor x="678" y="-53" name="L"/>
-  <anchor x="490" y="-53" name="BD"/>
   <anchor x="678" y="495" name="U"/>
+  <anchor x="0" y="0" name="_R"/>
   <outline>
     <contour>
       <point x="921" y="222" type="curve" smooth="yes"/>
@@ -13,20 +13,20 @@
       <point x="811" y="-23"/>
       <point x="678" y="-23" type="curve" smooth="yes"/>
       <point x="668.201" y="-23"/>
-      <point x="657.57" y="-22.3333"/>
-      <point x="647.193" y="-20.9998" type="curve" smooth="yes"/>
-      <point x="647.129" y="-20.9998"/>
+      <point x="657.57" y="-22.333"/>
+      <point x="647.193" y="-21" type="curve" smooth="yes"/>
+      <point x="647.129" y="-21"/>
       <point x="647.064" y="-21"/>
       <point x="647" y="-21" type="curve" smooth="yes"/>
       <point x="634.876" y="-21"/>
-      <point x="623.03" y="-18.1518"/>
+      <point x="623.03" y="-18.152"/>
       <point x="612.157" y="-13.078" type="curve" smooth="yes"/>
-      <point x="610.356" y="-12.4182"/>
-      <point x="608.633" y="-11.7256"/>
+      <point x="610.356" y="-12.418"/>
+      <point x="608.633" y="-11.726"/>
       <point x="607" y="-11" type="curve" smooth="yes"/>
-      <point x="607.186" y="-10.5668" type="line"/>
-      <point x="579.327" y="4.60287"/>
-      <point x="559" y="34.6076"/>
+      <point x="607.186" y="-10.567" type="line"/>
+      <point x="579.327" y="4.603"/>
+      <point x="559" y="34.608"/>
       <point x="559" y="68" type="curve" smooth="yes"/>
       <point x="559" y="116"/>
       <point x="601" y="155"/>

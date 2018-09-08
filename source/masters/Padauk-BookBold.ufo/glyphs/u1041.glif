@@ -2,11 +2,11 @@
 <glyph name="u1041" format="2">
   <advance width="578"/>
   <unicode hex="1041"/>
+  <anchor x="272" y="-53" name="BD"/>
   <anchor x="280" y="-53" name="BS"/>
   <anchor x="280" y="-53" name="L"/>
   <anchor x="280" y="495" name="U"/>
   <anchor x="0" y="0" name="_R"/>
-  <anchor x="272" y="-53" name="BD"/>
   <outline>
     <contour>
       <point x="523" y="222" type="curve" smooth="yes"/>
