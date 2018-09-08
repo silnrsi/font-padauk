@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# Produce individual UFOs from Glyphs file
+psfglyphs2ufo --nofea source/Padauk.glyphs source -l source/logs/glyphs2ufo.log
+
+./preflightint
