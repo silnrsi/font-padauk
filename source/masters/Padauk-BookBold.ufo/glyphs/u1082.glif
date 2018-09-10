@@ -4,10 +4,10 @@
   <unicode hex="1082"/>
   <anchor x="-495" y="-53" name="BDM"/>
   <anchor x="585" y="-53" name="BSM"/>
+  <anchor x="-770" y="-53" name="LLM"/>
+  <anchor x="25" y="-53" name="LM"/>
   <anchor x="249" y="-53" name="_BS"/>
   <anchor x="238" y="-53" name="_BSM"/>
-  <anchor x="-770" y="-53" name="_LLM"/>
-  <anchor x="25" y="-53" name="_LM"/>
   <outline>
     <contour>
       <point x="478" y="-395" type="line"/>

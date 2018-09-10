@@ -2,6 +2,7 @@
 <glyph name="u103C_u103D.wide" format="2">
   <advance width="234"/>
   <anchor x="1206" y="0" name="A"/>
+  <anchor x="1245" y="-53" name="BD"/>
   <anchor x="1245" y="-53" name="BS"/>
   <anchor x="1245" y="-53" name="L"/>
   <anchor x="553" y="-53" name="LL"/>

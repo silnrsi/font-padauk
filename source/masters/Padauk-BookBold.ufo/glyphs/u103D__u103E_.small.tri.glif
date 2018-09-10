@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u103D_u103E.small.tri" format="2">
+  <anchor x="317" y="-53" name="BSM"/>
   <anchor x="-189" y="-53" name="_BS"/>
   <anchor x="-189" y="-53" name="_BSM"/>
   <outline>

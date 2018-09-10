@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1008.med" format="2">
   <advance width="225"/>
-  <anchor x="331" y="-53" name="BS"/>
   <anchor x="331" y="-53" name="L"/>
   <anchor x="0" y="495" name="U"/>
   <anchor x="-227" y="-53" name="dot"/>

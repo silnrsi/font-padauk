@@ -2,9 +2,8 @@
 <glyph name="u1071" format="2">
   <advance width="606"/>
   <unicode hex="1071"/>
-  <anchor x="-495" y="-53" name="BDM"/>
+  <anchor x="303" y="495" name="UM"/>
   <anchor x="303" y="495" name="_U"/>
-  <anchor x="231" y="495" name="_UM"/>
   <outline>
     <contour>
       <point x="485" y="652" type="curve" smooth="yes"/>

@@ -2,13 +2,11 @@
 <glyph name="u1059" format="2">
   <advance width="489"/>
   <unicode hex="1059"/>
-  <anchor x="-495" y="-53" name="BDM"/>
   <anchor x="25" y="-53" name="BSM"/>
-  <anchor x="-293" y="495" name="UM"/>
+  <anchor x="-620" y="-53" name="LLM"/>
+  <anchor x="556" y="-53" name="LM"/>
   <anchor x="247" y="-53" name="_BS"/>
   <anchor x="247" y="-53" name="_BSM"/>
-  <anchor x="-620" y="-53" name="_LLM"/>
-  <anchor x="25" y="-53" name="_LM"/>
   <outline>
     <contour>
       <point x="336" y="-228" type="curve"/>
