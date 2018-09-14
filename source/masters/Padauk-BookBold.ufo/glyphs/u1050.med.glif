@@ -7,10 +7,18 @@
   <anchor x="-251" y="-53" name="_BSM"/>
   <outline>
     <contour>
-      <point x="-246" y="-295" type="line"/>
-      <point x="-247" y="-294" type="line"/>
-      <point x="-248" y="-295" type="line"/>
-      <point x="-247" y="-296" type="line"/>
+      <point x="-246" y="-295" type="curve"/>
+      <point x="-246" y="-295"/>
+      <point x="-247" y="-294"/>
+      <point x="-247" y="-294" type="curve"/>
+      <point x="-247" y="-294"/>
+      <point x="-248" y="-295"/>
+      <point x="-248" y="-295" type="curve"/>
+      <point x="-248" y="-295"/>
+      <point x="-247" y="-296"/>
+      <point x="-247" y="-296" type="curve"/>
+      <point x="-247" y="-296"/>
+      <point x="-246" y="-295"/>
     </contour>
     <contour>
       <point x="-198" y="-295" type="curve" smooth="yes"/>

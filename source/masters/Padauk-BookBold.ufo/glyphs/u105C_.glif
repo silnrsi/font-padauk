@@ -9,10 +9,18 @@
   <anchor x="0" y="0" name="_R"/>
   <outline>
     <contour>
-      <point x="301" y="221" type="line"/>
-      <point x="300" y="222" type="line"/>
-      <point x="299" y="221" type="line"/>
-      <point x="300" y="220" type="line"/>
+      <point x="301" y="221" type="curve"/>
+      <point x="301" y="221"/>
+      <point x="300" y="222"/>
+      <point x="300" y="222" type="curve"/>
+      <point x="300" y="222"/>
+      <point x="299" y="221"/>
+      <point x="299" y="221" type="curve"/>
+      <point x="299" y="221"/>
+      <point x="300" y="220"/>
+      <point x="300" y="220" type="curve"/>
+      <point x="300" y="220"/>
+      <point x="301" y="221"/>
     </contour>
     <contour>
       <point x="363" y="221" type="curve" smooth="yes"/>

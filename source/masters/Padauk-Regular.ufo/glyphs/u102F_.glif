@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u102F" format="2">
-  <advance width="147"/>
   <unicode hex="102F"/>
   <anchor x="290" y="-53" name="BD"/>
   <anchor x="290" y="-53" name="BS"/>
@@ -17,4 +16,10 @@
       <point x="174" y="-399" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>147</integer>
+    </dict>
+  </lib>
 </glyph>

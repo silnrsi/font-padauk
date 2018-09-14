@@ -6,10 +6,18 @@
   <anchor x="-98" y="495" name="_Y"/>
   <outline>
     <contour>
-      <point x="-236" y="735" type="line"/>
-      <point x="-237" y="736" type="line"/>
-      <point x="-238" y="735" type="line"/>
-      <point x="-237" y="734" type="line"/>
+      <point x="-236" y="735" type="curve"/>
+      <point x="-236" y="735"/>
+      <point x="-237" y="736"/>
+      <point x="-237" y="736" type="curve"/>
+      <point x="-237" y="736"/>
+      <point x="-238" y="735"/>
+      <point x="-238" y="735" type="curve"/>
+      <point x="-238" y="735"/>
+      <point x="-237" y="734"/>
+      <point x="-237" y="734" type="curve"/>
+      <point x="-237" y="734"/>
+      <point x="-236" y="735"/>
     </contour>
     <contour>
       <point x="-188" y="735" type="curve" smooth="yes"/>

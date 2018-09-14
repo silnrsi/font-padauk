@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1036.dot" format="2">
-  <advance width="55"/>
   <anchor x="-74" y="495" name="UM"/>
   <anchor x="-74" y="495" name="_U"/>
   <outline>
@@ -19,4 +18,10 @@
       <point x="0" y="760"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>55</integer>
+    </dict>
+  </lib>
 </glyph>
