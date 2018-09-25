@@ -3,8 +3,8 @@
 
 # This normalization will also run check and fix routines
 psfnormalize -p checkfix=fix source/masters/Padauk-Regular.ufo -l source/logs/normR.log
-psfnormalize -p checkfix=fix source/masters/Padauk-Book.ufo -l source/logs/normKR.log
-psfnormalize -p checkfix=fix source/masters/Padauk-Bold.ufo -l source/logs/normB.log
+# psfnormalize -p checkfix=fix source/masters/Padauk-Book.ufo -l source/logs/normKR.log
+# psfnormalize -p checkfix=fix source/masters/Padauk-Bold.ufo -l source/logs/normB.log
 psfnormalize -p checkfix=fix source/masters/Padauk-BookBold.ufo -l source/logs/normKB.log
 
 # update psnames and sort order in Regular, which also normalizes it
