@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u102F" format="2">
-  <advance width="211"/>
   <unicode hex="102F"/>
-  <anchor x="290" y="-53" name="BD"/>
-  <anchor x="400" y="-53" name="BS"/>
-  <anchor x="334" y="-53" name="L"/>
-  <anchor x="97" y="495" name="U"/>
-  <anchor x="97" y="495" name="Y"/>
+  <anchor x="580" y="-106" name="BD"/>
+  <anchor x="800" y="-106" name="BS"/>
+  <anchor x="668" y="-106" name="L"/>
+  <anchor x="194" y="990" name="U"/>
+  <anchor x="194" y="990" name="Y"/>
   <outline>
     <contour>
-      <point x="237" y="-471" type="line"/>
-      <point x="40" y="-471" type="line"/>
-      <point x="40" y="444" type="line"/>
-      <point x="154" y="444" type="line"/>
-      <point x="154" y="-357" type="line"/>
-      <point x="237" y="-357" type="line"/>
+      <point x="474" y="-942" type="line"/>
+      <point x="80" y="-942" type="line"/>
+      <point x="80" y="888" type="line"/>
+      <point x="308" y="888" type="line"/>
+      <point x="308" y="-714" type="line"/>
+      <point x="474" y="-714" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>422</integer>
+    </dict>
+  </lib>
 </glyph>

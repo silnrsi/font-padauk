@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1091" format="2">
-  <advance width="639"/>
+  <advance width="1278"/>
   <unicode hex="1091"/>
-  <anchor x="188" y="555" name="U"/>
+  <anchor x="376" y="1110" name="U"/>
   <outline>
     <contour>
-      <point x="584" y="-317" type="line"/>
-      <point x="263" y="-471" type="line"/>
-      <point x="263" y="288" type="line"/>
-      <point x="100" y="209" type="line"/>
-      <point x="55" y="312" type="line"/>
-      <point x="376" y="466" type="line"/>
-      <point x="376" y="-293" type="line"/>
-      <point x="539" y="-214" type="line"/>
+      <point x="1168" y="-634" type="line"/>
+      <point x="526" y="-942" type="line"/>
+      <point x="526" y="576" type="line"/>
+      <point x="200" y="418" type="line"/>
+      <point x="110" y="624" type="line"/>
+      <point x="752" y="932" type="line"/>
+      <point x="752" y="-586" type="line"/>
+      <point x="1078" y="-428" type="line"/>
     </contour>
   </outline>
 </glyph>

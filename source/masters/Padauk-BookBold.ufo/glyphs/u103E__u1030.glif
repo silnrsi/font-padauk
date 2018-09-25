@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u103E_u1030" format="2">
-  <anchor x="609" y="-53" name="BSM"/>
-  <anchor x="90" y="0" name="KRM"/>
-  <anchor x="-747" y="-53" name="LLM"/>
-  <anchor x="17" y="-53" name="LM"/>
-  <anchor x="-366" y="-53" name="_BS"/>
-  <anchor x="-366" y="-53" name="_BSM"/>
+  <anchor x="1218" y="-106" name="BSM"/>
+  <anchor x="180" y="0" name="KRM"/>
+  <anchor x="-1494" y="-106" name="LLM"/>
+  <anchor x="34" y="-106" name="LM"/>
+  <anchor x="-732" y="-106" name="_BS"/>
+  <anchor x="-732" y="-106" name="_BSM"/>
   <outline>
     <contour>
-      <point x="-484" y="-471" type="line"/>
-      <point x="-675" y="-471" type="line"/>
-      <point x="-675" y="-371" type="line"/>
-      <point x="-585" y="-371" type="line"/>
-      <point x="-585" y="-104" type="line"/>
-      <point x="-484" y="-104" type="line"/>
+      <point x="-968" y="-942" type="line"/>
+      <point x="-1350" y="-942" type="line"/>
+      <point x="-1350" y="-742" type="line"/>
+      <point x="-1170" y="-742" type="line"/>
+      <point x="-1170" y="-208" type="line"/>
+      <point x="-968" y="-208" type="line"/>
     </contour>
     <contour>
-      <point x="-315" y="-471" type="line"/>
-      <point x="-415" y="-471" type="line"/>
-      <point x="-415" y="-104" type="line"/>
-      <point x="-315" y="-104" type="line"/>
+      <point x="-630" y="-942" type="line"/>
+      <point x="-830" y="-942" type="line"/>
+      <point x="-830" y="-208" type="line"/>
+      <point x="-630" y="-208" type="line"/>
     </contour>
     <contour>
-      <point x="-55" y="-471" type="line"/>
-      <point x="-246" y="-471" type="line"/>
-      <point x="-246" y="-104" type="line"/>
-      <point x="-145" y="-104" type="line"/>
-      <point x="-145" y="-371" type="line"/>
-      <point x="-55" y="-371" type="line"/>
+      <point x="-110" y="-942" type="line"/>
+      <point x="-492" y="-942" type="line"/>
+      <point x="-492" y="-208" type="line"/>
+      <point x="-290" y="-208" type="line"/>
+      <point x="-290" y="-742" type="line"/>
+      <point x="-110" y="-742" type="line"/>
     </contour>
   </outline>
 </glyph>

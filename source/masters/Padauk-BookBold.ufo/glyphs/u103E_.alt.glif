@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u103E.alt" format="2">
-  <anchor x="101" y="-53" name="BSM"/>
-  <anchor x="-443" y="-53" name="LLM"/>
-  <anchor x="57" y="-53" name="LM"/>
-  <anchor x="-103" y="-53" name="_BS"/>
-  <anchor x="-103" y="-53" name="_BSM"/>
+  <anchor x="202" y="-106" name="BSM"/>
+  <anchor x="-886" y="-106" name="LLM"/>
+  <anchor x="114" y="-106" name="LM"/>
+  <anchor x="-206" y="-106" name="_BS"/>
+  <anchor x="-206" y="-106" name="_BSM"/>
   <outline>
     <contour>
-      <point x="-52" y="-84" type="line"/>
-      <point x="-145" y="-348" type="line"/>
-      <point x="-306" y="-293" type="line"/>
-      <point x="-271" y="-197" type="line"/>
-      <point x="-207" y="-218" type="line"/>
-      <point x="-148" y="-53" type="line"/>
+      <point x="-104" y="-168" type="line"/>
+      <point x="-290" y="-696" type="line"/>
+      <point x="-612" y="-586" type="line"/>
+      <point x="-542" y="-394" type="line"/>
+      <point x="-414" y="-436" type="line"/>
+      <point x="-296" y="-106" type="line"/>
     </contour>
   </outline>
 </glyph>

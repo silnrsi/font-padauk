@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
   <key>ascender</key>
-  <integer>1010</integer>
+  <integer>2020</integer>
   <key>capHeight</key>
   <integer>0</integer>
   <key>copyright</key>
   <string>Copyright (c) 2002-2018 SIL International</string>
   <key>descender</key>
-  <integer>-500</integer>
+  <integer>-1000</integer>
   <key>familyName</key>
   <string>Padauk</string>
   <key>openTypeHeadCreated</key>
-  <string>2018/09/14 17:48:12</string>
+  <string>2018/09/25 12:38:14</string>
   <key>openTypeHheaAscender</key>
-  <integer>1010</integer>
+  <integer>2020</integer>
   <key>openTypeHheaDescender</key>
-  <integer>-500</integer>
+  <integer>-1000</integer>
   <key>openTypeHheaLineGap</key>
   <integer>0</integer>
   <key>openTypeNameDescription</key>
@@ -129,9 +129,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeOS2Type</key>
   <array/>
   <key>openTypeOS2TypoAscender</key>
-  <integer>1010</integer>
+  <integer>2020</integer>
   <key>openTypeOS2TypoDescender</key>
-  <integer>-500</integer>
+  <integer>-1000</integer>
   <key>openTypeOS2TypoLineGap</key>
   <integer>0</integer>
   <key>openTypeOS2UnicodeRanges</key>
@@ -153,9 +153,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeOS2WidthClass</key>
   <integer>5</integer>
   <key>openTypeOS2WinAscent</key>
-  <integer>1010</integer>
+  <integer>2020</integer>
   <key>openTypeOS2WinDescent</key>
-  <integer>500</integer>
+  <integer>1000</integer>
   <key>postscriptFontName</key>
   <string>Padauk-Regular</string>
   <key>postscriptFullName</key>
@@ -165,9 +165,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>postscriptStemSnapV</key>
   <array/>
   <key>postscriptUnderlinePosition</key>
-  <integer>-450</integer>
+  <integer>-900</integer>
   <key>postscriptUnderlineThickness</key>
-  <integer>50</integer>
+  <integer>100</integer>
   <key>styleMapFamilyName</key>
   <string>Padauk</string>
   <key>styleMapStyleName</key>
@@ -175,7 +175,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>styleName</key>
   <string>Regular</string>
   <key>unitsPerEm</key>
-  <integer>1024</integer>
+  <integer>2048</integer>
   <key>versionMajor</key>
   <integer>3</integer>
   <key>versionMinor</key>

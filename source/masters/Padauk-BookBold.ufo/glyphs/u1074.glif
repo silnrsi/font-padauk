@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1074" format="2">
   <unicode hex="1074"/>
-  <anchor x="-282" y="495" name="UM"/>
-  <anchor x="-287" y="495" name="_U"/>
-  <anchor x="-98" y="495" name="_Y"/>
+  <anchor x="-564" y="990" name="UM"/>
+  <anchor x="-574" y="990" name="_U"/>
+  <anchor x="-196" y="990" name="_Y"/>
   <outline>
     <contour>
-      <point x="-55" y="782" type="line"/>
-      <point x="-287" y="548" type="line"/>
-      <point x="-521" y="782" type="line"/>
-      <point x="-458" y="843" type="line"/>
-      <point x="-287" y="675" type="line"/>
-      <point x="-118" y="843" type="line"/>
+      <point x="-110" y="1564" type="line"/>
+      <point x="-574" y="1096" type="line"/>
+      <point x="-1042" y="1564" type="line"/>
+      <point x="-916" y="1686" type="line"/>
+      <point x="-574" y="1350" type="line"/>
+      <point x="-236" y="1686" type="line"/>
     </contour>
   </outline>
 </glyph>

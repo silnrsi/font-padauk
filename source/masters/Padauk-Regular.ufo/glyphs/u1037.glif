@@ -1,38 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1037" format="2">
-  <advance width="55"/>
   <unicode hex="1037"/>
-  <anchor x="-74" y="-53" name="_L"/>
-  <anchor x="-74" y="-53" name="_LLM"/>
-  <anchor x="-74" y="-53" name="_LM"/>
+  <anchor x="-148" y="-106" name="_L"/>
+  <anchor x="-148" y="-106" name="_LLM"/>
+  <anchor x="-148" y="-106" name="_LM"/>
   <outline>
     <contour>
-      <point x="-29" y="-227" type="curve" smooth="yes"/>
-      <point x="-29" y="-200"/>
-      <point x="-50" y="-180"/>
-      <point x="-75" y="-180" type="curve" smooth="yes"/>
-      <point x="-102" y="-180"/>
-      <point x="-122" y="-200"/>
-      <point x="-122" y="-227" type="curve" smooth="yes"/>
-      <point x="-122" y="-252"/>
-      <point x="-102" y="-275"/>
-      <point x="-75" y="-275" type="curve" smooth="yes"/>
-      <point x="-50" y="-275"/>
-      <point x="-29" y="-252"/>
+      <point x="-58" y="-454" type="curve" smooth="yes"/>
+      <point x="-58" y="-400"/>
+      <point x="-100" y="-360"/>
+      <point x="-150" y="-360" type="curve" smooth="yes"/>
+      <point x="-204" y="-360"/>
+      <point x="-244" y="-400"/>
+      <point x="-244" y="-454" type="curve" smooth="yes"/>
+      <point x="-244" y="-504"/>
+      <point x="-204" y="-550"/>
+      <point x="-150" y="-550" type="curve" smooth="yes"/>
+      <point x="-100" y="-550"/>
+      <point x="-58" y="-504"/>
     </contour>
     <contour>
-      <point x="0" y="-227" type="curve" smooth="yes"/>
-      <point x="0" y="-267"/>
-      <point x="-35" y="-303"/>
-      <point x="-75" y="-303" type="curve" smooth="yes"/>
-      <point x="-116" y="-303"/>
-      <point x="-150" y="-267"/>
-      <point x="-150" y="-227" type="curve" smooth="yes"/>
-      <point x="-150" y="-186"/>
-      <point x="-116" y="-152"/>
-      <point x="-75" y="-152" type="curve" smooth="yes"/>
-      <point x="-35" y="-152"/>
-      <point x="0" y="-186"/>
+      <point x="0" y="-454" type="curve" smooth="yes"/>
+      <point x="0" y="-534"/>
+      <point x="-70" y="-606"/>
+      <point x="-150" y="-606" type="curve" smooth="yes"/>
+      <point x="-232" y="-606"/>
+      <point x="-300" y="-534"/>
+      <point x="-300" y="-454" type="curve" smooth="yes"/>
+      <point x="-300" y="-372"/>
+      <point x="-232" y="-304"/>
+      <point x="-150" y="-304" type="curve" smooth="yes"/>
+      <point x="-70" y="-304"/>
+      <point x="0" y="-372"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>110</integer>
+    </dict>
+  </lib>
 </glyph>

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1094" format="2">
-  <advance width="765"/>
+  <advance width="1530"/>
   <unicode hex="1094"/>
-  <anchor x="228" y="555" name="U"/>
+  <anchor x="456" y="1110" name="U"/>
   <outline>
     <contour>
-      <point x="55" y="-471" type="line"/>
-      <point x="174" y="-471" type="line"/>
-      <point x="236" y="-306"/>
-      <point x="324" y="-57"/>
-      <point x="389" y="115" type="curve"/>
-      <point x="389" y="-471" type="line"/>
-      <point x="710" y="-317" type="line"/>
-      <point x="666" y="-214" type="line"/>
-      <point x="503" y="-293" type="line"/>
-      <point x="503" y="467" type="line"/>
-      <point x="401" y="467" type="line"/>
+      <point x="110" y="-942" type="line"/>
+      <point x="348" y="-942" type="line"/>
+      <point x="472" y="-612"/>
+      <point x="648" y="-114"/>
+      <point x="778" y="230" type="curve"/>
+      <point x="778" y="-942" type="line"/>
+      <point x="1420" y="-634" type="line"/>
+      <point x="1332" y="-428" type="line"/>
+      <point x="1006" y="-586" type="line"/>
+      <point x="1006" y="934" type="line"/>
+      <point x="802" y="934" type="line"/>
     </contour>
   </outline>
 </glyph>

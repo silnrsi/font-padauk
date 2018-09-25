@@ -1,22 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1036.dot" format="2">
-  <advance width="55"/>
-  <anchor x="-74" y="495" name="UM"/>
-  <anchor x="-74" y="495" name="_U"/>
+  <anchor x="-148" y="990" name="UM"/>
+  <anchor x="-148" y="990" name="_U"/>
   <outline>
     <contour>
-      <point x="0" y="720" type="curve" smooth="yes"/>
-      <point x="0" y="679"/>
-      <point x="-35" y="643"/>
-      <point x="-75" y="643" type="curve" smooth="yes"/>
-      <point x="-116" y="643"/>
-      <point x="-150" y="679"/>
-      <point x="-150" y="720" type="curve" smooth="yes"/>
-      <point x="-150" y="760"/>
-      <point x="-116" y="795"/>
-      <point x="-75" y="795" type="curve" smooth="yes"/>
-      <point x="-35" y="795"/>
-      <point x="0" y="760"/>
+      <point x="0" y="1440" type="curve" smooth="yes"/>
+      <point x="0" y="1358"/>
+      <point x="-70" y="1286"/>
+      <point x="-150" y="1286" type="curve" smooth="yes"/>
+      <point x="-232" y="1286"/>
+      <point x="-300" y="1358"/>
+      <point x="-300" y="1440" type="curve" smooth="yes"/>
+      <point x="-300" y="1520"/>
+      <point x="-232" y="1590"/>
+      <point x="-150" y="1590" type="curve" smooth="yes"/>
+      <point x="-70" y="1590"/>
+      <point x="0" y="1520"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>110</integer>
+    </dict>
+  </lib>
 </glyph>

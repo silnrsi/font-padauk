@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u103B" format="2">
-  <advance width="225"/>
+  <advance width="450"/>
   <unicode hex="103B"/>
-  <anchor x="250" y="-53" name="BD"/>
-  <anchor x="331" y="-53" name="BS"/>
-  <anchor x="331" y="-53" name="L"/>
-  <anchor x="-386" y="-53" name="LL"/>
-  <anchor x="-20" y="495" name="U"/>
-  <anchor x="112" y="495" name="Y"/>
-  <anchor x="-268" y="-53" name="dot"/>
+  <anchor x="500" y="-106" name="BD"/>
+  <anchor x="662" y="-106" name="BS"/>
+  <anchor x="662" y="-106" name="L"/>
+  <anchor x="-772" y="-106" name="LL"/>
+  <anchor x="-40" y="990" name="U"/>
+  <anchor x="224" y="990" name="Y"/>
+  <anchor x="-536" y="-106" name="dot"/>
   <outline>
     <contour>
-      <point x="169" y="-471" type="line"/>
-      <point x="-225" y="-372" type="line"/>
-      <point x="-225" y="75" type="line"/>
-      <point x="-111" y="75" type="line"/>
-      <point x="-111" y="-282" type="line"/>
-      <point x="55" y="-324" type="line"/>
-      <point x="55" y="444" type="line"/>
-      <point x="169" y="444" type="line"/>
+      <point x="338" y="-942" type="line"/>
+      <point x="-450" y="-744" type="line"/>
+      <point x="-450" y="150" type="line"/>
+      <point x="-222" y="150" type="line"/>
+      <point x="-222" y="-564" type="line"/>
+      <point x="110" y="-648" type="line"/>
+      <point x="110" y="888" type="line"/>
+      <point x="338" y="888" type="line"/>
     </contour>
   </outline>
 </glyph>
