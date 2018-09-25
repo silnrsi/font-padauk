@@ -4,8 +4,8 @@
 import codecs, os
 
 TESTDIR='tests'
-VERSION='3.004'
-TTF_VERSION='3.004'
+VERSION='3.901'
+TTF_VERSION='3.901'
 APPNAME='Padauk'
 DESC_SHORT='Burmese Unicode 6 truetype font with OT and Graphite support'
 DESC_LONG = '''
