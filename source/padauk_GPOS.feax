@@ -88,7 +88,7 @@ do  for c = [@cConsNarStack];
 #-----------------------------------------------------------------------
 
 
-do  for b = [BD BS L U Y];
+do  for b = [BS BD L U Y];
     let lk = "base_"+b+"_base";
     let bc = "@" + b;
     let mc = "@_" + b;
