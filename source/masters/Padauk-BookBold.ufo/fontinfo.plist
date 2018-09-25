@@ -5,7 +5,7 @@
   <key>ascender</key>
   <integer>2020</integer>
   <key>capHeight</key>
-  <integer>0</integer>
+  <integer>1850</integer>
   <key>copyright</key>
   <string>Copyright (c) 2002-2018 SIL International</string>
   <key>descender</key>
@@ -83,7 +83,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameUniqueID</key>
   <string>SIL International: Padauk Book Bold: 2018</string>
   <key>openTypeNameVersion</key>
-  <string>Version 3.004</string>
+  <string>Version 3.901</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -179,8 +179,8 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>versionMajor</key>
   <integer>3</integer>
   <key>versionMinor</key>
-  <integer>4</integer>
+  <integer>901</integer>
   <key>xHeight</key>
-  <integer>0</integer>
+  <integer>932</integer>
 </dict>
 </plist>
