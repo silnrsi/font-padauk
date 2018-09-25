@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1059" format="2">
   <unicode hex="1059"/>
+  <advance width="978"/>
   <anchor x="50" y="-106" name="BSM"/>
   <anchor x="-1240" y="-106" name="LLM"/>
   <anchor x="1112" y="-106" name="LM"/>
@@ -64,10 +65,4 @@
       <point x="866" y="-302"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>978</integer>
-    </dict>
-  </lib>
 </glyph>

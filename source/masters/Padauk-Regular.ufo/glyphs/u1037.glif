@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1037" format="2">
   <unicode hex="1037"/>
+  <advance width="110"/>
   <anchor x="-148" y="-106" name="_L"/>
   <anchor x="-148" y="-106" name="_LLM"/>
   <anchor x="-148" y="-106" name="_LM"/>
@@ -34,10 +35,4 @@
       <point x="0" y="-372"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>110</integer>
-    </dict>
-  </lib>
 </glyph>
