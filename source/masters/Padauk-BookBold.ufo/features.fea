@@ -7678,7 +7678,7 @@ lookup base_U_base {
 
 lookup base_U_mark {
   lookupflag 0;
-  markClass [\u1071 ] <anchor 231 495> @UM;
+  markClass [\u1071 ] <anchor 303 495> @UM;
   pos mark [\asciicircum ] <anchor 226 495> mark @UM;
   pos mark [\u1004.kinzi ] <anchor -92 495> mark @UM;
   pos mark [\u1004.kinzi_u102D \u1004.kinzi_u102E \u1004.kinzi_u1032 \u1004.kinzi_u1033 \u1004.kinzi_u103A ] <anchor -296 495> mark @UM;
