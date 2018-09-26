@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1060" format="2">
   <unicode hex="1060"/>
-  <anchor x="-1002" y="-106" name="BSM"/>
-  <anchor x="-1002" y="-106" name="LLM"/>
-  <anchor x="-550" y="-106" name="_BS"/>
-  <anchor x="-550" y="-106" name="_BSM"/>
+  <anchor x="-501" y="-53" name="BSM"/>
+  <anchor x="-501" y="-53" name="LLM"/>
+  <anchor x="-275" y="-53" name="_BS"/>
+  <anchor x="-275" y="-53" name="_BSM"/>
   <outline>
     <contour>
-      <point x="-110" y="-942" type="line"/>
-      <point x="-872" y="-942" type="line"/>
-      <point x="-458" y="-190" type="line"/>
-      <point x="-206" y="-190" type="line"/>
-      <point x="-496" y="-722" type="line"/>
-      <point x="-110" y="-722" type="line"/>
+      <point x="-55" y="-471" type="line"/>
+      <point x="-436" y="-471" type="line"/>
+      <point x="-229" y="-95" type="line"/>
+      <point x="-103" y="-95" type="line"/>
+      <point x="-248" y="-361" type="line"/>
+      <point x="-55" y="-361" type="line"/>
     </contour>
   </outline>
 </glyph>

@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
   <key>ascender</key>
-  <integer>2020</integer>
+  <integer>1010</integer>
   <key>capHeight</key>
-  <integer>1850</integer>
+  <integer>0</integer>
   <key>copyright</key>
   <string>Copyright (c) 2002-2018 SIL International</string>
   <key>descender</key>
-  <integer>-1000</integer>
+  <integer>-500</integer>
   <key>familyName</key>
   <string>Padauk</string>
   <key>openTypeHeadCreated</key>
-  <string>2018/09/25 12:38:15</string>
+  <string>2018/09/14 17:48:13</string>
   <key>openTypeHheaAscender</key>
-  <integer>2020</integer>
+  <integer>1010</integer>
   <key>openTypeHheaDescender</key>
-  <integer>-1000</integer>
+  <integer>-500</integer>
   <key>openTypeHheaLineGap</key>
   <integer>0</integer>
   <key>openTypeNameDescription</key>
@@ -83,7 +83,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameUniqueID</key>
   <string>SIL International: Padauk Book Bold: 2018</string>
   <key>openTypeNameVersion</key>
-  <string>Version 3.901</string>
+  <string>Version 3.004</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -129,9 +129,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeOS2Type</key>
   <array/>
   <key>openTypeOS2TypoAscender</key>
-  <integer>2020</integer>
+  <integer>1010</integer>
   <key>openTypeOS2TypoDescender</key>
-  <integer>-1000</integer>
+  <integer>-500</integer>
   <key>openTypeOS2TypoLineGap</key>
   <integer>0</integer>
   <key>openTypeOS2UnicodeRanges</key>
@@ -153,9 +153,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeOS2WidthClass</key>
   <integer>5</integer>
   <key>openTypeOS2WinAscent</key>
-  <integer>2020</integer>
+  <integer>1010</integer>
   <key>openTypeOS2WinDescent</key>
-  <integer>1000</integer>
+  <integer>500</integer>
   <key>postscriptFontName</key>
   <string>Padauk-BookBold</string>
   <key>postscriptFullName</key>
@@ -165,9 +165,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>postscriptStemSnapV</key>
   <array/>
   <key>postscriptUnderlinePosition</key>
-  <integer>-900</integer>
+  <integer>-450</integer>
   <key>postscriptUnderlineThickness</key>
-  <integer>100</integer>
+  <integer>50</integer>
   <key>styleMapFamilyName</key>
   <string>Padauk</string>
   <key>styleMapStyleName</key>
@@ -175,12 +175,12 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>styleName</key>
   <string>Book Bold</string>
   <key>unitsPerEm</key>
-  <integer>2048</integer>
+  <integer>1024</integer>
   <key>versionMajor</key>
   <integer>3</integer>
   <key>versionMinor</key>
-  <integer>901</integer>
+  <integer>4</integer>
   <key>xHeight</key>
-  <integer>932</integer>
+  <integer>0</integer>
 </dict>
 </plist>

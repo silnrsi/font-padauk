@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1034" format="2">
   <unicode hex="1034"/>
-  <anchor x="-386" y="990" name="UM"/>
-  <anchor x="-386" y="990" name="_U"/>
-  <anchor x="-150" y="990" name="_Y"/>
+  <anchor x="-193" y="495" name="UM"/>
+  <anchor x="-193" y="495" name="_U"/>
+  <anchor x="-75" y="495" name="_Y"/>
   <outline>
     <contour>
-      <point x="-110" y="1638" type="line"/>
-      <point x="-710" y="1160" type="line"/>
-      <point x="-756" y="1226" type="line"/>
-      <point x="-156" y="1704" type="line"/>
+      <point x="-55" y="819" type="line"/>
+      <point x="-355" y="580" type="line"/>
+      <point x="-378" y="613" type="line"/>
+      <point x="-78" y="852" type="line"/>
     </contour>
   </outline>
 </glyph>

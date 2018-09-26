@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uAA7C" format="2">
-  <advance width="110"/>
+  <advance width="55"/>
   <unicode hex="AA7C"/>
-  <anchor x="-468" y="990" name="UM"/>
-  <anchor x="-484" y="990" name="_U"/>
+  <anchor x="-234" y="495" name="UM"/>
+  <anchor x="-242" y="495" name="_U"/>
   <outline>
     <contour>
-      <point x="0" y="1174" type="line"/>
-      <point x="-960" y="1174" type="line"/>
-      <point x="-960" y="1394" type="line"/>
-      <point x="0" y="1394" type="line"/>
+      <point x="0" y="587" type="line"/>
+      <point x="-480" y="587" type="line"/>
+      <point x="-480" y="697" type="line"/>
+      <point x="0" y="697" type="line"/>
     </contour>
   </outline>
 </glyph>
