@@ -1,0 +1,236 @@
+
+lookup dflt_dc_after {
+    sub u1039 by u1039 circledash;
+} dflt_dc_after;
+
+@takes_circle = [u102B u102C u102D u102E u102F u1030 u1031 u1032 u1033 u1034
+    u1035 u1036 u1037 u1038 u1039 u103A u103B u103C u103D u103E
+    u1056 u1057 u1058 u1059 u105E u105F u1060 u1063 u1064
+    u1067 u1068 u1069 u106A u106B u106C u106D u1071 u1072 u1073 u1074
+    u1082 u1083 u1084 u1085 u1086 u1087 u1088 u1089 u108A u108B u108C u108D u108F
+    u109A u109B u109C u109D uA9E5 uA9E6 uAA70 uAA7B uAA7C uAA7D];
+
+lookup dflt_dc_before {
+    sub @takes_circle by circledash @takes_circle;
+} dflt_dc_before;
+
+lookup dflt_error {
+    @medy = [u103B u105E u105F];
+    ignore sub [u1004 u105A u101B] u103A u1039' @cCons;
+    ignore sub @cCons u1039';
+    ignore sub [@cCons u103A] @medy';
+    ignore sub [@cCons u103A @medy] u103C';
+    ignore sub [@cCons @medy u103C] [u103D u1082]';
+    ignore sub u103A u103D';
+    ignore sub [@cCons @medy u103D u1082 u103C] [u103E u1060]';
+    ignore sub u103A u1060';
+    ignore sub [@cCons u102C u103E u1082] u103A';
+    ignore sub u102C u103E' u103A;
+
+    sub [u1039 @medy u103C u103D u103E u1060 u1082]' lookup dflt_dc_before;
+    sub @cCons u103A' lookup dflt_dc_before [u103E u1082 u1037];
+    sub [@medy u103C u103D u1060] u103A' lookup dflt_dc_before;
+
+    sub [u1032 u1036] [u102F u1030 u1086]' lookup dflt_dc_before;
+    sub u1062' lookup dflt_dc_before [u1032];
+#    sub [u102F u1030] u1037' lookup dflt_dc_before;
+    sub u1037' lookup dflt_dc_before [u1032 u1036];
+} dflt_error;
+
+lookup dflt_error2 {
+    @meds = [u103A u103B u103C u103D u103E u105E u105F u1060 u1082 circledash];
+    @evowel = [u1031 u1084];
+    @usvowel = [u102D u102E u1033 u1034 u1035 u1071 u1072 u1073 u1074 u1085 u109D uA9E5];
+    @uvowel = [@usvowel u1032 u1036];
+    @avowel = [u102B u102C u1056 u1057 u1062 u1063 u1067 u1068 u1083];
+    @ptone = [u1064 u1069 u106A u106B u106C u106D];
+    @visarga = [u1087 u1088 u1089 u108A u108B u108C u108D u108F u109A u109B u109C uAA7B uAA7C uAA7D];
+    @redup = [uA9E6 uAA70];
+
+    ignore sub [@cCons @meds] @evowel';
+    ignore sub u1031 u1031';
+    ignore sub [@cCons @meds @evowel] @uvowel';
+    ignore sub [@usvowel u1032] u1036';
+    ignore sub [@usvowel] u1032';
+    ignore sub [@cCons @meds @evowel @uvowel] @lvowel';
+    ignore sub [@cCons @meds @evowel @uvowel @lvowel] u1086';
+    ignore sub [@cCons @meds @evowel @uvowel @lvowel u1086] u1037';
+    ignore sub [@cCons @meds @evowel @uvowel @lvowel u1062 u1086 u1037] @avowel';
+    ignore sub [@cCons @meds @evowel @uvowel @lvowel u1086 u1037 @avowel u1032 u1036] @ptone';
+    ignore sub [u102D @lvowel @avowel] [u1036 u1032]';
+    ignore sub [@lvowel u1086 @avowel u1032 u1036 @ptone] u1037';
+    ignore sub [@ptone u1037 u102B u102C u103E @cCons u1082] u103A';
+    ignore sub [@cCons @meds @evowel @uvowel @lvowel u1062 u1086 u1037 @avowel u1032 u1036 @ptone u103A u104B] @visarga';
+    ignore sub [@cCons @meds @evowel @uvowel @lvowel u1062 u1086 u1037 @avowel u1032 u1036 @ptone u103A @visarga u104B u1038] @redup';
+
+    sub [@evowel @uvowel @lvowel u1062 u1089 u1037 @avowel @ptone @visarga @redup]' lookup dflt_dc_before;
+    sub [@avowel u103E] u103A' lookup dflt_dc_before u1037;
+} dflt_error2;
+
+do  for e = [u1004 u101B];
+    let k = e+".kinzi";
+    let lk = "dflt_kinzi_subst_"+e;
+    {
+lookup $lk {
+    sub @cCons by @cCons $k;
+} $lk;
+    }
+
+lookup dflt_kinzi_delsubst {
+    sub u1004 u103A u1039 @cCons by @cCons;
+    sub u101B u103A u1039 @cCons by @cCons;
+    sub u105A u103A u1039 @cCons by @cCons;
+} dflt_kinzi_delsubst;
+
+lookup dflt_kinzi {
+    sub u1004 u103A u1039 @cCons' lookup dflt_kinzi_subst_u1004;
+    sub u101B u103A u1039 @cCons' lookup dflt_kinzi_subst_u101B;
+    sub u105A u103A u1039 @cCons' lookup dflt_kinzi_subst_u1004;
+} dflt_kinzi;
+
+lookup dflt_kinzi_del {
+    sub u1004' lookup dflt_kinzi_delsubst u103A' u1039' @cCons' u1004.kinzi;
+    sub u101B' lookup dflt_kinzi_delsubst u103A' u1039' @cCons' u101B.kinzi;
+    sub u105A' lookup dflt_kinzi_delsubst u103A' u1039' @cCons' u1004.kinzi;
+} dflt_kinzi_del;
+
+@cplus = [u1004.kinzi u101B.kinzi u103E u103D u103C u103B u103A @cCons];
+
+do  for e = [u1031.aiph u1031 u1084];
+    let n = {"u1031.aiph": "eaiph", "u1031": "e", "u1084": "eshan"}[e];
+    let pre = "dflt_pre"+n+"_subst";
+    let pres = pre+"_short";
+    let del = "dflt_pre"+n+"_del";
+    {
+lookup $pres {
+    sub @cCons by $e @cCons;
+} $pres;
+
+lookup $pre {
+    sub @cCons by $e @cCons $e;
+} $pre;
+
+lookup $del {
+    sub @cplus $e by @cplus;
+} $del;    
+    }
+
+lookup dflt_prevowel {
+    @cPreE = [u103A u103B u103C u103D u103E u105E u105F u1060];
+# since the string has grown the lookup against the final u1031 is actually executed against the glyph before
+# which is what we want!
+do  for e = [u1031.aiph u1031 u1084];
+    let n = {"u1031.aiph": "eaiph", "u1031": "e", "u1084": "eshan"}[e];
+    let pre = "dflt_pre"+n+"_subst";
+    let pres = pre+"_short";
+    let del = "dflt_pre"+n+"_del";
+    {
+        sub @cCons' lookup $pre [u1004.kinzi u101B.kinzi]' lookup $del u1039' @cCons' @cPreE' @cPreE' @cPreE' @cPreE' $e' lookup $del;
+        sub @cCons' lookup $pre u1039' lookup $del @cCons' @cPreE' @cPreE' @cPreE' @cPreE' $e' lookup $del;
+        sub @cCons' lookup $pre [u1004.kinzi u101B.kinzi]' lookup $del @cPreE' @cPreE' @cPreE' @cPreE' $e' lookup $del;
+        sub @cCons' lookup $pre @cPreE' lookup $del @cPreE' @cPreE' @cPreE' $e' lookup $del;
+        sub @cCons' lookup $pre [u1004.kinzi u101B.kinzi]' lookup $del u1039' @cCons' @cPreE' @cPreE' @cPreE' $e' lookup $del;
+        sub @cCons' lookup $pre u1039' lookup $del @cCons' @cPreE' @cPreE' @cPreE' $e' lookup $del;
+        sub @cCons' lookup $pre [u1004.kinzi u101B.kinzi]' lookup $del @cPreE' @cPreE' @cPreE' $e' lookup $del;
+        sub @cCons' lookup $pre @cPreE' lookup $del @cPreE' @cPreE' $e' lookup $del;
+        sub @cCons' lookup $pre [u1004.kinzi u101B.kinzi]' lookup $del u1039' @cCons' @cPreE' @cPreE' $e' lookup $del;
+        sub @cCons' lookup $pre u1039' lookup $del @cCons' @cPreE' @cPreE' $e' lookup $del;
+        sub @cCons' lookup $pre [u1004.kinzi u101B.kinzi]' lookup $del @cPreE' @cPreE' $e' lookup $del;
+        sub @cCons' lookup $pre @cPreE' lookup $del @cPreE' $e' lookup $del;
+        sub @cCons' lookup $pre [u1004.kinzi u101B.kinzi]' lookup $del u1039' @cCons' @cPreE' $e' lookup $del;
+        sub @cCons' lookup $pre u1039' lookup $del @cCons' @cPreE' $e' lookup $del;
+        sub @cCons' lookup $pre [u1004.kinzi u101B.kinzi]' lookup $del @cPreE' $e' lookup $del;
+        sub @cCons' lookup $pre @cPreE' lookup $del $e' lookup $del;
+        sub @cCons' lookup $pre [u1004.kinzi u101B.kinzi]' lookup $del u1039' @cCons' $e' lookup $del;
+        sub @cCons' lookup $pre u1039' lookup $del @cCons' $e' lookup $del;
+        sub @cCons' lookup $pre [u1004.kinzi u101B.kinzi]' lookup $del $e' lookup $del;
+        sub @cCons' lookup $pres $e' lookup $del;
+    }
+} dflt_prevowel;
+
+lookup dflt_prevowel2 {
+    @cPreE = [u103A u103B u103C u103D u103E u105E u105F u1060];
+# since the string has grown the lookup against the final u1031 is actually executed against the glyph before
+# which is what we want!
+    sub @cCons' lookup dflt_pree_subst [u1004.kinzi u101B.kinzi]' lookup dflt_pree_del u1039' @cCons' @cPreE' @cPreE' @cPreE' @cPreE' u1031' lookup dflt_pree_del;
+    sub @cCons' lookup dflt_pree_subst u1039' lookup dflt_pree_del @cCons' @cPreE' @cPreE' @cPreE' @cPreE' u1031' lookup dflt_pree_del;
+    sub @cCons' lookup dflt_pree_subst [u1004.kinzi u101B.kinzi]' lookup dflt_pree_del @cPreE' @cPreE' @cPreE' @cPreE' u1031' lookup dflt_pree_del;
+    sub @cCons' lookup dflt_pree_subst @cPreE' lookup dflt_pree_del @cPreE' @cPreE' @cPreE' u1031' lookup dflt_pree_del;
+    sub @cCons' lookup dflt_pree_subst [u1004.kinzi u101B.kinzi]' lookup dflt_pree_del u1039' @cCons' @cPreE' @cPreE' @cPreE' u1031' lookup dflt_pree_del;
+    sub @cCons' lookup dflt_pree_subst u1039' lookup dflt_pree_del @cCons' @cPreE' @cPreE' @cPreE' u1031' lookup dflt_pree_del;
+    sub @cCons' lookup dflt_pree_subst [u1004.kinzi u101B.kinzi]' lookup dflt_pree_del @cPreE' @cPreE' @cPreE' u1031' lookup dflt_pree_del;
+    sub @cCons' lookup dflt_pree_subst @cPreE' lookup dflt_pree_del @cPreE' @cPreE' u1031' lookup dflt_pree_del;
+    sub @cCons' lookup dflt_pree_subst [u1004.kinzi u101B.kinzi]' lookup dflt_pree_del u1039' @cCons' @cPreE' @cPreE' u1031' lookup dflt_pree_del;
+    sub @cCons' lookup dflt_pree_subst u1039' lookup dflt_pree_del @cCons' @cPreE' @cPreE' u1031' lookup dflt_pree_del;
+    sub @cCons' lookup dflt_pree_subst [u1004.kinzi u101B.kinzi]' lookup dflt_pree_del @cPreE' @cPreE' u1031' lookup dflt_pree_del;
+    sub @cCons' lookup dflt_pree_subst @cPreE' lookup dflt_pree_del @cPreE' u1031' lookup dflt_pree_del;
+    sub @cCons' lookup dflt_pree_subst [u1004.kinzi u101B.kinzi]' lookup dflt_pree_del u1039' @cCons' @cPreE' u1031' lookup dflt_pree_del;
+    sub @cCons' lookup dflt_pree_subst u1039' lookup dflt_pree_del @cCons' @cPreE' u1031' lookup dflt_pree_del;
+    sub @cCons' lookup dflt_pree_subst [u1004.kinzi u101B.kinzi]' lookup dflt_pree_del @cPreE' u1031' lookup dflt_pree_del;
+    sub @cCons' lookup dflt_pree_subst @cPreE' lookup dflt_pree_del u1031' lookup dflt_pree_del;
+    sub @cCons' lookup dflt_pree_subst [u1004.kinzi u101B.kinzi]' lookup dflt_pree_del u1039' @cCons' u1031' lookup dflt_pree_del;
+    sub @cCons' lookup dflt_pree_subst u1039' lookup dflt_pree_del @cCons' u1031' lookup dflt_pree_del;
+    sub @cCons' lookup dflt_pree_subst [u1004.kinzi u101B.kinzi]' lookup dflt_pree_del u1031' lookup dflt_pree_del;
+    sub @cCons' lookup dflt_pree_subst_short u1031' lookup dflt_pree_del;
+} dflt_prevowel2;
+
+lookup dflt_greatya_subst_short {
+    sub @cCons by u103C @cCons;
+} dflt_greatya_subst_short;
+
+lookup dflt_greatya_subst {
+    sub @cCons by u103C u1000 u103C;
+} dflt_greatya_subst;
+
+lookup dflt_greatya_del {
+    sub u103D u103C by u103D;
+    sub u103C u103C by u103C;
+    sub u103B u103C by u103B;
+    sub u103A u103C by u103A;
+    sub u1004.kinzi u103C by u1004.kinzi;
+    sub u1004.kinzi_u102D u103C by u1004.kinzi_u102D;
+    sub u1004.kinzi_u102D_u1036 u103C by u1004.kinzi_u102D_u1036;
+    sub u1004.kinzi_u102E u103C by u1004.kinzi_u102E;
+    sub u1004.kinzi_u1032 u103C by u1004.kinzi_u1032;
+    sub u1004.kinzi_u1033 u103C by u1004.kinzi_u1033;
+    sub u1004.kinzi_u1036 u103C by u1004.kinzi_u1036;
+    sub u1004.kinzi_u103A u103C by u1004.kinzi_u103A;
+    sub u101B.kinzi u103C by u101B.kinzi;
+    sub @cCons u103C by @cCons;
+} dflt_greatya_del;    
+
+lookup dflt_greatya {
+# since the string has grown the lookup against the final u103C is actually executed against the glyph before
+# which is what we want!
+    sub @cCons' lookup dflt_greatya_subst [u1004.kinzi u101B.kinzi]' lookup dflt_greatya_del u1039' @cCons' [u103A u103B]' u103C' lookup dflt_greatya_del;
+    sub @cCons' lookup dflt_greatya_subst u1039' lookup dflt_greatya_del @cCons' [u103A u103B]' u103C' lookup dflt_greatya_del;
+    sub @cCons' lookup dflt_greatya_subst [u1004.kinzi u101B.kinzi]' lookup dflt_greatya_del [u103A u103B]' u103C' lookup dflt_greatya_del;
+    sub @cCons' lookup dflt_greatya_subst [u103A u103B]' lookup dflt_greatya_del u103C' lookup dflt_greatya_del;
+    sub @cCons' lookup dflt_greatya_subst [u1004.kinzi u101B.kinzi]' lookup dflt_greatya_del u1039' @cCons' u103C' lookup dflt_greatya_del;
+    sub @cCons' lookup dflt_greatya_subst u1039' lookup dflt_greatya_del @cCons' u103C' lookup dflt_greatya_del;
+    sub @cCons' lookup dflt_greatya_subst [u1004.kinzi u101B.kinzi]' lookup dflt_greatya_del u103C' lookup dflt_greatya_del;
+    sub @cCons' lookup dflt_greatya_subst_short u103C' lookup dflt_greatya_del;
+} dflt_greatya;
+
+lookup dflt_anusvara_subst {
+    sub u102F by u1036 u102F;
+    sub u1030 by u1036 u1030;
+    sub u1058 by u1036 u1058;
+    sub u1059 by u1036 u1059;
+} dflt_anusvara_subst;
+
+lookup dflt_anusvara_del {
+    sub u102F u1036 by u102F;
+    sub u1030 u1036 by u1030;
+    sub u1058 u1036 by u1058;
+    sub u1059 u1036 by u1059;
+} dflt_anusvara_del;
+
+lookup dflt_anusvara {
+    sub [u102F u1030 u1058 u1059]'lookup dflt_anusvara_subst u1036'lookup dflt_anusvara_del;
+} dflt_anusvara;
+
+lookup dflt_deligate {
+    sub @cCons by @cCons;
+} dflt_deligate;
+

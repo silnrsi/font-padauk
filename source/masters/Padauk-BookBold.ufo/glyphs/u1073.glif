@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1073" format="2">
+  <advance width="466"/>
+  <unicode hex="1073"/>
+  <anchor x="-293" y="495" name="UM"/>
+  <anchor x="235" y="495" name="_U"/>
+  <anchor x="423" y="495" name="_Y"/>
+  <outline>
+    <contour>
+      <point x="466" y="609" type="line"/>
+      <point x="403" y="548" type="line"/>
+      <point x="234" y="716" type="line"/>
+      <point x="63" y="548" type="line"/>
+      <point x="0" y="609" type="line"/>
+      <point x="234" y="843" type="line"/>
+    </contour>
+  </outline>
+</glyph>

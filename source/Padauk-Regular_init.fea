@@ -1,0 +1,89 @@
+#-----------------------------------------------------------------------
+# Additional dist needed for some cons to clear u103C
+
+@class103CNarr = [u103C      u103C.alt.narr u103C_u103D.narr u103C_u103D.alt.narr u103C_u102F.narr u103C_u102F.alt.narr u103C_u103D.alt.narr.tri u103C_u103D.narr.tri]; 
+@class103CWide = [u103C.wide u103C.alt.wide u103C_u103D.wide u103C_u103D.alt.wide u103C_u102F.wide u103C_u102F.alt.wide u103C_u103D.alt.wide.tri u103C_u103D.wide.tri]; 
+
+lookup kernltall {
+do  for g = [@KL];
+    let x = -APx(g, "KL");
+    {
+        pos $g <$x 0 $x 0>;
+    }
+} kernltall;
+
+lookup kerntall {
+    pos [@class103CNarr @class103CWide] @cCons @KL' lookup kernltall;
+    pos [@class103CNarr @class103CWide] @cCons @cLowerMarkAttach @KL' lookup kernltall;
+    pos [@class103CNarr @class103CWide] @cCons @cLowerMarkAttach @cLowerMarkAttach @KL' lookup kernltall;
+    pos @_U @KL' lookup kernltall;
+} kerntall;
+
+lookup guard {
+# overlaps of below wide medials under a narrow consonant
+do  for b = [@cConsNarStack];
+    let m = "u1000.med";
+    let o = APx(m, "_BD") - APx(b, "BD");
+    let l = o - MINx(m) - ADVx(m) - MAXx(m);
+    let l = l if l > 0 else 0;
+    let r = ADVx(m) - ADVx(b) - o;
+    let r = r if r > 0 else 0;
+    let a = l + r;
+    if a > 0;
+    {
+        pos [@cFillLowBefore @cLowerMarkAttach] $b' <$l 0 $a 0> @cMedWide [@_U] [@cFillLowAfter];
+        pos [@cFillLowBefore @cLowerMarkAttach] $b' <$l 0 $a 0> @cMedWide [@cFillLowAfter];
+        pos [@cFillLowBefore @cLowerMarkAttach] $b' <$l 0 $l 0> @cMedWide;
+        pos $b' <0 0 $r 0> @cMedWide [@_U] [@cFillLowAfter];
+        pos $b' <0 0 $r 0> @cMedWide [@cFillLowAfter];
+    }
+
+# overlaps of upper consonants
+do  for b = [@U];
+    for u = [@_U];
+    let o = APx(u, "_U") - APx(b, "U");
+    let l = o - MINx(u) - ADVx(u) - MAXx(u);
+    let l = l if l > 0 else 0;
+    let r = ADVx(u) - ADVx(b) - o;
+    let a = l + (r if r > 0 else 0) if (u.find("kinzi") != -1 and b in feaclass("cConsTakesKinzi")) or \
+        (u.find("uAA7C") != -1 and b in feaclass("cConsLaing")) or \
+        (u.find("kinzi") == -1 and u.find("uAA7c") == -1 and b[:4] not in ("u106", "u109") \
+            and b[:5] not in ("u102C", "u102F", "u1030", "u103B", "u1062", "u1064", "u1083") \
+            and b not in ("u1008.med", "u105B.med")) else 0;
+    if a > 50;
+    {
+        pos $b' <$l 0 $a 0> $u;
+    }
+} guard;
+
+lookup guard_dot {
+# wish we could update some notional advance in the base from the previous set of rules
+# right hanging U+1037
+do  for b = [@L];
+    let g = "u1037";
+    let a = APx(b, "L") - APx(g, "_L") + ADVx(g) - ADVx(b);
+    if not b.startswith("u103C") and a > 0;
+    {
+        pos $b' $a [@_U] $g;
+        pos $b' $a $g;
+    }
+} guard_dot;
+
+lookup dist_103C_Cons {
+# Move consnarr with wide base to the middle of the u103c.wide. Only needed for sanskrit
+do  for c = [@cConsNarStack];
+    let m = "u1000.med";
+    let s = int(APx("u103C.wide", "A") / 2) - APx(m, "_BD") + MINx(m) - ADVx("u103C.wide");
+    let a = APx("u103C.wide", "A") - ADVx("u103C.wide") - ADVx(c);
+    if s > 0;
+    {
+        pos @class103CWide $c' <$s 110 $a 0> @cMedWide;
+    }
+
+    pos [@class103CNarr @class103CWide] [@cCons]' <0 110 0 0> @cMed;
+
+#    pos u103C                u1014.alt' <0 110 52 0>   u1013.med; # Sanskrit #126
+} dist_103C_Cons;
+
+#-----------------------------------------------------------------------
+

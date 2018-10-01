@@ -3,9 +3,9 @@
 
 import codecs, os
 
-TESTDIR='test-suite'
-VERSION='3.004'
-TTF_VERSION='3.004'
+TESTDIR='tests'
+VERSION='3.902'
+TTF_VERSION='3.902'
 APPNAME='Padauk'
 DESC_SHORT='Burmese Unicode 6 truetype font with OT and Graphite support'
 DESC_LONG = '''
@@ -19,11 +19,12 @@ There is feature support in Graphite for the following features: kdot, fdot,
 lldt, wtri, ulon, utal, dotc, hsln (value: 0-2), nnya, vtta
 '''
 DEBPKG='ttf-sil-padauk'
-COPYRIGHT='Copyright 2017 SIL International, all rights reserved'
+COPYRIGHT='Copyright 2018 SIL International, all rights reserved'
 #LICENSE='OFL.txt'
 DOCDIR='documentation'
 #VCS='git'
-STANDARDS='standards'
+STANDARDS='tests/reference'
+out = 'results'
 #README="README.md"
 
 mystrings = {
@@ -33,10 +34,10 @@ mystrings = {
     'Padauk Book' : 'ပိတောက်စာအုပ်'
 }
 namestrings = {
-    '' :            ('Padauk', 'Regular'),
-    'bookbold' :    ('Padauk Book', 'Bold'),
-    'bold' :        ('Padauk', 'Bold'),
-    'book' :        ('Padauk Book', 'Regular')
+    '-Regular' :     ('Padauk', 'Regular'),
+    '-BookBold' :    ('Padauk Book', 'Bold'),
+    '-Bold' :        ('Padauk', 'Bold'),
+    '-Book' :        ('Padauk Book', 'Regular')
 }
 
 opts = preprocess_args({'opt' : '--no2'})
@@ -48,44 +49,33 @@ scriptcode = 'mymr' if '--no2' in opts else 'mym2'
 #    'xtest1' : tests({'xtest1' : cmd('cmptxtrender -p -k -e ot -s mym2 -l "${lang}" -e ot -s dflt -L mym2 -L dflt -t ${SRC[1]} -o ${TGT} --copy=otfonts --strip ${fileinfo} ${SRC[0]} ${SRC[0]}')})
 #})
 
-ftmlTest('bin/ftml.xsl')
+ftmlTest('tools/ftml.xsl')
 
-for f in ['', 'bold', 'book', 'bookbold'] :
-    fsf = 'font-source/padauk' + f
-    target = namestrings[f][0].replace(' ', '') + '-' + namestrings[f][1].replace(' ', '')
+# for f in ['-Regular', '-Bold', '-Book', '-BookBold'] :
 
-    fnt = font(target = process(target + '.ttf',
-                        name(namestrings[f][0], lang='en-US', subfamily = namestrings[f][1]),
-                        cmd('${TTFAUTOHINT} -n -W ${DEP} ${TGT}'),
-                        cmd('${TTX} -f -o ' + target + '.ttx' + ' ${DEP}; ${TTX} -f -o ${TGT} ' + target + '.ttx')
-                        ),
-                version = TTF_VERSION,
-#                license = ofl("Padauk"),
-                copyright = COPYRIGHT,
-                source = fsf + '_src.sfd',
-                ap = fsf + '.xml',
-                classes = 'font-source/padauk_classes.xml',
-#                buildusingfontforge = 1,
-                opentype = fea('font-source/padauk' + f + '.fea',
-                                old_make_fea = True,
-                                master = 'font-source/padauk' + f + '_ext.fea',
-                                preinclude = 'font-source/padauk' + f + '_init.fea',
-                                make_params="-m _R -z 8 --markattach BSM,LM,LLM=cLowerMarkAttach --markattach BDM=",
-                                depends = map(lambda x:"font-source/padauk-"+x+".fea", 
-                                    ('mym2_features', 'mym2_GSUB', 'dflt_GSUB'))),
-#                sfd_master = 'font-source/master.sfd',
-                graphite = gdl('padauk' + f + '.gdl',
-                                master = 'font-source/myanmar5.gdl',
-                                params = '-w3521 -w3530 -d -D -v2 -e gdlerr' + '-' + f + '.txt',
-                                make_params="-m _R",
-                                depends = ['font-source/myfeatures.gdl']),
-#                tests = test,
-                script = ['mym2', 'DFLT'],
-                extra_srcs = ['bin/makegdl', 'font-source/myfeatures.gdl'],
-                pdf = fret(params="-r -oi"),
-#                tests = tests
-                woff = woff(params = '-v ' + VERSION + ' -m ../font-source/padauk-WOFF-metadata.xml')
-            )
+designspace('source/Padauk.designspace',
+    params = '-l ${DS:FILENAME_BASE}_createinstance.log',
+    target = process('${DS:FILENAME_BASE}.ttf',
+        cmd('${TTFAUTOHINT} -n -W ${DEP} ${TGT}'),
+    ),
+    ap = '${DS:FILENAME_BASE}.xml',
+    classes = 'source/padauk_classes.xml',
+    opentype = fea('source/${DS:FILENAME_BASE}.fea',
+        master = 'source/padauk.fea',
+        make_params="--omitaps='_R'",
+        buildusingsilfont = True,
+        params = '-m source/${DS:FILENAME_BASE}.map',
+        depends = ["source/padauk"+x+".feax" for x in
+            ('_GPOS', '-mym2_GSUB', '-dflt_GSUB')]),
+    graphite = gdl('source/${DS:FILENAME_BASE}.gdl',
+        master = 'source/myanmar5.gdl',
+        params = '-w3521 -w3530 -q -d -D -v2', make_params="-m _R",
+        depends = ['source/myfeatures.gdl']),
+    script = ['mym2', 'DFLT'],
+    extra_srcs = ['tools/bin/makegdl', 'source/myfeatures.gdl'],
+    pdf = fret(params="-r -oi"),
+    woff = woff('web/${DS:FILENAME_BASE}.woff', params = '-v ' + VERSION + ' -m ../source/padauk-WOFF-metadata.xml')
+)
 
 def configure(ctx) :
     ctx.find_program('ttfautohint')

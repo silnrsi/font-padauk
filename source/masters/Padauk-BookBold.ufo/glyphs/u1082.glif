@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1082" format="2">
+  <advance width="439"/>
+  <unicode hex="1082"/>
+  <anchor x="-495" y="-53" name="BDM"/>
+  <anchor x="585" y="-53" name="BSM"/>
+  <anchor x="-770" y="-53" name="LLM"/>
+  <anchor x="25" y="-53" name="LM"/>
+  <anchor x="249" y="-53" name="_BS"/>
+  <anchor x="238" y="-53" name="_BSM"/>
+  <outline>
+    <contour>
+      <point x="478" y="-395" type="line"/>
+      <point x="447" y="-454"/>
+      <point x="389" y="-471"/>
+      <point x="341" y="-471" type="curve" smooth="yes"/>
+      <point x="245" y="-471"/>
+      <point x="149" y="-400"/>
+      <point x="149" y="-284" type="curve" smooth="yes"/>
+      <point x="149" y="-175"/>
+      <point x="230" y="-89"/>
+      <point x="338" y="-89" type="curve"/>
+      <point x="338" y="-176" type="line"/>
+      <point x="307" y="-176"/>
+      <point x="236" y="-196"/>
+      <point x="236" y="-284" type="curve" smooth="yes"/>
+      <point x="236" y="-353"/>
+      <point x="298" y="-384"/>
+      <point x="341" y="-384" type="curve" smooth="yes"/>
+      <point x="375" y="-384"/>
+      <point x="394" y="-367"/>
+      <point x="413" y="-341" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

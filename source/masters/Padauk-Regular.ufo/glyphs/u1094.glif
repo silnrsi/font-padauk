@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1094" format="2">
+  <advance width="720"/>
+  <unicode hex="1094"/>
+  <anchor x="200" y="495" name="U"/>
+  <outline>
+    <contour>
+      <point x="55" y="-450" type="line"/>
+      <point x="108" y="-450" type="line"/>
+      <point x="203" y="-200"/>
+      <point x="297" y="51"/>
+      <point x="392" y="301" type="curve"/>
+      <point x="392" y="-450" type="line"/>
+      <point x="665" y="-319" type="line"/>
+      <point x="645" y="-273" type="line"/>
+      <point x="443" y="-370" type="line"/>
+      <point x="443" y="449" type="line"/>
+      <point x="393" y="449" type="line"/>
+    </contour>
+  </outline>
+</glyph>

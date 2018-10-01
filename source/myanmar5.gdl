@@ -1,0 +1,1030 @@
+/*
+    Title:  Myanmar.GDL
+    Author: M. Hosken, K.R. Stribley
+    Description:    Unicode Myanmar Graphite description
+    License:        Open Font License 1.1
+
+0.01    MJPH    22-JUN-2001     Original
+0.90    MJPH    10-JUN-2003     Add documentation, first candidate release
+0.92    MJPH     4-AUG-2003     Improve line breaking algorithm
+1.00    MJPH     7-AUG-2003     Release - no changes
+1.01    MJPH    16-SEP-2003     Latest ZWJ and ZWNJ usages,
+                                Start to finesse: centre clusters in wraps, narrow cons
+                                with wide diacritics take a wide wrap.
+1.02    MJPH     8-OCT-2003     Add u1004.med_u102F
+1.03    MJPH    28-OCT-2003     Add support for contractions (reduplication) killer order
+1.04    KRS     31-MAY-2004     Fixed some ligature issues with kinzi
+1.05    KRS     09-JUN-2004     Added breakweights for section markers
+                                Fixed tall yecha for 1012 + wasway
+                                Swapped order of U+100E/U+100D stacked ligature
+1.06    KRS     14-JUL-2004     Made yecha tall with U+1001 etc and Kinzi
+                                Moved lower dot to right of U+101B when hatto is present
+                                U+102D is now always above the consonant in a wrap
+                                even if there is a u/uu vowel present
+                                U+101B is short when there is a Yapin present
+1.07    KRS     31-AUG-2004     Yecha is tall when U+1012 has a stacked consonant
+1.08    KRS     04-SEP-2004     Numbers can now take upper diacritics for abbreviations
+                                U+1004 U+1039 is now always Kinzi as per myanmar_uni.pdf
+                                U+1004 U+200D U+1039 U+101d etc is used to prevent kinzi
+1.09    KRS     06-DEC-2004     Yecha is tall when U+1002 has a stacked consonant
+                                NLP propose using U+200D differently to UTN 11
+                                Comment out the g101a, g101b, g101d, g101f, line in the
+                                tKinzi class to give this behaviour
+1.10    MJPH    13-MAY-2005     no break between sign and section,
+                                tidy up font, remove hack rules, add docs for APs
+                                add necessary associations to insertion rules
+1.11    MJPH     2-AUG-2005     Fix kern on killed tall 102C preceding 1031 glyph
+1.12    MJPH    27-OCT-2005     Apply KRS changes to handle 'I', section breaks.
+                                Use new breakweights. Change syllable break from 20 to 15
+2.00    MJPH    15-APR-2006     Unicode 5.1 - remove tall-a logic, change to disunified medials, etc.
+2.01    MJPH    24-APR-2006     Attach y-medials
+2.02    MJPH    16-MAY-2006     udia over y-medial loses advance to stop -u from spacing
+2.03    MJPH    14-JUN-2006     U+101E U+1039 U+101E was ligating as U+103F, now it stacks
+2.04    MJPH    16-JUN-2006     no U103C_102F if following a stack, U+100A U+102D U+102F handled
+2.05    MJPH    10-JUL-2006     Add left ldot class for Sgaw, 1018 added to cConsWide
+2.1     MJPH     2-FEB-2007     Add PDAM4 stuff
+2.1.1   MJPH    20-FEB-2007     Create cPreVowel to add U+1080
+2.2     MJPH    31-OCT-2007     Add chars for v2.2
+2.2.1   MJPH    20-NOV-2007     U+1029 can have U+1031
+2.2.2   MJPH    18-DEC-2007     change u1004.med to u1004.kinzi, add u1004.med
+2.3     MJPH    12-APR-2008     Add Mon ligatures
+        KRS     28-APR-2008     Fix kinzi+102d indexing, 1009+med, Mon upper vowels
+2.4.1   MJPH    15-AUG-2008     Add Mon Nga rules for preceding asat
+2.4.2   MJPH    10-FEB-2009     Add u101A.med. Fix 1032_102d
+2.5     MJPH    27-FEB-2009     Add feature to disable great nya
+2.5.1   MJPH     9-MAR-2009     Move some classes out to glyph property classes
+                                */
+
+
+/* @doc
+<h1>Myanmar GDL Code</h1>
+
+This file contains the font independent GDL for rendering Myanmar from Unicode. It is
+designed to be used in conjunction with and included by the font specific GDL code
+that is created automatically from the .ttf font and .xml attachment point database.
+
+This font specific code creates glyph definitions for each glyph, including all the
+attachment points, order attribute and possibly some kerning values. The order and
+kerning values are entered as part of the font design itself and propagate through
+the AP database to the GDL code.
+
+In addition the font specific GDL code contains various automatically generated
+classes dependent populated by glyphs dependent upon which attachment points they have.
+For more details on this process see the documentation for make_gdl.pl
+
+<h2>Definitions</h2>
+
+Since the GDL is passed through a C preprocessor, we can define various shortcuts to
+make life easier in the rest of the description.
+
+The first set of definitions provide a standard way of specifying optional slot sequences.
+Usually the sequence consists of only one element (usually a glyph class). But it can be
+a sequence if necessary. We build up to allow for 0 to 4 occurrences of the sequence.
+@enddoc */
+
+#define opt(x)      [x]?
+#define opt2(x)     [opt(x) x]?
+#define opt3(x)     [opt2(x) x]?
+#define opt4(x)     [opt3(x) x]?
+
+/* @doc
+GDL allows for 16 <em>user</em> slot attributes that we can use for just about anything.
+Here we give the ones we intend to use sensible names for use later on. Notice that these
+differ from the user glyph attributes which do not have to have a special name.
+@enddoc */
+
+#define attached    user1
+#define hasadv      user2
+#define sOrder      user3
+
+/* @doc
+We assign names to the various types of breakweight.
+@enddoc */
+
+#define BW_WORD     10
+#define BW_SYLL     15
+#define BW_CHAR     30
+#define BW_CLIP     40
+#define BW_NEVER    50
+
+/* @doc
+For clarity we also give each of the substitution passes a name. This was originally done
+because I didn't know if I was going to have to insert a pass into the sequence and wanted
+to be able to re-allocate pass numbers quickly and easily
+@enddoc */
+
+#define pass_medial 1
+#define pass_order 2
+#define pass_insert 3
+#define pass_front 4
+#define pass_subst 5
+
+/* @doc
+There are a few glyph names that I prefer to rename. I do that here just by defining my
+name to be the correct name
+@enddoc */
+
+#define g25cc g_circledash
+#define gKill g1039
+#define g200C g200c
+#define zwsp  g200b
+#define wj    g2060
+#define gSpace g_space
+
+/* @doc
+ANY is a special name in GDL and includes no glyph. I want to define ANY to require a glyph
+so I redifine the name (well mask it via #define) and then create a class later of all glyphs.
+@enddoc */
+
+#define ANY ANYGlyph
+
+/* @doc
+Setup various global constants in GDL. This is left to right only script. Also let's have
+a little extra space above, just to prove it can be done!
+@enddoc */
+
+Bidi = 0;
+//ExtraAscent = 100m;
+//ExtraDescent = 500m;
+AutoPseudo = 1;
+
+#include "myfeatures.gdl"
+
+/* @doc
+<h2>Glyph Table</h2>
+
+Most of the glyph table is defined in the font specific file which is autogenerated from
+the font and attachment point database. Here we list all the behaviour specific classes
+that we hand craft as part of this description.
+@enddoc */
+
+
+table(glyph);
+
+/* @doc
+MAXGLYPH comes from the font specific file and tells us how many glyphs there are in the font.
+We use this to make a class of all glyphs. And while we are about it, set all glyphs to have
+a default line-breaking behaviour of not wanting a break before the glyph. Our line-breaking
+model is based on what happens before a glyph rather than after it.
+@enddoc */
+
+ANY = (glyphid(0 .. MAXGLYPH)){breakweight = -BW_CHAR};         // what about pseudo glyphs?
+
+/* @doc
+Set various default line-breaking weights for particular glyphs. We like breaking after whitespace
+and we never break before a killer (U+1039)
+@enddoc */
+
+zwsp {breakweight = BW_WORD};        // assume zero width
+gSpace {breakweight = BW_WORD};
+cSection = (g104a, g104b) {breakweight = BW_WORD};
+gKill {breakweight = -BW_NEVER};
+//g200d {breakweight = -5};
+wj {breakweight = -BW_CHAR};
+// encourage breaking after signs
+cSigns = (g104c, g104d, g104f) {breakweight = BW_WORD};
+cNum = (g1040, g1041, g1042, g1043, g1044, g1045, g1046, g1047, g1048, g1049,
+        g1090, g1091, g1092, g1093, g1094, g1095, g1096, g1097, g1098, g1099
+        ga9f0, ga9f1, ga9f2, ga9f3, ga9f4, ga9f5, ga9f6, ga9f7, ga9f8, ga9f8) {breakweight = -BW_CHAR};
+// discourage breaking inside quotes
+cLQuote = (g_parenleft, g_quotedblleft, g_quoteleft) {breakweight = -BW_SYLL};
+cRQuote = (g_parenright, g_quotedblright, g_quoteright) {breakweight = BW_WORD};
+
+cCons {breakweight = -BW_SYLL};
+
+/* @doc
+Lists all the consonants that require a medial h to slant
+@enddoc */
+
+cConsSlantH = (g1009, g100a, g105a, g105b, g105d);
+
+/* @doc
+Ligatures with medial h and uu
+@enddoc */
+
+cMedHUu = (g103e_1030, g103e_1030_slantr, g103e_1030_slanth);
+
+/* @doc
+Stacked consonant ligatures
+@enddoc */
+cStackLig = (g100a_100a, g100b_100b, g100b_100c, g100d_100d, g100d_100e,
+             g100f_100b, g100f_100d, g1014_1010_103c, g101e_1010_103c);
+
+/* @doc
+A list of all the forms that U+101B can take when not medialised
+@enddoc */
+
+c101b = (g101b, g101b_alt, g101b_long);
+
+/* @doc
+Cluster characters are what I call those characters that are included as part of a syllable
+when medialised. I.e. are true medials. Whereas the other characters indicate syllable
+chaining when medialised.
+@enddoc */
+
+cClusMed = (g103b, g103c, g103d, g1082, g103e, g105e, g105f, g1060){breakweight = -BW_NEVER};
+cClusMedNot103b = (g103c, g103d, g1082, g103e, g105e, g105f, g1060){breakweight = -BW_NEVER};
+cClusDia = (g103b, g103b_103d, g103b_103d_103e, g103b_103e, g103d, g103d_103e, g1082, g103e,
+            g103e_102f, g103e_1030, g105e, g105f, g1060);
+cWaHa = (g1082, g103e);
+
+/* @doc
+y-medials are diacritics, but they don't have attachment points to attach to the base character
+with. So we need to write a special rule to attach them so that inter character spacing and
+cursors cannot occur between the base and the diacritic.
+@enddoc */
+
+cYMed = (g103b, g103b_103d, g103b_103d_103e, g103b_103e);
+
+/* @doc
+There are two prevowels that reorder before their base consonant cluster
+@enddoc */
+
+cPreVowel = (g1031, g1084, g1031_aiph);
+
+/* @doc
+The lower vowels must occur in a particular place in the order. (See the section on ensuring
+correct ordering). They may be rendered as full height, or short form (overloading medial again!).
+Then there is the combined medial form with -h. Finally we create a class that includes all
+of them in whatever form.
+@enddoc */
+
+cLVowel = (g102f, g1030);
+cLVowelM = (g102f_med, g1030_med);
+cLVowelh = (g103e_102f, g103e_1030);
+cLVowelAll = (cLVowel, cLVowelh, cLVowelM);
+
+/* @doc
+We must never break a line before an upper vowel. Upper vowels are made more complicated
+by the existence of kinzi ligatures. We include upper dot as an upper vowel. This breaks
+the strict interpretation of the character ordering in a cluster, but we get away with it
+since we are being looser than the standard and this would be the rendering behaviour we
+would want if the sequence: cons U+1036 U+102C were to occur.
+@enddoc */
+
+cUVowel = (g103a, g1004_kinzi, g1004_kinzi_102d, g1004_kinzi_102e, g1004_kinzi_1032, g1004_kinzi_1036, g1004_kinzi_103a, g101b_kinzi, g101b_kinzi_102d, g101b_kinzi_102e, g101b_kinzi_103a, g102d,
+            g102d_1036, g102e, g102e_1036, g1032, g1032_102d, g1032_1036, g1033, g1034, g1035,
+            g1071, g1072, g1073, g1074, g1085, g1086){breakweight = -BW_NEVER};
+cUSpace = (g1032, g1032_102d, g103a, g102d, g102e, g1004_kinzi_102e, g1004_kinzi_102d, g1004_kinzi,
+            g1004_kinzi_1036, g1004_kinzi_103a, g101b_kinzi, g101b_kinzi_102d, g101b_kinzi_102e, g101b_kinzi_103a, g1032, g1033, g1034, g1035, g1071, g1072, g1073, g1074,
+            g1085);
+cUVowelNga = (g102e, g102d, g1032, g1033, g1036);
+cNgaUVowel = (g1004_kinzi_102e, g1004_kinzi_102d, g1004_kinzi_1032, g1004_kinzi_1033, g1004_kinzi_1036);
+cUTakesMa = (g102d, g102e, g1032, g1004_kinzi);
+cUWithMa = (g102d_1036, g102e_1036, g1032_1036, g1004_kinzi_1036);
+c1036 = (g1036, g1004_kinzi_1036, g102d_1036, g102e_1036, g1032_1036, g103a_1036);
+cUVowelBar = (ga9e5, g102d, g102e, g1086);
+cBarUVowel = (ga9e5_aa7c, g102d_aa7c, g102e_aa7c, g1086_aa7c);
+
+/* @doc
+Create a general below diacritic class consisting of single and double width below diacritics.
+@enddoc */
+
+cBDia = (cBSDia, cBDDia);
+
+/* @doc
+Create classes for base characters that change shape when they have a below diacritic
+@enddoc */
+cLDiaMod = (g100a, g1014, g101b);
+cLDiaModed = (g100a_alt, g1014_alt, g101b_alt);
+cLDiaBar = (g103d, g102f_med, g1030_med, g1082);
+cBarLDia = (g103d_108d, g102f_108d, g1030_108d, g1082_108d);
+
+/* @doc
+For each medialised cluster glyph we list all the forms it may take, including
+when it ligates with another medial.
+@enddoc */
+
+//c103b = (g103b, g103b_103e, g103b_103d, g103b_103d_tri);
+//c103d = (g103d, g103d_103e, g103b_103d, g103d_tri, g103d_103e_tri, g103b_103d_tri);
+// c103e = (g103e, g103e_102f, g103e_1030, g103d_103e, g103b_103e, g103d_103e_tri);
+
+/* @doc
+U+103C (wrap) takes numerous forms depending on context. We list various sets of these
+forms here. First we separate the non-ligating forms and the ligating forms. Then we list
+by width: narrow and wide. And then we also list be normal and alternate forms. Alternate
+forms are those with a gap at the top for a spacing upper vowel.
+
+The last set is of the various forms of the medialised U+101F in its non-ligating form.
+@enddoc */
+
+c103c_only = (g103c, g103c_wide, g103c_alt_narr, g103c_alt_wide);
+c103c_mix = (g103c_103d_narr, g103c_103d_narr_tri, g103c_103d_wide, g103c_103d_wide_tri, g103c_102f_narr,
+        g103c_102f_wide, g103c_103d_alt_narr, g103c_103d_alt_narr_tri, g103c_102f_alt_narr,
+        g103c_103d_alt_wide, g103c_103d_alt_wide_tri, g103c_102f_alt_wide);
+c103c_103d = (g103c_103d_narr, g103c_103d_narr_tri, g103c_103d_wide, g103c_103d_wide_tri,
+        g103c_103d_alt_narr, g103c_103d_alt_narr_tri, g103c_103d_alt_wide, g103c_103d_alt_wide_tri);
+c103c = (c103c_only, c103c_mix);
+c103c_nar = (g103c, g103c_103d_narr, g103c_102f_narr, g103c_103d_narr_tri);
+c103c_naralt = (g103c_alt_narr, g103c_103d_alt_narr, g103c_102f_alt_narr, g103c_103d_alt_narr_tri);
+c103c_wide = (g103c_wide, g103c_103d_wide, g103c_102f_wide, g103c_103d_wide_tri);
+c103c_widalt = (g103c_alt_wide, g103c_103d_alt_wide, g103c_102f_alt_wide, g103c_103d_alt_wide_tri);
+c103e_dia = (g103e, g103e_alt);
+
+/* @doc
+Then we list yet more combinations of the wrap as needed by various rules. And we also create
+a list of everything that can go underneath something, calling it a lower diacritic. We also
+list all the forms of the tall form of U+102C.
+@enddoc */
+
+c103c_compl = (g103c_102f_narr, g103c_102f_wide);
+c103c_compr = (g103c_103d_narr, g103c_103d_wide, g103c_103d_narr_tri, g103c_103d_wide_tri);
+c103c_medn = (g103c, g103c_wide, g103c_alt_narr, g103c_alt_wide);
+c103c_in = (g103e_alt, g103d, g103d_103e, cmed);
+cLowDia = (g103d, g103d_103e, g103e, g103e_102f, g103e_1030, cmed, cLVowelAll);
+c102b = (g102b, g102b_103a);
+
+/* @doc
+We separate out the rules for each base character that changes shape when it has other diacritics
+to interact with it (usually underneath). These classes list the various diacritics that cause
+the particular base character to change shape.
+@enddoc */
+
+t1014 = (cmed, c103d, c103e, c103b, g1039, g105e, g105f, g1060, g1082, g1010_103d_med);
+t100a = (t1014);
+
+/* @doc
+A list of glyphs that move the ldot to the left, particular for Sgaw
+@enddoc */
+
+cLeftLDot = (c101b, c103b, g103d, g103d_103e, g103d_tri, g103d_103e_tri, c103e, g1060, g1061);
+
+/* @doc
+Extend the kinzi class to include Mon Nga
+@enddoc */
+
+ckinzi += (g1004_kinzi);
+cno_kinzi += (g105a);
+callkinzi = (g1004_kinzi, g101b_kinzi, g1004_kinzi_103a, g101b_kinzi_103a);
+
+/* @doc
+Finally we have a list of glyphs that require special kerning when interacting with U+101B
+as a base character
+@enddoc */
+
+cHasRkern = (g103e_102f, g103e_1030, g1030_med, g102f_med);
+
+/* @doc
+Tone context characters that can occur before a U+AA70 khamti reduplication
+@enddoc */
+
+cTone = (g1038, g1087, g1088, g1089, g108a, g109a, g109b);
+cToneKham = (g1038_dot, g1087_dot, g1088_dot, g1089_dot, g108a_dot, g109a_dot, g109b_dot);
+
+cSpacingTone = (g1064, g1067, g1068, g1069, g106a, g106b, g106c, g106d);
+c1037 = (g1037);
+
+endtable; // glyph table
+
+/* @doc
+<h2>Linebreaking</h2>
+
+The basic linebreaking algorithm states that a linebreak may occur if the glyph before
+has a breakweight of 0 or a +ve breakweight <= to the breakweight we are testing for, <i>or</i>
+if the following glyph has a breakweight of 0 or a -ve breakweight with absolute value
+<= to the breakweight we are testing for. Put in negative terms, to stop a linebreak
+happening, both the previous glyph must either have a -ve breakweight or a breakweight
+> the test breakweight, and the following glyph must either have a +ve breakweight or
+a breakweight with absolute value > the test breakweight. Either way it's mind boggling!
+
+For all this, we can actually do syllable based line-breaking in Myanmar very simply.
+The main rule is: If a consonant has a killer (but not just a medial), then it is part of
+the previous syllable and you can't line-break before it (unless you are desparate).
+There is another rule in this table that ensure that the default linebreak that can
+occur before a consonant is disabled when that consonant is medialised (i.e. follows
+a U+1039).
+@enddoc */
+
+table(linebreak)
+
+// encourage breaks between section and consonant
+cSection {breakweight = BW_WORD} / _ ^ cCons;
+//gSpace {breakweight = BW_WORD} / _ ^ cCons;
+cCons {breakweight = -BW_WORD} / gSpace _;
+
+// no line breaks before visibly killed char
+cTakesUDia {breakweight = -BW_CHAR} g103a {breakweight = -BW_NEVER} / _ ^ [gKill cmed]? opt4(cnTakesUDia) _ ;
+
+// g1004 {breakweight = -5} gKill {breakweight = -5} /   g200d  _ ^;
+
+// no line breaks before a syllable chained consonant
+cCons {breakweight = -BW_CHAR} cno_med {breakweight = -BW_NEVER} / _ gKill _ ;
+
+// no line breaks before virama
+cCons {breakweight = -BW_NEVER} / gKill _ ;
+
+// no line break before WJ
+cCons {breakweight = -BW_CHAR} / wj _ ;
+
+// discourage breaks after aa before another cons
+cCons {breakweight = -BW_CHAR} / g1021 _;
+
+// discourage breaks around quotes
+ANY {breakweight = +BW_CLIP} / cLQuote ^ _;
+ANY {breakweight = -BW_CLIP}  / _ ^ cRQuote;
+
+// discourage breaks within numbers
+cSection {breakweight = +BW_CHAR} / _ cNum;
+// encourage breaks between consonants and numbers
+cNum {breakweight = -BW_SYLL} / cCons _;
+cSigns {breakweight = -BW_SYLL} / cSection _;
+
+// discourage break between sign and a section
+cSigns {breakweight = +BW_CLIP} / _ cSection;
+
+endtable; // linebreak table
+
+/* @doc
+<h2>Substitution</h2>
+
+The substitution table is where most of the work is done. We break the process into 3 passes.
+The purpose of the first pass is to get everything down to single glyphs wherever possible.
+This means we are trying to remove any gKills from the slot stream. We also try to do as much
+as we can here, in terms of dealing with kinzi and simple ligatures. We don't do any re-ordering
+(apart from kinzi which is so wierd that it's best if we get it out of the way as soon as we
+can). By the end of this pass, there should be no gKills left in the slot stream, likewise g200C.
+
+Notice the explicit declaration of underlying to surface associations.
+
+We only need to copy the order attribute into the slot if we aren't going to reprocess the slot.
+@enddoc */
+
+table(substitution);
+
+pass(pass_medial);
+
+cno_kinzi g103a gKill _ > _ _ _ ckinzi$1:(1 2 3) /
+    _ _ _ ^ (cCons, cNum, g104e)? [gKill cno_med]? opt4(cClusMedNot103b) opt2(cPreVowel) _;      // need opt4() here for opt()
+(g1004 g105a) g103a gKill g103a _ > _ _ _ _ g1004_kinzi_103a:(1 2 3 a) /
+    _ _ _ ^ (cCons, cNum, g104e)? [gKill cno_med]? _=a opt4(cClusMedNot103b) _;      (g1004 g105a) g103a gKill g103a _ > _ _ _ _ g1004_kinzi_103a:(1 2 3 a) /
+    _ _ _ ^ (cCons, cNum, g104e)? [gKill cno_med]? opt4(cWaHa) _=a _;      // need opt4() here for opt()
+g101b g103a gKill g103a _ > _ _ _ _ g101b_kinzi_103a:(1 2 3 a) /
+    _ _ _ ^ (cCons, cNum, g104e)? [gKill cno_med]? _=a opt4(cClusMedNot103b) _;      // need opt4() here for opt()
+(g1004 g105a) g103a gKill cUVowelNga > _ _ _ cNgaUVowel:(1 2 3 u) /
+    _ _ _ ^ (cCons, cNum, g104e) [gKill cno_med]? opt4(cClusMed) opt2(cPreVowel) _=u;
+g101b g103a gKill g102d > _ _ _ g101b_kinzi_102d:(1 2 3 u) /
+    _ _ _ ^ (cCons, cNum, g104e) [gKill cno_med]? opt4(cClusMed) opt2(cPreVowel) _=u;
+g101b g103a gKill g102e > _ _ _ g101b_kinzi_102e:(1 2 3 u) /
+    _ _ _ ^ (cCons, cNum, g104e) [gKill cno_med]? opt4(cClusMed) opt2(cPreVowel) _=u;
+(g1004 g105a) g103a gKill g102d g1036 > _ _ _ _ g1004_kinzi_102d_1036:(1 2 3 i t) / _ _ _ ^ (cCons, cNum, g104e) [gKill cno_med]? opt4(cClusMed) opt2(cPreVowel) _=i _=t;
+gKill cno_med > _ cmed:(1 2);
+
+// lots of ligatures, as many as we can do adjacently
+gKill g1010 g103d > g1010_103d_med:(1 2 3) _ _;
+
+if (nnya == 0)
+g100a gKill g100a > g100a_100a:(1 2 3) _ _;
+endif;
+
+g100b gKill g100b > g100b_100b:(1 2 3) _ _;
+g100b gKill g100c > g100b_100c:(1 2 3) _ _;
+g100d gKill g100d > g100d_100d:(1 2 3) _ _;
+g100d gKill g100e > g100d_100e:(1 2 3) _ _; // this way round is consistent with other Myanmar fonts
+g100f gKill g100b > g100f_100b:(1 2 3) _ _;
+g100f gKill g100d > g100f_100d:(1 2 3) _ _;
+g1014 gKill g1010 g103c > g1014_1010_103c:(1 2 3 4) _ _ _;
+g1014 gKill g1010 g103c > g1014_1010_103c:(1 2 3 4) _ _ _;
+g101e gKill g1010 g103c > g101e_1010_103c:(1 2 3 4) _ _ _;
+g102d g1032 > g1032_102d:(1 3) _ / ^ _ cLVowel? _;
+
+g103a g1036 > g103a_1036:(1 2) _;
+
+g103b g103d g103e > g103b_103d_103e:(1 2 3) _ _;
+g103b g103e > g103b_103e:(1 2) _;
+g103c g103d g103e > @1 g103d_103e_small:(2 3) _;
+g103c g103d > g103c_103d_narr:(1 2) _;
+// g103d g103e > g103d_103e_small:(2 3) _ / g103c _ _ ;
+g103d g103e > g103d_103e:(1 2) _;
+g103b g103d > g103b_103d:(1 2) _;
+gKill cno_med g103c g102f > _ cmed:(1 2) @r @u / _ _ _=r ^ cPreVowel? cUVowel? _=u;
+if (!uTall)
+    g103c g103e g102f > @r @h @u / _=r _=h ^ g103a? cPreVowel? cUVowel? _=u;
+    g103c g103e g1030 > @r @h @u / _=r _=h ^ g103a? cPreVowel? cUVowel? _=u;
+    if (!uLong)
+        g103c g102f > g103c_102f_narr:(1 4) _ / _ ^ cPreVowel? cUVowel? _;
+        g103e g1030 > g103e_1030:(1 5) _ / _ ^ g103a? cPreVowel? cUVowel? _;
+    endif;
+    // prevent match for illegal sequence otherwise it won't be detected in the next pass
+    g103e g102f > g103e g102f / _ _ g103a;
+    if (uLong)
+        // disable with U+100a
+        g103e g102f > g103e:(2) g102f:(6) / g100a _ ^ g103a? cPreVowel? cUVowel? _;
+    endif;
+    g103e g102f > g103e_102f:(1 5) _ / _ ^ g103a? cPreVowel? cUVowel? _;
+endif;
+g1020 g1039 g1020 > g1020_1020:(1 2 3) _ _;
+g1020 g103e > g1020_103e:(1 2) _;
+g1026 _ > g1025 g102e:1 / ^ _ _;
+g1029 _ > g101e g103c:1 / ^ _ _;
+g1051 gKill g100c > g1051_100c:(1 2 3) _ _;
+g1051 gKill g100d > g1051_100d:(1 2 3) _ _;
+g105a > g1004 / ^ _ (g103a g1039);
+// g1081 _ > g1002 g103e:1 / _ g103b? g103c? (g103d, g1082) _;
+gKill g101c g103d > g101c_med_103d:(1 2 3) _ _;
+
+// there should be no gKill left now
+// gKill > _;
+ANY g200C > ANY:(1 2) _;
+ANY g200d > ANY:(1 2) _;
+ANY wj > ANY:(1 2) _;
+
+endpass;
+
+/* @doc
+<h2>Ensuring Correct Ordering</h2>
+
+The following pass contains a standard idiom, that can be used for any script where
+glyph ordering is considered important. Each glyph contains a glyph attribute called order.
+The order value of a glyph specifies its required order in relation to those around it.
+The purpose of this pass is to highlight where glyphs are ordered incorrectly in the slot
+stream (and so, in the underlying text) by inserting a dotted circle before the offending
+diacritic.
+
+A glyph with order == 0 is considered not to be playing. I.e. it isn't a base character
+and it isn't a diacritic. Such glyphs may not take diacritics and if a diacritic occurs
+following one of these glyphs, a dotted circle is inserted.
+
+A glyph with order == 1 is considered to be a base character and may take diacritics.
+
+Any glyph with order > 1 is considered to be a diacritic and must not occur following
+a glyph with an order greater than the order of the glyph we are interested in. For example
+we can't have glyphs in the order 1, 7, 5. but 1, 5, 7 is OK.
+
+All this in two rules! Mind you the two rules do check every glyph.
+@enddoc */
+#if (1)
+
+// The dottedc pass only works with graphite 2.4 with the pass constraints compiler
+// so remove for backwards compatibility
+// this results in bad rendering beyond just not inserting 25cc e.g. U+1000 U+102F gets a tall glyph
+// if (dottedc)
+if (dottedc)
+pass(pass_order);
+ANY > @1{sOrder=order};
+endpass;
+
+pass(pass_insert);
+if (dottedc)
+
+/* @doc
+A special rule to handle contractions (reduplications). It allows a killer directly after a
+consonant and for any diacritic to follow that killer. Notice that the rule needs to be
+length 3, longer than the other rules to take priority.
+@enddoc */
+
+// slot Asat
+_ > g25cc:3 / cCons _ g103a ^ g103e;
+_ > g25cc:3 / cCons _ g103a ^ g1082;
+
+// order should be asat first with 103c
+//_ > g25cc:4 / cCons c103c _ g103a ^;
+//_ > g25cc:4 / cCons g103d _ g103a ^;
+
+cmed > @r{sOrder = 25} / cCons cmed{sOrder == 20} _=r;
+
+// prevent ambiguity of anusvara and lower vowel
+//_ > g25cc:3 / (g1036, g1032) _ cLVowel ^;
+
+// upper vowel and visible virama shouldn't occur together afaik
+//_ > g25cc:3 / cUSpace _ g103a ^;
+
+// prevent decomposed 1081 getting a circle with asat
+//g1002 g103e g1082 g103a;
+
+// allow zero after another number to take a vowel for currency
+g1040 > @2{sOrder=1} / cNum _ (g102d, g102b);
+
+// kinzi is best rendered before 103b when there is no vowel ligature
+callkinzi > @2{sOrder=30} / (cCons cmed) _ c103b;
+
+// chart constraints
+
+// slot Mon Asat
+g103a > @2 / (g103e, g103e_102f, g103e_1030, g1082) _ ^ g1037;
+g103a > @3{sOrder=80} / ANY (g103e, g103e_102f, g103e_1030, g1082) _;
+
+// slot Shan E vowel
+g1031 > @3{sOrder=100} / ANY{sOrder > 0 && sOrder < 90} g1031 _;
+
+// slot Upper vowel
+(g1032, g1036){sOrder = 160} / _ ^ (g102f, g1030, g1086);
+// support both orders: g1036{sOrder = 160} / _ ^ (g102b);
+
+// Karen Vowel
+g1062{sOrder = 150} / (g102f, g1030) _;
+g1062{sOrder = 150} / _ g1032;
+
+// dot vowel
+g1037{sOrder = 180} / (g102f, g1030) _;
+g1037{sOrder = 180} / _ ^ (g1032, g1036);
+
+// slot A Vowel
+g1062 > @2{sOrder=150} / ANY{sOrder >= 130 && sOrder < 150} _;
+
+// slot Mon h
+c103eStart > @2{sOrder=152} / g102c _ g103a;
+
+// slot A Asat
+g103a > @2{sOrder=155} / (g103e, g1062) _;
+g103a > @2{sOrder=155} / ANY{sOrder == 150} _;
+
+// slot Anusvara
+(g1036, g1032) > @2{sOrder=160} / ANY{sOrder >= 120 && sOrder <= 150} _;
+(g1036, g1032) > @2{sOrder=160} / (g102d, g102e, g1032) _;
+
+// double 1037 is always wrong, so we should highlight it
+_ g1037 > g25cc:3 @3{sOrder=130} / g1037{sOrder == 130} _ _;
+
+// slot Lower Dot
+g1037 > @2{sOrder=180} / ANY{sOrder >= 120 && sOrder < 180} _;
+// backwards compatibility
+g1037 > @2{sOrder=180} / ANY{sOrder == 200} _ ^;
+
+// Visible virama
+g103a > @2{sOrder=200} / ANY{sOrder >= 170 && sOrder < 200} _{sOrder == 30};
+g103a > @2{sOrder=200} / (g103c_102f_narr) _{sOrder == 30};
+g103a > @2{sOrder=200} / g1037 _;
+// Allow 103a 1037 for backwards compatibility, but not 103a 1037 103a
+_ g103a > g25cc:4 @4 / g103a g1037 _ _;
+// gaa70 > @2 / g_space _;
+gaa70 > @1;
+
+// allow ||: for question mark
+g1038 > @2 / g104b _;
+
+_ > g25cc:3 / g1005 _ g103b ^;
+
+// these rules have sort length 2 which is awkward for any ligature processing
+
+_ ANY > g25cc:3 @3 / ANY _ _{sOrder > 1 && sOrder <= @1.sOrder};
+_ ANY > g25cc:3 @3 / ANY{sOrder == 0} _ _{sOrder > 1};
+ANY / ANY{sOrder >= 1} _{sOrder <= 1 || sOrder > @1.sOrder};
+_ ANY > g25cc:2 @2 / _ _{sOrder > 1};
+// _ > g25cc:3 / # _ ANY{sOrder > 1};
+
+endif // for v3 compatibility
+
+endpass;
+endif;
+
+#endif
+
+/* @doc
+<h2>Main Pass</h2>
+
+Now we have single glyphs all in the right order (at least in storage terms, excepting kinzi).
+We now need to re-order everything and get the right contextual form and generally sort everything
+out. Notice that we don't advance the cursor beyond a base char, we leave that to the fallback rule.
+This ensures that we have the maximum opportunity to re-order things before the base character.
+@enddoc */
+
+pass(pass_front);
+
+/* @doc
+U+1014 takes the short tail form when wrapped
+@enddoc */
+
+g1014 > g1014_alt / (c103c_nar, c103c_naralt) _ ;
+
+/* @doc
+Moves the -e vowel to the front. Leave cursor where it was (the rule will not rematch, because
+we have removed the -e).
+@enddoc */
+
+_ cPreVowel > @e:e _ / _ ^ c103c? cCons ckinzi? cmed? opt4(cClusDia) g103a? _=e;
+cStackLig cPreVowel > @e @s / _=s _=e;
+
+/* @doc
+Here we get the right wrap into the right place. We start with a narrow form. Usually the glyph is
+g103c, but ligatures can occur in the first pass to create the other forms in that class.
+Each rule, therefore, maps from c101b_nar. The different rules match according to which
+corresponding class the wrap glyphs should be mapped to. We also move the wrap to the front
+(after -e if it is there) and rematch the consonant.
+@enddoc */
+
+// suboptimal matches all around here
+_ c103c_nar > c103c_wide:r$r _ / ^ _ cConsWide cmed? c103b? _=r;
+_ c103c_nar > c103c_widalt:r$r _ / ^ _ cConsNar cMedWide _=r c103d? c103e? cPreVowel? cUSpace;
+_ c103c_nar > c103c_naralt:r$r _ / ^ _ cConsNar cmed? c103b? _=r c103d? c103e? cPreVowel? cUSpace;
+_ c103c_nar > c103c_widalt:r$r _ / ^ _ cConsWide cmed? c103b? _=r c103d? c103e? cPreVowel? cUSpace;
+_ c103c_nar > c103c_widalt:r$r _ / ^ _ cConsNar cMedWide g103a _=r;
+_ c103c_nar > c103c_naralt:r$r _ / ^ _ cConsNar cmed? g103a _=r;
+_ c103c_nar > c103c_widalt:r$r _ / ^ _ cConsWide cmed? g103a _=r;
+_ c103c_nar > c103c_wide:r$r _ / ^ _ cConsNar cMedWide c103b? _=r;
+_ c103c_nar > @r:r _ / ^ _ cConsNar cmed? c103b? _=r;
+_ c103c_nar > c103c_wide:r$r _ / ^ _ cConsWide cmed? c103b? _=r;
+
+/* @doc
+Rules to handle U+101B in its base form (not as a wrap). Whether we need a short leg form
+or a full length leg with no foot.
+@enddoc */
+
+g101b > g101b_alt / ^ _ c103e? cUVowel? cLVowelAll;
+g101b > g101b_alt / ^ _ (c103d c103b g1039);
+(g101b g1020) > (g101b_long g1020_long) / ^ _ g103e;
+g101b > g101b_long / ^ _ cmed cUVowel? cLVowel;
+
+/* @doc
+Map full height lower vowels into short form, if appropriate. Also handle special glyphs when
+inside a wrap.
+@enddoc */
+
+// krs the next rule is to prevent medial being substitued with wrap
+// (wrap is by now in front of consonant)
+(g102f g1030) > @u / c103c_only cConsSVowel cUVowel? _=u ^;
+if (uTall == 0 && uLong == 0)
+    g100a cLVowel > g100a_alt:(1) cLVowelM:(3) / ^ _ cUVowel? _;
+endif;
+if (uTall==0)
+    // The next rule prevents the following, shorter rule matching
+    cLVowel > cLVowel / c103c_103d ^ cConsSVowel cUVowel? _;
+    cLVowel > cLVowelM / ^ cConsSVowel cUVowel? _;
+    g1014 cLVowel > g1014_alt:(1) cLVowelM:(3) / ^ _ cUVowel? _;
+endif;
+// g103d_103e > g103d_103e_small / c103c cCons _;
+cUTakesMa g1036 > cUWithMa:(1 3) _ / ^ _ cLVowel? _;
+
+/* @doc
+Glyphs that take an alternate form with certain diacritics.
+@enddoc */
+
+g1014 > g1014_alt / ^ _ t1014;
+g100a > g100a_alt / ^ _ t100a;
+if (uTall == 0)
+g1014 > g1014_alt / ^ _ cLVowelAll;
+endif;
+if (uTall == 0 && uLong == 0)
+g100a > g100a_alt / ^ _ cLVowelAll;
+endif;
+g1009 > g1025 / ^ _ g1037? g103a;          // is this the rule?
+g1009 > g1025 / ^ _ cmed;
+// MLC dictionary doesn't show this occurring at least with u1010 u103A
+//g1009 > g1025 / ^ _ c103e? cPreVowel? cUVowel? cCons;
+
+/* @doc
+When does the -h slant? Inside a wrap and after a consonant that forces it to slant.
+@enddoc */
+
+g103e > g103e_alt / ^ c103c cConsSVowel _;
+g103e > g103e_alt / cConsSlantH _;
+g103e > g103e_slanth / g1082 _;
+
+/* @doc
+Tall -a vowel ligature
+@enddoc */
+
+// Allow for normalized text
+(g102b g1062) g103a > (g102b_103a g1062_103a):(1 3) _ / _ g1037? _;
+(cLVowel g102b) g1036 > @2 @1;
+g1062 g1086 > @2 @1 / ^ _ _;
+
+/* I'm sure there are things that can intervene between these here */
+cUVowelBar gaa7c > cBarUVowel:(1 3) _ / _ cLVowelM? _;
+cLDiaBar g108d > cBarLDia:(1 3) _ / _ cUVowel? _;
+cSpaceVowel cToneDia > @2 @1;
+
+/* @doc
+Khamti reduplication ligatures
+@enddoc */
+
+if (filled)
+(g1086 g103a) gaa70 > (g1032_aa70 g103a_aa70):(1 v) _ / _ g1062? cToneKham? _=v;
+(g1086 g103a) cTone gaa70 > (g1032_aa70 g103a_aa70):(1 v) cToneKham _ / _ g1062? _ _=v;
+else
+(g1086 g103a) gaa70 > (g1032_aa70 g103a_aa70):(1 v) _ / _ g1062? cTone? _=v;
+endif;
+
+endpass;
+
+pass(pass_subst);
+/* @doc
+Handle feature substitutions
+@enddoc */
+
+if (khamti)
+cno_kham > ckham;
+endif;
+
+if (aitonph)
+cno_aiph > caiph;
+endif;
+
+if (filled)
+cno_dot > cdot;
+endif;
+
+if (watri)
+cno_tri > ctri;
+endif;
+
+if (slanth == sgaw)
+cno_slanth > cslanth;
+else if (slanth == angle)
+cno_slantr > cslantr;
+endif;
+
+if (vartta)
+g100b > g100b_alt;
+endif;
+
+endpass;
+
+endtable; // substitution table
+
+/* @doc
+<h2>Positioning</h2>
+
+The positioning process is done in two passes. The first passes attaches diacritics to their
+base character. This is complicated by the lower dot (U+1037) which is attached contextually.
+Each rule in the first pass follows a standard idiom:
+
+ <i>base dia</i> <code>{attach {to = @1; at = </code><i>APS</i><code>; with = </code><i>APM</i><code>}; attached = 1} / ^ _ opt3(</code><i>nBase</i><code>) _{attached == 0};</code>
+
+ <i>base</i> is the class of things that <i>dia</i> can attach to. The aim of the rule is to
+match a <i>dia</i> with the most immediate glyph it can attach to. Thus <i>base</i> should
+include everything that <i>dia</i> can attach to. In some cases the <i>base</i> class includes
+the contents of the <i>dia</i> class, when diacritics can stack.
+
+When the rule matches, we attach the <i>dia</i> to the <i>base</i> using the attachment point <i>APS</i>
+on the <i>base</i> and the <i>APM</i> attachment point on the <i>dia</i>. Notice it is the <i>dia</i> that
+moves to attach to the <i>base</i> and not the other way around.
+
+Because we need to match the same <i>base</i> multiple times for the multiple <i>dia</i>s that can
+attach to it, we need to keep the cursor in front of the <i>base</i> until everything is attached
+and we can move on. So that we do not keep rematching and reattaching the same <i>dia</i> we mark
+each glyph we attach as being attached, using the <code>attached</code> slot attribute (which resolves
+to <code>user1</code>). Thus we only want to match <i>dia</i>s with <code>attached</code> of zero.
+Thus the environment is the <i>base</i> followed by everything that cannot be a <i>base</i> or <i>dia</i>
+followed by a <i>dia</i> with <code>attached == 0</code>.
+
+By using the <code>attached</code> slot attribute, we can have multiple types of diacritics that
+attach to a base character at and with different attachment points. Thus multiple of the above rules
+can be used together and interact correctly.
+
+The rendering approach here is not necessarily the best that can be used, but it does show
+that different approaches to solving the same problem can be used very easily with Graphite.
+
+The attachment points have the following names:
+
+<dl>
+ <dt>BSS</dt>    <dd>attach single width lower diacritic to here</dd>
+ <dt>BDS</dt>    <dd>attach double width lower diacritic to here</dd>
+ <dt>BDM</dt>    <dd>attach lower double width diacritic using this AP</dd>
+ <dt>BSM</dt>    <dd>attach lower single width diacritic using this AP</dd>
+ <dt>LS</dt>     <dd>attach lower dot to here</dd>
+ <dt>LLS</dt>    <dd>attach left moving lower dot to here</dd>
+ <dt>LM</dt>     <dd>use this AP when attaching lower dot</dd>
+ <dt>RM</dt>     <dd>use when attaching base to wrap</dd>
+ <dt>RL</dt>     <dd>attach base to wrap here</dd>
+ <dt>US</dt>     <dd>attach upper diacritic to here</dd>
+ <dt>UM</dt>     <dd>use this AP when attaching upper diacritic</dd>
+ <dt>YS</dt>     <dd>attach to stem relative to rhs of upper diacritic</dd>
+ <dt>YM</dt>     <dd>rhs of upper diacritic. Note glyphs with this must have a UM too</dd>
+@enddoc */
+
+table(positioning);
+
+pass(1);
+
+/* @doc
+The normal advance width for a wrap is just beyond the left hand stem. Since we actually attach the
+base character to the wrap, we need to change the advance of the wrap to be the full width of the
+wrap. We do this here.
+@enddoc */
+
+c103c {advance.x = AS.x};
+
+endpass;
+
+pass(2)
+
+/* @doc
+First we address the lower dot (U+1037) and decide which glyph is its base character. In different
+contexts it takes a different base character. We describe them all in the environments. The final
+fallback is to treat g1037 as a simple cBSDia in a later rule, so we only need the specials here.
+@enddoc */
+
+// This lot is a bit messy. We could probably simplify this, but at least it works!
+if (lldot)
+    c1037 {attach {to = @1; at = LLMS; with = LM}} / cTakesLLMDia opt3(cnTakesLMDia) _;
+    c1037 {attach {to = @1; at = LLS; with = LM}} / cTakesLLDia cConsSVowel? opt3(cnTakesLLDia) _;
+else
+    g1037 {attach {to = @1; at = LMS; with = LM}} / cTakesLMDia opt3(cnTakesLMDia) _;
+endif;
+
+if (ldotrt == 0)
+    c1037 {attach {to = @2; at = LS; with = LM}} / c103c_only? cConsSVowel cUDia? _;
+    c1037 {attach {to = @1; at = LS; with = LM}} / c103c_mix cConsSVowel cUDia? _;
+else
+    c1037 {attach {to = @1; at = LS; with = LM}} / c103c cConsSVowel cUDia? _;
+endif;
+
+c1037 {attach {to = @1; at = LS; with = LM}} / c103c cConsSVowel cmed c103e_dia? cUDia? _;
+c1037 {attach {to = @1; at = LS; with = LM}} / c103c cConsSVowel cmed? c103e_dia cUDia? _;
+c1037 {attach {to = @1; at = LS; with = LM}} / c101b (cmed, cClusDia) cUVowel? cLVowelM? c1036? _;
+c1037 {attach {to = @1; at = LS; with = LM}} / c101b cUVowel? cLVowelM c1036? _;
+c1037 {attach {to = @1; at = LLS; with = LM}} / c101b cUDia? _;
+
+// Attaching to full height u/uu and yapin. Yes cnTakesUDia is correct here.
+// Locate the rules here before UDia attachment so they take precedence.
+
+cUDia {attach {to = @u; at = US; with = UM}} / c103c cTakesUDia=u opt2(cnTakesUDia) _;
+//cYDia {attach {to = @y; at = YS; with = YM}} / _ ^ opt2(cnTakesUDia) cTakesYDia=y;
+cYDia {attach {to = @y; at = YS; with = YM}} / cTakesYDia=y opt2(cnTakesUDia)  _;
+
+// applies in the ulon=1 case and should take precedence over attaching to tall u
+cUDia {attach {to = @c; at = US; with = UM}} / cTakesUDia=c g102f _;
+cUDia {attach {to = @1; at = US; with = UM}} / cTakesUDia opt2(cnTakesUDia) _;
+
+/* @doc
+Now we do the standard attachment rules. Notice that we first try to attach a wide lower diacritic
+to its corresponding AP on the base character. Failing that we fall back to using the same AP
+as the narrow diacritics. This is controlled by the contents of the cTakes classes which are
+automatically generated as part of generating the font specific GDL, based on which APs a glyph has.
+@enddoc */
+
+cBSDia {attach {to = @1; at = BSS; with = BSM}} / cTakesBSDia opt(cnTakesBSDia) _;
+cBDDia {attach {to = @1; at = BDS; with = BDM}} / cTakesBDDia opt(cnTakesBDDia) _;
+cBDDia {attach {to = @1; at = BSS; with = BDM}} / cTakesBSDia opt(cnTakesBSDia) _;
+
+/* @doc
+Attaching the base character to the wrap is a radical way of ensuring that the user cannot insert
+a cursor between the base character and the wrap.
+@enddoc */
+
+cRDia {attach {to = @1; at = RS; with = RM}; insert = 1} / cTakesRDia _=r;
+
+/* @doc
+Attach the non-attached
+@enddoc */
+
+g103b {attach {to = @1; at = LLS; with = LLS}} / c103c_only cCons cmed? g103a? _;
+
+cYMed {attach.to = @1} / cCons cmed? g103a? _;
+
+endpass;
+
+pass(3)
+g1037 {attach {to = @1; at = LS; with = LM}} / cTakesLDia opt3(cnTakesLDia) _{attach.to == 0};
+endpass;
+
+/* @doc
+<h2>Kerning</h2>
+
+There is very little kerning to be done. We need to kern a diacritic in relation to U+101B
+if necessary. We also kern the next glyph following a killed tall -a towards the tall -a if
+it is not tall enough to hit the killer.
+
+We also centre a cluster within its wrap. This is probably done more easily by using a centred
+attachment point in the wrap and the BDS on the consonant. But we don't have that information
+in the font.
+@enddoc */
+
+pass(4);
+
+g101b_alt {kern.x = @2.KRMS.x + 10m} cHasRkern {shift.x = -KRMS.x};
+// c102c_tall {kern.x = -xkern} / cCons cLowDia? _;
+c102b {kern.x = -KLS.x / 2} / cUDia _;
+c102b {kern.x = -KLS.x / 2} / c103c cCons cLVowel? cLDia? _;
+cConsNar / g102b_103a=a _ cLowDia? cUDia;
+cCons {kern.x = @a.KLS.x} / g102b_103a=a _;
+cPreVowel {kern.x = @a.KLS.x} / g102b_103a=a _;
+// cRDia {shift.x = (@r.advancewidth + @r.advance.x - advance.x) / 2 + @r.position.x - position.x} / cTakesRDia=r _;
+cUVowel {advance.x = 0m} / c103b _ ;
+// fix kinzi lig in cemetary
+g1004_kinzi_102d {kern.x = - advance.x } / c103b _ cLVowel? cCons g103a;
+// fixes for Sgaw Karen
+g1063 {shift.x = advance.x / 3 } / c103b c1037=d _;
+g1063 {shift.x = advance.x / 3 } / g101b_long g103e c1037=d _;
+g1036 {shift.x = (@i.advance.x - @u.advance.x) / 2 + 100m } / g1025=i g102f=u _;
+g1063 { kern.x = advance.x/4 } / (g101b, g1061) g103e? g1037 _ ;
+
+// narrow above, wide medial below
+cBDDia {advance.x = 50m} / cConsNar=n _ cConsNar cBDDia;
+cBDDia {advance.x = 50m} / cConsNar=n _ (g102f, g1030);
+cBDDia {advance.x = 50m } / cConsNar=n _ c103c;
+cConsNar { shift.x = -@m.BDM.x - @n.advance.x / 2; advance.x += -@m.BDM.x - @n.advance.x / 2} / c103c cCons cUVowel? _=n cBDDia=m;
+cConsNar { shift.x = -@m.BDM.x - @n.advance.x / 2; advance.x += -@m.BDM.x - @n.advance.x / 2} / (g102f, g1030)  _=n cBDDia=m;
+cConsNar {shift.x = -@m.BDM.x - @n.advance.x / 2; advance.x += -@m.BDM.x - @n.advance.x / 2} / (g101b, g103b) cUVowel? _=n cBDDia=m;
+(cConsNar, g1014_alt, g101b_alt) {kern.x = (@n.advance.x) / 4 }/ (g101b, g103b, g102f, g1030) cUVowel? _=n cMedHUu;
+g103b {advance.x += @4.BSM.x - @4.boundingbox.left - @3.BSS.x}  / _ cUVowel? ^ cConsNar (g103e_1030_slantr, g103e_1030_slanth);
+
+g1037 / cYMed cUVowel? cLVowel? c1036? _ cTone;
+g1037 / cYMed cUVowel? cLVowel? c1036? _ (g1063 g1064 g1069 g106a g106b g106c g106d g108f);
+g1037 { advance.x = 1m } / cYMed cUVowel? cLVowel? c1036? _;
+// the next rule in conjunction with the other (g103d g103d_103e) causes a corrupt font
+// g1037 { advance.x = 10m } / (g103d g103d_103e) cUVowel? cLVowel? c1036? _;
+g1037 { advance.x = 10m } / c103c_mix cCons cUVowel? _ c103c;
+g103d { advance.x = 200m } / cCons _ cUVowel? g1037 c103c;
+// why does this crash graphite?
+// cTakesRDia { kern.x = 100m } / cCons g103d cUVowel? g1037 _ cRDia;
+g103d { advance.x = 60m } / _ g1014_alt g1010_med;
+(g103d, g103d_103e) { advance.x = 100m } / _ (g1032, g1036)? g1037 (cCons, g1014_alt) (g103d, cBDDia);
+
+if (slanth == sgaw)
+c1037 { kern.x = -100m; kern.y = -100m; } / g101b_long g103e_slanth _;
+endif;
+
+endpass;
+
+endtable; // positioning table

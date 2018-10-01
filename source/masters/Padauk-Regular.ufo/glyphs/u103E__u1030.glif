@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u103E_u1030" format="2">
+  <anchor x="609" y="-53" name="BSM"/>
+  <anchor x="90" y="0" name="KRM"/>
+  <anchor x="-609" y="-53" name="LLM"/>
+  <anchor x="21" y="-53" name="LM"/>
+  <anchor x="-294" y="-53" name="_BS"/>
+  <anchor x="-294" y="-53" name="_BSM"/>
+  <outline>
+    <contour>
+      <point x="-414" y="-450" type="line"/>
+      <point x="-548" y="-450" type="line"/>
+      <point x="-548" y="-399" type="line"/>
+      <point x="-465" y="-399" type="line"/>
+      <point x="-465" y="-95" type="line"/>
+      <point x="-414" y="-95" type="line"/>
+    </contour>
+    <contour>
+      <point x="-269" y="-450" type="line"/>
+      <point x="-320" y="-450" type="line"/>
+      <point x="-320" y="-95" type="line"/>
+      <point x="-269" y="-95" type="line"/>
+    </contour>
+    <contour>
+      <point x="-41" y="-450" type="line"/>
+      <point x="-174" y="-450" type="line"/>
+      <point x="-174" y="-95" type="line"/>
+      <point x="-123" y="-95" type="line"/>
+      <point x="-123" y="-399" type="line"/>
+      <point x="-41" y="-399" type="line"/>
+    </contour>
+  </outline>
+</glyph>

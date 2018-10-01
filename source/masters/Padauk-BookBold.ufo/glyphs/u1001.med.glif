@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1001.med" format="2">
+  <anchor x="-237" y="-53" name="BSM"/>
+  <anchor x="-596" y="-53" name="LLM"/>
+  <anchor x="106" y="-53" name="LM"/>
+  <anchor x="-242" y="-53" name="_BS"/>
+  <anchor x="-242" y="-53" name="_BSM"/>
+  <outline>
+    <contour>
+      <point x="-194" y="-369" type="curve"/>
+      <point x="-213" y="-345"/>
+      <point x="-248" y="-326"/>
+      <point x="-284" y="-326" type="curve" smooth="yes"/>
+      <point x="-299" y="-326"/>
+      <point x="-314" y="-327"/>
+      <point x="-335" y="-335" type="curve"/>
+      <point x="-303" y="-374"/>
+      <point x="-264" y="-384"/>
+      <point x="-243" y="-384" type="curve" smooth="yes"/>
+      <point x="-224" y="-384"/>
+      <point x="-207" y="-378"/>
+    </contour>
+    <contour>
+      <point x="-56" y="-282" type="curve" smooth="yes"/>
+      <point x="-56" y="-389"/>
+      <point x="-138" y="-471"/>
+      <point x="-243" y="-471" type="curve" smooth="yes"/>
+      <point x="-318" y="-471"/>
+      <point x="-432" y="-410"/>
+      <point x="-432" y="-305" type="curve"/>
+      <point x="-371" y="-262"/>
+      <point x="-315" y="-255"/>
+      <point x="-284" y="-255" type="curve" smooth="yes"/>
+      <point x="-247" y="-255"/>
+      <point x="-189" y="-271"/>
+      <point x="-149" y="-311" type="curve"/>
+      <point x="-145" y="-302"/>
+      <point x="-144" y="-293"/>
+      <point x="-144" y="-284" type="curve" smooth="yes"/>
+      <point x="-144" y="-235"/>
+      <point x="-181" y="-180"/>
+      <point x="-243" y="-180" type="curve" smooth="yes"/>
+      <point x="-280" y="-180"/>
+      <point x="-315" y="-198"/>
+      <point x="-339" y="-234" type="curve"/>
+      <point x="-414" y="-194" type="line"/>
+      <point x="-379" y="-125"/>
+      <point x="-310" y="-93"/>
+      <point x="-243" y="-93" type="curve" smooth="yes"/>
+      <point x="-123" y="-93"/>
+      <point x="-56" y="-197"/>
+    </contour>
+  </outline>
+</glyph>
