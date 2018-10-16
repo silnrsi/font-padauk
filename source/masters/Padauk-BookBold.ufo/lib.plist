@@ -5,11 +5,13 @@
   <key>com.schriftgestaltung.Glyphs.fontUserData</key>
   <dict/>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>1167</string>
+  <string>1165</string>
   <key>com.schriftgestaltung.customName</key>
   <string>Book</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-  <string/>
+  <array>
+    <string>/u103C   /u103C.alt.narr   /u103C.alt.open.narr  /u103C.open.narr   /u103C.alt.wide    /u103C.wide    /u103C.alt.open.wide    /u103C.open.wide      </string>
+  </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>

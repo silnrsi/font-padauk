@@ -530,8 +530,16 @@
   <string>u103C_.glif</string>
   <key>u103C.alt.narr</key>
   <string>u103C_.alt.narr.glif</string>
+  <key>u103C.alt.open.narr</key>
+  <string>u103C_.alt.open.narr.glif</string>
+  <key>u103C.alt.open.wide</key>
+  <string>u103C_.alt.open.wide.glif</string>
   <key>u103C.alt.wide</key>
   <string>u103C_.alt.wide.glif</string>
+  <key>u103C.open.narr</key>
+  <string>u103C_.open.narr.glif</string>
+  <key>u103C.open.wide</key>
+  <string>u103C_.open.wide.glif</string>
   <key>u103C.wide</key>
   <string>u103C_.wide.glif</string>
   <key>u103C_u102F.alt.narr</key>
