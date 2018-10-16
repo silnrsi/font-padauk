@@ -79,7 +79,7 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 
-# VM stuff 
+# VM stuff
 .vagrant/
 
 # Other
@@ -91,3 +91,5 @@ $RECYCLE.BIN/
 *$py.class
 __pycache__/
 
+# ignore the glyphs file
+*.glyphs
