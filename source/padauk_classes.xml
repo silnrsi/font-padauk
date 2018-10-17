@@ -69,6 +69,8 @@
     u103C_u102F u103C_u102F.alt
     u103C_u103D.alt.narr u103C_u103D.alt.wide 
     u103C_u103D.narr u103C_u103D.wide 
+    u103C.open.narr u103C.alt.open.narr 
+    u103C.open.wide u103C.alt.open.wide
   </property>
   <property name="GDL_order" value="60" exts=".tri">
     u103D u103D_u103E u103D_u103E.small u103D_u108D
