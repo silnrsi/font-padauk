@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u103D_u1060.csh" format="2">
+  <anchor x="144" y="-53" name="BSM"/>
+  <anchor x="-556" y="-53" name="LLM"/>
+  <anchor x="89" y="-53" name="LM"/>
+  <anchor x="-233" y="-53" name="_BS"/>
+  <outline>
+    <component base="u103D"/>
+    <component base="u1060" xOffset="328"/>
+  </outline>
+</glyph>

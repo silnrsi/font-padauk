@@ -10,7 +10,10 @@
   <string>Book</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>/u103C   /u103C.alt.narr   /u103C.alt.open.narr  /u103C.open.narr   /u103C.alt.wide    /u103C.wide    /u103C.alt.open.wide    /u103C.open.wide      </string>
+    <string>/u103D_u1060.csh    `/u1060  /u103E_u1060.csh    /u106D.csh  /u103E.slanth  /u102D/u1060 
+/u103D  /u1006/u1038/u106D.csh/u1062/u1064/u106D  /u1064/u1005/u106D.csh  /u103C.wide/uA9E4/u103C.alt.wide/uA9E4 
+/uA9E8/uA9FE  /u103C.wide/uA9E4/u102D  /uA9E8/u108D/uAA7C/uAA7D/u1019 
+/u1000/u106D.csh  /u1000/u103B/u106D.csh  /u1000/u103B/u1030/u106D.csh  /u103C.wide/u1000/u102F/u106D.csh</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

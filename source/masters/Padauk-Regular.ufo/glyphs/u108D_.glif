@@ -10,10 +10,10 @@
   <anchor x="290" y="-53" name="_BSM"/>
   <outline>
     <contour>
-      <point x="525" y="-135" type="line"/>
-      <point x="55" y="-135" type="line"/>
-      <point x="55" y="-84" type="line"/>
-      <point x="525" y="-84" type="line"/>
+      <point x="475" y="-135" type="line"/>
+      <point x="103" y="-135" type="line"/>
+      <point x="103" y="-84" type="line"/>
+      <point x="475" y="-84" type="line"/>
     </contour>
   </outline>
 </glyph>
