@@ -35,7 +35,7 @@ include(../source/padauk-dflt_GSUB.feax)
 # locl
 # ****
 
-do  for e = [dot kham tri slantr slanth];
+do  for e = [dot kham tri slantr slanth csh];
     let lk = "mym2_locl_"+e;
     let no = "@cno_"+e;
     let c = "@c_"+e;
@@ -320,21 +320,23 @@ lookup mym2_blws_miscLig {
     sub u103B u103E.slantr  by u103B_u103E; # Kayah
     sub u103B u103E.slanth  by u103B_u103E; # Sgaw Karen
     sub u103D.tri u103E.slantr  by u103D_u103E.tri; # Kayah
+    sub u103D u1060  by u103D_u1060.csh;
+    sub u103E u1060  by u103E_u1060.csh;
     sub u1051 u100C.med  by u1051_u100C;
     sub u1051 u100D.med  by u1051_u100D;
     sub u1086 uAA7C  by u1086_uAA7C; # Tai Laing (abvs, but works here too)
     sub uA9E5 uAA7C  by uA9E5_uAA7C; # Tai Laing (abvs, but works here too)
 } mym2_blws_miscLig;
 
-@class103ELig = [u102F.med u1030.med u103D.tri u103E u103E.slantr u103E.slanth];
+@class103ELig = [u102F.med u1030.med u103D.tri u103E u103E.slanth u103E.slantr];
 lookup mym2_blws_103ELig {
   lookupflag UseMarkFilteringSet @class103ELig;
     sub u103E u102F.med  by u103E_u102F;
     sub u103E u1030.med  by u103E_u1030;
-    sub u103E.slantr u102F.med  by u103E_u102F.slantr;
-    sub u103E.slantr u1030.med  by u103E_u1030.slantr;
     sub u103E.slanth u102F.med  by u103E_u102F.slanth;
     sub u103E.slanth u1030.med  by u103E_u1030.slanth;
+    sub u103E.slantr u102F.med  by u103E_u102F.slantr;
+    sub u103E.slantr u1030.med  by u103E_u1030.slantr;
 } mym2_blws_103ELig;
 
 lookup mym2_sub1014Subst {
