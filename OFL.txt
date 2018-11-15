@@ -1,4 +1,4 @@
-Copyright 2007-2017 SIL International, all rights reserved
+Copyright (c) 2007-2018, SIL International (www.sil.org)
 with Reserved Font Name "Padauk".
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
