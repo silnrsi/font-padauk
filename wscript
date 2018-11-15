@@ -4,8 +4,6 @@
 import codecs, os
 
 TESTDIR='tests'
-VERSION='3.902'
-TTF_VERSION='3.902'
 APPNAME='Padauk'
 DESC_SHORT='Burmese Unicode 6 truetype font with OT and Graphite support'
 DESC_LONG = '''
@@ -26,6 +24,11 @@ DOCDIR='documentation'
 STANDARDS='tests/reference'
 out = 'results'
 #README="README.md"
+
+# retrieve all the authorship information from one of the master UFOs
+getufoinfo('source/masters/Padauk-Regular.ufo')
+BUILDLABEL="alpha"
+
 
 mystrings = {
     'Regular' : 'ပိုမှန်',
