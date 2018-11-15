@@ -5,12 +5,12 @@
   <key>com.schriftgestaltung.Glyphs.fontUserData</key>
   <dict/>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>1165</string>
+  <string>1179</string>
   <key>com.schriftgestaltung.customName</key>
   <string>Book</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>/u103D_u1060.csh    `/u1060  /u103E_u1060.csh    /u106D.csh  /u103E.slanth  /u102D/u1060 
+    <string>/u103D_u1060.csh    /u1060  /u103E_u1060.csh    /u106D.csh  /u103E.slanth  /u102D/u1060 
 /u103D  /u1006/u1038/u106D.csh/u1062/u1064/u106D  /u1064/u1005/u106D.csh  /u103C.wide/uA9E4/u103C.alt.wide/uA9E4 
 /uA9E8/uA9FE  /u103C.wide/uA9E4/u102D  /uA9E8/u108D/uAA7C/uAA7D/u1019 
 /u1000/u106D.csh  /u1000/u103B/u106D.csh  /u1000/u103B/u1030/u106D.csh  /u103C.wide/u1000/u102F/u106D.csh</string>
@@ -41,13 +41,6 @@
   <true/>
   <key>com.schriftgestaltung.fontMasterOrder</key>
   <integer>1</integer>
-  <key>com.schriftgestaltung.glyphOrder</key>
-  <array>
-    <string>.notdef</string>
-    <string>.null</string>
-    <string>CR</string>
-    <string>space</string>
-  </array>
   <key>com.schriftgestaltung.keyboardIncrement</key>
   <integer>1</integer>
   <key>com.schriftgestaltung.weight</key>
@@ -65,5 +58,32 @@
     <string>CR</string>
     <string>space</string>
   </array>
+  <key>public.postscriptNames</key>
+  <dict>
+    <key>divisionslash</key>
+    <string>uni2215</string>
+    <key>euro</key>
+    <string>Euro</string>
+    <key>foursuperior</key>
+    <string>uni2074</string>
+    <key>guillemetleft</key>
+    <string>guillemotleft</string>
+    <key>guillemetright</key>
+    <string>guillemotright</string>
+    <key>idotless</key>
+    <string>dotlessi</string>
+    <key>micro</key>
+    <string>uni00B5</string>
+    <key>nbspace</key>
+    <string>uni00A0</string>
+    <key>onesuperior</key>
+    <string>uni00B9</string>
+    <key>softhyphen</key>
+    <string>uni00AD</string>
+    <key>threesuperior</key>
+    <string>uni00B3</string>
+    <key>twosuperior</key>
+    <string>uni00B2</string>
+  </dict>
 </dict>
 </plist>
