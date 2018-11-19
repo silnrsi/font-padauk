@@ -3,27 +3,17 @@
 
 import codecs, os
 
+# set some default output folders (most are already set by default)
+DOCDIR = ["documentation", "web"]
+STANDARDS = 'tests/reference'
 TESTDIR='tests'
+
+# set the version control system for srcdist
+VCS = 'git'
+
 APPNAME='Padauk'
+FAMILY = APPNAME
 DESC_SHORT='Burmese Unicode 6 truetype font with OT and Graphite support'
-DESC_LONG = '''
-Padauk is a pan Burma Unicode font designed to support all the languages
-that use the Burmese script. It supports all the characters in the Burmese
-blocks for Unicode 6.0 and has OpenType and Graphite tables in it.
-
-There is specific language styling support for: kht, ksw, kyu
-
-There is feature support in Graphite for the following features: kdot, fdot,
-lldt, wtri, ulon, utal, dotc, hsln (value: 0-2), nnya, vtta
-'''
-DEBPKG='ttf-sil-padauk'
-COPYRIGHT='Copyright 2018 SIL International, all rights reserved'
-#LICENSE='OFL.txt'
-DOCDIR='documentation'
-#VCS='git'
-STANDARDS='tests/reference'
-out = 'results'
-#README="README.md"
 
 # retrieve all the authorship information from one of the master UFOs
 getufoinfo('source/masters/Padauk-Regular.ufo')
@@ -52,9 +42,8 @@ scriptcode = 'mymr' if '--no2' in opts else 'mym2'
 #    'xtest1' : tests({'xtest1' : cmd('cmptxtrender -p -k -e ot -s mym2 -l "${lang}" -e ot -s dflt -L mym2 -L dflt -t ${SRC[1]} -o ${TGT} --copy=otfonts --strip ${fileinfo} ${SRC[0]} ${SRC[0]}')})
 #})
 
+# Set up the FTML tests
 ftmlTest('tools/ftml.xsl')
-
-# for f in ['-Regular', '-Bold', '-Book', '-BookBold'] :
 
 designspace('source/Padauk.designspace',
     params = '-l ${DS:FILENAME_BASE}_createinstance.log',
