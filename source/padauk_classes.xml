@@ -8,6 +8,24 @@
     a b c d e f g h i j k l m n o p q r s t u v w x y z
     A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
     bracketleft bracketright grave
+    AE Aacute Acircumflex Adieresis Agrave Aring Atilde
+    Ccedilla Eacute Ecircumflex Edieresis Egrave Eth
+    Iacute Icircumflex Idieresis Igrave Ntilde
+    OE Oacute Ocircumflex Odieresis Ograve Oslash OE Otilde OslashOE
+    Thorn Uacute Ucircumflex Udieresis Ugrave 
+    ae aacute acircumflex adieresis agrave aring atilde
+    ccedilla eacute ecircumflex edieresis egrave eth
+    iacute icircumflex idieresis igrave ntilde
+    oe oacute ocircumflex odieresis ograve oslash oe otilde oslashoe
+    thorn uacute ucircumflex udieresis ugrave 
+    acute Yacute cedilla cent currency degree exclamdown circumflex
+    brokenbar bullet copyright dieresis divide divisionslash
+    ellipsis euro foursuperior fraction germandbls grave guillemetleft guillemetright guilsinglleft guilsinglright
+    idotless logicalnot macron micro nbspace notequal numbersign minus
+    onehalf onequarter onesuperior ordfeminine ordmasculine paragraph
+    periodcentered plusminus questiondown quotesinglbase quotedblbase registered section softhyphen
+    threequarters threesuperior twosuperior ring sterling tilde
+    yacute ydieresis yen
     braceleft braceright bar asciitilde multiply u1024 u102A
     u104A u104B u104C 
     u104D u104F u1058 u1059 u200B 
