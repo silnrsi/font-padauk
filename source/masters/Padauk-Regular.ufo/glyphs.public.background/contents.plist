@@ -2,9 +2,73 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+  <key>u1001</key>
+  <string>u1001.glif</string>
+  <key>u1001.med</key>
+  <string>u1001.med.glif</string>
+  <key>u1002.med</key>
+  <string>u1002.med.glif</string>
+  <key>u1004.med</key>
+  <string>u1004.med.glif</string>
+  <key>u1005.med</key>
+  <string>u1005.med.glif</string>
+  <key>u1006</key>
+  <string>u1006.glif</string>
+  <key>u1006.med</key>
+  <string>u1006.med.glif</string>
+  <key>u1007</key>
+  <string>u1007.glif</string>
+  <key>u100E</key>
+  <string>u100E_.glif</string>
+  <key>u100F</key>
+  <string>u100F_.glif</string>
+  <key>u100F.med</key>
+  <string>u100F_.med.glif</string>
+  <key>u100F_u100D</key>
+  <string>u100F__u100D_.glif</string>
+  <key>u1010</key>
+  <string>u1010.glif</string>
+  <key>u1010.med</key>
+  <string>u1010.med.glif</string>
+  <key>u1011.med</key>
+  <string>u1011.med.glif</string>
+  <key>u1015</key>
+  <string>u1015.glif</string>
+  <key>u1015.med</key>
+  <string>u1015.med.glif</string>
+  <key>u1017</key>
+  <string>u1017.glif</string>
+  <key>u1017.med</key>
+  <string>u1017.med.glif</string>
+  <key>u1018</key>
+  <string>u1018.glif</string>
+  <key>u1018.med</key>
+  <string>u1018.med.glif</string>
+  <key>u1019.med</key>
+  <string>u1019.med.glif</string>
+  <key>u101A.med</key>
+  <string>u101A_.med.glif</string>
+  <key>u101C.med_u103D</key>
+  <string>u101C_.med_u103D_.glif</string>
+  <key>u1021</key>
+  <string>u1021.glif</string>
+  <key>u1021.med</key>
+  <string>u1021.med.glif</string>
+  <key>u1027</key>
+  <string>u1027.glif</string>
+  <key>u102A</key>
+  <string>u102A_.glif</string>
+  <key>u1031</key>
+  <string>u1031.glif</string>
   <key>u106D.csh</key>
   <string>u106D_.csh.glif</string>
+  <key>u107B</key>
+  <string>u107B_.glif</string>
   <key>uA9E4</key>
   <string>uA_9E_4.glif</string>
+  <key>uAA60.med</key>
+  <string>uA_A_60.med.glif</string>
+  <key>uAA7A</key>
+  <string>uA_A_7A_.glif</string>
 </dict>
 </plist>
