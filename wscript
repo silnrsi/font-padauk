@@ -19,7 +19,6 @@ DESC_SHORT='Burmese Unicode 6 truetype font with OT and Graphite support'
 getufoinfo('source/masters/Padauk-Regular.ufo')
 BUILDLABEL="alpha"
 
-
 mystrings = {
     'Regular' : 'ပိုမှန်',
     'Bold' : 'စာလုံးမဲ',
@@ -41,11 +40,11 @@ scriptcode = 'mymr' if '--no2' in opts else 'mym2'
 #tests = fonttest(extras = {
 #    'xtest1' : tests({'xtest1' : cmd('cmptxtrender -p -k -e ot -s mym2 -l "${lang}" -e ot -s dflt -L mym2 -L dflt -t ${SRC[1]} -o ${TGT} --copy=otfonts --strip ${fileinfo} ${SRC[0]} ${SRC[0]}')})
 #})
-
+    
 # Set up the FTML tests
 ftmlTest('tools/ftml.xsl')
 
-designspace('source/Padauk.designspace',
+d = designspace('source/Padauk.designspace',
     params = '-l ${DS:FILENAME_BASE}_createinstance.log',
     target = process('${DS:FILENAME_BASE}.ttf',
         cmd('${TTFAUTOHINT} -n -W ${DEP} ${TGT}'),
@@ -68,6 +67,18 @@ designspace('source/Padauk.designspace',
     pdf = fret(params="-r -oi"),
     woff = woff('web/${DS:FILENAME_BASE}.woff', params = '-v ' + VERSION + ' -m ../source/padauk-WOFF-metadata.xml')
 )
+
+# Make khamti package
+kpackage = package(appname="PadaukKhamti", version=devver)
+for f in d.fonts:
+    font(target = process('khamti/'+f.target.replace('Padauk', 'PadaukKhamti'),
+                        cmd('ttfdeflang -d kht ${DEP} ${TGT}'),
+                        name('Padauk Khamti')),
+            opentype = internal(),
+            source = f.target,
+            lang = 'kht',
+            package = kpackage,
+            no_test = True)
 
 def configure(ctx) :
     ctx.find_program('ttfautohint')
