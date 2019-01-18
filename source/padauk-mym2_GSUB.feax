@@ -71,7 +71,7 @@ lookup mym2_pref_miscLig {
 
 lookup mym2_pref_u103Cwide {
     sub u103C' [@cConsWide]            by u103C.wide;
-    sub u103C' [@cConsNar] [@cMedWide] by u103C.wide; # Some cases in Sanskrit
+#    sub u103C' [@cConsNar] [@cMedWide] by u103C.wide; # Some cases in Sanskrit
 } mym2_pref_u103Cwide;
 
 # These are pstf and blwf rules really but we put them in pref 
@@ -283,6 +283,11 @@ lookup mym2_pres_raTriUpperVowel {
     sub [@class103C_noalt_tri]'lookup mym2_raTriUpperVowelSubst [@cCons] [@c_med u103B u103D_u103E u103E u103E.alt] [@classBigUpperVowel];
     sub [@class103C_noalt_tri]'lookup mym2_raTriUpperVowelSubst [@cCons] [@classBigUpperVowel];
 } mym2_pres_raTriUpperVowel;
+
+lookup mym2_pres_raOpen {
+    sub [u103C u103C.alt.narr]' [@cConsNar u1014.alt] @cMed @classBigUpperVowel by u103C.alt.open.narr; 
+    sub [u103C u103C.alt.narr]' [@cConsNar u1014.alt] @cMed                     by u103C.open.narr;
+} mym2_pres_raOpen;
 
 
 # ****

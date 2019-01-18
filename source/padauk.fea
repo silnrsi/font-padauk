@@ -160,24 +160,35 @@ feature pstf {
 feature pres {
  script mym2;
     language dflt;
-     lookup mym2_pres_u103Cwide;
-     lookup mym2_pres_raUpperVowel;
-     lookup mym2_pres_raTriUpperVowel;
+      lookup mym2_pres_u103Cwide;
+      lookup mym2_pres_raUpperVowel;
+      lookup mym2_pres_raTriUpperVowel;
+      lookup mym2_pres_raOpen;
     language KHN  exclude_dflt;
-     lookup mym2_pres_raUpperVowel;
-     lookup mym2_pres_raTriUpperVowel;
+      lookup mym2_pres_u103Cwide;
+      lookup mym2_pres_raUpperVowel;
+      lookup mym2_pres_raTriUpperVowel;
+      lookup mym2_pres_raOpen;
     language KHT  exclude_dflt;
-     lookup mym2_pres_raUpperVowel;
-     lookup mym2_pres_raTriUpperVowel;
+      lookup mym2_pres_u103Cwide;
+      lookup mym2_pres_raUpperVowel;
+      lookup mym2_pres_raTriUpperVowel;
+      lookup mym2_pres_raOpen;
     language KSW  exclude_dflt;
-     lookup mym2_pres_raUpperVowel;
-     lookup mym2_pres_raTriUpperVowel;
+      lookup mym2_pres_u103Cwide;
+      lookup mym2_pres_raUpperVowel;
+      lookup mym2_pres_raTriUpperVowel;
+      lookup mym2_pres_raOpen;
     language KYU  exclude_dflt;
-     lookup mym2_pres_raUpperVowel;
-     lookup mym2_pres_raTriUpperVowel;
+      lookup mym2_pres_u103Cwide;
+      lookup mym2_pres_raUpperVowel;
+      lookup mym2_pres_raTriUpperVowel;
+      lookup mym2_pres_raOpen;
     language SHN  exclude_dflt;
-     lookup mym2_pres_raUpperVowel;
-     lookup mym2_pres_raTriUpperVowel;
+      lookup mym2_pres_u103Cwide;
+      lookup mym2_pres_raUpperVowel;
+      lookup mym2_pres_raTriUpperVowel;
+      lookup mym2_pres_raOpen;
 } pres;
 
 
