@@ -106,7 +106,7 @@
   <property name="GDL_order" value="105">
     u1004.kinzi u101B.kinzi 
   </property>
-  <property name="GDL_order" value="110">
+  <property name="GDL_order" value="110" exts=".kham">
     u1004.kinzi_u102D u1004.kinzi_u102E u1004.kinzi_u1032 
     u1004.kinzi_u1033 u1004.kinzi_u102D_u1036 
     u101B.kinzi_u102D u101B.kinzi_u102E
