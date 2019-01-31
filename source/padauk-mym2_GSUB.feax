@@ -134,24 +134,24 @@ lookup mym2_medVowelSubst {
 } mym2_medVowelSubst;
 
 lookup mym2_blwf_medVowels {
-    @classneedsUtall = [u1008 u100B u100D u1020 u1025 u105A u105B u105D u1061 u107A u107E];
+    @needsUtall = [u1008 u100B u100D u1020 u1025 u105A u105B u105D u1061 u106F u1070 u107A u107E];
     
-    ignore sub [@class103C] [@cCons] [u103E u103E.alt u103E.slantr] [@_U] [u102F u1030]';
-    ignore sub [@class103C] [@cCons] [u103E u103E.alt u103E.slantr]          [u102F u1030]';
-    ignore sub [@class103C] [@cCons] [@_U] [u1030]'; # tallUU after wrap
-    ignore sub [@class103C] [@cCons]          [u1030]'; # tallUU after wrap
-    ignore sub [@classneedsUtall] [@_U] [u102F u1030]';
-    ignore sub [@classneedsUtall]          [u102F u1030]';
-    ignore sub [@cCons] [@c_med]   [@_U] [u102F u1030]';
-    ignore sub [@cCons] [@c_med]            [u102F u1030]';
-    ignore sub [u102F.med u1030.med]' [@c_med];
-    ignore sub  u105D u1032_u102D                  u102F'; #MNW 3103
+    ignore sub @class103C @cCons     [u103E u103E.alt u103E.slantr] @_U [u102F u1030]';
+    ignore sub @class103C @cCons     [u103E u103E.alt u103E.slantr]     [u102F u1030]';
+    ignore sub @class103C @cCons @_U  u1030'; # tallUU after wrap
+    ignore sub @class103C @cCons      u1030'; # tallUU after wrap
+    ignore sub @needsUtall       @_U [u102F u1030]';
+    ignore sub @needsUtall           [u102F u1030]';
+    ignore sub @cCons     @c_med @_U [u102F u1030]';
+    ignore sub @cCons     @c_med     [u102F u1030]';
+    ignore sub [u102F.med u1030.med]' @c_med;
+    ignore sub u105D u1032_u102D      u102F'; #MNW 3103
     
-    sub [@cCons]                   [u102F u1030]'lookup mym2_medVowelSubst;
-    sub [@cCons]          [@_U] [u102F u1030]'lookup mym2_medVowelSubst;
-    sub [@cCons] [@_U] [@_U] [u102F u1030]'lookup mym2_medVowelSubst;
-    sub [@cCons] [u103E u103E.slantr u103E.slanth]          [u102F u1030]'lookup mym2_medVowelSubst;
-    sub [@cCons] [u103E u103E.slantr u103E.slanth] [@_U] [u102F u1030]'lookup mym2_medVowelSubst;
+    sub @cCons         [u102F u1030]'lookup mym2_medVowelSubst;
+    sub @cCons     @_U [u102F u1030]'lookup mym2_medVowelSubst;
+    sub @cCons @_U @_U [u102F u1030]'lookup mym2_medVowelSubst;
+    sub @cCons [u103E u103E.slantr u103E.slanth]     [u102F u1030]'lookup mym2_medVowelSubst;
+    sub @cCons [u103E u103E.slantr u103E.slanth] @_U [u102F u1030]'lookup mym2_medVowelSubst;
 } mym2_blwf_medVowels;
 
 lookup mym2_blwf_u103CLig {
