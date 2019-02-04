@@ -40,7 +40,7 @@ scriptcode = 'mymr' if '--no2' in opts else 'mym2'
 #tests = fonttest(extras = {
 #    'xtest1' : tests({'xtest1' : cmd('cmptxtrender -p -k -e ot -s mym2 -l "${lang}" -e ot -s dflt -L mym2 -L dflt -t ${SRC[1]} -o ${TGT} --copy=otfonts --strip ${fileinfo} ${SRC[0]} ${SRC[0]}')})
 #})
-testCommand('bake', cmd='${FONTBAKERY} check-googlefonts -n -m ERROR --ghmarkdown "${TGT}" "${SRC[0].abspath()}" ; true', extracmds=["fontbakery"], shapers=0, ext=".md", coverage="fonts", shell=1)
+testCommand('bake', cmd='${FONTBAKERY} check-googlefonts -n -m ERROR --ghmarkdown padauk-bakery.md ${SRC} ; true', extracmds=["fontbakery"], shapers=0, ext=".md", coverage="fonts", shell=1, fontmode='collect')
 
 # Set up the FTML tests
 ftmlTest('tools/ftml.xsl')
