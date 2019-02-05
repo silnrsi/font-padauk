@@ -418,6 +418,8 @@
   <string>u1000.kham.glif</string>
   <key>u1000.med</key>
   <string>u1000.med.glif</string>
+  <key>u1000.sml</key>
+  <string>u1000.sml.glif</string>
   <key>u1000_u1001_u103B</key>
   <string>u1000_u1001_u103B_.glif</string>
   <key>u1000_u103B_u1015_u103A</key>
@@ -466,6 +468,8 @@
   <string>u1006.glif</string>
   <key>u1006.med</key>
   <string>u1006.med.glif</string>
+  <key>u1006.sml</key>
+  <string>u1006.sml.glif</string>
   <key>u1007</key>
   <string>u1007.glif</string>
   <key>u1007.med</key>
@@ -492,6 +496,8 @@
   <string>u100B_.alt.glif</string>
   <key>u100B.med</key>
   <string>u100B_.med.glif</string>
+  <key>u100B.sml</key>
+  <string>u100B_.sml.glif</string>
   <key>u100B_u100B</key>
   <string>u100B__u100B_.glif</string>
   <key>u100B_u100C</key>
@@ -526,6 +532,8 @@
   <string>u1010.kham.glif</string>
   <key>u1010.med</key>
   <string>u1010.med.glif</string>
+  <key>u1010.sml</key>
+  <string>u1010.sml.glif</string>
   <key>u1010_u103D.med</key>
   <string>u1010_u103D_.med.glif</string>
   <key>u1010_u103D.med.tri</key>
@@ -536,14 +544,20 @@
   <string>u1011.aiph.glif</string>
   <key>u1011.med</key>
   <string>u1011.med.glif</string>
+  <key>u1011.sml</key>
+  <string>u1011.sml.glif</string>
   <key>u1012</key>
   <string>u1012.glif</string>
   <key>u1012.med</key>
   <string>u1012.med.glif</string>
+  <key>u1012.sml</key>
+  <string>u1012.sml.glif</string>
   <key>u1013</key>
   <string>u1013.glif</string>
   <key>u1013.med</key>
   <string>u1013.med.glif</string>
+  <key>u1013.sml</key>
+  <string>u1013.sml.glif</string>
   <key>u1014</key>
   <string>u1014.glif</string>
   <key>u1014.alt</key>
@@ -560,6 +574,8 @@
   <string>u1015.kham.glif</string>
   <key>u1015.med</key>
   <string>u1015.med.glif</string>
+  <key>u1015.sml</key>
+  <string>u1015.sml.glif</string>
   <key>u1016</key>
   <string>u1016.glif</string>
   <key>u1016.med</key>
@@ -578,6 +594,8 @@
   <string>u1019.kham.glif</string>
   <key>u1019.med</key>
   <string>u1019.med.glif</string>
+  <key>u1019.sml</key>
+  <string>u1019.sml.glif</string>
   <key>u101A</key>
   <string>u101A_.glif</string>
   <key>u101A.aiph</key>
@@ -620,6 +638,8 @@
   <string>u101E_.glif</string>
   <key>u101E.med</key>
   <string>u101E_.med.glif</string>
+  <key>u101E.sml</key>
+  <string>u101E_.sml.glif</string>
   <key>u101E_u1010_u103C</key>
   <string>u101E__u1010_u103C_.glif</string>
   <key>u101F</key>
@@ -776,6 +796,8 @@
   <string>u103C__u103D_.wide.tri.glif</string>
   <key>u103D</key>
   <string>u103D_.glif</string>
+  <key>u103D.sml</key>
+  <string>u103D_.sml.glif</string>
   <key>u103D.tri</key>
   <string>u103D_.tri.glif</string>
   <key>u103D_u103E</key>
