@@ -495,6 +495,8 @@ g103c g103d g103e > @1 g103d_103e_small:(2 3) _;
 g103c g103d > g103c_103d_narr:(1 2) _;
 // g103d g103e > g103d_103e_small:(2 3) _ / g103c _ _ ;
 g103d g103e > g103d_103e:(1 2) _;
+g103d g1060 > g103d_1060_csh:(1 2) _;
+g103e g1060 > g103e_1060_csh:(1 2) _;
 g103b g103d > g103b_103d:(1 2) _;
 gKill cno_med g103c g102f > _ cmed:(1 2) @r @u / _ _ _=r ^ cPreVowel? cUVowel? _=u;
 if (!uTall)
@@ -514,19 +516,28 @@ if (!uTall)
 endif;
 g1020 g1039 g1020 > g1020_1020:(1 2 3) _ _;
 g1020 g103e > g1020_103e:(1 2) _;
-g1026 _ > g1025 g102e:1 / ^ _ _;
-g1029 _ > g101e g103c:1 / ^ _ _;
+// quirky order of _ g to get around engine bug pre 1.4
+_ g1026 > g1025:2 g102e / ^ _ _;
+_ g1029 > g101e:2 g103c / ^ _ _;
 g1051 gKill g100c > g1051_100c:(1 2 3) _ _;
 g1051 gKill g100d > g1051_100d:(1 2 3) _ _;
 g105a > g1004 / ^ _ (g103a g1039);
+g1086 gaa7c > g1086_aa7c:(1 2) _;
+ga9e5 gaa7c > ga9e5_aa7c:(1 2) _;
 // g1081 _ > g1002 g103e:1 / _ g103b? g103c? (g103d, g1082) _;
 gKill g101c g103d > g101c_med_103d:(1 2 3) _ _;
 
+// decompositions
+_ g106f > g101f:2 g103e / _ _;
+_ g107e > g107d:2 g103e / _ _;
+ 
 // there should be no gKill left now
 // gKill > _;
 ANY g200C > ANY:(1 2) _;
 ANY g200d > ANY:(1 2) _;
 ANY wj > ANY:(1 2) _;
+cno_kham gfe00 > ckham:(1 2) _;
+ANY gfe00 > ANY:(1 2) _;
 
 endpass;
 

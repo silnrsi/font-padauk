@@ -122,6 +122,12 @@ lookup DFLT_signsLig {
 # ****
 # blwf
 # ****
+lookup mym2_blwf_decompose {
+    sub u1026 by u1025 u102E;
+    sub u1029 by u101E u103C;
+    sub u106F by u101F u103E;
+    sub u107E by u107D u103E;
+} mym2_blwf_decompose;
 
 lookup mym2_blwf_u1039med {
     sub u1039 @cno_med by @c_med;
