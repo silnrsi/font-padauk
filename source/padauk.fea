@@ -31,10 +31,10 @@ feature locl {
  script mym2;
      language KHN  exclude_dflt;
       lookup mym2_locl_dot;
-      lookup mym2_locl_kham;
+      lookup mym2_locl_dkham;
      language KHT  exclude_dflt;
       lookup mym2_locl_dot;
-      lookup mym2_locl_kham;
+      lookup mym2_locl_dkham;
      language KYU  exclude_dflt;
       lookup mym2_locl_tri;
       lookup mym2_locl_slantr;
@@ -347,10 +347,10 @@ feature clig {
       lookup mym2_swap_thing1_thing2;
      language KHN;
       lookup mym2_locl_dot;
-      lookup mym2_locl_kham;
+      lookup mym2_locl_dkham;
      language KHT;
       lookup mym2_locl_dot;
-      lookup mym2_locl_kham;
+      lookup mym2_locl_dkham;
      language KSW;
       lookup mym2_locl_tri;
       lookup mym2_locl_slanth;
@@ -709,7 +709,7 @@ feature mkmk {
 	
 	u105E u105F u1060 u1071 u1072 u1073 u1074 u1082 
 	u1082_u108D u1085 u1086 u1086_uAA7C u108D u109D uA9E5 uA9E5_uAA7C 
-	uAA60.med uAA60.med.kham uAA70 uAA7C u1086.kham u1032_uAA70 u103A_uAA70 
+	uAA60.med uAA60.med.kham uAA70 uAA7C u1086.dkham u1032_uAA70 u103A_uAA70 
 	u1036.dot 
 	
 	u103C_u103D.alt.narr.tri u103C_u103D.alt.wide.tri 
