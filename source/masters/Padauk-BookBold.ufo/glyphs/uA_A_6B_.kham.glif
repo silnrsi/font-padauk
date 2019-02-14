@@ -70,4 +70,10 @@
       <point x="700" y="346"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>org.sil.uvs</key>
+      <string>AA6B FE00</string>
+    </dict>
+  </lib>
 </glyph>

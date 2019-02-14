@@ -71,11 +71,11 @@ d = designspace('source/Padauk.designspace',
 )
 
 # Make khamti package
-kpackage = package(appname="PadaukKhamti", version=devver)
+kpackage = package(appname="PadaukNamKio", version=devver)
 for f in d.fonts:
-    font(target = process('khamti/'+f.target.replace('Padauk', 'PadaukKhamti'),
+    font(target = process('khamti/'+f.target.replace('Padauk', 'NamKio'),
                         cmd('ttfdeflang -d kht ${DEP} ${TGT}'),
-                        name('Padauk Khamti')),
+                        name('Nam Kio')),
             opentype = internal(),
             source = f.target,
             lang = 'kht',
