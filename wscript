@@ -75,7 +75,7 @@ kpackage = package(appname="PadaukNamKio", version=devver)
 for f in d.fonts:
     font(target = process('khamti/'+f.target.replace('Padauk', 'NamKio'),
                         cmd('ttfdeflang -d kht ${DEP} ${TGT}'),
-                        name('Nam Kio')),
+                        name('Namkio Khamti')),
             opentype = internal(),
             source = f.target,
             lang = 'kht',
