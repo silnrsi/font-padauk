@@ -787,7 +787,7 @@ Tall -a vowel ligature
 // Allow for normalized text
 (g102b g1062) g103a > (g102b_103a g1062_103a):(1 3) _ / _ g1037? _;
 (cLVowel g102b) g1036 > @2 @1;
-g1062 (g1086 g1086_kham) > @2 @1 / ^ _ _;
+g1062 (g1086 g1086_dkham) > @2 @1 / ^ _ _;
 
 /* I'm sure there are things that can intervene between these here */
 cUVowelBar gaa7c > cBarUVowel:(1 3) _ / _ cLVowelM? _;
