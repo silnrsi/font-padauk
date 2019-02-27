@@ -4,7 +4,13 @@
 <dict>
   <key>u106D.csh</key>
   <string>u106D_.csh.glif</string>
+  <key>u1075.kham</key>
+  <string>u1075.kham.glif</string>
   <key>uA9E4</key>
   <string>uA_9E_4.glif</string>
+  <key>uAA61.kham</key>
+  <string>uA_A_61.kham.glif</string>
+  <key>uAA63.kham</key>
+  <string>uA_A_63.kham.glif</string>
 </dict>
 </plist>
