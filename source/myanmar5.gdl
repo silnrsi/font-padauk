@@ -787,7 +787,7 @@ Tall -a vowel ligature
 // Allow for normalized text
 (g102b g1062) g103a > (g102b_103a g1062_103a):(1 3) _ / _ g1037? _;
 (cLVowel g102b) g1036 > @2 @1;
-g1062 (g1086 g1086_dkham) > @2 @1 / ^ _ _;
+g1062 (g1086 g1086_kham) > @2 @1 / ^ _ _;
 
 /* I'm sure there are things that can intervene between these here */
 cUVowelBar gaa7c > cBarUVowel:(1 3) _ / _ cLVowelM? _;
@@ -798,11 +798,9 @@ cSpaceVowel cToneDia > @2 @1;
 Khamti reduplication ligatures
 @enddoc */
 
+(g1086 g103a) gaa70 > (g1086_aa70 g103a_aa70):(1 v) _ / _ g1062? (cTone cToneKham)? _=v;
 if (filled)
-(g1086 g103a) gaa70 > (g1032_aa70 g103a_aa70):(1 v) _ / _ g1062? cToneKham? _=v;
-(g1086 g103a) cTone gaa70 > (g1032_aa70 g103a_aa70):(1 v) cToneKham _ / _ g1062? _ _=v;
-else
-(g1086 g103a) gaa70 > (g1032_aa70 g103a_aa70):(1 v) _ / _ g1062? cTone? _=v;
+(g1086 g103a) cTone gaa70 > (g1086_aa70 g103a_aa70):(1 v) cToneKham _ / _ g1062? _ _=v;
 endif;
 
 endpass;

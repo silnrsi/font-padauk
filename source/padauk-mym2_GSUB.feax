@@ -34,7 +34,7 @@ include(../source/padauk-dflt_GSUB.feax)
 # locl
 # ****
 
-do  for e = [dot dkham tri slantr slanth csh];
+do  for e = [dot tri slantr slanth csh];
     let lk = "mym2_locl_"+e;
     let no = "@cno_"+e;
     let c = "@c_"+e;
@@ -293,12 +293,12 @@ lookup mym2_pres_u103Copen {
 # abvs
 # ****
 
-@classAA70Lig = [u1032 u103A u1086.dkham uAA70];
+@classAA70Lig = [u1086 u103A u1086.kham uAA70];
 lookup mym2_abvs_redupLig {
   lookupflag IgnoreBaseGlyphs IgnoreLigatures UseMarkFilteringSet @classAA70Lig;
-    sub u1032 uAA70  by u1032_uAA70; #used by default (dflt) lang if Khamti (KHT ) is not enabled
+    sub u1086 uAA70  by u1086_uAA70; #used by default (dflt) lang if Khamti (KHT ) is not enabled
     sub u103A uAA70  by u103A_uAA70;
-    sub u1086.dkham uAA70  by u1032_uAA70;
+    sub u1086.kham uAA70  by u1086_uAA70;
 } mym2_abvs_redupLig;
 
 
@@ -424,17 +424,17 @@ lookup g1062_1086_Subst {
     sub u1086 by u1062;
 } g1062_1086_Subst;
 
-# ----------------------- u1062 - u1086.dkham -------------------------
+# ----------------------- u1062 - u1086.kham -------------------------
 lookup g1062_1086k_Subst {
-    sub u1062 by u1086.dkham;
-    sub u1086.dkham by u1062;
+    sub u1062 by u1086.kham;
+    sub u1086.kham by u1062;
 } g1062_1086k_Subst;
 
-# -----------------------u1062 - u1032_uAA70 -------------------------
-lookup g1062_1032_uAA70_Subst {
-    sub u1062 by u1032_uAA70;
-    sub u1032_uAA70 by u1062;
-} g1062_1032_uAA70_Subst;
+# -----------------------u1062 - u1086_uAA70 -------------------------
+lookup g1062_1086_uAA70_Subst {
+    sub u1062 by u1086_uAA70;
+    sub u1086_uAA70 by u1062;
+} g1062_1086_uAA70_Subst;
 
 # ------------------------- Tai Laing (tla) --------------------------
 # reorder tone to precede the vowel; tone should then attach to consonant
@@ -470,8 +470,8 @@ lookup mym2_swap_thing1_thing2 {
     sub u1032' lookup g1032_102F_Subst       u102F'       lookup g1032_102F_Subst;
     sub u1032' lookup g1032_1030med_Subst    u1030.med'   lookup g1032_1030med_Subst; # Kayah (kyu)
     sub u1062' lookup g1062_1086_Subst       u1086'       lookup g1062_1086_Subst; # Shan
-    sub u1062' lookup g1062_1086k_Subst      u1086.dkham'  lookup g1062_1086k_Subst; # Khamti Shan
-    sub u1062' lookup g1062_1032_uAA70_Subst u1032_uAA70' lookup g1062_1032_uAA70_Subst; # Khamti Shan
+    sub u1062' lookup g1062_1086k_Subst      u1086.kham'  lookup g1062_1086k_Subst; # Khamti Shan
+    sub u1062' lookup g1062_1086_uAA70_Subst u1086_uAA70' lookup g1062_1086_uAA70_Subst; # Khamti Shan
     sub u1062' lookup tla_Vowel108DSubst1    u108D'       lookup tla_Vowel108DSubst2; #Tai Laing (tla)
     sub u1083' lookup tla_Vowel108DSubst1    u108D'       lookup tla_Vowel108DSubst2; #Tai Laing (tla)
     sub u1083' lookup tla_VowelAA7C_Subst    uAA7C'       lookup tla_VowelAA7C_Subst; #Tai Laing (tla)
