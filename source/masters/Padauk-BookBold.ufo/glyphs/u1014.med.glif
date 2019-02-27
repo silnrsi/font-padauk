@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1014.med" format="2">
+  <advance width="600"/>
   <anchor x="522" y="-53" name="BSM"/>
   <anchor x="-596" y="-53" name="LLM"/>
   <anchor x="96" y="-53" name="LM"/>

@@ -2,14 +2,34 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+  <key>u1000.med</key>
+  <string>u1000.med.glif</string>
+  <key>u1000_u1001_u103B</key>
+  <string>u1000_u1001_u103B_.glif</string>
+  <key>u1000_u103B_u1015_u103A</key>
+  <string>u1000_u103B__u1015_u103A_.glif</string>
   <key>u1001</key>
   <string>u1001.glif</string>
   <key>u1001.med</key>
   <string>u1001.med.glif</string>
   <key>u1007</key>
   <string>u1007.glif</string>
+  <key>u1007.med</key>
+  <string>u1007.med.glif</string>
+  <key>u100A.med</key>
+  <string>u100A_.med.glif</string>
+  <key>u100B_u100B</key>
+  <string>u100B__u100B_.glif</string>
+  <key>u100C.med</key>
+  <string>u100C_.med.glif</string>
+  <key>u100D</key>
+  <string>u100D_.glif</string>
   <key>u100F_u100D</key>
   <string>u100F__u100D_.glif</string>
+  <key>u1010_u103D.med</key>
+  <string>u1010_u103D_.med.glif</string>
+  <key>u1013</key>
+  <string>u1013.glif</string>
   <key>u1015</key>
   <string>u1015.glif</string>
   <key>u1016.med</key>
@@ -20,6 +40,8 @@
   <string>u101A_.med.glif</string>
   <key>u101B</key>
   <string>u101B_.glif</string>
+  <key>u101B.med</key>
+  <string>u101B_.med.glif</string>
   <key>u101C.med_u103D</key>
   <string>u101C_.med_u103D_.glif</string>
   <key>u1021</key>
@@ -32,10 +54,18 @@
   <string>u1031.glif</string>
   <key>u103B_u103D_u103E</key>
   <string>u103B__u103D__u103E_.glif</string>
+  <key>u104D</key>
+  <string>u104D_.glif</string>
+  <key>u105B.med</key>
+  <string>u105B_.med.glif</string>
+  <key>u1077</key>
+  <string>u1077.glif</string>
   <key>u1079</key>
   <string>u1079.glif</string>
   <key>u107B</key>
   <string>u107B_.glif</string>
+  <key>uAA63</key>
+  <string>uA_A_63.glif</string>
   <key>uAA7A</key>
   <string>uA_A_7A_.glif</string>
 </dict>

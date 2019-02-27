@@ -7,13 +7,13 @@
   <key>capHeight</key>
   <integer>925</integer>
   <key>copyright</key>
-  <string>Copyright (c) 2002-2018 SIL International</string>
+  <string>Copyright (c) 2002-2019 SIL International</string>
   <key>descender</key>
   <integer>-500</integer>
   <key>familyName</key>
   <string>Padauk</string>
   <key>openTypeHeadCreated</key>
-  <string>2019/02/04 18:28:50</string>
+  <string>2019/02/27 10:20:28</string>
   <key>openTypeHheaAscender</key>
   <integer>1010</integer>
   <key>openTypeHheaDescender</key>
@@ -27,7 +27,7 @@
   <key>openTypeNameDesignerURL</key>
   <string>http://scripts.sil.org/</string>
   <key>openTypeNameLicense</key>
-  <string>Copyright (c) 2002-2018 SIL International (http://www.sil.org/) with Reserved Font Names “Andika” and "SIL".
+  <string>Copyright (c) 2002-2019 SIL International (http://www.sil.org/) with Reserved Font Names “Padauk” and "SIL".
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
 
@@ -83,7 +83,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameUniqueID</key>
   <string>SIL International: Padauk Book Bold: 2019</string>
   <key>openTypeNameVersion</key>
-  <string>Version 3.908</string>
+  <string>Version 3.909</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -179,7 +179,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>versionMajor</key>
   <integer>3</integer>
   <key>versionMinor</key>
-  <integer>908</integer>
+  <integer>909</integer>
   <key>xHeight</key>
   <integer>466</integer>
 </dict>
