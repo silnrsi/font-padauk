@@ -47,6 +47,7 @@ if '--bake' in opts:
 ftmlTest('tools/ftml.xsl')
 
 d = designspace('source/Padauk.designspace',
+    shortcircuit = True,
     params = '-l ${DS:FILENAME_BASE}_createinstance.log',
     target = process('${DS:FILENAME_BASE}.ttf',
         cmd('${TTFAUTOHINT} -n -W ${DEP} ${TGT}'),
