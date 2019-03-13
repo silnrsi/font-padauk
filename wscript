@@ -57,7 +57,6 @@ d = designspace('source/Padauk.designspace',
     opentype = fea('source/${DS:FILENAME_BASE}.fea',
         master = 'source/padauk.fea',
         make_params="--omitaps='_R'",
-        buildusingsilfont = True,
         params = '-m source/${DS:FILENAME_BASE}.map',
         depends = ["source/padauk"+x+".feax" for x in
             ('_GPOS', '-mym2_GSUB', '-dflt_GSUB')]),
