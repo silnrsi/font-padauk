@@ -8,10 +8,10 @@
   <anchor x="154" y="-53" name="_BSM"/>
   <outline>
     <contour>
-      <point x="-50" y="-292" type="line"/>
-      <point x="-340" y="-292" type="line"/>
-      <point x="-340" y="-252" type="line"/>
-      <point x="-50" y="-252" type="line"/>
+      <point x="-50" y="-298" type="line"/>
+      <point x="-340" y="-298" type="line"/>
+      <point x="-340" y="-247" type="line"/>
+      <point x="-50" y="-247" type="line"/>
     </contour>
     <contour>
       <point x="106" y="-450" type="line"/>

@@ -5,13 +5,6 @@
   <anchor x="-287" y="495" name="_U"/>
   <anchor x="-98" y="495" name="_Y"/>
   <outline>
-    <contour>
-      <point x="-55" y="782" type="line"/>
-      <point x="-287" y="548" type="line"/>
-      <point x="-521" y="782" type="line"/>
-      <point x="-458" y="843" type="line"/>
-      <point x="-287" y="675" type="line"/>
-      <point x="-118" y="843" type="line"/>
-    </contour>
+    <component base="u1073" yScale="-1" xOffset="-520" yOffset="1415"/>
   </outline>
 </glyph>

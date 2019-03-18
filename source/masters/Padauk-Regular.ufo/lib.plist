@@ -8,7 +8,7 @@
     <array/>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>1179</string>
+  <string>1217</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>/u103D_u1060.csh    /u1060  /u103E_u1060.csh    /u106D.csh  /u103E.slanth  /u102D/u1060 
@@ -25,13 +25,14 @@
     <string>/u1000_u1001_u103B/u1000_u103B_u1015_u103A/u100B_u100B/u100B_u100C/u100D_u100D/u100D_u100E/u100F_u100B/u100F_u100D/u1014_u1010_u103B/u1014_u1010_u103C/u101E_u1010_u103C/u1051_u100C/u1003/u100C.med/u100B/u100C/u100E/u1014/u1014.alt/u1020/u1020_u103E/u1022/u1023/u1026/u1046/u1028/u102A/u1052/u1053/u1070/u1075/u1076/u1077/u107D/u107E/uAA61/u101D/uAA63/uAA6B/uA9E7/uA9EF/u1014.med/u1014.alt/uAA6C.alt/u104C/u104D/u104F/u1027</string>
     <string>/u1004.kinzi   /u1004.kinzi_u102D   /u1004.kinzi_u102D_u1036   /u1004.kinzi_u102E   /u1004.kinzi_u1032   /u1004.kinzi_u1033  /u1004.kinzi_u1036   /u1004.kinzi_u103A  /u101B.kinzi   /u101B.kinzi_u102D   /u101B.kinzi_u102E   /u101B.kinzi_u103A 
 </string>
-    <string>/u1024/uAA74/uAA76/uAA76.kham/u104D/u104F/u109F/u100B_u100C/u100C</string>
-    <string>/u1000.sml   /u1006.sml  /u100B.sml   /u1010.sml   /u1011.sml  /u1012.sml  /u1013.sml  /u1015.sml  /u1019.sml   /u101E.sml   /u103D_u103E.small   /u103D.sml   /u103D_u103E.small.tri</string>
-    <string>/u1075</string>
-    <string>/u1002/u1075</string>
-    <string>/u100A.med/u107B</string>
-    <string>/u1022.kham</string>
-    <string>/u1002.kham/u1022.kham/u1075.kham/uAA61.kham/uAA63.kham/uAA75.kham</string>
+    <string>/u1024/uAA74/uAA76/uAA76.kham/u104D/u1004.kinzi_u103A/u1002/u109F/u100B_u100C/u100C</string>
+    <string>/u1000.sml   /u1006.sml  /u100B.sml   /u1010.sml   /u1011.sml  /u1012.sml  /u1013.sml  /u1015.sml  /u1019.sml   /u101E.sml   /u103D_u103E.small  /u103D.sml   /u103B_u103D_u103E.tri  </string>
+    <string>/u1000/u1001/u1002/u1004/u1010/u1015/u1018/u101A/u101C/u101D/u101E/u101F/u1050/u1051/u1054/uA9E9/uA9EA/uA9EB/uA9EC/uA9ED/uA9EE/uA9FA/uA9FB/uA9FC/uA9FD/u1000.aiph/u1011.aiph/u101A.aiph/u101C.aiph/u101D.aiph/u1031.aiph/u1078.aiph/u107A.aiph/uAA7A.aiph/u100A.alt/u1000.kham/u1004.kham/u1010.kham/u1015.kham/u1019.kham/u101A.kham/u101C.kham/u1078.kham/uAA60.kham/uAA64.kham/uAA66.kham/uAA6C.kham</string>
+    <string>/u1036/u1037/u1089/u108B/u108C/u1071/u109A</string>
+    <string>/u1086   /u1086_uAA7C/u1089/u1087/u1088/u108A/u108F/u109B/u109C/uAA7B</string>
+    <string>/u103B_u103D.tri   /u103B_u103D_u103E.tri   /u102D   /u102D_u1036    /u102D_uAA7C   /u102E   /u102E_u1036   /u102E_uAA7C  /u102F_u108D   /u1030_u108D  /u1032  /u1032_u102D   /u1032_u1036  /u1033  /u1034  /u1035  /u1036  /u103A  /u103A_u1036  /u103A_uAA70  /u103D   /u103D_u103E   /u103D_u108D/u1056/u1057/u1058/u1059/u1062_u103A/u1063_u103A  /u1072/u1082   /u1082_u108D/u1012/u1012.med/u1084  /u1085  /uA9E5   /uA9E5_uAA7C  /u103E.alt  /u103D_u1060.csh   /u103E_u1060.csh   /u102F.med   /u103E.slanth   /u103E_u1030.slanth   /u103E.slantr  /u103E_u1030.slantr   /u103D_u103E.small  /u103D.sml  /u103D.tri   /u103D_u103E.tri   /u103D_u103E.small.tri  </string>
+    <string>/u1001/u1006/u1016/u101B/u1021/u1027/u102A/u1031/u1054/u1055/u1061/u1076/u1077/u1079/u107B/u107C/u107D/u107E/u107F/u1080/u1002/uAA60/uAA63/uAA68/uAA6E/uAA71/uA9E0/uA9E1/u1004/uA9E2/uA9E3/uAA7E/uAA7F/u1031.aiph/u101B.alt/u1080.kham/uAA60.kham/u101B.long/u104D/u104F</string>
+    <string>/u1004.kinzi_u103A</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
