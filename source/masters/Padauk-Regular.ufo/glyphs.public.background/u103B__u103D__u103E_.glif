@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u103B_u103D_u103E" format="2">
+  <outline>
+    <contour>
+      <point x="-334" y="-200" type="move"/>
+      <point x="-467" y="-405" type="line"/>
+      <point x="-583" y="-339" type="line"/>
+      <point x="-557" y="-293" type="line"/>
+      <point x="-485" y="-336" type="line"/>
+      <point x="-327" y="-86" type="line"/>
+      <point x="-283" y="-112" type="line"/>
+    </contour>
+  </outline>
+</glyph>
