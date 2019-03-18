@@ -35,7 +35,7 @@
     uFE00
     dummy dummy1 dummy2 dummy3
   </property>
-  <property name="GDL_order" value="1" exts=".alt .kham .aiph">
+  <property name="GDL_order" value="1" exts=".alt .kham .aiph .sml">
     parenright u1000 u1000_u1001_u103B u1000_u103B_u1015_u103A u1001
     u1002 u1003 u1004 u1005 u1006 u1007 u1008 u1009 u1009_u102C u100A 
     u100A.alt u100A_u100A u100B u100B.alt u100B_u100B u100B_u100C u100C 
@@ -90,14 +90,17 @@
     u103C.open.narr u103C.alt.open.narr 
     u103C.open.wide u103C.alt.open.wide
   </property>
-  <property name="GDL_order" value="60" exts=".tri">
+  <property name="GDL_order" value="60" exts=".tri .sml">
     u103D u103D_u103E u103D_u103E.small u103D_u108D u103D_u1060.csh
     u1058 u1059 u1082 u101C.med_u103D u1082_u108D
   </property>
   <property name="GDL_order" value="70">
     u103E u103E.alt u103E_u102F u103E_u1030 u103E.slantr u103E.slanth 
     u103E_u102F.slantr u103E_u102F.slanth u103E_u1030.slantr u103E_u1030.slanth
-    u103E_u1060.csh u1060 
+    u103E_u1060.csh
+  </property>
+  <property name="GDL_order" value="80">
+    u1060
   </property>
   <property name="GDL_order" value="90" exts=".aiph">
     u1031 u1084 
@@ -106,7 +109,7 @@
   <property name="GDL_order" value="105">
     u1004.kinzi u101B.kinzi 
   </property>
-  <property name="GDL_order" value="110">
+  <property name="GDL_order" value="110" exts=".kham">
     u1004.kinzi_u102D u1004.kinzi_u102E u1004.kinzi_u1032 
     u1004.kinzi_u1033 u1004.kinzi_u102D_u1036 
     u101B.kinzi_u102D u101B.kinzi_u102E
@@ -118,7 +121,7 @@
   <property name="GDL_order" value="120">
     u102F u102F.med u102F_u108D
     u1030 u1030.med u1030_u108D
-    u1032_uAA70 
+    u1086_uAA70 
   </property>
   <property name="GDL_order" value="130">u1062 u1062_u103A</property>
   <property name="GDL_order" value="140">u1086 u1086.kham u1086_uAA7C</property>
@@ -127,10 +130,11 @@
     u102B u102B_u103A u102C u1063 u1063_u103A u1067
     u1068 u1083 
   </property>
+  <property name="GDL_order" value="160">u1038 u1038.dot</property>
   <property name="GDL_order" value="170">u1064 u1069 u106A u106B u106C u106D u106D.csh</property>
   <property name="GDL_order" value="210">
-    u1038 u1087 u1088 u1089 u108A u108B u108C u108D u108F u109A u109B u109C uAA7B
-    u1038.dot u1087.dot u1088.dot u1089.dot u108A.dot u109A.dot u109B.dot uAA7B.dot
+    u1087 u1088 u1089 u108A u108B u108C u108D u108F u109A u109B u109C uAA7B
+    u1087.dot u1088.dot u1089.dot u108A.dot u109A.dot u109B.dot uAA7B.dot
     uAA7C uAA7D
   </property>
   <property name="GDL_order" value="220">uAA70 uA9E6</property>

@@ -61,6 +61,20 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.annotations</key>
+      <array>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>261</integer>
+            <integer>139</integer>
+          </array>
+          <key>type</key>
+          <string>Plus</string>
+          <key>width</key>
+          <integer>100</integer>
+        </dict>
+      </array>
       <key>org.sil.uvs</key>
       <string>1075 FE00</string>
     </dict>

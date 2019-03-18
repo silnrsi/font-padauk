@@ -1,15 +1,27 @@
 #!/bin/sh
 # Script for calling multiple routines on a project, typically prior to committing to a repository.
 
+#echo "Updating glyph orders in Regular..."
+# setting both to the same order
+# psfsetglyphorder --header sort_final -i source/glyph_data.csv source/masters/Padauk-Regular.ufo -l source/logs/sortorder.log
+# (or) psfsetglyphorder -q -p checkfix=none --header DesignerOrder,DesignerOrder --field public.glyphOrder,com.schriftgestaltung.glyphOrder -i source/glyph_data.csv source/masters/*-Regular.ufo -l source/logs/sortorder.log
+
+#echo "Updating production names in Regular..."
+# psfsetpsnames -p checkfix=fix -i source/glyph_data.csv source/masters/Padauk-Regular.ufo -l source/logs/psnames.log
+# (or) psfsetpsnames -q -p checkfix=none -i source/glyph_data.csv source/masters/*-Regular.ufo -l source/logs/psnames.log
+
+echo "Check and normalize Regular..."
+# Do this before meta sync so we minimize problems in the BookBold
 # This normalization will also run check and fix routines
 psfnormalize -p checkfix=fix source/masters/Padauk-Regular.ufo -l source/logs/normR.log
-# psfnormalize -p checkfix=fix source/masters/Padauk-Book.ufo -l source/logs/normKR.log
-# psfnormalize -p checkfix=fix source/masters/Padauk-Bold.ufo -l source/logs/normB.log
+
+echo "Syncing glyph orders, psnames, and other metadata to other UFOs..."
+psfsyncmasters source/*.designspace -l source/logs/sync.log
+
+echo "Updating woff metadata file..."
+psfmakewoffmetadata -n padauk -i org.sil.fonts -o source/padauk-WOFF-metadata.xml source/masters/Padauk-Regular.ufo -l source/logs/makewoff.log
+
+echo "Check and normalize BookBold..."
 psfnormalize -p checkfix=fix source/masters/Padauk-BookBold.ufo -l source/logs/normKB.log
 
-# update psnames and sort order in Regular, which also normalizes it
-# psfsetpsnames -p checkfix=fix -i source/glyph_data.csv source/masters/Padauk-Regular.ufo -l source/logs/psnames.log
-# psfsetglyphorder --header sort_final -i source/glyph_data.csv source/masters/Padauk-Regular.ufo -l source/logs/sortorder.log
-
-# copy psnames and glyphorder and any other updates to all fonts
-psfsyncmasters source/Padauk.designspace -l source/logs/sync.log
+echo "preflight completed!"

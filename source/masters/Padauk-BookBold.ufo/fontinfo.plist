@@ -7,13 +7,13 @@
   <key>capHeight</key>
   <integer>925</integer>
   <key>copyright</key>
-  <string>Copyright (c) 2002-2019 SIL International</string>
+  <string>Copyright (c) 2002-2019, SIL International (http://www.sil.org/) with Reserved Font Names "Padauk".</string>
   <key>descender</key>
   <integer>-500</integer>
   <key>familyName</key>
   <string>Padauk</string>
   <key>openTypeHeadCreated</key>
-  <string>2019/03/18 10:03:21</string>
+  <string>2019/03/18 16:37:50</string>
   <key>openTypeHheaAscender</key>
   <integer>1010</integer>
   <key>openTypeHheaDescender</key>
@@ -174,6 +174,8 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <string>bold</string>
   <key>styleName</key>
   <string>Book Bold</string>
+  <key>trademark</key>
+  <string>Padauk is a trademark of SIL International.</string>
   <key>unitsPerEm</key>
   <integer>1024</integer>
   <key>versionMajor</key>
