@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u100A.med" format="2">
-  <anchor x="110" y="-53" name="BDM"/>
-  <anchor x="235" y="-53" name="BSM"/>
+  <anchor x="-110" y="-53" name="BDM"/>
+  <anchor x="-235" y="-53" name="BSM"/>
   <anchor x="-832" y="-53" name="LLM"/>
   <anchor x="110" y="-53" name="LM"/>
   <anchor x="-368" y="-53" name="_BD"/>
   <anchor x="-368" y="-53" name="_BDM"/>
-  <anchor x="839" y="-53" name="_BS"/>
-  <anchor x="839" y="-53" name="_BSM"/>
+  <anchor x="-235" y="-53" name="_BS"/>
+  <anchor x="-235" y="-53" name="_BSM"/>
   <outline>
     <contour>
       <point x="-661" y="-155" type="line"/>

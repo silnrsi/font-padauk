@@ -5,7 +5,6 @@ import codecs, os
 
 # set some default output folders (most are already set by default)
 DOCDIR = ["documentation", "web"]
-STANDARDS = 'tests/reference'
 TESTDIR='tests'
 
 # set the version control system for srcdist

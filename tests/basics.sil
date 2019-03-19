@@ -1,0 +1,18 @@
+\begin[class=fontproof]{document}
+\bidi-off
+\setTestFont[features="+clig,+kern",size="18pt"]
+
+%%%%% GROUPS
+
+% Consonants
+\patterngroup[name="conswide"]{ကဃဆဏတထဘယလသဟအ}
+\patterngroup[name="consnarrow"]{ခဂငစဇဋဌဍဎဒဓနပဖဗမရဟ}
+\patterngroup[name="consmed"]{ကခဂဃငစဆဇဈညဋဌဍဎတထဒဓနပဖဗဘမယရလသအၐၑ}
+\patterngroup[name="udia"]{ိီဲဳဴဵံ}
+
+\pattern[chars="@,#",reps="group_conswide,group_consmed",format="table"]{@္#}
+\pattern[chars="@,#",reps="group_consnarrow,group_consmed",format="table"]{@္#}
+\proof[shapers="ot"]{OpenType}
+\pattern[chars="@,#",reps="group_conswide,group_consmed",format="table"]{@္#}
+\pattern[chars="@,#",reps="group_consnarrow,group_consmed",format="table"]{@္#}
+\end{document}
