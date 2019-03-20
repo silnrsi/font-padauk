@@ -8,7 +8,7 @@ AP  | OT | GDL | Description
 A   | X  | X   | Full advance width for U+103C types
 BD  | X  | X   | Below for double width diacritics
 BDM | X  |     | Attach double width diacritic to mark
-BS  | X  | X   | Below for singld width diacritics
+BS  | X  | X   | Below for single width diacritics
 BSM | X  |     | Attach single width diacritic to mark
 KL  | X  | X   | Kern left position for U+102B
 KR  |    |     | Kern right position for u102B\_u103A

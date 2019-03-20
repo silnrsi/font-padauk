@@ -952,9 +952,9 @@ as the narrow diacritics. This is controlled by the contents of the cTakes class
 automatically generated as part of generating the font specific GDL, based on which APs a glyph has.
 @enddoc */
 
-cBSDia {attach {to = @1; at = BSS; with = BSM}} / cTakesBSDia opt(cnTakesBSDia) _;
 cBDDia {attach {to = @1; at = BDS; with = BDM}} / cTakesBDDia opt(cnTakesBDDia) _;
 cBDDia {attach {to = @1; at = BSS; with = BDM}} / cTakesBSDia opt(cnTakesBSDia) _;
+cBSDia {attach {to = @1; at = BSS; with = BSM}} / cTakesBSDia opt(cnTakesBSDia) _;
 
 /* @doc
 Attaching the base character to the wrap is a radical way of ensuring that the user cannot insert
