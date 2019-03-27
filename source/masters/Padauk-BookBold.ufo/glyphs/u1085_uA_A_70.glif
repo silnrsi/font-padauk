@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1085_uAA70" format="2">
-  <advance width="0"/>
-  <anchor x="-641" y="495" name="UM"/>
-  <anchor x="-641" y="495" name="_U"/>
-  <anchor x="-506" y="495" name="_Y"/>
+  <anchor x="-739" y="495" name="UM"/>
+  <anchor x="-743" y="495" name="_U"/>
+  <anchor x="-618" y="495" name="_Y"/>
   <outline>
-    <component base="uAA70" xOffset="-492"/>
-    <component base="u1085" xOffset="-422"/>
+    <component base="u1012.med" xScale="-1" xOffset="-967" yOffset="998"/>
+    <component base="uAA70" xOffset="-530"/>
   </outline>
 </glyph>

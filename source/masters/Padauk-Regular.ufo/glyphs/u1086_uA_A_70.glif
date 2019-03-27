@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="u1032_uAA70" format="2">
+<glyph name="u1086_uAA70" format="2">
   <advance width="60"/>
   <anchor x="-158" y="495" name="UM"/>
   <anchor x="-158" y="495" name="_U"/>
   <outline>
     <contour>
-      <point x="59" y="684" type="curve"/>
-      <point x="42" y="649" type="line"/>
-      <point x="2" y="655"/>
-      <point x="-77" y="676"/>
-      <point x="-118" y="695" type="curve"/>
-      <point x="-98" y="735" type="line"/>
-      <point x="-61" y="716"/>
-      <point x="9" y="692"/>
+      <point x="155" y="645" type="curve"/>
+      <point x="138" y="607" type="line"/>
+      <point x="56" y="621"/>
+      <point x="-79" y="656"/>
+      <point x="-133" y="692" type="curve"/>
+      <point x="-111" y="731" type="line"/>
+      <point x="-42" y="691"/>
+      <point x="63" y="661"/>
     </contour>
     <contour>
-      <point x="46" y="575" type="curve"/>
+      <point x="47" y="581" type="curve"/>
       <point x="29" y="540" type="line"/>
       <point x="-106" y="566"/>
       <point x="-314" y="614"/>
@@ -29,8 +29,8 @@
       <point x="-164" y="735"/>
       <point x="-178" y="699"/>
       <point x="-217" y="688" type="curve"/>
-      <point x="-188" y="635"/>
-      <point x="-58" y="595"/>
+      <point x="-182" y="637"/>
+      <point x="-57" y="601"/>
     </contour>
   </outline>
 </glyph>
