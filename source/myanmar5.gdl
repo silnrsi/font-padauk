@@ -374,6 +374,9 @@ cToneKham = (g1038_dot, g1087_dot, g1088_dot, g1089_dot, g108a_dot, g109a_dot, g
 cSpacingTone = (g1064, g1067, g1068, g1069, g106a, g106b, g106c, g106d);
 c1037 = (g1037);
 
+caa70 = (g102d_aa70, g102e_aa70, g103a_aa70, g1085_aa70, g1086_aa70);
+cno_aa70 = (g102d, g102e, g103a, g1085, g1086);
+
 endtable; // glyph table
 
 /* @doc
@@ -798,11 +801,9 @@ cSpaceVowel cToneDia > @2 @1;
 Khamti reduplication ligatures
 @enddoc */
 
-// (g1086 g103a) gaa70 > (g1086_aa70 g103a_aa70):(1 v) _ / _ g1062? (cTone cToneKham)? _=v;
-g103a gaa70 > g103a_aa70:(1 v) _ / _ g1062? (cTone cToneKham)? _=v;
+cno_aa70 gaa70 > caa70:(1 v) _ / _ g1062? (cTone cToneKham)? _=v;
 if (filled)
-// (g1086 g103a) cTone gaa70 > (g1086_aa70 g103a_aa70):(1 v) cToneKham _ / _ g1062? _ _=v;
-g103a cTone gaa70 > g103a_aa70:(1 v) cToneKham _ / _ g1062? _ _=v;
+cno_aa70 cTone gaa70 > caa70:(1 v) cToneKham _ / _ g1062? _ _=v;
 endif;
 
 endpass;

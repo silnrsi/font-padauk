@@ -302,12 +302,13 @@ lookup mym2_pres_u103Copen {
 # abvs
 # ****
 
-@classAA70Lig = [u1086 u103A u1086.kham uAA70];
+@cno_AA70 = [u102D u102E u1085 u1086 u103A];
+@classAA70Lig = [@cno_AA70 u1086.kham uAA70];
+@cAA70 = [u102D_uAA70 u102E_uAA70 u103A_uAA70 u1085_uAA70 u1086_uAA70];
 lookup mym2_abvs_redupLig {
   lookupflag IgnoreBaseGlyphs IgnoreLigatures UseMarkFilteringSet @classAA70Lig;
-#    sub u1086 uAA70  by u1086_uAA70; #used by default (dflt) lang if Khamti (KHT ) is not enabled
-    sub u103A uAA70  by u103A_uAA70;
-#    sub u1086.kham uAA70  by u1086_uAA70;
+    sub @cno_AA70 uAA70 by @cAA70;
+    sub u1086.kham uAA70  by u1086_uAA70;
 } mym2_abvs_redupLig;
 
 

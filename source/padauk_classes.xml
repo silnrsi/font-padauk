@@ -34,6 +34,19 @@
     uA92E uAA77 uAA78
     uFE00
     dummy dummy1 dummy2 dummy3
+    Delta Omega Scaron Ydieresis Zcaron
+    VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS9 VS10 VS11 VS12 VS13 VS14 VS15 VS16
+    approxequal breve bulletoperator colontriangularmod dagger daggerdbl dotaccent
+    emquad emspace enquad enspace figuredash figurespace fourperemspace
+    fi fl
+    graphemejoinercomb greaterequal hairspace horizontalbar hungarumlaut hyphenationpoint hyphentwo infinity integral
+    lefttorightembedding lefttorightmark lefttorightoverride
+    lessequal lineseparator lozenge narrownbspace nonbreakinghyphen objectReplacementCharacter
+    ogonek paragraphseparator partialdiff perthousand pi popdirectionalformatting
+    product punctuationspace radical replacementCharacter
+    righttoleftembedding righttoleftmark righttoleftoverride
+    scaron sixperemspace summation thinspace threeperemspace trademark
+    zcaron zeroWidthNoBreakSpace
   </property>
   <property name="GDL_order" value="1" exts=".alt .kham .aiph .sml">
     parenright u1000 u1000_u1001_u103B u1000_u103B_u1015_u103A u1001
