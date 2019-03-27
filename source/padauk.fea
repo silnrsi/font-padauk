@@ -33,6 +33,7 @@ feature locl {
       lookup mym2_locl_dot;
      language KHT  exclude_dflt;
       lookup mym2_locl_dot;
+      lookup mym2_locl_khamti;
      language KYU  exclude_dflt;
       lookup mym2_locl_tri;
       lookup mym2_locl_slantr;

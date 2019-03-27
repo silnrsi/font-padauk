@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u102E_uAA70" format="2">
+  <advance width="0"/>
+  <anchor x="-660" y="495" name="UM"/>
+  <anchor x="-660" y="495" name="_U"/>
+  <anchor x="-498" y="495" name="_Y"/>
+  <outline>
+    <component base="uAA70" xOffset="-493"/>
+    <component base="u102E" xOffset="-423"/>
+  </outline>
+</glyph>

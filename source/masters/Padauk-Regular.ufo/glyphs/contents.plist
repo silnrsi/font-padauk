@@ -686,12 +686,16 @@
   <string>u102D_.glif</string>
   <key>u102D_u1036</key>
   <string>u102D__u1036.glif</string>
+  <key>u102D_uAA70</key>
+  <string>u102D__uA_A_70.glif</string>
   <key>u102D_uAA7C</key>
   <string>u102D__uA_A_7C_.glif</string>
   <key>u102E</key>
   <string>u102E_.glif</string>
   <key>u102E_u1036</key>
   <string>u102E__u1036.glif</string>
+  <key>u102E_uAA70</key>
+  <string>u102E__uA_A_70.glif</string>
   <key>u102E_uAA7C</key>
   <string>u102E__uA_A_7C_.glif</string>
   <key>u102F</key>
@@ -1008,6 +1012,8 @@
   <string>u1084.glif</string>
   <key>u1085</key>
   <string>u1085.glif</string>
+  <key>u1085_uAA70</key>
+  <string>u1085__uA_A_70.glif</string>
   <key>u1086</key>
   <string>u1086.glif</string>
   <key>u1086.kham</key>

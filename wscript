@@ -78,8 +78,7 @@ for f in d.fonts:
             opentype = internal(),
             source = f.target,
             lang = 'kht',
-            package = kpackage,
-            no_test = True)
+            package = kpackage)
 
 def configure(ctx) :
     ctx.find_program('ttfautohint')
