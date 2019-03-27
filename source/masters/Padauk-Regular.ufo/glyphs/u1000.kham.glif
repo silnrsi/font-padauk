@@ -69,10 +69,4 @@
       <point x="946" y="351"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>org.sil.uvs</key>
-      <string>1000 FE00</string>
-    </dict>
-  </lib>
 </glyph>

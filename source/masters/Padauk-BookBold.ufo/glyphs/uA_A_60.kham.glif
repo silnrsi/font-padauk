@@ -40,7 +40,7 @@
       <point x="55" y="200" type="curve" smooth="yes"/>
       <point x="55" y="378"/>
       <point x="172" y="466"/>
-      <point x="289.003" y="466" type="curve" smooth="yes"/>
+      <point x="289" y="466" type="curve" smooth="yes"/>
       <point x="406" y="466"/>
       <point x="524" y="377"/>
     </contour>
@@ -85,10 +85,4 @@
       <point x="906" y="362"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>org.sil.uvs</key>
-      <string>AA60 FE00</string>
-    </dict>
-  </lib>
 </glyph>

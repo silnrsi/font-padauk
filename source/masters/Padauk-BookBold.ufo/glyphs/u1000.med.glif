@@ -6,8 +6,8 @@
   <anchor x="107" y="-53" name="LM"/>
   <anchor x="-390" y="-53" name="_BD"/>
   <anchor x="-393" y="-53" name="_BDM"/>
-  <anchor x="-393" y="-53" name="_BS"/>
-  <anchor x="-393" y="-53" name="_BSM"/>
+  <anchor x="886" y="-53" name="_BS"/>
+  <anchor x="886" y="-53" name="_BSM"/>
   <outline>
     <contour>
       <point x="-89" y="-273" type="curve" smooth="yes"/>

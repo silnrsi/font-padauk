@@ -53,10 +53,4 @@
       <point x="294" y="-15"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>org.sil.uvs</key>
-      <string>AA62 FE00</string>
-    </dict>
-  </lib>
 </glyph>

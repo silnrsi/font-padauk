@@ -12,17 +12,17 @@
       <point x="469" y="324"/>
       <point x="386" y="408"/>
       <point x="287" y="408" type="curve" smooth="yes"/>
-      <point x="208.523" y="408"/>
-      <point x="143.661" y="358.276"/>
-      <point x="117.918" y="288.888" type="curve"/>
-      <point x="141.887" y="276.757"/>
-      <point x="159" y="252.067"/>
+      <point x="209" y="408"/>
+      <point x="144" y="358"/>
+      <point x="118" y="289" type="curve"/>
+      <point x="142" y="277"/>
+      <point x="159" y="252"/>
       <point x="159" y="222" type="curve" smooth="yes"/>
-      <point x="159" y="192.035"/>
-      <point x="142.003" y="166.926"/>
-      <point x="118.163" y="154.457" type="curve"/>
-      <point x="144.07" y="85.411"/>
-      <point x="208.77" y="36"/>
+      <point x="159" y="192"/>
+      <point x="142" y="167"/>
+      <point x="118" y="154" type="curve"/>
+      <point x="144" y="85"/>
+      <point x="209" y="36"/>
       <point x="287" y="36" type="curve" smooth="yes"/>
       <point x="386" y="36"/>
       <point x="469" y="120"/>
@@ -32,17 +32,17 @@
       <point x="520" y="91"/>
       <point x="415" y="-15"/>
       <point x="287" y="-15" type="curve" smooth="yes"/>
-      <point x="185.048" y="-15"/>
-      <point x="97.273" y="53.311"/>
-      <point x="66.616" y="148.029" type="curve"/>
-      <point x="33.818" y="155.824"/>
-      <point x="9" y="185.262"/>
+      <point x="185" y="-15"/>
+      <point x="97" y="53"/>
+      <point x="67" y="148" type="curve"/>
+      <point x="34" y="156"/>
+      <point x="9" y="185"/>
       <point x="9" y="222" type="curve" smooth="yes"/>
-      <point x="9" y="258.714"/>
-      <point x="33.786" y="287.409"/>
-      <point x="66.553" y="295.014" type="curve"/>
-      <point x="97.153" y="389.304"/>
-      <point x="184.978" y="459"/>
+      <point x="9" y="259"/>
+      <point x="34" y="287"/>
+      <point x="67" y="295" type="curve"/>
+      <point x="97" y="389"/>
+      <point x="185" y="459"/>
       <point x="287" y="459" type="curve" smooth="yes"/>
       <point x="415" y="459"/>
       <point x="520" y="351"/>

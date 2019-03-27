@@ -47,10 +47,4 @@
       <point x="96" y="-23"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>org.sil.uvs</key>
-      <string>AA73 FE00</string>
-    </dict>
-  </lib>
 </glyph>

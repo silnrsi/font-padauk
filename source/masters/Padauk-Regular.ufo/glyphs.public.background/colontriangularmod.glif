@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="colontriangularmod" format="2">
+  <outline>
+    <contour>
+      <point x="185" y="43" type="curve" smooth="yes"/>
+      <point x="185" y="12"/>
+      <point x="157" y="-15"/>
+      <point x="126" y="-15" type="curve" smooth="yes"/>
+      <point x="95" y="-15"/>
+      <point x="66" y="12"/>
+      <point x="66" y="43" type="curve" smooth="yes"/>
+      <point x="66" y="75"/>
+      <point x="95" y="100"/>
+      <point x="126" y="100" type="curve" smooth="yes"/>
+      <point x="157" y="100"/>
+      <point x="185" y="75"/>
+    </contour>
+    <contour>
+      <point x="185" y="400" type="curve" smooth="yes"/>
+      <point x="185" y="369"/>
+      <point x="157" y="343"/>
+      <point x="126" y="343" type="curve" smooth="yes"/>
+      <point x="95" y="343"/>
+      <point x="66" y="369"/>
+      <point x="66" y="400" type="curve" smooth="yes"/>
+      <point x="66" y="432"/>
+      <point x="95" y="459"/>
+      <point x="126" y="459" type="curve" smooth="yes"/>
+      <point x="157" y="459"/>
+      <point x="185" y="432"/>
+    </contour>
+  </outline>
+</glyph>

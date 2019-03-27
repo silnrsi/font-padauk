@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+  <key>colontriangularmod</key>
+  <string>colontriangularmod.glif</string>
   <key>u1000.med</key>
   <string>u1000.med.glif</string>
   <key>u1000_u1001_u103B</key>
