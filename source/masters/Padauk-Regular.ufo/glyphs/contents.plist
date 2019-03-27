@@ -1234,6 +1234,14 @@
   <string>u109F_.glif</string>
   <key>u1700</key>
   <string>u1700.glif</string>
+  <key>u200B</key>
+  <string>u200B_.glif</string>
+  <key>u200C</key>
+  <string>u200C_.glif</string>
+  <key>u200D</key>
+  <string>u200D_.glif</string>
+  <key>u2060</key>
+  <string>u2060.glif</string>
   <key>uA92E</key>
   <string>uA_92E_.glif</string>
   <key>uA9E0</key>
@@ -1416,8 +1424,6 @@
   <string>v.glif</string>
   <key>w</key>
   <string>w.glif</string>
-  <key>wordjoiner</key>
-  <string>wordjoiner.glif</string>
   <key>x</key>
   <string>x.glif</string>
   <key>y</key>
@@ -1436,11 +1442,5 @@
   <string>zero.glif</string>
   <key>zeroWidthNoBreakSpace</key>
   <string>zeroW_idthN_oB_reakS_pace.glif</string>
-  <key>zerowidthjoiner</key>
-  <string>zerowidthjoiner.glif</string>
-  <key>zerowidthnonjoiner</key>
-  <string>zerowidthnonjoiner.glif</string>
-  <key>zerowidthspace</key>
-  <string>zerowidthspace.glif</string>
 </dict>
 </plist>

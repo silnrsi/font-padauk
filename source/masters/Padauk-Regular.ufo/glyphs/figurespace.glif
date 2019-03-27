@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="figurespace" format="2">
-  <advance width="498"/>
+  <advance width="575"/>
   <unicode hex="2007"/>
   <outline/>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
-      <string>zero</string>
       <key>public.markColor</key>
       <string>0.85,0.26,0.06,1</string>
     </dict>

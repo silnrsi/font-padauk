@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="punctuationspace" format="2">
-  <advance width="199"/>
+  <advance width="260"/>
   <unicode hex="2008"/>
   <outline/>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
-      <string>period</string>
       <key>public.markColor</key>
       <string>0.85,0.26,0.06,1</string>
     </dict>
