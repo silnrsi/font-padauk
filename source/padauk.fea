@@ -383,7 +383,7 @@ feature clig {
 feature kern {
  script DFLT;
    language dflt;
-     lookup guard;
+     lookup guard_context;
      lookup guard_dot;
      lookup kerntall;
      lookup dist_dflt_SpacingMarks;
@@ -410,7 +410,7 @@ feature kern {
 
  script mymr;
    language dflt;
-     lookup guard;
+     lookup guard_context;
      lookup guard_dot;
      lookup kerntall;
      lookup dist_dflt_SpacingMarks;
@@ -443,11 +443,9 @@ feature kern {
 feature dist {
  script mym2;
    language dflt;
-     lookup guard;
+     lookup guard_context;
      lookup guard_dot;
      lookup kerntall;
-     lookup guard;
-     lookup guard_dot;
      lookup dist_SpacingMarks;
      lookup shift_103C_udia;
      lookup kern_103Clig_1037;
@@ -457,7 +455,7 @@ feature dist {
 #     lookup dist_advance;
    language KHN  exclude_dflt;
      lookup kerntall;
-     lookup guard;
+     lookup guard_context;
      lookup guard_dot;
      lookup dist_SpacingMarks;
      lookup kern_103Clig_1037;
@@ -466,7 +464,7 @@ feature dist {
 #     lookup dist_advance;
    language KHT  exclude_dflt;
      lookup kerntall;
-     lookup guard;
+     lookup guard_context;
      lookup guard_dot;
      lookup dist_SpacingMarks;
      lookup kern_103Clig_1037;
@@ -475,7 +473,7 @@ feature dist {
 #     lookup dist_advance;
    language KSW  exclude_dflt;
      lookup kerntall;
-     lookup guard;
+     lookup guard_context;
      lookup guard_dot;
      lookup dist_SpacingMarks;
      lookup kern_103Clig_1037;
@@ -484,7 +482,7 @@ feature dist {
 #     lookup dist_advance;
    language KYU  exclude_dflt;
      lookup kerntall;
-     lookup guard;
+     lookup guard_context;
      lookup guard_dot;
      lookup dist_SpacingMarks;
      lookup kern_103Clig_1037;
@@ -493,7 +491,7 @@ feature dist {
 #     lookup dist_advance;
    language SHN  exclude_dflt;
      lookup kerntall;
-     lookup guard;
+     lookup guard_context;
      lookup guard_dot;
      lookup dist_SpacingMarks;
      lookup kern_103Clig_1037;

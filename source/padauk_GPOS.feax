@@ -46,7 +46,7 @@ do  for b = [@U];
     let l = l if l > 0 else 0;
     let r = ADVx(u) - ADVx(b) - o;
     let a = l + (r if r > 0 else 0) if (u.find("kinzi") != -1 and b in feaclass("cConsTakesKinzi")) or \
-        (u.find("uAA7C") != -1 and u.find("uAA70") != -1 and b in feaclass("cConsLaing")) or \
+        (u.find("uAA7C") != -1 and b in feaclass("cConsLaing")) or \
         (u.find("kinzi") == -1 and u.find("uAA7C") == -1 and b[:4] not in ("u106", "u109") \
             and b[:5] not in ("u102C", "u102F", "u1030", "u103B", "u1062", "u1064", "u1083") \
             and b not in ("u1008.med", "u105B.med")) else 0;
@@ -55,6 +55,11 @@ do  for b = [@U];
         pos $b' <$l 0 $a 0> $u;
     }
 } guard;
+
+lookup guard_context {
+    ignore pos @cCons @_U @cTone;
+    pos @cCons' lookup guard;
+} guard_context;
 
 lookup guard_dot {
 # wish we could update some notional advance in the base from the previous set of rules
@@ -127,7 +132,7 @@ do  let a = ADVx("u103C");
     {
         pos [@class103CNarr @class103CWide] <0 0 $a 0>;
         # AA70 is a spacing mark in isolated form
-        pos uAA70 <0 0 $b 0>;
+        # pos uAA70 <0 0 $b 0>;
     }
 } dist_SpacingMarks; 
 
@@ -136,7 +141,7 @@ do  let a = ADVx("u103C");
     let b = ADVx("uAA70");
     {
         pos [@class103CNarr @class103CWide] @cCons' <$a 0 $a 0>;
-        pos uAA70 @cCons' <$b 0 $b 0>;
+        #pos uAA70 @cCons' <$b 0 $b 0>;
     }
 } dist_dflt_SpacingMarks;
 

@@ -368,7 +368,7 @@ cHasRkern = (g103e_102f, g103e_1030, g1030_med, g102f_med);
 Tone context characters that can occur before a U+AA70 khamti reduplication
 @enddoc */
 
-cTone = (g1038, g1087, g1088, g1089, g108a, g109a, g109b);
+// cTone = (g1038, g1087, g1088, g1089, g108a, g109a, g109b);
 cToneKham = (g1038_dot, g1087_dot, g1088_dot, g1089_dot, g108a_dot, g109a_dot, g109b_dot);
 
 cSpacingTone = (g1064, g1067, g1068, g1069, g106a, g106b, g106c, g106d);
@@ -801,6 +801,7 @@ cSpaceVowel cToneDia > @2 @1;
 Khamti reduplication ligatures
 @enddoc */
 
+(cTone cToneKham) gaa70 > @l @f / ^ cno_aa70? _=f _=l;
 cno_aa70 gaa70 > caa70:(1 v) _ / _ g1062? (cTone cToneKham)? _=v;
 if (filled)
 cno_aa70 cTone gaa70 > caa70:(1 v) cToneKham _ / _ g1062? _ _=v;

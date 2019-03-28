@@ -2,6 +2,8 @@
 <glyph name="uAA70" format="2">
   <advance width="534"/>
   <unicode hex="AA70"/>
+  <anchor x="267" y="495" name="_U"/>
+  <anchor x="267" y="495" name="UM"/>
   <outline>
     <contour>
       <point x="263" y="762" type="curve" smooth="yes"/>
