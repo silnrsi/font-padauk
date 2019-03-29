@@ -262,7 +262,12 @@ lookup mym2_pstf_tall_U {
 # pres
 # ****
 
+do  let c = feaclass("cno_sml");
+    let n = " ".join(x+".med" if x+".med" in feaclass("c_med") else x for x in c);
+{ @cno_sml_med = [ $n ]; }
+
 lookup mym2_pres_u103Cwide {
+    ignore sub u103C' @cConsNar @cno_sml_med;
     sub u103C' @cConsNar @cMedWide by u103C.wide; # Some cases in Sanskrit
 } mym2_pres_u103Cwide;
 
@@ -293,6 +298,8 @@ lookup mym2_pres_u103Calt_tri {
 } mym2_pres_u103Calt_tri;
 
 lookup mym2_pres_u103Copen {
+    ignore sub [u103C u103C.alt.narr]' [@cConsNar u1014.alt] @cno_sml_med @BigUMark;
+    ignore sub [u103C u103C.alt.narr]' [@cConsNar u1014.alt] @cno_sml_med;
     sub [u103C u103C.alt.narr]' [@cConsNar u1014.alt] @cMed @BigUMark by u103C.alt.open.narr; 
     sub [u103C u103C.alt.narr]' [@cConsNar u1014.alt] @cMed           by u103C.open.narr;
 } mym2_pres_u103Copen;
@@ -495,6 +502,14 @@ lookup mym2_swap_thing1_thing2 {
     sub u1083' lookup reorder_AA70_left @cTone'  uAA70'   lookup reorder_AA70_right;
     sub @cTone' lookup reorder_AA70_left     uAA70'       lookup reorder_AA70_right;
 } mym2_swap_thing1_thing2;
+
+lookup consmed_sml {
+    sub @cno_sml_med by @c_sml;
+} consmed_sml;
+
+lookup consmed_103C {
+    sub @class103C @cCons @cno_sml_med' lookup consmed_sml;
+} consmed_103C;
 # --------------------------------------------------------------------
 ### End of swap section
 # --------------------------------------------------------------------

@@ -306,6 +306,7 @@ feature clig {
       lookup mym2_blws_raShort;
       lookup mym2_psts_miscLig;
       lookup mym2_swap_thing1_thing2;
+      lookup consmed_103C;
     language KHN;
     language KHT;
     language KSW;
@@ -344,6 +345,7 @@ feature clig {
       lookup mym2_blws_raShort;
       lookup mym2_psts_miscLig;
       lookup mym2_swap_thing1_thing2;
+      lookup consmed_103C;
      language KHN;
       lookup mym2_locl_dot;
      language KHT;
@@ -360,16 +362,22 @@ feature clig {
  script mym2;
      language dflt exclude_dflt;
       lookup mym2_swap_thing1_thing2;
+      lookup consmed_103C;
      language KHN  exclude_dflt;
       lookup mym2_swap_thing1_thing2;
+      lookup consmed_103C;
      language KHT  exclude_dflt;
       lookup mym2_swap_thing1_thing2;
+      lookup consmed_103C;
      language KSW  exclude_dflt;
       lookup mym2_swap_thing1_thing2;
+      lookup consmed_103C;
      language KYU  exclude_dflt;
       lookup mym2_swap_thing1_thing2;
+      lookup consmed_103C;
      language SHN  exclude_dflt;
       lookup mym2_swap_thing1_thing2;
+      lookup consmed_103C;
 } clig;
 
 

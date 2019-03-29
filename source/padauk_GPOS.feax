@@ -83,10 +83,10 @@ do  for c = [@cConsNarStack];
     let a = APx("u103C.wide", "A") - ADVx("u103C.wide") - ADVx(c);
     if s > 0;
     {
-        pos @class103CWide $c' <$s 110 $a 0> @cMedWide;
+        pos @class103CWide $c' <$s 0 $a 0> @cMedWide;
     }
 
-    pos [@class103CNarr @class103CWide] [@cCons]' <0 110 0 0> @cMed;
+    pos [@class103CNarr @class103CWide] [@cCons]' <0 0 0 0> @cMed;
 
 #    pos u103C                u1014.alt' <0 110 52 0>   u1013.med; # Sanskrit #126
 } dist_103C_Cons;
