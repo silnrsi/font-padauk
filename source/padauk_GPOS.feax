@@ -57,6 +57,7 @@ do  for b = [@U];
 } guard;
 
 lookup guard_context {
+    ignore pos @cCons @_U [u1083 u1064] @cTone;
     ignore pos @cCons @_U @cTone;
     pos @cCons' lookup guard;
 } guard_context;

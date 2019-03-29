@@ -157,7 +157,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeOS2WinDescent</key>
   <integer>500</integer>
   <key>postscriptFontName</key>
-  <string>Padauk-BookBold</string>
+  <string>PadaukBook-Bold</string>
   <key>postscriptFullName</key>
   <string>Padauk Book Bold</string>
   <key>postscriptStemSnapH</key>
@@ -169,7 +169,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>postscriptUnderlineThickness</key>
   <integer>50</integer>
   <key>styleMapFamilyName</key>
-  <string>Padauk</string>
+  <string>Padauk Book</string>
   <key>styleMapStyleName</key>
   <string>bold</string>
   <key>styleName</key>

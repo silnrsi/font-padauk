@@ -802,6 +802,8 @@ Khamti reduplication ligatures
 @enddoc */
 
 (cTone cToneKham) gaa70 > @l @f / ^ cno_aa70? _=f _=l;
+_ gaa70 > @l _ / ^ cno_aa70? _ g1083 (cTone cToneKham) _=l;
+
 cno_aa70 gaa70 > caa70:(1 v) _ / _ g1062? (cTone cToneKham)? _=v;
 if (filled)
 cno_aa70 cTone gaa70 > caa70:(1 v) cToneKham _ / _ g1062? _ _=v;
