@@ -73,7 +73,7 @@
   <string>Regular</string>
   <key>com.schriftgestaltung.widthValue</key>
   <integer>100</integer>
-  <key>org.sil.uvs</key>
+  <key>org.sil.variationSequences</key>
   <dict>
     <key>FE00</key>
     <dict>
