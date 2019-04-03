@@ -578,8 +578,6 @@
   <string>u1001.med.glif</string>
   <key>u1002</key>
   <string>u1002.glif</string>
-  <key>u1002.kham</key>
-  <string>u1002.kham.glif</string>
   <key>u1002.med</key>
   <string>u1002.med.glif</string>
   <key>u1003</key>
@@ -756,6 +754,8 @@
   <string>u101B_.glif</string>
   <key>u101B.alt</key>
   <string>u101B_.alt.glif</string>
+  <key>u101B.kham</key>
+  <string>u101B_.kham.glif</string>
   <key>u101B.kinzi</key>
   <string>u101B_.kinzi.glif</string>
   <key>u101B.kinzi_u102D</key>

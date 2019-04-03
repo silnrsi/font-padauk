@@ -73,6 +73,14 @@ do  for b = [@L];
         pos $b' $a [@_U] $g;
         pos $b' $a $g;
     }
+do  for b = [@LM_MarkBase];
+    let g = "u1037";
+    let a = APx(b, "LM") - APx(g, "_LM") + ADVx(g) - ADVx(b);
+    if not b.startswith("u103C") and a > 0;
+    {
+        pos $b' $a [@_U] $g;
+        pos $b' $a $g;
+    }
 } guard_dot;
 
 lookup dist_103C_Cons {

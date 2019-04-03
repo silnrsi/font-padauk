@@ -77,8 +77,6 @@
     <dict>
       <key>1000</key>
       <string>u1000.kham</string>
-      <key>1002</key>
-      <string>u1002.kham</string>
       <key>1004</key>
       <string>u1004.kham</string>
       <key>1010</key>
@@ -89,6 +87,8 @@
       <string>u1019.kham</string>
       <key>101A</key>
       <string>u101A.kham</string>
+      <key>101B</key>
+      <string>u101B.kham</string>
       <key>101C</key>
       <string>u101C.kham</string>
       <key>1022</key>
