@@ -801,8 +801,7 @@ cSpaceVowel cToneDia > @2 @1;
 Khamti reduplication ligatures
 @enddoc */
 
-(cTone cToneKham) gaa70 > @l @f / ^ cno_aa70? _=f _=l;
-_ gaa70 > @l _ / ^ cno_aa70? _ g1083 (cTone cToneKham) _=l;
+_ gaa70 > @l _ / ^ cno_aa70? _ g1083? (cTone cToneKham) _=l;
 
 cno_aa70 gaa70 > caa70:(1 v) _ / _ g1062? (cTone cToneKham)? _=v;
 if (filled)
@@ -1035,6 +1034,8 @@ g103d { advance.x = 200m } / cCons _ cUVowel? g1037 c103c;
 // cTakesRDia { kern.x = 100m } / cCons g103d cUVowel? g1037 _ cRDia;
 g103d { advance.x = 60m } / _ g1014_alt g1010_med;
 (g103d, g103d_103e) { advance.x = 100m } / _ (g1032, g1036)? g1037 (cCons, g1014_alt) (g103d, cBDDia);
+(caa70 gaa70) { advance.x = 0m } / _ (g1083 g1062)? (cTone cToneKham);
+(caa70 gaa70) { advance.x = 1m };
 
 if (slanth == sgaw)
 c1037 { kern.x = -100m; kern.y = -100m; } / g101b_long g103e_slanth _;
