@@ -243,6 +243,13 @@ There are two prevowels that reorder before their base consonant cluster
 cPreVowel = (g1031, g1084, g1031_aiph);
 
 /* @doc
+Bases that will collide with lower protruding stuff
+@enddoc */
+
+cLBlock = (g1009, g100a g100c, g1020, g1024, g1025, g1026, g1028, g1029,
+           g104c, g104d);
+
+/* @doc
 The lower vowels must occur in a particular place in the order. (See the section on ensuring
 correct ordering). They may be rendered as full height, or short form (overloading medial again!).
 Then there is the combined medial form with -h. Finally we create a class that includes all
@@ -1029,9 +1036,10 @@ g1037 / cYMed cUVowel? cLVowel? c1036? _ (g1063 g1064 g1069 g106a g106b g106c g1
 g1037 { advance.x = 1m } / cYMed cUVowel? cLVowel? c1036? _;
 // the next rule in conjunction with the other (g103d g103d_103e) causes a corrupt font
 // g1037 { advance.x = 10m } / (g103d g103d_103e) cUVowel? cLVowel? c1036? _;
-g1037 { advance.x = 10m } / c103c_mix cCons cUVowel? _ c103c;
-g1037 { advance.x = 10m } / _ c103c;
-g103d { advance.x = 200m } / cCons _ cUVowel? g1037 c103c;
+cBDia { advance.x = advance.x + 1m } g1037 { advance.x = advance.x * 3 / 2 } / _ opt2(cUDia) _ (c103c cLBlock);
+g1037 { advance.x = advance.x * 3 / 2 } / _ (c103c cLBlock);
+g1037 { advance.x = 0m };
+// g103d { advance.x = 200m } / cCons _ cUVowel? g1037 c103c;
 // why does this crash graphite?
 // cTakesRDia { kern.x = 100m } / cCons g103d cUVowel? g1037 _ cRDia;
 g103d { advance.x = 60m } / _ g1014_alt g1010_med;

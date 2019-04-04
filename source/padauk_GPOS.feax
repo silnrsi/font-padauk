@@ -70,16 +70,16 @@ do  for b = [@L];
     let a = APx(b, "L") - APx(g, "_L") + ADVx(g) - ADVx(b);
     if not b.startswith("u103C") and a > 0;
     {
-        pos $b' $a [@_U] $g;
-        pos $b' $a $g;
+        pos $b' $a [@_U] $g @cFillLowAfter;
+        pos $b' $a $g @cFillLowAfter;
     }
 do  for b = [@LM_MarkBase];
     let g = "u1037";
     let a = APx(b, "LM") - APx(g, "_LM") + ADVx(g) - ADVx(b);
     if not b.startswith("u103C") and a > 0;
     {
-        pos $b' $a [@_U] $g;
-        pos $b' $a $g;
+        pos $b' $a [@_U] $g @cFillLowAfter;
+        pos $b' $a $g @cFillLowAfter;
     }
 } guard_dot;
 
