@@ -154,6 +154,24 @@ do  let a = ADVx("u103C");
     }
 } dist_dflt_SpacingMarks;
 
+do  let bases = feaclass('GDEF_bases');
+    let us = feaclass('U');
+    let gs = " ".join(x for x in bases if x not in us);
+    { @nonU = [ $gs ]; }
+
+lookup dist_SpacingRedup {
+do  for g = [u102D_uAA70 u102E_uAA70 uAA70];
+    let b = MAXx(g) - MINx(g);
+    let a = MAXx("uAA70") - MINx("uAA70");
+    let hb = int(b / 2);
+    {
+        pos @nonU $g' <$b 0 0 0> [u1083 u1062] @cTone;
+        pos @nonU $g' <$b 0 0 0> @cTone;
+        pos @nonU $g' <$b 0 $b 0>;
+#        pos $g' <0 0 $a 0>;
+    }
+} dist_SpacingRedup;
+
 lookup shift_103C_udia {
 # shift upper diacritics that clash with the u103C
 do  for w = [narr wide];

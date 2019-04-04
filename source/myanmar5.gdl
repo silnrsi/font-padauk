@@ -376,6 +376,7 @@ c1037 = (g1037);
 
 caa70 = (g102d_aa70, g102e_aa70, g103a_aa70, g1085_aa70, g1086_aa70);
 cno_aa70 = (g102d, g102e, g103a, g1085, g1086);
+caa70_wide = (g102d_aa70, g102e_aa70, gaa70);
 
 endtable; // glyph table
 
@@ -1035,8 +1036,9 @@ g103d { advance.x = 200m } / cCons _ cUVowel? g1037 c103c;
 // cTakesRDia { kern.x = 100m } / cCons g103d cUVowel? g1037 _ cRDia;
 g103d { advance.x = 60m } / _ g1014_alt g1010_med;
 (g103d, g103d_103e) { advance.x = 100m } / _ (g1032, g1036)? g1037 (cCons, g1014_alt) (g103d, cBDDia);
-(caa70 gaa70) { advance.x = 0m } / _ (g1083 g1062)? (cTone cToneKham);
-(caa70 gaa70) { advance.x = 1m };
+caa70_wide { shift.x = boundingbox.width; advance.x = 0m } / _ {attach.to == 0} (g1083 g1062)? (cTone cToneKham); 
+caa70_wide { shift.x = boundingbox.width; advance.x = boundingbox.width} / _ {attach.to == 0};
+caa70_wide { advance.x = 1m };
 
 if (slanth == sgaw)
 c1037 { kern.x = -100m; kern.y = -100m; } / g101b_long g103e_slanth _;
