@@ -205,6 +205,13 @@ Ligatures with medial h and uu
 cMedHUu = (g103e_1030, g103e_1030_slantr, g103e_1030_slanth);
 
 /* @doc
+Lists all the subjoined forms that can be substituted with a smaller version to fit inside a wrap
+@enddoc */
+
+cConsSmlMed = (g1000_med, g1006_med, g100b_med, g1010_med, g1011_med, g1012_med, g1013_med, g1015_med, 
+    g1019_med, g101e_med, g103d);
+
+/* @doc
 Stacked consonant ligatures
 @enddoc */
 cStackLig = (g100a_100a, g100b_100b, g100b_100c, g100d_100d, g100d_100e,
@@ -815,6 +822,12 @@ cno_aa70 gaa70 > caa70:(1 v) _ / _ g1062? (cTone cToneKham)? _=v;
 if (filled)
 cno_aa70 cTone gaa70 > caa70:(1 v) cToneKham _ / _ g1062? _ _=v;
 endif;
+
+/* @doc
+Smaller subjoined forms inside a wrap and after a consonant.
+@enddoc */
+
+cConsSmlMed > csml / ^ c103c cCons _;
 
 endpass;
 
