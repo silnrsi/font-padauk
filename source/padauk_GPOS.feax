@@ -160,6 +160,8 @@ do  let bases = feaclass('GDEF_bases');
     { @nonU = [ $gs ]; }
 
 lookup dist_SpacingRedup {
+    ignore pos [u1083 u1062] uAA70';
+    ignore pos [u1083 u1062] @cTone uAA70';
 do  for g = [u102D_uAA70 u102E_uAA70 uAA70];
     let b = MAXx(g) - MINx(g);
     let a = MAXx("uAA70") - MINx("uAA70");

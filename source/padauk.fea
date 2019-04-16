@@ -697,8 +697,11 @@ feature mkmk {
 	u1080.kham uAA60.kham uAA61.kham uAA62.kham uAA63.kham uAA64.kham 
 	uAA65.kham uAA66.kham uAA6B.kham uAA6C.kham uAA6F.kham uAA73.kham 
 	uAA75.kham uAA76.kham u1038.dot u1087.dot u1088.dot u1089.dot u108A.dot 
-	u109A.dot u109B.dot uAA7B.dot u103B_u103D.tri u103B_u103D_u103E.tri u1081 ];
-@GDEF_Ligature = [u109A u109B uAA74 uAA75 uAA76 uAA78 uAA7B];
+	u103B_u103D.tri u103B_u103D_u103E.tri u1081 uAA7B uAA7B.dot
+    ];
+@GDEF_Ligature = [uAA74 uAA75 uAA76 uAA78
+    u109A u109A.dot u109B u109B.dot
+    ];
 @GDEF_Mark = [u1000.med u1001.med u1002.med u1003.med u1004.med u1004.kinzi 
 	u1004.kinzi_u102D u1004.kinzi_u102E u1004.kinzi_u1032 u1004.kinzi_u1033 
 	u1004.kinzi_u1036 u1004.kinzi_u103A u1004.kinzi_u102D_u1036 u1005.med 
@@ -730,7 +733,8 @@ feature mkmk {
 	
 	u1010_u103D.med.tri u103D.tri u103D_u103E.tri 
 	u103D_u103E.small.tri u103E.slantr u103E.slanth u103E_u102F.slantr 
-	u103E_u102F.slanth u103E_u1030.slantr u103E_u1030.slanth ];	  
+	u103E_u102F.slanth u103E_u1030.slantr u103E_u1030.slanth
+     ];
 	
 
 table GDEF {

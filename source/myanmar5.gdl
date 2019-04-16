@@ -383,7 +383,8 @@ Tone context characters that can occur before a U+AA70 khamti reduplication
 @enddoc */
 
 // cTone = (g1038, g1087, g1088, g1089, g108a, g109a, g109b);
-cToneKham = (g1038_dot, g1087_dot, g1088_dot, g1089_dot, g108a_dot, g109a_dot, g109b_dot);
+cToneKham = (g1038_dot, g1087_dot, g1088_dot, g1089_dot, g108a_dot, gaa7b_dot);
+cTone_noKham = (g1038, g1087, g1088, g1089, g108a, gaa7b);
 
 cSpacingTone = (g1064, g1067, g1068, g1069, g106a, g106b, g106c, g106d);
 c1037 = (g1037);
@@ -816,11 +817,12 @@ cSpaceVowel cToneDia > @2 @1;
 Khamti reduplication ligatures
 @enddoc */
 
-_ gaa70 > @l _ / ^ cno_aa70? _ g1083? (cTone cToneKham) _=l;
+_ gaa70 > @l _ / ^ cno_aa70? g1083? _ (cTone_noKham cToneKham) _=l;
 
-cno_aa70 gaa70 > caa70:(1 v) _ / _ g1062? (cTone cToneKham)? _=v;
+cno_aa70 gaa70 > caa70:(1 v) _ / _ g1062? (cTone_noKham cToneKham)? _=v;
+g1086_kham gaa70 > g1086_aa70:(1 v) _ / _ g1062? (cTone_noKham cToneKham)? _=v;
 if (filled)
-cno_aa70 cTone gaa70 > caa70:(1 v) cToneKham _ / _ g1062? _ _=v;
+cno_aa70 cTone_noKham gaa70 > caa70:(1 v) cToneKham _ / _ g1062? _ _=v;
 endif;
 
 /* @doc
@@ -1059,6 +1061,7 @@ g103d { advance.x = 60m } / _ g1014_alt g1010_med;
 (g103d, g103d_103e) { advance.x = 100m } / _ (g1032, g1036)? g1037 (cCons, g1014_alt) (g103d, cBDDia);
 caa70_wide { shift.x = boundingbox.width; advance.x = 0m } / _ {attach.to == 0} (g1083 g1062)? (cTone cToneKham); 
 caa70_wide { shift.x = boundingbox.width; advance.x = boundingbox.width} / _ {attach.to == 0};
+caa70_wide { advance.x = 0m } / _ cTone;
 caa70_wide { advance.x = 1m };
 
 if (slanth == sgaw)

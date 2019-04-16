@@ -311,11 +311,13 @@ lookup mym2_pres_u103Copen {
 
 @cno_AA70 = [u102D u102E u103A u1085 u1086];
 @classAA70Lig = [@cno_AA70 u1086.kham uAA70];
+@classAA70Skips = [u109A u109A.dot u109B u109B.dot];
 @cAA70 = [u102D_uAA70 u102E_uAA70 u103A_uAA70 u1085_uAA70 u1086_uAA70];
 lookup mym2_abvs_redupLig {
-  lookupflag IgnoreBaseGlyphs IgnoreLigatures UseMarkFilteringSet @classAA70Lig;
-    sub @cno_AA70 uAA70 by @cAA70;
-    sub u1086.kham uAA70  by u1086_uAA70;
+  lookupflag IgnoreBaseGlyphs UseMarkFilteringSet @classAA70Lig;
+    ignore sub [@cno_AA70 u1086.kham]' @classAA70Skips' uAA70';
+    sub @cno_AA70' uAA70' by @cAA70;
+    sub u1086.kham' uAA70'  by u1086_uAA70;
 } mym2_abvs_redupLig;
 
 
@@ -471,17 +473,19 @@ lookup tla_Vowel108DSubst2 {
 # Otherwise it keeps adding tones if more than one rule in each lookup
 
 # reorder so that tone uAA7C precedes vowel u1083
+@cToneAndKham = [u1038 u1087 u1088 u1089 u108A u108B u108C u108F u109C uAA7B
+                 u1038.dot u1087.dot u1088.dot u1089.dot uAA7B.dot];
 lookup tla_VowelAA7C_Subst {
     sub u1083 by uAA7C;
     sub uAA7C by u1083;
 } tla_VowelAA7C_Subst;
 
 lookup reorder_AA70_left {
-    sub @cTone by uAA70 @cTone;
+    sub @cToneAndKham by uAA70 @cToneAndKham;
 } reorder_AA70_left;
 
 lookup reorder_AA70_right {
-    sub @cTone uAA70 by @cTone;
+    sub @cToneAndKham uAA70 by @cToneAndKham;
 } reorder_AA70_right;
 
 # --------------------------------------------------------------------
@@ -499,8 +503,8 @@ lookup mym2_swap_thing1_thing2 {
     sub u1062' lookup tla_Vowel108DSubst1    u108D'       lookup tla_Vowel108DSubst2; #Tai Laing (tla)
     sub u1083' lookup tla_Vowel108DSubst1    u108D'       lookup tla_Vowel108DSubst2; #Tai Laing (tla)
     sub u1083' lookup tla_VowelAA7C_Subst    uAA7C'       lookup tla_VowelAA7C_Subst; #Tai Laing (tla)
-    sub u1083' lookup reorder_AA70_left @cTone'  uAA70'   lookup reorder_AA70_right;
-    sub @cTone' lookup reorder_AA70_left     uAA70'       lookup reorder_AA70_right;
+    sub u1083' lookup reorder_AA70_left @cToneAndKham'  uAA70'   lookup reorder_AA70_right;
+    sub @cToneAndKham' lookup reorder_AA70_left     uAA70'       lookup reorder_AA70_right;
 } mym2_swap_thing1_thing2;
 
 lookup consmed_sml {
