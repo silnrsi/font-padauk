@@ -644,8 +644,8 @@ g1062{sOrder = 150} / (g102f, g1030) _;
 g1062{sOrder = 150} / _ g1032;
 
 // dot vowel
-g1037{sOrder = 180} / (g102f, g1030) _;
-g1037{sOrder = 180} / _ ^ (g1032, g1036);
+g1037{sOrder = 155} / (g102f, g1030) _;
+g1037{sOrder = 155} / _ ^ (g1032, g1036);
 
 // slot A Vowel
 g1062 > @2{sOrder=150} / ANY{sOrder >= 130 && sOrder < 150} _;
