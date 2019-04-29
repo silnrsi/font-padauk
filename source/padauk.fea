@@ -201,16 +201,22 @@ feature abvs {
  script mym2;
      language dflt;
       lookup mym2_abvs_redupLig;
+      lookup mym2_abvs_redupLig2;
      language KHN  exclude_dflt;
       lookup mym2_abvs_redupLig;
+      lookup mym2_abvs_redupLig2;
      language KHT  exclude_dflt;
       lookup mym2_abvs_redupLig;
+      lookup mym2_abvs_redupLig2;
      language KSW  exclude_dflt;
       lookup mym2_abvs_redupLig;
+      lookup mym2_abvs_redupLig2;
      language KYU  exclude_dflt;
       lookup mym2_abvs_redupLig;
+      lookup mym2_abvs_redupLig2;
      language SHN  exclude_dflt;
       lookup mym2_abvs_redupLig;
+      lookup mym2_abvs_redupLig2;
 } abvs;
 
 
@@ -299,6 +305,7 @@ feature clig {
       lookup mym2_pres_u103Calt_tri;
       lookup mym2_pres_u103Copen;
       lookup mym2_abvs_redupLig;
+      lookup mym2_abvs_redupLig2;
       lookup mym2_blws_miscLig;
       lookup mym2_blws_103ELig;
       lookup mym2_blws_sub1014;
@@ -338,6 +345,7 @@ feature clig {
       lookup mym2_pres_u103Calt_tri;
       lookup mym2_pres_u103Copen;
       lookup mym2_abvs_redupLig;
+      lookup mym2_abvs_redupLig2;
       lookup mym2_blws_miscLig;
       lookup mym2_blws_103ELig;
       lookup mym2_blws_sub1014;

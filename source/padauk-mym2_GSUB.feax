@@ -309,17 +309,27 @@ lookup mym2_pres_u103Copen {
 # abvs
 # ****
 
-@cno_AA70 = [u102D u102E u103A u1085 u1086];
-@classAA70Lig = [@cno_AA70 u1086.kham uAA70];
+@cno_AA70 = [u102D u102E u103A u1085];
+@classAA70Lig = [@cno_AA70 u1086 u1086.kham uAA70];
 @classAA70Skips = [u109A u109A.dot u109B u109B.dot];
-@cAA70 = [u102D_uAA70 u102E_uAA70 u103A_uAA70 u1085_uAA70 u1086_uAA70];
+@cAA70 = [u102D_uAA70 u102E_uAA70 u103A_uAA70 u1085_uAA70];
 lookup mym2_abvs_redupLig {
-  lookupflag IgnoreBaseGlyphs UseMarkFilteringSet @classAA70Lig;
-    ignore sub [@cno_AA70 u1086.kham]' @classAA70Skips' uAA70';
-    sub @cno_AA70' uAA70' by @cAA70;
-    sub u1086.kham' uAA70'  by u1086_uAA70;
+  lookupflag IgnoreBaseGlyphs IgnoreLigatures UseMarkFilteringSet @classAA70Lig;
+    sub @cno_AA70 uAA70 by @cAA70;
+    sub u1086.kham uAA70  by u1086_uAA70;
 } mym2_abvs_redupLig;
 
+lookup convno_aa70 {
+    sub @cAA70 by @cno_AA70;
+} convno_aa70;
+
+lookup insert_aa70 {
+    sub @classAA70Skips by @classAA70Skips uAA70;
+} insert_aa70;
+
+lookup mym2_abvs_redupLig2 {
+    sub @cAA70' lookup convno_aa70 @classAA70Skips' lookup insert_aa70;
+} mym2_abvs_redupLig2;
 
 # ****
 # blws

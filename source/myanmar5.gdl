@@ -820,7 +820,7 @@ Khamti reduplication ligatures
 _ gaa70 > @l _ / ^ cno_aa70? g1083? _ (cTone_noKham cToneKham) _=l;
 
 cno_aa70 gaa70 > caa70:(1 v) _ / _ g1062? (cTone_noKham cToneKham)? _=v;
-g1086_kham gaa70 > g1086_aa70:(1 v) _ / _ g1062? (cTone_noKham cToneKham)? _=v;
+g1086_kham gaa70 > g1086_aa70:(1 v) _ / _ g1062? (cTone cToneKham)? _=v;
 if (filled)
 cno_aa70 cTone_noKham gaa70 > caa70:(1 v) cToneKham _ / _ g1062? _ _=v;
 endif;
