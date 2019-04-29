@@ -840,9 +840,11 @@ pass(pass_subst);
 Handle feature substitutions
 @enddoc */
 
+/*
 if (khamti)
 cno_kham > ckham;
 endif;
+*/
 
 if (aitonph)
 cno_aiph > caiph;
