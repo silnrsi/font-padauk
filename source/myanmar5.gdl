@@ -334,6 +334,8 @@ c103c_naralt = (g103c_alt_narr, g103c_103d_alt_narr, g103c_102f_alt_narr, g103c_
 c103c_wide = (g103c_wide, g103c_103d_wide, g103c_102f_wide, g103c_103d_wide_tri);
 c103c_widalt = (g103c_alt_wide, g103c_103d_alt_wide, g103c_102f_alt_wide, g103c_103d_alt_wide_tri);
 c103e_dia = (g103e, g103e_alt);
+cConsNar += (g1075);
+cConsWide += (g1075_kham);
 
 /* @doc
 Then we list yet more combinations of the wrap as needed by various rules. And we also create
@@ -817,7 +819,7 @@ cSpaceVowel cToneDia > @2 @1;
 Khamti reduplication ligatures
 @enddoc */
 
-_ gaa70 > @l _ / ^ cno_aa70? g1083? _ (cTone_noKham cToneKham) _=l;
+_ gaa70 > @l _ / ^ cno_aa70? _ g1083? (cTone_noKham cToneKham)? _=l;
 
 cno_aa70 gaa70 > caa70:(1 v) _ / _ g1062? (cTone_noKham cToneKham)? _=v;
 g1086_kham gaa70 > g1086_aa70:(1 v) _ / _ g1062? (cTone cToneKham)? _=v;
