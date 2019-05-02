@@ -280,4 +280,7 @@
   <class name="cTone" exts=".dot .kham">
     u1038 u1083 u1087 u1088 u1089 u108A u018B u108C u108F u109A u109B u109C uAA7B
   </class>
+  <class name="cToneNonU" exts=".dot">
+    u1038 u1083 u1087 u1088 u1089 u108A u108B u108C u108F u109C uAA7B
+  </class>
 </classes>

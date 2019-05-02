@@ -1,0 +1,4 @@
+#!/bin/sh
+
+psffixffglifs source/masters/Padauk-Regular.ufo -p checkfix=fix
+psffixffglifs source/masters/Padauk-BookBold.ufo -p checkfix=fix
