@@ -311,7 +311,7 @@ lookup mym2_pres_u103Copen {
 
 @cno_AA70 = [u102D u102E u103A u1085];
 @classAA70Lig = [@cno_AA70 u1086 u1086.kham uAA70];
-@classAA70Skips = [u109A u109A.dot u109B u109B.dot];
+@classAA70Skips = [u109B u109B.dot];
 @cAA70 = [u102D_uAA70 u102E_uAA70 u103A_uAA70 u1085_uAA70];
 lookup mym2_abvs_redupLig {
   lookupflag IgnoreBaseGlyphs IgnoreLigatures UseMarkFilteringSet @classAA70Lig;
@@ -483,8 +483,8 @@ lookup tla_Vowel108DSubst2 {
 # Otherwise it keeps adding tones if more than one rule in each lookup
 
 # reorder so that tone uAA7C precedes vowel u1083
-@cToneAndKham = [u1038 u1087 u1088 u1089 u108A u108B u108C u108F u109C uAA7B
-                 u1038.dot u1087.dot u1088.dot u1089.dot u108A.dot uAA7B.dot];
+@cToneAndKham = [u1038 u1087 u1088 u1089 u108A u108B u108C u108F u109C uAA7B u109A u109B
+                 u1038.dot u1087.dot u1088.dot u1089.dot u108A.dot uAA7B.dot u109A.dot u109B.dot];
 lookup tla_VowelAA7C_Subst {
     sub u1083 by uAA7C;
     sub uAA7C by u1083;
@@ -504,6 +504,7 @@ lookup reorder_AA70_right {
 ### Next is the list of glyphs to be swapped
 # --------------------------------------------------------------------
 lookup mym2_swap_thing1_thing2 {
+    ignore sub @cno_AA70 [u109B u109B.dot]' uAA70';
     sub u1032' lookup UDiac_102FmedSubst1    u102F.med'   lookup UDiac_102FmedSubst2; # Pa'o Karen
     sub u1036' lookup UDiac_102FmedSubst1    u102F.med'   lookup UDiac_102FmedSubst2; # Pa'o Karen
     sub u102B' lookup g102B_1036_Subst       u1036'       lookup g102B_1036_Subst; # Mon
