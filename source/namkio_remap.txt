@@ -1,0 +1,10 @@
+n, u1036.dot, 1036
+n, u1038.dot, 1038
+n, u1087.dot, 1087
+n, u1088.dot, 1088
+n, u1089.dot, 1089
+n, u108A.dot, 108A
+n, u109A.dot, 109A
+n, u109B.dot, 109B
+n, uAA7B.dot, AA7B
+
