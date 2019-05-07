@@ -8,14 +8,14 @@
   <anchor x="225" y="495" name="U"/>
   <outline>
     <contour>
-      <point x="408" y="0" type="line"/>
       <point x="171" y="0" type="line"/>
-      <point x="171" y="330" type="line"/>
-      <point x="40" y="330" type="line"/>
-      <point x="40" y="444" type="line"/>
-      <point x="277" y="444" type="line"/>
-      <point x="277" y="114" type="line"/>
+      <point x="408" y="0" type="line"/>
       <point x="408" y="114" type="line"/>
+      <point x="277" y="114" type="line"/>
+      <point x="277" y="444" type="line"/>
+      <point x="40" y="444" type="line"/>
+      <point x="40" y="330" type="line"/>
+      <point x="171" y="330" type="line"/>
     </contour>
   </outline>
 </glyph>

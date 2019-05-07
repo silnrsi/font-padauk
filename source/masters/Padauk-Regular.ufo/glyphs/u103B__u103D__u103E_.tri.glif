@@ -8,20 +8,20 @@
   <anchor x="-218" y="-53" name="dot"/>
   <outline>
     <contour>
-      <point x="-255" y="-131" type="line"/>
-      <point x="-308" y="-256" type="line"/>
-      <point x="-442" y="-390" type="line"/>
-      <point x="-535" y="-297" type="line"/>
-      <point x="-499" y="-261" type="line"/>
-      <point x="-442" y="-318" type="line"/>
+      <point x="106" y="-450" type="line"/>
+      <point x="106" y="444" type="line"/>
+      <point x="55" y="444" type="line"/>
+      <point x="55" y="-384" type="line"/>
+      <point x="-50" y="-356" type="line"/>
+      <point x="-77" y="-402" type="line"/>
     </contour>
     <contour>
-      <point x="-77" y="-402" type="line"/>
-      <point x="-50" y="-356" type="line"/>
-      <point x="55" y="-384" type="line"/>
-      <point x="55" y="444" type="line"/>
-      <point x="106" y="444" type="line"/>
-      <point x="106" y="-450" type="line"/>
+      <point x="-442" y="-390" type="line"/>
+      <point x="-308" y="-256" type="line"/>
+      <point x="-255" y="-131" type="line"/>
+      <point x="-442" y="-318" type="line"/>
+      <point x="-499" y="-261" type="line"/>
+      <point x="-535" y="-297" type="line"/>
     </contour>
     <component base="u103D.tri" xOffset="21" yOffset="10"/>
   </outline>

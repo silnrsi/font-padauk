@@ -9,18 +9,18 @@
   <anchor x="279" y="495" name="Y"/>
   <outline>
     <contour>
-      <point x="153" y="-471" type="line"/>
-      <point x="39" y="-471" type="line"/>
-      <point x="39" y="444" type="line"/>
-      <point x="153" y="444" type="line"/>
+      <point x="222" y="-471" type="line"/>
+      <point x="415" y="-471" type="line"/>
+      <point x="415" y="-357" type="line"/>
+      <point x="336" y="-357" type="line"/>
+      <point x="336" y="444" type="line"/>
+      <point x="222" y="444" type="line"/>
     </contour>
     <contour>
-      <point x="415" y="-471" type="line"/>
-      <point x="222" y="-471" type="line"/>
-      <point x="222" y="444" type="line"/>
-      <point x="336" y="444" type="line"/>
-      <point x="336" y="-357" type="line"/>
-      <point x="415" y="-357" type="line"/>
+      <point x="39" y="-471" type="line"/>
+      <point x="153" y="-471" type="line"/>
+      <point x="153" y="444" type="line"/>
+      <point x="39" y="444" type="line"/>
     </contour>
   </outline>
 </glyph>

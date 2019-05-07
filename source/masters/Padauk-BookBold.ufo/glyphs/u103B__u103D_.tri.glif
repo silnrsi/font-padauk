@@ -8,12 +8,12 @@
   <anchor x="-225" y="-53" name="dot"/>
   <outline>
     <contour>
-      <point x="-84" y="-406" type="line"/>
-      <point x="-52" y="-292" type="line"/>
-      <point x="55" y="-324" type="line"/>
-      <point x="55" y="444" type="line"/>
-      <point x="169" y="444" type="line"/>
       <point x="169" y="-471" type="line"/>
+      <point x="169" y="444" type="line"/>
+      <point x="55" y="444" type="line"/>
+      <point x="55" y="-324" type="line"/>
+      <point x="-52" y="-292" type="line"/>
+      <point x="-84" y="-406" type="line"/>
     </contour>
     <component base="u103D.tri" xOffset="40" yOffset="30"/>
   </outline>

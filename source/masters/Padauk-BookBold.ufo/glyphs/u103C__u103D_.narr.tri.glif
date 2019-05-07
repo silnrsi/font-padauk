@@ -8,6 +8,10 @@
   <anchor x="234" y="0" name="R"/>
   <outline>
     <contour>
+      <point x="400" y="-471" type="curve" smooth="yes"/>
+      <point x="562" y="-471" type="line" smooth="yes"/>
+      <point x="687" y="-471"/>
+      <point x="753" y="-437"/>
       <point x="753" y="-365" type="curve" smooth="yes"/>
       <point x="753" y="-274"/>
       <point x="595" y="-87"/>
@@ -59,15 +63,8 @@
       <point x="151" y="-401" type="curve" smooth="yes"/>
       <point x="217" y="-466"/>
       <point x="289" y="-471"/>
-      <point x="400" y="-471" type="curve" smooth="yes"/>
-      <point x="562" y="-471" type="line" smooth="yes"/>
-      <point x="687" y="-471"/>
-      <point x="753" y="-437"/>
     </contour>
     <contour>
-      <point x="625" y="-337" type="curve" smooth="yes"/>
-      <point x="625" y="-352"/>
-      <point x="614" y="-365"/>
       <point x="561" y="-365" type="curve" smooth="yes"/>
       <point x="512" y="-365"/>
       <point x="495" y="-352"/>
@@ -77,6 +74,9 @@
       <point x="561" y="-226" type="curve" smooth="yes"/>
       <point x="566" y="-226"/>
       <point x="625" y="-315"/>
+      <point x="625" y="-337" type="curve" smooth="yes"/>
+      <point x="625" y="-352"/>
+      <point x="614" y="-365"/>
     </contour>
   </outline>
 </glyph>

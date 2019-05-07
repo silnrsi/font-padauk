@@ -7,12 +7,12 @@
   <anchor x="-225" y="-53" name="_BSM"/>
   <outline>
     <contour>
-      <point x="-276" y="-141" type="line"/>
-      <point x="-329" y="-266" type="line"/>
       <point x="-463" y="-400" type="line"/>
-      <point x="-556" y="-307" type="line"/>
-      <point x="-520" y="-271" type="line"/>
+      <point x="-329" y="-266" type="line"/>
+      <point x="-276" y="-141" type="line"/>
       <point x="-463" y="-328" type="line"/>
+      <point x="-520" y="-271" type="line"/>
+      <point x="-556" y="-307" type="line"/>
     </contour>
     <component base="u103D.tri"/>
   </outline>

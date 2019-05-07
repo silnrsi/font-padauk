@@ -8,20 +8,20 @@
   <anchor x="-223" y="-53" name="_BSM"/>
   <outline>
     <contour>
-      <point x="-271" y="-450" type="line"/>
-      <point x="-405" y="-450" type="line"/>
-      <point x="-405" y="-399" type="line"/>
-      <point x="-322" y="-399" type="line"/>
-      <point x="-322" y="-95" type="line"/>
-      <point x="-271" y="-95" type="line"/>
+      <point x="-174" y="-450" type="line"/>
+      <point x="-40" y="-450" type="line"/>
+      <point x="-40" y="-399" type="line"/>
+      <point x="-123" y="-399" type="line"/>
+      <point x="-123" y="-95" type="line"/>
+      <point x="-174" y="-95" type="line"/>
     </contour>
     <contour>
-      <point x="-40" y="-450" type="line"/>
-      <point x="-174" y="-450" type="line"/>
-      <point x="-174" y="-95" type="line"/>
-      <point x="-123" y="-95" type="line"/>
-      <point x="-123" y="-399" type="line"/>
-      <point x="-40" y="-399" type="line"/>
+      <point x="-405" y="-450" type="line"/>
+      <point x="-271" y="-450" type="line"/>
+      <point x="-271" y="-95" type="line"/>
+      <point x="-322" y="-95" type="line"/>
+      <point x="-322" y="-399" type="line"/>
+      <point x="-405" y="-399" type="line"/>
     </contour>
   </outline>
 </glyph>

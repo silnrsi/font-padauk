@@ -214,6 +214,8 @@
   <string>bulletoperator.glif</string>
   <key>c</key>
   <string>c.glif</string>
+  <key>caron</key>
+  <string>caron.glif</string>
   <key>ccedilla</key>
   <string>ccedilla.glif</string>
   <key>cedilla</key>
@@ -300,6 +302,8 @@
   <string>five.glif</string>
   <key>fl</key>
   <string>fl.glif</string>
+  <key>florin</key>
+  <string>florin.glif</string>
   <key>four</key>
   <string>four.glif</string>
   <key>fourperemspace</key>
@@ -580,6 +584,8 @@
   <string>u1002.glif</string>
   <key>u1002.med</key>
   <string>u1002.med.glif</string>
+  <key>u1002.sml</key>
+  <string>u1002.sml.glif</string>
   <key>u1003</key>
   <string>u1003.glif</string>
   <key>u1003.med</key>
@@ -610,6 +616,8 @@
   <string>u1005.glif</string>
   <key>u1005.med</key>
   <string>u1005.med.glif</string>
+  <key>u1005.sml</key>
+  <string>u1005.sml.glif</string>
   <key>u1006</key>
   <string>u1006.glif</string>
   <key>u1006.med</key>
@@ -620,6 +628,8 @@
   <string>u1007.glif</string>
   <key>u1007.med</key>
   <string>u1007.med.glif</string>
+  <key>u1007.sml</key>
+  <string>u1007.sml.glif</string>
   <key>u1008</key>
   <string>u1008.glif</string>
   <key>u1008.med</key>
@@ -792,6 +802,8 @@
   <string>u101E__u1010_u103C_.glif</string>
   <key>u101F</key>
   <string>u101F_.glif</string>
+  <key>u101F.sml</key>
+  <string>u101F_.sml.glif</string>
   <key>u1020</key>
   <string>u1020.glif</string>
   <key>u1020.long</key>

@@ -16,6 +16,8 @@
   <string>u1001.med.glif</string>
   <key>u1002.med</key>
   <string>u1002.med.glif</string>
+  <key>u1002.sml</key>
+  <string>u1002.sml.glif</string>
   <key>u1004.kinzi_u102D</key>
   <string>u1004.kinzi_u102D_.glif</string>
   <key>u1004.kinzi_u102E</key>
@@ -36,6 +38,8 @@
   <string>u1007.glif</string>
   <key>u1007.med</key>
   <string>u1007.med.glif</string>
+  <key>u1007.sml</key>
+  <string>u1007.sml.glif</string>
   <key>u100A.med</key>
   <string>u100A_.med.glif</string>
   <key>u100A_u100A</key>

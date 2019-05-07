@@ -8,7 +8,7 @@
     <array/>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>1233</string>
+  <string>1235</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>/u103D_u1060.csh    /u1060  /u103E_u1060.csh    /u106D.csh  /u103E.slanth  /u102D/u1060 
@@ -36,6 +36,9 @@
     <string>/u1086_uAA70/uAA70  /u1086.kham/u1022/u1022.kham/u1075.kham  /u102D/u1000.kham/uAA70/u101D/u103A_uAA70/u1000/u102D/u101B.kham    /u102D_uAA70    /u102E_uAA70  /u1085/u1012.med   /u1085_uAA70  /u1037/u101C/u1038/u1038/u1022  
 /uAA6C.alt/uAA6C/u1085  /u102D 
 </string>
+    <string>/u1000/u1000_u1001_u103B/u1000_u103B_u1015_u103A/u1000.aiph/u1000.kham/u1000.med   /u1000.sml 
+/u1004.kinzi   /u1004.kinzi_u102D   /u1004.kinzi_u102D_u1036   /u1004.kinzi_u102E   /u1004.kinzi_u1032   /u1004.kinzi_u1033   /u1004.kinzi_u1036   /u1004.kinzi_u103A 
+/u1058/u1074/u108F/u109C/uAA7B/u1087/u108A/uAA70</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

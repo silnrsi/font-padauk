@@ -5,14 +5,14 @@
   <anchor x="154" y="495" name="U"/>
   <outline>
     <contour>
-      <point x="550" y="-319" type="line"/>
       <point x="277" y="-450" type="line"/>
-      <point x="277" y="373" type="line"/>
-      <point x="75" y="276" type="line"/>
-      <point x="55" y="322" type="line"/>
-      <point x="328" y="453" type="line"/>
-      <point x="328" y="-370" type="line"/>
+      <point x="550" y="-319" type="line"/>
       <point x="530" y="-273" type="line"/>
+      <point x="328" y="-370" type="line"/>
+      <point x="328" y="453" type="line"/>
+      <point x="55" y="322" type="line"/>
+      <point x="75" y="276" type="line"/>
+      <point x="277" y="373" type="line"/>
     </contour>
   </outline>
 </glyph>

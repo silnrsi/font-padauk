@@ -10,6 +10,9 @@
   <anchor x="-393" y="-53" name="_BSM"/>
   <outline>
     <contour>
+      <point x="-239" y="-451" type="curve" smooth="yes"/>
+      <point x="-142" y="-451"/>
+      <point x="-56" y="-370"/>
       <point x="-56" y="-268" type="curve" smooth="yes"/>
       <point x="-56" y="-150"/>
       <point x="-152" y="-85"/>
@@ -33,20 +36,8 @@
       <point x="-298" y="-442" type="line"/>
       <point x="-278" y="-448"/>
       <point x="-258" y="-451"/>
-      <point x="-239" y="-451" type="curve" smooth="yes"/>
-      <point x="-142" y="-451"/>
-      <point x="-56" y="-370"/>
     </contour>
     <contour>
-      <point x="-370" y="-275" type="curve" smooth="yes"/>
-      <point x="-370" y="-167"/>
-      <point x="-448" y="-88"/>
-      <point x="-550" y="-88" type="curve" smooth="yes"/>
-      <point x="-652" y="-88"/>
-      <point x="-730" y="-167"/>
-      <point x="-730" y="-275" type="curve" smooth="yes"/>
-      <point x="-730" y="-342"/>
-      <point x="-702" y="-405"/>
       <point x="-656" y="-443" type="curve"/>
       <point x="-631" y="-401" type="line"/>
       <point x="-660" y="-367"/>
@@ -64,6 +55,15 @@
       <point x="-444" y="-443" type="line"/>
       <point x="-398" y="-405"/>
       <point x="-370" y="-342"/>
+      <point x="-370" y="-275" type="curve" smooth="yes"/>
+      <point x="-370" y="-167"/>
+      <point x="-448" y="-88"/>
+      <point x="-550" y="-88" type="curve" smooth="yes"/>
+      <point x="-652" y="-88"/>
+      <point x="-730" y="-167"/>
+      <point x="-730" y="-275" type="curve" smooth="yes"/>
+      <point x="-730" y="-342"/>
+      <point x="-702" y="-405"/>
     </contour>
   </outline>
 </glyph>

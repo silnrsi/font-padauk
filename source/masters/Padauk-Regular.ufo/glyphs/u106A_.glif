@@ -8,22 +8,22 @@
   <anchor x="225" y="495" name="U"/>
   <outline>
     <contour>
-      <point x="251" y="444" type="line"/>
-      <point x="251" y="97" type="line" smooth="yes"/>
-      <point x="251" y="30"/>
-      <point x="210" y="-15"/>
       <point x="153" y="-15" type="curve" smooth="yes"/>
-      <point x="92" y="-15"/>
-      <point x="56" y="30"/>
-      <point x="56" y="82" type="curve"/>
-      <point x="107" y="82" type="line"/>
-      <point x="107" y="54"/>
-      <point x="131" y="36"/>
-      <point x="153" y="36" type="curve" smooth="yes"/>
-      <point x="176" y="36"/>
-      <point x="200" y="54"/>
-      <point x="200" y="97" type="curve" smooth="yes"/>
+      <point x="210" y="-15"/>
+      <point x="251" y="30"/>
+      <point x="251" y="97" type="curve" smooth="yes"/>
+      <point x="251" y="444" type="line"/>
       <point x="200" y="444" type="line"/>
+      <point x="200" y="97" type="line" smooth="yes"/>
+      <point x="200" y="54"/>
+      <point x="176" y="36"/>
+      <point x="153" y="36" type="curve" smooth="yes"/>
+      <point x="131" y="36"/>
+      <point x="107" y="54"/>
+      <point x="107" y="82" type="curve"/>
+      <point x="56" y="82" type="line"/>
+      <point x="56" y="30"/>
+      <point x="92" y="-15"/>
     </contour>
   </outline>
 </glyph>

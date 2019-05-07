@@ -5,32 +5,32 @@
   <anchor x="-608" y="495" name="_Y"/>
   <outline>
     <contour>
-      <point x="-661" y="729" type="curve" smooth="yes"/>
-      <point x="-661" y="773"/>
-      <point x="-698" y="814"/>
-      <point x="-744" y="814" type="curve" smooth="yes"/>
-      <point x="-794" y="814"/>
-      <point x="-831" y="773"/>
-      <point x="-831" y="729" type="curve" smooth="yes"/>
-      <point x="-831" y="685"/>
-      <point x="-793" y="644"/>
-      <point x="-747" y="644" type="curve" smooth="yes"/>
-      <point x="-698" y="644"/>
-      <point x="-661" y="685"/>
+      <point x="-744" y="540" type="curve" smooth="yes"/>
+      <point x="-640" y="540"/>
+      <point x="-557" y="625"/>
+      <point x="-557" y="729" type="curve" smooth="yes"/>
+      <point x="-557" y="831"/>
+      <point x="-640" y="918"/>
+      <point x="-747" y="918" type="curve" smooth="yes"/>
+      <point x="-850" y="918"/>
+      <point x="-935" y="831"/>
+      <point x="-935" y="729" type="curve" smooth="yes"/>
+      <point x="-935" y="625"/>
+      <point x="-850" y="540"/>
     </contour>
     <contour>
-      <point x="-557" y="729" type="curve" smooth="yes"/>
-      <point x="-557" y="625"/>
-      <point x="-640" y="540"/>
-      <point x="-744" y="540" type="curve" smooth="yes"/>
-      <point x="-850" y="540"/>
-      <point x="-935" y="625"/>
-      <point x="-935" y="729" type="curve" smooth="yes"/>
-      <point x="-935" y="831"/>
-      <point x="-850" y="918"/>
-      <point x="-747" y="918" type="curve" smooth="yes"/>
-      <point x="-640" y="918"/>
-      <point x="-557" y="831"/>
+      <point x="-747" y="644" type="curve" smooth="yes"/>
+      <point x="-793" y="644"/>
+      <point x="-831" y="685"/>
+      <point x="-831" y="729" type="curve" smooth="yes"/>
+      <point x="-831" y="773"/>
+      <point x="-794" y="814"/>
+      <point x="-744" y="814" type="curve" smooth="yes"/>
+      <point x="-698" y="814"/>
+      <point x="-661" y="773"/>
+      <point x="-661" y="729" type="curve" smooth="yes"/>
+      <point x="-661" y="685"/>
+      <point x="-698" y="644"/>
     </contour>
     <component base="uAA70" xOffset="-8"/>
   </outline>

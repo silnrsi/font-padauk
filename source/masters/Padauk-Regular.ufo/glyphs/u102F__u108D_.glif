@@ -8,18 +8,18 @@
   <anchor x="81" y="-53" name="_BSM"/>
   <outline>
     <contour>
-      <point x="-50" y="-298" type="line"/>
-      <point x="-340" y="-298" type="line"/>
-      <point x="-340" y="-247" type="line"/>
-      <point x="-50" y="-247" type="line"/>
+      <point x="55" y="-450" type="line"/>
+      <point x="189" y="-450" type="line"/>
+      <point x="189" y="-399" type="line"/>
+      <point x="106" y="-399" type="line"/>
+      <point x="106" y="-95" type="line"/>
+      <point x="55" y="-95" type="line"/>
     </contour>
     <contour>
-      <point x="189" y="-450" type="line"/>
-      <point x="55" y="-450" type="line"/>
-      <point x="55" y="-95" type="line"/>
-      <point x="106" y="-95" type="line"/>
-      <point x="106" y="-399" type="line"/>
-      <point x="189" y="-399" type="line"/>
+      <point x="-340" y="-298" type="line"/>
+      <point x="-50" y="-298" type="line"/>
+      <point x="-50" y="-247" type="line"/>
+      <point x="-340" y="-247" type="line"/>
     </contour>
   </outline>
 </glyph>

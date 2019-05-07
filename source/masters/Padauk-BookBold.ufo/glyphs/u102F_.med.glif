@@ -8,12 +8,12 @@
   <anchor x="-126" y="-53" name="_BSM"/>
   <outline>
     <contour>
-      <point x="27" y="-471" type="line"/>
       <point x="-164" y="-471" type="line"/>
-      <point x="-164" y="-104" type="line"/>
-      <point x="-63" y="-104" type="line"/>
-      <point x="-63" y="-371" type="line"/>
+      <point x="27" y="-471" type="line"/>
       <point x="27" y="-371" type="line"/>
+      <point x="-63" y="-371" type="line"/>
+      <point x="-63" y="-104" type="line"/>
+      <point x="-164" y="-104" type="line"/>
     </contour>
   </outline>
 </glyph>

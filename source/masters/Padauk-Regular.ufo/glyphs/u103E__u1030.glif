@@ -8,26 +8,26 @@
   <anchor x="-294" y="-53" name="_BSM"/>
   <outline>
     <contour>
-      <point x="-414" y="-450" type="line"/>
       <point x="-548" y="-450" type="line"/>
-      <point x="-548" y="-399" type="line"/>
-      <point x="-465" y="-399" type="line"/>
-      <point x="-465" y="-95" type="line"/>
+      <point x="-414" y="-450" type="line"/>
       <point x="-414" y="-95" type="line"/>
+      <point x="-465" y="-95" type="line"/>
+      <point x="-465" y="-399" type="line"/>
+      <point x="-548" y="-399" type="line"/>
     </contour>
     <contour>
-      <point x="-269" y="-450" type="line"/>
       <point x="-320" y="-450" type="line"/>
-      <point x="-320" y="-95" type="line"/>
+      <point x="-269" y="-450" type="line"/>
       <point x="-269" y="-95" type="line"/>
+      <point x="-320" y="-95" type="line"/>
     </contour>
     <contour>
-      <point x="-41" y="-450" type="line"/>
       <point x="-174" y="-450" type="line"/>
-      <point x="-174" y="-95" type="line"/>
-      <point x="-123" y="-95" type="line"/>
-      <point x="-123" y="-399" type="line"/>
+      <point x="-41" y="-450" type="line"/>
       <point x="-41" y="-399" type="line"/>
+      <point x="-123" y="-399" type="line"/>
+      <point x="-123" y="-95" type="line"/>
+      <point x="-174" y="-95" type="line"/>
     </contour>
   </outline>
 </glyph>

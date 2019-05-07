@@ -8,12 +8,12 @@
   <anchor x="192" y="495" name="U"/>
   <outline>
     <contour>
-      <point x="216" y="0" type="line"/>
       <point x="165" y="0" type="line"/>
-      <point x="165" y="393" type="line"/>
-      <point x="40" y="393" type="line"/>
-      <point x="40" y="444" type="line"/>
+      <point x="216" y="0" type="line"/>
       <point x="216" y="444" type="line"/>
+      <point x="40" y="444" type="line"/>
+      <point x="40" y="393" type="line"/>
+      <point x="165" y="393" type="line"/>
     </contour>
   </outline>
 </glyph>

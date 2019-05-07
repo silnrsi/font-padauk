@@ -9,12 +9,12 @@
   <anchor x="97" y="495" name="Y"/>
   <outline>
     <contour>
-      <point x="237" y="-471" type="line"/>
       <point x="40" y="-471" type="line"/>
-      <point x="40" y="444" type="line"/>
-      <point x="154" y="444" type="line"/>
-      <point x="154" y="-357" type="line"/>
+      <point x="237" y="-471" type="line"/>
       <point x="237" y="-357" type="line"/>
+      <point x="154" y="-357" type="line"/>
+      <point x="154" y="444" type="line"/>
+      <point x="40" y="444" type="line"/>
     </contour>
   </outline>
 </glyph>

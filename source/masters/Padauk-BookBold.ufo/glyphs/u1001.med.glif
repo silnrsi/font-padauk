@@ -7,6 +7,9 @@
   <anchor x="-242" y="-53" name="_BSM"/>
   <outline>
     <contour>
+      <point x="-237" y="-451" type="curve" smooth="yes"/>
+      <point x="-135" y="-451"/>
+      <point x="-53" y="-372"/>
       <point x="-53" y="-270" type="curve" smooth="yes"/>
       <point x="-53" y="-169"/>
       <point x="-135" y="-85"/>
@@ -42,9 +45,6 @@
       <point x="-418" y="-290" type="curve"/>
       <point x="-407" y="-381"/>
       <point x="-329" y="-451"/>
-      <point x="-237" y="-451" type="curve" smooth="yes"/>
-      <point x="-135" y="-451"/>
-      <point x="-53" y="-372"/>
     </contour>
   </outline>
 </glyph>
