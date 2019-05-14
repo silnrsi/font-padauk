@@ -105,7 +105,7 @@
   </property>
   <property name="GDL_order" value="60" exts=".tri .sml">
     u103D u103D_u103E u103D_u103E.small u103D_u108D u103D_u1060.csh
-    u1058 u1059 u1082 u101C.med_u103D u1082_u108D
+    u1058 u1059 u1082 u101C.med_u103D u1082_u108D u101F.small
   </property>
   <property name="GDL_order" value="70">
     u103E u103E.alt u103E_u102F u103E_u1030 u103E.slantr u103E.slanth 

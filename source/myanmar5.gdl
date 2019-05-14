@@ -209,7 +209,7 @@ Lists all the subjoined forms that can be substituted with a smaller version to 
 @enddoc */
 
 cConsSmlMed = (g1000_med, g1002_med, g1005_med, g1006_med, g1007_med, g100b_med, g1010_med, g1011_med, 
-    g1012_med, g1013_med, g1015_med, g1019_med, g101e_med, g101f, g103d);
+    g1012_med, g1013_med, g1015_med, g1019_med, g101e_med, g103d);
 
 /* @doc
 Stacked consonant ligatures
