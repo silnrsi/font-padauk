@@ -2,13 +2,10 @@
 # Script for calling multiple routines on a project, typically prior to committing to a repository.
 
 #echo "Updating glyph orders in Regular..."
-# setting both to the same order
 # psfsetglyphorder --header sort_final -i source/glyph_data.csv source/masters/Padauk-Regular.ufo -l source/logs/sortorder.log
-# (or) psfsetglyphorder -q -p checkfix=none --header DesignerOrder,DesignerOrder --field public.glyphOrder,com.schriftgestaltung.glyphOrder -i source/glyph_data.csv source/masters/*-Regular.ufo -l source/logs/sortorder.log
 
 #echo "Updating production names in Regular..."
 # psfsetpsnames -p checkfix=fix -i source/glyph_data.csv source/masters/Padauk-Regular.ufo -l source/logs/psnames.log
-# (or) psfsetpsnames -q -p checkfix=none -i source/glyph_data.csv source/masters/*-Regular.ufo -l source/logs/psnames.log
 
 echo "Check and normalize Regular..."
 # Do this before meta sync so we minimize problems in the BookBold
