@@ -9,7 +9,6 @@
   <anchor x="-2" y="0" name="_R"/>
   <outline>
     <contour>
-      <point x="1113" y="-476" type="line"/>
       <point x="1113" y="444" type="line"/>
       <point x="999" y="444" type="line"/>
       <point x="999" y="-319" type="line"/>
@@ -21,6 +20,7 @@
       <point x="601" y="-471" type="line"/>
       <point x="812" y="-471" type="line"/>
       <point x="812" y="-369" type="line"/>
+      <point x="1113" y="-476" type="line"/>
     </contour>
     <contour>
       <point x="293" y="-23" type="curve" smooth="yes"/>
