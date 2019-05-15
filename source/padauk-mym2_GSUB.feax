@@ -335,6 +335,16 @@ lookup mym2_abvs_redupLig2 {
 # blws
 # ****
 
+lookup delete_circledash {
+    sub u1038 circledash by u1038;
+    sub u103E circledash by u103E;
+} delete_circledash;
+
+lookup clear_errors {
+    sub u1038' lookup delete_circledash circledash [u1069 u106A u106B u106C u106D];
+    sub u103E' lookup delete_circledash circledash u1060;
+} clear_errors;
+
 lookup mym2_blws_miscLig {
     sub u100A u100A.med  by u100A_u100A; # Mon stylistic default
     sub u100B u100B.med  by u100B_u100B;
@@ -528,6 +538,7 @@ lookup consmed_sml {
 lookup consmed_103C {
     sub @class103C @cCons @cno_sml_med' lookup consmed_sml;
 } consmed_103C;
+
 # --------------------------------------------------------------------
 ### End of swap section
 # --------------------------------------------------------------------
