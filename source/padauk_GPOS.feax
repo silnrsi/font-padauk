@@ -177,16 +177,18 @@ do  for g = [u102D_uAA70 u102E_uAA70 uAA70];
 lookup shift_103C_udia {
 # shift upper diacritics that clash with the u103C
 do  for w = [narr wide];
-    for c = [@U];
+    for c = @U;
     for u = [@_U];
     let g = "u103C.alt." + w;
     let cname = "@class103C" + w.title();
     let isgood = c in feaclass("cConsNar" if w == "narr" else "cConsWide");
     let ydiff = APy(g, "UL") - MAXy(u) - APy(u, "_U") + APy(c, "U");
-    let maxs = APx(g, "UL") - ADVx(g);
-    let s = maxs - APx(c, "U") + APx(u, "_U") - MINx(u) + MAXx(u) if isgood else -1;
+#    let maxs = APx(g, "UL") - ADVx(g);
+#    let s = maxs - APx(c, "U") + APx(u, "_U") - MINx(u) + MAXx(u) if isgood else -1;
+    let maxs = APx(g, "UL");
+    let s = maxs - APx(c, "U") + APx(u, "_U");
     let s = s - maxs if ydiff >= 0 else s;
-    if s > 20;
+    if s > 20 and isgood;
     {
         pos [$cname] $c $u' <$s 0 $s 0>;
     }

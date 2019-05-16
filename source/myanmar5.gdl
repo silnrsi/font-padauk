@@ -673,6 +673,9 @@ g1037 > @2{sOrder=180} / ANY{sOrder >= 120 && sOrder < 180} _;
 // backwards compatibility
 g1037 > @2{sOrder=180} / ANY{sOrder == 200} _ ^;
 
+g1038 > @c{sOrder=@l.sOrder+1} / (g1069, g106a, g106b, g106c, g106d) g1037=l _=c;
+g1038 > @c{sOrder=@l.sOrder+1} / (g1069, g106a, g106b, g106c, g106d)=l _=c;
+
 // Visible virama
 g103a > @2{sOrder=200} / ANY{sOrder >= 170 && sOrder < 200} _{sOrder == 30};
 g103a > @2{sOrder=200} / (g103c_102f_narr) _{sOrder == 30};

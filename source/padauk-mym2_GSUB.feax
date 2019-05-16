@@ -79,6 +79,8 @@ lookup mym2_pref_miscLig {
     sub u103D u103E  by u103D_u103E;
     sub u103B_u103D u103E  by u103B_u103D_u103E;
     sub u103B_u103D u103E.alt  by u103B_u103D_u103E;
+    sub u103B u103D u103E by u103B_u103D_u103E;
+    sub u103B u103E u103E.alt by u103B_u103D_u103E;
 } mym2_pref_miscLig;
 
 lookup mym2_pref_u103Cwide {
