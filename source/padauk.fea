@@ -292,6 +292,7 @@ feature kern {
      lookup shift_103C_udia;
      lookup dist_103C_Cons;
      lookup shift_1032;
+     lookup shift_for_103B;
     language dflt;
     language KSW exclude_dflt;
      lookup dist_dflt_SpacingMarks;
@@ -300,6 +301,7 @@ feature kern {
      lookup kern_103Clig_1037;
      lookup dist_103C_Cons;
      lookup shift_1032;
+     lookup shift_for_103B;
     language KHN;
     language KHT;
     language KYU;
@@ -316,6 +318,7 @@ feature kern {
      lookup dist_103C_Cons;
      lookup shift_103C_udia;
      lookup shift_1032;
+     lookup shift_for_103B;
    language dflt;
    language KSW exclude_dflt;
      lookup kerntall;
@@ -324,6 +327,7 @@ feature kern {
      lookup kern_103Clig_1037;
      lookup dist_103C_Cons;
      lookup shift_1032;
+     lookup shift_for_103B;
     language KHN;
     language KHT;
     language KYU;
@@ -342,6 +346,7 @@ feature dist {
      lookup kern_103Clig_1037;
      lookup dist_103C_Cons;
      lookup shift_1032;
+     lookup shift_for_103B;
    language dflt;
    language KHN;
    language KHT;

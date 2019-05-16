@@ -282,3 +282,10 @@ do  for g = [u101B u103B u1061];
     }
 } mark_KSW_shift1037;
 
+lookup shift_for_103B {
+do  for g = @cMed;
+    let s = -int((MAXx(g) - MINx(g))/2);
+    {
+        pos $g' <$s 0 0 0> u103B;
+    }
+} shift_for_103B;
