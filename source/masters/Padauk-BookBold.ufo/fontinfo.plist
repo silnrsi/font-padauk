@@ -13,7 +13,7 @@
   <key>familyName</key>
   <string>Padauk</string>
   <key>openTypeHeadCreated</key>
-  <string>2019/05/15 13:26:40</string>
+  <string>2019/05/20 22:54:06</string>
   <key>openTypeHheaAscender</key>
   <integer>1010</integer>
   <key>openTypeHheaDescender</key>
@@ -134,6 +134,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <integer>0</integer>
     <integer>1</integer>
     <integer>2</integer>
+    <integer>3</integer>
     <integer>5</integer>
     <integer>6</integer>
     <integer>7</integer>
