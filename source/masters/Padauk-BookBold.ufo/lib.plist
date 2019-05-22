@@ -232,7 +232,7 @@
     <string>bar</string>
     <string>braceright</string>
     <string>asciitilde</string>
-    <string>nbspace</string>
+    <string>u00A0</string>
     <string>exclamdown</string>
     <string>cent</string>
     <string>sterling</string>
@@ -243,9 +243,9 @@
     <string>dieresis</string>
     <string>copyright</string>
     <string>ordfeminine</string>
-    <string>guillemetleft</string>
+    <string>guillemotleft</string>
     <string>logicalnot</string>
-    <string>softhyphen</string>
+    <string>u00AD</string>
     <string>registered</string>
     <string>macron</string>
     <string>degree</string>
@@ -253,13 +253,13 @@
     <string>twosuperior</string>
     <string>threesuperior</string>
     <string>acute</string>
-    <string>micro</string>
+    <string>mu</string>
     <string>paragraph</string>
     <string>periodcentered</string>
     <string>cedilla</string>
     <string>onesuperior</string>
     <string>ordmasculine</string>
-    <string>guillemetright</string>
+    <string>guillemotright</string>
     <string>onequarter</string>
     <string>onehalf</string>
     <string>threequarters</string>
@@ -328,7 +328,7 @@
     <string>yacute</string>
     <string>thorn</string>
     <string>ydieresis</string>
-    <string>idotless</string>
+    <string>dotlessi</string>
     <string>OE</string>
     <string>oe</string>
     <string>Scaron</string>
@@ -339,14 +339,14 @@
     <string>florin</string>
     <string>circumflex</string>
     <string>caron</string>
-    <string>colontriangularmod</string>
+    <string>u02D0</string>
     <string>breve</string>
     <string>dotaccent</string>
     <string>ring</string>
     <string>ogonek</string>
     <string>tilde</string>
     <string>hungarumlaut</string>
-    <string>graphemejoinercomb</string>
+    <string>u034F</string>
     <string>pi</string>
     <string>u1000</string>
     <string>u1000.aiph</string>
@@ -773,28 +773,28 @@
     <string>uAA7E</string>
     <string>uAA7F</string>
     <string>u1700</string>
-    <string>enquad</string>
-    <string>emquad</string>
-    <string>enspace</string>
-    <string>emspace</string>
-    <string>threeperemspace</string>
-    <string>fourperemspace</string>
-    <string>sixperemspace</string>
-    <string>figurespace</string>
-    <string>punctuationspace</string>
-    <string>thinspace</string>
-    <string>hairspace</string>
+    <string>u2000</string>
+    <string>u2001</string>
+    <string>u2002</string>
+    <string>u2003</string>
+    <string>u2004</string>
+    <string>u2005</string>
+    <string>u2006</string>
+    <string>u2007</string>
+    <string>u2008</string>
+    <string>u2009</string>
+    <string>u200A</string>
     <string>u200B</string>
     <string>u200C</string>
     <string>u200D</string>
-    <string>lefttorightmark</string>
-    <string>righttoleftmark</string>
-    <string>hyphentwo</string>
-    <string>nonbreakinghyphen</string>
+    <string>u200E</string>
+    <string>u200F</string>
+    <string>u2010</string>
+    <string>u2011</string>
     <string>figuredash</string>
     <string>endash</string>
     <string>emdash</string>
-    <string>horizontalbar</string>
+    <string>u2015</string>
     <string>quoteleft</string>
     <string>quoteright</string>
     <string>quotesinglbase</string>
@@ -805,22 +805,22 @@
     <string>daggerdbl</string>
     <string>bullet</string>
     <string>ellipsis</string>
-    <string>hyphenationpoint</string>
-    <string>lineseparator</string>
-    <string>paragraphseparator</string>
-    <string>lefttorightembedding</string>
-    <string>righttoleftembedding</string>
-    <string>popdirectionalformatting</string>
-    <string>lefttorightoverride</string>
-    <string>righttoleftoverride</string>
-    <string>narrownbspace</string>
+    <string>u2027</string>
+    <string>u2028</string>
+    <string>u2029</string>
+    <string>u202A</string>
+    <string>u202B</string>
+    <string>u202C</string>
+    <string>u202D</string>
+    <string>u202E</string>
+    <string>u202F</string>
     <string>perthousand</string>
     <string>guilsinglleft</string>
     <string>guilsinglright</string>
     <string>fraction</string>
     <string>u2060</string>
     <string>foursuperior</string>
-    <string>euro</string>
+    <string>Euro</string>
     <string>trademark</string>
     <string>Omega</string>
     <string>partialdiff</string>
@@ -828,8 +828,8 @@
     <string>product</string>
     <string>summation</string>
     <string>minus</string>
-    <string>divisionslash</string>
-    <string>bulletoperator</string>
+    <string>u2215</string>
+    <string>u2219</string>
     <string>radical</string>
     <string>infinity</string>
     <string>integral</string>
@@ -842,157 +842,81 @@
     <string>fi</string>
     <string>fl</string>
     <string>uFE00</string>
-    <string>VS2</string>
-    <string>VS3</string>
-    <string>VS4</string>
-    <string>VS5</string>
-    <string>VS6</string>
-    <string>VS7</string>
-    <string>VS8</string>
-    <string>VS9</string>
-    <string>VS10</string>
-    <string>VS11</string>
-    <string>VS12</string>
-    <string>VS13</string>
-    <string>VS14</string>
-    <string>VS15</string>
-    <string>VS16</string>
-    <string>zeroWidthNoBreakSpace</string>
-    <string>objectReplacementCharacter</string>
-    <string>replacementCharacter</string>
+    <string>uFE01</string>
+    <string>uFE02</string>
+    <string>uFE03</string>
+    <string>uFE04</string>
+    <string>uFE05</string>
+    <string>uFE06</string>
+    <string>uFE07</string>
+    <string>uFE08</string>
+    <string>uFE09</string>
+    <string>uFE0A</string>
+    <string>uFE0B</string>
+    <string>uFE0C</string>
+    <string>uFE0D</string>
+    <string>uFE0E</string>
+    <string>uFE0F</string>
+    <string>uFEFF</string>
+    <string>uFFFC</string>
+    <string>uFFFD</string>
   </array>
   <key>public.postscriptNames</key>
   <dict>
     <key>Delta</key>
     <string>u2206</string>
+    <key>Euro</key>
+    <string>u20AC</string>
     <key>Omega</key>
     <string>u2126</string>
-    <key>VS10</key>
-    <string>uFE09</string>
-    <key>VS11</key>
-    <string>uFE0A</string>
-    <key>VS12</key>
-    <string>uFE0B</string>
-    <key>VS13</key>
-    <string>uFE0C</string>
-    <key>VS14</key>
-    <string>uFE0D</string>
-    <key>VS15</key>
-    <string>uFE0E</string>
-    <key>VS16</key>
-    <string>uFE0F</string>
-    <key>VS2</key>
-    <string>uFE01</string>
-    <key>VS3</key>
-    <string>uFE02</string>
-    <key>VS4</key>
-    <string>uFE03</string>
-    <key>VS5</key>
-    <string>uFE04</string>
-    <key>VS6</key>
-    <string>uFE05</string>
-    <key>VS7</key>
-    <string>uFE06</string>
-    <key>VS8</key>
-    <string>uFE07</string>
-    <key>VS9</key>
-    <string>uFE08</string>
     <key>approxequal</key>
     <string>u2248</string>
     <key>bullet</key>
     <string>u2022</string>
-    <key>bulletoperator</key>
-    <string>u2219</string>
     <key>circledash</key>
     <string>u25CC</string>
     <key>dagger</key>
     <string>u2020</string>
     <key>daggerdbl</key>
     <string>u2021</string>
-    <key>divisionslash</key>
-    <string>u2215</string>
     <key>ellipsis</key>
     <string>u2026</string>
     <key>emdash</key>
     <string>u2014</string>
-    <key>emquad</key>
-    <string>u2001</string>
-    <key>emspace</key>
-    <string>u2003</string>
     <key>endash</key>
     <string>u2013</string>
-    <key>enquad</key>
-    <string>u2000</string>
-    <key>enspace</key>
-    <string>u2002</string>
-    <key>euro</key>
-    <string>u20AC</string>
     <key>figuredash</key>
     <string>u2012</string>
-    <key>figurespace</key>
-    <string>u2007</string>
-    <key>fourperemspace</key>
-    <string>u2005</string>
     <key>foursuperior</key>
     <string>u2074</string>
     <key>fraction</key>
     <string>u2044</string>
-    <key>graphemejoinercomb</key>
-    <string>u034F</string>
     <key>greaterequal</key>
     <string>u2265</string>
     <key>guilsinglleft</key>
     <string>u2039</string>
     <key>guilsinglright</key>
     <string>u203A</string>
-    <key>hairspace</key>
-    <string>u200A</string>
-    <key>horizontalbar</key>
-    <string>u2015</string>
-    <key>hyphenationpoint</key>
-    <string>u2027</string>
-    <key>hyphentwo</key>
-    <string>u2010</string>
     <key>infinity</key>
     <string>u221E</string>
     <key>integral</key>
     <string>u222B</string>
-    <key>lefttorightembedding</key>
-    <string>u202A</string>
-    <key>lefttorightmark</key>
-    <string>u200E</string>
-    <key>lefttorightoverride</key>
-    <string>u202D</string>
     <key>lessequal</key>
     <string>u2264</string>
-    <key>lineseparator</key>
-    <string>u2028</string>
     <key>lozenge</key>
     <string>u25CA</string>
     <key>minus</key>
     <string>u2212</string>
-    <key>narrownbspace</key>
-    <string>u202F</string>
-    <key>nonbreakinghyphen</key>
-    <string>u2011</string>
     <key>notequal</key>
     <string>u2260</string>
-    <key>objectReplacementCharacter</key>
-    <string>uFFFC</string>
-    <key>paragraphseparator</key>
-    <string>u2029</string>
     <key>partialdiff</key>
     <string>u2202</string>
     <key>perthousand</key>
     <string>u2030</string>
     <key>pi</key>
     <string>u03C0</string>
-    <key>popdirectionalformatting</key>
-    <string>u202C</string>
     <key>product</key>
     <string>u220F</string>
-    <key>punctuationspace</key>
-    <string>u2008</string>
     <key>quotedblbase</key>
     <string>u201E</string>
     <key>quotedblleft</key>
@@ -1007,26 +931,102 @@
     <string>u201A</string>
     <key>radical</key>
     <string>u221A</string>
-    <key>replacementCharacter</key>
-    <string>uFFFD</string>
-    <key>righttoleftembedding</key>
-    <string>u202B</string>
-    <key>righttoleftmark</key>
-    <string>u200F</string>
-    <key>righttoleftoverride</key>
-    <string>u202E</string>
-    <key>sixperemspace</key>
-    <string>u2006</string>
     <key>summation</key>
     <string>u2211</string>
-    <key>thinspace</key>
-    <string>u2009</string>
-    <key>threeperemspace</key>
-    <string>u2004</string>
     <key>trademark</key>
     <string>u2122</string>
-    <key>zeroWidthNoBreakSpace</key>
+    <key>u034F</key>
+    <string>u034F</string>
+    <key>u2000</key>
+    <string>u2000</string>
+    <key>u2001</key>
+    <string>u2001</string>
+    <key>u2002</key>
+    <string>u2002</string>
+    <key>u2003</key>
+    <string>u2003</string>
+    <key>u2004</key>
+    <string>u2004</string>
+    <key>u2005</key>
+    <string>u2005</string>
+    <key>u2006</key>
+    <string>u2006</string>
+    <key>u2007</key>
+    <string>u2007</string>
+    <key>u2008</key>
+    <string>u2008</string>
+    <key>u2009</key>
+    <string>u2009</string>
+    <key>u200A</key>
+    <string>u200A</string>
+    <key>u200E</key>
+    <string>u200E</string>
+    <key>u200F</key>
+    <string>u200F</string>
+    <key>u2010</key>
+    <string>u2010</string>
+    <key>u2011</key>
+    <string>u2011</string>
+    <key>u2015</key>
+    <string>u2015</string>
+    <key>u2027</key>
+    <string>u2027</string>
+    <key>u2028</key>
+    <string>u2028</string>
+    <key>u2029</key>
+    <string>u2029</string>
+    <key>u202A</key>
+    <string>u202A</string>
+    <key>u202B</key>
+    <string>u202B</string>
+    <key>u202C</key>
+    <string>u202C</string>
+    <key>u202D</key>
+    <string>u202D</string>
+    <key>u202E</key>
+    <string>u202E</string>
+    <key>u202F</key>
+    <string>u202F</string>
+    <key>u2215</key>
+    <string>u2215</string>
+    <key>u2219</key>
+    <string>u2219</string>
+    <key>uFE01</key>
+    <string>uFE01</string>
+    <key>uFE02</key>
+    <string>uFE02</string>
+    <key>uFE03</key>
+    <string>uFE03</string>
+    <key>uFE04</key>
+    <string>uFE04</string>
+    <key>uFE05</key>
+    <string>uFE05</string>
+    <key>uFE06</key>
+    <string>uFE06</string>
+    <key>uFE07</key>
+    <string>uFE07</string>
+    <key>uFE08</key>
+    <string>uFE08</string>
+    <key>uFE09</key>
+    <string>uFE09</string>
+    <key>uFE0A</key>
+    <string>uFE0A</string>
+    <key>uFE0B</key>
+    <string>uFE0B</string>
+    <key>uFE0C</key>
+    <string>uFE0C</string>
+    <key>uFE0D</key>
+    <string>uFE0D</string>
+    <key>uFE0E</key>
+    <string>uFE0E</string>
+    <key>uFE0F</key>
+    <string>uFE0F</string>
+    <key>uFEFF</key>
     <string>uFEFF</string>
+    <key>uFFFC</key>
+    <string>uFFFC</string>
+    <key>uFFFD</key>
+    <string>uFFFD</string>
   </dict>
 </dict>
 </plist>

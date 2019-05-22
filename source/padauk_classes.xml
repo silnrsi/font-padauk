@@ -19,11 +19,11 @@
     oe oacute ocircumflex odieresis ograve oslash oe otilde oslashoe
     thorn uacute ucircumflex udieresis ugrave 
     acute Yacute cedilla cent currency degree exclamdown circumflex
-    brokenbar bullet copyright dieresis divide divisionslash
-    ellipsis euro foursuperior fraction germandbls grave guillemetleft guillemetright guilsinglleft guilsinglright
-    idotless logicalnot macron micro nbspace notequal numbersign minus
+    brokenbar bullet copyright dieresis divide u2215
+    ellipsis Euro foursuperior fraction germandbls grave guillemotleft guillemotright guilsinglleft guilsinglright
+    dotlessi logicalnot macron mu u00A0 notequal numbersign minus
     onehalf onequarter onesuperior ordfeminine ordmasculine paragraph
-    periodcentered plusminus questiondown quotesinglbase quotedblbase registered section softhyphen
+    periodcentered plusminus questiondown quotesinglbase quotedblbase registered section u00AD
     threequarters threesuperior twosuperior ring sterling tilde
     yacute ydieresis yen
     braceleft braceright bar asciitilde multiply u1024 u102A
@@ -35,18 +35,18 @@
     uFE00
     dummy dummy1 dummy2 dummy3
     Delta Omega Scaron Ydieresis Zcaron caron florin
-    VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS9 VS10 VS11 VS12 VS13 VS14 VS15 VS16
-    approxequal breve bulletoperator colontriangularmod dagger daggerdbl dotaccent
-    emquad emspace enquad enspace figuredash figurespace fourperemspace
+    uFE01 uFE02 uFE03 uFE04 uFE05 uFE06 uFE07 uFE08 uFE09 uFE0A uFE0B uFE0C uFE0D uFE0E uFE0F
+    approxequal breve u2219 u02D0 dagger daggerdbl dotaccent
+    u2001 u2003 u2000 u2002 figuredash u2007 u2005
     fi fl
-    graphemejoinercomb greaterequal hairspace horizontalbar hungarumlaut hyphenationpoint hyphentwo infinity integral
-    lefttorightembedding lefttorightmark lefttorightoverride
-    lessequal lineseparator lozenge narrownbspace nonbreakinghyphen objectReplacementCharacter
-    ogonek paragraphseparator partialdiff perthousand pi popdirectionalformatting
-    product punctuationspace radical replacementCharacter
-    righttoleftembedding righttoleftmark righttoleftoverride
-    scaron sixperemspace summation thinspace threeperemspace trademark
-    zcaron zeroWidthNoBreakSpace
+    u034F greaterequal u200A u2015 hungarumlaut u2027 u2010 infinity integral
+    u202A u200E u202D
+    lessequal u2028 lozenge u202F u2011 uFFFC
+    ogonek u2029 partialdiff perthousand pi u202C
+    product u2008 radical uFFFD
+    u202B u200F u202E
+    scaron u2006 summation u2009 u2004 trademark
+    zcaron uFEFF
   </property>
   <property name="GDL_order" value="1" exts=".alt .kham .aiph .sml">
     hyphen parenright u1000 u1000_u1001_u103B u1000_u103B_u1015_u103A u1001
