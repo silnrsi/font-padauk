@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="colontriangularmod" format="2">
+  <advance width="273"/>
+  <outline>
+    <contour>
+      <point x="136" y="178" type="line"/>
+      <point x="40" y="0" type="line"/>
+      <point x="233" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="136" y="288" type="line"/>
+      <point x="233" y="466" type="line"/>
+      <point x="40" y="466" type="line"/>
+    </contour>
+  </outline>
+</glyph>

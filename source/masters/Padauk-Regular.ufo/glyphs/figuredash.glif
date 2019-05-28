@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="figuredash" format="2">
-  <advance width="600"/>
+  <advance width="498"/>
   <unicode hex="2012"/>
-  <outline/>
+  <outline>
+    <contour>
+      <point x="39" y="216" type="line"/>
+      <point x="460" y="216" type="line"/>
+      <point x="460" y="273" type="line"/>
+      <point x="39" y="273" type="line"/>
+    </contour>
+  </outline>
 </glyph>

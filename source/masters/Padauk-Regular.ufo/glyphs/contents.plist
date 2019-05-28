@@ -198,6 +198,8 @@
   <string>circumflex.glif</string>
   <key>colon</key>
   <string>colon.glif</string>
+  <key>colontriangularmod</key>
+  <string>colontriangularmod.glif</string>
   <key>comma</key>
   <string>comma.glif</string>
   <key>copyright</key>
