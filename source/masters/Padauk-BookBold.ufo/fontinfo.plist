@@ -3,25 +3,25 @@
 <plist version="1.0">
 <dict>
   <key>ascender</key>
-  <integer>1010</integer>
+  <integer>955</integer>
   <key>capHeight</key>
   <integer>925</integer>
   <key>copyright</key>
   <string>Copyright (c) 2002-2019 SIL International</string>
   <key>descender</key>
-  <integer>-500</integer>
+  <integer>-504</integer>
   <key>familyName</key>
   <string>Padauk</string>
   <key>openTypeHeadCreated</key>
-  <string>2019/05/29 08:26:08</string>
+  <string>2019/05/29 12:22:58</string>
   <key>openTypeHheaAscender</key>
-  <integer>1010</integer>
+  <integer>955</integer>
   <key>openTypeHheaDescender</key>
-  <integer>-500</integer>
+  <integer>-504</integer>
   <key>openTypeHheaLineGap</key>
   <integer>0</integer>
   <key>openTypeNameDescription</key>
-  <string>Burmese Unicode 6 truetype font with OT and Graphite support</string>
+  <string>Burmese Unicode TrueType font with OpenType and Graphite support</string>
   <key>openTypeNameDesigner</key>
   <string>Debbi Hosken</string>
   <key>openTypeNameDesignerURL</key>
@@ -83,7 +83,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameUniqueID</key>
   <string>SIL International: Padauk Book Bold: 2019</string>
   <key>openTypeNameVersion</key>
-  <string>Version 3.922</string>
+  <string>Version 3.923</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -124,9 +124,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeOS2Type</key>
   <array/>
   <key>openTypeOS2TypoAscender</key>
-  <integer>1010</integer>
+  <integer>955</integer>
   <key>openTypeOS2TypoDescender</key>
-  <integer>-500</integer>
+  <integer>-504</integer>
   <key>openTypeOS2TypoLineGap</key>
   <integer>0</integer>
   <key>openTypeOS2UnicodeRanges</key>
@@ -159,9 +159,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeOS2WidthClass</key>
   <integer>5</integer>
   <key>openTypeOS2WinAscent</key>
-  <integer>1010</integer>
+  <integer>955</integer>
   <key>openTypeOS2WinDescent</key>
-  <integer>500</integer>
+  <integer>504</integer>
   <key>postscriptFontName</key>
   <string>Padauk-BookBold</string>
   <key>postscriptFullName</key>
@@ -187,7 +187,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>versionMajor</key>
   <integer>3</integer>
   <key>versionMinor</key>
-  <integer>922</integer>
+  <integer>923</integer>
   <key>xHeight</key>
   <integer>466</integer>
 </dict>

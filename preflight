@@ -7,6 +7,9 @@
 #echo "Updating production names in Regular..."
 # psfsetpsnames -p checkfix=fix -i source/glyph_data.csv source/masters/Padauk-Regular.ufo -l source/logs/psnames.log
 
+#echo "Update version number..."
+# psfsetversion source/masters/Padauk-Regular.ufo +1 -l source/logs/setversionR.log
+
 echo "Check and normalize Regular..."
 # Do this before meta sync so we minimize problems in the BookBold
 # This normalization will also run check and fix routines
