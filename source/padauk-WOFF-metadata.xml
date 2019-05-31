@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
-  <uniqueid id="org.sil.fonts.padauk.3.923" />
+  <uniqueid id="org.sil.fonts.padauk.3.950" />
   <vendor name="SIL International" url="http://scripts.sil.org" />
   <credits>
     <credit
       name="Jon Coblentz"
-      role="OpenType engineering"
+      role="Font engineer"
     />
     <credit
       name="Bobby deVos"
@@ -59,6 +59,11 @@
       ChangeLog
       ---------
       (This should list both major and minor changes, most recent first.)
+      31 May 2019 (SIL WSTech team) Padauk beta Version 3.950 (test release)
+      - Add glyphs to support minority languages
+      - Improved support for rendering minority languages, especially Khamti,
+      Sgaw Karen, Tai Liang, and Asho Chin
+      - Added glyphs for typesetting and web font support
       
       10 March 2017. Version 3.003
       - Run ttfautohint 1.6 which has support for Myanmar

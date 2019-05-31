@@ -33,6 +33,11 @@ font see OFL-FAQ.txt.
 ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
+31 May 2019 (SIL WSTech team) Padauk beta Version 3.950 (test release)
+ - Add glyphs to support minority languages 
+ - Improved support for rendering minority languages, especially Khamti, 
+   Sgaw Karen, Tai Liang, and Asho Chin
+ - Added glyphs for typesetting and web font support
 
 10 March 2017. Version 3.003
 - Run ttfautohint 1.6 which has support for Myanmar
@@ -58,7 +63,7 @@ This list is sorted by last name in alphabetical order.)
 
 
 N: Jon Coblentz
-D: OpenType engineering
+D: Font engineer
 
 N: Bobby deVos
 D: Font engineer

@@ -12,11 +12,11 @@ VCS = 'git'
 
 APPNAME='Padauk'
 FAMILY = APPNAME
-DESC_SHORT='Burmese Unicode 6 truetype font with OT and Graphite support'
+DESC_SHORT='Burmese Unicode TrueType font with OpenType and Graphite support'
 
 # retrieve all the authorship information from one of the master UFOs
 getufoinfo('source/masters/Padauk-Regular.ufo')
-BUILDLABEL="alpha"
+BUILDLABEL="beta"
 
 mystrings = {
     'Regular' : 'ပိုမှန်',

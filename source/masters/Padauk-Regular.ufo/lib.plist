@@ -865,7 +865,7 @@
     <key>Delta</key>
     <string>u2206</string>
     <key>Euro</key>
-    <string>u20AC</string>
+    <string>Euro</string>
     <key>Omega</key>
     <string>u2126</string>
     <key>approxequal</key>
@@ -873,7 +873,7 @@
     <key>bullet</key>
     <string>u2022</string>
     <key>circledash</key>
-    <string>u25CC</string>
+    <string>circledash</string>
     <key>dagger</key>
     <string>u2020</string>
     <key>daggerdbl</key>
