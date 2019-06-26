@@ -1,7 +1,6 @@
-#!/usr/bin/python
-# encoding: utf-8
+#!/usr/bin/python3
 
-import codecs, os
+# import codecs, os
 
 # set some default output folders (most are already set by default)
 DOCDIR = ["documentation", "web"]
@@ -18,18 +17,18 @@ DESC_SHORT='Burmese Unicode TrueType font with OpenType and Graphite support'
 getufoinfo('source/masters/Padauk-Regular.ufo')
 BUILDLABEL="beta"
 
-mystrings = {
-    'Regular' : 'ပိုမှန်',
-    'Bold' : 'စာလုံးမဲ',
-    'Padauk' : 'ပိတောက်',
-    'Padauk Book' : 'ပိတောက်စာအုပ်'
-}
-namestrings = {
-    '-Regular' :     ('Padauk', 'Regular'),
-    '-BookBold' :    ('Padauk Book', 'Bold'),
-    '-Bold' :        ('Padauk', 'Bold'),
-    '-Book' :        ('Padauk Book', 'Regular')
-}
+# mystrings = {
+#    'Regular' : 'ပိုမှန်',
+#    'Bold' : 'စာလုံးမဲ',
+#    'Padauk' : 'ပိတောက်',
+#    'Padauk Book' : 'ပိတောက်စာအုပ်'
+#}
+#namestrings = {
+#    '-Regular' :     ('Padauk', 'Regular'),
+#    '-BookBold' :    ('Padauk Book', 'Bold'),
+#    '-Bold' :        ('Padauk', 'Bold'),
+#    '-Book' :        ('Padauk Book', 'Regular')
+#}
 
 opts = preprocess_args({'opt' : '--no2'}, {'opt' : '--bake'})
 devver = getversion()
