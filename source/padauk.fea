@@ -284,7 +284,7 @@ feature clig {
 feature kern {
  script DFLT;
      lookup guard_context;
-     lookup guard2;
+     lookup guard2_context;
      lookup guard_dot;
      lookup kerntall;
      lookup dist_dflt_SpacingMarks;
@@ -311,7 +311,7 @@ feature kern {
 
  script mymr;
      lookup guard_context;
-     lookup guard2;
+     lookup guard2_context;
      lookup guard_dot;
      lookup kerntall;
      lookup dist_dflt_SpacingMarks;
@@ -341,7 +341,7 @@ feature dist {
  script mym2;
      lookup kerntall;
      lookup guard_context;
-     lookup guard2;
+     lookup guard2_context;
      lookup guard_dot;
      lookup dist_SpacingMarks;
      lookup dist_SpacingRedup;

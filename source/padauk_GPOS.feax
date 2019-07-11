@@ -64,6 +64,12 @@ lookup guard_context {
     pos @cCons' lookup guard;
 } guard_context;
 
+lookup guard2_context {
+    ignore pos @cCons @_U [u1083 u1064] @cTone;
+    ignore pos @cCons @_U @cTone;
+    pos @cCons' lookup guard2;
+} guard2_context;
+
 lookup guard_dot {
 # wish we could update some notional advance in the base from the previous set of rules
 # right hanging U+1037
