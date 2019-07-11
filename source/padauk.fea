@@ -285,7 +285,7 @@ feature kern {
  script DFLT;
      lookup guard_context;
      lookup guard2_context;
-     lookup guard_dot;
+     lookup guard_dot_context;
      lookup kerntall;
      lookup dist_dflt_SpacingMarks;
      lookup dist_SpacingRedup;
@@ -312,7 +312,7 @@ feature kern {
  script mymr;
      lookup guard_context;
      lookup guard2_context;
-     lookup guard_dot;
+     lookup guard_dot_context;
      lookup kerntall;
      lookup dist_dflt_SpacingMarks;
      lookup dist_SpacingRedup;
@@ -342,7 +342,7 @@ feature dist {
      lookup kerntall;
      lookup guard_context;
      lookup guard2_context;
-     lookup guard_dot;
+     lookup guard_dot_context;
      lookup dist_SpacingMarks;
      lookup dist_SpacingRedup;
      lookup shift_103C_udia;

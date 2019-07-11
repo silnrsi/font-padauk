@@ -70,6 +70,18 @@ lookup guard2_context {
     pos @cCons' lookup guard2;
 } guard2_context;
 
+do  let bases = feaclass("L");
+    let g = "u1037";
+    let a = [(b, APx(b, "L") - APx(g, "_L") + ADVx(g) - ADVx(b)) for b in bases];
+    let v = " ".join([x[0] for x in a if not x[0].startswith("u103C") and x[1] > 0]);
+    { @guard_bases = [ $v ]; }
+
+do  let bases = feaclass("LM_MarkBase");
+    let g = "u1037";
+    let a = [(b, APx(b, "LM") - APx(g, "_LM") + ADVx(g) - ADVx(b)) for b in bases];
+    let v = " ".join([x[0] for x in a if not x[0].startswith("u103C") and x[1] > 0]);
+    { @guard_basedots = [ $v ]; }
+
 lookup guard_dot {
 # wish we could update some notional advance in the base from the previous set of rules
 # right hanging U+1037
@@ -78,18 +90,24 @@ do  for b = [@L];
     let a = APx(b, "L") - APx(g, "_L") + ADVx(g) - ADVx(b);
     if not b.startswith("u103C") and a > 0;
     {
-        pos $b' $a [@_U] $g @cFillLowAfter;
-        pos $b' $a $g @cFillLowAfter;
+        pos $b $a;
     }
 do  for b = [@LM_MarkBase];
     let g = "u1037";
     let a = APx(b, "LM") - APx(g, "_LM") + ADVx(g) - ADVx(b);
     if not b.startswith("u103C") and a > 0;
     {
-        pos $b' $a [@_U] $g @cFillLowAfter;
-        pos $b' $a $g @cFillLowAfter;
+        pos $b $a;
     }
 } guard_dot;
+
+
+lookup guard_dot_context {
+    pos @guard_bases' lookup guard_dot [@_U] u1037 @cFillLowAfter;
+    pos @guard_bases' lookup guard_dot u1037 @cFillLowAfter;
+    pos @guard_basedots' lookup guard_dot [@_U] u1037 @cFillLowAfter;
+    pos @guard_basedots' lookup guard_dot u1037 @cFillLowAfter;
+} guard_dot_context;
 
 lookup dist_103C_Cons {
 # Move consnarr with wide base to the middle of the u103c.wide. Only needed for sanskrit
@@ -294,6 +312,6 @@ lookup shift_for_103B {
 do  for g = @cMed;
     let s = -int((MAXx(g) - MINx(g))/2);
     {
-        pos $g' <$s 0 0 0> u103B;
+        pos $g <$s 0 0 0> u103B;
     }
 } shift_for_103B;
