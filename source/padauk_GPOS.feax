@@ -37,7 +37,9 @@ do  for b = [@cConsNarStack];
         pos $b' <0 0 $r 0> @cMedWide [@_U] [@cFillLowAfter];
         pos $b' <0 0 $r 0> @cMedWide [@cFillLowAfter];
     }
+} guard;
 
+lookup guard2 {
 # overlaps of upper consonants
 do  for b = [@U];
     for u = [@_U];
@@ -52,9 +54,9 @@ do  for b = [@U];
             and b not in ("u1008.med", "u105B.med")) else 0;
     if a > 50;
     {
-        pos $b' <$l 0 $a 0> $u;
+        pos $b <$l 0 $a 0> $u;
     }
-} guard;
+} guard2;
 
 lookup guard_context {
     ignore pos @cCons @_U [u1083 u1064] @cTone;
