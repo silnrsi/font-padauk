@@ -19,25 +19,64 @@ lookup kerntall {
     pos @_U @KL' lookup kernltall;
 } kerntall;
 
-lookup guard {
+def calc_guard(g) {
+    m = "u1000.med"
+    o = APx(m, "_BD") - APx(g, "BD")
+    l = o - MINx(m) - ADVx(m) - MAXx(m)
+    l = l if l > 0 else 0
+    r = ADVx(m) - ADVx(g) - o
+    r = r if r > 0 else 0
+    return (l, r)
+} calc_guard;
+    
+do  let b = feaclass("cConsNarStack");
+    let res = " ".join([x for x in b if sum(calc_guard(x)) > 0]);
+    { @guard_glyphs = [ $res ]; }
+
+@guard_before = [@cFillLowBefore @cLowerMarkAttach];
+lookup guarda {
 # overlaps of below wide medials under a narrow consonant
 do  for b = [@cConsNarStack];
-    let m = "u1000.med";
-    let o = APx(m, "_BD") - APx(b, "BD");
-    let l = o - MINx(m) - ADVx(m) - MAXx(m);
-    let l = l if l > 0 else 0;
-    let r = ADVx(m) - ADVx(b) - o;
-    let r = r if r > 0 else 0;
-    let a = l + r;
+    let x = calc_guard(b);
+    let l = x[0];
+    let a = l + x[1];
     if a > 0;
     {
-        pos [@cFillLowBefore @cLowerMarkAttach] $b' <$l 0 $a 0> @cMedWide [@_U] [@cFillLowAfter];
-        pos [@cFillLowBefore @cLowerMarkAttach] $b' <$l 0 $a 0> @cMedWide [@cFillLowAfter];
-        pos [@cFillLowBefore @cLowerMarkAttach] $b' <$l 0 $l 0> @cMedWide;
-        pos $b' <0 0 $r 0> @cMedWide [@_U] [@cFillLowAfter];
-        pos $b' <0 0 $r 0> @cMedWide [@cFillLowAfter];
+        pos $b <$l 0 $a 0>;
     }
-} guard;
+} guarda;
+
+lookup guardb {
+# overlaps of below wide medials under a narrow consonant
+do  for b = [@cConsNarStack];
+    let x = calc_guard(b);
+    let r = x[1];
+    if x[0] + r > 0;
+    {
+        pos $b <0 0 $r 0>;
+    }
+} guardb;
+
+lookup guardc {
+# overlaps of below wide medials under a narrow consonant
+do  for b = [@cConsNarStack];
+    let x = calc_guard(b);
+    let l = x[0];
+    if l + x[1] > 0;
+    {
+        pos $b <$l 0 $l 0>;
+    }
+} guardc;
+
+lookup guard_context {
+    ignore pos @guard_glyphs @_U [u1083 u1064] @cTone;
+    ignore pos @guard_glyphs @_U @cTone;
+    pos @guard_before @guard_glyphs' lookup guarda @cMedWide @_U @cFillLowAfter;
+    pos @guard_before @guard_glyphs' lookup guarda @cMedWide @cFillLowAfter;
+    pos @guard_before @guard_glyphs' lookup guardc @cMedWide;
+    pos @guard_glyphs' lookup guardb @cMedWide @_U @cFillLowAfter;
+    pos @guard_glyphs' lookup guardb @cMedWide @cFillLowAfter; 
+} guard_context;
 
 lookup guard2 {
 # overlaps of upper consonants
@@ -57,12 +96,6 @@ do  for b = [@U];
         pos $b <$l 0 $a 0> $u;
     }
 } guard2;
-
-lookup guard_context {
-    ignore pos @cCons @_U [u1083 u1064] @cTone;
-    ignore pos @cCons @_U @cTone;
-    pos @cCons' lookup guard;
-} guard_context;
 
 lookup guard2_context {
     ignore pos @cCons @_U [u1083 u1064] @cTone;
