@@ -33,9 +33,7 @@ do  let b = feaclass("cConsNarStack");
     let res = " ".join([x for x in b if sum(calc_guard(x)) > 0]);
     { @guard_glyphs = [ $res ]; }
 
-@guard_before = [@cFillLowBefore @cLowerMarkAttach];
 lookup guarda {
-# overlaps of below wide medials under a narrow consonant
 do  for b = [@cConsNarStack];
     let x = calc_guard(b);
     let l = x[0];
@@ -47,7 +45,6 @@ do  for b = [@cConsNarStack];
 } guarda;
 
 lookup guardb {
-# overlaps of below wide medials under a narrow consonant
 do  for b = [@cConsNarStack];
     let x = calc_guard(b);
     let r = x[1];
@@ -58,7 +55,6 @@ do  for b = [@cConsNarStack];
 } guardb;
 
 lookup guardc {
-# overlaps of below wide medials under a narrow consonant
 do  for b = [@cConsNarStack];
     let x = calc_guard(b);
     let l = x[0];
@@ -68,7 +64,10 @@ do  for b = [@cConsNarStack];
     }
 } guardc;
 
+@guard_before = [@cFillLowBefore @cLowerMarkAttach];
+
 lookup guard_context {
+# overlaps of below wide medials under a narrow consonant
     ignore pos @guard_glyphs @_U [u1083 u1064] @cTone;
     ignore pos @guard_glyphs @_U @cTone;
     pos @guard_before @guard_glyphs' lookup guarda @cMedWide @_U @cFillLowAfter;

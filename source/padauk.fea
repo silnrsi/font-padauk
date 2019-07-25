@@ -170,7 +170,7 @@ feature psts {
 } psts;
 
 
-feature clig {
+feature rlig {
  script DFLT;
       lookup dflt_error;
       lookup dflt_error2;
@@ -271,7 +271,7 @@ feature clig {
      language KYU;
      language SHN;
      language CSH;
-} clig;
+} rlig;
 
 
 

@@ -340,11 +340,13 @@ lookup mym2_abvs_redupLig2 {
 lookup delete_circledash {
     sub u1038 circledash by u1038;
     sub u103E circledash by u103E;
+    sub circledash u1038 by u1038;
 } delete_circledash;
 
 lookup clear_errors {
     sub u1038' lookup delete_circledash circledash [u1069 u106A u106B u106C u106D];
     sub u103E' lookup delete_circledash circledash u1060;
+    sub u104B circledash' lookup delete_circledash u1038;
 } clear_errors;
 
 lookup mym2_blws_miscLig {
@@ -425,7 +427,7 @@ lookup mym2_psts_miscLig {
 
 
 # ****
-# clig (used for swapping glyphs)
+# rlig (used for swapping glyphs)
 # ****
 # --------------------------------------------------------------------
 ### First are sets of glyphs to be swapped
