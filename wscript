@@ -72,6 +72,7 @@ d = designspace('source/Padauk.designspace',
 
 # Make khamti package
 kpackage = package(appname="PadaukNamKio", version=devver)
+dpackage = package(appname="Deemawso", version=devver)
 for f in d.fonts:
     font(target = process('khamti/'+f.target.replace('Padauk', 'NamKio'),
                         # cmd('ttfremap -r -c ${SRC} ${DEP} ${TGT}', ['source/namkio_remap.txt']),
@@ -81,6 +82,13 @@ for f in d.fonts:
             source = f.target,
             lang = 'kht',
             package = kpackage)
+    font(target = process("deemawso/" + f.target.replace('Padauk', 'Deemawso'),
+                        cmd('psfdeflang -L kyu ${DEP} ${TGT}'),
+                        name('Deemawso' + (' Book' if 'Book' in f.target else ""))),
+            opentype = internal(),
+            source = f.target,
+            lang = 'kyu',
+            package = dpackage)
 
 def configure(ctx) :
     ctx.find_program('ttfautohint')
