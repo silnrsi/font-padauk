@@ -97,7 +97,7 @@ braceleft,95,007B
 bar,96,007C
 braceright,97,007D
 asciitilde,98,007E
-u00A0,99,00A0
+nbspace,99,00A0
 exclamdown,100,00A1
 cent,101,00A2
 sterling,102,00A3
@@ -193,7 +193,7 @@ udieresis,191,00FC
 yacute,192,00FD
 thorn,193,00FE
 ydieresis,194,00FF
-idotless,195,0131
+dotlessi,195,0131
 OE,196,0152
 oe,197,0153
 Scaron,198,0160

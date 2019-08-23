@@ -231,7 +231,7 @@
     <string>bar</string>
     <string>braceright</string>
     <string>asciitilde</string>
-    <string>u00A0</string>
+    <string>nbspace</string>
     <string>exclamdown</string>
     <string>cent</string>
     <string>sterling</string>
