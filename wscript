@@ -46,11 +46,12 @@ if '--bake' in opts:
 ftmlTest('tools/ftml.xsl')
 
 d = designspace('source/Padauk.designspace',
-    params = '-l ${DS:FILENAME_BASE}_createinstance.log',
+    #params = '-l ${DS:FILENAME_BASE}_createinstance.log',
     #target = process('${DS:FILENAME_BASE}.ttf',
     #    cmd('${TTFAUTOHINT} -n -W ${DEP} ${TGT}'),
     #),
     target = '${DS:FILENAME_BASE}.ttf',
+	instanceparams = '-W',
     ap = '${DS:FILENAME_BASE}.xml',
     classes = 'source/padauk_classes.xml',
     opentype = fea('source/${DS:FILENAME_BASE}.fea',
