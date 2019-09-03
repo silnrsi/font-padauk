@@ -330,6 +330,8 @@
   <string>multiply.glif</string>
   <key>n</key>
   <string>n.glif</string>
+  <key>nbspace</key>
+  <string>nbspace.glif</string>
   <key>nine</key>
   <string>nine.glif</string>
   <key>nonmarkingreturn</key>
@@ -440,6 +442,8 @@
   <string>six.glif</string>
   <key>slash</key>
   <string>slash.glif</string>
+  <key>softhyphen</key>
+  <string>softhyphen.glif</string>
   <key>space</key>
   <string>space.glif</string>
   <key>sterling</key>
@@ -466,10 +470,6 @@
   <string>twosuperior.glif</string>
   <key>u</key>
   <string>u.glif</string>
-  <key>u00A0</key>
-  <string>u00A_0.glif</string>
-  <key>u00AD</key>
-  <string>u00A_D_.glif</string>
   <key>u02D0</key>
   <string>u02D_0.glif</string>
   <key>u034F</key>
