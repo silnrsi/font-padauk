@@ -50,8 +50,12 @@
   <string>u100C_.med.glif</string>
   <key>u100D</key>
   <string>u100D_.glif</string>
+  <key>u100D.thai</key>
+  <string>u100D_.thai.glif</string>
   <key>u100E</key>
   <string>u100E_.glif</string>
+  <key>u100E.thai</key>
+  <string>u100E_.thai.glif</string>
   <key>u100F</key>
   <string>u100F_.glif</string>
   <key>u100F.med</key>
@@ -72,6 +76,8 @@
   <string>u1013.glif</string>
   <key>u1014.alt</key>
   <string>u1014.alt.glif</string>
+  <key>u1014.thai</key>
+  <string>u1014.thai.glif</string>
   <key>u1015</key>
   <string>u1015.glif</string>
   <key>u1015.med</key>
@@ -104,8 +110,12 @@
   <string>u1021.glif</string>
   <key>u1021.med</key>
   <string>u1021.med.glif</string>
+  <key>u1021.thai</key>
+  <string>u1021.thai.glif</string>
   <key>u1023</key>
   <string>u1023.glif</string>
+  <key>u1023.thai</key>
+  <string>u1023.thai.glif</string>
   <key>u1027</key>
   <string>u1027.glif</string>
   <key>u1028</key>
@@ -118,6 +128,8 @@
   <string>u1031.aiph.glif</string>
   <key>u1035</key>
   <string>u1035.glif</string>
+  <key>u103B</key>
+  <string>u103B_.glif</string>
   <key>u103B_u103D_u103E</key>
   <string>u103B__u103D__u103E_.glif</string>
   <key>u103D_u103E.small</key>
