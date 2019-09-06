@@ -728,6 +728,7 @@ we have removed the -e).
 
 _ cPreVowel > @e:e _ / _ ^ c103c? cCons ckinzi? cmed? opt4(cClusDia) g103a? _=e;
 cStackLig cPreVowel > @e @s / _=s _=e;
+g101b_103b cPreVowel > @e @s / _=s _=e;
 
 /* @doc
 Here we get the right wrap into the right place. We start with a narrow form. Usually the glyph is
