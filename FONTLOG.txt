@@ -33,6 +33,12 @@ font see OFL-FAQ.txt.
 ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
+
+6 September 2019. (SIL WSTech team) Version 4.0
+- Modified OpenType code to reduce GPOS table size and speed up processing
+- Added font packages Namkio (Khamti) and Deemawso (Kayah Li)
+- Fixed a few bugs
+
 31 May 2019 (SIL WSTech team) Padauk beta Version 3.950 (test release)
  - Add glyphs to support minority languages 
  - Improved support for rendering minority languages, especially Khamti, 
