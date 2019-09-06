@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
-  <uniqueid id="org.sil.fonts.padauk.3.957" />
+  <uniqueid id="org.sil.fonts.padauk.3.958" />
   <vendor name="SIL International" url="http://scripts.sil.org" />
   <credits>
     <credit
@@ -59,6 +59,12 @@
       ChangeLog
       ---------
       (This should list both major and minor changes, most recent first.)
+      
+      6 September 2019. (SIL WSTech team) Version 4.0
+      - Modified OpenType code to reduce GPOS table size and speed up processing
+      - Added font packages Namkio (Khamti) and Deemawso (Kayah Li)
+      - Fixed a few bugs
+      
       31 May 2019 (SIL WSTech team) Padauk beta Version 3.950 (test release)
       - Add glyphs to support minority languages
       - Improved support for rendering minority languages, especially Khamti,
@@ -83,7 +89,7 @@
   </description>
   <license url="http://scripts.sil.org/OFL" id="org.sil.ofl.1.1">
     <text lang="en">
-      Copyright (c) 2002-2019 SIL International (http://www.sil.org/) with Reserved Font Names "Padauk" and "SIL".
+      Copyright (c) 2002-2019 SIL International (http://www.sil.org/) with Reserved Font Names "Padauk", "Namkio" and "Deemawso".
       
       This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
       

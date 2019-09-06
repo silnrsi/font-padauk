@@ -5,7 +5,7 @@
 # psfsetglyphorder --header sort_final -i source/glyph_data.csv source/masters/Padauk-Regular.ufo -l source/logs/sortorder.log
 
 #echo "Update version number..."
-psfsetversion source/masters/Padauk-Regular.ufo "3.957 beta" -l source/logs/setversionR.log
+psfsetversion source/masters/Padauk-Regular.ufo "3.958 beta" -l source/logs/setversionR.log
 
 echo "Check and normalize Regular..."
 # Do this before meta sync so we minimize problems in the BookBold
