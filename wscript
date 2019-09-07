@@ -16,7 +16,7 @@ DESC_SHORT='Burmese Unicode TrueType font with OpenType and Graphite support'
 
 # retrieve all the authorship information from one of the master UFOs
 getufoinfo('source/masters/Padauk-Regular.ufo')
-# BUILDLABEL="beta"
+BUILDLABEL="beta"
 
 # mystrings = {
 #    'Regular' : 'ပိုမှန်',
@@ -71,8 +71,8 @@ d = designspace('source/Padauk.designspace',
 )
 
 # Make khamti package
-kpackage = package(appname="PadaukNamKio", version="4.000")
-dpackage = package(appname="Deemawso", version="4.000")
+kpackage = package(appname="PadaukNamKio", version=devver)
+dpackage = package(appname="Deemawso", version=devver)
 for f in d.fonts:
     font(target = process('khamti/'+f.target.replace('Padauk', 'NamKio'),
                         # cmd('ttfremap -r -c ${SRC} ${DEP} ${TGT}', ['source/namkio_remap.txt']),
