@@ -8,7 +8,7 @@
     <array/>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>1262</string>
+  <string>1312</string>
   <key>com.schriftgestaltung.customName</key>
   <string>Book</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
@@ -39,6 +39,7 @@
     <string>/u1004.kinzi   /u1004.kinzi_u102D   /u1004.kinzi_u102D_u1036   /u1004.kinzi_u102E   /u1004.kinzi_u1032   /u1004.kinzi_u1033  /u1004.kinzi_u1036   /u1004.kinzi_u103A  /u101B.kinzi   /u101B.kinzi_u102D   /u101B.kinzi_u102E   /u101B.kinzi_u103A   /u1005.med/u102D  /u103A  /u1032  /u1033  /u102E  /u1036</string>
     <string>:/colontriangularmod</string>
     <string>/u101B.alt/u103B/u101B.alt/u101B  /u103B/u101B_u103B</string>
+    <string>/u105B/u1003.thai/u100B.thai/u100C.thai/u100D.thai/u100E.thai/u1012.thai/u1014.thai/u101E.thai/u1020.thai/u1021.thai/u1023.thai/u103F.thai/u1049.thai/u104A.thai/u104B.thai/u1067/uA9E0/kinzi</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

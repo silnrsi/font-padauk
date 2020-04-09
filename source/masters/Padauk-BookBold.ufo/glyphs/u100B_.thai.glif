@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u100B.thai" format="2">
+  <advance width="649"/>
+  <anchor x="657" y="-53" name="BD"/>
+  <anchor x="684" y="-53" name="BS"/>
+  <anchor x="684" y="-53" name="L"/>
+  <anchor x="300" y="495" name="U"/>
+  <anchor x="0" y="0" name="_R"/>
+  <outline>
+    <component base="u100B"/>
+  </outline>
+</glyph>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1049.thai" format="2">
+  <advance width="600"/>
+  <anchor x="292" y="-53" name="BD"/>
+  <anchor x="300" y="-53" name="BS"/>
+  <anchor x="300" y="-53" name="L"/>
+  <anchor x="300" y="495" name="U"/>
+  <outline>
+    <component base="u1049"/>
+  </outline>
+</glyph>

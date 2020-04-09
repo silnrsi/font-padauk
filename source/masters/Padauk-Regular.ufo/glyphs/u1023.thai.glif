@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1023.thai" format="2">
+  <advance width="1008"/>
+  <anchor x="993" y="-53" name="BD"/>
+  <anchor x="993" y="-53" name="BS"/>
+  <anchor x="993" y="-53" name="L"/>
+  <anchor x="15" y="-53" name="LL"/>
+  <anchor x="715" y="495" name="U"/>
+  <outline>
+    <component base="u1023"/>
+  </outline>
+</glyph>
