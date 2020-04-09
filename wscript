@@ -19,7 +19,7 @@ getufoinfo('source/masters/Padauk-Regular.ufo')
 BUILDLABEL="beta"
 
 # mystrings = {
-#    'Regular' : 'ပိုမှန်',
+#    'Regular' : 'ပုံမှန်',
 #    'Bold' : 'စာလုံးမဲ',
 #    'Padauk' : 'ပိတောက်',
 #    'Padauk Book' : 'ပိတောက်စာအုပ်'
