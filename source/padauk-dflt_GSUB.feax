@@ -179,7 +179,7 @@ lookup dflt_greatya_subst_short {
 } dflt_greatya_subst_short;
 
 lookup dflt_greatya_subst {
-    sub @cCons by u103C u1000 u103C;
+    sub @cCons by u103C @cCons u103C;
 } dflt_greatya_subst;
 
 lookup dflt_greatya_del {

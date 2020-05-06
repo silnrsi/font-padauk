@@ -19,7 +19,8 @@ aitonph
 
 filled
 {
-    id = "fdot";
+    id = "cv01";
+    id.hidden = "fdot";
     name.LG_USENG = string("Filled dots");
     default = 0;
 }
@@ -33,7 +34,8 @@ lldot
 
 watri
 {
-    id = "wtri";
+    id = "cv02";
+    id.hidden = "wtri";
     name.LG_USENG = string("Tear drop style washwe");
     default = 0;
 }
@@ -61,7 +63,8 @@ dottedc
 
 slanth
 {
-    id="hsln";
+    id = "cv03";
+    id.hidden="hsln";
     name.LG_USENG = string("Slanted hato");
     default = none;
     settings
