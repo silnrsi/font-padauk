@@ -198,6 +198,8 @@
   <string>circumflex.glif</string>
   <key>colon</key>
   <string>colon.glif</string>
+  <key>colontriangularmod</key>
+  <string>colontriangularmod.glif</string>
   <key>comma</key>
   <string>comma.glif</string>
   <key>copyright</key>
@@ -308,6 +310,8 @@
   <string>j.glif</string>
   <key>k</key>
   <string>k.glif</string>
+  <key>kinzi</key>
+  <string>kinzi.glif</string>
   <key>l</key>
   <string>l.glif</string>
   <key>less</key>
@@ -502,6 +506,8 @@
   <string>u1003.glif</string>
   <key>u1003.med</key>
   <string>u1003.med.glif</string>
+  <key>u1003.thai</key>
+  <string>u1003.thai.glif</string>
   <key>u1004</key>
   <string>u1004.glif</string>
   <key>u1004.kham</key>
@@ -566,6 +572,8 @@
   <string>u100B_.med.glif</string>
   <key>u100B.sml</key>
   <string>u100B_.sml.glif</string>
+  <key>u100B.thai</key>
+  <string>u100B_.thai.glif</string>
   <key>u100B_u100B</key>
   <string>u100B__u100B_.glif</string>
   <key>u100B_u100C</key>
@@ -574,10 +582,14 @@
   <string>u100C_.glif</string>
   <key>u100C.med</key>
   <string>u100C_.med.glif</string>
+  <key>u100C.thai</key>
+  <string>u100C_.thai.glif</string>
   <key>u100D</key>
   <string>u100D_.glif</string>
   <key>u100D.med</key>
   <string>u100D_.med.glif</string>
+  <key>u100D.thai</key>
+  <string>u100D_.thai.glif</string>
   <key>u100D_u100D</key>
   <string>u100D__u100D_.glif</string>
   <key>u100D_u100E</key>
@@ -586,6 +598,8 @@
   <string>u100E_.glif</string>
   <key>u100E.med</key>
   <string>u100E_.med.glif</string>
+  <key>u100E.thai</key>
+  <string>u100E_.thai.glif</string>
   <key>u100F</key>
   <string>u100F_.glif</string>
   <key>u100F.med</key>
@@ -620,6 +634,8 @@
   <string>u1012.med.glif</string>
   <key>u1012.sml</key>
   <string>u1012.sml.glif</string>
+  <key>u1012.thai</key>
+  <string>u1012.thai.glif</string>
   <key>u1013</key>
   <string>u1013.glif</string>
   <key>u1013.med</key>
@@ -632,6 +648,8 @@
   <string>u1014.alt.glif</string>
   <key>u1014.med</key>
   <string>u1014.med.glif</string>
+  <key>u1014.thai</key>
+  <string>u1014.thai.glif</string>
   <key>u1014_u1010_u103B</key>
   <string>u1014_u1010_u103B_.glif</string>
   <key>u1014_u1010_u103C</key>
@@ -712,6 +730,8 @@
   <string>u101E_.med.glif</string>
   <key>u101E.sml</key>
   <string>u101E_.sml.glif</string>
+  <key>u101E.thai</key>
+  <string>u101E_.thai.glif</string>
   <key>u101E_u1010_u103C</key>
   <string>u101E__u1010_u103C_.glif</string>
   <key>u101F</key>
@@ -722,6 +742,8 @@
   <string>u1020.glif</string>
   <key>u1020.long</key>
   <string>u1020.long.glif</string>
+  <key>u1020.thai</key>
+  <string>u1020.thai.glif</string>
   <key>u1020_u1020</key>
   <string>u1020_u1020.glif</string>
   <key>u1020_u103E</key>
@@ -730,12 +752,16 @@
   <string>u1021.glif</string>
   <key>u1021.med</key>
   <string>u1021.med.glif</string>
+  <key>u1021.thai</key>
+  <string>u1021.thai.glif</string>
   <key>u1022</key>
   <string>u1022.glif</string>
   <key>u1022.kham</key>
   <string>u1022.kham.glif</string>
   <key>u1023</key>
   <string>u1023.glif</string>
+  <key>u1023.thai</key>
+  <string>u1023.thai.glif</string>
   <key>u1024</key>
   <string>u1024.glif</string>
   <key>u1025</key>
@@ -912,6 +938,8 @@
   <string>u103E__u1060.csh.glif</string>
   <key>u103F</key>
   <string>u103F_.glif</string>
+  <key>u103F.thai</key>
+  <string>u103F_.thai.glif</string>
   <key>u1040</key>
   <string>u1040.glif</string>
   <key>u1041</key>
@@ -932,10 +960,16 @@
   <string>u1048.glif</string>
   <key>u1049</key>
   <string>u1049.glif</string>
+  <key>u1049.thai</key>
+  <string>u1049.thai.glif</string>
   <key>u104A</key>
   <string>u104A_.glif</string>
+  <key>u104A.thai</key>
+  <string>u104A_.thai.glif</string>
   <key>u104B</key>
   <string>u104B_.glif</string>
+  <key>u104B.thai</key>
+  <string>u104B_.thai.glif</string>
   <key>u104C</key>
   <string>u104C_.glif</string>
   <key>u104D</key>
