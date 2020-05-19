@@ -1,24 +1,27 @@
 #!/bin/sh
 # Script for calling multiple routines on a project, typically prior to committing to a repository.
 
-#echo "Updating glyph orders in Regular..."
-# psfsetglyphorder --header sort_final -i source/glyph_data.csv source/masters/Padauk-Regular.ufo -l source/logs/sortorder.log
+# Stop on any errors
+set -e
 
-#echo "Update version number..."
-psfsetversion source/masters/Padauk-Regular.ufo "4.002" -l source/logs/setversionR.log
+echo "-----Update version number..."
+#psfsetversion source/masters/Padauk-Regular.ufo "4.003" -l source/logs/setversionR.log
 
-echo "Check and normalize Regular..."
+echo "-----Updating glyph orders in Regular..."
+psfsetglyphorder --header sort_final -i source/glyph_data.csv source/masters/Padauk-Regular.ufo -l source/logs/sortorder.log
+
+echo "-----Check and normalize Regular..."
 # Do this before meta sync so we minimize problems in the BookBold
 # This normalization will also run check and fix routines
 psfnormalize -p checkfix=fix source/masters/Padauk-Regular.ufo -l source/logs/normR.log
 
-echo "Syncing glyph orders, psnames, and other metadata to other UFOs..."
+echo "-----Syncing glyph orders, psnames, and other metadata to other UFOs..."
 psfsyncmasters source/*.designspace -l source/logs/sync.log
 
-echo "Updating woff metadata file..."
+echo "-----Updating woff metadata file..."
 psfmakewoffmetadata -n padauk -i org.sil.fonts -o source/padauk-WOFF-metadata.xml source/masters/Padauk-Regular.ufo -l source/logs/makewoff.log
 
-echo "Check and normalize BookBold..."
+echo "-----Check and normalize BookBold..."
 psfnormalize -p checkfix=fix source/masters/Padauk-BookBold.ufo -l source/logs/normKB.log
 
 echo "preflight completed!"
