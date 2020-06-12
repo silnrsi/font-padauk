@@ -87,6 +87,14 @@ slanth
     }
 }
 
+monThai
+{
+    id = "cv04";
+    id.hidden = "thai";
+    name.LG_USENG = string("Mon Thai variants");
+    default = 0;
+}
+
 nnya
 {
     id = "nnya";

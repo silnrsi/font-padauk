@@ -44,6 +44,33 @@ feature locl {
 } locl;
 
 
+feature cv01 {
+    script mym2;
+      lookup cv01;
+     language dflt;
+} cv01;
+
+feature cv02 {
+    script mym2;
+      lookup cv02;
+     language dflt;
+} cv02;
+
+feature cv03 {
+    script mym2;
+      lookup cv03;
+     language dflt;
+} cv03;
+
+feature cv04 {
+    script mym2;
+      lookup cv04;
+     language dflt;
+     language MON;
+     language MNW;
+} cv04;
+
+
 feature rphf {
  script mym2;
     # lookups shared across are only shared with explicitly listed languages

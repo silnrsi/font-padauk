@@ -52,6 +52,31 @@ lookup mym2_locl_khamti {
 } mym2_locl_khamti;
 
 # ****
+# cvxx
+# ****
+
+lookup cv01 {
+  lookupflag 0 ;
+    sub @cno_dot by @c_dot ; # filled dots (fdot)
+} cv01;
+
+lookup cv02 {
+  lookupflag 0 ;
+    sub @cno_tri by @c_tri ; # Tear drop style washwe (wtri)
+} cv02;
+
+lookup cv03 {
+  lookupflag 0 ;
+    sub @cno_slanth from [@c_slanth @c_slantr] ; # Slanted hato (hsln), 1 = Sgaw style slanted leg with horizontal foot, 2 = Slanted leg with right angled foot
+} cv03;
+
+lookup cv04 {
+  lookupflag 0 ;
+    sub @cno_thai by @c_thai ; # Mon Thai variants
+} cv04;
+
+
+# ****
 # rphf
 # ****
 
@@ -428,10 +453,10 @@ lookup mym2_psts_miscLig {
 
 
 # ****
-# rlig (used for swapping glyphs)
+# rlig (used for reordering glyphs)
 # ****
 # --------------------------------------------------------------------
-### First are sets of glyphs to be swapped
+# First are sets of glyphs to be reordered
 # --------------------------------------------------------------------
 
 @updot = [u1032 u1036];
@@ -516,7 +541,7 @@ lookup reorder_AA70_right {
 } reorder_AA70_right;
 
 # --------------------------------------------------------------------
-### Next is the list of glyphs to be swapped
+# Next is the list of glyphs to be reordered
 # --------------------------------------------------------------------
 lookup mym2_swap_thing1_thing2 {
     ignore sub @cno_AA70 [u109B u109B.dot]' uAA70';
@@ -545,6 +570,5 @@ lookup consmed_103C {
 } consmed_103C;
 
 # --------------------------------------------------------------------
-### End of swap section
+### End of reordering section
 # --------------------------------------------------------------------
-

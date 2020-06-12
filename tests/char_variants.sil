@@ -1,0 +1,41 @@
+\begin[class=fontproof]{document}
+\bidi-off
+
+
+%%%%% GROUPS
+
+% Consonants
+\patterngroup[name="cons"]{ကခဂဃငစဆဇဈဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဠ}
+\patterngroup[name="conswide"]{ကဃဆဏတထဘယလသဟအ}
+\patterngroup[name="consnarrow"]{ခဂငစဇဋဌဍဎဒဓနပဖဗမရဟ}
+\patterngroup[name="consmed"]{ကခဂဃငစဆဇဈညဋဌဍဎတထဒဓနပဖဗဘမယရလသအၐၑ}
+% Marks
+\patterngroup[name="udia"]{ိီဲဳဴဵံ}
+\patterngroup[name="dot"]{ံးႇႈႉႊႚႛꩻ}
+
+\proof[size="16"]{Testing Paduak Character Variants}
+\proof[size="12",color="blue"]{Character Variant 1 (filled dot)}
+\proof[size="9",color="blue"]{No dot}
+\setTestFont[features="+clig,+kern",size="10pt"]
+\pattern[chars="@,#",reps="group_cons,group_dot",format="table"]{@#}
+\proof[size="9",color="blue"]{Filled dot}
+\setTestFont[features="+clig,+kern,+cv01=1",size="10pt"]
+\pattern[chars="@,#",reps="group_cons,group_dot",format="table"]{@#}
+
+\proof[size="12",color="blue"]{Character Variant 2 (under constrution)}
+%\setTestFont[features="+clig,+kern,+cv02=1",size="18pt"]
+%\proof{ကခဂဃငစဆဇဈဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဠ}
+
+\proof[size="12",color="blue"]{Character Variant 3 (under constrution)}
+%\setTestFont[features="+clig,+kern,+cv03=1",size="18pt"]
+%\proof{ကခဂဃငစဆဇဈဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဠ}
+%\setTestFont[features="+clig,+kern,+cv03=2",size="18pt"]
+%\proof{ကခဂဃငစဆဇဈဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဠ}
+
+\proof[size="12",color="blue"]{Character Variant 4 - Mon Thai variants}
+\setTestFont[features="+clig,+kern,+cv04=1",size="10pt"]
+\proof{ကခဂဃငစဆဇဈဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဠ}
+\pattern[chars="@,#",reps="group_cons,group_consmed",format="table"]{@္#}
+\proof[shapers="ot"]{OpenType}
+\pattern[chars="@,#",reps="group_cons,group_consmed",format="table"]{@္#}
+\end{document}

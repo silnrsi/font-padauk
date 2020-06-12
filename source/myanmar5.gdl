@@ -870,6 +870,10 @@ else if (slanth == angle)
 cno_slantr > cslantr;
 endif;
 
+if (monThai)
+cno_thai > cthai;
+endif;
+
 if (vartta)
 g100b > g100b_alt;
 endif;
