@@ -8,26 +8,14 @@
     <array/>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>1312</string>
+  <string>1346</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>/u103D_u1060.csh/space/space/space/u1060/space/u103E_u1060.csh/space/space/space/u106D.csh/space/u103E.slanth/space/u102D/u1060 
-/u103D/space/u1006/u1038/u106D.csh/u1062/u1064/u106D/space/u1064/u1005/u106D.csh/space/u103C.wide/uA9E4/u103C.alt.wide/uA9E4 
-/uA9E8/uA9FE/space/u103C.wide/uA9E4/u102D/space/uA9E8/u108D/uAA7C/uAA7D/u1019 
-/u1000/u106D.csh/space/u1000/u103B/u106D.csh/space/u1000/u103B/u1030/u106D.csh/space/u103C.wide/u1000/u102F/u106D.csh</string>
     <string>/u1000_u1001_u103B/u100B_u100B/u100D_u100D/u100F_u100B/u100F_u100D/u1014_u1010_u103B/u1014_u1010_u103C/u101E_u1010_u103C/u1020_u1020/u1001/u1005/u102C/u1006/u1007/u1008/u100D/u100F/u1013/u1016/u1019/u101B/u1020_u103E/u1021/u1023/u1026/u1027/u102A/u1031 
 /space/u103B_u103D/space/space/u103B_u103D_u103E/u103C_u103D.alt.narr/space/space/space/u1010_u103D.med/space/u1050/u1051/u1054/u1055/u105A/u105C/u1076/u1077/u1079/u107B/u107C/u107D/u107E/u107F/u1080/u108E/uAA60/uAA63/uAA68/uAA69/uAA6A/uAA6B/uAA6D/uAA6E/uAA7E/uAA7F/u1031.aiph/u101B.alt/space/uAA60.med.kham/u1019.kham/u1080.kham/uAA60.kham/u101B.long/u103C_u103D.alt.narr/space/space/u1000/u102D/u1014/u1039/u1014/space/space/u1000/u102F/u1017/u1039/u1017/u102E/u1038</string>
-    <string>/uAA60.med.kham/space/space/u1000.med/space/u1001.med/space/u1002.med/space/space/u1003.med/space/u1004.med/space/u1005.med/space/space/u1006.med/space 
-/space/u1007.med/u1007/space/u1008.med/space/space/u100A.med/space/u100B.med/space/space/u100C.med/space/u100D.med/space/u100E.med/u100E/u1000_u1001_u103B/space/space/u100F.med/space 
-/space/u1010.med/space/u1010_u103D.med/space/space/u1011.med/space/u1012.med/space/u1013.med/space/u1014.med/space/u1015.med/space/u1016.med/space/u1017.med/space/space/u1018.med 
-/space/u1019.med/space/space/u101A.med/space/u101B.med/space/space/u101C.med/space/space/space/u101C.med_u103D/space/space/u101E.med/space 
-/space/u1021.med/space/u1050.med/space/u1051.med/u105A/space/u105A.med/space/u105B.med/space/u105C.med/space/space/uAA60.med/space/u1010_u103D.med.tri</string>
     <string>/u1000_u1001_u103B/u1000_u103B_u1015_u103A/u100B_u100B/u100B_u100C/u100D_u100D/u100D_u100E/u100F_u100B/u100F_u100D/u1014_u1010_u103B/u1014_u1010_u103C/u101E_u1010_u103C/u1051_u100C/u1003/u100C.med/u100B/u100C/u100E/u1014/u1014.alt/u1020/u1020_u103E/u1022/u1023/u1026/u1046/u1028/u102A/u1052/u1053/u1070/u1075/u1076/u1077/u107D/u107E/uAA61/u101D/uAA63/uAA6B/uA9E7/uA9EF/u1014.med/u1014.alt/uAA6C.alt/u104C/u104D/u104F/u1027</string>
     <string>/u1024/uAA74/uAA76/uAA76.kham/u104D/u1002/u109F/u100B_u100C/u100C</string>
-    <string>/u1000.sml/space/space/u1006.sml/space/u100B.sml/space/space/u1010.sml/space/space/u1011.sml/space/u1012.sml/space/u1013.sml/space/u1015.sml/space/u1019.sml/space/space/u101E.sml/space/space/u103D_u103E.small/space/u103D.sml/space/space/u103B_u103D_u103E.tri/space</string>
     <string>/u1000/u1001/u1002/u1004/u1010/u1015/u1018/u101A/u101C/u101D/u101E/u101F/u1050/u1051/u1054/uA9E9/uA9EA/uA9EB/uA9EC/uA9ED/uA9EE/uA9FA/uA9FB/uA9FC/uA9FD/u1000.aiph/u1011.aiph/u101A.aiph/u101C.aiph/u101D.aiph/u1031.aiph/u1078.aiph/u107A.aiph/uAA7A.aiph/u100A.alt/u1000.kham/u1004.kham/u1010.kham/u1015.kham/u1019.kham/u101A.kham/u101C.kham/u1078.kham/uAA60.kham/uAA64.kham/uAA66.kham/uAA6C.kham</string>
-    <string>/u1036/u1037/u1089/u108B/u108C/u1071/u109A/u1038</string>
-    <string>/u1086/space/space/u1086_uAA7C/u1089/u1087/u1088/u108A/u108F/u109B/u109C/uAA7B</string>
     <string>/u103B_u103D.tri/space/space/u103B_u103D_u103E.tri/space/space/u102D/space/space/u102D_u1036/space/space/space/u102D_uAA7C/space/space/u102E/space/space/u102E_u1036/space/space/u102E_uAA7C/space/u102F_u108D/space/space/u1030_u108D/space/u1032/space/u1032_u102D/space/space/u1032_u1036/space/u1033/space/u1034/space/u1035/space/u1036/space/u103A/space/u103A_u1036/space/u103A_uAA70/space/u103D/space/space/u103D_u103E/space/space/u103D_u108D/u1056/u1057/u1058/u1059/u1062_u103A/u1063_u103A/space/u1072/u1082/space/space/u1082_u108D/u1012/u1012.med/u1084/space/u1085/space/uA9E5/space/space/uA9E5_uAA7C/space/u103E.alt/space/u103D_u1060.csh/space/space/u103E_u1060.csh/space/space/u102F.med/space/space/u103E.slanth/space/space/u103E_u1030.slanth/space/space/u103E.slantr/space/u103E_u1030.slantr/space/space/u103D_u103E.small/space/u103D.sml/space/u103D.tri/space/space/u103D_u103E.tri/space/space/u103D_u103E.small.tri/space</string>
     <string>/u1048/u1001/u1006/u1016/u101B/u1021/u1027/u102A/u1031/u1054/u1055/u1061/u1076/u1077/u1079/u107B/u107C/u107D/u107E/u107F/u1080/u1002/uAA60/uAA63/uAA68/uAA6E/uAA71/uA9E0/uA9E1/u1004/uA9E2/uA9E3/uAA7E/uAA7F/u1031.aiph/u101B.alt/u1080.kham/uAA60.kham/u101B.long/u104D/u104F</string>
     <string>/u1040/u1041/u1042/u1043/u1044/u1045/u1046/u1047/u1048/u1049/u1090/u1091/u1092/u1093/u1094/u1095/u1096/u1097/u1098/u1099/uA9F0/uA9F1/uA9F2/uA9F3/uA9F4/uA9F5/uA9F6/uA9F7/uA9F8/uA9F9</string>
@@ -35,9 +23,10 @@
 /uAA6C.alt/uAA6C/u1085/space/u102D 
 </string>
     <string>/u1004.kinzi/space/space/u1004.kinzi_u102D/space/space/u1004.kinzi_u102D_u1036/space/space/u1004.kinzi_u102E/space/space/u1004.kinzi_u1032/space/space/u1004.kinzi_u1033/space/u1004.kinzi_u1036/space/space/u1004.kinzi_u103A/space/u101B.kinzi/space/space/u101B.kinzi_u102D/space/space/u101B.kinzi_u102E/space/space/u101B.kinzi_u103A/space/space/u1005.med/u102D/space/u103A/space/u1032/space/u1033/space/u102E/space/u1036</string>
-    <string>:/colontriangularmod</string>
-    <string>/u101B.alt/u103B/u101B.alt/u101B/space/u103B/u101B_u103B</string>
-    <string>/u105B/u1003.thai/u100B.thai/u100C.thai/u100D.thai/u100E.thai/u1012.thai/u1014.thai/u101E.thai/u1020.thai/u1021.thai/u1023.thai/u103F.thai/u1049.thai/u104A.thai/u104B.thai/u1067/uA9E0/u1002/kinzi/u1002/u1086/u1002</string>
+    <string>/u1003.med/space/space/u1006.med/u1003.thai/u100B.thai/u100C.thai/uA9E4/u100D.thai/u100E.thai/u1012.thai/u1014.thai/u101E.thai/u1020.thai 
+/space/u1003.med/space/space/u1003.thai.med/u1003/u100B.thai.med/u100C.thai.med/space/u100D.med/u100D.thai.med/space/u100E.med/space/space/u100E.thai.med/space 
+/u1012/u1012.med/space/u1012.thai.med/u1012.thai/u1014/space/u1014.med/space/u1014.thai.med/space/space/u101E.med/space/space/u101E.thai.med/u101E.thai/u1020.thai.med</string>
+    <string>/u103E.slanth/space/u103E.slantr/u1061/u1061.slanth/u1061.slantr/u1066/u1066.slanth/u1066.slantr/u1061.slantr/u1066.slantr/u101B</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

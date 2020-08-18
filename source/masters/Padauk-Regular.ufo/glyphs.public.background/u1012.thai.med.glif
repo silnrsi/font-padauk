@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1012.thai.med" format="2">
+  <outline>
+    <contour>
+      <point x="267" y="459" type="move"/>
+      <point x="129" y="459"/>
+      <point x="55" y="405"/>
+      <point x="55" y="328" type="curve"/>
+      <point x="102" y="310" type="line"/>
+      <point x="102" y="378"/>
+      <point x="165" y="408"/>
+      <point x="267" y="408" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>
