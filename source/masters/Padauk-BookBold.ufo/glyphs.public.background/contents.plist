@@ -26,20 +26,20 @@
   <string>u100C_.med.glif</string>
   <key>u100D</key>
   <string>u100D_.glif</string>
+  <key>u100D.med.thai</key>
+  <string>u100D_.med.thai.glif</string>
   <key>u100D.thai</key>
   <string>u100D_.thai.glif</string>
-  <key>u100D.thai.med</key>
-  <string>u100D_.thai.med.glif</string>
   <key>u100E.thai</key>
   <string>u100E_.thai.glif</string>
   <key>u100F_u100D</key>
   <string>u100F__u100D_.glif</string>
   <key>u1010_u103D.med</key>
   <string>u1010_u103D_.med.glif</string>
+  <key>u1012.med.thai</key>
+  <string>u1012.med.thai.glif</string>
   <key>u1012.thai</key>
   <string>u1012.thai.glif</string>
-  <key>u1012.thai.med</key>
-  <string>u1012.thai.med.glif</string>
   <key>u1013</key>
   <string>u1013.glif</string>
   <key>u1014.thai</key>

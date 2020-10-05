@@ -26,8 +26,8 @@
 </string>
     <string>/u1004.kinzi/space/space/u1004.kinzi_u102D/space/space/u1004.kinzi_u102D_u1036/space/space/u1004.kinzi_u102E/space/space/u1004.kinzi_u1032/space/space/u1004.kinzi_u1033/space/u1004.kinzi_u1036/space/space/u1004.kinzi_u103A/space/u101B.kinzi/space/space/u101B.kinzi_u102D/space/space/u101B.kinzi_u102E/space/space/u101B.kinzi_u103A/space/space/u1005.med/u102D/space/u103A/space/u1032/space/u1033/space/u102E/space/u1036</string>
     <string>/u1003.med/space/space/u1006.med/u1003.thai/u100B.thai/u100C.thai/uA9E4/u100D.thai/u100E.thai/u1012.thai/u1014.thai/u101E.thai/u1020.thai 
-/u1003/space/u1003.med/space/space/u1003.thai.med/space/u100B.thai.med/u100B.thai/u100C.thai.med/space/u100D.med/space/u100D.thai.med/space/u100E.med/space/space/u100E.thai.med/space 
-/u1012/u1012.med/space/u1012.thai.med/u1012.thai/u1014/space/u1014.med/space/space/u100B.med/space/space/u1020.thai.med/space/u1014.thai.med/space/space/u101E.med/space/space/u101E.thai.med/u101E.thai/u1020.thai.med</string>
+/u1003/space/u1003.med/space/space/u1003.med.thai/space/u100B.med.thai/u100B.thai/u100C.med.thai/space/u100D.med/space/u100D.med.thai/space/u100E.med/space/space/u100E.med.thai/space 
+/u1012/u1012.med/space/u1012.med.thai/u1012.thai/u1014/space/u1014.med/space/space/u100B.med/space/space/u1020.med.thai/space/u1014.med.thai/space/space/u101E.med/space/space/u101E.med.thai/u101E.thai/u1020.med.thai</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

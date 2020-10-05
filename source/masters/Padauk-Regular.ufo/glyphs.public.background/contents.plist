@@ -50,10 +50,10 @@
   <string>u100C_.med.glif</string>
   <key>u100D</key>
   <string>u100D_.glif</string>
+  <key>u100D.med.thai</key>
+  <string>u100D_.med.thai.glif</string>
   <key>u100D.thai</key>
   <string>u100D_.thai.glif</string>
-  <key>u100D.thai.med</key>
-  <string>u100D_.thai.med.glif</string>
   <key>u100E</key>
   <string>u100E_.glif</string>
   <key>u100E.thai</key>
@@ -74,18 +74,18 @@
   <string>u1010_u103D_.med.glif</string>
   <key>u1011.med</key>
   <string>u1011.med.glif</string>
+  <key>u1012.med.thai</key>
+  <string>u1012.med.thai.glif</string>
   <key>u1012.thai</key>
   <string>u1012.thai.glif</string>
-  <key>u1012.thai.med</key>
-  <string>u1012.thai.med.glif</string>
   <key>u1013</key>
   <string>u1013.glif</string>
   <key>u1014.alt</key>
   <string>u1014.alt.glif</string>
+  <key>u1014.med.thai</key>
+  <string>u1014.med.thai.glif</string>
   <key>u1014.thai</key>
   <string>u1014.thai.glif</string>
-  <key>u1014.thai.med</key>
-  <string>u1014.thai.med.glif</string>
   <key>u1015</key>
   <string>u1015.glif</string>
   <key>u1015.med</key>
@@ -112,12 +112,12 @@
   <string>u101B_.med.glif</string>
   <key>u101C.med_u103D</key>
   <string>u101C_.med_u103D_.glif</string>
+  <key>u101E.med.thai</key>
+  <string>u101E_.med.thai.glif</string>
   <key>u101E.sml</key>
   <string>u101E_.sml.glif</string>
   <key>u101E.thai</key>
   <string>u101E_.thai.glif</string>
-  <key>u101E.thai.med</key>
-  <string>u101E_.thai.med.glif</string>
   <key>u1021</key>
   <string>u1021.glif</string>
   <key>u1021.med</key>
