@@ -872,6 +872,7 @@ endif;
 
 if (monThai)
 cno_thai > cthai;
+g1039 g1020 > g1020_med_thai:(1 2) _; // There is no corresponding "u1020.med" for character variant substitution
 endif;
 
 if (vartta)
