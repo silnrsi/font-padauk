@@ -48,22 +48,4 @@
       <point x="-389" y="-195" type="curve"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.annotations</key>
-      <array>
-        <dict>
-          <key>position</key>
-          <array>
-            <real>-255.54</real>
-            <real>-104.356</real>
-          </array>
-          <key>type</key>
-          <string>Plus</string>
-          <key>width</key>
-          <integer>100</integer>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

@@ -24,6 +24,8 @@
   <string>u100B__u100B_.glif</string>
   <key>u100C.med</key>
   <string>u100C_.med.glif</string>
+  <key>u100C.med.thai</key>
+  <string>u100C_.med.thai.glif</string>
   <key>u100D</key>
   <string>u100D_.glif</string>
   <key>u100D.med.thai</key>
@@ -80,6 +82,8 @@
   <string>u1056.glif</string>
   <key>u105B.med</key>
   <string>u105B_.med.glif</string>
+  <key>u1075.med.aiph</key>
+  <string>u1075.med.aiph.glif</string>
   <key>u1077</key>
   <string>u1077.glif</string>
   <key>u1079</key>
@@ -108,6 +112,8 @@
   <string>uA_A_76.glif</string>
   <key>uAA76.kham</key>
   <string>uA_A_76.kham.glif</string>
+  <key>uAA79.aiph</key>
+  <string>uA_A_79.aiph.glif</string>
   <key>uAA7A</key>
   <string>uA_A_7A_.glif</string>
 </dict>

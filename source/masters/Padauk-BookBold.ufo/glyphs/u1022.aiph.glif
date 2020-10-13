@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1022.aiph" format="2">
+  <advance width="1069"/>
+  <anchor x="593" y="-53" name="BD"/>
+  <anchor x="797" y="-53" name="BS"/>
+  <anchor x="805" y="-53" name="L"/>
+  <anchor x="799" y="495" name="U"/>
+  <anchor x="-5" y="0" name="_R"/>
+  <outline>
+    <contour>
+      <point x="229" y="-18" type="curve" smooth="yes"/>
+      <point x="350" y="-18"/>
+      <point x="424" y="65"/>
+      <point x="424" y="148" type="curve" smooth="yes"/>
+      <point x="424" y="186"/>
+      <point x="414" y="217"/>
+      <point x="414" y="257" type="curve" smooth="yes"/>
+      <point x="414" y="316"/>
+      <point x="450" y="346"/>
+      <point x="490" y="346" type="curve" smooth="yes"/>
+      <point x="536" y="346"/>
+      <point x="587" y="304"/>
+      <point x="587" y="223" type="curve" smooth="yes"/>
+      <point x="587" y="149"/>
+      <point x="558" y="107"/>
+      <point x="525" y="67" type="curve"/>
+      <point x="598" y="-15" type="line"/>
+      <point x="658" y="38"/>
+      <point x="701" y="113"/>
+      <point x="701" y="222" type="curve" smooth="yes"/>
+      <point x="701" y="380"/>
+      <point x="593" y="460"/>
+      <point x="490" y="460" type="curve" smooth="yes"/>
+      <point x="393" y="460"/>
+      <point x="299" y="391"/>
+      <point x="299" y="254" type="curve" smooth="yes"/>
+      <point x="299" y="208"/>
+      <point x="309" y="191"/>
+      <point x="309" y="149" type="curve" smooth="yes"/>
+      <point x="309" y="112"/>
+      <point x="269" y="96"/>
+      <point x="232" y="96" type="curve" smooth="yes"/>
+      <point x="204" y="96"/>
+      <point x="178" y="105"/>
+      <point x="172" y="122" type="curve"/>
+      <point x="176" y="120"/>
+      <point x="182" y="120"/>
+      <point x="189" y="120" type="curve" smooth="yes"/>
+      <point x="240" y="120"/>
+      <point x="264" y="160"/>
+      <point x="264" y="199" type="curve" smooth="yes"/>
+      <point x="264" y="242"/>
+      <point x="233" y="286"/>
+      <point x="172" y="286" type="curve" smooth="yes"/>
+      <point x="122" y="286"/>
+      <point x="55" y="245"/>
+      <point x="55" y="148" type="curve" smooth="yes"/>
+      <point x="55" y="73"/>
+      <point x="112" y="-18"/>
+    </contour>
+    <contour>
+      <point x="799" y="-18" type="line"/>
+      <point x="918" y="-18"/>
+      <point x="1014" y="74"/>
+      <point x="1014" y="221" type="curve" smooth="yes"/>
+      <point x="1014" y="368"/>
+      <point x="918" y="460"/>
+      <point x="799" y="460" type="curve" smooth="yes"/>
+      <point x="722" y="460"/>
+      <point x="654" y="420"/>
+      <point x="617" y="351" type="curve"/>
+      <point x="701" y="219" type="line"/>
+      <point x="701" y="288"/>
+      <point x="740" y="346"/>
+      <point x="799" y="346" type="curve" smooth="yes"/>
+      <point x="852" y="346"/>
+      <point x="900" y="299"/>
+      <point x="900" y="221" type="curve" smooth="yes"/>
+      <point x="900" y="144"/>
+      <point x="852" y="96"/>
+      <point x="799" y="96" type="curve"/>
+    </contour>
+    <contour>
+      <point x="797" y="-18" type="curve" smooth="yes"/>
+      <point x="866" y="-18"/>
+      <point x="890" y="48"/>
+      <point x="890" y="76" type="curve" smooth="yes"/>
+      <point x="890" y="128"/>
+      <point x="848" y="169"/>
+      <point x="797" y="169" type="curve" smooth="yes"/>
+      <point x="744" y="169"/>
+      <point x="703" y="128"/>
+      <point x="703" y="76" type="curve" smooth="yes"/>
+      <point x="703" y="24"/>
+      <point x="744" y="-18"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.sil.uvs</key>
+      <string>1022 FE00</string>
+    </dict>
+  </lib>
+</glyph>
