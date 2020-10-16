@@ -48,10 +48,10 @@
     <string>/u1003.med/space/space/u1006.med/u1003.thai/u100B.thai/u100C.thai/uA9E4/u100D.thai/u100E.thai/u1012.thai/u1014.thai/u101E.thai/u1020.thai 
 /u1003/space/u1003.med/space/space/u1003.med.thai/space/u100B.med.thai/u100B.thai/u100C.med.thai/space/u100D.med/space/u100D.med.thai/space/u100E.med/space/space/u100E.med.thai/space 
 /u1012/u1012.med/space/u1012.med.thai/u1012.thai/u1014/space/u1014.med/space/space/u100B.med/space/space/u1020.med.thai/space/u1014.med.thai/space/space/u101E.med/space/space/u101E.med.thai/u101E.thai/u1020.med.thai</string>
-    <string>/u1075.aiph/uAA6D.aiph/u103C.aiph/space/space</string>
     <string>/u1000.med/space/u1004.med/space/space/u1010.med/space/space/u1011.med/space/u1015.med/space/u1019.med/space/space/u101A.med/space/space/u101C.med/space/space/u1000.aiph/u1000.med.aiph/u1010.aiph/u1010.med.aiph/u1011.aiph/u1011.med.aiph/u101A.aiph/u101A.med.aiph/u101C.aiph/u101C.med.aiph/u1075.aiph/u1075.med.aiph/u107A.aiph/space/u107A.med.aiph 
-/uAA61.aiph/uAA61.med.aiph/uAA6B.med.aiph/u1004.kham/u1004.med.kham/u1015.kham/u1015.med.kham/u1019.kham/u1019.med.kham/uAA61.kham/uAA61.med.kham/uAA73.kham/uAA6B.med.kham/uAA6C.kham/uAA6C.med.kham 
+/uAA61.aiph/uAA61.med.aiph/uAA6B.aiph/uAA6B.med.aiph/u1004.kham/u1004.med.kham/u1015.kham/u1015.med.kham/u1019.kham/u1019.med.kham/uAA61.kham/uAA61.med.kham/uAA73.kham/u1002/uAA6B.kham/uAA6B.med.kham/uAA6C.kham/uAA6C.med.kham 
 /u1003.med/u100B.thai/u100B.med.thai/u100C.thai/space/u100C.med.thai/u101B/uAA79.aiph</string>
+    <string>/u107A.alt.aiph/uAA77.aiph/u1022.aiph</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

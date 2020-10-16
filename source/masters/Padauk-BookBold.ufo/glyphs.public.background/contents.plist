@@ -104,6 +104,10 @@
   <string>uA_9E_5.glif</string>
   <key>uAA63</key>
   <string>uA_A_63.glif</string>
+  <key>uAA6B.aiph</key>
+  <string>uA_A_6B_.aiph.glif</string>
+  <key>uAA6B.kham</key>
+  <string>uA_A_6B_.kham.glif</string>
   <key>uAA6E</key>
   <string>uA_A_6E_.glif</string>
   <key>uAA74</key>
@@ -112,6 +116,8 @@
   <string>uA_A_76.glif</string>
   <key>uAA76.kham</key>
   <string>uA_A_76.kham.glif</string>
+  <key>uAA77.aiph</key>
+  <string>uA_A_77.aiph.glif</string>
   <key>uAA79.aiph</key>
   <string>uA_A_79.aiph.glif</string>
   <key>uAA7A</key>

@@ -1144,6 +1144,8 @@
   <string>u107A_.glif</string>
   <key>u107A.aiph</key>
   <string>u107A_.aiph.glif</string>
+  <key>u107A.alt.aiph</key>
+  <string>u107A_.alt.aiph.glif</string>
   <key>u107A.med.aiph</key>
   <string>u107A_.med.aiph.glif</string>
   <key>u107B</key>
@@ -1472,6 +1474,8 @@
   <string>uA_A_76.kham.glif</string>
   <key>uAA77</key>
   <string>uA_A_77.glif</string>
+  <key>uAA77.aiph</key>
+  <string>uA_A_77.aiph.glif</string>
   <key>uAA78</key>
   <string>uA_A_78.glif</string>
   <key>uAA79</key>

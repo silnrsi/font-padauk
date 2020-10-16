@@ -200,12 +200,22 @@
   <string>uA_A_63.kham.glif</string>
   <key>uAA6B</key>
   <string>uA_A_6B_.glif</string>
+  <key>uAA6B.aiph</key>
+  <string>uA_A_6B_.aiph.glif</string>
+  <key>uAA6B.kham</key>
+  <string>uA_A_6B_.kham.glif</string>
+  <key>uAA6B.med.aiph</key>
+  <string>uA_A_6B_.med.aiph.glif</string>
+  <key>uAA6B.med.kham</key>
+  <string>uA_A_6B_.med.kham.glif</string>
   <key>uAA6C.med.kham</key>
   <string>uA_A_6C_.med.kham.glif</string>
   <key>uAA70</key>
   <string>uA_A_70.glif</string>
   <key>uAA74</key>
   <string>uA_A_74.glif</string>
+  <key>uAA77.aiph</key>
+  <string>uA_A_77.aiph.glif</string>
   <key>uAA7A</key>
   <string>uA_A_7A_.glif</string>
 </dict>
