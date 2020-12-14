@@ -31,6 +31,34 @@ include(../source/padauk-dflt_GSUB.feax)
 # -------------
 
 # ****
+# ccmp
+# ****
+
+# The following is a debugging tool so you can find out whether the app is rendering with OpenType or not.
+# The string "RenderingUnknown" will be rendered as "RenderingOpenType":
+lookup _FontCheck1_target {
+  lookupflag IgnoreMarks ;
+    sub U n k n o w n by O ;
+} _FontCheck1_target ;
+
+lookup FontCheck1 {
+  lookupflag IgnoreMarks ;
+    sub [ R ]e n d e r i n g U' lookup _FontCheck1_target n'  k'  n'  o'  w'  n'  ;
+} FontCheck1;
+
+lookup _FontCheck2_target {
+  lookupflag IgnoreMarks ;
+    sub O by O p e n T y p e ;
+} _FontCheck2_target ;
+
+lookup FontCheck2 {
+  lookupflag IgnoreMarks ;
+    sub [ R ]e n d e r i n g O' lookup _FontCheck2_target ;
+} FontCheck2;
+
+
+
+# ****
 # locl
 # ****
 
@@ -74,6 +102,11 @@ lookup cv04 {
   lookupflag 0 ;
     sub @cno_thai by @c_thai ; # Mon Thai variants
 } cv04;
+
+lookup cv05 {
+  lookupflag 0 ;
+    sub @cno_aiph by @c_aiph ; # Aiton and Phake variants
+} cv05;
 
 
 # ****

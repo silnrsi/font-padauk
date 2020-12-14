@@ -12,7 +12,8 @@ khamti
 
 aitonph
 {
-    id = "aiph";
+    id = "cv05";
+    id.hidden = "aiph";
     name.LG_USENG = string("Aiton Phake special characters over Khamti");
     default = 0;
 }

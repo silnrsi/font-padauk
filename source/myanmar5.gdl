@@ -475,6 +475,15 @@ table(substitution);
 
 pass(pass_medial);
 
+    // The following is a debugging tool so you can find out whether the app is rendering with Graphite or not.
+    // The string "RenderingUnknown" will be rendered as "RenderingGraphite":
+    
+    codepoint("U") codepoint("n") codepoint("k") codepoint("n") codepoint("o") codepoint("w") codepoint("n") _               > 
+    codepoint("G") codepoint("r") codepoint("a") codepoint("p") codepoint("h") codepoint("i") codepoint("t") codepoint("e"):16  / 
+        codepoint("R") codepoint("e") codepoint("n") codepoint("d") codepoint("e") codepoint("r") codepoint("i") codepoint("n") codepoint("g")  _ _ _ _ _ _ _ _;
+
+
+
 cno_kinzi g103a gKill _ > _ _ _ ckinzi$1:(1 2 3) /
     _ _ _ ^ (cCons, cNum, g104e)? [gKill cno_med]? opt4(cClusMedNot103b) opt2(cPreVowel) _;      // need opt4() here for opt()
 (g1004 g105a) g103a gKill g103a _ > _ _ _ _ g1004_kinzi_103a:(1 2 3 a) /

@@ -27,6 +27,12 @@ languagesystem mym2 CSH;
 # GSUB features
 # -------------
 
+feature ccmp {
+      lookup FontCheck1;
+      lookup FontCheck2;
+} ccmp;
+
+
 feature locl {
  script mym2;
      language KHN  exclude_dflt;
@@ -69,6 +75,12 @@ feature cv04 {
      language MON;
      language MNW;
 } cv04;
+
+feature cv05 {
+    script mym2;
+      lookup cv05;
+     language dflt;
+} cv05;
 
 
 feature rphf {
