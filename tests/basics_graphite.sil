@@ -1,0 +1,30 @@
+\begin[class=fontproof]{document}
+\bidi-off
+\setTestFont[features="+clig,+kern",size="18pt"]
+\set[parameter=harfbuzz.subshapers,value=graphite2]
+
+\proof[size="10pt"]{RenderingUnknown}
+
+%\unicharchart[type="all",columns="10",rows="16"]
+
+%\section{Myanmar Unicode Characters}
+%\subsection{Myanmar}
+%\unicharchart[type="range",begin="1000",end="109F"]
+%\subsection{Myanmar Extended-A}
+%\unicharchart[type="range",begin="AA60",end="AA7F"]
+%\subsection{Myanmar Extended-B}
+%\unicharchart[type="range",begin="A9E0",end="A9FE"]
+
+\section{Consonants with subjoined}
+
+%%%%% GROUPS
+% Consonants
+\patterngroup[name="conswide"]{ကဃဆဏတထဘယလသဟအ}
+\patterngroup[name="consnarrow"]{ခဂငစဇဋဌဍဎဒဓနပဖဗမရဟ}
+\patterngroup[name="consmed"]{ကခဂဃငစဆဇဈညဋဌဍဎတထဒဓနပဖဗဘမယရလသအၐၑ}
+\patterngroup[name="udia"]{ိီဲဳဴဵံ}
+
+\pattern[chars="@,#",reps="group_conswide,group_consmed",format="table"]{@္#}
+\pattern[chars="@,#",reps="group_consnarrow,group_consmed",format="table"]{@္#}
+
+\end{document}

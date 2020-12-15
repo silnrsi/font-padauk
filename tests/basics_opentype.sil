@@ -1,8 +1,9 @@
 \begin[class=fontproof]{document}
 \bidi-off
 \setTestFont[features="+clig,+kern",size="18pt"]
+\set[parameter=harfbuzz.subshapers,value=ot]
 
-\proof{RenderingUnknown}
+\proof[size="10pt"]{RenderingUnknown}
 
 %\unicharchart[type="all",columns="10",rows="16"]
 
@@ -23,10 +24,6 @@
 \patterngroup[name="consmed"]{ကခဂဃငစဆဇဈညဋဌဍဎတထဒဓနပဖဗဘမယရလသအၐၑ}
 \patterngroup[name="udia"]{ိီဲဳဴဵံ}
 
-\pattern[chars="@,#",reps="group_conswide,group_consmed",format="table"]{@္#}
-\pattern[chars="@,#",reps="group_consnarrow,group_consmed",format="table"]{@္#}
-\set[parameter=harfbuzz.subshapers,value=ot]
-\proof{RenderingUnknown}
 \pattern[chars="@,#",reps="group_conswide,group_consmed",format="table"]{@္#}
 \pattern[chars="@,#",reps="group_consnarrow,group_consmed",format="table"]{@္#}
 
