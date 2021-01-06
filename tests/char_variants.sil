@@ -36,6 +36,13 @@
 \setTestFont[features="+clig,+kern,+cv04=1",size="10pt"]
 \proof{ကခဂဃငစဆဇဈဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဠ}
 \pattern[chars="@,#",reps="group_cons,group_consmed",format="table"]{@္#}
-\proof[shapers="ot"]{OpenType}
+%\proof[shapers="ot"]{OpenType}
+%\pattern[chars="@,#",reps="group_cons,group_consmed",format="table"]{@္#}
+
+\proof[size="12",color="blue"]{Character Variant 5 - Aiton Phake variants}
+\setTestFont[features="+clig,+kern,+cv05=1",size="10pt"]
+\proof{ကခဂဃငစဆဇဈဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဠ}
 \pattern[chars="@,#",reps="group_cons,group_consmed",format="table"]{@္#}
+%\proof[shapers="gr"]{Graphite}
+%\pattern[chars="@,#",reps="group_cons,group_consmed",format="table"]{@္#}
 \end{document}
