@@ -460,15 +460,10 @@ lookup mym2_blws_raLong {
     sub u101B' [u103E u103E.slantr] by u101B.long;
 } mym2_blws_raLong;
 
-lookup mym2_raShortSubst {
-    sub u101B by u101B.alt ;
-} mym2_raShortSubst;
-
 lookup mym2_blws_raShort {
     ignore sub u101B.long' [u103E u103E.slantr];
-    sub u101B' [@_U] [@_BS] by u101B.alt;
-    sub u101B' [@_BS]          by u101B.alt;
-    sub u101B'   u103B            by u101B.alt;
+    sub u101B' [@_U] [u1008.med u103B] by u101B.alt;
+    sub u101B'       [u1008.med u103B] by u101B.alt;
 } mym2_blws_raShort;
 
 
