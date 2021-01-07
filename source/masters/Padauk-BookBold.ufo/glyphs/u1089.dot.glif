@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1089.dot" format="2">
-  <advance width="288"/>
+  <advance width="319"/>
   <outline>
     <contour>
-      <point x="144" y="-269" type="curve" smooth="yes"/>
-      <point x="192" y="-269"/>
-      <point x="232" y="-228"/>
-      <point x="232" y="-180" type="curve" smooth="yes"/>
-      <point x="232" y="-132"/>
-      <point x="192" y="-93"/>
-      <point x="144" y="-93" type="curve" smooth="yes"/>
-      <point x="97" y="-93"/>
-      <point x="55" y="-132"/>
-      <point x="55" y="-180" type="curve" smooth="yes"/>
-      <point x="55" y="-228"/>
-      <point x="97" y="-269"/>
+      <point x="160" y="-11" type="curve" smooth="yes"/>
+      <point x="218" y="-11"/>
+      <point x="267" y="39"/>
+      <point x="267" y="97" type="curve" smooth="yes"/>
+      <point x="267" y="156"/>
+      <point x="218" y="203"/>
+      <point x="160" y="203" type="curve" smooth="yes"/>
+      <point x="103" y="203"/>
+      <point x="52" y="156"/>
+      <point x="52" y="97" type="curve" smooth="yes"/>
+      <point x="52" y="39"/>
+      <point x="103" y="-11"/>
     </contour>
   </outline>
 </glyph>
