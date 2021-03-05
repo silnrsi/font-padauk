@@ -363,6 +363,7 @@ lookup mym2_pres_u103Copen {
     ignore sub [u103C u103C.alt.narr]' [@cConsNar u1014.alt u1075] @cno_sml_med;
     sub [u103C u103C.alt.narr]' [@cConsNar u1014.alt u1075] @cMed @BigUMark by u103C.alt.open.narr; 
     sub [u103C u103C.alt.narr]' [@cConsNar u1014.alt u1075] @cMed           by u103C.open.narr;
+    sub [u103C u103C.alt.narr]' u101B                                       by u103C.open.narr;
 } mym2_pres_u103Copen;
 
 
@@ -465,10 +466,11 @@ lookup mym2_blws_raLong {
 } mym2_blws_raLong;
 
 lookup mym2_blws_raShort {
-    @raShort_special =  [u1008.med u102F.med u102F_u108D u1030.med u1030_u108D u103B u103E_u102F u103E_u102F.slanth u103E_u102F.slantr u103E_u1030 u103E_u1030.slanth u103E_u1030.slantr u103E_u1060.csh];
+    @raShort_special =  [u1008.med u102F.med u102F_u108D u1030.med u1030_u108D u103B u103D u103E_u102F u103E_u102F.slanth u103E_u102F.slantr u103E_u1030 u103E_u1030.slanth u103E_u1030.slantr u103E_u1060.csh];
 #    ignore sub u101B.long' [u103E u103E.slantr];
     sub u101B' @_U @raShort_special by u101B.alt;
     sub u101B'     @raShort_special by u101B.alt;
+    sub u103C.open.narr  u101B'     by u101B.alt;
 } mym2_blws_raShort;
 
 
