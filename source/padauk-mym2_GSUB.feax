@@ -447,16 +447,17 @@ lookup mym2_blws_103ELig {
     sub u103E.slantr u1030.med  by u103E_u1030.slantr;
 } mym2_blws_103ELig;
 
-lookup mym2_sub1014Subst {
+lookup mym2_altTailSubst {
     sub u100A by u100A.alt ;
+    sub u100B by u100B.alt ;
     sub u1014 by u1014.alt ;
-} mym2_sub1014Subst;
+} mym2_altTailSubst;
 
-lookup mym2_blws_sub1014 {
+lookup mym2_blws_altTail {
   lookupflag 0;
-    sub [u100A u1014 ]'lookup mym2_sub1014Subst  [@_BD @_BS u103B u102F u1030 u102F.med u1030.med u1060 u1010_u103D.med] ;
-    sub [u100A u1014 ]'lookup mym2_sub1014Subst  [@_U] [@_BS] ;
-} mym2_blws_sub1014;
+    sub [u100A u100B u1014]'lookup mym2_altTailSubst  [@_BD @_BS u103B u102F u1030 u102F.med u1030.med u1060 u1010_u103D.med] ;
+    sub [u100A u100B u1014]'lookup mym2_altTailSubst   @_U  @_BS ;
+} mym2_blws_altTail;
 
 lookup mym2_blws_raLong {
     @raLong_special =  [u102F u1030 u103E u103E.alt u103E.slanth u103E.slantr];
@@ -470,7 +471,7 @@ lookup mym2_blws_raShort {
 #    ignore sub u101B.long' [u103E u103E.slantr];
     sub u101B' @_U @raShort_special by u101B.alt;
     sub u101B'     @raShort_special by u101B.alt;
-    sub u103C.open.narr  u101B'     by u101B.alt;
+    sub u103C.open.narr  u101B'     by u101B.alt; # reordering has already occured
 } mym2_blws_raShort;
 
 

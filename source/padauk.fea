@@ -182,7 +182,7 @@ feature blws {
  script mym2;
       lookup mym2_blws_miscLig;
       lookup mym2_blws_103ELig;
-      lookup mym2_blws_sub1014;
+      lookup mym2_blws_altTail;
       lookup mym2_blws_raLong;
       lookup mym2_blws_raShort;
      language dflt;
@@ -238,7 +238,7 @@ feature rlig {
       lookup mym2_abvs_redupLig2;
       lookup mym2_blws_miscLig;
       lookup mym2_blws_103ELig;
-      lookup mym2_blws_sub1014;
+      lookup mym2_blws_altTail;
       lookup mym2_blws_raLong;
       lookup mym2_blws_raShort;
       lookup mym2_psts_miscLig;
@@ -279,7 +279,7 @@ feature rlig {
       lookup mym2_abvs_redupLig2;
       lookup mym2_blws_miscLig;
       lookup mym2_blws_103ELig;
-      lookup mym2_blws_sub1014;
+      lookup mym2_blws_altTail;
       lookup mym2_blws_raLong;
       lookup mym2_blws_raShort;
       lookup mym2_psts_miscLig;
