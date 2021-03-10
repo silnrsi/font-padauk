@@ -60,12 +60,14 @@ feature cv02 {
     script mym2;
       lookup cv02;
      language dflt;
+     language KSW;
 } cv02;
 
 feature cv03 {
     script mym2;
       lookup cv03;
      language dflt;
+     language KSW;
 } cv03;
 
 feature cv04 {
@@ -431,18 +433,18 @@ feature mkmk {
       lookup base_LLM_mark;
 
  script mym2;
-    lookup mk2mk_LM;
-     language dflt;
-     language KHN;
-     language KHT;
+#    lookup mk2mk_LM;
+#     language dflt;
+#     language KHN;
+#     language KHT;
      language KSW  exclude_dflt;
       lookup base_BDM_mark;
       lookup base_BSM_mark;
       lookup base_LLM_mark;
-      lookup mk2mk_LM;
-     language KYU;
-     language SHN;
-     language CSH;
+#      lookup mk2mk_LM;
+#     language KYU;
+#     language SHN;
+#     language CSH;
 } mkmk;
 
 

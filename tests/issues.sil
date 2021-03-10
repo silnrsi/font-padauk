@@ -4,37 +4,34 @@
 
 %%% Padauk issues
 
-% #29
+% #29 using Graphite (default)
 \setTestFont[features="+clig,+kern"]
 \proof[size="10pt",color="blue"]{Padauk issue #29: Sgaw shaping}
 \proof[size=10pt,color="green"]{RenderingUnknown}
 \proof[size="18pt",heading=Padauk with no special features]{ၡူး ၦ့ၤချ့ ခှ ကွ့}
 
-\setTestFont[language="ksw",features="+clig,+kern",size="18pt"]
-\proof[heading=language="ksw"]{ၡူး ၦ့ၤချ့ ခှ ကွ့}
+\font[language="ksw"]
+\proof[size="18pt",heading=language = ksw]{ၡူး ၦ့ၤချ့ ခှ ကွ့}
 
-\setTestFont[language="ksw",features="+clig,+kern,+cv03=1",size="18pt"]
-\proof[heading=language = "ksw" plus features = cv03=1]{ၡူး ၦ့ၤချ့ ခှ ကွ့}
+\font[features=+cv03=1"]
+\proof[size="18pt",heading=language = ksw plus features = "cv03=1"]{ၡူး ၦ့ၤချ့ ခှ ကွ့}
 
-\setTestFont[language="ksw",features="+clig,+kern,+cv03=1,+cv02=1",size="18pt"]
-\proof[heading=language = "ksw" plus features = cv03=1 and cv02=1]{ၡူး ၦ့ၤချ့ ခှ ကွ့}
+\font[features="+cv02=1,+cv03=1"]
+\proof[size=18pt,heading=language = ksw plus features = "cv03=1" and "cv02=1"]{ၡူး ၦ့ၤချ့ ခှ ကွ့}
 
-% #29 using OT
+% #29 using OpenType
 \setTestFont[language="dflt",features="+clig,+kern"]
 \set[parameter=harfbuzz.subshapers,value=ot]
 \proof[size=10pt,color="green"]{RenderingUnknown}
 \proof[size="18pt",heading=Padauk with no special features]{ၡူး ၦ့ၤချ့ ခှ ကွ့}
 
-\setTestFont[language="ksw",features="+clig,+kern",size="18pt"]
-\set[parameter=harfbuzz.subshapers,value=ot]
-\proof[heading=language = "ksw"]{ၡူး ၦ့ၤချ့ ခှ ကွ့}
+\font[language="ksw"]
+\proof[size="18pt",heading=language = ksw]{ၡူး ၦ့ၤချ့ ခှ ကွ့}
 
-\setTestFont[language="ksw",features="+clig,+kern,+cv03=1",size="18pt"]
-\set[parameter=harfbuzz.subshapers,value=ot]
-\proof[heading=language = "ksw" plus features = cv03=1]{ၡူး ၦ့ၤချ့ ခှ ကွ့}
+\font[features=+cv03=1"]
+\proof[size="18pt",heading=language = ksw plus features = "cv03=1"]{ၡူး ၦ့ၤချ့ ခှ ကွ့}
 
-\setTestFont[language="ksw",features="+clig,+kern,+cv03=1,+cv02=1",size="18pt"]
-\set[parameter=harfbuzz.subshapers,value=ot]
-\proof[heading=language = "ksw" plus features = cv03=1 and cv02=1]{ၡူး ၦ့ၤချ့ ခှ ကွ့}
+\font[features="+cv02=1,+cv03=1"]
+\proof[size=18pt,heading=language = ksw plus features = "cv03=1" and "cv02=1"]{ၡူး ၦ့ၤချ့ ခှ ကွ့}
 
 \end{document}
