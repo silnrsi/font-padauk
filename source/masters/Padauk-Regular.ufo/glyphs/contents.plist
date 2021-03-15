@@ -310,8 +310,6 @@
   <string>j.glif</string>
   <key>k</key>
   <string>k.glif</string>
-  <key>kinzi</key>
-  <string>kinzi.glif</string>
   <key>l</key>
   <string>l.glif</string>
   <key>less</key>
@@ -516,6 +514,8 @@
   <string>u1004.kham.glif</string>
   <key>u1004.kinzi</key>
   <string>u1004.kinzi.glif</string>
+  <key>u1004.kinzi.thai</key>
+  <string>u1004.kinzi.thai.glif</string>
   <key>u1004.kinzi_u102D</key>
   <string>u1004.kinzi_u102D_.glif</string>
   <key>u1004.kinzi_u102D_u1036</key>

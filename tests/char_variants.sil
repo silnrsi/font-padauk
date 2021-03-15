@@ -5,44 +5,95 @@
 %%%%% GROUPS
 
 % Consonants
-\patterngroup[name="cons"]{ကခဂဃငစဆဇဈဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဠ}
+\patterngroup[name="cons"]{ကခဂဃငစဆဇဈဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဟဠ}
 \patterngroup[name="conswide"]{ကဃဆဏတထဘယလသဟအ}
-\patterngroup[name="consnarrow"]{ခဂငစဇဋဌဍဎဒဓနပဖဗမရဟ}
-\patterngroup[name="consmed"]{ကခဂဃငစဆဇဈညဋဌဍဎတထဒဓနပဖဗဘမယရလသအၐၑ}
+\patterngroup[name="consnarrow"]{ခဂငစဇဋဌဍဎဒဓနပဖဗမရ}
+\patterngroup[name="conssub"]{ကခဂဃငစဆဇဈညဋဌဍဎတထဒဓနပဖဗဘမယရလသအၐၑ}
+
+\patterngroup[name="consThaiMon"]{ကခဂဃၚစဆဇၛဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဟဠအၜၝ}
+
 % Marks
 \patterngroup[name="udia"]{ိီဲဳဴဵံ}
 \patterngroup[name="dot"]{ံးႇႈႉႊႚႛꩻ}
 
-\proof[size="16"]{Testing Paduak Character Variants}
-\proof[size="12",color="blue"]{Character Variant 1 (filled dot)}
-\proof[size="9",color="blue"]{No dot}
-\setTestFont[features="+clig,+kern",size="10pt"]
-\pattern[chars="@,#",reps="group_cons,group_dot",format="table"]{@#}
-\proof[size="9",color="blue"]{Filled dot}
-\setTestFont[features="+clig,+kern,+cv01=1",size="10pt"]
-\pattern[chars="@,#",reps="group_cons,group_dot",format="table"]{@#}
 
+%%%%% DOCUMENT
+\setTestFont[features="+clig,+kern"]
+
+\proof[size="16"]{Testing Paduak Character Variants}
+
+%%% cv01
+\proof[size="12",color="blue"]{Character Variant 1 (filled dot)}
+
+%\set[parameter=harfbuzz.subshapers,value=graphite2]
+\proof[size=10pt,color="green"]{RenderingUnknown}
+
+\font[features="cv01=0"]
+\pattern[heading=No filled dot,chars="@,#",reps="group_cons,group_dot",format="table"]{@#}
+\font[features="+cv01=1"]
+\pattern[heading=Filled dot,chars="@,#",reps="group_cons,group_dot",format="table"]{@#}
+
+\set[parameter=harfbuzz.subshapers,value=ot]
+\proof[size=10pt,color="green"]{RenderingUnknown}
+
+\font[features="cv01=0"]
+\pattern[heading=No filled dot,chars="@,#",reps="group_cons,group_dot",format="table"]{@#}
+\font[features="+cv01=1"]
+\pattern[heading=Filled dot,chars="@,#",reps="group_cons,group_dot",format="table"]{@#}
+
+\font[features="cv01=0"]
+
+%%% cv02
 \proof[size="12",color="blue"]{Character Variant 2 (under constrution)}
 %\setTestFont[features="+clig,+kern,+cv02=1",size="18pt"]
 %\proof{ကခဂဃငစဆဇဈဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဠ}
 
+%%% cv03
 \proof[size="12",color="blue"]{Character Variant 3 (under constrution)}
 %\setTestFont[features="+clig,+kern,+cv03=1",size="18pt"]
 %\proof{ကခဂဃငစဆဇဈဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဠ}
 %\setTestFont[features="+clig,+kern,+cv03=2",size="18pt"]
 %\proof{ကခဂဃငစဆဇဈဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဠ}
 
-\proof[size="12",color="blue"]{Character Variant 4 - Mon Thai variants}
-\setTestFont[features="+clig,+kern,+cv04=1",size="10pt"]
-\proof{ကခဂဃငစဆဇဈဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဠ}
-\pattern[chars="@,#",reps="group_cons,group_consmed",format="table"]{@္#}
-%\proof[shapers="ot"]{OpenType}
-%\pattern[chars="@,#",reps="group_cons,group_consmed",format="table"]{@္#}
+%%% cv04
+\proof[size="12",color="blue"]{Character Variant 4 - Thai Mon variants}
 
+\set[parameter=harfbuzz.subshapers,value=graphite2]
+\proof[size=10pt,color="green"]{RenderingUnknown}
+
+\font[features="+cv04=1"]
+
+\proof[heading=Thai Mon consonants]{ကခဂဃၚစဆဇၛဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဟဠအၜၝ}
+\proof[heading=Thai Mon kinzi]{ၚ်္ ၚ်္က ၚ်္ဃ ၚ်္ဋ ၚ်္ဌ}
+\pattern[heading=Thai Mon subjoined,chars="@,#",reps="group_consThaiMon,group_conssub",format="table"]{@္#}
+
+\set[parameter=harfbuzz.subshapers,value=ot]
+\proof[size=10pt,color="green"]{RenderingUnknown}
+
+\proof[heading=Thai Mon consonants]{ကခဂဃၚစဆဇၛဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဟဠအၜၝ}
+\proof[heading=Thai Mon kinzi]{ၚ်္ ၚ်္က ၚ်္ဃ ၚ်္ဋ ၚ်္ဌ}
+\pattern[heading=Thai Mon subjoined,chars="@,#",reps="group_consThaiMon,group_conssub",format="table"]{@္#}
+
+\font[features="cv04=0"]
+
+
+%%% cv05
 \proof[size="12",color="blue"]{Character Variant 5 - Aiton Phake variants}
-\setTestFont[features="+clig,+kern,+cv05=1",size="10pt"]
-\proof{ကခဂဃငစဆဇဈဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဠ}
-\pattern[chars="@,#",reps="group_cons,group_consmed",format="table"]{@္#}
-%\proof[shapers="gr"]{Graphite}
-%\pattern[chars="@,#",reps="group_cons,group_consmed",format="table"]{@္#}
+
+\set[parameter=harfbuzz.subshapers,value=graphite2]
+\proof[size=10pt,color="green"]{RenderingUnknown}
+
+\font[features="+cv05=1"]
+
+\proof[heading=Aiton and Phake consonants]{ကခဂဃငစဆဇဈဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဠ}
+\pattern[heading=Aiton and Phake subjoined,chars="@,#",reps="group_cons,group_conssub",format="table"]{@္#}
+
+\set[parameter=harfbuzz.subshapers,value=ot]
+\proof[size=10pt,color="green"]{RenderingUnknown}
+
+\proof[heading=Aiton and Phake consonants]{ကခဂဃငစဆဇဈဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဠ}
+\pattern[heading=Aiton and Phake subjoined,chars="@,#",reps="group_cons,group_conssub",format="table"]{@္#}
+
+\font[features="cv05=0"]
+
 \end{document}
