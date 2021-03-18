@@ -11,12 +11,17 @@
 \patterngroup[name="conssub"]{ကခဂဃငစဆဇဈညဋဌဍဎတထဒဓနပဖဗဘမယရလသအၐၑ}
 
 \patterngroup[name="consMon"]{ကခဂဃၚစဆဇၛဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဟဠအၜၝ}
-\patterngroup[name="consMonsub"]{ကခဂဃၚစဆဇၛဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလသဠအၜ}
+\patterngroup[name="consMonsub"]{ကခဂဃၚစဆဇၛညဋဌဍဎဏတထဒဓနပဖဗဘမယရလသဠအၜ}
 
 
 % Marks
+\patterngroup[name="vowel"]{ါာိီုူေဲဳဴဵ}
+\patterngroup[name="medial"]{ျြွှ}
 \patterngroup[name="udia"]{ိီဲဳဴဵံ}
 \patterngroup[name="dot"]{ံးႇႈႉႊႚႛꩻ}
+
+\patterngroup[name="vowelMon"]{ာိီုူေဲဳဴဵံး}
+\patterngroup[name="medialMon"]{ၞၟျြၠွှ}
 
 
 %%%%% DOCUMENT
@@ -67,15 +72,19 @@
 
 \proof[heading=Thai Mon consonants]{ကခဂဃၚစဆဇၛဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဟဠအၜၝ}
 \proof[heading=Thai Mon kinzi]{ၚ်္ ၚ်္က ၚ်္ဃ ၚ်္ဋ ၚ်္ဌ ဇၚ်္မှဲာ}
+\pattern[heading=Thai Mon vowels,chars="@,#",reps="group_consMon,group_vowelMon",format="table"]{@#}
+\pattern[heading=Thai Mon medials,chars="@,#",reps="group_consMon,group_medialMon",format="table"]{@#}
 \pattern[heading=Thai Mon subjoined,chars="@,#",reps="group_consMon,group_consMonsub",format="table"]{@္#}
 
 \set[parameter=harfbuzz.subshapers,value=ot]
 \proof[size=10pt,color="green"]{RenderingUnknown}
 
 \proof[heading=Thai Mon consonants]{ကခဂဃၚစဆဇၛဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဟဠအၜၝ}
-\proof[heading=Thai Mon kinzi]{ၚ်္ ၚ်္က ၚ်္ဃ ၚ်္ဋ ၚ်္ဌ}
-\pattern[heading=Thai Mon specials,chars="@",reps="group_consMon,group_conssub",format="table"]{@္ၚ}
-\pattern[heading=Thai Mon subjoined,chars="@,#",reps="group_consMon,group_conssub",format="table"]{@္#}
+\proof[heading=Thai Mon kinzi]{ၚ်္ ၚ်္က ၚ်္ဃ ၚ်္ဋ ၚ်္ဌ ဇၚ်္မှဲာ}
+\pattern[heading=Thai Mon vowels,chars="@,#",reps="group_consMon,group_vowelMon",format="table"]{@#}
+\pattern[heading=Thai Mon medials,chars="@,#",reps="group_consMon,group_medialMon",format="table"]{@#}
+\pattern[heading=Thai Mon subjoined,chars="@,#",reps="group_consMon,group_consMonsub",format="table"]{@္#}
+% \pattern[heading=Thai Mon specials,chars="@",reps="group_consMon,group_conssub",format="table"]{@္ၚ}
 
 \font[features="cv04=0"]
 
