@@ -10,7 +10,9 @@
 \patterngroup[name="consnarrow"]{ခဂငစဇဋဌဍဎဒဓနပဖဗမရ}
 \patterngroup[name="conssub"]{ကခဂဃငစဆဇဈညဋဌဍဎတထဒဓနပဖဗဘမယရလသအၐၑ}
 
-\patterngroup[name="consThaiMon"]{ကခဂဃၚစဆဇၛဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဟဠအၜၝ}
+\patterngroup[name="consMon"]{ကခဂဃၚစဆဇၛဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဟဠအၜၝ}
+\patterngroup[name="consMonsub"]{ကခဂဃၚစဆဇၛဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလသဠအၜ}
+
 
 % Marks
 \patterngroup[name="udia"]{ိီဲဳဴဵံ}
@@ -64,15 +66,16 @@
 \font[features="+cv04=1"]
 
 \proof[heading=Thai Mon consonants]{ကခဂဃၚစဆဇၛဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဟဠအၜၝ}
-\proof[heading=Thai Mon kinzi]{ၚ်္ ၚ်္က ၚ်္ဃ ၚ်္ဋ ၚ်္ဌ}
-\pattern[heading=Thai Mon subjoined,chars="@,#",reps="group_consThaiMon,group_conssub",format="table"]{@္#}
+\proof[heading=Thai Mon kinzi]{ၚ်္ ၚ်္က ၚ်္ဃ ၚ်္ဋ ၚ်္ဌ ဇၚ်္မှဲာ}
+\pattern[heading=Thai Mon subjoined,chars="@,#",reps="group_consMon,group_consMonsub",format="table"]{@္#}
 
 \set[parameter=harfbuzz.subshapers,value=ot]
 \proof[size=10pt,color="green"]{RenderingUnknown}
 
 \proof[heading=Thai Mon consonants]{ကခဂဃၚစဆဇၛဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဟဠအၜၝ}
 \proof[heading=Thai Mon kinzi]{ၚ်္ ၚ်္က ၚ်္ဃ ၚ်္ဋ ၚ်္ဌ}
-\pattern[heading=Thai Mon subjoined,chars="@,#",reps="group_consThaiMon,group_conssub",format="table"]{@္#}
+\pattern[heading=Thai Mon specials,chars="@",reps="group_consMon,group_conssub",format="table"]{@္ၚ}
+\pattern[heading=Thai Mon subjoined,chars="@,#",reps="group_consMon,group_conssub",format="table"]{@္#}
 
 \font[features="cv04=0"]
 

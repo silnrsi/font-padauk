@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1020.thai" format="2">
   <advance width="614"/>
-  <anchor x="654" y="-53" name="BD"/>
-  <anchor x="654" y="-53" name="BS"/>
-  <anchor x="654" y="-53" name="L"/>
-  <anchor x="292" y="495" name="U"/>
+  <anchor x="292" y="-53" name="BD"/>
+  <anchor x="302" y="-53" name="BS"/>
+  <anchor x="302" y="-53" name="L"/>
+  <anchor x="307" y="495" name="U"/>
   <anchor x="0" y="0" name="_R"/>
   <outline>
     <contour>
