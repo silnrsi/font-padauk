@@ -50,27 +50,27 @@ feature locl {
 } locl;
 
 
-feature cv01 {
+feature cv01 {      # filled dots
     script mym2;
       lookup cv01;
      language dflt;
 } cv01;
 
-feature cv02 {
+feature cv02 {      # tear drop washwe
     script mym2;
       lookup cv02;
      language dflt;
      language KSW;
 } cv02;
 
-feature cv03 {
+feature cv03 {      # slanted hato
     script mym2;
       lookup cv03;
      language dflt;
      language KSW;
 } cv03;
 
-feature cv04 {
+feature cv04 {      # mon thai variants
     script mym2;
       lookup cv04;
      language dflt;
@@ -78,12 +78,46 @@ feature cv04 {
      language MNW;
 } cv04;
 
-feature cv05 {
+feature cv05 {      # Aiton Phake variants
     script mym2;
       lookup cv05;
-     language dflt;
+    language dflt;
 } cv05;
 
+feature cv06 {      # khamti dot insertion
+    script mym2;
+      lookup cv06;
+    language dflt;
+    language KHT;
+} cv06;
+
+feature ss01 {      # filled dots
+    script mym2;
+      lookup cv01;
+     language dflt;
+} ss01;
+
+feature ss02 {      # tear drop washwe
+    script mym2;
+      lookup cv02;
+     language dflt;
+} ss02;
+
+feature ss04 {      # mon thai variants
+    script mym2;
+      lookup cv04;
+     language dflt;
+     language MON;
+     language MNW;
+} ss04;
+
+feature ss05 {      # khamti dot insertion also cv01
+    script mym2;
+      lookup cv01;
+      lookup cv05;
+    language dflt;
+    language KHT;
+} ss05;
 
 feature rphf {
  script mym2;

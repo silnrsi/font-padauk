@@ -72,12 +72,16 @@ lookup $lk {
 } $lk;
     }
 
-@kham = [u1086.kham];
-@no_kham = [u1086];
+@khamc = [u1086.kham];
+@no_khamc = [u1086];
 
 lookup mym2_locl_khamti {
-    sub @no_kham by @kham;
+    sub @no_khamc by @khamc;
 } mym2_locl_khamti;
+
+lookup cv06 {
+    sub @cno_kham by @c_kham;
+} cv06;
 
 # ****
 # cvxx

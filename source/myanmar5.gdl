@@ -422,24 +422,24 @@ table(linebreak)
 // encourage breaks between section and consonant
 cSection {breakweight = BW_WORD} / _ ^ cCons;
 //gSpace {breakweight = BW_WORD} / _ ^ cCons;
-cCons {breakweight = -BW_WORD} / gSpace _;
+cCons {breakweight = -BW_WORD} / gfe00? gSpace _;
 
 // no line breaks before visibly killed char
-cTakesUDia {breakweight = -BW_CHAR} g103a {breakweight = -BW_NEVER} / _ ^ [gKill cmed]? opt4(cnTakesUDia) _ ;
+cTakesUDia {breakweight = -BW_CHAR} g103a {breakweight = -BW_NEVER} / _ gfe00? ^ [gKill cmed]? opt4(cnTakesUDia) _ ;
 
 // g1004 {breakweight = -5} gKill {breakweight = -5} /   g200d  _ ^;
 
 // no line breaks before a syllable chained consonant
-cCons {breakweight = -BW_CHAR} cno_med {breakweight = -BW_NEVER} / _ gKill _ ;
+cCons {breakweight = -BW_CHAR} cno_med {breakweight = -BW_NEVER} / _ gfe00? gKill _ ;
 
 // no line breaks before virama
-cCons {breakweight = -BW_NEVER} / gKill _ ;
+cCons {breakweight = -BW_NEVER} / gfe00? gKill _ ;
 
 // no line break before WJ
-cCons {breakweight = -BW_CHAR} / wj _ ;
+cCons {breakweight = -BW_CHAR} / wj _ gfe00?;
 
 // discourage breaks after aa before another cons
-cCons {breakweight = -BW_CHAR} / g1021 _;
+cCons {breakweight = -BW_CHAR} / g1021 gfe00? _ gfe00?;
 
 // discourage breaks around quotes
 ANY {breakweight = +BW_CLIP} / cLQuote ^ _;
@@ -448,7 +448,7 @@ ANY {breakweight = -BW_CLIP}  / _ ^ cRQuote;
 // discourage breaks within numbers
 cSection {breakweight = +BW_CHAR} / _ cNum;
 // encourage breaks between consonants and numbers
-cNum {breakweight = -BW_SYLL} / cCons _;
+cNum {breakweight = -BW_SYLL} / cCons gfe00? _;
 cSigns {breakweight = -BW_SYLL} / cSection _;
 
 // discourage break between sign and a section
