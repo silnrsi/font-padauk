@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1075.aiph" format="2">
   <advance width="816"/>
-  <anchor x="382" y="-53" name="BD"/>
-  <anchor x="530" y="-53" name="BS"/>
-  <anchor x="244" y="-53" name="L"/>
+  <anchor x="408" y="-53" name="BD"/>
+  <anchor x="610" y="-53" name="BS"/>
+  <anchor x="582" y="-53" name="L"/>
   <anchor x="529" y="494" name="U"/>
   <anchor x="20" y="0" name="_R"/>
   <outline>
