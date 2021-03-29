@@ -3,9 +3,9 @@
   <advance width="952"/>
   <unicode hex="107B"/>
   <anchor x="476" y="-53" name="BD"/>
-  <anchor x="642" y="-53" name="BS"/>
-  <anchor x="642" y="-53" name="L"/>
-  <anchor x="642" y="495" name="U"/>
+  <anchor x="716" y="-53" name="BS"/>
+  <anchor x="659" y="-53" name="L"/>
+  <anchor x="661" y="495" name="U"/>
   <anchor x="-5" y="0" name="_R"/>
   <outline>
     <contour>
