@@ -91,6 +91,8 @@
       <string>u1004.kham</string>
       <key>1010</key>
       <string>u1010.kham</string>
+      <key>1011</key>
+      <string>u1011.aiph</string>
       <key>1015</key>
       <string>u1015.kham</string>
       <key>1019</key>
@@ -101,12 +103,18 @@
       <string>u101B.kham</string>
       <key>101C</key>
       <string>u101C.kham</string>
+      <key>101D</key>
+      <string>u101D.aiph</string>
       <key>1022</key>
       <string>u1022.kham</string>
+      <key>1031</key>
+      <string>u1031.aiph</string>
       <key>1075</key>
       <string>u1075.kham</string>
       <key>1078</key>
       <string>u1078.kham</string>
+      <key>107A</key>
+      <string>u107A.aiph</string>
       <key>1080</key>
       <string>u1080.kham</string>
       <key>1086</key>
@@ -137,6 +145,8 @@
       <string>uAA75.kham</string>
       <key>AA76</key>
       <string>uAA76.kham</string>
+      <key>AA7A</key>
+      <string>uAA7A.aiph</string>
     </dict>
   </dict>
   <key>public.glyphOrder</key>
