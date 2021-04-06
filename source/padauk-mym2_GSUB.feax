@@ -110,6 +110,9 @@ lookup cv04 {
 lookup cv05 {
   lookupflag 0 ;
     sub @cno_aiph by @c_aiph ; # Aiton and Phake variants
+    sub u1004 by u1004.kham ;  # shares glyph with Khamti
+    sub u1015 by u1015.kham ;  # shares glyph with Khamti
+    sub u1019 by u1019.kham ;  # shares glyph with Khamti
 } cv05;
 
 

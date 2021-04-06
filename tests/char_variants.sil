@@ -13,6 +13,11 @@
 \patterngroup[name="consMon"]{ကခဂဃၚစဆဇၛဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဟဠအၜၝ}
 \patterngroup[name="consMonsub"]{ကခဂဃၚစဆဇၛညဋဌဍဎဏတထဒဓနပဖဗဘမယရလသဠအၜ}
 
+\patterngroup[name="consKhamti"]{ကၵꩱဂငꩡꩢꩣꩤꩥꩦꩧꩨꩩၼတထၻꩪꩫပၸၿၹမယရလဝꩬꩭꩮဢꩯႀ}
+
+\patterngroup[name="consAiton"]{ကၵငꩡꩥတထꩫပၸၿမယရလဝꩭဢꩯႀ}
+\patterngroup[name="consAitonsub"]{ကတထပယလ}
+
 
 % Marks
 \patterngroup[name="vowel"]{ါာိီုူေဲဳဴဵ}
@@ -70,7 +75,7 @@
 
 \font[features="+cv04=1"]
 
-\proof[heading=Thai Mon consonants]{ကခဂဃၚစဆဇၛဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဟဠအၜၝ}
+\proof[heading=Thai Mon consonants]{က ခ ဂ ဃ ၚ စ ဆ ဇ ၛ ဉ ည ဋ ဌ ဍ ဎ ဏ တ ထ ဒ ဓ န ပ ဖ ဗ ဘ မ ယ ရ လ ဝ သ ဟ ဠ အ ၜ ၝ}
 \proof[heading=Thai Mon kinzi]{ၚ်္ ၚ်္က ၚ်္ဃ ၚ်္ဋ ၚ်္ဌ ဇၚ်္မှဲာ}
 \pattern[heading=Thai Mon vowels,chars="@,#",reps="group_consMon,group_vowelMon",format="table"]{@#}
 \pattern[heading=Thai Mon medials,chars="@,#",reps="group_consMon,group_medialMon",format="table"]{@#}
@@ -79,7 +84,7 @@
 \set[parameter=harfbuzz.subshapers,value=ot]
 \proof[size=10pt,color="green"]{RenderingUnknown}
 
-\proof[heading=Thai Mon consonants]{ကခဂဃၚစဆဇၛဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဟဠအၜၝ}
+\proof[heading=Thai Mon consonants]{က ခ ဂ ဃ ၚ စ ဆ ဇ ၛ ဉ ည ဋ ဌ ဍ ဎ ဏ တ ထ ဒ ဓ န ပ ဖ ဗ ဘ မ ယ ရ လ ဝ သ ဟ ဠ အ ၜ ၝ}
 \proof[heading=Thai Mon kinzi]{ၚ်္ ၚ်္က ၚ်္ဃ ၚ်္ဋ ၚ်္ဌ ဇၚ်္မှဲာ}
 \pattern[heading=Thai Mon vowels,chars="@,#",reps="group_consMon,group_vowelMon",format="table"]{@#}
 \pattern[heading=Thai Mon medials,chars="@,#",reps="group_consMon,group_medialMon",format="table"]{@#}
@@ -97,15 +102,45 @@
 
 \font[features="+cv05=1"]
 
-\proof[heading=Aiton and Phake consonants]{ကခဂဃငစဆဇဈဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဠ}
-\pattern[heading=Aiton and Phake subjoined,chars="@,#",reps="group_cons,group_conssub",format="table"]{@္#}
+
+\proof[heading=Aiton consonants]{က ၵ င ꩡ ꩥ တ ထ ꩫ ပ ၸ ၿ မ ယ ရ လ ဝ ꩭ ဢ ꩯ ႀ}
+\proof[heading=Phake consonants]{က ၵ င ꩡ ꩥ တ ထ %
+\font[features="+cv06=1"]%
+ꩫ %
+\font[features="+cv05=1"]%
+ပ ၸ ၿ မ ယ ရ လ ဝ ꩭ ဢ ꩯ ႀ}%
+
+\pattern[heading=Aiton subjoined,chars="@,#",reps="group_consAiton,group_consAitonsub",format="table"]{@္#}
 
 \set[parameter=harfbuzz.subshapers,value=ot]
 \proof[size=10pt,color="green"]{RenderingUnknown}
 
-\proof[heading=Aiton and Phake consonants]{ကခဂဃငစဆဇဈဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဠ}
-\pattern[heading=Aiton and Phake subjoined,chars="@,#",reps="group_cons,group_conssub",format="table"]{@္#}
+\proof[heading=Aiton consonants]{က ၵ င ꩡ ꩥ တ ထ ꩫ ပ ၸ ၿ မ ယ ရ လ ဝ ꩭ ဢ ꩯ ႀ}
+\proof[heading=Phake consonants]{က ၵ င ꩡ ꩥ တ ထ %
+\font[features="+cv06=1"]%
+ꩫ %
+\font[features="+cv05=1"]%
+ပ ၸ ၿ မ ယ ရ လ ဝ ꩭ ဢ ꩯ ႀ}%
+
+\pattern[heading=Aiton subjoined,chars="@,#",reps="group_consAiton,group_consAitonsub",format="table"]{@္#}
 
 \font[features="cv05=0"]
 
+
+%%% cv06
+\proof[size="12",color="blue"]{Character Variant 6 - Khamti variants}
+
+\set[parameter=harfbuzz.subshapers,value=graphite2]
+\proof[size=10pt,color="green"]{RenderingUnknown}
+
+\font[features="+cv06=1"]
+
+\proof[heading=Khamti consonants]{က ၵ ꩱ ဂ င ꩡ ꩢ ꩣ ꩤ ꩥ ꩦ ꩧ ꩨ ꩩ ၼ တ ထ ၻ ꩪ ꩫ ပ ၸ ၿ ၹ မ ယ ရ လ ဝ ꩬ ꩭ ꩮ ဢ ꩯ ႀ}
+
+\set[parameter=harfbuzz.subshapers,value=ot]
+\proof[size=10pt,color="green"]{RenderingUnknown}
+
+\proof[heading=Khamti consonants]{က ၵ ꩱ ဂ င ꩡ ꩢ ꩣ ꩤ ꩥ ꩦ ꩧ ꩨ ꩩ ၼ တ ထ ၻ ꩪ ꩫ ပ ၸ ၿ ၹ မ ယ ရ လ ဝ ꩬ ꩭ ꩮ ဢ ꩯ ႀ}
+
+\font[features="cv06=0"]
 \end{document}

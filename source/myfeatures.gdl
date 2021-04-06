@@ -3,33 +3,11 @@
 
 table(feature)
 
-khamti
-{
-    id = "kdot";
-    name.LG_USENG = string("Khamti style dots");
-    default = 0;
-}
-
-aitonph
-{
-    id = "cv05";
-    id.hidden = "aiph";
-    name.LG_USENG = string("Aiton Phake special characters over Khamti");
-    default = 0;
-}
-
 filled
 {
     id = "cv01";
     id.hidden = "fdot";
     name.LG_USENG = string("Filled dots");
-    default = 0;
-}
-
-lldot
-{
-    id = "lldt";
-    name.LG_USENG = string("Lower dot shifts left");
     default = 0;
 }
 
@@ -39,27 +17,6 @@ watri
     id.hidden = "wtri";
     name.LG_USENG = string("Tear drop style washwe");
     default = 0;
-}
-
-uLong
-{
-    id = "ulon";
-    name.LG_USENG = string("Long U with Yayit, long UU with Hato");
-    default = 0;
-}
-
-uTall
-{
-    id = "utal";
-    name.LG_USENG = string("U and UU always full height");
-    default = 0;
-}
-
-dottedc
-{
-    id="dotc";
-    name.LG_USENG = string("Insert dotted circles for errors");
-    default = 1;
 }
 
 slanth
@@ -94,6 +51,50 @@ monThai
     id.hidden = "thai";
     name.LG_USENG = string("Mon Thai variants");
     default = 0;
+}
+
+aitonph
+{
+    id = "cv05";
+    id.hidden = "aiph";
+    name.LG_USENG = string("Aiton Phake special characters over Khamti");
+    default = 0;
+}
+
+khamti
+{
+    id = "cv06";
+    id.hidden = "kdot";
+    name.LG_USENG = string("Khamti style dots");
+    default = 0;
+}
+
+lldot
+{
+    id = "lldt";
+    name.LG_USENG = string("Lower dot shifts left");
+    default = 0;
+}
+
+uLong
+{
+    id = "ulon";
+    name.LG_USENG = string("Long U with Yayit, long UU with Hato");
+    default = 0;
+}
+
+uTall
+{
+    id = "utal";
+    name.LG_USENG = string("U and UU always full height");
+    default = 0;
+}
+
+dottedc
+{
+    id="dotc";
+    name.LG_USENG = string("Insert dotted circles for errors");
+    default = 1;
 }
 
 nnya

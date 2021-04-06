@@ -111,13 +111,20 @@ feature ss04 {      # mon thai variants
      language MNW;
 } ss04;
 
-feature ss05 {      # khamti dot insertion also cv01
+feature ss05 {      # Aiton Phake variants
     script mym2;
-      lookup cv01;
       lookup cv05;
     language dflt;
     language KHT;
 } ss05;
+
+feature ss06 {      # khamti dot insertion also cv01
+    script mym2;
+      lookup cv01;
+      lookup cv06;
+    language dflt;
+    language KHT;
+} ss06;
 
 feature rphf {
  script mym2;

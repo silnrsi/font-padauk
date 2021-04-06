@@ -863,6 +863,9 @@ endif;
 
 if (aitonph)
 cno_aiph > caiph;
+g1004 > g1004_kham; // shares glyph with khamti
+g1015 > g1015_kham; // shares glyph with khamti
+g1019 > g1019_kham; // shares glyph with khamti
 endif;
 
 if (filled)
