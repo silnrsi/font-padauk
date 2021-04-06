@@ -45,7 +45,7 @@
 		</meta>
 		<style>
 	body, td { font-family: sans-serif; }
-	@font-face {font-family: TestFont; src: (<xsl:value-of select="$fontsrc"/>); }
+	@font-face {font-family: TestFont; src: <xsl:value-of select="$fontsrc"/>; }
 	th { text-align: left; }
 	table,th,td { padding: 2px; border: 1px solid #111111; border-collapse: collapse; }
 	.string {font-family: TestFont; font-size: <xsl:value-of select="$font-scale"/>%; }
