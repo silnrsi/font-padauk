@@ -63,11 +63,11 @@ feature cv02 {      # tear drop washwe
      language KSW;
 } cv02;
 
-feature cv03 {      # slanted hato
+feature cv03 {      # Asho Chin variants
     script mym2;
       lookup cv03;
-     language dflt;
-     language KSW;
+    language dflt;
+    language CSH;
 } cv03;
 
 feature cv04 {      # mon thai variants
@@ -91,6 +91,13 @@ feature cv06 {      # khamti dot insertion
     language KHT;
 } cv06;
 
+feature cv07 {      # slanted hato
+    script mym2;
+      lookup cv07;
+     language dflt;
+     language KSW;
+} cv07;
+
 feature ss01 {      # filled dots
     script mym2;
       lookup cv01;
@@ -102,6 +109,13 @@ feature ss02 {      # tear drop washwe
       lookup cv02;
      language dflt;
 } ss02;
+
+feature ss03 {      # Asho Chin variants
+    script mym2;
+      lookup cv07;
+    language dflt;
+    language CSH;
+} ss03;
 
 feature ss04 {      # mon thai variants
     script mym2;

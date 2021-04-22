@@ -99,7 +99,7 @@ lookup cv02 {
 
 lookup cv03 {
   lookupflag 0 ;
-    sub @cno_slanth from [@c_slanth @c_slantr] ; # Slanted hato (hsln), 1 = Sgaw style slanted leg with horizontal foot, 2 = Slanted leg with right angled foot
+    sub @cno_csh by @c_csh ; # Asho Chin variants
 } cv03;
 
 lookup cv04 {
@@ -114,6 +114,11 @@ lookup cv05 {
     sub u1015 by u1015.kham ;  # shares glyph with Khamti
     sub u1019 by u1019.kham ;  # shares glyph with Khamti
 } cv05;
+
+lookup cv07 {
+  lookupflag 0 ;
+    sub @cno_slanth from [@c_slanth @c_slantr] ; # Slanted hato (hsln), 1 = Sgaw style slanted leg with horizontal foot, 2 = Slanted leg with right angled foot
+} cv07;
 
 
 # ****

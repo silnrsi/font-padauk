@@ -61,11 +61,26 @@
 %\proof{ကခဂဃငစဆဇဈဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဠ}
 
 %%% cv03
-\proof[size="12",color="blue"]{Character Variant 3 (under constrution)}
-%\setTestFont[features="+clig,+kern,+cv03=1",size="18pt"]
-%\proof{ကခဂဃငစဆဇဈဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဠ}
-%\setTestFont[features="+clig,+kern,+cv03=2",size="18pt"]
-%\proof{ကခဂဃငစဆဇဈဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဠ}
+\proof[size="12",color="blue"]{Character Variant 3 - Asho Chin variants}
+
+\set[parameter=harfbuzz.subshapers,value=graphite2]
+\proof[size=10pt,color="green"]{RenderingUnknown}
+
+\proof[heading=Normal tone mark U+106D]{ကၭ}
+
+\font[features="+cv03=1"]
+\proof[heading=Asho Chin tone mark U+106D]{ကၭ}
+
+\set[parameter=harfbuzz.subshapers,value=ot]
+\proof[size=10pt,color="green"]{RenderingUnknown}
+
+\font[features="cv03=0"]
+\proof[heading=Normal tone mark U+106D]{ကၭ}
+
+\font[features="+cv03=1"]
+\proof[heading=Asho Chin tone mark U+106D]{ကၭ}
+
+\font[features="cv03=0"]
 
 %%% cv04
 \proof[size="12",color="blue"]{Character Variant 4 - Thai Mon variants}
@@ -117,10 +132,12 @@
 
 \proof[heading=Aiton consonants]{က ၵ င ꩡ ꩥ တ ထ ꩫ ပ ၸ ၿ မ ယ ရ လ ဝ ꩭ ဢ ꩯ ႀ}
 \proof[heading=Phake consonants]{က ၵ င ꩡ ꩥ တ ထ %
+\font[features="cv05=0"]%
 \font[features="+cv06=1"]%
 ꩫ %
+\font[features="cv06=0"]%
 \font[features="+cv05=1"]%
-ပ ၸ ၿ မ ယ ရ လ ဝ ꩭ ဢ ꩯ ႀ}%
+ပ ၸ ၿ မ ယ ရ လ ဝ ꩭ ဢ ꩯ ႀ}
 
 \pattern[heading=Aiton subjoined,chars="@,#",reps="group_consAiton,group_consAitonsub",format="table"]{@္#}
 
@@ -143,4 +160,35 @@
 \proof[heading=Khamti consonants]{က ၵ ꩱ ဂ င ꩡ ꩢ ꩣ ꩤ ꩥ ꩦ ꩧ ꩨ ꩩ ၼ တ ထ ၻ ꩪ ꩫ ပ ၸ ၿ ၹ မ ယ ရ လ ဝ ꩬ ꩭ ꩮ ဢ ꩯ ႀ}
 
 \font[features="cv06=0"]
+
+
+%%% cv07
+\proof[size="12",color="blue"]{Character Variant 7 - Slanted hato}
+
+\set[parameter=harfbuzz.subshapers,value=graphite2]
+\proof[size=10pt,color="green"]{RenderingUnknown}
+
+\proof[heading=None]{ှ ၡ ၦ}
+
+\font[features="+cv07=1"]
+\proof[heading=Sgaw variants]{ှ ၡ ၦ}
+
+\font[features="cv07=0"]
+\font[features="+cv07=2"]
+\proof[heading=Angle variants]{ှ ၡ ၦ}
+
+\set[parameter=harfbuzz.subshapers,value=ot]
+\proof[size=10pt,color="green"]{RenderingUnknown}
+
+\font[features="cv07=0"]
+\proof[heading=None]{ှ ၡ ၦ}
+
+\font[features="+cv07=1"]
+\proof[heading=Sgaw variants]{ှ ၡ ၦ}
+
+\font[features="cv07=0"]
+\font[features="+cv07=2"]
+\proof[heading=Angle variants]{ှ ၡ ၦ}
+
+\font[features="cv07=0"]
 \end{document}

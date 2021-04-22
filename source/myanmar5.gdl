@@ -853,39 +853,111 @@ endpass;
 pass(pass_subst);
 /* @doc
 Handle feature substitutions
+  Note: Dual feature ID's have been given to some features, namely the 
+  feature "cvxx" has been added to match the OpenType feature ID "cvxx", 
+  giving feature compatibility across browsers and mobile apps. 
+  The old Graphite IDs are "hidden". Additional code is included in order 
+  to use these "hidden" IDs to accomodate backward compatibility.
 @enddoc */
 
-/*
+/* --- removed feature ---
 if (khamti)
 cno_kham > ckham;
 endif;
-*/
+-------------------------- */
 
+if (aitonph == 1 || aitonph__aiph == 1)
+    cno_aiph > caiph;
+    g1004 > g1004_kham; // shares glyph with khamti
+    g1015 > g1015_kham; // shares glyph with khamti
+    g1019 > g1019_kham; // shares glyph with khamti
+else
+    caiph > cno_aiph;
+    g1004_kham > g1004;
+    g1015_kham > g1015;
+    g1019_kham > g1019;
+endif;
+
+/* --- old code ---
 if (aitonph)
 cno_aiph > caiph;
 g1004 > g1004_kham; // shares glyph with khamti
 g1015 > g1015_kham; // shares glyph with khamti
 g1019 > g1019_kham; // shares glyph with khamti
 endif;
+*/
 
+if (filled == 1 || filled__fdot == 1)
+    cno_dot  >  cdot;
+else
+    cdot  >  cno_dot;
+endif;
+
+/* --- old code ---
 if (filled)
 cno_dot > cdot;
 endif;
+*/
 
+if (watri == 1 || watri__wtri == 1)
+    cno_tri > ctri;
+else
+    ctri > cno_tri;
+endif;
+
+/* --- old code ---
 if (watri)
 cno_tri > ctri;
 endif;
+*/
 
+if (slanth == none && slanth__hsln == none)        // default = none
+    cslanth > cno_slanth;
+    cslantr > cno_slantr;
+endif;
+if (slanth == sgaw || (slanth__hsln == sgaw && slanth__cv07 == none))
+    cno_slanth > cslanth;
+    cslantr    > cslanth;  // assumes glyphs in these classes are corresponding matches
+endif;
+if (slanth == angle || (slanth__hsln == angle && slanth__cv07 == none))
+    cno_slantr > cslantr;
+    cslanth    > cslantr;  // assumes glyphs in these classes are corresponding matches
+endif;
+
+/* --- old code ---
 if (slanth == sgaw)
 cno_slanth > cslanth;
 else if (slanth == angle)
 cno_slantr > cslantr;
 endif;
+*/
 
-if (monThai)
+if (thaimon == 1 || thaimon__thai == 1)
+    cno_thai > cthai;
+    g1039 g1020 > g1020_med_thai:(1 2) _; // There is no corresponding "u1020.med" for character variant substitution
+else
+    cthai > cno_thai;
+    g1020_med_thai  _  > g1039:1 g1020:1; // There is no corresponding "u1020.med" for character variant substitution
+endif;
+
+/* --- old code ---
+if (thaimon)
 cno_thai > cthai;
 g1039 g1020 > g1020_med_thai:(1 2) _; // There is no corresponding "u1020.med" for character variant substitution
 endif;
+*/
+
+if (ashochin == 1 || ashochin__asho == 1)
+    cno_csh > ccsh;
+else
+    ccsh > cno_csh;
+endif;
+
+/* --- old code ---
+if (ashochin)
+cno_csh > ccsh;
+endif;
+*/
 
 if (vartta)
 g100b > g100b_alt;

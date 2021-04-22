@@ -19,9 +19,41 @@ watri
     default = 0;
 }
 
-slanth
+ashochin
 {
     id = "cv03";
+    id.hidden = "asho";
+    name.LG_USENG = string("Asho Chin variants");
+    default = 0;
+}
+
+thaimon
+{
+    id = "cv04";
+    id.hidden = "thai";
+    name.LG_USENG = string("Thai Mon variants");
+    default = 0;
+}
+
+aitonph
+{
+    id = "cv05";
+    id.hidden = "aiph";
+    name.LG_USENG = string("Aiton Phake special characters over Khamti");
+    default = 0;
+}
+
+khamti
+{
+    id = "cv06";
+    id.hidden = "kdot";
+    name.LG_USENG = string("Khamti style dots");
+    default = 0;
+}
+
+slanth
+{
+    id = "cv07";
     id.hidden="hsln";
     name.LG_USENG = string("Slanted hato");
     default = none;
@@ -43,30 +75,6 @@ slanth
             name.LG_USENG = string("Slanted leg with right angled foot");
         }
     }
-}
-
-monThai
-{
-    id = "cv04";
-    id.hidden = "thai";
-    name.LG_USENG = string("Mon Thai variants");
-    default = 0;
-}
-
-aitonph
-{
-    id = "cv05";
-    id.hidden = "aiph";
-    name.LG_USENG = string("Aiton Phake special characters over Khamti");
-    default = 0;
-}
-
-khamti
-{
-    id = "cv06";
-    id.hidden = "kdot";
-    name.LG_USENG = string("Khamti style dots");
-    default = 0;
 }
 
 lldot
