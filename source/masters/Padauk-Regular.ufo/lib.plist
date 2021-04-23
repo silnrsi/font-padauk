@@ -354,7 +354,7 @@
     <string>florin</string>
     <string>circumflex</string>
     <string>caron</string>
-    <string>u02D0</string>
+    <string>colontriangularmod</string>
     <string>breve</string>
     <string>dotaccent</string>
     <string>ring</string>
@@ -367,6 +367,8 @@
     <string>u1000.aiph</string>
     <string>u1000.kham</string>
     <string>u1000.med</string>
+    <string>u1000.med.aiph</string>
+    <string>u1000.med.thai</string>
     <string>u1000.sml</string>
     <string>u1000_u1001_u103B</string>
     <string>u1000_u103B_u1015_u103A</string>
@@ -376,7 +378,9 @@
     <string>u1002.med</string>
     <string>u1002.sml</string>
     <string>u1003</string>
+    <string>u1003.thai</string>
     <string>u1003.med</string>
+    <string>u1003.med.thai</string>
     <string>u1004</string>
     <string>u1004.kham</string>
     <string>u1004.kinzi</string>
@@ -388,6 +392,8 @@
     <string>u1004.kinzi_u1036</string>
     <string>u1004.kinzi_u103A</string>
     <string>u1004.med</string>
+    <string>u1004.med.kham</string>
+    <string>u1004.kinzi.thai</string>
     <string>u1005</string>
     <string>u1005.med</string>
     <string>u1005.sml</string>
@@ -407,46 +413,62 @@
     <string>u100A_u100A</string>
     <string>u100B</string>
     <string>u100B.alt</string>
+    <string>u100B.thai</string>
     <string>u100B.med</string>
+    <string>u100B.med.thai</string>
     <string>u100B.sml</string>
     <string>u100B_u100B</string>
     <string>u100B_u100C</string>
     <string>u100C</string>
+    <string>u100C.thai</string>
     <string>u100C.med</string>
+    <string>u100C.med.thai</string>
     <string>u100D</string>
+    <string>u100D.thai</string>
     <string>u100D.med</string>
+    <string>u100D.med.thai</string>
     <string>u100D_u100D</string>
     <string>u100D_u100E</string>
     <string>u100E</string>
+    <string>u100E.thai</string>
     <string>u100E.med</string>
+    <string>u100E.med.thai</string>
     <string>u100F</string>
     <string>u100F.med</string>
     <string>u100F_u100B</string>
     <string>u100F_u100D</string>
     <string>u1010</string>
+    <string>u1010.aiph</string>
     <string>u1010.kham</string>
     <string>u1010.med</string>
+    <string>u1010.med.aiph</string>
     <string>u1010.sml</string>
     <string>u1010_u103D.med</string>
     <string>u1010_u103D.med.tri</string>
     <string>u1011</string>
     <string>u1011.aiph</string>
     <string>u1011.med</string>
+    <string>u1011.med.aiph</string>
     <string>u1011.sml</string>
     <string>u1012</string>
+    <string>u1012.thai</string>
     <string>u1012.med</string>
+    <string>u1012.med.thai</string>
     <string>u1012.sml</string>
     <string>u1013</string>
     <string>u1013.med</string>
     <string>u1013.sml</string>
     <string>u1014</string>
     <string>u1014.alt</string>
+    <string>u1014.thai</string>
     <string>u1014.med</string>
+    <string>u1014.med.thai</string>
     <string>u1014_u1010_u103B</string>
     <string>u1014_u1010_u103C</string>
     <string>u1015</string>
     <string>u1015.kham</string>
     <string>u1015.med</string>
+    <string>u1015.med.kham</string>
     <string>u1015.sml</string>
     <string>u1016</string>
     <string>u1016.med</string>
@@ -457,11 +479,13 @@
     <string>u1019</string>
     <string>u1019.kham</string>
     <string>u1019.med</string>
+    <string>u1019.med.kham</string>
     <string>u1019.sml</string>
     <string>u101A</string>
     <string>u101A.aiph</string>
     <string>u101A.kham</string>
     <string>u101A.med</string>
+    <string>u101A.med.aiph</string>
     <string>u101B</string>
     <string>u101B.alt</string>
     <string>u101B.kham</string>
@@ -476,24 +500,32 @@
     <string>u101C.aiph</string>
     <string>u101C.kham</string>
     <string>u101C.med</string>
+    <string>u101C.med.aiph</string>
     <string>u101C.med_u103D</string>
     <string>u101D</string>
     <string>u101D.aiph</string>
     <string>u101E</string>
+    <string>u101E.thai</string>
     <string>u101E.med</string>
+    <string>u101E.med.thai</string>
     <string>u101E.sml</string>
     <string>u101E_u1010_u103C</string>
     <string>u101F</string>
     <string>u101F.small</string>
     <string>u1020</string>
     <string>u1020.long</string>
+    <string>u1020.thai</string>
+    <string>u1020.med.thai</string>
     <string>u1020_u1020</string>
     <string>u1020_u103E</string>
     <string>u1021</string>
+    <string>u1021.thai</string>
     <string>u1021.med</string>
     <string>u1022</string>
+    <string>u1022.aiph</string>
     <string>u1022.kham</string>
     <string>u1023</string>
+    <string>u1023.thai</string>
     <string>u1024</string>
     <string>u1025</string>
     <string>u1026</string>
@@ -561,6 +593,8 @@
     <string>u103C_u103D.narr.tri</string>
     <string>u103C_u103D.wide</string>
     <string>u103C_u103D.wide.tri</string>
+    <string>u103C.aiph</string>
+    <string>u103C.wide.aiph</string>
     <string>u103D</string>
     <string>u103D.sml</string>
     <string>u103D.tri</string>
@@ -582,6 +616,7 @@
     <string>u103E_u1030.slantr</string>
     <string>u103E_u1060.csh</string>
     <string>u103F</string>
+    <string>u103F.thai</string>
     <string>u1040</string>
     <string>u1041</string>
     <string>u1042</string>
@@ -592,8 +627,11 @@
     <string>u1047</string>
     <string>u1048</string>
     <string>u1049</string>
+    <string>u1049.thai</string>
     <string>u104A</string>
+    <string>u104A.thai</string>
     <string>u104B</string>
+    <string>u104B.thai</string>
     <string>u104C</string>
     <string>u104D</string>
     <string>u104E</string>
@@ -623,6 +661,8 @@
     <string>u105F</string>
     <string>u1060</string>
     <string>u1061</string>
+    <string>u1061.slanth</string>
+    <string>u1061.slantr</string>
     <string>u1062</string>
     <string>u1062_u103A</string>
     <string>u1063</string>
@@ -630,6 +670,8 @@
     <string>u1064</string>
     <string>u1065</string>
     <string>u1066</string>
+    <string>u1066.slanth</string>
+    <string>u1066.slantr</string>
     <string>u1067</string>
     <string>u1068</string>
     <string>u1069</string>
@@ -646,7 +688,9 @@
     <string>u1073</string>
     <string>u1074</string>
     <string>u1075</string>
+    <string>u1075.aiph</string>
     <string>u1075.kham</string>
+    <string>u1075.med.aiph</string>
     <string>u1076</string>
     <string>u1077</string>
     <string>u1078</string>
@@ -655,6 +699,8 @@
     <string>u1079</string>
     <string>u107A</string>
     <string>u107A.aiph</string>
+    <string>u107A.alt.aiph</string>
+    <string>u107A.med.aiph</string>
     <string>u107B</string>
     <string>u107C</string>
     <string>u107D</string>
@@ -705,22 +751,6 @@
     <string>u109D</string>
     <string>u109E</string>
     <string>u109F</string>
-    <string>u1003.thai</string>
-    <string>u100B.thai</string>
-    <string>u100C.thai</string>
-    <string>u100D.thai</string>
-    <string>u100E.thai</string>
-    <string>u1012.thai</string>
-    <string>u1014.thai</string>
-    <string>u101E.thai</string>
-    <string>u1020.thai</string>
-    <string>u1021.thai</string>
-    <string>u1023.thai</string>
-    <string>u103F.thai</string>
-    <string>u1049.thai</string>
-    <string>u104A.thai</string>
-    <string>u104B.thai</string>
-    <string>u1004.kinzi.thai</string>
     <string>uA92E</string>
     <string>uA9E0</string>
     <string>uA9E1</string>
@@ -759,7 +789,10 @@
     <string>uAA60.med</string>
     <string>uAA60.med.kham</string>
     <string>uAA61</string>
+    <string>uAA61.aiph</string>
     <string>uAA61.kham</string>
+    <string>uAA61.med.aiph</string>
+    <string>uAA61.med.kham</string>
     <string>uAA62</string>
     <string>uAA62.kham</string>
     <string>uAA63</string>
@@ -775,11 +808,16 @@
     <string>uAA69</string>
     <string>uAA6A</string>
     <string>uAA6B</string>
+    <string>uAA6B.aiph</string>
     <string>uAA6B.kham</string>
+    <string>uAA6B.med.aiph</string>
+    <string>uAA6B.med.kham</string>
     <string>uAA6C</string>
     <string>uAA6C.alt</string>
     <string>uAA6C.kham</string>
+    <string>uAA6C.med.kham</string>
     <string>uAA6D</string>
+    <string>uAA6D.aiph</string>
     <string>uAA6E</string>
     <string>uAA6F</string>
     <string>uAA6F.kham</string>
@@ -794,8 +832,10 @@
     <string>uAA76</string>
     <string>uAA76.kham</string>
     <string>uAA77</string>
+    <string>uAA77.aiph</string>
     <string>uAA78</string>
     <string>uAA79</string>
+    <string>uAA79.aiph</string>
     <string>uAA7A</string>
     <string>uAA7A.aiph</string>
     <string>uAA7B</string>
