@@ -102,13 +102,13 @@
     u103C.open.wide u103C.alt.open.wide
   </property>
   <property exts=".tri .sml" name="GDL_order" value="60">
-    u103D u103D_u103E u103D_u103E.small u103D_u108D u103D_u1060.csh
+    u103D u103D_u103E u103D_u103E.small u103D_u108D u103D_u1060
     u1058 u1059 u1082 u101C.med_u103D u1082_u108D u101F.small
   </property>
   <property name="GDL_order" value="70">
     u103E u103E.alt u103E_u102F u103E_u1030 u103E.slantr u103E.slanth 
     u103E_u102F.slantr u103E_u102F.slanth u103E_u1030.slantr u103E_u1030.slanth
-    u103E_u1060.csh
+    u103E_u1060
   </property>
   <property name="GDL_order" value="80">
     u1060

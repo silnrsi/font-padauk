@@ -575,8 +575,8 @@ feature mkmk {
 	u103C_u103D.narr u103C_u103D.wide u103C_u103D.alt.narr u103C_u103D.alt.wide
 	u103C_u102F.narr u103C_u102F.wide u103C_u102F.alt.narr u103C_u102F.alt.wide
 	
-	u103D u103D_u103E u103D_u103E.small u103D_u108D u103D_u1060.csh
-	u103E u103E.alt u103E_u102F u103E_u1030 u103E_u1060.csh  
+	u103D u103D_u103E u103D_u103E.small u103D_u108D u103D_u1060
+	u103E u103E.alt u103E_u102F u103E_u1030 u103E_u1060  
 	u1050.med u1051.med u1058 u1059 u105A.med u105C.med 
 	
 	u105E u105F u1060 u1071 u1072 u1073 u1074 u1082 

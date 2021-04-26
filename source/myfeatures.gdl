@@ -19,7 +19,7 @@ watri
     default = 0;
 }
 
-ashochin
+asho
 {
     id = "cv03";
     id.hidden = "asho";
@@ -157,6 +157,11 @@ aiph {
     khamti = 1;
     aitonph = 1;
     filled = 1;
+};
+
+ashochin {
+    languages = ("csh");
+    asho = 1;
 };
 
 endtable;

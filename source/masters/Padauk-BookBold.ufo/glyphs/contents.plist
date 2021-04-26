@@ -950,8 +950,8 @@
   <string>u103D__u103E_.small.tri.glif</string>
   <key>u103D_u103E.tri</key>
   <string>u103D__u103E_.tri.glif</string>
-  <key>u103D_u1060.csh</key>
-  <string>u103D__u1060.csh.glif</string>
+  <key>u103D_u1060</key>
+  <string>u103D__u1060.glif</string>
   <key>u103D_u108D</key>
   <string>u103D__u108D_.glif</string>
   <key>u103E</key>
@@ -974,8 +974,8 @@
   <string>u103E__u1030.slanth.glif</string>
   <key>u103E_u1030.slantr</key>
   <string>u103E__u1030.slantr.glif</string>
-  <key>u103E_u1060.csh</key>
-  <string>u103E__u1060.csh.glif</string>
+  <key>u103E_u1060</key>
+  <string>u103E__u1060.glif</string>
   <key>u103F</key>
   <string>u103F_.glif</string>
   <key>u103F.thai</key>

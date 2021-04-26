@@ -525,8 +525,8 @@ g103c g103d g103e > @1 g103d_103e_small:(2 3) _;
 g103c g103d > g103c_103d_narr:(1 2) _;
 // g103d g103e > g103d_103e_small:(2 3) _ / g103c _ _ ;
 g103d g103e > g103d_103e:(1 2) _;
-g103d g1060 > g103d_1060_csh:(1 2) _;
-g103e g1060 > g103e_1060_csh:(1 2) _;
+g103d g1060 > g103d_1060:(1 2) _;
+g103e g1060 > g103e_1060:(1 2) _;
 g103b g103d > g103b_103d:(1 2) _;
 gKill cno_med g103c g102f > _ cmed:(1 2) @r @u / _ _ _=r ^ cPreVowel? cUVowel? _=u;
 if (!uTall)
@@ -947,14 +947,14 @@ g1039 g1020 > g1020_med_thai:(1 2) _; // There is no corresponding "u1020.med" f
 endif;
 */
 
-if (ashochin == 1 || ashochin__asho == 1)
+if (asho == 1 || asho__asho == 1)
     cno_csh > ccsh;
 else
     ccsh > cno_csh;
 endif;
 
 /* --- old code ---
-if (ashochin)
+if (asho)
 cno_csh > ccsh;
 endif;
 */

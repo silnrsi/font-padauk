@@ -440,8 +440,8 @@ lookup mym2_blws_miscLig {
     sub u103B u103E.slantr  by u103B_u103E; # Kayah
     sub u103B u103E.slanth  by u103B_u103E; # Sgaw Karen
     sub u103D.tri u103E.slantr  by u103D_u103E.tri; # Kayah
-    sub u103D u1060  by u103D_u1060.csh;
-    sub u103E u1060  by u103E_u1060.csh;
+    sub u103D u1060  by u103D_u1060;
+    sub u103E u1060  by u103E_u1060;
     sub u1051 u100C.med  by u1051_u100C;
     sub u1051 u100D.med  by u1051_u100D;
     sub u1086 uAA7C  by u1086_uAA7C; # Tai Laing (abvs, but works here too)
@@ -482,7 +482,7 @@ lookup mym2_blws_raLong {
 } mym2_blws_raLong;
 
 lookup mym2_blws_raShort {
-    @raShort_special =  [u1008.med u102F.med u102F_u108D u1030.med u1030_u108D u103B u103D u103E_u102F u103E_u102F.slanth u103E_u102F.slantr u103E_u1030 u103E_u1030.slanth u103E_u1030.slantr u103E_u1060.csh];
+    @raShort_special =  [u1008.med u102F.med u102F_u108D u1030.med u1030_u108D u103B u103D u103E_u102F u103E_u102F.slanth u103E_u102F.slantr u103E_u1030 u103E_u1030.slanth u103E_u1030.slantr u103E_u1060];
 #    ignore sub u101B.long' [u103E u103E.slantr];
     sub u101B' @_U @raShort_special by u101B.alt;
     sub u101B'     @raShort_special by u101B.alt;
