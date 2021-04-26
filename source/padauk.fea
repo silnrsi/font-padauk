@@ -99,25 +99,29 @@ feature cv07 {      # slanted hato
 } cv07;
 
 feature ss01 {      # filled dots
+    featureNames { name 3 1 0x409 "Filled dots" ; };
     script mym2;
       lookup cv01;
      language dflt;
 } ss01;
 
 feature ss02 {      # tear drop washwe
+    featureNames { name 3 1 0x409 "Tear drop style washwe" ; };
     script mym2;
       lookup cv02;
      language dflt;
 } ss02;
 
 feature ss03 {      # Asho Chin variants
+    featureNames { name 3 1 0x409 "Asho Chin variants" ; };
     script mym2;
-      lookup cv07;
+      lookup cv03;
     language dflt;
     language CSH;
 } ss03;
 
 feature ss04 {      # mon thai variants
+    featureNames { name 3 1 0x409 "Thai Mon variants" ; };
     script mym2;
       lookup cv04;
      language dflt;
@@ -126,6 +130,7 @@ feature ss04 {      # mon thai variants
 } ss04;
 
 feature ss05 {      # Aiton Phake variants
+    featureNames { name 3 1 0x409 "Aiton Phake special characters over Khamti" ; };
     script mym2;
       lookup cv05;
     language dflt;
@@ -133,6 +138,7 @@ feature ss05 {      # Aiton Phake variants
 } ss05;
 
 feature ss06 {      # khamti dot insertion also cv01
+    featureNames { name 3 1 0x409 "Khamti style dots" ; };
     script mym2;
       lookup cv01;
       lookup cv06;
