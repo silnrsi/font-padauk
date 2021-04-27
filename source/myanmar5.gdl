@@ -218,6 +218,11 @@ cStackLig = (g100a_100a, g100b_100b, g100b_100c, g100d_100d, g100d_100e,
              g100f_100b, g100f_100d, g1014_1010_103c, g101e_1010_103c);
 
 /* @doc
+Subjoined consonant ligatures
+@enddoc */
+cMedLig = (g1010_103d_med, g1010_103d_med_tri);
+
+/* @doc
 A list of all the forms that U+101B can take when not medialised
 @enddoc */
 
@@ -247,7 +252,7 @@ cYMed = (g103b, g103b_103d, g103b_103d_103e, g103b_103e);
 There are two prevowels that reorder before their base consonant cluster
 @enddoc */
 
-cPreVowel = (g1031, g1084, g1031_aiph);
+cPreVowel = (g1031, g1031_aiph, g1084);
 
 /* @doc
 Bases that will collide with lower protruding stuff
@@ -735,7 +740,7 @@ Moves the -e vowel to the front. Leave cursor where it was (the rule will not re
 we have removed the -e).
 @enddoc */
 
-_ cPreVowel > @e:e _ / _ ^ c103c? cCons ckinzi? cmed? opt4(cClusDia) g103a? _=e;
+_ cPreVowel > @e:e _ / _ ^ c103c? cCons ckinzi? cmed? cMedLig? opt4(cClusDia) g103a? _=e;
 cStackLig cPreVowel > @e @s / _=s _=e;
 g101b_103b cPreVowel > @e @s / _=s _=e;
 
