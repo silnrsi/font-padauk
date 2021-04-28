@@ -3,7 +3,7 @@
 \setTestFont[features="+clig,+kern",size="18pt"]
 \set[parameter=harfbuzz.subshapers,value=ot]
 
-\proof[size="10pt"]{RenderingUnknown}
+\proof[size=10pt,color="green"]{RenderingUnknown}
 
 %\unicharchart[type="all",columns="10",rows="16"]
 
@@ -15,16 +15,33 @@
 %\subsection{Myanmar Extended-B}
 %\unicharchart[type="range",begin="A9E0",end="A9FE"]
 
-\section{Consonants with subjoined}
 
 %%%%% GROUPS
 % Consonants
+\patterngroup[name="cons"]{ကခဂဃငစဆဇဈဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဟဠ}
 \patterngroup[name="conswide"]{ကဃဆဏတထဘယလသဟအ}
 \patterngroup[name="consnarrow"]{ခဂငစဇဋဌဍဎဒဓနပဖဗမရဟ}
 \patterngroup[name="consmed"]{ကခဂဃငစဆဇဈညဋဌဍဎတထဒဓနပဖဗဘမယရလသအၐၑ}
-\patterngroup[name="udia"]{ိီဲဳဴဵံ}
 
-\pattern[chars="@,#",reps="group_conswide,group_consmed",format="table"]{@္#}
-\pattern[chars="@,#",reps="group_consnarrow,group_consmed",format="table"]{@္#}
+
+% Marks
+\patterngroup[name="vowel"]{ါာိီုူေဲဳဴဵ}
+\patterngroup[name="medial"]{ျြွှ}
+\patterngroup[name="udia"]{ိီဲဳဴဵံ}
+\patterngroup[name="ldia"]{ုူွှ}
+\patterngroup[name="dot"]{ံးႇႈႉႊႚႛꩻ}
+
+
+% \section{Consonants with subjoined}
+\pattern[heading=Wide consonants with subjoined,chars="@,#",reps="group_conswide,group_consmed",format="table"]{@္#}
+\pattern[heading=Narrow consonants with subjoined,chars="@,#",reps="group_consnarrow,group_consmed",format="table"]{@္#}
+
+% \section{Consonants with diacritics}
+\pattern[heading=Wide consonants with vowels,chars="@,#",reps="group_conswide,group_vowel",format="table"]{@#}
+\pattern[heading=Narrow consonants with vowels,chars="@,#",reps="group_consnarrow,group_vowel",format="table"]{@#}
+\pattern[heading=Wide consonants with medials,chars="@,#",reps="group_conswide,group_medial",format="table"]{@#}
+\pattern[heading=Narrow consonants with medials,chars="@,#",reps="group_consnarrow,group_medial",format="table"]{@#}
+\pattern[heading=Wide consonants with medials and vowels,chars="@,#",reps="group_conswide,group_vowel",format="table"]{@ျ# @ြ# @ွ# @ှ#}
+\pattern[heading=Narrow consonants with medials and vowels,chars="@,#",reps="group_consnarrow,group_vowel",format="table"]{@ျ# @ြ# @ွ# @ှ#}
 
 \end{document}
