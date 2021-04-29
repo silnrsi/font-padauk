@@ -138,8 +138,8 @@ lookup mym2_rphf_kinzi {
 lookup mym2_pref_decompose {
     sub u1026 by u1025 u102E;
     sub u1029 by u103C u101E; # presentation not storage sequence (OT reorder has already happened); must precede U103C.wide lookup
-    sub u106F by u101F u103E;
-    sub u107E by u107D u103E;
+#    sub u106F by u101F u103E; # Disabled, see @needsUTall
+#    sub u107E by u107D u103E; # Disabled, see @needsUTall
 } mym2_pref_decompose;
 
 lookup mym2_pref_miscLig {
