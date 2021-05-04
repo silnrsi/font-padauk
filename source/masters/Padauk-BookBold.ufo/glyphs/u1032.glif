@@ -2,6 +2,7 @@
 <glyph name="u1032" format="2">
   <unicode hex="1032"/>
   <anchor x="-247" y="537" name="UM"/>
+  <anchor x="-55" y="800" name="_AA"/>
   <anchor x="-295" y="532" name="_U"/>
   <anchor x="-98" y="532" name="_Y"/>
   <outline>

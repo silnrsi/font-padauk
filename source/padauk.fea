@@ -462,6 +462,7 @@ feature dist {
 } dist;
 
 feature mark {
+  lookup base_AA_base;
   lookup base_BD_base;
   lookup base_BS_base;
   lookup base_L_base;
