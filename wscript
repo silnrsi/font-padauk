@@ -1,22 +1,18 @@
 #!/usr/bin/python3
+# encoding: utf-8
+# this is a smith configuration file - http://scripts.sil.org/smith
+# please adjust this template to your needs
 
-# import codecs, os
-
-# set some default output folders (most are already set by default)
+# identify extra folders to include in package
 DOCDIR = ["documentation", "web"]
-TESTDIR='tests'
-STANDARDS = 'tests/reference'
 
-# set the version control system for srcdist
-VCS = 'git'
-
+# set the package and font family names
 APPNAME='Padauk'
 FAMILY = APPNAME
-DESC_SHORT='Burmese Unicode TrueType font with OpenType and Graphite support'
 
 # retrieve all the authorship information from one of the master UFOs
 getufoinfo('source/masters/Padauk-Regular.ufo')
-BUILDLABEL="beta"
+# BUILDLABEL="beta"
 
 # mystrings = {
 #    'Regular' : 'ပုံမှန်',
@@ -39,8 +35,6 @@ scriptcode = 'mymr' if '--no2' in opts else 'mym2'
 #tests = fonttest(extras = {
 #    'xtest1' : tests({'xtest1' : cmd('cmptxtrender -p -k -e ot -s mym2 -l "${lang}" -e ot -s dflt -L mym2 -L dflt -t ${SRC[1]} -o ${TGT} --copy=otfonts --strip ${fileinfo} ${SRC[0]} ${SRC[0]}')})
 #})
-if '--bake' in opts:
-    testCommand('bake', cmd='${FONTBAKERY} check-googlefonts -n -m ERROR --ghmarkdown padauk-bakery.md ${SRC} ; true', extracmds=["fontbakery"], shapers=0, ext=".md", coverage="fonts", shell=1, fontmode='collect')
 
 # Set up the FTML tests
 ftmlTest('tools/ftml.xsl')
