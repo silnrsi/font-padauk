@@ -74,8 +74,8 @@ feature cv04 {      # mon thai variants
     script mym2;
       lookup cv04;
      language dflt;
-     language MON;
-     language MNW;
+#     language MON;
+#     language MNW;
 } cv04;
 
 feature cv05 {      # Aiton Phake variants
@@ -125,8 +125,8 @@ feature ss04 {      # mon thai variants
     script mym2;
       lookup cv04;
      language dflt;
-     language MON;
-     language MNW;
+#     language MON;
+#     language MNW;
 } ss04;
 
 feature ss05 {      # Aiton Phake variants
