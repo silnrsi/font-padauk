@@ -332,8 +332,6 @@
   <string>multiply.glif</string>
   <key>n</key>
   <string>n.glif</string>
-  <key>nbspace</key>
-  <string>nbspace.glif</string>
   <key>nine</key>
   <string>nine.glif</string>
   <key>nonmarkingreturn</key>
@@ -1546,6 +1544,8 @@
   <string>ugrave.glif</string>
   <key>underscore</key>
   <string>underscore.glif</string>
+  <key>uni00A0</key>
+  <string>uni00A_0.glif</string>
   <key>v</key>
   <string>v.glif</string>
   <key>w</key>

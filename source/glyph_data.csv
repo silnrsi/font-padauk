@@ -97,7 +97,7 @@ braceleft,95,007B
 bar,96,007C
 braceright,97,007D
 asciitilde,98,007E
-nbspace,99,00A0
+uni00A0,99,00A0
 exclamdown,100,00A1
 cent,101,00A2
 sterling,102,00A3
