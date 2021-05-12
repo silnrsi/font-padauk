@@ -6,13 +6,17 @@
 # identify extra folders to include in package
 DOCDIR = ["documentation", "web"]
 
+# set release or beta reference folders for regression testing
+#STANDARDS = 'references/v4'
+STANDARDS = 'references/b1'
+
 # set the package and font family names
-APPNAME='Padauk'
+APPNAME = 'Padauk'
 FAMILY = APPNAME
 
 # retrieve all the authorship information from one of the master UFOs
 getufoinfo('source/masters/Padauk-Regular.ufo')
-# BUILDLABEL="beta"
+# BUILDLABEL = "beta"
 
 # mystrings = {
 #    'Regular' : 'ပုံမှန်',
