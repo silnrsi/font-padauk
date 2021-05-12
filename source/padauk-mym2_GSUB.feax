@@ -79,8 +79,10 @@ lookup mym2_locl_khamti {
     sub @no_khamc by @khamc;
 } mym2_locl_khamti;
 
+
 lookup cv06 {
-    sub @cno_kham by @c_kham;
+#    sub @cno_kham by @c_kham; # Khamti dotted cons use VS01
+    sub @no_khamc by @khamc;
 } cv06;
 
 # ****
@@ -109,10 +111,8 @@ lookup cv04 {
 
 lookup cv05 {
   lookupflag 0 ;
-    sub @cno_aiph by @c_aiph ; # Aiton and Phake variants
-    sub u1004 by u1004.kham ;  # shares glyph with Khamti
-    sub u1015 by u1015.kham ;  # shares glyph with Khamti
-    sub u1019 by u1019.kham ;  # shares glyph with Khamti
+    sub @cConsPreAiph by @cConsAiph ; # Aiton and Phake variants over Khamti
+    sub @cNoAiph      by @cAiph     ; # Other Aiton and Phake variants
 } cv05;
 
 lookup cv07 {

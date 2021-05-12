@@ -74,17 +74,17 @@ feature cv04 {      # mon thai variants
     script mym2;
       lookup cv04;
      language dflt;
-#     language MON;
-#     language MNW;
 } cv04;
 
 feature cv05 {      # Aiton Phake variants
     script mym2;
       lookup cv05;
     language dflt;
+#    language AIO;
+#    language PHK;
 } cv05;
 
-feature cv06 {      # khamti dot insertion
+feature cv06 {      # khamti 1086 variant
     script mym2;
       lookup cv06;
     language dflt;
@@ -125,8 +125,6 @@ feature ss04 {      # mon thai variants
     script mym2;
       lookup cv04;
      language dflt;
-#     language MON;
-#     language MNW;
 } ss04;
 
 feature ss05 {      # Aiton Phake variants
@@ -134,13 +132,14 @@ feature ss05 {      # Aiton Phake variants
     script mym2;
       lookup cv05;
     language dflt;
-    language KHT;
+#    language AIO;
+#    language PHK;
 } ss05;
 
-feature ss06 {      # khamti dot insertion also cv01
-    featureNames { name 3 1 0x409 "Khamti style dots" ; };
+feature ss06 {      # khamti 1086 variant
+    featureNames { name 3 1 0x409 "Khamti variants" ; };
     script mym2;
-      lookup cv01;
+#      lookup cv01; # filled dots
       lookup cv06;
     language dflt;
     language KHT;

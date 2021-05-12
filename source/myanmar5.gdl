@@ -865,22 +865,17 @@ Handle feature substitutions
   to use these "hidden" IDs to accomodate backward compatibility.
 @enddoc */
 
-/* --- removed feature ---
 if (khamti)
-cno_kham > ckham;
+// cno_kham > ckham; //Khamti dotted cons use VS01
+g1086 > g1086_kham;
 endif;
--------------------------- */
 
 if (aitonph == 1 || aitonph__aiph == 1)
-    cno_aiph > caiph;
-    g1004 > g1004_kham; // shares glyph with khamti
-    g1015 > g1015_kham; // shares glyph with khamti
-    g1019 > g1019_kham; // shares glyph with khamti
+    cConsPreAiph > cConsAiph; // Aiton and Phake variants over Khamti
+    cNoAiph      > cAiph;     // Other Aiton and Phake variants
 else
-    caiph > cno_aiph;
-    g1004_kham > g1004;
-    g1015_kham > g1015;
-    g1019_kham > g1019;
+    cConsAiph > cConsPreAiph;
+    cAiph     > cNoAiph;
 endif;
 
 /* --- old code ---

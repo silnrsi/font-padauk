@@ -283,4 +283,22 @@
   <class exts=".dot" name="cToneNonU">
     u1038 u1083 u1087 u1088 u1089 u108A u108B u108C u108F u109C uAA7B
   </class>
+  <class name="cConsPreAiph">
+    u1000.kham u1010.kham u101A.kham u101C.kham u1022.kham 
+    u1075.kham u1078.kham uAA61.kham uAA6B.kham 
+  </class>
+  <class name="cConsAiph">
+    u1000.aiph u1010.aiph u101A.aiph u101C.aiph u1022.aiph 
+    u1075.aiph u1078.aiph uAA61.aiph uAA6B.aiph 
+  </class>
+  <class name="cNoAiph">
+    u1000.med      u1010.med      u1011      u1011.med       u101A.med      u101C.med 
+    u101D          u1031          u103C      u103C.wide      u107A          uAA6D 
+    uAA77          uAA79          uAA7A
+  </class>
+  <class name="cAiph">
+    u1000.med.aiph u1010.med.aiph u1011.aiph u1011.med.aiph  u101A.med.aiph u101C.med.aiph 
+    u101D.aiph     u1031.aiph     u103C.aiph u103C.wide.aiph u107A.aiph     uAA6D.aiph
+    uAA77.aiph     uAA79.aiph     uAA7A.aiph
+  </class>
 </classes>

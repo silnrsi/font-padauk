@@ -46,8 +46,8 @@ aitonph
 khamti
 {
     id = "cv06";
-    id.hidden = "kdot";
-    name.LG_USENG = string("Khamti style dots");
+//    id.hidden = "kdot"; // Khamti dotted cons use VS01
+    name.LG_USENG = string("Khamti variants");
     default = 0;
 }
 
