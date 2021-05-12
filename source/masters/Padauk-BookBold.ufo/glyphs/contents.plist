@@ -636,8 +636,8 @@
   <string>u1010_u103D_.med.tri.glif</string>
   <key>u1011</key>
   <string>u1011.glif</string>
-  <key>u1011.aiph</key>
-  <string>u1011.aiph.glif</string>
+  <key>u1011.kham</key>
+  <string>u1011.kham.glif</string>
   <key>u1011.med</key>
   <string>u1011.med.glif</string>
   <key>u1011.med.aiph</key>
@@ -750,8 +750,8 @@
   <string>u101C_.med_u103D_.glif</string>
   <key>u101D</key>
   <string>u101D_.glif</string>
-  <key>u101D.aiph</key>
-  <string>u101D_.aiph.glif</string>
+  <key>u101D.kham</key>
+  <string>u101D_.kham.glif</string>
   <key>u101E</key>
   <string>u101E_.glif</string>
   <key>u101E.med</key>
@@ -846,8 +846,8 @@
   <string>u1030_u108D_.glif</string>
   <key>u1031</key>
   <string>u1031.glif</string>
-  <key>u1031.aiph</key>
-  <string>u1031.aiph.glif</string>
+  <key>u1031.kham</key>
+  <string>u1031.kham.glif</string>
   <key>u1032</key>
   <string>u1032.glif</string>
   <key>u1032_u102D</key>

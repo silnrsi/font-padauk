@@ -96,8 +96,8 @@ lookup dflt_kinzi_del {
 
 @cplus = [u1004.kinzi u101B.kinzi u103E u103D u103C u103B u103A @cCons];
 
-do  for e = [u1031.aiph u1031 u1084];
-    let n = {"u1031.aiph": "eaiph", "u1031": "e", "u1084": "eshan"}[e];
+do  for e = [u1031.kham u1031 u1084];
+    let n = {"u1031.kham": "eaiph", "u1031": "e", "u1084": "eshan"}[e];
     let pre = "dflt_pre"+n+"_subst";
     let pres = pre+"_short";
     let del = "dflt_pre"+n+"_del";
@@ -119,8 +119,8 @@ lookup dflt_prevowel {
     @cPreE = [u103A u103B u103C u103D u103E u105E u105F u1060];
 # since the string has grown the lookup against the final u1031 is actually executed against the glyph before
 # which is what we want!
-do  for e = [u1031.aiph u1031 u1084];
-    let n = {"u1031.aiph": "eaiph", "u1031": "e", "u1084": "eshan"}[e];
+do  for e = [u1031.kham u1031 u1084];
+    let n = {"u1031.kham": "eaiph", "u1031": "e", "u1084": "eshan"}[e];
     let pre = "dflt_pre"+n+"_subst";
     let pres = pre+"_short";
     let del = "dflt_pre"+n+"_del";

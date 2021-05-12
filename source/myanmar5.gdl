@@ -252,7 +252,7 @@ cYMed = (g103b, g103b_103d, g103b_103d_103e, g103b_103e);
 There are two prevowels that reorder before their base consonant cluster
 @enddoc */
 
-cPreVowel = (g1031, g1031_aiph, g1084);
+cPreVowel = (g1031, g1031_kham, g1084);
 
 /* @doc
 Bases that will collide with lower protruding stuff
