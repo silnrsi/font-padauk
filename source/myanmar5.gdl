@@ -701,7 +701,7 @@ gaa70 > @1;
 // allow ||: for question mark
 g1038 > @2 / g104b _;
 
-_ > g25cc:3 / g1005 _ g103b ^;
+// _ > g25cc:3 / g1005 _ g103b ^; // JC: disabled 2021-05-12
 
 // these rules have sort length 2 which is awkward for any ligature processing
 
