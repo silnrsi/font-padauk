@@ -254,14 +254,14 @@ lookup mym2_103Ealt_Subst {
     sub u103D_u103E  by u103D_u103E.small;
     sub u103E.slantr by u103E.alt;
     sub u103E        by u103E.alt;
-    sub @cno_sml     by @c_sml;
+#    sub @cno_sml     by @c_sml;
 } mym2_103Ealt_Subst;
 
 lookup mym2_blwf_103Ealt {
     sub [@class103C] [@cCons] u103D_u103E'  lookup mym2_103Ealt_Subst;
     sub [@class103C] [@cCons] u103E.slantr' lookup mym2_103Ealt_Subst;
     sub [@class103C] [@cCons] u103E'        lookup mym2_103Ealt_Subst;
-    sub [@class103C] [@cCons] @cno_sml'     lookup mym2_103Ealt_Subst;
+#    sub [@class103C] [@cCons] @cno_sml'     lookup mym2_103Ealt_Subst;
     sub                u1009  u103E'        lookup mym2_103Ealt_Subst;
 } mym2_blwf_103Ealt;
 
