@@ -485,17 +485,21 @@ feature mkmk {
   lookup base_BDM_mark;
   lookup base_BSM_mark;
   lookup base_LM_mark;
+  lookup shift_1037;
  script DFLT;
 
  script mymr;
+    language dflt;
+      lookup shift_1037;
     language KSW exclude_dflt;
       lookup base_BDM_mark;
       lookup base_BSM_mark;
       lookup base_LLM_mark;
 
  script mym2;
-#    lookup mk2mk_LM;
-#     language dflt;
+    language dflt;
+      lookup shift_1037;
+#     lookup mk2mk_LM;
 #     language KHN;
 #     language KHT;
      language KSW  exclude_dflt;

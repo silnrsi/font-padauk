@@ -302,6 +302,26 @@ do  for g = [u100D u1025 u105D u103B u100F_u100D];
 } shift_1032;
 #-----------------------------------------------------------------------
 
+#-----------------------------------------------------------------------
+# Input sequence is "u101B u103E u1031? u1037" and u1037 should be positioning past the tail of u101B.
+# (However, u1031 is reordered before we get here, so it's not part of the lookup)
+# Shift the AP "LM" so 1037 positions past the tail
+
+lookup anchor_LM {
+do  for g = [u103E];
+    let a  = APx("u101B.long", "L") - APx("u101B.long", "BS") + APx(g, "_BS");
+    let gy = APy(g, "LM");
+    if a > 0;
+    {
+        pos mark $g <anchor $a $gy> mark @_LM;
+    }
+} anchor_LM;
+
+lookup shift_1037 {
+        pos u101B.long u103E' @_LM' lookup anchor_LM;
+} shift_1037;
+#-----------------------------------------------------------------------
+
 # Special mkmk lookup to correct some rules in the base_LM_mark lookup 
 # where certain upper marks or re-ordered glyphs are present
 # !! A mkmk lookup but it must come before lookup extend_base_L_base !!
