@@ -7,6 +7,7 @@
   <anchor x="-107" y="495" name="U"/>
   <anchor x="-225" y="-53" name="dot"/>
   <outline>
+    <component base="u103D.tri" xOffset="40" yOffset="30"/>
     <contour>
       <point x="169" y="-471" type="line"/>
       <point x="169" y="444" type="line"/>
@@ -15,6 +16,5 @@
       <point x="-52" y="-292" type="line"/>
       <point x="-84" y="-406" type="line"/>
     </contour>
-    <component base="u103D.tri" xOffset="40" yOffset="30"/>
   </outline>
 </glyph>

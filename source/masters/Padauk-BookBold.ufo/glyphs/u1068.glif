@@ -6,6 +6,7 @@
   <anchor x="173" y="-53" name="BS"/>
   <anchor x="173" y="-53" name="L"/>
   <outline>
+    <component base="u1089" xOffset="78" yOffset="569"/>
     <contour>
       <point x="55" y="0" type="line"/>
       <point x="292" y="0" type="line"/>
@@ -14,6 +15,5 @@
       <point x="186" y="114" type="line"/>
       <point x="55" y="114" type="line"/>
     </contour>
-    <component base="u1089" xOffset="78" yOffset="569"/>
   </outline>
 </glyph>

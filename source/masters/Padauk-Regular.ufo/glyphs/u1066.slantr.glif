@@ -8,6 +8,7 @@
   <anchor x="292" y="495" name="U"/>
   <anchor x="0" y="0" name="_R"/>
   <outline>
+    <component base="u103E.slantr" xOffset="330"/>
     <contour>
       <point x="292" y="-15" type="curve" smooth="yes"/>
       <point x="423" y="-15"/>
@@ -36,6 +37,5 @@
       <point x="55" y="88"/>
       <point x="161" y="-15"/>
     </contour>
-    <component base="u103E.slantr" xOffset="330"/>
   </outline>
 </glyph>

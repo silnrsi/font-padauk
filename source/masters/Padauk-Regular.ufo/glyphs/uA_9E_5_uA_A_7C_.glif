@@ -5,12 +5,12 @@
   <anchor x="-111" y="495" name="_U"/>
   <anchor x="-34" y="495" name="_Y"/>
   <outline>
+    <component base="uA9E5" xOffset="-10"/>
     <contour>
       <point x="-609" y="669" type="line"/>
       <point x="-319" y="669" type="line"/>
       <point x="-319" y="720" type="line"/>
       <point x="-609" y="720" type="line"/>
     </contour>
-    <component base="uA9E5" xOffset="-10"/>
   </outline>
 </glyph>

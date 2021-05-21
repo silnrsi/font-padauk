@@ -4,6 +4,7 @@
   <anchor x="-747" y="495" name="_U"/>
   <anchor x="-608" y="495" name="_Y"/>
   <outline>
+    <component base="uAA70" xOffset="-8"/>
     <contour>
       <point x="-744" y="540" type="curve" smooth="yes"/>
       <point x="-640" y="540"/>
@@ -32,6 +33,5 @@
       <point x="-661" y="685"/>
       <point x="-698" y="644"/>
     </contour>
-    <component base="uAA70" xOffset="-8"/>
   </outline>
 </glyph>
