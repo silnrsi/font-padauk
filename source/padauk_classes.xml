@@ -301,4 +301,10 @@
     u103C.aiph     u103C.wide.aiph u107A.aiph      uAA6D.aiph
     uAA77.aiph     uAA79.aiph      uAA7A.aiph
   </class>
+  <class name="c103C_all">
+    u103C u103C.wide u103C.alt.narr u103C.alt.wide 
+	u103C_u103D.narr u103C_u103D.wide u103C_u103D.alt.narr u103C_u103D.alt.wide
+	u103C_u102F.narr u103C_u102F.wide u103C_u102F.alt.narr u103C_u102F.alt.wide
+	u103C_u103D.alt.narr.tri u103C_u103D.alt.wide.tri u103C_u103D.narr.tri u103C_u103D.wide.tri
+  </class>
 </classes>

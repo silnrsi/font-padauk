@@ -15,11 +15,6 @@
 
 @classUpperVowel = [u102D u102D_u1036 u102E u1032_u102D u1033 u1034 u1035 u1071 u1072 u1073
     u1074 u1085 u1086];
-
-@class103C = [u103C u103C.alt.narr u103C.alt.wide u103C.wide 
-	u103C_u103D.narr u103C_u103D.wide u103C_u103D.alt.narr u103C_u103D.alt.wide
-	u103C_u102F.narr u103C_u102F.wide u103C_u102F.alt.narr u103C_u102F.alt.wide
-	u103C_u103D.alt.narr.tri u103C_u103D.alt.wide.tri u103C_u103D.narr.tri u103C_u103D.wide.tri];
 	
 # Mark attachment classes (defined in GDEF, used in lookupflags)
 @class103CLig = [u102F.med u103C u103C.wide u103C_u103D.narr u103C_u103D.wide u103C_u102F.narr
@@ -222,10 +217,10 @@ lookup mym2_medVowelSubst {
 lookup mym2_blwf_medVowels {
     @needsUtall = [u1008 u100B u100D u1020 u1025 u105A u105B u105D u1061 u106F u1070 u107A u107E];
     
-    ignore sub @class103C @cCons     [u103E u103E.alt u103E.slantr] @_U [u102F u1030]';
-    ignore sub @class103C @cCons     [u103E u103E.alt u103E.slantr]     [u102F u1030]';
-    ignore sub @class103C @cCons @_U  u1030'; # tallUU after wrap
-    ignore sub @class103C @cCons      u1030'; # tallUU after wrap
+    ignore sub @c103C_all @cCons     [u103E u103E.alt u103E.slantr] @_U [u102F u1030]';
+    ignore sub @c103C_all @cCons     [u103E u103E.alt u103E.slantr]     [u102F u1030]';
+    ignore sub @c103C_all @cCons @_U  u1030'; # tallUU after wrap
+    ignore sub @c103C_all @cCons      u1030'; # tallUU after wrap
     ignore sub @needsUtall       @_U [u102F u1030]';
     ignore sub @needsUtall           [u102F u1030]';
     ignore sub @cCons     @c_med @_U [u102F u1030]';
@@ -258,10 +253,10 @@ lookup mym2_103Ealt_Subst {
 } mym2_103Ealt_Subst;
 
 lookup mym2_blwf_103Ealt {
-    sub [@class103C] [@cCons] u103D_u103E'  lookup mym2_103Ealt_Subst;
-    sub [@class103C] [@cCons] u103E.slantr' lookup mym2_103Ealt_Subst;
-    sub [@class103C] [@cCons] u103E'        lookup mym2_103Ealt_Subst;
-#    sub [@class103C] [@cCons] @cno_sml'     lookup mym2_103Ealt_Subst;
+    sub @c103C_all [@cCons] u103D_u103E'  lookup mym2_103Ealt_Subst;
+    sub @c103C_all [@cCons] u103E.slantr' lookup mym2_103Ealt_Subst;
+    sub @c103C_all [@cCons] u103E'        lookup mym2_103Ealt_Subst;
+#    sub @c103C_all [@cCons] @cno_sml'     lookup mym2_103Ealt_Subst;
     sub                u1009  u103E'        lookup mym2_103Ealt_Subst;
 } mym2_blwf_103Ealt;
 
@@ -609,7 +604,7 @@ lookup consmed_sml {
 } consmed_sml;
 
 lookup consmed_103C {
-    sub @class103C @cCons @cno_sml_med' lookup consmed_sml;
+    sub @c103C_all @cCons @cno_sml_med' lookup consmed_sml;
 } consmed_103C;
 
 # --------------------------------------------------------------------
