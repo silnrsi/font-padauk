@@ -44,4 +44,7 @@
 \pattern[heading=Wide consonants with medials and vowels,chars="@,#",reps="group_conswide,group_vowel",format="table"]{@ျ# @ြ# @ွ# @ှ#}
 \pattern[heading=Narrow consonants with medials and vowels,chars="@,#",reps="group_consnarrow,group_vowel",format="table"]{@ျ# @ြ# @ွ# @ှ#}
 
+% \section{Vowel sign e with consonants kern test}
+\pattern[heading=Vowel sign e with consonants,chars="@",reps="group_cons",format="table"]{@ေ}
+
 \end{document}

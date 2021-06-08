@@ -391,6 +391,7 @@ feature kern {
      lookup dist_dflt_SpacingMarks;
      lookup dist_SpacingRedup;
      lookup kern_103Clig_1037;
+     lookup kern_1031;
      lookup shift_103C_udia;
      lookup dist_103C_Cons;
      lookup shift_1032;
@@ -401,6 +402,7 @@ feature kern {
      lookup dist_SpacingRedup;
      lookup kerntall;
      lookup kern_103Clig_1037;
+     lookup kern_1031;
      lookup dist_103C_Cons;
      lookup shift_1032;
      lookup shift_for_103B;
@@ -418,6 +420,7 @@ feature kern {
      lookup dist_dflt_SpacingMarks;
      lookup dist_SpacingRedup;
      lookup kern_103Clig_1037;
+     lookup kern_1031;
      lookup dist_103C_Cons;
      lookup shift_103C_udia;
      lookup shift_1032;
@@ -428,6 +431,7 @@ feature kern {
      lookup dist_dflt_SpacingMarks;
      lookup dist_SpacingRedup;
      lookup kern_103Clig_1037;
+     lookup kern_1031;
      lookup dist_103C_Cons;
      lookup shift_1032;
      lookup shift_for_103B;
@@ -448,6 +452,7 @@ feature dist {
      lookup dist_SpacingRedup;
      lookup shift_103C_udia;
      lookup kern_103Clig_1037;
+     lookup kern_1031;
      lookup dist_103C_Cons;
      lookup shift_1032;
      lookup shift_for_103B;
