@@ -52,12 +52,20 @@ feature locl {
 
 feature cv01 {      # filled dots
     script mym2;
+      cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Filled dots" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Filled dots" ; };
+      } ;
       lookup cv01;
      language dflt;
 } cv01;
 
 feature cv02 {      # tear drop washwe
     script mym2;
+      cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Tear drop style washwe" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Tear drop style washwe" ; };
+      } ;
       lookup cv02;
      language dflt;
      language KSW;
@@ -65,6 +73,10 @@ feature cv02 {      # tear drop washwe
 
 feature cv03 {      # Asho Chin variants
     script mym2;
+      cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Asho Chin variants" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Asho Chin variants" ; };
+      } ;
       lookup cv03;
     language dflt;
     language CSH;
@@ -72,12 +84,20 @@ feature cv03 {      # Asho Chin variants
 
 feature cv04 {      # mon thai variants
     script mym2;
+      cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Thai Mon variants" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Thai Mon variants" ; };
+      } ;
       lookup cv04;
      language dflt;
 } cv04;
 
 feature cv05 {      # Aiton Phake variants
     script mym2;
+      cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Aiton Phake special characters over Khamti" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Aiton Phake variants over Khamti"           ; };
+      } ;
       lookup cv05;
     language dflt;
 #    language AIO;
@@ -86,6 +106,10 @@ feature cv05 {      # Aiton Phake variants
 
 feature cv06 {      # khamti 1086 variant
     script mym2;
+      cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Khamti variants" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Khamti variants" ; };
+      } ;
       lookup cv06;
     language dflt;
     language KHT;
@@ -93,43 +117,48 @@ feature cv06 {      # khamti 1086 variant
 
 feature cv07 {      # slanted hato
     script mym2;
+      cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Slanted hato" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Sgaw style slanted leg with horizontal foot" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Slanted leg with right angled foot"          ; };
+      } ;
       lookup cv07;
      language dflt;
      language KSW;
 } cv07;
 
 feature ss01 {      # filled dots
-    featureNames { name 3 1 0x409 "Filled dots" ; };
     script mym2;
+      featureNames { name 3 1 0x409 "Filled dots" ; };
       lookup cv01;
      language dflt;
 } ss01;
 
 feature ss02 {      # tear drop washwe
-    featureNames { name 3 1 0x409 "Tear drop style washwe" ; };
     script mym2;
+      featureNames { name 3 1 0x409 "Tear drop style washwe" ; };
       lookup cv02;
      language dflt;
 } ss02;
 
 feature ss03 {      # Asho Chin variants
-    featureNames { name 3 1 0x409 "Asho Chin variants" ; };
     script mym2;
+      featureNames { name 3 1 0x409 "Asho Chin variants" ; };
       lookup cv03;
     language dflt;
     language CSH;
 } ss03;
 
 feature ss04 {      # mon thai variants
-    featureNames { name 3 1 0x409 "Thai Mon variants" ; };
     script mym2;
+      featureNames { name 3 1 0x409 "Thai Mon variants" ; };
       lookup cv04;
      language dflt;
 } ss04;
 
 feature ss05 {      # Aiton Phake variants
-    featureNames { name 3 1 0x409 "Aiton Phake special characters over Khamti" ; };
     script mym2;
+      featureNames { name 3 1 0x409 "Aiton Phake special characters over Khamti" ; };
       lookup cv05;
     language dflt;
 #    language AIO;
@@ -137,8 +166,8 @@ feature ss05 {      # Aiton Phake variants
 } ss05;
 
 feature ss06 {      # khamti 1086 variant
-    featureNames { name 3 1 0x409 "Khamti variants" ; };
     script mym2;
+      featureNames { name 3 1 0x409 "Khamti variants" ; };
 #      lookup cv01; # filled dots
       lookup cv06;
     language dflt;

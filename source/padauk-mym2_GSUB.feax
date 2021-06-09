@@ -85,34 +85,28 @@ lookup cv06 {
 # ****
 
 lookup cv01 {
-  lookupflag 0 ;
     sub @cno_dot by @c_dot ; # filled dots (fdot)
 } cv01;
 
 lookup cv02 {
-  lookupflag 0 ;
     sub @cno_tri by @c_tri ; # Tear drop style washwe (wtri)
 } cv02;
 
 lookup cv03 {
-  lookupflag 0 ;
-    sub @cno_csh by @c_csh ; # Asho Chin variants
+    sub @cno_csh by @c_csh ; # Asho Chin variants (asho)
 } cv03;
 
 lookup cv04 {
-  lookupflag 0 ;
-    sub @cno_thai by @c_thai ; # Mon Thai variants
+    sub @cno_thai by @c_thai ; # Mon Thai variants (thai)
 } cv04;
 
 lookup cv05 {
-  lookupflag 0 ;
-    sub @cConsPreAiph by @cConsAiph ; # Aiton and Phake variants over Khamti
+    sub @cConsPreAiph by @cConsAiph ; # Aiton and Phake variants over Khamti (aiph)
     sub @cNoAiph      by @cAiph     ; # Other Aiton and Phake variants
 } cv05;
 
 lookup cv07 {
-  lookupflag 0 ;
-    sub @cno_slanth from [@c_slanth @c_slantr] ; # Slanted hato (hsln), 1 = Sgaw style slanted leg with horizontal foot, 2 = Slanted leg with right angled foot
+    sub @cno_slanth from [@c_slanth @c_slantr] ; # Slanted hato (hsln)
 } cv07;
 
 
