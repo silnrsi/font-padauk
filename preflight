@@ -24,4 +24,9 @@ psfmakewoffmetadata -n padauk -i org.sil.fonts -o source/padauk-WOFF-metadata.xm
 echo "-----Check and normalize BookBold..."
 psfnormalize -p checkfix=fix source/masters/Padauk-BookBold.ufo -l source/logs/normKB.log
 
+echo "Building internal fea..."
+psfmakefea -q -o source/masters/Padauk-Regular.ufo/features.fea -l Padauk-Regular-psfmakefea.log -i source/padauk.fea -c source/padauk_classes.xml --omitaps "_R" source/masters/Padauk-Regular.ufo &
+psfmakefea -q -o source/masters/Padauk-BookBold.ufo/features.fea    -l Padauk-BookBold-psfmakefea.log    -i source/padauk.fea -c source/padauk_classes.xml --omitaps "_R" source/masters/Padauk-BookBold.ufo    &
+wait
+
 echo "preflight completed!"
