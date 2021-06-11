@@ -145,7 +145,26 @@
 
 
 %%% cv06
-\proof[size="12",color="blue"]{Character Variant 6 - Reserved}
+\proof[size="12",color="blue"]{Character Variant 6 - Khamti variants}
+
+\set[parameter=harfbuzz.subshapers,value=graphite2]
+\proof[size=10pt,color="green"]{RenderingUnknown}
+
+\proof[heading=Normal mark U+1086]{က︀ႆ က︀ႆႈꩰ }
+
+\font[features="+cv06=1,+cv01=1"]
+\proof[heading=Khamti mark U+1086]{က︀ႆ က︀ႆႈꩰ }
+
+\set[parameter=harfbuzz.subshapers,value=ot]
+\proof[size=10pt,color="green"]{RenderingUnknown}
+
+\font[features="cv06=0,cv01=0"]
+\proof[heading=Normal mark U+1086]{က︀ႆ က︀ႆႈꩰ }
+
+\font[features="+cv06=1,+cv01=1"]
+\proof[heading=Khamti mark U+1086]{က︀ႆ က︀ႆႈꩰ }
+
+\font[features="cv06=0,cv01=0"]
 
 %%% cv07
 \proof[size="12",color="blue"]{Character Variant 7 - Slanted hato}
