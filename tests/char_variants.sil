@@ -135,12 +135,12 @@
 \font[features="+cv05=1"]
 
 
-\proof[heading=Aiton consonants]{က︀ ၵ︀ င︀ ꩡ︀ ꩥ︀ တ︀ ထ︀ ꩫ︀ ပ︀ ၸ︀ မ︀ ယ︀ ရ︀ လ︀ ဝ︀ ꩭ︀ ဢ︀}
-\proof[heading=Phake consonants]{က︀ ၵ︀ င︀ ꩡ︀ ꩥ︀ တ︀ ထ︀ %
+\proof[heading=Aiton consonants]{က︀ ၵ︀ ꩡ︀ ၺ တ︀ ꩫ︀ ၸ︀ ယ︀ ꩺ လ︀ ꩭ ဢ︀ ြ}
+\proof[heading=Phake consonants]{က︀ ၵ︀ ꩡ︀ ၺ တ︀ %
 \font[features="cv05=0"]%
 ꩫ %
 \font[features="+cv05=1"]%
-ပ︀ ၸ︀ မ︀ ယ︀ ရ︀ လ︀ ဝ︀ ꩭ︀ ဢ︀}%
+ၸ︀ ယ︀ ꩺ လ︀ ꩭ ဢ︀ ြ}%
 
 % Pattern is cons fe00 1039 subjoined
 \proof[size=8pt,color="blue"]{Note: Fontproof pattern "cons fe00 1039 subjoined" needs work - read between the lines!} 
