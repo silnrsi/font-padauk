@@ -55,9 +55,27 @@
 \font[features="cv01=0"]
 
 %%% cv02
-\proof[size="12",color="blue"]{Character Variant 2 (under constrution)}
-%\setTestFont[features="+clig,+kern,+cv02=1",size="18pt"]
-%\proof{ကခဂဃငစဆဇဈဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဠ}
+\proof[size="12",color="blue"]{Character Variant 2 - Tear drop style washwe}
+
+\set[parameter=harfbuzz.subshapers,value=graphite2]
+\proof[size=10pt,color="green"]{RenderingUnknown}
+
+\proof[heading=Round style washwe]{တွ ျွ ြွ ွှ}
+
+\font[features="+cv02=1"]
+\proof[heading=Tear drop style washwe]{တွ ျွ ြွ ွှ}
+
+\set[parameter=harfbuzz.subshapers,value=ot]
+\proof[size=10pt,color="green"]{RenderingUnknown}
+
+\font[features="cv02=0"]
+\proof[heading=Round style washwe]{တွ ျွ ြွ ွှ}
+
+\font[features="+cv02=1"]
+\proof[heading=Tear drop style washwe]{တွ ျွ ြွ ွှ}
+
+\font[features="cv02=0"]
+
 
 %%% cv03
 \proof[size="12",color="blue"]{Character Variant 3 - Asho Chin variants}

@@ -390,13 +390,14 @@ Lists of glyphs that require special kerning when interacting with U+1031
 These are groups of consonants open or closed on the left 
 @enddoc */
 
-cgroup_open =   (g1001 g1006 g1009 g100a g100c g1012 g1014 g1018 g101e g1021 
-                 g103f g107c g1080);
-cgroup_closed = (g1000 g1002 g1003 g1004 g1005 g1007 g1008 g100b g100e g100f 
-                 g1010 g1011 g1013 g1015 g1016 g1017 g1019 g101a g101b g101c 
-                 g101d g101f g1020 g1050 g1051 g1052 g1053 g1054 g1055 g105a 
-                 g105b g105c g105d g1061 g1065 g1066 g106e g106f g1070 g1075 
-                 g1076 g1077 g1078 g107a g107b g107c g107d g107e g107f g1081);
+cgroup_open =   (g1001 g1006 g1009 g100a g100d g1012 g1018 g101e g1021 g103f 
+                 g107c g1080);
+cgroup_closed = (g1000 g1002 g1003 g1004 g1005 g1007 g1008 g100b g100c g100e 
+                 g100f g1010 g1011 g1013 g1014 g1015 g1016 g1017 g1019 g101a 
+                 g101b g101c g101d g101f g1020 g1050 g1051 g1052 g1053 g1054 
+                 g1055 g105a g105b g105c g105d g1061 g1065 g1066 g106e g106f 
+                 g1070 g1075 g1076 g1077 g1078 g107a g107b g107c g107d g107e 
+                 g107f g1081);
 
 /* @doc
 Tone context characters that can occur before a U+AA70 khamti reduplication
