@@ -60,19 +60,19 @@
 \set[parameter=harfbuzz.subshapers,value=graphite2]
 \proof[size=10pt,color="green"]{RenderingUnknown}
 
-\proof[heading=Round style washwe]{တွ ျွ ြွ ွှ}
+\proof[heading=Round style washwe]{တွ ကျွ ကြွ ကွှ}
 
 \font[features="+cv02=1"]
-\proof[heading=Tear drop style washwe]{တွ ျွ ြွ ွှ}
+\proof[heading=Tear drop style washwe]{တွ ကျွ ကြွ ကွှ}
 
 \set[parameter=harfbuzz.subshapers,value=ot]
 \proof[size=10pt,color="green"]{RenderingUnknown}
 
 \font[features="cv02=0"]
-\proof[heading=Round style washwe]{တွ ျွ ြွ ွှ}
+\proof[heading=Round style washwe]{တွ ကျွ ကြွ ကွှ}
 
 \font[features="+cv02=1"]
-\proof[heading=Tear drop style washwe]{တွ ျွ ြွ ွှ}
+\proof[heading=Tear drop style washwe]{တွ ကျွ ကြွ ကွှ}
 
 \font[features="cv02=0"]
 

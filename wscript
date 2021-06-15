@@ -7,8 +7,8 @@
 DOCDIR = ["documentation", "web"]
 
 # set release or beta reference folders for regression testing
-#STANDARDS = 'references/v4'
-STANDARDS = 'references/b1'
+STANDARDS = 'references/v4'
+#STANDARDS = 'references/b1'
 
 # set the package and font family names
 APPNAME = 'Padauk'
