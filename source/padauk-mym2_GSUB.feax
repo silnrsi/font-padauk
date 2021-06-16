@@ -593,14 +593,15 @@ lookup mym2_swap_thing1_thing2 {
     sub @cToneAndKham' lookup reorder_AA70_left     uAA70'       lookup reorder_AA70_right;
 } mym2_swap_thing1_thing2;
 
-lookup consmed_sml {
-    sub @cno_sml_med by @c_sml;
-} consmed_sml;
-
-lookup consmed_103C {
-    sub @c103C_all @cCons @cno_sml_med' lookup consmed_sml;
-} consmed_103C;
-
 # --------------------------------------------------------------------
 ### End of reordering section
 # --------------------------------------------------------------------
+
+lookup consmed_sml_subst {
+    sub @cno_sml_med by @c_sml;
+} consmed_sml_subst;
+
+lookup consmed_sml {
+    sub @c103C_all @cCons @cno_sml_med' lookup consmed_sml_subst;
+    sub [u1009 u100D u1025] @cno_sml_med' lookup consmed_sml_subst;
+} consmed_sml;

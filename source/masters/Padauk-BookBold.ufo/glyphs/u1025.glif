@@ -2,8 +2,8 @@
 <glyph name="u1025" format="2">
   <advance width="577"/>
   <unicode hex="1025"/>
-  <anchor x="276" y="0" name="BD"/>
-  <anchor x="280" y="0" name="BS"/>
+  <anchor x="280" y="-53" name="BD"/>
+  <anchor x="280" y="-53" name="BS"/>
   <anchor x="280" y="-53" name="L"/>
   <anchor x="280" y="495" name="U"/>
   <outline>

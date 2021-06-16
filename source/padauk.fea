@@ -334,7 +334,7 @@ feature rlig {
       lookup mym2_blws_raShort;
       lookup mym2_psts_miscLig;
       lookup mym2_swap_thing1_thing2;
-      lookup consmed_103C;
+      lookup consmed_sml;
     language dflt;
     language KHN;
     language KHT;
@@ -375,7 +375,7 @@ feature rlig {
       lookup mym2_blws_raShort;
       lookup mym2_psts_miscLig;
       lookup mym2_swap_thing1_thing2;
-      lookup consmed_103C;
+      lookup consmed_sml;
      language dflt;
      language KHN;
       lookup mym2_locl_dot;
@@ -393,7 +393,7 @@ feature rlig {
 
  script mym2;
       lookup mym2_swap_thing1_thing2;
-      lookup consmed_103C;
+      lookup consmed_sml;
      language dflt;
      language KHN;
      language KHT;

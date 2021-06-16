@@ -866,6 +866,7 @@ Smaller subjoined forms inside a wrap and after a consonant.
 @enddoc */
 
 cConsSmlMed > csml / ^ c103c cCons _;
+cConsSmlMed > csml / (g1009 g100d g1025) _;
 
 endpass;
 

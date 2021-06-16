@@ -1,6 +1,6 @@
 \begin[class=fontproof]{document}
 \bidi-off
-\setTestFont[features="+clig,+kern",size="18pt"]
+\setTestFont[features="+clig,+kern",size="14pt"]
 \set[parameter=harfbuzz.subshapers,value=ot]
 
 \proof[size=10pt,color="green"]{RenderingUnknown}
@@ -19,7 +19,7 @@
 %%%%% GROUPS
 % Consonants
 \patterngroup[name="cons"]{ကခဂဃငစဆဇဈဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဟဠ}
-\patterngroup[name="conswide"]{ကဃဆဏတထဘယလသဟအ}
+\patterngroup[name="conswide"]{ကဃဆဉညဏတထဘယလသဟအ}
 \patterngroup[name="consnarrow"]{ခဂငစဇဋဌဍဎဒဓနပဖဗမရဟ}
 \patterngroup[name="consmed"]{ကခဂဃငစဆဇဈညဋဌဍဎတထဒဓနပဖဗဘမယရလသအၐၑ}
 
