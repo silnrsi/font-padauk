@@ -8,7 +8,7 @@ and any derivative works.
 
 Basic Font Information
 ----------------------
-Padauk is a pan Burma font designed to support all Myanmar script based 
+Padauk is a pan-Burma font designed to support all Myanmar script-based 
 languages. It covers all of the Unicode Myanmar script blocks and works 
 on all OpenType and Graphite based systems.
 
@@ -34,7 +34,7 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
-18 June 2021 (SIL WSTech team) Version 5.0
+17 June 2021 (SIL WSTech team) Version 5.0
 - Added Thai Mon variant glyphs and language support
 - Added Aiton and Phake variant glyphs and language support
 - Added Sgaw variant glyphs
