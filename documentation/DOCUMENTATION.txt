@@ -16,8 +16,8 @@ Graphite features (source file for the pdf).
 The Padauk-features.pdf file illustrates the use of OpenType and 
 Graphite features.
 
-The Padauk-typesample.odt file shows all the characters in the font
-as well as some running text (source file for the pdf).
+The Padauk-typesample.odt file shows all the Unicode characters in 
+the font as well as some running text (source file for the pdf).
 
-The Padauk-typesample.pdf file shows all the characters in the font
-as well as some running text.
+The Padauk-typesample.pdf file shows all the Unicode characters in 
+the font as well as some running text.
