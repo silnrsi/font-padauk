@@ -200,6 +200,7 @@ lookup DFLT_signsLig {
 
 lookup mym2_blwf_u1039med {
     sub u1039 @cno_med by @c_med;
+    sub u1039  u1020   by u1020.med.thai; # There is no corresponding "u1020.med" 
 } mym2_blwf_u1039med;
 
 
