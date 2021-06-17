@@ -4778,6 +4778,8 @@ lookup mym2_blwf_u1039med {
     sub u1039 u105B by u105B.med;
     sub u1039 u105C by u105C.med;
     sub u1039 uAA60 by uAA60.med;
+    sub u1039 u1020 by u1020.med.thai;
+    # There is no corresponding "u1020.med" 
 } mym2_blwf_u1039med;
 
 lookup mym2_medVowelSubst {
