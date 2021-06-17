@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
-  <uniqueid id="org.sil.fonts.padauk.4.953" />
+  <uniqueid id="org.sil.fonts.padauk.5.000" />
   <vendor name="SIL International" url="http://www.sil.org" />
   <credits>
     <credit
@@ -34,7 +34,7 @@
   </credits>
   <description>
     <text lang="en">
-      Padauk is a pan Burma font designed to support all Myanmar script based
+      Padauk is a pan-Burma font designed to support all Myanmar script-based
       languages. It covers all of the Unicode Myanmar script blocks and works
       on all OpenType and Graphite based systems.
       
@@ -60,7 +60,7 @@
       ---------
       (This should list both major and minor changes, most recent first.)
       
-      18 June 2021 (SIL WSTech team) Version 5.0
+      17 June 2021 (SIL WSTech team) Version 5.0
       - Added Thai Mon variant glyphs and language support
       - Added Aiton and Phake variant glyphs and language support
       - Added Sgaw variant glyphs

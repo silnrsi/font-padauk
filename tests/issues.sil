@@ -13,7 +13,7 @@
 \font[language="ksw"]
 \proof[size="18pt",heading=language = ksw]{ၡူး ၦ့ၤချ့ ခှ ကွ့}
 
-\font[features=+cv07=1"]
+\font[features="+cv07=1"]
 \proof[size="18pt",heading=language = ksw plus features = "cv07=1"]{ၡူး ၦ့ၤချ့ ခှ ကွ့}
 
 \font[features="+cv02=1,+cv07=1"]
@@ -25,14 +25,18 @@
 \proof[size=10pt,color="green"]{RenderingUnknown}
 \proof[size="18pt",heading=Padauk with no special features]{ၡူး ၦ့ၤချ့ ခှ ကွ့}
 
+\font[features="cv02=0,cv07=0"]
+
 \font[language="ksw"]
 \proof[size="18pt",heading=language = ksw]{ၡူး ၦ့ၤချ့ ခှ ကွ့}
 
-\font[features=+cv07=1"]
+\font[features="+cv07=1"]
 \proof[size="18pt",heading=language = ksw plus features = "cv07=1"]{ၡူး ၦ့ၤချ့ ခှ ကွ့}
 
 \font[features="+cv02=1,+cv07=1"]
 \proof[size=18pt,heading=language = ksw plus features = "cv07=1" and "cv02=1"]{ၡူး ၦ့ၤချ့ ခှ ကွ့}
+
+\font[features="cv02=0,cv07=0"]
 
 % #33
 \bigskip

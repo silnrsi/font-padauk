@@ -151,7 +151,7 @@ markClass [uA9E5 uA9E5_uAA7C] <anchor -111 495> @_U;
 markClass uAA70 <anchor -280 495> @_U;
 
 # AP: BD
-@BD = [circledash u1700 u1000 u1000.aiph u1000.kham u1078.aiph u1078.kham uA9E9 uAA64 uAA64.kham uAA71 u1000_u1001_u103B u1001 u1045 u1054 u1055 u1090 uA9E0 u1002 u1004 u1004.kham u100B.thai u100C.thai u1015 u1015.kham u1016 u1017 u101B.kham u1020.thai u1023.thai u1027 u1028 u1031 u1031.kham u1040 u1046 u1048 u1049 u1049.thai u1050 u1051 u105A u1066 u1066.slanth u1066.slantr u107F u1081.straight uA9FD u1003 u1006 u1011 u1011.kham u1022 uA9E3 uA9EC uA9EE uA9FC uAA67 uAA69 uAA6A uAA6C uAA6C.alt uAA6C.kham u1003.thai u1005 u108E u1007 u1014.alt u101D u101D.kham u1047 u1008 u1009 u1009_u102C u100A u100A_u100A u100A.alt u100B u100B_u100B u100C u1020_u1020 u1020_u103E u100B.alt u1051_u100C u1051_u100D u100B_u100C u100D u1020.long u100D.thai u100D_u100D u100D_u100E u100E u1052 u1075 u1077 u100E.thai u106F u1070 u100F u100F_u100B u100F_u100D u1010 u1010.aiph u1010.kham u1078 u1080 u1080.kham uA9EB uA9ED uA9FB uA9FE uAA66 uAA66.kham u1012 u1012.thai u1013 u1014 u1014.thai u1014_u1010_u103B u1014_u1010_u103C u103C u103C.aiph u103C.alt.narr u1018 u101E u101E.thai u1021.thai u1019 u1019.kham u105D u101A u101A.aiph u101A.kham u101F u107D u101B u1061 u1061.slanth u1061.slantr uAA79.aiph u101B.alt u101B.long u101B_u103B u101C u101C.aiph u101C.kham uA9EA uA9FA uAA6E u101E_u1010_u103C u1029 u103C.alt.wide u103C.wide u103C.wide.aiph u1020 u1021 uA9E2 uAA60 uAA60.kham u1022.aiph u1022.kham uAA61.aiph uAA61.kham uAA63.kham u1023 u1025 u1026 u102B u102B_u103A u102C uAA79 u102F u1098 u1099 u1030 u103B u103C_u102F.alt.narr u103C_u102F.narr u103C_u102F.alt.wide u103C_u102F.wide u103C_u103D.alt.narr u103C_u103D.narr u103C_u103D.alt.narr.tri u103C_u103D.narr.tri uAA65 uAA65.kham u103C_u103D.alt.wide u103C_u103D.wide u103C_u103D.alt.wide.tri u103C_u103D.wide.tri u103F u103F.thai u1041 u1042 u1043 u1065 u1044 u104C u1053 u1056 u1057 u105B u105C u1062 u1064 u1062_u103A u1063 u107E u1063_u103A u1067 u106C u1068 u1069 u106A u106B u106D u106D.csh u106E u1075.aiph u1075.kham u1076 u1079 u107B u107A u107A.aiph u107A.alt.aiph u107C u1081 uA9E1 uA9E4 uA9E8 uA9E7 uA9EF uAA6B.aiph uAA61 uAA62 uAA62.kham uAA73 uAA73.kham uAA63 uAA68 uAA6B uAA6B.kham uAA6D uAA6D.aiph uAA6F uAA6F.kham uAA72 uAA77 uAA77.aiph uAA7A uAA7A.aiph uAA7E uAA7F];
+@BD = [circledash u1700 u1000 u1000.aiph u1000.kham u1078.aiph u1078.kham uA9E9 uAA64 uAA64.kham uAA71 u1000_u1001_u103B u1001 u1045 u1054 u1055 u1090 uA9E0 u1002 u1004 u1004.kham u100B.thai u100C.thai u1015 u1015.kham u1016 u1017 u101B.kham u1020.thai u1023.thai u1027 u1028 u1031 u1031.kham u1040 u1046 u1048 u1049 u1049.thai u1050 u1051 u105A u1066 u1066.slanth u1066.slantr u107F u1081.straight uA9FD u1003 u1006 u1011 u1011.kham u1022 uA9E3 uA9EC uA9EE uA9FC uAA67 uAA69 uAA6A uAA6C uAA6C.alt uAA6C.kham u1003.thai u1005 u108E u1007 u1014.alt u101D u101D.kham u1047 u1008 u1009 u1009_u102C u100A u100A_u100A u100A.alt u100B u100B_u100B u100C u1020_u1020 u1020_u103E u100B.alt u1051_u100C u1051_u100D u100B_u100C u100D u1020.long u100D.thai u100D_u100D u100D_u100E u100E u1052 u1075 u1077 u100E.thai u106F u1070 u100F u100F_u100B u100F_u100D u1010 u1010.aiph u1010.kham u1078 u1080 u1080.kham uA9EB uA9ED uA9FB uA9FE uAA66 uAA66.kham u1012 u1012.thai u1013 u1014 u1014.thai u1014_u1010_u103B u1014_u1010_u103C u103C u103C.aiph u103C.alt.narr u1018 u101E u101E.thai u1021.thai u1019 u1019.kham u105D u101A u101A.aiph u101A.kham u101F u107D u101B u1061 u1061.slanth u1061.slantr uAA79.aiph u101B.alt u101B.long u101B_u103B u101C u101C.aiph u101C.kham uA9EA uA9FA uAA6E u101E_u1010_u103C u1029 u103C.alt.wide u103C.wide u103C.wide.aiph u1020 u1021 uA9E2 uAA60 uAA60.kham u1022.aiph u1022.kham uAA61.aiph uAA61.kham uAA63.kham u1023 u1025 u1063 u107E u1026 u102B u102B_u103A u102C uAA79 u102F u1098 u1099 u1030 u103B u103C_u102F.alt.narr u103C_u102F.narr u103C_u102F.alt.wide u103C_u102F.wide u103C_u103D.alt.narr u103C_u103D.narr u103C_u103D.alt.narr.tri u103C_u103D.narr.tri uAA65 uAA65.kham u103C_u103D.alt.wide u103C_u103D.wide u103C_u103D.alt.wide.tri u103C_u103D.wide.tri u103F u103F.thai u1041 u1042 u1043 u1065 u1044 u104C u1053 u1056 u1057 u105B u105C u1062 u1064 u1062_u103A u1063_u103A u1067 u106C u1068 u1069 u106A u106B u106D u106D.csh u106E u1075.aiph u1075.kham u1076 u1079 u107B u107A u107A.aiph u107A.alt.aiph u107C u1081 uA9E1 uA9E4 uA9E8 uA9E7 uA9EF uAA6B.aiph uAA61 uAA62 uAA62.kham uAA73 uAA73.kham uAA63 uAA68 uAA6B uAA6B.kham uAA6D uAA6D.aiph uAA6F uAA6F.kham uAA72 uAA77 uAA77.aiph uAA7A uAA7A.aiph uAA7E uAA7F];
 # baseClass [circledash u1700] <anchor 318 -53> @BD;
 # baseClass [u1000 u1000.aiph u1000.kham u1078.aiph u1078.kham uA9E9 uAA64 uAA64.kham uAA71] <anchor 508 -53> @BD;
 # baseClass u1000_u1001_u103B <anchor 1236 -53> @BD;
@@ -196,7 +196,8 @@ markClass uAA70 <anchor -280 495> @_U;
 # baseClass [u1021 uA9E2 uAA60 uAA60.kham] <anchor 465 -53> @BD;
 # baseClass [u1022.aiph u1022.kham uAA61.aiph uAA61.kham uAA63.kham] <anchor 532 -53> @BD;
 # baseClass u1023 <anchor 993 -53> @BD;
-# baseClass [u1025 u1026] <anchor 276 0> @BD;
+# baseClass [u1025 u1063 u107E] <anchor 276 -53> @BD;
+# baseClass u1026 <anchor 276 0> @BD;
 # baseClass [u102B u102B_u103A] <anchor 96 -53> @BD;
 # baseClass [u102C uAA79] <anchor 133 -53> @BD;
 # baseClass [u102F u1098 u1099] <anchor 290 -53> @BD;
@@ -221,7 +222,6 @@ markClass uAA70 <anchor -280 495> @_U;
 # baseClass u105C <anchor 290 -69> @BD;
 # baseClass [u1062 u1064] <anchor 192 -53> @BD;
 # baseClass u1062_u103A <anchor 216 -53> @BD;
-# baseClass [u1063 u107E] <anchor 276 -53> @BD;
 # baseClass u1063_u103A <anchor 306 -53> @BD;
 # baseClass [u1067 u106C] <anchor 138 -53> @BD;
 # baseClass u1068 <anchor 134 -53> @BD;
@@ -257,7 +257,7 @@ markClass uAA70 <anchor -280 495> @_U;
 # baseClass uAA7F <anchor 366 -53> @BD;
 
 # AP: BS
-@BS = [circledash u1700 u1000 u1000.aiph u1000.kham u101F u1078.aiph u1078.kham u107D uA9E9 uAA64 uAA64.kham uAA71 u1000_u1001_u103B u1001 u1045 u1054 u1055 u1090 uA9E0 u1002 u1004 u1004.kham u1015 u1015.kham u1016 u1017 u101B.kham u1027 u1028 u1031 u1031.kham u1040 u1046 u1048 u1049 u1049.thai u1050 u1051 u105A u1066 u1066.slanth u1066.slantr u107F u1081.straight uA9FD u1003 u1022 uAA6C.alt u1003.thai u1005 u108E u1006 u100A.alt u1011 u1011.kham u101E uA9EE uA9FC uAA61 uAA67 uAA69 uAA6A u1007 u101D u101D.kham u1047 u1008 u1009 u1009_u102C u100A u100A_u100A u100B u100B_u100B u100C u1020_u1020 u1020_u103E u100B.alt u1051_u100C u1051_u100D u100B.thai u100C.thai u1020.thai u1023.thai u100B_u100C u100D u1020.long u100D.thai u100D_u100D u100D_u100E u100E u1052 u1075 u1077 u100E.thai u100F u100F_u100B u100F_u100D u1010 u1010.aiph u1010.kham u1078 u1080 u1080.kham uA9EB uA9ED uA9FB uAA66 uAA66.kham u1012 u1012.thai u1013 u1014 u1014.thai u1014.alt u1014_u1010_u103B u1014_u1010_u103C u1018 u1019 u1019.kham u105D u101A u101A.aiph u101A.kham u101B uAA79.aiph u101B.alt u101B.long u101B_u103B u101C u101C.aiph u101C.kham uA9EA uA9FA uAA6E u101E.thai u1021.thai u107C u101E_u1010_u103C u1029 u103C.alt.wide u103C.wide u103C.wide.aiph u1020 u1021 u1022.aiph u1022.kham uAA61.aiph uAA61.kham uAA63.kham u1023 u1025 u1026 u102B u102B_u103A u102C u102F u1098 u1099 u1030 u103B u103B_u103D u103B_u103D.tri u103B_u103D_u103E u103B_u103D_u103E.tri u103B_u103E u105B.med u103C u103C.aiph u103C.alt.narr u103C_u102F.alt.narr u103C_u102F.narr uA9E7 u103C_u102F.alt.wide u103C_u102F.wide u103C_u103D.alt.narr u103C_u103D.narr u103C_u103D.alt.narr.tri u103C_u103D.narr.tri uAA65 uAA65.kham u103C_u103D.alt.wide u103C_u103D.wide u103C_u103D.alt.wide.tri u103C_u103D.wide.tri u103F u103F.thai u1041 u1042 u1043 u1065 u1044 u104C u104E u1053 u1056 u1057 u105B u105C u1061 u1061.slanth u1061.slantr u1062 u1064 u1062_u103A u1063 u1063_u103A u1067 u106C u1068 u1069 u106A u106B u106D u106D.csh u106E u106F u1070 u1075.aiph u1075.kham u1076 u1079 uA9E2 uAA60 uAA60.kham uAA68 u107A u107A.aiph u107A.alt.aiph u107B u107E u1081 uA9E1 uA9E3 uA9E4 uA9E8 uA9EC uAA6C uAA6C.kham uA9EF uAA6B.aiph uA9FE uAA62 uAA62.kham uAA73 uAA73.kham uAA63 uAA6B uAA6B.kham uAA6D uAA6D.aiph uAA6F uAA6F.kham uAA72 uAA77 uAA77.aiph uAA79 uAA7A uAA7A.aiph uAA7E uAA7F];
+@BS = [circledash u1700 u1000 u1000.aiph u1000.kham u101F u1078.aiph u1078.kham u107D uA9E9 uAA64 uAA64.kham uAA71 u1000_u1001_u103B u1001 u1045 u1054 u1055 u1090 uA9E0 u1002 u1004 u1004.kham u1015 u1015.kham u1016 u1017 u101B.kham u1027 u1028 u1031 u1031.kham u1040 u1046 u1048 u1049 u1049.thai u1050 u1051 u105A u1066 u1066.slanth u1066.slantr u107F u1081.straight uA9FD u1003 u1022 uAA6C.alt u1003.thai u1005 u108E u1006 u100A.alt u1011 u1011.kham u101E uA9EE uA9FC uAA61 uAA67 uAA69 uAA6A u1007 u101D u101D.kham u1047 u1008 u1009 u1009_u102C u100A u100A_u100A u100B u100B_u100B u100C u1020_u1020 u1020_u103E u100B.alt u1051_u100C u1051_u100D u100B.thai u100C.thai u1020.thai u1023.thai u100B_u100C u100D u1020.long u100D.thai u100D_u100D u100D_u100E u100E u1052 u1075 u1077 u100E.thai u100F u100F_u100B u100F_u100D u1010 u1010.aiph u1010.kham u1078 u1080 u1080.kham uA9EB uA9ED uA9FB uAA66 uAA66.kham u1012 u1012.thai u1013 u1014 u1014.thai u1014.alt u1014_u1010_u103B u1014_u1010_u103C u1018 u1019 u1019.kham u105D u101A u101A.aiph u101A.kham u101B uAA79.aiph u101B.alt u101B.long u101B_u103B u101C u101C.aiph u101C.kham uA9EA uA9FA uAA6E u101E.thai u1021.thai u107C u101E_u1010_u103C u1029 u103C.alt.wide u103C.wide u103C.wide.aiph u1020 u1021 u1022.aiph u1022.kham uAA61.aiph uAA61.kham uAA63.kham u1023 u1025 u1063 u1026 u102B u102B_u103A u102C u102F u1098 u1099 u1030 u103B u103B_u103D u103B_u103D.tri u103B_u103D_u103E u103B_u103D_u103E.tri u103B_u103E u105B.med u103C u103C.aiph u103C.alt.narr u103C_u102F.alt.narr u103C_u102F.narr uA9E7 u103C_u102F.alt.wide u103C_u102F.wide u103C_u103D.alt.narr u103C_u103D.narr u103C_u103D.alt.narr.tri u103C_u103D.narr.tri uAA65 uAA65.kham u103C_u103D.alt.wide u103C_u103D.wide u103C_u103D.alt.wide.tri u103C_u103D.wide.tri u103F u103F.thai u1041 u1042 u1043 u1065 u1044 u104C u104E u1053 u1056 u1057 u105B u105C u1061 u1061.slanth u1061.slantr u1062 u1064 u1062_u103A u1063_u103A u1067 u106C u1068 u1069 u106A u106B u106D u106D.csh u106E u106F u1070 u1075.aiph u1075.kham u1076 u1079 uA9E2 uAA60 uAA60.kham uAA68 u107A u107A.aiph u107A.alt.aiph u107B u107E u1081 uA9E1 uA9E3 uA9E4 uA9E8 uA9EC uAA6C uAA6C.kham uA9EF uAA6B.aiph uA9FE uAA62 uAA62.kham uAA73 uAA73.kham uAA63 uAA6B uAA6B.kham uAA6D uAA6D.aiph uAA6F uAA6F.kham uAA72 uAA77 uAA77.aiph uAA79 uAA7A uAA7A.aiph uAA7E uAA7F];
 # baseClass [circledash u1700] <anchor 318 -53> @BS;
 # baseClass [u1000 u1000.aiph u1000.kham u101F u1078.aiph u1078.kham u107D uA9E9 uAA64 uAA64.kham uAA71] <anchor 714 -53> @BS;
 # baseClass u1000_u1001_u103B <anchor 1236 -53> @BS;
@@ -305,7 +305,8 @@ markClass uAA70 <anchor -280 495> @_U;
 # baseClass u1021 <anchor 648 -53> @BS;
 # baseClass [u1022.aiph u1022.kham uAA61.aiph uAA61.kham uAA63.kham] <anchor 914 -53> @BS;
 # baseClass u1023 <anchor 993 -53> @BS;
-# baseClass [u1025 u1026] <anchor 276 0> @BS;
+# baseClass [u1025 u1063] <anchor 276 -53> @BS;
+# baseClass u1026 <anchor 276 0> @BS;
 # baseClass [u102B u102B_u103A] <anchor 96 -53> @BS;
 # baseClass u102C <anchor 133 -53> @BS;
 # baseClass [u102F u1098 u1099] <anchor 290 -53> @BS;
@@ -333,7 +334,6 @@ markClass uAA70 <anchor -280 495> @_U;
 # baseClass [u1061 u1061.slanth u1061.slantr] <anchor 59 -53> @BS;
 # baseClass [u1062 u1064] <anchor 192 -53> @BS;
 # baseClass u1062_u103A <anchor 216 -53> @BS;
-# baseClass u1063 <anchor 276 -53> @BS;
 # baseClass u1063_u103A <anchor 306 -53> @BS;
 # baseClass [u1067 u106C] <anchor 138 -53> @BS;
 # baseClass u1068 <anchor 134 -53> @BS;
@@ -5221,17 +5221,18 @@ lookup mym2_swap_thing1_thing2 {
     sub @cToneAndKham' lookup reorder_AA70_left uAA70' lookup reorder_AA70_right;
 } mym2_swap_thing1_thing2;
 
-lookup consmed_sml {
-    sub @cno_sml_med by @c_sml;
-} consmed_sml;
-
-lookup consmed_103C {
-    sub @c103C_all @cCons @cno_sml_med' lookup consmed_sml;
-} consmed_103C;
-
 # --------------------------------------------------------------------
 ### End of reordering section
 # --------------------------------------------------------------------
+lookup consmed_sml_subst {
+    sub @cno_sml_med by @c_sml;
+} consmed_sml_subst;
+
+lookup consmed_sml {
+    sub @c103C_all @cCons @cno_sml_med' lookup consmed_sml_subst;
+    sub [u100D u1025] @cno_sml_med' lookup consmed_sml_subst;
+} consmed_sml;
+
 #-----------------------------------------------------------------------
 # Additional dist needed for some cons to clear u103C
 @class103CNarr = [u103C u103C.alt.narr u103C.open.narr u103C.alt.open.narr u103C_u103D.narr u103C_u103D.alt.narr u103C_u102F.narr u103C_u102F.alt.narr u103C_u103D.alt.narr.tri u103C_u103D.narr.tri];
@@ -6682,7 +6683,7 @@ lookup guard2_context {
 
     @guard_bases = [u1000_u1001_u103B u1008 u1008.med u103B u103B_u103D u103B_u103D.tri u103B_u103D_u103E u103B_u103D_u103E.tri u103B_u103E u105B.med u100B u100B_u100B u100C u1020_u1020 u1020_u103E u100B.alt u100B_u100C u1051_u100C u1051_u100D u100D u1020.long u100D_u100D u100D_u100E u100F_u100B u100F_u100D u1014 u1014.thai u1014_u1010_u103B u1014_u1010_u103C u101B u1061 u1061.slanth u1061.slantr uAA79 uAA79.aiph u101B.alt u101B.long u101B_u103B u101E_u1010_u103C u1029 u1020 u1023 u102B u102F u1030 u104C u1062 u1066 u1066.slanth u1066.slantr u106B u1081];
 
-    @guard_basedots = [u1000.med u1000.med.aiph u1001.med u1002.med u1002.sml u1003.med u1003.med.thai u1005.med u1006.med u100B.med u100F.med u1010_u103D.med.tri u1013.med u1015.med u1015.med.kham u1017.med u1018.med u1019.med u1019.med.kham u101C.med u101C.med.aiph u1020.med.thai u103D_u103E u105A.med u105C.med u107A.med.aiph uAA6B.med.aiph uAA6B.med.kham u1000.sml u101E.sml u101F.small u1004.med u1004.med.kham u101A.med u101A.med.aiph u1005.sml u1013.sml u1006.sml u1007.med u100A.med u100B.med.thai u100C.med.thai u100E.med u100E.med.thai u100B.sml u100C.med u1010_u103D.med u1014.med u1014.med.thai u1030.med u103D u103D_u1060 u103D_u108D u103E u105E u105F u100D.med u100D.med.thai u1010.med u1010.med.aiph u1010.sml u1075.med.aiph uAA61.med.aiph uAA61.med.kham uAA6C.med.kham u1012.med u103D.tri u103D_u103E.tri u1012.med.thai u1012.sml u1015.sml u1019.sml u101B.med u101C.med_u103D u101E.med u101E.med.thai u1021.med u102F.med u102F_u108D u1030_u108D u1039 u103D.sml u103E.alt u103E.slanth u103E_u1060 u103E.slantr u103E_u102F u103E_u1030 u1050.med u1051.med u1059 u1060 u1082_u108D u108D uAA60.med uAA60.med.kham];
+    @guard_basedots = [u1000.med u1000.med.aiph u1001.med u1002.med u1002.sml u1003.med u1003.med.thai u1005.med u1006.med u100B.med u100F.med u1010_u103D.med.tri u1013.med u1015.med u1015.med.kham u1017.med u1018.med u1019.med u1019.med.kham u101C.med u101C.med.aiph u1020.med.thai u103D_u103E u105A.med u105C.med u107A.med.aiph uAA6B.med.aiph uAA6B.med.kham u1000.sml u101E.sml u101F.small u1004.med u1004.med.kham u101A.med u101A.med.aiph u1005.sml u1013.sml u1006.sml u1007.med u1007.sml u100A.med u100B.med.thai u100C.med.thai u100E.med u100E.med.thai u100B.sml u100C.med u1010_u103D.med u1014.med u1014.med.thai u1030.med u103D u103D_u1060 u103D_u108D u103E u105E u105F u100D.med u100D.med.thai u1010.med u1010.med.aiph u1010.sml u1075.med.aiph uAA61.med.aiph uAA61.med.kham uAA6C.med.kham u1012.med u103D.tri u103D_u103E.tri u1012.med.thai u1012.sml u1015.sml u1019.sml u101B.med u101C.med_u103D u101E.med u101E.med.thai u1021.med u102F.med u102F_u108D u1030_u108D u1039 u103D.sml u103E.alt u103E.slanth u103E_u1060 u103E.slantr u103E_u102F u103E_u1030 u1050.med u1051.med u1059 u1060 u1082_u108D u108D uAA60.med uAA60.med.kham];
 
 lookup guard_dot {
     # wish we could update some notional advance in the base from the previous set of rules
@@ -6779,6 +6780,7 @@ lookup guard_dot {
         pos u1013.sml 125;
         pos u1006.sml 79;
         pos u1007.med 154;
+        pos u1007.sml 154;
         pos u100A.med 239;
         pos u100B.med.thai 223;
         pos u100C.med.thai 224;
@@ -6929,7 +6931,8 @@ lookup dist_103C_Cons {
         pos base u1021 <anchor 648 -53> mark @_BS;
         pos base [u1022.aiph u1022.kham uAA61.aiph uAA61.kham uAA63.kham] <anchor 914 -53> mark @_BS;
         pos base u1023 <anchor 993 -53> mark @_BS;
-        pos base [u1025 u1026] <anchor 276 0> mark @_BS;
+        pos base [u1025 u1063] <anchor 276 -53> mark @_BS;
+        pos base u1026 <anchor 276 0> mark @_BS;
         pos base [u102B u102B_u103A] <anchor 96 -53> mark @_BS;
         pos base u102C <anchor 133 -53> mark @_BS;
         pos base [u102F u1098 u1099] <anchor 290 -53> mark @_BS;
@@ -6957,7 +6960,6 @@ lookup dist_103C_Cons {
         pos base [u1061 u1061.slanth u1061.slantr] <anchor 59 -53> mark @_BS;
         pos base [u1062 u1064] <anchor 192 -53> mark @_BS;
         pos base u1062_u103A <anchor 216 -53> mark @_BS;
-        pos base u1063 <anchor 276 -53> mark @_BS;
         pos base u1063_u103A <anchor 306 -53> mark @_BS;
         pos base [u1067 u106C] <anchor 138 -53> mark @_BS;
         pos base u1068 <anchor 134 -53> mark @_BS;
@@ -7042,7 +7044,8 @@ lookup dist_103C_Cons {
         pos base [u1021 uA9E2 uAA60 uAA60.kham] <anchor 465 -53> mark @_BD;
         pos base [u1022.aiph u1022.kham uAA61.aiph uAA61.kham uAA63.kham] <anchor 532 -53> mark @_BD;
         pos base u1023 <anchor 993 -53> mark @_BD;
-        pos base [u1025 u1026] <anchor 276 0> mark @_BD;
+        pos base [u1025 u1063 u107E] <anchor 276 -53> mark @_BD;
+        pos base u1026 <anchor 276 0> mark @_BD;
         pos base [u102B u102B_u103A] <anchor 96 -53> mark @_BD;
         pos base [u102C uAA79] <anchor 133 -53> mark @_BD;
         pos base [u102F u1098 u1099] <anchor 290 -53> mark @_BD;
@@ -7067,7 +7070,6 @@ lookup dist_103C_Cons {
         pos base u105C <anchor 290 -69> mark @_BD;
         pos base [u1062 u1064] <anchor 192 -53> mark @_BD;
         pos base u1062_u103A <anchor 216 -53> mark @_BD;
-        pos base [u1063 u107E] <anchor 276 -53> mark @_BD;
         pos base u1063_u103A <anchor 306 -53> mark @_BD;
         pos base [u1067 u106C] <anchor 138 -53> mark @_BD;
         pos base u1068 <anchor 134 -53> mark @_BD;
@@ -8086,7 +8088,7 @@ feature rlig {
     lookup mym2_blws_raShort;
     lookup mym2_psts_miscLig;
     lookup mym2_swap_thing1_thing2;
-    lookup consmed_103C;
+    lookup consmed_sml;
     language dflt;
     language KHN;
     language KHT;
@@ -8126,7 +8128,7 @@ feature rlig {
     lookup mym2_blws_raShort;
     lookup mym2_psts_miscLig;
     lookup mym2_swap_thing1_thing2;
-    lookup consmed_103C;
+    lookup consmed_sml;
     language dflt;
     language KHN;
     lookup mym2_locl_dot;
@@ -8143,7 +8145,7 @@ feature rlig {
     language CSH;
     script mym2;
     lookup mym2_swap_thing1_thing2;
-    lookup consmed_103C;
+    lookup consmed_sml;
     language dflt;
     language KHN;
     language KHT;

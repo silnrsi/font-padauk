@@ -13,7 +13,7 @@
   <key>familyName</key>
   <string>Padauk</string>
   <key>openTypeHeadCreated</key>
-  <string>2021/06/15 18:06:23</string>
+  <string>2021/06/17 13:36:30</string>
   <key>openTypeHheaAscender</key>
   <integer>1010</integer>
   <key>openTypeHheaDescender</key>
@@ -83,7 +83,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameUniqueID</key>
   <string>SIL International: Padauk Book Bold: 2021</string>
   <key>openTypeNameVersion</key>
-  <string>Version 4.953</string>
+  <string>Version 5.000</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -182,9 +182,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>unitsPerEm</key>
   <integer>1024</integer>
   <key>versionMajor</key>
-  <integer>4</integer>
+  <integer>5</integer>
   <key>versionMinor</key>
-  <integer>953</integer>
+  <integer>0</integer>
   <key>xHeight</key>
   <integer>466</integer>
 </dict>
