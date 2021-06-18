@@ -34,7 +34,7 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
-17 June 2021 (SIL WSTech team) Version 5.0
+18 June 2021 (SIL WSTech team) Version 5.0
 - Added Thai Mon variant glyphs and language support
 - Added Aiton and Phake variant glyphs and language support
 - Added Sgaw variant glyphs
@@ -42,6 +42,8 @@ ChangeLog
   OpenType and Graphite
 - Added Stylistic Set features (ss01-06) for variant selection in OpenType
 - Added glyphs to Variation Selector VS1 for Khamti and Aiton
+- Added support for Mon sequence of U+102B (tall AA) followed by U+1032 (AI)
+- Fixed various bugs
 - Added kerning to some glyph pairs
 
 6 September 2019 (SIL WSTech team) Version 4.0
