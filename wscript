@@ -69,8 +69,10 @@ d = designspace('source/Padauk.designspace',
 )
 
 # Make khamti package
-kpackage = package(appname="PadaukNamKio", version=devver)
-dpackage = package(appname="Deemawso", version=devver)
+# kpackage = package(appname="PadaukNamKio", version=devver)
+# dpackage = package(appname="Deemawso", version=devver)
+kpackage = package(appname="PadaukNamKio")
+dpackage = package(appname="Deemawso")
 for f in d.fonts:
     font(target = process('khamti/'+f.target.replace('Padauk', 'NamKio'),
                         # cmd('ttfremap -r -c ${SRC} ${DEP} ${TGT}', ['source/namkio_remap.txt']),
