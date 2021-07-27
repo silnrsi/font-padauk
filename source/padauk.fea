@@ -8,7 +8,7 @@ languagesystem DFLT KYU;
 languagesystem DFLT KSW;
 languagesystem DFLT SHN;
 languagesystem DFLT CSH;
-languagesystem mymr dlft;
+languagesystem mymr dflt;
 languagesystem mymr KHN;
 languagesystem mymr KHT;
 languagesystem mymr KYU;
