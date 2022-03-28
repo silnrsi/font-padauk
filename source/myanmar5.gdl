@@ -551,6 +551,7 @@ gKill cno_med g103c g102f > _ cmed:(1 2) @r @u / _ _ _=r ^ cPreVowel? cUVowel? _
 if (!uTall)
     g103c g103e g102f > @r @h @u / _=r _=h ^ g103a? cPreVowel? cUVowel? _=u;
     g103c g103e g1030 > @r @h @u / _=r _=h ^ g103a? cPreVowel? cUVowel? _=u;
+    g101a g103e (g102f g1030) > @y @h @u / _=y _=h _=u;
     if (!uLong)
         g103c g102f > g103c_102f_narr:(1 4) _ / _ ^ cPreVowel? cUVowel? _;
         g103e g1030 > g103e_1030:(1 5) _ / _ ^ g103a? cPreVowel? cUVowel? _;

@@ -316,6 +316,8 @@ lookup mym2_pstf_tall_U {
 #    sub [@c_med]          [u102F.med u1030.med]' by [u102F u1030];
 #    sub [u102F.med u1030.med]' [@c_med]          by [u102F u1030];
     sub [@class103C_noalt] [@cCons] u1030.med'  by u1030;
+    sub u101A u103E u102F.med' by u102F;
+    sub u101A u103E u1030.med' by u1030;
     # This can't be an "ignore sub" in blws_med because lig formation happens later.
 #    sub u105D u1032_u102D           u102F.med'  by u102F; #MNW 3103
 } mym2_pstf_tall_U;
