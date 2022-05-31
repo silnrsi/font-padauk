@@ -7,7 +7,9 @@ languagesystem DFLT KHT;
 languagesystem DFLT KYU;
 languagesystem DFLT KSW;
 languagesystem DFLT SHN;
-languagesystem DFLT CSH;
+languagesystem DFLT CSH; # Harfbuzz  maps csh to CSH
+languagesystem DFLT QIN; # Microsoft maps csh to QIN
+languagesystem DFLT TJL;
 languagesystem mymr dflt;
 languagesystem mymr KHN;
 languagesystem mymr KHT;
@@ -15,6 +17,8 @@ languagesystem mymr KYU;
 languagesystem mymr KSW;
 languagesystem mymr SHN;
 languagesystem mymr CSH;
+languagesystem mymr QIN;
+languagesystem mymr TJL;
 languagesystem mym2 dflt;
 languagesystem mym2 KHN;
 languagesystem mym2 KHT;
@@ -22,6 +26,8 @@ languagesystem mym2 KYU;
 languagesystem mym2 KSW;
 languagesystem mym2 SHN;
 languagesystem mym2 CSH;
+languagesystem mym2 QIN;
+languagesystem mym2 TJL;
 
 # -------------
 # GSUB features
@@ -35,17 +41,19 @@ feature ccmp {
 
 feature locl {
  script mym2;
-     language KHN  exclude_dflt;
+    language KHN  exclude_dflt;
       lookup mym2_locl_dot;
-     language KHT  exclude_dflt;
+    language KHT  exclude_dflt;
       lookup mym2_locl_dot;
       lookup mym2_locl_khamti;
-     language KYU  exclude_dflt;
+    language KYU  exclude_dflt;
       lookup mym2_locl_tri;
       lookup mym2_locl_slantr;
-     language SHN  exclude_dflt;
+    language SHN  exclude_dflt;
       lookup mym2_locl_tri;
-     language CSH  exclude_dflt;
+    language CSH  exclude_dflt; # Harfbuzz  maps csh to CSH
+      lookup mym2_locl_csh;
+    language QIN  exclude_dflt; # Microsoft maps csh to QIN
       lookup mym2_locl_csh;
 } locl;
 
@@ -57,7 +65,7 @@ feature cv01 {      # filled dots
         ParamUILabelNameID { name 3 1 0x0409 "Filled dots" ; };
       } ;
       lookup cv01;
-     language dflt;
+    language dflt;
 } cv01;
 
 feature cv02 {      # tear drop washwe
@@ -67,8 +75,8 @@ feature cv02 {      # tear drop washwe
         ParamUILabelNameID { name 3 1 0x0409 "Tear drop style washwe" ; };
       } ;
       lookup cv02;
-     language dflt;
-     language KSW;
+    language dflt;
+    language KSW;
 } cv02;
 
 feature cv03 {      # Asho Chin variants
@@ -89,7 +97,7 @@ feature cv04 {      # mon thai variants
         ParamUILabelNameID { name 3 1 0x0409 "Thai Mon variants" ; };
       } ;
       lookup cv04;
-     language dflt;
+    language dflt;
 } cv04;
 
 feature cv05 {      # Aiton Phake variants
@@ -123,22 +131,33 @@ feature cv07 {      # slanted hato
         ParamUILabelNameID { name 3 1 0x0409 "Slanted leg with right angled foot"          ; };
       } ;
       lookup cv07;
-     language dflt;
-     language KSW;
+    language dflt;
+    language KSW;
 } cv07;
+
+feature cv09 {      # Tai Laing AA6C variant
+    script mym2;
+      cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Tai Laing variant" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Tai Laing variant" ; };
+      } ;
+      lookup cv09;
+    language dflt;
+    language TJL;
+} cv09;
 
 feature ss01 {      # filled dots
     script mym2;
       featureNames { name 3 1 0x409 "Filled dots" ; };
       lookup cv01;
-     language dflt;
+    language dflt;
 } ss01;
 
 feature ss02 {      # tear drop washwe
     script mym2;
       featureNames { name 3 1 0x409 "Tear drop style washwe" ; };
       lookup cv02;
-     language dflt;
+    language dflt;
 } ss02;
 
 feature ss03 {      # Asho Chin variants
@@ -153,7 +172,7 @@ feature ss04 {      # mon thai variants
     script mym2;
       featureNames { name 3 1 0x409 "Thai Mon variants" ; };
       lookup cv04;
-     language dflt;
+    language dflt;
 } ss04;
 
 feature ss05 {      # Aiton Phake variants
@@ -174,18 +193,30 @@ feature ss06 {      # khamti 1086 variant
     language KHT;
 } ss06;
 
+# Reserve ss07 and ss08 for possible match with cv07=1 and cv07=2
+
+feature ss09 {      # Tai Laing AA6C variant
+    script mym2;
+      featureNames { name 3 1 0x409 "Tai Laing variant" ; };
+      lookup cv09;
+    language dflt;
+    language TJL;
+} ss09;
+
 feature rphf {
  script mym2;
     # lookups shared across are only shared with explicitly listed languages
     # those from languagesystem only share feature wide lookups
       lookup mym2_rphf_kinzi;
-     language dflt;
-     language KHN;
-     language KHT;
-     language KSW;
-     language KYU;
-     language SHN;
-     language CSH;
+    language dflt;
+    language KHN;
+    language KHT;
+    language KSW;
+    language KYU;
+    language SHN;
+    language CSH;
+    language QIN;
+    language TJL;
 } rphf;
 
 
@@ -195,13 +226,15 @@ feature pref {
       lookup mym2_pref_miscLig;
       lookup mym2_pref_u103Cwide;
       lookup mym2_pref_signsLig;
-     language dflt;
-     language KHN;
-     language KHT;
-     language KSW;
-     language KYU;
-     language SHN;
-     language CSH;
+    language dflt;
+    language KHN;
+    language KHT;
+    language KSW;
+    language KYU;
+    language SHN;
+    language CSH;
+    language QIN;
+    language TJL;
 } pref;
 
 
@@ -212,14 +245,16 @@ feature blwf {
       lookup mym2_blwf_u103CLig;
       lookup mym2_blwf_103Ealt;
       lookup mym2_blwf_MonNga;
-     language dflt;
-     language KHN;
-     language KHT;
-     language KSW;
-     language KYU;
+    language dflt;
+    language KHN;
+    language KHT;
+    language KSW;
+    language KYU;
       lookup mym2_blwf_smalltri; # Only in KYU
-     language SHN;
-     language CSH;
+    language SHN;
+    language CSH;
+    language QIN;
+    language TJL;
 } blwf;
 
 
@@ -229,13 +264,15 @@ feature pstf {
       lookup mym2_pstf_asatLig;
       lookup mym2_pstf_1009;
       lookup clear_errors;
-     language dflt;
-     language KHN;
-     language KHT;
-     language KSW;
-     language KYU;
-     language SHN;
-     language CSH;
+    language dflt;
+    language KHN;
+    language KHT;
+    language KSW;
+    language KYU;
+    language SHN;
+    language CSH;
+    language QIN;
+    language TJL;
 } pstf;
 
 
@@ -252,6 +289,8 @@ feature pres {
     language KYU;
     language SHN;
     language CSH;
+    language QIN;
+    language TJL;
 } pres;
 
 
@@ -259,13 +298,15 @@ feature abvs {
  script mym2;
       lookup mym2_abvs_redupLig;
       lookup mym2_abvs_redupLig2;
-     language dflt;
-     language KHN;
-     language KHT;
-     language KSW;
-     language KYU;
-     language SHN;
-     language CSH;
+    language dflt;
+    language KHN;
+    language KHT;
+    language KSW;
+    language KYU;
+    language SHN;
+    language CSH;
+    language QIN;
+    language TJL;
 } abvs;
 
 
@@ -276,13 +317,15 @@ feature blws {
       lookup mym2_blws_altTail;
       lookup mym2_blws_raLong;
       lookup mym2_blws_raShort;
-     language dflt;
-     language KHN;
-     language KHT;
-     language KSW;
-     language KYU;
-     language SHN;
-     language CSH;
+    language dflt;
+    language KHN;
+    language KHT;
+    language KSW;
+    language KYU;
+    language SHN;
+    language CSH;
+    language QIN;
+    language TJL;
 } blws;
 
 
@@ -290,13 +333,15 @@ feature psts {
  script mym2;
       lookup mym2_psts_miscLig;
       lookup clear_errors;
-     language dflt;
-     language KHN;
-     language KHT;
-     language KSW;
-     language KYU;
-     language SHN;
-     language CSH;
+    language dflt;
+    language KHN;
+    language KHT;
+    language KSW;
+    language KYU;
+    language SHN;
+    language CSH;
+    language QIN;
+    language TJL;
 } psts;
 
 
@@ -342,6 +387,8 @@ feature rlig {
     language KYU;
     language SHN;
     language CSH;
+    language QIN;
+    language TJL;
 
  script mymr;
       lookup dflt_error;
@@ -376,32 +423,36 @@ feature rlig {
       lookup mym2_psts_miscLig;
       lookup mym2_swap_thing1_thing2;
       lookup consmed_sml;
-     language dflt;
-     language KHN;
+    language dflt;
+    language KHN;
       lookup mym2_locl_dot;
-     language KHT;
+    language KHT;
       lookup mym2_locl_dot;
-     language KSW;
+    language KSW;
       lookup mym2_locl_tri;
       lookup mym2_locl_slanth;
-     language KYU;
+    language KYU;
       lookup mym2_locl_tri;
       lookup mym2_locl_slantr;
-     language SHN;
+    language SHN;
       lookup mym2_locl_tri;
-     language CSH;
+    language CSH;
+    language QIN;
+    language TJL;
 
  script mym2;
       lookup mym2_swap_thing1_thing2;
       lookup consmed_sml;
       lookup mym2_pstf_tall_U;
-     language dflt;
-     language KHN;
-     language KHT;
-     language KSW;
-     language KYU;
-     language SHN;
-     language CSH;
+    language dflt;
+    language KHN;
+    language KHT;
+    language KSW;
+    language KYU;
+    language SHN;
+    language CSH;
+    language QIN;
+    language TJL;
 } rlig;
 
 
@@ -443,6 +494,8 @@ feature kern {
     language KYU;
     language SHN;
     language CSH;
+    language QIN;
+    language TJL;
 
  script mymr;
      lookup guard_context;
@@ -474,6 +527,8 @@ feature kern {
     language KYU;
     language SHN;
     language CSH;
+    language QIN;
+    language TJL;
 } kern ;
 
 feature dist {
@@ -491,13 +546,15 @@ feature dist {
      lookup dist_103C_Cons;
      lookup shift_1032;
      lookup shift_for_103B;
-   language dflt;
-   language KHN;
-   language KHT;
-   language KSW;
-   language KYU;
-   language SHN;
-   language CSH;
+    language dflt;
+    language KHN;
+    language KHT;
+    language KSW;
+    language KYU;
+    language SHN;
+    language CSH;
+    language QIN;
+    language TJL;
 } dist;
 
 feature mark {
@@ -540,16 +597,16 @@ feature mkmk {
     language dflt;
       lookup shift_1037;
 #     lookup mk2mk_LM;
-#     language KHN;
-#     language KHT;
-     language KSW  exclude_dflt;
+#    language KHN;
+#    language KHT;
+    language KSW  exclude_dflt;
       lookup base_BDM_mark;
       lookup base_BSM_mark;
       lookup base_LLM_mark;
 #      lookup mk2mk_LM;
-#     language KYU;
-#     language SHN;
-#     language CSH;
+#    language KYU;
+#    language SHN;
+#    language CSH;
 } mkmk;
 
 

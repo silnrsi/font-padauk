@@ -16,7 +16,7 @@ For more details about this project, including its design history and acknowledg
 
 
 ## Features
-* Special support for: ksw, kht, kyu, shn, aio, phk
+* Special support for: ksw, kht, kyu, shn, aio, phk, csh, tjl
 * Variation Selector support for kht, aio, phk
 
 Issues:

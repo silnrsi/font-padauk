@@ -104,6 +104,14 @@ th {
   -webkit-font-feature-settings: "cv07" 2;
 }
 
+/* enable character variant nine */
+.cv09 {   
+  font-feature-settings: "cv09" 1;
+  -moz-font-feature-settings: "cv09" 1;
+  -ms-font-feature-settings: "cv09" 1;
+  -webkit-font-feature-settings: "cv09" 1;
+}
+
 /* special class combining cv02=1 and cv07=1 */
 .cv02_071 {  
   font-feature-settings: "cv02" 1, "cv07" 1;

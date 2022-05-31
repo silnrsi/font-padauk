@@ -109,6 +109,10 @@ lookup cv07 {
     sub @cno_slanth from [@c_slanth @c_slantr] ; # Slanted hato (hsln)
 } cv07;
 
+lookup cv09 {
+    sub uAA6C by uAA6C.alt ; # Tai Laing variant
+} cv09;
+
 
 # ****
 # rphf

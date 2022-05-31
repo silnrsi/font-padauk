@@ -4721,6 +4721,11 @@ lookup cv07 {
     # Slanted hato (hsln)
 } cv07;
 
+lookup cv09 {
+    sub uAA6C by uAA6C.alt;
+    # Tai Laing variant
+} cv09;
+
 # ****
 # rphf
 # ****
@@ -4971,6 +4976,8 @@ lookup mym2_pstf_tall_U {
     #    sub [@c_med]          [u102F.med u1030.med]' by [u102F u1030];
     #    sub [u102F.med u1030.med]' [@c_med]          by [u102F u1030];
     sub [@class103C_noalt] [@cCons] u1030.med' by u1030;
+    sub u101A u103E u102F.med' by u102F;
+    sub u101A u103E u1030.med' by u1030;
     # This can't be an "ignore sub" in blws_med because lig formation happens later.
     #    sub u105D u1032_u102D           u102F.med'  by u102F; #MNW 3103
 } mym2_pstf_tall_U;
@@ -8173,13 +8180,19 @@ languagesystem DFLT KYU;
 languagesystem DFLT KSW;
 languagesystem DFLT SHN;
 languagesystem DFLT CSH;
-languagesystem mymr dlft;
+# Harfbuzz  maps csh to CSH
+languagesystem DFLT QIN;
+# Microsoft maps csh to QIN
+languagesystem DFLT TJL;
+languagesystem mymr dflt;
 languagesystem mymr KHN;
 languagesystem mymr KHT;
 languagesystem mymr KYU;
 languagesystem mymr KSW;
 languagesystem mymr SHN;
 languagesystem mymr CSH;
+languagesystem mymr QIN;
+languagesystem mymr TJL;
 languagesystem mym2 dflt;
 languagesystem mym2 KHN;
 languagesystem mym2 KHT;
@@ -8187,6 +8200,8 @@ languagesystem mym2 KYU;
 languagesystem mym2 KSW;
 languagesystem mym2 SHN;
 languagesystem mym2 CSH;
+languagesystem mym2 QIN;
+languagesystem mym2 TJL;
 # -------------
 # GSUB features
 # -------------
@@ -8208,6 +8223,10 @@ feature locl {
     language SHN exclude_dflt;
     lookup mym2_locl_tri;
     language CSH exclude_dflt;
+    # Harfbuzz  maps csh to CSH
+    lookup mym2_locl_csh;
+    language QIN exclude_dflt;
+    # Microsoft maps csh to QIN
     lookup mym2_locl_csh;
 } locl;
 
@@ -8347,6 +8366,25 @@ feature cv07 {
     language KSW;
 } cv07;
 
+feature cv09 {
+    # Tai Laing AA6C variant
+    script mym2;
+        cvParameters {
+                FeatUILabelNameID {
+            name "Tai Laing variant";
+        };
+
+                ParamUILabelNameID {
+            name "Tai Laing variant";
+        };
+
+    };
+
+    lookup cv09;
+    language dflt;
+    language TJL;
+} cv09;
+
 feature ss01 {
     # filled dots
     script mym2;
@@ -8418,6 +8456,19 @@ feature ss06 {
     language KHT;
 } ss06;
 
+# Reserve ss07 and ss08 for possible match with cv07=1 and cv07=2
+feature ss09 {
+    # Tai Laing AA6C variant
+    script mym2;
+        featureNames {
+        name "Tai Laing variant";
+    };
+
+    lookup cv09;
+    language dflt;
+    language TJL;
+} ss09;
+
 feature rphf {
     script mym2;
     # lookups shared across are only shared with explicitly listed languages
@@ -8430,6 +8481,8 @@ feature rphf {
     language KYU;
     language SHN;
     language CSH;
+    language QIN;
+    language TJL;
 } rphf;
 
 feature pref {
@@ -8445,6 +8498,8 @@ feature pref {
     language KYU;
     language SHN;
     language CSH;
+    language QIN;
+    language TJL;
 } pref;
 
 feature blwf {
@@ -8463,6 +8518,8 @@ feature blwf {
     # Only in KYU
     language SHN;
     language CSH;
+    language QIN;
+    language TJL;
 } blwf;
 
 feature pstf {
@@ -8478,6 +8535,8 @@ feature pstf {
     language KYU;
     language SHN;
     language CSH;
+    language QIN;
+    language TJL;
 } pstf;
 
 feature pres {
@@ -8493,6 +8552,8 @@ feature pres {
     language KYU;
     language SHN;
     language CSH;
+    language QIN;
+    language TJL;
 } pres;
 
 feature abvs {
@@ -8506,6 +8567,8 @@ feature abvs {
     language KYU;
     language SHN;
     language CSH;
+    language QIN;
+    language TJL;
 } abvs;
 
 feature blws {
@@ -8522,6 +8585,8 @@ feature blws {
     language KYU;
     language SHN;
     language CSH;
+    language QIN;
+    language TJL;
 } blws;
 
 feature psts {
@@ -8535,6 +8600,8 @@ feature psts {
     language KYU;
     language SHN;
     language CSH;
+    language QIN;
+    language TJL;
 } psts;
 
 feature rlig {
@@ -8579,6 +8646,8 @@ feature rlig {
     language KYU;
     language SHN;
     language CSH;
+    language QIN;
+    language TJL;
     script mymr;
     lookup dflt_error;
     lookup dflt_error2;
@@ -8626,9 +8695,12 @@ feature rlig {
     language SHN;
     lookup mym2_locl_tri;
     language CSH;
+    language QIN;
+    language TJL;
     script mym2;
     lookup mym2_swap_thing1_thing2;
     lookup consmed_sml;
+    lookup mym2_pstf_tall_U;
     language dflt;
     language KHN;
     language KHT;
@@ -8636,6 +8708,8 @@ feature rlig {
     language KYU;
     language SHN;
     language CSH;
+    language QIN;
+    language TJL;
 } rlig;
 
 # -------------
@@ -8673,6 +8747,8 @@ feature kern {
     language KYU;
     language SHN;
     language CSH;
+    language QIN;
+    language TJL;
     script mymr;
     lookup guard_context;
     lookup guard2_context;
@@ -8703,6 +8779,8 @@ feature kern {
     language KYU;
     language SHN;
     language CSH;
+    language QIN;
+    language TJL;
 } kern;
 
 feature dist {
@@ -8727,6 +8805,8 @@ feature dist {
     language KYU;
     language SHN;
     language CSH;
+    language QIN;
+    language TJL;
 } dist;
 
 feature mark {
@@ -8765,16 +8845,16 @@ feature mkmk {
     language dflt;
     lookup shift_1037;
     #     lookup mk2mk_LM;
-    #     language KHN;
-    #     language KHT;
+    #    language KHN;
+    #    language KHT;
     language KSW exclude_dflt;
     lookup base_BDM_mark;
     lookup base_BSM_mark;
     lookup base_LLM_mark;
     #      lookup mk2mk_LM;
-    #     language KYU;
-    #     language SHN;
-    #     language CSH;
+    #    language KYU;
+    #    language SHN;
+    #    language CSH;
 } mkmk;
 
 # -------------
