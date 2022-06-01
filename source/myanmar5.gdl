@@ -979,6 +979,10 @@ if (vartta)
 g100b > g100b_alt;
 endif;
 
+if (taiLaing)
+gaa6c > gaa6c_alt;
+endif;
+
 endpass;
 
 endtable; // substitution table

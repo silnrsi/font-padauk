@@ -213,4 +213,27 @@
 \proof[heading=Angle variants]{ှ ၡ ၦ}
 
 \font[features="cv07=0"]
+
+%%% cv09
+\proof[size="12",color="blue"]{Character Variant 9 - Tai Laing variant}
+
+\set[parameter=harfbuzz.subshapers,value=graphite2]
+\proof[size=10pt,color="green"]{RenderingUnknown}
+
+\proof[heading=U+AA6C default]{ꩬ}
+
+\font[features="+cv09=1"]
+\proof[heading=U+AA6C variant]{ꩬ}
+
+\set[parameter=harfbuzz.subshapers,value=ot]
+\proof[size=10pt,color="green"]{RenderingUnknown}
+
+\font[features="cv09=0"]
+\proof[heading=U+AA6C default]{ꩬ}
+
+\font[features="+cv09=1"]
+\proof[heading=U+AA6C variant]{ꩬ}
+
+\font[features="cv09=0"]
+
 \end{document}

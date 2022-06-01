@@ -77,6 +77,13 @@ slanth
     }
 }
 
+taiLaing
+{
+    id = "cv09";
+    name.LG_USENG = string("Tai Laing variant");
+    default = 0;
+}
+
 lldot
 {
     id = "lldt";
@@ -162,6 +169,11 @@ aiph {
 ashochin {
     languages = ("csh");
     asho = 1;
+};
+
+taiLaing {
+    languages = ("tjl");
+    taiLaing = 1;
 };
 
 endtable;
