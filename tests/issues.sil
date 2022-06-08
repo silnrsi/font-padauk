@@ -59,8 +59,8 @@
 \proof[size=10pt,color="green"]{RenderingUnknown}
 \proof[size="18pt",heading=Padauk with no special features]{ꩬ}
 
-# \font[language="tjl"]
-# \proof[size="18pt",heading=language = tjl]{ꩬ}
+% \font[language="tjl"]
+% \proof[size="18pt",heading=language = tjl]{ꩬ}
 
 \font[language="dflt"]
 \font[features="+cv09=1"]
@@ -74,8 +74,8 @@
 \proof[size=10pt,color="green"]{RenderingUnknown}
 \proof[size="18pt",heading=Padauk with no special features]{ꩬ}
 
-# \font[language="tjl"]
-# \proof[size="18pt",heading=language = tjl]{ꩬ}
+% \font[language="tjl"]
+% \proof[size="18pt",heading=language = tjl]{ꩬ}
 
 \font[language="dflt"]
 \font[features="+cv09=1"]
