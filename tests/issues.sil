@@ -52,4 +52,36 @@
 \proof[size=10pt,color="green"]{RenderingUnknown}
 \proof[size="18pt",heading=Khamti using VS1]{ၵ︀ု ၵ︀ူ ၵ︀ွ  ၻ် ၻု}
 
+% #43 using Graphite (default)
+\bigskip
+\setTestFont[features="+clig,+kern"]
+\proof[size="14pt",color="blue"]{Padauk issue #43: Tai Laing shaping for U+AA6C}
+\proof[size=10pt,color="green"]{RenderingUnknown}
+\proof[size="18pt",heading=Padauk with no special features]{ꩬ}
+
+# \font[language="tjl"]
+# \proof[size="18pt",heading=language = tjl]{ꩬ}
+
+\font[language="dflt"]
+\font[features="+cv09=1"]
+\proof[size="18pt",heading=features = "cv09=1"]{ꩬ}
+
+\font[features="cv09=0"]
+
+% #43 using OpenType
+\setTestFont[language="dflt",features="+clig,+kern"]
+\set[parameter=harfbuzz.subshapers,value=ot]
+\proof[size=10pt,color="green"]{RenderingUnknown}
+\proof[size="18pt",heading=Padauk with no special features]{ꩬ}
+
+# \font[language="tjl"]
+# \proof[size="18pt",heading=language = tjl]{ꩬ}
+
+\font[language="dflt"]
+\font[features="+cv09=1"]
+\proof[size="18pt",heading=features = "cv09=1"]{ꩬ}
+
+\font[features="cv09=0"]
+
+
 \end{document}

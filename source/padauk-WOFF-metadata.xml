@@ -60,6 +60,11 @@
       ---------
       (This should list both major and minor changes, most recent first.)
       
+      08 June 2022 (SIL WSTech team) Version 5.001
+      - Added Character Variant feature (cv09) for U+AA6C variant selection in OpenType and Graphite
+      - Added Stylistic Set feature (ss09) for U+AA6C variant selection in OpenType
+      - Added support for tall U/UU (U+102F/U+1030) following a sequence of U+101A and U+103E
+      
       18 June 2021 (SIL WSTech team) Version 5.0
       - Added Thai Mon variant glyphs and language support
       - Added Aiton and Phake variant glyphs and language support
