@@ -7,8 +7,9 @@
 DOCDIR = ["documentation", "web"]
 
 # set release or beta reference folders for regression testing
-STANDARDS = 'references/v5'
-#STANDARDS = 'references/beta'
+STANDARDS = 'references/v5001'
+# STANDARDS = 'references/v5'
+# STANDARDS = 'references/beta'
 
 # set the package and font family names
 APPNAME = 'Padauk'
@@ -69,10 +70,10 @@ d = designspace('source/Padauk.designspace',
 )
 
 # Make khamti package
-# kpackage = package(appname="PadaukNamKio", version=devver)
-# dpackage = package(appname="Deemawso", version=devver)
-kpackage = package(appname="PadaukNamKio", version="5.001") # use only for release versions
-dpackage = package(appname="Deemawso", version="5.001") # use only for release versions
+kpackage = package(appname="PadaukNamKio", version=devver)
+dpackage = package(appname="Deemawso", version=devver)
+# kpackage = package(appname="PadaukNamKio", version="5.001") # use only for release versions
+# dpackage = package(appname="Deemawso", version="5.001") # use only for release versions
 for f in d.fonts:
     font(target = process('khamti/'+f.target.replace('Padauk', 'NamKio'),
                         # cmd('ttfremap -r -c ${SRC} ${DEP} ${TGT}', ['source/namkio_remap.txt']),
