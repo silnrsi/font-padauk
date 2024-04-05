@@ -7,13 +7,13 @@
   <key>capHeight</key>
   <integer>903</integer>
   <key>copyright</key>
-  <string>Copyright (c) 2002-2022 SIL International</string>
+  <string>Copyright (c) 2002-2024 SIL International</string>
   <key>descender</key>
   <integer>-500</integer>
   <key>familyName</key>
   <string>Padauk</string>
   <key>openTypeHeadCreated</key>
-  <string>2022/05/31 20:13:12</string>
+  <string>2024/03/20 06:48:00</string>
   <key>openTypeHheaAscender</key>
   <integer>1010</integer>
   <key>openTypeHheaDescender</key>
@@ -27,7 +27,7 @@
   <key>openTypeNameDesignerURL</key>
   <string>http://scripts.sil.org/</string>
   <key>openTypeNameLicense</key>
-  <string>Copyright (c) 2002-2022 SIL International (http://www.sil.org/) with Reserved Font Names "Padauk", "Namkio" and "Deemawso".
+  <string>Copyright (c) 2002-2024 SIL International (http://www.sil.org/) with Reserved Font Names "Padauk", "Namkio" and "Deemawso".
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
 
@@ -81,7 +81,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Regular</string>
   <key>openTypeNameUniqueID</key>
-  <string>SIL International: Padauk Regular: 2022</string>
+  <string>SIL International: Padauk Regular: 2024</string>
   <key>openTypeNameVersion</key>
   <string>Version 5.002</string>
   <key>openTypeOS2CodePageRanges</key>
