@@ -4,21 +4,33 @@
 
 # smith
 .waf-*
+.smithpickle-*
 .lock-*
 results/**
-graide/**
+buildlinux2/**
+bin/**
+source/temp/*
+source/masters/temp/*
+source/backups/*
+
+# temporary fontdocs files
+documentation/source/pdftemp/
+documentation/source/productsite/
+
+# diffenator2
+.ninja_log
+build.ninja
 
 # general project work
+graide/**
 bugs/**
 dev/**
-
 
 # general backup files
 *~
 *.swp
 *.autosave
 *(Autosaved)*
-*.log
 
 
 # OS X
@@ -32,11 +44,18 @@ dev/**
 .AppleDouble
 .LSOverride
 Icon?
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
 
 # Windows
 Thumbs.db
-ehthumbs.db
 Desktop.ini
+$RECYCLE.BIN/
+Thumbs.db
+ehthumbs.db
 *.lnk
 
 
@@ -46,6 +65,9 @@ current.fpr
 # Editors
 *.bak
 *.vfbak
+*.~tt
++.idea/*
+.vscode/settings.json
 
 # Shares
 .AppleDB
@@ -67,8 +89,10 @@ $RECYCLE.BIN/
 # generated releases
 *.zip
 *.tar.gz
-*.tar.xz
 *.tar.bz2
+*.tar.xz
+*.tgz
+*.tgx
 
 # installers
 *.exe
@@ -79,8 +103,10 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 
-# VM stuff
+# VM helpers
 .vagrant/
+.docker/
+*.log
 
 # Other
 .sass-cache/
@@ -91,5 +117,5 @@ $RECYCLE.BIN/
 *$py.class
 __pycache__/
 
-# ignore the glyphs file
+# Glyphs.App
 *.glyphs

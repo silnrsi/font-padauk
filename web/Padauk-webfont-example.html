@@ -3,12 +3,12 @@
 Padauk-webfont-example.html
 Padauk font family
 
-This file is part of Padauk font family (http://software.sil.org/padauk)
-and is Copyright (c) 2021 SIL International (http://www.sil.org/),
-with Reserved Font Names "Padauk", "Namkio" and "Deemawso". This Font Software is 
-licensed under the SIL Open Font License, Version 1.1. You should have received a 
+This file is part of Padauk font family (https://software.sil.org/padauk)
+and is Copyright (c) 2021 SIL International (https://www.sil.org/),
+with Reserved Font Names "Padauk", "Namkio" and "Deemawso". This Font Software is
+licensed under the SIL Open Font License, Version 1.1. You should have received a
 copy of the license along with this Font Software. If this is not the case, go to
-(http://scripts.sil.org/OFL) for all the details including a FAQ.
+(https://openfontlicense.org) for all the details including a FAQ.
 -->
 <head>
 	<link rel="stylesheet" href="Padauk-webfont-example.css" type="text/css">
@@ -19,10 +19,10 @@ copy of the license along with this Font Software. If this is not the case, go t
 </head>
 <body>
 <div style="font-size: 125%;">
-	
+
 <h1>Using Padauk webfonts</h1>
 
-<p>The page demonstrates how to use the WOFF2 version of Padauk for web pages, using local copies of the .woff2 files in this archive. For more information on this technique - and how to use the normal TrueType version as a web font - see <a href="http://scripts.sil.org/using_web_fonts">Using SIL Fonts on Web Pages</a>.</p>
+<p>The page demonstrates how to use the WOFF2 version of Padauk for web pages, using local copies of the .woff2 files in this archive. For more information on this technique - and how to use the normal TrueType version as a web font - see <a href="https://software.sil.org/wstech/using_web_fonts">Using SIL Fonts on Web Pages</a>.</p>
 
 <p>The body of this document is styled using an external stylesheet, with Padauk set as the default font, and loaded directly as a WOFF2 file using the @font-face rule. If you're seeing a sans-serif font here and the Padauk typeface in the next paragraph, then it is working. Otherwise the text will be in a serif font or your browser default. This technique should work in Firefox, Chrome, Safari and Edge.</p>
 
@@ -32,62 +32,62 @@ copy of the license along with this Font Software. If this is not the case, go t
 
 <h2>Padauk user-selectable features</h2>
 
-<p>The Padauk font includes a number of optional features that provide alternative rendering that might be preferable for use in some contexts. The examples below show the results of applying these features. Whether these features are available to users will depend on both the application and the rendering technology (<a href="https://scripts.sil.org/cms/scripts/page.php?site_id=projects&item_id=graphite_apps">Graphite</a> or OpenType) being used. Graphite features are available in Firefox. The OpenType features are used in other browsers. Further documentation of these feature is available in the documentation folder of the font download.</p>
+<p>The Padauk font includes a number of optional features that provide alternative rendering that might be preferable for use in some contexts. The examples below show the results of applying these features. Whether these features are available to users will depend on both the application and the rendering technology (<a href="https://software.sil.org/wstech/cms/scripts/page.php?site_id=projects&item_id=graphite_apps">Graphite</a> or OpenType) being used. Graphite features are available in Firefox. The OpenType features are used in other browsers. Further documentation of these feature is available in the documentation folder of the font download.</p>
 
 <p>To see specifically how these techniques are specified in the CSS and HTML, view the source to this page and the accompanying CSS file.</p>
 
 <p><b>Character Variant 1 (Filled dots)</b><br>
-No filled dots - feature cv01=0<br> 
+No filled dots - feature cv01=0<br>
 ံ း ႇ ႈ ႉ ႊ ႚ ႛ ꩻ<br>
-Filled dots - feature cv01=1<br> 
+Filled dots - feature cv01=1<br>
 <span class="cv01"> ံ း ႇ ႈ ႉ ႊ ႚ ႛ ꩻ </span></p>
 
 <p><b>Character Variant 2 (Tear drop style washwe)</b><br>
-Round style washwe - feature cv02=0<br> 
+Round style washwe - feature cv02=0<br>
 တွ ျွ ြွ ွှ<br>
-Tear drop style washwe - feature cv02=1<br> 
+Tear drop style washwe - feature cv02=1<br>
 <span class="cv02"> တွ ျွ ြွ ွှ </span></p>
 
 <p><b>Character Variant 3 (Asho Chin variants)</b><br>
-No variant - feature cv03=0<br> 
+No variant - feature cv03=0<br>
 ကၭ <br>
-Asho Chin variant - feature cv03=1<br> 
+Asho Chin variant - feature cv03=1<br>
 <span class="cv03"> ကၭ </span></p>
 
 <p><b>Character Variant 4 (Thai Mon variants)</b><br>
-No variants - feature cv04=0<br> 
+No variants - feature cv04=0<br>
 ဃ ဋ ဌ ဍ ဎ ဒ န သ ဠ အ ဣ ဿ ၉ ၊ ။ ၚ်္ <br>
-Thai Mon variants - feature cv04=1<br> 
+Thai Mon variants - feature cv04=1<br>
 <span class="cv04"> ဃ ဋ ဌ ဍ ဎ ဒ န သ ဠ အ ဣ ဿ ၉ ၊ ။ ၚ်္ </span></p>
 
 <p><b>Character Variant 5 (Aiton Phake special characters over Khamti)</b><br>
-No variants - feature cv05=0<br> 
+No variants - feature cv05=0<br>
 က︀ ၵ︀ ꩡ︀ ၺ တ︀ ꩫ︀ ၸ︀ ယ︀ ꩺ လ︀ ꩭ ဢ︀ ြ <br>
-Aiton Phake special characters over Khamti - feature cv05=1<br> 
+Aiton Phake special characters over Khamti - feature cv05=1<br>
 <span class="cv05"> က︀ ၵ︀ ꩡ︀ ၺ တ︀ ꩫ︀ ၸ︀ ယ︀ ꩺ လ︀ ꩭ ဢ︀ ြ </span></p>
 
 <p><b>Character Variant 6 (Khamti variant)</b><br>
-No variants - feature cv06=0<br> 
+No variants - feature cv06=0<br>
 က︀ႆ က︀ႆႈꩰ <br>
-Khamti variant U+1086 - feature cv06=1<br> 
+Khamti variant U+1086 - feature cv06=1<br>
 <span class="cv06"> က︀ႆ က︀ႆႈꩰ </span></p>
 
 <p><b>Character Variant 7 (Slanted hato)</b><br>
-Upright - feature cv07=0<br> 
+Upright - feature cv07=0<br>
 ှ ှု ှူ ၡ ၦ <br>
-Sgaw style slanted leg with horizontal foot - feature cv07=1<br> 
+Sgaw style slanted leg with horizontal foot - feature cv07=1<br>
 <span class="cv071"> ှ ှု ှူ ၡ ၦ </span><br>
-Slanted leg with right angled foot - feature cv07=2<br> 
+Slanted leg with right angled foot - feature cv07=2<br>
 <span class="cv072"> ှ ှု ှူ ၡ ၦ </span></p>
 
 <p><b>Character Variant 9 (Tai Laing variant)</b><br>
-No variants - feature cv09=0<br> 
+No variants - feature cv09=0<br>
 ꩬ <br>
-Tai Laing variant U+AA6C - feature cv09=1<br> 
+Tai Laing variant U+AA6C - feature cv09=1<br>
 <span class="cv09"> ꩬ </span></p>
 
 <p><b>Sgaw Karen language features</b><br>
-Padauk with no special features.<br> 
+Padauk with no special features.<br>
 ၡူး ၦ့ၤချ့ ခှ ကွ့ </p>
 
 <p>Tone mark shifts left when language is set to "ksw".<br>
@@ -100,6 +100,6 @@ Padauk with no special features.<br>
 Padauk has special code to show which rendering technology is being used right now in your browser, displaying it in green: <span style="color:green;"> RenderingUnknown.</span></p>
 
 <p style="font-size: 75%;"> &copy 2021, SIL Interational </p>
-	
+
 </body>
 </html>

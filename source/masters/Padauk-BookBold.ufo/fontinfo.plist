@@ -25,11 +25,11 @@
   <key>openTypeNameDesigner</key>
   <string>Debbi Hosken, Becca Hirsbrunner Spalinger</string>
   <key>openTypeNameDesignerURL</key>
-  <string>http://scripts.sil.org/</string>
+  <string>https://software.sil.org/wstech/</string>
   <key>openTypeNameLicense</key>
-  <string>Copyright (c) 2002-2024 SIL International (http://www.sil.org/) with Reserved Font Names "Padauk", "Namkio" and "Deemawso".
+  <string>Copyright (c) 2002-2024 SIL International (https://www.sil.org/) with Reserved Font Names "Padauk", "Namkio" and "Deemawso".
 
-This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
+This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: https://openfontlicense.org
 
 
 -----------------------------------------------------------
@@ -71,11 +71,11 @@ This license becomes null and void if any of the above conditions are not met.
 DISCLAIMER
 THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.</string>
   <key>openTypeNameLicenseURL</key>
-  <string>http://scripts.sil.org/OFL</string>
+  <string>https://openfontlicense.org</string>
   <key>openTypeNameManufacturer</key>
   <string>SIL International</string>
   <key>openTypeNameManufacturerURL</key>
-  <string>http://www.sil.org</string>
+  <string>https://www.sil.org</string>
   <key>openTypeNamePreferredFamilyName</key>
   <string>Padauk</string>
   <key>openTypeNamePreferredSubfamilyName</key>
