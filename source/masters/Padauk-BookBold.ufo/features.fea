@@ -5422,8 +5422,8 @@ lookup guardc {
 @guard_before = [@cFillLowBefore @cLowerMarkAttach];
 lookup guard_context {
     # overlaps of below wide medials under a narrow consonant
-    ignore pos @guard_glyphs @_U [u1083 u1064] @cTone;
-    ignore pos @guard_glyphs @_U @cTone;
+    ignore pos @guard_glyphs' @_U [u1083 u1064] @cTone;
+    ignore pos @guard_glyphs' @_U @cTone;
     pos @guard_before @guard_glyphs' lookup guarda @cMedWide @_U @cFillLowAfter;
     pos @guard_before @guard_glyphs' lookup guarda @cMedWide @cFillLowAfter;
     pos @guard_before @guard_glyphs' lookup guardc @cMedWide;
@@ -7047,8 +7047,8 @@ lookup guard2 {
 } guard2;
 
 lookup guard2_context {
-    ignore pos @cCons @_U [u1083 u1064] @cTone;
-    ignore pos @cCons @_U @cTone;
+    ignore pos @cCons' @_U [u1083 u1064] @cTone;
+    ignore pos @cCons' @_U @cTone;
     pos @cCons' lookup guard2;
 } guard2_context;
 
