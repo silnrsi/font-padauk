@@ -42,7 +42,7 @@ scriptcode = 'mymr' if '--no2' in opts else 'mym2'
 #})
 
 # Set up the FTML tests
-ftmlTest('tools/ftml.xsl')
+ftmlTest('tools/ftml-smith.xsl')
 
 d = designspace('source/Padauk.designspace',
     #params = '-l ${DS:FILENAME_BASE}_createinstance.log',
