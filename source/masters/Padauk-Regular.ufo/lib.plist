@@ -377,12 +377,13 @@
     <string>u1002.med</string>
     <string>u1002.sml</string>
     <string>u1003</string>
-    <string>u1003.thai</string>
     <string>u1003.med</string>
     <string>u1003.med.thai</string>
+    <string>u1003.thai</string>
     <string>u1004</string>
     <string>u1004.kham</string>
     <string>u1004.kinzi</string>
+    <string>u1004.kinzi.thai</string>
     <string>u1004.kinzi_u102D</string>
     <string>u1004.kinzi_u102D_u1036</string>
     <string>u1004.kinzi_u102E</string>
@@ -392,7 +393,6 @@
     <string>u1004.kinzi_u103A</string>
     <string>u1004.med</string>
     <string>u1004.med.kham</string>
-    <string>u1004.kinzi.thai</string>
     <string>u1005</string>
     <string>u1005.med</string>
     <string>u1005.sml</string>
@@ -412,26 +412,26 @@
     <string>u100A_u100A</string>
     <string>u100B</string>
     <string>u100B.alt</string>
-    <string>u100B.thai</string>
     <string>u100B.med</string>
     <string>u100B.med.thai</string>
     <string>u100B.sml</string>
+    <string>u100B.thai</string>
     <string>u100B_u100B</string>
     <string>u100B_u100C</string>
     <string>u100C</string>
-    <string>u100C.thai</string>
     <string>u100C.med</string>
     <string>u100C.med.thai</string>
+    <string>u100C.thai</string>
     <string>u100D</string>
-    <string>u100D.thai</string>
     <string>u100D.med</string>
     <string>u100D.med.thai</string>
+    <string>u100D.thai</string>
     <string>u100D_u100D</string>
     <string>u100D_u100E</string>
     <string>u100E</string>
-    <string>u100E.thai</string>
     <string>u100E.med</string>
     <string>u100E.med.thai</string>
+    <string>u100E.thai</string>
     <string>u100F</string>
     <string>u100F.med</string>
     <string>u100F_u100B</string>
@@ -450,18 +450,18 @@
     <string>u1011.med.aiph</string>
     <string>u1011.sml</string>
     <string>u1012</string>
-    <string>u1012.thai</string>
     <string>u1012.med</string>
     <string>u1012.med.thai</string>
     <string>u1012.sml</string>
+    <string>u1012.thai</string>
     <string>u1013</string>
     <string>u1013.med</string>
     <string>u1013.sml</string>
     <string>u1014</string>
     <string>u1014.alt</string>
-    <string>u1014.thai</string>
     <string>u1014.med</string>
     <string>u1014.med.thai</string>
+    <string>u1014.thai</string>
     <string>u1014_u1010_u103B</string>
     <string>u1014_u1010_u103C</string>
     <string>u1015</string>
@@ -504,22 +504,22 @@
     <string>u101D</string>
     <string>u101D.kham</string>
     <string>u101E</string>
-    <string>u101E.thai</string>
     <string>u101E.med</string>
     <string>u101E.med.thai</string>
     <string>u101E.sml</string>
+    <string>u101E.thai</string>
     <string>u101E_u1010_u103C</string>
     <string>u101F</string>
     <string>u101F.small</string>
     <string>u1020</string>
     <string>u1020.long</string>
-    <string>u1020.thai</string>
     <string>u1020.med.thai</string>
+    <string>u1020.thai</string>
     <string>u1020_u1020</string>
     <string>u1020_u103E</string>
     <string>u1021</string>
-    <string>u1021.thai</string>
     <string>u1021.med</string>
+    <string>u1021.thai</string>
     <string>u1022</string>
     <string>u1022.aiph</string>
     <string>u1022.kham</string>
@@ -573,6 +573,7 @@
     <string>u103B_u103D_u103E.tri</string>
     <string>u103B_u103E</string>
     <string>u103C</string>
+    <string>u103C.aiph</string>
     <string>u103C.alt.narr</string>
     <string>u103C.alt.open.narr</string>
     <string>u103C.alt.open.wide</string>
@@ -580,6 +581,7 @@
     <string>u103C.open.narr</string>
     <string>u103C.open.wide</string>
     <string>u103C.wide</string>
+    <string>u103C.wide.aiph</string>
     <string>u103C_u102F.alt.narr</string>
     <string>u103C_u102F.alt.wide</string>
     <string>u103C_u102F.narr</string>
@@ -592,8 +594,6 @@
     <string>u103C_u103D.narr.tri</string>
     <string>u103C_u103D.wide</string>
     <string>u103C_u103D.wide.tri</string>
-    <string>u103C.aiph</string>
-    <string>u103C.wide.aiph</string>
     <string>u103D</string>
     <string>u103D.sml</string>
     <string>u103D.tri</string>
@@ -750,6 +750,73 @@
     <string>u109D</string>
     <string>u109E</string>
     <string>u109F</string>
+    <string>u1700</string>
+    <string>u2000</string>
+    <string>u2001</string>
+    <string>u2002</string>
+    <string>u2003</string>
+    <string>u2004</string>
+    <string>u2005</string>
+    <string>u2006</string>
+    <string>u2007</string>
+    <string>u2008</string>
+    <string>u2009</string>
+    <string>u200A</string>
+    <string>u200B</string>
+    <string>u200C</string>
+    <string>u200D</string>
+    <string>u200E</string>
+    <string>u200F</string>
+    <string>u2010</string>
+    <string>u2011</string>
+    <string>figuredash</string>
+    <string>endash</string>
+    <string>emdash</string>
+    <string>u2015</string>
+    <string>quoteleft</string>
+    <string>quoteright</string>
+    <string>quotesinglbase</string>
+    <string>quotedblleft</string>
+    <string>quotedblright</string>
+    <string>quotedblbase</string>
+    <string>dagger</string>
+    <string>daggerdbl</string>
+    <string>bullet</string>
+    <string>ellipsis</string>
+    <string>u2027</string>
+    <string>u2028</string>
+    <string>u2029</string>
+    <string>u202A</string>
+    <string>u202B</string>
+    <string>u202C</string>
+    <string>u202D</string>
+    <string>u202E</string>
+    <string>u202F</string>
+    <string>perthousand</string>
+    <string>guilsinglleft</string>
+    <string>guilsinglright</string>
+    <string>fraction</string>
+    <string>u2060</string>
+    <string>foursuperior</string>
+    <string>Euro</string>
+    <string>trademark</string>
+    <string>Omega</string>
+    <string>partialdiff</string>
+    <string>Delta</string>
+    <string>product</string>
+    <string>summation</string>
+    <string>minus</string>
+    <string>u2215</string>
+    <string>u2219</string>
+    <string>radical</string>
+    <string>infinity</string>
+    <string>integral</string>
+    <string>approxequal</string>
+    <string>notequal</string>
+    <string>lessequal</string>
+    <string>greaterequal</string>
+    <string>lozenge</string>
+    <string>circledash</string>
     <string>uA92E</string>
     <string>uA9E0</string>
     <string>uA9E1</string>
@@ -843,73 +910,6 @@
     <string>uAA7D</string>
     <string>uAA7E</string>
     <string>uAA7F</string>
-    <string>u1700</string>
-    <string>u2000</string>
-    <string>u2001</string>
-    <string>u2002</string>
-    <string>u2003</string>
-    <string>u2004</string>
-    <string>u2005</string>
-    <string>u2006</string>
-    <string>u2007</string>
-    <string>u2008</string>
-    <string>u2009</string>
-    <string>u200A</string>
-    <string>u200B</string>
-    <string>u200C</string>
-    <string>u200D</string>
-    <string>u200E</string>
-    <string>u200F</string>
-    <string>u2010</string>
-    <string>u2011</string>
-    <string>figuredash</string>
-    <string>endash</string>
-    <string>emdash</string>
-    <string>u2015</string>
-    <string>quoteleft</string>
-    <string>quoteright</string>
-    <string>quotesinglbase</string>
-    <string>quotedblleft</string>
-    <string>quotedblright</string>
-    <string>quotedblbase</string>
-    <string>dagger</string>
-    <string>daggerdbl</string>
-    <string>bullet</string>
-    <string>ellipsis</string>
-    <string>u2027</string>
-    <string>u2028</string>
-    <string>u2029</string>
-    <string>u202A</string>
-    <string>u202B</string>
-    <string>u202C</string>
-    <string>u202D</string>
-    <string>u202E</string>
-    <string>u202F</string>
-    <string>perthousand</string>
-    <string>guilsinglleft</string>
-    <string>guilsinglright</string>
-    <string>fraction</string>
-    <string>u2060</string>
-    <string>foursuperior</string>
-    <string>Euro</string>
-    <string>trademark</string>
-    <string>Omega</string>
-    <string>partialdiff</string>
-    <string>Delta</string>
-    <string>product</string>
-    <string>summation</string>
-    <string>minus</string>
-    <string>u2215</string>
-    <string>u2219</string>
-    <string>radical</string>
-    <string>infinity</string>
-    <string>integral</string>
-    <string>approxequal</string>
-    <string>notequal</string>
-    <string>lessequal</string>
-    <string>greaterequal</string>
-    <string>lozenge</string>
-    <string>circledash</string>
     <string>fi</string>
     <string>fl</string>
     <string>uFE00</string>
@@ -934,170 +934,1088 @@
   </array>
   <key>public.postscriptNames</key>
   <dict>
-    <key>Delta</key>
-    <string>u2206</string>
-    <key>Euro</key>
-    <string>Euro</string>
-    <key>Omega</key>
-    <string>u2126</string>
-    <key>approxequal</key>
-    <string>u2248</string>
-    <key>bullet</key>
-    <string>u2022</string>
     <key>circledash</key>
-    <string>circledash</string>
-    <key>dagger</key>
-    <string>u2020</string>
-    <key>daggerdbl</key>
-    <string>u2021</string>
-    <key>ellipsis</key>
-    <string>u2026</string>
-    <key>emdash</key>
-    <string>u2014</string>
-    <key>endash</key>
-    <string>u2013</string>
-    <key>figuredash</key>
-    <string>u2012</string>
+    <string>uni25CC</string>
+    <key>colontriangularmod</key>
+    <string>uni02D0</string>
+    <key>fi</key>
+    <string>uniFB01</string>
+    <key>fl</key>
+    <string>uniFB02</string>
     <key>foursuperior</key>
-    <string>u2074</string>
-    <key>fraction</key>
-    <string>u2044</string>
-    <key>greaterequal</key>
-    <string>u2265</string>
-    <key>guilsinglleft</key>
-    <string>u2039</string>
-    <key>guilsinglright</key>
-    <string>u203A</string>
-    <key>infinity</key>
-    <string>u221E</string>
-    <key>integral</key>
-    <string>u222B</string>
-    <key>lessequal</key>
-    <string>u2264</string>
-    <key>lozenge</key>
-    <string>u25CA</string>
-    <key>minus</key>
-    <string>u2212</string>
-    <key>notequal</key>
-    <string>u2260</string>
-    <key>partialdiff</key>
-    <string>u2202</string>
-    <key>perthousand</key>
-    <string>u2030</string>
-    <key>pi</key>
-    <string>u03C0</string>
-    <key>product</key>
-    <string>u220F</string>
-    <key>quotedblbase</key>
-    <string>u201E</string>
-    <key>quotedblleft</key>
-    <string>u201C</string>
-    <key>quotedblright</key>
-    <string>u201D</string>
-    <key>quoteleft</key>
-    <string>u2018</string>
-    <key>quoteright</key>
-    <string>u2019</string>
-    <key>quotesinglbase</key>
-    <string>u201A</string>
-    <key>radical</key>
-    <string>u221A</string>
-    <key>summation</key>
-    <string>u2211</string>
-    <key>trademark</key>
-    <string>u2122</string>
+    <string>uni2074</string>
+    <key>onesuperior</key>
+    <string>uni00B9</string>
+    <key>softhyphen</key>
+    <string>uni00AD</string>
+    <key>threesuperior</key>
+    <string>uni00B3</string>
+    <key>twosuperior</key>
+    <string>uni00B2</string>
     <key>u034F</key>
-    <string>u034F</string>
+    <string>uni034F</string>
+    <key>u1000</key>
+    <string>uni1000</string>
+    <key>u1000.aiph</key>
+    <string>uni1000.aiph</string>
+    <key>u1000.kham</key>
+    <string>uni1000.kham</string>
+    <key>u1000.med</key>
+    <string>uni1000.med</string>
+    <key>u1000.med.aiph</key>
+    <string>uni1000.med.aiph</string>
+    <key>u1000.sml</key>
+    <string>uni1000.sml</string>
+    <key>u1000_u1001_u103B</key>
+    <string>uni10001001103B</string>
+    <key>u1000_u103B_u1015_u103A</key>
+    <string>uni1000103B1015103A</string>
+    <key>u1001</key>
+    <string>uni1001</string>
+    <key>u1001.med</key>
+    <string>uni1001.med</string>
+    <key>u1002</key>
+    <string>uni1002</string>
+    <key>u1002.med</key>
+    <string>uni1002.med</string>
+    <key>u1002.sml</key>
+    <string>uni1002.sml</string>
+    <key>u1003</key>
+    <string>uni1003</string>
+    <key>u1003.med</key>
+    <string>uni1003.med</string>
+    <key>u1003.med.thai</key>
+    <string>uni1003.med.thai</string>
+    <key>u1003.thai</key>
+    <string>uni1003.thai</string>
+    <key>u1004</key>
+    <string>uni1004</string>
+    <key>u1004.kham</key>
+    <string>uni1004.kham</string>
+    <key>u1004.kinzi</key>
+    <string>uni1004.kinzi</string>
+    <key>u1004.kinzi.thai</key>
+    <string>uni1004.kinzi.thai</string>
+    <key>u1004.kinzi_u102D</key>
+    <string>uni1004.kinzi_u102D</string>
+    <key>u1004.kinzi_u102D_u1036</key>
+    <string>uni1004.kinzi_u102D_u1036</string>
+    <key>u1004.kinzi_u102E</key>
+    <string>uni1004.kinzi_u102E</string>
+    <key>u1004.kinzi_u1032</key>
+    <string>uni1004.kinzi_u1032</string>
+    <key>u1004.kinzi_u1033</key>
+    <string>uni1004.kinzi_u1033</string>
+    <key>u1004.kinzi_u1036</key>
+    <string>uni1004.kinzi_u1036</string>
+    <key>u1004.kinzi_u103A</key>
+    <string>uni1004.kinzi_u103A</string>
+    <key>u1004.med</key>
+    <string>uni1004.med</string>
+    <key>u1004.med.kham</key>
+    <string>uni1004.med.kham</string>
+    <key>u1005</key>
+    <string>uni1005</string>
+    <key>u1005.med</key>
+    <string>uni1005.med</string>
+    <key>u1005.sml</key>
+    <string>uni1005.sml</string>
+    <key>u1006</key>
+    <string>uni1006</string>
+    <key>u1006.med</key>
+    <string>uni1006.med</string>
+    <key>u1006.sml</key>
+    <string>uni1006.sml</string>
+    <key>u1007</key>
+    <string>uni1007</string>
+    <key>u1007.med</key>
+    <string>uni1007.med</string>
+    <key>u1007.sml</key>
+    <string>uni1007.sml</string>
+    <key>u1008</key>
+    <string>uni1008</string>
+    <key>u1008.med</key>
+    <string>uni1008.med</string>
+    <key>u1009</key>
+    <string>uni1009</string>
+    <key>u1009_u102C</key>
+    <string>uni1009102C</string>
+    <key>u100A</key>
+    <string>uni100A</string>
+    <key>u100A.alt</key>
+    <string>uni100A.alt</string>
+    <key>u100A.med</key>
+    <string>uni100A.med</string>
+    <key>u100A_u100A</key>
+    <string>uni100A100A</string>
+    <key>u100B</key>
+    <string>uni100B</string>
+    <key>u100B.alt</key>
+    <string>uni100B.alt</string>
+    <key>u100B.med</key>
+    <string>uni100B.med</string>
+    <key>u100B.med.thai</key>
+    <string>uni100B.med.thai</string>
+    <key>u100B.sml</key>
+    <string>uni100B.sml</string>
+    <key>u100B.thai</key>
+    <string>uni100B.thai</string>
+    <key>u100B_u100B</key>
+    <string>uni100B100B</string>
+    <key>u100B_u100C</key>
+    <string>uni100B100C</string>
+    <key>u100C</key>
+    <string>uni100C</string>
+    <key>u100C.med</key>
+    <string>uni100C.med</string>
+    <key>u100C.med.thai</key>
+    <string>uni100C.med.thai</string>
+    <key>u100C.thai</key>
+    <string>uni100C.thai</string>
+    <key>u100D</key>
+    <string>uni100D</string>
+    <key>u100D.med</key>
+    <string>uni100D.med</string>
+    <key>u100D.med.thai</key>
+    <string>uni100D.med.thai</string>
+    <key>u100D.thai</key>
+    <string>uni100D.thai</string>
+    <key>u100D_u100D</key>
+    <string>uni100D100D</string>
+    <key>u100D_u100E</key>
+    <string>uni100D100E</string>
+    <key>u100E</key>
+    <string>uni100E</string>
+    <key>u100E.med</key>
+    <string>uni100E.med</string>
+    <key>u100E.med.thai</key>
+    <string>uni100E.med.thai</string>
+    <key>u100E.thai</key>
+    <string>uni100E.thai</string>
+    <key>u100F</key>
+    <string>uni100F</string>
+    <key>u100F.med</key>
+    <string>uni100F.med</string>
+    <key>u100F_u100B</key>
+    <string>uni100F100B</string>
+    <key>u100F_u100D</key>
+    <string>uni100F100D</string>
+    <key>u1010</key>
+    <string>uni1010</string>
+    <key>u1010.aiph</key>
+    <string>uni1010.aiph</string>
+    <key>u1010.kham</key>
+    <string>uni1010.kham</string>
+    <key>u1010.med</key>
+    <string>uni1010.med</string>
+    <key>u1010.med.aiph</key>
+    <string>uni1010.med.aiph</string>
+    <key>u1010.sml</key>
+    <string>uni1010.sml</string>
+    <key>u1010_u103D.med</key>
+    <string>uni1010103D.med</string>
+    <key>u1010_u103D.med.tri</key>
+    <string>uni1010103D.med.tri</string>
+    <key>u1011</key>
+    <string>uni1011</string>
+    <key>u1011.kham</key>
+    <string>uni1011.kham</string>
+    <key>u1011.med</key>
+    <string>uni1011.med</string>
+    <key>u1011.med.aiph</key>
+    <string>uni1011.med.aiph</string>
+    <key>u1011.sml</key>
+    <string>uni1011.sml</string>
+    <key>u1012</key>
+    <string>uni1012</string>
+    <key>u1012.med</key>
+    <string>uni1012.med</string>
+    <key>u1012.med.thai</key>
+    <string>uni1012.med.thai</string>
+    <key>u1012.sml</key>
+    <string>uni1012.sml</string>
+    <key>u1012.thai</key>
+    <string>uni1012.thai</string>
+    <key>u1013</key>
+    <string>uni1013</string>
+    <key>u1013.med</key>
+    <string>uni1013.med</string>
+    <key>u1013.sml</key>
+    <string>uni1013.sml</string>
+    <key>u1014</key>
+    <string>uni1014</string>
+    <key>u1014.alt</key>
+    <string>uni1014.alt</string>
+    <key>u1014.med</key>
+    <string>uni1014.med</string>
+    <key>u1014.med.thai</key>
+    <string>uni1014.med.thai</string>
+    <key>u1014.thai</key>
+    <string>uni1014.thai</string>
+    <key>u1014_u1010_u103B</key>
+    <string>uni10141010103B</string>
+    <key>u1014_u1010_u103C</key>
+    <string>uni10141010103C</string>
+    <key>u1015</key>
+    <string>uni1015</string>
+    <key>u1015.kham</key>
+    <string>uni1015.kham</string>
+    <key>u1015.med</key>
+    <string>uni1015.med</string>
+    <key>u1015.med.kham</key>
+    <string>uni1015.med.kham</string>
+    <key>u1015.sml</key>
+    <string>uni1015.sml</string>
+    <key>u1016</key>
+    <string>uni1016</string>
+    <key>u1016.med</key>
+    <string>uni1016.med</string>
+    <key>u1017</key>
+    <string>uni1017</string>
+    <key>u1017.med</key>
+    <string>uni1017.med</string>
+    <key>u1018</key>
+    <string>uni1018</string>
+    <key>u1018.med</key>
+    <string>uni1018.med</string>
+    <key>u1019</key>
+    <string>uni1019</string>
+    <key>u1019.kham</key>
+    <string>uni1019.kham</string>
+    <key>u1019.med</key>
+    <string>uni1019.med</string>
+    <key>u1019.med.kham</key>
+    <string>uni1019.med.kham</string>
+    <key>u1019.sml</key>
+    <string>uni1019.sml</string>
+    <key>u101A</key>
+    <string>uni101A</string>
+    <key>u101A.aiph</key>
+    <string>uni101A.aiph</string>
+    <key>u101A.kham</key>
+    <string>uni101A.kham</string>
+    <key>u101A.med</key>
+    <string>uni101A.med</string>
+    <key>u101A.med.aiph</key>
+    <string>uni101A.med.aiph</string>
+    <key>u101B</key>
+    <string>uni101B</string>
+    <key>u101B.alt</key>
+    <string>uni101B.alt</string>
+    <key>u101B.kham</key>
+    <string>uni101B.kham</string>
+    <key>u101B.kinzi</key>
+    <string>uni101B.kinzi</string>
+    <key>u101B.kinzi_u102D</key>
+    <string>uni101B.kinzi_u102D</string>
+    <key>u101B.kinzi_u102E</key>
+    <string>uni101B.kinzi_u102E</string>
+    <key>u101B.kinzi_u103A</key>
+    <string>uni101B.kinzi_u103A</string>
+    <key>u101B.long</key>
+    <string>uni101B.long</string>
+    <key>u101B.med</key>
+    <string>uni101B.med</string>
+    <key>u101B_u103B</key>
+    <string>uni101B103B</string>
+    <key>u101C</key>
+    <string>uni101C</string>
+    <key>u101C.aiph</key>
+    <string>uni101C.aiph</string>
+    <key>u101C.kham</key>
+    <string>uni101C.kham</string>
+    <key>u101C.med</key>
+    <string>uni101C.med</string>
+    <key>u101C.med.aiph</key>
+    <string>uni101C.med.aiph</string>
+    <key>u101C.med_u103D</key>
+    <string>uni101C.med_u103D</string>
+    <key>u101D</key>
+    <string>uni101D</string>
+    <key>u101D.kham</key>
+    <string>uni101D.kham</string>
+    <key>u101E</key>
+    <string>uni101E</string>
+    <key>u101E.med</key>
+    <string>uni101E.med</string>
+    <key>u101E.med.thai</key>
+    <string>uni101E.med.thai</string>
+    <key>u101E.sml</key>
+    <string>uni101E.sml</string>
+    <key>u101E.thai</key>
+    <string>uni101E.thai</string>
+    <key>u101E_u1010_u103C</key>
+    <string>uni101E1010103C</string>
+    <key>u101F</key>
+    <string>uni101F</string>
+    <key>u101F.small</key>
+    <string>uni101F.small</string>
+    <key>u1020</key>
+    <string>uni1020</string>
+    <key>u1020.long</key>
+    <string>uni1020.long</string>
+    <key>u1020.med.thai</key>
+    <string>uni1020.med.thai</string>
+    <key>u1020.thai</key>
+    <string>uni1020.thai</string>
+    <key>u1020_u1020</key>
+    <string>uni10201020</string>
+    <key>u1020_u103E</key>
+    <string>uni1020103E</string>
+    <key>u1021</key>
+    <string>uni1021</string>
+    <key>u1021.med</key>
+    <string>uni1021.med</string>
+    <key>u1021.thai</key>
+    <string>uni1021.thai</string>
+    <key>u1022</key>
+    <string>uni1022</string>
+    <key>u1022.aiph</key>
+    <string>uni1022.aiph</string>
+    <key>u1022.kham</key>
+    <string>uni1022.kham</string>
+    <key>u1023</key>
+    <string>uni1023</string>
+    <key>u1023.thai</key>
+    <string>uni1023.thai</string>
+    <key>u1024</key>
+    <string>uni1024</string>
+    <key>u1025</key>
+    <string>uni1025</string>
+    <key>u1026</key>
+    <string>uni1026</string>
+    <key>u1027</key>
+    <string>uni1027</string>
+    <key>u1028</key>
+    <string>uni1028</string>
+    <key>u1029</key>
+    <string>uni1029</string>
+    <key>u102A</key>
+    <string>uni102A</string>
+    <key>u102B</key>
+    <string>uni102B</string>
+    <key>u102B_u103A</key>
+    <string>uni102B103A</string>
+    <key>u102C</key>
+    <string>uni102C</string>
+    <key>u102D</key>
+    <string>uni102D</string>
+    <key>u102D_u1036</key>
+    <string>uni102D1036</string>
+    <key>u102D_uAA70</key>
+    <string>uni102DAA70</string>
+    <key>u102D_uAA7C</key>
+    <string>uni102DAA7C</string>
+    <key>u102E</key>
+    <string>uni102E</string>
+    <key>u102E_u1036</key>
+    <string>uni102E1036</string>
+    <key>u102E_uAA70</key>
+    <string>uni102EAA70</string>
+    <key>u102E_uAA7C</key>
+    <string>uni102EAA7C</string>
+    <key>u102F</key>
+    <string>uni102F</string>
+    <key>u102F.med</key>
+    <string>uni102F.med</string>
+    <key>u102F_u108D</key>
+    <string>uni102F108D</string>
+    <key>u1030</key>
+    <string>uni1030</string>
+    <key>u1030.med</key>
+    <string>uni1030.med</string>
+    <key>u1030_u108D</key>
+    <string>uni1030108D</string>
+    <key>u1031</key>
+    <string>uni1031</string>
+    <key>u1031.kham</key>
+    <string>uni1031.kham</string>
+    <key>u1032</key>
+    <string>uni1032</string>
+    <key>u1032_u102D</key>
+    <string>uni1032102D</string>
+    <key>u1032_u1036</key>
+    <string>uni10321036</string>
+    <key>u1033</key>
+    <string>uni1033</string>
+    <key>u1034</key>
+    <string>uni1034</string>
+    <key>u1035</key>
+    <string>uni1035</string>
+    <key>u1036</key>
+    <string>uni1036</string>
+    <key>u1036.dot</key>
+    <string>uni1036.dot</string>
+    <key>u1037</key>
+    <string>uni1037</string>
+    <key>u1038</key>
+    <string>uni1038</string>
+    <key>u1038.dot</key>
+    <string>uni1038.dot</string>
+    <key>u1039</key>
+    <string>uni1039</string>
+    <key>u103A</key>
+    <string>uni103A</string>
+    <key>u103A_u1036</key>
+    <string>uni103A1036</string>
+    <key>u103A_uAA70</key>
+    <string>uni103AAA70</string>
+    <key>u103B</key>
+    <string>uni103B</string>
+    <key>u103B_u103D</key>
+    <string>uni103B103D</string>
+    <key>u103B_u103D.tri</key>
+    <string>uni103B103D.tri</string>
+    <key>u103B_u103D_u103E</key>
+    <string>uni103B103D103E</string>
+    <key>u103B_u103D_u103E.tri</key>
+    <string>uni103B103D103E.tri</string>
+    <key>u103B_u103E</key>
+    <string>uni103B103E</string>
+    <key>u103C</key>
+    <string>uni103C</string>
+    <key>u103C.aiph</key>
+    <string>uni103C.aiph</string>
+    <key>u103C.alt.narr</key>
+    <string>uni103C.alt.narr</string>
+    <key>u103C.alt.open.narr</key>
+    <string>uni103C.alt.open.narr</string>
+    <key>u103C.alt.open.wide</key>
+    <string>uni103C.alt.open.wide</string>
+    <key>u103C.alt.wide</key>
+    <string>uni103C.alt.wide</string>
+    <key>u103C.open.narr</key>
+    <string>uni103C.open.narr</string>
+    <key>u103C.open.wide</key>
+    <string>uni103C.open.wide</string>
+    <key>u103C.wide</key>
+    <string>uni103C.wide</string>
+    <key>u103C.wide.aiph</key>
+    <string>uni103C.wide.aiph</string>
+    <key>u103C_u102F.alt.narr</key>
+    <string>uni103C102F.alt.narr</string>
+    <key>u103C_u102F.alt.wide</key>
+    <string>uni103C102F.alt.wide</string>
+    <key>u103C_u102F.narr</key>
+    <string>uni103C102F.narr</string>
+    <key>u103C_u102F.wide</key>
+    <string>uni103C102F.wide</string>
+    <key>u103C_u103D.alt.narr</key>
+    <string>uni103C103D.alt.narr</string>
+    <key>u103C_u103D.alt.narr.tri</key>
+    <string>uni103C103D.alt.narr.tri</string>
+    <key>u103C_u103D.alt.wide</key>
+    <string>uni103C103D.alt.wide</string>
+    <key>u103C_u103D.alt.wide.tri</key>
+    <string>uni103C103D.alt.wide.tri</string>
+    <key>u103C_u103D.narr</key>
+    <string>uni103C103D.narr</string>
+    <key>u103C_u103D.narr.tri</key>
+    <string>uni103C103D.narr.tri</string>
+    <key>u103C_u103D.wide</key>
+    <string>uni103C103D.wide</string>
+    <key>u103C_u103D.wide.tri</key>
+    <string>uni103C103D.wide.tri</string>
+    <key>u103D</key>
+    <string>uni103D</string>
+    <key>u103D.sml</key>
+    <string>uni103D.sml</string>
+    <key>u103D.tri</key>
+    <string>uni103D.tri</string>
+    <key>u103D_u103E</key>
+    <string>uni103D103E</string>
+    <key>u103D_u103E.small</key>
+    <string>uni103D103E.small</string>
+    <key>u103D_u103E.small.tri</key>
+    <string>uni103D103E.small.tri</string>
+    <key>u103D_u103E.tri</key>
+    <string>uni103D103E.tri</string>
+    <key>u103D_u1060</key>
+    <string>uni103D1060</string>
+    <key>u103D_u108D</key>
+    <string>uni103D108D</string>
+    <key>u103E</key>
+    <string>uni103E</string>
+    <key>u103E.alt</key>
+    <string>uni103E.alt</string>
+    <key>u103E.slanth</key>
+    <string>uni103E.slanth</string>
+    <key>u103E.slantr</key>
+    <string>uni103E.slantr</string>
+    <key>u103E_u102F</key>
+    <string>uni103E102F</string>
+    <key>u103E_u102F.slanth</key>
+    <string>uni103E102F.slanth</string>
+    <key>u103E_u102F.slantr</key>
+    <string>uni103E102F.slantr</string>
+    <key>u103E_u1030</key>
+    <string>uni103E1030</string>
+    <key>u103E_u1030.slanth</key>
+    <string>uni103E1030.slanth</string>
+    <key>u103E_u1030.slantr</key>
+    <string>uni103E1030.slantr</string>
+    <key>u103E_u1060</key>
+    <string>uni103E1060</string>
+    <key>u103F</key>
+    <string>uni103F</string>
+    <key>u103F.thai</key>
+    <string>uni103F.thai</string>
+    <key>u1040</key>
+    <string>uni1040</string>
+    <key>u1041</key>
+    <string>uni1041</string>
+    <key>u1042</key>
+    <string>uni1042</string>
+    <key>u1043</key>
+    <string>uni1043</string>
+    <key>u1044</key>
+    <string>uni1044</string>
+    <key>u1045</key>
+    <string>uni1045</string>
+    <key>u1046</key>
+    <string>uni1046</string>
+    <key>u1047</key>
+    <string>uni1047</string>
+    <key>u1048</key>
+    <string>uni1048</string>
+    <key>u1049</key>
+    <string>uni1049</string>
+    <key>u1049.thai</key>
+    <string>uni1049.thai</string>
+    <key>u104A</key>
+    <string>uni104A</string>
+    <key>u104A.thai</key>
+    <string>uni104A.thai</string>
+    <key>u104B</key>
+    <string>uni104B</string>
+    <key>u104B.thai</key>
+    <string>uni104B.thai</string>
+    <key>u104C</key>
+    <string>uni104C</string>
+    <key>u104D</key>
+    <string>uni104D</string>
+    <key>u104E</key>
+    <string>uni104E</string>
+    <key>u104F</key>
+    <string>uni104F</string>
+    <key>u1050</key>
+    <string>uni1050</string>
+    <key>u1050.med</key>
+    <string>uni1050.med</string>
+    <key>u1051</key>
+    <string>uni1051</string>
+    <key>u1051.med</key>
+    <string>uni1051.med</string>
+    <key>u1051_u100C</key>
+    <string>uni1051100C</string>
+    <key>u1051_u100D</key>
+    <string>uni1051100D</string>
+    <key>u1052</key>
+    <string>uni1052</string>
+    <key>u1053</key>
+    <string>uni1053</string>
+    <key>u1054</key>
+    <string>uni1054</string>
+    <key>u1055</key>
+    <string>uni1055</string>
+    <key>u1056</key>
+    <string>uni1056</string>
+    <key>u1057</key>
+    <string>uni1057</string>
+    <key>u1058</key>
+    <string>uni1058</string>
+    <key>u1059</key>
+    <string>uni1059</string>
+    <key>u105A</key>
+    <string>uni105A</string>
+    <key>u105A.med</key>
+    <string>uni105A.med</string>
+    <key>u105B</key>
+    <string>uni105B</string>
+    <key>u105B.med</key>
+    <string>uni105B.med</string>
+    <key>u105C</key>
+    <string>uni105C</string>
+    <key>u105C.med</key>
+    <string>uni105C.med</string>
+    <key>u105D</key>
+    <string>uni105D</string>
+    <key>u105E</key>
+    <string>uni105E</string>
+    <key>u105F</key>
+    <string>uni105F</string>
+    <key>u1060</key>
+    <string>uni1060</string>
+    <key>u1061</key>
+    <string>uni1061</string>
+    <key>u1061.slanth</key>
+    <string>uni1061.slanth</string>
+    <key>u1061.slantr</key>
+    <string>uni1061.slantr</string>
+    <key>u1062</key>
+    <string>uni1062</string>
+    <key>u1062_u103A</key>
+    <string>uni1062103A</string>
+    <key>u1063</key>
+    <string>uni1063</string>
+    <key>u1063_u103A</key>
+    <string>uni1063103A</string>
+    <key>u1064</key>
+    <string>uni1064</string>
+    <key>u1065</key>
+    <string>uni1065</string>
+    <key>u1066</key>
+    <string>uni1066</string>
+    <key>u1066.slanth</key>
+    <string>uni1066.slanth</string>
+    <key>u1066.slantr</key>
+    <string>uni1066.slantr</string>
+    <key>u1067</key>
+    <string>uni1067</string>
+    <key>u1068</key>
+    <string>uni1068</string>
+    <key>u1069</key>
+    <string>uni1069</string>
+    <key>u106A</key>
+    <string>uni106A</string>
+    <key>u106B</key>
+    <string>uni106B</string>
+    <key>u106C</key>
+    <string>uni106C</string>
+    <key>u106D</key>
+    <string>uni106D</string>
+    <key>u106D.csh</key>
+    <string>uni106D.csh</string>
+    <key>u106E</key>
+    <string>uni106E</string>
+    <key>u106F</key>
+    <string>uni106F</string>
+    <key>u1070</key>
+    <string>uni1070</string>
+    <key>u1071</key>
+    <string>uni1071</string>
+    <key>u1072</key>
+    <string>uni1072</string>
+    <key>u1073</key>
+    <string>uni1073</string>
+    <key>u1074</key>
+    <string>uni1074</string>
+    <key>u1075</key>
+    <string>uni1075</string>
+    <key>u1075.aiph</key>
+    <string>uni1075.aiph</string>
+    <key>u1075.kham</key>
+    <string>uni1075.kham</string>
+    <key>u1075.med.aiph</key>
+    <string>uni1075.med.aiph</string>
+    <key>u1076</key>
+    <string>uni1076</string>
+    <key>u1077</key>
+    <string>uni1077</string>
+    <key>u1078</key>
+    <string>uni1078</string>
+    <key>u1078.aiph</key>
+    <string>uni1078.aiph</string>
+    <key>u1078.kham</key>
+    <string>uni1078.kham</string>
+    <key>u1079</key>
+    <string>uni1079</string>
+    <key>u107A</key>
+    <string>uni107A</string>
+    <key>u107A.aiph</key>
+    <string>uni107A.aiph</string>
+    <key>u107A.alt.aiph</key>
+    <string>uni107A.alt.aiph</string>
+    <key>u107A.med.aiph</key>
+    <string>uni107A.med.aiph</string>
+    <key>u107B</key>
+    <string>uni107B</string>
+    <key>u107C</key>
+    <string>uni107C</string>
+    <key>u107D</key>
+    <string>uni107D</string>
+    <key>u107E</key>
+    <string>uni107E</string>
+    <key>u107F</key>
+    <string>uni107F</string>
+    <key>u1080</key>
+    <string>uni1080</string>
+    <key>u1080.kham</key>
+    <string>uni1080.kham</string>
+    <key>u1081</key>
+    <string>uni1081</string>
+    <key>u1081.straight</key>
+    <string>uni1081.straight</string>
+    <key>u1082</key>
+    <string>uni1082</string>
+    <key>u1082_u108D</key>
+    <string>uni1082108D</string>
+    <key>u1083</key>
+    <string>uni1083</string>
+    <key>u1084</key>
+    <string>uni1084</string>
+    <key>u1085</key>
+    <string>uni1085</string>
+    <key>u1085_uAA70</key>
+    <string>uni1085AA70</string>
+    <key>u1086</key>
+    <string>uni1086</string>
+    <key>u1086.kham</key>
+    <string>uni1086.kham</string>
+    <key>u1086_uAA70</key>
+    <string>uni1086AA70</string>
+    <key>u1086_uAA7C</key>
+    <string>uni1086AA7C</string>
+    <key>u1087</key>
+    <string>uni1087</string>
+    <key>u1087.dot</key>
+    <string>uni1087.dot</string>
+    <key>u1088</key>
+    <string>uni1088</string>
+    <key>u1088.dot</key>
+    <string>uni1088.dot</string>
+    <key>u1089</key>
+    <string>uni1089</string>
+    <key>u1089.dot</key>
+    <string>uni1089.dot</string>
+    <key>u108A</key>
+    <string>uni108A</string>
+    <key>u108A.dot</key>
+    <string>uni108A.dot</string>
+    <key>u108B</key>
+    <string>uni108B</string>
+    <key>u108C</key>
+    <string>uni108C</string>
+    <key>u108D</key>
+    <string>uni108D</string>
+    <key>u108E</key>
+    <string>uni108E</string>
+    <key>u108F</key>
+    <string>uni108F</string>
+    <key>u1090</key>
+    <string>uni1090</string>
+    <key>u1091</key>
+    <string>uni1091</string>
+    <key>u1092</key>
+    <string>uni1092</string>
+    <key>u1093</key>
+    <string>uni1093</string>
+    <key>u1094</key>
+    <string>uni1094</string>
+    <key>u1095</key>
+    <string>uni1095</string>
+    <key>u1096</key>
+    <string>uni1096</string>
+    <key>u1097</key>
+    <string>uni1097</string>
+    <key>u1098</key>
+    <string>uni1098</string>
+    <key>u1099</key>
+    <string>uni1099</string>
+    <key>u109A</key>
+    <string>uni109A</string>
+    <key>u109A.dot</key>
+    <string>uni109A.dot</string>
+    <key>u109B</key>
+    <string>uni109B</string>
+    <key>u109B.dot</key>
+    <string>uni109B.dot</string>
+    <key>u109C</key>
+    <string>uni109C</string>
+    <key>u109D</key>
+    <string>uni109D</string>
+    <key>u109E</key>
+    <string>uni109E</string>
+    <key>u109F</key>
+    <string>uni109F</string>
+    <key>u1700</key>
+    <string>uni1700</string>
     <key>u2000</key>
-    <string>u2000</string>
+    <string>uni2000</string>
     <key>u2001</key>
-    <string>u2001</string>
+    <string>uni2001</string>
     <key>u2002</key>
-    <string>u2002</string>
+    <string>uni2002</string>
     <key>u2003</key>
-    <string>u2003</string>
+    <string>uni2003</string>
     <key>u2004</key>
-    <string>u2004</string>
+    <string>uni2004</string>
     <key>u2005</key>
-    <string>u2005</string>
+    <string>uni2005</string>
     <key>u2006</key>
-    <string>u2006</string>
+    <string>uni2006</string>
     <key>u2007</key>
-    <string>u2007</string>
+    <string>uni2007</string>
     <key>u2008</key>
-    <string>u2008</string>
+    <string>uni2008</string>
     <key>u2009</key>
-    <string>u2009</string>
+    <string>uni2009</string>
     <key>u200A</key>
-    <string>u200A</string>
+    <string>uni200A</string>
+    <key>u200B</key>
+    <string>uni200B</string>
+    <key>u200C</key>
+    <string>uni200C</string>
+    <key>u200D</key>
+    <string>uni200D</string>
     <key>u200E</key>
-    <string>u200E</string>
+    <string>uni200E</string>
     <key>u200F</key>
-    <string>u200F</string>
+    <string>uni200F</string>
     <key>u2010</key>
-    <string>u2010</string>
+    <string>uni2010</string>
     <key>u2011</key>
-    <string>u2011</string>
+    <string>uni2011</string>
     <key>u2015</key>
-    <string>u2015</string>
+    <string>uni2015</string>
     <key>u2027</key>
-    <string>u2027</string>
+    <string>uni2027</string>
     <key>u2028</key>
-    <string>u2028</string>
+    <string>uni2028</string>
     <key>u2029</key>
-    <string>u2029</string>
+    <string>uni2029</string>
     <key>u202A</key>
-    <string>u202A</string>
+    <string>uni202A</string>
     <key>u202B</key>
-    <string>u202B</string>
+    <string>uni202B</string>
     <key>u202C</key>
-    <string>u202C</string>
+    <string>uni202C</string>
     <key>u202D</key>
-    <string>u202D</string>
+    <string>uni202D</string>
     <key>u202E</key>
-    <string>u202E</string>
+    <string>uni202E</string>
     <key>u202F</key>
-    <string>u202F</string>
+    <string>uni202F</string>
+    <key>u2060</key>
+    <string>uni2060</string>
     <key>u2215</key>
-    <string>u2215</string>
+    <string>uni2215</string>
     <key>u2219</key>
-    <string>u2219</string>
+    <string>uni2219</string>
+    <key>uA92E</key>
+    <string>uniA92E</string>
+    <key>uA9E0</key>
+    <string>uniA9E0</string>
+    <key>uA9E1</key>
+    <string>uniA9E1</string>
+    <key>uA9E2</key>
+    <string>uniA9E2</string>
+    <key>uA9E3</key>
+    <string>uniA9E3</string>
+    <key>uA9E4</key>
+    <string>uniA9E4</string>
+    <key>uA9E5</key>
+    <string>uniA9E5</string>
+    <key>uA9E5_uAA7C</key>
+    <string>uniA9E5AA7C</string>
+    <key>uA9E6</key>
+    <string>uniA9E6</string>
+    <key>uA9E7</key>
+    <string>uniA9E7</string>
+    <key>uA9E8</key>
+    <string>uniA9E8</string>
+    <key>uA9E9</key>
+    <string>uniA9E9</string>
+    <key>uA9EA</key>
+    <string>uniA9EA</string>
+    <key>uA9EB</key>
+    <string>uniA9EB</string>
+    <key>uA9EC</key>
+    <string>uniA9EC</string>
+    <key>uA9ED</key>
+    <string>uniA9ED</string>
+    <key>uA9EE</key>
+    <string>uniA9EE</string>
+    <key>uA9EF</key>
+    <string>uniA9EF</string>
+    <key>uA9F0</key>
+    <string>uniA9F0</string>
+    <key>uA9F1</key>
+    <string>uniA9F1</string>
+    <key>uA9F2</key>
+    <string>uniA9F2</string>
+    <key>uA9F3</key>
+    <string>uniA9F3</string>
+    <key>uA9F4</key>
+    <string>uniA9F4</string>
+    <key>uA9F5</key>
+    <string>uniA9F5</string>
+    <key>uA9F6</key>
+    <string>uniA9F6</string>
+    <key>uA9F7</key>
+    <string>uniA9F7</string>
+    <key>uA9F8</key>
+    <string>uniA9F8</string>
+    <key>uA9F9</key>
+    <string>uniA9F9</string>
+    <key>uA9FA</key>
+    <string>uniA9FA</string>
+    <key>uA9FB</key>
+    <string>uniA9FB</string>
+    <key>uA9FC</key>
+    <string>uniA9FC</string>
+    <key>uA9FD</key>
+    <string>uniA9FD</string>
+    <key>uA9FE</key>
+    <string>uniA9FE</string>
+    <key>uAA60</key>
+    <string>uniAA60</string>
+    <key>uAA60.kham</key>
+    <string>uniAA60.kham</string>
+    <key>uAA60.med</key>
+    <string>uniAA60.med</string>
+    <key>uAA60.med.kham</key>
+    <string>uniAA60.med.kham</string>
+    <key>uAA61</key>
+    <string>uniAA61</string>
+    <key>uAA61.aiph</key>
+    <string>uniAA61.aiph</string>
+    <key>uAA61.kham</key>
+    <string>uniAA61.kham</string>
+    <key>uAA61.med.aiph</key>
+    <string>uniAA61.med.aiph</string>
+    <key>uAA61.med.kham</key>
+    <string>uniAA61.med.kham</string>
+    <key>uAA62</key>
+    <string>uniAA62</string>
+    <key>uAA62.kham</key>
+    <string>uniAA62.kham</string>
+    <key>uAA63</key>
+    <string>uniAA63</string>
+    <key>uAA63.kham</key>
+    <string>uniAA63.kham</string>
+    <key>uAA64</key>
+    <string>uniAA64</string>
+    <key>uAA64.kham</key>
+    <string>uniAA64.kham</string>
+    <key>uAA65</key>
+    <string>uniAA65</string>
+    <key>uAA65.kham</key>
+    <string>uniAA65.kham</string>
+    <key>uAA66</key>
+    <string>uniAA66</string>
+    <key>uAA66.kham</key>
+    <string>uniAA66.kham</string>
+    <key>uAA67</key>
+    <string>uniAA67</string>
+    <key>uAA68</key>
+    <string>uniAA68</string>
+    <key>uAA69</key>
+    <string>uniAA69</string>
+    <key>uAA6A</key>
+    <string>uniAA6A</string>
+    <key>uAA6B</key>
+    <string>uniAA6B</string>
+    <key>uAA6B.aiph</key>
+    <string>uniAA6B.aiph</string>
+    <key>uAA6B.kham</key>
+    <string>uniAA6B.kham</string>
+    <key>uAA6B.med.aiph</key>
+    <string>uniAA6B.med.aiph</string>
+    <key>uAA6B.med.kham</key>
+    <string>uniAA6B.med.kham</string>
+    <key>uAA6C</key>
+    <string>uniAA6C</string>
+    <key>uAA6C.alt</key>
+    <string>uniAA6C.alt</string>
+    <key>uAA6C.kham</key>
+    <string>uniAA6C.kham</string>
+    <key>uAA6C.med.kham</key>
+    <string>uniAA6C.med.kham</string>
+    <key>uAA6D</key>
+    <string>uniAA6D</string>
+    <key>uAA6D.aiph</key>
+    <string>uniAA6D.aiph</string>
+    <key>uAA6E</key>
+    <string>uniAA6E</string>
+    <key>uAA6F</key>
+    <string>uniAA6F</string>
+    <key>uAA6F.kham</key>
+    <string>uniAA6F.kham</string>
+    <key>uAA70</key>
+    <string>uniAA70</string>
+    <key>uAA71</key>
+    <string>uniAA71</string>
+    <key>uAA72</key>
+    <string>uniAA72</string>
+    <key>uAA73</key>
+    <string>uniAA73</string>
+    <key>uAA73.kham</key>
+    <string>uniAA73.kham</string>
+    <key>uAA74</key>
+    <string>uniAA74</string>
+    <key>uAA75</key>
+    <string>uniAA75</string>
+    <key>uAA75.kham</key>
+    <string>uniAA75.kham</string>
+    <key>uAA76</key>
+    <string>uniAA76</string>
+    <key>uAA76.kham</key>
+    <string>uniAA76.kham</string>
+    <key>uAA77</key>
+    <string>uniAA77</string>
+    <key>uAA77.aiph</key>
+    <string>uniAA77.aiph</string>
+    <key>uAA78</key>
+    <string>uniAA78</string>
+    <key>uAA79</key>
+    <string>uniAA79</string>
+    <key>uAA79.aiph</key>
+    <string>uniAA79.aiph</string>
+    <key>uAA7A</key>
+    <string>uniAA7A</string>
+    <key>uAA7A.aiph</key>
+    <string>uniAA7A.aiph</string>
+    <key>uAA7B</key>
+    <string>uniAA7B</string>
+    <key>uAA7B.dot</key>
+    <string>uniAA7B.dot</string>
+    <key>uAA7C</key>
+    <string>uniAA7C</string>
+    <key>uAA7D</key>
+    <string>uniAA7D</string>
+    <key>uAA7E</key>
+    <string>uniAA7E</string>
+    <key>uAA7F</key>
+    <string>uniAA7F</string>
+    <key>uFE00</key>
+    <string>uniFE00</string>
     <key>uFE01</key>
-    <string>uFE01</string>
+    <string>uniFE01</string>
     <key>uFE02</key>
-    <string>uFE02</string>
+    <string>uniFE02</string>
     <key>uFE03</key>
-    <string>uFE03</string>
+    <string>uniFE03</string>
     <key>uFE04</key>
-    <string>uFE04</string>
+    <string>uniFE04</string>
     <key>uFE05</key>
-    <string>uFE05</string>
+    <string>uniFE05</string>
     <key>uFE06</key>
-    <string>uFE06</string>
+    <string>uniFE06</string>
     <key>uFE07</key>
-    <string>uFE07</string>
+    <string>uniFE07</string>
     <key>uFE08</key>
-    <string>uFE08</string>
+    <string>uniFE08</string>
     <key>uFE09</key>
-    <string>uFE09</string>
+    <string>uniFE09</string>
     <key>uFE0A</key>
-    <string>uFE0A</string>
+    <string>uniFE0A</string>
     <key>uFE0B</key>
-    <string>uFE0B</string>
+    <string>uniFE0B</string>
     <key>uFE0C</key>
-    <string>uFE0C</string>
+    <string>uniFE0C</string>
     <key>uFE0D</key>
-    <string>uFE0D</string>
+    <string>uniFE0D</string>
     <key>uFE0E</key>
-    <string>uFE0E</string>
+    <string>uniFE0E</string>
     <key>uFE0F</key>
-    <string>uFE0F</string>
+    <string>uniFE0F</string>
     <key>uFEFF</key>
-    <string>uFEFF</string>
+    <string>uniFEFF</string>
     <key>uFFFC</key>
-    <string>uFFFC</string>
+    <string>uniFFFC</string>
     <key>uFFFD</key>
-    <string>uFFFD</string>
+    <string>uniFFFD</string>
   </dict>
 </dict>
 </plist>

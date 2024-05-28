@@ -12,7 +12,8 @@ echo "-----Check and normalize Regular..."
 # This normalization will also run check and fix routines
 psfnormalize -p checkfix=fix source/masters/Padauk-Regular.ufo -l source/logs/normR.log
 
-echo "-----Updating glyph orders in Regular..."
+echo "-----Updating glyph orders and names in Regular..."
+psfsetpsnames -q -p checkfix=none -p backup=False -i source/glyph_data.csv source/masters/Padauk-Regular.ufo -l source/logs/psname.log
 psfsetglyphorder -q -p checkfix=none -p backup=False  --header sort_final -i source/glyph_data.csv source/masters/Padauk-Regular.ufo -l source/logs/sortorder.log
 
 echo "-----Syncing glyph orders, psnames, and other metadata to other UFOs..."
