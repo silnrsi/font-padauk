@@ -216,5 +216,248 @@
       <string>\u00FFFC \u00FFFD</string>
     </test>
   </testgroup>
-  <testgroup label="Specials &amp; ligatures from glyph_data"/>
+  <testgroup label="Specials &amp; ligatures from glyph_data">
+    <test label="U+1000
+U+1001
+U+103B">
+      <comment>u1000 u1001 u103B</comment>
+      <string>\u001000\u001001\u00103B</string>
+    </test>
+    <test label="U+1000
+U+103B
+U+1015
+U+103A">
+      <comment>u1000 u103B u1015 u103A</comment>
+      <string>\u001000\u00103B\u001015\u00103A</string>
+    </test>
+    <test label="U+1009
+U+102C">
+      <comment>u1009 u102C</comment>
+      <string>\u001009\u00102C</string>
+    </test>
+    <test label="U+100A
+U+100A">
+      <comment>u100A u100A</comment>
+      <string>\u00100A\u00100A</string>
+    </test>
+    <test label="U+100B
+U+100B">
+      <comment>u100B u100B</comment>
+      <string>\u00100B\u00100B</string>
+    </test>
+    <test label="U+100B
+U+100C">
+      <comment>u100B u100C</comment>
+      <string>\u00100B\u00100C</string>
+    </test>
+    <test label="U+100D
+U+100D">
+      <comment>u100D u100D</comment>
+      <string>\u00100D\u00100D</string>
+    </test>
+    <test label="U+100D
+U+100E">
+      <comment>u100D u100E</comment>
+      <string>\u00100D\u00100E</string>
+    </test>
+    <test label="U+100F
+U+100B">
+      <comment>u100F u100B</comment>
+      <string>\u00100F\u00100B</string>
+    </test>
+    <test label="U+100F
+U+100D">
+      <comment>u100F u100D</comment>
+      <string>\u00100F\u00100D</string>
+    </test>
+    <test label="U+1014
+U+1010
+U+103B">
+      <comment>u1014 u1010 u103B</comment>
+      <string>\u001014\u001010\u00103B</string>
+    </test>
+    <test label="U+1014
+U+1010
+U+103C">
+      <comment>u1014 u1010 u103C</comment>
+      <string>\u001014\u001010\u00103C</string>
+    </test>
+    <test label="U+101B
+U+103B">
+      <comment>u101B u103B</comment>
+      <string>\u00101B\u00103B</string>
+    </test>
+    <test label="U+101E
+U+1010
+U+103C">
+      <comment>u101E u1010 u103C</comment>
+      <string>\u00101E\u001010\u00103C</string>
+    </test>
+    <test label="U+1020
+U+1020">
+      <comment>u1020 u1020</comment>
+      <string>\u001020\u001020</string>
+    </test>
+    <test label="U+1020
+U+103E">
+      <comment>u1020 u103E</comment>
+      <string>\u001020\u00103E</string>
+    </test>
+    <test label="U+102B
+U+103A">
+      <comment>u102B u103A</comment>
+      <string>\u00102B\u00103A</string>
+    </test>
+    <test label="U+102D
+U+1036">
+      <comment>u102D u1036</comment>
+      <string>\u000A95\u00102D\u001036</string>
+    </test>
+    <test label="U+102D
+U+AA70">
+      <comment>u102D uAA70</comment>
+      <string>\u000A95\u00102D\u00AA70</string>
+    </test>
+    <test label="U+102D
+U+AA7C">
+      <comment>u102D uAA7C</comment>
+      <string>\u000A95\u00102D\u00AA7C</string>
+    </test>
+    <test label="U+102E
+U+1036">
+      <comment>u102E u1036</comment>
+      <string>\u000A95\u00102E\u001036</string>
+    </test>
+    <test label="U+102E
+U+AA70">
+      <comment>u102E uAA70</comment>
+      <string>\u000A95\u00102E\u00AA70</string>
+    </test>
+    <test label="U+102E
+U+AA7C">
+      <comment>u102E uAA7C</comment>
+      <string>\u000A95\u00102E\u00AA7C</string>
+    </test>
+    <test label="U+102F
+U+108D">
+      <comment>u102F u108D</comment>
+      <string>\u000A95\u00102F\u00108D</string>
+    </test>
+    <test label="U+1030
+U+108D">
+      <comment>u1030 u108D</comment>
+      <string>\u000A95\u001030\u00108D</string>
+    </test>
+    <test label="U+1032
+U+102D">
+      <comment>u1032 u102D</comment>
+      <string>\u000A95\u001032\u00102D</string>
+    </test>
+    <test label="U+1032
+U+1036">
+      <comment>u1032 u1036</comment>
+      <string>\u000A95\u001032\u001036</string>
+    </test>
+    <test label="U+103A
+U+1036">
+      <comment>u103A u1036</comment>
+      <string>\u000A95\u00103A\u001036</string>
+    </test>
+    <test label="U+103A
+U+AA70">
+      <comment>u103A uAA70</comment>
+      <string>\u000A95\u00103A\u00AA70</string>
+    </test>
+    <test label="U+103B
+U+103D">
+      <comment>u103B u103D</comment>
+      <string>\u00103B\u00103D</string>
+    </test>
+    <test label="U+103B
+U+103D
+U+103E">
+      <comment>u103B u103D u103E</comment>
+      <string>\u00103B\u00103D\u00103E</string>
+    </test>
+    <test label="U+103B
+U+103E">
+      <comment>u103B u103E</comment>
+      <string>\u00103B\u00103E</string>
+    </test>
+    <test label="U+103D
+U+103E">
+      <comment>u103D u103E</comment>
+      <string>\u000A95\u00103D\u00103E</string>
+    </test>
+    <test label="U+103D
+U+1060">
+      <comment>u103D u1060</comment>
+      <string>\u000A95\u00103D\u001060</string>
+    </test>
+    <test label="U+103D
+U+108D">
+      <comment>u103D u108D</comment>
+      <string>\u000A95\u00103D\u00108D</string>
+    </test>
+    <test label="U+103E
+U+102F">
+      <comment>u103E u102F</comment>
+      <string>\u000A95\u00103E\u00102F</string>
+    </test>
+    <test label="U+103E
+U+1030">
+      <comment>u103E u1030</comment>
+      <string>\u000A95\u00103E\u001030</string>
+    </test>
+    <test label="U+103E
+U+1060">
+      <comment>u103E u1060</comment>
+      <string>\u000A95\u00103E\u001060</string>
+    </test>
+    <test label="U+1051
+U+100C">
+      <comment>u1051 u100C</comment>
+      <string>\u001051\u00100C</string>
+    </test>
+    <test label="U+1051
+U+100D">
+      <comment>u1051 u100D</comment>
+      <string>\u001051\u00100D</string>
+    </test>
+    <test label="U+1062
+U+103A">
+      <comment>u1062 u103A</comment>
+      <string>\u001062\u00103A</string>
+    </test>
+    <test label="U+1063
+U+103A">
+      <comment>u1063 u103A</comment>
+      <string>\u001063\u00103A</string>
+    </test>
+    <test label="U+1082
+U+108D">
+      <comment>u1082 u108D</comment>
+      <string>\u000A95\u001082\u00108D</string>
+    </test>
+    <test label="U+1085
+U+AA70">
+      <comment>u1085 uAA70</comment>
+      <string>\u000A95\u001085\u00AA70</string>
+    </test>
+    <test label="U+1086
+U+AA70">
+      <comment>u1086 uAA70</comment>
+      <string>\u000A95\u001086\u00AA70</string>
+    </test>
+    <test label="U+1086
+U+AA7C">
+      <comment>u1086 uAA7C</comment>
+      <string>\u000A95\u001086\u00AA7C</string>
+    </test>
+    <test label="U+A9E5
+U+AA7C">
+      <comment>uA9E5 uAA7C</comment>
+      <string>\u000A95\u00A9E5\u00AA7C</string>
+    </test>
+  </testgroup>
 </ftml>
