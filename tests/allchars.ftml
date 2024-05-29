@@ -215,6 +215,86 @@
       <comment>uFFFC</comment>
       <string>\u00FFFC \u00FFFD</string>
     </test>
+    <test background="#ffc8a0" label="U+116D0">
+      <comment>zero-pao</comment>
+      <string>\u0116D0</string>
+    </test>
+    <test background="#ffc8a0" label="U+116D1">
+      <comment>one-pao</comment>
+      <string>\u0116D1</string>
+    </test>
+    <test background="#ffc8a0" label="U+116D2">
+      <comment>two-pao</comment>
+      <string>\u0116D2</string>
+    </test>
+    <test background="#ffc8a0" label="U+116D3">
+      <comment>three-pao</comment>
+      <string>\u0116D3</string>
+    </test>
+    <test background="#ffc8a0" label="U+116D4">
+      <comment>four-pao</comment>
+      <string>\u0116D4</string>
+    </test>
+    <test background="#ffc8a0" label="U+116D5">
+      <comment>five-pao</comment>
+      <string>\u0116D5</string>
+    </test>
+    <test background="#ffc8a0" label="U+116D6">
+      <comment>six-pao</comment>
+      <string>\u0116D6</string>
+    </test>
+    <test background="#ffc8a0" label="U+116D7">
+      <comment>seven-pao</comment>
+      <string>\u0116D7</string>
+    </test>
+    <test background="#ffc8a0" label="U+116D8">
+      <comment>eight-pao</comment>
+      <string>\u0116D8</string>
+    </test>
+    <test background="#ffc8a0" label="U+116D9">
+      <comment>nine-pao</comment>
+      <string>\u0116D9</string>
+    </test>
+    <test background="#ffc8a0" label="U+116DA">
+      <comment>zero-pwo</comment>
+      <string>\u0116DA</string>
+    </test>
+    <test background="#ffc8a0" label="U+116DB">
+      <comment>one-pwo</comment>
+      <string>\u0116DB</string>
+    </test>
+    <test background="#ffc8a0" label="U+116DC">
+      <comment>two-pwo</comment>
+      <string>\u0116DC</string>
+    </test>
+    <test background="#ffc8a0" label="U+116DD">
+      <comment>three-pwo</comment>
+      <string>\u0116DD</string>
+    </test>
+    <test background="#ffc8a0" label="U+116DE">
+      <comment>four-pwo</comment>
+      <string>\u0116DE</string>
+    </test>
+    <test background="#ffc8a0" label="U+116DF">
+      <comment>five-pwo</comment>
+      <string>\u0116DF</string>
+    </test>
+    <test background="#ffc8a0" label="U+116E0">
+      <comment>six-pwo</comment>
+      <string>\u0116E0</string>
+    </test>
+    <test background="#ffc8a0" label="U+116E1">
+      <comment>seven-pwo</comment>
+      <string>\u0116E1</string>
+    </test>
+    <test background="#ffc8a0" label="U+116E2">
+      <comment>eight-pwo</comment>
+      <string>\u0116E2</string>
+    </test>
+    <test background="#ffc8a0" label="U+116E3">
+      <comment>nine-pwo</comment>
+      <string>\u0116E3</string>
+    </test>
   </testgroup>
   <testgroup label="Specials &amp; ligatures from glyph_data">
     <test label="U+1000

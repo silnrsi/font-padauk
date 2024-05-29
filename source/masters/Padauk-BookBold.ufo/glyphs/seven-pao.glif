@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="seven-pao" format="2">
+  <advance width="591"/>
+  <unicode hex="116D7"/>
+  <anchor x="286" y="-53" name="BD"/>
+  <anchor x="294" y="-53" name="BS"/>
+  <anchor x="294" y="-53" name="L"/>
+  <anchor x="294" y="495" name="U"/>
+  <outline>
+    <component base="u1047"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

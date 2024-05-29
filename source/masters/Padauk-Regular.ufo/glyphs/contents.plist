@@ -236,6 +236,10 @@
   <string>egrave.glif</string>
   <key>eight</key>
   <string>eight.glif</string>
+  <key>eight-pao</key>
+  <string>eight-pao.glif</string>
+  <key>eight-pwo</key>
+  <string>eight-pwo.glif</string>
   <key>ellipsis</key>
   <string>ellipsis.glif</string>
   <key>emdash</key>
@@ -258,12 +262,20 @@
   <string>figuredash.glif</string>
   <key>five</key>
   <string>five.glif</string>
+  <key>five-pao</key>
+  <string>five-pao.glif</string>
+  <key>five-pwo</key>
+  <string>five-pwo.glif</string>
   <key>fl</key>
   <string>fl.glif</string>
   <key>florin</key>
   <string>florin.glif</string>
   <key>four</key>
   <string>four.glif</string>
+  <key>four-pao</key>
+  <string>four-pao.glif</string>
+  <key>four-pwo</key>
+  <string>four-pwo.glif</string>
   <key>foursuperior</key>
   <string>foursuperior.glif</string>
   <key>fraction</key>
@@ -334,6 +346,10 @@
   <string>n.glif</string>
   <key>nine</key>
   <string>nine.glif</string>
+  <key>nine-pao</key>
+  <string>nine-pao.glif</string>
+  <key>nine-pwo</key>
+  <string>nine-pwo.glif</string>
   <key>nonmarkingreturn</key>
   <string>nonmarkingreturn.glif</string>
   <key>notequal</key>
@@ -358,6 +374,10 @@
   <string>ograve.glif</string>
   <key>one</key>
   <string>one.glif</string>
+  <key>one-pao</key>
+  <string>one-pao.glif</string>
+  <key>one-pwo</key>
+  <string>one-pwo.glif</string>
   <key>onehalf</key>
   <string>onehalf.glif</string>
   <key>onequarter</key>
@@ -438,8 +458,16 @@
   <string>semicolon.glif</string>
   <key>seven</key>
   <string>seven.glif</string>
+  <key>seven-pao</key>
+  <string>seven-pao.glif</string>
+  <key>seven-pwo</key>
+  <string>seven-pwo.glif</string>
   <key>six</key>
   <string>six.glif</string>
+  <key>six-pao</key>
+  <string>six-pao.glif</string>
+  <key>six-pwo</key>
+  <string>six-pwo.glif</string>
   <key>slash</key>
   <string>slash.glif</string>
   <key>softhyphen</key>
@@ -456,6 +484,10 @@
   <string>thorn.glif</string>
   <key>three</key>
   <string>three.glif</string>
+  <key>three-pao</key>
+  <string>three-pao.glif</string>
+  <key>three-pwo</key>
+  <string>three-pwo.glif</string>
   <key>threequarters</key>
   <string>threequarters.glif</string>
   <key>threesuperior</key>
@@ -466,6 +498,10 @@
   <string>trademark.glif</string>
   <key>two</key>
   <string>two.glif</string>
+  <key>two-pao</key>
+  <string>two-pao.glif</string>
+  <key>two-pwo</key>
+  <string>two-pwo.glif</string>
   <key>twosuperior</key>
   <string>twosuperior.glif</string>
   <key>u</key>
@@ -1566,5 +1602,9 @@
   <string>zcaron.glif</string>
   <key>zero</key>
   <string>zero.glif</string>
+  <key>zero-pao</key>
+  <string>zero-pao.glif</string>
+  <key>zero-pwo</key>
+  <string>zero-pwo.glif</string>
 </dict>
 </plist>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../tools/ftml.xsl"?>
+<ftml version="1.0">
+  <head>
+    <fontscale>200</fontscale>
+    <fontsrc label="grRref">url(../references/PadaukBook-Regular.ttf)</fontsrc>
+    <fontsrc label="grBref">url(../references/PadaukBook-Bold.ttf)</fontsrc>
+    <fontsrc label="dfltRref">url(../references/PadaukBook-Regular_ot_DFLT.ttf)</fontsrc>
+    <fontsrc label="dfltBref">url(../references/PadaukBook-Bold_ot_DFLT.ttf)</fontsrc>
+    <fontsrc label="Rref">url(../references/PadaukBook-Regular_ot_mym2.ttf)</fontsrc>
+    <fontsrc label="Bref">url(../references/PadaukBook-Bold_ot_mym2.ttf)</fontsrc>
+    <fontsrc label="grR">url(../results/PadaukBook-Regular.ttf)</fontsrc>
+    <fontsrc label="grB">url(../results/PadaukBook-Bold.ttf)</fontsrc>
+    <fontsrc label="dfltR">url(../results/tests/ftml/fonts/PadaukBook-Regular_ot_DFLT.ttf)</fontsrc>
+    <fontsrc label="dfltB">url(../results/tests/ftml/fonts/PadaukBook-Bold_ot_DFLT.ttf)</fontsrc>
+    <fontsrc label="R">url(../results/tests/ftml/fonts/PadaukBook-Regular_ot_mym2.ttf)</fontsrc>
+    <fontsrc label="B">url(../results/tests/ftml/fonts/PadaukBook-Bold_ot_mym2.ttf)</fontsrc>
+    <fontsrc label="Pyidaungsu">url(../references/Pyidaungsu-2.5.3_Regular.ttf)</fontsrc>
+    <fontsrc label="notoSans">url(../references/NotoSansMyanmar-Regular.ttf)</fontsrc>
+    <fontsrc label="notoSerif">url(../references/NotoSerifMyanmar-Regular.ttf)</fontsrc>
+    <title>Digits</title>
+  </head>
+  <testgroup background="#f0f0f0" label="Rendering Check">
+    <test label="check">
+      <string>RenderingUnknown</string>
+    </test>
+  </testgroup>
+  <testgroup label="burmese">
+    <test label="U+1040">
+      <comment>u1040</comment>
+      <string>\u1040\u1041\u1042\u1043\u1044\u1045\u1046\u1047\u1048\u1049</string>
+    </test>
+  </testgroup>
+  <testgroup label="shan">
+    <test label="U+1090">
+      <comment>u1090</comment>
+      <string>\u1090\u1091\u1092\u1093\u1094\u1095\u1096\u1097\u1098\u1099</string>
+    </test>
+  </testgroup>
+  <testgroup label="tai laing">
+    <test label="U+A9F0">
+      <comment>uA9F0</comment>
+      <string>\uA9F0\uA9F1\uA9F2\uA9F3\uA9F4\uA9F5\uA9F6\uA9F7\uA9F8\uA9F9</string>
+    </test>
+  </testgroup>
+  <testgroup label="pao">
+    <test label="U+116D0">
+      <comment>zero-pao</comment>
+      <string>\u116D0\u116D1\u116D2\u116D3\u116D4\u116D5\u116D6\u116D7\u116D8\u116D9</string>
+    </test>
+  </testgroup>
+  <testgroup label="pwo">
+    <test label="U+116DA">
+      <comment>zero-pwo</comment>
+      <string>\u116DA\u116DB\u116DC\u116DD\u116DE\u116DF\u116E0\u116E1\u116E2\u116E3</string>
+    </test>
+  </testgroup>
+</ftml>

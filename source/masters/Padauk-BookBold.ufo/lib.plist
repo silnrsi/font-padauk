@@ -933,6 +933,26 @@
     <string>uFEFF</string>
     <string>uFFFC</string>
     <string>uFFFD</string>
+    <string>zero-pao</string>
+    <string>one-pao</string>
+    <string>two-pao</string>
+    <string>three-pao</string>
+    <string>four-pao</string>
+    <string>five-pao</string>
+    <string>six-pao</string>
+    <string>seven-pao</string>
+    <string>eight-pao</string>
+    <string>nine-pao</string>
+    <string>zero-pwo</string>
+    <string>one-pwo</string>
+    <string>two-pwo</string>
+    <string>three-pwo</string>
+    <string>four-pwo</string>
+    <string>five-pwo</string>
+    <string>six-pwo</string>
+    <string>seven-pwo</string>
+    <string>eight-pwo</string>
+    <string>nine-pwo</string>
   </array>
   <key>public.postscriptNames</key>
   <dict>
@@ -940,18 +960,54 @@
     <string>uni25CC</string>
     <key>colontriangularmod</key>
     <string>uni02D0</string>
+    <key>eight-pao</key>
+    <string>u116D8</string>
+    <key>eight-pwo</key>
+    <string>u116E2</string>
     <key>fi</key>
     <string>uniFB01</string>
+    <key>five-pao</key>
+    <string>u116D5</string>
+    <key>five-pwo</key>
+    <string>u116DF</string>
     <key>fl</key>
     <string>uniFB02</string>
+    <key>four-pao</key>
+    <string>u116D4</string>
+    <key>four-pwo</key>
+    <string>u116DE</string>
     <key>foursuperior</key>
     <string>uni2074</string>
+    <key>nine-pao</key>
+    <string>u116D9</string>
+    <key>nine-pwo</key>
+    <string>u116E3</string>
+    <key>one-pao</key>
+    <string>u116D1</string>
+    <key>one-pwo</key>
+    <string>u116DB</string>
     <key>onesuperior</key>
     <string>uni00B9</string>
+    <key>seven-pao</key>
+    <string>u116D7</string>
+    <key>seven-pwo</key>
+    <string>u116E1</string>
+    <key>six-pao</key>
+    <string>u116D6</string>
+    <key>six-pwo</key>
+    <string>u116E0</string>
     <key>softhyphen</key>
     <string>uni00AD</string>
+    <key>three-pao</key>
+    <string>u116D3</string>
+    <key>three-pwo</key>
+    <string>u116DD</string>
     <key>threesuperior</key>
     <string>uni00B3</string>
+    <key>two-pao</key>
+    <string>u116D2</string>
+    <key>two-pwo</key>
+    <string>u116DC</string>
     <key>twosuperior</key>
     <string>uni00B2</string>
     <key>u034F</key>
@@ -2018,6 +2074,10 @@
     <string>uniFFFC</string>
     <key>uFFFD</key>
     <string>uniFFFD</string>
+    <key>zero-pao</key>
+    <string>u116D0</string>
+    <key>zero-pwo</key>
+    <string>u116DA</string>
   </dict>
 </dict>
 </plist>

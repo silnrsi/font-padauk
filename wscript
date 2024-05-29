@@ -32,7 +32,7 @@ getufoinfo('source/masters/Padauk-Regular.ufo')
 #    '-Book' :        ('Padauk Book', 'Regular')
 #}
 
-opts = preprocess_args({'opt' : '--no2'}, {'opt' : '--bake'})
+opts = preprocess_args({'opt' : '-r'}, {'opt' : '--no2'}, {'opt' : '--bake'})
 devver = getversion()
 
 scriptcode = 'mymr' if '--no2' in opts else 'mym2'
@@ -53,6 +53,7 @@ d = designspace('source/Padauk.designspace',
         cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['${source}'])
     ),
     instanceparams = "-W",
+    instances = ['Padauk Book Regular'] if '-r' in opts else None,
     ap = '${DS:FILENAME_BASE}.xml',
     classes = 'source/padauk_classes.xml',
     opentype = fea('source/${DS:FILENAME_BASE}.fea',

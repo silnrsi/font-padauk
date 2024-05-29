@@ -73,6 +73,8 @@
     uA9FA uA9FB uA9FC uA9FD uA9FE uA9FF
     u1061.slanth u1061.slantr u1066.slanth u1066.slantr 
     u107A.alt.aiph
+    zero-pao one-pao two-pao three-pao four-pao five-pao six-pao seven-pao eight-pao nine-pao
+    zero-pwo one-pwo two-pwo three-pwo four-pwo five-pwo six-pwo seven-pwo eight-pwo nine-pwo
   </property>
   <property exts=".kham .aiph .thai" name="GDL_order" value="20">
     u1000.med u1001.med u1002.med u1003.med u1004.med u1005.med u1006.med 

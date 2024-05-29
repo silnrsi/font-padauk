@@ -1,0 +1,38 @@
+\begin[class=fontproof]{document}
+\bidi-off
+\setTestFont[]
+\set[parameter=harfbuzz.subshapers,value=ot]
+
+\proof{Digits RenderingUnknown}
+
+\subsection{Burmese}
+
+\patterngroup[name="digits_my"]{၀၁၂၃၄၅၆၇၈၉}
+\pattern[chars="D",reps="group_digits_my",format="para"]{D}
+\pattern[chars="@",reps="group_digits_my",format="list"]{@၀@၁@၂@၃@၄@၅@၆@၇@၈@၉@.@,@-@‐@‑@‒@–@—@―@}
+
+\subsection{Shan}
+
+\patterngroup[name="digits_shan"]{႐႑႒႓႔႕႖႗႘႙}
+\pattern[chars="D",reps="group_digits_shan",format="para"]{D}
+\pattern[chars="@",reps="group_digits_shan",format="list"]{@႐@႑@႒@႓@႔@႕@႖@႗@႘@႙@.@,@-@‐@‑@‒@–@—@―@}
+
+\subsection{Shan-Ni (Tai Laing)}
+
+\patterngroup[name="digits_tl"]{꧰꧱꧲꧳꧴꧵꧶꧷꧸꧹}
+\pattern[chars="D",reps="group_digits_tl",format="para"]{D}
+\pattern[chars="@",reps="group_digits_tl",format="list"]{@꧰@꧱@꧲@꧳@꧴@꧵@꧶@꧷@꧸@꧹@.@,@-@‐@‑@‒@–@—@―@}
+
+\subsection{Pa'O}
+
+\patterngroup[name="digits_pao"]{𑛐𑛑𑛒𑛓𑛔𑛕𑛖𑛗𑛘𑛙}
+\pattern[chars="D",reps="group_digits_pao",format="para"]{D}
+\pattern[chars="@",reps="group_digits_pao",format="list"]{@𑛐@𑛑@𑛒@𑛓@𑛔@𑛕@𑛖@𑛗@𑛘@𑛙@.@,@-@‐@‑@‒@–@—@―@}
+
+\subsection{Eastern Pwo Karen}
+
+\patterngroup[name="digits_pwo"]{𑛚𑛛𑛜𑛝𑛞𑛟𑛠𑛡𑛢𑛣}
+\pattern[chars="D",reps="group_digits_pwo",format="para"]{D}
+\pattern[chars="@",reps="group_digits_pwo",format="list"]{@𑛚@𑛛@𑛜@𑛝@𑛞@𑛟@𑛠@𑛡@𑛢@𑛣@.@,@-@‐@‑@‒@–@—@―@}
+
+\end{document}

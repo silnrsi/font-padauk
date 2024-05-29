@@ -772,6 +772,96 @@ U+1036">
       <comment>uAA7F u1036</comment>
       <string>\u00AA7F\u001036 \u00AA7F\u001037</string>
     </test>
+    <test background="#ffc8a0" label="U+116D0
+U+1036">
+      <comment>zero-pao u1036</comment>
+      <string>\u0116D0\u001036 \u0116D0\u001037</string>
+    </test>
+    <test background="#ffc8a0" label="U+116D2
+U+1036">
+      <comment>two-pao u1036</comment>
+      <string>\u0116D2\u001036 \u0116D2\u001037</string>
+    </test>
+    <test background="#ffc8a0" label="U+116D3
+U+1036">
+      <comment>three-pao u1036</comment>
+      <string>\u0116D3\u001036 \u0116D3\u001037</string>
+    </test>
+    <test background="#ffc8a0" label="U+116D4
+U+1036">
+      <comment>four-pao u1036</comment>
+      <string>\u0116D4\u001036 \u0116D4\u001037</string>
+    </test>
+    <test background="#ffc8a0" label="U+116D5
+U+1036">
+      <comment>five-pao u1036</comment>
+      <string>\u0116D5\u001036 \u0116D5\u001037</string>
+    </test>
+    <test background="#ffc8a0" label="U+116D6
+U+1036">
+      <comment>six-pao u1036</comment>
+      <string>\u0116D6\u001036 \u0116D6\u001037</string>
+    </test>
+    <test background="#ffc8a0" label="U+116D7
+U+1036">
+      <comment>seven-pao u1036</comment>
+      <string>\u0116D7\u001036 \u0116D7\u001037</string>
+    </test>
+    <test background="#ffc8a0" label="U+116D8
+U+1036">
+      <comment>eight-pao u1036</comment>
+      <string>\u0116D8\u001036 \u0116D8\u001037</string>
+    </test>
+    <test background="#ffc8a0" label="U+116D9
+U+1036">
+      <comment>nine-pao u1036</comment>
+      <string>\u0116D9\u001036 \u0116D9\u001037</string>
+    </test>
+    <test background="#ffc8a0" label="U+116DA
+U+1036">
+      <comment>zero-pwo u1036</comment>
+      <string>\u0116DA\u001036 \u0116DA\u001037</string>
+    </test>
+    <test background="#ffc8a0" label="U+116DC
+U+1036">
+      <comment>two-pwo u1036</comment>
+      <string>\u0116DC\u001036 \u0116DC\u001037</string>
+    </test>
+    <test background="#ffc8a0" label="U+116DD
+U+1036">
+      <comment>three-pwo u1036</comment>
+      <string>\u0116DD\u001036 \u0116DD\u001037</string>
+    </test>
+    <test background="#ffc8a0" label="U+116DE
+U+1036">
+      <comment>four-pwo u1036</comment>
+      <string>\u0116DE\u001036 \u0116DE\u001037</string>
+    </test>
+    <test background="#ffc8a0" label="U+116DF
+U+1036">
+      <comment>five-pwo u1036</comment>
+      <string>\u0116DF\u001036 \u0116DF\u001037</string>
+    </test>
+    <test background="#ffc8a0" label="U+116E0
+U+1036">
+      <comment>six-pwo u1036</comment>
+      <string>\u0116E0\u001036 \u0116E0\u001037</string>
+    </test>
+    <test background="#ffc8a0" label="U+116E1
+U+1036">
+      <comment>seven-pwo u1036</comment>
+      <string>\u0116E1\u001036 \u0116E1\u001037</string>
+    </test>
+    <test background="#ffc8a0" label="U+116E2
+U+1036">
+      <comment>eight-pwo u1036</comment>
+      <string>\u0116E2\u001036 \u0116E2\u001037</string>
+    </test>
+    <test background="#ffc8a0" label="U+116E3
+U+1036">
+      <comment>nine-pwo u1036</comment>
+      <string>\u0116E3\u001036 \u0116E3\u001037</string>
+    </test>
   </testgroup>
   <testgroup label="All diacritics on representative bases">
     <test label="U+1000

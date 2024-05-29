@@ -58,7 +58,6 @@ def doit(args):
     uids = sorted(builder.uids())
     vowels = [uid for uid in uids if get_ucd(uid, 'InSC') == 'Vowel_Independent']
     consonants = [uid for uid in uids if get_ucd(uid, 'InSC') == 'Consonant']
-    nukta = [uid for uid in uids if get_ucd(uid, 'ccc') == '7'][0]
     matras = [uid for uid in uids if get_ucd(uid, 'InSC') == 'Vowel_Dependent']
     # below_matras = [uid for uid in matras if get_ucd(uid, 'InPC') == 'Bottom']
     virama = [uid for uid in uids if get_ucd(uid, 'InSC') == 'Invisible_Stacker'][0]
@@ -160,7 +159,7 @@ def doit(args):
         # Diac attachment:
 
         # Representative base and diac chars:
-        repDiac = list(filter(lambda x: x in builder.uids(), (0x1036, nukta)))
+        repDiac = list(filter(lambda x: x in builder.uids(), (0x1036, 0x1037)))
         repBase = list(filter(lambda x: x in builder.uids(), (0x1000, 0x1014, dotted_circle)))
 
         ftml.startTestGroup('Representative diacritics on all bases that take diacritics')
