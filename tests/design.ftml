@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../tools/ftml.xsl"?>
+<ftml version="1.0">
+  <head>
+    <fontscale>200</fontscale>
+    <fontsrc label="padaukR">url(../results/tests/ftml/fonts/PadaukBook-Regular_ot_mym2.ttf)</fontsrc>
+    <fontsrc label="padaukB">url(../results/tests/ftml/fonts/PadaukBook-Bold_ot_mym2.ttf)</fontsrc>
+    <fontsrc label="pyidaungsu">url(../references/Pyidaungsu-2.5.3_Regular.ttf)</fontsrc>
+    <fontsrc label="notoSans">url(../references/NotoSansMyanmar-Regular.ttf)</fontsrc>
+    <fontsrc label="notoSerif">url(../references/NotoSerifMyanmar-Regular.ttf)</fontsrc>
+    <title>Design</title>
+  </head>
+  <testgroup background="#f0f0f0" label="Rendering Check">
+    <test label="check">
+      <string>RenderingUnknown</string>
+    </test>
+  </testgroup>
+  <testgroup label="#45 Missing glyph and not rendered as expected for Tai Laing">
+    <test label="U+A9E4">
+      <comment>uA9E4.alt</comment>
+      <string>\uA9E4</string>
+    </test>
+    <test label="U+A9E8">
+      <comment>uA9E8.alt</comment>
+      <string>\uA9E8</string>
+    </test>
+  </testgroup>
+</ftml>

@@ -1,6 +1,6 @@
 
 # Main Classes
-@GDEF_bases = [.notdef .null A AE Aacute Acircumflex Adieresis Agrave Aring Atilde B C Ccedilla D Delta E Eacute Ecircumflex Edieresis Egrave Eth Euro F G H I Iacute Icircumflex Idieresis Igrave J K L M N Ntilde O OE Oacute Ocircumflex Odieresis Ograve Omega Oslash Otilde P Q R S Scaron T Thorn U Uacute Ucircumflex Udieresis Ugrave V W X Y Yacute Ydieresis Z Zcaron a aacute acircumflex acute adieresis ae agrave ampersand approxequal aring asciitilde asterisk at atilde b backslash bar braceleft braceright bracketleft bracketright breve brokenbar bullet c caron ccedilla cedilla cent circledash circumflex colon colontriangularmod comma copyright currency d dagger daggerdbl degree dieresis divide dollar dotaccent dotlessi e eacute ecircumflex edieresis egrave eight eight-pao eight-pwo ellipsis emdash endash equal eth exclam exclamdown f fi figuredash five five-pao five-pwo fl florin four four-pao four-pwo foursuperior fraction g germandbls grave greater greaterequal guillemotleft guillemotright guilsinglleft guilsinglright h hungarumlaut hyphen i iacute icircumflex idieresis igrave infinity integral j k l less lessequal logicalnot lozenge m macron minus mu multiply n nine nine-pao nine-pwo nonmarkingreturn notequal ntilde numbersign o oacute ocircumflex odieresis oe ogonek ograve one one-pao one-pwo onehalf onequarter onesuperior ordfeminine ordmasculine oslash otilde p paragraph parenleft parenright partialdiff percent period periodcentered perthousand pi plus plusminus product q question questiondown quotedbl quotedblbase quotedblleft quotedblright quoteleft quoteright quotesinglbase quotesingle r radical registered ring s scaron section semicolon seven seven-pao seven-pwo six six-pao six-pwo slash softhyphen space sterling summation t thorn three three-pao three-pwo threequarters threesuperior tilde trademark two two-pao two-pwo twosuperior u u034F u1000 u1000.aiph u1000.kham u1000_u1001_u103B u1000_u103B_u1015_u103A u1001 u1002 u1002.kham u1003 u1003.thai u1004 u1004.kham u1005 u1006 u1007 u1008 u1008.med u1009 u1009_u102C u100A u100A.alt u100A_u100A u100B u100B.alt u100B.thai u100B_u100B u100B_u100C u100C u100C.thai u100D u100D.thai u100D_u100D u100D_u100E u100E u100E.thai u100F u100F_u100B u100F_u100D u1010 u1010.aiph u1010.kham u1011 u1011.kham u1012 u1012.thai u1013 u1014 u1014.alt u1014.thai u1014_u1010_u103B u1014_u1010_u103C u1015 u1015.kham u1016 u1017 u1018 u1019 u1019.kham u101A u101A.aiph u101A.kham u101B u101B.alt u101B.kham u101B.long u101B_u103B u101C u101C.aiph u101C.kham u101D u101D.kham u101E u101E.thai u101E_u1010_u103C u101F u1020 u1020.long u1020.thai u1020_u1020 u1020_u103E u1021 u1021.thai u1022 u1022.aiph u1022.kham u1023 u1023.thai u1024 u1025 u1026 u1027 u1028 u1029 u102A u102B u102B_u103A u102C u102F u1030 u1031 u1031.kham u1038 u1038.dot u103B u103B_u103D u103B_u103D.tri u103B_u103D_u103E u103B_u103D_u103E.tri u103B_u103E u103C u103C.aiph u103C.alt.narr u103C.alt.open.narr u103C.alt.open.wide u103C.alt.wide u103C.open.narr u103C.open.wide u103C.wide u103C.wide.aiph u103C_u102F.alt.narr u103C_u102F.alt.wide u103C_u102F.narr u103C_u102F.wide u103C_u103D.alt.narr u103C_u103D.alt.narr.tri u103C_u103D.alt.wide u103C_u103D.alt.wide.tri u103C_u103D.narr u103C_u103D.narr.tri u103C_u103D.wide u103C_u103D.wide.tri u103F u103F.thai u1040 u1041 u1042 u1043 u1044 u1045 u1046 u1047 u1048 u1049 u1049.thai u104A u104A.thai u104B u104B.thai u104C u104D u104E u104F u1050 u1051 u1051_u100C u1051_u100D u1052 u1053 u1054 u1055 u1056 u1057 u105A u105B u105B.med u105C u105D u1061 u1061.slanth u1061.slantr u1062 u1062_u103A u1063 u1063_u103A u1064 u1065 u1066 u1066.slanth u1066.slantr u1067 u1068 u1069 u106A u106B u106C u106D u106D.csh u106E u106F u1070 u1075 u1075.aiph u1075.kham u1076 u1077 u1078 u1078.aiph u1078.kham u1079 u107A u107A.aiph u107A.alt.aiph u107B u107C u107D u107E u107F u1080 u1080.kham u1081 u1081.straight u1083 u1084 u1087 u1087.dot u1088 u1088.dot u1089 u1089.dot u108A u108A.dot u108B u108C u108E u108F u1090 u1091 u1092 u1093 u1094 u1095 u1096 u1097 u1098 u1099 u109A u109A.dot u109B u109B.dot u109C u109E u109F u1700 u2000 u2001 u2002 u2003 u2004 u2005 u2006 u2007 u2008 u2009 u200A u200B u200C u200D u200E u200F u2010 u2011 u2015 u2027 u2028 u2029 u202A u202B u202C u202D u202E u202F u2060 u2215 u2219 uA92E uA9E0 uA9E1 uA9E2 uA9E3 uA9E4 uA9E6 uA9E7 uA9E8 uA9E9 uA9EA uA9EB uA9EC uA9ED uA9EE uA9EF uA9F0 uA9F1 uA9F2 uA9F3 uA9F4 uA9F5 uA9F6 uA9F7 uA9F8 uA9F9 uA9FA uA9FB uA9FC uA9FD uA9FE uAA60 uAA60.kham uAA61 uAA61.aiph uAA61.kham uAA62 uAA62.kham uAA63 uAA63.kham uAA64 uAA64.kham uAA65 uAA65.kham uAA66 uAA66.kham uAA67 uAA68 uAA69 uAA6A uAA6B uAA6B.aiph uAA6B.kham uAA6C uAA6C.alt uAA6C.kham uAA6D uAA6D.aiph uAA6E uAA6F uAA6F.kham uAA71 uAA72 uAA73 uAA73.kham uAA74 uAA75 uAA75.kham uAA76 uAA76.kham uAA77 uAA77.aiph uAA78 uAA79 uAA79.aiph uAA7A uAA7A.aiph uAA7B uAA7B.dot uAA7D uAA7E uAA7F uFE00 uFE01 uFE02 uFE03 uFE04 uFE05 uFE06 uFE07 uFE08 uFE09 uFE0A uFE0B uFE0C uFE0D uFE0E uFE0F uFEFF uFFFC uFFFD uacute ucircumflex udieresis ugrave underscore uni00A0 v w x y yacute ydieresis yen z zcaron zero zero-pao zero-pwo];
+@GDEF_bases = [.notdef .null A AE Aacute Acircumflex Adieresis Agrave Aring Atilde B C Ccedilla D Delta E Eacute Ecircumflex Edieresis Egrave Eth Euro F G H I Iacute Icircumflex Idieresis Igrave J K L M N Ntilde O OE Oacute Ocircumflex Odieresis Ograve Omega Oslash Otilde P Q R S Scaron T Thorn U Uacute Ucircumflex Udieresis Ugrave V W X Y Yacute Ydieresis Z Zcaron a aacute acircumflex acute adieresis ae agrave ampersand approxequal aring asciitilde asterisk at atilde b backslash bar braceleft braceright bracketleft bracketright breve brokenbar bullet c caron ccedilla cedilla cent circledash circumflex colon colontriangularmod comma copyright currency d dagger daggerdbl degree dieresis divide dollar dotaccent dotlessi e eacute ecircumflex edieresis egrave eight eight-pao eight-pwo ellipsis emdash endash equal eth exclam exclamdown f fi figuredash five five-pao five-pwo fl florin four four-pao four-pwo foursuperior fraction g germandbls grave greater greaterequal guillemotleft guillemotright guilsinglleft guilsinglright h hungarumlaut hyphen i iacute icircumflex idieresis igrave infinity integral j k l less lessequal logicalnot lozenge m macron minus mu multiply n nine nine-pao nine-pwo nonmarkingreturn notequal ntilde numbersign o oacute ocircumflex odieresis oe ogonek ograve one one-pao one-pwo onehalf onequarter onesuperior ordfeminine ordmasculine oslash otilde p paragraph parenleft parenright partialdiff percent period periodcentered perthousand pi plus plusminus product q question questiondown quotedbl quotedblbase quotedblleft quotedblright quoteleft quoteright quotesinglbase quotesingle r radical registered ring s scaron section semicolon seven seven-pao seven-pwo six six-pao six-pwo slash softhyphen space sterling summation t thorn three three-pao three-pwo threequarters threesuperior tilde trademark two two-pao two-pwo twosuperior u u034F u1000 u1000.aiph u1000.kham u1000_u1001_u103B u1000_u103B_u1015_u103A u1001 u1002 u1002.kham u1003 u1003.thai u1004 u1004.kham u1005 u1006 u1007 u1008 u1008.med u1009 u1009_u102C u100A u100A.alt u100A_u100A u100B u100B.alt u100B.thai u100B_u100B u100B_u100C u100C u100C.thai u100D u100D.thai u100D_u100D u100D_u100E u100E u100E.thai u100F u100F_u100B u100F_u100D u1010 u1010.aiph u1010.kham u1011 u1011.kham u1012 u1012.thai u1013 u1014 u1014.alt u1014.thai u1014_u1010_u103B u1014_u1010_u103C u1015 u1015.kham u1016 u1017 u1018 u1019 u1019.kham u101A u101A.aiph u101A.kham u101B u101B.alt u101B.kham u101B.long u101B_u103B u101C u101C.aiph u101C.kham u101D u101D.kham u101E u101E.thai u101E_u1010_u103C u101F u1020 u1020.long u1020.thai u1020_u1020 u1020_u103E u1021 u1021.thai u1022 u1022.aiph u1022.kham u1023 u1023.thai u1024 u1025 u1026 u1027 u1028 u1029 u102A u102B u102B_u103A u102C u102F u1030 u1031 u1031.kham u1038 u1038.dot u103B u103B_u103D u103B_u103D.tri u103B_u103D_u103E u103B_u103D_u103E.tri u103B_u103E u103C u103C.aiph u103C.alt.narr u103C.alt.open.narr u103C.alt.open.wide u103C.alt.wide u103C.open.narr u103C.open.wide u103C.wide u103C.wide.aiph u103C_u102F.alt.narr u103C_u102F.alt.wide u103C_u102F.narr u103C_u102F.wide u103C_u103D.alt.narr u103C_u103D.alt.narr.tri u103C_u103D.alt.wide u103C_u103D.alt.wide.tri u103C_u103D.narr u103C_u103D.narr.tri u103C_u103D.wide u103C_u103D.wide.tri u103F u103F.thai u1040 u1041 u1042 u1043 u1044 u1045 u1046 u1047 u1048 u1049 u1049.thai u104A u104A.thai u104B u104B.thai u104C u104D u104E u104F u1050 u1051 u1051_u100C u1051_u100D u1052 u1053 u1054 u1055 u1056 u1057 u105A u105B u105B.med u105C u105D u1061 u1061.slanth u1061.slantr u1062 u1062_u103A u1063 u1063_u103A u1064 u1065 u1066 u1066.slanth u1066.slantr u1067 u1068 u1069 u106A u106B u106C u106D u106D.csh u106E u106F u1070 u1075 u1075.aiph u1075.kham u1076 u1077 u1078 u1078.aiph u1078.kham u1079 u107A u107A.aiph u107A.alt.aiph u107B u107C u107D u107E u107F u1080 u1080.kham u1081 u1081.straight u1083 u1084 u1087 u1087.dot u1088 u1088.dot u1089 u1089.dot u108A u108A.dot u108B u108C u108E u108F u1090 u1091 u1092 u1093 u1094 u1095 u1096 u1097 u1098 u1099 u109A u109A.dot u109B u109B.dot u109C u109E u109F u1700 u2000 u2001 u2002 u2003 u2004 u2005 u2006 u2007 u2008 u2009 u200A u200B u200C u200D u200E u200F u2010 u2011 u2015 u2027 u2028 u2029 u202A u202B u202C u202D u202E u202F u2060 u2215 u2219 uA92E uA9E0 uA9E1 uA9E2 uA9E3 uA9E4 uA9E4.alt uA9E6 uA9E7 uA9E8 uA9E8.alt uA9E9 uA9EA uA9EB uA9EC uA9ED uA9EE uA9EF uA9F0 uA9F1 uA9F2 uA9F3 uA9F4 uA9F5 uA9F6 uA9F7 uA9F8 uA9F9 uA9FA uA9FB uA9FC uA9FD uA9FE uAA60 uAA60.kham uAA61 uAA61.aiph uAA61.kham uAA62 uAA62.kham uAA63 uAA63.kham uAA64 uAA64.kham uAA65 uAA65.kham uAA66 uAA66.kham uAA67 uAA68 uAA69 uAA6A uAA6B uAA6B.aiph uAA6B.kham uAA6C uAA6C.alt uAA6C.kham uAA6D uAA6D.aiph uAA6E uAA6F uAA6F.kham uAA71 uAA72 uAA73 uAA73.kham uAA74 uAA75 uAA75.kham uAA76 uAA76.kham uAA77 uAA77.aiph uAA78 uAA79 uAA79.aiph uAA7A uAA7A.aiph uAA7B uAA7B.dot uAA7D uAA7E uAA7F uFE00 uFE01 uFE02 uFE03 uFE04 uFE05 uFE06 uFE07 uFE08 uFE09 uFE0A uFE0B uFE0C uFE0D uFE0E uFE0F uFEFF uFFFC uFFFD uacute ucircumflex udieresis ugrave underscore uni00A0 v w x y yacute ydieresis yen z zcaron zero zero-pao zero-pwo];
 @GDEF_marks = [asciicircum u1000.med u1000.med.aiph u1000.sml u1001.med u1002.med u1002.sml u1003.med u1003.med.thai u1004.kinzi u1004.kinzi.thai u1004.kinzi_u102D u1004.kinzi_u102D_u1036 u1004.kinzi_u102E u1004.kinzi_u1032 u1004.kinzi_u1033 u1004.kinzi_u1036 u1004.kinzi_u103A u1004.med u1004.med.kham u1005.med u1005.sml u1006.med u1006.sml u1007.med u1007.sml u100A.med u100B.med u100B.med.thai u100B.sml u100C.med u100C.med.thai u100D.med u100D.med.thai u100E.med u100E.med.thai u100F.med u1010.med u1010.med.aiph u1010.sml u1010_u103D.med u1010_u103D.med.tri u1011.med u1011.med.aiph u1011.sml u1012.med u1012.med.thai u1012.sml u1013.med u1013.sml u1014.med u1014.med.thai u1015.med u1015.med.kham u1015.sml u1016.med u1017.med u1018.med u1019.med u1019.med.kham u1019.sml u101A.med u101A.med.aiph u101B.kinzi u101B.kinzi_u102D u101B.kinzi_u102E u101B.kinzi_u103A u101B.med u101C.med u101C.med.aiph u101C.med_u103D u101E.med u101E.med.thai u101E.sml u101F.small u1020.med.thai u1021.med u102D u102D_u1036 u102D_uAA70 u102D_uAA7C u102E u102E_u1036 u102E_uAA70 u102E_uAA7C u102F.med u102F_u108D u1030.med u1030_u108D u1032 u1032_u102D u1032_u1036 u1033 u1034 u1035 u1036 u1036.dot u1037 u1039 u103A u103A_u1036 u103A_uAA70 u103D u103D.sml u103D.tri u103D_u103E u103D_u103E.small u103D_u103E.small.tri u103D_u103E.tri u103D_u1060 u103D_u108D u103E u103E.alt u103E.slanth u103E.slantr u103E_u102F u103E_u102F.slanth u103E_u102F.slantr u103E_u1030 u103E_u1030.slanth u103E_u1030.slantr u103E_u1060 u1050.med u1051.med u1058 u1059 u105A.med u105C.med u105E u105F u1060 u1071 u1072 u1073 u1074 u1075.med.aiph u107A.med.aiph u1082 u1082_u108D u1085 u1085_uAA70 u1086 u1086.kham u1086_uAA70 u1086_uAA7C u108D u109D uA9E5 uA9E5_uAA7C uAA60.med uAA60.med.kham uAA61.med.aiph uAA61.med.kham uAA6B.med.aiph uAA6B.med.kham uAA6C.med.kham uAA70 uAA7C];
 @c103C_all = [u103C u103C.wide u103C.alt.narr u103C.alt.wide u103C_u103D.narr u103C_u103D.wide u103C_u103D.alt.narr u103C_u103D.alt.wide u103C_u102F.narr u103C_u102F.wide u103C_u102F.alt.narr u103C_u102F.alt.wide u103C_u103D.alt.narr.tri u103C_u103D.alt.wide.tri u103C_u103D.narr.tri u103C_u103D.wide.tri];
 @c103b = [u103B_u103D.tri u103B_u103D_u103E.tri u103B u103B_u103D u103B_u103E u103B_u103D_u103E];
@@ -8,15 +8,15 @@
 @c103e = [u103E.slantr u103E_u102F.slantr u103E_u1030.slantr u103E.slanth u103E_u102F.slanth u103E_u1030.slanth u103D_u103E.tri u103E u103E_u102F u103E_u1030 u103D_u103E u103B_u103E];
 @c103eStart = [u103E.slantr u103E_u102F.slantr u103E_u1030.slantr u103E.slanth u103E_u102F.slanth u103E_u1030.slanth u103E u103E_u102F u103E_u1030];
 @cAiph = [u1000.med.aiph u1010.med.aiph u1011.med.aiph u101A.med.aiph u101C.med.aiph u103C.aiph u103C.wide.aiph u107A.aiph uAA6D.aiph uAA77.aiph uAA79.aiph uAA7A.aiph];
-@cCons = [u1000.kham u1002.kham u1004.kham u1010.kham u1011.kham u1015.kham u1019.kham u101A.kham u101B.kham u101C.kham u101D.kham u1022.kham u1075.kham u1078.kham u1080.kham uAA60.kham uAA61.kham uAA62.kham uAA63.kham uAA64.kham uAA65.kham uAA66.kham uAA6B.kham uAA6C.kham uAA6F.kham uAA73.kham uAA75.kham uAA76.kham u1000.aiph u1010.aiph u101A.aiph u101C.aiph u1022.aiph u1075.aiph u1078.aiph u107A.aiph uAA61.aiph uAA6B.aiph uAA6D.aiph uAA7A.aiph u100A.alt u100B.alt u1014.alt u101B.alt uAA6C.alt u1003.thai u100B.thai u100C.thai u100D.thai u100E.thai u1012.thai u1014.thai u101E.thai u1020.thai u1021.thai u1023.thai u103F.thai u1049.thai u1061.slantr u1066.slantr u1061.slanth u1066.slanth u1000 u1001 u1002 u1003 u1004 u1005 u1006 u1007 u1008 u1009 u100A u100B u100C u100D u100E u100F u1010 u1011 u1012 u1013 u1014 u1015 u1016 u1017 u1018 u1019 u101A u101B u101C u101D u101E u101F u1020 u1021 u1022 u1023 u1024 u1025 u1026 u1027 u1028 u1029 u102A u103F u1041 u1042 u1043 u1044 u1045 u1046 u1047 u1048 u1049 u104E u1050 u1051 u1052 u1053 u1054 u105A u105B u105C u105D u1061 u1065 u1066 u106E u106F u1070 u1075 u1076 u1077 u1078 u1079 u107A u107B u107C u107D u107E u107F u1080 u1081 u108E uA9E0 uA9E1 uA9E2 uA9E3 uA9E4 uA9E7 uA9E8 uA9E9 uA9EA uA9EB uA9EC uA9ED uA9EE uA9EF uA9FA uA9FB uA9FC uA9FD uA9FE uAA60 uAA61 uAA62 uAA63 uAA64 uAA65 uAA66 uAA67 uAA68 uAA69 uAA6A uAA6B uAA6C uAA6D uAA6E uAA6F uAA71 uAA72 uAA73 uAA74 uAA75 uAA76 uAA7A uAA7E uAA7F circledash];
+@cCons = [u1000.kham u1002.kham u1004.kham u1010.kham u1011.kham u1015.kham u1019.kham u101A.kham u101B.kham u101C.kham u101D.kham u1022.kham u1075.kham u1078.kham u1080.kham uAA60.kham uAA61.kham uAA62.kham uAA63.kham uAA64.kham uAA65.kham uAA66.kham uAA6B.kham uAA6C.kham uAA6F.kham uAA73.kham uAA75.kham uAA76.kham u1000.aiph u1010.aiph u101A.aiph u101C.aiph u1022.aiph u1075.aiph u1078.aiph u107A.aiph uAA61.aiph uAA6B.aiph uAA6D.aiph uAA7A.aiph u100A.alt u100B.alt u1014.alt u101B.alt uA9E4.alt uA9E8.alt uAA6C.alt u1003.thai u100B.thai u100C.thai u100D.thai u100E.thai u1012.thai u1014.thai u101E.thai u1020.thai u1021.thai u1023.thai u103F.thai u1049.thai u1061.slantr u1066.slantr u1061.slanth u1066.slanth u1000 u1001 u1002 u1003 u1004 u1005 u1006 u1007 u1008 u1009 u100A u100B u100C u100D u100E u100F u1010 u1011 u1012 u1013 u1014 u1015 u1016 u1017 u1018 u1019 u101A u101B u101C u101D u101E u101F u1020 u1021 u1022 u1023 u1024 u1025 u1026 u1027 u1028 u1029 u102A u103F u1041 u1042 u1043 u1044 u1045 u1046 u1047 u1048 u1049 u104E u1050 u1051 u1052 u1053 u1054 u105A u105B u105C u105D u1061 u1065 u1066 u106E u106F u1070 u1075 u1076 u1077 u1078 u1079 u107A u107B u107C u107D u107E u107F u1080 u1081 u108E uA9E0 uA9E1 uA9E2 uA9E3 uA9E4 uA9E7 uA9E8 uA9E9 uA9EA uA9EB uA9EC uA9ED uA9EE uA9EF uA9FA uA9FB uA9FC uA9FD uA9FE uAA60 uAA61 uAA62 uAA63 uAA64 uAA65 uAA66 uAA67 uAA68 uAA69 uAA6A uAA6B uAA6C uAA6D uAA6E uAA6F uAA71 uAA72 uAA73 uAA74 uAA75 uAA76 uAA7A uAA7E uAA7F circledash];
 @cConsAiph = [u1000.aiph u1010.aiph u101A.aiph u101C.aiph u1022.aiph u1075.aiph u1078.aiph uAA61.aiph uAA6B.aiph];
 @cConsLaing = [u1000 u1004 u1010 u1011 u1015 u1019 u101A u101C u101D u1022 u106F u1075 u1078 uA9E7 uA9E8 uA9E9 uA9EA uA9EB uA9EC uA9ED uA9EE uA9EF uA9FA uA9FB uA9FC uA9FD uA9FE uAA66 uAA67];
 @cConsNar = [u1002.kham u1004.kham u1015.kham u1019.kham u101B.kham u101D.kham uAA62.kham uAA6B.kham uAA6F.kham uAA73.kham uAA6B.aiph uAA6D.aiph u100B.alt u1014.alt u101B.alt u100B.thai u100C.thai u100D.thai u100E.thai u1012.thai u1014.thai u1061.slantr u1066.slantr u1061.slanth u1066.slanth u1001 u1002 u1004 u1005 u1007 u100B u100C u100D u100E u1012 u1013 u1014 u1014.alt u1015 u1016 u1017 u1019 u101B u101D u1027 u1028 u104E u1050 u1051 u105A u105B u105C u105D u1061 u1065 u1066 u1076 u1077 u107F u108E circledash uA9E0 uAA62 uAA6B uAA6D uAA6F uAA73 uAA7E];
 @cConsNarStack = [u1001 u1002 u1004 u1005 u1007 u100B.alt u100D u100E u1012 u1013 u1014.alt u1015 u1016 u1017 u1019 u101B u101D u1050 u1051 u105A u105B u105C u105D];
 @cConsPreAiph = [u1000.kham u1010.kham u101A.kham u101C.kham u1022.kham u1075.kham u1078.kham uAA61.kham uAA6B.kham];
-@cConsSVowel = [u1000.kham u1002.kham u1004.kham u1010.kham u1011.kham u1015.kham u1019.kham u101A.kham u101B.kham u101C.kham u101D.kham u1022.kham u1075.kham u1078.kham u1080.kham uAA60.kham uAA61.kham uAA62.kham uAA63.kham uAA64.kham uAA66.kham uAA6B.kham uAA6C.kham uAA6F.kham uAA73.kham u1000.aiph u1010.aiph u101A.aiph u101C.aiph u1022.aiph u1075.aiph u1078.aiph uAA61.aiph uAA6B.aiph uAA6D.aiph u1014.alt u101B.alt uAA6C.alt u1000 u1001 u1002 u1003 u1004 u1005 u1006 u1007 u100A.alt u100E u100F u1010 u1011 u1012 u1013 u1014 u1014.alt u1015 u1016 u1017 u1018 u1019 u101A u101B u101B.alt u101C u101D u101E u101F u1021 u1022 u1027 u103F u1050 u1051 u105C u1065 u106E u1075 u1076 u1077 u1078 u1079 u107B u107C u107D u107F u1080 u1081 u108E uA9E0 uA9E1 uA9E2 uA9E3 uA9E4 uA9E7 uA9E8 uA9E9 uAA60 uAA61 uAA62 uAA63 uAA64 uAA66 uAA67 uAA68 uAA69 uAA6A uAA6B uAA6C uAA6D uAA6E uAA6F uAA71 uAA72 uAA73 circledash];
+@cConsSVowel = [u1000.kham u1002.kham u1004.kham u1010.kham u1011.kham u1015.kham u1019.kham u101A.kham u101B.kham u101C.kham u101D.kham u1022.kham u1075.kham u1078.kham u1080.kham uAA60.kham uAA61.kham uAA62.kham uAA63.kham uAA64.kham uAA66.kham uAA6B.kham uAA6C.kham uAA6F.kham uAA73.kham u1000.aiph u1010.aiph u101A.aiph u101C.aiph u1022.aiph u1075.aiph u1078.aiph uAA61.aiph uAA6B.aiph uAA6D.aiph u1014.alt u101B.alt uA9E4.alt uA9E8.alt uAA6C.alt u1000 u1001 u1002 u1003 u1004 u1005 u1006 u1007 u100A.alt u100E u100F u1010 u1011 u1012 u1013 u1014 u1014.alt u1015 u1016 u1017 u1018 u1019 u101A u101B u101B.alt u101C u101D u101E u101F u1021 u1022 u1027 u103F u1050 u1051 u105C u1065 u106E u1075 u1076 u1077 u1078 u1079 u107B u107C u107D u107F u1080 u1081 u108E uA9E0 uA9E1 uA9E2 uA9E3 uA9E4 uA9E7 uA9E8 uA9E9 uAA60 uAA61 uAA62 uAA63 uAA64 uAA66 uAA67 uAA68 uAA69 uAA6A uAA6B uAA6C uAA6D uAA6E uAA6F uAA71 uAA72 uAA73 circledash];
 @cConsTakesKinzi = [u1000 u1001 u1002 u1003 u1004 u1005 u1006 u1007 u100A.alt u100E u100F u1010 u1011 u1012 u1013 u1014 u1014.alt u1015 u1016 u1017 u1018 u1019 u101A u101B u101B.alt u101C u101D u101E u101F u1021 u1022 u1027 u103F u1050 u1051 u105C];
-@cConsWide = [u1000.kham u1010.kham u1011.kham u101A.kham u101C.kham u1022.kham u1078.kham u1080.kham uAA60.kham uAA61.kham uAA63.kham uAA64.kham uAA65.kham uAA66.kham uAA6C.kham uAA75.kham uAA76.kham u1000.aiph u1010.aiph u101A.aiph u101C.aiph u1022.aiph u1078.aiph u107A.aiph uAA61.aiph uAA7A.aiph u100A.alt uAA6C.alt u1003.thai u101E.thai u1020.thai u1021.thai u103F.thai u1000 u1003 u1006 u1008 u1009 u100A u100F u1010 u1011 u1018 u101A u101C u101E u101F u1020 u1021 u1022 u1029 u103F u106E u106F u1070 u1078 u1079 u107A u107B u107C u107D u107E u1080 uA9E1 uA9E2 uA9E3 uA9E4 uA9E7 uA9E8 uA9E9 uAA60 uAA61 uAA63 uAA64 uAA65 uAA66 uAA67 uAA68 uAA69 uAA6A uAA6C uAA6E uAA71 uAA72 uAA74 uAA75 uAA76 uAA7A uAA7F];
+@cConsWide = [u1000.kham u1010.kham u1011.kham u101A.kham u101C.kham u1022.kham u1078.kham u1080.kham uAA60.kham uAA61.kham uAA63.kham uAA64.kham uAA65.kham uAA66.kham uAA6C.kham uAA75.kham uAA76.kham u1000.aiph u1010.aiph u101A.aiph u101C.aiph u1022.aiph u1078.aiph u107A.aiph uAA61.aiph uAA7A.aiph u100A.alt uA9E4.alt uA9E8.alt uAA6C.alt u1003.thai u101E.thai u1020.thai u1021.thai u103F.thai u1000 u1003 u1006 u1008 u1009 u100A u100F u1010 u1011 u1018 u101A u101C u101E u101F u1020 u1021 u1022 u1029 u103F u106E u106F u1070 u1078 u1079 u107A u107B u107C u107D u107E u1080 uA9E1 uA9E2 uA9E3 uA9E4 uA9E7 uA9E8 uA9E9 uAA60 uAA61 uAA63 uAA64 uAA65 uAA66 uAA67 uAA68 uAA69 uAA6A uAA6C uAA6E uAA71 uAA72 uAA74 uAA75 uAA76 uAA7A uAA7F];
 @cFillLowAfter = [uAA76.kham u103C.aiph uAA77.aiph uAA79.aiph uAA7A.aiph u100A.alt u1009 u100A u100C u1020 u1023 u1024 u1025 u1026 u1028 u1029 u102F u1030 u103C u1042 u1043 u1044 u1045 u1047 u1049 u104C u104D u105A u105D u1061 u1066 u1083 u109E uA9F6 uAA74 uAA76 uAA77 uAA79 uAA7A uAA7E];
 @cFillLowBefore = [u101B.kham uAA75.kham uAA76.kham uAA77.aiph uAA79.aiph u100A.alt u100B.alt u101B.alt u1008 u1009 u100A u100B u100C u100D u101B u1020 u1023 u1024 u1025 u1026 u1028 u1029 u102F u1030 u103B u1042 u1043 u1044 u1045 u1047 u1049 u104C u104D u104E u105A u105B u105D u1061 u1066 u106F u1070 u1083 u109E u109F uA9F1 uA9F6 uA9F7 uAA74 uAA75 uAA76 uAA77 uAA79 uAA7E uAA7F];
 @cLowerMarkAttach = [u1000.med u1001.med u1002.med u1003.med u1004.med u1005.med u1006.med u1007.med u100A.med u100B.med u100C.med u100D.med u100E.med u100F.med u1010.med u1010_u103D.med u1011.med u1012.med u1013.med u1014.med u1015.med u1016.med u1017.med u1018.med u1019.med u101A.med u101B.med u101C.med u101C.med_u103D u101E.med u1021.med u102F.med u102F_u108D u1030.med u1030_u108D u1039 u103D u103D_u103E u103D_u108D u103E u103E.alt u103E_u102F u103E_u1030 u1050.med u1051.med u1058 u1059 u105A.med u105C.med u105E u105F u1060 u1082 u1082_u108D u108D uAA60.med uAA60.med.kham u1010_u103D.med.tri u103D.tri u103D_u103E.tri u103E.slantr u103E.slanth u103E_u102F.slantr u103E_u102F.slanth u103E_u1030.slantr u103E_u1030.slanth u1037 u103C u103C.wide u103C_u103D.narr u103C_u103D.wide u103C_u102F.narr u103C_u102F.wide u103C.alt.wide u103C_u103D.alt.narr u103C_u103D.alt.wide u103C_u102F.alt.narr u103C_u102F.alt.wide];
@@ -29,8 +29,8 @@
 @cToneNonU = [u1038.dot u1087.dot u1088.dot u1089.dot u108A.dot uAA7B.dot u1038 u1083 u1087 u1088 u1089 u108A u108B u108C u108F u109C uAA7B];
 @c_aiph = [u1000.aiph u1000.med.aiph u1010.aiph u1010.med.aiph u1011.med.aiph u101A.aiph u101A.med.aiph u101C.aiph u101C.med.aiph u1022.aiph u103C.aiph u103C.wide.aiph u1075.aiph u1078.aiph u107A.aiph uAA61.aiph uAA6B.aiph uAA6D.aiph uAA77.aiph uAA79.aiph uAA7A.aiph];
 @cno_aiph = [u1000 u1000.med u1010 u1010.med u1011.med u101A u101A.med u101C u101C.med u1022 u103C u103C.wide u1075 u1078 u107A uAA61 uAA6B uAA6D uAA77 uAA79 uAA7A];
-@c_alt = [u100A.alt u100B.alt u1014.alt u101B.alt u103E.alt uAA6C.alt];
-@cno_alt = [u100A u100B u1014 u101B u103E uAA6C];
+@c_alt = [u100A.alt u100B.alt u1014.alt u101B.alt u103E.alt uA9E4.alt uA9E8.alt uAA6C.alt];
+@cno_alt = [u100A u100B u1014 u101B u103E uA9E4 uA9E8 uAA6C];
 @c_csh = [u106D.csh];
 @cno_csh = [u106D];
 @c_dot = [u1036.dot u1038.dot u1087.dot u1088.dot u1089.dot u108A.dot u109A.dot u109B.dot uAA7B.dot];
@@ -151,7 +151,7 @@ markClass uAA70 <anchor -280 495> @_U;
 markClass uAA7C <anchor -242 495> @_U;
 
 # AP: BD
-@BD = [circledash u1700 eight-pao eight-pwo nine-pao nine-pwo six-pao six-pwo u1002 u1002.kham u1004 u1004.kham u1015 u1015.kham u1016 u1017 u101B.kham u1027 u1028 u1031 u1031.kham u1040 u1046 u1048 u1049 u1050 u1051 u105A u1066 u1066.slanth u1066.slantr u107F u1081.straight uA9FD zero-pao zero-pwo five-pao five-pwo u1001 u1045 u1054 u1055 u1090 uA9E0 four-pao four-pwo u1044 one-pao one-pwo u1041 seven-pao seven-pwo u1007 u101D u101D.kham u1047 three-pao three-pwo u1014.alt u1043 u1065 two-pao two-pwo u1042 u1000 u1000.aiph u1000.kham u1003.thai u101A.aiph u101A.kham uA9E1 uA9E9 u1000_u1001_u103B u1003 u1010.aiph u1010.kham u1022 uA9E7 uA9FE uAA66.kham uAA6C.alt u1005 u1013 u108E u1006 uAA61 u1008 u1009 u1009_u102C u100A u100A_u100A u100A.alt u1018 u101E u100B u100B_u100B u100C u1020_u1020 u100B.alt u100B.thai u100C.thai u1020.thai u1023.thai u100B_u100C u100D u1020.long u100D.thai u100D_u100D u100D_u100E u100E u1052 u1075 u1077 u100E.thai u100F u1014 u100F_u100B u100F_u100D u1010 uA9ED uA9FB uAA66 u1011 u1011.kham uA9EE uA9FC uAA67 u1012 u1012.thai u1014.thai u1014_u1010_u103B u1014_u1010_u103C u103C u103C.aiph u103C.alt.narr u1019 u1019.kham u105D u101A u101C uA9EA uA9FA u101B u1061 u1061.slanth u1061.slantr uAA79.aiph u101B.alt u101B.long u101B_u103B u101C.aiph u101C.kham u1080 uAA6E u101E.thai u1021.thai u101E_u1010_u103C u1029 u103C.alt.wide u103C.wide u103C.wide.aiph u101F u1020 u1020_u103E u1021 u1022.aiph u1022.kham uAA61.aiph uAA61.kham u1023 u1025 u1026 u102B u102B_u103A u102C uAA79 u102F u1098 u1099 u1030 u103B u103C_u102F.alt.narr u103C_u102F.narr u103C_u102F.alt.wide u103C_u102F.wide u103C_u103D.alt.narr u103C_u103D.narr u103C_u103D.alt.narr.tri u103C_u103D.narr.tri u103C_u103D.alt.wide u103C_u103D.wide u103C_u103D.alt.wide.tri u103C_u103D.wide.tri u103F u103F.thai u1049.thai u104C u1051_u100C u1051_u100D u1053 u1056 u1057 u105B u105C u1062 u1064 u1062_u103A u1063 u1063_u103A u1067 u106C u1068 u1069 u106A u106B u106D u106D.csh u106E u106F u1070 u1075.aiph u1075.kham u1076 u1078 uA9EB u1078.aiph u1078.kham uAA71 u1079 u107B u107A u107A.aiph u107A.alt.aiph u107C u107D u107E u1080.kham u1081 uA9E2 uA9E3 uA9E4 uA9E8 uA9EC uAA6C uA9EF uAA60 uAA60.kham uAA62 uAA62.kham uAA73 uAA73.kham uAA63 uAA63.kham uAA64 uAA64.kham uAA65 uAA65.kham uAA68 uAA69 uAA6A uAA6B uAA6B.kham uAA6B.aiph uAA6C.kham uAA6D uAA6D.aiph uAA6F uAA6F.kham uAA72 uAA77 uAA77.aiph uAA7A uAA7A.aiph uAA7E uAA7F];
+@BD = [circledash u1700 eight-pao eight-pwo nine-pao nine-pwo six-pao six-pwo u1002 u1002.kham u1004 u1004.kham u1015 u1015.kham u1016 u1017 u101B.kham u1027 u1028 u1031 u1031.kham u1040 u1046 u1048 u1049 u1050 u1051 u105A u1066 u1066.slanth u1066.slantr u107F u1081.straight uA9FD zero-pao zero-pwo five-pao five-pwo u1001 u1045 u1054 u1055 u1090 uA9E0 four-pao four-pwo u1044 one-pao one-pwo u1041 seven-pao seven-pwo u1007 u101D u101D.kham u1047 three-pao three-pwo u1014.alt u1043 u1065 two-pao two-pwo u1042 u1000 u1000.aiph u1000.kham u1003.thai u101A.aiph u101A.kham uA9E1 uA9E4.alt uA9E8.alt uA9E9 u1000_u1001_u103B u1003 u1010.aiph u1010.kham u1022 uA9E7 uA9FE uAA66.kham uAA6C.alt u1005 u1013 u108E u1006 uAA61 u1008 u1009 u1009_u102C u100A u100A_u100A u100A.alt u1018 u101E u100B u100B_u100B u100C u1020_u1020 u100B.alt u100B.thai u100C.thai u1020.thai u1023.thai u100B_u100C u100D u1020.long u100D.thai u100D_u100D u100D_u100E u100E u1052 u1075 u1077 u100E.thai u100F u1014 u100F_u100B u100F_u100D u1010 uA9ED uA9FB uAA66 u1011 u1011.kham uA9EE uA9FC uAA67 u1012 u1012.thai u1014.thai u1014_u1010_u103B u1014_u1010_u103C u103C u103C.aiph u103C.alt.narr u1019 u1019.kham u105D u101A u101C uA9EA uA9FA u101B u1061 u1061.slanth u1061.slantr uAA79.aiph u101B.alt u101B.long u101B_u103B u101C.aiph u101C.kham u1080 uAA6E u101E.thai u1021.thai u101E_u1010_u103C u1029 u103C.alt.wide u103C.wide u103C.wide.aiph u101F u1020 u1020_u103E u1021 u1022.aiph u1022.kham uAA61.aiph uAA61.kham u1023 u1025 u1026 u102B u102B_u103A u102C uAA79 u102F u1098 u1099 u1030 u103B u103C_u102F.alt.narr u103C_u102F.narr u103C_u102F.alt.wide u103C_u102F.wide u103C_u103D.alt.narr u103C_u103D.narr u103C_u103D.alt.narr.tri u103C_u103D.narr.tri u103C_u103D.alt.wide u103C_u103D.wide u103C_u103D.alt.wide.tri u103C_u103D.wide.tri u103F u103F.thai u1049.thai u104C u1051_u100C u1051_u100D u1053 u1056 u1057 u105B u105C u1062 u1064 u1062_u103A u1063 u1063_u103A u1067 u106C u1068 u1069 u106A u106B u106D u106D.csh u106E u106F u1070 u1075.aiph u1075.kham u1076 u1078 uA9EB u1078.aiph u1078.kham uAA71 u1079 u107B u107A u107A.aiph u107A.alt.aiph u107C u107D u107E u1080.kham u1081 uA9E2 uA9E3 uA9E4 uA9E8 uA9EC uAA6C uA9EF uAA60 uAA60.kham uAA62 uAA62.kham uAA73 uAA73.kham uAA63 uAA63.kham uAA64 uAA64.kham uAA65 uAA65.kham uAA68 uAA69 uAA6A uAA6B uAA6B.kham uAA6B.aiph uAA6C.kham uAA6D uAA6D.aiph uAA6F uAA6F.kham uAA72 uAA77 uAA77.aiph uAA7A uAA7A.aiph uAA7E uAA7F];
 # baseClass [circledash u1700] <anchor 318 -53> @BD;
 # baseClass [eight-pao eight-pwo nine-pao nine-pwo six-pao six-pwo u1002 u1002.kham u1004 u1004.kham u1015 u1015.kham u1016 u1017 u101B.kham u1027 u1028 u1031 u1031.kham u1040 u1046 u1048 u1049 u1050 u1051 u105A u1066 u1066.slanth u1066.slantr u107F u1081.straight uA9FD zero-pao zero-pwo] <anchor 292 -53> @BD;
 # baseClass [five-pao five-pwo u1001 u1045 u1054 u1055 u1090 uA9E0] <anchor 283 -53> @BD;
@@ -160,7 +160,7 @@ markClass uAA7C <anchor -242 495> @_U;
 # baseClass [seven-pao seven-pwo u1007 u101D u101D.kham u1047] <anchor 286 -53> @BD;
 # baseClass [three-pao three-pwo u1014.alt u1043 u1065] <anchor 279 -53> @BD;
 # baseClass [two-pao two-pwo u1042] <anchor 252 -53> @BD;
-# baseClass [u1000 u1000.aiph u1000.kham u1003.thai u101A.aiph u101A.kham uA9E1 uA9E9] <anchor 490 -53> @BD;
+# baseClass [u1000 u1000.aiph u1000.kham u1003.thai u101A.aiph u101A.kham uA9E1 uA9E4.alt uA9E8.alt uA9E9] <anchor 490 -53> @BD;
 # baseClass u1000_u1001_u103B <anchor 1236 -53> @BD;
 # baseClass [u1003 u1010.aiph u1010.kham u1022 uA9E7 uA9FE uAA66.kham uAA6C.alt] <anchor 484 -53> @BD;
 # baseClass [u1005 u1013 u108E] <anchor 288 -53> @BD;
@@ -276,7 +276,7 @@ markClass uAA7C <anchor -242 495> @_U;
 # baseClass uAA7F <anchor 273 -53> @BD;
 
 # AP: BS
-@BS = [circledash u1700 eight-pao eight-pwo five-pao five-pwo nine-pao nine-pwo six-pao six-pwo two-pao two-pwo u1002 u1002.kham u1015 u1015.kham u1016 u1017 u1019 u1019.kham u101B.kham u1042 u1045 u1046 u1048 u1049 u1050 u1051 u1054 u1055 u105C u105D u1066 u1066.slanth u1066.slantr u107F u1081.straight uA9FD four-pao four-pwo u1027 u1044 one-pao one-pwo u1025 u1041 u1065 seven-pao seven-pwo u1005 u1047 uA9E0 three-pao three-pwo u1043 u1000 u1000.aiph u1000.kham u101A u101A.aiph u101A.kham uA9E9 u1000_u1001_u103B u1001 u1003 u1022 uAA64 uAA64.kham uAA6C.alt u1003.thai u101F u1080 uA9E1 uAA61 uAA71 u1004 u1004.kham u100E.thai u101B.alt u105A u1006 u104C u1078 u1079 uA9E4 uA9EB uA9FE u1007 u1013 u101D u101D.kham u1076 u108E u1008 u1009 u1009_u102C u100A u100A_u100A u100A.alt u1018 u101E uAA68 u100B u100B_u100B u100B_u100C u100C u1020 u1020_u1020 u1020_u103E u100B.alt u100B.thai u100C.thai u1020.thai u1023.thai u100D u1020.long u100D.thai u100D_u100D u100D_u100E u100E u1052 u1075 u100F u100F_u100B u100F_u100D u1010 u1011 u1011.kham uA9ED uA9FB uA9FC uAA66 u1010.aiph u1010.kham uA9EA u1012 u1012.thai u1014 u1014.alt u1063 u1014.thai u1014_u1010_u103B u1014_u1010_u103C u103C.alt.narr u101B uAA79.aiph u101B.long u101B_u103B u101C u101C.aiph u101C.kham uA9FA uAA6E u101E.thai u1021.thai u101E_u1010_u103C u1029 u103C.alt.wide u103C.wide u103C.wide.aiph u1021 u1022.aiph u1022.kham uAA61.aiph uAA61.kham u1023 u1026 u1028 u1049.thai u102B u102B_u103A u102C u102F u1030 u1031 u1031.kham u103B u103B_u103D u103B_u103D.tri u103B_u103D_u103E u103B_u103D_u103E.tri u103B_u103E u105B.med uAA62 uAA62.kham u103C u103C.aiph u103C_u102F.alt.narr u103C_u102F.narr u103C_u102F.alt.wide u103C_u102F.wide u103C_u103D.alt.narr u103C_u103D.narr u103C_u103D.alt.narr.tri u103C_u103D.narr.tri u103C_u103D.alt.wide u103C_u103D.wide u103C_u103D.alt.wide.tri u103C_u103D.wide.tri u103F u103F.thai u1040 zero-pao zero-pwo u104E u1051_u100C u1051_u100D u1053 uAA73 uAA73.kham u1056 u1057 u106B u105B u1061 u1061.slanth u1061.slantr u1062 u1064 u1062_u103A u1063_u103A u1067 u1068 u1069 u106D u106A u106C u106D.csh u106E u106F u1070 u1075.aiph u1075.kham u1077 u1078.aiph u1078.kham u107A u107A.aiph u107A.alt.aiph u107B u107C uAA6C.kham u107D uA9E3 u107E u1080.kham u1081 u1090 u1098 u1099 uA9E2 uA9E7 uA9E8 uA9EC uAA6C uA9EE uAA60 uAA60.kham uAA67 uAA69 uAA6A uA9EF uAA63 uAA63.kham uAA65 uAA65.kham uAA66.kham uAA6B uAA6B.aiph uAA6B.kham uAA6D uAA6D.aiph uAA6F uAA6F.kham uAA72 uAA77 uAA77.aiph uAA79 uAA7A uAA7A.aiph uAA7E uAA7F];
+@BS = [circledash u1700 eight-pao eight-pwo five-pao five-pwo nine-pao nine-pwo six-pao six-pwo two-pao two-pwo u1002 u1002.kham u1015 u1015.kham u1016 u1017 u1019 u1019.kham u101B.kham u1042 u1045 u1046 u1048 u1049 u1050 u1051 u1054 u1055 u105C u105D u1066 u1066.slanth u1066.slantr u107F u1081.straight uA9FD four-pao four-pwo u1027 u1044 one-pao one-pwo u1025 u1041 u1065 seven-pao seven-pwo u1005 u1047 uA9E0 three-pao three-pwo u1043 u1000 u1000.aiph u1000.kham u101A u101A.aiph u101A.kham uA9E9 u1000_u1001_u103B u1001 u1003 u1022 uAA64 uAA64.kham uAA6C.alt u1003.thai u101F u1080 uA9E1 uA9E4.alt uA9E8.alt uAA61 uAA71 u1004 u1004.kham u100E.thai u101B.alt u105A u1006 u104C u1078 u1079 uA9E4 uA9EB uA9FE u1007 u1013 u101D u101D.kham u1076 u108E u1008 u1009 u1009_u102C u100A u100A_u100A u100A.alt u1018 u101E uAA68 u100B u100B_u100B u100B_u100C u100C u1020 u1020_u1020 u1020_u103E u100B.alt u100B.thai u100C.thai u1020.thai u1023.thai u100D u1020.long u100D.thai u100D_u100D u100D_u100E u100E u1052 u1075 u100F u100F_u100B u100F_u100D u1010 u1011 u1011.kham uA9ED uA9FB uA9FC uAA66 u1010.aiph u1010.kham uA9EA u1012 u1012.thai u1014 u1014.alt u1063 u1014.thai u1014_u1010_u103B u1014_u1010_u103C u103C.alt.narr u101B uAA79.aiph u101B.long u101B_u103B u101C u101C.aiph u101C.kham uA9FA uAA6E u101E.thai u1021.thai u101E_u1010_u103C u1029 u103C.alt.wide u103C.wide u103C.wide.aiph u1021 u1022.aiph u1022.kham uAA61.aiph uAA61.kham u1023 u1026 u1028 u1049.thai u102B u102B_u103A u102C u102F u1030 u1031 u1031.kham u103B u103B_u103D u103B_u103D.tri u103B_u103D_u103E u103B_u103D_u103E.tri u103B_u103E u105B.med uAA62 uAA62.kham u103C u103C.aiph u103C_u102F.alt.narr u103C_u102F.narr u103C_u102F.alt.wide u103C_u102F.wide u103C_u103D.alt.narr u103C_u103D.narr u103C_u103D.alt.narr.tri u103C_u103D.narr.tri u103C_u103D.alt.wide u103C_u103D.wide u103C_u103D.alt.wide.tri u103C_u103D.wide.tri u103F u103F.thai u1040 zero-pao zero-pwo u104E u1051_u100C u1051_u100D u1053 uAA73 uAA73.kham u1056 u1057 u106B u105B u1061 u1061.slanth u1061.slantr u1062 u1064 u1062_u103A u1063_u103A u1067 u1068 u1069 u106D u106A u106C u106D.csh u106E u106F u1070 u1075.aiph u1075.kham u1077 u1078.aiph u1078.kham u107A u107A.aiph u107A.alt.aiph u107B u107C uAA6C.kham u107D uA9E3 u107E u1080.kham u1081 u1090 u1098 u1099 uA9E2 uA9E7 uA9E8 uA9EC uAA6C uA9EE uAA60 uAA60.kham uAA67 uAA69 uAA6A uA9EF uAA63 uAA63.kham uAA65 uAA65.kham uAA66.kham uAA6B uAA6B.aiph uAA6B.kham uAA6D uAA6D.aiph uAA6F uAA6F.kham uAA72 uAA77 uAA77.aiph uAA79 uAA7A uAA7A.aiph uAA7E uAA7F];
 # baseClass [circledash u1700] <anchor 327 -53> @BS;
 # baseClass [eight-pao eight-pwo five-pao five-pwo nine-pao nine-pwo six-pao six-pwo two-pao two-pwo u1002 u1002.kham u1015 u1015.kham u1016 u1017 u1019 u1019.kham u101B.kham u1042 u1045 u1046 u1048 u1049 u1050 u1051 u1054 u1055 u105C u105D u1066 u1066.slanth u1066.slantr u107F u1081.straight uA9FD] <anchor 300 -53> @BS;
 # baseClass [four-pao four-pwo u1027 u1044] <anchor 313 -53> @BS;
@@ -287,7 +287,7 @@ markClass uAA7C <anchor -242 495> @_U;
 # baseClass u1000_u1001_u103B <anchor 1264 -53> @BS;
 # baseClass u1001 <anchor 301 -53> @BS;
 # baseClass [u1003 u1022 uAA64 uAA64.kham uAA6C.alt] <anchor 670 -53> @BS;
-# baseClass [u1003.thai u101F u1080 uA9E1 uAA61 uAA71] <anchor 676 -53> @BS;
+# baseClass [u1003.thai u101F u1080 uA9E1 uA9E4.alt uA9E8.alt uAA61 uAA71] <anchor 676 -53> @BS;
 # baseClass [u1004 u1004.kham u100E.thai u101B.alt u105A] <anchor 298 -53> @BS;
 # baseClass [u1006 u104C u1078 u1079 uA9E4 uA9EB uA9FE] <anchor 672 -53> @BS;
 # baseClass [u1007 u1013 u101D u101D.kham u1076 u108E] <anchor 297 -53> @BS;
@@ -396,7 +396,7 @@ markClass uAA7C <anchor -242 495> @_U;
 # baseClass uAA7F <anchor 395 -53> @BS;
 
 # AP: L
-@L = [circledash u1700 eight-pao eight-pwo u1009 u1048 five-pao five-pwo nine-pao nine-pwo six-pao six-pwo two-pao two-pwo u1002 u1002.kham u1015 u1015.kham u1016 u1017 u1019 u1019.kham u101B.kham u1042 u1045 u1046 u1049 u1050 u1051 u105C u105D u107F u1081.straight uA9FD four-pao four-pwo u1027 u1044 one-pao one-pwo u1025 u1026 u1041 u1065 seven-pao seven-pwo u1005 u1047 uA9E0 three-pao three-pwo u1043 u1000 u1000.aiph u1000.kham u101A u101A.aiph u101A.kham uA9E9 u1000_u1001_u103B u1001 u1003 u1022 uAA64 uAA64.kham uAA6C.alt u1003.thai u101F u1080 uA9E1 uAA61 uAA71 u1004 u1004.kham u100E.thai u105A u1006 u104C u1078 u1079 uA9EB uA9FE u1007 u1013 u101D u101D.kham u1076 u108E u1008 u1008.med u103B u103B_u103D u103B_u103D.tri u103B_u103D_u103E u103B_u103D_u103E.tri u103B_u103E u105B.med uAA62 uAA62.kham u1009_u102C u100A u100A_u100A u100A.alt u1018 u101E uAA68 u100B u100B_u100B u100B_u100C u100C u1020 u1020_u1020 u1020_u103E u100B.alt u1078.aiph u1078.kham u100B.thai u100C.thai u1020.thai u1023.thai u100D u100D_u100D u1020.long u1051_u100C u1051_u100D u100D.thai u100D_u100E u100E u1052 u1075 u100F u100F_u100B u100F_u100D u1010 u1010.aiph u1010.kham u1011 u1011.kham uA9ED uA9FB uA9FC uAA66 u1012 u1012.thai u1014 u1014.alt u1063 u1014.thai u1014_u1010_u103B u1014_u1010_u103C u103C.alt.narr u101B uAA79.aiph u101B.alt u101B.long u1061 u1061.slanth u1061.slantr uAA77 uAA77.aiph uAA79 u101B_u103B u101C u101C.aiph u101C.kham uA9FA uAA6E u101E.thai u1021.thai u101E_u1010_u103C u1029 u103C.alt.wide u103C.wide u103C.wide.aiph u1021 u1022.aiph u1022.kham uAA61.aiph uAA61.kham u1023 u1028 u1049.thai u102B u102B_u103A u102C u102F u1030 u1031 u1031.kham u103C u103C.aiph u103C_u102F.alt.narr u103C_u102F.narr u103C_u102F.alt.wide u103C_u102F.wide u103C_u103D.alt.narr u103C_u103D.narr u103C_u103D.alt.narr.tri u103C_u103D.narr.tri u103C_u103D.alt.wide u103C_u103D.wide u103C_u103D.alt.wide.tri u103C_u103D.wide.tri u103F u103F.thai u1040 zero-pao zero-pwo u1053 u1063_u103A uAA73 uAA73.kham u1054 u1055 u1056 u1057 u106B u105B u1062 u1064 u1062_u103A u1066 u1066.slanth u1066.slantr u1081 u1067 u1068 u1069 u106D u106D.csh u106A u106C u106E u106F u1070 u1075.aiph u1075.kham u1077 u107A u107A.aiph u107A.alt.aiph u107B uA9E2 u107C uAA6C.kham u107D uA9E3 u107E u1080.kham u1090 u1098 u1099 uA9E4 uA9E7 uA9E8 uA9EA uA9EC uAA6C uA9EE uAA60 uAA60.kham uAA67 uAA69 uAA6A uA9EF uAA63 uAA63.kham uAA65 uAA65.kham uAA66.kham uAA6B uAA6B.aiph uAA6B.kham uAA6D uAA6D.aiph uAA6F uAA6F.kham uAA72 uAA7A uAA7A.aiph uAA7E uAA7F];
+@L = [circledash u1700 eight-pao eight-pwo u1009 u1048 five-pao five-pwo nine-pao nine-pwo six-pao six-pwo two-pao two-pwo u1002 u1002.kham u1015 u1015.kham u1016 u1017 u1019 u1019.kham u101B.kham u1042 u1045 u1046 u1049 u1050 u1051 u105C u105D u107F u1081.straight uA9FD four-pao four-pwo u1027 u1044 one-pao one-pwo u1025 u1026 u1041 u1065 seven-pao seven-pwo u1005 u1047 uA9E0 three-pao three-pwo u1043 u1000 u1000.aiph u1000.kham u101A u101A.aiph u101A.kham uA9E9 u1000_u1001_u103B u1001 u1003 u1022 uAA64 uAA64.kham uAA6C.alt u1003.thai u101F u1080 uA9E1 uA9E4.alt uA9E8.alt uAA61 uAA71 u1004 u1004.kham u100E.thai u105A u1006 u104C u1078 u1079 uA9EB uA9FE u1007 u1013 u101D u101D.kham u1076 u108E u1008 u1008.med u103B u103B_u103D u103B_u103D.tri u103B_u103D_u103E u103B_u103D_u103E.tri u103B_u103E u105B.med uAA62 uAA62.kham u1009_u102C u100A u100A_u100A u100A.alt u1018 u101E uAA68 u100B u100B_u100B u100B_u100C u100C u1020 u1020_u1020 u1020_u103E u100B.alt u1078.aiph u1078.kham u100B.thai u100C.thai u1020.thai u1023.thai u100D u100D_u100D u1020.long u1051_u100C u1051_u100D u100D.thai u100D_u100E u100E u1052 u1075 u100F u100F_u100B u100F_u100D u1010 u1010.aiph u1010.kham u1011 u1011.kham uA9ED uA9FB uA9FC uAA66 u1012 u1012.thai u1014 u1014.alt u1063 u1014.thai u1014_u1010_u103B u1014_u1010_u103C u103C.alt.narr u101B uAA79.aiph u101B.alt u101B.long u1061 u1061.slanth u1061.slantr uAA77 uAA77.aiph uAA79 u101B_u103B u101C u101C.aiph u101C.kham uA9FA uAA6E u101E.thai u1021.thai u101E_u1010_u103C u1029 u103C.alt.wide u103C.wide u103C.wide.aiph u1021 u1022.aiph u1022.kham uAA61.aiph uAA61.kham u1023 u1028 u1049.thai u102B u102B_u103A u102C u102F u1030 u1031 u1031.kham u103C u103C.aiph u103C_u102F.alt.narr u103C_u102F.narr u103C_u102F.alt.wide u103C_u102F.wide u103C_u103D.alt.narr u103C_u103D.narr u103C_u103D.alt.narr.tri u103C_u103D.narr.tri u103C_u103D.alt.wide u103C_u103D.wide u103C_u103D.alt.wide.tri u103C_u103D.wide.tri u103F u103F.thai u1040 zero-pao zero-pwo u1053 u1063_u103A uAA73 uAA73.kham u1054 u1055 u1056 u1057 u106B u105B u1062 u1064 u1062_u103A u1066 u1066.slanth u1066.slantr u1081 u1067 u1068 u1069 u106D u106D.csh u106A u106C u106E u106F u1070 u1075.aiph u1075.kham u1077 u107A u107A.aiph u107A.alt.aiph u107B uA9E2 u107C uAA6C.kham u107D uA9E3 u107E u1080.kham u1090 u1098 u1099 uA9E4 uA9E7 uA9E8 uA9EA uA9EC uAA6C uA9EE uAA60 uAA60.kham uAA67 uAA69 uAA6A uA9EF uAA63 uAA63.kham uAA65 uAA65.kham uAA66.kham uAA6B uAA6B.aiph uAA6B.kham uAA6D uAA6D.aiph uAA6F uAA6F.kham uAA72 uAA7A uAA7A.aiph uAA7E uAA7F];
 # baseClass [circledash u1700] <anchor 327 -53> @L;
 # baseClass [eight-pao eight-pwo u1009 u1048] <anchor 304 -53> @L;
 # baseClass [five-pao five-pwo nine-pao nine-pwo six-pao six-pwo two-pao two-pwo u1002 u1002.kham u1015 u1015.kham u1016 u1017 u1019 u1019.kham u101B.kham u1042 u1045 u1046 u1049 u1050 u1051 u105C u105D u107F u1081.straight uA9FD] <anchor 300 -53> @L;
@@ -408,7 +408,7 @@ markClass uAA7C <anchor -242 495> @_U;
 # baseClass u1000_u1001_u103B <anchor 1264 -53> @L;
 # baseClass u1001 <anchor 301 -53> @L;
 # baseClass [u1003 u1022 uAA64 uAA64.kham uAA6C.alt] <anchor 670 -53> @L;
-# baseClass [u1003.thai u101F u1080 uA9E1 uAA61 uAA71] <anchor 676 -53> @L;
+# baseClass [u1003.thai u101F u1080 uA9E1 uA9E4.alt uA9E8.alt uAA61 uAA71] <anchor 676 -53> @L;
 # baseClass [u1004 u1004.kham u100E.thai u105A] <anchor 298 -53> @L;
 # baseClass [u1006 u104C u1078 u1079 uA9EB uA9FE] <anchor 672 -53> @L;
 # baseClass [u1007 u1013 u101D u101D.kham u1076 u108E] <anchor 297 -53> @L;
@@ -507,7 +507,7 @@ markClass uAA7C <anchor -242 495> @_U;
 # baseClass uAA7F <anchor 351 -53> @L;
 
 # AP: U
-@U = [circledash u1700 eight-pao eight-pwo five-pao five-pwo nine-pao nine-pwo two-pao two-pwo u1002 u1002.kham u100B u1015 u1016 u1017 u1019 u1019.kham u101B.kham u1042 u1045 u1048 u1049 u1050 u1051 u1051_u100C u1056 u1057 u105C u105D u1066 u1066.slanth u1066.slantr u107F u1081.straight uA9FD four-pao four-pwo u101B.long u1027 u1044 one-pao one-pwo u100D u100D_u100D u1020.long u1025 u1026 u1041 u1065 seven-pao seven-pwo u1005 u1047 uA9E0 six-pao six-pwo u1046 u1077 three-pao three-pwo u1043 u1000 u1000.aiph u1000.kham u101A u101A.aiph u101A.kham uA9E9 u1000_u1001_u103B u1001 u1003 u1022 u1070 uA9E7 uAA64 uAA64.kham uAA6C.alt u1003.thai u101F u106F u1080 uA9E1 uAA61 uAA71 u1004 u1004.kham u1007 u100B.alt u100B_u100B u100B_u100C u100C u100E.thai u1014 u101B u1020 u1020_u1020 u1020_u103E u104E u1051_u100D u105A u1061 u1061.slanth u1061.slantr u107A u107A.aiph u107A.alt.aiph uAA77 uAA77.aiph uAA79 uAA79.aiph u1006 u1078 uA9EB u1008 u1008.med u1009 u1014.alt u1030 u1063 u1009_u102C u100A u100A.alt u100A_u100A u1018 u101E uAA68 u100B.thai u100C.thai u100D.thai u100D_u100E u100E u1052 u1075 u1081 u100F u100F_u100B u100F_u100D u1010 u1010.aiph u1010.kham u1011 u1011.kham uA9ED uA9FB uA9FC uAA66 uAA66.kham u1012 u1012.thai u1013 u101D u101D.kham u105B u108E u1014.thai u1014_u1010_u103B u1014_u1010_u103C u1015.kham u101B.alt u101B_u103B u101C u101C.aiph u101C.kham uA9FA uAA6E u101E.thai u1021.thai u1020.thai u1023.thai u1021 u1022.aiph u1022.kham uAA61.aiph uAA61.kham u1023 u1028 u1049.thai u102C u102F u1031 u1031.kham u103B u103B_u103D u103B_u103D.tri u103B_u103D_u103E u103B_u103D_u103E.tri u105B.med u103B_u103E u103F u103F.thai u1040 zero-pao zero-pwo u1053 uAA73 uAA73.kham u1054 u1055 u1062 u1064 u1067 u106A u1069 u106D u106D.csh u106B u106C u106E u1075.aiph u1075.kham u1076 u1078.aiph u1078.kham u1079 u107B u107C uAA6C.kham u107D u107E uA9E3 u1080.kham u1083 u109E u1090 u1091 u1093 u1094 u1097 u1098 u1099 uA9E2 uA9E4 uA9E8 uA9FE uA9EA uA9EC uAA6C uA9EE uAA60 uAA60.kham uAA67 uAA69 uAA6A uA9EF uAA62 uAA62.kham uAA63 uAA63.kham uAA65 uAA65.kham uAA6B uAA6B.aiph uAA6B.kham uAA6D uAA6D.aiph uAA6F uAA6F.kham uAA72 uAA7A uAA7A.aiph uAA7E uAA7F];
+@U = [circledash u1700 eight-pao eight-pwo five-pao five-pwo nine-pao nine-pwo two-pao two-pwo u1002 u1002.kham u100B u1015 u1016 u1017 u1019 u1019.kham u101B.kham u1042 u1045 u1048 u1049 u1050 u1051 u1051_u100C u1056 u1057 u105C u105D u1066 u1066.slanth u1066.slantr u107F u1081.straight uA9FD four-pao four-pwo u101B.long u1027 u1044 one-pao one-pwo u100D u100D_u100D u1020.long u1025 u1026 u1041 u1065 seven-pao seven-pwo u1005 u1047 uA9E0 six-pao six-pwo u1046 u1077 three-pao three-pwo u1043 u1000 u1000.aiph u1000.kham u101A u101A.aiph u101A.kham uA9E9 u1000_u1001_u103B u1001 u1003 u1022 u1070 uA9E7 uAA64 uAA64.kham uAA6C.alt u1003.thai u101F u106F u1080 uA9E1 uA9E4.alt uA9E8.alt uAA61 uAA71 u1004 u1004.kham u1007 u100B.alt u100B_u100B u100B_u100C u100C u100E.thai u1014 u101B u1020 u1020_u1020 u1020_u103E u104E u1051_u100D u105A u1061 u1061.slanth u1061.slantr u107A u107A.aiph u107A.alt.aiph uAA77 uAA77.aiph uAA79 uAA79.aiph u1006 u1078 uA9EB u1008 u1008.med u1009 u1014.alt u1030 u1063 u1009_u102C u100A u100A.alt u100A_u100A u1018 u101E uAA68 u100B.thai u100C.thai u100D.thai u100D_u100E u100E u1052 u1075 u1081 u100F u100F_u100B u100F_u100D u1010 u1010.aiph u1010.kham u1011 u1011.kham uA9ED uA9FB uA9FC uAA66 uAA66.kham u1012 u1012.thai u1013 u101D u101D.kham u105B u108E u1014.thai u1014_u1010_u103B u1014_u1010_u103C u1015.kham u101B.alt u101B_u103B u101C u101C.aiph u101C.kham uA9FA uAA6E u101E.thai u1021.thai u1020.thai u1023.thai u1021 u1022.aiph u1022.kham uAA61.aiph uAA61.kham u1023 u1028 u1049.thai u102C u102F u1031 u1031.kham u103B u103B_u103D u103B_u103D.tri u103B_u103D_u103E u103B_u103D_u103E.tri u105B.med u103B_u103E u103F u103F.thai u1040 zero-pao zero-pwo u1053 uAA73 uAA73.kham u1054 u1055 u1062 u1064 u1067 u106A u1069 u106D u106D.csh u106B u106C u106E u1075.aiph u1075.kham u1076 u1078.aiph u1078.kham u1079 u107B u107C uAA6C.kham u107D u107E uA9E3 u1080.kham u1083 u109E u1090 u1091 u1093 u1094 u1097 u1098 u1099 uA9E2 uA9E4 uA9E8 uA9FE uA9EA uA9EC uAA6C uA9EE uAA60 uAA60.kham uAA67 uAA69 uAA6A uA9EF uAA62 uAA62.kham uAA63 uAA63.kham uAA65 uAA65.kham uAA6B uAA6B.aiph uAA6B.kham uAA6D uAA6D.aiph uAA6F uAA6F.kham uAA72 uAA7A uAA7A.aiph uAA7E uAA7F];
 # baseClass [circledash u1700] <anchor 327 495> @U;
 # baseClass [eight-pao eight-pwo five-pao five-pwo nine-pao nine-pwo two-pao two-pwo u1002 u1002.kham u100B u1015 u1016 u1017 u1019 u1019.kham u101B.kham u1042 u1045 u1048 u1049 u1050 u1051 u1051_u100C u1056 u1057 u105C u105D u1066 u1066.slanth u1066.slantr u107F u1081.straight uA9FD] <anchor 300 495> @U;
 # baseClass [four-pao four-pwo u101B.long u1027 u1044] <anchor 313 495> @U;
@@ -519,7 +519,7 @@ markClass uAA7C <anchor -242 495> @_U;
 # baseClass u1000_u1001_u103B <anchor 867 495> @U;
 # baseClass u1001 <anchor 301 495> @U;
 # baseClass [u1003 u1022 u1070 uA9E7 uAA64 uAA64.kham uAA6C.alt] <anchor 670 495> @U;
-# baseClass [u1003.thai u101F u106F u1080 uA9E1 uAA61 uAA71] <anchor 676 495> @U;
+# baseClass [u1003.thai u101F u106F u1080 uA9E1 uA9E4.alt uA9E8.alt uAA61 uAA71] <anchor 676 495> @U;
 # baseClass [u1004 u1004.kham u1007 u100B.alt u100B_u100B u100B_u100C u100C u100E.thai u1014 u101B u1020 u1020_u1020 u1020_u103E u104E u1051_u100D u105A u1061 u1061.slanth u1061.slantr u107A u107A.aiph u107A.alt.aiph uAA77 uAA77.aiph uAA79 uAA79.aiph] <anchor 298 495> @U;
 # baseClass [u1006 u1078 uA9EB] <anchor 672 495> @U;
 # baseClass u1008 <anchor 526 495> @U;
@@ -1229,6 +1229,8 @@ lookup dflt_error2 {
         sub u100B.alt by u100B.alt u1004.kinzi;
         sub u1014.alt by u1014.alt u1004.kinzi;
         sub u101B.alt by u101B.alt u1004.kinzi;
+        sub uA9E4.alt by uA9E4.alt u1004.kinzi;
+        sub uA9E8.alt by uA9E8.alt u1004.kinzi;
         sub uAA6C.alt by uAA6C.alt u1004.kinzi;
         sub u1003.thai by u1003.thai u1004.kinzi;
         sub u100B.thai by u100B.thai u1004.kinzi;
@@ -1422,6 +1424,8 @@ lookup dflt_error2 {
         sub u100B.alt by u100B.alt u101B.kinzi;
         sub u1014.alt by u1014.alt u101B.kinzi;
         sub u101B.alt by u101B.alt u101B.kinzi;
+        sub uA9E4.alt by uA9E4.alt u101B.kinzi;
+        sub uA9E8.alt by uA9E8.alt u101B.kinzi;
         sub uAA6C.alt by uAA6C.alt u101B.kinzi;
         sub u1003.thai by u1003.thai u101B.kinzi;
         sub u100B.thai by u100B.thai u101B.kinzi;
@@ -1616,6 +1620,8 @@ lookup dflt_kinzi_delsubst {
     sub u1004 u103A u1039 u100B.alt by u100B.alt;
     sub u1004 u103A u1039 u1014.alt by u1014.alt;
     sub u1004 u103A u1039 u101B.alt by u101B.alt;
+    sub u1004 u103A u1039 uA9E4.alt by uA9E4.alt;
+    sub u1004 u103A u1039 uA9E8.alt by uA9E8.alt;
     sub u1004 u103A u1039 uAA6C.alt by uAA6C.alt;
     sub u1004 u103A u1039 u1003.thai by u1003.thai;
     sub u1004 u103A u1039 u100B.thai by u100B.thai;
@@ -1806,6 +1812,8 @@ lookup dflt_kinzi_delsubst {
     sub u101B u103A u1039 u100B.alt by u100B.alt;
     sub u101B u103A u1039 u1014.alt by u1014.alt;
     sub u101B u103A u1039 u101B.alt by u101B.alt;
+    sub u101B u103A u1039 uA9E4.alt by uA9E4.alt;
+    sub u101B u103A u1039 uA9E8.alt by uA9E8.alt;
     sub u101B u103A u1039 uAA6C.alt by uAA6C.alt;
     sub u101B u103A u1039 u1003.thai by u1003.thai;
     sub u101B u103A u1039 u100B.thai by u100B.thai;
@@ -1996,6 +2004,8 @@ lookup dflt_kinzi_delsubst {
     sub u105A u103A u1039 u100B.alt by u100B.alt;
     sub u105A u103A u1039 u1014.alt by u1014.alt;
     sub u105A u103A u1039 u101B.alt by u101B.alt;
+    sub u105A u103A u1039 uA9E4.alt by uA9E4.alt;
+    sub u105A u103A u1039 uA9E8.alt by uA9E8.alt;
     sub u105A u103A u1039 uAA6C.alt by uAA6C.alt;
     sub u105A u103A u1039 u1003.thai by u1003.thai;
     sub u105A u103A u1039 u100B.thai by u100B.thai;
@@ -2202,6 +2212,8 @@ lookup dflt_kinzi_del {
         sub u100B.alt by u1031.kham u100B.alt;
         sub u1014.alt by u1031.kham u1014.alt;
         sub u101B.alt by u1031.kham u101B.alt;
+        sub uA9E4.alt by u1031.kham uA9E4.alt;
+        sub uA9E8.alt by u1031.kham uA9E8.alt;
         sub uAA6C.alt by u1031.kham uAA6C.alt;
         sub u1003.thai by u1031.kham u1003.thai;
         sub u100B.thai by u1031.kham u100B.thai;
@@ -2395,6 +2407,8 @@ lookup dflt_kinzi_del {
         sub u100B.alt by u1031.kham u100B.alt u1031.kham;
         sub u1014.alt by u1031.kham u1014.alt u1031.kham;
         sub u101B.alt by u1031.kham u101B.alt u1031.kham;
+        sub uA9E4.alt by u1031.kham uA9E4.alt u1031.kham;
+        sub uA9E8.alt by u1031.kham uA9E8.alt u1031.kham;
         sub uAA6C.alt by u1031.kham uAA6C.alt u1031.kham;
         sub u1003.thai by u1031.kham u1003.thai u1031.kham;
         sub u100B.thai by u1031.kham u100B.thai u1031.kham;
@@ -2595,6 +2609,8 @@ lookup dflt_kinzi_del {
         sub u100B.alt u1031.kham by u100B.alt;
         sub u1014.alt u1031.kham by u1014.alt;
         sub u101B.alt u1031.kham by u101B.alt;
+        sub uA9E4.alt u1031.kham by uA9E4.alt;
+        sub uA9E8.alt u1031.kham by uA9E8.alt;
         sub uAA6C.alt u1031.kham by uAA6C.alt;
         sub u1003.thai u1031.kham by u1003.thai;
         sub u100B.thai u1031.kham by u100B.thai;
@@ -2788,6 +2804,8 @@ lookup dflt_kinzi_del {
         sub u100B.alt by u1031 u100B.alt;
         sub u1014.alt by u1031 u1014.alt;
         sub u101B.alt by u1031 u101B.alt;
+        sub uA9E4.alt by u1031 uA9E4.alt;
+        sub uA9E8.alt by u1031 uA9E8.alt;
         sub uAA6C.alt by u1031 uAA6C.alt;
         sub u1003.thai by u1031 u1003.thai;
         sub u100B.thai by u1031 u100B.thai;
@@ -2981,6 +2999,8 @@ lookup dflt_kinzi_del {
         sub u100B.alt by u1031 u100B.alt u1031;
         sub u1014.alt by u1031 u1014.alt u1031;
         sub u101B.alt by u1031 u101B.alt u1031;
+        sub uA9E4.alt by u1031 uA9E4.alt u1031;
+        sub uA9E8.alt by u1031 uA9E8.alt u1031;
         sub uAA6C.alt by u1031 uAA6C.alt u1031;
         sub u1003.thai by u1031 u1003.thai u1031;
         sub u100B.thai by u1031 u100B.thai u1031;
@@ -3181,6 +3201,8 @@ lookup dflt_kinzi_del {
         sub u100B.alt u1031 by u100B.alt;
         sub u1014.alt u1031 by u1014.alt;
         sub u101B.alt u1031 by u101B.alt;
+        sub uA9E4.alt u1031 by uA9E4.alt;
+        sub uA9E8.alt u1031 by uA9E8.alt;
         sub uAA6C.alt u1031 by uAA6C.alt;
         sub u1003.thai u1031 by u1003.thai;
         sub u100B.thai u1031 by u100B.thai;
@@ -3374,6 +3396,8 @@ lookup dflt_kinzi_del {
         sub u100B.alt by u1084 u100B.alt;
         sub u1014.alt by u1084 u1014.alt;
         sub u101B.alt by u1084 u101B.alt;
+        sub uA9E4.alt by u1084 uA9E4.alt;
+        sub uA9E8.alt by u1084 uA9E8.alt;
         sub uAA6C.alt by u1084 uAA6C.alt;
         sub u1003.thai by u1084 u1003.thai;
         sub u100B.thai by u1084 u100B.thai;
@@ -3567,6 +3591,8 @@ lookup dflt_kinzi_del {
         sub u100B.alt by u1084 u100B.alt u1084;
         sub u1014.alt by u1084 u1014.alt u1084;
         sub u101B.alt by u1084 u101B.alt u1084;
+        sub uA9E4.alt by u1084 uA9E4.alt u1084;
+        sub uA9E8.alt by u1084 uA9E8.alt u1084;
         sub uAA6C.alt by u1084 uAA6C.alt u1084;
         sub u1003.thai by u1084 u1003.thai u1084;
         sub u100B.thai by u1084 u100B.thai u1084;
@@ -3767,6 +3793,8 @@ lookup dflt_kinzi_del {
         sub u100B.alt u1084 by u100B.alt;
         sub u1014.alt u1084 by u1014.alt;
         sub u101B.alt u1084 by u101B.alt;
+        sub uA9E4.alt u1084 by uA9E4.alt;
+        sub uA9E8.alt u1084 by uA9E8.alt;
         sub uAA6C.alt u1084 by uAA6C.alt;
         sub u1003.thai u1084 by u1003.thai;
         sub u100B.thai u1084 by u100B.thai;
@@ -4054,6 +4082,8 @@ lookup dflt_greatya_subst_short {
     sub u100B.alt by u103C u100B.alt;
     sub u1014.alt by u103C u1014.alt;
     sub u101B.alt by u103C u101B.alt;
+    sub uA9E4.alt by u103C uA9E4.alt;
+    sub uA9E8.alt by u103C uA9E8.alt;
     sub uAA6C.alt by u103C uAA6C.alt;
     sub u1003.thai by u103C u1003.thai;
     sub u100B.thai by u103C u100B.thai;
@@ -4247,6 +4277,8 @@ lookup dflt_greatya_subst {
     sub u100B.alt by u103C u100B.alt u103C;
     sub u1014.alt by u103C u1014.alt u103C;
     sub u101B.alt by u103C u101B.alt u103C;
+    sub uA9E4.alt by u103C uA9E4.alt u103C;
+    sub uA9E8.alt by u103C uA9E8.alt u103C;
     sub uAA6C.alt by u103C uAA6C.alt u103C;
     sub u1003.thai by u103C u1003.thai u103C;
     sub u100B.thai by u103C u100B.thai u103C;
@@ -4453,6 +4485,8 @@ lookup dflt_greatya_del {
     sub u100B.alt u103C by u100B.alt;
     sub u1014.alt u103C by u1014.alt;
     sub u101B.alt u103C by u101B.alt;
+    sub uA9E4.alt u103C by uA9E4.alt;
+    sub uA9E8.alt u103C by uA9E8.alt;
     sub uAA6C.alt u103C by uAA6C.alt;
     sub u1003.thai u103C by u1003.thai;
     sub u100B.thai u103C by u100B.thai;
@@ -6130,6 +6164,18 @@ lookup guard2 {
         pos uA9E1 u102D_uAA70 <0 0 447 0>;
         pos uA9E1 u102E_uAA70 <0 0 433 0>;
         pos uA9E1 u1085_uAA70 <0 0 473 0>;
+        pos uA9E4.alt u102D_u1036 <0 0 64 0>;
+        pos uA9E4.alt u102E_u1036 <0 0 64 0>;
+        pos uA9E4.alt u1032_u1036 <0 0 64 0>;
+        pos uA9E4.alt u102D_uAA70 <0 0 447 0>;
+        pos uA9E4.alt u102E_uAA70 <0 0 433 0>;
+        pos uA9E4.alt u1085_uAA70 <0 0 473 0>;
+        pos uA9E8.alt u102D_u1036 <0 0 64 0>;
+        pos uA9E8.alt u102E_u1036 <0 0 64 0>;
+        pos uA9E8.alt u1032_u1036 <0 0 64 0>;
+        pos uA9E8.alt u102D_uAA70 <0 0 447 0>;
+        pos uA9E8.alt u102E_uAA70 <0 0 433 0>;
+        pos uA9E8.alt u1085_uAA70 <0 0 473 0>;
         pos uAA61 u102D_u1036 <0 0 70 0>;
         pos uAA61 u102E_u1036 <0 0 70 0>;
         pos uAA61 u1032_u1036 <0 0 70 0>;
@@ -7420,7 +7466,7 @@ lookup dist_103C_Cons {
         pos base u1000_u1001_u103B <anchor 1264 -53> mark @_BS;
         pos base u1001 <anchor 301 -53> mark @_BS;
         pos base [u1003 u1022 uAA64 uAA64.kham uAA6C.alt] <anchor 670 -53> mark @_BS;
-        pos base [u1003.thai u101F u1080 uA9E1 uAA61 uAA71] <anchor 676 -53> mark @_BS;
+        pos base [u1003.thai u101F u1080 uA9E1 uA9E4.alt uA9E8.alt uAA61 uAA71] <anchor 676 -53> mark @_BS;
         pos base [u1004 u1004.kham u100E.thai u101B.alt u105A] <anchor 298 -53> mark @_BS;
         pos base [u1006 u104C u1078 u1079 uA9E4 uA9EB uA9FE] <anchor 672 -53> mark @_BS;
         pos base [u1007 u1013 u101D u101D.kham u1076 u108E] <anchor 297 -53> mark @_BS;
@@ -7538,7 +7584,7 @@ lookup dist_103C_Cons {
         pos base [seven-pao seven-pwo u1007 u101D u101D.kham u1047] <anchor 286 -53> mark @_BD;
         pos base [three-pao three-pwo u1014.alt u1043 u1065] <anchor 279 -53> mark @_BD;
         pos base [two-pao two-pwo u1042] <anchor 252 -53> mark @_BD;
-        pos base [u1000 u1000.aiph u1000.kham u1003.thai u101A.aiph u101A.kham uA9E1 uA9E9] <anchor 490 -53> mark @_BD;
+        pos base [u1000 u1000.aiph u1000.kham u1003.thai u101A.aiph u101A.kham uA9E1 uA9E4.alt uA9E8.alt uA9E9] <anchor 490 -53> mark @_BD;
         pos base u1000_u1001_u103B <anchor 1236 -53> mark @_BD;
         pos base [u1003 u1010.aiph u1010.kham u1022 uA9E7 uA9FE uAA66.kham uAA6C.alt] <anchor 484 -53> mark @_BD;
         pos base [u1005 u1013 u108E] <anchor 288 -53> mark @_BD;
@@ -7666,7 +7712,7 @@ lookup dist_103C_Cons {
         pos base u1000_u1001_u103B <anchor 1264 -53> mark @_L;
         pos base u1001 <anchor 301 -53> mark @_L;
         pos base [u1003 u1022 uAA64 uAA64.kham uAA6C.alt] <anchor 670 -53> mark @_L;
-        pos base [u1003.thai u101F u1080 uA9E1 uAA61 uAA71] <anchor 676 -53> mark @_L;
+        pos base [u1003.thai u101F u1080 uA9E1 uA9E4.alt uA9E8.alt uAA61 uAA71] <anchor 676 -53> mark @_L;
         pos base [u1004 u1004.kham u100E.thai u105A] <anchor 298 -53> mark @_L;
         pos base [u1006 u104C u1078 u1079 uA9EB uA9FE] <anchor 672 -53> mark @_L;
         pos base [u1007 u1013 u101D u101D.kham u1076 u108E] <anchor 297 -53> mark @_L;
@@ -7777,7 +7823,7 @@ lookup dist_103C_Cons {
         pos base u1000_u1001_u103B <anchor 867 495> mark @_U;
         pos base u1001 <anchor 301 495> mark @_U;
         pos base [u1003 u1022 u1070 uA9E7 uAA64 uAA64.kham uAA6C.alt] <anchor 670 495> mark @_U;
-        pos base [u1003.thai u101F u106F u1080 uA9E1 uAA61 uAA71] <anchor 676 495> mark @_U;
+        pos base [u1003.thai u101F u106F u1080 uA9E1 uA9E4.alt uA9E8.alt uAA61 uAA71] <anchor 676 495> mark @_U;
         pos base [u1004 u1004.kham u1007 u100B.alt u100B_u100B u100B_u100C u100C u100E.thai u1014 u101B u1020 u1020_u1020 u1020_u103E u104E u1051_u100D u105A u1061 u1061.slanth u1061.slantr u107A u107A.aiph u107A.alt.aiph uAA77 uAA77.aiph uAA79 uAA79.aiph] <anchor 298 495> mark @_U;
         pos base [u1006 u1078 uA9EB] <anchor 672 495> mark @_U;
         pos base u1008 <anchor 526 495> mark @_U;

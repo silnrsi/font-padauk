@@ -828,11 +828,13 @@
     <string>uA9E2</string>
     <string>uA9E3</string>
     <string>uA9E4</string>
+    <string>uA9E4.alt</string>
     <string>uA9E5</string>
     <string>uA9E5_uAA7C</string>
     <string>uA9E6</string>
     <string>uA9E7</string>
     <string>uA9E8</string>
+    <string>uA9E8.alt</string>
     <string>uA9E9</string>
     <string>uA9EA</string>
     <string>uA9EB</string>
@@ -1867,6 +1869,8 @@
     <string>uniA9E3</string>
     <key>uA9E4</key>
     <string>uniA9E4</string>
+    <key>uA9E4.alt</key>
+    <string>uniA9E4.alt</string>
     <key>uA9E5</key>
     <string>uniA9E5</string>
     <key>uA9E5_uAA7C</key>
@@ -1877,6 +1881,8 @@
     <string>uniA9E7</string>
     <key>uA9E8</key>
     <string>uniA9E8</string>
+    <key>uA9E8.alt</key>
+    <string>uniA9E8.alt</string>
     <key>uA9E9</key>
     <string>uniA9E9</string>
     <key>uA9EA</key>

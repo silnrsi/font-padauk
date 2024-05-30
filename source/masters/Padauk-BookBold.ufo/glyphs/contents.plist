@@ -1360,6 +1360,8 @@
   <string>uA_9E_3.glif</string>
   <key>uA9E4</key>
   <string>uA_9E_4.glif</string>
+  <key>uA9E4.alt</key>
+  <string>uA_9E_4.alt.glif</string>
   <key>uA9E5</key>
   <string>uA_9E_5.glif</string>
   <key>uA9E5_uAA7C</key>
@@ -1370,6 +1372,8 @@
   <string>uA_9E_7.glif</string>
   <key>uA9E8</key>
   <string>uA_9E_8.glif</string>
+  <key>uA9E8.alt</key>
+  <string>uA_9E_8.alt.glif</string>
   <key>uA9E9</key>
   <string>uA_9E_9.glif</string>
   <key>uA9EA</key>

@@ -1,0 +1,2 @@
+uA9E4.alt = uA9E1
+uA9E8.alt = uA9E1

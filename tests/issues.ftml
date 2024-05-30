@@ -35,4 +35,14 @@
       <string>\u1002 \u1002\ufe00</string>
     </test>
   </testgroup>
+  <testgroup label="#45 Missing glyph and not rendered as expected for Tai Laing">
+    <test label="U+A9E4">
+      <comment>bhaShan</comment>
+      <string>\uA9E4</string>
+    </test>
+    <test label="U+A9E8">
+      <comment>faTaiLaing</comment>
+      <string>\uA9E8</string>
+    </test>
+  </testgroup>
 </ftml>
