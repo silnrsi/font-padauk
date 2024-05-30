@@ -87,6 +87,8 @@
     <dict>
       <key>1000</key>
       <string>u1000.kham</string>
+      <key>1002</key>
+      <string>u1002.kham</string>
       <key>1004</key>
       <string>u1004.kham</string>
       <key>1010</key>
@@ -376,6 +378,7 @@
     <string>u1001</string>
     <string>u1001.med</string>
     <string>u1002</string>
+    <string>u1002.kham</string>
     <string>u1002.med</string>
     <string>u1002.sml</string>
     <string>u1003</string>
@@ -1034,6 +1037,8 @@
     <string>uni1001.med</string>
     <key>u1002</key>
     <string>uni1002</string>
+    <key>u1002.kham</key>
+    <string>uni1002.kham</string>
     <key>u1002.med</key>
     <string>uni1002.med</string>
     <key>u1002.sml</key>

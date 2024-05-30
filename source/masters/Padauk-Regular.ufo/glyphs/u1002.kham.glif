@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1002.kham" format="2">
+  <advance width="585"/>
+  <anchor x="292" y="-53" name="BD"/>
+  <anchor x="292" y="-53" name="BS"/>
+  <anchor x="292" y="-53" name="L"/>
+  <anchor x="292" y="495" name="U"/>
+  <anchor x="0" y="0" name="_R"/>
+  <outline>
+    <component base="u1002"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>
