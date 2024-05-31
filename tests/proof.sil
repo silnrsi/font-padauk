@@ -1,0 +1,66 @@
+\begin[class=fontproof]{document}
+\bidi-off
+\setTestFont[]
+
+\proof{Myanmar မြန်မာအက္ခရာ RenderingUnknown}
+
+\subsection{Waterfall}
+
+\proof[size="10,11,12,16",heading=Body text]{မြန်မာအက္ခရာ}
+\proof[size="18,24,30,36",heading=Heading text]{မြန်မာအက္ခရာ}
+
+\section{Patterns}
+
+\subsection{Letters}
+
+\patterngroup[name="vowels"]{အဢဣဤဥဦဧဨဩဪၒၓၔၕ}
+\patterngroup[name="cons"]{ကခဂဃငစဆဇဈဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဟဠဿၐၑၚၛၜၝၡၥၦၮၯၰၵၶၷၸၹၺၻၼၽၾၿႀႁႎꧠꧡꧢꧣꧤꧧꧨꧩꧪꧫꧬꧭꧮꧯꧺꧻꧼꧽꧾꩠꩡꩢꩣꩤꩥꩦꩧꩨꩩꩪꩫꩬꩭꩮꩯꩱꩲꩳꩺꩾꩿ}
+\patterngroup[name="matras"]{ ါာိီုူေဲဳဴဵၖၗၘၙၢၧၨၱၲၳၴႃႄႅႆႜႝꧥ}
+
+\pattern[chars="C",reps="group_cons",format="para"]{C}
+\pattern[chars="V",reps="group_vowels",format="para"]{V}
+\pattern[chars="M",reps="group_matras",format="para"]{M}
+
+\pattern[chars="M,C",reps="group_matras,group_cons",format="table",heading=Consonant+Matra]{CM}
+%\pattern[chars="S,C",reps="group_cons,group_cons",format="table",heading=Consonant+Consonant]{C္S}
+
+\subsection{(Most) Punctuation}
+
+\proof{!"#&'()*,-./:;?[]।॥၌၍၎၏‐‑‒–—―‘’‚“”„†‡•…‧‰‹›꤮}
+\pattern[chars="@",reps="group_cons",format="list"]{@!@"@#@&@'@(@)@*@,@-@.@/@:@;@?@[@]@।@॥@၌@၍@၎@၏@‐@‑@‒@–@—@―@‘@’@‚@“@”@„@†@‡@•@…@‧@‰@‹@›@꤮@}
+
+\subsection{Spaces}
+
+\proof{H H H H H H H H H H0H H.H H H H H}
+
+\section{Generated}
+
+\subsection{Latin text}
+\pangrams
+\lorem[words=100]
+
+\subsection{Glyphs}
+\repertoire
+
+\subsection{Myanmar}
+%\unicharchart[type=range,begin=1000,end=109F]
+
+\subsection{Myanmar Extended-B}
+%\unicharchart[type=range,begin=A9E0,end=A9FF]
+
+\subsection{Myanmar Extended-A}
+%\unicharchart[type=range,begin=AA60,end=AA7F]
+
+\subsection{Myanmar Extended-C}
+%\unicharchart[type=range,begin=116D00,end=116FF]
+
+\subsection{ASCII}
+\unicharchart[type=range,start=0020,end=007F]
+
+\subsection{Punctuation}
+\unicharchart[type=range,start=2010,end=201F,columns=8,rows=2]
+
+\subsection{Latin-1}
+\unicharchart[type=range,start=00A0,end=00FF]
+
+\end{document}

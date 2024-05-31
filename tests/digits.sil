@@ -5,6 +5,14 @@
 
 \proof{Digits RenderingUnknown}
 
+\subsection{Latin}
+
+\pi[digits=100]
+
+\patterngroup[name="digits_latin"]{0123456789}
+\pattern[chars="D",reps="group_digits_latin",format="para"]{D}
+\pattern[chars="@",reps="group_digits_latin",format="list"]{@0@1@2@3@4@5@6@7@8@9.@,@-@‐@‑@‒@–@—@―@}
+
 \subsection{Burmese}
 
 \patterngroup[name="digits_my"]{၀၁၂၃၄၅၆၇၈၉}
