@@ -2,6 +2,10 @@
 <glyph name="j" format="2">
   <advance width="256"/>
   <unicode hex="006A"/>
+  <guideline x="111" name="😰 111"/>
+  <guideline x="112" name="😰 112"/>
+  <guideline x="193" name="😰 193"/>
+  <guideline x="195" name="😰 195"/>
   <outline>
     <contour>
       <point x="90" y="-188" type="curve" smooth="yes"/>

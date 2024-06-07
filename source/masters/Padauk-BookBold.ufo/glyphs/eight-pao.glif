@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="eight-pao" format="2">
-  <advance width="600"/>
+  <advance width="591"/>
   <unicode hex="116D8"/>
-  <anchor x="292" y="-53" name="BD"/>
-  <anchor x="300" y="-53" name="BS"/>
-  <anchor x="304" y="-53" name="L"/>
-  <anchor x="300" y="495" name="U"/>
   <outline>
-    <component base="u1048"/>
+    <component base="seven-pao" xScale="-1" yScale="-1" xOffset="604" yOffset="756"/>
   </outline>
   <lib>
     <dict>

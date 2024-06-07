@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="five-pao" format="2">
-  <advance width="576"/>
+  <advance width="575"/>
   <unicode hex="116D5"/>
-  <anchor x="283" y="-53" name="BD"/>
-  <anchor x="283" y="-53" name="BS"/>
-  <anchor x="283" y="-53" name="L"/>
-  <anchor x="283" y="495" name="U"/>
   <outline>
-    <component base="u1045"/>
+    <component base="u1040"/>
+    <contour>
+      <point x="520" y="763" type="line"/>
+      <point x="470" y="763" type="line"/>
+      <point x="470" y="222" type="line"/>
+      <point x="520" y="222" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
       <key>public.markColor</key>
       <string>0.99,0.62,0.11,1</string>
     </dict>

@@ -2,6 +2,8 @@
 <glyph name="uAA77" format="2">
   <advance width="832"/>
   <unicode hex="AA77"/>
+  <guideline x="614" name="😰 614"/>
+  <guideline x="615" name="😰 615"/>
   <anchor x="155" y="-53" name="BD"/>
   <anchor x="264" y="-53" name="BS"/>
   <anchor x="646" y="-53" name="L"/>

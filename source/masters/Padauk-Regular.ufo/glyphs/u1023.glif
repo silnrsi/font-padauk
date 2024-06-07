@@ -2,6 +2,10 @@
 <glyph name="u1023" format="2">
   <advance width="1008"/>
   <unicode hex="1023"/>
+  <guideline x="477" name="😰 477"/>
+  <guideline x="478" name="😰 478"/>
+  <guideline x="528" name="😰 528"/>
+  <guideline x="529" name="😰 529"/>
   <anchor x="993" y="-53" name="BD"/>
   <anchor x="993" y="-53" name="BS"/>
   <anchor x="993" y="-53" name="L"/>

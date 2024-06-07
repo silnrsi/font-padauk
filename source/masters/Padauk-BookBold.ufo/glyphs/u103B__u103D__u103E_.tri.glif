@@ -25,4 +25,10 @@
       <point x="-589" y="-279" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CPP</string>
+    </dict>
+  </lib>
 </glyph>

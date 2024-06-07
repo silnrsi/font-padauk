@@ -2,6 +2,8 @@
 <glyph name="u1092" format="2">
   <advance width="599"/>
   <unicode hex="1092"/>
+  <guideline x="167" name="😰 167"/>
+  <guideline x="168" name="😰 168"/>
   <anchor x="0" y="0" name="_R"/>
   <outline>
     <contour>

@@ -2,6 +2,10 @@
 <glyph name="product" format="2">
   <advance width="859"/>
   <unicode hex="220F"/>
+  <guideline x="27" name="😰 27"/>
+  <guideline x="29" name="😰 29"/>
+  <guideline x="748" name="😰 748"/>
+  <guideline x="750" name="😰 750"/>
   <outline>
     <contour>
       <point x="27" y="-104" type="line"/>

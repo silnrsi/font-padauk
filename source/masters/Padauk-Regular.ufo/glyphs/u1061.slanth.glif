@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1061.slanth" format="2">
   <advance width="588"/>
+  <guideline y="-450" name="😰 -450"/>
+  <guideline y="-450" name="😰 -449"/>
   <anchor x="87" y="-53" name="BD"/>
   <anchor x="59" y="-53" name="BS"/>
   <anchor x="646" y="-53" name="L"/>
@@ -52,4 +54,10 @@
       <point x="481" y="202" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
 </glyph>

@@ -2,12 +2,15 @@
 <glyph name="seven-pao" format="2">
   <advance width="591"/>
   <unicode hex="116D7"/>
-  <anchor x="286" y="-53" name="BD"/>
-  <anchor x="294" y="-53" name="BS"/>
-  <anchor x="294" y="-53" name="L"/>
-  <anchor x="294" y="495" name="U"/>
   <outline>
-    <component base="u1047"/>
+    <contour>
+      <point x="384" y="0" type="line"/>
+      <point x="497" y="0" type="line"/>
+      <point x="497" y="756" type="line"/>
+      <point x="107" y="756" type="line"/>
+      <point x="107" y="643" type="line"/>
+      <point x="384" y="643" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>

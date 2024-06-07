@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="seven-pao" format="2">
-  <advance width="576"/>
+  <advance width="575"/>
   <unicode hex="116D7"/>
-  <anchor x="286" y="-53" name="BD"/>
-  <anchor x="286" y="-53" name="BS"/>
-  <anchor x="286" y="-53" name="L"/>
-  <anchor x="286" y="495" name="U"/>
   <outline>
-    <component base="u1047"/>
+    <contour>
+      <point x="398" y="0" type="line"/>
+      <point x="448" y="0" type="line"/>
+      <point x="448" y="756" type="line"/>
+      <point x="128" y="756" type="line"/>
+      <point x="128" y="706" type="line"/>
+      <point x="398" y="706" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
