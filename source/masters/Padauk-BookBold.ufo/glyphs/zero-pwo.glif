@@ -2,10 +2,6 @@
 <glyph name="zero-pwo" format="2">
   <advance width="590"/>
   <unicode hex="116DA"/>
-  <anchor x="292" y="-53" name="BD"/>
-  <anchor x="293" y="-53" name="BS"/>
-  <anchor x="293" y="-53" name="L"/>
-  <anchor x="293" y="495" name="U"/>
   <outline>
     <component base="u1040"/>
   </outline>

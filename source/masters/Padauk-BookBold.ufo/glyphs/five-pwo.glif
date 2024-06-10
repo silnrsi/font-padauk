@@ -2,12 +2,25 @@
 <glyph name="five-pwo" format="2">
   <advance width="600"/>
   <unicode hex="116DF"/>
-  <anchor x="283" y="-53" name="BD"/>
-  <anchor x="300" y="-53" name="BS"/>
-  <anchor x="300" y="-53" name="L"/>
-  <anchor x="300" y="495" name="U"/>
   <outline>
-    <component base="u1045"/>
+    <contour>
+      <point x="385" y="33" type="line"/>
+      <point x="417" y="123" type="line"/>
+      <point x="102" y="113" type="line"/>
+      <point x="102" y="1" type="line"/>
+      <point x="498" y="11" type="line"/>
+      <point x="498" y="447" type="line"/>
+      <point x="102" y="458" type="line"/>
+      <point x="102" y="345" type="line"/>
+      <point x="410" y="335" type="line"/>
+      <point x="385" y="426" type="line"/>
+    </contour>
+    <contour>
+      <point x="102" y="174" type="line"/>
+      <point x="401" y="174" type="line"/>
+      <point x="401" y="285" type="line"/>
+      <point x="102" y="285" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>

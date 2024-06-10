@@ -2,12 +2,8 @@
 <glyph name="four-pwo" format="2">
   <advance width="576"/>
   <unicode hex="116DE"/>
-  <anchor x="297" y="-53" name="BD"/>
-  <anchor x="297" y="-53" name="BS"/>
-  <anchor x="297" y="-53" name="L"/>
-  <anchor x="297" y="495" name="U"/>
   <outline>
-    <component base="u1044"/>
+    <component base="three-pwo" xScale="-1" yScale="-1" xOffset="574" yOffset="459"/>
   </outline>
   <lib>
     <dict>

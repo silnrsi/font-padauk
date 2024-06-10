@@ -2,12 +2,17 @@
 <glyph name="three-pwo" format="2">
   <advance width="600"/>
   <unicode hex="116DD"/>
-  <anchor x="279" y="-53" name="BD"/>
-  <anchor x="286" y="-53" name="BS"/>
-  <anchor x="286" y="-53" name="L"/>
-  <anchor x="286" y="495" name="U"/>
   <outline>
-    <component base="u1043"/>
+    <contour>
+      <point x="182" y="0" type="line"/>
+      <point x="561" y="361" type="line"/>
+      <point x="502" y="459" type="line"/>
+      <point x="48" y="459" type="line"/>
+      <point x="48" y="348" type="line"/>
+      <point x="506" y="348" type="line"/>
+      <point x="454" y="418" type="line"/>
+      <point x="102" y="82" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
