@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Produce individual UFOs from Glyphs file
-psfglyphs2ufo --nofea source/masters/Padauk.glyphs source/masters -l source/logs/glyphs2ufo.log
+psfglyphs2ufo --preservefea source/masters/Padauk.glyphs source/masters -l source/logs/glyphs2ufo.log
 
 # This normalization will also run check and fix routines
 psfnormalize -p checkfix=fix source/masters/Padauk-Regular.ufo -l source/logs/normR.log
