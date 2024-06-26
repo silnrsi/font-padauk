@@ -26,8 +26,8 @@ echo "-----Check and normalize BookBold..."
 psfnormalize -p checkfix=fix source/masters/Padauk-BookBold.ufo -l source/logs/normKB.log
 
 echo "Building internal fea..."
-psfmakefea -q -o source/masters/Padauk-Regular.ufo/features.fea -l source/logs/Padauk-Regular-psfmakefea.log -i source/padauk.fea -c source/padauk_classes.xml --omitaps "_R" source/masters/Padauk-Regular.ufo &
-psfmakefea -q -o source/masters/Padauk-BookBold.ufo/features.fea    -l source/logs/Padauk-BookBold-psfmakefea.log    -i source/padauk.fea -c source/padauk_classes.xml --omitaps "_R" source/masters/Padauk-BookBold.ufo    &
+makefea -o source/masters/Padauk-Regular.ufo/features.fea  -i source/padauk.fea -c source/padauk_classes.xml --omitaps "_R" source/masters/Padauk-Regular.ufo &
+makefea -o source/masters/Padauk-BookBold.ufo/features.fea -i source/padauk.fea -c source/padauk_classes.xml --omitaps "_R" source/masters/Padauk-BookBold.ufo    &
 wait
 
 echo "preflight completed!"
