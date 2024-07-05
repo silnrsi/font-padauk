@@ -3,6 +3,12 @@
 <ftml version="1.0">
   <head>
     <fontscale>200</fontscale>
+    <!--
+    <fontsrc label="grR5000">url(../references/PadaukBook5000-Regular.ttf)</fontsrc>
+    <fontsrc label="grB5000">url(../references/PadaukBook5000-Bold.ttf)</fontsrc>
+    <fontsrc label="R5000">url(../references/PadaukBook5000ot-Regular.ttf)</fontsrc>
+    <fontsrc label="B5000">url(../references/PadaukBook5000ot-Bold.ttf)</fontsrc>
+    -->
     <fontsrc label="grRref">url(../references/PadaukBook-Regular.ttf)</fontsrc>
     <fontsrc label="grBref">url(../references/PadaukBook-Bold.ttf)</fontsrc>
     <fontsrc label="dfltRref">url(../references/PadaukBook-Regular_ot_DFLT.ttf)</fontsrc>
@@ -15,9 +21,20 @@
     <fontsrc label="dfltB">url(../results/tests/ftml/fonts/PadaukBook-Bold_ot_DFLT.ttf)</fontsrc>
     <fontsrc label="R">url(../results/tests/ftml/fonts/PadaukBook-Regular_ot_mym2.ttf)</fontsrc>
     <fontsrc label="B">url(../results/tests/ftml/fonts/PadaukBook-Bold_ot_mym2.ttf)</fontsrc>
+    <!--
+    <fontsrc label="gfR">url(../references/PadaukGF-Regular.ttf)</fontsrc>
+    <fontsrc label="gfB">url(../references/PadaukGF-Bold.ttf)</fontsrc>
+    -->
     <fontsrc label="Pyidaungsu">url(../references/Pyidaungsu-2.5.3_Regular.ttf)</fontsrc>
     <fontsrc label="notoSans">url(../references/NotoSansMyanmar-Regular.ttf)</fontsrc>
     <fontsrc label="notoSerif">url(../references/NotoSerifMyanmar-Regular.ttf)</fontsrc>
+    <!--
+    <fontsrc label="PadaukGR">url(../results/Padauk-Regular.ttf)</fontsrc>
+    <fontsrc label="PadaukOT">url(../results/tests/ftml/fonts/Padauk-Regular_ot_mym2.ttf)</fontsrc>
+    <fontsrc label="Pyidaungsu">url(../references/Pyidaungsu-2.5.3_Regular.ttf)</fontsrc>
+    <fontsrc label="NotoSansMyanmar">url(../references/NotoSansMyanmar-Regular.ttf)</fontsrc>
+    <fontsrc label="NotoSerifMyanmar">url(../references/NotoSerifMyanmar-Regular.ttf)</fontsrc>
+    -->
     <title>Issues</title>
   </head>
   <testgroup background="#f0f0f0" label="Rendering Check">
@@ -43,6 +60,14 @@
     <test label="U+A9E8">
       <comment>faTaiLaing</comment>
       <string>\uA9E8</string>
+    </test>
+  </testgroup>
+  <testgroup label="https://github.com/harfbuzz/harfbuzz/discussions/4784 Burmese script marking character placement problem with Harfbuzz / Speedata">
+    <test label="word">
+      <string>သာရ္ဒ္ဓံ</string>
+    </test>
+    <test label="phrase">
+      <string>တာတေန သာရ္ဒ္ဓံ နော်ကောပရိ</string>
     </test>
   </testgroup>
 </ftml>

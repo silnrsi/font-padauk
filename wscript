@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # encoding: utf-8
-# this is a smith configuration file - http://scripts.sil.org/smith
+# this is a smith configuration file
 # please adjust this template to your needs
 
 # identify extra folders to include in package
@@ -32,7 +32,7 @@ getufoinfo('source/masters/Padauk-Regular.ufo')
 #    '-Book' :        ('Padauk Book', 'Regular')
 #}
 
-opts = preprocess_args({'opt' : '-r'}, {'opt' : '--no2'}, {'opt' : '--bake'})
+opts = preprocess_args({'opt' : '-r'}, {'opt' : '-s'}, {'opt' : '--no2'}, {'opt' : '--bake'})
 devver = getversion()
 
 scriptcode = 'mymr' if '--no2' in opts else 'mym2'
@@ -78,6 +78,8 @@ dpackage = package(appname="Deemawso", version=devver)
 # kpackage = package(appname="PadaukNamKio", version="5.001") # use only for release versions
 # dpackage = package(appname="Deemawso", version="5.001") # use only for release versions
 for f in d.fonts:
+    if '-s' in opts:
+        continue
     font(target = process('khamti/'+f.target.replace('Padauk', 'NamKio'),
                         # cmd('ttfremap -r -c ${SRC} ${DEP} ${TGT}', ['source/namkio_remap.txt']),
                         cmd('psfdeflang -L kht ${DEP} ${TGT}'),
