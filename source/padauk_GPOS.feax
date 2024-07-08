@@ -70,8 +70,11 @@ lookup guard_context {
 # overlaps of below wide medials under a narrow consonant
     ignore pos @guard_glyphs' @_U [u1083 u1064] @cTone;
     ignore pos @guard_glyphs' @_U @cTone;
+    pos @guard_before @usvowel @guard_glyphs' lookup guarda @cMedWide @_U @cFillLowAfter;
+    pos @guard_before @usvowel @guard_glyphs' lookup guarda @cMedWide @cFillLowAfter;
     pos @guard_before @guard_glyphs' lookup guarda @cMedWide @_U @cFillLowAfter;
     pos @guard_before @guard_glyphs' lookup guarda @cMedWide @cFillLowAfter;
+    pos @guard_before @usvowel @guard_glyphs' lookup guardc @cMedWide;
     pos @guard_before @guard_glyphs' lookup guardc @cMedWide;
     pos @guard_glyphs' lookup guardb @cMedWide @_U @cFillLowAfter;
     pos @guard_glyphs' lookup guardb @cMedWide @cFillLowAfter; 

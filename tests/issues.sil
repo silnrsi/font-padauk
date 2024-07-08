@@ -83,5 +83,22 @@
 
 \font[features="cv09=0"]
 
+% #47
+\bigskip
+\proof[size="14pt",color="blue"]{Padauk issue #33: Cleanup rendering of rare ligature}
+\patterngroup[name="cons"]{ကခဂဃငစဆဇဈဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဟဠ}
+\patterngroup[name="consmed"]{ကခဂဃငစဆဇဈညဋဌဍဎတထဒဓနပဖဗဘမယရလသအၐၑ}
+
+\setTestFont[features="+clig,+kern"]
+\set[parameter=harfbuzz.subshapers,value=graphite2]
+\proof[size=10pt,color="green"]{RenderingUnknown}
+\proof[size="18pt",heading=Corinthians]{ကောရိန္သုမမာ}
+\pattern[heading=In frame,chars="@,#",reps="group_cons,group_consmed",format="table"]{ရ@္#ု}
+
+\setTestFont[language="dflt",features="+clig,+kern"]
+\set[parameter=harfbuzz.subshapers,value=ot]
+\proof[size=10pt,color="green"]{RenderingUnknown}
+\proof[size="18pt",heading=Corinthians]{ကောရိန္သုမမာ}
+\pattern[heading=In frame,chars="@,#",reps="group_cons,group_consmed",format="table"]{ရ@္#ု}
 
 \end{document}

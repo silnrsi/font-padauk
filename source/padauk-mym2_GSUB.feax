@@ -337,6 +337,12 @@ do  let c = feaclass("cno_sml");
 
 lookup mym2_pres_u103Cwide {
     ignore sub u103C' [@cConsNar u1075] @cno_sml_med;
+
+    # u100C.med is in @cMedWide,
+    # but since it forms a narrow ligature,
+    # a wide medial is not needed.
+    ignore sub u103C' [@cConsNar u1075] u100C.med;
+
     sub u103C' [@cConsNar u1075] @cMedWide by u103C.wide; # Some cases in Sanskrit
 } mym2_pres_u103Cwide;
 

@@ -194,8 +194,8 @@
     uAA71 uAA72 uAA74 uAA75 uAA76 uAA7A uAA7F
   </class>
   <class name="cMedWide">
-    u1000.med u1003.med u1006.med u100A.med u100F.med
-    u1010.med u1011.med u1018.med u101A.med u101C.med u101F.med
+    u1000.med u1003.med u1006.med u100A.med u100C.med u100F.med
+    u1010.med u1011.med u1018.med u101A.med u101C.med u101E.med u101F.med
     u1020.med u1021.med u101C.med_u103D
   </class>
   <class exts=".kham .aiph .alt" name="cConsSVowel">
@@ -220,6 +220,9 @@
     uA9E7 uA9E8 uA9E9 uA9EA uA9EB uA9EC uA9ED uA9EE uA9EF
     uA9FA uA9FB uA9FC uA9FD uA9FE
     uAA66 uAA67
+  </class>
+  <class name="usvowel">
+    u102D u102E u1033 u1034 u1035 u1071 u1072 u1073 u1074 u1085 u109D uA9E5
   </class>
   <class exts=".kham .aiph .alt" name="cFillLowBefore">
     u1008 u1009 u100A u100B u100C u100D u101B u1020 u1023 u1024 u1025 u1026 u1028 u1029

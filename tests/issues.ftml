@@ -62,6 +62,31 @@
       <string>\uA9E8</string>
     </test>
   </testgroup>
+  <testgroup label="#47 Cleanup rendering of rare ligature">
+    <test label="Corinthians">
+      <string>ကောရိန္သုမမာ</string>
+    </test>
+    <test label="U+101E below">
+      <comment>sa</comment>
+      <string>\u101b\u1014\u1039\u101e\u102f</string>
+    </test>
+    <test label="U+100C below">
+      <comment>ttha</comment>
+      <string>\u101b\u1014\u1039\u100c\u102f</string>
+    </test>
+    <test label="U+1010 below">
+      <comment>ta</comment>
+      <string>\u101b\u1014\u1039\u1010\u102f</string>
+    </test>
+    <test label="wiki 1119867">
+      <comment>review gr shaping</comment>
+      <string>၀င္သြားတယ္။</string>
+    </test>
+    <test label="wiki 322065">
+      <comment>check width of MEDIAL RA</comment>
+      <string>ဥက္ကဋ္ဌြဖစ်သည</string>
+    </test>
+  </testgroup>
   <testgroup label="https://github.com/harfbuzz/harfbuzz/discussions/4784 Burmese script marking character placement problem with Harfbuzz / Speedata">
     <test label="word">
       <string>သာရ္ဒ္ဓံ</string>
