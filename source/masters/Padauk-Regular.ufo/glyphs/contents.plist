@@ -594,6 +594,10 @@
   <string>u1008.med.glif</string>
   <key>u1009</key>
   <string>u1009.glif</string>
+  <key>u1009.med</key>
+  <string>u1009.med.glif</string>
+  <key>u1009.med.alt</key>
+  <string>u1009.med.alt.glif</string>
   <key>u1009_u102C</key>
   <string>u1009_u102C_.glif</string>
   <key>u100A</key>

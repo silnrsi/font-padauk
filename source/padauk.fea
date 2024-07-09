@@ -668,7 +668,7 @@ feature mkmk {
 @GDEF_Mark = [u1000.med u1001.med u1002.med u1003.med u1004.med u1004.kinzi 
 	u1004.kinzi_u102D u1004.kinzi_u102E u1004.kinzi_u1032 u1004.kinzi_u1033 
 	u1004.kinzi_u1036 u1004.kinzi_u103A u1004.kinzi_u102D_u1036 u1005.med 
-	u1006.med u1007.med u100A.med u100B.med u100C.med u100D.med u100E.med 
+	u1006.med u1007.med u1009.med u1009.med.alt u100A.med u100B.med u100C.med u100D.med u100E.med 
 	u100F.med u1010.med u1010_u103D.med u1011.med u1012.med u1013.med 
 	u1014.med u1015.med u1016.med u1017.med u1018.med u1019.med u101A.med 
 	u101B.med u101B.kinzi u101B.kinzi_u102D u101B.kinzi_u102E 

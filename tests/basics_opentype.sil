@@ -21,7 +21,7 @@
 \patterngroup[name="cons"]{ကခဂဃငစဆဇဈဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဟဠ}
 \patterngroup[name="conswide"]{ကဃဆဉညဏတထဘယလသဟအ}
 \patterngroup[name="consnarrow"]{ခဂငစဇဋဌဍဎဒဓနပဖဗမရဟ}
-\patterngroup[name="consmed"]{ကခဂဃငစဆဇဈညဋဌဍဎတထဒဓနပဖဗဘမယရလသအၐၑ}
+\patterngroup[name="consmed"]{ကခဂဃငစဆဇဈဉညဋဌဍဎတထဒဓနပဖဗဘမယရလသအၐၑ}
 
 
 % Marks

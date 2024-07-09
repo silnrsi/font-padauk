@@ -87,7 +87,7 @@
 \bigskip
 \proof[size="14pt",color="blue"]{Padauk issue #33: Cleanup rendering of rare ligature}
 \patterngroup[name="cons"]{ကခဂဃငစဆဇဈဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဟဠ}
-\patterngroup[name="consmed"]{ကခဂဃငစဆဇဈညဋဌဍဎတထဒဓနပဖဗဘမယရလသအၐၑ}
+\patterngroup[name="consmed"]{ကခဂဃငစဆဇဈဉညဋဌဍဎတထဒဓနပဖဗဘမယရလသအၐၑ}
 
 \setTestFont[features="+clig,+kern"]
 \set[parameter=harfbuzz.subshapers,value=graphite2]

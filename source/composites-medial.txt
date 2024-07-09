@@ -1,0 +1,2 @@
+u1009.med = u100A.med
+u1009.med.alt = u100C.med

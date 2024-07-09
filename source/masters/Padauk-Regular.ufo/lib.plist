@@ -412,6 +412,8 @@
     <string>u1008</string>
     <string>u1008.med</string>
     <string>u1009</string>
+    <string>u1009.med</string>
+    <string>u1009.med.alt</string>
     <string>u1009_u102C</string>
     <string>u100A</string>
     <string>u100A.alt</string>
@@ -1105,6 +1107,10 @@
     <string>uni1008.med</string>
     <key>u1009</key>
     <string>uni1009</string>
+    <key>u1009.med</key>
+    <string>uni1009.med</string>
+    <key>u1009.med.alt</key>
+    <string>uni1009.med.alt</string>
     <key>u1009_u102C</key>
     <string>uni1009102C</string>
     <key>u100A</key>

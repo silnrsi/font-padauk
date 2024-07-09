@@ -62,6 +62,47 @@
       <string>\uA9E8</string>
     </test>
   </testgroup>
+  <testgroup label="#46 AnontaMon kicked up a few bugs??">
+    <test label="U+1000">
+      <comment>nya at end</comment>
+      <string>\u1000\u1039\u1009</string>
+    </test>
+    <test label="U+1007">
+      <comment>nya at end</comment>
+      <string>\u1007\u1039\u1009</string>
+    </test>
+    <test label="U+1012">
+      <comment>nya at end</comment>
+      <string>\u1012\u1039\u1009</string>
+    </test>
+  </testgroup>
+  <testgroup label="https://github.com/notofonts/myanmar/issues/22 Mon language is still not correct">
+    <test label="misc">
+      <string>ၚ် ၚု/ၚူ ကါဲ ကါံ</string>
+    </test>
+    <test label="U+1000">
+      <comment>ka-medial_ra-signs</comment>
+      <string>ကြု ကြူ ကြို ကြီု ကြဵုကြုဲ ကြုံ</string>
+    </test>
+    <test label="U+1001">
+      <comment>kha-medial_ra-signs</comment>
+      <string>ခြု ခြူ ခြို ခြီု ခြဵု ခြုဲ ခြုံ</string>
+    </test>
+    <test label="signs">
+      <comment>kh-matras-anusvara</comment>
+      <string>ကာံ ကာဲ ကောံ ကောဲ ကေုာံ</string>
+    </test>
+  </testgroup>
+  <testgroup label="https://github.com/notofonts/myanmar/issues/35 Misplaced U+1036 MYANMAR SIGN ANUSVARA after U+102B">
+    <test label="U+102B">
+      <comment>tallAAmatra-anusvara</comment>
+      <string>\u1000\u102B\u1036</string>
+    </test>
+    <test label="U+102C">
+      <comment>AAmatra-anusvara</comment>
+      <string>\u1000\u102C\u1036</string>
+    </test>
+  </testgroup>
   <testgroup label="#47 Cleanup rendering of rare ligature">
     <test label="Corinthians">
       <string>ကောရိန္သုမမာ</string>
