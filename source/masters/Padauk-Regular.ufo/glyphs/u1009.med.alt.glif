@@ -9,7 +9,7 @@
   <anchor x="900" y="-53" name="_BS"/>
   <anchor x="900" y="-53" name="_BSM"/>
   <outline>
-    <component base="u100C.med"/>
+    <component base="u100C.med" xScale="-1" xOffset="-814"/>
   </outline>
   <lib>
     <dict>

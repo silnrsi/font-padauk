@@ -29,7 +29,7 @@
     <array/>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3309</string>
+  <string>3311</string>
   <key>com.schriftgestaltung.customName</key>
   <string>Book</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
@@ -49,7 +49,7 @@
     <string>/u1000.med/space/u1004.med/space/space/u1010.med/space/space/u1011.med/space/u1015.med/space/u1019.med/space/space/u101A.med/space/space/u101C.med/space/space/u1000.aiph/u1000.med.aiph/u1010.aiph/u1010.med.aiph/u1011.kham/u1011.med.aiph/u101A.aiph/u101A.med.aiph/u101C.aiph/u101C.med.aiph/u1075.aiph/u1075.med.aiph/u107A.aiph/space/u107A.med.aiph 
 /uAA61.aiph/uAA61.med.aiph/uAA6B.aiph/uAA6B.med.aiph/u1004.kham/u1004.med.kham/u1015.kham/u1015.med.kham/u1019.kham/u1019.med.kham/uAA61.kham/uAA61.med.kham/uAA73.kham/u1002/uAA6B.kham/uAA6B.med.kham/uAA6C.kham/uAA6C.med.kham 
 /u1003.med/u100B.thai/u100B.med.thai/u100C.thai/space/u100C.med.thai/u101B/uAA79.aiph</string>
-    <string>/one-pao</string>
+    <string>/u1009/space/space/space/u1009.med/space/space/space/u1009.med.alt/space/u1009_u102C</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
