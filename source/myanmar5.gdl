@@ -1125,7 +1125,7 @@ endpass;
 
 pass(3)
 g1037 {attach {to = @1; at = LS; with = LM}} / cTakesLDia opt3(cnTakesLDia) _{attach.to == 0};
-csml {attach {to = @1; at = BSM; with = BSMM}; shift.y=-250} / csml _;
+csml {attach {to = @1; at = BSM; with = BSM}; shift.y=-250m} / csml _;
 endpass;
 
 /* @doc

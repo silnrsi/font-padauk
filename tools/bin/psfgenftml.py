@@ -198,12 +198,21 @@ def doit(args):
                 builder.render((c,m), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
             ftml.closeTest()
 
-    if test.lower().startswith("conjuncts"):
+    if test.lower().startswith("medials"):
         ftml.startTestGroup('Two consonants')
-        for c1 in consonants:
-            for c2 in consonants:
+        consonant_like = consonants + [0x1021]
+        for c1 in consonant_like:
+            for c2 in consonant_like:
                 builder.render((c1,virama,c2), ftml, label=f'{c1:04X}', comment=builder.char(c1).basename)
             ftml.closeTest()
+
+        for c0 in (0x1003, 0x1004, 0x101B):
+            ftml.startTestGroup(f'Three consonants starting with {c0:04X} ' + builder.char(c0).basename)
+            consonant_medials = [uid for uid in consonant_like if uid <= 0x1060]
+            for c1 in consonant_medials:
+                for c2 in consonant_medials:
+                    builder.render((c0,virama,c1,virama,c2), ftml, label=f'{c0:04X} {c1:04X}', comment=builder.char(c0).basename + builder.char(c1).basename)
+                ftml.closeTest()
 
     # Write the output ftml file
     ftml.writeFile(args.output)

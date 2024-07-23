@@ -11,7 +11,7 @@ then
 fi
 
 # configure tests
-tests="AllChars Proof Diac Matras Conjuncts"
+tests="AllChars Proof Diac Matras Medials"
 urls='url(../references/PadaukBook-Regular.ttf)=grRref url(../references/PadaukBook-Bold.ttf)=grBref url(../references/PadaukBook-Regular_ot_DFLT.ttf)=dfltRref url(../references/PadaukBook-Bold_ot_DFLT.ttf)=dfltBref url(../references/PadaukBook-Regular_ot_mym2.ttf)=Rref url(../references/PadaukBook-Bold_ot_mym2.ttf)=Bref url(../results/PadaukBook-Regular.ttf)=grR url(../results/PadaukBook-Bold.ttf)=grB url(../results/tests/ftml/fonts/PadaukBook-Regular_ot_DFLT.ttf)=dfltR url(../results/tests/ftml/fonts/PadaukBook-Bold_ot_DFLT.ttf)=dfltB url(../results/tests/ftml/fonts/PadaukBook-Regular_ot_mym2.ttf)=R url(../results/tests/ftml/fonts/PadaukBook-Bold_ot_mym2.ttf)=B url(../references/Pyidaungsu-2.5.3_Regular.ttf)=Pyidaungsu url(../references/NotoSansMyanmar-Regular.ttf)=notoSans url(../references/NotoSerifMyanmar-Regular.ttf)=notoSerif'
 ufo='source/masters/Padauk-Regular.ufo'
 

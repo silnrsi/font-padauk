@@ -20,8 +20,8 @@
 @class103CLig = [u102F.med u103C u103C.wide u103C_u103D.narr u103C_u103D.wide u103C_u102F.narr
     u103C_u102F.wide u103D u103D.tri];
 
-@cConsMedSml = [u1000.med u1002.med u1005.med u1006.med u1007.med u1008.med u1010.med u1011.med
-    u1012.med u1013.med u1015.med u1019.med u101E.med u103D];
+# @cConsMedSml = [u1000.med u1002.med u1005.med u1006.med u1007.med u1008.med u1010.med u1011.med
+#     u1012.med u1013.med u1015.med u1019.med u101E.med u103D];
 
 do  let c = feaclass("cno_sml");
     let n = " ".join(x+".med" if x+".med" in feaclass("c_med") else x for x in c);
@@ -255,14 +255,14 @@ lookup mym2_103Ealt_Subst {
     sub u103D_u103E  by u103D_u103E.small;
     sub u103E.slantr by u103E.alt;
     sub u103E        by u103E.alt;
-    sub @cConsMedSml     by @c_sml;
+    # sub @cConsMedSml by @c_sml;
 } mym2_103Ealt_Subst;
 
 lookup mym2_blwf_103Ealt {
     sub @c103C_all [@cCons] u103D_u103E'  lookup mym2_103Ealt_Subst;
     sub @c103C_all [@cCons] u103E.slantr' lookup mym2_103Ealt_Subst;
     sub @c103C_all [@cCons] u103E'        lookup mym2_103Ealt_Subst;
-    sub @c103C_all [@cCons] @cno_sml_med'     lookup mym2_103Ealt_Subst;
+    # sub @c103C_all [@cCons] @cno_sml_med' lookup mym2_103Ealt_Subst;
     sub                u1009  u103E'        lookup mym2_103Ealt_Subst;
 } mym2_blwf_103Ealt;
 
