@@ -620,5 +620,5 @@ lookup consmed_sml_subst {
 lookup consmed_sml {
     sub @c103C_all @cCons @cno_sml_med' lookup consmed_sml_subst;
     sub [u100D u1025] @cno_sml_med' lookup consmed_sml_subst;
-    sub [u101B u101B.alt] @cno_sml_med' lookup consmed_sml_subst @cno_sml_med' lookup consmed_sml_subst;
+    sub @cno_sml_med' lookup consmed_sml_subst @cno_sml_med' lookup consmed_sml_subst;
 } consmed_sml;

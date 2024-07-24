@@ -868,8 +868,8 @@ Smaller subjoined forms inside a wrap and after a consonant.
 
 cConsSmlMed > csml / ^ c103c cCons _;
 cConsSmlMed > csml / ^ (g100d g1025) _;
-cConsSmlMed > csml / ^ c101b _ cConsSmlMed;
-cConsSmlMed > csml / ^ c101b csml _;
+cConsSmlMed > csml / _ cConsSmlMed;
+cConsSmlMed > csml / csml _;
 
 endpass;
 

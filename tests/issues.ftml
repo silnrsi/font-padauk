@@ -271,7 +271,7 @@
       <comment>wa</comment>
       <string>\u1000\u1039\u101d \u1017\u1039\u101f\u1039\u101d</string>
     </test>
-    <test label="missing U+1051 in in serif">
+    <test label="moved U+1051 in in serif">
       <comment>ssa</comment>
       <string>\u1000\u1039\u1051 \u1017\u1039\u101f\u1039\u1051</string>
     </test>

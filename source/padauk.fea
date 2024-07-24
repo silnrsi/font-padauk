@@ -546,7 +546,7 @@ feature dist {
      lookup dist_103C_Cons;
      lookup shift_1032;
      lookup shift_for_103B;
-     lookup mark_101Balt;
+     lookup dist_sml;
     language dflt;
     language KHN;
     language KHT;
@@ -566,6 +566,7 @@ feature mark {
   lookup base_U_base;
   lookup base_Y_base;
   lookup mark_101Balt;
+  lookup dist_sml;
  script DFLT;
     language KSW;
       lookup mark_KSW_shift1037;
