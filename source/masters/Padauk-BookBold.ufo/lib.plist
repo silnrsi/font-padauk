@@ -381,6 +381,7 @@
     <string>u1000_u103B_u1015_u103A</string>
     <string>u1001</string>
     <string>u1001.med</string>
+    <string>u1001.sml</string>
     <string>u1002</string>
     <string>u1002.kham</string>
     <string>u1002.med</string>
@@ -388,6 +389,7 @@
     <string>u1003</string>
     <string>u1003.med</string>
     <string>u1003.med.thai</string>
+    <string>u1003.sml</string>
     <string>u1003.thai</string>
     <string>u1004</string>
     <string>u1004.kham</string>
@@ -402,6 +404,7 @@
     <string>u1004.kinzi_u103A</string>
     <string>u1004.med</string>
     <string>u1004.med.kham</string>
+    <string>u1004.sml</string>
     <string>u1005</string>
     <string>u1005.med</string>
     <string>u1005.sml</string>
@@ -413,13 +416,17 @@
     <string>u1007.sml</string>
     <string>u1008</string>
     <string>u1008.med</string>
+    <string>u1008.sml</string>
+    <string>u1008.sml.low</string>
     <string>u1009</string>
     <string>u1009.med</string>
     <string>u1009.med.alt</string>
+    <string>u1009.sml</string>
     <string>u1009_u102C</string>
     <string>u100A</string>
     <string>u100A.alt</string>
     <string>u100A.med</string>
+    <string>u100A.sml</string>
     <string>u100A_u100A</string>
     <string>u100B</string>
     <string>u100B.alt</string>
@@ -432,19 +439,23 @@
     <string>u100C</string>
     <string>u100C.med</string>
     <string>u100C.med.thai</string>
+    <string>u100C.sml</string>
     <string>u100C.thai</string>
     <string>u100D</string>
     <string>u100D.med</string>
     <string>u100D.med.thai</string>
+    <string>u100D.sml</string>
     <string>u100D.thai</string>
     <string>u100D_u100D</string>
     <string>u100D_u100E</string>
     <string>u100E</string>
     <string>u100E.med</string>
     <string>u100E.med.thai</string>
+    <string>u100E.sml</string>
     <string>u100E.thai</string>
     <string>u100F</string>
     <string>u100F.med</string>
+    <string>u100F.sml</string>
     <string>u100F_u100B</string>
     <string>u100F_u100D</string>
     <string>u1010</string>
@@ -472,6 +483,7 @@
     <string>u1014.alt</string>
     <string>u1014.med</string>
     <string>u1014.med.thai</string>
+    <string>u1014.sml</string>
     <string>u1014.thai</string>
     <string>u1014_u1010_u103B</string>
     <string>u1014_u1010_u103C</string>
@@ -482,10 +494,13 @@
     <string>u1015.sml</string>
     <string>u1016</string>
     <string>u1016.med</string>
+    <string>u1016.sml</string>
     <string>u1017</string>
     <string>u1017.med</string>
+    <string>u1017.sml</string>
     <string>u1018</string>
     <string>u1018.med</string>
+    <string>u1018.sml</string>
     <string>u1019</string>
     <string>u1019.kham</string>
     <string>u1019.med</string>
@@ -496,6 +511,7 @@
     <string>u101A.kham</string>
     <string>u101A.med</string>
     <string>u101A.med.aiph</string>
+    <string>u101A.sml</string>
     <string>u101B</string>
     <string>u101B.alt</string>
     <string>u101B.kham</string>
@@ -505,6 +521,7 @@
     <string>u101B.kinzi_u103A</string>
     <string>u101B.long</string>
     <string>u101B.med</string>
+    <string>u101B.sml</string>
     <string>u101B_u103B</string>
     <string>u101C</string>
     <string>u101C.aiph</string>
@@ -512,8 +529,11 @@
     <string>u101C.med</string>
     <string>u101C.med.aiph</string>
     <string>u101C.med_u103D</string>
+    <string>u101C.sml</string>
     <string>u101D</string>
     <string>u101D.kham</string>
+    <string>u101D.med</string>
+    <string>u101D.sml</string>
     <string>u101E</string>
     <string>u101E.med</string>
     <string>u101E.med.thai</string>
@@ -521,15 +541,20 @@
     <string>u101E.thai</string>
     <string>u101E_u1010_u103C</string>
     <string>u101F</string>
+    <string>u101F.med</string>
     <string>u101F.small</string>
+    <string>u101F.sml</string>
     <string>u1020</string>
     <string>u1020.long</string>
+    <string>u1020.med</string>
     <string>u1020.med.thai</string>
+    <string>u1020.sml</string>
     <string>u1020.thai</string>
     <string>u1020_u1020</string>
     <string>u1020_u103E</string>
     <string>u1021</string>
     <string>u1021.med</string>
+    <string>u1021.sml</string>
     <string>u1021.thai</string>
     <string>u1022</string>
     <string>u1022.aiph</string>
@@ -626,6 +651,8 @@
     <string>u103E_u1030.slantr</string>
     <string>u103E_u1060</string>
     <string>u103F</string>
+    <string>u103F.med</string>
+    <string>u103F.sml</string>
     <string>u103F.thai</string>
     <string>u1040</string>
     <string>u1041</string>
@@ -648,8 +675,10 @@
     <string>u104F</string>
     <string>u1050</string>
     <string>u1050.med</string>
+    <string>u1050.sml</string>
     <string>u1051</string>
     <string>u1051.med</string>
+    <string>u1051.sml</string>
     <string>u1051_u100C</string>
     <string>u1051_u100D</string>
     <string>u1052</string>
@@ -1043,6 +1072,8 @@
     <string>uni1001</string>
     <key>u1001.med</key>
     <string>uni1001.med</string>
+    <key>u1001.sml</key>
+    <string>uni1001.sml</string>
     <key>u1002</key>
     <string>uni1002</string>
     <key>u1002.kham</key>
@@ -1057,6 +1088,8 @@
     <string>uni1003.med</string>
     <key>u1003.med.thai</key>
     <string>uni1003.med.thai</string>
+    <key>u1003.sml</key>
+    <string>uni1003.sml</string>
     <key>u1003.thai</key>
     <string>uni1003.thai</string>
     <key>u1004</key>
@@ -1085,6 +1118,8 @@
     <string>uni1004.med</string>
     <key>u1004.med.kham</key>
     <string>uni1004.med.kham</string>
+    <key>u1004.sml</key>
+    <string>uni1004.sml</string>
     <key>u1005</key>
     <string>uni1005</string>
     <key>u1005.med</key>
@@ -1107,12 +1142,18 @@
     <string>uni1008</string>
     <key>u1008.med</key>
     <string>uni1008.med</string>
+    <key>u1008.sml</key>
+    <string>uni1008.sml</string>
+    <key>u1008.sml.low</key>
+    <string>uni1008.sml.low</string>
     <key>u1009</key>
     <string>uni1009</string>
     <key>u1009.med</key>
     <string>uni1009.med</string>
     <key>u1009.med.alt</key>
     <string>uni1009.med.alt</string>
+    <key>u1009.sml</key>
+    <string>uni1009.sml</string>
     <key>u1009_u102C</key>
     <string>uni1009102C</string>
     <key>u100A</key>
@@ -1121,6 +1162,8 @@
     <string>uni100A.alt</string>
     <key>u100A.med</key>
     <string>uni100A.med</string>
+    <key>u100A.sml</key>
+    <string>uni100A.sml</string>
     <key>u100A_u100A</key>
     <string>uni100A100A</string>
     <key>u100B</key>
@@ -1145,6 +1188,8 @@
     <string>uni100C.med</string>
     <key>u100C.med.thai</key>
     <string>uni100C.med.thai</string>
+    <key>u100C.sml</key>
+    <string>uni100C.sml</string>
     <key>u100C.thai</key>
     <string>uni100C.thai</string>
     <key>u100D</key>
@@ -1153,6 +1198,8 @@
     <string>uni100D.med</string>
     <key>u100D.med.thai</key>
     <string>uni100D.med.thai</string>
+    <key>u100D.sml</key>
+    <string>uni100D.sml</string>
     <key>u100D.thai</key>
     <string>uni100D.thai</string>
     <key>u100D_u100D</key>
@@ -1165,12 +1212,16 @@
     <string>uni100E.med</string>
     <key>u100E.med.thai</key>
     <string>uni100E.med.thai</string>
+    <key>u100E.sml</key>
+    <string>uni100E.sml</string>
     <key>u100E.thai</key>
     <string>uni100E.thai</string>
     <key>u100F</key>
     <string>uni100F</string>
     <key>u100F.med</key>
     <string>uni100F.med</string>
+    <key>u100F.sml</key>
+    <string>uni100F.sml</string>
     <key>u100F_u100B</key>
     <string>uni100F100B</string>
     <key>u100F_u100D</key>
@@ -1225,6 +1276,8 @@
     <string>uni1014.med</string>
     <key>u1014.med.thai</key>
     <string>uni1014.med.thai</string>
+    <key>u1014.sml</key>
+    <string>uni1014.sml</string>
     <key>u1014.thai</key>
     <string>uni1014.thai</string>
     <key>u1014_u1010_u103B</key>
@@ -1245,14 +1298,20 @@
     <string>uni1016</string>
     <key>u1016.med</key>
     <string>uni1016.med</string>
+    <key>u1016.sml</key>
+    <string>uni1016.sml</string>
     <key>u1017</key>
     <string>uni1017</string>
     <key>u1017.med</key>
     <string>uni1017.med</string>
+    <key>u1017.sml</key>
+    <string>uni1017.sml</string>
     <key>u1018</key>
     <string>uni1018</string>
     <key>u1018.med</key>
     <string>uni1018.med</string>
+    <key>u1018.sml</key>
+    <string>uni1018.sml</string>
     <key>u1019</key>
     <string>uni1019</string>
     <key>u1019.kham</key>
@@ -1273,6 +1332,8 @@
     <string>uni101A.med</string>
     <key>u101A.med.aiph</key>
     <string>uni101A.med.aiph</string>
+    <key>u101A.sml</key>
+    <string>uni101A.sml</string>
     <key>u101B</key>
     <string>uni101B</string>
     <key>u101B.alt</key>
@@ -1291,6 +1352,8 @@
     <string>uni101B.long</string>
     <key>u101B.med</key>
     <string>uni101B.med</string>
+    <key>u101B.sml</key>
+    <string>uni101B.sml</string>
     <key>u101B_u103B</key>
     <string>uni101B103B</string>
     <key>u101C</key>
@@ -1305,10 +1368,16 @@
     <string>uni101C.med.aiph</string>
     <key>u101C.med_u103D</key>
     <string>uni101C.med_u103D</string>
+    <key>u101C.sml</key>
+    <string>uni101C.sml</string>
     <key>u101D</key>
     <string>uni101D</string>
     <key>u101D.kham</key>
     <string>uni101D.kham</string>
+    <key>u101D.med</key>
+    <string>uni101D.med</string>
+    <key>u101D.sml</key>
+    <string>uni101D.sml</string>
     <key>u101E</key>
     <string>uni101E</string>
     <key>u101E.med</key>
@@ -1323,14 +1392,22 @@
     <string>uni101E1010103C</string>
     <key>u101F</key>
     <string>uni101F</string>
+    <key>u101F.med</key>
+    <string>uni101F.med</string>
     <key>u101F.small</key>
     <string>uni101F.small</string>
+    <key>u101F.sml</key>
+    <string>uni101F.sml</string>
     <key>u1020</key>
     <string>uni1020</string>
     <key>u1020.long</key>
     <string>uni1020.long</string>
+    <key>u1020.med</key>
+    <string>uni1020.med</string>
     <key>u1020.med.thai</key>
     <string>uni1020.med.thai</string>
+    <key>u1020.sml</key>
+    <string>uni1020.sml</string>
     <key>u1020.thai</key>
     <string>uni1020.thai</string>
     <key>u1020_u1020</key>
@@ -1341,6 +1418,8 @@
     <string>uni1021</string>
     <key>u1021.med</key>
     <string>uni1021.med</string>
+    <key>u1021.sml</key>
+    <string>uni1021.sml</string>
     <key>u1021.thai</key>
     <string>uni1021.thai</string>
     <key>u1022</key>
@@ -1533,6 +1612,10 @@
     <string>uni103E1060</string>
     <key>u103F</key>
     <string>uni103F</string>
+    <key>u103F.med</key>
+    <string>uni103F.med</string>
+    <key>u103F.sml</key>
+    <string>uni103F.sml</string>
     <key>u103F.thai</key>
     <string>uni103F.thai</string>
     <key>u1040</key>
@@ -1577,10 +1660,14 @@
     <string>uni1050</string>
     <key>u1050.med</key>
     <string>uni1050.med</string>
+    <key>u1050.sml</key>
+    <string>uni1050.sml</string>
     <key>u1051</key>
     <string>uni1051</string>
     <key>u1051.med</key>
     <string>uni1051.med</string>
+    <key>u1051.sml</key>
+    <string>uni1051.sml</string>
     <key>u1051_u100C</key>
     <string>uni1051100C</string>
     <key>u1051_u100D</key>

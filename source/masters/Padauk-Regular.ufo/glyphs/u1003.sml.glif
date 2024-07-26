@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1003.sml" format="2">
+  <anchor x="169" y="-114" name="BDM"/>
+  <anchor x="57" y="-114" name="BSM"/>
+  <anchor x="-738" y="-114" name="LLM"/>
+  <anchor x="-51" y="-114" name="LM"/>
+  <anchor x="-394" y="-114" name="_BD"/>
+  <anchor x="-394" y="-114" name="_BDM"/>
+  <anchor x="-51" y="-114" name="_BS"/>
+  <anchor x="-51" y="-114" name="_BSM"/>
+  <outline>
+    <component base="u101E.sml"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

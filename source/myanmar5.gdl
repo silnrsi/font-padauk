@@ -205,11 +205,14 @@ Ligatures with medial h and uu
 cMedHUu = (g103e_1030, g103e_1030_slantr, g103e_1030_slanth);
 
 /* @doc
-Lists all the subjoined forms that can be substituted with a smaller version to fit inside a wrap
+Lists all the subjoined forms that can be substituted with a smaller version to fit inside a wrap or below another medial
 @enddoc */
 
-cConsSmlMed = (g1000_med, g1002_med, g1005_med, g1006_med, g1007_med, g100b_med, g1010_med, g1011_med, 
-    g1012_med, g1013_med, g1015_med, g1019_med, g101e_med, g103d);
+cConsSmlMed = (g1000_med, g1001_med, g1002_med, g1003_med, g1004_med, g1005_med, g1006_med, g1007_med, g1008_med, g1009_med, g100a_med, g100b_med, g100c_med, g100d_med, g100e_med, g100f_med,
+               g1010_med, g1011_med, g1012_med, g1013_med, g1014_med, g1015_med, g1016_med, g1017_med, g1018_med, g1019_med, g101a_med, g101b_med, g101c_med, g101d_med, g101e_med, g101f_med,
+               g1020_med, g1021_med,
+               g103d, g103f_med,
+               g1050_med, g1051_med);
 
 /* @doc
 Stacked consonant ligatures

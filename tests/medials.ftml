@@ -934,4 +934,334 @@
       <string>\u00101B\u001039\u001021\u001039\u001000 \u00101B\u001039\u001021\u001039\u001001 \u00101B\u001039\u001021\u001039\u001002 \u00101B\u001039\u001021\u001039\u001003 \u00101B\u001039\u001021\u001039\u001004 \u00101B\u001039\u001021\u001039\u001005 \u00101B\u001039\u001021\u001039\u001006 \u00101B\u001039\u001021\u001039\u001007 \u00101B\u001039\u001021\u001039\u001008 \u00101B\u001039\u001021\u001039\u001009 \u00101B\u001039\u001021\u001039\u00100A \u00101B\u001039\u001021\u001039\u00100B \u00101B\u001039\u001021\u001039\u00100C \u00101B\u001039\u001021\u001039\u00100D \u00101B\u001039\u001021\u001039\u00100E \u00101B\u001039\u001021\u001039\u00100F \u00101B\u001039\u001021\u001039\u001010 \u00101B\u001039\u001021\u001039\u001011 \u00101B\u001039\u001021\u001039\u001012 \u00101B\u001039\u001021\u001039\u001013 \u00101B\u001039\u001021\u001039\u001014 \u00101B\u001039\u001021\u001039\u001015 \u00101B\u001039\u001021\u001039\u001016 \u00101B\u001039\u001021\u001039\u001017 \u00101B\u001039\u001021\u001039\u001018 \u00101B\u001039\u001021\u001039\u001019 \u00101B\u001039\u001021\u001039\u00101A \u00101B\u001039\u001021\u001039\u00101B \u00101B\u001039\u001021\u001039\u00101C \u00101B\u001039\u001021\u001039\u00101D \u00101B\u001039\u001021\u001039\u00101E \u00101B\u001039\u001021\u001039\u00101F \u00101B\u001039\u001021\u001039\u001020 \u00101B\u001039\u001021\u001039\u00103F \u00101B\u001039\u001021\u001039\u001050 \u00101B\u001039\u001021\u001039\u001051 \u00101B\u001039\u001021\u001039\u00105A \u00101B\u001039\u001021\u001039\u00105B \u00101B\u001039\u001021\u001039\u00105C \u00101B\u001039\u001021\u001039\u00105D \u00101B\u001039\u001021\u001039\u001021</string>
     </test>
   </testgroup>
+  <testgroup label="Identical consonants">
+    <test label="1000">
+      <comment>u1000</comment>
+      <string>\u001000\u001039\u001000</string>
+    </test>
+    <test label="1000">
+      <comment>u1000</comment>
+      <string>\u001000\u001039\u001000\u001039\u001000</string>
+    </test>
+    <test label="1001">
+      <comment>u1001</comment>
+      <string>\u001001\u001039\u001001</string>
+    </test>
+    <test label="1001">
+      <comment>u1001</comment>
+      <string>\u001001\u001039\u001001\u001039\u001001</string>
+    </test>
+    <test label="1002">
+      <comment>u1002</comment>
+      <string>\u001002\u001039\u001002</string>
+    </test>
+    <test label="1002">
+      <comment>u1002</comment>
+      <string>\u001002\u001039\u001002\u001039\u001002</string>
+    </test>
+    <test label="1003">
+      <comment>u1003</comment>
+      <string>\u001003\u001039\u001003</string>
+    </test>
+    <test label="1003">
+      <comment>u1003</comment>
+      <string>\u001003\u001039\u001003\u001039\u001003</string>
+    </test>
+    <test label="1004">
+      <comment>u1004</comment>
+      <string>\u001004\u001039\u001004</string>
+    </test>
+    <test label="1004">
+      <comment>u1004</comment>
+      <string>\u001004\u001039\u001004\u001039\u001004</string>
+    </test>
+    <test label="1005">
+      <comment>u1005</comment>
+      <string>\u001005\u001039\u001005</string>
+    </test>
+    <test label="1005">
+      <comment>u1005</comment>
+      <string>\u001005\u001039\u001005\u001039\u001005</string>
+    </test>
+    <test label="1006">
+      <comment>u1006</comment>
+      <string>\u001006\u001039\u001006</string>
+    </test>
+    <test label="1006">
+      <comment>u1006</comment>
+      <string>\u001006\u001039\u001006\u001039\u001006</string>
+    </test>
+    <test label="1007">
+      <comment>u1007</comment>
+      <string>\u001007\u001039\u001007</string>
+    </test>
+    <test label="1007">
+      <comment>u1007</comment>
+      <string>\u001007\u001039\u001007\u001039\u001007</string>
+    </test>
+    <test label="1008">
+      <comment>u1008</comment>
+      <string>\u001008\u001039\u001008</string>
+    </test>
+    <test label="1008">
+      <comment>u1008</comment>
+      <string>\u001008\u001039\u001008\u001039\u001008</string>
+    </test>
+    <test label="1009">
+      <comment>u1009</comment>
+      <string>\u001009\u001039\u001009</string>
+    </test>
+    <test label="1009">
+      <comment>u1009</comment>
+      <string>\u001009\u001039\u001009\u001039\u001009</string>
+    </test>
+    <test label="100A">
+      <comment>u100A</comment>
+      <string>\u00100A\u001039\u00100A</string>
+    </test>
+    <test label="100A">
+      <comment>u100A</comment>
+      <string>\u00100A\u001039\u00100A\u001039\u00100A</string>
+    </test>
+    <test label="100B">
+      <comment>u100B</comment>
+      <string>\u00100B\u001039\u00100B</string>
+    </test>
+    <test label="100B">
+      <comment>u100B</comment>
+      <string>\u00100B\u001039\u00100B\u001039\u00100B</string>
+    </test>
+    <test label="100C">
+      <comment>u100C</comment>
+      <string>\u00100C\u001039\u00100C</string>
+    </test>
+    <test label="100C">
+      <comment>u100C</comment>
+      <string>\u00100C\u001039\u00100C\u001039\u00100C</string>
+    </test>
+    <test label="100D">
+      <comment>u100D</comment>
+      <string>\u00100D\u001039\u00100D</string>
+    </test>
+    <test label="100D">
+      <comment>u100D</comment>
+      <string>\u00100D\u001039\u00100D\u001039\u00100D</string>
+    </test>
+    <test label="100E">
+      <comment>u100E</comment>
+      <string>\u00100E\u001039\u00100E</string>
+    </test>
+    <test label="100E">
+      <comment>u100E</comment>
+      <string>\u00100E\u001039\u00100E\u001039\u00100E</string>
+    </test>
+    <test label="100F">
+      <comment>u100F</comment>
+      <string>\u00100F\u001039\u00100F</string>
+    </test>
+    <test label="100F">
+      <comment>u100F</comment>
+      <string>\u00100F\u001039\u00100F\u001039\u00100F</string>
+    </test>
+    <test label="1010">
+      <comment>u1010</comment>
+      <string>\u001010\u001039\u001010</string>
+    </test>
+    <test label="1010">
+      <comment>u1010</comment>
+      <string>\u001010\u001039\u001010\u001039\u001010</string>
+    </test>
+    <test label="1011">
+      <comment>u1011</comment>
+      <string>\u001011\u001039\u001011</string>
+    </test>
+    <test label="1011">
+      <comment>u1011</comment>
+      <string>\u001011\u001039\u001011\u001039\u001011</string>
+    </test>
+    <test label="1012">
+      <comment>u1012</comment>
+      <string>\u001012\u001039\u001012</string>
+    </test>
+    <test label="1012">
+      <comment>u1012</comment>
+      <string>\u001012\u001039\u001012\u001039\u001012</string>
+    </test>
+    <test label="1013">
+      <comment>u1013</comment>
+      <string>\u001013\u001039\u001013</string>
+    </test>
+    <test label="1013">
+      <comment>u1013</comment>
+      <string>\u001013\u001039\u001013\u001039\u001013</string>
+    </test>
+    <test label="1014">
+      <comment>u1014</comment>
+      <string>\u001014\u001039\u001014</string>
+    </test>
+    <test label="1014">
+      <comment>u1014</comment>
+      <string>\u001014\u001039\u001014\u001039\u001014</string>
+    </test>
+    <test label="1015">
+      <comment>u1015</comment>
+      <string>\u001015\u001039\u001015</string>
+    </test>
+    <test label="1015">
+      <comment>u1015</comment>
+      <string>\u001015\u001039\u001015\u001039\u001015</string>
+    </test>
+    <test label="1016">
+      <comment>u1016</comment>
+      <string>\u001016\u001039\u001016</string>
+    </test>
+    <test label="1016">
+      <comment>u1016</comment>
+      <string>\u001016\u001039\u001016\u001039\u001016</string>
+    </test>
+    <test label="1017">
+      <comment>u1017</comment>
+      <string>\u001017\u001039\u001017</string>
+    </test>
+    <test label="1017">
+      <comment>u1017</comment>
+      <string>\u001017\u001039\u001017\u001039\u001017</string>
+    </test>
+    <test label="1018">
+      <comment>u1018</comment>
+      <string>\u001018\u001039\u001018</string>
+    </test>
+    <test label="1018">
+      <comment>u1018</comment>
+      <string>\u001018\u001039\u001018\u001039\u001018</string>
+    </test>
+    <test label="1019">
+      <comment>u1019</comment>
+      <string>\u001019\u001039\u001019</string>
+    </test>
+    <test label="1019">
+      <comment>u1019</comment>
+      <string>\u001019\u001039\u001019\u001039\u001019</string>
+    </test>
+    <test label="101A">
+      <comment>u101A</comment>
+      <string>\u00101A\u001039\u00101A</string>
+    </test>
+    <test label="101A">
+      <comment>u101A</comment>
+      <string>\u00101A\u001039\u00101A\u001039\u00101A</string>
+    </test>
+    <test label="101B">
+      <comment>u101B</comment>
+      <string>\u00101B\u001039\u00101B</string>
+    </test>
+    <test label="101B">
+      <comment>u101B</comment>
+      <string>\u00101B\u001039\u00101B\u001039\u00101B</string>
+    </test>
+    <test label="101C">
+      <comment>u101C</comment>
+      <string>\u00101C\u001039\u00101C</string>
+    </test>
+    <test label="101C">
+      <comment>u101C</comment>
+      <string>\u00101C\u001039\u00101C\u001039\u00101C</string>
+    </test>
+    <test label="101D">
+      <comment>u101D</comment>
+      <string>\u00101D\u001039\u00101D</string>
+    </test>
+    <test label="101D">
+      <comment>u101D</comment>
+      <string>\u00101D\u001039\u00101D\u001039\u00101D</string>
+    </test>
+    <test label="101E">
+      <comment>u101E</comment>
+      <string>\u00101E\u001039\u00101E</string>
+    </test>
+    <test label="101E">
+      <comment>u101E</comment>
+      <string>\u00101E\u001039\u00101E\u001039\u00101E</string>
+    </test>
+    <test label="101F">
+      <comment>u101F</comment>
+      <string>\u00101F\u001039\u00101F</string>
+    </test>
+    <test label="101F">
+      <comment>u101F</comment>
+      <string>\u00101F\u001039\u00101F\u001039\u00101F</string>
+    </test>
+    <test label="1020">
+      <comment>u1020</comment>
+      <string>\u001020\u001039\u001020</string>
+    </test>
+    <test label="1020">
+      <comment>u1020</comment>
+      <string>\u001020\u001039\u001020\u001039\u001020</string>
+    </test>
+    <test label="103F">
+      <comment>u103F</comment>
+      <string>\u00103F\u001039\u00103F</string>
+    </test>
+    <test label="103F">
+      <comment>u103F</comment>
+      <string>\u00103F\u001039\u00103F\u001039\u00103F</string>
+    </test>
+    <test label="1050">
+      <comment>u1050</comment>
+      <string>\u001050\u001039\u001050</string>
+    </test>
+    <test label="1050">
+      <comment>u1050</comment>
+      <string>\u001050\u001039\u001050\u001039\u001050</string>
+    </test>
+    <test label="1051">
+      <comment>u1051</comment>
+      <string>\u001051\u001039\u001051</string>
+    </test>
+    <test label="1051">
+      <comment>u1051</comment>
+      <string>\u001051\u001039\u001051\u001039\u001051</string>
+    </test>
+    <test label="105A">
+      <comment>u105A</comment>
+      <string>\u00105A\u001039\u00105A</string>
+    </test>
+    <test label="105A">
+      <comment>u105A</comment>
+      <string>\u00105A\u001039\u00105A\u001039\u00105A</string>
+    </test>
+    <test label="105B">
+      <comment>u105B</comment>
+      <string>\u00105B\u001039\u00105B</string>
+    </test>
+    <test label="105B">
+      <comment>u105B</comment>
+      <string>\u00105B\u001039\u00105B\u001039\u00105B</string>
+    </test>
+    <test label="105C">
+      <comment>u105C</comment>
+      <string>\u00105C\u001039\u00105C</string>
+    </test>
+    <test label="105C">
+      <comment>u105C</comment>
+      <string>\u00105C\u001039\u00105C\u001039\u00105C</string>
+    </test>
+    <test label="105D">
+      <comment>u105D</comment>
+      <string>\u00105D\u001039\u00105D</string>
+    </test>
+    <test label="105D">
+      <comment>u105D</comment>
+      <string>\u00105D\u001039\u00105D\u001039\u00105D</string>
+    </test>
+    <test label="1021">
+      <comment>u1021</comment>
+      <string>\u001021\u001039\u001021</string>
+    </test>
+    <test label="1021">
+      <comment>u1021</comment>
+      <string>\u001021\u001039\u001021\u001039\u001021</string>
+    </test>
+  </testgroup>
 </ftml>

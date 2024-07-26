@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u101D.med" format="2">
+  <anchor x="556" y="-53" name="BSM"/>
+  <anchor x="-557" y="-53" name="LLM"/>
+  <anchor x="88" y="-53" name="LM"/>
+  <anchor x="-234" y="-53" name="_BS"/>
+  <anchor x="-234" y="-53" name="_BSM"/>
+  <outline>
+    <component base="u1005.med"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>
