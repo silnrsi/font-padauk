@@ -238,7 +238,7 @@
       <string>ဥက္ကဋ္ဌြဖစ်သည</string>
     </test>
   </testgroup>
-  <testgroup label="# 52 Burmese script marking character placement problem with Harfbuzz / Speedata">
+  <testgroup label="#52 Burmese script marking character placement problem with Harfbuzz / Speedata">
     <test label="word">
       <string>သာရ္ဒ္ဓံ</string>
     </test>
@@ -288,6 +288,10 @@
     </test>
     <test label="sanskrit 58.1">
       <string>\u1005\u1039\u1000\u103C\u102D</string>
+    </test>
+    <test label="U+1020">
+      <comment>lla</comment>
+      <string>\u1000\u1039\u1020 \u1000\u1039\u1020\u1039\u1020</string>
     </test>
   </testgroup>
 </ftml>

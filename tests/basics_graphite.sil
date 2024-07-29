@@ -18,10 +18,10 @@
 
 %%%%% GROUPS
 % Consonants
-\patterngroup[name="cons"]{ကခဂဃငစဆဇဈဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဟဠ}
-\patterngroup[name="conswide"]{ကဃဆဉညဏတထဘယလသဟအ}
-\patterngroup[name="consnarrow"]{ခဂငစဇဋဌဍဎဒဓနပဖဗမရဟ}
-\patterngroup[name="consmed"]{ကခဂဃငစဆဇဈဉညဋဌဍဎတထဒဓနပဖဗဘမယရလသအၐၑ}
+\patterngroup[name="cons"]{ကခဂဃငစဆဇဈဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဟဠဿၐၑ}
+\patterngroup[name="conswide"]{ကဃဆဉညဏတထဘယလသဟအဿ}
+\patterngroup[name="consnarrow"]{ခဂငစဇဋဌဍဎဒဓနပဖဗမရဟၐၑ}
+\patterngroup[name="consmed"]{ကခဂဃငစဆဇဈဉညဋဌဍဎတထဒဓနပဖဗဘမယရလဝသဟဠအဿၐၑ}
 
 
 % Marks
@@ -35,6 +35,10 @@
 % \section{Consonants with subjoined}
 \pattern[heading=Wide consonants with subjoined,chars="@,#",reps="group_conswide,group_consmed",format="table"]{@္#}
 \pattern[heading=Narrow consonants with subjoined,chars="@,#",reps="group_consnarrow,group_consmed",format="table"]{@္#}
+
+\pattern[heading=GHA with two subjoined,chars="@,#",reps="group_consmed,group_consmed",format="table"]{ဃ္@္#}
+\pattern[heading=NGA with two subjoined,chars="@,#",reps="group_consmed,group_consmed",format="table"]{င္@္#}
+\pattern[heading=RA with two subjoined,chars="@,#",reps="group_consmed,group_consmed",format="table"]{ရ္@္#}
 
 % \section{Consonants with diacritics}
 \pattern[heading=Wide consonants with vowels,chars="@,#",reps="group_conswide,group_vowel",format="table"]{@#}
