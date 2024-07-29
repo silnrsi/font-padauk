@@ -6,12 +6,12 @@
   <anchor x="-243" y="-53" name="_BS"/>
   <anchor x="-243" y="-53" name="_BSM"/>
   <outline>
-    <component base="u1002.sml"/>
+    <component base="u1050.sml" yScale="-1" yOffset="-459"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.99,0.62,0.11,1</string>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>
