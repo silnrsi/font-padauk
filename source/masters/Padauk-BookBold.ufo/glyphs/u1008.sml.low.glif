@@ -6,10 +6,20 @@
   <anchor x="-238" y="-53" name="_BS"/>
   <anchor x="-238" y="-53" name="_BSM"/>
   <outline>
-    <component base="u1005.sml"/>
+    <component base="u1005.sml" yOffset="-390"/>
+    <contour>
+      <point x="89" y="-773" type="line"/>
+      <point x="89" y="444" type="line"/>
+      <point x="-25" y="444" type="line"/>
+      <point x="-25" y="-626" type="line"/>
+      <point x="-112" y="-601" type="line"/>
+      <point x="-194" y="-700" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
       <key>public.markColor</key>
       <string>0.99,0.62,0.11,1</string>
     </dict>

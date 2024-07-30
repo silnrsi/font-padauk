@@ -6,7 +6,7 @@
   <anchor x="-188" y="-53" name="_BS"/>
   <anchor x="-188" y="-53" name="_BSM"/>
   <outline>
-    <component base="u100B.sml"/>
+    <component base="u1009.sml" xScale="-1" xOffset="-549"/>
   </outline>
   <lib>
     <dict>

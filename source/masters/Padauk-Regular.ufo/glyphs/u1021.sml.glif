@@ -9,10 +9,49 @@
   <anchor x="-395" y="-114" name="_BS"/>
   <anchor x="-395" y="-114" name="_BSM"/>
   <outline>
-    <component base="u1000.sml"/>
+    <component base="u1012.sml" xOffset="-300"/>
+    <contour>
+      <point x="-245" y="-358"/>
+      <point x="-193" y="-293"/>
+      <point x="-193" y="-228" type="curve" smooth="yes"/>
+      <point x="-193" y="-153"/>
+      <point x="-256" y="-101"/>
+      <point x="-328" y="-101" type="curve" smooth="yes"/>
+      <point x="-394" y="-101"/>
+      <point x="-425" y="-134"/>
+      <point x="-450" y="-160" type="curve"/>
+      <point x="-415" y="-196" type="line"/>
+      <point x="-399" y="-180"/>
+      <point x="-377" y="-152"/>
+      <point x="-329" y="-152" type="curve" smooth="yes"/>
+      <point x="-275" y="-152"/>
+      <point x="-245" y="-189"/>
+      <point x="-245" y="-229" type="curve" smooth="yes"/>
+      <point x="-245" y="-274"/>
+      <point x="-283" y="-312"/>
+      <point x="-331" y="-307" type="curve"/>
+      <point x="-319" y="-285"/>
+      <point x="-290" y="-257"/>
+      <point x="-247" y="-257" type="curve" smooth="yes"/>
+      <point x="-237" y="-257"/>
+      <point x="-227" y="-258"/>
+      <point x="-217" y="-261" type="curve"/>
+      <point x="-219" y="-208" type="line"/>
+      <point x="-229" y="-205"/>
+      <point x="-239" y="-204"/>
+      <point x="-249" y="-204" type="curve" smooth="yes"/>
+      <point x="-319" y="-204"/>
+      <point x="-381" y="-265"/>
+      <point x="-396" y="-336" type="curve"/>
+      <point x="-374" y="-351"/>
+      <point x="-348" y="-358"/>
+      <point x="-323" y="-358" type="curve" smooth="yes"/>
+    </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
       <key>public.markColor</key>
       <string>0.99,0.62,0.11,1</string>
     </dict>

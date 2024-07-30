@@ -7,9 +7,19 @@
   <anchor x="-238" y="-53" name="_BSM"/>
   <outline>
     <component base="u1005.sml"/>
+    <contour>
+      <point x="89" y="-383" type="line"/>
+      <point x="89" y="444" type="line"/>
+      <point x="-25" y="444" type="line"/>
+      <point x="-25" y="-236" type="line"/>
+      <point x="-112" y="-211" type="line"/>
+      <point x="-194" y="-310" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
       <key>public.markColor</key>
       <string>0.99,0.62,0.11,1</string>
     </dict>

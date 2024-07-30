@@ -6,7 +6,59 @@
   <anchor x="-239" y="-53" name="_BS"/>
   <anchor x="-239" y="-53" name="_BSM"/>
   <outline>
-    <component base="u1002.sml"/>
+    <contour>
+      <point x="-238" y="-359" type="curve" smooth="yes"/>
+      <point x="-174" y="-359"/>
+      <point x="-109" y="-316"/>
+      <point x="-109" y="-227" type="curve" smooth="yes"/>
+      <point x="-109" y="-176"/>
+      <point x="-130" y="-133"/>
+      <point x="-162" y="-108" type="curve"/>
+      <point x="-200" y="-137" type="line"/>
+      <point x="-176" y="-159"/>
+      <point x="-160" y="-185"/>
+      <point x="-160" y="-227" type="curve" smooth="yes"/>
+      <point x="-160" y="-283"/>
+      <point x="-197" y="-309"/>
+      <point x="-235" y="-309" type="curve" smooth="yes"/>
+      <point x="-273" y="-309"/>
+      <point x="-312" y="-282"/>
+      <point x="-312" y="-237" type="curve" smooth="yes"/>
+      <point x="-312" y="-234"/>
+      <point x="-312" y="-231"/>
+      <point x="-309" y="-220" type="curve"/>
+      <point x="-340" y="-231" type="line"/>
+      <point x="-331" y="-234"/>
+      <point x="-323" y="-235"/>
+      <point x="-315" y="-235" type="curve" smooth="yes"/>
+      <point x="-273" y="-235"/>
+      <point x="-249" y="-202"/>
+      <point x="-249" y="-169" type="curve" smooth="yes"/>
+      <point x="-249" y="-138"/>
+      <point x="-272" y="-106"/>
+      <point x="-320" y="-106" type="curve" smooth="yes"/>
+      <point x="-322" y="-106"/>
+      <point x="-324" y="-106"/>
+      <point x="-325" y="-106" type="curve"/>
+      <point x="-325" y="-153" type="line"/>
+      <point x="-323" y="-153"/>
+      <point x="-322" y="-153"/>
+      <point x="-320" y="-153" type="curve" smooth="yes"/>
+      <point x="-307" y="-153"/>
+      <point x="-300" y="-162"/>
+      <point x="-300" y="-170" type="curve" smooth="yes"/>
+      <point x="-300" y="-178"/>
+      <point x="-307" y="-186"/>
+      <point x="-322" y="-186" type="curve" smooth="yes"/>
+      <point x="-332" y="-186"/>
+      <point x="-344" y="-185"/>
+      <point x="-356" y="-178" type="curve"/>
+      <point x="-363" y="-196"/>
+      <point x="-363" y="-232"/>
+      <point x="-363" y="-235" type="curve" smooth="yes"/>
+      <point x="-363" y="-317"/>
+      <point x="-301" y="-359"/>
+    </contour>
   </outline>
   <lib>
     <dict>

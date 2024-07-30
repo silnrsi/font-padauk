@@ -9,7 +9,46 @@
   <anchor x="514" y="-114" name="_BS"/>
   <anchor x="514" y="-114" name="_BSM"/>
   <outline>
-    <component base="u1006.sml"/>
+    <contour>
+      <point x="-396" y="-359" type="curve" smooth="yes"/>
+      <point x="-324" y="-359"/>
+      <point x="-264" y="-300"/>
+      <point x="-264" y="-227" type="curve" smooth="yes"/>
+      <point x="-264" y="-154"/>
+      <point x="-323" y="-97"/>
+      <point x="-394" y="-97" type="curve" smooth="yes"/>
+      <point x="-448" y="-97"/>
+      <point x="-494" y="-129"/>
+      <point x="-514" y="-174" type="curve"/>
+      <point x="-470" y="-201" type="line"/>
+      <point x="-456" y="-170"/>
+      <point x="-430" y="-148"/>
+      <point x="-395" y="-148" type="curve" smooth="yes"/>
+      <point x="-349" y="-148"/>
+      <point x="-315" y="-187"/>
+      <point x="-315" y="-226" type="curve" smooth="yes"/>
+      <point x="-315" y="-267"/>
+      <point x="-343" y="-308"/>
+      <point x="-394" y="-308" type="curve" smooth="yes"/>
+      <point x="-414" y="-308"/>
+      <point x="-438" y="-301"/>
+      <point x="-456" y="-279" type="curve"/>
+      <point x="-446" y="-276"/>
+      <point x="-436" y="-275"/>
+      <point x="-427" y="-275" type="curve" smooth="yes"/>
+      <point x="-392" y="-275"/>
+      <point x="-362" y="-294"/>
+      <point x="-343" y="-327" type="curve"/>
+      <point x="-307" y="-288" type="line"/>
+      <point x="-332" y="-246"/>
+      <point x="-379" y="-225"/>
+      <point x="-428" y="-225" type="curve" smooth="yes"/>
+      <point x="-461" y="-225"/>
+      <point x="-494" y="-234"/>
+      <point x="-523" y="-253" type="curve"/>
+      <point x="-511" y="-315"/>
+      <point x="-457" y="-359"/>
+    </contour>
   </outline>
   <lib>
     <dict>
