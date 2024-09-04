@@ -4,9 +4,6 @@
 # Stop on any errors
 set -e
 
-echo "-----Update version number..."
-psfsetversion source/masters/Padauk-Regular.ufo "5.002" -l source/logs/setversionR.log
-
 echo "-----Check and normalize Regular..."
 # Do this before meta sync so we minimize problems in the BookBold
 # This normalization will also run check and fix routines

@@ -546,7 +546,6 @@ feature dist {
      lookup dist_103C_Cons;
      lookup shift_1032;
      lookup shift_for_103B;
-     lookup dist_sml;
     language dflt;
     language KHN;
     language KHT;
@@ -566,7 +565,6 @@ feature mark {
   lookup base_U_base;
   lookup base_Y_base;
   lookup mark_101Balt;
-  lookup dist_sml;
  script DFLT;
     language KSW;
       lookup mark_KSW_shift1037;
@@ -585,6 +583,7 @@ feature mkmk {
   lookup base_BSM_mark;
   lookup base_LM_mark;
   lookup shift_1037;
+  lookup base_SJ_mark;
  script DFLT;
 
  script mymr;
@@ -667,14 +666,14 @@ feature mkmk {
 @GDEF_Ligature = [uAA74 uAA75 uAA76 uAA78
     u109A u109A.dot u109B u109B.dot
     ];
-@GDEF_Mark = [u1000.med u1001.med u1002.med u1003.med u1004.med u1004.kinzi 
+@GDEF_Mark = [u1000.med u1000.sml u1001.med u1001.sml u1002.med u1002.sml u1003.med u1003.sml u1004.med u1004.sml u1004.kinzi 
 	u1004.kinzi_u102D u1004.kinzi_u102E u1004.kinzi_u1032 u1004.kinzi_u1033 
-	u1004.kinzi_u1036 u1004.kinzi_u103A u1004.kinzi_u102D_u1036 u1005.med 
-	u1006.med u1007.med u1009.med u1009.med.alt u100A.med u100B.med u100C.med u100D.med u100E.med 
-	u100F.med u1010.med u1010_u103D.med u1011.med u1012.med u1013.med 
-	u1014.med u1015.med u1016.med u1017.med u1018.med u1019.med u101A.med 
-	u101B.med u101B.kinzi u101B.kinzi_u102D u101B.kinzi_u102E 
-	u101B.kinzi_u103A u101C.med u101C.med_u103D u101E.med u1021.med 
+	u1004.kinzi_u1036 u1004.kinzi_u103A u1004.kinzi_u102D_u1036 u1005.med u1005.sml
+	u1006.med u1006.sml u1007.med u1007.sml u1009.med u1009.med.alt u1009.sml u100A.med u100A.sml u100B.med u100B.sml u100C.med u100C.sml u100D.med u100D.sml u100E.med u100E.sml
+	u100F.med u100F.sml u1010.med u1010_u103D.med u1010.sml u1011.med u1011.sml u1012.med u1012.sml u1013.med u1013.sml
+	u1014.med u1014.sml u1015.med u1015.sml u1016.med u1016.sml u1017.med u1017.sml u1018.med u1018.sml u1019.med u1019.sml u101A.med u101A.sml
+	u101B.med u101B.sml u101B.kinzi u101B.kinzi_u102D u101B.kinzi_u102E 
+	u101B.kinzi_u103A u101C.med u101C.sml u101C.med_u103D u101D.med u101D.sml u101E.med u101E.sml u101F.med u101F.sml u1020.med u1020.sml u1021.med u1021.sml
 	u102D u102D_u1036 u102D_uAA7C u102E u102E_uAA7C u102F.med u102F_u108D 
 	u1030.med u1030_u108D u1032 u1032_u102D u1033 u1034 u1035 u1036 u1037 
 	u1039 u103A u103A_u1036 
@@ -686,7 +685,8 @@ feature mkmk {
 	
 	u103D u103D_u103E u103D_u103E.small u103D_u108D u103D_u1060
 	u103E u103E.alt u103E_u102F u103E_u1030 u103E_u1060  
-	u1050.med u1051.med u1058 u1059 u105A.med u105C.med 
+	u103F.med u103F.sml
+	u1050.med u1050.sml u1051.med u1051.sml u1058 u1059 u105A.med u105C.med 
 	
 	u105E u105F u1060 u1071 u1072 u1073 u1074 u1082 
 	u1082_u108D u1085 u1086 u1086_uAA7C u108D u109D uA9E5 uA9E5_uAA7C 

@@ -3,8 +3,11 @@
   <anchor x="125" y="-131" name="BSM"/>
   <anchor x="-340" y="-131" name="LLM"/>
   <anchor x="20" y="-131" name="LM"/>
+  <anchor x="-156" y="-384" name="SJ"/>
+  <anchor x="-158" y="-131" name="_BD"/>
   <anchor x="-158" y="-131" name="_BS"/>
   <anchor x="-158" y="-131" name="_BSM"/>
+  <anchor x="-156" y="-73" name="_SJ"/>
   <outline>
     <component base="u1009.sml" xScale="-1" xOffset="-549"/>
   </outline>

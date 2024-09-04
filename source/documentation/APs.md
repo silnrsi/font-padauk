@@ -18,6 +18,7 @@ LL  | X  | X   | U+1037 to the left
 LLM | X  | X   | Attach U+1037 to a mark shifting left
 LM  | X  |     | Attach U+1037 to a mark (under or to right)
 R   |    | X   | Attach base to U+103C
+SJ  | X  |     | Stack small subjoined medials
 U   | X  | X   | Upper diacritics
 UL  | X  |     | Left limit on u103C.alt of upper diacritics
 Y   | X  | X   | Upper diacritics on right attaching (e.g. U+103B or spacing U+102F)

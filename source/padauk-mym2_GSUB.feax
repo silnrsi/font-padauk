@@ -27,6 +27,10 @@ do  let c = feaclass("cno_sml");
     let n = " ".join(x+".med" if x+".med" in feaclass("c_med") else x for x in c);
 { @cno_sml_med = [ $n ]; }
 
+@cConsNarTall = [u100C u100D u100D_u100E];
+
+@cOversizedSmlMedials = [u100C.med u1009.med u100A.med u100F.med u101B.med u1021.med u103F.med u1050.med u1051.med];
+
 include(../source/padauk-dflt_GSUB.feax)
 # -------------
 # GSUB lookups
@@ -376,6 +380,14 @@ lookup mym2_pres_u103Calt_tri {
 } mym2_pres_u103Calt_tri;
 
 lookup mym2_pres_u103Copen {
+    # If the base consonant is a tall, narrow consonant, a open wrap is needed.
+    sub [u103C u103C.alt.narr]' [@cConsNarTall] @cno_sml_med @BigUMark by u103C.alt.open.narr; 
+    sub [u103C u103C.alt.narr]' [@cConsNarTall] @cno_sml_med           by u103C.open.narr; 
+
+    # Some medials that are on the large size need an open wrap, even if a small form exists.
+    sub [u103C u103C.alt.narr]' [@cConsNar u1014.alt u1075] @cOversizedSmlMedials @BigUMark by u103C.alt.open.narr; 
+    sub [u103C u103C.alt.narr]' [@cConsNar u1014.alt u1075] @cOversizedSmlMedials           by u103C.open.narr;
+
     ignore sub [u103C u103C.alt.narr]' [@cConsNar u1014.alt u1075] @cno_sml_med @BigUMark;
     ignore sub [u103C u103C.alt.narr]' [@cConsNar u1014.alt u1075] @cno_sml_med;
     sub [u103C u103C.alt.narr]' [@cConsNar u1014.alt u1075] @cMed @BigUMark by u103C.alt.open.narr; 

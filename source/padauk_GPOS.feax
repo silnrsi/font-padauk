@@ -293,11 +293,6 @@ lookup kern_1031_closed {
     pos u1031 @group_closed -20;
 } kern_1031_closed;
 
-# If there are two small medials the second medial needs to be stacked below the first
-lookup dist_sml {
-    pos @c_sml @c_sml' <0 -200 0 0>;
-} dist_sml;
-
 #-----------------------------------------------------------------------
 # This section deals with 101B and some lower diacritics
 
@@ -346,6 +341,13 @@ do  for g = [u103E];
 lookup shift_1037 {
         pos u101B.long u103E' @_LM' lookup anchor_LM;
 } shift_1037;
+#-----------------------------------------------------------------------
+
+#-----------------------------------------------------------------------
+# Stack small medials
+lookup base_SJ_mark {
+    pos mark @SJ_MarkBase mark @_SJ;
+} base_SJ_mark;
 #-----------------------------------------------------------------------
 
 # Special mkmk lookup to correct some rules in the base_LM_mark lookup 

@@ -3,8 +3,10 @@
   <anchor x="556" y="-53" name="BSM"/>
   <anchor x="-585" y="-53" name="LLM"/>
   <anchor x="107" y="-53" name="LM"/>
+  <anchor x="-260" y="-412" name="SJ"/>
   <anchor x="-238" y="-53" name="_BS"/>
   <anchor x="-238" y="-53" name="_BSM"/>
+  <anchor x="-260" y="-54" name="_SJ"/>
   <outline>
     <contour>
       <point x="-197" y="-107" type="line"/>

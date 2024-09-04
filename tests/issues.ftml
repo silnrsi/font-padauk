@@ -267,11 +267,11 @@
       <comment>ja-ja-nya ra-ja-nya</comment>
       <string>\u1007\u1039\u1007\u1039\u1009 \u101b\u1039\u1007\u1039\u1009</string>
     </test>
-    <test label="missing U+101D in in sans like">
+    <test label="missing U+101D in sans like">
       <comment>wa</comment>
       <string>\u1000\u1039\u101d \u1017\u1039\u101f\u1039\u101d</string>
     </test>
-    <test label="moved U+1051 in in serif">
+    <test label="moved U+1051 in serif">
       <comment>ssa</comment>
       <string>\u1000\u1039\u1051 \u1017\u1039\u101f\u1039\u1051</string>
     </test>
@@ -291,7 +291,7 @@
     </test>
     <test label="U+1020">
       <comment>lla</comment>
-      <string>\u1000\u1039\u1020 \u1000\u1039\u1020\u1039\u1020</string>
+      <string>\u1000\u1039\u1020 \u1020\u1039\u1020 \u1000\u1039\u1020\u1039\u1020</string>
     </test>
   </testgroup>
 </ftml>

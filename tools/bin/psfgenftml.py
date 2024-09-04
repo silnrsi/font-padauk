@@ -208,6 +208,12 @@ def doit(args):
                 builder.render((c1,virama,c2), ftml, label=f'{c1:04X}', comment=builder.char(c1).basename)
             ftml.closeTest()
 
+        ftml.startTestGroup('Two consonants and a dependent consonant')
+        for c1 in consonant_like:
+            for c2 in consonant_like:
+                builder.render((c1,virama,c2,0x103C), ftml, label=f'{c1:04X}', comment=builder.char(c1).basename)
+            ftml.closeTest()
+
         for c0 in (0x1003, 0x1004, 0x101B):
             ftml.startTestGroup(f'Three consonants starting with {c0:04X} ' + builder.char(c0).basename)
             for c1 in consonant_medials:

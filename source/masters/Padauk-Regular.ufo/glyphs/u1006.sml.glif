@@ -4,10 +4,12 @@
   <anchor x="55" y="-114" name="BSM"/>
   <anchor x="-740" y="-114" name="LLM"/>
   <anchor x="-50" y="-114" name="LM"/>
+  <anchor x="-388" y="-384" name="SJ"/>
   <anchor x="-395" y="-114" name="_BD"/>
   <anchor x="-395" y="-114" name="_BDM"/>
   <anchor x="514" y="-114" name="_BS"/>
   <anchor x="514" y="-114" name="_BSM"/>
+  <anchor x="-388" y="-72" name="_SJ"/>
   <outline>
     <contour>
       <point x="-283" y="-359" type="curve" smooth="yes"/>

@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1008.sml" format="2">
+  <advance width="162"/>
   <anchor x="101" y="-114" name="BSM"/>
   <anchor x="-465" y="-114" name="LLM"/>
   <anchor x="-4" y="-114" name="LM"/>
+  <anchor x="0" y="495" name="U"/>
   <anchor x="-234" y="-114" name="_BS"/>
   <anchor x="-234" y="-114" name="_BSM"/>
   <outline>
-    <component base="u1005.sml"/>
+    <component base="u1005.sml" xOffset="71"/>
     <contour>
-      <point x="35" y="-363" type="line"/>
-      <point x="35" y="444" type="line"/>
-      <point x="-16" y="444" type="line"/>
-      <point x="-16" y="-297" type="line"/>
-      <point x="-132" y="-265" type="line"/>
-      <point x="-171" y="-309" type="line"/>
+      <point x="106" y="-363" type="line"/>
+      <point x="106" y="444" type="line"/>
+      <point x="55" y="444" type="line"/>
+      <point x="55" y="-297" type="line"/>
+      <point x="-61" y="-265" type="line"/>
+      <point x="-100" y="-309" type="line"/>
     </contour>
   </outline>
   <lib>
