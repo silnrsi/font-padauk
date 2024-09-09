@@ -280,8 +280,14 @@
       <comment>ends with virama-anusvara</comment>
       <string>\u102c\u101b\u1039\u1012\u1039\u1013\u1039\u1036 \u101b\u1039\u1012\u1039\u1013\u1039\u1036</string>
     </test>
-    <test label="kinzi not triple medial">
+    <test label="kinzi, double (not triple) medial, e">
       <string>\u1004\u103a\u1039\u1000\u1039\u1010\u1039\u1010\u1031 \u103a\u1039\u1000\u1039\u1010\u1039\u1010</string>
+    </test>
+    <test label="kinzi, single medial, e">
+      <string>\u1004\u103a\u1039\u1000\u1039\u1010\u1031</string>
+    </test>
+    <test label="kinzi, double medials, no e">
+      <string>\u1004\u103a\u1039\u1000\u1039\u1010\u1039\u1010</string>
     </test>
     <test label="medials with U+1008">
       <comment>ka-jha ka-ka-jha ka-jha-ka</comment>

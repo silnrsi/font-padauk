@@ -507,7 +507,7 @@ pass(pass_medial);
 
 
 cno_kinzi g103a gKill _ > _ _ _ ckinzi$1:(1 2 3) /
-    _ _ _ ^ (cCons, cNum, g104e)? [gKill cno_med]? opt4(cClusMedNot103b) opt2(cPreVowel) _;      // need opt4() here for opt()
+    _ _ _ ^ (cCons, cNum, g104e)? opt2(gKill cno_med) opt4(cClusMedNot103b) opt2(cPreVowel) _;      // need opt4() here for opt()
 (g1004 g105a) g103a gKill g103a _ > _ _ _ _ g1004_kinzi_103a:(1 2 3 a) /
     _ _ _ ^ (cCons, cNum, g104e)? [gKill cno_med]? _=a opt4(cClusMedNot103b) _;      (g1004 g105a) g103a gKill g103a _ > _ _ _ _ g1004_kinzi_103a:(1 2 3 a) /
     _ _ _ ^ (cCons, cNum, g104e)? [gKill cno_med]? opt4(cWaHa) _=a _;      // need opt4() here for opt()
@@ -758,7 +758,7 @@ Moves the -e vowel to the front. Leave cursor where it was (the rule will not re
 we have removed the -e).
 @enddoc */
 
-_ cPreVowel > @e:e _ / _ ^ c103c? cCons ckinzi? cmed? cMedLig? opt4(cClusDia) g103a? _=e;
+_ cPreVowel > @e:e _ / _ ^ c103c? cCons ckinzi? opt2(cmed) cMedLig? opt4(cClusDia) g103a? _=e;
 cStackLig cPreVowel > @e @s / _=s _=e;
 g101b_103b cPreVowel > @e @s / _=s _=e;
 
