@@ -313,6 +313,7 @@ feature abvs {
 feature blws {
  script mym2;
       lookup mym2_blws_miscLig;
+      lookup mym2_blws_tlaLig;
       lookup mym2_blws_103ELig;
       lookup mym2_blws_altTail;
       lookup mym2_blws_raLong;
@@ -373,6 +374,7 @@ feature rlig {
       lookup mym2_abvs_redupLig;
       lookup mym2_abvs_redupLig2;
       lookup mym2_blws_miscLig;
+      lookup mym2_blws_tlaLig;
       lookup mym2_blws_103ELig;
       lookup mym2_blws_altTail;
       lookup mym2_blws_raLong;
@@ -416,6 +418,7 @@ feature rlig {
       lookup mym2_abvs_redupLig;
       lookup mym2_abvs_redupLig2;
       lookup mym2_blws_miscLig;
+      lookup mym2_blws_tlaLig;
       lookup mym2_blws_103ELig;
       lookup mym2_blws_altTail;
       lookup mym2_blws_raLong;
@@ -674,7 +677,7 @@ feature mkmk {
 	u1014.med u1014.sml u1015.med u1015.sml u1016.med u1016.sml u1017.med u1017.sml u1018.med u1018.sml u1019.med u1019.sml u101A.med u101A.sml
 	u101B.med u101B.sml u101B.kinzi u101B.kinzi_u102D u101B.kinzi_u102E 
 	u101B.kinzi_u103A u101C.med u101C.sml u101C.med_u103D u101D.med u101D.sml u101E.med u101E.sml u101F.med u101F.sml u1020.med u1020.sml u1021.med u1021.sml
-	u102D u102D_u1036 u102D_uAA7C u102E u102E_uAA7C u102F.med u102F_u108D 
+	u102D u102D_u1036 u102D_uAA7C u102E u102E_uAA7C u103A_uAA7C u102F.med u102F_u108D 
 	u1030.med u1030_u108D u1032 u1032_u102D u1033 u1034 u1035 u1036 u1037 
 	u1039 u103A u103A_u1036 
 	

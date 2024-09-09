@@ -593,6 +593,7 @@
     <string>u103A</string>
     <string>u103A_u1036</string>
     <string>u103A_uAA70</string>
+    <string>u103A_uAA7C</string>
     <string>u103B</string>
     <string>u103B_u103D</string>
     <string>u103B_u103D.tri</string>
@@ -1505,6 +1506,8 @@
     <string>uni103A1036</string>
     <key>u103A_uAA70</key>
     <string>uni103AAA70</string>
+    <key>u103A_uAA7C</key>
+    <string>uni103AAA7C</string>
     <key>u103B</key>
     <string>uni103B</string>
     <key>u103B_u103D</key>

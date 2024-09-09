@@ -286,7 +286,7 @@ would want if the sequence: cons U+1036 U+102C were to occur.
 
 cUVowel = (g103a, g1004_kinzi, g1004_kinzi_102d, g1004_kinzi_102e, g1004_kinzi_1032, g1004_kinzi_1036, g1004_kinzi_103a, g101b_kinzi, g101b_kinzi_102d, g101b_kinzi_102e, g101b_kinzi_103a, g102d,
             g102d_1036, g102e, g102e_1036, g1032, g1032_102d, g1032_1036, g1033, g1034, g1035,
-            g1071, g1072, g1073, g1074, g1085, g1086){breakweight = -BW_NEVER};
+            g1071, g1072, g1073, g1074, g1085, g1086, ga9e5){breakweight = -BW_NEVER};
 cUSpace = (g1032, g1032_102d, g103a, g102d, g102e, g1004_kinzi_102e, g1004_kinzi_102d, g1004_kinzi,
             g1004_kinzi_1036, g1004_kinzi_103a, g101b_kinzi, g101b_kinzi_102d, g101b_kinzi_102e, g101b_kinzi_103a, g1032, g1033, g1034, g1035, g1071, g1072, g1073, g1074,
             g1085);
@@ -295,8 +295,8 @@ cNgaUVowel = (g1004_kinzi_102e, g1004_kinzi_102d, g1004_kinzi_1032, g1004_kinzi_
 cUTakesMa = (g102d, g102e, g1032, g1004_kinzi);
 cUWithMa = (g102d_1036, g102e_1036, g1032_1036, g1004_kinzi_1036);
 c1036 = (g1036, g1004_kinzi_1036, g102d_1036, g102e_1036, g1032_1036, g103a_1036);
-cUVowelBar = (ga9e5, g102d, g102e, g1086);
-cBarUVowel = (ga9e5_aa7c, g102d_aa7c, g102e_aa7c, g1086_aa7c);
+cUVowelBar = (ga9e5, g102d, g102e, g103a, g1086);
+cBarUVowel = (ga9e5_aa7c, g102d_aa7c, g102e_aa7c, g103a_aa7c, g1086_aa7c);
 
 /* @doc
 Create a general below diacritic class consisting of single and double width below diacritics.

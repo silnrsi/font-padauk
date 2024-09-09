@@ -171,6 +171,34 @@
       <comment>faTaiLaing</comment>
       <string>\uA9E8</string>
     </test>
+    <test label="U+AA65 U+1030">
+      <comment>bug in gr</comment>
+      <string>\uAA65\u1030</string>
+    </test>
+    <test label="U+1004 with 103A,AA7C 102D,AA7C 102E,AA7C 1086,AA7C A9E5,AA7C">
+      <comment>tone on left</comment>
+      <string>\u1004\u103A\uAA7C \u1004\u102D\uAA7C \u1004\u102E\uAA7C \u1004\u1086\uAA7C \u1004\uA9E5\uAA7C</string>
+    </test>
+    <test label="U+1077 U+A9E5 U+102F">
+      <comment>bug in gr</comment>
+      <string>\u1077\uA9E5\u102F</string>
+    </test>
+    <test label="U+AA65 U+1030 U+108D">
+      <comment>bug in gr</comment>
+      <string>\uAA65\u1030\u108D</string>
+    </test>
+    <test label="U+AA65 U+1030 U+AA7C">
+      <comment>bug in gr</comment>
+      <string>\uAA65\u1030\uAA7C</string>
+    </test>
+    <test label="U+AA65 U+1082 (U+A9E5) U+108D">
+      <comment>tone on left</comment>
+      <string>\uAA65\u1082\u108D \uAA65\u1082\uA9E5\u108D</string>
+    </test>
+    <test label="U+AA65 U+1083 U+1037 U+1000">
+      <comment>avoid clash with tone</comment>
+      <string>\uAA65\u1083\u1037\u1000</string>
+    </test>
   </testgroup>
   <testgroup label="#46 AnontaMon kicked up a few bugs??">
     <test label="U+1000">

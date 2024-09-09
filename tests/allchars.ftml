@@ -448,6 +448,11 @@ U+AA70">
       <comment>u103A uAA70</comment>
       <string>\u000A95\u00103A\u00AA70</string>
     </test>
+    <test label="U+103A
+U+AA7C">
+      <comment>u103A uAA7C</comment>
+      <string>\u000A95\u00103A\u00AA7C</string>
+    </test>
     <test label="U+103B
 U+103D">
       <comment>u103B u103D</comment>

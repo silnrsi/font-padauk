@@ -177,6 +177,7 @@ lookup mym2_pref_signsLig {
     sub u102D u1036  by u102D_u1036;
     sub u102D uAA7C  by u102D_uAA7C; # Tai Laing (stays decomposed?)
     sub u102E uAA7C  by u102E_uAA7C; # Tai Laing
+    sub u103A uAA7C  by u103A_uAA7C; # Tai Laing
     sub u1086 uAA7C  by u1086_uAA7C;
     sub uA9E5 uAA7C  by uA9E5_uAA7C;
     sub u102D u1032  by u1032_u102D;
@@ -201,6 +202,7 @@ lookup DFLT_signsLig {
     sub u102D u1036  by u102D_u1036;
     sub u102D uAA7C  by u102D_uAA7C; # Tai Laing (stays decomposed?)
     sub u102E uAA7C  by u102E_uAA7C; # Tai Laing
+    sub u103A uAA7C  by u103A_uAA7C; # Tai Laing
     sub u1086 uAA7C  by u1086_uAA7C;
     sub uA9E5 uAA7C  by uA9E5_uAA7C;
     sub u102D u1032  by u1032_u102D;
@@ -464,6 +466,12 @@ lookup mym2_blws_miscLig {
     sub u1086 uAA7C  by u1086_uAA7C; # Tai Laing (abvs, but works here too)
     sub uA9E5 uAA7C  by uA9E5_uAA7C; # Tai Laing (abvs, but works here too)
 } mym2_blws_miscLig;
+
+lookup mym2_blws_tlaLig {
+  lookupflag UseMarkFilteringSet @_BSM;
+    sub u103D u108D  by u103D_u108D;
+    sub u1082 u108D  by u1082_u108D;
+} mym2_blws_tlaLig;
 
 @class103ELig = [u102F.med u1030.med u103D.tri u103E u103E.slanth u103E.slantr];
 lookup mym2_blws_103ELig {
