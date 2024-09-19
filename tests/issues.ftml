@@ -195,9 +195,13 @@
       <comment>tone on left</comment>
       <string>\uAA65\u1082\u108D \uAA65\u1082\uA9E5\u108D</string>
     </test>
-    <test label="U+AA65 U+1083 U+1037 U+1000">
+    <test label="U+AA65 U+1083 U+1037">
       <comment>avoid clash with tone</comment>
-      <string>\uAA65\u1083\u1037\u1000</string>
+      <string>\uAA65\u1083\u1037\u1000 \uAA65\u1083\u1037\u100A</string>
+    </test>
+    <test label="U+101B U+1037">
+      <comment>also with ra</comment>
+      <string>\u101B\u1037\u1000 \u101B\u1037\u100A</string>
     </test>
   </testgroup>
   <testgroup label="#46 AnontaMon kicked up a few bugs??">
@@ -326,6 +330,65 @@
     <test label="U+1020">
       <comment>lla</comment>
       <string>\u1000\u1039\u1020 \u1020\u1039\u1020 \u1000\u1039\u1020\u1039\u1020</string>
+    </test>
+    <test label="ra with medial, lower dot, ka">
+      <string>\u1021\u101b\u1039\u1011\u1037\u1000 \u1012\u1012\u101b\u1039\u1051\u1037\u1000 \u1010\u1032\u101b\u1039\u1007\u1037\u1000</string>
+    </test>
+    <test label="ra with medial, lower dot, ya">
+      <string>\u1021\u101b\u1039\u1011\u1037\u100A \u1012\u1012\u101b\u1039\u1051\u1037\u100A \u1010\u1032\u101b\u1039\u1007\u1037\u100A</string>
+    </test>
+    <test label="re-order e over medials">
+      <string>\u1000\u1039\u1050\u1039\u101e\u1031\u1015\u103b</string>
+    </test>
+    <test label="101B, 1039">
+      <string>\u101b\u1039</string>
+    </test>
+    <test label="101B, lower vowels (102F and 1030), lower dot">
+      <comment>short ra</comment>
+      <string>\u101b\u102f\u1037\u1000 \u101b\u1030\u1037\u1000 \u101b\u102f\u1037\u100A \u101b\u1030\u1037\u100A</string>
+    </test>
+    <test label="1020, medial ha (103E), lower dot">
+      <comment>ligature</comment>
+      <string>\u1020\u103e\u1037\u1000 \u1020\u103e\u1037\u100A</string>
+    </test>
+    <test label="101B, medial ha (103E), lower dot">
+      <comment>long ra</comment>
+      <string>\u101b\u103e\u1037\u1000 \u101b\u103e\u1037\u100A</string>
+    </test>
+    <test label="101B, medial ha (103E), lower vowels (102F and 1030), lower dot">
+      <comment>short ra, some have long ra with uu-matra/comment</comment>
+      <string>\u101b\u103e\u102f\u1037\u1000 \u101b\u103e\u1030\u1037\u1000 \u101b\u103e\u102f\u1037\u100A \u101b\u103e\u1030\u1037\u100A</string>
+    </test>
+    <test label="101B, medial wa-ha (103D-103E), anusvara, lower dot">
+      <comment>short ra but ra if medial is not touching</comment>
+      <string>\u101b\u103d\u103e\u1036\u1037\u1000 \u101b\u103d\u103e\u1036\u1037\u100A</string>
+    </test>
+    <test label="101B, medial ya (103B), anusvara, lower dot">
+      <comment>short ra</comment>
+      <string>\u101b\u103b\u1036\u1037\u1000 \u101b\u103b\u1036\u1037\u100A</string>
+    </test>
+    <test label="101B, medial wa (103D), anusvara, lower dot">
+      <comment>ra</comment>
+      <string>\u101b\u103d\u1036\u1037\u1000 \u101b\u103d\u1036\u1037\u100A</string>
+    </test>
+    <test label="101B, medial wa (103D), imatra, lower vowels (102F and 1030), lower dot">
+      <comment>long ra</comment>
+      <string>\u101b\u103d\u102d\u102f\u1037\u1000 \u101b\u103d\u102d\u1030\u1037\u1000 \u101b\u103d\u102d\u102f\u1037\u100A \u101b\u103d\u102d\u1030\u1037\u100A</string>
+    </test>
+    <test label="101B, medial wa (103D), lower vowels (102F and 1030), lower dot">
+      <comment>long ra</comment>
+      <string>\u101b\u103d\u102f\u1037\u1000 \u101b\u103d\u1030\u1037\u1000 \u101b\u103d\u102f\u1037\u100A \u101b\u103d\u1030\u1037\u100A</string>
+    </test>
+    <test label="101B, medial ka (1000), imatra, lower vowels (102F and 1030), lower dot">
+      <comment>long ra</comment>
+      <string>\u101b\u1039\u1000\u102d\u102f\u1037\u1000 \u101b\u1039\u1000\u102d\u1030\u1037\u1000 \u101b\u1039\u1000\u102d\u102f\u1037\u100A \u101b\u1039\u1000\u102d\u1030\u1037\u100A</string>
+    </test>
+    <test label="101B, medial ka (1000), lower vowels (102F and 1030), lower dot">
+      <comment>long ra</comment>
+      <string>\u101b\u1039\u1000\u102f\u1037\u1000 \u101b\u1039\u1000\u1030\u1037\u1000 \u101b\u1039\u1000\u102f\u1037\u100A \u101b\u1039\u1000\u1030\u1037\u100A</string>
+    </test>
+    <test label="101B, medial (1000, 1001, 1050), open wrap (103C)">
+      <string>\u101b\u1039\u1000\u103c \u101b\u1039\u1001\u103c \u101b\u1039\u1050\u103c</string>
     </test>
   </testgroup>
 </ftml>
