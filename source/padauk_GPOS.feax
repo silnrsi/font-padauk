@@ -301,11 +301,10 @@ lookup kern_1031_closed {
 # Adding RSB to ensure that the next *base* glyph is spaced correctly
 lookup mark_101Balt {
     pos u101B.alt u103E_u1030' lookup base_BD_base;
-#    pos u101B.alt' <100 0 100 0> u103E_u1030' <-90 0 0 0>;
-#    pos u101B.alt' <88 0 88 0>   u103E_u102F' <-78 0 0 0>;
-#    pos u101B.alt' <53 0 53 0>   u1030.med'   <-43 0 0 0>;
-#    pos u101B.alt' <12 0 12 0>   u102F.med'   <-2 0 0 0>;
-    
+    pos u101B.alt' <100 0 100 0> u103E_u1030' <-90 0 0 0>;
+    pos u101B.alt' <88 0 88 0>   u103E_u102F' <-78 0 0 0>;
+    pos u101B.alt' <53 0 53 0>   u1030.med'   <-43 0 0 0>;
+    pos u101B.alt' <12 0 12 0>   u102F.med'   <-2 0 0 0>;
 #    pos u101B.alt' <12 0 12 0>   [u1032 u1036]' u102F.med' <-2 0 0 0>;
 } mark_101Balt;
 #-----------------------------------------------------------------------
