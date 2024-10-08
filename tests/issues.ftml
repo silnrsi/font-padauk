@@ -343,9 +343,13 @@
     <test label="101B, 1039">
       <string>\u101b\u1039</string>
     </test>
+    <test label="101B, lower vowels (102F and 1030)">
+      <comment>short ra</comment>
+      <string>\u1006\u101b\u102f\u1000 \u1006\u101b\u1030\u1000 \u1006\u101b\u102f\u100A \u1006\u101b\u1030\u100A</string>
+    </test>
     <test label="101B, lower vowels (102F and 1030), lower dot">
       <comment>short ra</comment>
-      <string>\u101b\u102f\u1037\u1000 \u101b\u1030\u1037\u1000 \u101b\u102f\u1037\u100A \u101b\u1030\u1037\u100A</string>
+      <string>\u1006\u101b\u102f\u1037\u1000 \u1006\u101b\u1030\u1037\u1000 \u1006\u101b\u102f\u1037\u100A \u1006\u101b\u1030\u1037\u100A</string>
     </test>
     <test label="1020, medial ha (103E), lower dot">
       <comment>ligature</comment>
@@ -353,11 +357,15 @@
     </test>
     <test label="101B, medial ha (103E), lower dot">
       <comment>long ra</comment>
-      <string>\u101b\u103e\u1037\u1000 \u101b\u103e\u1037\u100A</string>
+      <string>\u1006\u101b\u103e\u1037\u1000 \u1006\u101b\u103e\u1037\u100A</string>
+    </test>
+    <test label="101B, medial ha (103E), lower vowels (102F and 1030)">
+      <comment>short ra, some have long ra with uu-matra</comment>
+      <string>\u1006\u101b\u103e\u102f\u1000 \u1006\u101b\u103e\u1030\u1000 \u1006\u101b\u103e\u102f\u100A \u1006\u101b\u103e\u1030\u100A</string>
     </test>
     <test label="101B, medial ha (103E), lower vowels (102F and 1030), lower dot">
-      <comment>short ra, some have long ra with uu-matra/comment</comment>
-      <string>\u101b\u103e\u102f\u1037\u1000 \u101b\u103e\u1030\u1037\u1000 \u101b\u103e\u102f\u1037\u100A \u101b\u103e\u1030\u1037\u100A</string>
+      <comment>short ra, some have long ra with uu-matra</comment>
+      <string>\u1006\u101b\u103e\u102f\u1037\u1000 \u1006\u101b\u103e\u1030\u1037\u1000 \u1006\u101b\u103e\u102f\u1037\u100A \u1006\u101b\u103e\u1030\u1037\u100A</string>
     </test>
     <test label="101B, medial wa-ha (103D-103E), anusvara, lower dot">
       <comment>short ra but ra if medial is not touching</comment>
