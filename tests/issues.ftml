@@ -35,6 +35,10 @@
     <fontsrc label="NotoSansMyanmar">url(../references/NotoSansMyanmar-Regular.ttf)</fontsrc>
     <fontsrc label="NotoSerifMyanmar">url(../references/NotoSerifMyanmar-Regular.ttf)</fontsrc>
     -->
+    <styles>
+      <style lang="ksw" name="ksw"/>
+      <style feats="'cv05' 1" name="cv05_1"/>
+    </styles>
     <title>Issues</title>
   </head>
   <testgroup background="#f0f0f0" label="Rendering Check">
@@ -270,6 +274,54 @@
       <string>ဥက္ကဋ္ဌြဖစ်သည</string>
     </test>
   </testgroup>
+  <testgroup label="#50 Dot positions for left shifted (ksw)">
+    <test label="documentation">
+      <string>\u101b\u1037 \u101b\u1036\u1037 \u1000\u103e\u1037</string>
+    </test>
+    <test label="documentation (ksw)" stylename="ksw">
+      <string>\u101b\u1037 \u101b\u1036\u1037 \u1000\u103e\u1037</string>
+    </test>
+    <test label="medial 1000 and 1037">
+      <comment>ka.med lower_dot</comment>
+      <string>\u1004\u1039\u1000\u1037 \u1003\u1039\u1000\u1037 \u101b\u1039\u1000\u1037</string>
+    </test>
+    <test label="medial 1000 and 1037 (ksw)" stylename="ksw">
+      <comment>ka.med lower_dot</comment>
+      <string>\u1004\u1039\u1000\u1037 \u1003\u1039\u1000\u1037 \u101b\u1039\u1000\u1037</string>
+    </test>
+    <test label="medial 1000 and 1037 (cv05)" stylename="cv05_1">
+      <comment>ka.med lower_dot</comment>
+      <string>\u1004\u1039\u1000\u1037 \u1003\u1039\u1000\u1037 \u101b\u1039\u1000\u1037</string>
+    </test>
+    <test label="medial 1001 and 1037">
+      <comment>kha.med lower_dot</comment>
+      <string>\u1004\u1039\u1001\u1037 \u1003\u1039\u1001\u1037 \u101b\u1039\u1001\u1037</string>
+    </test>
+    <test label="medial 1001 and 1037 (ksw)" stylename="ksw">
+      <comment>kha.med lower_dot</comment>
+      <string>\u1004\u1039\u1001\u1037 \u1003\u1039\u1001\u1037 \u101b\u1039\u1001\u1037</string>
+    </test>
+    <test label="medial 1011 and 1037">
+      <comment>tha.med lower_dot</comment>
+      <string>\u1004\u1039\u1011\u1037 \u1003\u1039\u1011\u1037 \u101b\u1039\u1011\u1037</string>
+    </test>
+    <test label="medial 1011 and 1037 (ksw)" stylename="ksw">
+      <comment>tha.med lower_dot</comment>
+      <string>\u1004\u1039\u1011\u1037 \u1003\u1039\u1011\u1037 \u101b\u1039\u1011\u1037</string>
+    </test>
+    <test label="medial 1011 and 1037 (cv05)" stylename="cv05_1">
+      <comment>tha.med lower_dot</comment>
+      <string>\u1004\u1039\u1011\u1037 \u1003\u1039\u1011\u1037 \u101b\u1039\u1011\u1037</string>
+    </test>
+    <test label="medial 1016 and 1037">
+      <comment>pha.med lower_dot</comment>
+      <string>\u1004\u1039\u1016\u1037 \u1003\u1039\u1016\u1037 \u101b\u1039\u1016\u1037</string>
+    </test>
+    <test label="medial 1016 and 1037 (ksw)" stylename="ksw">
+      <comment>pha.med lower_dot</comment>
+      <string>\u1004\u1039\u1016\u1037 \u1003\u1039\u1016\u1037 \u101b\u1039\u1016\u1037</string>
+    </test>
+  </testgroup>
   <testgroup label="#52 Burmese script marking character placement problem with Harfbuzz / Speedata">
     <test label="word">
       <string>သာရ္ဒ္ဓံ</string>
@@ -338,8 +390,14 @@
     <test label="ra with medial, lower dot, ka">
       <string>\u1021\u101b\u1039\u1011\u1037\u1000 \u1012\u1012\u101b\u1039\u1051\u1037\u1000 \u1010\u1032\u101b\u1039\u1007\u1037\u1000</string>
     </test>
-    <test label="ra with medial, lower dot, ya">
+    <test label="ra with medial, lower dot, nnya">
       <string>\u1021\u101b\u1039\u1011\u1037\u100A \u1012\u1012\u101b\u1039\u1051\u1037\u100A \u1010\u1032\u101b\u1039\u1007\u1037\u100A</string>
+    </test>
+    <test label="ka with medial, lower dot, ka">
+      <string>\u1021\u1000\u1039\u1011\u1037\u1000 \u1012\u1012\u1000\u1039\u1051\u1037\u1000 \u1010\u1032\u1000\u1039\u1007\u1037\u1000</string>
+    </test>
+    <test label="ka with medial, lower dot, nnya">
+      <string>\u1021\u1000\u1039\u1011\u1037\u100A \u1012\u1012\u1000\u1039\u1051\u1037\u100A \u1010\u1032\u1000\u1039\u1007\u1037\u100A</string>
     </test>
     <test label="re-order e over medials">
       <string>\u1000\u1039\u1050\u1039\u101e\u1031\u1015\u103b</string>
@@ -373,31 +431,31 @@
     </test>
     <test label="101B, medial wa-ha (103D-103E), anusvara, lower dot">
       <comment>short ra but ra if medial is not touching</comment>
-      <string>\u101b\u103d\u103e\u1036\u1037\u1000 \u101b\u103d\u103e\u1036\u1037\u100A</string>
+      <string>\u1006\u101b\u103d\u103e\u1036\u1037\u1000 \u1006\u101b\u103d\u103e\u1036\u1037\u100A</string>
     </test>
     <test label="101B, medial ya (103B), anusvara, lower dot">
       <comment>short ra</comment>
-      <string>\u101b\u103b\u1036\u1037\u1000 \u101b\u103b\u1036\u1037\u100A</string>
+      <string>\u1006\u101b\u103b\u1036\u1037\u1000 \u1006\u101b\u103b\u1036\u1037\u100A</string>
     </test>
     <test label="101B, medial wa (103D), anusvara, lower dot">
       <comment>ra</comment>
-      <string>\u101b\u103d\u1036\u1037\u1000 \u101b\u103d\u1036\u1037\u100A</string>
+      <string>\u1006\u101b\u103d\u1036\u1037\u1000 \u1006\u101b\u103d\u1036\u1037\u100A</string>
     </test>
     <test label="101B, medial wa (103D), imatra, lower vowels (102F and 1030), lower dot">
       <comment>long ra</comment>
-      <string>\u101b\u103d\u102d\u102f\u1037\u1000 \u101b\u103d\u102d\u1030\u1037\u1000 \u101b\u103d\u102d\u102f\u1037\u100A \u101b\u103d\u102d\u1030\u1037\u100A</string>
+      <string>\u1006\u101b\u103d\u102d\u102f\u1037\u1000 \u1006\u101b\u103d\u102d\u1030\u1037\u1000 \u1006\u101b\u103d\u102d\u102f\u1037\u100A \u1006\u101b\u103d\u102d\u1030\u1037\u100A</string>
     </test>
     <test label="101B, medial wa (103D), lower vowels (102F and 1030), lower dot">
       <comment>long ra</comment>
-      <string>\u101b\u103d\u102f\u1037\u1000 \u101b\u103d\u1030\u1037\u1000 \u101b\u103d\u102f\u1037\u100A \u101b\u103d\u1030\u1037\u100A</string>
+      <string>\u1006\u101b\u103d\u102f\u1037\u1000 \u1006\u101b\u103d\u1030\u1037\u1000 \u1006\u101b\u103d\u102f\u1037\u100A \u1006\u101b\u103d\u1030\u1037\u100A</string>
     </test>
     <test label="101B, medial ka (1000), imatra, lower vowels (102F and 1030), lower dot">
       <comment>long ra</comment>
-      <string>\u101b\u1039\u1000\u102d\u102f\u1037\u1000 \u101b\u1039\u1000\u102d\u1030\u1037\u1000 \u101b\u1039\u1000\u102d\u102f\u1037\u100A \u101b\u1039\u1000\u102d\u1030\u1037\u100A</string>
+      <string>\u1006\u101b\u1039\u1000\u102d\u102f\u1037\u1000 \u1006\u101b\u1039\u1000\u102d\u1030\u1037\u1000 \u1006\u101b\u1039\u1000\u102d\u102f\u1037\u100A \u1006\u101b\u1039\u1000\u102d\u1030\u1037\u100A</string>
     </test>
     <test label="101B, medial ka (1000), lower vowels (102F and 1030), lower dot">
       <comment>long ra</comment>
-      <string>\u101b\u1039\u1000\u102f\u1037\u1000 \u101b\u1039\u1000\u1030\u1037\u1000 \u101b\u1039\u1000\u102f\u1037\u100A \u101b\u1039\u1000\u1030\u1037\u100A</string>
+      <string>\u1006\u101b\u1039\u1000\u102f\u1037\u1000 \u1006\u101b\u1039\u1000\u1030\u1037\u1000 \u1006\u101b\u1039\u1000\u102f\u1037\u100A \u1006\u101b\u1039\u1000\u1030\u1037\u100A</string>
     </test>
     <test label="101B, medial (1000, 1001, 1050), open wrap (103C)">
       <string>\u101b\u1039\u1000\u103c \u101b\u1039\u1001\u103c \u101b\u1039\u1050\u103c</string>

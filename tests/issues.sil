@@ -1,6 +1,9 @@
 \begin[class=fontproof]{document}
 \bidi-off
 
+\patterngroup[name="conswide"]{ကဃဆဉညဏတထဘယလသဟအဿဟ}
+\patterngroup[name="consnarrow"]{ခဂငစဇဋဌဍဎဒဓနပဖဗမရဝဠၐၑ}
+\patterngroup[name="consmed"]{ကခဂဃငစဆဇဈဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဟဠအဿၐၑ}
 
 %%% Padauk issues
 

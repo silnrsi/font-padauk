@@ -584,7 +584,7 @@ feature mark {
 feature mkmk {
   lookup base_BDM_mark;
   lookup base_BSM_mark;
-  lookup base_LM_mark;
+  lookup base_LM_mark_context;
   lookup shift_1037;
   lookup base_SJ_mark;
  script DFLT;

@@ -2,8 +2,8 @@
 <glyph name="u1011.sml" format="2">
   <anchor x="-395" y="-114" name="BDM"/>
   <anchor x="55" y="-114" name="BSM"/>
-  <anchor x="-50" y="-114" name="LLM"/>
-  <anchor x="-740" y="-114" name="LM"/>
+  <anchor x="-740" y="-114" name="LLM"/>
+  <anchor x="-50" y="-114" name="LM"/>
   <anchor x="-403" y="-384" name="SJ"/>
   <anchor x="-395" y="-114" name="_BD"/>
   <anchor x="-395" y="-114" name="_BDM"/>

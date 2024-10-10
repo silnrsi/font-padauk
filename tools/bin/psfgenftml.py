@@ -64,6 +64,8 @@ def doit(args):
     digits = [uid for uid in uids if builder.char(uid).general == 'Nd' and uid in block]
     punct = [uid for uid in uids if get_ucd(uid, 'gc').startswith('P')]
 
+    dot = 0x1037
+
     # Initialize FTML document:
     # Default name for test: AllChars or something based on the csvdata file:
     test = args.test or 'AllChars (NG)'
@@ -206,6 +208,7 @@ def doit(args):
         for c1 in consonant_like:
             for c2 in consonant_like:
                 builder.render((c1,virama,c2), ftml, label=f'{c1:04X}', comment=builder.char(c1).basename)
+                builder.render((c1,virama,c2,dot), ftml, label=f'{c1:04X}', comment=builder.char(c1).basename)
             ftml.closeTest()
 
         ftml.startTestGroup('Two consonants and a dependent consonant')

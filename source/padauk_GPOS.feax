@@ -187,11 +187,11 @@ lookup base_LM_mark {
     pos mark @LM_MarkBase mark @_LM;
 } base_LM_mark;
 
-@LLM_Filter = [@LLM_MarkBase @_LLM];
-lookup base_LLM_mark {
-    lookupflag UseMarkFilteringSet @LLM_Filter;
-    pos mark @LLM_MarkBase mark @_LLM;
-} base_LLM_mark;
+lookup base_LM_mark_context {
+    lookupflag UseMarkFilteringSet @LM_Filter;
+    ignore pos [u101B u101B.alt] @LM_MarkBase @_LM';
+    pos @LM_MarkBase @_LM' lookup base_LM_mark;
+} base_LM_mark_context;
 
 #-----------------------------------------------------------------------
 
@@ -369,6 +369,14 @@ do  for g = [u101B u103B u1061 u1066 u1066.slanth]; # base glyphs
         pos base $g <anchor $gx $gy> mark @_L;
     }
 } mark_KSW_shift1037;
+
+# The above lookup is for certain base glyphs. The following lookup is for lower diacritics.
+# The lookups need to be in this order in case there is a matched base glyph and a lower diacritic.
+@LLM_Filter = [@LLM_MarkBase @_LLM];
+lookup base_LLM_mark {
+    lookupflag UseMarkFilteringSet @LLM_Filter;
+    pos mark @LLM_MarkBase mark @_LLM;
+} base_LLM_mark;
 
 lookup shift_for_103B {
 do  for g = @cMed;
