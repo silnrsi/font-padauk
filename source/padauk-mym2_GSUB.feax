@@ -219,7 +219,6 @@ lookup DFLT_signsLig {
 
 lookup mym2_blwf_u1039med {
     sub u1039 @cno_med by @c_med;
-    sub u1039  u1020   by u1020.med.thai; # There is no corresponding "u1020.med" 
 } mym2_blwf_u1039med;
 
 
@@ -451,7 +450,7 @@ lookup mym2_blws_miscLig {
     sub u100F u100B.med  by u100F_u100B;
     sub u100F u100D.med  by u100F_u100D;
     sub u1010.med u103D  by u1010_u103D.med;
-    sub u1020 u1020  by u1020_u1020;
+    sub u1020 u1020.med  by u1020_u1020;
     sub u1020 u103E  by u1020_u103E;
     sub u102F.med u108D  by u102F_u108D;
     sub u1030.med u108D  by u1030_u108D; # Tai Laing

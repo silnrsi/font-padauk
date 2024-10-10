@@ -5,10 +5,10 @@
 %%%%% GROUPS
 
 % Consonants
-\patterngroup[name="cons"]{ကခဂဃငစဆဇဈဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဟဠ}
-\patterngroup[name="conswide"]{ကဃဆဏတထဘယလသဟအ}
-\patterngroup[name="consnarrow"]{ခဂငစဇဋဌဍဎဒဓနပဖဗမရ}
-\patterngroup[name="conssub"]{ကခဂဃငစဆဇဈညဋဌဍဎတထဒဓနပဖဗဘမယရလသအၐၑ}
+\patterngroup[name="cons"]{ကခဂဃငစဆဇဈဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဟဠဿၐၑ}
+\patterngroup[name="conswide"]{ကဃဆဉညဏတထဘယလသဟအဿဟ}
+\patterngroup[name="consnarrow"]{ခဂငစဇဋဌဍဎဒဓနပဖဗမရဝဠၐၑ}
+\patterngroup[name="conssub"]{ကခဂဃငစဆဇဈဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဟဠအဿၐၑ}
 
 \patterngroup[name="consMon"]{ကခဂဃၚစဆဇၛဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဟဠအၜၝ}
 \patterngroup[name="consMonsub"]{ကခဂဃၚစဆဇၛညဋဌဍဎဏတထဒဓနပဖဗဘမယရလသဠအၜ}

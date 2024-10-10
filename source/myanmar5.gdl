@@ -955,16 +955,13 @@ endif;
 
 if (thaimon == 1 || thaimon__thai == 1)
     cno_thai > cthai;
-    g1039 g1020 > g1020_med_thai:(1 2) _; // There is no corresponding "u1020.med" for character variant substitution
 else
     cthai > cno_thai;
-    g1020_med_thai  _  > g1039:1 g1020:1; // There is no corresponding "u1020.med" for character variant substitution
 endif;
 
 /* --- old code ---
 if (thaimon)
 cno_thai > cthai;
-g1039 g1020 > g1020_med_thai:(1 2) _; // There is no corresponding "u1020.med" for character variant substitution
 endif;
 */
 

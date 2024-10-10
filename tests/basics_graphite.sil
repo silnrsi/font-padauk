@@ -19,9 +19,9 @@
 %%%%% GROUPS
 % Consonants
 \patterngroup[name="cons"]{ကခဂဃငစဆဇဈဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဟဠဿၐၑ}
-\patterngroup[name="conswide"]{ကဃဆဉညဏတထဘယလသဟအဿ}
-\patterngroup[name="consnarrow"]{ခဂငစဇဋဌဍဎဒဓနပဖဗမရဟၐၑ}
-\patterngroup[name="consmed"]{ကခဂဃငစဆဇဈဉညဋဌဍဎတထဒဓနပဖဗဘမယရလဝသဟဠအဿၐၑ}
+\patterngroup[name="conswide"]{ကဃဆဉညဏတထဘယလသဟအဿဟ}
+\patterngroup[name="consnarrow"]{ခဂငစဇဋဌဍဎဒဓနပဖဗမရဝဠၐၑ}
+\patterngroup[name="consmed"]{ကခဂဃငစဆဇဈဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဟဠအဿၐၑ}
 
 
 % Marks
