@@ -485,7 +485,7 @@ markClass uAA7C <anchor -242 495> @_U;
 # baseClass [u107D uA9E3] <anchor 665 -53> @L;
 # baseClass u107E <anchor 407 -53> @L;
 # baseClass u1080.kham <anchor 651 -53> @L;
-# baseClass u1083 <anchor 449 35> @L;
+# baseClass u1083 <anchor 424 -53> @L;
 # baseClass u1090 <anchor 294 -15> @L;
 # baseClass [u1098 u1099] <anchor 302 -15> @L;
 # baseClass uA9E4 <anchor 671 -53> @L;
@@ -7297,7 +7297,7 @@ lookup guard_dot {
         pos u1066.slanth 82;
         pos u1066.slantr 82;
         pos u1081 103;
-        pos u1083 274;
+        pos u1083 249;
 
             pos u1000.med 269;
         pos u1000.med.aiph 269;
@@ -7803,7 +7803,7 @@ lookup dist_103C_Cons {
         pos base [u107D uA9E3] <anchor 665 -53> mark @_L;
         pos base u107E <anchor 407 -53> mark @_L;
         pos base u1080.kham <anchor 651 -53> mark @_L;
-        pos base u1083 <anchor 449 35> mark @_L;
+        pos base u1083 <anchor 424 -53> mark @_L;
         pos base u1090 <anchor 294 -15> mark @_L;
         pos base [u1098 u1099] <anchor 302 -15> mark @_L;
         pos base uA9E4 <anchor 671 -53> mark @_L;
