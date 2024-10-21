@@ -517,6 +517,11 @@ lookup mym2_blws_raShort {
 # psts
 # ****
 
+lookup mym2_psts_103B {
+  lookupflag IgnoreMarks;
+    sub u101B u103B by u101B_u103B;
+} mym2_psts_103B;
+
 lookup mym2_psts_miscLig {
     sub u1000 u103B u1015 u103A  by u1000_u103B_u1015_u103A;
     sub u1000 u1001.med u103B  by u1000_u1001_u103B;
@@ -644,7 +649,9 @@ lookup consmed_sml_subst {
 } consmed_sml_subst;
 
 lookup consmed_sml {
+    sub @c103C_all @cCons @cno_sml_med' lookup consmed_sml_subst @cno_sml_med' lookup consmed_sml_subst;
     sub @c103C_all @cCons @cno_sml_med' lookup consmed_sml_subst;
+    sub [u100D u1025] @cno_sml_med' lookup consmed_sml_subst @cno_sml_med' lookup consmed_sml_subst;
     sub [u100D u1025] @cno_sml_med' lookup consmed_sml_subst;
     sub @cno_sml_med' lookup consmed_sml_subst @cno_sml_med' lookup consmed_sml_subst;
 } consmed_sml;

@@ -332,6 +332,7 @@ feature blws {
 
 feature psts {
  script mym2;
+      lookup mym2_psts_103B;
       lookup mym2_psts_miscLig;
       lookup clear_errors;
     language dflt;
@@ -379,6 +380,7 @@ feature rlig {
       lookup mym2_blws_altTail;
       lookup mym2_blws_raLong;
       lookup mym2_blws_raShort;
+      lookup mym2_psts_103B;
       lookup mym2_psts_miscLig;
       lookup mym2_swap_thing1_thing2;
       lookup consmed_sml;
@@ -423,6 +425,7 @@ feature rlig {
       lookup mym2_blws_altTail;
       lookup mym2_blws_raLong;
       lookup mym2_blws_raShort;
+      lookup mym2_psts_103B;
       lookup mym2_psts_miscLig;
       lookup mym2_swap_thing1_thing2;
       lookup consmed_sml;

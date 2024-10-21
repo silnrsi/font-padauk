@@ -1,0 +1,32 @@
+\begin[class=fontproof]{document}
+\bidi-off
+\setTestFont[features="+clig,+kern",size="14pt"]
+\set[parameter=harfbuzz.subshapers,value=ot]
+
+\proof[size=10pt,color="green"]{RenderingUnknown}
+
+% Consonants
+\patterngroup[name="cons"]{ကခဂဃငစဆဇဈဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဟဠဿၐၑ}
+\patterngroup[name="conswide"]{ကဃဆဉညဏတထဘယလသဟအဿဟ}
+\patterngroup[name="consnarrow"]{ခဂငစဇဋဌဍဎဒဓနပဖဗမရဝဠၐၑ}
+\patterngroup[name="consmed"]{ကခဂဃငစဆဇဈဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဟဠအဿၐၑ}
+
+% \section{Consonants with subjoined and lower dot}
+\pattern[heading=Wide consonants with subjoined and lower dot,chars="@,#",reps="group_conswide,group_consmed",format="table"]{@္#့}
+\pattern[heading=Narrow consonants with subjoined and lower dot,chars="@,#",reps="group_consnarrow,group_consmed",format="table"]{@္#့}
+
+% \section{Consonants with subjoined}
+\pattern[heading=RA-medialYA with subjoined,chars="#",reps="group_consmed",format="table"]{ရ္#ျ}
+\pattern[heading=DDA with subjoined,chars="#",reps="group_consmed",format="table"]{ဍ္#}
+\pattern[heading=U with subjoined,chars="#",reps="group_consmed",format="table"]{ဥ္#}
+\pattern[heading=Wrap with GHA and subjoined,chars="#",reps="group_consmed",format="table"]{ဃ္#ြ}
+\pattern[heading=Wrap with NGA and subjoined,chars="#",reps="group_consmed",format="table"]{င္#ြ}
+
+% \section{Consonants with two subjoined}
+\pattern[heading=RA-medialYA with two subjoined,chars="@,#",reps="group_consmed,group_consmed",format="table"]{ရ္@္#ျ}
+\pattern[heading=DDA with two subjoined,chars="@,#",reps="group_consmed,group_consmed",format="table"]{ဍ္@္#}
+\pattern[heading=U with two subjoined,chars="@,#",reps="group_consmed,group_consmed",format="table"]{ဥ္@္#}
+\pattern[heading=Wrap with GHA and two subjoined,chars="@,#",reps="group_consmed,group_consmed",format="table"]{ဃ္@္#ြ}
+\pattern[heading=Wrap with NGA and two subjoined,chars="@,#",reps="group_consmed,group_consmed",format="table"]{င္@္#ြ}
+
+\end{document}

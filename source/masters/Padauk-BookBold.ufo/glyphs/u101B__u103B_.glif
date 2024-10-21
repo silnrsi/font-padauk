@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u101B_u103B" format="2">
   <advance width="850"/>
-  <anchor x="70" y="-53" name="BD"/>
-  <anchor x="143" y="-53" name="BS"/>
+  <anchor x="-62" y="-53" name="BD"/>
+  <anchor x="81" y="-53" name="BS"/>
   <anchor x="956" y="-53" name="L"/>
   <anchor x="78" y="-53" name="LL"/>
   <anchor x="605" y="495" name="U"/>

@@ -36,10 +36,6 @@
 \pattern[heading=Wide consonants with subjoined,chars="@,#",reps="group_conswide,group_consmed",format="table"]{@္#}
 \pattern[heading=Narrow consonants with subjoined,chars="@,#",reps="group_consnarrow,group_consmed",format="table"]{@္#}
 
-% \section{Consonants with subjoined and lower dot}
-\pattern[heading=Wide consonants with subjoined and lower dot,chars="@,#",reps="group_conswide,group_consmed",format="table"]{@္#့}
-\pattern[heading=Narrow consonants with subjoined and lower dot,chars="@,#",reps="group_consnarrow,group_consmed",format="table"]{@္#့}
-
 \pattern[heading=GHA with two subjoined,chars="@,#",reps="group_consmed,group_consmed",format="table"]{ဃ္@္#}
 \pattern[heading=NGA with two subjoined,chars="@,#",reps="group_consmed,group_consmed",format="table"]{င္@္#}
 \pattern[heading=RA with two subjoined,chars="@,#",reps="group_consmed,group_consmed",format="table"]{ရ္@္#}

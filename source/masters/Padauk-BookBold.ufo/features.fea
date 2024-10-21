@@ -193,7 +193,7 @@ markClass uAA7C <anchor -242 495> @_U;
 # baseClass [u101B u1061 u1061.slanth u1061.slantr uAA79.aiph] <anchor 97 -53> @BD;
 # baseClass u101B.alt <anchor 240 -53> @BD;
 # baseClass u101B.long <anchor 119 -53> @BD;
-# baseClass u101B_u103B <anchor 70 -53> @BD;
+# baseClass u101B_u103B <anchor -62 -53> @BD;
 # baseClass [u101C.aiph u101C.kham u1080 uAA6E] <anchor 493 -53> @BD;
 # baseClass [u101E.thai u1021.thai] <anchor 512 -53> @BD;
 # baseClass [u101E_u1010_u103C u1029 u103C.alt.wide u103C.wide u103C.wide.aiph] <anchor 1263 -53> @BD;
@@ -317,7 +317,7 @@ markClass uAA7C <anchor -242 495> @_U;
 # baseClass [u1014_u1010_u103C u103C.alt.narr] <anchor 954 -53> @BS;
 # baseClass [u101B uAA79.aiph] <anchor 240 -53> @BS;
 # baseClass u101B.long <anchor 267 -53> @BS;
-# baseClass u101B_u103B <anchor 143 -53> @BS;
+# baseClass u101B_u103B <anchor 81 -53> @BS;
 # baseClass [u101C u101C.aiph u101C.kham uA9FA uAA6E] <anchor 699 -53> @BS;
 # baseClass [u101E.thai u1021.thai] <anchor 717 -53> @BS;
 # baseClass [u101E_u1010_u103C u1029 u103C.alt.wide u103C.wide u103C.wide.aiph] <anchor 1312 -53> @BS;
@@ -5299,6 +5299,11 @@ lookup mym2_blws_raShort {
 # ****
 # psts
 # ****
+lookup mym2_psts_103B {
+    lookupflag IgnoreMarks;
+    sub u101B u103B by u101B_u103B;
+} mym2_psts_103B;
+
 lookup mym2_psts_miscLig {
     sub u1000 u103B u1015 u103A by u1000_u103B_u1015_u103A;
     sub u1000 u1001.med u103B by u1000_u1001_u103B;
@@ -5470,7 +5475,9 @@ lookup consmed_sml_subst {
 } consmed_sml_subst;
 
 lookup consmed_sml {
+    sub @c103C_all @cCons @cno_sml_med' lookup consmed_sml_subst @cno_sml_med' lookup consmed_sml_subst;
     sub @c103C_all @cCons @cno_sml_med' lookup consmed_sml_subst;
+    sub [u100D u1025] @cno_sml_med' lookup consmed_sml_subst @cno_sml_med' lookup consmed_sml_subst;
     sub [u100D u1025] @cno_sml_med' lookup consmed_sml_subst;
     sub @cno_sml_med' lookup consmed_sml_subst @cno_sml_med' lookup consmed_sml_subst;
 } consmed_sml;
@@ -7510,7 +7517,7 @@ lookup dist_103C_Cons {
         pos base [u1014_u1010_u103C u103C.alt.narr] <anchor 954 -53> mark @_BS;
         pos base [u101B uAA79.aiph] <anchor 240 -53> mark @_BS;
         pos base u101B.long <anchor 267 -53> mark @_BS;
-        pos base u101B_u103B <anchor 143 -53> mark @_BS;
+        pos base u101B_u103B <anchor 81 -53> mark @_BS;
         pos base [u101C u101C.aiph u101C.kham uA9FA uAA6E] <anchor 699 -53> mark @_BS;
         pos base [u101E.thai u1021.thai] <anchor 717 -53> mark @_BS;
         pos base [u101E_u1010_u103C u1029 u103C.alt.wide u103C.wide u103C.wide.aiph] <anchor 1312 -53> mark @_BS;
@@ -7631,7 +7638,7 @@ lookup dist_103C_Cons {
         pos base [u101B u1061 u1061.slanth u1061.slantr uAA79.aiph] <anchor 97 -53> mark @_BD;
         pos base u101B.alt <anchor 240 -53> mark @_BD;
         pos base u101B.long <anchor 119 -53> mark @_BD;
-        pos base u101B_u103B <anchor 70 -53> mark @_BD;
+        pos base u101B_u103B <anchor -62 -53> mark @_BD;
         pos base [u101C.aiph u101C.kham u1080 uAA6E] <anchor 493 -53> mark @_BD;
         pos base [u101E.thai u1021.thai] <anchor 512 -53> mark @_BD;
         pos base [u101E_u1010_u103C u1029 u103C.alt.wide u103C.wide u103C.wide.aiph] <anchor 1263 -53> mark @_BD;
@@ -8820,6 +8827,7 @@ feature blws {
 
 feature psts {
     script mym2;
+    lookup mym2_psts_103B;
     lookup mym2_psts_miscLig;
     lookup clear_errors;
     language dflt;
@@ -8866,6 +8874,7 @@ feature rlig {
     lookup mym2_blws_altTail;
     lookup mym2_blws_raLong;
     lookup mym2_blws_raShort;
+    lookup mym2_psts_103B;
     lookup mym2_psts_miscLig;
     lookup mym2_swap_thing1_thing2;
     lookup consmed_sml;
@@ -8909,6 +8918,7 @@ feature rlig {
     lookup mym2_blws_altTail;
     lookup mym2_blws_raLong;
     lookup mym2_blws_raShort;
+    lookup mym2_psts_103B;
     lookup mym2_psts_miscLig;
     lookup mym2_swap_thing1_thing2;
     lookup consmed_sml;

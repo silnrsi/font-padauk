@@ -143,7 +143,7 @@
 ၸ︀ ယ︀ ꩺ လ︀ ꩭ ဢ︀ ြ}%
 
 % Pattern is cons fe00 1039 subjoined
-\proof[size=8pt,color="blue"]{Note: Fontproof pattern "cons fe00 1039 subjoined" needs work - read between the lines!} 
+\proof[size=8pt,color="blue"]{Note: Fontproof pattern "cons fe00 1039 subjoined" needs work - read between the lines!}
 \pattern[heading=Aiton subjoined,chars="@,#",reps="group_consAitonNoFE00,group_consAitonsub",format="table"]{@︀္#}
 
 \set[parameter=harfbuzz.subshapers,value=ot]

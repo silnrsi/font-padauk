@@ -539,6 +539,10 @@ g1014 gKill g1010 g103c > g1014_1010_103c:(1 2 3 4) _ _ _;
 g1014 gKill g1010 g103c > g1014_1010_103c:(1 2 3 4) _ _ _;
 g101e gKill g1010 g103c > g101e_1010_103c:(1 2 3 4) _ _ _;
 g101b g103b > g101b_103b:(1 2) _;
+// Form medials even with the 101B_103B ligature
+g101b gKill cno_med g103b > g101b_103b:(1 4) _ cmed:(2 3) _;
+g101b gKill cno_sml gKill cno_sml g103b > g101b_103b:(1 6) _ csml:(2 3) _ csml:(4 5) _;
+
 g102d g1032 > g1032_102d:(1 3) _ / ^ _ cLVowel? _;
 g103a g1036 > g103a_1036:(1 2) _;
 g103b g103d g103e > g103b_103d_103e:(1 2 3) _ _;
@@ -779,8 +783,8 @@ _ c103c_nar > c103c_widalt:r$r _ / ^ _ cConsNar cMedWide g103a _=r;
 _ c103c_nar > c103c_naralt:r$r _ / ^ _ cConsNar cmed? g103a _=r;
 _ c103c_nar > c103c_widalt:r$r _ / ^ _ cConsWide cmed? g103a _=r;
 _ c103c_nar > c103c_wide:r$r _ / ^ _ cConsNar cMedWide c103b? _=r;
-_ c103c_nar > @r:r _ / ^ _ cConsNar cmed? c103b? _=r;
-_ c103c_nar > c103c_wide:r$r _ / ^ _ cConsWide cmed? c103b? _=r;
+_ c103c_nar > @r:r _ / ^ _ cConsNar opt2(cmed) c103b? _=r;
+_ c103c_nar > c103c_wide:r$r _ / ^ _ cConsWide opt2(cmed) c103b? _=r;
 
 /* @doc
 Rules to handle U+101B in its base form (not as a wrap). Whether we need a short leg form
