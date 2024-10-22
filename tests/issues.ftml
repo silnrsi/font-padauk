@@ -36,8 +36,12 @@
     <fontsrc label="NotoSerifMyanmar">url(../references/NotoSerifMyanmar-Regular.ttf)</fontsrc>
     -->
     <styles>
-      <style lang="ksw" name="ksw"/>
-      <style feats="'cv05' 1" name="cv05_1"/>
+      <style                  lang="ksw" name="ksw"/>
+      <style feats="'cv02' 1"            name="cv02_1"/>
+      <style feats="'cv02' 1" lang="ksw" name="ksw_cv02_1"/>
+      <style feats="'cv05' 1"            name="cv05_1"/>
+      <style feats="'cv07' 1"            name="cv07_1"/>
+      <style feats="'cv07' 1" lang="ksw" name="ksw_cv07_1"/>
     </styles>
     <title>Issues</title>
   </head>
@@ -275,51 +279,69 @@
     </test>
   </testgroup>
   <testgroup label="#50 Dot positions for left shifted (ksw)">
+    <test label="example">
+      <string>\u1006\u1004\u103d\u1037 \u1006\u1003\u103d\u1037 \u1006\u101b\u103d\u1037</string>
+    </test>
+    <test label="example (ksw)" stylename="ksw">
+      <string>\u1006\u1004\u103d\u1037 \u1006\u1003\u103d\u1037 \u1006\u101b\u103d\u1037</string>
+    </test>
+    <test label="example (cv02)" stylename="cv02_1">
+      <string>\u1006\u1004\u103d\u1037 \u1006\u1003\u103d\u1037 \u1006\u101b\u103d\u1037</string>
+    </test>
+    <test label="example (ksw+cv02)" stylename="ksw_cv02_1">
+      <string>\u1006\u1004\u103d\u1037 \u1006\u1003\u103d\u1037 \u1006\u101b\u103d\u1037</string>
+    </test>
     <test label="documentation">
       <string>\u101b\u1037 \u101b\u1036\u1037 \u1000\u103e\u1037</string>
     </test>
     <test label="documentation (ksw)" stylename="ksw">
       <string>\u101b\u1037 \u101b\u1036\u1037 \u1000\u103e\u1037</string>
     </test>
+    <test label="documentation (cv07)" stylename="cv07_1">
+      <string>\u101b\u1037 \u101b\u1036\u1037 \u1000\u103e\u1037</string>
+    </test>
+    <test label="documentation (ksw+cv07)" stylename="ksw_cv07_1">
+      <string>\u101b\u1037 \u101b\u1036\u1037 \u1000\u103e\u1037</string>
+    </test>
     <test label="medial 1000 and 1037">
       <comment>ka.med lower_dot</comment>
-      <string>\u1004\u1039\u1000\u1037 \u1003\u1039\u1000\u1037 \u101b\u1039\u1000\u1037</string>
+      <string>\u1006\u1004\u1039\u1000\u1037 \u1006\u1003\u1039\u1000\u1037 \u1006\u101b\u1039\u1000\u1037</string>
     </test>
     <test label="medial 1000 and 1037 (ksw)" stylename="ksw">
       <comment>ka.med lower_dot</comment>
-      <string>\u1004\u1039\u1000\u1037 \u1003\u1039\u1000\u1037 \u101b\u1039\u1000\u1037</string>
+      <string>\u1006\u1004\u1039\u1000\u1037 \u1006\u1003\u1039\u1000\u1037 \u1006\u101b\u1039\u1000\u1037</string>
     </test>
     <test label="medial 1000 and 1037 (cv05)" stylename="cv05_1">
       <comment>ka.med lower_dot</comment>
-      <string>\u1004\u1039\u1000\u1037 \u1003\u1039\u1000\u1037 \u101b\u1039\u1000\u1037</string>
+      <string>\u1006\u1004\u1039\u1000\u1037 \u1006\u1003\u1039\u1000\u1037 \u1006\u101b\u1039\u1000\u1037</string>
     </test>
     <test label="medial 1001 and 1037">
       <comment>kha.med lower_dot</comment>
-      <string>\u1004\u1039\u1001\u1037 \u1003\u1039\u1001\u1037 \u101b\u1039\u1001\u1037</string>
+      <string>\u1006\u1004\u1039\u1001\u1037 \u1006\u1003\u1039\u1001\u1037 \u1006\u101b\u1039\u1001\u1037</string>
     </test>
     <test label="medial 1001 and 1037 (ksw)" stylename="ksw">
       <comment>kha.med lower_dot</comment>
-      <string>\u1004\u1039\u1001\u1037 \u1003\u1039\u1001\u1037 \u101b\u1039\u1001\u1037</string>
+      <string>\u1006\u1004\u1039\u1001\u1037 \u1006\u1003\u1039\u1001\u1037 \u1006\u101b\u1039\u1001\u1037</string>
     </test>
     <test label="medial 1011 and 1037">
       <comment>tha.med lower_dot</comment>
-      <string>\u1004\u1039\u1011\u1037 \u1003\u1039\u1011\u1037 \u101b\u1039\u1011\u1037</string>
+      <string>\u1006\u1004\u1039\u1011\u1037 \u1006\u1003\u1039\u1011\u1037 \u1006\u101b\u1039\u1011\u1037</string>
     </test>
     <test label="medial 1011 and 1037 (ksw)" stylename="ksw">
       <comment>tha.med lower_dot</comment>
-      <string>\u1004\u1039\u1011\u1037 \u1003\u1039\u1011\u1037 \u101b\u1039\u1011\u1037</string>
+      <string>\u1006\u1004\u1039\u1011\u1037 \u1006\u1003\u1039\u1011\u1037 \u1006\u101b\u1039\u1011\u1037</string>
     </test>
     <test label="medial 1011 and 1037 (cv05)" stylename="cv05_1">
       <comment>tha.med lower_dot</comment>
-      <string>\u1004\u1039\u1011\u1037 \u1003\u1039\u1011\u1037 \u101b\u1039\u1011\u1037</string>
+      <string>\u1006\u1004\u1039\u1011\u1037 \u1006\u1003\u1039\u1011\u1037 \u1006\u101b\u1039\u1011\u1037</string>
     </test>
     <test label="medial 1016 and 1037">
       <comment>pha.med lower_dot</comment>
-      <string>\u1004\u1039\u1016\u1037 \u1003\u1039\u1016\u1037 \u101b\u1039\u1016\u1037</string>
+      <string>\u1006\u1004\u1039\u1016\u1037 \u1006\u1003\u1039\u1016\u1037 \u1006\u101b\u1039\u1016\u1037</string>
     </test>
     <test label="medial 1016 and 1037 (ksw)" stylename="ksw">
       <comment>pha.med lower_dot</comment>
-      <string>\u1004\u1039\u1016\u1037 \u1003\u1039\u1016\u1037 \u101b\u1039\u1016\u1037</string>
+      <string>\u1006\u1004\u1039\u1016\u1037 \u1006\u1003\u1039\u1016\u1037 \u1006\u101b\u1039\u1016\u1037</string>
     </test>
   </testgroup>
   <testgroup label="#52 Burmese script marking character placement problem with Harfbuzz / Speedata">

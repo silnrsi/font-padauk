@@ -631,7 +631,7 @@ markClass uAA70 <anchor -280 495> @_U;
 # baseClass [uAA60.med uAA60.med.kham] <anchor 68 -53> @BSM_MarkBase;
 
 # AP: LLM
-@LLM_MarkBase = [u1000.med u1000.med.aiph u1000.sml u1009.sml u1021.sml u1001.med u1005.med u1013.med u101D.med u105C.med u1001.sml u1006.sml u1011.sml u1002.med u1002.sml u100E.sml u1015.med u1015.med.kham u1016.med u1019.med u1019.med.kham u1050.sml u1051.sml uAA6B.med.aiph uAA6B.med.kham u1003.med u1003.med.thai u1003.sml u101A.sml u101C.sml u101E.sml u101F.small u103F.sml u1004.med u1004.med.kham u1004.sml u1007.med u1007.sml u1020.med u1005.sml u1008.sml u1008.sml.low u1013.sml u1014.sml u101B.sml u101D.sml u1006.med u1011.med u1011.med.aiph u101E.med u101E.med.thai u1021.med u103F.med u1009.med u100A.med u1009.med.alt u100C.med u100A.sml u100B.sml u100C.sml u100D.sml u1020.sml u100B.med u1020.med.thai u100B.med.thai u100C.med.thai u100E.med u100E.med.thai u100D.med u100D.med.thai u100F.med u100F.sml u1010.med u1010.med.aiph u1010.sml u1018.sml u101F.med u101F.sml u1075.med.aiph uAA61.med.aiph uAA61.med.kham uAA6C.med.kham u1010_u103D.med u1010_u103D.med.tri u1012.med u1012.med.thai u1012.sml u1014.med u1014.med.thai u1015.sml u1016.sml u1017.sml u1017.med u1018.med u1019.sml u101A.med u101A.med.aiph u101B.med u101C.med u101C.med.aiph u107A.med.aiph u101C.med_u103D u102F.med u102F_u108D u1030_u108D u1058 u108D u1030.med u1039 u103D u103D_u1060 u103D_u108D u1060 u103D.sml u103D.tri u103D_u103E.tri u103D_u103E u103E u105E u105F u103E.alt u103E.slanth u103E.slantr u103E_u1060 u103E_u102F u103E_u102F.slanth u103E_u102F.slantr u103E_u1030.slanth u103E_u1030.slantr u103E_u1030 u1050.med u1051.med u1059 u105A.med u1082 u1082_u108D uAA60.med uAA60.med.kham];
+@LLM_MarkBase = [u1000.med u1000.med.aiph u1000.sml u1009.sml u1021.sml u1001.med u1005.med u1013.med u101D.med u105C.med u1001.sml u1006.sml u1011.sml u1002.med u1002.sml u100E.sml u1015.med u1015.med.kham u1016.med u1019.med u1019.med.kham u1050.sml u1051.sml uAA6B.med.aiph uAA6B.med.kham u1003.med u1003.med.thai u1003.sml u101A.sml u101C.sml u101E.sml u101F.small u103F.sml u1004.med u1004.med.kham u1004.sml u1007.med u1007.sml u1020.med u1005.sml u1008.sml u1008.sml.low u1013.sml u1014.sml u101B.sml u101D.sml u1006.med u1011.med u1011.med.aiph u101E.med u101E.med.thai u1021.med u103F.med u1009.med u100A.med u1009.med.alt u100C.med u100A.sml u100B.sml u100C.sml u100D.sml u1020.sml u100B.med u1020.med.thai u100B.med.thai u100C.med.thai u100E.med u100E.med.thai u100D.med u100D.med.thai u100F.med u100F.sml u1010.med u1010.med.aiph u1010.sml u1018.sml u101F.med u101F.sml u1075.med.aiph uAA61.med.aiph uAA61.med.kham uAA6C.med.kham u1010_u103D.med u1010_u103D.med.tri u1012.med u1012.med.thai u1012.sml u1014.med u1014.med.thai u1015.sml u1016.sml u1017.sml u1017.med u1018.med u1019.sml u101A.med u101A.med.aiph u101B.med u101C.med u101C.med.aiph u107A.med.aiph u101C.med_u103D u102F.med u102F_u108D u1030_u108D u1058 u108D u1030.med u1039 u103D u103D.sml u103D.tri u103D_u103E u103D_u103E.tri u103D_u1060 u103D_u108D u1060 u103E u105E u105F u103E.alt u103E.slanth u103E.slantr u103E_u1060 u103E_u102F u103E_u102F.slanth u103E_u102F.slantr u103E_u1030.slanth u103E_u1030.slantr u103E_u1030 u1050.med u1051.med u1059 u105A.med u1082 u1082_u108D uAA60.med uAA60.med.kham];
 # baseClass [u1000.med u1000.med.aiph] <anchor -872 -53> @LLM_MarkBase;
 # baseClass [u1000.sml u1009.sml u1021.sml] <anchor -737 -114> @LLM_MarkBase;
 # baseClass [u1001.med u1005.med u1013.med u101D.med u105C.med] <anchor -557 -53> @LLM_MarkBase;
@@ -669,10 +669,12 @@ markClass uAA70 <anchor -280 495> @_U;
 # baseClass [u102F_u108D u1030_u108D u1058 u108D] <anchor -89 -53> @LLM_MarkBase;
 # baseClass u1030.med <anchor -399 -53> @LLM_MarkBase;
 # baseClass u1039 <anchor -501 -53> @LLM_MarkBase;
-# baseClass [u103D u103D_u1060 u103D_u108D u1060] <anchor -556 -53> @LLM_MarkBase;
+# baseClass u103D <anchor -527 5> @LLM_MarkBase;
 # baseClass u103D.sml <anchor -464 -114> @LLM_MarkBase;
-# baseClass [u103D.tri u103D_u103E.tri] <anchor -530 -53> @LLM_MarkBase;
+# baseClass u103D.tri <anchor -487 -10> @LLM_MarkBase;
 # baseClass u103D_u103E <anchor -611 -53> @LLM_MarkBase;
+# baseClass u103D_u103E.tri <anchor -530 -53> @LLM_MarkBase;
+# baseClass [u103D_u1060 u103D_u108D u1060] <anchor -556 -53> @LLM_MarkBase;
 # baseClass [u103E u105E u105F] <anchor -250 -53> @LLM_MarkBase;
 # baseClass u103E.alt <anchor -341 -53> @LLM_MarkBase;
 # baseClass [u103E.slanth u103E.slantr u103E_u1060] <anchor -262 -53> @LLM_MarkBase;
@@ -7838,10 +7840,12 @@ lookup base_LLM_mark {
     pos mark [u102F_u108D u1030_u108D u1058 u108D] <anchor -89 -53> mark @_LLM;
     pos mark u1030.med <anchor -399 -53> mark @_LLM;
     pos mark u1039 <anchor -501 -53> mark @_LLM;
-    pos mark [u103D u103D_u1060 u103D_u108D u1060] <anchor -556 -53> mark @_LLM;
+    pos mark u103D <anchor -527 5> mark @_LLM;
     pos mark u103D.sml <anchor -464 -114> mark @_LLM;
-    pos mark [u103D.tri u103D_u103E.tri] <anchor -530 -53> mark @_LLM;
+    pos mark u103D.tri <anchor -487 -10> mark @_LLM;
     pos mark u103D_u103E <anchor -611 -53> mark @_LLM;
+    pos mark u103D_u103E.tri <anchor -530 -53> mark @_LLM;
+    pos mark [u103D_u1060 u103D_u108D u1060] <anchor -556 -53> mark @_LLM;
     pos mark [u103E u105E u105F] <anchor -250 -53> mark @_LLM;
     pos mark u103E.alt <anchor -341 -53> mark @_LLM;
     pos mark [u103E.slanth u103E.slantr u103E_u1060] <anchor -262 -53> mark @_LLM;
