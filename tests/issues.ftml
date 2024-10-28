@@ -170,6 +170,24 @@
       <string>\u1002 \u1002\ufe00</string>
     </test>
   </testgroup>
+  <testgroup label="#42 change 1037 position for 1070">
+    <test label="U+106F U+1037">
+      <comment>kjpYWA-lower_dot</comment>
+      <string>\u106f\u1037</string>
+    </test>
+    <test label="U+1070 U+1037">
+      <comment>kjpGHWA-lower_dot</comment>
+      <string>\u1070\u1037</string>
+    </test>
+    <test label="U+106F U+1037 (and ~decomp)">
+      <comment>kjpYWA-lower_dot</comment>
+      <string>\u106f\u1037 \u101f\u103e\u1037</string>
+    </test>
+    <test label="U+1070 U+1037 (and ~decomp)">
+      <comment>kjpGHWA-lower_dot</comment>
+      <string>\u1070\u1037 \u107d\u103e\u1037</string>
+    </test>
+  </testgroup>
   <testgroup label="#45 Missing glyph and not rendered as expected for Tai Laing">
     <test label="U+A9E4">
       <comment>bhaShan</comment>
