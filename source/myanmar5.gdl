@@ -829,6 +829,7 @@ if (uTall == 0 && uLong == 0)
 g100a > g100a_alt / ^ _ cLVowelAll;
 endif;
 g1009 > g1025 / ^ _ g1037? g103a;          // is this the rule?
+g1009 > g1009_open / ^ _ cmed cmed;
 g1009 > g1025 / ^ _ cmed;
 // MLC dictionary doesn't show this occurring at least with u1010 u103A
 //g1009 > g1025 / ^ _ c103e? cPreVowel? cUVowel? cCons;

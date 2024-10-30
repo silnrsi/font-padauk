@@ -326,7 +326,8 @@ lookup mym2_pstf_asatLig {
 lookup mym2_pstf_1009 {
     sub u1009' u1037 u103A by u1025;
     sub u1009'       u103A by u1025;
-    sub u1009' [@c_med]     by u1025;
+    sub u1009' [@c_med] [@c_med] by u1009.open;
+    sub u1009' [@c_med]          by u1025;
 } mym2_pstf_1009;
 
 lookup mym2_pstf_tall_U {
@@ -367,6 +368,7 @@ lookup mym2_u103CaltSubst {
 
 lookup mym2_pres_u103Calt {
   lookupflag 0;
+    sub [@class103C_noalt]'lookup mym2_u103CaltSubst [@cCons] [@c_med] [@c_med] [@BigUMark];
     sub [@class103C_noalt]'lookup mym2_u103CaltSubst [@cCons] [@c_med u103B u101B_u103B u103E u103E.alt u103D_u103E u103D_u103E.small.tri] [@BigUMark];
     sub [@class103C_noalt]'lookup mym2_u103CaltSubst [@cCons] [@BigUMark];
 } mym2_pres_u103Calt;
@@ -378,11 +380,19 @@ lookup mym2_u103Calt_triSubst {
 
 lookup mym2_pres_u103Calt_tri {
   lookupflag 0;
+    # The following lookup has no affect on the test data, but might be needed, as seen in an above lookup.
+    # sub [@class103C_noalt_tri]'lookup mym2_u103Calt_triSubst [@cCons] [@c_med] [@c_med] [@BigUMark];
     sub [@class103C_noalt_tri]'lookup mym2_u103Calt_triSubst [@cCons] [@c_med u103B u101B_u103B u103D_u103E u103E u103E.alt] [@BigUMark];
     sub [@class103C_noalt_tri]'lookup mym2_u103Calt_triSubst [@cCons] [@BigUMark];
 } mym2_pres_u103Calt_tri;
 
 lookup mym2_pres_u103Copen {
+    # If there are two medials an open wrap is needed.
+    sub [u103C.wide u103C.alt.wide]' [@cCons] @cno_sml_med @cno_sml_med @BigUMark by u103C.alt.open.wide; 
+    sub [u103C.wide u103C.alt.wide]' [@cCons] @cno_sml_med @cno_sml_med           by u103C.open.wide; 
+    sub [u103C u103C.alt.narr]' [@cConsNar] @cno_sml_med @cno_sml_med @BigUMark by u103C.alt.open.narr; 
+    sub [u103C u103C.alt.narr]' [@cConsNar] @cno_sml_med @cno_sml_med           by u103C.open.narr; 
+
     # If the base consonant is a tall, narrow consonant, a open wrap is needed.
     sub [u103C u103C.alt.narr]' [@cConsNarTall] @cno_sml_med @BigUMark by u103C.alt.open.narr; 
     sub [u103C u103C.alt.narr]' [@cConsNarTall] @cno_sml_med           by u103C.open.narr; 

@@ -13,14 +13,14 @@
     <fontsrc label="grBref">url(../references/PadaukBook-Bold.ttf)</fontsrc>
     <fontsrc label="dfltRref">url(../references/PadaukBook-Regular_ot_DFLT.ttf)</fontsrc>
     <fontsrc label="dfltBref">url(../references/PadaukBook-Bold_ot_DFLT.ttf)</fontsrc>
-    <fontsrc label="Rref">url(../references/PadaukBook-Regular_ot_mym2.ttf)</fontsrc>
-    <fontsrc label="Bref">url(../references/PadaukBook-Bold_ot_mym2.ttf)</fontsrc>
+    <fontsrc label="mym2Rref">url(../references/PadaukBook-Regular_ot_mym2.ttf)</fontsrc>
+    <fontsrc label="mym2Bref">url(../references/PadaukBook-Bold_ot_mym2.ttf)</fontsrc>
     <fontsrc label="grR">url(../results/PadaukBook-Regular.ttf)</fontsrc>
     <fontsrc label="grB">url(../results/PadaukBook-Bold.ttf)</fontsrc>
     <fontsrc label="dfltR">url(../results/tests/ftml/fonts/PadaukBook-Regular_ot_DFLT.ttf)</fontsrc>
     <fontsrc label="dfltB">url(../results/tests/ftml/fonts/PadaukBook-Bold_ot_DFLT.ttf)</fontsrc>
-    <fontsrc label="R">url(../results/tests/ftml/fonts/PadaukBook-Regular_ot_mym2.ttf)</fontsrc>
-    <fontsrc label="B">url(../results/tests/ftml/fonts/PadaukBook-Bold_ot_mym2.ttf)</fontsrc>
+    <fontsrc label="mym2R">url(../results/tests/ftml/fonts/PadaukBook-Regular_ot_mym2.ttf)</fontsrc>
+    <fontsrc label="mym2B">url(../results/tests/ftml/fonts/PadaukBook-Bold_ot_mym2.ttf)</fontsrc>
     <!--
     <fontsrc label="gfR">url(../references/PadaukGF-Regular.ttf)</fontsrc>
     <fontsrc label="gfB">url(../references/PadaukGF-Bold.ttf)</fontsrc>
@@ -506,11 +506,26 @@
     <test label="1010, 101B, 1039, 1050, 1039, 100B, 101D (line 91)">
       <string>\u1006\u1039\u100B \u1006\u1039\u100B\u1039\u100B \u1010\u101B\u1039\u1050\u1039\u100B\u101D</string>
     </test>
-    <test label="1008, 1009, 1039, 1018, 1039, 1051 (line 95)">
-      <string>\u1008\u1009\u1039\u1018\u1039\u1051</string>
+    <test label="1008, 1009, 1039, 1018, 1039, 1051 (last cluster is line 95)">
+      <string>\u1009\u1039\u1018 \u1008\u1009\u1039\u1018\u1039\u1051</string>
     </test>
-    <test label="101A, 1010, 1039, 101E, 1039, 1010, 103C (line 107)">
-      <string>\u101A\u1010\u1039\u101E\u1039\u1010\u103C</string>
+    <test label="101A, 1010, 1039, 101E, 1039, 1010, 103C (last cluster is line 107)">
+      <string>\u101A\u1010\u103C \u101A\u1010\u1039\u101E\u103C \u101A\u1010\u1039\u101E\u1039\u1010\u103C</string>
+    </test>
+    <test label="101A, 1010, 1039, 101E, 1039, 1010, 103C, 102D">
+      <string>\u101A\u1010\u103C\u102D \u101A\u1010\u1039\u101E\u103C\u102D \u101A\u1010\u1039\u101E\u1039\u1010\u103C\u102D</string>
+    </test>
+    <test label="101A, 1004, 1039, 101E, 1039, 1010, 103C">
+      <string>\u101A\u1004\u103C \u101A\u1004\u1039\u101E\u103C \u101A\u1004\u1039\u101E\u1039\u1010\u103C</string>
+    </test>
+    <test label="101A, 1004, 1039, 101E, 1039, 1010, 103C, 102D">
+      <string>\u101A\u1004\u103C\u102D \u101A\u1004\u1039\u101E\u103C\u102D \u101A\u1004\u1039\u101E\u1039\u1010\u103C\u102D</string>
+    </test>
+    <test label="101A, 1004, 1039, 1050, 1039, 1010, 103C">
+      <string>\u101A\u1004\u103C \u101A\u1004\u1039\u1050\u103C \u101A\u1004\u1039\u1050\u1039\u1010\u103C</string>
+    </test>
+    <test label="101A, 1004, 1039, 1050, 1039, 1010, 103C, 102D">
+      <string>\u101A\u1004\u103C\u102D \u101A\u1004\u1039\u1050\u103C\u102D \u101A\u1004\u1039\u1050\u1039\u1010\u103C\u102D</string>
     </test>
   </testgroup>
 </ftml>
