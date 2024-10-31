@@ -44,7 +44,7 @@ def doit(args):
                              rtlenable=args.rtl, langs=args.langs)
 
     # Override default base (25CC) for displaying combining marks:
-    builder.diacBase = 0x0A95   # ka
+    builder.diacBase = 0x1000   # ka
     dotted_circle = 0x25CC
 
     # Specify blocks of primary and secondary scripts
