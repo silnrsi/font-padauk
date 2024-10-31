@@ -87,10 +87,4 @@
       <point x="1008" y="33"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>org.sil.uvs</key>
-      <string>AA61 FE00</string>
-    </dict>
-  </lib>
 </glyph>

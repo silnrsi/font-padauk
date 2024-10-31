@@ -101,10 +101,4 @@
       <point x="497" y="-28"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>org.sil.uvs</key>
-      <string>AA61 FE00</string>
-    </dict>
-  </lib>
 </glyph>

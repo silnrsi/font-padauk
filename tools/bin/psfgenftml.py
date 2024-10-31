@@ -9,6 +9,7 @@ import re
 from silfont.core import execute
 import silfont.ftml_builder as FB
 from palaso.unicode.ucd import get_ucd
+from ufoLib2.objects import Font
 
 argspec = [
     ('ifont', {'help': 'Input UFO'}, {'type': 'infont'}),
@@ -149,6 +150,17 @@ def doit(args):
                     ftml.closeTest()
                 ftml.clearLang()
             ftml.clearBackground()
+
+        # variation sequences
+        ftml.startTestGroup('Variation Sequences')
+        ufo = Font.open(args.ifont.ufodir)
+        vs = ufo.lib['public.unicodeVariationSequences']
+        for selector_usv in vs:
+            selector_uid = int(selector_usv, 16)
+            for base_usv, variation_glyph in vs[selector_usv].items():
+                base_uid = int(base_usv, 16)
+                builder.render((base_uid,base_uid,selector_uid), ftml, comment=variation_glyph)
+                ftml.closeTest()
 
     if test.lower().startswith("proof"):
         # Characters used to create SILE test data

@@ -545,4 +545,198 @@ U+AA7C">
       <string>\u001000\u00A9E5\u00AA7C</string>
     </test>
   </testgroup>
+  <testgroup label="Variation Sequences">
+    <test label="U+1000
+U+1000
+U+FE00">
+      <comment>u1000.kham</comment>
+      <string>\u001000\u001000\u00FE00</string>
+    </test>
+    <test label="U+1002
+U+1002
+U+FE00">
+      <comment>u1002.kham</comment>
+      <string>\u001002\u001002\u00FE00</string>
+    </test>
+    <test label="U+1004
+U+1004
+U+FE00">
+      <comment>u1004.kham</comment>
+      <string>\u001004\u001004\u00FE00</string>
+    </test>
+    <test label="U+1010
+U+1010
+U+FE00">
+      <comment>u1010.kham</comment>
+      <string>\u001010\u001010\u00FE00</string>
+    </test>
+    <test label="U+1011
+U+1011
+U+FE00">
+      <comment>u1011.kham</comment>
+      <string>\u001011\u001011\u00FE00</string>
+    </test>
+    <test label="U+1015
+U+1015
+U+FE00">
+      <comment>u1015.kham</comment>
+      <string>\u001015\u001015\u00FE00</string>
+    </test>
+    <test label="U+1019
+U+1019
+U+FE00">
+      <comment>u1019.kham</comment>
+      <string>\u001019\u001019\u00FE00</string>
+    </test>
+    <test label="U+101A
+U+101A
+U+FE00">
+      <comment>u101A.kham</comment>
+      <string>\u00101A\u00101A\u00FE00</string>
+    </test>
+    <test label="U+101B
+U+101B
+U+FE00">
+      <comment>u101B.kham</comment>
+      <string>\u00101B\u00101B\u00FE00</string>
+    </test>
+    <test label="U+101C
+U+101C
+U+FE00">
+      <comment>u101C.kham</comment>
+      <string>\u00101C\u00101C\u00FE00</string>
+    </test>
+    <test label="U+101D
+U+101D
+U+FE00">
+      <comment>u101D.kham</comment>
+      <string>\u00101D\u00101D\u00FE00</string>
+    </test>
+    <test label="U+1022
+U+1022
+U+FE00">
+      <comment>u1022.kham</comment>
+      <string>\u001022\u001022\u00FE00</string>
+    </test>
+    <test label="U+1031
+U+1031
+U+FE00">
+      <comment>u1031.kham</comment>
+      <string>\u001031\u001031\u00FE00</string>
+    </test>
+    <test label="U+1075
+U+1075
+U+FE00">
+      <comment>u1075.kham</comment>
+      <string>\u001075\u001075\u00FE00</string>
+    </test>
+    <test label="U+1078
+U+1078
+U+FE00">
+      <comment>u1078.kham</comment>
+      <string>\u001078\u001078\u00FE00</string>
+    </test>
+    <test label="U+107A
+U+107A
+U+FE00">
+      <comment>u107A.aiph</comment>
+      <string>\u00107A\u00107A\u00FE00</string>
+    </test>
+    <test label="U+1080
+U+1080
+U+FE00">
+      <comment>u1080.kham</comment>
+      <string>\u001080\u001080\u00FE00</string>
+    </test>
+    <test label="U+1086
+U+1086
+U+FE00">
+      <comment>u1086.kham</comment>
+      <string>\u001000\u001086\u001086\u00FE00</string>
+    </test>
+    <test label="U+AA60
+U+AA60
+U+FE00">
+      <comment>uAA60.kham</comment>
+      <string>\u00AA60\u00AA60\u00FE00</string>
+    </test>
+    <test label="U+AA61
+U+AA61
+U+FE00">
+      <comment>uAA61.kham</comment>
+      <string>\u00AA61\u00AA61\u00FE00</string>
+    </test>
+    <test label="U+AA62
+U+AA62
+U+FE00">
+      <comment>uAA62.kham</comment>
+      <string>\u00AA62\u00AA62\u00FE00</string>
+    </test>
+    <test label="U+AA63
+U+AA63
+U+FE00">
+      <comment>uAA63.kham</comment>
+      <string>\u00AA63\u00AA63\u00FE00</string>
+    </test>
+    <test label="U+AA64
+U+AA64
+U+FE00">
+      <comment>uAA64.kham</comment>
+      <string>\u00AA64\u00AA64\u00FE00</string>
+    </test>
+    <test label="U+AA65
+U+AA65
+U+FE00">
+      <comment>uAA65.kham</comment>
+      <string>\u00AA65\u00AA65\u00FE00</string>
+    </test>
+    <test label="U+AA66
+U+AA66
+U+FE00">
+      <comment>uAA66.kham</comment>
+      <string>\u00AA66\u00AA66\u00FE00</string>
+    </test>
+    <test label="U+AA6B
+U+AA6B
+U+FE00">
+      <comment>uAA6B.kham</comment>
+      <string>\u00AA6B\u00AA6B\u00FE00</string>
+    </test>
+    <test label="U+AA6C
+U+AA6C
+U+FE00">
+      <comment>uAA6C.kham</comment>
+      <string>\u00AA6C\u00AA6C\u00FE00</string>
+    </test>
+    <test label="U+AA6F
+U+AA6F
+U+FE00">
+      <comment>uAA6F.kham</comment>
+      <string>\u00AA6F\u00AA6F\u00FE00</string>
+    </test>
+    <test label="U+AA73
+U+AA73
+U+FE00">
+      <comment>uAA73.kham</comment>
+      <string>\u00AA73\u00AA73\u00FE00</string>
+    </test>
+    <test label="U+AA75
+U+AA75
+U+FE00">
+      <comment>uAA75.kham</comment>
+      <string>\u00AA75\u00AA75\u00FE00</string>
+    </test>
+    <test label="U+AA76
+U+AA76
+U+FE00">
+      <comment>uAA76.kham</comment>
+      <string>\u00AA76\u00AA76\u00FE00</string>
+    </test>
+    <test label="U+AA7A
+U+AA7A
+U+FE00">
+      <comment>uAA7A.aiph</comment>
+      <string>\u00AA7A\u00AA7A\u00FE00</string>
+    </test>
+  </testgroup>
 </ftml>
