@@ -504,7 +504,23 @@
       <string>\u1010\u101B\u103B \u1010\u101B\u1039\u1015\u103B \u1010\u101B\u1039\u1015\u1039\u101E\u103B</string>
     </test>
     <test label="1010, 101B, 1039, 1050, 1039, 100B, 101D (line 91)">
-      <string>\u1006\u1039\u100B \u1006\u1039\u100B\u1039\u100B \u1010\u101B\u1039\u1050\u1039\u100B\u101D</string>
+      <string>\u1010\u101B\u1039\u1050\u1039\u100B\u101D</string>
+    </test>
+    <test label="100B 100C 100D 1020">
+      <comment>tta ttha dda lla</comment>
+      <string>\u100B \u100C \u100D \u1020</string>
+    </test>
+    <test label="medial 100B 100C 100D 1020">
+      <comment>tta.med ttha.med dda.med lla.med</comment>
+      <string>\u1006\u1039\u100B \u1006\u1039\u100C \u1006\u1039\u100D \u1006\u1039\u1020</string>
+    </test>
+    <test label="small medial 100B 100C 100D 1020">
+      <comment>tta.sml ttha.sml dda.sml lla.sml</comment>
+      <string>\u1006\u1039\u100B\u1039\u100B \u1006\u1039\u100C\u1039\u100C \u1006\u1039\u100D\u1039\u100D \u1006\u1039\u1020\u1039\u1020</string>
+    </test>
+    <test label="medial ligatures 100B_100B 100B_100C 100D_100D 100F_100B 100F_100D 1020_1020">
+      <comment>tta_tta.med tta_ttha.med dda_dda.med nna_tta.med nna_dda.med lla_lla.med</comment>
+      <string>\u100B\u1039\u100B \u100B\u1039\u100C \u100D\u1039\u100D \u100F\u1039\u100B \u100F\u1039\u100D \u1020\u1039\u1020</string>
     </test>
     <test label="1008, 1009, 1039, 1018, 1039, 1051 (last cluster is line 95)">
       <string>\u1009\u1039\u1018 \u1008\u1009\u1039\u1018\u1039\u1051</string>
