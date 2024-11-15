@@ -189,14 +189,6 @@
     </test>
   </testgroup>
   <testgroup label="#45 Missing glyph and not rendered as expected for Tai Laing">
-    <test label="U+A9E4">
-      <comment>bhaShan</comment>
-      <string>\uA9E4</string>
-    </test>
-    <test label="U+A9E8">
-      <comment>faTaiLaing</comment>
-      <string>\uA9E8</string>
-    </test>
     <test label="U+AA65 U+1030">
       <comment>bug in gr</comment>
       <string>\uAA65\u1030</string>

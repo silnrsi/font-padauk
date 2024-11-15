@@ -126,6 +126,12 @@ lookup cv09 {
     sub uAA6C by uAA6C.alt ; # Tai Laing variant
 } cv09;
 
+lookup cv10 {
+    # Tai Laing variants
+    sub uA9E4 by uA9E4.alt;
+    sub uA9E8 by uA9E8.alt;
+} cv10;
+
 
 # ****
 # rphf

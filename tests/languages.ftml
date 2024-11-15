@@ -34,6 +34,11 @@
       <style                  lang="qin" name="qin"/>
       <style feats="'cv03' 1"            name="cv03_1"/>
       <style feats="'ss03' 1"            name="ss03_1"/>
+      <style                  lang="tjl" name="tjl"/>
+      <style feats="'cv09' 1"            name="cv09_1"/>
+      <style feats="'ss09' 1"            name="ss09_1"/>
+      <style feats="'cv10' 1"            name="cv10_1"/>
+      <style feats="'ss10' 1"            name="ss10_1"/>
     </styles>
     <title>Languages</title>
   </head>
@@ -126,6 +131,36 @@
     <test label="ss03" stylename="ss03_1">
       <comment>dotted form</comment>
       <string>\u1000\u106D</string>
+    </test>
+  </testgroup>
+  <testgroup label="#40 language support - Tai Laing">
+    <test label="default">
+      <comment>round</comment>
+      <string>\uAA6C</string>
+    </test>
+    <test label="tjl" stylename="tjl">
+      <comment>hook</comment>
+      <string>\uAA6C</string>
+    </test>
+    <test label="cv09" stylename="cv09_1">
+      <comment>hook</comment>
+      <string>\uAA6C</string>
+    </test>
+    <test label="ss09" stylename="ss09_1">
+      <comment>hook</comment>
+      <string>\uAA6C</string>
+    </test>
+    <test label="U+A9E4 U+A9E8 default">
+      <comment>bhaShan faTaiLaing</comment>
+      <string>\uA9E4 \uA9E8</string>
+    </test>
+    <test label="U+A9E4 U+A9E8 cv10" stylename="cv10_1">
+      <comment>bhaShan faTaiLaing</comment>
+      <string>\uA9E4 \uA9E8</string>
+    </test>
+    <test label="U+A9E4 U+A9E8 ss10" stylename="ss10_1">
+      <comment>bhaShan faTaiLaing</comment>
+      <string>\uA9E4 \uA9E8</string>
     </test>
   </testgroup>
 </ftml>

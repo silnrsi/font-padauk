@@ -63,6 +63,8 @@ feature locl {
       lookup mym2_locl_dot;
       lookup mym2_locl_khamti;
       lookup cv05;
+    language TJL  exclude_dflt;
+      lookup cv09;
 } locl;
 
 
@@ -154,6 +156,16 @@ feature cv09 {      # Tai Laing AA6C variant
     language TJL;
 } cv09;
 
+feature cv10 {      # Tai Laing A9E4/A9E8 variants
+    script mym2;
+      cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Tai Laing variants" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Tai Laing variants" ; };
+      } ;
+      lookup cv10;
+    language dflt;
+} cv10;
+
 feature ss01 {      # filled dots
     script mym2;
       featureNames { name 3 1 0x409 "Filled dots" ; };
@@ -210,6 +222,13 @@ feature ss09 {      # Tai Laing AA6C variant
     language dflt;
     language TJL;
 } ss09;
+
+feature ss10 {      # Tai Laing A9E4/A9E8 variants
+    script mym2;
+      featureNames { name 3 1 0x409 "Tai Laing variants" ; };
+      lookup cv10;
+    language dflt;
+} ss10;
 
 feature rphf {
  script mym2;

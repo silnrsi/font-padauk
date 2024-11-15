@@ -84,6 +84,13 @@ taiLaing
     default = 0;
 }
 
+taiLaingAlt
+{
+    id = "cv10";
+    name.LG_USENG = string("Tai Laing variants");
+    default = 0;
+}
+
 lldot
 {
     id = "lldt";
@@ -177,4 +184,3 @@ taiLaing {
 };
 
 endtable;
-

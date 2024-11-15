@@ -990,6 +990,11 @@ if (taiLaing)
 gaa6c > gaa6c_alt;
 endif;
 
+if (taiLaingAlt)
+ga9e4 > ga9e4_alt;
+ga9e8 > ga9e8_alt;
+endif;
+
 endpass;
 
 endtable; // substitution table
