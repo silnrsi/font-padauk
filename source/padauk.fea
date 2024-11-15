@@ -55,6 +55,14 @@ feature locl {
       lookup mym2_locl_csh;
     language QIN  exclude_dflt; # Microsoft maps csh to QIN
       lookup mym2_locl_csh;
+    language AIO  exclude_dflt;
+      lookup mym2_locl_dot;
+      lookup mym2_locl_khamti;
+      lookup cv05;
+    language PHK  exclude_dflt;
+      lookup mym2_locl_dot;
+      lookup mym2_locl_khamti;
+      lookup cv05;
 } locl;
 
 
@@ -108,8 +116,8 @@ feature cv05 {      # Aiton Phake variants
       } ;
       lookup cv05;
     language dflt;
-#    language AIO;
-#    language PHK;
+    language AIO;
+    language PHK;
 } cv05;
 
 feature cv06 {      # khamti 1086 variant
@@ -180,8 +188,8 @@ feature ss05 {      # Aiton Phake variants
       featureNames { name 3 1 0x409 "Aiton Phake special characters over Khamti" ; };
       lookup cv05;
     language dflt;
-#    language AIO;
-#    language PHK;
+    language AIO;
+    language PHK;
 } ss05;
 
 feature ss06 {      # khamti 1086 variant

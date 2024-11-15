@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../tools/ftml.xsl"?>
+<ftml version="1.0">
+  <head>
+    <fontscale>200</fontscale>
+    <fontsrc label="grRref">url(../references/PadaukBook-Regular.ttf)</fontsrc>
+    <fontsrc label="grBref">url(../references/PadaukBook-Bold.ttf)</fontsrc>
+    <fontsrc label="dfltRref">url(../references/PadaukBook-Regular_ot_DFLT.ttf)</fontsrc>
+    <fontsrc label="dfltBref">url(../references/PadaukBook-Bold_ot_DFLT.ttf)</fontsrc>
+    <fontsrc label="mym2Rref">url(../references/PadaukBook-Regular_ot_mym2.ttf)</fontsrc>
+    <fontsrc label="mym2Bref">url(../references/PadaukBook-Bold_ot_mym2.ttf)</fontsrc>
+    <fontsrc label="grR">url(../results/PadaukBook-Regular.ttf)</fontsrc>
+    <fontsrc label="grB">url(../results/PadaukBook-Bold.ttf)</fontsrc>
+    <fontsrc label="dfltR">url(../results/tests/ftml/fonts/PadaukBook-Regular_ot_DFLT.ttf)</fontsrc>
+    <fontsrc label="dfltB">url(../results/tests/ftml/fonts/PadaukBook-Bold_ot_DFLT.ttf)</fontsrc>
+    <fontsrc label="mym2R">url(../results/tests/ftml/fonts/PadaukBook-Regular_ot_mym2.ttf)</fontsrc>
+    <fontsrc label="mym2B">url(../results/tests/ftml/fonts/PadaukBook-Bold_ot_mym2.ttf)</fontsrc>
+    <fontsrc label="Pyidaungsu">url(../references/Pyidaungsu-2.5.3_Regular.ttf)</fontsrc>
+    <fontsrc label="notoSans">url(../references/NotoSansMyanmar-Regular.ttf)</fontsrc>
+    <fontsrc label="notoSerif">url(../references/NotoSerifMyanmar-Regular.ttf)</fontsrc>
+    <styles>
+      <style                  lang="khn" name="khn"/>
+      <style                  lang="kht" name="kht"/>
+      <style feats="'cv01' 1"            name="cv01_1"/>
+      <style feats="'ss01' 1"            name="ss01_1"/>
+      <style feats="'cv06' 1"            name="cv06_1"/>
+      <style feats="'ss06' 1"            name="ss06_1"/>
+      <style                  lang="kyu" name="kyu"/>
+      <style                  lang="aio" name="aio"/>
+      <style                  lang="phk" name="phk"/>
+      <style feats="'cv05' 1"            name="cv05_1"/>
+      <style feats="'ss05' 1"            name="ss05_1"/>
+      <style                  lang="csh" name="csh"/>
+      <style                  lang="qin" name="qin"/>
+      <style feats="'cv03' 1"            name="cv03_1"/>
+      <style feats="'ss03' 1"            name="ss03_1"/>
+    </styles>
+    <title>Languages</title>
+  </head>
+  <testgroup background="#f0f0f0" label="Rendering Check">
+    <test label="check">
+      <string>RenderingUnknown</string>
+    </test>
+  </testgroup>
+  <testgroup label="#40 language support - Khamti Shan">
+    <test label="default">
+      <comment>open dots</comment>
+      <string>\u1036 \u1038 \u1087 \u1088 \u1089 \u108A \u109A \u109B \uAA7B \u1086</string>
+    </test>
+    <test label="khn - Khandeshi" stylename="khn">
+      <comment>filled dots</comment>
+      <string>\u1036 \u1038 \u1087 \u1088 \u1089 \u108A \u109A \u109B \uAA7B \u1086</string>
+    </test>
+    <test label="kht - Khamti" stylename="kht">
+      <comment>filled dots</comment>
+      <string>\u1036 \u1038 \u1087 \u1088 \u1089 \u108A \u109A \u109B \uAA7B \u1086</string>
+    </test>
+    <test label="cv01" stylename="cv01_1">
+      <comment>filled dots except last</comment>
+      <string>\u1036 \u1038 \u1087 \u1088 \u1089 \u108A \u109A \u109B \uAA7B \u1086</string>
+    </test>
+    <test label="ss01" stylename="ss01_1">
+      <comment>filled dots except last</comment>
+      <string>\u1036 \u1038 \u1087 \u1088 \u1089 \u108A \u109A \u109B \uAA7B \u1086</string>
+    </test>
+    <test label="cv06" stylename="cv06_1">
+      <comment>filled dots only last</comment>
+      <string>\u1036 \u1038 \u1087 \u1088 \u1089 \u108A \u109A \u109B \uAA7B \u1086</string>
+    </test>
+    <test label="ss06" stylename="ss06_1">
+      <comment>filled dots only last</comment>
+      <string>\u1036 \u1038 \u1087 \u1088 \u1089 \u108A \u109A \u109B \uAA7B \u1086</string>
+    </test>
+  </testgroup>
+  <testgroup label="#40 language support - Aiton and Phake">
+    <test label="default-dots">
+      <comment>open dots</comment>
+      <string>\u1036 \u1038 \u1087 \u1088 \u1089 \u108A \u109A \u109B \uAA7B \u1086</string>
+    </test>
+    <test label="aio" stylename="aio">
+      <comment>filled dots</comment>
+      <string>\u1036 \u1038 \u1087 \u1088 \u1089 \u108A \u109A \u109B \uAA7B \u1086</string>
+    </test>
+    <test label="phk" stylename="phk">
+      <comment>filled dots</comment>
+      <string>\u1036 \u1038 \u1087 \u1088 \u1089 \u108A \u109A \u109B \uAA7B \u1086</string>
+    </test>
+    <test label="default-dotted_form">
+      <comment>single dotted forms</comment>
+      <string>\u1000\uFE00 \u1075\uFE00 \uAA61\uFE00 \u107A \u1010\uFE00 \uAA6B\uFE00 \u1078\uFE00 \u101A\uFE00 \uAA7A \u101C\uFE00 \uAA6D \u1022\uFE00 \u103C</string>
+    </test>
+    <test label="aio" stylename="aio">
+      <comment>double dotted forms</comment>
+      <string>\u1000\uFE00 \u1075\uFE00 \uAA61\uFE00 \u107A \u1010\uFE00 \uAA6B\uFE00 \u1078\uFE00 \u101A\uFE00 \uAA7A \u101C\uFE00 \uAA6D \u1022\uFE00 \u103C</string>
+    </test>
+    <test label="phk" stylename="phk">
+      <comment>double dotted forms</comment>
+      <string>\u1000\uFE00 \u1075\uFE00 \uAA61\uFE00 \u107A \u1010\uFE00 \uAA6B\uFE00 \u1078\uFE00 \u101A\uFE00 \uAA7A \u101C\uFE00 \uAA6D \u1022\uFE00 \u103C</string>
+    </test>
+    <test label="cv05" stylename="cv05_1">
+      <comment>double dotted forms</comment>
+      <string>\u1000\uFE00 \u1075\uFE00 \uAA61\uFE00 \u107A \u1010\uFE00 \uAA6B\uFE00 \u1078\uFE00 \u101A\uFE00 \uAA7A \u101C\uFE00 \uAA6D \u1022\uFE00 \u103C</string>
+    </test>
+    <test label="ss05" stylename="ss05_1">
+      <comment>double dotted forms</comment>
+      <string>\u1000\uFE00 \u1075\uFE00 \uAA61\uFE00 \u107A \u1010\uFE00 \uAA6B\uFE00 \u1078\uFE00 \u101A\uFE00 \uAA7A \u101C\uFE00 \uAA6D \u1022\uFE00 \u103C</string>
+    </test>
+  </testgroup>
+  <testgroup label="#40 language support - Asho Chin">
+    <test label="default">
+      <comment>no dotted form</comment>
+      <string>\u1000\u106D</string>
+    </test>
+    <test label="csh" stylename="csh">
+      <comment>dotted form</comment>
+      <string>\u1000\u106D</string>
+    </test>
+    <test label="qin" stylename="qin">
+      <comment>dotted form</comment>
+      <string>\u1000\u106D</string>
+    </test>
+    <test label="cv03" stylename="cv03_1">
+      <comment>dotted form</comment>
+      <string>\u1000\u106D</string>
+    </test>
+    <test label="ss03" stylename="ss03_1">
+      <comment>dotted form</comment>
+      <string>\u1000\u106D</string>
+    </test>
+  </testgroup>
+</ftml>

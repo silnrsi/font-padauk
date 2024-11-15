@@ -5171,6 +5171,8 @@ lookup mym2_blws_miscLig {
     # Sgaw Karen
     sub u103D.tri u103E.slantr by u103D_u103E.tri;
     # Kayah
+    sub u103D.tri u103E by u103D_u103E.tri;
+    # Shan
     sub u103D u1060 by u103D_u1060;
     sub u103E u1060 by u103E_u1060;
     sub u1051 u100C.med by u1051_u100C;
@@ -8004,6 +8006,14 @@ feature locl {
     language QIN exclude_dflt;
     # Microsoft maps csh to QIN
     lookup mym2_locl_csh;
+    language AIO exclude_dflt;
+    lookup mym2_locl_dot;
+    lookup mym2_locl_khamti;
+    lookup cv05;
+    language PHK exclude_dflt;
+    lookup mym2_locl_dot;
+    lookup mym2_locl_khamti;
+    lookup cv05;
 } locl;
 
 feature cv01 {
@@ -8096,8 +8106,8 @@ feature cv05 {
 
     lookup cv05;
     language dflt;
-    #    language AIO;
-    #    language PHK;
+    language AIO;
+    language PHK;
 } cv05;
 
 feature cv06 {
@@ -8215,8 +8225,8 @@ feature ss05 {
 
     lookup cv05;
     language dflt;
-    #    language AIO;
-    #    language PHK;
+    language AIO;
+    language PHK;
 } ss05;
 
 feature ss06 {

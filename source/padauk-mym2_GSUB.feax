@@ -470,6 +470,7 @@ lookup mym2_blws_miscLig {
     sub u103B u103E.slantr  by u103B_u103E; # Kayah
     sub u103B u103E.slanth  by u103B_u103E; # Sgaw Karen
     sub u103D.tri u103E.slantr  by u103D_u103E.tri; # Kayah
+    sub u103D.tri u103E  by u103D_u103E.tri; # Shan
     sub u103D u1060  by u103D_u1060;
     sub u103E u1060  by u103E_u1060;
     sub u1051 u100C.med  by u1051_u100C;
