@@ -11,10 +11,10 @@
     -->
     <fontsrc label="grRref">url(../references/PadaukBook-Regular.ttf)</fontsrc>
     <fontsrc label="grBref">url(../references/PadaukBook-Bold.ttf)</fontsrc>
-    <fontsrc label="dfltRref">url(../references/PadaukBook-Regular_ot_DFLT.ttf)</fontsrc>
-    <fontsrc label="dfltBref">url(../references/PadaukBook-Bold_ot_DFLT.ttf)</fontsrc>
-    <fontsrc label="mym2Rref">url(../references/PadaukBook-Regular_ot_mym2.ttf)</fontsrc>
-    <fontsrc label="mym2Bref">url(../references/PadaukBook-Bold_ot_mym2.ttf)</fontsrc>
+    <fontsrc label="dfltRref">url(../references/tests/ftml/fonts/PadaukBook-Regular_ot_DFLT.ttf)</fontsrc>
+    <fontsrc label="dfltBref">url(../references/tests/ftml/fonts/PadaukBook-Bold_ot_DFLT.ttf)</fontsrc>
+    <fontsrc label="mym2Rref">url(../references/tests/ftml/fonts/PadaukBook-Regular_ot_mym2.ttf)</fontsrc>
+    <fontsrc label="mym2Bref">url(../references/tests/ftml/fonts/PadaukBook-Bold_ot_mym2.ttf)</fontsrc>
     <fontsrc label="grR">url(../results/PadaukBook-Regular.ttf)</fontsrc>
     <fontsrc label="grB">url(../results/PadaukBook-Bold.ttf)</fontsrc>
     <fontsrc label="dfltR">url(../results/tests/ftml/fonts/PadaukBook-Regular_ot_DFLT.ttf)</fontsrc>
@@ -40,8 +40,6 @@
       <style feats="'cv02' 1"            name="cv02_1"/>
       <style feats="'cv02' 1" lang="ksw" name="ksw_cv02_1"/>
       <style feats="'cv05' 1"            name="cv05_1"/>
-      <style feats="'cv07' 1"            name="cv07_1"/>
-      <style feats="'cv07' 1" lang="ksw" name="ksw_cv07_1"/>
     </styles>
     <title>Issues</title>
   </head>
@@ -300,18 +298,6 @@
     </test>
     <test label="example (ksw+cv02)" stylename="ksw_cv02_1">
       <string>\u1006\u1004\u103d\u1037 \u1006\u1003\u103d\u1037 \u1006\u101b\u103d\u1037</string>
-    </test>
-    <test label="documentation">
-      <string>\u101b\u1037 \u101b\u1036\u1037 \u1000\u103e\u1037</string>
-    </test>
-    <test label="documentation (ksw)" stylename="ksw">
-      <string>\u101b\u1037 \u101b\u1036\u1037 \u1000\u103e\u1037</string>
-    </test>
-    <test label="documentation (cv07)" stylename="cv07_1">
-      <string>\u101b\u1037 \u101b\u1036\u1037 \u1000\u103e\u1037</string>
-    </test>
-    <test label="documentation (ksw+cv07)" stylename="ksw_cv07_1">
-      <string>\u101b\u1037 \u101b\u1036\u1037 \u1000\u103e\u1037</string>
     </test>
     <test label="medial 1000 and 1037">
       <comment>ka.med lower_dot</comment>

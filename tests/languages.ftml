@@ -5,20 +5,30 @@
     <fontscale>200</fontscale>
     <fontsrc label="grRref">url(../references/PadaukBook-Regular.ttf)</fontsrc>
     <fontsrc label="grBref">url(../references/PadaukBook-Bold.ttf)</fontsrc>
-    <fontsrc label="dfltRref">url(../references/PadaukBook-Regular_ot_DFLT.ttf)</fontsrc>
-    <fontsrc label="dfltBref">url(../references/PadaukBook-Bold_ot_DFLT.ttf)</fontsrc>
-    <fontsrc label="mym2Rref">url(../references/PadaukBook-Regular_ot_mym2.ttf)</fontsrc>
-    <fontsrc label="mym2Bref">url(../references/PadaukBook-Bold_ot_mym2.ttf)</fontsrc>
+    <fontsrc label="dfltRref">url(../references/tests/ftml/fonts/PadaukBook-Regular_ot_DFLT.ttf)</fontsrc>
+    <fontsrc label="dfltBref">url(../references/tests/ftml/fonts/PadaukBook-Bold_ot_DFLT.ttf)</fontsrc>
+    <fontsrc label="mym2Rref">url(../references/tests/ftml/fonts/PadaukBook-Regular_ot_mym2.ttf)</fontsrc>
+    <fontsrc label="mym2Bref">url(../references/tests/ftml/fonts/PadaukBook-Bold_ot_mym2.ttf)</fontsrc>
     <fontsrc label="grR">url(../results/PadaukBook-Regular.ttf)</fontsrc>
     <fontsrc label="grB">url(../results/PadaukBook-Bold.ttf)</fontsrc>
     <fontsrc label="dfltR">url(../results/tests/ftml/fonts/PadaukBook-Regular_ot_DFLT.ttf)</fontsrc>
     <fontsrc label="dfltB">url(../results/tests/ftml/fonts/PadaukBook-Bold_ot_DFLT.ttf)</fontsrc>
     <fontsrc label="mym2R">url(../results/tests/ftml/fonts/PadaukBook-Regular_ot_mym2.ttf)</fontsrc>
     <fontsrc label="mym2B">url(../results/tests/ftml/fonts/PadaukBook-Bold_ot_mym2.ttf)</fontsrc>
+    <fontsrc label="nkR">url(../results/tests/ftml/fonts/khamti/NamKioBook-Regular_ot_DFLT.ttf)</fontsrc>
+    <fontsrc label="nkB">url(../results/tests/ftml/fonts/khamti/NamKioBook-Bold_ot_DFLT.ttf)</fontsrc>
+    <fontsrc label="dmR">url(../results/tests/ftml/fonts/deemawso/DeemawsoBook-Regular_ot_DFLT.ttf)</fontsrc>
+    <fontsrc label="dmB">url(../results/tests/ftml/fonts/deemawso/DeemawsoBook-Bold_ot_DFLT.ttf)</fontsrc>
     <fontsrc label="Pyidaungsu">url(../references/Pyidaungsu-2.5.3_Regular.ttf)</fontsrc>
     <fontsrc label="notoSans">url(../references/NotoSansMyanmar-Regular.ttf)</fontsrc>
     <fontsrc label="notoSerif">url(../references/NotoSerifMyanmar-Regular.ttf)</fontsrc>
     <styles>
+      <style                  lang="ksw" name="ksw"/>
+      <style feats="'cv02' 1"            name="cv02_1"/>
+      <style feats="'ss02' 1"            name="ss02_1"/>
+      <style feats="'cv07' 1"            name="cv07_1"/>
+      <style feats="'cv07' 2"            name="cv07_2"/>
+      <style feats="'cv07' 1" lang="ksw" name="ksw_cv07_1"/>
       <style                  lang="khn" name="khn"/>
       <style                  lang="kht" name="kht"/>
       <style feats="'cv01' 1"            name="cv01_1"/>
@@ -26,6 +36,7 @@
       <style feats="'cv06' 1"            name="cv06_1"/>
       <style feats="'ss06' 1"            name="ss06_1"/>
       <style                  lang="kyu" name="kyu"/>
+      <style                  lang="shn" name="shn"/>
       <style                  lang="aio" name="aio"/>
       <style                  lang="phk" name="phk"/>
       <style feats="'cv05' 1"            name="cv05_1"/>
@@ -39,12 +50,70 @@
       <style feats="'ss09' 1"            name="ss09_1"/>
       <style feats="'cv10' 1"            name="cv10_1"/>
       <style feats="'ss10' 1"            name="ss10_1"/>
+      <style                  lang="mnw" name="mnw"/>
+      <style feats="'cv04' 1"            name="cv04_1"/>
+      <style feats="'ss04' 1"            name="ss04_1"/>
+      <style feats="'nnya' 1"            name="nnya_1"/>
     </styles>
     <title>Languages</title>
   </head>
   <testgroup background="#f0f0f0" label="Rendering Check">
     <test label="check">
       <string>RenderingUnknown</string>
+    </test>
+  </testgroup>
+  <testgroup label="#40 language support - S’gaw Karen">
+    <test label="default-dot">
+      <comment>dot on right</comment>
+      <string>\u101b\u1037 \u101b\u1036\u1037 \u1000\u103e\u1037</string>
+    </test>
+    <test label="ksw" stylename="ksw">
+      <comment>dot on left</comment>
+      <string>\u101b\u1037 \u101b\u1036\u1037 \u1000\u103e\u1037</string>
+    </test>
+    <test label="cv07=1" stylename="cv07_1">
+      <comment>sgaw slanted horizontal foot</comment>
+      <string>\u101b\u1037 \u101b\u1036\u1037 \u1000\u103e\u1037</string>
+    </test>
+    <test label="ksw cv07=1" stylename="ksw_cv07_1">
+      <comment>dot on left and sgaw slanted horizontal foot</comment>
+      <string>\u101b\u1037 \u101b\u1036\u1037 \u1000\u103e\u1037</string>
+    </test>
+    <test label="default-washwe">
+      <comment>round washwe</comment>
+      <string>\u1010\u103D \u1010\u103B\u103D \u1010\u103C\u103D \u1012\u103C\u103D \u1010\u103D\u103E</string>
+    </test>
+    <test label="ksw" stylename="ksw">
+      <comment>mixed round / tear drop washwe</comment>
+      <string>\u1010\u103D \u1010\u103B\u103D \u1010\u103C\u103D \u1012\u103C\u103D \u1010\u103D\u103E</string>
+    </test>
+    <test label="cv02" stylename="cv02_1">
+      <comment>tear drop washwe</comment>
+      <string>\u1010\u103D \u1010\u103B\u103D \u1010\u103C\u103D \u1012\u103C\u103D \u1010\u103D\u103E</string>
+    </test>
+    <test label="ss02" stylename="ss02_1">
+      <comment>tear drop washwe</comment>
+      <string>\u1010\u103D \u1010\u103B\u103D \u1010\u103C\u103D \u1012\u103C\u103D \u1010\u103D\u103E</string>
+    </test>
+    <test label="default-hato">
+      <comment>upright</comment>
+      <string>\u103E \u103E\u102F \u103E\u1030 \u1061 \u1066</string>
+    </test>
+    <test label="ksw" stylename="ksw">
+      <comment>sgaw slanted horizontal foot</comment>
+      <string>\u103E \u103E\u102F \u103E\u1030 \u1061 \u1066</string>
+    </test>
+    <test label="cv07=1" stylename="cv07_1">
+      <comment>sgaw slanted horizontal foot</comment>
+      <string>\u103E \u103E\u102F \u103E\u1030 \u1061 \u1066</string>
+    </test>
+    <test label="default-misc">
+      <comment>upright</comment>
+      <string>\u1061\u1030\u1038 \u1066\u1037\u1064\u1001\u103b\u1037 \u1001\u103e \u1000\u103d\u1037</string>
+    </test>
+    <test label="ksw" stylename="ksw">
+      <comment>dot on left</comment>
+      <string>\u1061\u1030\u1038 \u1066\u1037\u1064\u1001\u103b\u1037 \u1001\u103e \u1000\u103d\u1037</string>
     </test>
   </testgroup>
   <testgroup label="#40 language support - Khamti Shan">
@@ -75,6 +144,38 @@
     <test label="ss06" stylename="ss06_1">
       <comment>filled dots only last</comment>
       <string>\u1036 \u1038 \u1087 \u1088 \u1089 \u108A \u109A \u109B \uAA7B \u1086</string>
+    </test>
+  </testgroup>
+  <testgroup label="#40 language support - Western Kayah">
+    <test label="default-washwe">
+      <comment>round washwe</comment>
+      <string>\u1010\u103D \u1010\u103B\u103D \u1010\u103C\u103D \u1012\u103C\u103D \u1010\u103D\u103E</string>
+    </test>
+    <test label="kyu" stylename="kyu">
+      <comment>tear drop washwe</comment>
+      <string>\u1010\u103D \u1010\u103B\u103D \u1010\u103C\u103D \u1012\u103C\u103D \u1010\u103D\u103E</string>
+    </test>
+    <test label="default-hato">
+      <comment>upright</comment>
+      <string> \u103E \u103E\u102F \u103E\u1030 \u1061 \u1066</string>
+    </test>
+    <test label="kyu" stylename="kyu">
+      <comment>slanted right angled foot</comment>  
+      <string>\u103E \u103E\u102F \u103E\u1030 \u1061 \u1066</string>
+    </test>
+    <test label="cv07=2" stylename="cv07_2">
+      <comment>slanted right angled foot</comment>  
+      <string>\u103E \u103E\u102F \u103E\u1030 \u1061 \u1066</string>
+    </test>
+  </testgroup>
+  <testgroup label="#40 language support - Shan">
+    <test label="default">
+      <comment>round washwe</comment>
+      <string>\u1010\u103D \u1010\u103B\u103D \u1010\u103C\u103D \u1012\u103C\u103D \u1010\u103D\u103E</string>
+    </test>
+    <test label="shn" stylename="shn">
+      <comment>tear drop washwe</comment>
+      <string>\u1010\u103D \u1010\u103B\u103D \u1010\u103C\u103D \u1012\u103C\u103D \u1010\u103D\u103E</string>
     </test>
   </testgroup>
   <testgroup label="#40 language support - Aiton and Phake">
@@ -161,6 +262,32 @@
     <test label="U+A9E4 U+A9E8 ss10" stylename="ss10_1">
       <comment>bhaShan faTaiLaing</comment>
       <string>\uA9E4 \uA9E8</string>
+    </test>
+  </testgroup>
+  <testgroup label="#40 language support - Mon">
+    <test label="default">
+      <comment>no small loops</comment>
+      <string>\u1003 \u100B \u100C \u100D \u100E \u1012 \u1014 \u101E \u1020 \u1021 \u1023 \u103F \u1049 \u104A \u104B \u105A\u103A\u1039</string>
+    </test>
+    <test label="mnw" stylename="mnw">
+      <comment>small loops</comment>
+      <string>\u1003 \u100B \u100C \u100D \u100E \u1012 \u1014 \u101E \u1020 \u1021 \u1023 \u103F \u1049 \u104A \u104B \u105A\u103A\u1039</string>
+    </test>
+    <test label="cv04" stylename="cv04_1">
+      <comment>small loops</comment>
+      <string>\u1003 \u100B \u100C \u100D \u100E \u1012 \u1014 \u101E \u1020 \u1021 \u1023 \u103F \u1049 \u104A \u104B \u105A\u103A\u1039</string>
+    </test>
+    <test label="ss04" stylename="ss04_1">
+      <comment>small loops</comment>
+      <string>\u1003 \u100B \u100C \u100D \u100E \u1012 \u1014 \u101E \u1020 \u1021 \u1023 \u103F \u1049 \u104A \u104B \u105A\u103A\u1039</string>
+    </test>
+    <test label="U+100A">
+      <comment>nnya at both ends - great nnya</comment>
+      <string>\u100A\u1039\u100A</string>
+    </test>
+    <test label="U+100A" stylename="nnya_1">
+      <comment>nnya at both ends - medial nnya</comment>
+      <string>\u100A\u1039\u100A</string>
     </test>
   </testgroup>
 </ftml>

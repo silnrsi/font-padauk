@@ -64,10 +64,14 @@ wscript text eol=lf
 *.ttf binary
 *.pdf binary
 *.PDF binary
+*.odt binary
+*.ODT binary
 
 # other document formats
 *.pdf diff=astextplain
 *.PDF diff=astextplain
+*.odt diff=astextplain
+*.ODT diff=astextplain
 *.doc diff=astextplain
 *.DOC diff=astextplain
 *.docx diff=astextplain

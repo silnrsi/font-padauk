@@ -18,14 +18,14 @@
 % \section{Consonants with subjoined}
 \pattern[heading=RA-medialYA with subjoined,chars="#",reps="group_consmed",format="table"]{ရ္#ျ}
 \pattern[heading=DDA with subjoined,chars="#",reps="group_consmed",format="table"]{ဍ္#}
-\pattern[heading=U with subjoined,chars="#",reps="group_consmed",format="table"]{ဥ္#}
+\pattern[heading=NYA with subjoined,chars="#",reps="group_consmed",format="table"]{ဉ္#}
 \pattern[heading=Wrap with GHA and subjoined,chars="#",reps="group_consmed",format="table"]{ဃ္#ြ}
 \pattern[heading=Wrap with NGA and subjoined,chars="#",reps="group_consmed",format="table"]{င္#ြ}
 
 % \section{Consonants with two subjoined}
 \pattern[heading=RA-medialYA with two subjoined,chars="@,#",reps="group_consmed,group_consmed",format="table"]{ရ္@္#ျ}
 \pattern[heading=DDA with two subjoined,chars="@,#",reps="group_consmed,group_consmed",format="table"]{ဍ္@္#}
-\pattern[heading=U with two subjoined,chars="@,#",reps="group_consmed,group_consmed",format="table"]{ဥ္@္#}
+\pattern[heading=NYA with two subjoined,chars="@,#",reps="group_consmed,group_consmed",format="table"]{ဉ္@္#}
 \pattern[heading=Wrap with GHA and two subjoined,chars="@,#",reps="group_consmed,group_consmed",format="table"]{ဃ္@္#ြ}
 \pattern[heading=Wrap with NGA and two subjoined,chars="@,#",reps="group_consmed,group_consmed",format="table"]{င္@္#ြ}
 

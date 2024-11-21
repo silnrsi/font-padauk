@@ -6,10 +6,10 @@
     <fontscale>200</fontscale>
     <fontsrc label="grRref">url(../references/PadaukBook-Regular.ttf)</fontsrc>
     <fontsrc label="grBref">url(../references/PadaukBook-Bold.ttf)</fontsrc>
-    <fontsrc label="dfltRref">url(../references/PadaukBook-Regular_ot_DFLT.ttf)</fontsrc>
-    <fontsrc label="dfltBref">url(../references/PadaukBook-Bold_ot_DFLT.ttf)</fontsrc>
-    <fontsrc label="Rref">url(../references/PadaukBook-Regular_ot_mym2.ttf)</fontsrc>
-    <fontsrc label="Bref">url(../references/PadaukBook-Bold_ot_mym2.ttf)</fontsrc>
+    <fontsrc label="dfltRref">url(../references/tests/ftml/fonts/PadaukBook-Regular_ot_DFLT.ttf)</fontsrc>
+    <fontsrc label="dfltBref">url(../references/tests/ftml/fonts/PadaukBook-Bold_ot_DFLT.ttf)</fontsrc>
+    <fontsrc label="Rref">url(../references/tests/ftml/fonts/PadaukBook-Regular_ot_mym2.ttf)</fontsrc>
+    <fontsrc label="Bref">url(../references/tests/ftml/fonts/PadaukBook-Bold_ot_mym2.ttf)</fontsrc>
     <fontsrc label="grR">url(../results/PadaukBook-Regular.ttf)</fontsrc>
     <fontsrc label="grB">url(../results/PadaukBook-Bold.ttf)</fontsrc>
     <fontsrc label="dfltR">url(../results/tests/ftml/fonts/PadaukBook-Regular_ot_DFLT.ttf)</fontsrc>
