@@ -1,21 +1,21 @@
 #!/bin/sh
 
 # Produce individual UFOs from Glyphs file
-psfglyphs2ufo --preservefea source/masters/Padauk.glyphs source/masters -l source/logs/glyphs2ufo.log
+psfglyphs2ufo --preservefea source/masters/Padauk.glyphs source/masters
 
 # This normalization will also run check and fix routines
-psfnormalize -p checkfix=fix source/masters/Padauk-Regular.ufo -l source/logs/normR.log
-# psfnormalize -p checkfix=fix source/masters/Padauk-Book.ufo -l source/logs/normKR.log
-# psfnormalize -p checkfix=fix source/masters/Padauk-Bold.ufo -l source/logs/normB.log
-psfnormalize -p checkfix=fix source/masters/Padauk-BookBold.ufo -l source/logs/normKB.log
+psfnormalize -p checkfix=fix source/masters/Padauk-Regular.ufo
+# psfnormalize -p checkfix=fix source/masters/Padauk-Book.ufo
+# psfnormalize -p checkfix=fix source/masters/Padauk-Bold.ufo
+psfnormalize -p checkfix=fix source/masters/Padauk-BookBold.ufo
 
 # update psnames and sort order in Regular, which also normalizes it
-# psfsetpsnames -p checkfix=fix -i source/glyph_data.csv source/masters/Padauk-Regular.ufo -l source/logs/psnames.log
-# psfsetglyphorder --header sort_final -i source/glyph_data.csv source/masters/Padauk-Regular.ufo -l source/logs/sortorder.log
+# psfsetpsnames -p checkfix=fix -i source/glyph_data.csv source/masters/Padauk-Regular.ufo
+# psfsetglyphorder --header sort_final -i source/glyph_data.csv source/masters/Padauk-Regular.ufo
 
 # copy psnames and glyphorder and any other updates to all fonts
-psfsyncmasters source/Padauk.designspace -l source/logs/sync.log
+psfsyncmasters source/Padauk.designspace
 
  # Fix problem with non-spacing marks due to glyphsLib bug
-psfremovegliflibkeys source/masters/Padauk-Regular.ufo com.schriftgestaltung.Glyphs.originalWidth -l source/logs/rmkeys-R.log
-psfremovegliflibkeys source/masters/Padauk-BookBold.ufo com.schriftgestaltung.Glyphs.originalWidth -l source/logs/rmkeys-KB.log
+psfremovegliflibkeys source/masters/Padauk-Regular.ufo com.schriftgestaltung.Glyphs.originalWidth
+psfremovegliflibkeys source/masters/Padauk-BookBold.ufo com.schriftgestaltung.Glyphs.originalWidth

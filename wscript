@@ -73,10 +73,8 @@ d = designspace('source/Padauk.designspace',
 )
 
 # Make khamti package
-kpackage = package(appname="PadaukNamKio", version=devver)
-dpackage = package(appname="Deemawso", version=devver)
-# kpackage = package(appname="PadaukNamKio", version="5.001") # use only for release versions
-# dpackage = package(appname="Deemawso", version="5.001") # use only for release versions
+kpackage = package(appname="PadaukNamKio", version=VERSION)
+dpackage = package(appname="Deemawso", version=VERSION)
 for f in d.fonts:
     if '-s' in opts:
         continue

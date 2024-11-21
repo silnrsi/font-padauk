@@ -1,4 +1,4 @@
 #!/bin/sh
 # script to convert UFOs to glyphs file for editing
 
-psfufo2glyphs --nofea source/Padauk.designspace source/masters/Padauk.glyphs -l source/logs/psfufo2glyphs.log
+psfufo2glyphs --nofea source/Padauk.designspace source/masters/Padauk.glyphs

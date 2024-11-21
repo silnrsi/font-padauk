@@ -4776,6 +4776,12 @@ lookup cv09 {
     # Tai Laing variant
 } cv09;
 
+lookup cv10 {
+    # Tai Laing variants
+    sub uA9E4 by uA9E4.alt;
+    sub uA9E8 by uA9E8.alt;
+} cv10;
+
 # ****
 # rphf
 # ****
@@ -8014,6 +8020,8 @@ feature locl {
     lookup mym2_locl_dot;
     lookup mym2_locl_khamti;
     lookup cv05;
+    language TJL exclude_dflt;
+    lookup cv09;
 } locl;
 
 feature cv01 {
@@ -8171,6 +8179,24 @@ feature cv09 {
     language TJL;
 } cv09;
 
+feature cv10 {
+    # Tai Laing A9E4/A9E8 variants
+    script mym2;
+        cvParameters {
+                FeatUILabelNameID {
+            name "Tai Laing variants";
+        };
+
+                ParamUILabelNameID {
+            name "Tai Laing variants";
+        };
+
+    };
+
+    lookup cv10;
+    language dflt;
+} cv10;
+
 feature ss01 {
     # filled dots
     script mym2;
@@ -8254,6 +8280,17 @@ feature ss09 {
     language dflt;
     language TJL;
 } ss09;
+
+feature ss10 {
+    # Tai Laing A9E4/A9E8 variants
+    script mym2;
+        featureNames {
+        name "Tai Laing variants";
+    };
+
+    lookup cv10;
+    language dflt;
+} ss10;
 
 feature rphf {
     script mym2;
