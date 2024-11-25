@@ -66,9 +66,10 @@ d = designspace('source/Padauk.designspace',
         master = 'source/myanmar5.gdl',
         params = '-w3521 -w3530 -q -d -D -v5 -e gdlerr-' + '${DS:FILENAME_BASE}' + '.txt', make_params="-m _R",
         depends = ['source/myfeatures.gdl']),
+    version = VERSION,
     script = ['mym2', 'DFLT'],
     extra_srcs = ['tools/bin/makegdl', 'source/myfeatures.gdl'],
-    pdf = fret(params="-r -oi"),
+    pdf = fret(params='-oi'),
     woff = woff('web/${DS:FILENAME_BASE}.woff', params = '-v ' + VERSION + ' -m ../source/padauk-WOFF-metadata.xml')
 )
 

@@ -167,7 +167,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeOS2WinAscent</key>
   <integer>1010</integer>
   <key>openTypeOS2WinDescent</key>
-  <integer>500</integer>
+  <integer>784</integer>
   <key>postscriptFontName</key>
   <string>Padauk-Regular</string>
   <key>postscriptFullName</key>
