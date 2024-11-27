@@ -98,6 +98,7 @@ feature cv03 {      # Asho Chin variants
       lookup cv03;
     language dflt;
     language CSH;
+    language QIN;
 } cv03;
 
 feature cv04 {      # mon thai variants
@@ -186,6 +187,7 @@ feature ss03 {      # Asho Chin variants
       lookup cv03;
     language dflt;
     language CSH;
+    language QIN;
 } ss03;
 
 feature ss04 {      # mon thai variants

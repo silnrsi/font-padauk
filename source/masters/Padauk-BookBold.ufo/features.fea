@@ -8559,6 +8559,7 @@ feature cv03 {
     lookup cv03;
     language dflt;
     language CSH;
+    language QIN;
 } cv03;
 
 feature cv04 {
@@ -8710,6 +8711,7 @@ feature ss03 {
     lookup cv03;
     language dflt;
     language CSH;
+    language QIN;
 } ss03;
 
 feature ss04 {
