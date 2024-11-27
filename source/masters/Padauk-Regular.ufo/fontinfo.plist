@@ -83,7 +83,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameUniqueID</key>
   <string>SIL Global: Padauk Regular: 2024</string>
   <key>openTypeNameVersion</key>
-  <string>Version 5.100</string>
+  <string>Version 5.101</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -193,7 +193,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>versionMajor</key>
   <integer>5</integer>
   <key>versionMinor</key>
-  <integer>100</integer>
+  <integer>101</integer>
   <key>xHeight</key>
   <integer>459</integer>
 </dict>

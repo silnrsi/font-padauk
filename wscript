@@ -6,11 +6,6 @@
 # identify extra folders to include in package
 DOCDIR = ["documentation", "web"]
 
-# set release or beta reference folders for regression testing
-STANDARDS = 'references/v5001'
-# STANDARDS = 'references/v5'
-# STANDARDS = 'references/beta'
-
 # set the package and font family names
 APPNAME = 'Padauk'
 FAMILY = APPNAME
