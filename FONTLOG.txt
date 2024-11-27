@@ -114,4 +114,4 @@ D: Glyph design
 N: Keith Stribley
 D: OpenType engineering
 
-The Padauk fonts are maintained by SIL International.
+The Padauk fonts are maintained by SIL Global.
