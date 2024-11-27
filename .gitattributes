@@ -66,6 +66,8 @@ wscript text eol=lf
 *.PDF binary
 *.odt binary
 *.ODT binary
+*.indd binary
+*.INDD binary
 
 # other document formats
 *.pdf diff=astextplain
