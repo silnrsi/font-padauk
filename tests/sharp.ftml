@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
+<ftml version="1.0">
+  <head>
+    <fontscale>200</fontscale>
+    <fontsrc label="Padauk">url(../results/PadaukBook-Regular.ttf)</fontsrc>
+    <fontsrc label="Pyidaungsu">url(../references/Pyidaungsu-2.5.3_Regular.ttf)</fontsrc>
+    <fontsrc label="NotoSans">url(../references/NotoSansMyanmar-Regular.ttf)</fontsrc>
+    <fontsrc label="NotoSerif">url(../references/NotoSerifMyanmar-Regular.ttf)</fontsrc>
+    <styles>
+      <style feats="'cv04' 1" name="cv04_1"/>
+    </styles>
+    <title>Sharp</title>
+  </head>
+  <testgroup label="Sharpen the corners">
+    <test label="U+103C">
+      <string>\u103C</string>
+    </test>
+    <test label="U+1005 U+103B">
+      <string>\u1005\u103B</string>
+    </test>
+    <test label="U+100A">
+      <string>\u100A</string>
+    </test>
+  </testgroup>
+  <testgroup label="Initial analysis">
+    <test label="U+1000 U+1001 U+103C">
+      <string>\u1000\u1039\u1001\u103C</string>
+    </test>
+    <test label="U+1009">
+      <string>\u1009</string>
+    </test>
+    <test label="U+1006 U+1009">
+      <string>\u1006\u1039\u1009</string>
+    </test>
+    <test label="U+1014 U+1010 U+103C">
+      <string>\u1014\u1039\u1010\u103C</string>
+    </test>
+    <test label="U+101E U+1010 U+103C">
+      <string>\u101E\u1039\u1010\u103C</string>
+    </test>
+    <test label="U+1025">
+      <string>\u1025</string>
+    </test>
+    <test label="U+1026">
+      <string>\u1026</string>
+    </test>
+    <test label="U+1029">
+      <string>\u1029</string>
+    </test>
+    <test label="U+102A">
+      <string>\u102A</string>
+    </test>
+    <test label="U+AA7A">
+      <string>\uAA7A</string>
+    </test>
+  </testgroup>
+  <testgroup label="Also affects the following characters">
+    <test label="U+100B U+100C">
+      <string>\u100B\u1039\u100C</string>
+    </test>
+    <test label="U+100C">
+      <string>\u100C</string>
+    </test>
+    <test label="U+100C thai" stylename="cv04_1">
+      <string>\u100C</string>
+    </test>
+    <test label="U+1024">
+      <string>\u1024</string>
+    </test>
+    <test label="U+104C">
+      <string>\u104C</string>
+    </test>
+    <test label="U+104D">
+      <string>\u104D</string>
+    </test>
+    <test label="U+1051 U+100C">
+      <string>\u1051\u1039\u100C</string>
+    </test>
+    <test label="U+105D">
+      <string>\u105D</string>
+    </test>
+    <test label="U+109F">
+      <string>\u109F</string>
+    </test>
+    <test label="U+AA65">
+      <string>\uAA65</string>
+    </test>
+    <test label="U+AA6D">
+      <string>\uAA6D</string>
+    </test>
+    <test label="U+AA74 U+AA75 U+AA76 U+AA77">
+      <string>\uAA74\uAA75\uAA76\uAA77</string>
+    </test>
+    <test label="U+AA7A">
+      <string>\uAA7A</string>
+    </test>
+  </testgroup>
+</ftml>
