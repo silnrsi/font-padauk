@@ -10,6 +10,7 @@ languagesystem DFLT SHN;
 languagesystem DFLT CSH; # Harfbuzz  maps csh to CSH
 languagesystem DFLT QIN; # Microsoft maps csh to QIN
 languagesystem DFLT TJL;
+languagesystem DFLT MONT;
 languagesystem mymr dflt;
 languagesystem mymr KHN;
 languagesystem mymr KHT;
@@ -19,6 +20,7 @@ languagesystem mymr SHN;
 languagesystem mymr CSH;
 languagesystem mymr QIN;
 languagesystem mymr TJL;
+languagesystem mymr MONT;
 languagesystem mym2 dflt;
 languagesystem mym2 KHN;
 languagesystem mym2 KHT;
@@ -28,6 +30,7 @@ languagesystem mym2 SHN;
 languagesystem mym2 CSH;
 languagesystem mym2 QIN;
 languagesystem mym2 TJL;
+languagesystem mym2 MONT;
 
 # -------------
 # GSUB features
@@ -65,6 +68,8 @@ feature locl {
       lookup cv05;
     language TJL  exclude_dflt;
       lookup cv09;
+    language MONT exclude_dflt;
+      lookup cv04;
 } locl;
 
 
