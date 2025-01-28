@@ -20,6 +20,7 @@ languagesystem mymr SHN;
 languagesystem mymr CSH;
 languagesystem mymr QIN;
 languagesystem mymr TJL;
+languagesystem mymr MON;
 languagesystem mymr MONT;
 languagesystem mym2 dflt;
 languagesystem mym2 KHN;
@@ -30,6 +31,7 @@ languagesystem mym2 SHN;
 languagesystem mym2 CSH;
 languagesystem mym2 QIN;
 languagesystem mym2 TJL;
+languagesystem mym2 MON;
 languagesystem mym2 MONT;
 
 # -------------
@@ -249,6 +251,8 @@ feature rphf {
     language KYU;
     language SHN;
     language CSH;
+    language MON;
+    language MONT;
     language QIN;
     language TJL;
 } rphf;
@@ -267,6 +271,8 @@ feature pref {
     language KYU;
     language SHN;
     language CSH;
+    language MON;
+    language MONT;
     language QIN;
     language TJL;
 } pref;
@@ -287,6 +293,8 @@ feature blwf {
       lookup mym2_blwf_smalltri; # Only in KYU
     language SHN;
     language CSH;
+    language MON;
+    language MONT;
     language QIN;
     language TJL;
 } blwf;
@@ -305,6 +313,8 @@ feature pstf {
     language KYU;
     language SHN;
     language CSH;
+    language MON;
+    language MONT;
     language QIN;
     language TJL;
 } pstf;
@@ -323,6 +333,8 @@ feature pres {
     language KYU;
     language SHN;
     language CSH;
+    language MON;
+    language MONT;
     language QIN;
     language TJL;
 } pres;
@@ -339,6 +351,8 @@ feature abvs {
     language KYU;
     language SHN;
     language CSH;
+    language MON;
+    language MONT;
     language QIN;
     language TJL;
 } abvs;
@@ -359,6 +373,8 @@ feature blws {
     language KYU;
     language SHN;
     language CSH;
+    language MON;
+    language MONT;
     language QIN;
     language TJL;
 } blws;
@@ -376,6 +392,8 @@ feature psts {
     language KYU;
     language SHN;
     language CSH;
+    language MON;
+    language MONT;
     language QIN;
     language TJL;
 } psts;
@@ -425,6 +443,8 @@ feature rlig {
     language KYU;
     language SHN;
     language CSH;
+    language MON;
+    language MONT;
     language QIN;
     language TJL;
 
@@ -477,6 +497,8 @@ feature rlig {
     language SHN;
       lookup mym2_locl_tri;
     language CSH;
+    language MON;
+    language MONT;
     language QIN;
     language TJL;
 
@@ -491,6 +513,8 @@ feature rlig {
     language KYU;
     language SHN;
     language CSH;
+    language MON;
+    language MONT;
     language QIN;
     language TJL;
 } rlig;
@@ -534,6 +558,8 @@ feature kern {
     language KYU;
     language SHN;
     language CSH;
+    language MON;
+    language MONT;
     language QIN;
     language TJL;
 
@@ -567,6 +593,8 @@ feature kern {
     language KYU;
     language SHN;
     language CSH;
+    language MON;
+    language MONT;
     language QIN;
     language TJL;
 } kern ;
@@ -593,6 +621,8 @@ feature dist {
     language KYU;
     language SHN;
     language CSH;
+    language MON;
+    language MONT;
     language QIN;
     language TJL;
 } dist;
@@ -648,6 +678,8 @@ feature mkmk {
 #    language KYU;
 #    language SHN;
 #    language CSH;
+#    language MON;
+#    language MONT;
 } mkmk;
 
 
