@@ -27,7 +27,7 @@ getufoinfo('source/masters/Padauk-Regular.ufo')
 #    '-Book' :        ('Padauk Book', 'Regular')
 #}
 
-opts = preprocess_args({'opt' : '-r'}, {'opt' : '-s'}, {'opt' : '--no2'}, {'opt' : '--bake'})
+opts = preprocess_args({'opt' : '-r'}, {'opt' : '-s'}, {'opt' : '--no2'}, {'opt' : '--bake'}, {'opt': '--gr'})
 devver = getversion()
 
 scriptcode = 'mymr' if '--no2' in opts else 'mym2'
@@ -38,6 +38,13 @@ scriptcode = 'mymr' if '--no2' in opts else 'mym2'
 
 # Set up the FTML tests
 ftmlTest('tools/ftml-smith.xsl')
+
+kw = {}
+if '--gr' in opts:
+    kw = {'graphite': gdl('source/${DS:FILENAME_BASE}.gdl',
+        master = 'source/myanmar5.gdl',
+        params = '-w3521 -w3530 -q -d -D -v5 -e gdlerr-' + '${DS:FILENAME_BASE}' + '.txt', make_params="-m _R",
+        depends = ['source/myfeatures.gdl'])}
 
 d = designspace('source/Padauk.designspace',
     #params = '-l ${DS:FILENAME_BASE}_createinstance.log',
@@ -57,15 +64,12 @@ d = designspace('source/Padauk.designspace',
         params = '-m source/${DS:FILENAME_BASE}.map',
         depends = ["source/padauk"+x+".feax" for x in
             ('_GPOS', '-mym2_GSUB', '-dflt_GSUB')]),
-    graphite = gdl('source/${DS:FILENAME_BASE}.gdl',
-        master = 'source/myanmar5.gdl',
-        params = '-w3521 -w3530 -q -d -D -v5 -e gdlerr-' + '${DS:FILENAME_BASE}' + '.txt', make_params="-m _R",
-        depends = ['source/myfeatures.gdl']),
     version = VERSION,
     script = ['mym2', 'DFLT'],
     extra_srcs = ['tools/bin/makegdl', 'source/myfeatures.gdl'],
     pdf = fret(params='-oi'),
-    woff = woff('web/${DS:FILENAME_BASE}.woff', params = '-v ' + VERSION + ' -m ../source/padauk-WOFF-metadata.xml')
+    woff = woff('web/${DS:FILENAME_BASE}.woff', params = '-v ' + VERSION + ' -m ../source/padauk-WOFF-metadata.xml'),
+    **kw
 )
 
 # Make khamti package
