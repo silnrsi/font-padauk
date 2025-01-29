@@ -50,7 +50,7 @@
       <style feats="'ss09' 1"            name="ss09_1"/>
       <style feats="'cv10' 1"            name="cv10_1"/>
       <style feats="'ss10' 1"            name="ss10_1"/>
-      <style                  lang="mnw" name="mnw"/>
+      <style               lang="mnw-TH" name="mnw-TH"/>
       <style feats="'cv04' 1"            name="cv04_1"/>
       <style feats="'ss04' 1"            name="ss04_1"/>
       <style feats="'nnya' 1"            name="nnya_1"/>
@@ -267,19 +267,19 @@
   <testgroup label="#40 language support - Mon">
     <test label="default">
       <comment>no small loops</comment>
-      <string>\u1003 \u100B \u100C \u100D \u100E \u1012 \u1014 \u101E \u1020 \u1021 \u1023 \u103F \u1049 \u104A \u104B \u105A\u103A\u1039</string>
+      <string>\u1003 \u100B \u100C \u100D \u100E \u1012 \u1014 \u101E \u1020 \u1021 \u1023 \u103F \u1049 \u104A \u104B \u105A\u103A\u1039 \u105A\u103A\u1039\u1000\u1001</string>
     </test>
-    <test label="mnw" stylename="mnw">
+    <test label="mnw TH" stylename="mnw-TH">
       <comment>small loops</comment>
-      <string>\u1003 \u100B \u100C \u100D \u100E \u1012 \u1014 \u101E \u1020 \u1021 \u1023 \u103F \u1049 \u104A \u104B \u105A\u103A\u1039</string>
+      <string>\u1003 \u100B \u100C \u100D \u100E \u1012 \u1014 \u101E \u1020 \u1021 \u1023 \u103F \u1049 \u104A \u104B \u105A\u103A\u1039 \u105A\u103A\u1039\u1000\u1001</string>
     </test>
     <test label="cv04" stylename="cv04_1">
       <comment>small loops</comment>
-      <string>\u1003 \u100B \u100C \u100D \u100E \u1012 \u1014 \u101E \u1020 \u1021 \u1023 \u103F \u1049 \u104A \u104B \u105A\u103A\u1039</string>
+      <string>\u1003 \u100B \u100C \u100D \u100E \u1012 \u1014 \u101E \u1020 \u1021 \u1023 \u103F \u1049 \u104A \u104B \u105A\u103A\u1039 \u105A\u103A\u1039\u1000\u1001</string>
     </test>
     <test label="ss04" stylename="ss04_1">
       <comment>small loops</comment>
-      <string>\u1003 \u100B \u100C \u100D \u100E \u1012 \u1014 \u101E \u1020 \u1021 \u1023 \u103F \u1049 \u104A \u104B \u105A\u103A\u1039</string>
+      <string>\u1003 \u100B \u100C \u100D \u100E \u1012 \u1014 \u101E \u1020 \u1021 \u1023 \u103F \u1049 \u104A \u104B \u105A\u103A\u1039 \u105A\u103A\u1039\u1000\u1001</string>
     </test>
     <test label="U+100A">
       <comment>nnya at both ends - great nnya</comment>

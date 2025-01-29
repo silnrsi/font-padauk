@@ -143,6 +143,9 @@ lookup mym2_rphf_kinzi {
     sub u101B u103A u1039  by u101B.kinzi;
 } mym2_rphf_kinzi;
 
+lookup mym2_rphf_kinzi_mon_thai {
+    sub u1004.kinzi by u1004.kinzi.thai; # Mon thai kinzi
+} mym2_rphf_kinzi_mon_thai;
 
 # ****
 # pref

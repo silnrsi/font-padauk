@@ -10,6 +10,7 @@ languagesystem DFLT SHN;
 languagesystem DFLT CSH; # Harfbuzz  maps csh to CSH
 languagesystem DFLT QIN; # Microsoft maps csh to QIN
 languagesystem DFLT TJL;
+languagesystem DFLT MON;
 languagesystem DFLT MONT;
 languagesystem mymr dflt;
 languagesystem mymr KHN;
@@ -253,6 +254,7 @@ feature rphf {
     language CSH;
     language MON;
     language MONT;
+      lookup mym2_rphf_kinzi_mon_thai;
     language QIN;
     language TJL;
 } rphf;
