@@ -175,6 +175,16 @@ feature cv10 {      # Tai Laing A9E4/A9E8 variants
     language dflt;
 } cv10;
 
+feature cv11 {      # Great nnya
+    script mym2;
+     cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Disable Great nnya"; };
+        ParamUILabelNameID { name 3 1 0x0409 "Disable Great nnya"; };
+      } ;
+      lookup cv11;
+    language dflt;
+} cv11;
+
 feature ss01 {      # filled dots
     script mym2;
       featureNames { name 3 1 0x409 "Filled dots" ; };
@@ -239,6 +249,13 @@ feature ss10 {      # Tai Laing A9E4/A9E8 variants
       lookup cv10;
     language dflt;
 } ss10;
+
+feature ss11 {      # Great nnya
+    script mym2;
+      featureNames { name 3 1 0x409 "Disable Great nnya" ; };
+      lookup cv11;
+    language dflt;
+} ss11;
 
 feature rphf {
  script mym2;

@@ -132,7 +132,6 @@ lookup cv10 {
     sub uA9E8 by uA9E8.alt;
 } cv10;
 
-
 # ****
 # rphf
 # ****
@@ -487,6 +486,11 @@ lookup mym2_blws_miscLig {
     sub u1086 uAA7C  by u1086_uAA7C; # Tai Laing (abvs, but works here too)
     sub uA9E5 uAA7C  by uA9E5_uAA7C; # Tai Laing (abvs, but works here too)
 } mym2_blws_miscLig;
+
+lookup cv11 {
+    # Disable great nnya
+    sub u100A_u100A by u100A u100A.med;
+} cv11;
 
 lookup mym2_blws_tlaLig {
   lookupflag UseMarkFilteringSet @_BSM;
