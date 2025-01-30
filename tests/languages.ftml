@@ -54,6 +54,8 @@
       <style feats="'cv04' 1"            name="cv04_1"/>
       <style feats="'ss04' 1"            name="ss04_1"/>
       <style feats="'nnya' 1"            name="nnya_1"/>
+      <style feats="'cv11' 1"            name="cv11_1"/>
+      <style feats="'ss11' 1"            name="ss11_1"/>
     </styles>
     <title>Languages</title>
   </head>
@@ -265,28 +267,52 @@
     </test>
   </testgroup>
   <testgroup label="#40 language support - Mon">
-    <test label="default">
+    <test label="default - base glyphs">
       <comment>no small loops</comment>
       <string>\u1003 \u100B \u100C \u100D \u100E \u1012 \u1014 \u101E \u1020 \u1021 \u1023 \u103F \u1049 \u104A \u104B \u105A\u103A\u1039 \u105A\u103A\u1039\u1000\u1001</string>
     </test>
-    <test label="mnw TH" stylename="mnw-TH">
+    <test label="mnw TH - base glyphs" stylename="mnw-TH">
       <comment>small loops</comment>
       <string>\u1003 \u100B \u100C \u100D \u100E \u1012 \u1014 \u101E \u1020 \u1021 \u1023 \u103F \u1049 \u104A \u104B \u105A\u103A\u1039 \u105A\u103A\u1039\u1000\u1001</string>
     </test>
-    <test label="cv04" stylename="cv04_1">
+    <test label="cv04 - base glyphs" stylename="cv04_1">
       <comment>small loops</comment>
       <string>\u1003 \u100B \u100C \u100D \u100E \u1012 \u1014 \u101E \u1020 \u1021 \u1023 \u103F \u1049 \u104A \u104B \u105A\u103A\u1039 \u105A\u103A\u1039\u1000\u1001</string>
     </test>
-    <test label="ss04" stylename="ss04_1">
+    <test label="ss04 - base glyphs" stylename="ss04_1">
       <comment>small loops</comment>
       <string>\u1003 \u100B \u100C \u100D \u100E \u1012 \u1014 \u101E \u1020 \u1021 \u1023 \u103F \u1049 \u104A \u104B \u105A\u103A\u1039 \u105A\u103A\u1039\u1000\u1001</string>
+    </test>
+    <test label="default - medials">
+      <comment>no small loops</comment>
+      <string>\u1018\u1039\u1000 \u1018\u1039\u1003 \u1018\u1039\u100B \u1018\u1039\u100C \u1018\u1039\u100D \u1018\u1039\u100E \u1018\u1039\u1012 \u1018\u1039\u1014 \u1018\u1039\u101E \u1018\u1039\u1020</string>
+    </test>
+    <test label="mnw TH - medials" stylename="mnw-TH">
+      <comment>small loops (except for first)</comment>
+      <string>\u1018\u1039\u1000 \u1018\u1039\u1003 \u1018\u1039\u100B \u1018\u1039\u100C \u1018\u1039\u100D \u1018\u1039\u100E \u1018\u1039\u1012 \u1018\u1039\u1014 \u1018\u1039\u101E \u1018\u1039\u1020</string>
+    </test>
+    <test label="cv04 - medials" stylename="cv04_1">
+      <comment>small loops (except for first)</comment>
+      <string>\u1018\u1039\u1000 \u1018\u1039\u1003 \u1018\u1039\u100B \u1018\u1039\u100C \u1018\u1039\u100D \u1018\u1039\u100E \u1018\u1039\u1012 \u1018\u1039\u1014 \u1018\u1039\u101E \u1018\u1039\u1020</string>
+    </test>
+    <test label="ss04 - medials" stylename="ss04_1">
+      <comment>small loops (except for first)</comment>
+      <string>\u1018\u1039\u1000 \u1018\u1039\u1003 \u1018\u1039\u100B \u1018\u1039\u100C \u1018\u1039\u100D \u1018\u1039\u100E \u1018\u1039\u1012 \u1018\u1039\u1014 \u1018\u1039\u101E \u1018\u1039\u1020</string>
     </test>
     <test label="U+100A">
       <comment>nnya at both ends - great nnya</comment>
       <string>\u100A\u1039\u100A</string>
     </test>
     <test label="U+100A" stylename="nnya_1">
-      <comment>nnya at both ends - medial nnya</comment>
+      <comment>nnya at both ends - medial nnya - Graphite</comment>
+      <string>\u100A\u1039\u100A</string>
+    </test>
+    <test label="U+100A" stylename="cv11_1">
+      <comment>nnya at both ends - medial nnya - OpenType</comment>
+      <string>\u100A\u1039\u100A</string>
+    </test>
+    <test label="U+100A" stylename="ss11_1">
+      <comment>nnya at both ends - medial nnya - OpenType</comment>
       <string>\u100A\u1039\u100A</string>
     </test>
   </testgroup>

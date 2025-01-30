@@ -23,6 +23,14 @@
 # @cConsMedSml = [u1000.med u1002.med u1005.med u1006.med u1007.med u1008.med u1010.med u1011.med
 #     u1012.med u1013.med u1015.med u1019.med u101E.med u103D];
 
+do  let c = feaclass("c_thai");
+    let tm = " ".join(x if "med" in x else "" for x in c);
+{ @c_thai_med = [ $tm ]; }
+
+do  let c = feaclass("c_thai");
+    let no_tm = " ".join(x.replace("med.", "") if "med" in x else "" for x in c);
+{ @cno_thai_med = [ $no_tm ]; }
+
 do  let c = feaclass("cno_sml");
     let n = " ".join(x+".med" if x+".med" in feaclass("c_med") else x for x in c);
 { @cno_sml_med = [ $n ]; }
@@ -228,6 +236,10 @@ lookup DFLT_signsLig {
 lookup mym2_blwf_u1039med {
     sub u1039 @cno_med by @c_med;
 } mym2_blwf_u1039med;
+
+lookup mym2_blwf_u1039med_mon_thai {
+    sub u1039 @cno_thai_med by @c_thai_med; # Mon Thai variants (thai)
+} mym2_blwf_u1039med_mon_thai;
 
 
 lookup mym2_medVowelSubst {

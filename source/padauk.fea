@@ -314,6 +314,7 @@ feature blwf {
     language CSH;
     language MON;
     language MONT;
+      lookup mym2_blwf_u1039med_mon_thai;
     language QIN;
     language TJL;
 } blwf;
