@@ -29,6 +29,7 @@
       <style feats="'cv07' 1"            name="cv07_1"/>
       <style feats="'cv07' 2"            name="cv07_2"/>
       <style feats="'cv07' 1" lang="ksw" name="ksw_cv07_1"/>
+      <style feats="'cv02' 1, 'cv07' 1" lang="ksw" name="ksw_cv02_1_cv07_1"/>
       <style                  lang="khn" name="khn"/>
       <style                  lang="kht" name="kht"/>
       <style feats="'cv01' 1"            name="cv01_1"/>
@@ -110,11 +111,19 @@
       <string>\u103E \u103E\u102F \u103E\u1030 \u1061 \u1066</string>
     </test>
     <test label="default-misc">
-      <comment>upright</comment>
+      <comment>dot on right and round washwe and upright foot</comment>
       <string>\u1061\u1030\u1038 \u1066\u1037\u1064\u1001\u103b\u1037 \u1001\u103e \u1000\u103d\u1037</string>
     </test>
     <test label="ksw" stylename="ksw">
       <comment>dot on left</comment>
+      <string>\u1061\u1030\u1038 \u1066\u1037\u1064\u1001\u103b\u1037 \u1001\u103e \u1000\u103d\u1037</string>
+    </test>
+    <test label="ksw cv07" stylename="ksw_cv07_1">
+      <comment>dot on left and sgaw slanted horizontal foot</comment>
+      <string>\u1061\u1030\u1038 \u1066\u1037\u1064\u1001\u103b\u1037 \u1001\u103e \u1000\u103d\u1037</string>
+    </test>
+    <test label="ksw cv02 cv07" stylename="ksw_cv02_1_cv07_1">
+      <comment>dot on left and tear drop washwe and sgaw slanted horizontal foot</comment>
       <string>\u1061\u1030\u1038 \u1066\u1037\u1064\u1001\u103b\u1037 \u1001\u103e \u1000\u103d\u1037</string>
     </test>
   </testgroup>
@@ -288,30 +297,30 @@
       <string>\u1018\u1039\u1000 \u1018\u1039\u1003 \u1018\u1039\u100B \u1018\u1039\u100C \u1018\u1039\u100D \u1018\u1039\u100E \u1018\u1039\u1012 \u1018\u1039\u1014 \u1018\u1039\u101E \u1018\u1039\u1020</string>
     </test>
     <test label="mnw TH - medials" stylename="mnw-TH">
-      <comment>small loops (except for first)</comment>
+      <comment>small loops (except for first cluster)</comment>
       <string>\u1018\u1039\u1000 \u1018\u1039\u1003 \u1018\u1039\u100B \u1018\u1039\u100C \u1018\u1039\u100D \u1018\u1039\u100E \u1018\u1039\u1012 \u1018\u1039\u1014 \u1018\u1039\u101E \u1018\u1039\u1020</string>
     </test>
     <test label="cv04 - medials" stylename="cv04_1">
-      <comment>small loops (except for first)</comment>
+      <comment>small loops (except for first cluster)</comment>
       <string>\u1018\u1039\u1000 \u1018\u1039\u1003 \u1018\u1039\u100B \u1018\u1039\u100C \u1018\u1039\u100D \u1018\u1039\u100E \u1018\u1039\u1012 \u1018\u1039\u1014 \u1018\u1039\u101E \u1018\u1039\u1020</string>
     </test>
     <test label="ss04 - medials" stylename="ss04_1">
-      <comment>small loops (except for first)</comment>
+      <comment>small loops (except for first cluster)</comment>
       <string>\u1018\u1039\u1000 \u1018\u1039\u1003 \u1018\u1039\u100B \u1018\u1039\u100C \u1018\u1039\u100D \u1018\u1039\u100E \u1018\u1039\u1012 \u1018\u1039\u1014 \u1018\u1039\u101E \u1018\u1039\u1020</string>
     </test>
     <test label="U+100A">
       <comment>nnya at both ends - great nnya</comment>
       <string>\u100A\u1039\u100A</string>
     </test>
-    <test label="U+100A" stylename="nnya_1">
+    <test label="nnya U+100A" stylename="nnya_1">
       <comment>nnya at both ends - medial nnya - Graphite</comment>
       <string>\u100A\u1039\u100A</string>
     </test>
-    <test label="U+100A" stylename="cv11_1">
+    <test label="cv11 U+100A" stylename="cv11_1">
       <comment>nnya at both ends - medial nnya - OpenType</comment>
       <string>\u100A\u1039\u100A</string>
     </test>
-    <test label="U+100A" stylename="ss11_1">
+    <test label="ss11 U+100A" stylename="ss11_1">
       <comment>nnya at both ends - medial nnya - OpenType</comment>
       <string>\u100A\u1039\u100A</string>
     </test>
