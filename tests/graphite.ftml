@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
+<ftml version="1.0">
+  <head>
+    <fontscale>200</fontscale>
+    <fontsrc label="PadaukGR">url(../results/PadaukBook-Regular.ttf)</fontsrc>
+    <fontsrc label="PadaukOT">url(../results/tests/ftml/fonts/PadaukBook-Regular_ot_mym2.ttf)</fontsrc>
+    <fontsrc label="Pyidaungsu">url(../references/Pyidaungsu-2.5.3_Regular.ttf)</fontsrc>
+    <fontsrc label="NotoSans">url(../references/NotoSansMyanmar-Regular.ttf)</fontsrc>
+    <fontsrc label="NotoSerif">url(../references/NotoSerifMyanmar-Regular.ttf)</fontsrc>
+    <title>Graphite</title>
+  </head>
+  <testgroup background="#f0f0f0" label="Rendering Check">
+    <test label="check">
+      <string>RenderingUnknown</string>
+    </test>
+  </testgroup>
+  <testgroup label="ksw_sequences.htxt">
+    <test label="2.1 with U+1000">
+      <comment>OT okay</comment>
+      <string>\u1001\u103b\u1037\u1000</string>
+    </test>
+    <test label="2.1 with U+100A">
+      <comment>OT okay</comment>
+      <string>\u1001\u103b\u1037\u100a</string>
+    </test>
+  </testgroup>
+</ftml>
