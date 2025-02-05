@@ -43,4 +43,15 @@
       <string>\u1001\u103a\u103c\u102f\u1019\u103a</string>
     </test>
   </testgroup>
+  <testgroup label="mnw_Words.txt">
+    <test label="10.1">
+      <string>\u1002\u102b\u1036 \u1002\u102b</string>
+    </test>
+    <test label="narrow wrap">
+      <string>\u1002\u103c\u102b\u1036 \u1002\u103c\u102b</string>
+    </test>
+    <test label="wide wrap">
+      <string>\u1003\u103c\u102b\u1036 \u1003\u103c\u102b</string>
+    </test>
+  </testgroup>
 </ftml>

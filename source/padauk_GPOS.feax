@@ -6,7 +6,7 @@
 
 lookup kernltall {
 do  for g = [@KL];
-    let x = -APx(g, "KL");
+    let x = -int(APx(g, "KL") / 2);
     {
         pos $g <$x 0 $x 0>;
     }
