@@ -634,6 +634,7 @@ feature dist {
      lookup dist_103C_Cons;
      lookup shift_1032;
      lookup shift_for_103B;
+     lookup shift_for_103B_from_wrap;
     language dflt;
     language KHN;
     language KHT;

@@ -385,3 +385,21 @@ do  for g = @cMed;
         pos $g <$s 0 0 0> u103B;
     }
 } shift_for_103B;
+
+lookup shift_for_103B_from_wrap {
+do  for w = [u103C u103C.alt.narr u103C.alt.wide u103C.wide];
+    for c = @cCons;
+    # u103B is positioned after the consonant inside the wrap, positioned by sidebearings.
+    # u103B needs to be positioned after the wrap so the the lower vertical tail of the wrap
+    # overlaps the lower vertical tail of the u103B.
+    # To calculate the mount that the u103B needs to be shifted
+    # - take off the advance width of the consonant
+    # - take off the advance width of the wrap
+    #   (which is a mark so no advance width in terms OpenType but the R AP is set to the width of the wrap)
+    # - add back the location of the LL AP on the wrap
+    # - add back the space to the left of the u103B (using the LL AP)
+    let s = -ADVx(c) - APx(w, "R") + APx(w, "LL") - APx("u103B", "LL");
+    {
+        pos $w $c' <0 0 $s 0> u103B;
+    }
+} shift_for_103B_from_wrap;

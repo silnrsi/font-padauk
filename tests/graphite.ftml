@@ -25,4 +25,22 @@
       <string>\u1001\u103b\u1037\u100a</string>
     </test>
   </testgroup>
+  <testgroup label="pll_tests.htxt">
+    <test label="1.1 orig">
+      <comment>OT fixed</comment>
+      <string>\u1019\u103b\u103c\u1036\u1010\u103a</string>
+    </test>
+    <test label="1.1 with wide in wrap">
+      <comment>OT fixed</comment>
+      <string>\u1018\u103b\u103c\u1036\u1010\u103a</string>
+    </test>
+    <test label="2.1 old">
+      <comment>incorrect encoding</comment>
+      <string>\u1001\u103c\u102f\u103a\u1019\u103a</string>
+    </test>
+    <test label="2.1 new">
+      <comment>OT okay</comment>
+      <string>\u1001\u103a\u103c\u102f\u1019\u103a</string>
+    </test>
+  </testgroup>
 </ftml>
