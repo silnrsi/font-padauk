@@ -29,7 +29,7 @@
     <array/>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3314</string>
+  <string>3337</string>
   <key>com.schriftgestaltung.customName</key>
   <string>Book</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
@@ -41,6 +41,8 @@
 /space/space/u1009.med/space/space/u1009.med.alt/space/space/u1009.sml/space/space/u100A.med/space/u100A.sml/space/u100B.med/space/u100B.sml/space/space/u100C.med/space/u100C.sml/space/u100D/space/u100D.med/space/u100D.sml/space/u100E.med/space/u100E.sml/space/space/u100F.med/space/space/u100F.sml/space/space/u1010.med/space/space/u1010.sml 
 /space/space/u1011.med/space/space/u1011.sml/space/u1012.med/space/u1012.sml/space/u1013.med/space/u1013.sml/space/u1014.med/space/u1014.sml/space/u1015.med/space/u1015.sml/space/u1016.med/space/u1016.sml/space/u1017.med/space/u1017.sml/space/space/u1018.med/space/space/u1018.sml/space/u1019.med/space/u1019.sml 
 /space/space/u101A.med/space/space/u101A.sml/space/u101B.med/space/u101B.sml/space/space/u101C.med/space/space/u101C.sml/u101D/space/u101D.med/space/u101D.sml/space/space/u101E.med/space/space/u101E.sml/space/u101F/space/u101F.med/space/space/u101F.small/space/space/u101F.sml/u1020/space/space/u1020.med/space/space/u1020.sml/space/space/u1021.med/space/space/u1021.sml/space/u103F/space/u103F.med/space/space/u103F.sml/space/u1050.med/space/u1050.sml/space/u1051.sml/space/u1051.med/space</string>
+    <string>/u1032_u102D/space/space/u1032_u102E</string>
+    <string>/u1014.alt/u1014.alt.thai/u1014.thai</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
@@ -2117,76 +2119,6 @@
     <string>u116D0</string>
     <key>zero-pwo</key>
     <string>u116DA</string>
-  </dict>
-  <key>public.unicodeVariationSequences</key>
-  <dict>
-    <key>FE00</key>
-    <dict>
-      <key>1000</key>
-      <string>u1000.kham</string>
-      <key>1002</key>
-      <string>u1002.kham</string>
-      <key>1004</key>
-      <string>u1004.kham</string>
-      <key>1010</key>
-      <string>u1010.kham</string>
-      <key>1011</key>
-      <string>u1011.kham</string>
-      <key>1015</key>
-      <string>u1015.kham</string>
-      <key>1019</key>
-      <string>u1019.kham</string>
-      <key>101A</key>
-      <string>u101A.kham</string>
-      <key>101B</key>
-      <string>u101B.kham</string>
-      <key>101C</key>
-      <string>u101C.kham</string>
-      <key>101D</key>
-      <string>u101D.kham</string>
-      <key>1022</key>
-      <string>u1022.kham</string>
-      <key>1031</key>
-      <string>u1031.kham</string>
-      <key>1075</key>
-      <string>u1075.kham</string>
-      <key>1078</key>
-      <string>u1078.kham</string>
-      <key>107A</key>
-      <string>u107A.aiph</string>
-      <key>1080</key>
-      <string>u1080.kham</string>
-      <key>1086</key>
-      <string>u1086.kham</string>
-      <key>AA60</key>
-      <string>uAA60.kham</string>
-      <key>AA61</key>
-      <string>uAA61.kham</string>
-      <key>AA62</key>
-      <string>uAA62.kham</string>
-      <key>AA63</key>
-      <string>uAA63.kham</string>
-      <key>AA64</key>
-      <string>uAA64.kham</string>
-      <key>AA65</key>
-      <string>uAA65.kham</string>
-      <key>AA66</key>
-      <string>uAA66.kham</string>
-      <key>AA6B</key>
-      <string>uAA6B.kham</string>
-      <key>AA6C</key>
-      <string>uAA6C.kham</string>
-      <key>AA6F</key>
-      <string>uAA6F.kham</string>
-      <key>AA73</key>
-      <string>uAA73.kham</string>
-      <key>AA75</key>
-      <string>uAA75.kham</string>
-      <key>AA76</key>
-      <string>uAA76.kham</string>
-      <key>AA7A</key>
-      <string>uAA7A.aiph</string>
-    </dict>
   </dict>
 </dict>
 </plist>
