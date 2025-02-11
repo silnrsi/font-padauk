@@ -730,6 +730,8 @@
   <string>u1014.glif</string>
   <key>u1014.alt</key>
   <string>u1014.alt.glif</string>
+  <key>u1014.alt.thai</key>
+  <string>u1014.alt.thai.glif</string>
   <key>u1014.med</key>
   <string>u1014.med.glif</string>
   <key>u1014.med.thai</key>
@@ -946,6 +948,8 @@
   <string>u1032.glif</string>
   <key>u1032_u102D</key>
   <string>u1032_u102D_.glif</string>
+  <key>u1032_u102E</key>
+  <string>u1032_u102E_.glif</string>
   <key>u1032_u1036</key>
   <string>u1032_u1036.glif</string>
   <key>u1033</key>

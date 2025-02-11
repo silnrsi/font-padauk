@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1032_u102E" format="2">
+  <anchor x="-237" y="495" name="UM"/>
+  <anchor x="-79" y="800" name="_AA"/>
+  <anchor x="-237" y="495" name="_U"/>
+  <anchor x="-75" y="495" name="_Y"/>
+  <outline>
+    <component base="u1032"/>
+    <component base="u102E"/>
+  </outline>
+</glyph>

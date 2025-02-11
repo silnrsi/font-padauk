@@ -399,6 +399,7 @@
     <string>u1013.sml</string>
     <string>u1014</string>
     <string>u1014.alt</string>
+    <string>u1014.alt.thai</string>
     <string>u1014.med</string>
     <string>u1014.med.thai</string>
     <string>u1014.sml</string>
@@ -507,6 +508,7 @@
     <string>u1031.kham</string>
     <string>u1032</string>
     <string>u1032_u102D</string>
+    <string>u1032_u102E</string>
     <string>u1032_u1036</string>
     <string>u1033</string>
     <string>u1034</string>
@@ -1193,6 +1195,8 @@
     <string>uni1014</string>
     <key>u1014.alt</key>
     <string>uni1014.alt</string>
+    <key>u1014.alt.thai</key>
+    <string>uni1014.alt.thai</string>
     <key>u1014.med</key>
     <string>uni1014.med</string>
     <key>u1014.med.thai</key>
@@ -1409,6 +1413,8 @@
     <string>uni1032</string>
     <key>u1032_u102D</key>
     <string>uni1032102D</string>
+    <key>u1032_u102E</key>
+    <string>uni1032102E</string>
     <key>u1032_u1036</key>
     <string>uni10321036</string>
     <key>u1033</key>
