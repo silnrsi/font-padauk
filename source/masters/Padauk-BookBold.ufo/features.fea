@@ -85,7 +85,7 @@
 # Positioning classes and statements
 
 # AP: UM
-@UM_MarkBase = [asciicircum u1004.kinzi u1004.kinzi.thai u1004.kinzi_u102D u1004.kinzi_u102E u1004.kinzi_u1032 u1004.kinzi_u1033 u1004.kinzi_u103A u1004.kinzi_u102D_u1036 u1004.kinzi_u1036 u101B.kinzi u1086_uAA7C u109D u101B.kinzi_u102D u101B.kinzi_u102E u101B.kinzi_u103A u102D u1033 uAA7C u102D_u1036 u102E_u1036 u1032_u1036 u102D_uAA70 u102D_uAA7C u103A_uAA7C u102E u1032_u102E u102E_uAA70 u102E_uAA7C u1032 u1032_u102D u1034 u1035 u103A u103A_u1036 u103A_uAA70 u1036 u1036.dot u1059 u1071 u1072 u1073 u108D u1074 u1085 u1085_uAA70 u1086 u1086.kham u1086_uAA70 uA9E5 uA9E5_uAA7C];
+@UM_MarkBase = [asciicircum u1004.kinzi u1004.kinzi.thai u1004.kinzi_u102D u1004.kinzi_u102E u1004.kinzi_u1032 u1004.kinzi_u1033 u1004.kinzi_u103A u1004.kinzi_u102D_u1036 u1004.kinzi_u1036 u101B.kinzi u1086_uAA7C u109D u101B.kinzi_u102D u101B.kinzi_u102E u101B.kinzi_u103A u102D u1033 uAA7C u102D_u1036 u102E_u1036 u1032_u1036 u102D_uAA70 u102D_uAA7C u103A_uAA7C u102E u102E_uAA70 u102E_uAA7C u1032 u1032_u102D u1032_u102E u1034 u1035 u103A u103A_u1036 u103A_uAA70 u1036 u1036.dot u1059 u1071 u1072 u1073 u108D u1074 u1085 u1085_uAA70 u1086 u1086.kham u1086_uAA70 uA9E5 uA9E5_uAA7C];
 # baseClass asciicircum <anchor 226 495> @UM_MarkBase;
 # baseClass u1004.kinzi <anchor -92 495> @UM_MarkBase;
 # baseClass u1004.kinzi.thai <anchor -386 495> @UM_MarkBase;
@@ -100,11 +100,12 @@
 # baseClass [u102D_u1036 u102E_u1036 u1032_u1036] <anchor -269 495> @UM_MarkBase;
 # baseClass u102D_uAA70 <anchor -744 495> @UM_MarkBase;
 # baseClass [u102D_uAA7C u103A_uAA7C] <anchor -179 495> @UM_MarkBase;
-# baseClass [u102E u1032_u102E] <anchor -237 495> @UM_MarkBase;
+# baseClass u102E <anchor -237 495> @UM_MarkBase;
 # baseClass u102E_uAA70 <anchor -733 495> @UM_MarkBase;
 # baseClass u102E_uAA7C <anchor -182 495> @UM_MarkBase;
 # baseClass u1032 <anchor -247 537> @UM_MarkBase;
 # baseClass u1032_u102D <anchor -180 495> @UM_MarkBase;
+# baseClass u1032_u102E <anchor -202 495> @UM_MarkBase;
 # baseClass u1034 <anchor -193 495> @UM_MarkBase;
 # baseClass [u1035 u103A u103A_u1036 u103A_uAA70] <anchor -231 495> @UM_MarkBase;
 # baseClass u1036 <anchor -129 495> @UM_MarkBase;
@@ -130,11 +131,12 @@ markClass u1004.kinzi_u1032 <anchor -309 466> @_U;
 markClass u1004.kinzi_u1036 <anchor -221 495> @_U;
 markClass u101B.kinzi <anchor -129 495> @_U;
 markClass [u101B.kinzi_u102D u101B.kinzi_u102E] <anchor -303 495> @_U;
-markClass [u102D u102E u1032_u102E u1033] <anchor -237 495> @_U;
+markClass [u102D u102E u1033] <anchor -237 495> @_U;
 markClass u102D_uAA70 <anchor -747 495> @_U;
 markClass [u102D_uAA7C u102E_uAA7C u1032_u102D u103A_uAA7C] <anchor -182 495> @_U;
 markClass u102E_uAA70 <anchor -733 495> @_U;
 markClass u1032 <anchor -295 532> @_U;
+markClass u1032_u102E <anchor -202 495> @_U;
 markClass u1034 <anchor -230 532> @_U;
 markClass u1035 <anchor -245 495> @_U;
 markClass u1036 <anchor -162 495> @_U;
@@ -1058,10 +1060,11 @@ markClass u1004.kinzi <anchor -37 495> @_Y;
 markClass u1004.kinzi.thai <anchor -331 495> @_Y;
 markClass [u1004.kinzi_u102D u1004.kinzi_u102E u1004.kinzi_u1033 u1004.kinzi_u103A u101B.kinzi_u102D u101B.kinzi_u102E u101B.kinzi_u103A u102D_uAA7C u102E_uAA7C u1032_u102D u103A_uAA7C u1086_uAA7C] <anchor -43 495> @_Y;
 markClass [u1004.kinzi_u102D_u1036 u102D_u1036 u102E_u1036 u1032_u1036] <anchor -33 495> @_Y;
-markClass [u102D u102E u1032_u102E u1033 u1074 u1085] <anchor -98 495> @_Y;
+markClass [u102D u102E u1033 u1074 u1085] <anchor -98 495> @_Y;
 markClass u102D_uAA70 <anchor -608 495> @_Y;
 markClass u102E_uAA70 <anchor -594 495> @_Y;
 markClass [u1032 u1034] <anchor -98 532> @_Y;
+markClass u1032_u102E <anchor -63 495> @_Y;
 markClass u1035 <anchor -100 495> @_Y;
 markClass u1036 <anchor -88 495> @_Y;
 markClass u1073 <anchor 423 495> @_Y;
@@ -1106,7 +1109,8 @@ markClass [uA9E5 uA9E5_uAA7C] <anchor -31 495> @_Y;
 # baseClass u103E_u1030 <anchor 90 0> @KRM_MarkBase;
 
 # AP: _AA
-markClass [u1032 u1032_u102E] <anchor -55 800> @_AA;
+markClass u1032 <anchor -55 800> @_AA;
+markClass u1032_u102E <anchor -20 800> @_AA;
 
 # AP: _L
 markClass u1037 <anchor -107 -53> @_L;
@@ -5651,10 +5655,12 @@ lookup guard2 {
             pos circledash u102D_uAA70 <0 0 420 0>;
         pos circledash u1032_u102D <201 0 201 0>;
         pos circledash u102E_uAA70 <0 0 406 0>;
+        pos circledash u1032_u102E <243 0 243 0>;
         pos circledash u1085_uAA70 <0 0 446 0>;
         pos u1700 u102D_uAA70 <0 0 420 0>;
         pos u1700 u1032_u102D <201 0 201 0>;
         pos u1700 u102E_uAA70 <0 0 406 0>;
+        pos u1700 u1032_u102E <243 0 243 0>;
         pos u1700 u1085_uAA70 <0 0 446 0>;
         pos u1000 u1004.kinzi.thai <0 0 153 0>;
         pos u1000 u1004.kinzi_u102D <0 0 66 0>;
@@ -5740,6 +5746,7 @@ lookup guard2 {
         pos u1001 u102D_uAA70 <0 0 448 0>;
         pos u1001 u1032_u102D <227 0 227 0>;
         pos u1001 u102E_uAA70 <0 0 434 0>;
+        pos u1001 u1032_u102E <269 0 269 0>;
         pos u1001 u1085_uAA70 <0 0 474 0>;
         pos u1002 u1004.kinzi.thai <0 0 151 0>;
         pos u1002 u1004.kinzi_u102D <0 0 64 0>;
@@ -5757,6 +5764,7 @@ lookup guard2 {
         pos u1002 u102D_uAA70 <0 0 447 0>;
         pos u1002 u1032_u102D <228 0 228 0>;
         pos u1002 u102E_uAA70 <0 0 433 0>;
+        pos u1002 u1032_u102E <270 0 270 0>;
         pos u1002 u1085_uAA70 <0 0 473 0>;
         pos u1002.kham u102D_u1036 <0 0 64 0>;
         pos u1002.kham u102E_u1036 <0 0 64 0>;
@@ -5764,10 +5772,12 @@ lookup guard2 {
         pos u1002.kham u102D_uAA70 <0 0 447 0>;
         pos u1002.kham u1032_u102D <228 0 228 0>;
         pos u1002.kham u102E_uAA70 <0 0 433 0>;
+        pos u1002.kham u1032_u102E <270 0 270 0>;
         pos u1002.kham u1085_uAA70 <0 0 473 0>;
         pos u100B u102D_uAA70 <0 0 398 0>;
         pos u100B u1032_u102D <228 0 228 0>;
         pos u100B u102E_uAA70 <0 0 384 0>;
+        pos u100B u1032_u102E <270 0 270 0>;
         pos u100B u1085_uAA70 <0 0 424 0>;
         pos u1015 u1004.kinzi.thai <0 0 151 0>;
         pos u1015 u1004.kinzi_u102D <0 0 64 0>;
@@ -5788,6 +5798,7 @@ lookup guard2 {
         pos u1015 u1032_u102D <228 0 228 0>;
         pos u1015 u103A_uAA7C <245 0 245 0>;
         pos u1015 u102E_uAA70 <0 0 433 0>;
+        pos u1015 u1032_u102E <270 0 270 0>;
         pos u1015 u1085_uAA70 <0 0 473 0>;
         pos u1015 u1086_uAA7C <145 0 145 0>;
         pos u1015 uA9E5_uAA7C <140 0 140 0>;
@@ -5807,6 +5818,7 @@ lookup guard2 {
         pos u1016 u102D_uAA70 <0 0 448 0>;
         pos u1016 u1032_u102D <228 0 228 0>;
         pos u1016 u102E_uAA70 <0 0 434 0>;
+        pos u1016 u1032_u102E <270 0 270 0>;
         pos u1016 u1085_uAA70 <0 0 474 0>;
         pos u1017 u1004.kinzi.thai <0 0 151 0>;
         pos u1017 u1004.kinzi_u102D <0 0 64 0>;
@@ -5824,6 +5836,7 @@ lookup guard2 {
         pos u1017 u102D_uAA70 <0 0 447 0>;
         pos u1017 u1032_u102D <228 0 228 0>;
         pos u1017 u102E_uAA70 <0 0 433 0>;
+        pos u1017 u1032_u102E <270 0 270 0>;
         pos u1017 u1085_uAA70 <0 0 473 0>;
         pos u1019 u1004.kinzi.thai <0 0 151 0>;
         pos u1019 u1004.kinzi_u102D <0 0 64 0>;
@@ -5844,6 +5857,7 @@ lookup guard2 {
         pos u1019 u1032_u102D <228 0 228 0>;
         pos u1019 u103A_uAA7C <245 0 245 0>;
         pos u1019 u102E_uAA70 <0 0 433 0>;
+        pos u1019 u1032_u102E <270 0 270 0>;
         pos u1019 u1085_uAA70 <0 0 473 0>;
         pos u1019 u1086_uAA7C <145 0 145 0>;
         pos u1019 uA9E5_uAA7C <140 0 140 0>;
@@ -5853,6 +5867,7 @@ lookup guard2 {
         pos u1019.kham u102D_uAA70 <0 0 447 0>;
         pos u1019.kham u1032_u102D <228 0 228 0>;
         pos u1019.kham u102E_uAA70 <0 0 433 0>;
+        pos u1019.kham u1032_u102E <270 0 270 0>;
         pos u1019.kham u1085_uAA70 <0 0 473 0>;
         pos u101B.kham u102D_u1036 <0 0 63 0>;
         pos u101B.kham u102E_u1036 <0 0 63 0>;
@@ -5860,6 +5875,7 @@ lookup guard2 {
         pos u101B.kham u102D_uAA70 <0 0 446 0>;
         pos u101B.kham u1032_u102D <228 0 228 0>;
         pos u101B.kham u102E_uAA70 <0 0 432 0>;
+        pos u101B.kham u1032_u102E <270 0 270 0>;
         pos u101B.kham u1085_uAA70 <0 0 472 0>;
         pos u1042 u102D_u1036 <0 0 64 0>;
         pos u1042 u102E_u1036 <0 0 64 0>;
@@ -5867,6 +5883,7 @@ lookup guard2 {
         pos u1042 u102D_uAA70 <0 0 447 0>;
         pos u1042 u1032_u102D <228 0 228 0>;
         pos u1042 u102E_uAA70 <0 0 433 0>;
+        pos u1042 u1032_u102E <270 0 270 0>;
         pos u1042 u1085_uAA70 <0 0 473 0>;
         pos u1045 u102D_u1036 <0 0 64 0>;
         pos u1045 u102E_u1036 <0 0 64 0>;
@@ -5874,6 +5891,7 @@ lookup guard2 {
         pos u1045 u102D_uAA70 <0 0 447 0>;
         pos u1045 u1032_u102D <228 0 228 0>;
         pos u1045 u102E_uAA70 <0 0 433 0>;
+        pos u1045 u1032_u102E <270 0 270 0>;
         pos u1045 u1085_uAA70 <0 0 473 0>;
         pos u1048 u102D_u1036 <0 0 64 0>;
         pos u1048 u102E_u1036 <0 0 64 0>;
@@ -5881,6 +5899,7 @@ lookup guard2 {
         pos u1048 u102D_uAA70 <0 0 447 0>;
         pos u1048 u1032_u102D <228 0 228 0>;
         pos u1048 u102E_uAA70 <0 0 433 0>;
+        pos u1048 u1032_u102E <270 0 270 0>;
         pos u1048 u1085_uAA70 <0 0 473 0>;
         pos u1049 u102D_u1036 <0 0 64 0>;
         pos u1049 u102E_u1036 <0 0 64 0>;
@@ -5888,6 +5907,7 @@ lookup guard2 {
         pos u1049 u102D_uAA70 <0 0 447 0>;
         pos u1049 u1032_u102D <228 0 228 0>;
         pos u1049 u102E_uAA70 <0 0 433 0>;
+        pos u1049 u1032_u102E <270 0 270 0>;
         pos u1049 u1085_uAA70 <0 0 473 0>;
         pos u1050 u1004.kinzi.thai <0 0 151 0>;
         pos u1050 u1004.kinzi_u102D <0 0 64 0>;
@@ -5905,6 +5925,7 @@ lookup guard2 {
         pos u1050 u102D_uAA70 <0 0 447 0>;
         pos u1050 u1032_u102D <228 0 228 0>;
         pos u1050 u102E_uAA70 <0 0 433 0>;
+        pos u1050 u1032_u102E <270 0 270 0>;
         pos u1050 u1085_uAA70 <0 0 473 0>;
         pos u1051 u1004.kinzi.thai <0 0 151 0>;
         pos u1051 u1004.kinzi_u102D <0 0 64 0>;
@@ -5922,6 +5943,7 @@ lookup guard2 {
         pos u1051 u102D_uAA70 <0 0 447 0>;
         pos u1051 u1032_u102D <228 0 228 0>;
         pos u1051 u102E_uAA70 <0 0 433 0>;
+        pos u1051 u1032_u102E <270 0 270 0>;
         pos u1051 u1085_uAA70 <0 0 473 0>;
         pos u1051_u100C u102D_u1036 <0 0 65 0>;
         pos u1051_u100C u102E_u1036 <0 0 65 0>;
@@ -5929,6 +5951,7 @@ lookup guard2 {
         pos u1051_u100C u102D_uAA70 <0 0 448 0>;
         pos u1051_u100C u1032_u102D <228 0 228 0>;
         pos u1051_u100C u102E_uAA70 <0 0 434 0>;
+        pos u1051_u100C u1032_u102E <270 0 270 0>;
         pos u1051_u100C u1085_uAA70 <0 0 474 0>;
         pos u1056 u102D_u1036 <0 0 125 0>;
         pos u1056 u102E_u1036 <0 0 125 0>;
@@ -5937,6 +5960,7 @@ lookup guard2 {
         pos u1056 u1032_u102D <228 0 228 0>;
         pos u1056 u102E_uAA70 <0 0 494 0>;
         pos u1056 u1032 <0 0 56 0>;
+        pos u1056 u1032_u102E <270 0 270 0>;
         pos u1056 u1071 <0 0 64 0>;
         pos u1056 u1085_uAA70 <0 0 534 0>;
         pos u1057 asciicircum <0 0 75 0>;
@@ -5947,6 +5971,7 @@ lookup guard2 {
         pos u1057 u1032_u102D <228 0 254 0>;
         pos u1057 u102E_uAA70 <0 0 522 0>;
         pos u1057 u1032 <0 0 84 0>;
+        pos u1057 u1032_u102E <270 0 285 0>;
         pos u1057 u103A <0 0 75 0>;
         pos u1057 u103A_u1036 <0 0 75 0>;
         pos u1057 u103A_uAA70 <0 0 75 0>;
@@ -5971,6 +5996,7 @@ lookup guard2 {
         pos u105C u102D_uAA70 <0 0 448 0>;
         pos u105C u1032_u102D <228 0 228 0>;
         pos u105C u102E_uAA70 <0 0 434 0>;
+        pos u105C u1032_u102E <270 0 270 0>;
         pos u105C u1085_uAA70 <0 0 474 0>;
         pos u105D u102D_u1036 <0 0 65 0>;
         pos u105D u102E_u1036 <0 0 65 0>;
@@ -5978,6 +6004,7 @@ lookup guard2 {
         pos u105D u102D_uAA70 <0 0 448 0>;
         pos u105D u1032_u102D <228 0 228 0>;
         pos u105D u102E_uAA70 <0 0 434 0>;
+        pos u105D u1032_u102E <270 0 270 0>;
         pos u105D u1085_uAA70 <0 0 474 0>;
         pos u107F u102D_u1036 <0 0 64 0>;
         pos u107F u102E_u1036 <0 0 64 0>;
@@ -5985,6 +6012,7 @@ lookup guard2 {
         pos u107F u102D_uAA70 <0 0 447 0>;
         pos u107F u1032_u102D <228 0 228 0>;
         pos u107F u102E_uAA70 <0 0 433 0>;
+        pos u107F u1032_u102E <270 0 270 0>;
         pos u107F u1085_uAA70 <0 0 473 0>;
         pos u1081.straight u102D_u1036 <0 0 64 0>;
         pos u1081.straight u102E_u1036 <0 0 64 0>;
@@ -5992,6 +6020,7 @@ lookup guard2 {
         pos u1081.straight u102D_uAA70 <0 0 447 0>;
         pos u1081.straight u1032_u102D <228 0 228 0>;
         pos u1081.straight u102E_uAA70 <0 0 433 0>;
+        pos u1081.straight u1032_u102E <270 0 270 0>;
         pos u1081.straight u1085_uAA70 <0 0 473 0>;
         pos uA9FD u102D_u1036 <0 0 65 0>;
         pos uA9FD u102E_u1036 <0 0 65 0>;
@@ -6002,6 +6031,7 @@ lookup guard2 {
         pos uA9FD u1032_u102D <228 0 228 0>;
         pos uA9FD u103A_uAA7C <245 0 245 0>;
         pos uA9FD u102E_uAA70 <0 0 434 0>;
+        pos uA9FD u1032_u102E <270 0 270 0>;
         pos uA9FD u1085_uAA70 <0 0 474 0>;
         pos uA9FD u1086_uAA7C <145 0 145 0>;
         pos uA9FD uA9E5_uAA7C <140 0 140 0>;
@@ -6144,6 +6174,7 @@ lookup guard2 {
         pos u1004 u1032_u102D <230 0 230 0>;
         pos u1004 u103A_uAA7C <247 0 247 0>;
         pos u1004 u102E_uAA70 <0 0 454 0>;
+        pos u1004 u1032_u102E <272 0 272 0>;
         pos u1004 u1085_uAA70 <0 0 494 0>;
         pos u1004 u1086_uAA7C <147 0 147 0>;
         pos u1004 uA9E5_uAA7C <142 0 142 0>;
@@ -6153,20 +6184,24 @@ lookup guard2 {
         pos u1004.kham u102D_uAA70 <0 0 468 0>;
         pos u1004.kham u1032_u102D <230 0 230 0>;
         pos u1004.kham u102E_uAA70 <0 0 454 0>;
+        pos u1004.kham u1032_u102E <272 0 272 0>;
         pos u1004.kham u1085_uAA70 <0 0 494 0>;
         pos u1007 u1004.kinzi.thai <0 0 101 0>;
         pos u1007 u1004.kinzi_u102D_u1036 <102 0 225 0>;
         pos u1007 u102D_uAA70 <0 0 397 0>;
         pos u1007 u1032_u102D <230 0 230 0>;
         pos u1007 u102E_uAA70 <0 0 383 0>;
+        pos u1007 u1032_u102E <272 0 272 0>;
         pos u1007 u1085_uAA70 <0 0 423 0>;
         pos u100B.alt u102D_uAA70 <0 0 418 0>;
         pos u100B.alt u1032_u102D <230 0 230 0>;
         pos u100B.alt u102E_uAA70 <0 0 404 0>;
+        pos u100B.alt u1032_u102E <272 0 272 0>;
         pos u100B.alt u1085_uAA70 <0 0 444 0>;
         pos u100B_u100B u102D_uAA70 <0 0 402 0>;
         pos u100B_u100B u1032_u102D <230 0 230 0>;
         pos u100B_u100B u102E_uAA70 <0 0 388 0>;
+        pos u100B_u100B u1032_u102E <272 0 272 0>;
         pos u100B_u100B u1085_uAA70 <0 0 428 0>;
         pos u100B_u100C u102D_u1036 <0 0 83 0>;
         pos u100B_u100C u102E_u1036 <0 0 83 0>;
@@ -6174,6 +6209,7 @@ lookup guard2 {
         pos u100B_u100C u102D_uAA70 <0 0 466 0>;
         pos u100B_u100C u1032_u102D <230 0 230 0>;
         pos u100B_u100C u102E_uAA70 <0 0 452 0>;
+        pos u100B_u100C u1032_u102E <272 0 272 0>;
         pos u100B_u100C u1085_uAA70 <0 0 492 0>;
         pos u100C u102D_u1036 <0 0 85 0>;
         pos u100C u102E_u1036 <0 0 85 0>;
@@ -6181,6 +6217,7 @@ lookup guard2 {
         pos u100C u102D_uAA70 <0 0 468 0>;
         pos u100C u1032_u102D <230 0 230 0>;
         pos u100C u102E_uAA70 <0 0 454 0>;
+        pos u100C u1032_u102E <272 0 272 0>;
         pos u100C u1085_uAA70 <0 0 494 0>;
         pos u100E.thai u102D_u1036 <0 0 73 0>;
         pos u100E.thai u102E_u1036 <0 0 73 0>;
@@ -6188,6 +6225,7 @@ lookup guard2 {
         pos u100E.thai u102D_uAA70 <0 0 456 0>;
         pos u100E.thai u1032_u102D <230 0 230 0>;
         pos u100E.thai u102E_uAA70 <0 0 442 0>;
+        pos u100E.thai u1032_u102E <272 0 272 0>;
         pos u100E.thai u1085_uAA70 <0 0 482 0>;
         pos u1014 u1004.kinzi.thai <0 0 182 0>;
         pos u1014 u1004.kinzi_u102D <0 0 95 0>;
@@ -6205,24 +6243,29 @@ lookup guard2 {
         pos u1014 u102D_uAA70 <0 0 478 0>;
         pos u1014 u1032_u102D <230 0 230 0>;
         pos u1014 u102E_uAA70 <0 0 464 0>;
+        pos u1014 u1032_u102E <272 0 272 0>;
         pos u1014 u1085_uAA70 <0 0 504 0>;
         pos u101B u1004.kinzi.thai <0 0 91 0>;
         pos u101B u1004.kinzi_u102D_u1036 <102 0 215 0>;
         pos u101B u102D_uAA70 <0 0 387 0>;
         pos u101B u1032_u102D <230 0 230 0>;
         pos u101B u102E_uAA70 <0 0 373 0>;
+        pos u101B u1032_u102E <272 0 272 0>;
         pos u101B u1085_uAA70 <0 0 413 0>;
         pos u1020 u102D_uAA70 <0 0 433 0>;
         pos u1020 u1032_u102D <230 0 230 0>;
         pos u1020 u102E_uAA70 <0 0 419 0>;
+        pos u1020 u1032_u102E <272 0 272 0>;
         pos u1020 u1085_uAA70 <0 0 459 0>;
         pos u1020_u1020 u102D_uAA70 <0 0 433 0>;
         pos u1020_u1020 u1032_u102D <230 0 230 0>;
         pos u1020_u1020 u102E_uAA70 <0 0 419 0>;
+        pos u1020_u1020 u1032_u102E <272 0 272 0>;
         pos u1020_u1020 u1085_uAA70 <0 0 459 0>;
         pos u1020_u103E u102D_uAA70 <0 0 433 0>;
         pos u1020_u103E u1032_u102D <230 0 230 0>;
         pos u1020_u103E u102E_uAA70 <0 0 419 0>;
+        pos u1020_u103E u1032_u102E <272 0 272 0>;
         pos u1020_u103E u1085_uAA70 <0 0 459 0>;
         pos u104E u102D_u1036 <0 0 85 0>;
         pos u104E u102E_u1036 <0 0 85 0>;
@@ -6230,10 +6273,12 @@ lookup guard2 {
         pos u104E u102D_uAA70 <0 0 468 0>;
         pos u104E u1032_u102D <230 0 230 0>;
         pos u104E u102E_uAA70 <0 0 454 0>;
+        pos u104E u1032_u102E <272 0 272 0>;
         pos u104E u1085_uAA70 <0 0 494 0>;
         pos u1051_u100D u102D_uAA70 <0 0 418 0>;
         pos u1051_u100D u1032_u102D <230 0 230 0>;
         pos u1051_u100D u102E_uAA70 <0 0 404 0>;
+        pos u1051_u100D u1032_u102E <272 0 272 0>;
         pos u1051_u100D u1085_uAA70 <0 0 444 0>;
         pos u105A u102D_u1036 <0 0 85 0>;
         pos u105A u102E_u1036 <0 0 85 0>;
@@ -6241,25 +6286,33 @@ lookup guard2 {
         pos u105A u102D_uAA70 <0 0 468 0>;
         pos u105A u1032_u102D <230 0 230 0>;
         pos u105A u102E_uAA70 <0 0 454 0>;
+        pos u105A u1032_u102E <272 0 272 0>;
         pos u105A u1085_uAA70 <0 0 494 0>;
         pos u107A u1032_u102D <230 0 230 0>;
+        pos u107A u1032_u102E <272 0 272 0>;
         pos u107A u1085_uAA70 <0 0 54 0>;
         pos u107A.aiph u1032_u102D <230 0 230 0>;
+        pos u107A.aiph u1032_u102E <272 0 272 0>;
         pos u107A.aiph u1085_uAA70 <0 0 54 0>;
         pos u107A.alt.aiph u1032_u102D <230 0 230 0>;
+        pos u107A.alt.aiph u1032_u102E <272 0 272 0>;
         pos uAA77 u102D_uAA70 <0 0 77 0>;
         pos uAA77 u1032_u102D <230 0 230 0>;
         pos uAA77 u102E_uAA70 <0 0 63 0>;
+        pos uAA77 u1032_u102E <272 0 272 0>;
         pos uAA77 u1085_uAA70 <0 0 103 0>;
         pos uAA77.aiph u1032_u102D <230 0 230 0>;
+        pos uAA77.aiph u1032_u102E <272 0 272 0>;
         pos uAA77.aiph u1085_uAA70 <0 0 63 0>;
         pos uAA79 u102D_uAA70 <0 0 387 0>;
         pos uAA79 u1032_u102D <230 0 230 0>;
         pos uAA79 u102E_uAA70 <0 0 373 0>;
+        pos uAA79 u1032_u102E <272 0 272 0>;
         pos uAA79 u1085_uAA70 <0 0 413 0>;
         pos uAA79.aiph u102D_uAA70 <0 0 387 0>;
         pos uAA79.aiph u1032_u102D <230 0 230 0>;
         pos uAA79.aiph u102E_uAA70 <0 0 373 0>;
+        pos uAA79.aiph u1032_u102E <272 0 272 0>;
         pos uAA79.aiph u1085_uAA70 <0 0 413 0>;
         pos u1005 u1004.kinzi.thai <0 0 154 0>;
         pos u1005 u1004.kinzi_u102D <0 0 67 0>;
@@ -6277,6 +6330,7 @@ lookup guard2 {
         pos u1005 u102D_uAA70 <0 0 450 0>;
         pos u1005 u1032_u102D <234 0 234 0>;
         pos u1005 u102E_uAA70 <0 0 436 0>;
+        pos u1005 u1032_u102E <276 0 276 0>;
         pos u1005 u1085_uAA70 <0 0 476 0>;
         pos u1047 u102D_u1036 <0 0 67 0>;
         pos u1047 u102E_u1036 <0 0 67 0>;
@@ -6284,6 +6338,7 @@ lookup guard2 {
         pos u1047 u102D_uAA70 <0 0 450 0>;
         pos u1047 u1032_u102D <234 0 234 0>;
         pos u1047 u102E_uAA70 <0 0 436 0>;
+        pos u1047 u1032_u102E <276 0 276 0>;
         pos u1047 u1085_uAA70 <0 0 476 0>;
         pos uA9E0 u102D_u1036 <0 0 64 0>;
         pos uA9E0 u102E_u1036 <0 0 64 0>;
@@ -6291,6 +6346,7 @@ lookup guard2 {
         pos uA9E0 u102D_uAA70 <0 0 447 0>;
         pos uA9E0 u1032_u102D <234 0 234 0>;
         pos uA9E0 u102E_uAA70 <0 0 433 0>;
+        pos uA9E0 u1032_u102E <276 0 276 0>;
         pos uA9E0 u1085_uAA70 <0 0 473 0>;
         pos u1006 u1004.kinzi.thai <0 0 157 0>;
         pos u1006 u1004.kinzi_u102D <0 0 70 0>;
@@ -6332,6 +6388,7 @@ lookup guard2 {
         pos u1009 u102D_uAA70 <0 0 447 0>;
         pos u1009 u1032_u102D <249 0 249 0>;
         pos u1009 u102E_uAA70 <0 0 433 0>;
+        pos u1009 u1032_u102E <291 0 291 0>;
         pos u1009 u1085_uAA70 <0 0 473 0>;
         pos u1014.alt u1004.kinzi.thai <0 0 188 0>;
         pos u1014.alt u1004.kinzi_u102D <0 0 101 0>;
@@ -6349,6 +6406,7 @@ lookup guard2 {
         pos u1014.alt u102D_uAA70 <0 0 484 0>;
         pos u1014.alt u1032_u102D <249 0 249 0>;
         pos u1014.alt u102E_uAA70 <0 0 470 0>;
+        pos u1014.alt u1032_u102E <291 0 291 0>;
         pos u1014.alt u1085_uAA70 <0 0 510 0>;
         pos u1014.alt.thai u102D_u1036 <0 0 101 0>;
         pos u1014.alt.thai u102E_u1036 <0 0 101 0>;
@@ -6356,6 +6414,7 @@ lookup guard2 {
         pos u1014.alt.thai u102D_uAA70 <0 0 484 0>;
         pos u1014.alt.thai u1032_u102D <249 0 249 0>;
         pos u1014.alt.thai u102E_uAA70 <0 0 470 0>;
+        pos u1014.alt.thai u1032_u102E <291 0 291 0>;
         pos u1014.alt.thai u1085_uAA70 <0 0 510 0>;
         pos u1009.open u102D_u1036 <0 0 67 0>;
         pos u1009.open u102E_u1036 <0 0 67 0>;
@@ -6363,18 +6422,22 @@ lookup guard2 {
         pos u1009.open u102D_uAA70 <0 0 450 0>;
         pos u1009.open u1032_u102D <248 0 248 0>;
         pos u1009.open u102E_uAA70 <0 0 436 0>;
+        pos u1009.open u1032_u102E <290 0 290 0>;
         pos u1009.open u1085_uAA70 <0 0 476 0>;
         pos u100D u102D_uAA70 <0 0 427 0>;
         pos u100D u1032_u102D <248 0 248 0>;
         pos u100D u102E_uAA70 <0 0 413 0>;
+        pos u100D u1032_u102E <290 0 290 0>;
         pos u100D u1085_uAA70 <0 0 453 0>;
         pos u100D_u100D u102D_uAA70 <0 0 427 0>;
         pos u100D_u100D u1032_u102D <248 0 248 0>;
         pos u100D_u100D u102E_uAA70 <0 0 413 0>;
+        pos u100D_u100D u1032_u102E <290 0 290 0>;
         pos u100D_u100D u1085_uAA70 <0 0 453 0>;
         pos u1020.long u102D_uAA70 <0 0 427 0>;
         pos u1020.long u1032_u102D <248 0 248 0>;
         pos u1020.long u102E_uAA70 <0 0 413 0>;
+        pos u1020.long u1032_u102E <290 0 290 0>;
         pos u1020.long u1085_uAA70 <0 0 453 0>;
         pos u1025 u102D_u1036 <0 0 67 0>;
         pos u1025 u102E_u1036 <0 0 67 0>;
@@ -6382,6 +6445,7 @@ lookup guard2 {
         pos u1025 u102D_uAA70 <0 0 450 0>;
         pos u1025 u1032_u102D <248 0 248 0>;
         pos u1025 u102E_uAA70 <0 0 436 0>;
+        pos u1025 u1032_u102E <290 0 290 0>;
         pos u1025 u1085_uAA70 <0 0 476 0>;
         pos u1026 u102D_u1036 <0 0 67 0>;
         pos u1026 u102E_u1036 <0 0 67 0>;
@@ -6389,6 +6453,7 @@ lookup guard2 {
         pos u1026 u102D_uAA70 <0 0 450 0>;
         pos u1026 u1032_u102D <248 0 248 0>;
         pos u1026 u102E_uAA70 <0 0 436 0>;
+        pos u1026 u1032_u102E <290 0 290 0>;
         pos u1026 u1085_uAA70 <0 0 476 0>;
         pos u1041 u102D_u1036 <0 0 66 0>;
         pos u1041 u102E_u1036 <0 0 66 0>;
@@ -6396,6 +6461,7 @@ lookup guard2 {
         pos u1041 u102D_uAA70 <0 0 449 0>;
         pos u1041 u1032_u102D <248 0 248 0>;
         pos u1041 u102E_uAA70 <0 0 435 0>;
+        pos u1041 u1032_u102E <290 0 290 0>;
         pos u1041 u1085_uAA70 <0 0 475 0>;
         pos u1009_u102C u102D_u1036 <0 0 65 0>;
         pos u1009_u102C u102E_u1036 <0 0 65 0>;
@@ -6469,10 +6535,12 @@ lookup guard2 {
         pos u100B.thai u102D_uAA70 <0 0 417 0>;
         pos u100B.thai u1032_u102D <196 0 196 0>;
         pos u100B.thai u102E_uAA70 <0 0 403 0>;
+        pos u100B.thai u1032_u102E <238 0 238 0>;
         pos u100B.thai u1085_uAA70 <0 0 443 0>;
         pos u100C.thai u102D_uAA70 <0 0 418 0>;
         pos u100C.thai u1032_u102D <195 0 195 0>;
         pos u100C.thai u102E_uAA70 <0 0 404 0>;
+        pos u100C.thai u1032_u102E <237 0 237 0>;
         pos u100C.thai u1085_uAA70 <0 0 444 0>;
         pos u100D.thai u102D_u1036 <0 0 55 0>;
         pos u100D.thai u102E_u1036 <0 0 55 0>;
@@ -6480,6 +6548,7 @@ lookup guard2 {
         pos u100D.thai u102D_uAA70 <0 0 438 0>;
         pos u100D.thai u1032_u102D <258 0 258 0>;
         pos u100D.thai u102E_uAA70 <0 0 424 0>;
+        pos u100D.thai u1032_u102E <300 0 300 0>;
         pos u100D.thai u1085_uAA70 <0 0 464 0>;
         pos u100D_u100E u102D_u1036 <0 0 64 0>;
         pos u100D_u100E u102E_u1036 <0 0 64 0>;
@@ -6487,6 +6556,7 @@ lookup guard2 {
         pos u100D_u100E u102D_uAA70 <0 0 447 0>;
         pos u100D_u100E u1032_u102D <236 0 236 0>;
         pos u100D_u100E u102E_uAA70 <0 0 433 0>;
+        pos u100D_u100E u1032_u102E <278 0 278 0>;
         pos u100D_u100E u1085_uAA70 <0 0 473 0>;
         pos u100E u1004.kinzi.thai <0 0 151 0>;
         pos u100E u1004.kinzi_u102D <0 0 64 0>;
@@ -6504,6 +6574,7 @@ lookup guard2 {
         pos u100E u102D_uAA70 <0 0 447 0>;
         pos u100E u1032_u102D <236 0 236 0>;
         pos u100E u102E_uAA70 <0 0 433 0>;
+        pos u100E u1032_u102E <278 0 278 0>;
         pos u100E u1085_uAA70 <0 0 473 0>;
         pos u1052 u102D_u1036 <0 0 64 0>;
         pos u1052 u102E_u1036 <0 0 64 0>;
@@ -6511,6 +6582,7 @@ lookup guard2 {
         pos u1052 u102D_uAA70 <0 0 447 0>;
         pos u1052 u1032_u102D <236 0 236 0>;
         pos u1052 u102E_uAA70 <0 0 433 0>;
+        pos u1052 u1032_u102E <278 0 278 0>;
         pos u1052 u1085_uAA70 <0 0 473 0>;
         pos u1075 u102D_u1036 <0 0 64 0>;
         pos u1075 u102E_u1036 <0 0 64 0>;
@@ -6521,6 +6593,7 @@ lookup guard2 {
         pos u1075 u1032_u102D <236 0 236 0>;
         pos u1075 u103A_uAA7C <253 0 253 0>;
         pos u1075 u102E_uAA70 <0 0 433 0>;
+        pos u1075 u1032_u102E <278 0 278 0>;
         pos u1075 u1085_uAA70 <0 0 473 0>;
         pos u1075 u1086_uAA7C <153 0 153 0>;
         pos u1075 uA9E5_uAA7C <148 0 148 0>;
@@ -6530,6 +6603,7 @@ lookup guard2 {
         pos u1081 u102D_uAA70 <0 0 460 0>;
         pos u1081 u1032_u102D <236 0 236 0>;
         pos u1081 u102E_uAA70 <0 0 446 0>;
+        pos u1081 u1032_u102E <278 0 278 0>;
         pos u1081 u1085_uAA70 <0 0 486 0>;
         pos u100F u1004.kinzi.thai <0 0 168 0>;
         pos u100F u1004.kinzi_u102D <0 0 81 0>;
@@ -6655,6 +6729,7 @@ lookup guard2 {
         pos u1012 u102D_uAA70 <0 0 471 0>;
         pos u1012 u1032_u102D <252 0 252 0>;
         pos u1012 u102E_uAA70 <0 0 457 0>;
+        pos u1012 u1032_u102E <294 0 294 0>;
         pos u1012 u1085_uAA70 <0 0 497 0>;
         pos u1012.thai u102D_u1036 <0 0 87 0>;
         pos u1012.thai u102E_u1036 <0 0 87 0>;
@@ -6662,6 +6737,7 @@ lookup guard2 {
         pos u1012.thai u102D_uAA70 <0 0 470 0>;
         pos u1012.thai u1032_u102D <252 0 252 0>;
         pos u1012.thai u102E_uAA70 <0 0 456 0>;
+        pos u1012.thai u1032_u102E <294 0 294 0>;
         pos u1012.thai u1085_uAA70 <0 0 496 0>;
         pos u1013 u1004.kinzi.thai <0 0 157 0>;
         pos u1013 u1004.kinzi_u102D <0 0 70 0>;
@@ -6679,6 +6755,7 @@ lookup guard2 {
         pos u1013 u102D_uAA70 <0 0 453 0>;
         pos u1013 u1032_u102D <231 0 231 0>;
         pos u1013 u102E_uAA70 <0 0 439 0>;
+        pos u1013 u1032_u102E <273 0 273 0>;
         pos u1013 u1085_uAA70 <0 0 479 0>;
         pos u101D u1004.kinzi.thai <0 0 158 0>;
         pos u101D u1004.kinzi_u102D <0 0 71 0>;
@@ -6699,6 +6776,7 @@ lookup guard2 {
         pos u101D u1032_u102D <231 0 231 0>;
         pos u101D u103A_uAA7C <248 0 248 0>;
         pos u101D u102E_uAA70 <0 0 440 0>;
+        pos u101D u1032_u102E <273 0 273 0>;
         pos u101D u1085_uAA70 <0 0 480 0>;
         pos u101D u1086_uAA7C <148 0 148 0>;
         pos u101D uA9E5_uAA7C <143 0 143 0>;
@@ -6708,10 +6786,12 @@ lookup guard2 {
         pos u101D.kham u102D_uAA70 <0 0 454 0>;
         pos u101D.kham u1032_u102D <231 0 231 0>;
         pos u101D.kham u102E_uAA70 <0 0 440 0>;
+        pos u101D.kham u1032_u102E <273 0 273 0>;
         pos u101D.kham u1085_uAA70 <0 0 480 0>;
         pos u105B u102D_uAA70 <0 0 274 0>;
         pos u105B u1032_u102D <231 0 231 0>;
         pos u105B u102E_uAA70 <0 0 260 0>;
+        pos u105B u1032_u102E <273 0 273 0>;
         pos u105B u1085_uAA70 <0 0 300 0>;
         pos u108E u102D_u1036 <0 0 70 0>;
         pos u108E u102E_u1036 <0 0 70 0>;
@@ -6719,6 +6799,7 @@ lookup guard2 {
         pos u108E u102D_uAA70 <0 0 453 0>;
         pos u108E u1032_u102D <231 0 231 0>;
         pos u108E u102E_uAA70 <0 0 439 0>;
+        pos u108E u1032_u102E <273 0 273 0>;
         pos u108E u1085_uAA70 <0 0 479 0>;
         pos u1014.thai u102D_u1036 <0 0 123 0>;
         pos u1014.thai u102E_u1036 <0 0 123 0>;
@@ -6727,6 +6808,7 @@ lookup guard2 {
         pos u1014.thai u1032_u102D <254 0 254 0>;
         pos u1014.thai u102E_uAA70 <0 0 492 0>;
         pos u1014.thai u1032 <0 0 54 0>;
+        pos u1014.thai u1032_u102E <296 0 296 0>;
         pos u1014.thai u1071 <0 0 62 0>;
         pos u1014.thai u1074 <11 0 57 0>;
         pos u1014.thai u1085_uAA70 <0 0 532 0>;
@@ -6749,6 +6831,7 @@ lookup guard2 {
         pos u1014_u1010_u103C u102D_uAA70 <0 0 309 0>;
         pos u1014_u1010_u103C u1032_u102D <119 0 119 0>;
         pos u1014_u1010_u103C u102E_uAA70 <0 0 295 0>;
+        pos u1014_u1010_u103C u1032_u102E <161 0 161 0>;
         pos u1014_u1010_u103C u1085_uAA70 <0 0 335 0>;
         pos u1015.kham u102D_u1036 <0 0 64 0>;
         pos u1015.kham u102E_u1036 <0 0 64 0>;
@@ -6756,16 +6839,19 @@ lookup guard2 {
         pos u1015.kham u102D_uAA70 <0 0 447 0>;
         pos u1015.kham u1032_u102D <228 0 228 0>;
         pos u1015.kham u102E_uAA70 <0 0 433 0>;
+        pos u1015.kham u1032_u102E <270 0 270 0>;
         pos u1015.kham u1085_uAA70 <0 0 473 0>;
         pos u101B.alt u1004.kinzi.thai <0 0 106 0>;
         pos u101B.alt u1004.kinzi_u102D_u1036 <96 0 224 0>;
         pos u101B.alt u102D_uAA70 <0 0 402 0>;
         pos u101B.alt u1032_u102D <224 0 224 0>;
         pos u101B.alt u102E_uAA70 <0 0 388 0>;
+        pos u101B.alt u1032_u102E <266 0 266 0>;
         pos u101B.alt u1085_uAA70 <0 0 428 0>;
         pos u101B.long u102D_uAA70 <0 0 411 0>;
         pos u101B.long u1032_u102D <215 0 215 0>;
         pos u101B.long u102E_uAA70 <0 0 397 0>;
+        pos u101B.long u1032_u102E <257 0 257 0>;
         pos u101B.long u1085_uAA70 <0 0 437 0>;
         pos u1027 u1004.kinzi.thai <0 0 156 0>;
         pos u1027 u1004.kinzi_u102D <0 0 69 0>;
@@ -6783,6 +6869,7 @@ lookup guard2 {
         pos u1027 u102D_uAA70 <0 0 452 0>;
         pos u1027 u1032_u102D <215 0 215 0>;
         pos u1027 u102E_uAA70 <0 0 438 0>;
+        pos u1027 u1032_u102E <257 0 257 0>;
         pos u1027 u1085_uAA70 <0 0 478 0>;
         pos u1044 u102D_u1036 <0 0 77 0>;
         pos u1044 u102E_u1036 <0 0 77 0>;
@@ -6790,6 +6877,7 @@ lookup guard2 {
         pos u1044 u102D_uAA70 <0 0 460 0>;
         pos u1044 u1032_u102D <215 0 215 0>;
         pos u1044 u102E_uAA70 <0 0 446 0>;
+        pos u1044 u1032_u102E <257 0 257 0>;
         pos u1044 u1085_uAA70 <0 0 486 0>;
         pos u101B_u103B u102D_u1036 <0 0 119 0>;
         pos u101B_u103B u102E_u1036 <0 0 119 0>;
@@ -6853,10 +6941,12 @@ lookup guard2 {
         pos u1020.thai u102D_uAA70 <0 0 415 0>;
         pos u1020.thai u1032_u102D <198 0 198 0>;
         pos u1020.thai u102E_uAA70 <0 0 401 0>;
+        pos u1020.thai u1032_u102E <240 0 240 0>;
         pos u1020.thai u1085_uAA70 <0 0 441 0>;
         pos u1023.thai u102D_uAA70 <0 0 415 0>;
         pos u1023.thai u1032_u102D <198 0 198 0>;
         pos u1023.thai u102E_uAA70 <0 0 401 0>;
+        pos u1023.thai u1032_u102E <240 0 240 0>;
         pos u1023.thai u1085_uAA70 <0 0 441 0>;
         pos u1021 u1004.kinzi.thai <0 0 154 0>;
         pos u1021 u1004.kinzi_u102D <0 0 67 0>;
@@ -6910,10 +7000,12 @@ lookup guard2 {
         pos u1028 u102D_uAA70 <0 0 452 0>;
         pos u1028 u1032_u102D <233 0 233 0>;
         pos u1028 u102E_uAA70 <0 0 438 0>;
+        pos u1028 u1032_u102E <275 0 275 0>;
         pos u1028 u1085_uAA70 <0 0 478 0>;
         pos u1049.thai u102D_uAA70 <0 0 427 0>;
         pos u1049.thai u1032_u102D <233 0 233 0>;
         pos u1049.thai u102E_uAA70 <0 0 413 0>;
+        pos u1049.thai u1032_u102E <275 0 275 0>;
         pos u1049.thai u1085_uAA70 <0 0 453 0>;
         pos u1031 u102D_u1036 <0 0 63 0>;
         pos u1031 u102E_u1036 <0 0 63 0>;
@@ -6921,6 +7013,7 @@ lookup guard2 {
         pos u1031 u102D_uAA70 <0 0 446 0>;
         pos u1031 u1032_u102D <229 0 229 0>;
         pos u1031 u102E_uAA70 <0 0 432 0>;
+        pos u1031 u1032_u102E <271 0 271 0>;
         pos u1031 u1085_uAA70 <0 0 472 0>;
         pos u1031.kham u102D_u1036 <0 0 63 0>;
         pos u1031.kham u102E_u1036 <0 0 63 0>;
@@ -6928,6 +7021,7 @@ lookup guard2 {
         pos u1031.kham u102D_uAA70 <0 0 446 0>;
         pos u1031.kham u1032_u102D <229 0 229 0>;
         pos u1031.kham u102E_uAA70 <0 0 432 0>;
+        pos u1031.kham u1032_u102E <271 0 271 0>;
         pos u1031.kham u1085_uAA70 <0 0 472 0>;
         pos u103F u1004.kinzi.thai <0 0 152 0>;
         pos u103F u1004.kinzi_u102D <0 0 65 0>;
@@ -6957,10 +7051,12 @@ lookup guard2 {
         pos u1040 u102D_uAA70 <0 0 450 0>;
         pos u1040 u1032_u102D <235 0 235 0>;
         pos u1040 u102E_uAA70 <0 0 436 0>;
+        pos u1040 u1032_u102E <277 0 277 0>;
         pos u1040 u1085_uAA70 <0 0 476 0>;
         pos u1043 u102D_uAA70 <0 0 433 0>;
         pos u1043 u1032_u102D <242 0 242 0>;
         pos u1043 u102E_uAA70 <0 0 419 0>;
+        pos u1043 u1032_u102E <284 0 284 0>;
         pos u1043 u1085_uAA70 <0 0 459 0>;
         pos u1046 u102D_u1036 <0 0 70 0>;
         pos u1046 u102E_u1036 <0 0 70 0>;
@@ -6968,6 +7064,7 @@ lookup guard2 {
         pos u1046 u102D_uAA70 <0 0 453 0>;
         pos u1046 u1032_u102D <222 0 222 0>;
         pos u1046 u102E_uAA70 <0 0 439 0>;
+        pos u1046 u1032_u102E <264 0 264 0>;
         pos u1046 u1085_uAA70 <0 0 479 0>;
         pos u1077 u102D_u1036 <0 0 68 0>;
         pos u1077 u102E_u1036 <0 0 68 0>;
@@ -6975,18 +7072,22 @@ lookup guard2 {
         pos u1077 u102D_uAA70 <0 0 451 0>;
         pos u1077 u1032_u102D <222 0 222 0>;
         pos u1077 u102E_uAA70 <0 0 437 0>;
+        pos u1077 u1032_u102E <264 0 264 0>;
         pos u1077 u1085_uAA70 <0 0 477 0>;
         pos u1053 u102D_uAA70 <0 0 406 0>;
         pos u1053 u1032_u102D <191 0 191 0>;
         pos u1053 u102E_uAA70 <0 0 392 0>;
+        pos u1053 u1032_u102E <233 0 233 0>;
         pos u1053 u1085_uAA70 <0 0 432 0>;
         pos uAA73 u102D_uAA70 <0 0 424 0>;
         pos uAA73 u1032_u102D <191 0 191 0>;
         pos uAA73 u102E_uAA70 <0 0 410 0>;
+        pos uAA73 u1032_u102E <233 0 233 0>;
         pos uAA73 u1085_uAA70 <0 0 450 0>;
         pos uAA73.kham u102D_uAA70 <0 0 424 0>;
         pos uAA73.kham u1032_u102D <191 0 191 0>;
         pos uAA73.kham u102E_uAA70 <0 0 410 0>;
+        pos uAA73.kham u1032_u102E <233 0 233 0>;
         pos uAA73.kham u1085_uAA70 <0 0 450 0>;
         pos u1054 u102D_u1036 <0 0 64 0>;
         pos u1054 u102E_u1036 <0 0 64 0>;
@@ -6994,6 +7095,7 @@ lookup guard2 {
         pos u1054 u102D_uAA70 <0 0 447 0>;
         pos u1054 u1032_u102D <228 0 228 0>;
         pos u1054 u102E_uAA70 <0 0 433 0>;
+        pos u1054 u1032_u102E <270 0 270 0>;
         pos u1054 u1085_uAA70 <0 0 473 0>;
         pos u1055 u102D_u1036 <0 0 64 0>;
         pos u1055 u102E_u1036 <0 0 64 0>;
@@ -7001,6 +7103,7 @@ lookup guard2 {
         pos u1055 u102D_uAA70 <0 0 447 0>;
         pos u1055 u1032_u102D <228 0 228 0>;
         pos u1055 u102E_uAA70 <0 0 433 0>;
+        pos u1055 u1032_u102E <270 0 270 0>;
         pos u1055 u1085_uAA70 <0 0 473 0>;
         pos u1075.aiph u102D_u1036 <0 0 77 0>;
         pos u1075.aiph u102E_u1036 <0 0 77 0>;
@@ -7013,6 +7116,7 @@ lookup guard2 {
         pos u1075.kham u1032_u1036 <0 0 77 0>;
         pos u1075.kham u102D_uAA70 <0 0 460 0>;
         pos u1075.kham u102E_uAA70 <0 0 446 0>;
+        pos u1075.kham u1032_u102E <61 0 61 0>;
         pos u1075.kham u1085_uAA70 <0 0 486 0>;
         pos u1076 u102D_u1036 <0 0 79 0>;
         pos u1076 u102E_u1036 <0 0 79 0>;
@@ -7020,6 +7124,7 @@ lookup guard2 {
         pos u1076 u102D_uAA70 <0 0 462 0>;
         pos u1076 u1032_u102D <216 0 216 0>;
         pos u1076 u102E_uAA70 <0 0 448 0>;
+        pos u1076 u1032_u102E <258 0 258 0>;
         pos u1076 u1085_uAA70 <0 0 488 0>;
         pos u1078.aiph u102D_u1036 <0 0 69 0>;
         pos u1078.aiph u102E_u1036 <0 0 69 0>;
@@ -7194,14 +7299,17 @@ lookup guard2 {
         pos uA9EF u1032_u102D <115 0 115 0>;
         pos uA9EF u103A_uAA7C <132 0 132 0>;
         pos uA9EF u102E_uAA70 <0 0 417 0>;
+        pos uA9EF u1032_u102E <157 0 157 0>;
         pos uA9EF u1085_uAA70 <0 0 457 0>;
         pos uAA62 u102D_uAA70 <0 0 391 0>;
         pos uAA62 u1032_u102D <221 0 221 0>;
         pos uAA62 u102E_uAA70 <0 0 377 0>;
+        pos uAA62 u1032_u102E <263 0 263 0>;
         pos uAA62 u1085_uAA70 <0 0 417 0>;
         pos uAA62.kham u102D_uAA70 <0 0 391 0>;
         pos uAA62.kham u1032_u102D <221 0 221 0>;
         pos uAA62.kham u102E_uAA70 <0 0 377 0>;
+        pos uAA62.kham u1032_u102E <263 0 263 0>;
         pos uAA62.kham u1085_uAA70 <0 0 417 0>;
         pos uAA63 u102D_u1036 <0 0 68 0>;
         pos uAA63 u102E_u1036 <0 0 68 0>;
@@ -7230,6 +7338,7 @@ lookup guard2 {
         pos uAA6B u102D_uAA70 <0 0 445 0>;
         pos uAA6B u1032_u102D <124 0 124 0>;
         pos uAA6B u102E_uAA70 <0 0 431 0>;
+        pos uAA6B u1032_u102E <166 0 166 0>;
         pos uAA6B u1085_uAA70 <0 0 471 0>;
         pos uAA6B.aiph u102D_u1036 <0 0 123 0>;
         pos uAA6B.aiph u102E_u1036 <0 0 123 0>;
@@ -7238,6 +7347,7 @@ lookup guard2 {
         pos uAA6B.aiph u1032_u102D <90 0 90 0>;
         pos uAA6B.aiph u102E_uAA70 <0 0 492 0>;
         pos uAA6B.aiph u1032 <0 0 54 0>;
+        pos uAA6B.aiph u1032_u102E <132 0 132 0>;
         pos uAA6B.aiph u1071 <0 0 62 0>;
         pos uAA6B.aiph u1085_uAA70 <0 0 532 0>;
         pos uAA6B.kham u102D_u1036 <0 0 62 0>;
@@ -7246,12 +7356,14 @@ lookup guard2 {
         pos uAA6B.kham u102D_uAA70 <0 0 445 0>;
         pos uAA6B.kham u1032_u102D <74 0 74 0>;
         pos uAA6B.kham u102E_uAA70 <0 0 431 0>;
+        pos uAA6B.kham u1032_u102E <116 0 116 0>;
         pos uAA6B.kham u1085_uAA70 <0 0 471 0>;
         pos uAA6D u102D_u1036 <0 0 65 0>;
         pos uAA6D u102E_u1036 <0 0 65 0>;
         pos uAA6D u1032_u1036 <0 0 65 0>;
         pos uAA6D u102D_uAA70 <0 0 448 0>;
         pos uAA6D u102E_uAA70 <0 0 434 0>;
+        pos uAA6D u1032_u102E <60 0 60 0>;
         pos uAA6D u1085_uAA70 <0 0 474 0>;
         pos uAA6D.aiph u102D_u1036 <0 0 78 0>;
         pos uAA6D.aiph u102E_u1036 <0 0 78 0>;
@@ -7265,6 +7377,7 @@ lookup guard2 {
         pos uAA6F u102D_uAA70 <0 0 453 0>;
         pos uAA6F u1032_u102D <66 0 66 0>;
         pos uAA6F u102E_uAA70 <0 0 439 0>;
+        pos uAA6F u1032_u102E <108 0 108 0>;
         pos uAA6F u1085_uAA70 <0 0 479 0>;
         pos uAA6F.kham u102D_u1036 <0 0 70 0>;
         pos uAA6F.kham u102E_u1036 <0 0 70 0>;
@@ -7272,6 +7385,7 @@ lookup guard2 {
         pos uAA6F.kham u102D_uAA70 <0 0 453 0>;
         pos uAA6F.kham u1032_u102D <66 0 66 0>;
         pos uAA6F.kham u102E_uAA70 <0 0 439 0>;
+        pos uAA6F.kham u1032_u102E <108 0 108 0>;
         pos uAA6F.kham u1085_uAA70 <0 0 479 0>;
         pos uAA72 u102D_u1036 <0 0 70 0>;
         pos uAA72 u102E_u1036 <0 0 70 0>;
@@ -7294,6 +7408,7 @@ lookup guard2 {
         pos uAA7E u102D_uAA70 <0 0 250 0>;
         pos uAA7E u1032_u102D <223 0 223 0>;
         pos uAA7E u102E_uAA70 <0 0 236 0>;
+        pos uAA7E u1032_u102E <265 0 265 0>;
         pos uAA7E u1085_uAA70 <0 0 276 0>;
         pos uAA7F u102D_uAA70 <0 0 254 0>;
         pos uAA7F u102E_uAA70 <0 0 240 0>;
