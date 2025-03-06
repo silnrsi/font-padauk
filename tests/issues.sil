@@ -1,6 +1,16 @@
 \begin[class=fontproof]{document}
 \bidi-off
 
+% Suppress unneeded warnings about languages SILE doesn't have hyphenation or
+% localizations for. Remove when SILE handles this gracefully, see:
+% - https://github.com/sile-typesetter/fontproof/issues/52
+% - https://github.com/sile-typesetter/sile/issues/2229
+\begin{lua}
+SILE.scratch.loaded_languages.dflt = true
+SILE.scratch.loaded_languages.ksw = true
+SILE.scratch.loaded_languages.tjl = true
+\end{lua}
+
 \patterngroup[name="conswide"]{ကဃဆဉညဏတထဘယလသဟအဿဟ}
 \patterngroup[name="consnarrow"]{ခဂငစဇဋဌဍဎဒဓနပဖဗမရဝဠၐၑ}
 \patterngroup[name="consmed"]{ကခဂဃငစဆဇဈဉညဋဌဍဎဏတထဒဓနပဖဗဘမယရလဝသဟဠအဿၐၑ}
