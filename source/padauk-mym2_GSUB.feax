@@ -7,7 +7,7 @@
 
 @BigUMark = [u1004.kinzi u1004.kinzi_u102D u1004.kinzi_u102E u1004.kinzi_u1036
     u101B.kinzi u101B.kinzi_u102D u101B.kinzi_u102E u101B.kinzi_u103A u102D u102D_u1036
-    u102E u1032 u1032_u102D u1033 u1034 u1035 u103A u1072 u1073 u1074 u1085];
+    u102E u1032 u1032_u102D u1032_u102E u1033 u1034 u1035 u103A u1072 u1073 u1074 u1085];
 
 @class103C_noalt = [u103C u103C.wide u103C_u103D.narr u103C_u103D.wide u103C_u102F.narr u103C_u102F.wide];
 
@@ -199,6 +199,7 @@ lookup mym2_pref_signsLig {
     sub u1086 uAA7C  by u1086_uAA7C;
     sub uA9E5 uAA7C  by uA9E5_uAA7C;
     sub u102D u1032  by u1032_u102D;
+    sub u102E u1032  by u1032_u102E;
     sub u102E u1036  by u102E_u1036; # Moken
     sub u1032 u1036  by u1032_u1036; # Moken
 } mym2_pref_signsLig;
@@ -224,6 +225,7 @@ lookup DFLT_signsLig {
     sub u1086 uAA7C  by u1086_uAA7C;
     sub uA9E5 uAA7C  by uA9E5_uAA7C;
     sub u102D u1032  by u1032_u102D;
+    sub u102E u1032  by u1032_u102E;
     sub u102E u1036  by u102E_u1036; # Moken
     sub u1032 u1036  by u1032_u1036; # Moken
 } DFLT_signsLig;

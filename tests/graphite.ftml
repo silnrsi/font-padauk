@@ -45,13 +45,37 @@
   </testgroup>
   <testgroup label="mnw_Words.txt">
     <test label="10.1">
+      <comment>OT fixed - although you could chop the top off and bring the vowel even closer. The value is in having a rhythm and evenness along the bottom of the line</comment>
       <string>\u1002\u102b\u1036 \u1002\u102b</string>
     </test>
     <test label="narrow wrap">
+      <comment>OT fixed</comment>
       <string>\u1002\u103c\u102b\u1036 \u1002\u103c\u102b</string>
     </test>
     <test label="wide wrap">
+      <comment>OT fixed</comment>
       <string>\u1003\u103c\u102b\u1036 \u1003\u103c\u102b</string>
+    </test>
+  </testgroup>
+  <testgroup label="mon.htxt">
+    <test label="12.1">
+      <comment>centered over base then kerned a bit, MH said U+102D</comment>
+      <string>\u1000\u105a\u102d\u102f\u1032</string>
+    </test>
+    <test label="U+1000 and U+102F">
+      <string>\u1000\u105a\u102d\u102f\u1032 \u1000\u105a\u102e\u102f\u1032</string>
+    </test>
+    <test label="U+1000 and U+1030">
+      <string>\u1000\u105a\u102d\u1030\u1032 \u1000\u105a\u102e\u1030\u1032</string>
+    </test>
+    <test label="U+105D and U+102F">
+      <string>\u105d\u105a\u102d\u102f\u1032 \u105d\u105a\u102e\u102f\u1032</string>
+    </test>
+    <test label="U+105D and U+1030">
+      <string>\u105d\u105a\u102d\u1030\u1032 \u105d\u105a\u102e\u1030\u1032</string>
+    </test>
+    <test label="U+101F and U+102F after asat">
+      <string>\u101f\u103a\u1015\u102d\u102f\u1032 \u101f\u103a\u1015\u102e\u102f\u1032</string>
     </test>
   </testgroup>
 </ftml>
