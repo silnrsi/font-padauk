@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1032_u102E" format="2">
-  <advance width="46"/>
-  <anchor x="-194" y="495" name="UM"/>
-  <anchor x="-36" y="800" name="_AA"/>
-  <anchor x="-194" y="495" name="_U"/>
-  <anchor x="-32" y="495" name="_Y"/>
+  <advance width="52"/>
+  <anchor x="-180" y="495" name="UM"/>
+  <anchor x="-360" y="495" name="_U"/>
+  <anchor x="-20" y="495" name="_Y"/>
   <outline>
     <component base="u1032" xOffset="-334"/>
-    <component base="u102E" xOffset="43"/>
+    <component base="u102E" xOffset="49"/>
   </outline>
 </glyph>

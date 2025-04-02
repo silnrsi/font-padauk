@@ -59,23 +59,8 @@
   </testgroup>
   <testgroup label="mon.htxt">
     <test label="12.1">
-      <comment>centered over base then kerned a bit, MH said U+102D</comment>
+      <comment>OT fixed</comment>
       <string>\u1000\u105a\u102d\u102f\u1032</string>
-    </test>
-    <test label="U+1000 and U+102F">
-      <string>\u1000\u105a\u102d\u102f\u1032 \u1000\u105a\u102e\u102f\u1032</string>
-    </test>
-    <test label="U+1000 and U+1030">
-      <string>\u1000\u105a\u102d\u1030\u1032 \u1000\u105a\u102e\u1030\u1032</string>
-    </test>
-    <test label="U+105D and U+102F">
-      <string>\u105d\u105a\u102d\u102f\u1032 \u105d\u105a\u102e\u102f\u1032</string>
-    </test>
-    <test label="U+105D and U+1030">
-      <string>\u105d\u105a\u102d\u1030\u1032 \u105d\u105a\u102e\u1030\u1032</string>
-    </test>
-    <test label="U+101F and U+102F after asat">
-      <string>\u101f\u103a\u1015\u102d\u102f\u1032 \u101f\u103a\u1015\u102e\u102f\u1032</string>
     </test>
   </testgroup>
 </ftml>

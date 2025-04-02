@@ -434,6 +434,11 @@ U+102D">
       <string>\u001000\u001032\u00102D</string>
     </test>
     <test label="U+1032
+U+102E">
+      <comment>u1032 u102E</comment>
+      <string>\u001000\u001032\u00102E</string>
+    </test>
+    <test label="U+1032
 U+1036">
       <comment>u1032 u1036</comment>
       <string>\u001000\u001032\u001036</string>

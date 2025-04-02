@@ -2,7 +2,7 @@
 <glyph name="u1032_u102D" format="2">
   <advance width="55"/>
   <anchor x="-180" y="495" name="UM"/>
-  <anchor x="-180" y="495" name="_U"/>
+  <anchor x="-360" y="495" name="_U"/>
   <anchor x="-20" y="495" name="_Y"/>
   <outline>
     <contour>
