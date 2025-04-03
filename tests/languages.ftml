@@ -325,4 +325,34 @@
       <string>\u100A\u1039\u100A</string>
     </test>
   </testgroup>
+  <testgroup label="Mon Thai">
+    <test label="buggy">
+      <string>\u1015\u1039\u100D\u1032</string>
+    </test>
+    <test label="mnw-TH - buggy" stylename="mnw-TH">
+      <string>\u1015\u1039\u100D\u1032</string>
+    </test>
+    <test label="cv04 - buggy" stylename="cv04_1">
+      <string>\u1015\u1039\u100D\u1032</string>
+    </test>
+    <test label="ss04 - buggy" stylename="ss04_1">
+      <string>\u1015\u1039\u100D\u1032</string>
+    </test>
+    <test label="U+1014">
+      <comment>na</comment>
+      <string>\u1014 \u1014\u1039\u101f \u101f\u1039\u1014</string>
+    </test>
+    <test label="mnw-TH - U+1014" stylename="mnw-TH">
+      <comment>na</comment>
+      <string>\u1014 \u1014\u1039\u101f \u101f\u1039\u1014</string>
+    </test>
+    <test label="cv04 - U+1014" stylename="cv04_1">
+      <comment>na</comment>
+      <string>\u1014 \u1014\u1039\u101f \u101f\u1039\u1014</string>
+    </test>
+    <test label="ss04 - U+1014" stylename="ss04_1">
+      <comment>na</comment>
+      <string>\u1014 \u1014\u1039\u101f \u101f\u1039\u1014</string>
+    </test>
+  </testgroup>
 </ftml>
