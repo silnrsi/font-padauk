@@ -435,10 +435,10 @@ lookup mym2_pres_u103Copen {
 # abvs
 # ****
 
-@cno_AA70 = [u102D u102E u103A u1085];
+@cno_AA70 = [u102D u102E u103A u1085 u1086];
 @classAA70Lig = [@cno_AA70 u1086 u1086.kham uAA70];
 @classAA70Skips = [u109B u109B.dot];
-@cAA70 = [u102D_uAA70 u102E_uAA70 u103A_uAA70 u1085_uAA70];
+@cAA70 = [u102D_uAA70 u102E_uAA70 u103A_uAA70 u1085_uAA70 u1086_uAA70];
 lookup mym2_abvs_redupLig {
   lookupflag IgnoreBaseGlyphs IgnoreLigatures UseMarkFilteringSet @classAA70Lig;
     sub @cno_AA70 uAA70 by @cAA70;

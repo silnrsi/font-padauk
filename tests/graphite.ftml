@@ -63,4 +63,42 @@
       <string>\u1000\u105a\u102d\u102f\u1032</string>
     </test>
   </testgroup>
+  <testgroup label="kht-extras.htxt">
+    <test label="7.1">
+      <comment>OT fixed</comment>
+      <string>\u101b\ufe00\u1086\u108a\uaa70</string>
+    </test>
+    <test label="11.1">
+      <comment>OT fixed</comment>
+      <string>\u1004\ufe00\u1086\u1062\u1038\uaa70</string>
+    </test>
+    <test label="12.1">
+      <comment>removed invalid VS sequence in first word to get second word</comment>
+      <string>\u1000\ufe00\u1086\u1088\ufe00\uaa70 \u1000\ufe00\u1086\u1088\uaa70</string>
+    </test>
+    <test label="13.1">
+      <comment>removed invalid VS sequence in first word to get second word</comment>
+      <string>\uaa75\ufe00\u1088\ufe00\uaa70\u1000\ufe00 \uaa75\ufe00\u1088\uaa70\u1000\ufe00</string>
+    </test>
+    <test label="15.1">
+      <comment>removed invalid VS sequence in first word to get second word</comment>
+      <string>\u1004\ufe00\u1086\ufe00\u109b\uaa70\u1000\ufe00 \u1004\ufe00\u1086\u109b\uaa70\u1000\ufe00</string>
+    </test>
+    <test label="17.1">
+      <comment>removed invalid VS sequence in first word to get second word</comment>
+      <string>\u1000\ufe00\u1086\ufe00\u109b\uaa70 \u1000\ufe00\u1086\u109b\uaa70</string>
+    </test>
+    <test label="20.1">
+      <comment>OT okay</comment>
+      <string>\u107b\u103c\u101c</string>
+    </test>
+    <test label="21.1">
+      <comment>OT okay</comment>
+      <string>\u1075\u103c\u101c</string>
+    </test>
+    <test label="22.1">
+      <comment>OT okay</comment>
+      <string>\u1075\ufe00\u103c\u101c</string>
+    </test>
+  </testgroup>
 </ftml>

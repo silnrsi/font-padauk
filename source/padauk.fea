@@ -794,6 +794,8 @@ feature mkmk {
 	u1010_u103D.med.tri u103D.tri u103D_u103E.tri 
 	u103D_u103E.small.tri u103E.slantr u103E.slanth u103E_u102F.slantr 
 	u103E_u102F.slanth u103E_u1030.slantr u103E_u1030.slanth
+
+	uFE00 uFE01 uFE02 uFE03 uFE04 uFE05 uFE06 uFE07 uFE08 uFE09 uFE0A uFE0B uFE0C uFE0D uFE0E uFE0F
      ];
 	
 
