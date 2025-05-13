@@ -243,6 +243,38 @@ def doit(args):
             builder.render((c0,virama,c0,virama,c0), ftml, label=f'{c0:04X}', comment=builder.char(c0).basename)
             ftml.closeTest()
 
+    if test.lower().startswith("guards"):
+        ftml.startTestGroup('upper overlaps')
+        upper_ligatures = [
+            (0x102d, 0x1032),
+            (0x102d, 0x1036),
+            (0x102d, 0xaa70),
+            (0x102d, 0xaa7c),
+            (0x102e, 0x1032),
+            (0x102e, 0x1036),
+            (0x102e, 0xaa70),
+            (0x102e, 0xaa7c),
+            (0x103a, 0xaa70),
+            (0x103a, 0xaa7c),
+            (0x1085, 0xaa70),
+            (0x1086, 0xaa70),
+            (0x1086, 0xaa7c),
+            (0xa9e5, 0xaa7c),
+        ]
+        narr_wide = (0x101D, 0x101C)
+        for upper_ligature in upper_ligatures:
+            for c1 in narr_wide:
+                for c2 in narr_wide:
+                    u1 = upper_ligature[0]
+                    u2 = upper_ligature[1]
+                    comment = builder.char(u1).basename + ' ' + builder.char(u2).basename
+                    builder.render((c2,u1,u2,c1), ftml, label=f'{c2:04X} {u1:04X} {u2:04X} {c1:04X}', comment=comment)
+                    ftml.closeTest()
+                    builder.render((c1,c2,u1,u2,c1), ftml, label=f'{c1:04X} {c2:04X} {u1:04X} {u2:04X} {c1:04X}', comment=comment)
+                    ftml.closeTest()
+                    builder.render((c1,0x102d,c2,u1,u2,c1), ftml, label=f'{c1:04X} iMatra {c2:04X} {u1:04X} {u2:04X} {c1:04X}', comment=comment)
+                    ftml.closeTest()
+
     # Write the output ftml file
     ftml.writeFile(args.output)
 
