@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
+<ftml version="1.2">
+  <head>
+    <comment>Background colors: light orange: includes a character from Unicode version 16.0 or later; light red: a character is missing from UFO; light green: a character is new in this version of the font</comment>
+    <fontscale>200</fontscale>
+    <fontsrc label="grRref">url(../references/PadaukBook-Regular.ttf)</fontsrc>
+    <fontsrc label="grBref">url(../references/PadaukBook-Bold.ttf)</fontsrc>
+    <fontsrc label="dfltRref">url(../references/tests/ftml/fonts/PadaukBook-Regular_ot_DFLT.ttf)</fontsrc>
+    <fontsrc label="dfltBref">url(../references/tests/ftml/fonts/PadaukBook-Bold_ot_DFLT.ttf)</fontsrc>
+    <fontsrc label="Rref">url(../references/tests/ftml/fonts/PadaukBook-Regular_ot_mym2.ttf)</fontsrc>
+    <fontsrc label="Bref">url(../references/tests/ftml/fonts/PadaukBook-Bold_ot_mym2.ttf)</fontsrc>
+    <fontsrc label="grR">url(../results/PadaukBook-Regular.ttf)</fontsrc>
+    <fontsrc label="grB">url(../results/PadaukBook-Bold.ttf)</fontsrc>
+    <fontsrc label="dfltR">url(../results/tests/ftml/fonts/PadaukBook-Regular_ot_DFLT.ttf)</fontsrc>
+    <fontsrc label="dfltB">url(../results/tests/ftml/fonts/PadaukBook-Bold_ot_DFLT.ttf)</fontsrc>
+    <fontsrc label="R">url(../results/tests/ftml/fonts/PadaukBook-Regular_ot_mym2.ttf)</fontsrc>
+    <fontsrc label="B">url(../results/tests/ftml/fonts/PadaukBook-Bold_ot_mym2.ttf)</fontsrc>
+    <fontsrc label="Pyidaungsu">url(../references/Pyidaungsu-2.5.3_Regular.ttf)</fontsrc>
+    <fontsrc label="notoSans">url(../references/NotoSansMyanmar-Regular.ttf)</fontsrc>
+    <fontsrc label="notoSerif">url(../references/NotoSerifMyanmar-Regular.ttf)</fontsrc>
+    <title>Guards auto</title>
+  </head>
+  <testgroup background="#f0f0f0" label="Rendering Check">
+    <test label="check">
+      <string>RenderingUnknown</string>
+    </test>
+  </testgroup>
+  <testgroup label="upper overlaps">
+    <test label="101D 102D 1032 101D">
+      <comment>u102D u1032</comment>
+      <string>\u00101D\u00102D\u001032\u00101D</string>
+    </test>
+    <test label="101D 101D 102D 1032 101D">
+      <comment>u102D u1032</comment>
+      <string>\u00101D\u00101D\u00102D\u001032\u00101D</string>
+    </test>
+    <test label="101D iMatra 101D 102D 1032 101D">
+      <comment>u102D u1032</comment>
+      <string>\u00101D\u00102D\u00101D\u00102D\u001032\u00101D</string>
+    </test>
+    <test label="101C 102D 1032 101D">
+      <comment>u102D u1032</comment>
+      <string>\u00101C\u00102D\u001032\u00101D</string>
+    </test>
+    <test label="101D 101C 102D 1032 101D">
+      <comment>u102D u1032</comment>
+      <string>\u00101D\u00101C\u00102D\u001032\u00101D</string>
+    </test>
+    <test label="101D iMatra 101C 102D 1032 101D">
+      <comment>u102D u1032</comment>
+      <string>\u00101D\u00102D\u00101C\u00102D\u001032\u00101D</string>
+    </test>
+    <test label="101D 102D 1032 101C">
+      <comment>u102D u1032</comment>
+      <string>\u00101D\u00102D\u001032\u00101C</string>
+    </test>
+    <test label="101C 101D 102D 1032 101C">
+      <comment>u102D u1032</comment>
+      <string>\u00101C\u00101D\u00102D\u001032\u00101C</string>
+    </test>
+    <test label="101C iMatra 101D 102D 1032 101C">
+      <comment>u102D u1032</comment>
+      <string>\u00101C\u00102D\u00101D\u00102D\u001032\u00101C</string>
+    </test>
+    <test label="101C 102D 1032 101C">
+      <comment>u102D u1032</comment>
+      <string>\u00101C\u00102D\u001032\u00101C</string>
+    </test>
+    <test label="101C 101C 102D 1032 101C">
+      <comment>u102D u1032</comment>
+      <string>\u00101C\u00101C\u00102D\u001032\u00101C</string>
+    </test>
+    <test label="101C iMatra 101C 102D 1032 101C">
+      <comment>u102D u1032</comment>
+      <string>\u00101C\u00102D\u00101C\u00102D\u001032\u00101C</string>
+    </test>
+    <test label="101D 102D 1036 101D">
+      <comment>u102D u1036</comment>
+      <string>\u00101D\u00102D\u001036\u00101D</string>
+    </test>
+    <test label="101D 101D 102D 1036 101D">
+      <comment>u102D u1036</comment>
+      <string>\u00101D\u00101D\u00102D\u001036\u00101D</string>
+    </test>
+    <test label="101D iMatra 101D 102D 1036 101D">
+      <comment>u102D u1036</comment>
+      <string>\u00101D\u00102D\u00101D\u00102D\u001036\u00101D</string>
+    </test>
+    <test label="101C 102D 1036 101D">
+      <comment>u102D u1036</comment>
+      <string>\u00101C\u00102D\u001036\u00101D</string>
+    </test>
+    <test label="101D 101C 102D 1036 101D">
+      <comment>u102D u1036</comment>
+      <string>\u00101D\u00101C\u00102D\u001036\u00101D</string>
+    </test>
+    <test label="101D iMatra 101C 102D 1036 101D">
+      <comment>u102D u1036</comment>
+      <string>\u00101D\u00102D\u00101C\u00102D\u001036\u00101D</string>
+    </test>
+    <test label="101D 102D 1036 101C">
+      <comment>u102D u1036</comment>
+      <string>\u00101D\u00102D\u001036\u00101C</string>
+    </test>
+    <test label="101C 101D 102D 1036 101C">
+      <comment>u102D u1036</comment>
+      <string>\u00101C\u00101D\u00102D\u001036\u00101C</string>
+    </test>
+    <test label="101C iMatra 101D 102D 1036 101C">
+      <comment>u102D u1036</comment>
+      <string>\u00101C\u00102D\u00101D\u00102D\u001036\u00101C</string>
+    </test>
+    <test label="101C 102D 1036 101C">
+      <comment>u102D u1036</comment>
+      <string>\u00101C\u00102D\u001036\u00101C</string>
+    </test>
+    <test label="101C 101C 102D 1036 101C">
+      <comment>u102D u1036</comment>
+      <string>\u00101C\u00101C\u00102D\u001036\u00101C</string>
+    </test>
+    <test label="101C iMatra 101C 102D 1036 101C">
+      <comment>u102D u1036</comment>
+      <string>\u00101C\u00102D\u00101C\u00102D\u001036\u00101C</string>
+    </test>
+    <test label="101D 102D AA70 101D">
+      <comment>u102D uAA70</comment>
+      <string>\u00101D\u00102D\u00AA70\u00101D</string>
+    </test>
+    <test label="101D 101D 102D AA70 101D">
+      <comment>u102D uAA70</comment>
+      <string>\u00101D\u00101D\u00102D\u00AA70\u00101D</string>
+    </test>
+    <test label="101D iMatra 101D 102D AA70 101D">
+      <comment>u102D uAA70</comment>
+      <string>\u00101D\u00102D\u00101D\u00102D\u00AA70\u00101D</string>
+    </test>
+    <test label="101C 102D AA70 101D">
+      <comment>u102D uAA70</comment>
+      <string>\u00101C\u00102D\u00AA70\u00101D</string>
+    </test>
+    <test label="101D 101C 102D AA70 101D">
+      <comment>u102D uAA70</comment>
+      <string>\u00101D\u00101C\u00102D\u00AA70\u00101D</string>
+    </test>
+    <test label="101D iMatra 101C 102D AA70 101D">
+      <comment>u102D uAA70</comment>
+      <string>\u00101D\u00102D\u00101C\u00102D\u00AA70\u00101D</string>
+    </test>
+    <test label="101D 102D AA70 101C">
+      <comment>u102D uAA70</comment>
+      <string>\u00101D\u00102D\u00AA70\u00101C</string>
+    </test>
+    <test label="101C 101D 102D AA70 101C">
+      <comment>u102D uAA70</comment>
+      <string>\u00101C\u00101D\u00102D\u00AA70\u00101C</string>
+    </test>
+    <test label="101C iMatra 101D 102D AA70 101C">
+      <comment>u102D uAA70</comment>
+      <string>\u00101C\u00102D\u00101D\u00102D\u00AA70\u00101C</string>
+    </test>
+    <test label="101C 102D AA70 101C">
+      <comment>u102D uAA70</comment>
+      <string>\u00101C\u00102D\u00AA70\u00101C</string>
+    </test>
+    <test label="101C 101C 102D AA70 101C">
+      <comment>u102D uAA70</comment>
+      <string>\u00101C\u00101C\u00102D\u00AA70\u00101C</string>
+    </test>
+    <test label="101C iMatra 101C 102D AA70 101C">
+      <comment>u102D uAA70</comment>
+      <string>\u00101C\u00102D\u00101C\u00102D\u00AA70\u00101C</string>
+    </test>
+    <test label="101D 102D AA7C 101D">
+      <comment>u102D uAA7C</comment>
+      <string>\u00101D\u00102D\u00AA7C\u00101D</string>
+    </test>
+    <test label="101D 101D 102D AA7C 101D">
+      <comment>u102D uAA7C</comment>
+      <string>\u00101D\u00101D\u00102D\u00AA7C\u00101D</string>
+    </test>
+    <test label="101D iMatra 101D 102D AA7C 101D">
+      <comment>u102D uAA7C</comment>
+      <string>\u00101D\u00102D\u00101D\u00102D\u00AA7C\u00101D</string>
+    </test>
+    <test label="101C 102D AA7C 101D">
+      <comment>u102D uAA7C</comment>
+      <string>\u00101C\u00102D\u00AA7C\u00101D</string>
+    </test>
+    <test label="101D 101C 102D AA7C 101D">
+      <comment>u102D uAA7C</comment>
+      <string>\u00101D\u00101C\u00102D\u00AA7C\u00101D</string>
+    </test>
+    <test label="101D iMatra 101C 102D AA7C 101D">
+      <comment>u102D uAA7C</comment>
+      <string>\u00101D\u00102D\u00101C\u00102D\u00AA7C\u00101D</string>
+    </test>
+    <test label="101D 102D AA7C 101C">
+      <comment>u102D uAA7C</comment>
+      <string>\u00101D\u00102D\u00AA7C\u00101C</string>
+    </test>
+    <test label="101C 101D 102D AA7C 101C">
+      <comment>u102D uAA7C</comment>
+      <string>\u00101C\u00101D\u00102D\u00AA7C\u00101C</string>
+    </test>
+    <test label="101C iMatra 101D 102D AA7C 101C">
+      <comment>u102D uAA7C</comment>
+      <string>\u00101C\u00102D\u00101D\u00102D\u00AA7C\u00101C</string>
+    </test>
+    <test label="101C 102D AA7C 101C">
+      <comment>u102D uAA7C</comment>
+      <string>\u00101C\u00102D\u00AA7C\u00101C</string>
+    </test>
+    <test label="101C 101C 102D AA7C 101C">
+      <comment>u102D uAA7C</comment>
+      <string>\u00101C\u00101C\u00102D\u00AA7C\u00101C</string>
+    </test>
+    <test label="101C iMatra 101C 102D AA7C 101C">
+      <comment>u102D uAA7C</comment>
+      <string>\u00101C\u00102D\u00101C\u00102D\u00AA7C\u00101C</string>
+    </test>
+    <test label="101D 102E 1032 101D">
+      <comment>u102E u1032</comment>
+      <string>\u00101D\u00102E\u001032\u00101D</string>
+    </test>
+    <test label="101D 101D 102E 1032 101D">
+      <comment>u102E u1032</comment>
+      <string>\u00101D\u00101D\u00102E\u001032\u00101D</string>
+    </test>
+    <test label="101D iMatra 101D 102E 1032 101D">
+      <comment>u102E u1032</comment>
+      <string>\u00101D\u00102D\u00101D\u00102E\u001032\u00101D</string>
+    </test>
+    <test label="101C 102E 1032 101D">
+      <comment>u102E u1032</comment>
+      <string>\u00101C\u00102E\u001032\u00101D</string>
+    </test>
+    <test label="101D 101C 102E 1032 101D">
+      <comment>u102E u1032</comment>
+      <string>\u00101D\u00101C\u00102E\u001032\u00101D</string>
+    </test>
+    <test label="101D iMatra 101C 102E 1032 101D">
+      <comment>u102E u1032</comment>
+      <string>\u00101D\u00102D\u00101C\u00102E\u001032\u00101D</string>
+    </test>
+    <test label="101D 102E 1032 101C">
+      <comment>u102E u1032</comment>
+      <string>\u00101D\u00102E\u001032\u00101C</string>
+    </test>
+    <test label="101C 101D 102E 1032 101C">
+      <comment>u102E u1032</comment>
+      <string>\u00101C\u00101D\u00102E\u001032\u00101C</string>
+    </test>
+    <test label="101C iMatra 101D 102E 1032 101C">
+      <comment>u102E u1032</comment>
+      <string>\u00101C\u00102D\u00101D\u00102E\u001032\u00101C</string>
+    </test>
+    <test label="101C 102E 1032 101C">
+      <comment>u102E u1032</comment>
+      <string>\u00101C\u00102E\u001032\u00101C</string>
+    </test>
+    <test label="101C 101C 102E 1032 101C">
+      <comment>u102E u1032</comment>
+      <string>\u00101C\u00101C\u00102E\u001032\u00101C</string>
+    </test>
+    <test label="101C iMatra 101C 102E 1032 101C">
+      <comment>u102E u1032</comment>
+      <string>\u00101C\u00102D\u00101C\u00102E\u001032\u00101C</string>
+    </test>
+    <test label="101D 102E 1036 101D">
+      <comment>u102E u1036</comment>
+      <string>\u00101D\u00102E\u001036\u00101D</string>
+    </test>
+    <test label="101D 101D 102E 1036 101D">
+      <comment>u102E u1036</comment>
+      <string>\u00101D\u00101D\u00102E\u001036\u00101D</string>
+    </test>
+    <test label="101D iMatra 101D 102E 1036 101D">
+      <comment>u102E u1036</comment>
+      <string>\u00101D\u00102D\u00101D\u00102E\u001036\u00101D</string>
+    </test>
+    <test label="101C 102E 1036 101D">
+      <comment>u102E u1036</comment>
+      <string>\u00101C\u00102E\u001036\u00101D</string>
+    </test>
+    <test label="101D 101C 102E 1036 101D">
+      <comment>u102E u1036</comment>
+      <string>\u00101D\u00101C\u00102E\u001036\u00101D</string>
+    </test>
+    <test label="101D iMatra 101C 102E 1036 101D">
+      <comment>u102E u1036</comment>
+      <string>\u00101D\u00102D\u00101C\u00102E\u001036\u00101D</string>
+    </test>
+    <test label="101D 102E 1036 101C">
+      <comment>u102E u1036</comment>
+      <string>\u00101D\u00102E\u001036\u00101C</string>
+    </test>
+    <test label="101C 101D 102E 1036 101C">
+      <comment>u102E u1036</comment>
+      <string>\u00101C\u00101D\u00102E\u001036\u00101C</string>
+    </test>
+    <test label="101C iMatra 101D 102E 1036 101C">
+      <comment>u102E u1036</comment>
+      <string>\u00101C\u00102D\u00101D\u00102E\u001036\u00101C</string>
+    </test>
+    <test label="101C 102E 1036 101C">
+      <comment>u102E u1036</comment>
+      <string>\u00101C\u00102E\u001036\u00101C</string>
+    </test>
+    <test label="101C 101C 102E 1036 101C">
+      <comment>u102E u1036</comment>
+      <string>\u00101C\u00101C\u00102E\u001036\u00101C</string>
+    </test>
+    <test label="101C iMatra 101C 102E 1036 101C">
+      <comment>u102E u1036</comment>
+      <string>\u00101C\u00102D\u00101C\u00102E\u001036\u00101C</string>
+    </test>
+    <test label="101D 102E AA70 101D">
+      <comment>u102E uAA70</comment>
+      <string>\u00101D\u00102E\u00AA70\u00101D</string>
+    </test>
+    <test label="101D 101D 102E AA70 101D">
+      <comment>u102E uAA70</comment>
+      <string>\u00101D\u00101D\u00102E\u00AA70\u00101D</string>
+    </test>
+    <test label="101D iMatra 101D 102E AA70 101D">
+      <comment>u102E uAA70</comment>
+      <string>\u00101D\u00102D\u00101D\u00102E\u00AA70\u00101D</string>
+    </test>
+    <test label="101C 102E AA70 101D">
+      <comment>u102E uAA70</comment>
+      <string>\u00101C\u00102E\u00AA70\u00101D</string>
+    </test>
+    <test label="101D 101C 102E AA70 101D">
+      <comment>u102E uAA70</comment>
+      <string>\u00101D\u00101C\u00102E\u00AA70\u00101D</string>
+    </test>
+    <test label="101D iMatra 101C 102E AA70 101D">
+      <comment>u102E uAA70</comment>
+      <string>\u00101D\u00102D\u00101C\u00102E\u00AA70\u00101D</string>
+    </test>
+    <test label="101D 102E AA70 101C">
+      <comment>u102E uAA70</comment>
+      <string>\u00101D\u00102E\u00AA70\u00101C</string>
+    </test>
+    <test label="101C 101D 102E AA70 101C">
+      <comment>u102E uAA70</comment>
+      <string>\u00101C\u00101D\u00102E\u00AA70\u00101C</string>
+    </test>
+    <test label="101C iMatra 101D 102E AA70 101C">
+      <comment>u102E uAA70</comment>
+      <string>\u00101C\u00102D\u00101D\u00102E\u00AA70\u00101C</string>
+    </test>
+    <test label="101C 102E AA70 101C">
+      <comment>u102E uAA70</comment>
+      <string>\u00101C\u00102E\u00AA70\u00101C</string>
+    </test>
+    <test label="101C 101C 102E AA70 101C">
+      <comment>u102E uAA70</comment>
+      <string>\u00101C\u00101C\u00102E\u00AA70\u00101C</string>
+    </test>
+    <test label="101C iMatra 101C 102E AA70 101C">
+      <comment>u102E uAA70</comment>
+      <string>\u00101C\u00102D\u00101C\u00102E\u00AA70\u00101C</string>
+    </test>
+    <test label="101D 102E AA7C 101D">
+      <comment>u102E uAA7C</comment>
+      <string>\u00101D\u00102E\u00AA7C\u00101D</string>
+    </test>
+    <test label="101D 101D 102E AA7C 101D">
+      <comment>u102E uAA7C</comment>
+      <string>\u00101D\u00101D\u00102E\u00AA7C\u00101D</string>
+    </test>
+    <test label="101D iMatra 101D 102E AA7C 101D">
+      <comment>u102E uAA7C</comment>
+      <string>\u00101D\u00102D\u00101D\u00102E\u00AA7C\u00101D</string>
+    </test>
+    <test label="101C 102E AA7C 101D">
+      <comment>u102E uAA7C</comment>
+      <string>\u00101C\u00102E\u00AA7C\u00101D</string>
+    </test>
+    <test label="101D 101C 102E AA7C 101D">
+      <comment>u102E uAA7C</comment>
+      <string>\u00101D\u00101C\u00102E\u00AA7C\u00101D</string>
+    </test>
+    <test label="101D iMatra 101C 102E AA7C 101D">
+      <comment>u102E uAA7C</comment>
+      <string>\u00101D\u00102D\u00101C\u00102E\u00AA7C\u00101D</string>
+    </test>
+    <test label="101D 102E AA7C 101C">
+      <comment>u102E uAA7C</comment>
+      <string>\u00101D\u00102E\u00AA7C\u00101C</string>
+    </test>
+    <test label="101C 101D 102E AA7C 101C">
+      <comment>u102E uAA7C</comment>
+      <string>\u00101C\u00101D\u00102E\u00AA7C\u00101C</string>
+    </test>
+    <test label="101C iMatra 101D 102E AA7C 101C">
+      <comment>u102E uAA7C</comment>
+      <string>\u00101C\u00102D\u00101D\u00102E\u00AA7C\u00101C</string>
+    </test>
+    <test label="101C 102E AA7C 101C">
+      <comment>u102E uAA7C</comment>
+      <string>\u00101C\u00102E\u00AA7C\u00101C</string>
+    </test>
+    <test label="101C 101C 102E AA7C 101C">
+      <comment>u102E uAA7C</comment>
+      <string>\u00101C\u00101C\u00102E\u00AA7C\u00101C</string>
+    </test>
+    <test label="101C iMatra 101C 102E AA7C 101C">
+      <comment>u102E uAA7C</comment>
+      <string>\u00101C\u00102D\u00101C\u00102E\u00AA7C\u00101C</string>
+    </test>
+    <test label="101D 103A AA70 101D">
+      <comment>u103A uAA70</comment>
+      <string>\u00101D\u00103A\u00AA70\u00101D</string>
+    </test>
+    <test label="101D 101D 103A AA70 101D">
+      <comment>u103A uAA70</comment>
+      <string>\u00101D\u00101D\u00103A\u00AA70\u00101D</string>
+    </test>
+    <test label="101D iMatra 101D 103A AA70 101D">
+      <comment>u103A uAA70</comment>
+      <string>\u00101D\u00102D\u00101D\u00103A\u00AA70\u00101D</string>
+    </test>
+    <test label="101C 103A AA70 101D">
+      <comment>u103A uAA70</comment>
+      <string>\u00101C\u00103A\u00AA70\u00101D</string>
+    </test>
+    <test label="101D 101C 103A AA70 101D">
+      <comment>u103A uAA70</comment>
+      <string>\u00101D\u00101C\u00103A\u00AA70\u00101D</string>
+    </test>
+    <test label="101D iMatra 101C 103A AA70 101D">
+      <comment>u103A uAA70</comment>
+      <string>\u00101D\u00102D\u00101C\u00103A\u00AA70\u00101D</string>
+    </test>
+    <test label="101D 103A AA70 101C">
+      <comment>u103A uAA70</comment>
+      <string>\u00101D\u00103A\u00AA70\u00101C</string>
+    </test>
+    <test label="101C 101D 103A AA70 101C">
+      <comment>u103A uAA70</comment>
+      <string>\u00101C\u00101D\u00103A\u00AA70\u00101C</string>
+    </test>
+    <test label="101C iMatra 101D 103A AA70 101C">
+      <comment>u103A uAA70</comment>
+      <string>\u00101C\u00102D\u00101D\u00103A\u00AA70\u00101C</string>
+    </test>
+    <test label="101C 103A AA70 101C">
+      <comment>u103A uAA70</comment>
+      <string>\u00101C\u00103A\u00AA70\u00101C</string>
+    </test>
+    <test label="101C 101C 103A AA70 101C">
+      <comment>u103A uAA70</comment>
+      <string>\u00101C\u00101C\u00103A\u00AA70\u00101C</string>
+    </test>
+    <test label="101C iMatra 101C 103A AA70 101C">
+      <comment>u103A uAA70</comment>
+      <string>\u00101C\u00102D\u00101C\u00103A\u00AA70\u00101C</string>
+    </test>
+    <test label="101D 103A AA7C 101D">
+      <comment>u103A uAA7C</comment>
+      <string>\u00101D\u00103A\u00AA7C\u00101D</string>
+    </test>
+    <test label="101D 101D 103A AA7C 101D">
+      <comment>u103A uAA7C</comment>
+      <string>\u00101D\u00101D\u00103A\u00AA7C\u00101D</string>
+    </test>
+    <test label="101D iMatra 101D 103A AA7C 101D">
+      <comment>u103A uAA7C</comment>
+      <string>\u00101D\u00102D\u00101D\u00103A\u00AA7C\u00101D</string>
+    </test>
+    <test label="101C 103A AA7C 101D">
+      <comment>u103A uAA7C</comment>
+      <string>\u00101C\u00103A\u00AA7C\u00101D</string>
+    </test>
+    <test label="101D 101C 103A AA7C 101D">
+      <comment>u103A uAA7C</comment>
+      <string>\u00101D\u00101C\u00103A\u00AA7C\u00101D</string>
+    </test>
+    <test label="101D iMatra 101C 103A AA7C 101D">
+      <comment>u103A uAA7C</comment>
+      <string>\u00101D\u00102D\u00101C\u00103A\u00AA7C\u00101D</string>
+    </test>
+    <test label="101D 103A AA7C 101C">
+      <comment>u103A uAA7C</comment>
+      <string>\u00101D\u00103A\u00AA7C\u00101C</string>
+    </test>
+    <test label="101C 101D 103A AA7C 101C">
+      <comment>u103A uAA7C</comment>
+      <string>\u00101C\u00101D\u00103A\u00AA7C\u00101C</string>
+    </test>
+    <test label="101C iMatra 101D 103A AA7C 101C">
+      <comment>u103A uAA7C</comment>
+      <string>\u00101C\u00102D\u00101D\u00103A\u00AA7C\u00101C</string>
+    </test>
+    <test label="101C 103A AA7C 101C">
+      <comment>u103A uAA7C</comment>
+      <string>\u00101C\u00103A\u00AA7C\u00101C</string>
+    </test>
+    <test label="101C 101C 103A AA7C 101C">
+      <comment>u103A uAA7C</comment>
+      <string>\u00101C\u00101C\u00103A\u00AA7C\u00101C</string>
+    </test>
+    <test label="101C iMatra 101C 103A AA7C 101C">
+      <comment>u103A uAA7C</comment>
+      <string>\u00101C\u00102D\u00101C\u00103A\u00AA7C\u00101C</string>
+    </test>
+    <test label="101D 1085 AA70 101D">
+      <comment>u1085 uAA70</comment>
+      <string>\u00101D\u001085\u00AA70\u00101D</string>
+    </test>
+    <test label="101D 101D 1085 AA70 101D">
+      <comment>u1085 uAA70</comment>
+      <string>\u00101D\u00101D\u001085\u00AA70\u00101D</string>
+    </test>
+    <test label="101D iMatra 101D 1085 AA70 101D">
+      <comment>u1085 uAA70</comment>
+      <string>\u00101D\u00102D\u00101D\u001085\u00AA70\u00101D</string>
+    </test>
+    <test label="101C 1085 AA70 101D">
+      <comment>u1085 uAA70</comment>
+      <string>\u00101C\u001085\u00AA70\u00101D</string>
+    </test>
+    <test label="101D 101C 1085 AA70 101D">
+      <comment>u1085 uAA70</comment>
+      <string>\u00101D\u00101C\u001085\u00AA70\u00101D</string>
+    </test>
+    <test label="101D iMatra 101C 1085 AA70 101D">
+      <comment>u1085 uAA70</comment>
+      <string>\u00101D\u00102D\u00101C\u001085\u00AA70\u00101D</string>
+    </test>
+    <test label="101D 1085 AA70 101C">
+      <comment>u1085 uAA70</comment>
+      <string>\u00101D\u001085\u00AA70\u00101C</string>
+    </test>
+    <test label="101C 101D 1085 AA70 101C">
+      <comment>u1085 uAA70</comment>
+      <string>\u00101C\u00101D\u001085\u00AA70\u00101C</string>
+    </test>
+    <test label="101C iMatra 101D 1085 AA70 101C">
+      <comment>u1085 uAA70</comment>
+      <string>\u00101C\u00102D\u00101D\u001085\u00AA70\u00101C</string>
+    </test>
+    <test label="101C 1085 AA70 101C">
+      <comment>u1085 uAA70</comment>
+      <string>\u00101C\u001085\u00AA70\u00101C</string>
+    </test>
+    <test label="101C 101C 1085 AA70 101C">
+      <comment>u1085 uAA70</comment>
+      <string>\u00101C\u00101C\u001085\u00AA70\u00101C</string>
+    </test>
+    <test label="101C iMatra 101C 1085 AA70 101C">
+      <comment>u1085 uAA70</comment>
+      <string>\u00101C\u00102D\u00101C\u001085\u00AA70\u00101C</string>
+    </test>
+    <test label="101D 1086 AA70 101D">
+      <comment>u1086 uAA70</comment>
+      <string>\u00101D\u001086\u00AA70\u00101D</string>
+    </test>
+    <test label="101D 101D 1086 AA70 101D">
+      <comment>u1086 uAA70</comment>
+      <string>\u00101D\u00101D\u001086\u00AA70\u00101D</string>
+    </test>
+    <test label="101D iMatra 101D 1086 AA70 101D">
+      <comment>u1086 uAA70</comment>
+      <string>\u00101D\u00102D\u00101D\u001086\u00AA70\u00101D</string>
+    </test>
+    <test label="101C 1086 AA70 101D">
+      <comment>u1086 uAA70</comment>
+      <string>\u00101C\u001086\u00AA70\u00101D</string>
+    </test>
+    <test label="101D 101C 1086 AA70 101D">
+      <comment>u1086 uAA70</comment>
+      <string>\u00101D\u00101C\u001086\u00AA70\u00101D</string>
+    </test>
+    <test label="101D iMatra 101C 1086 AA70 101D">
+      <comment>u1086 uAA70</comment>
+      <string>\u00101D\u00102D\u00101C\u001086\u00AA70\u00101D</string>
+    </test>
+    <test label="101D 1086 AA70 101C">
+      <comment>u1086 uAA70</comment>
+      <string>\u00101D\u001086\u00AA70\u00101C</string>
+    </test>
+    <test label="101C 101D 1086 AA70 101C">
+      <comment>u1086 uAA70</comment>
+      <string>\u00101C\u00101D\u001086\u00AA70\u00101C</string>
+    </test>
+    <test label="101C iMatra 101D 1086 AA70 101C">
+      <comment>u1086 uAA70</comment>
+      <string>\u00101C\u00102D\u00101D\u001086\u00AA70\u00101C</string>
+    </test>
+    <test label="101C 1086 AA70 101C">
+      <comment>u1086 uAA70</comment>
+      <string>\u00101C\u001086\u00AA70\u00101C</string>
+    </test>
+    <test label="101C 101C 1086 AA70 101C">
+      <comment>u1086 uAA70</comment>
+      <string>\u00101C\u00101C\u001086\u00AA70\u00101C</string>
+    </test>
+    <test label="101C iMatra 101C 1086 AA70 101C">
+      <comment>u1086 uAA70</comment>
+      <string>\u00101C\u00102D\u00101C\u001086\u00AA70\u00101C</string>
+    </test>
+    <test label="101D 1086 AA7C 101D">
+      <comment>u1086 uAA7C</comment>
+      <string>\u00101D\u001086\u00AA7C\u00101D</string>
+    </test>
+    <test label="101D 101D 1086 AA7C 101D">
+      <comment>u1086 uAA7C</comment>
+      <string>\u00101D\u00101D\u001086\u00AA7C\u00101D</string>
+    </test>
+    <test label="101D iMatra 101D 1086 AA7C 101D">
+      <comment>u1086 uAA7C</comment>
+      <string>\u00101D\u00102D\u00101D\u001086\u00AA7C\u00101D</string>
+    </test>
+    <test label="101C 1086 AA7C 101D">
+      <comment>u1086 uAA7C</comment>
+      <string>\u00101C\u001086\u00AA7C\u00101D</string>
+    </test>
+    <test label="101D 101C 1086 AA7C 101D">
+      <comment>u1086 uAA7C</comment>
+      <string>\u00101D\u00101C\u001086\u00AA7C\u00101D</string>
+    </test>
+    <test label="101D iMatra 101C 1086 AA7C 101D">
+      <comment>u1086 uAA7C</comment>
+      <string>\u00101D\u00102D\u00101C\u001086\u00AA7C\u00101D</string>
+    </test>
+    <test label="101D 1086 AA7C 101C">
+      <comment>u1086 uAA7C</comment>
+      <string>\u00101D\u001086\u00AA7C\u00101C</string>
+    </test>
+    <test label="101C 101D 1086 AA7C 101C">
+      <comment>u1086 uAA7C</comment>
+      <string>\u00101C\u00101D\u001086\u00AA7C\u00101C</string>
+    </test>
+    <test label="101C iMatra 101D 1086 AA7C 101C">
+      <comment>u1086 uAA7C</comment>
+      <string>\u00101C\u00102D\u00101D\u001086\u00AA7C\u00101C</string>
+    </test>
+    <test label="101C 1086 AA7C 101C">
+      <comment>u1086 uAA7C</comment>
+      <string>\u00101C\u001086\u00AA7C\u00101C</string>
+    </test>
+    <test label="101C 101C 1086 AA7C 101C">
+      <comment>u1086 uAA7C</comment>
+      <string>\u00101C\u00101C\u001086\u00AA7C\u00101C</string>
+    </test>
+    <test label="101C iMatra 101C 1086 AA7C 101C">
+      <comment>u1086 uAA7C</comment>
+      <string>\u00101C\u00102D\u00101C\u001086\u00AA7C\u00101C</string>
+    </test>
+    <test label="101D A9E5 AA7C 101D">
+      <comment>uA9E5 uAA7C</comment>
+      <string>\u00101D\u00A9E5\u00AA7C\u00101D</string>
+    </test>
+    <test label="101D 101D A9E5 AA7C 101D">
+      <comment>uA9E5 uAA7C</comment>
+      <string>\u00101D\u00101D\u00A9E5\u00AA7C\u00101D</string>
+    </test>
+    <test label="101D iMatra 101D A9E5 AA7C 101D">
+      <comment>uA9E5 uAA7C</comment>
+      <string>\u00101D\u00102D\u00101D\u00A9E5\u00AA7C\u00101D</string>
+    </test>
+    <test label="101C A9E5 AA7C 101D">
+      <comment>uA9E5 uAA7C</comment>
+      <string>\u00101C\u00A9E5\u00AA7C\u00101D</string>
+    </test>
+    <test label="101D 101C A9E5 AA7C 101D">
+      <comment>uA9E5 uAA7C</comment>
+      <string>\u00101D\u00101C\u00A9E5\u00AA7C\u00101D</string>
+    </test>
+    <test label="101D iMatra 101C A9E5 AA7C 101D">
+      <comment>uA9E5 uAA7C</comment>
+      <string>\u00101D\u00102D\u00101C\u00A9E5\u00AA7C\u00101D</string>
+    </test>
+    <test label="101D A9E5 AA7C 101C">
+      <comment>uA9E5 uAA7C</comment>
+      <string>\u00101D\u00A9E5\u00AA7C\u00101C</string>
+    </test>
+    <test label="101C 101D A9E5 AA7C 101C">
+      <comment>uA9E5 uAA7C</comment>
+      <string>\u00101C\u00101D\u00A9E5\u00AA7C\u00101C</string>
+    </test>
+    <test label="101C iMatra 101D A9E5 AA7C 101C">
+      <comment>uA9E5 uAA7C</comment>
+      <string>\u00101C\u00102D\u00101D\u00A9E5\u00AA7C\u00101C</string>
+    </test>
+    <test label="101C A9E5 AA7C 101C">
+      <comment>uA9E5 uAA7C</comment>
+      <string>\u00101C\u00A9E5\u00AA7C\u00101C</string>
+    </test>
+    <test label="101C 101C A9E5 AA7C 101C">
+      <comment>uA9E5 uAA7C</comment>
+      <string>\u00101C\u00101C\u00A9E5\u00AA7C\u00101C</string>
+    </test>
+    <test label="101C iMatra 101C A9E5 AA7C 101C">
+      <comment>uA9E5 uAA7C</comment>
+      <string>\u00101C\u00102D\u00101C\u00A9E5\u00AA7C\u00101C</string>
+    </test>
+  </testgroup>
+</ftml>

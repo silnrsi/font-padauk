@@ -58,9 +58,9 @@
     </test>
   </testgroup>
   <testgroup label="mon.htxt">
-    <test label="12.1">
+    <test label="12.1 centered">
       <comment>OT fixed</comment>
-      <string>\u1000\u105a\u102d\u102f\u1032</string>
+      <string>\u1000\u105a\u102d\u102f\u1032 \u105a\u102d\u102f\u1032</string>
     </test>
   </testgroup>
   <testgroup label="kht-extras.htxt">
@@ -99,6 +99,41 @@
     <test label="22.1">
       <comment>OT okay</comment>
       <string>\u1075\ufe00\u103c\u101c</string>
+    </test>
+  </testgroup>
+  <testgroup label="kinzi related">
+    <test label="mnw_shorto62-syllables.txt">
+      <string>\u1007\u105a\u103a\u1039\u1019\u103e\u1032\u102c \u1007\u105a\u103a\u1039\u1019\u1032\u102c</string>
+    </test>
+    <test label="mnw_shorto62-syllables.txt no init cons">
+      <string>\u105a\u103a\u1039\u1019\u103e\u1032\u102c \u105a\u103a\u1039\u1019\u1032\u102c \u1019\u102c</string>
+    </test>
+    <test label="blk_syllables.txt">
+      <string>\u101e\u1004\u103a\u1039\u1002\u103b\u102d</string>
+    </test>
+    <test label="blk_syllables.txt no init cons">
+      <string>\u1004\u103a\u1039\u1002\u103b\u102d \u1002\u103b</string>
+    </test>
+    <test label="blk_syllables.txt with dia before">
+      <string>\u101e\u102d\u1004\u103a\u1039\u1002\u102e\u1006</string>
+    </test>
+    <test label="my_HeadwordSyllables.txt">
+      <string>\u101e\u1004\u103a\u1039\u1001\u103b\u102d</string>
+    </test>
+    <test label="my_HeadwordSyllables.txt no init cons">
+      <string>\u1004\u103a\u1039\u1001\u103b\u102d \u1001\u103b</string>
+    </test>
+    <test label="my_HeadwordSyllables.txt again">
+      <string>\u1021\u1004\u103a\u1039\u1000\u103b\u102e</string>
+    </test>
+    <test label="my_HeadwordSyllables.txt again no init cons">
+      <string>\u1004\u103a\u1039\u1000\u103b\u102e \u1000\u103b</string>
+    </test>
+    <test label="ra_media.txt">
+      <string>\u101b\u103a\u1039\u101f\u103c\u102e\u1006</string>
+    </test>
+    <test label="tla_primer.txt">
+      <string>\u1006\u1019\u1086\uaa7c \u1019\u1086\uaa7c</string>
     </test>
   </testgroup>
   <testgroup label="regression.htxt">

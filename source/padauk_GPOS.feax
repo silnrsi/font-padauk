@@ -104,6 +104,10 @@ lookup guard2_context {
     ignore pos @cCons' @_U @cTone;
     ignore pos @cCons' [u1032_u102D u1032_u102E];
     pos @cCons' lookup guard2;
+    # This entire lookup is needed for AA70 (probably in a ligature)
+    # but maybe not anything else. The lookup does help with some
+    # clashes of two upper diacritics, but those situations are
+    # not in any real language test data.
 } guard2_context;
 
 do  let bases = feaclass("L");
