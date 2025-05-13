@@ -152,4 +152,18 @@
       <string>\u1015\u103c\u103d\u103e\u102d</string>
     </test>
   </testgroup>
+  <testgroup label="matras.ftml">
+    <test label="U+1008">
+      <comment>OT broken - look at all matras in a frame</comment>
+      <string>\u1008\u1058\u100a \u1008\u1058\u100e</string>
+    </test>
+    <test label="U+1066">
+      <comment>OT fixed</comment>
+      <string>\u1066\u102f \u1066\u1030</string>
+    </test>
+    <test label="U+A9EA">
+      <comment>OT different - others such examples exist</comment>
+      <string>\ua9ea\u102f</string>
+    </test>
+  </testgroup>
 </ftml>

@@ -250,7 +250,7 @@ lookup mym2_medVowelSubst {
 } mym2_medVowelSubst;
 
 lookup mym2_blwf_medVowels {
-    @needsUtall = [u1008 u100B u100D u1020 u1025 u105A u105B u105D u1061 u106F u1070 u107A u107E];
+    @needsUtall = [u1008 u100B u100D u1020 u1025 u105A u105B u105D u1061 u1066 u106F u1070 u107A u107E];
     
     ignore sub @c103C_all @cCons     [u103E u103E.alt u103E.slantr] @_U [u102F u1030]';
     ignore sub @c103C_all @cCons     [u103E u103E.alt u103E.slantr]     [u102F u1030]';
