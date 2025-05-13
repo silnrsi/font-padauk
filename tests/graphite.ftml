@@ -101,4 +101,14 @@
       <string>\u1075\ufe00\u103c\u101c</string>
     </test>
   </testgroup>
+  <testgroup label="regression.htxt">
+    <test label="6.1">
+      <comment>OT fixed</comment>
+      <string>\u1018\u103d\u1032\u1037\u1000\u103C</string>
+    </test>
+    <test label="14.1">
+      <comment>OT fixed</comment>
+      <string>\u1000\u103b\u1030\u1037\u1000\u103c</string>
+    </test>
+  </testgroup>
 </ftml>

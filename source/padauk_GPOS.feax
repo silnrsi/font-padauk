@@ -139,10 +139,10 @@ do  for b = [@LM_MarkBase];
 
 
 lookup guard_dot_context {
-    pos @guard_bases' lookup guard_dot [@_U] u1037 @cFillLowAfter;
-    pos @guard_bases' lookup guard_dot u1037 @cFillLowAfter;
-    pos @guard_basedots' lookup guard_dot [@_U] u1037 @cFillLowAfter;
-    pos @guard_basedots' lookup guard_dot u1037 @cFillLowAfter;
+    pos @guard_bases' lookup guard_dot [@_U] u1037 [@cFillLowAfter @c103C_all];
+    pos @guard_bases' lookup guard_dot u1037 [@cFillLowAfter @c103C_all];
+    pos @guard_basedots' lookup guard_dot [@_U] u1037 [@cFillLowAfter @c103C_all];
+    pos @guard_basedots' lookup guard_dot u1037 [@cFillLowAfter @c103C_all];
 } guard_dot_context;
 
 lookup dist_103C_Cons {
