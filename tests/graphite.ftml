@@ -111,4 +111,10 @@
       <string>\u1000\u103b\u1030\u1037\u1000\u103c</string>
     </test>
   </testgroup>
+  <testgroup label="kyu_syllables.txt">
+    <test label="566.1">
+      <comment>OT fixed</comment>
+      <string>\u1015\u103c\u103d\u103e\u102d</string>
+    </test>
+  </testgroup>
 </ftml>

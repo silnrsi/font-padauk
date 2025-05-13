@@ -5095,7 +5095,7 @@ lookup mym2_u103CaltSubst {
 lookup mym2_pres_u103Calt {
     lookupflag 0;
     sub [@class103C_noalt]' lookup mym2_u103CaltSubst [@cCons] [@c_med] [@c_med] [@BigUMark];
-    sub [@class103C_noalt]' lookup mym2_u103CaltSubst [@cCons] [@c_med u103B u101B_u103B u103E u103E.alt u103D_u103E u103D_u103E.small.tri] [@BigUMark];
+    sub [@class103C_noalt]' lookup mym2_u103CaltSubst [@cCons] [@c_med u103B u101B_u103B u103E u103E.alt u103D_u103E u103D_u103E.small u103D_u103E.small.tri] [@BigUMark];
     sub [@class103C_noalt]' lookup mym2_u103CaltSubst [@cCons] [@BigUMark];
 } mym2_pres_u103Calt;
 
