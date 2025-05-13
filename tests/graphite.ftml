@@ -166,4 +166,14 @@
       <string>\ua9ea\u102f</string>
     </test>
   </testgroup>
+  <testgroup label="ksw_Wordlist.txt">
+    <test label="69.1">
+      <comment>OT fixed</comment>
+      <string>\u1000\u103b\u1037\u1038 \u1000\u103b\u1037\u100a \u1000\u103b\u1037\u100e</string>
+    </test>
+    <test label="397.1">
+      <comment>OT fixed</comment>
+      <string>\u1061\u1037\u1063 \u1061\u1037\u100a \u1061\u1037\u100e</string>
+    </test>
+  </testgroup>
 </ftml>
