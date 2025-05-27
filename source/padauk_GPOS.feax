@@ -68,6 +68,9 @@ do  for b = [@cConsNarStack];
 
 lookup guard_context {
 # overlaps of below wide medials under a narrow consonant
+
+    # The next two lines do not affect the shaping,
+    # but they do speed up the shaping process.
     ignore pos @guard_glyphs' @_U [u1083 u1064] @cTone;
     ignore pos @guard_glyphs' @_U @cTone;
     pos @guard_before @usvowel @guard_glyphs' lookup guarda @cMedWide @_U @cFillLowAfter;
@@ -100,7 +103,11 @@ do  for b = [@U];
 } guard2;
 
 lookup guard2_context {
+
+    # The next line does not affect the shaping,
+    # but it does speed up the shaping process.
     ignore pos @cCons' @_U [u1083 u1064] @cTone;
+
     ignore pos @cCons' @_U @cTone;
     ignore pos @cCons' [u1032_u102D u1032_u102E];
     pos @cCons' lookup guard2;

@@ -139,7 +139,7 @@
   <testgroup label="regression.htxt">
     <test label="6.1">
       <comment>OT fixed</comment>
-      <string>\u1018\u103d\u1032\u1037\u1000\u103C</string>
+      <string>\u1018\u103d\u1032\u1037\u1000\u103c</string>
     </test>
     <test label="14.1">
       <comment>OT fixed</comment>
@@ -218,6 +218,12 @@
     <test label="351429.1">
       <comment>OT fixed</comment>
       <string>နှံ့၍</string>
+    </test>
+  </testgroup>
+  <testgroup label="gf-mnw.txt">
+    <test label="17.9">
+      <comment>OT okay</comment>
+      <string>\u1010\u103a\u102d\u102f \u1010\u103a\u102f \u1010\u102d\u102f</string>
     </test>
   </testgroup>
 </ftml>
