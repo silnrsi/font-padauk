@@ -169,11 +169,55 @@
   <testgroup label="ksw_Wordlist.txt">
     <test label="69.1">
       <comment>OT fixed</comment>
-      <string>\u1000\u103b\u1037\u1038 \u1000\u103b\u1037\u100a \u1000\u103b\u1037\u100e</string>
+      <string>\u1000\u103b\u1037\u1038</string>
+    </test>
+    <test label="355.1">
+      <comment>OT still okay</comment>
+      <string>\u1006\u103e\u1037\u1063</string>
     </test>
     <test label="397.1">
       <comment>OT fixed</comment>
-      <string>\u1061\u1037\u1063 \u1061\u1037\u100a \u1061\u1037\u100e</string>
+      <string>\u1061\u1037\u1063</string>
+    </test>
+    <test label="401.1">
+      <comment>OT fixed</comment>
+      <string>\u1061\u1037\u1038</string>
+    </test>
+    <test label="643.1">
+      <comment>OT fixed</comment>
+      <string>\u1014\u1037\u1063</string>
+    </test>
+    <test label="866.1">
+      <comment>OT fixed</comment>
+      <string>\u1018\u103b\u1037\u1063</string>
+    </test>
+    <test label="1042.1">
+      <comment>OT fixed</comment>
+      <string>\u101b\u1037\u1063</string>
+    </test>
+    <test label="1045.1">
+      <comment>OT fixed</comment>
+      <string>\u101b\u1037\u1038</string>
+    </test>
+    <test label="1546.1">
+      <comment>OT fixed</comment>
+      <string>\u1021\u1014\u1037\u1063</string>
+    </test>
+  </testgroup>
+  <testgroup label="blk_syllables.txt">
+    <test label="2950.1">
+      <comment>OT fixed</comment>
+      <string>\u101b\u103d\u102d\u102f\u1037\u1038 \u101b\u103d\u102d\u1030\u1037\u1038</string>
+    </test>
+  </testgroup>
+  <testgroup label="Wikipedia">
+    <test label="52021.1">
+      <comment>OT fixed</comment>
+      <string>နှံ့ခြင်း</string>
+    </test>
+    <test label="351429.1">
+      <comment>OT fixed</comment>
+      <string>နှံ့၍</string>
     </test>
   </testgroup>
 </ftml>
