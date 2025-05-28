@@ -226,4 +226,24 @@
       <string>\u1010\u103a\u102d\u102f \u1010\u103a\u102f \u1010\u102d\u102f</string>
     </test>
   </testgroup>
+  <testgroup label="my_HeadwordSyllables.txt">
+    <test label="422.1">
+      <comment>OT fixed</comment>
+      <string>\u1002\u102f\u1014\u1039\u1010\u1014\u103a \u1002\u1030\u1014\u1039\u1010\u1014\u103a</string>
+    </test>
+  </testgroup>
+  <testgroup label="Wikipedia again">
+    <test label="228553.1">
+      <comment>OT fixed</comment>
+      <string>\u101c\u1030\u1019\u1039\u101f\u102f \u101c\u102f\u1019\u1039\u101f\u102f</string>
+    </test>
+    <test label="228553.1 uu">
+      <comment>OT fixed</comment>
+      <string>\u101c\u1030\u1019\u1039\u101f\u1030 \u101c\u102f\u1019\u1039\u101f\u1030</string>
+    </test>
+    <test label="228553.1 cons">
+      <comment>OT fixed</comment>
+      <string>\u101c\u1030\u1019\u1039\u101f\u100a \u101c\u102f\u1019\u1039\u101f\u100a</string>
+    </test>
+  </testgroup>
 </ftml>

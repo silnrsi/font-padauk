@@ -41,6 +41,13 @@ do  let c = feaclass("cno_sml");
 
 @UpperNarrowMarks = [@usvowel u1036 u103A];
 
+# TODO: Lower marks with 103E might also need to be listed with the Ulike class
+# The Ulike class is listed here so that the GPOS guard_context lookup
+# does not add guard space if the preceding sub mark is a U or UU.
+# That is why 103E (which looks similar to U and UU) might also need to be listed here.
+@LowerMarkAttachUlike = [u102F.med u102F_u108D u1030.med u1030_u108D u103E_u102F u103E_u1030 u103E_u102F.slantr u103E_u102F.slanth u103E_u1030.slantr u103E_u1030.slanth];
+@cLowerMarkAttach = [@cLowerMarkAttachNoUlike @LowerMarkAttachUlike];
+
 include(../source/padauk-dflt_GSUB.feax)
 # -------------
 # GSUB lookups

@@ -64,7 +64,7 @@ do  for b = [@cConsNarStack];
     }
 } guardc;
 
-@guard_before = [@cFillLowBefore @cLowerMarkAttach];
+@guard_before = [@cFillLowBefore @cLowerMarkAttachNoUlike];
 
 lookup guard_context {
 # overlaps of below wide medials under a narrow consonant
