@@ -5410,6 +5410,61 @@ lookup reorder_AA70_right {
     sub u1083 uAA70 by u1083;
 } reorder_AA70_right;
 
+# Some kinzi glyphs form a ligature with another mark.
+# These mark ligatures have a _Y attachment point,
+# and need to be positioned on the u103B base which
+# has a Y attachment point. Reordering is needed to get
+# the mark ligature to just follow the u103B base.
+    @cYmarks = [u1004.kinzi_u102D u1004.kinzi_u102E u1004.kinzi_u1033 u1004.kinzi_u103A u101B.kinzi_u102D u101B.kinzi_u102E u102D_u1036 u102D_uAA7C u102E_u1036 u102E_uAA7C u1032_u102D u1032_u102E u103A_uAA7C u1086_uAA7C u1004.kinzi_u102D_u1036 u101B.kinzi_u103A u102D_uAA70 u102E_uAA70 u1032_u1036 u1085_uAA70 uA9E5_uAA7C];
+
+lookup kinzi_103B_left {
+    sub u1004.kinzi_u102D by u103B u1004.kinzi_u102D;
+    sub u1004.kinzi_u102E by u103B u1004.kinzi_u102E;
+    sub u1004.kinzi_u1033 by u103B u1004.kinzi_u1033;
+    sub u1004.kinzi_u103A by u103B u1004.kinzi_u103A;
+    sub u101B.kinzi_u102D by u103B u101B.kinzi_u102D;
+    sub u101B.kinzi_u102E by u103B u101B.kinzi_u102E;
+    sub u102D_u1036 by u103B u102D_u1036;
+    sub u102D_uAA7C by u103B u102D_uAA7C;
+    sub u102E_u1036 by u103B u102E_u1036;
+    sub u102E_uAA7C by u103B u102E_uAA7C;
+    sub u1032_u102D by u103B u1032_u102D;
+    sub u1032_u102E by u103B u1032_u102E;
+    sub u103A_uAA7C by u103B u103A_uAA7C;
+    sub u1086_uAA7C by u103B u1086_uAA7C;
+    sub u1004.kinzi_u102D_u1036 by u103B u1004.kinzi_u102D_u1036;
+    sub u101B.kinzi_u103A by u103B u101B.kinzi_u103A;
+    sub u102D_uAA70 by u103B u102D_uAA70;
+    sub u102E_uAA70 by u103B u102E_uAA70;
+    sub u1032_u1036 by u103B u1032_u1036;
+    sub u1085_uAA70 by u103B u1085_uAA70;
+    sub uA9E5_uAA7C by u103B uA9E5_uAA7C;
+} kinzi_103B_left;
+
+lookup kinzi_103B_right {
+    sub u1004.kinzi_u102D u103B by u1004.kinzi_u102D;
+    sub u1004.kinzi_u102E u103B by u1004.kinzi_u102E;
+    sub u1004.kinzi_u1033 u103B by u1004.kinzi_u1033;
+    sub u1004.kinzi_u103A u103B by u1004.kinzi_u103A;
+    sub u101B.kinzi_u102D u103B by u101B.kinzi_u102D;
+    sub u101B.kinzi_u102E u103B by u101B.kinzi_u102E;
+    sub u102D_u1036 u103B by u102D_u1036;
+    sub u102D_uAA7C u103B by u102D_uAA7C;
+    sub u102E_u1036 u103B by u102E_u1036;
+    sub u102E_uAA7C u103B by u102E_uAA7C;
+    sub u1032_u102D u103B by u1032_u102D;
+    sub u1032_u102E u103B by u1032_u102E;
+    sub u103A_uAA7C u103B by u103A_uAA7C;
+    sub u1086_uAA7C u103B by u1086_uAA7C;
+    sub u1004.kinzi_u102D_u1036 u103B by u1004.kinzi_u102D_u1036;
+    sub u101B.kinzi_u103A u103B by u101B.kinzi_u103A;
+    sub u102D_uAA70 u103B by u102D_uAA70;
+    sub u102E_uAA70 u103B by u102E_uAA70;
+    sub u1032_u1036 u103B by u1032_u1036;
+    sub u1085_uAA70 u103B by u1085_uAA70;
+    sub uA9E5_uAA7C u103B by uA9E5_uAA7C;
+} kinzi_103B_right;
+
 # --------------------------------------------------------------------
 # Next is the list of glyphs to be reordered
 # --------------------------------------------------------------------
@@ -5439,6 +5494,7 @@ lookup mym2_swap_thing1_thing2 {
     sub u1083' lookup reorder_AA70_left @cToneAndKham' uAA70' lookup reorder_AA70_right;
     sub u1083' lookup reorder_AA70_left uAA70' lookup reorder_AA70_right;
     sub @cToneAndKham' lookup reorder_AA70_left uAA70' lookup reorder_AA70_right;
+    sub @cYmarks' lookup kinzi_103B_left u103B' lookup kinzi_103B_right;
 } mym2_swap_thing1_thing2;
 
 # --------------------------------------------------------------------

@@ -665,6 +665,24 @@ lookup reorder_AA70_right {
     sub u1083 uAA70 by u1083;
 } reorder_AA70_right;
 
+# Some kinzi glyphs form a ligature with another mark.
+# These mark ligatures have a _Y attachment point,
+# and need to be positioned on the u103B base which
+# has a Y attachment point. Reordering is needed to get
+# the mark ligature to just follow the u103B base.
+
+do  let c = feaclass('_Y');
+    let ym = ' '.join(x if '_' in x else '' for x in c);
+{ @cYmarks = [ $ym ]; }
+
+lookup kinzi_103B_left {
+    sub @cYmarks by u103B @cYmarks;
+} kinzi_103B_left;
+
+lookup kinzi_103B_right {
+    sub @cYmarks u103B by @cYmarks;
+} kinzi_103B_right;
+
 # --------------------------------------------------------------------
 # Next is the list of glyphs to be reordered
 # --------------------------------------------------------------------
@@ -684,6 +702,7 @@ lookup mym2_swap_thing1_thing2 {
     sub u1083' lookup reorder_AA70_left      @cToneAndKham'  uAA70'   lookup reorder_AA70_right;
     sub u1083' lookup reorder_AA70_left      uAA70'       lookup reorder_AA70_right;
     sub @cToneAndKham' lookup reorder_AA70_left     uAA70'       lookup reorder_AA70_right;
+    sub @cYmarks' lookup kinzi_103B_left     u103B'       lookup kinzi_103B_right;
 } mym2_swap_thing1_thing2;
 
 # --------------------------------------------------------------------
