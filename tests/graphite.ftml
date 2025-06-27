@@ -3,11 +3,16 @@
 <ftml version="1.0">
   <head>
     <fontscale>200</fontscale>
-    <fontsrc label="PadaukGR">url(../results/PadaukBook-Regular.ttf)</fontsrc>
-    <fontsrc label="PadaukOT">url(../results/tests/ftml/fonts/PadaukBook-Regular_ot_mym2.ttf)</fontsrc>
+    <fontsrc label="PadaukGR-R">url(../results/PadaukBook-Regular.ttf)</fontsrc>
+    <fontsrc label="PadaukGR-B">url(../results/PadaukBook-Bold.ttf)</fontsrc>
+    <fontsrc label="PadaukOT-R">url(../results/tests/ftml/fonts/PadaukBook-Regular_ot_mym2.ttf)</fontsrc>
+    <fontsrc label="PadaukOT-B">url(../results/tests/ftml/fonts/PadaukBook-Bold_ot_mym2.ttf)</fontsrc>
     <fontsrc label="Pyidaungsu">url(../references/Pyidaungsu-2.5.3_Regular.ttf)</fontsrc>
     <fontsrc label="NotoSans">url(../references/NotoSansMyanmar-Regular.ttf)</fontsrc>
     <fontsrc label="NotoSerif">url(../references/NotoSerifMyanmar-Regular.ttf)</fontsrc>
+    <styles>
+      <style lang="ksw" name="ksw"/>
+    </styles>
     <title>Graphite</title>
   </head>
   <testgroup background="#f0f0f0" label="Rendering Check">
@@ -27,12 +32,20 @@
   </testgroup>
   <testgroup label="pll_tests.htxt">
     <test label="1.1 orig">
-      <comment>OT fixed</comment>
+      <comment>OT fixed again</comment>
       <string>\u1019\u103b\u103c\u1036\u1010\u103a</string>
     </test>
+    <test label="part of 1.1 orig" stylename="ksw">
+      <comment>OT fixed again</comment>
+      <string>\u1019\u103b\u103c \u1019\u103c\u1037 \u1019\u103b\u1037</string>
+    </test>
     <test label="1.1 with wide in wrap">
-      <comment>OT fixed</comment>
+      <comment>OT fixed again</comment>
       <string>\u1018\u103b\u103c\u1036\u1010\u103a</string>
+    </test>
+    <test label="part of 1.1 with wide in wrap" stylename="ksw">
+      <comment>OT fixed again</comment>
+      <string>\u1018\u103b\u103c \u1018\u103c\u1037 \u1018\u103b\u1037</string>
     </test>
     <test label="2.1 old">
       <comment>incorrect encoding</comment>
