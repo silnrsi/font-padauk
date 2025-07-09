@@ -275,6 +275,20 @@ def doit(args):
                     builder.render((c1,0x102d,c2,u1,u2,c1), ftml, label=f'{c1:04X} iMatra {c2:04X} {u1:04X} {u2:04X} {c1:04X}', comment=comment)
                     ftml.closeTest()
 
+        ftml.startTestGroup('lower dot')
+        samples = [ '\u1000\u103c\u102f\u1037',
+                 '\u1001\u103b\u102f\u1037',
+                 '\u101b\u103d\u102f\u1037',
+                 '\u1001\u103b\u1037',
+                 '\u1061\u1037',
+                 '\u101b\u1037' ]
+        colons_like = (0x1038, 0x108F, 0x1088, 0x108A, 0x109C)
+        for sample in samples:
+            for colon_like in colons_like:
+                builder.render((*map(ord, sample), colon_like), ftml, label=f'{colon_like:04X}', comment=builder.char(ord(sample[0])).basename)
+                ftml.closeTest()        
+
+
     # Write the output ftml file
     ftml.writeFile(args.output)
 

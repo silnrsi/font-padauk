@@ -196,6 +196,10 @@
       <comment>OT fixed</comment>
       <string>\u1000\u103b\u1037\u1038</string>
     </test>
+    <test label="69.1 alt">
+      <comment>OT ?</comment>
+      <string>\u1000\u103b\u1037\u108f</string>
+    </test>
     <test label="355.1">
       <comment>OT still okay</comment>
       <string>\u1006\u103e\u1037\u1063</string>
@@ -207,6 +211,10 @@
     <test label="401.1">
       <comment>OT fixed</comment>
       <string>\u1061\u1037\u1038</string>
+    </test>
+    <test label="401.1 alt">
+      <comment>OT ?</comment>
+      <string>\u1061\u1037\u108f</string>
     </test>
     <test label="643.1">
       <comment>OT fixed</comment>
@@ -224,15 +232,39 @@
       <comment>OT fixed</comment>
       <string>\u101b\u1037\u1038</string>
     </test>
+    <test label="1045.1 alt">
+      <comment>OT ?</comment>
+      <string>\u101b\u1037\u108f</string>
+    </test>
     <test label="1546.1">
       <comment>OT fixed</comment>
       <string>\u1021\u1014\u1037\u1063</string>
     </test>
   </testgroup>
   <testgroup label="blk_syllables.txt">
+    <test label="254.1">
+      <comment>OT ?</comment>
+      <string>\u1000\u103c\u102d\u102f\u1037\u108f</string>
+    </test>
+    <test label="254.1 alt">
+      <comment>OT ?</comment>
+      <string>\u1000\u103c\u102d\u102f\u1037\u1038</string>
+    </test>
+    <test label="453.1">
+      <comment>OT ?</comment>
+      <string>\u1001\u103b\u102d\u102f\u1037\u108f</string>
+    </test>
+    <test label="453.1 alt">
+      <comment>OT ?</comment>
+      <string>\u1001\u103b\u102d\u102f\u1037\u1038</string>
+    </test>
     <test label="2950.1">
       <comment>OT fixed</comment>
       <string>\u101b\u103d\u102d\u102f\u1037\u1038 \u101b\u103d\u102d\u1030\u1037\u1038</string>
+    </test>
+    <test label="2950.1 alt">
+      <comment>OT ?</comment>
+      <string>\u101b\u103d\u102d\u102f\u1037\u1038 \u101b\u103d\u102d\u1030\u1037\u108f</string>
     </test>
   </testgroup>
   <testgroup label="Wikipedia">
@@ -269,6 +301,62 @@
     <test label="228553.1 cons">
       <comment>OT fixed</comment>
       <string>\u101c\u1030\u1019\u1039\u101f\u100a \u101c\u102f\u1019\u1039\u101f\u100a</string>
+    </test>
+  </testgroup>
+  <testgroup label="colon like in ksw_Wordlist.txt">
+    <test label="69.1">
+      <comment>OT fixed</comment>
+      <string>\u1000\u103b\u1037\u1038</string>
+    </test>
+    <test label="69.1 alt">
+      <comment>OT ?</comment>
+      <string>\u1000\u103b\u1037\u108f</string>
+    </test>
+    <test label="401.1">
+      <comment>OT fixed</comment>
+      <string>\u1061\u1037\u1038</string>
+    </test>
+    <test label="401.1 alt">
+      <comment>OT ?</comment>
+      <string>\u1061\u1037\u108f</string>
+    </test>
+    <test label="1045.1">
+      <comment>OT fixed</comment>
+      <string>\u101b\u1037\u1038</string>
+    </test>
+    <test label="1045.1 alt">
+      <comment>OT ?</comment>
+      <string>\u101b\u1037\u108f</string>
+    </test>
+  </testgroup>
+  <testgroup label="colon like in blk_syllables.txt">
+    <test label="63.1">
+      <comment>OT ?</comment>
+      <string>\u1000\u103d\u102d\u102f\u1037\u108f</string>
+    </test>
+    <test label="254.1">
+      <comment>OT ?</comment>
+      <string>\u1000\u103c\u102d\u102f\u1037\u108f</string>
+    </test>
+    <test label="254.1 alt">
+      <comment>OT ?</comment>
+      <string>\u1000\u103c\u102d\u102f\u1037\u1038</string>
+    </test>
+    <test label="453.1">
+      <comment>OT ?</comment>
+      <string>\u1001\u103b\u102d\u102f\u1037\u108f</string>
+    </test>
+    <test label="453.1 alt">
+      <comment>OT ?</comment>
+      <string>\u1001\u103b\u102d\u102f\u1037\u1038</string>
+    </test>
+    <test label="2950.1">
+      <comment>OT fixed</comment>
+      <string>\u101b\u103d\u102d\u102f\u1037\u1038 \u101b\u103d\u102d\u1030\u1037\u1038</string>
+    </test>
+    <test label="2950.1 alt">
+      <comment>OT ?</comment>
+      <string>\u101b\u103d\u102d\u102f\u1037\u1038 \u101b\u103d\u102d\u1030\u1037\u108f</string>
     </test>
   </testgroup>
 </ftml>
