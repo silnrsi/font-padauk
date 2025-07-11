@@ -700,4 +700,126 @@
       <string>\u00101C\u00102D\u00101C\u00A9E5\u00AA7C\u00101C</string>
     </test>
   </testgroup>
+  <testgroup label="lower dot">
+    <test label="1038">
+      <comment>u1000</comment>
+      <string>\u001000\u00103C\u00102F\u001037\u001038</string>
+    </test>
+    <test label="108F">
+      <comment>u1000</comment>
+      <string>\u001000\u00103C\u00102F\u001037\u00108F</string>
+    </test>
+    <test label="1088">
+      <comment>u1000</comment>
+      <string>\u001000\u00103C\u00102F\u001037\u001088</string>
+    </test>
+    <test label="108A">
+      <comment>u1000</comment>
+      <string>\u001000\u00103C\u00102F\u001037\u00108A</string>
+    </test>
+    <test label="109C">
+      <comment>u1000</comment>
+      <string>\u001000\u00103C\u00102F\u001037\u00109C</string>
+    </test>
+    <test label="1038">
+      <comment>u1001</comment>
+      <string>\u001001\u00103B\u00102F\u001037\u001038</string>
+    </test>
+    <test label="108F">
+      <comment>u1001</comment>
+      <string>\u001001\u00103B\u00102F\u001037\u00108F</string>
+    </test>
+    <test label="1088">
+      <comment>u1001</comment>
+      <string>\u001001\u00103B\u00102F\u001037\u001088</string>
+    </test>
+    <test label="108A">
+      <comment>u1001</comment>
+      <string>\u001001\u00103B\u00102F\u001037\u00108A</string>
+    </test>
+    <test label="109C">
+      <comment>u1001</comment>
+      <string>\u001001\u00103B\u00102F\u001037\u00109C</string>
+    </test>
+    <test label="1038">
+      <comment>u101B</comment>
+      <string>\u00101B\u00103D\u00102F\u001037\u001038</string>
+    </test>
+    <test label="108F">
+      <comment>u101B</comment>
+      <string>\u00101B\u00103D\u00102F\u001037\u00108F</string>
+    </test>
+    <test label="1088">
+      <comment>u101B</comment>
+      <string>\u00101B\u00103D\u00102F\u001037\u001088</string>
+    </test>
+    <test label="108A">
+      <comment>u101B</comment>
+      <string>\u00101B\u00103D\u00102F\u001037\u00108A</string>
+    </test>
+    <test label="109C">
+      <comment>u101B</comment>
+      <string>\u00101B\u00103D\u00102F\u001037\u00109C</string>
+    </test>
+    <test label="1038">
+      <comment>u1001</comment>
+      <string>\u001001\u00103B\u001037\u001038</string>
+    </test>
+    <test label="108F">
+      <comment>u1001</comment>
+      <string>\u001001\u00103B\u001037\u00108F</string>
+    </test>
+    <test label="1088">
+      <comment>u1001</comment>
+      <string>\u001001\u00103B\u001037\u001088</string>
+    </test>
+    <test label="108A">
+      <comment>u1001</comment>
+      <string>\u001001\u00103B\u001037\u00108A</string>
+    </test>
+    <test label="109C">
+      <comment>u1001</comment>
+      <string>\u001001\u00103B\u001037\u00109C</string>
+    </test>
+    <test label="1038">
+      <comment>u1061</comment>
+      <string>\u001061\u001037\u001038</string>
+    </test>
+    <test label="108F">
+      <comment>u1061</comment>
+      <string>\u001061\u001037\u00108F</string>
+    </test>
+    <test label="1088">
+      <comment>u1061</comment>
+      <string>\u001061\u001037\u001088</string>
+    </test>
+    <test label="108A">
+      <comment>u1061</comment>
+      <string>\u001061\u001037\u00108A</string>
+    </test>
+    <test label="109C">
+      <comment>u1061</comment>
+      <string>\u001061\u001037\u00109C</string>
+    </test>
+    <test label="1038">
+      <comment>u101B</comment>
+      <string>\u00101B\u001037\u001038</string>
+    </test>
+    <test label="108F">
+      <comment>u101B</comment>
+      <string>\u00101B\u001037\u00108F</string>
+    </test>
+    <test label="1088">
+      <comment>u101B</comment>
+      <string>\u00101B\u001037\u001088</string>
+    </test>
+    <test label="108A">
+      <comment>u101B</comment>
+      <string>\u00101B\u001037\u00108A</string>
+    </test>
+    <test label="109C">
+      <comment>u101B</comment>
+      <string>\u00101B\u001037\u00109C</string>
+    </test>
+  </testgroup>
 </ftml>

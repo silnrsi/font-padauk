@@ -191,6 +191,27 @@ do  for c = [@cConsNarStack];
 #    pos u103C                u1014.alt' <0 110 52 0>   u1013.med; # Sanskrit #126
 } dist_103C_Cons;
 
+# The following lookup is only needed for some constructed
+# (that is, not known to be used in any language) test data.
+# Therefore, it is commented out to avoid slowing down the shaping.
+# If it is needed, figure out what contexts it is needed in
+# and include only those contexts. For example, maybe only wide wraps
+# (and not narrow wraps) need this. The glyphs to the right of the
+# wrap might be a wide medial under a narrow consonant.
+# The lookup itself might be able to be written with a class as well.
+
+# lookup dist_103C_Cons_Adv {
+# do  for w = [@class103CNarr @class103CWide];
+#     for c = @cCons;
+#     let adv_w = MAXx(w) - ADVx(w);
+#     let adv_c = ADVx(c);
+#     let extra = adv_w - adv_c;
+#     if extra > 0;
+#     {
+#         pos $w $c' <0 0 $extra 0> @cFillLowAfter;
+#     }
+# } dist_103C_Cons_Adv;
+
 #-----------------------------------------------------------------------
 
 

@@ -12,6 +12,8 @@
     <fontsrc label="NotoSerif">url(../references/NotoSerifMyanmar-Regular.ttf)</fontsrc>
     <styles>
       <style lang="ksw" name="ksw"/>
+      <style lang="kyu" name="kyu"/>
+      <style feats="'cv07' 2" name="cv07_2"/>
     </styles>
     <title>Graphite</title>
   </head>
@@ -103,21 +105,33 @@
     </test>
     <test label="20.1">
       <comment>OT okay</comment>
-      <string>\u107b\u103c\u101c</string>
+      <string>\u107b\u103c\u101c \u107b\u103c\u100a</string>
     </test>
     <test label="21.1">
       <comment>OT okay</comment>
-      <string>\u1075\u103c\u101c</string>
+      <string>\u1075\u103c\u101c \u1075\u103c\u100a</string>
     </test>
     <test label="22.1">
       <comment>OT okay</comment>
-      <string>\u1075\ufe00\u103c\u101c</string>
+      <string>\u1075\ufe00\u103c\u101c \u1075\ufe00\u103c\u100a</string>
     </test>
   </testgroup>
   <testgroup label="sanskrit.txt">
+    <test label="18.1">
+      <comment>review OT - GR has the 102D to the right a bit more</comment>
+      <string>\u1000\u1039\u1010\u103c\u102d \u1000\u103c\u102d</string>
+    </test>
+    <test label="46.1">
+      <comment>review OT - compare with previous test</comment>
+      <string>\u1000\u103c\u102d</string>
+    </test>
     <test label="49.1">
       <comment>OT okay</comment>
       <string>\u1004\u103a\u1039\u1000\u103b</string>
+    </test>
+    <test label="67.1">
+      <comment>review OT - GR has the 102D up a bit more</comment>
+      <string>\u1009\u1039\u1008\u102d</string>
     </test>
   </testgroup>
   <testgroup label="kinzi related">
@@ -158,6 +172,7 @@
       <string>\u101b\u103a\u1039\u101f\u103c\u102e\u1006</string>
     </test>
     <test label="tla_primer.txt">
+      <comment>review OT - smaller gap in bases with GR</comment>
       <string>\u1006\u1019\u1086\uaa7c \u1019\u1086\uaa7c</string>
     </test>
   </testgroup>
@@ -204,8 +219,16 @@
       <comment>OT still okay</comment>
       <string>\u1006\u103e\u1037\u1063</string>
     </test>
+    <test label="355.1 kyu" stylename="kyu">
+      <comment>review OT - slanted right angled foot</comment>  
+      <string>\u1006\u103e\u1037\u1063</string>
+    </test>
+    <test label="355.1 cv07=2" stylename="cv07_2">
+      <comment>review OT - slanted right angled foot</comment>  
+      <string>\u1006\u103e\u1037\u1063</string>
+    </test>
     <test label="397.1">
-      <comment>OT fixed</comment>
+      <comment>review OT - gap after dot is wider in OT</comment>
       <string>\u1061\u1037\u1063</string>
     </test>
     <test label="401.1">
@@ -278,12 +301,20 @@
     </test>
   </testgroup>
   <testgroup label="gf-mnw.txt">
+    <test label="11.4">
+      <comment>review OT - smaller gap in bases with OT</comment>
+      <string>\u1015\u102d\u102f\u1032\u1019\u105e\u102d</string>
+    </test>
     <test label="17.9">
-      <comment>OT okay</comment>
+      <comment>OT okay - bug report</comment>
       <string>\u1010\u103a\u102d\u102f \u1010\u103a\u102f \u1010\u102d\u102f</string>
     </test>
   </testgroup>
   <testgroup label="my_HeadwordSyllables.txt">
+    <test label="414.1">
+      <comment>review OT - medials touch in OT</comment>
+      <string>\u1002\u1014\u1039\u1011\u1014\u1039\u1010</string>
+    </test>
     <test label="422.1">
       <comment>OT fixed</comment>
       <string>\u1002\u102f\u1014\u1039\u1010\u1014\u103a \u1002\u1030\u1014\u1039\u1010\u1014\u103a</string>
@@ -301,6 +332,16 @@
     <test label="228553.1 cons">
       <comment>OT fixed</comment>
       <string>\u101c\u1030\u1019\u1039\u101f\u100a \u101c\u102f\u1019\u1039\u101f\u100a</string>
+    </test>
+  </testgroup>
+  <testgroup label="kht_syllables">
+    <test label="2190.1">
+      <comment>Dotted circles from shaping engines</comment>
+      <string>\u109F\u1038</string>
+    </test>
+    <test label="2191.1">
+      <comment>Dotted circles from shaping engines</comment>
+      <string>\u109F\u108A</string>
     </test>
   </testgroup>
   <testgroup label="colon like in ksw_Wordlist.txt">

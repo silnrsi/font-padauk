@@ -5599,6 +5599,7 @@ lookup consmed_sml {
 # Additional dist needed for some cons to clear u103C
 @class103CNarr = [u103C u103C.alt.narr u103C.open.narr u103C.alt.open.narr u103C_u103D.narr u103C_u103D.alt.narr u103C_u102F.narr u103C_u102F.alt.narr u103C_u103D.alt.narr.tri u103C_u103D.narr.tri];
 @class103CWide = [u103C.wide u103C.alt.wide u103C.open.wide u103C.alt.open.wide u103C_u103D.wide u103C_u103D.alt.wide u103C_u102F.wide u103C_u102F.alt.wide u103C_u103D.alt.wide.tri u103C_u103D.wide.tri];
+@colon_like = [u1038 u1088 u108A u108F u109C];
 lookup kernltall {
             pos u102B <135 0 135 0>;
         pos u102B_u103A <135 0 135 0>;
@@ -7860,10 +7861,23 @@ lookup guard_dot {
 
 } guard_dot;
 
-@guard_after = [@cFillLowAfter u1038 @c103C_all];
+@guard_after = [@cFillLowAfter @colon_like @c103C_all];
 lookup guard_dot_context {
     ignore pos @cCons u103E' [@_U] u1037 @guard_after;
     ignore pos @cCons u103E' u1037 @guard_after;
+    # The next line might be needed, but it is not used by any test data
+    # pos u101B.alt [@_U] [u102F.med u1030.med]' lookup guard_dot u1037 @guard_after;
+    # The next (and previous) line might only be needed for Sanskrit
+    pos u101B.alt [u102F.med u1030.med]' lookup guard_dot u1037 @guard_after;
+    ignore pos @cCons [@_U] [u102F.med u1030.med]' u1037 @guard_after;
+    ignore pos @cCons [u102F.med u1030.med]' u1037 @guard_after;
+    # The next several lines are to match the Graphite shaping
+    # and will be commented out later in order to improve the OpenType shaping
+    ignore pos u1061' [@_U] u1037 @colon_like;
+    ignore pos u1061' u1037 @colon_like;
+    ignore pos [@cCons u101B.long] u103D [@_U] [u102F u1030]' u1037 @colon_like;
+    ignore pos [@cCons u101B.long] u103D [u102F u1030]' u1037 @colon_like;
+    ignore pos [u101B u101B.long]' u1037 @colon_like;
     pos [@guard_bases @guard_basedots]' lookup guard_dot [@_U] u1037 @guard_after;
     pos [@guard_bases @guard_basedots]' lookup guard_dot u1037 @guard_after;
 } guard_dot_context;
@@ -7898,6 +7912,25 @@ lookup dist_103C_Cons {
     #    pos u103C                u1014.alt' <0 110 52 0>   u1013.med; # Sanskrit #126
 } dist_103C_Cons;
 
+# The following lookup is only needed for some constructed
+# (that is, not known to be used in any language) test data.
+# Therefore, it is commented out to avoid slowing down the shaping.
+# If it is needed, figure out what contexts it is needed in
+# and include only those contexts. For example, maybe only wide wraps
+# (and not narrow wraps) need this. The glyphs to the right of the
+# wrap might be a wide medial under a narrow consonant.
+# The lookup itself might be able to be written with a class as well.
+# lookup dist_103C_Cons_Adv {
+# do  for w = [@class103CNarr @class103CWide];
+#     for c = @cCons;
+#     let adv_w = MAXx(w) - ADVx(w);
+#     let adv_c = ADVx(c);
+#     let extra = adv_w - adv_c;
+#     if extra > 0;
+#     {
+#         pos $w $c' <0 0 $extra 0> @cFillLowAfter;
+#     }
+# } dist_103C_Cons_Adv;
 #-----------------------------------------------------------------------
     lookup base_AA_base {
         pos base [u102B u102B_u103A] <anchor 0 640> mark @_AA;
@@ -8570,21 +8603,37 @@ lookup shift_103C_udia {
 # This 'hack' gets it close to where it should be.
 ### NB: Some configurations and advance width still need to be adjusted
 lookup kern_103Clig_1037 {
-            pos u103C_u103D.narr [@cCons] [@_U] u1037' <372 0 224 0>;
+            pos u103C_u103D.narr [@cCons] [@_U] u1037' <372 0 0 0> @colon_like;
+        pos u103C_u103D.narr [@cCons] [@_U] u1037' <372 0 224 0>;
+        pos u103C_u103D.narr [@cCons] u1037' <372 0 0 0> @colon_like;
         pos u103C_u103D.narr [@cCons] u1037' <372 0 224 0>;
+        pos u103C_u102F.narr [@cCons] [@_U] u1037' <393 0 0 0> @colon_like;
         pos u103C_u102F.narr [@cCons] [@_U] u1037' <393 0 224 0>;
+        pos u103C_u102F.narr [@cCons] u1037' <393 0 0 0> @colon_like;
         pos u103C_u102F.narr [@cCons] u1037' <393 0 224 0>;
+        pos u103C_u103D.alt.narr [@cCons] [@_U] u1037' <372 0 0 0> @colon_like;
         pos u103C_u103D.alt.narr [@cCons] [@_U] u1037' <372 0 224 0>;
+        pos u103C_u103D.alt.narr [@cCons] u1037' <372 0 0 0> @colon_like;
         pos u103C_u103D.alt.narr [@cCons] u1037' <372 0 224 0>;
+        pos u103C_u102F.alt.narr [@cCons] [@_U] u1037' <393 0 0 0> @colon_like;
         pos u103C_u102F.alt.narr [@cCons] [@_U] u1037' <393 0 224 0>;
+        pos u103C_u102F.alt.narr [@cCons] u1037' <393 0 0 0> @colon_like;
         pos u103C_u102F.alt.narr [@cCons] u1037' <393 0 224 0>;
+        pos u103C_u103D.wide [@cCons] [@_U] u1037' <333 0 0 0> @colon_like;
         pos u103C_u103D.wide [@cCons] [@_U] u1037' <333 0 224 0>;
+        pos u103C_u103D.wide [@cCons] u1037' <333 0 0 0> @colon_like;
         pos u103C_u103D.wide [@cCons] u1037' <333 0 224 0>;
+        pos u103C_u102F.wide [@cCons] [@_U] u1037' <355 0 0 0> @colon_like;
         pos u103C_u102F.wide [@cCons] [@_U] u1037' <355 0 224 0>;
+        pos u103C_u102F.wide [@cCons] u1037' <355 0 0 0> @colon_like;
         pos u103C_u102F.wide [@cCons] u1037' <355 0 224 0>;
+        pos u103C_u103D.alt.wide [@cCons] [@_U] u1037' <333 0 0 0> @colon_like;
         pos u103C_u103D.alt.wide [@cCons] [@_U] u1037' <333 0 224 0>;
+        pos u103C_u103D.alt.wide [@cCons] u1037' <333 0 0 0> @colon_like;
         pos u103C_u103D.alt.wide [@cCons] u1037' <333 0 224 0>;
+        pos u103C_u102F.alt.wide [@cCons] [@_U] u1037' <355 0 0 0> @colon_like;
         pos u103C_u102F.alt.wide [@cCons] [@_U] u1037' <355 0 224 0>;
+        pos u103C_u102F.alt.wide [@cCons] u1037' <355 0 0 0> @colon_like;
         pos u103C_u102F.alt.wide [@cCons] u1037' <355 0 224 0>;
 
 } kern_103Clig_1037;
@@ -10351,6 +10400,7 @@ feature dist {
     lookup kern_1031_open;
     lookup kern_1031_closed;
     lookup dist_103C_Cons;
+    # lookup dist_103C_Cons_Adv;
     lookup shift_1032;
     lookup shift_for_103B;
     lookup shift_for_103B_from_wrap;
