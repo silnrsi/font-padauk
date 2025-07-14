@@ -3,13 +3,11 @@ include(../source/padauk_GPOS.feax)
 
 languagesystem DFLT dflt;
 languagesystem mym2 dflt;
-languagesystem mym2 KHN;
 languagesystem mym2 KHT;
 languagesystem mym2 KYU;
 languagesystem mym2 KSW;
 languagesystem mym2 SHN;
-languagesystem mym2 CSH; # Harfbuzz  maps csh to CSH
-languagesystem mym2 QIN; # Microsoft maps csh to QIN
+languagesystem mym2 QIN;
 languagesystem mym2 TJL;
 languagesystem mym2 MON;
 languagesystem mym2 MONT;
@@ -20,8 +18,6 @@ languagesystem mym2 MONT;
 
 feature locl {
  script mym2;
-    language KHN  exclude_dflt;
-      lookup mym2_locl_dot;
     language KHT  exclude_dflt;
       lookup mym2_locl_dot;
       lookup mym2_locl_khamti;
@@ -30,9 +26,7 @@ feature locl {
       lookup mym2_locl_slantr;
     language SHN  exclude_dflt;
       lookup mym2_locl_tri;
-    language CSH  exclude_dflt; # Harfbuzz  maps csh to CSH
-      lookup mym2_locl_csh;
-    language QIN  exclude_dflt; # Microsoft maps csh to QIN
+    language QIN  exclude_dflt;
       lookup mym2_locl_csh;
     language AIO  exclude_dflt;
       lookup mym2_locl_dot;
@@ -78,7 +72,6 @@ feature cv03 {      # Asho Chin variants
       } ;
       lookup cv03;
     language dflt;
-    language CSH;
     language QIN;
 } cv03;
 
@@ -177,7 +170,6 @@ feature ss03 {      # Asho Chin variants
       featureNames { name 3 1 0x409 "Asho Chin variants" ; };
       lookup cv03;
     language dflt;
-    language CSH;
     language QIN;
 } ss03;
 
@@ -236,12 +228,10 @@ feature rphf {
     # those from languagesystem only share feature wide lookups
       lookup mym2_rphf_kinzi;
     language dflt;
-    language KHN;
     language KHT;
     language KSW;
     language KYU;
     language SHN;
-    language CSH;
     language MON;
     language MONT;
       lookup mym2_rphf_kinzi_mon_thai;
@@ -257,12 +247,10 @@ feature pref {
       lookup mym2_pref_u103Cwide;
       lookup mym2_pref_signsLig;
     language dflt;
-    language KHN;
     language KHT;
     language KSW;
     language KYU;
     language SHN;
-    language CSH;
     language MON;
     language MONT;
     language QIN;
@@ -278,13 +266,11 @@ feature blwf {
       lookup mym2_blwf_103Ealt;
       lookup mym2_blwf_MonNga;
     language dflt;
-    language KHN;
     language KHT;
     language KSW;
     language KYU;
       lookup mym2_blwf_smalltri; # Only in KYU
     language SHN;
-    language CSH;
     language MON;
     language MONT;
       lookup mym2_blwf_u1039med_mon_thai;
@@ -300,12 +286,10 @@ feature pstf {
       lookup mym2_pstf_1009;
       lookup clear_errors;
     language dflt;
-    language KHN;
     language KHT;
     language KSW;
     language KYU;
     language SHN;
-    language CSH;
     language MON;
     language MONT;
     language QIN;
@@ -320,12 +304,10 @@ feature pres {
       lookup mym2_pres_u103Calt_tri;
       lookup mym2_pres_u103Copen;
     language dflt;
-    language KHN;
     language KHT;
     language KSW;
     language KYU;
     language SHN;
-    language CSH;
     language MON;
     language MONT;
     language QIN;
@@ -338,12 +320,10 @@ feature abvs {
       lookup mym2_abvs_redupLig;
       lookup mym2_abvs_redupLig2;
     language dflt;
-    language KHN;
     language KHT;
     language KSW;
     language KYU;
     language SHN;
-    language CSH;
     language MON;
     language MONT;
     language QIN;
@@ -360,12 +340,10 @@ feature blws {
       lookup mym2_blws_raLong;
       lookup mym2_blws_raShort;
     language dflt;
-    language KHN;
     language KHT;
     language KSW;
     language KYU;
     language SHN;
-    language CSH;
     language MON;
     language MONT;
     language QIN;
@@ -379,12 +357,10 @@ feature psts {
       lookup mym2_psts_miscLig;
       lookup clear_errors;
     language dflt;
-    language KHN;
     language KHT;
     language KSW;
     language KYU;
     language SHN;
-    language CSH;
     language MON;
     language MONT;
     language QIN;
@@ -398,12 +374,10 @@ feature rlig {
       lookup consmed_sml;
       lookup mym2_pstf_tall_U;
     language dflt;
-    language KHN;
     language KHT;
     language KSW;
     language KYU;
     language SHN;
-    language CSH;
     language MON;
     language MONT;
     language QIN;
@@ -437,12 +411,10 @@ feature dist {
      lookup shift_for_103B;
      lookup shift_for_103B_from_wrap;
     language dflt;
-    language KHN;
     language KHT;
     language KSW;
     language KYU;
     language SHN;
-    language CSH;
     language MON;
     language MONT;
     language QIN;
@@ -472,7 +444,6 @@ feature mkmk {
     language dflt;
       lookup shift_1037;
 #     lookup mk2mk_LM;
-#    language KHN;
 #    language KHT;
     language KSW  exclude_dflt;
       lookup base_BDM_mark;
@@ -481,7 +452,7 @@ feature mkmk {
 #      lookup mk2mk_LM;
 #    language KYU;
 #    language SHN;
-#    language CSH;
+#    language QIN;
 #    language MON;
 #    language MONT;
 } mkmk;
