@@ -12,7 +12,7 @@ fi
 
 # configure tests
 tests="AllChars Proof Diac Matras Medials Guards"
-urls='url(../references/PadaukBook-Regular_gr.ttf)=grR url(../references/PadaukBook-Bold_gr.ttf)=grB url(../references/tests/ftml/fonts/PadaukBook-Regular_ot_DFLT.ttf)=dfltRref url(../references/tests/ftml/fonts/PadaukBook-Bold_ot_DFLT.ttf)=dfltBref url(../references/tests/ftml/fonts/PadaukBook-Regular_ot_mym2.ttf)=Rref url(../references/tests/ftml/fonts/PadaukBook-Bold_ot_mym2.ttf)=Bref url(../results/tests/ftml/fonts/PadaukBook-Regular_ot_DFLT.ttf)=dfltR url(../results/tests/ftml/fonts/PadaukBook-Bold_ot_DFLT.ttf)=dfltB url(../results/tests/ftml/fonts/PadaukBook-Regular_ot_mym2.ttf)=R url(../results/tests/ftml/fonts/PadaukBook-Bold_ot_mym2.ttf)=B url(../references/Pyidaungsu-2.5.3_Regular.ttf)=Pyidaungsu url(../references/NotoSansMyanmar-Regular.ttf)=notoSans url(../references/NotoSerifMyanmar-Regular.ttf)=notoSerif'
+urls='url(../references/PadaukBook-Regular_gr.ttf)=grR url(../references/PadaukBook-Bold_gr.ttf)=grB url(../references/PadaukBook-Regular.ttf)=refR url(../references/PadaukBook-Bold.ttf)=refB url(../results/PadaukBook-Regular.ttf)=R url(../results/PadaukBook-Bold.ttf)=B url(../references/Pyidaungsu-2.5.3_Regular.ttf)=Pyidaungsu url(../references/NotoSansMyanmar-Regular.ttf)=notoSans url(../references/NotoSerifMyanmar-Regular.ttf)=notoSerif'
 ufo='source/masters/Padauk-Regular.ufo'
 
 # list all the fonts to test

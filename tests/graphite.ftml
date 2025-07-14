@@ -5,8 +5,8 @@
     <fontscale>200</fontscale>
     <fontsrc label="PadaukGR-R">url(../references/PadaukBook-Regular_gr.ttf)</fontsrc>
     <fontsrc label="PadaukGR-B">url(../references/PadaukBook-Bold_gr.ttf)</fontsrc>
-    <fontsrc label="PadaukOT-R">url(../results/tests/ftml/fonts/PadaukBook-Regular_ot_mym2.ttf)</fontsrc>
-    <fontsrc label="PadaukOT-B">url(../results/tests/ftml/fonts/PadaukBook-Bold_ot_mym2.ttf)</fontsrc>
+    <fontsrc label="PadaukOT-R">url(../results/PadaukBook-Regular.ttf)</fontsrc>
+    <fontsrc label="PadaukOT-B">url(../results/PadaukBook-Bold.ttf)</fontsrc>
     <fontsrc label="Pyidaungsu">url(../references/Pyidaungsu-2.5.3_Regular.ttf)</fontsrc>
     <fontsrc label="NotoSans">url(../references/NotoSansMyanmar-Regular.ttf)</fontsrc>
     <fontsrc label="NotoSerif">url(../references/NotoSerifMyanmar-Regular.ttf)</fontsrc>

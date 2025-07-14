@@ -48,7 +48,6 @@ do  let c = feaclass("cno_sml");
 @LowerMarkAttachUlike = [u102F.med u102F_u108D u1030.med u1030_u108D u103E_u102F u103E_u1030 u103E_u102F.slantr u103E_u102F.slanth u103E_u1030.slantr u103E_u1030.slanth];
 @cLowerMarkAttach = [@cLowerMarkAttachNoUlike @LowerMarkAttachUlike];
 
-include(../source/padauk-dflt_GSUB.feax)
 # -------------
 # GSUB lookups
 # -------------
@@ -182,32 +181,6 @@ lookup mym2_pref_signsLig {
     sub u102E u1036  by u102E_u1036; # Moken
     sub u1032 u1036  by u1032_u1036; # Moken
 } mym2_pref_signsLig;
-
-lookup DFLT_signsLig {
-#  lookupflag IgnoreBaseGlyphs, UseMarkFilteringSet @_U;
-#  lookupflag UseMarkFilteringSet @_U;
-    lookupflag 0;
-    sub u1004.kinzi u102D  by u1004.kinzi_u102D;
-    sub u1004.kinzi u102E  by u1004.kinzi_u102E;
-    sub u1004.kinzi u1032  by u1004.kinzi_u1032;
-    sub u1004.kinzi u1033  by u1004.kinzi_u1033;
-    sub u1004.kinzi u1036  by u1004.kinzi_u1036;
-    sub u1004.kinzi u103A  by u1004.kinzi_u103A;
-    sub u1004.kinzi u102D_u1036  by u1004.kinzi_u102D_u1036;
-    sub u101B.kinzi u102D  by u101B.kinzi_u102D;
-    sub u101B.kinzi u102E  by u101B.kinzi_u102E;
-    sub u101B.kinzi u103A  by u101B.kinzi_u103A;
-    sub u102D u1036  by u102D_u1036;
-    sub u102D uAA7C  by u102D_uAA7C; # Tai Laing (stays decomposed?)
-    sub u102E uAA7C  by u102E_uAA7C; # Tai Laing
-    sub u103A uAA7C  by u103A_uAA7C; # Tai Laing
-    sub u1086 uAA7C  by u1086_uAA7C;
-    sub uA9E5 uAA7C  by uA9E5_uAA7C;
-    sub u102D u1032  by u1032_u102D;
-    sub u102E u1032  by u1032_u102E;
-    sub u102E u1036  by u102E_u1036; # Moken
-    sub u1032 u1036  by u1032_u1036; # Moken
-} DFLT_signsLig;
 
 
 # ****

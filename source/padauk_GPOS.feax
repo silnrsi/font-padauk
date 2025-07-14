@@ -258,15 +258,6 @@ do  let a = ADVx("u103C");
     }
 } dist_SpacingMarks; 
 
-lookup dist_dflt_SpacingMarks {
-do  let a = ADVx("u103C");
-    let b = ADVx("uAA70");
-    {
-        pos [@class103CNarr @class103CWide] @cCons' <$a 0 $a 0>;
-        #pos uAA70 @cCons' <$b 0 $b 0>;
-    }
-} dist_dflt_SpacingMarks;
-
 do  let bases = feaclass('GDEF_bases');
     let us = feaclass('U');
     let gs = " ".join(x for x in bases if x not in us);

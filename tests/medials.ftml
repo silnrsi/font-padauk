@@ -6,14 +6,10 @@
     <fontscale>200</fontscale>
     <fontsrc label="grR">url(../references/PadaukBook-Regular_gr.ttf)</fontsrc>
     <fontsrc label="grB">url(../references/PadaukBook-Bold_gr.ttf)</fontsrc>
-    <fontsrc label="dfltRref">url(../references/tests/ftml/fonts/PadaukBook-Regular_ot_DFLT.ttf)</fontsrc>
-    <fontsrc label="dfltBref">url(../references/tests/ftml/fonts/PadaukBook-Bold_ot_DFLT.ttf)</fontsrc>
-    <fontsrc label="Rref">url(../references/tests/ftml/fonts/PadaukBook-Regular_ot_mym2.ttf)</fontsrc>
-    <fontsrc label="Bref">url(../references/tests/ftml/fonts/PadaukBook-Bold_ot_mym2.ttf)</fontsrc>
-    <fontsrc label="dfltR">url(../results/tests/ftml/fonts/PadaukBook-Regular_ot_DFLT.ttf)</fontsrc>
-    <fontsrc label="dfltB">url(../results/tests/ftml/fonts/PadaukBook-Bold_ot_DFLT.ttf)</fontsrc>
-    <fontsrc label="R">url(../results/tests/ftml/fonts/PadaukBook-Regular_ot_mym2.ttf)</fontsrc>
-    <fontsrc label="B">url(../results/tests/ftml/fonts/PadaukBook-Bold_ot_mym2.ttf)</fontsrc>
+    <fontsrc label="refR">url(../references/PadaukBook-Regular.ttf)</fontsrc>
+    <fontsrc label="refB">url(../references/PadaukBook-Bold.ttf)</fontsrc>
+    <fontsrc label="R">url(../results/PadaukBook-Regular.ttf)</fontsrc>
+    <fontsrc label="B">url(../results/PadaukBook-Bold.ttf)</fontsrc>
     <fontsrc label="Pyidaungsu">url(../references/Pyidaungsu-2.5.3_Regular.ttf)</fontsrc>
     <fontsrc label="notoSans">url(../references/NotoSansMyanmar-Regular.ttf)</fontsrc>
     <fontsrc label="notoSerif">url(../references/NotoSerifMyanmar-Regular.ttf)</fontsrc>

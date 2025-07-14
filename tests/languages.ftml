@@ -5,18 +5,14 @@
     <fontscale>200</fontscale>
     <fontsrc label="grR">url(../references/PadaukBook-Regular_gr.ttf)</fontsrc>
     <fontsrc label="grB">url(../references/PadaukBook-Bold_gr.ttf)</fontsrc>
-    <fontsrc label="dfltRref">url(../references/tests/ftml/fonts/PadaukBook-Regular_ot_DFLT.ttf)</fontsrc>
-    <fontsrc label="dfltBref">url(../references/tests/ftml/fonts/PadaukBook-Bold_ot_DFLT.ttf)</fontsrc>
-    <fontsrc label="mym2Rref">url(../references/tests/ftml/fonts/PadaukBook-Regular_ot_mym2.ttf)</fontsrc>
-    <fontsrc label="mym2Bref">url(../references/tests/ftml/fonts/PadaukBook-Bold_ot_mym2.ttf)</fontsrc>
-    <fontsrc label="dfltR">url(../results/tests/ftml/fonts/PadaukBook-Regular_ot_DFLT.ttf)</fontsrc>
-    <fontsrc label="dfltB">url(../results/tests/ftml/fonts/PadaukBook-Bold_ot_DFLT.ttf)</fontsrc>
-    <fontsrc label="mym2R">url(../results/tests/ftml/fonts/PadaukBook-Regular_ot_mym2.ttf)</fontsrc>
-    <fontsrc label="mym2B">url(../results/tests/ftml/fonts/PadaukBook-Bold_ot_mym2.ttf)</fontsrc>
-    <fontsrc label="nkR">url(../results/tests/ftml/fonts/khamti/NamKioBook-Regular_ot_DFLT.ttf)</fontsrc>
-    <fontsrc label="nkB">url(../results/tests/ftml/fonts/khamti/NamKioBook-Bold_ot_DFLT.ttf)</fontsrc>
-    <fontsrc label="dmR">url(../results/tests/ftml/fonts/deemawso/DeemawsoBook-Regular_ot_DFLT.ttf)</fontsrc>
-    <fontsrc label="dmB">url(../results/tests/ftml/fonts/deemawso/DeemawsoBook-Bold_ot_DFLT.ttf)</fontsrc>
+    <fontsrc label="refR">url(../references/PadaukBook-Regular.ttf)</fontsrc>
+    <fontsrc label="refB">url(../references/PadaukBook-Bold.ttf)</fontsrc>
+    <fontsrc label="R">url(../results/PadaukBook-Regular.ttf)</fontsrc>
+    <fontsrc label="B">url(../results/PadaukBook-Bold.ttf)</fontsrc>
+    <fontsrc label="nkR">url(../results/khamti/NamKioBook-Regular.ttf)</fontsrc>
+    <fontsrc label="nkB">url(../results/khamti/NamKioBook-Bold.ttf)</fontsrc>
+    <fontsrc label="dmR">url(../results/deemawso/DeemawsoBook-Regular.ttf)</fontsrc>
+    <fontsrc label="dmB">url(../results/deemawso/DeemawsoBook-Bold.ttf)</fontsrc>
     <fontsrc label="Pyidaungsu">url(../references/Pyidaungsu-2.5.3_Regular.ttf)</fontsrc>
     <fontsrc label="notoSans">url(../references/NotoSansMyanmar-Regular.ttf)</fontsrc>
     <fontsrc label="notoSerif">url(../references/NotoSerifMyanmar-Regular.ttf)</fontsrc>
