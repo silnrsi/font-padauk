@@ -1,9 +1,6 @@
 \begin[class=fontproof]{document}
 \bidi-off
 \setTestFont[]
-\set[parameter=harfbuzz.subshapers,value=ot]
-
-\proof{Digits RenderingUnknown}
 
 \subsection{Latin}
 

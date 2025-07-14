@@ -36,18 +36,6 @@
 %%% cv01
 \proof[size="12",color="blue"]{Character Variant 1 (filled dot)}
 
-%\set[parameter=harfbuzz.subshapers,value=graphite2]
-\proof[size=10pt,color="green"]{RenderingUnknown}
-
-\font[features="cv01=0"]
-\pattern[heading=No filled dot,chars="@,#",reps="group_cons,group_dot",format="table"]{@#}
-\font[features="+cv01=1"]
-\pattern[heading=Filled dot,chars="@,#",reps="group_cons,group_dot",format="table"]{@#}
-
-\set[parameter=harfbuzz.subshapers,value=ot]
-\proof[size=10pt,color="green"]{RenderingUnknown}
-
-\font[features="cv01=0"]
 \pattern[heading=No filled dot,chars="@,#",reps="group_cons,group_dot",format="table"]{@#}
 \font[features="+cv01=1"]
 \pattern[heading=Filled dot,chars="@,#",reps="group_cons,group_dot",format="table"]{@#}
@@ -57,41 +45,16 @@
 %%% cv02
 \proof[size="12",color="blue"]{Character Variant 2 - Tear drop style washwe}
 
-\set[parameter=harfbuzz.subshapers,value=graphite2]
-\proof[size=10pt,color="green"]{RenderingUnknown}
-
-\proof[heading=Round style washwe]{တွ ကျွ ကြွ ကွှ}
-
-\font[features="+cv02=1"]
-\proof[heading=Tear drop style washwe]{တွ ကျွ ကြွ ကွှ}
-
-\set[parameter=harfbuzz.subshapers,value=ot]
-\proof[size=10pt,color="green"]{RenderingUnknown}
-
-\font[features="cv02=0"]
 \proof[heading=Round style washwe]{တွ ကျွ ကြွ ကွှ}
 
 \font[features="+cv02=1"]
 \proof[heading=Tear drop style washwe]{တွ ကျွ ကြွ ကွှ}
 
 \font[features="cv02=0"]
-
 
 %%% cv03
 \proof[size="12",color="blue"]{Character Variant 3 - Asho Chin variants}
 
-\set[parameter=harfbuzz.subshapers,value=graphite2]
-\proof[size=10pt,color="green"]{RenderingUnknown}
-
-\proof[heading=Normal tone mark U+106D]{ကၭ}
-
-\font[features="+cv03=1"]
-\proof[heading=Asho Chin tone mark U+106D]{ကၭ}
-
-\set[parameter=harfbuzz.subshapers,value=ot]
-\proof[size=10pt,color="green"]{RenderingUnknown}
-
-\font[features="cv03=0"]
 \proof[heading=Normal tone mark U+106D]{ကၭ}
 
 \font[features="+cv03=1"]
@@ -102,19 +65,7 @@
 %%% cv04
 \proof[size="12",color="blue"]{Character Variant 4 - Thai Mon variants}
 
-\set[parameter=harfbuzz.subshapers,value=graphite2]
-\proof[size=10pt,color="green"]{RenderingUnknown}
-
 \font[features="+cv04=1"]
-
-\proof[heading=Thai Mon consonants]{က ခ ဂ ဃ ၚ စ ဆ ဇ ၛ ဉ ည ဋ ဌ ဍ ဎ ဏ တ ထ ဒ ဓ န ပ ဖ ဗ ဘ မ ယ ရ လ ဝ သ ဟ ဠ အ ၜ ၝ}
-\proof[heading=Thai Mon kinzi]{ၚ်္ ၚ်္က ၚ်္ဃ ၚ်္ဋ ၚ်္ဌ ဇၚ်္မှဲာ}
-\pattern[heading=Thai Mon vowels,chars="@,#",reps="group_consMon,group_vowelMon",format="table"]{@#}
-\pattern[heading=Thai Mon medials,chars="@,#",reps="group_consMon,group_medialMon",format="table"]{@#}
-\pattern[heading=Thai Mon subjoined,chars="@,#",reps="group_consMon,group_consMonsub",format="table"]{@္#}
-
-\set[parameter=harfbuzz.subshapers,value=ot]
-\proof[size=10pt,color="green"]{RenderingUnknown}
 
 \proof[heading=Thai Mon consonants]{က ခ ဂ ဃ ၚ စ ဆ ဇ ၛ ဉ ည ဋ ဌ ဍ ဎ ဏ တ ထ ဒ ဓ န ပ ဖ ဗ ဘ မ ယ ရ လ ဝ သ ဟ ဠ အ ၜ ၝ}
 \proof[heading=Thai Mon kinzi]{ၚ်္ ၚ်္က ၚ်္ဃ ၚ်္ဋ ၚ်္ဌ ဇၚ်္မှဲာ}
@@ -125,15 +76,12 @@
 
 \font[features="cv04=0"]
 
-
 %%% cv05
 \proof[size="12",color="blue"]{Character Variant 5 - Aiton Phake variants}
 
-\set[parameter=harfbuzz.subshapers,value=graphite2]
-\proof[size=10pt,color="green"]{RenderingUnknown}
-
 \font[features="+cv05=1"]
 
+\proof{from Graphite test}
 
 \proof[heading=Aiton consonants]{က︀ ၵ︀ ꩡ︀ ၺ တ︀ ꩫ︀ ၸ︀ ယ︀ ꩺ လ︀ ꩭ ဢ︀ ြ}
 \proof[heading=Phake consonants]{က︀ ၵ︀ ꩡ︀ ၺ တ︀ %
@@ -142,12 +90,7 @@
 \font[features="+cv05=1"]%
 ၸ︀ ယ︀ ꩺ လ︀ ꩭ ဢ︀ ြ}%
 
-% Pattern is cons fe00 1039 subjoined
-\proof[size=8pt,color="blue"]{Note: Fontproof pattern "cons fe00 1039 subjoined" needs work - read between the lines!}
-\pattern[heading=Aiton subjoined,chars="@,#",reps="group_consAitonNoFE00,group_consAitonsub",format="table"]{@︀္#}
-
-\set[parameter=harfbuzz.subshapers,value=ot]
-\proof[size=10pt,color="green"]{RenderingUnknown}
+\proof{from OpenType test}
 
 \proof[heading=Aiton consonants]{က︀ ၵ︀ င︀ ꩡ︀ ꩥ︀ တ︀ ထ︀ ꩫ︀ ပ︀ ၸ︀ မ︀ ယ︀ ရ︀ လ︀ ဝ︀ ꩭ︀ ဢ︀}
 \proof[heading=Phake consonants]{က︀ ၵ︀ င︀ ꩡ︀ ꩥ︀ တ︀ ထ︀ %
@@ -157,26 +100,14 @@
 ပ︀ ၸ︀ မ︀ ယ︀ ရ︀ လ︀ ဝ︀ ꩭ︀ ဢ︀}
 
 % Pattern is cons fe00 1039 subjoined
+\proof[size=8pt,color="blue"]{Note: Fontproof pattern "cons fe00 1039 subjoined" needs work - read between the lines!}
 \pattern[heading=Aiton subjoined,chars="@,#",reps="group_consAitonNoFE00,group_consAitonsub",format="table"]{@︀္#}
 
 \font[features="cv05=0"]
 
-
 %%% cv06
 \proof[size="12",color="blue"]{Character Variant 6 - Khamti variants}
 
-\set[parameter=harfbuzz.subshapers,value=graphite2]
-\proof[size=10pt,color="green"]{RenderingUnknown}
-
-\proof[heading=Normal mark U+1086]{က︀ႆ က︀ႆႈꩰ }
-
-\font[features="+cv06=1,+cv01=1"]
-\proof[heading=Khamti mark U+1086]{က︀ႆ က︀ႆႈꩰ }
-
-\set[parameter=harfbuzz.subshapers,value=ot]
-\proof[size=10pt,color="green"]{RenderingUnknown}
-
-\font[features="cv06=0,cv01=0"]
 \proof[heading=Normal mark U+1086]{က︀ႆ က︀ႆႈꩰ }
 
 \font[features="+cv06=1,+cv01=1"]
@@ -187,22 +118,6 @@
 %%% cv07
 \proof[size="12",color="blue"]{Character Variant 7 - Slanted hato}
 
-\set[parameter=harfbuzz.subshapers,value=graphite2]
-\proof[size=10pt,color="green"]{RenderingUnknown}
-
-\proof[heading=None]{ှ ၡ ၦ}
-
-\font[features="+cv07=1"]
-\proof[heading=Sgaw variants]{ှ ၡ ၦ}
-
-\font[features="cv07=0"]
-\font[features="+cv07=2"]
-\proof[heading=Angle variants]{ှ ၡ ၦ}
-
-\set[parameter=harfbuzz.subshapers,value=ot]
-\proof[size=10pt,color="green"]{RenderingUnknown}
-
-\font[features="cv07=0"]
 \proof[heading=None]{ှ ၡ ၦ}
 
 \font[features="+cv07=1"]
@@ -217,18 +132,6 @@
 %%% cv09
 \proof[size="12",color="blue"]{Character Variant 9 - Tai Laing variant}
 
-\set[parameter=harfbuzz.subshapers,value=graphite2]
-\proof[size=10pt,color="green"]{RenderingUnknown}
-
-\proof[heading=U+AA6C default]{ꩬ}
-
-\font[features="+cv09=1"]
-\proof[heading=U+AA6C variant]{ꩬ}
-
-\set[parameter=harfbuzz.subshapers,value=ot]
-\proof[size=10pt,color="green"]{RenderingUnknown}
-
-\font[features="cv09=0"]
 \proof[heading=U+AA6C default]{ꩬ}
 
 \font[features="+cv09=1"]

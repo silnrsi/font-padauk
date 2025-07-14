@@ -3,8 +3,8 @@
 <ftml version="1.0">
   <head>
     <fontscale>200</fontscale>
-    <fontsrc label="PadaukGR-R">url(../results/PadaukBook-Regular.ttf)</fontsrc>
-    <fontsrc label="PadaukGR-B">url(../results/PadaukBook-Bold.ttf)</fontsrc>
+    <fontsrc label="PadaukGR-R">url(../references/PadaukBook-Regular_gr.ttf)</fontsrc>
+    <fontsrc label="PadaukGR-B">url(../references/PadaukBook-Bold_gr.ttf)</fontsrc>
     <fontsrc label="PadaukOT-R">url(../results/tests/ftml/fonts/PadaukBook-Regular_ot_mym2.ttf)</fontsrc>
     <fontsrc label="PadaukOT-B">url(../results/tests/ftml/fonts/PadaukBook-Bold_ot_mym2.ttf)</fontsrc>
     <fontsrc label="Pyidaungsu">url(../references/Pyidaungsu-2.5.3_Regular.ttf)</fontsrc>
@@ -17,11 +17,6 @@
     </styles>
     <title>Graphite</title>
   </head>
-  <testgroup background="#f0f0f0" label="Rendering Check">
-    <test label="check">
-      <string>RenderingUnknown</string>
-    </test>
-  </testgroup>
   <testgroup label="ksw_sequences.htxt">
     <test label="2.1 with U+1000">
       <comment>OT okay</comment>
@@ -112,7 +107,7 @@
       <string>\u1075\u103c\u101c \u1075\u103c\u100a</string>
     </test>
     <test label="22.1">
-      <comment>OT okay</comment>
+      <comment>OT okay - might not exist in real language data</comment>
       <string>\u1075\ufe00\u103c\u101c \u1075\ufe00\u103c\u100a</string>
     </test>
   </testgroup>

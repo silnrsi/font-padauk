@@ -9,14 +9,12 @@
     <fontsrc label="R5000">url(../references/PadaukBook5000ot-Regular.ttf)</fontsrc>
     <fontsrc label="B5000">url(../references/PadaukBook5000ot-Bold.ttf)</fontsrc>
     -->
-    <fontsrc label="grRref">url(../references/PadaukBook-Regular.ttf)</fontsrc>
-    <fontsrc label="grBref">url(../references/PadaukBook-Bold.ttf)</fontsrc>
+    <fontsrc label="grR">url(../references/PadaukBook-Regular_gr.ttf)</fontsrc>
+    <fontsrc label="grB">url(../references/PadaukBook-Bold_gr.ttf)</fontsrc>
     <fontsrc label="dfltRref">url(../references/tests/ftml/fonts/PadaukBook-Regular_ot_DFLT.ttf)</fontsrc>
     <fontsrc label="dfltBref">url(../references/tests/ftml/fonts/PadaukBook-Bold_ot_DFLT.ttf)</fontsrc>
     <fontsrc label="mym2Rref">url(../references/tests/ftml/fonts/PadaukBook-Regular_ot_mym2.ttf)</fontsrc>
     <fontsrc label="mym2Bref">url(../references/tests/ftml/fonts/PadaukBook-Bold_ot_mym2.ttf)</fontsrc>
-    <fontsrc label="grR">url(../results/PadaukBook-Regular.ttf)</fontsrc>
-    <fontsrc label="grB">url(../results/PadaukBook-Bold.ttf)</fontsrc>
     <fontsrc label="dfltR">url(../results/tests/ftml/fonts/PadaukBook-Regular_ot_DFLT.ttf)</fontsrc>
     <fontsrc label="dfltB">url(../results/tests/ftml/fonts/PadaukBook-Bold_ot_DFLT.ttf)</fontsrc>
     <fontsrc label="mym2R">url(../results/tests/ftml/fonts/PadaukBook-Regular_ot_mym2.ttf)</fontsrc>
@@ -29,7 +27,6 @@
     <fontsrc label="notoSans">url(../references/NotoSansMyanmar-Regular.ttf)</fontsrc>
     <fontsrc label="notoSerif">url(../references/NotoSerifMyanmar-Regular.ttf)</fontsrc>
     <!--
-    <fontsrc label="PadaukGR">url(../results/Padauk-Regular.ttf)</fontsrc>
     <fontsrc label="PadaukOT">url(../results/tests/ftml/fonts/Padauk-Regular_ot_mym2.ttf)</fontsrc>
     <fontsrc label="Pyidaungsu">url(../references/Pyidaungsu-2.5.3_Regular.ttf)</fontsrc>
     <fontsrc label="NotoSansMyanmar">url(../references/NotoSansMyanmar-Regular.ttf)</fontsrc>
@@ -43,11 +40,6 @@
     </styles>
     <title>Issues</title>
   </head>
-  <testgroup background="#f0f0f0" label="Rendering Check">
-    <test label="check">
-      <string>RenderingUnknown</string>
-    </test>
-  </testgroup>
   <testgroup label="Issue 4">
     <test label="1">
       <string>ဣန္ဒြေ</string>

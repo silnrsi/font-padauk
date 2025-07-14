@@ -4,14 +4,12 @@
   <head>
     <comment>Background colors: light orange: includes a character from Unicode version 16.0 or later; light red: a character is missing from UFO; light green: a character is new in this version of the font</comment>
     <fontscale>200</fontscale>
-    <fontsrc label="grRref">url(../references/PadaukBook-Regular.ttf)</fontsrc>
-    <fontsrc label="grBref">url(../references/PadaukBook-Bold.ttf)</fontsrc>
+    <fontsrc label="grR">url(../references/PadaukBook-Regular_gr.ttf)</fontsrc>
+    <fontsrc label="grB">url(../references/PadaukBook-Bold_gr.ttf)</fontsrc>
     <fontsrc label="dfltRref">url(../references/tests/ftml/fonts/PadaukBook-Regular_ot_DFLT.ttf)</fontsrc>
     <fontsrc label="dfltBref">url(../references/tests/ftml/fonts/PadaukBook-Bold_ot_DFLT.ttf)</fontsrc>
     <fontsrc label="Rref">url(../references/tests/ftml/fonts/PadaukBook-Regular_ot_mym2.ttf)</fontsrc>
     <fontsrc label="Bref">url(../references/tests/ftml/fonts/PadaukBook-Bold_ot_mym2.ttf)</fontsrc>
-    <fontsrc label="grR">url(../results/PadaukBook-Regular.ttf)</fontsrc>
-    <fontsrc label="grB">url(../results/PadaukBook-Bold.ttf)</fontsrc>
     <fontsrc label="dfltR">url(../results/tests/ftml/fonts/PadaukBook-Regular_ot_DFLT.ttf)</fontsrc>
     <fontsrc label="dfltB">url(../results/tests/ftml/fonts/PadaukBook-Bold_ot_DFLT.ttf)</fontsrc>
     <fontsrc label="R">url(../results/tests/ftml/fonts/PadaukBook-Regular_ot_mym2.ttf)</fontsrc>
@@ -21,11 +19,6 @@
     <fontsrc label="notoSerif">url(../references/NotoSerifMyanmar-Regular.ttf)</fontsrc>
     <title>Matras auto</title>
   </head>
-  <testgroup background="#f0f0f0" label="Rendering Check">
-    <test label="check">
-      <string>RenderingUnknown</string>
-    </test>
-  </testgroup>
   <testgroup label="Consonants with matras">
     <test label="1000">
       <comment>u1000</comment>

@@ -39,12 +39,6 @@ languagesystem mym2 MONT;
 # GSUB features
 # -------------
 
-feature ccmp {
-      lookup FontCheck1;
-      lookup FontCheck2;
-} ccmp;
-
-
 feature locl {
  script mym2;
     language KHN  exclude_dflt;
