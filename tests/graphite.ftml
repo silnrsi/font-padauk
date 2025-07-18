@@ -203,11 +203,11 @@
   </testgroup>
   <testgroup label="ksw_Wordlist.txt">
     <test label="69.1">
-      <comment>OT fixed</comment>
+      <comment>OT fixed and improved</comment>
       <string>\u1000\u103b\u1037\u1038</string>
     </test>
     <test label="69.1 alt">
-      <comment>OT ?</comment>
+      <comment>OT improved</comment>
       <string>\u1000\u103b\u1037\u108f</string>
     </test>
     <test label="355.1">
@@ -227,11 +227,11 @@
       <string>\u1061\u1037\u1063</string>
     </test>
     <test label="401.1">
-      <comment>OT fixed</comment>
+      <comment>OT fixed and improved</comment>
       <string>\u1061\u1037\u1038</string>
     </test>
     <test label="401.1 alt">
-      <comment>OT ?</comment>
+      <comment>OT improved</comment>
       <string>\u1061\u1037\u108f</string>
     </test>
     <test label="643.1">
@@ -247,11 +247,11 @@
       <string>\u101b\u1037\u1063</string>
     </test>
     <test label="1045.1">
-      <comment>OT fixed</comment>
+      <comment>OT fixed and improved</comment>
       <string>\u101b\u1037\u1038</string>
     </test>
     <test label="1045.1 alt">
-      <comment>OT ?</comment>
+      <comment>OT improved</comment>
       <string>\u101b\u1037\u108f</string>
     </test>
     <test label="1546.1">
@@ -261,27 +261,27 @@
   </testgroup>
   <testgroup label="blk_syllables.txt">
     <test label="254.1">
-      <comment>OT ?</comment>
+      <comment>OT improved</comment>
       <string>\u1000\u103c\u102d\u102f\u1037\u108f</string>
     </test>
     <test label="254.1 alt">
-      <comment>OT ?</comment>
+      <comment>OT improved</comment>
       <string>\u1000\u103c\u102d\u102f\u1037\u1038</string>
     </test>
     <test label="453.1">
-      <comment>OT ?</comment>
+      <comment>OT improved</comment>
       <string>\u1001\u103b\u102d\u102f\u1037\u108f</string>
     </test>
     <test label="453.1 alt">
-      <comment>OT ?</comment>
+      <comment>OT improved</comment>
       <string>\u1001\u103b\u102d\u102f\u1037\u1038</string>
     </test>
     <test label="2950.1">
-      <comment>OT fixed</comment>
+      <comment>OT fixed and improved</comment>
       <string>\u101b\u103d\u102d\u102f\u1037\u1038 \u101b\u103d\u102d\u1030\u1037\u1038</string>
     </test>
     <test label="2950.1 alt">
-      <comment>OT ?</comment>
+      <comment>OT improved</comment>
       <string>\u101b\u103d\u102d\u102f\u1037\u1038 \u101b\u103d\u102d\u1030\u1037\u108f</string>
     </test>
   </testgroup>
@@ -337,62 +337,6 @@
     <test label="2191.1">
       <comment>Dotted circles from shaping engines</comment>
       <string>\u109F\u108A</string>
-    </test>
-  </testgroup>
-  <testgroup label="colon like in ksw_Wordlist.txt">
-    <test label="69.1">
-      <comment>OT fixed</comment>
-      <string>\u1000\u103b\u1037\u1038</string>
-    </test>
-    <test label="69.1 alt">
-      <comment>OT ?</comment>
-      <string>\u1000\u103b\u1037\u108f</string>
-    </test>
-    <test label="401.1">
-      <comment>OT fixed</comment>
-      <string>\u1061\u1037\u1038</string>
-    </test>
-    <test label="401.1 alt">
-      <comment>OT ?</comment>
-      <string>\u1061\u1037\u108f</string>
-    </test>
-    <test label="1045.1">
-      <comment>OT fixed</comment>
-      <string>\u101b\u1037\u1038</string>
-    </test>
-    <test label="1045.1 alt">
-      <comment>OT ?</comment>
-      <string>\u101b\u1037\u108f</string>
-    </test>
-  </testgroup>
-  <testgroup label="colon like in blk_syllables.txt">
-    <test label="63.1">
-      <comment>OT ?</comment>
-      <string>\u1000\u103d\u102d\u102f\u1037\u108f</string>
-    </test>
-    <test label="254.1">
-      <comment>OT ?</comment>
-      <string>\u1000\u103c\u102d\u102f\u1037\u108f</string>
-    </test>
-    <test label="254.1 alt">
-      <comment>OT ?</comment>
-      <string>\u1000\u103c\u102d\u102f\u1037\u1038</string>
-    </test>
-    <test label="453.1">
-      <comment>OT ?</comment>
-      <string>\u1001\u103b\u102d\u102f\u1037\u108f</string>
-    </test>
-    <test label="453.1 alt">
-      <comment>OT ?</comment>
-      <string>\u1001\u103b\u102d\u102f\u1037\u1038</string>
-    </test>
-    <test label="2950.1">
-      <comment>OT fixed</comment>
-      <string>\u101b\u103d\u102d\u102f\u1037\u1038 \u101b\u103d\u102d\u1030\u1037\u1038</string>
-    </test>
-    <test label="2950.1 alt">
-      <comment>OT ?</comment>
-      <string>\u101b\u103d\u102d\u102f\u1037\u1038 \u101b\u103d\u102d\u1030\u1037\u108f</string>
     </test>
   </testgroup>
 </ftml>

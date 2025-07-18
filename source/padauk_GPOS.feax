@@ -149,30 +149,53 @@ do  for b = [@LM_MarkBase];
     }
 } guard_dot;
 
-@guard_after = [@cFillLowAfter @colon_like @c103C_all];
+lookup guard_dot_colon {
+do  for b = [@L];
+    let g = "u1037";
+    let max_a = APx(b, "L") - APx(g, "_L") + ADVx(g) - ADVx(b);
+    let a = int(max_a * 0.6);
+    if not b.startswith("u103C") and a > 0;
+    {
+        pos $b $a;
+    }
+do  for b = [@LM_MarkBase];
+    let g = "u1037";
+    let max_a = APx(b, "LM") - APx(g, "_LM") + ADVx(g) - ADVx(b);
+    let a = int(max_a * 0.6);
+    if not b.startswith("u103C") and a > 0;
+    {
+        pos $b $a;
+    }
+} guard_dot_colon;
+
+@guard_after = [@cFillLowAfter @c103C_all];
 
 lookup guard_dot_context {
-    ignore pos @cCons u103E' [@_U] u1037 @guard_after;
-    ignore pos @cCons u103E' u1037 @guard_after;
+    ignore pos @cCons u103E' [@_U] u1037 [@guard_after @colon_like];
+    ignore pos @cCons u103E' u1037 [@guard_after @colon_like];
 
     # The next line might be needed, but it is not used by any test data
     # pos u101B.alt [@_U] [u102F.med u1030.med]' lookup guard_dot u1037 @guard_after;
     # The next (and previous) line might only be needed for Sanskrit
     pos u101B.alt [u102F.med u1030.med]' lookup guard_dot u1037 @guard_after;
+    # The next line might be needed, but it is not used by any test data
+    # pos u101B.alt [u102F.med u1030.med]' lookup guard_dot_colon u1037 @colon_like;
 
-    ignore pos @cCons [@_U] [u102F.med u1030.med]' u1037 @guard_after;
-    ignore pos @cCons [u102F.med u1030.med]' u1037 @guard_after;
+    ignore pos @cCons [@_U] [u102F.med u1030.med]' u1037 [@guard_after @colon_like];
+    ignore pos @cCons [u102F.med u1030.med]' u1037 [@guard_after @colon_like];
 
     # The next several lines are to match the Graphite shaping
     # and will be commented out later in order to improve the OpenType shaping
-    ignore pos u1061' [@_U] u1037 @colon_like;
-    ignore pos u1061' u1037 @colon_like;
-    ignore pos [@cCons u101B.long] u103D [@_U] [u102F u1030]' u1037 @colon_like;
-    ignore pos [@cCons u101B.long] u103D [u102F u1030]' u1037 @colon_like;
-    ignore pos [u101B u101B.long]' u1037 @colon_like;
+    # ignore pos u1061' [@_U] u1037 @colon_like;
+    # ignore pos u1061' u1037 @colon_like;
+    # ignore pos [@cCons u101B.long] u103D [@_U] [u102F u1030]' u1037 @colon_like;
+    # ignore pos [@cCons u101B.long] u103D [u102F u1030]' u1037 @colon_like;
+    # ignore pos [u101B u101B.long]' u1037 @colon_like;
 
     pos [@guard_bases @guard_basedots]' lookup guard_dot [@_U] u1037 @guard_after;
     pos [@guard_bases @guard_basedots]' lookup guard_dot u1037 @guard_after;
+    pos [@guard_bases @guard_basedots]' lookup guard_dot_colon [@_U] u1037 @colon_like;
+    pos [@guard_bases @guard_basedots]' lookup guard_dot_colon u1037 @colon_like;
 } guard_dot_context;
 
 lookup dist_103C_Cons {
@@ -311,11 +334,12 @@ do  for w = [narr wide];
     let base = "u1002" if w == "narr" else "u1000";
     let a = APx(gname, "L") - ADVx(gname) - APx(base, "L");
     let b = -2 * APx("u1037", "_L") + 10;
+    let c = int(b / 2);
     if a > 0;
     {
-        pos $gname [@cCons] [@_U] u1037' <$a 0  0 0> @colon_like;
+        pos $gname [@cCons] [@_U] u1037' <$a 0 $c 0> @colon_like;
         pos $gname [@cCons] [@_U] u1037' <$a 0 $b 0>;
-        pos $gname [@cCons]       u1037' <$a 0  0 0> @colon_like;
+        pos $gname [@cCons]       u1037' <$a 0 $c 0> @colon_like;
         pos $gname [@cCons]       u1037' <$a 0 $b 0>;
     }
 } kern_103Clig_1037;
