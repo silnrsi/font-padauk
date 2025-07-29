@@ -256,6 +256,10 @@ lookup base_BSM_mark {
     pos mark @BSM_MarkBase mark @_BSM;
 } base_BSM_mark;
 
+lookup base_U_mark {
+    pos mark @U_MarkBase mark @_U;
+} base_U_mark;
+
 @LM_Filter = [@LM_MarkBase @_LM];
 lookup base_LM_mark {
     lookupflag UseMarkFilteringSet @LM_Filter;

@@ -437,6 +437,7 @@ feature mark {
 feature mkmk {
   lookup base_BDM_mark;
   lookup base_BSM_mark;
+  lookup base_U_mark;
   lookup base_LM_mark_context;
   lookup shift_1037;
   lookup base_SJ_mark;
@@ -448,6 +449,7 @@ feature mkmk {
     language KSW  exclude_dflt;
       lookup base_BDM_mark;
       lookup base_BSM_mark;
+      lookup base_U_mark;
       lookup base_LLM_mark;
 #      lookup mk2mk_LM;
 #    language KYU;
@@ -516,7 +518,7 @@ feature mkmk {
 @GDEF_Mark = [u1000.med u1000.sml u1001.med u1001.sml u1002.med u1002.sml u1003.med u1003.sml u1004.med u1004.sml u1004.kinzi 
 	u1004.kinzi_u102D u1004.kinzi_u102E u1004.kinzi_u1032 u1004.kinzi_u1033 
 	u1004.kinzi_u1036 u1004.kinzi_u103A u1004.kinzi_u102D_u1036 u1005.med u1005.sml
-	u1006.med u1006.sml u1007.med u1007.sml u1009.med u1009.med.alt u1009.sml u100A.med u100A.sml u100B.med u100B.sml u100C.med u100C.sml u100D.med u100D.sml u100E.med u100E.sml
+	u1006.med u1006.sml u1007.med u1007.sml u1008.sml u1009.med u1009.med.alt u1009.sml u100A.med u100A.sml u100B.med u100B.sml u100C.med u100C.sml u100D.med u100D.sml u100E.med u100E.sml
 	u100F.med u100F.sml u1010.med u1010_u103D.med u1010.sml u1011.med u1011.sml u1012.med u1012.sml u1013.med u1013.sml
 	u1014.med u1014.sml u1015.med u1015.sml u1016.med u1016.sml u1017.med u1017.sml u1018.med u1018.sml u1019.med u1019.sml u101A.med u101A.sml
 	u101B.med u101B.sml u101B.kinzi u101B.kinzi_u102D u101B.kinzi_u102E 

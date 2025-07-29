@@ -125,7 +125,7 @@
       <string>\u1004\u103a\u1039\u1000\u103b</string>
     </test>
     <test label="67.1">
-      <comment>review OT - GR has the 102D up a bit more</comment>
+      <comment>OT fixed - GR had the 102D up a bit more</comment>
       <string>\u1009\u1039\u1008\u102d</string>
     </test>
   </testgroup>
