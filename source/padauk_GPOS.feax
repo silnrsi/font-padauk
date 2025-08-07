@@ -237,6 +237,18 @@ do  for c = [@cConsNarStack];
 
 #-----------------------------------------------------------------------
 
+# Adding advance width for a spacing mark (defined as a mark in GDEF)
+# DirectWrite (and CoreText) need to have glyph spacing (kern and dist) done
+# before mark positioning (mark and mkmk).
+# Therefore, the lookup dist_SpacingMarks might need to be moved to here,
+# especially if HarfBuzz changes its behavior
+# https://github.com/harfbuzz/harfbuzz/issues/4596#issuecomment-2220558649
+lookup dist_SpacingMark {
+do  let a = MAXx("u1008.sml");
+    {
+        pos u1008.sml <0 0 $a 0>;
+    }
+} dist_SpacingMark;
 
 do  for b = [AA BS BD L U Y];
     let lk = "base_"+b+"_base";
