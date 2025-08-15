@@ -113,11 +113,11 @@
   </testgroup>
   <testgroup label="sanskrit.txt">
     <test label="18.1">
-      <comment>review OT - GR has the 102D to the right a bit more</comment>
-      <string>\u1000\u1039\u1010\u103c\u102d \u1000\u103c\u102d</string>
+      <comment>OT okay - GR has the 102D to the right a bit more</comment>
+      <string>\u1000\u1039\u1010\u103c\u102d</string>
     </test>
     <test label="46.1">
-      <comment>review OT - compare with previous test</comment>
+      <comment>OT okay - compare with previous test</comment>
       <string>\u1000\u103c\u102d</string>
     </test>
     <test label="49.1">
@@ -171,7 +171,7 @@
       <string>\u101b\u103a\u1039\u101f\u103c\u102e\u1006</string>
     </test>
     <test label="tla_primer.txt">
-      <comment>review OT - smaller gap in bases with GR</comment>
+      <comment>OT fixed - smaller gap in bases with GR</comment>
       <string>\u1006\u1019\u1086\uaa7c \u1019\u1086\uaa7c</string>
     </test>
   </testgroup>
@@ -219,15 +219,15 @@
       <string>\u1006\u103e\u1037\u1063</string>
     </test>
     <test label="355.1 kyu" stylename="kyu">
-      <comment>review OT - slanted right angled foot</comment>  
+      <comment>OT fixed - slanted right angled foot</comment>  
       <string>\u1006\u103e\u1037\u1063</string>
     </test>
     <test label="355.1 cv07=2" stylename="cv07_2">
-      <comment>review OT - slanted right angled foot</comment>  
+      <comment>OT fixed - slanted right angled foot</comment>  
       <string>\u1006\u103e\u1037\u1063</string>
     </test>
     <test label="397.1">
-      <comment>review OT - gap after dot is wider in OT</comment>
+      <comment>OT still fixed</comment>
       <string>\u1061\u1037\u1063</string>
     </test>
     <test label="401.1">
@@ -311,7 +311,7 @@
   </testgroup>
   <testgroup label="my_HeadwordSyllables.txt">
     <test label="414.1">
-      <comment>review OT - medials touch in OT</comment>
+      <comment>OT broken - medials touch in OT</comment>
       <string>\u1002\u1014\u1039\u1011\u1014\u1039\u1010</string>
     </test>
     <test label="422.1">

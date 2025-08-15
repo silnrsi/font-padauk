@@ -353,7 +353,7 @@
     </test>
     <test label="medials with U+1008">
       <comment>ka-jha ka-ka-jha ka-jha-ka</comment>
-      <string>\u1000\u1039\u1008 \u1000\u1039\u1000\u1039\u1008 \u1000\u1039\u1008\u1039\u1000</string>
+      <string>\u1000\u1039\u1008\u1000 \u1000\u1039\u1000\u1039\u1008\u1000 \u1000\u1039\u1008\u1039\u1000</string>
     </test>
     <test label="medials with U+100B">
       <comment>ka-tta ka-ka-tta</comment>

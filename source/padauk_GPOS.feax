@@ -97,7 +97,12 @@ do  for b = [@U];
         (u.find("kinzi") == -1 and u.find("uAA7C") == -1 and b[:4] not in ("u106", "u109") \
             and b[:5] not in ("u102C", "u102F", "u1030", "u103B", "u1062", "u1064", "u1083") \
             and b not in ("u1008.med", "u105B.med")) else 0;
-    if a > 50;
+    # The above multiple clause if test is about sequences to include,
+    # the test with AA7C below is about sequences to exclude.
+    # Ligatures ending in AA7C (currently excluded) match the Graphite shaping
+    # but might clash with some upper diacritics on previous consonants.
+    # No real world test data for that situation is in the project.
+    if a > 50 and u[-6:] != "_uAA7C";
     {
         pos $b <$l 0 $a 0> $u;
     }
@@ -168,11 +173,12 @@ do  for b = [@LM_MarkBase];
     }
 } guard_dot_colon;
 
+@media_ha_like = [u103E u103E.slanth u103E.slantr];
 @guard_after = [@cFillLowAfter @c103C_all];
 
 lookup guard_dot_context {
-    ignore pos @cCons u103E' [@_U] u1037 [@guard_after @colon_like];
-    ignore pos @cCons u103E' u1037 [@guard_after @colon_like];
+    ignore pos @cCons @media_ha_like' [@_U] u1037 [@guard_after @colon_like];
+    ignore pos @cCons @media_ha_like' u1037 [@guard_after @colon_like];
 
     # The next line might be needed, but it is not used by any test data
     # pos u101B.alt [@_U] [u102F.med u1030.med]' lookup guard_dot u1037 @guard_after;

@@ -12,6 +12,9 @@
 \pattern[heading=Wide consonants with subjoined and lower dot,chars="@,#",reps="group_conswide,group_consmed",format="table"]{@္#့}
 \pattern[heading=Narrow consonants with subjoined and lower dot,chars="@,#",reps="group_consnarrow,group_consmed",format="table"]{@္#့}
 
+% \section{Guard space}
+\pattern[heading=Narrow consonants with wide medial,chars="@",reps="group_consnarrow",format="table"]{@္က@္က}
+
 % \section{Consonants with subjoined}
 \pattern[heading=RA-medialYA with subjoined,chars="#",reps="group_consmed",format="table"]{ရ္#ျ}
 \pattern[heading=DDA with subjoined,chars="#",reps="group_consmed",format="table"]{ဍ္#}

@@ -2055,7 +2055,12 @@ lookup guard_context {
 
 lookup guard2 {
     # overlaps of upper consonants
-            pos circledash u102D_uAA70 <0 0 420 0>;
+            # The above multiple clause if test is about sequences to include,
+        # the test with AA7C below is about sequences to exclude.
+        # Ligatures ending in AA7C (currently excluded) match the Graphite shaping
+        # but might clash with some upper diacritics on previous consonants.
+        # No real world test data for that situation is in the project.
+        pos circledash u102D_uAA70 <0 0 420 0>;
         pos circledash u102E_uAA70 <0 0 406 0>;
         pos circledash u1032_u102D <0 0 111 0>;
         pos circledash u1032_u102E <11 0 122 0>;
@@ -2212,15 +2217,10 @@ lookup guard2 {
         pos u1015 u101B.kinzi_u102D <0 0 58 0>;
         pos u1015 u101B.kinzi_u102E <0 0 58 0>;
         pos u1015 u102D_uAA70 <0 0 447 0>;
-        pos u1015 u102D_uAA7C <202 0 202 0>;
-        pos u1015 u102E_uAA7C <208 0 208 0>;
-        pos u1015 u103A_uAA7C <245 0 245 0>;
         pos u1015 u102E_uAA70 <0 0 433 0>;
         pos u1015 u1032_u102D <27 0 165 0>;
         pos u1015 u1032_u102E <38 0 176 0>;
         pos u1015 u1085_uAA70 <0 0 473 0>;
-        pos u1015 u1086_uAA7C <145 0 145 0>;
-        pos u1015 uA9E5_uAA7C <140 0 140 0>;
         pos u1016 u1004.kinzi.thai <0 0 152 0>;
         pos u1016 u1004.kinzi_u102D <0 0 65 0>;
         pos u1016 u1004.kinzi_u102E <0 0 65 0>;
@@ -2271,15 +2271,10 @@ lookup guard2 {
         pos u1019 u101B.kinzi_u102D <0 0 58 0>;
         pos u1019 u101B.kinzi_u102E <0 0 58 0>;
         pos u1019 u102D_uAA70 <0 0 447 0>;
-        pos u1019 u102D_uAA7C <202 0 202 0>;
-        pos u1019 u102E_uAA7C <208 0 208 0>;
-        pos u1019 u103A_uAA7C <245 0 245 0>;
         pos u1019 u102E_uAA70 <0 0 433 0>;
         pos u1019 u1032_u102D <27 0 165 0>;
         pos u1019 u1032_u102E <38 0 176 0>;
         pos u1019 u1085_uAA70 <0 0 473 0>;
-        pos u1019 u1086_uAA7C <145 0 145 0>;
-        pos u1019 uA9E5_uAA7C <140 0 140 0>;
         pos u1019.kham u102D_u1036 <0 0 64 0>;
         pos u1019.kham u102E_u1036 <0 0 64 0>;
         pos u1019.kham u1032_u1036 <0 0 64 0>;
@@ -2445,15 +2440,10 @@ lookup guard2 {
         pos uA9FD u102E_u1036 <0 0 65 0>;
         pos uA9FD u1032_u1036 <0 0 65 0>;
         pos uA9FD u102D_uAA70 <0 0 448 0>;
-        pos uA9FD u102D_uAA7C <202 0 202 0>;
-        pos uA9FD u102E_uAA7C <208 0 208 0>;
-        pos uA9FD u103A_uAA7C <245 0 245 0>;
         pos uA9FD u102E_uAA70 <0 0 434 0>;
         pos uA9FD u1032_u102D <27 0 166 0>;
         pos uA9FD u1032_u102E <38 0 177 0>;
         pos uA9FD u1085_uAA70 <0 0 474 0>;
-        pos uA9FD u1086_uAA7C <145 0 145 0>;
-        pos uA9FD uA9E5_uAA7C <140 0 140 0>;
         pos u1003 u1004.kinzi.thai <0 0 152 0>;
         pos u1003 u1004.kinzi_u102D <0 0 65 0>;
         pos u1003 u1004.kinzi_u102E <0 0 65 0>;
@@ -2618,15 +2608,10 @@ lookup guard2 {
         pos u1004 u101B.kinzi_u102D <0 0 79 0>;
         pos u1004 u101B.kinzi_u102E <0 0 79 0>;
         pos u1004 u102D_uAA70 <0 0 468 0>;
-        pos u1004 u102D_uAA7C <204 0 204 0>;
-        pos u1004 u102E_uAA7C <210 0 210 0>;
-        pos u1004 u103A_uAA7C <247 0 247 0>;
         pos u1004 u102E_uAA70 <0 0 454 0>;
         pos u1004 u1032_u102D <29 0 188 0>;
         pos u1004 u1032_u102E <40 0 199 0>;
         pos u1004 u1085_uAA70 <0 0 494 0>;
-        pos u1004 u1086_uAA7C <147 0 147 0>;
-        pos u1004 uA9E5_uAA7C <142 0 142 0>;
         pos u1004.kham u102D_u1036 <0 0 85 0>;
         pos u1004.kham u102E_u1036 <0 0 85 0>;
         pos u1004.kham u1032_u1036 <0 0 85 0>;
@@ -3047,15 +3032,10 @@ lookup guard2 {
         pos u1075 u102E_u1036 <0 0 64 0>;
         pos u1075 u1032_u1036 <0 0 64 0>;
         pos u1075 u102D_uAA70 <0 0 447 0>;
-        pos u1075 u102D_uAA7C <210 0 210 0>;
-        pos u1075 u102E_uAA7C <216 0 216 0>;
-        pos u1075 u103A_uAA7C <253 0 253 0>;
         pos u1075 u102E_uAA70 <0 0 433 0>;
         pos u1075 u1032_u102D <35 0 173 0>;
         pos u1075 u1032_u102E <46 0 184 0>;
         pos u1075 u1085_uAA70 <0 0 473 0>;
-        pos u1075 u1086_uAA7C <153 0 153 0>;
-        pos u1075 uA9E5_uAA7C <148 0 148 0>;
         pos u1081 u102D_u1036 <0 0 77 0>;
         pos u1081 u102E_u1036 <0 0 77 0>;
         pos u1081 u1032_u1036 <0 0 77 0>;
@@ -3256,15 +3236,10 @@ lookup guard2 {
         pos u101D u101B.kinzi_u102D <0 0 65 0>;
         pos u101D u101B.kinzi_u102E <0 0 65 0>;
         pos u101D u102D_uAA70 <0 0 454 0>;
-        pos u101D u102D_uAA7C <205 0 205 0>;
-        pos u101D u102E_uAA7C <211 0 211 0>;
-        pos u101D u103A_uAA7C <248 0 248 0>;
         pos u101D u102E_uAA70 <0 0 440 0>;
         pos u101D u1032_u102D <30 0 175 0>;
         pos u101D u1032_u102E <41 0 186 0>;
         pos u101D u1085_uAA70 <0 0 480 0>;
-        pos u101D u1086_uAA7C <148 0 148 0>;
-        pos u101D uA9E5_uAA7C <143 0 143 0>;
         pos u101D.kham u102D_u1036 <0 0 71 0>;
         pos u101D.kham u102E_u1036 <0 0 71 0>;
         pos u101D.kham u1032_u1036 <0 0 71 0>;
@@ -3858,9 +3833,6 @@ lookup guard2 {
         pos uAA6A u1032_u102E <0 0 142 0>;
         pos uAA6A u1085_uAA70 <0 0 477 0>;
         pos uA9EF u102D_uAA70 <0 0 431 0>;
-        pos uA9EF u102D_uAA7C <89 0 89 0>;
-        pos uA9EF u102E_uAA7C <95 0 95 0>;
-        pos uA9EF u103A_uAA7C <132 0 132 0>;
         pos uA9EF u102E_uAA70 <0 0 417 0>;
         pos uA9EF u1032_u102D <0 0 122 0>;
         pos uA9EF u1032_u102E <0 0 122 0>;
@@ -4386,10 +4358,11 @@ lookup guard_dot_colon {
 
 } guard_dot_colon;
 
+@media_ha_like = [u103E u103E.slanth u103E.slantr];
 @guard_after = [@cFillLowAfter @c103C_all];
 lookup guard_dot_context {
-    ignore pos @cCons u103E' [@_U] u1037 [@guard_after @colon_like];
-    ignore pos @cCons u103E' u1037 [@guard_after @colon_like];
+    ignore pos @cCons @media_ha_like' [@_U] u1037 [@guard_after @colon_like];
+    ignore pos @cCons @media_ha_like' u1037 [@guard_after @colon_like];
     # The next line might be needed, but it is not used by any test data
     # pos u101B.alt [@_U] [u102F.med u1030.med]' lookup guard_dot u1037 @guard_after;
     # The next (and previous) line might only be needed for Sanskrit
