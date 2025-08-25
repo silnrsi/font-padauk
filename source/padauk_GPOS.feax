@@ -17,7 +17,7 @@ lookup kerntall {
     pos [@class103CNarr @class103CWide] @cCons @KL' lookup kernltall;
     pos [@class103CNarr @class103CWide] @cCons @cLowerMarkAttach @KL' lookup kernltall;
     pos [@class103CNarr @class103CWide] @cCons @cLowerMarkAttach @cLowerMarkAttach @KL' lookup kernltall;
-    pos @_U @KL' lookup kernltall;
+    # pos @_U @KL' lookup kernltall;
 } kerntall;
 
 def calc_guard(g) {

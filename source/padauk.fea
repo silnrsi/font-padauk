@@ -372,7 +372,7 @@ feature rlig {
  script mym2;
       lookup mym2_swap_thing1_thing2;
       lookup consmed_sml;
-      lookup mym2_pstf_tall_U;
+      lookup mym2_pstf_tall;
     language dflt;
     language KHT;
     language KSW;

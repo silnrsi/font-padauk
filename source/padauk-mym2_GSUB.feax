@@ -304,7 +304,7 @@ lookup mym2_pstf_1009 {
     sub u1009' [@c_med]          by u1025;
 } mym2_pstf_1009;
 
-lookup mym2_pstf_tall_U {
+lookup mym2_pstf_tall {
 #    sub [@c_med] [@_U] [u102F.med u1030.med]' by [u102F u1030];
 #    sub [@c_med]          [u102F.med u1030.med]' by [u102F u1030];
 #    sub [u102F.med u1030.med]' [@c_med]          by [u102F u1030];
@@ -313,7 +313,9 @@ lookup mym2_pstf_tall_U {
     sub u101A u103E u1030.med' by u1030;
     # This can't be an "ignore sub" in blws_med because lig formation happens later.
 #    sub u105D u1032_u102D           u102F.med'  by u102F; #MNW 3103
-} mym2_pstf_tall_U;
+    sub u102B' u1036 by u102B.trim;
+    sub @_U u102B' by u102B.trim;
+} mym2_pstf_tall;
 
 
 # ****
@@ -545,6 +547,11 @@ lookup g102B_1036_Subst {
     sub u1036 by u102B;
 } g102B_1036_Subst;
 
+lookup g102Btrim_1036_Subst {
+    sub u102B.trim by u1036;
+    sub u1036 by u102B.trim;
+} g102Btrim_1036_Subst;
+
 # ----------------------- u1032 - u102F ------------------------------
 lookup g1032_102F_Subst {
     sub u1032 by u102F;
@@ -636,6 +643,7 @@ lookup mym2_swap_thing1_thing2 {
     sub u1032' lookup UDiac_102FmedSubst1    u102F.med'   lookup UDiac_102FmedSubst2; # Pa'o Karen
     sub u1036' lookup UDiac_102FmedSubst1    u102F.med'   lookup UDiac_102FmedSubst2; # Pa'o Karen
     sub u102B' lookup g102B_1036_Subst       u1036'       lookup g102B_1036_Subst; # Mon
+    sub u102B.trim' lookup g102Btrim_1036_Subst   u1036'  lookup g102Btrim_1036_Subst; # Mon
     sub u1032' lookup g1032_102F_Subst       u102F'       lookup g1032_102F_Subst;
     sub u1032' lookup g1032_1030med_Subst    u1030.med'   lookup g1032_1030med_Subst; # Kayah (kyu)
     sub u1062' lookup g1062_1086_Subst       u1086'       lookup g1062_1086_Subst; # Shan

@@ -141,7 +141,7 @@
   <property name="GDL_order" value="140">u1086 u1086.kham u1086_uAA7C</property>
   <property name="GDL_order" value="145">u1037</property>
   <property name="GDL_order" value="150">
-    u102B u102B_u103A u102C u1063 u1063_u103A u1067
+    u102B u102B.trim u102B_u103A u102C u1063 u1063_u103A u1067
     u1068 u1083 
   </property>
   <property name="GDL_order" value="165">u1038 u1038.dot</property>

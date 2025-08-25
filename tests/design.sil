@@ -29,4 +29,6 @@
 \pattern[heading=Wrap with GHA and two subjoined,chars="@,#",reps="group_consmed,group_consmed",format="table"]{ဃ္@္#ြ}
 \pattern[heading=Wrap with NGA and two subjoined,chars="@,#",reps="group_consmed,group_consmed",format="table"]{င္@္#ြ}
 
+\proof[size="18pt",heading=TALL AA]{ဂါဂါံင်္ဂါဂဲါ}
+
 \end{document}
