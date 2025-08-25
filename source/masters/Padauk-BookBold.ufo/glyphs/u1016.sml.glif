@@ -4,11 +4,11 @@
   <anchor x="-596" y="-53" name="LLM"/>
   <anchor x="106" y="-53" name="LM"/>
   <anchor x="-238" y="-383" name="SJ"/>
-  <anchor x="-243" y="-53" name="_BS"/>
+  <anchor x="-243" y="-100" name="_BS"/>
   <anchor x="-243" y="-53" name="_BSM"/>
   <anchor x="-238" y="-72" name="_SJ"/>
   <outline>
-    <component base="u1001.sml" xScale="0" xyScale="-1" yxScale="-1" yScale="0" xOffset="-466" yOffset="-621"/>
+    <component base="u1001.sml" xScale="0" xyScale="-1" yxScale="-1" yScale="0" xOffset="-466" yOffset="-466"/>
   </outline>
   <lib>
     <dict>

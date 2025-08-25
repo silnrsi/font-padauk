@@ -2,8 +2,8 @@
 <glyph name="u100D" format="2">
   <advance width="600"/>
   <unicode hex="100D"/>
-  <anchor x="-17" y="-173" name="BD"/>
-  <anchor x="126" y="-173" name="BS"/>
+  <anchor x="113" y="-213" name="BD"/>
+  <anchor x="126" y="-213" name="BS"/>
   <anchor x="642" y="-53" name="L"/>
   <anchor x="280" y="-53" name="LL"/>
   <anchor x="280" y="495" name="U"/>

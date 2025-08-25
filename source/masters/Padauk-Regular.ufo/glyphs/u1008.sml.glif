@@ -5,7 +5,7 @@
   <anchor x="-465" y="-114" name="LLM"/>
   <anchor x="-4" y="-114" name="LM"/>
   <anchor x="0" y="495" name="U"/>
-  <anchor x="-234" y="-114" name="_BS"/>
+  <anchor x="-234" y="-100" name="_BS"/>
   <anchor x="-234" y="-114" name="_BSM"/>
   <outline>
     <component base="u1005.sml" xOffset="71"/>

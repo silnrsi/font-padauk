@@ -4,7 +4,7 @@
   <anchor x="-464" y="-114" name="LLM"/>
   <anchor x="-3" y="-114" name="LM"/>
   <anchor x="-234" y="-383" name="SJ"/>
-  <anchor x="-233" y="-114" name="_BS"/>
+  <anchor x="-233" y="-100" name="_BS"/>
   <anchor x="-233" y="-114" name="_BSM"/>
   <anchor x="-234" y="-71" name="_SJ"/>
   <outline>

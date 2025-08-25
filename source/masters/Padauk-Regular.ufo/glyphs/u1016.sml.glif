@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1016.sml" format="2">
-  <anchor x="100" y="-116" name="BSM"/>
-  <anchor x="-472" y="-116" name="LLM"/>
-  <anchor x="-5" y="-116" name="LM"/>
-  <anchor x="-238" y="-382" name="SJ"/>
-  <anchor x="-239" y="-116" name="_BS"/>
-  <anchor x="-239" y="-116" name="_BSM"/>
-  <anchor x="-238" y="-73" name="_SJ"/>
+  <anchor x="565" y="-53" name="BSM"/>
+  <anchor x="-566" y="-53" name="LLM"/>
+  <anchor x="88" y="-53" name="LM"/>
+  <anchor x="-237" y="-385" name="SJ"/>
+  <anchor x="-239" y="-100" name="_BS"/>
+  <anchor x="-239" y="-53" name="_BSM"/>
+  <anchor x="-237" y="-73" name="_SJ"/>
   <outline>
-    <component base="u1001.sml" xScale="0" xyScale="-1" yxScale="-1" yScale="0" xOffset="-466" yOffset="-621"/>
+    <component base="u1001.sml" xScale="0" xyScale="-1" yxScale="-1" yScale="0" xOffset="-465" yOffset="-466"/>
   </outline>
   <lib>
     <dict>
