@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
+<ftml version="1.0">
+  <head>
+    <fontscale>300</fontscale>
+    <fontsrc label="R">url(../results/Padauk-Regular.ttf)</fontsrc>
+    <fontsrc label="bookB">url(../results/PadaukBook-Regular.ttf)</fontsrc>
+    <fontsrc label="B">url(../results/Padauk-Bold.ttf)</fontsrc>
+    <fontsrc label="bookB">url(../results/PadaukBook-Bold.ttf)</fontsrc>
+    <title>Outlines</title>
+  </head>
+  <testgroup label="Interpolation">
+    <test label="U+1039">
+      <comment>virama</comment>
+      <string>\u1039</string>
+    </test>
+    <test label="U+1700">
+      <comment>tagalog a</comment>
+      <string>\u1700</string>
+    </test>
+    <test label="U+AA70">
+      <comment>khamti reduplication</comment>
+      <string>\uaa70</string>
+    </test>
+  </testgroup>
+</ftml>
