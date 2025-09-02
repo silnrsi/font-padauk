@@ -46,14 +46,17 @@ if '--gr' in opts:
         params = '-w3521 -w3530 -q -d -D -v5 -e gdlerr-' + '${DS:FILENAME_BASE}' + '.txt', make_params="-m _R",
         depends = ['source/myfeatures.gdl'])}
 
+cmds = [
+    cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['${source}']),
+    cmd('gftools fix-nonhinting -q --no-backup ${DEP} ${TGT}'),
+    ]
+
 d = designspace('source/Padauk.designspace',
     #params = '-l ${DS:FILENAME_BASE}_createinstance.log',
     #target = process('${DS:FILENAME_BASE}.ttf',
     #    cmd('${TTFAUTOHINT} -n -W ${DEP} ${TGT}'),
     #),
-    target = process('${DS:FILENAME_BASE}.ttf',
-        cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['${source}'])
-    ),
+    target = process('${DS:FILENAME_BASE}.ttf', *cmds),
     instanceparams = "-W",
     instances = ['Padauk Book Regular'] if '-r' in opts else None,
     ap = '${DS:FILENAME_BASE}.xml',
