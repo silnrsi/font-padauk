@@ -155,7 +155,7 @@
 
   <class exts=".kham .aiph .alt .thai .slantr .slanth" name="cCons">
     u1000 u1001 u1002 u1003 u1004 u1005 u1006 u1007 u1008 u1009 u100A u100B u100C u100D u100E u100F
-    u1010 u1011 u1012 u1013 u1014 u1015 u1016 u1017 u1018 u1019 u101A u101B u101C u101D u101E u101F
+    u1010 u1011 u1012 u1013 u1014 u1014.alt u1015 u1016 u1017 u1018 u1019 u101A u101B u101C u101D u101E u101F
     u1020 u1021 u1022 u1023 u1024 u1025 u1026 u1027 u1028 u1029 u102A u103F 
           u1041 u1042 u1043 u1044 u1045 u1046 u1047 u1048 u1049 u104E
     u1050 u1051 u1052 u1053 u1054 u0155 u105A u105B u105C u105D
@@ -182,7 +182,7 @@
   </class>
   <class name="cConsNarStack">
     u1001 u1002 u1004 u1005 u1007 u100B.alt u100D u100E 
-    u1012 u1013 u1014.alt u1015 u1016 u1017 u1019 u101B u101D 
+    u1012 u1013 u1014.alt u1014.alt.thai u1015 u1016 u1017 u1019 u101B u101D
     u1050 u1051 u105A u105B u105C u105D
   </class>
   <class exts=".kham .aiph .alt .thai .slantr .slanth" name="cConsWide">
@@ -205,7 +205,7 @@
   </class>
   <class exts=".kham .aiph .alt" name="cConsSVowel">
     u1000 u1001 u1002 u1003 u1004 u1005 u1006 u1007 u100A.alt u100E u100F
-    u1010 u1011 u1012 u1013 u1014 u1014.alt u1015 u1016 u1017 u1018 u1019 u101A u101B u101B.alt u101C u101D u101E u101F
+    u1010 u1011 u1012 u1013 u1014 u1014.alt u1014.alt.thai u1015 u1016 u1017 u1018 u1019 u101A u101B u101B.alt u101C u101D u101E u101F
     u1021 u1022 u1027 u103F u1050 u1051 u105C 
     u1065 u106E 
     u1075 u1076 u1077 u1078 u1079 u107B u107C u107D u107F
@@ -216,13 +216,13 @@
   </class>
   <class name="cConsTakesKinzi">
     u1000 u1001 u1002 u1003 u1004 u1005 u1006 u1007 u100A.alt u100E u100F
-    u1010 u1011 u1012 u1013 u1014 u1014.alt u1015 u1016 u1017 u1018 u1019 u101A u101B u101B.alt u101C u101D u101E u101F
+    u1010 u1011 u1012 u1013 u1014 u1014.alt u1014.alt.thai u1015 u1016 u1017 u1018 u1019 u101A u101B u101B.alt u101C u101D u101E u101F
     u1021 u1022 u1027 u103F u1050 u1051 u105C 
   </class>
   <class name="cConsLaing">
     u1000 u1004 u1010 u1011 u1015 u1019 u101A u101C u101D u1022
     u106F u1075 u1078
-    uA9E7 uA9E8 uA9E9 uA9EA uA9EB uA9EC uA9ED uA9EE uA9EF
+    uA9E7 uA9E8 uA9E8.alt uA9E9 uA9EA uA9EB uA9EC uA9ED uA9EE uA9EF
     uA9FA uA9FB uA9FC uA9FD uA9FE
     uAA66 uAA67
   </class>
@@ -262,7 +262,7 @@
     u108D uAA7C
   </class>
   <class exts=".kham .aiph .thai" name="cMed">
-    u1000.med u1001.med u1002.med u1003.med u1004.med u1005.med u1006.med u1007.med
+    u1000.med u1001.med u1002.med u1003.med u1004.med u1005.med u1006.med u1007.med u1009.med u1009.med.alt
     u100A.med u100B.med u100C.med u100D.med u100E.med u100F.med u1010.med u1010_u103D.med
     u1011.med u1012.med u1013.med u1014.med u1015.med u1016.med u1017.med u1018.med
     u1019.med u101A.med u101B.med u101C.med u101C.med_u103D u101D.med u101E.med u101F.med u1020.med u1021.med u102F.med
@@ -272,12 +272,12 @@
     u103F.med
   </class>
   <class name="cLowerMarkAttachNoUlike">
-    u1000.med u1001.med u1002.med u1003.med u1004.med u1005.med u1006.med u1007.med
+    u1000.med u1001.med u1002.med u1003.med u1004.med u1005.med u1006.med u1007.med u1009.med u1009.med.alt
     u100A.med u100B.med u100C.med u100D.med u100E.med u100F.med u1010.med u1010_u103D.med
     u1011.med u1012.med u1013.med u1014.med u1015.med u1016.med u1017.med u1018.med
-    u1019.med u101A.med u101B.med u101C.med u101C.med_u103D u101E.med u1021.med
+    u1019.med u101A.med u101B.med u101C.med u101C.med_u103D u101D.med u101E.med u101F.med u1020.med u1021.med
     u1039 u103D u103D_u103E u103D_u108D u103E
-    u103E.alt u1050.med u1051.med u1058 u1059 u105A.med
+    u103E.alt u103F.med u1050.med u1051.med u1058 u1059 u105A.med
     u105C.med u105E u105F u1060 u1082 u1082_u108D u108D uAA60.med
     uAA60.med.kham u1010_u103D.med.tri u103D.tri u103D_u103E.tri u103E.slantr u103E.slanth
     u1037
