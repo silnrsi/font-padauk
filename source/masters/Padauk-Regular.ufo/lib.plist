@@ -778,6 +778,7 @@
     <string>notequal</string>
     <string>lessequal</string>
     <string>greaterequal</string>
+    <string>blank</string>
     <string>lozenge</string>
     <string>circledash</string>
     <string>uA92E</string>
@@ -919,6 +920,8 @@
   </array>
   <key>public.postscriptNames</key>
   <dict>
+    <key>blank</key>
+    <string>uni2423</string>
     <key>circledash</key>
     <string>uni25CC</string>
     <key>colontriangularmod</key>

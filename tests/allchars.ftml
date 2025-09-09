@@ -168,6 +168,10 @@
       <comment>lessequal</comment>
       <string>\u002264 \u002265</string>
     </test>
+    <test background="#f0fff0" label="U+2423">
+      <comment>blank</comment>
+      <string>\u002423</string>
+    </test>
     <test label="U+25CA">
       <comment>lozenge</comment>
       <string>\u0025CA</string>
