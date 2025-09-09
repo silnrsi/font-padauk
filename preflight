@@ -14,7 +14,7 @@ psfsetpsnames -q -p checkfix=none -p backup=False -i source/glyph_data.csv sourc
 psfsetglyphorder -q -p checkfix=none -p backup=False  --header sort_final -i source/glyph_data.csv source/masters/Padauk-Regular.ufo
 
 echo "-----Syncing glyph orders, psnames, and other metadata to other UFOs..."
-psfsyncmasters source/*.designspace
+psfsyncmasters source/Padauk.designspace
 
 echo "-----Updating woff metadata file..."
 psfmakewoffmetadata -n padauk -i org.sil.fonts -o source/padauk-WOFF-metadata.xml source/masters/Padauk-Regular.ufo

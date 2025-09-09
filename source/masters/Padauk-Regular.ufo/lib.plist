@@ -490,6 +490,7 @@
     <string>u1029</string>
     <string>u102A</string>
     <string>u102B</string>
+    <string>u102B.trim</string>
     <string>u102B_u103A</string>
     <string>u102C</string>
     <string>u102D</string>
@@ -1378,6 +1379,8 @@
     <string>uni102A</string>
     <key>u102B</key>
     <string>uni102B</string>
+    <key>u102B.trim</key>
+    <string>uni102B.trim</string>
     <key>u102B_u103A</key>
     <string>uni102B103A</string>
     <key>u102C</key>
