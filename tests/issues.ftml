@@ -559,4 +559,10 @@
       <string>\u1000\u1039\u1020</string>
     </test>
   </testgroup>
+  <testgroup label="possible ligature">
+    <test label="U+1063 U+103A">
+      <comment>in the already drawn glyph the two characters touch</comment>
+      <string>\u1063\u103a</string>
+    </test>
+  </testgroup>
 </ftml>

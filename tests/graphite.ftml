@@ -14,6 +14,7 @@
       <style lang="ksw" name="ksw"/>
       <style lang="kyu" name="kyu"/>
       <style feats="'cv07' 2" name="cv07_2"/>
+      <style feats="'vtta' 1" name="vtta_1"/>
     </styles>
     <title>Graphite</title>
   </head>
@@ -341,6 +342,28 @@
     <test label="2191.1">
       <comment>Dotted circles from shaping engines</comment>
       <string>\u109F\u108A</string>
+    </test>
+  </testgroup>
+  <testgroup label="excluded from build">
+    <test label="a stacked medial">
+      <comment>g101c_med_103d in GR</comment>
+      <string>\u1001\u1039\u101c\u103d</string>
+    </test>
+    <test label="U+101B - U+101B U+103E">
+      <comment>ra</comment>
+      <string>\u101b \u101b\u103e</string>
+    </test>
+    <test label="U+1020 - U+1020 U+103E">
+      <comment>lla</comment>
+      <string>\u1020 \u1020\u103e</string>
+    </test>
+    <test label="U+100B">
+      <comment>tta</comment>
+      <string>\u100b</string>
+    </test>
+    <test label="U+100B vtta=1" stylename="vtta_1">
+      <comment>tta.alt</comment>
+      <string>\u100b</string>
     </test>
   </testgroup>
 </ftml>

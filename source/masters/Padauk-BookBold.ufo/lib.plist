@@ -2126,6 +2126,28 @@
     <key>zero-pwo</key>
     <string>u116DA</string>
   </dict>
+  <key>public.skipExportGlyphs</key>
+  <array>
+    <string>u1004.med.kham</string>
+    <string>u1008.sml.low</string>
+    <string>u1009.med.alt</string>
+    <string>u100B.alt</string>
+    <string>u1015.med.kham</string>
+    <string>u1019.med.kham</string>
+    <string>u101C.med_u103D</string>
+    <string>u1020.long</string>
+    <string>u1063_u103A</string>
+    <string>u1075.med.aiph</string>
+    <string>u107A.alt.aiph</string>
+    <string>u107A.med.aiph</string>
+    <string>u1081.straight</string>
+    <string>uAA60.med.kham</string>
+    <string>uAA61.med.aiph</string>
+    <string>uAA61.med.kham</string>
+    <string>uAA6B.med.aiph</string>
+    <string>uAA6B.med.kham</string>
+    <string>uAA6C.med.kham</string>
+  </array>
   <key>public.unicodeVariationSequences</key>
   <dict>
     <key>FE00</key>

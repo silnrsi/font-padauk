@@ -1,27 +1,27 @@
 
 # Main Classes
-@GDEF_bases = [.notdef .null A AE Aacute Acircumflex Adieresis Agrave Aring Atilde B C Ccedilla D Delta E Eacute Ecircumflex Edieresis Egrave Eth Euro F G H I Iacute Icircumflex Idieresis Igrave J K L M N Ntilde O OE Oacute Ocircumflex Odieresis Ograve Omega Oslash Otilde P Q R S Scaron T Thorn U Uacute Ucircumflex Udieresis Ugrave V W X Y Yacute Ydieresis Z Zcaron a aacute acircumflex acute adieresis ae agrave ampersand approxequal aring asciitilde asterisk at atilde b backslash bar blank braceleft braceright bracketleft bracketright breve brokenbar bullet c caron ccedilla cedilla cent circledash circumflex colon colontriangularmod comma copyright currency d dagger daggerdbl degree dieresis divide dollar dotaccent dotlessi e eacute ecircumflex edieresis egrave eight eight-pao eight-pwo ellipsis emdash endash equal eth exclam exclamdown f fi figuredash five five-pao five-pwo fl florin four four-pao four-pwo foursuperior fraction g germandbls grave greater greaterequal guillemotleft guillemotright guilsinglleft guilsinglright h hungarumlaut hyphen i iacute icircumflex idieresis igrave infinity integral j k l less lessequal logicalnot lozenge m macron minus mu multiply n nine nine-pao nine-pwo nonmarkingreturn notequal ntilde numbersign o oacute ocircumflex odieresis oe ogonek ograve one one-pao one-pwo onehalf onequarter onesuperior ordfeminine ordmasculine oslash otilde p paragraph parenleft parenright partialdiff percent period periodcentered perthousand pi plus plusminus product q question questiondown quotedbl quotedblbase quotedblleft quotedblright quoteleft quoteright quotesinglbase quotesingle r radical registered ring s scaron section semicolon seven seven-pao seven-pwo six six-pao six-pwo slash softhyphen space sterling summation t thorn three three-pao three-pwo threequarters threesuperior tilde trademark two two-pao two-pwo twosuperior u u034F u1000 u1000.aiph u1000.kham u1000_u1001_u103B u1000_u103B_u1015_u103A u1001 u1002 u1002.kham u1003 u1003.thai u1004 u1004.kham u1005 u1006 u1007 u1008 u1008.med u1009 u1009.open u1009_u102C u100A u100A.alt u100A_u100A u100B u100B.alt u100B.thai u100B_u100B u100B_u100C u100C u100C.thai u100D u100D.thai u100D_u100D u100D_u100E u100E u100E.thai u100F u100F_u100B u100F_u100D u1010 u1010.aiph u1010.kham u1011 u1011.kham u1012 u1012.thai u1013 u1014 u1014.alt u1014.alt.thai u1014.thai u1014_u1010_u103B u1014_u1010_u103C u1015 u1015.kham u1016 u1017 u1018 u1019 u1019.kham u101A u101A.aiph u101A.kham u101B u101B.alt u101B.kham u101B.long u101B_u103B u101C u101C.aiph u101C.kham u101D u101D.kham u101E u101E.thai u101E_u1010_u103C u101F u1020 u1020.long u1020.thai u1020_u1020 u1020_u103E u1021 u1021.thai u1022 u1022.aiph u1022.kham u1023 u1023.thai u1024 u1025 u1026 u1027 u1028 u1029 u102A u102B u102B.trim u102B_u103A u102C u102F u1030 u1031 u1031.kham u1038 u1038.dot u103B u103B_u103D u103B_u103D.tri u103B_u103D_u103E u103B_u103D_u103E.tri u103B_u103E u103C u103C.aiph u103C.alt.narr u103C.alt.open.narr u103C.alt.open.wide u103C.alt.wide u103C.open.narr u103C.open.wide u103C.wide u103C.wide.aiph u103C_u102F.alt.narr u103C_u102F.alt.wide u103C_u102F.narr u103C_u102F.wide u103C_u103D.alt.narr u103C_u103D.alt.narr.tri u103C_u103D.alt.wide u103C_u103D.alt.wide.tri u103C_u103D.narr u103C_u103D.narr.tri u103C_u103D.wide u103C_u103D.wide.tri u103F u103F.thai u1040 u1041 u1042 u1043 u1044 u1045 u1046 u1047 u1048 u1049 u1049.thai u104A u104A.thai u104B u104B.thai u104C u104D u104E u104F u1050 u1051 u1051_u100C u1051_u100D u1052 u1053 u1054 u1055 u1056 u1057 u105A u105B u105B.med u105C u105D u1061 u1061.slanth u1061.slantr u1062 u1062_u103A u1063 u1063_u103A u1064 u1065 u1066 u1066.slanth u1066.slantr u1067 u1068 u1069 u106A u106B u106C u106D u106D.csh u106E u106F u1070 u1075 u1075.aiph u1075.kham u1076 u1077 u1078 u1078.aiph u1078.kham u1079 u107A u107A.aiph u107A.alt.aiph u107B u107C u107D u107E u107F u1080 u1080.kham u1081 u1081.straight u1083 u1084 u1087 u1087.dot u1088 u1088.dot u1089 u1089.dot u108A u108A.dot u108B u108C u108E u108F u1090 u1091 u1092 u1093 u1094 u1095 u1096 u1097 u1098 u1099 u109A u109A.dot u109B u109B.dot u109C u109E u109F u1700 u2000 u2001 u2002 u2003 u2004 u2005 u2006 u2007 u2008 u2009 u200A u200B u200C u200D u200E u200F u2010 u2011 u2015 u2027 u2028 u2029 u202A u202B u202C u202D u202E u202F u2060 u2215 u2219 uA92E uA9E0 uA9E1 uA9E2 uA9E3 uA9E4 uA9E4.alt uA9E6 uA9E7 uA9E8 uA9E8.alt uA9E9 uA9EA uA9EB uA9EC uA9ED uA9EE uA9EF uA9F0 uA9F1 uA9F2 uA9F3 uA9F4 uA9F5 uA9F6 uA9F7 uA9F8 uA9F9 uA9FA uA9FB uA9FC uA9FD uA9FE uAA60 uAA60.kham uAA61 uAA61.aiph uAA61.kham uAA62 uAA62.kham uAA63 uAA63.kham uAA64 uAA64.kham uAA65 uAA65.kham uAA66 uAA66.kham uAA67 uAA68 uAA69 uAA6A uAA6B uAA6B.aiph uAA6B.kham uAA6C uAA6C.alt uAA6C.kham uAA6D uAA6D.aiph uAA6E uAA6F uAA6F.kham uAA71 uAA72 uAA73 uAA73.kham uAA74 uAA75 uAA75.kham uAA76 uAA76.kham uAA77 uAA77.aiph uAA78 uAA79 uAA79.aiph uAA7A uAA7A.aiph uAA7B uAA7B.dot uAA7D uAA7E uAA7F uFE00 uFE01 uFE02 uFE03 uFE04 uFE05 uFE06 uFE07 uFE08 uFE09 uFE0A uFE0B uFE0C uFE0D uFE0E uFE0F uFEFF uFFFC uFFFD uacute ucircumflex udieresis ugrave underscore uni00A0 v w x y yacute ydieresis yen z zcaron zero zero-pao zero-pwo];
-@GDEF_marks = [asciicircum u1000.med u1000.med.aiph u1000.sml u1001.med u1001.sml u1002.med u1002.sml u1003.med u1003.med.thai u1003.sml u1004.kinzi u1004.kinzi.thai u1004.kinzi_u102D u1004.kinzi_u102D_u1036 u1004.kinzi_u102E u1004.kinzi_u1032 u1004.kinzi_u1033 u1004.kinzi_u1036 u1004.kinzi_u103A u1004.med u1004.med.kham u1004.sml u1005.med u1005.sml u1006.med u1006.sml u1007.med u1007.sml u1008.sml u1008.sml.low u1009.med u1009.med.alt u1009.sml u100A.med u100A.sml u100B.med u100B.med.thai u100B.sml u100C.med u100C.med.thai u100C.sml u100D.med u100D.med.thai u100D.sml u100E.med u100E.med.thai u100E.sml u100F.med u100F.sml u1010.med u1010.med.aiph u1010.sml u1010_u103D.med u1010_u103D.med.tri u1011.med u1011.med.aiph u1011.sml u1012.med u1012.med.thai u1012.sml u1013.med u1013.sml u1014.med u1014.med.thai u1014.sml u1015.med u1015.med.kham u1015.sml u1016.med u1016.sml u1017.med u1017.sml u1018.med u1018.sml u1019.med u1019.med.kham u1019.sml u101A.med u101A.med.aiph u101A.sml u101B.kinzi u101B.kinzi_u102D u101B.kinzi_u102E u101B.kinzi_u103A u101B.med u101B.sml u101C.med u101C.med.aiph u101C.med_u103D u101C.sml u101D.med u101D.sml u101E.med u101E.med.thai u101E.sml u101F.med u101F.small u101F.sml u1020.med u1020.med.thai u1020.sml u1021.med u1021.sml u102D u102D_u1036 u102D_uAA70 u102D_uAA7C u102E u102E_u1036 u102E_uAA70 u102E_uAA7C u102F.med u102F_u108D u1030.med u1030_u108D u1032 u1032_u102D u1032_u102E u1032_u1036 u1033 u1034 u1035 u1036 u1036.dot u1037 u1039 u103A u103A_u1036 u103A_uAA70 u103A_uAA7C u103D u103D.sml u103D.tri u103D_u103E u103D_u103E.small u103D_u103E.small.tri u103D_u103E.tri u103D_u1060 u103D_u108D u103E u103E.alt u103E.slanth u103E.slantr u103E_u102F u103E_u102F.slanth u103E_u102F.slantr u103E_u1030 u103E_u1030.slanth u103E_u1030.slantr u103E_u1060 u103F.med u103F.sml u1050.med u1050.sml u1051.med u1051.sml u1058 u1059 u105A.med u105C.med u105E u105F u1060 u1071 u1072 u1073 u1074 u1075.med.aiph u107A.med.aiph u1082 u1082_u108D u1085 u1085_uAA70 u1086 u1086.kham u1086_uAA70 u1086_uAA7C u108D u109D uA9E5 uA9E5_uAA7C uAA60.med uAA60.med.kham uAA61.med.aiph uAA61.med.kham uAA6B.med.aiph uAA6B.med.kham uAA6C.med.kham uAA70 uAA7C];
+@GDEF_bases = [.notdef .null A AE Aacute Acircumflex Adieresis Agrave Aring Atilde B C Ccedilla D Delta E Eacute Ecircumflex Edieresis Egrave Eth Euro F G H I Iacute Icircumflex Idieresis Igrave J K L M N Ntilde O OE Oacute Ocircumflex Odieresis Ograve Omega Oslash Otilde P Q R S Scaron T Thorn U Uacute Ucircumflex Udieresis Ugrave V W X Y Yacute Ydieresis Z Zcaron a aacute acircumflex acute adieresis ae agrave ampersand approxequal aring asciitilde asterisk at atilde b backslash bar blank braceleft braceright bracketleft bracketright breve brokenbar bullet c caron ccedilla cedilla cent circledash circumflex colon colontriangularmod comma copyright currency d dagger daggerdbl degree dieresis divide dollar dotaccent dotlessi e eacute ecircumflex edieresis egrave eight eight-pao eight-pwo ellipsis emdash endash equal eth exclam exclamdown f fi figuredash five five-pao five-pwo fl florin four four-pao four-pwo foursuperior fraction g germandbls grave greater greaterequal guillemotleft guillemotright guilsinglleft guilsinglright h hungarumlaut hyphen i iacute icircumflex idieresis igrave infinity integral j k l less lessequal logicalnot lozenge m macron minus mu multiply n nine nine-pao nine-pwo nonmarkingreturn notequal ntilde numbersign o oacute ocircumflex odieresis oe ogonek ograve one one-pao one-pwo onehalf onequarter onesuperior ordfeminine ordmasculine oslash otilde p paragraph parenleft parenright partialdiff percent period periodcentered perthousand pi plus plusminus product q question questiondown quotedbl quotedblbase quotedblleft quotedblright quoteleft quoteright quotesinglbase quotesingle r radical registered ring s scaron section semicolon seven seven-pao seven-pwo six six-pao six-pwo slash softhyphen space sterling summation t thorn three three-pao three-pwo threequarters threesuperior tilde trademark two two-pao two-pwo twosuperior u u034F u1000 u1000.aiph u1000.kham u1000_u1001_u103B u1000_u103B_u1015_u103A u1001 u1002 u1002.kham u1003 u1003.thai u1004 u1004.kham u1005 u1006 u1007 u1008 u1008.med u1009 u1009.open u1009_u102C u100A u100A.alt u100A_u100A u100B u100B.thai u100B_u100B u100B_u100C u100C u100C.thai u100D u100D.thai u100D_u100D u100D_u100E u100E u100E.thai u100F u100F_u100B u100F_u100D u1010 u1010.aiph u1010.kham u1011 u1011.kham u1012 u1012.thai u1013 u1014 u1014.alt u1014.alt.thai u1014.thai u1014_u1010_u103B u1014_u1010_u103C u1015 u1015.kham u1016 u1017 u1018 u1019 u1019.kham u101A u101A.aiph u101A.kham u101B u101B.alt u101B.kham u101B.long u101B_u103B u101C u101C.aiph u101C.kham u101D u101D.kham u101E u101E.thai u101E_u1010_u103C u101F u1020 u1020.thai u1020_u1020 u1020_u103E u1021 u1021.thai u1022 u1022.aiph u1022.kham u1023 u1023.thai u1024 u1025 u1026 u1027 u1028 u1029 u102A u102B u102B.trim u102B_u103A u102C u102F u1030 u1031 u1031.kham u1038 u1038.dot u103B u103B_u103D u103B_u103D.tri u103B_u103D_u103E u103B_u103D_u103E.tri u103B_u103E u103C u103C.aiph u103C.alt.narr u103C.alt.open.narr u103C.alt.open.wide u103C.alt.wide u103C.open.narr u103C.open.wide u103C.wide u103C.wide.aiph u103C_u102F.alt.narr u103C_u102F.alt.wide u103C_u102F.narr u103C_u102F.wide u103C_u103D.alt.narr u103C_u103D.alt.narr.tri u103C_u103D.alt.wide u103C_u103D.alt.wide.tri u103C_u103D.narr u103C_u103D.narr.tri u103C_u103D.wide u103C_u103D.wide.tri u103F u103F.thai u1040 u1041 u1042 u1043 u1044 u1045 u1046 u1047 u1048 u1049 u1049.thai u104A u104A.thai u104B u104B.thai u104C u104D u104E u104F u1050 u1051 u1051_u100C u1051_u100D u1052 u1053 u1054 u1055 u1056 u1057 u105A u105B u105B.med u105C u105D u1061 u1061.slanth u1061.slantr u1062 u1062_u103A u1063 u1064 u1065 u1066 u1066.slanth u1066.slantr u1067 u1068 u1069 u106A u106B u106C u106D u106D.csh u106E u106F u1070 u1075 u1075.aiph u1075.kham u1076 u1077 u1078 u1078.aiph u1078.kham u1079 u107A u107A.aiph u107B u107C u107D u107E u107F u1080 u1080.kham u1081 u1083 u1084 u1087 u1087.dot u1088 u1088.dot u1089 u1089.dot u108A u108A.dot u108B u108C u108E u108F u1090 u1091 u1092 u1093 u1094 u1095 u1096 u1097 u1098 u1099 u109A u109A.dot u109B u109B.dot u109C u109E u109F u1700 u2000 u2001 u2002 u2003 u2004 u2005 u2006 u2007 u2008 u2009 u200A u200B u200C u200D u200E u200F u2010 u2011 u2015 u2027 u2028 u2029 u202A u202B u202C u202D u202E u202F u2060 u2215 u2219 uA92E uA9E0 uA9E1 uA9E2 uA9E3 uA9E4 uA9E4.alt uA9E6 uA9E7 uA9E8 uA9E8.alt uA9E9 uA9EA uA9EB uA9EC uA9ED uA9EE uA9EF uA9F0 uA9F1 uA9F2 uA9F3 uA9F4 uA9F5 uA9F6 uA9F7 uA9F8 uA9F9 uA9FA uA9FB uA9FC uA9FD uA9FE uAA60 uAA60.kham uAA61 uAA61.aiph uAA61.kham uAA62 uAA62.kham uAA63 uAA63.kham uAA64 uAA64.kham uAA65 uAA65.kham uAA66 uAA66.kham uAA67 uAA68 uAA69 uAA6A uAA6B uAA6B.aiph uAA6B.kham uAA6C uAA6C.alt uAA6C.kham uAA6D uAA6D.aiph uAA6E uAA6F uAA6F.kham uAA71 uAA72 uAA73 uAA73.kham uAA74 uAA75 uAA75.kham uAA76 uAA76.kham uAA77 uAA77.aiph uAA78 uAA79 uAA79.aiph uAA7A uAA7A.aiph uAA7B uAA7B.dot uAA7D uAA7E uAA7F uFE00 uFE01 uFE02 uFE03 uFE04 uFE05 uFE06 uFE07 uFE08 uFE09 uFE0A uFE0B uFE0C uFE0D uFE0E uFE0F uFEFF uFFFC uFFFD uacute ucircumflex udieresis ugrave underscore uni00A0 v w x y yacute ydieresis yen z zcaron zero zero-pao zero-pwo];
+@GDEF_marks = [asciicircum u1000.med u1000.med.aiph u1000.sml u1001.med u1001.sml u1002.med u1002.sml u1003.med u1003.med.thai u1003.sml u1004.kinzi u1004.kinzi.thai u1004.kinzi_u102D u1004.kinzi_u102D_u1036 u1004.kinzi_u102E u1004.kinzi_u1032 u1004.kinzi_u1033 u1004.kinzi_u1036 u1004.kinzi_u103A u1004.med u1004.sml u1005.med u1005.sml u1006.med u1006.sml u1007.med u1007.sml u1008.sml u1009.med u1009.sml u100A.med u100A.sml u100B.med u100B.med.thai u100B.sml u100C.med u100C.med.thai u100C.sml u100D.med u100D.med.thai u100D.sml u100E.med u100E.med.thai u100E.sml u100F.med u100F.sml u1010.med u1010.med.aiph u1010.sml u1010_u103D.med u1010_u103D.med.tri u1011.med u1011.med.aiph u1011.sml u1012.med u1012.med.thai u1012.sml u1013.med u1013.sml u1014.med u1014.med.thai u1014.sml u1015.med u1015.sml u1016.med u1016.sml u1017.med u1017.sml u1018.med u1018.sml u1019.med u1019.sml u101A.med u101A.med.aiph u101A.sml u101B.kinzi u101B.kinzi_u102D u101B.kinzi_u102E u101B.kinzi_u103A u101B.med u101B.sml u101C.med u101C.med.aiph u101C.sml u101D.med u101D.sml u101E.med u101E.med.thai u101E.sml u101F.med u101F.small u101F.sml u1020.med u1020.med.thai u1020.sml u1021.med u1021.sml u102D u102D_u1036 u102D_uAA70 u102D_uAA7C u102E u102E_u1036 u102E_uAA70 u102E_uAA7C u102F.med u102F_u108D u1030.med u1030_u108D u1032 u1032_u102D u1032_u102E u1032_u1036 u1033 u1034 u1035 u1036 u1036.dot u1037 u1039 u103A u103A_u1036 u103A_uAA70 u103A_uAA7C u103D u103D.sml u103D.tri u103D_u103E u103D_u103E.small u103D_u103E.small.tri u103D_u103E.tri u103D_u1060 u103D_u108D u103E u103E.alt u103E.slanth u103E.slantr u103E_u102F u103E_u102F.slanth u103E_u102F.slantr u103E_u1030 u103E_u1030.slanth u103E_u1030.slantr u103E_u1060 u103F.med u103F.sml u1050.med u1050.sml u1051.med u1051.sml u1058 u1059 u105A.med u105C.med u105E u105F u1060 u1071 u1072 u1073 u1074 u1082 u1082_u108D u1085 u1085_uAA70 u1086 u1086.kham u1086_uAA70 u1086_uAA7C u108D u109D uA9E5 uA9E5_uAA7C uAA60.med uAA70 uAA7C];
 @c103C_all = [u103C u103C.wide u103C.alt.narr u103C.alt.wide u103C_u103D.narr u103C_u103D.wide u103C_u103D.alt.narr u103C_u103D.alt.wide u103C_u102F.narr u103C_u102F.wide u103C_u102F.alt.narr u103C_u102F.alt.wide u103C_u103D.alt.narr.tri u103C_u103D.alt.wide.tri u103C_u103D.narr.tri u103C_u103D.wide.tri];
 @c103b = [u103B_u103D.tri u103B_u103D_u103E.tri u103B u103B_u103D u103B_u103E u103B_u103D_u103E];
 @c103d = [u103D_u103E.small u103D.tri u103B_u103D.tri u103D_u103E.tri u103D u103B_u103D u103D_u103E];
 @c103e = [u103E.slantr u103E_u102F.slantr u103E_u1030.slantr u103E.slanth u103E_u102F.slanth u103E_u1030.slanth u103D_u103E.tri u103E u103E_u102F u103E_u1030 u103D_u103E u103B_u103E];
 @c103eStart = [u103E.slantr u103E_u102F.slantr u103E_u1030.slantr u103E.slanth u103E_u102F.slanth u103E_u1030.slanth u103E u103E_u102F u103E_u1030];
 @cAiph = [u1000.med.aiph u1010.med.aiph u1011.med.aiph u101A.med.aiph u101C.med.aiph u103C.aiph u103C.wide.aiph u107A.aiph uAA6D.aiph uAA77.aiph uAA79.aiph uAA7A.aiph];
-@cCons = [u1000.kham u1002.kham u1004.kham u1010.kham u1011.kham u1015.kham u1019.kham u101A.kham u101B.kham u101C.kham u101D.kham u1022.kham u1075.kham u1078.kham u1080.kham uAA60.kham uAA61.kham uAA62.kham uAA63.kham uAA64.kham uAA65.kham uAA66.kham uAA6B.kham uAA6C.kham uAA6F.kham uAA73.kham uAA75.kham uAA76.kham u1000.aiph u1010.aiph u101A.aiph u101C.aiph u1022.aiph u1075.aiph u1078.aiph u107A.aiph uAA61.aiph uAA6B.aiph uAA6D.aiph uAA7A.aiph u100A.alt u100B.alt u1014.alt u101B.alt uA9E4.alt uA9E8.alt uAA6C.alt u1003.thai u100B.thai u100C.thai u100D.thai u100E.thai u1012.thai u1014.thai u1014.alt.thai u101E.thai u1020.thai u1021.thai u1023.thai u103F.thai u1049.thai u1061.slantr u1066.slantr u1061.slanth u1066.slanth u1000 u1001 u1002 u1003 u1004 u1005 u1006 u1007 u1008 u1009 u100A u100B u100C u100D u100E u100F u1010 u1011 u1012 u1013 u1014 u1014.alt u1015 u1016 u1017 u1018 u1019 u101A u101B u101C u101D u101E u101F u1020 u1021 u1022 u1023 u1024 u1025 u1026 u1027 u1028 u1029 u102A u103F u1041 u1042 u1043 u1044 u1045 u1046 u1047 u1048 u1049 u104E u1050 u1051 u1052 u1053 u1054 u105A u105B u105C u105D u1061 u1065 u1066 u106E u106F u1070 u1075 u1076 u1077 u1078 u1079 u107A u107B u107C u107D u107E u107F u1080 u1081 u108E uA9E0 uA9E1 uA9E2 uA9E3 uA9E4 uA9E7 uA9E8 uA9E9 uA9EA uA9EB uA9EC uA9ED uA9EE uA9EF uA9FA uA9FB uA9FC uA9FD uA9FE uAA60 uAA61 uAA62 uAA63 uAA64 uAA65 uAA66 uAA67 uAA68 uAA69 uAA6A uAA6B uAA6C uAA6D uAA6E uAA6F uAA71 uAA72 uAA73 uAA74 uAA75 uAA76 uAA7A uAA7E uAA7F circledash];
+@cCons = [u1000.kham u1002.kham u1004.kham u1010.kham u1011.kham u1015.kham u1019.kham u101A.kham u101B.kham u101C.kham u101D.kham u1022.kham u1075.kham u1078.kham u1080.kham uAA60.kham uAA61.kham uAA62.kham uAA63.kham uAA64.kham uAA65.kham uAA66.kham uAA6B.kham uAA6C.kham uAA6F.kham uAA73.kham uAA75.kham uAA76.kham u1000.aiph u1010.aiph u101A.aiph u101C.aiph u1022.aiph u1075.aiph u1078.aiph u107A.aiph uAA61.aiph uAA6B.aiph uAA6D.aiph uAA7A.aiph u100A.alt u1014.alt u101B.alt uA9E4.alt uA9E8.alt uAA6C.alt u1003.thai u100B.thai u100C.thai u100D.thai u100E.thai u1012.thai u1014.thai u1014.alt.thai u101E.thai u1020.thai u1021.thai u1023.thai u103F.thai u1049.thai u1061.slantr u1066.slantr u1061.slanth u1066.slanth u1000 u1001 u1002 u1003 u1004 u1005 u1006 u1007 u1008 u1009 u100A u100B u100C u100D u100E u100F u1010 u1011 u1012 u1013 u1014 u1014.alt u1015 u1016 u1017 u1018 u1019 u101A u101B u101C u101D u101E u101F u1020 u1021 u1022 u1023 u1024 u1025 u1026 u1027 u1028 u1029 u102A u103F u1041 u1042 u1043 u1044 u1045 u1046 u1047 u1048 u1049 u104E u1050 u1051 u1052 u1053 u1054 u105A u105B u105C u105D u1061 u1065 u1066 u106E u106F u1070 u1075 u1076 u1077 u1078 u1079 u107A u107B u107C u107D u107E u107F u1080 u1081 u108E uA9E0 uA9E1 uA9E2 uA9E3 uA9E4 uA9E7 uA9E8 uA9E9 uA9EA uA9EB uA9EC uA9ED uA9EE uA9EF uA9FA uA9FB uA9FC uA9FD uA9FE uAA60 uAA61 uAA62 uAA63 uAA64 uAA65 uAA66 uAA67 uAA68 uAA69 uAA6A uAA6B uAA6C uAA6D uAA6E uAA6F uAA71 uAA72 uAA73 uAA74 uAA75 uAA76 uAA7A uAA7E uAA7F circledash];
 @cConsAiph = [u1000.aiph u1010.aiph u101A.aiph u101C.aiph u1022.aiph u1075.aiph u1078.aiph uAA61.aiph uAA6B.aiph];
 @cConsLaing = [u1000 u1004 u1010 u1011 u1015 u1019 u101A u101C u101D u1022 u106F u1075 u1078 uA9E7 uA9E8 uA9E8.alt uA9E9 uA9EA uA9EB uA9EC uA9ED uA9EE uA9EF uA9FA uA9FB uA9FC uA9FD uA9FE uAA66 uAA67];
-@cConsNar = [u1002.kham u1004.kham u1015.kham u1019.kham u101B.kham u101D.kham uAA62.kham uAA6B.kham uAA6F.kham uAA73.kham uAA6B.aiph uAA6D.aiph u100B.alt u1014.alt u101B.alt u100B.thai u100C.thai u100D.thai u100E.thai u1012.thai u1014.thai u1014.alt.thai u1061.slantr u1066.slantr u1061.slanth u1066.slanth u1001 u1002 u1004 u1005 u1007 u100B u100C u100D u100E u1012 u1013 u1014 u1014.alt u1015 u1016 u1017 u1019 u101B u101D u1027 u1028 u104E u1050 u1051 u105A u105B u105C u105D u1061 u1065 u1066 u1076 u1077 u107F u108E circledash uA9E0 uA9EF uA9FD uAA62 uAA6B uAA6D uAA6F uAA73 uAA7E];
-@cConsNarStack = [u1001 u1002 u1004 u1005 u1007 u100B.alt u100D u100E u1012 u1013 u1014.alt u1014.alt.thai u1015 u1016 u1017 u1019 u101B u101D u1050 u1051 u105A u105B u105C u105D];
+@cConsNar = [u1002.kham u1004.kham u1015.kham u1019.kham u101B.kham u101D.kham uAA62.kham uAA6B.kham uAA6F.kham uAA73.kham uAA6B.aiph uAA6D.aiph u1014.alt u101B.alt u100B.thai u100C.thai u100D.thai u100E.thai u1012.thai u1014.thai u1014.alt.thai u1061.slantr u1066.slantr u1061.slanth u1066.slanth u1001 u1002 u1004 u1005 u1007 u100B u100C u100D u100E u1012 u1013 u1014 u1014.alt u1015 u1016 u1017 u1019 u101B u101D u1027 u1028 u104E u1050 u1051 u105A u105B u105C u105D u1061 u1065 u1066 u1076 u1077 u107F u108E circledash uA9E0 uA9EF uA9FD uAA62 uAA6B uAA6D uAA6F uAA73 uAA7E];
+@cConsNarStack = [u1001 u1002 u1004 u1005 u1007 u100D u100E u1012 u1013 u1014.alt u1014.alt.thai u1015 u1016 u1017 u1019 u101B u101D u1050 u1051 u105A u105B u105C u105D];
 @cConsPreAiph = [u1000.kham u1010.kham u101A.kham u101C.kham u1022.kham u1075.kham u1078.kham uAA61.kham uAA6B.kham];
 @cConsSVowel = [u1000.kham u1002.kham u1004.kham u1010.kham u1011.kham u1015.kham u1019.kham u101A.kham u101B.kham u101C.kham u101D.kham u1022.kham u1075.kham u1078.kham u1080.kham uAA60.kham uAA61.kham uAA62.kham uAA63.kham uAA64.kham uAA65.kham uAA66.kham uAA6B.kham uAA6C.kham uAA6F.kham uAA73.kham u1000.aiph u1010.aiph u101A.aiph u101C.aiph u1022.aiph u1075.aiph u1078.aiph uAA61.aiph uAA6B.aiph uAA6D.aiph u1014.alt u101B.alt uA9E4.alt uA9E8.alt uAA6C.alt u1000 u1001 u1002 u1003 u1004 u1005 u1006 u1007 u100A.alt u100E u100F u1010 u1011 u1012 u1013 u1014 u1014.alt u1014.alt.thai u1015 u1016 u1017 u1018 u1019 u101A u101B u101B.alt u101C u101D u101E u101F u1021 u1022 u1027 u103F u1050 u1051 u105C u1065 u106E u1075 u1076 u1077 u1078 u1079 u107B u107C u107D u107F u1080 u1081 u108E uA9E0 uA9E1 uA9E2 uA9E3 uA9E4 uA9E7 uA9E8 uA9E9 uAA60 uAA61 uAA62 uAA63 uAA64 uAA65 uAA66 uAA67 uAA68 uAA69 uAA6A uAA6B uAA6C uAA6D uAA6E uAA6F uAA71 uAA72 uAA73 circledash];
 @cConsTakesKinzi = [u1000 u1001 u1002 u1003 u1004 u1005 u1006 u1007 u100A.alt u100E u100F u1010 u1011 u1012 u1013 u1014 u1014.alt u1014.alt.thai u1015 u1016 u1017 u1018 u1019 u101A u101B u101B.alt u101C u101D u101E u101F u1021 u1022 u1027 u103F u1050 u1051 u105C];
 @cConsWide = [u1000.kham u1010.kham u1011.kham u101A.kham u101C.kham u1022.kham u1078.kham u1080.kham uAA60.kham uAA61.kham uAA63.kham uAA64.kham uAA65.kham uAA66.kham uAA6C.kham uAA75.kham uAA76.kham u1000.aiph u1010.aiph u101A.aiph u101C.aiph u1022.aiph u1078.aiph u107A.aiph uAA61.aiph uAA7A.aiph u100A.alt uA9E4.alt uA9E8.alt uAA6C.alt u1003.thai u101E.thai u1020.thai u1021.thai u103F.thai u1000 u1003 u1006 u1008 u1009 u100A u100F u1010 u1011 u1018 u101A u101C u101E u101F u1020 u1021 u1022 u1029 u103F u106E u106F u1070 u1078 u1079 u107A u107B u107C u107D u107E u1080 uA9E1 uA9E2 uA9E3 uA9E4 uA9E7 uA9E8 uA9E9 uA9EA uA9EB uA9EC uA9ED uA9EE uA9FA uA9FB uA9FC uA9FE uAA60 uAA61 uAA63 uAA64 uAA65 uAA66 uAA67 uAA68 uAA69 uAA6A uAA6C uAA6E uAA71 uAA72 uAA74 uAA75 uAA76 uAA7A uAA7F];
 @cFillLowAfter = [uAA76.kham u103C.aiph uAA77.aiph uAA79.aiph uAA7A.aiph u100A.alt u1009 u100A u100C u1020 u1023 u1024 u1025 u1026 u1028 u1029 u102F u1030 u103C u1042 u1043 u1044 u1045 u1047 u1049 u104C u104D u105A u105D u1061 u1063 u1066 u1083 u109E uA9F6 uAA74 uAA76 uAA77 uAA79 uAA7A uAA7E];
-@cFillLowBefore = [u101B.kham uAA75.kham uAA76.kham uAA77.aiph uAA79.aiph u100A.alt u100B.alt u101B.alt u1008 u1009 u100A u100B u100C u100D u101B u1020 u1023 u1024 u1025 u1026 u1028 u1029 u102F u1030 u103B u1042 u1043 u1044 u1045 u1047 u1049 u104C u104D u104E u105A u105B u105D u1061 u1066 u106F u1070 u1083 u109E u109F uA9F1 uA9F6 uA9F7 uAA74 uAA75 uAA76 uAA77 uAA79 uAA7E uAA7F];
-@cLowerMarkAttachNoUlike = [u1000.med u1001.med u1002.med u1003.med u1004.med u1005.med u1006.med u1007.med u1009.med u1009.med.alt u100A.med u100B.med u100C.med u100D.med u100E.med u100F.med u1010.med u1010_u103D.med u1011.med u1012.med u1013.med u1014.med u1015.med u1016.med u1017.med u1018.med u1019.med u101A.med u101B.med u101C.med u101C.med_u103D u101D.med u101E.med u101F.med u1020.med u1021.med u1039 u103D u103D_u103E u103D_u108D u103E u103E.alt u103F.med u1050.med u1051.med u1058 u1059 u105A.med u105C.med u105E u105F u1060 u1082 u1082_u108D u108D uAA60.med uAA60.med.kham u1010_u103D.med.tri u103D.tri u103D_u103E.tri u103E.slantr u103E.slanth u1037 u103C u103C.wide u103C_u103D.narr u103C_u103D.wide u103C_u102F.narr u103C_u102F.wide u103C.alt.wide u103C_u103D.alt.narr u103C_u103D.alt.wide u103C_u102F.alt.narr u103C_u102F.alt.wide];
-@cMed = [u1004.med.kham u1015.med.kham u1019.med.kham u1000.med.aiph u1010.med.aiph u1011.med.aiph u101A.med.aiph u101C.med.aiph u1003.med.thai u100B.med.thai u100C.med.thai u100D.med.thai u100E.med.thai u1012.med.thai u1014.med.thai u101E.med.thai u1020.med.thai u1000.med u1001.med u1002.med u1003.med u1004.med u1005.med u1006.med u1007.med u1009.med u1009.med.alt u100A.med u100B.med u100C.med u100D.med u100E.med u100F.med u1010.med u1010_u103D.med u1011.med u1012.med u1013.med u1014.med u1015.med u1016.med u1017.med u1018.med u1019.med u101A.med u101B.med u101C.med u101C.med_u103D u101D.med u101E.med u101F.med u1020.med u1021.med u102F.med u1030.med u1050.med u1051.med u105A.med uAA60.med.kham u1003.med.thai u100B.med.thai u100C.med.thai u100D.med.thai u100E.med.thai u1012.med.thai u1014.med.thai u101E.med.thai u1020.med.thai u103F.med];
-@cMedWide = [u1000.med u1003.med u1006.med u1009.med u1009.med.alt u100A.med u100C.med u100F.med u1010.med u1011.med u1018.med u101A.med u101C.med u101E.med u101F.med u103F.med u1020.med u1021.med u101C.med_u103D u103F.med];
+@cFillLowBefore = [u101B.kham uAA75.kham uAA76.kham uAA77.aiph uAA79.aiph u100A.alt u101B.alt u1008 u1009 u100A u100B u100C u100D u101B u1020 u1023 u1024 u1025 u1026 u1028 u1029 u102F u1030 u103B u1042 u1043 u1044 u1045 u1047 u1049 u104C u104D u104E u105A u105B u105D u1061 u1066 u106F u1070 u1083 u109E u109F uA9F1 uA9F6 uA9F7 uAA74 uAA75 uAA76 uAA77 uAA79 uAA7E uAA7F];
+@cLowerMarkAttachNoUlike = [u1000.med u1001.med u1002.med u1003.med u1004.med u1005.med u1006.med u1007.med u1009.med u100A.med u100B.med u100C.med u100D.med u100E.med u100F.med u1010.med u1010_u103D.med u1011.med u1012.med u1013.med u1014.med u1015.med u1016.med u1017.med u1018.med u1019.med u101A.med u101B.med u101C.med u101D.med u101E.med u101F.med u1020.med u1021.med u1039 u103D u103D_u103E u103D_u108D u103E u103E.alt u103F.med u1050.med u1051.med u1058 u1059 u105A.med u105C.med u105E u105F u1060 u1082 u1082_u108D u108D uAA60.med u1010_u103D.med.tri u103D.tri u103D_u103E.tri u103E.slantr u103E.slanth u1037 u103C u103C.wide u103C_u103D.narr u103C_u103D.wide u103C_u102F.narr u103C_u102F.wide u103C.alt.wide u103C_u103D.alt.narr u103C_u103D.alt.wide u103C_u102F.alt.narr u103C_u102F.alt.wide];
+@cMed = [u1000.med.aiph u1010.med.aiph u1011.med.aiph u101A.med.aiph u101C.med.aiph u1003.med.thai u100B.med.thai u100C.med.thai u100D.med.thai u100E.med.thai u1012.med.thai u1014.med.thai u101E.med.thai u1020.med.thai u1000.med u1001.med u1002.med u1003.med u1004.med u1005.med u1006.med u1007.med u1009.med u100A.med u100B.med u100C.med u100D.med u100E.med u100F.med u1010.med u1010_u103D.med u1011.med u1012.med u1013.med u1014.med u1015.med u1016.med u1017.med u1018.med u1019.med u101A.med u101B.med u101C.med u101D.med u101E.med u101F.med u1020.med u1021.med u102F.med u1030.med u1050.med u1051.med u105A.med u1003.med.thai u100B.med.thai u100C.med.thai u100D.med.thai u100E.med.thai u1012.med.thai u1014.med.thai u101E.med.thai u1020.med.thai u103F.med];
+@cMedWide = [u1000.med u1003.med u1006.med u1009.med u100A.med u100C.med u100F.med u1010.med u1011.med u1018.med u101A.med u101C.med u101E.med u101F.med u103F.med u1020.med u1021.med u103F.med];
 @cNoAiph = [u1000.med u1010.med u1011.med u101A.med u101C.med u103C u103C.wide u107A uAA6D uAA77 uAA79 uAA7A];
 @cSpaceVowel = [u102B u102C u1062 u1063 u1067 u1068 u1083];
 @cTone = [u1038.dot u1087.dot u1088.dot u1089.dot u108A.dot u109A.dot u109B.dot uAA7B.dot u1038 u1083 u1087 u1088 u1089 u108A u108C u108F u109A u109B u109C uAA7B];
@@ -29,14 +29,14 @@
 @cToneNonU = [u1038.dot u1087.dot u1088.dot u1089.dot u108A.dot uAA7B.dot u1038 u1083 u1087 u1088 u1089 u108A u108B u108C u108F u109C uAA7B];
 @c_aiph = [u1000.aiph u1000.med.aiph u1010.aiph u1010.med.aiph u1011.med.aiph u101A.aiph u101A.med.aiph u101C.aiph u101C.med.aiph u1022.aiph u103C.aiph u103C.wide.aiph u1075.aiph u1078.aiph u107A.aiph uAA61.aiph uAA6B.aiph uAA6D.aiph uAA77.aiph uAA79.aiph uAA7A.aiph];
 @cno_aiph = [u1000 u1000.med u1010 u1010.med u1011.med u101A u101A.med u101C u101C.med u1022 u103C u103C.wide u1075 u1078 u107A uAA61 uAA6B uAA6D uAA77 uAA79 uAA7A];
-@c_alt = [u1009.med.alt u100A.alt u100B.alt u1014.alt u101B.alt u103E.alt uA9E4.alt uA9E8.alt uAA6C.alt];
-@cno_alt = [u1009.med u100A u100B u1014 u101B u103E uA9E4 uA9E8 uAA6C];
+@c_alt = [u100A.alt u1014.alt u101B.alt u103E.alt uA9E4.alt uA9E8.alt uAA6C.alt];
+@cno_alt = [u100A u1014 u101B u103E uA9E4 uA9E8 uAA6C];
 @c_csh = [u106D.csh];
 @cno_csh = [u106D];
 @c_dot = [u1036.dot u1038.dot u1087.dot u1088.dot u1089.dot u108A.dot u109A.dot u109B.dot uAA7B.dot];
 @cno_dot = [u1036 u1038 u1087 u1088 u1089 u108A u109A u109B uAA7B];
-@c_kham = [u1000.kham u1002.kham u1004.kham u1004.med.kham u1010.kham u1011.kham u1015.kham u1015.med.kham u1019.kham u1019.med.kham u101A.kham u101B.kham u101C.kham u101D.kham u1022.kham u1031.kham u1075.kham u1078.kham u1080.kham u1086.kham uAA60.kham uAA60.med.kham uAA61.kham uAA62.kham uAA63.kham uAA64.kham uAA65.kham uAA66.kham uAA6B.kham uAA6C.kham uAA6F.kham uAA73.kham uAA75.kham uAA76.kham];
-@cno_kham = [u1000 u1002 u1004 u1004.med u1010 u1011 u1015 u1015.med u1019 u1019.med u101A u101B u101C u101D u1022 u1031 u1075 u1078 u1080 u1086 uAA60 uAA60.med uAA61 uAA62 uAA63 uAA64 uAA65 uAA66 uAA6B uAA6C uAA6F uAA73 uAA75 uAA76];
+@c_kham = [u1000.kham u1002.kham u1004.kham u1010.kham u1011.kham u1015.kham u1019.kham u101A.kham u101B.kham u101C.kham u101D.kham u1022.kham u1031.kham u1075.kham u1078.kham u1080.kham u1086.kham uAA60.kham uAA61.kham uAA62.kham uAA63.kham uAA64.kham uAA65.kham uAA66.kham uAA6B.kham uAA6C.kham uAA6F.kham uAA73.kham uAA75.kham uAA76.kham];
+@cno_kham = [u1000 u1002 u1004 u1010 u1011 u1015 u1019 u101A u101B u101C u101D u1022 u1031 u1075 u1078 u1080 u1086 uAA60 uAA61 uAA62 uAA63 uAA64 uAA65 uAA66 uAA6B uAA6C uAA6F uAA73 uAA75 uAA76];
 @c_kinzi = [u1004.kinzi u101B.kinzi];
 @cno_kinzi = [u1004 u101B];
 @c_kinzi_u102D = [u1004.kinzi_u102D u101B.kinzi_u102D];
@@ -53,14 +53,10 @@
 @cno_kinzi_u1036 = [u1004];
 @c_kinzi_u103A = [u1004.kinzi_u103A u101B.kinzi_u103A];
 @cno_kinzi_u103A = [u1004 u101B];
-@c_long = [u101B.long u1020.long];
-@cno_long = [u101B u1020];
-@c_low = [u1008.sml.low];
-@cno_low = [u1008.sml];
+@c_long = [u101B.long];
+@cno_long = [u101B];
 @c_med = [u1000.med u1001.med u1002.med u1003.med u1004.med u1005.med u1006.med u1007.med u1008.med u1009.med u100A.med u100B.med u100C.med u100D.med u100E.med u100F.med u1010.med u1011.med u1012.med u1013.med u1014.med u1015.med u1016.med u1017.med u1018.med u1019.med u101A.med u101B.med u101C.med u101D.med u101E.med u101F.med u1020.med u1021.med u102F.med u1030.med u103F.med u1050.med u1051.med u105A.med u105B.med u105C.med uAA60.med];
 @cno_med = [u1000 u1001 u1002 u1003 u1004 u1005 u1006 u1007 u1008 u1009 u100A u100B u100C u100D u100E u100F u1010 u1011 u1012 u1013 u1014 u1015 u1016 u1017 u1018 u1019 u101A u101B u101C u101D u101E u101F u1020 u1021 u102F u1030 u103F u1050 u1051 u105A u105B u105C uAA60];
-@c_med_u103D = [u101C.med_u103D];
-@cno_med_u103D = [u101C];
 @c_open = [u1009.open];
 @cno_open = [u1009];
 @c_slanth = [u103E.slanth u103E_u102F.slanth u103E_u1030.slanth u1061.slanth u1066.slanth];
@@ -71,8 +67,6 @@
 @cno_small = [u101F u103D_u103E];
 @c_sml = [u1000.sml u1001.sml u1002.sml u1003.sml u1004.sml u1005.sml u1006.sml u1007.sml u1008.sml u1009.sml u100A.sml u100B.sml u100C.sml u100D.sml u100E.sml u100F.sml u1010.sml u1011.sml u1012.sml u1013.sml u1014.sml u1015.sml u1016.sml u1017.sml u1018.sml u1019.sml u101A.sml u101B.sml u101C.sml u101D.sml u101E.sml u101F.sml u1020.sml u1021.sml u103D.sml u103F.sml u1050.sml u1051.sml];
 @cno_sml = [u1000 u1001 u1002 u1003 u1004 u1005 u1006 u1007 u1008 u1009 u100A u100B u100C u100D u100E u100F u1010 u1011 u1012 u1013 u1014 u1015 u1016 u1017 u1018 u1019 u101A u101B u101C u101D u101E u101F u1020 u1021 u103D u103F u1050 u1051];
-@c_straight = [u1081.straight];
-@cno_straight = [u1081];
 @c_thai = [u1003.med.thai u1003.thai u1004.kinzi.thai u100B.med.thai u100B.thai u100C.med.thai u100C.thai u100D.med.thai u100D.thai u100E.med.thai u100E.thai u1012.med.thai u1012.thai u1014.alt.thai u1014.med.thai u1014.thai u101E.med.thai u101E.thai u1020.med.thai u1020.thai u1021.thai u1023.thai u103F.thai u1049.thai u104A.thai u104B.thai];
 @cno_thai = [u1003.med u1003 u1004.kinzi u100B.med u100B u100C.med u100C u100D.med u100D u100E.med u100E u1012.med u1012 u1014.alt u1014.med u1014 u101E.med u101E u1020.med u1020 u1021 u1023 u103F u1049 u104A u104B];
 @c_tri = [u1010_u103D.med.tri u103B_u103D.tri u103B_u103D_u103E.tri u103C_u103D.alt.narr.tri u103C_u103D.alt.wide.tri u103C_u103D.narr.tri u103C_u103D.wide.tri u103D.tri u103D_u103E.small.tri u103D_u103E.tri];
@@ -158,12 +152,12 @@ markClass [uA9E5 uA9E5_uAA7C] <anchor -111 495> @_U;
 markClass uAA70 <anchor -280 495> @_U;
 
 # AP: BD
-@BD = [circledash u1700 u1000 u1000.aiph u1000.kham u1078.aiph u1078.kham uA9E9 uAA64 uAA64.kham uAA71 u1000_u1001_u103B u1001 u1045 u1054 u1055 u1090 uA9E0 u1002 u1002.kham u1004 u1004.kham u100B.thai u100C.thai u1015 u1015.kham u1016 u1017 u101B.kham u1020.thai u1023.thai u1027 u1028 u1031 u1031.kham u1040 u1046 u1048 u1049 u1049.thai u1050 u1051 u105A u1066 u1066.slanth u1066.slantr u107F u1081.straight uA9FD u1003 u1006 u1011 u1011.kham u1022 uA9E3 uA9EC uA9EE uA9FC uAA67 uAA69 uAA6A uAA6C uAA6C.alt uAA6C.kham u1003.thai u1005 u108E u1007 u1014.alt u1014.alt.thai u101D u101D.kham u1047 u1008 u1009 u1009.open u1025 u1009_u102C u100A u100A_u100A u100A.alt u100B u100B_u100B u100C u1020_u1020 u1020_u103E u100B.alt u1051_u100C u1051_u100D u100B_u100C u100D u100D.thai u100D_u100D u100D_u100E u100E u1052 u1075 u1077 u100E.thai u106F u1070 u100F u100F_u100B u100F_u100D u1010 u1010.aiph u1010.kham u1078 u1080 u1080.kham uA9EB uA9ED uA9FB uA9FE uAA66 uAA66.kham u1012 u1012.thai u1013 u1014 u1014.thai u1014_u1010_u103B u1014_u1010_u103C u103C u103C.aiph u103C.alt.narr u1018 u101E u101E.thai u1021.thai u1019 u1019.kham u105D u101A u101A.aiph u101A.kham u101F u107D u101B u1061 u1061.slanth u1061.slantr uAA79.aiph u101B.alt u101B.long u101B_u103B u101C u101C.aiph u101C.kham uA9EA uA9FA uAA6E u101E_u1010_u103C u1029 u103C.alt.wide u103C.wide u103C.wide.aiph u1020 u1020.long u1021 uA9E2 uAA60 uAA60.kham u1022.aiph u1022.kham uAA61.aiph uAA61.kham uAA63.kham u1023 u1026 u102B u102B.trim u102B_u103A u102C uAA79 u102F u1098 u1099 u1030 u103B u103C_u102F.alt.narr u103C_u102F.narr u103C_u102F.alt.wide u103C_u102F.wide u103C_u103D.alt.narr u103C_u103D.narr u103C_u103D.alt.narr.tri u103C_u103D.narr.tri uAA65 uAA65.kham u103C_u103D.alt.wide u103C_u103D.wide u103C_u103D.alt.wide.tri u103C_u103D.wide.tri u103F u103F.thai u1041 u1042 u1043 u1065 u1044 u104C u1053 u1056 u1057 u105B u105C u1062 u1064 u1062_u103A u1063 u107E u1063_u103A u1067 u106C u1068 u1069 u106A u106B u106D u106D.csh u106E u1075.aiph u1075.kham u1076 u1079 u107B u107A u107A.aiph u107A.alt.aiph u107C u1081 uA9E1 uA9E4.alt uA9E8.alt uA9E4 uA9E8 uA9E7 uA9EF uAA6B.aiph uAA61 uAA62 uAA62.kham uAA73 uAA73.kham uAA63 uAA68 uAA6B uAA6B.kham uAA6D uAA6D.aiph uAA6F uAA6F.kham uAA72 uAA77 uAA77.aiph uAA7A uAA7A.aiph uAA7E uAA7F];
+@BD = [circledash u1700 u1000 u1000.aiph u1000.kham u1078.aiph u1078.kham uA9E9 uAA64 uAA64.kham uAA71 u1000_u1001_u103B u1001 u1045 u1054 u1055 u1090 uA9E0 u1002 u1002.kham u1004 u1004.kham u100B.thai u100C.thai u1015 u1015.kham u1016 u1017 u101B.kham u1020.thai u1023.thai u1027 u1028 u1031 u1031.kham u1040 u1046 u1048 u1049 u1049.thai u1050 u1051 u105A u1066 u1066.slanth u1066.slantr u107F uA9FD u1003 u1006 u1011 u1011.kham u1022 uA9E3 uA9EC uA9EE uA9FC uAA67 uAA69 uAA6A uAA6C uAA6C.alt uAA6C.kham u1003.thai u1005 u108E u1007 u1014.alt u1014.alt.thai u101D u101D.kham u1047 u1008 u1009 u1009.open u1025 u1009_u102C u100A u100A_u100A u100A.alt u100B u100B_u100B u100C u1020_u1020 u1020_u103E u100B_u100C u100D u100D.thai u100D_u100D u100D_u100E u100E u1052 u1075 u1077 u100E.thai u106F u1070 u100F u100F_u100B u100F_u100D u1010 u1010.aiph u1010.kham u1078 u1080 u1080.kham uA9EB uA9ED uA9FB uA9FE uAA66 uAA66.kham u1012 u1012.thai u1013 u1014 u1014.thai u1014_u1010_u103B u1014_u1010_u103C u103C u103C.aiph u103C.alt.narr u1018 u101E u101E.thai u1021.thai u1019 u1019.kham u105D u101A u101A.aiph u101A.kham u101F u107D u101B u1061 u1061.slanth u1061.slantr uAA79.aiph u101B.alt u101B.long u101B_u103B u101C u101C.aiph u101C.kham uA9EA uA9FA uAA6E u101E_u1010_u103C u1029 u103C.alt.wide u103C.wide u103C.wide.aiph u1020 u1021 uA9E2 uAA60 uAA60.kham u1022.aiph u1022.kham uAA61.aiph uAA61.kham uAA63.kham u1023 u1026 u102B u102B.trim u102B_u103A u102C uAA79 u102F u1098 u1099 u1030 u103B u103C_u102F.alt.narr u103C_u102F.narr u103C_u102F.alt.wide u103C_u102F.wide u103C_u103D.alt.narr u103C_u103D.narr u103C_u103D.alt.narr.tri u103C_u103D.narr.tri uAA65 uAA65.kham u103C_u103D.alt.wide u103C_u103D.wide u103C_u103D.alt.wide.tri u103C_u103D.wide.tri u103F u103F.thai u1041 u1042 u1043 u1065 u1044 u104C u1051_u100C u1051_u100D u1053 u1056 u1057 u105B u105C u1062 u1064 u1062_u103A u1063 u107E u1067 u106C u1068 u1069 u106A u106B u106D u106D.csh u106E u1075.aiph u1075.kham u1076 u1079 u107B u107A u107A.aiph u107C u1081 uA9E1 uA9E4.alt uA9E8.alt uA9E4 uA9E8 uA9E7 uA9EF uAA6B.aiph uAA61 uAA62 uAA62.kham uAA73 uAA73.kham uAA63 uAA68 uAA6B uAA6B.kham uAA6D uAA6D.aiph uAA6F uAA6F.kham uAA72 uAA77 uAA77.aiph uAA7A uAA7A.aiph uAA7E uAA7F];
 # baseClass [circledash u1700] <anchor 318 -53> @BD;
 # baseClass [u1000 u1000.aiph u1000.kham u1078.aiph u1078.kham uA9E9 uAA64 uAA64.kham uAA71] <anchor 508 -53> @BD;
 # baseClass u1000_u1001_u103B <anchor 1236 -53> @BD;
 # baseClass [u1001 u1045 u1054 u1055 u1090 uA9E0] <anchor 283 -53> @BD;
-# baseClass [u1002 u1002.kham u1004 u1004.kham u100B.thai u100C.thai u1015 u1015.kham u1016 u1017 u101B.kham u1020.thai u1023.thai u1027 u1028 u1031 u1031.kham u1040 u1046 u1048 u1049 u1049.thai u1050 u1051 u105A u1066 u1066.slanth u1066.slantr u107F u1081.straight uA9FD] <anchor 292 -53> @BD;
+# baseClass [u1002 u1002.kham u1004 u1004.kham u100B.thai u100C.thai u1015 u1015.kham u1016 u1017 u101B.kham u1020.thai u1023.thai u1027 u1028 u1031 u1031.kham u1040 u1046 u1048 u1049 u1049.thai u1050 u1051 u105A u1066 u1066.slanth u1066.slantr u107F uA9FD] <anchor 292 -53> @BD;
 # baseClass [u1003 u1006 u1011 u1011.kham u1022 uA9E3 uA9EC uA9EE uA9FC uAA67 uAA69 uAA6A uAA6C uAA6C.alt uAA6C.kham] <anchor 495 -53> @BD;
 # baseClass u1003.thai <anchor 503 -53> @BD;
 # baseClass [u1005 u108E] <anchor 288 -53> @BD;
@@ -174,7 +168,6 @@ markClass uAA70 <anchor -280 495> @_U;
 # baseClass [u1009_u102C u100A u100A_u100A] <anchor 1063 -53> @BD;
 # baseClass u100A.alt <anchor 486 -53> @BD;
 # baseClass [u100B u100B_u100B u100C u1020_u1020 u1020_u103E] <anchor 657 -53> @BD;
-# baseClass [u100B.alt u1051_u100C u1051_u100D] <anchor 60 -173> @BD;
 # baseClass u100B_u100C <anchor 642 -53> @BD;
 # baseClass u100D <anchor 151 -173> @BD;
 # baseClass u100D.thai <anchor 25 -173> @BD;
@@ -201,7 +194,6 @@ markClass uAA70 <anchor -280 495> @_U;
 # baseClass [u101C u101C.aiph u101C.kham uA9EA uA9FA uAA6E] <anchor 480 -53> @BD;
 # baseClass [u101E_u1010_u103C u1029 u103C.alt.wide u103C.wide u103C.wide.aiph] <anchor 1263 -53> @BD;
 # baseClass u1020 <anchor 654 -53> @BD;
-# baseClass u1020.long <anchor 30 -173> @BD;
 # baseClass [u1021 uA9E2 uAA60 uAA60.kham] <anchor 465 -53> @BD;
 # baseClass [u1022.aiph u1022.kham uAA61.aiph uAA61.kham uAA63.kham] <anchor 532 -53> @BD;
 # baseClass u1023 <anchor 993 -53> @BD;
@@ -224,6 +216,7 @@ markClass uAA70 <anchor -280 495> @_U;
 # baseClass [u1043 u1065] <anchor 279 -53> @BD;
 # baseClass u1044 <anchor 297 -53> @BD;
 # baseClass u104C <anchor 624 -53> @BD;
+# baseClass [u1051_u100C u1051_u100D] <anchor 60 -173> @BD;
 # baseClass u1053 <anchor 315 -53> @BD;
 # baseClass [u1056 u1057] <anchor 238 -53> @BD;
 # baseClass u105B <anchor 148 -53> @BD;
@@ -231,7 +224,6 @@ markClass uAA70 <anchor -280 495> @_U;
 # baseClass [u1062 u1064] <anchor 192 -53> @BD;
 # baseClass u1062_u103A <anchor 216 -53> @BD;
 # baseClass [u1063 u107E] <anchor 276 -53> @BD;
-# baseClass u1063_u103A <anchor 306 -53> @BD;
 # baseClass [u1067 u106C] <anchor 138 -53> @BD;
 # baseClass u1068 <anchor 134 -53> @BD;
 # baseClass u1069 <anchor 180 -53> @BD;
@@ -244,7 +236,6 @@ markClass uAA70 <anchor -280 495> @_U;
 # baseClass u1076 <anchor 289 -53> @BD;
 # baseClass [u1079 u107B] <anchor 468 -53> @BD;
 # baseClass [u107A u107A.aiph] <anchor 750 -53> @BD;
-# baseClass u107A.alt.aiph <anchor 770 -53> @BD;
 # baseClass u107C <anchor 474 -53> @BD;
 # baseClass u1081 <anchor 460 -53> @BD;
 # baseClass [uA9E1 uA9E4.alt uA9E8.alt] <anchor 479 -53> @BD;
@@ -266,12 +257,12 @@ markClass uAA70 <anchor -280 495> @_U;
 # baseClass uAA7F <anchor 366 -53> @BD;
 
 # AP: BS
-@BS = [circledash u1700 u1000 u1000.aiph u1000.kham u101F u1078.aiph u1078.kham u107D uA9E9 uAA64 uAA64.kham uAA71 u1000_u1001_u103B u1001 u1045 u1054 u1055 u1090 uA9E0 u1002 u1002.kham u1004 u1004.kham u1015 u1015.kham u1016 u1017 u101B.kham u1027 u1028 u1031 u1031.kham u1040 u1046 u1048 u1049 u1049.thai u1050 u1051 u105A u1066 u1066.slanth u1066.slantr u107F u1081.straight uA9FD u1003 u1022 uAA6C.alt u1003.thai u1005 u108E u1006 u100A.alt u1011 u1011.kham u101E uA9EE uA9FC uAA61 uAA67 uAA69 uAA6A u1007 u101D u101D.kham u1047 u1008 u1009 u1009.open u1025 u1063 u1009_u102C u100A u100A_u100A u100B u100B_u100B u100C u1020_u1020 u1020_u103E u100B.alt u1051_u100C u1051_u100D u100B.thai u100C.thai u1020.thai u1023.thai u100B_u100C u100D u1020.long u100D.thai u100D_u100D u100D_u100E u100E u1052 u1075 u1077 u100E.thai u100F u100F_u100B u100F_u100D u1010 u1010.aiph u1010.kham u1078 u1080 u1080.kham uA9EB uA9ED uA9FB uAA66 uAA66.kham u1012 u1012.thai u1013 u1014 u1014.thai u1014.alt u1014.alt.thai u1014_u1010_u103B u1014_u1010_u103C u1018 u1019 u1019.kham u105D u101A u101A.aiph u101A.kham u101B uAA79.aiph u101B.alt u101B.long u101B_u103B u101C u101C.aiph u101C.kham uA9EA uA9FA uAA6E u101E.thai u1021.thai u107C u101E_u1010_u103C u1029 u103C.alt.wide u103C.wide u103C.wide.aiph u1020 u1021 u1022.aiph u1022.kham uAA61.aiph uAA61.kham uAA63.kham u1023 u1026 u102B u102B.trim u102B_u103A u102C u102F u1098 u1099 u1030 u103B u103B_u103D u103B_u103D.tri u103B_u103D_u103E u103B_u103D_u103E.tri u103B_u103E u105B.med u103C u103C.aiph u103C.alt.narr u103C_u102F.alt.narr u103C_u102F.narr uA9E7 u103C_u102F.alt.wide u103C_u102F.wide u103C_u103D.alt.narr u103C_u103D.narr u103C_u103D.alt.narr.tri u103C_u103D.narr.tri uAA65 uAA65.kham u103C_u103D.alt.wide u103C_u103D.wide u103C_u103D.alt.wide.tri u103C_u103D.wide.tri u103F u103F.thai u1041 u1042 u1043 u1065 u1044 u104C u104E u1053 u1056 u1057 u105B u105C u1061 u1061.slanth u1061.slantr u1062 u1064 u1062_u103A u1063_u103A u1067 u106C u1068 u1069 u106A u106B u106D u106D.csh u106E u106F u1070 u1075.aiph u1075.kham u1076 u1079 uA9E2 uAA60 uAA60.kham uAA68 u107A u107A.aiph u107A.alt.aiph u107B u107E u1081 uA9E1 uA9E4.alt uA9E8.alt uA9E3 uA9E4 uA9E8 uA9EC uAA6C uAA6C.kham uA9EF uAA6B.aiph uA9FE uAA62 uAA62.kham uAA73 uAA73.kham uAA63 uAA6B uAA6B.kham uAA6D uAA6D.aiph uAA6F uAA6F.kham uAA72 uAA77 uAA77.aiph uAA79 uAA7A uAA7A.aiph uAA7E uAA7F];
+@BS = [circledash u1700 u1000 u1000.aiph u1000.kham u101F u1078.aiph u1078.kham u107D uA9E9 uAA64 uAA64.kham uAA71 u1000_u1001_u103B u1001 u1045 u1054 u1055 u1090 uA9E0 u1002 u1002.kham u1004 u1004.kham u1015 u1015.kham u1016 u1017 u101B.kham u1027 u1028 u1031 u1031.kham u1040 u1046 u1048 u1049 u1049.thai u1050 u1051 u105A u1066 u1066.slanth u1066.slantr u107F uA9FD u1003 u1022 uAA6C.alt u1003.thai u1005 u108E u1006 u100A.alt u1011 u1011.kham u101E uA9EE uA9FC uAA61 uAA67 uAA69 uAA6A u1007 u101D u101D.kham u1047 u1008 u1009 u1009.open u1025 u1063 u1009_u102C u100A u100A_u100A u100B u100B_u100B u100C u1020_u1020 u1020_u103E u100B.thai u100C.thai u1020.thai u1023.thai u100B_u100C u100D u100D.thai u100D_u100D u100D_u100E u100E u1052 u1075 u1077 u100E.thai u100F u100F_u100B u100F_u100D u1010 u1010.aiph u1010.kham u1078 u1080 u1080.kham uA9EB uA9ED uA9FB uAA66 uAA66.kham u1012 u1012.thai u1013 u1014 u1014.thai u1014.alt u1014.alt.thai u1014_u1010_u103B u1014_u1010_u103C u1018 u1019 u1019.kham u105D u101A u101A.aiph u101A.kham u101B uAA79.aiph u101B.alt u101B.long u101B_u103B u101C u101C.aiph u101C.kham uA9EA uA9FA uAA6E u101E.thai u1021.thai u107C u101E_u1010_u103C u1029 u103C.alt.wide u103C.wide u103C.wide.aiph u1020 u1021 u1022.aiph u1022.kham uAA61.aiph uAA61.kham uAA63.kham u1023 u1026 u102B u102B.trim u102B_u103A u102C u102F u1098 u1099 u1030 u103B u103B_u103D u103B_u103D.tri u103B_u103D_u103E u103B_u103D_u103E.tri u103B_u103E u105B.med u103C u103C.aiph u103C.alt.narr u103C_u102F.alt.narr u103C_u102F.narr uA9E7 u103C_u102F.alt.wide u103C_u102F.wide u103C_u103D.alt.narr u103C_u103D.narr u103C_u103D.alt.narr.tri u103C_u103D.narr.tri uAA65 uAA65.kham u103C_u103D.alt.wide u103C_u103D.wide u103C_u103D.alt.wide.tri u103C_u103D.wide.tri u103F u103F.thai u1041 u1042 u1043 u1065 u1044 u104C u104E u1051_u100C u1051_u100D u1053 u1056 u1057 u105B u105C u1061 u1061.slanth u1061.slantr u1062 u1064 u1062_u103A u1067 u106C u1068 u1069 u106A u106B u106D u106D.csh u106E u106F u1070 u1075.aiph u1075.kham u1076 u1079 uA9E2 uAA60 uAA60.kham uAA68 u107A u107A.aiph u107B u107E u1081 uA9E1 uA9E4.alt uA9E8.alt uA9E3 uA9E4 uA9E8 uA9EC uAA6C uAA6C.kham uA9EF uAA6B.aiph uA9FE uAA62 uAA62.kham uAA73 uAA73.kham uAA63 uAA6B uAA6B.kham uAA6D uAA6D.aiph uAA6F uAA6F.kham uAA72 uAA77 uAA77.aiph uAA79 uAA7A uAA7A.aiph uAA7E uAA7F];
 # baseClass [circledash u1700] <anchor 318 -53> @BS;
 # baseClass [u1000 u1000.aiph u1000.kham u101F u1078.aiph u1078.kham u107D uA9E9 uAA64 uAA64.kham uAA71] <anchor 714 -53> @BS;
 # baseClass u1000_u1001_u103B <anchor 1236 -53> @BS;
 # baseClass [u1001 u1045 u1054 u1055 u1090 uA9E0] <anchor 283 -53> @BS;
-# baseClass [u1002 u1002.kham u1004 u1004.kham u1015 u1015.kham u1016 u1017 u101B.kham u1027 u1028 u1031 u1031.kham u1040 u1046 u1048 u1049 u1049.thai u1050 u1051 u105A u1066 u1066.slanth u1066.slantr u107F u1081.straight uA9FD] <anchor 292 -53> @BS;
+# baseClass [u1002 u1002.kham u1004 u1004.kham u1015 u1015.kham u1016 u1017 u101B.kham u1027 u1028 u1031 u1031.kham u1040 u1046 u1048 u1049 u1049.thai u1050 u1051 u105A u1066 u1066.slanth u1066.slantr u107F uA9FD] <anchor 292 -53> @BS;
 # baseClass [u1003 u1022 uAA6C.alt] <anchor 712 -53> @BS;
 # baseClass u1003.thai <anchor 720 -53> @BS;
 # baseClass [u1005 u108E] <anchor 288 -53> @BS;
@@ -282,10 +273,9 @@ markClass uAA70 <anchor -280 495> @_U;
 # baseClass [u1009.open u1025 u1063] <anchor 276 -53> @BS;
 # baseClass [u1009_u102C u100A u100A_u100A] <anchor 1063 -53> @BS;
 # baseClass [u100B u100B_u100B u100C u1020_u1020 u1020_u103E] <anchor 657 -53> @BS;
-# baseClass [u100B.alt u1051_u100C u1051_u100D] <anchor 207 -173> @BS;
 # baseClass [u100B.thai u100C.thai u1020.thai u1023.thai] <anchor 302 -53> @BS;
 # baseClass u100B_u100C <anchor 642 -53> @BS;
-# baseClass [u100D u1020.long] <anchor 168 -173> @BS;
+# baseClass u100D <anchor 168 -173> @BS;
 # baseClass u100D.thai <anchor 163 -173> @BS;
 # baseClass u100D_u100D <anchor 627 -53> @BS;
 # baseClass u100D_u100E <anchor 528 -53> @BS;
@@ -336,6 +326,7 @@ markClass uAA70 <anchor -280 495> @_U;
 # baseClass u1044 <anchor 297 -53> @BS;
 # baseClass u104C <anchor 624 -53> @BS;
 # baseClass u104E <anchor 292 0> @BS;
+# baseClass [u1051_u100C u1051_u100D] <anchor 207 -173> @BS;
 # baseClass u1053 <anchor 315 -53> @BS;
 # baseClass [u1056 u1057] <anchor 238 -53> @BS;
 # baseClass u105B <anchor 148 -53> @BS;
@@ -343,7 +334,6 @@ markClass uAA70 <anchor -280 495> @_U;
 # baseClass [u1061 u1061.slanth u1061.slantr] <anchor 59 -53> @BS;
 # baseClass [u1062 u1064] <anchor 192 -53> @BS;
 # baseClass u1062_u103A <anchor 216 -53> @BS;
-# baseClass u1063_u103A <anchor 306 -53> @BS;
 # baseClass [u1067 u106C] <anchor 138 -53> @BS;
 # baseClass u1068 <anchor 134 -53> @BS;
 # baseClass u1069 <anchor 180 -53> @BS;
@@ -357,7 +347,6 @@ markClass uAA70 <anchor -280 495> @_U;
 # baseClass u1076 <anchor 289 -53> @BS;
 # baseClass [u1079 uA9E2 uAA60 uAA60.kham uAA68] <anchor 645 -53> @BS;
 # baseClass [u107A u107A.aiph] <anchor 750 -53> @BS;
-# baseClass u107A.alt.aiph <anchor 760 -53> @BS;
 # baseClass u107B <anchor 743 -53> @BS;
 # baseClass u107E <anchor 424 -53> @BS;
 # baseClass u1081 <anchor 460 -53> @BS;
@@ -382,24 +371,24 @@ markClass uAA70 <anchor -280 495> @_U;
 # baseClass uAA7F <anchor 489 -53> @BS;
 
 # AP: L
-@L = [circledash u1700 u1000 u1000.aiph u1000.kham u101F u1078.aiph u1078.kham u107D uA9E9 uAA64 uAA64.kham uAA71 u1000_u1001_u103B u1001 u1045 u1054 u1055 u1090 uA9E0 u1002 u1002.kham u1004 u1004.kham u1015 u1015.kham u1016 u1017 u101B.kham u1027 u1028 u1031 u1031.kham u1040 u1046 u1049 u1049.thai u1050 u1051 u105A u107F u1081.straight uA9FD u1003 u1022 uAA6C.alt u1003.thai u107A u107A.aiph u107A.alt.aiph u1005 u108E u1006 u1009_u102C u100A u100A.alt u100A_u100A u1011 u1011.kham u101E uA9EE uA9FC uAA61 uAA67 uAA69 uAA6A u1007 u101D u101D.kham u1047 u1008 u1008.med u103B u103B_u103D u103B_u103D.tri u103B_u103D_u103E u103B_u103D_u103E.tri u103B_u103E u105B.med u1009 u1009.open u1025 u1026 u1063 u1063_u103A u100B u100B_u100B u100C u1020_u1020 u1020_u103E u100B.alt u100B_u100C u1051_u100C u1051_u100D u100B.thai u100C.thai u1020.thai u1023.thai u100D u1020.long u100D.thai u100D_u100D u100D_u100E u100E u1052 u1075 u1077 u100E.thai u100F u100F_u100B u100F_u100D u1010 u1010.aiph u1010.kham u1078 u1080 u1080.kham uA9EB uA9ED uA9FB uA9FE uAA66 uAA66.kham u1012 u1012.thai u1013 u1014 u1014.thai u1014.alt u1014.alt.thai u1014_u1010_u103B u1014_u1010_u103C u103C u103C.aiph u103C.alt.narr u1018 u1019 u1019.kham u105D u101A u101A.aiph u101A.kham u101B u1061 u1061.slanth u1061.slantr uAA77 uAA77.aiph uAA79 uAA79.aiph u101B.alt u101B.long u101B_u103B u101C u101C.aiph u101C.kham uA9EA uA9FA uAA6E u101E.thai u1021.thai u107C u101E_u1010_u103C u1029 u103C.alt.wide u103C.wide u103C.wide.aiph u1020 u1021 u1022.aiph u1022.kham uAA61.aiph uAA61.kham uAA63.kham u1023 u102B u102B.trim u102B_u103A u102C u102F u1098 u1099 u1030 u103C_u102F.alt.narr u103C_u102F.narr u103C_u102F.alt.wide u103C_u102F.wide u103C_u103D.alt.narr u103C_u103D.narr u103C_u103D.alt.narr.tri u103C_u103D.narr.tri u103C_u103D.alt.wide u103C_u103D.wide u103C_u103D.alt.wide.tri u103C_u103D.wide.tri u103F u103F.thai u1041 u1042 u1043 u1065 u1044 u1048 u104C u1053 u1056 u1057 u105B u105C u1062 u1064 u1062_u103A u1066 u1066.slanth u1066.slantr u1067 u106C u1068 u1069 u106A u106B u106D u106D.csh u106E u106F u1070 u1075.aiph u1075.kham u1076 u1079 u107B uA9E2 uAA60 uAA60.kham uAA68 u107E u1081 u1083 uA9E1 uA9E4.alt uA9E8.alt uA9E3 uA9E4 uA9E8 uA9E7 uA9EC uAA6C uAA6C.kham uA9EF uAA6B.aiph uAA62 uAA62.kham uAA73 uAA73.kham uAA63 uAA65 uAA65.kham uAA6B uAA6B.kham uAA6D uAA6D.aiph uAA6F uAA6F.kham uAA72 uAA7A uAA7A.aiph uAA7E uAA7F];
+@L = [circledash u1700 u1000 u1000.aiph u1000.kham u101F u1078.aiph u1078.kham u107D uA9E9 uAA64 uAA64.kham uAA71 u1000_u1001_u103B u1001 u1045 u1054 u1055 u1090 uA9E0 u1002 u1002.kham u1004 u1004.kham u1015 u1015.kham u1016 u1017 u101B.kham u1027 u1028 u1031 u1031.kham u1040 u1046 u1049 u1049.thai u1050 u1051 u105A u107F uA9FD u1003 u1022 uAA6C.alt u1003.thai u107A u107A.aiph u1005 u108E u1006 u1009_u102C u100A u100A.alt u100A_u100A u1011 u1011.kham u101E uA9EE uA9FC uAA61 uAA67 uAA69 uAA6A u1007 u101D u101D.kham u1047 u1008 u1008.med u103B u103B_u103D u103B_u103D.tri u103B_u103D_u103E u103B_u103D_u103E.tri u103B_u103E u105B.med u1009 u1009.open u1025 u1026 u1063 u100B u100B_u100B u100C u1020_u1020 u1020_u103E u100B.thai u100C.thai u1020.thai u1023.thai u100B_u100C u1051_u100C u1051_u100D u100D u100D.thai u100D_u100D u100D_u100E u100E u1052 u1075 u1077 u100E.thai u100F u100F_u100B u100F_u100D u1010 u1010.aiph u1010.kham u1078 u1080 u1080.kham uA9EB uA9ED uA9FB uA9FE uAA66 uAA66.kham u1012 u1012.thai u1013 u1014 u1014.thai u1014.alt u1014.alt.thai u1014_u1010_u103B u1014_u1010_u103C u103C u103C.aiph u103C.alt.narr u1018 u1019 u1019.kham u105D u101A u101A.aiph u101A.kham u101B u1061 u1061.slanth u1061.slantr uAA77 uAA77.aiph uAA79 uAA79.aiph u101B.alt u101B.long u101B_u103B u101C u101C.aiph u101C.kham uA9EA uA9FA uAA6E u101E.thai u1021.thai u107C u101E_u1010_u103C u1029 u103C.alt.wide u103C.wide u103C.wide.aiph u1020 u1021 u1022.aiph u1022.kham uAA61.aiph uAA61.kham uAA63.kham u1023 u102B u102B.trim u102B_u103A u102C u102F u1098 u1099 u1030 u103C_u102F.alt.narr u103C_u102F.narr u103C_u102F.alt.wide u103C_u102F.wide u103C_u103D.alt.narr u103C_u103D.narr u103C_u103D.alt.narr.tri u103C_u103D.narr.tri u103C_u103D.alt.wide u103C_u103D.wide u103C_u103D.alt.wide.tri u103C_u103D.wide.tri u103F u103F.thai u1041 u1042 u1043 u1065 u1044 u1048 u104C u1053 u1056 u1057 u105B u105C u1062 u1064 u1062_u103A u1066 u1066.slanth u1066.slantr u1067 u106C u1068 u1069 u106A u106B u106D u106D.csh u106E u106F u1070 u1075.aiph u1075.kham u1076 u1079 u107B uA9E2 uAA60 uAA60.kham uAA68 u107E u1081 u1083 uA9E1 uA9E4.alt uA9E8.alt uA9E3 uA9E4 uA9E8 uA9E7 uA9EC uAA6C uAA6C.kham uA9EF uAA6B.aiph uAA62 uAA62.kham uAA73 uAA73.kham uAA63 uAA65 uAA65.kham uAA6B uAA6B.kham uAA6D uAA6D.aiph uAA6F uAA6F.kham uAA72 uAA7A uAA7A.aiph uAA7E uAA7F];
 # baseClass [circledash u1700] <anchor 318 -53> @L;
 # baseClass [u1000 u1000.aiph u1000.kham u101F u1078.aiph u1078.kham u107D uA9E9 uAA64 uAA64.kham uAA71] <anchor 714 -53> @L;
 # baseClass u1000_u1001_u103B <anchor 1236 -53> @L;
 # baseClass [u1001 u1045 u1054 u1055 u1090 uA9E0] <anchor 283 -53> @L;
-# baseClass [u1002 u1002.kham u1004 u1004.kham u1015 u1015.kham u1016 u1017 u101B.kham u1027 u1028 u1031 u1031.kham u1040 u1046 u1049 u1049.thai u1050 u1051 u105A u107F u1081.straight uA9FD] <anchor 292 -53> @L;
+# baseClass [u1002 u1002.kham u1004 u1004.kham u1015 u1015.kham u1016 u1017 u101B.kham u1027 u1028 u1031 u1031.kham u1040 u1046 u1049 u1049.thai u1050 u1051 u105A u107F uA9FD] <anchor 292 -53> @L;
 # baseClass [u1003 u1022 uAA6C.alt] <anchor 712 -53> @L;
-# baseClass [u1003.thai u107A u107A.aiph u107A.alt.aiph] <anchor 720 -53> @L;
+# baseClass [u1003.thai u107A u107A.aiph] <anchor 720 -53> @L;
 # baseClass [u1005 u108E] <anchor 288 -53> @L;
 # baseClass [u1006 u1009_u102C u100A u100A.alt u100A_u100A u1011 u1011.kham u101E uA9EE uA9FC uAA61 uAA67 uAA69 uAA6A] <anchor 702 -53> @L;
 # baseClass [u1007 u101D u101D.kham u1047] <anchor 286 -53> @L;
 # baseClass u1008 <anchor 810 -53> @L;
 # baseClass [u1008.med u103B u103B_u103D u103B_u103D.tri u103B_u103D_u103E u103B_u103D_u103E.tri u103B_u103E u105B.med] <anchor 250 -53> @L;
-# baseClass [u1009 u1009.open u1025 u1026 u1063 u1063_u103A] <anchor 276 -53> @L;
+# baseClass [u1009 u1009.open u1025 u1026 u1063] <anchor 276 -53> @L;
 # baseClass [u100B u100B_u100B u100C u1020_u1020 u1020_u103E] <anchor 657 -53> @L;
-# baseClass [u100B.alt u100B_u100C u1051_u100C u1051_u100D] <anchor 642 -53> @L;
 # baseClass [u100B.thai u100C.thai u1020.thai u1023.thai] <anchor 302 -53> @L;
-# baseClass [u100D u1020.long] <anchor 612 -53> @L;
+# baseClass [u100B_u100C u1051_u100C u1051_u100D] <anchor 642 -53> @L;
+# baseClass u100D <anchor 612 -53> @L;
 # baseClass u100D.thai <anchor 270 -173> @L;
 # baseClass u100D_u100D <anchor 627 -53> @L;
 # baseClass u100D_u100E <anchor 468 -53> @L;
@@ -487,20 +476,20 @@ markClass uAA70 <anchor -280 495> @_U;
 # baseClass uAA7F <anchor 489 -53> @L;
 
 # AP: U
-@U = [circledash u1700 u1000 u1000.aiph u1000.kham u101F u106F u1078.aiph u1078.kham u107D uA9E9 uAA64 uAA64.kham uAA71 u1000_u1001_u103B u1001 u1045 u1054 u1055 u1065 uA9E0 uAA7E u1002 u1002.kham u1004 u1004.kham u100B u100B.alt u100B_u100B u100B_u100C u100C u1015 u1015.kham u1016 u1017 u1019 u1019.kham u101B.alt u101B.kham u1020 u1020_u1020 u1020_u103E u1027 u1031 u1031.kham u1040 u1046 u1048 u1049 u1049.thai u104E u1050 u1051 u1051_u100C u1051_u100D u105A u105D u1066 u1066.slanth u1066.slantr u107F u1081 u1081.straight uA9FD uAA77 uAA77.aiph uAA79 u1003 u1022 u1070 uA9E7 uAA6C.alt u1003.thai u107A u107A.aiph u107A.alt.aiph u1005 u1007 u105B u108E u1006 u1009_u102C u100A u100A.alt u100A_u100A u1011 u1011.kham u101E uA9EE uA9FC uAA67 uAA69 uAA6A uAA7F u1008 u1008.med u1009 u1009.open u100D u100D_u100D u1020.long u1025 u1026 u1063 u100B.thai u100C.thai u1020.thai u1023.thai u100D.thai u1014.alt u1014.alt.thai u100D_u100E u100E u1052 u1075 u1077 u100E.thai u1099 u100F u100F_u100B u100F_u100D u1010 u1010.aiph u1010.kham u1078 u1080 u1080.kham uA9EB uA9ED uA9FB uAA66 uAA66.kham u1012 u1012.thai u1013 u1014 u1014.thai u1014_u1010_u103B u1014_u1010_u103C u1018 u101A u101A.aiph u101A.kham u101B u1061 u1061.slanth u1061.slantr uAA79.aiph u101B.long u101B_u103B u101C u101C.aiph u101C.kham uA9EA uA9FA uAA6E u101D u101D.kham u1047 u101E.thai u1021.thai u107C u1021 u1022.aiph u1022.kham uAA61.aiph uAA61.kham uAA63.kham u1023 u107E u1028 u102C u102F u1030 u103B u103B_u103D u103B_u103D.tri u103B_u103D_u103E u103B_u103D_u103E.tri u103B_u103E u105B.med u103F u103F.thai u1041 u105C u1098 u1042 u1043 u1044 u1053 u1056 u1057 u1062 u1064 u1067 u1069 u106A u106B u106C u106D u106D.csh u106E u1075.aiph u1075.kham u1076 u1079 u107B u1083 u109E u1090 u1091 u1093 u1094 u1097 uA9E1 uA9E4.alt uA9E8.alt uA9E2 uAA60 uAA60.kham uAA68 uA9E3 uA9E4 uA9E8 uA9FE uA9EC uAA6C uAA6C.kham uA9EF uAA6B.aiph uAA61 uAA62 uAA62.kham uAA73 uAA73.kham uAA63 uAA65 uAA65.kham uAA6B uAA6B.kham uAA6D uAA6D.aiph uAA6F uAA6F.kham uAA72 uAA7A uAA7A.aiph];
-@U_MarkBase = [u1008.sml u1008.sml.low];
+@U = [circledash u1700 u1000 u1000.aiph u1000.kham u101F u106F u1078.aiph u1078.kham u107D uA9E9 uAA64 uAA64.kham uAA71 u1000_u1001_u103B u1001 u1045 u1054 u1055 u1065 uA9E0 uAA7E u1002 u1002.kham u1004 u1004.kham u100B u100B_u100B u100B_u100C u100C u1015 u1015.kham u1016 u1017 u1019 u1019.kham u101B.alt u101B.kham u1020 u1020_u1020 u1020_u103E u1027 u1031 u1031.kham u1040 u1046 u1048 u1049 u1049.thai u104E u1050 u1051 u1051_u100C u1051_u100D u105A u105D u1066 u1066.slanth u1066.slantr u107F u1081 uA9FD uAA77 uAA77.aiph uAA79 u1003 u1022 u1070 uA9E7 uAA6C.alt u1003.thai u107A u107A.aiph u1005 u1007 u105B u108E u1006 u1009_u102C u100A u100A.alt u100A_u100A u1011 u1011.kham u101E uA9EE uA9FC uAA67 uAA69 uAA6A uAA7F u1008 u1008.med u1009 u1009.open u100D u100D_u100D u1025 u1026 u1063 u100B.thai u100C.thai u1020.thai u1023.thai u100D.thai u1014.alt u1014.alt.thai u100D_u100E u100E u1052 u1075 u1077 u100E.thai u1099 u100F u100F_u100B u100F_u100D u1010 u1010.aiph u1010.kham u1078 u1080 u1080.kham uA9EB uA9ED uA9FB uAA66 uAA66.kham u1012 u1012.thai u1013 u1014 u1014.thai u1014_u1010_u103B u1014_u1010_u103C u1018 u101A u101A.aiph u101A.kham u101B u1061 u1061.slanth u1061.slantr uAA79.aiph u101B.long u101B_u103B u101C u101C.aiph u101C.kham uA9EA uA9FA uAA6E u101D u101D.kham u1047 u101E.thai u1021.thai u107C u1021 u1022.aiph u1022.kham uAA61.aiph uAA61.kham uAA63.kham u1023 u107E u1028 u102C u102F u1030 u103B u103B_u103D u103B_u103D.tri u103B_u103D_u103E u103B_u103D_u103E.tri u103B_u103E u105B.med u103F u103F.thai u1041 u105C u1098 u1042 u1043 u1044 u1053 u1056 u1057 u1062 u1064 u1067 u1069 u106A u106B u106C u106D u106D.csh u106E u1075.aiph u1075.kham u1076 u1079 u107B u1083 u109E u1090 u1091 u1093 u1094 u1097 uA9E1 uA9E4.alt uA9E8.alt uA9E2 uAA60 uAA60.kham uAA68 uA9E3 uA9E4 uA9E8 uA9FE uA9EC uAA6C uAA6C.kham uA9EF uAA6B.aiph uAA61 uAA62 uAA62.kham uAA73 uAA73.kham uAA63 uAA65 uAA65.kham uAA6B uAA6B.kham uAA6D uAA6D.aiph uAA6F uAA6F.kham uAA72 uAA7A uAA7A.aiph];
+@U_MarkBase = [u1008.sml];
 # baseClass [circledash u1700] <anchor 318 495> @U;
 # baseClass [u1000 u1000.aiph u1000.kham u101F u106F u1078.aiph u1078.kham u107D uA9E9 uAA64 uAA64.kham uAA71] <anchor 714 495> @U;
 # baseClass u1000_u1001_u103B <anchor 940 495> @U;
 # baseClass [u1001 u1045 u1054 u1055 u1065 uA9E0 uAA7E] <anchor 283 495> @U;
-# baseClass [u1002 u1002.kham u1004 u1004.kham u100B u100B.alt u100B_u100B u100B_u100C u100C u1015 u1015.kham u1016 u1017 u1019 u1019.kham u101B.alt u101B.kham u1020 u1020_u1020 u1020_u103E u1027 u1031 u1031.kham u1040 u1046 u1048 u1049 u1049.thai u104E u1050 u1051 u1051_u100C u1051_u100D u105A u105D u1066 u1066.slanth u1066.slantr u107F u1081 u1081.straight uA9FD uAA77 uAA77.aiph uAA79] <anchor 292 495> @U;
+# baseClass [u1002 u1002.kham u1004 u1004.kham u100B u100B_u100B u100B_u100C u100C u1015 u1015.kham u1016 u1017 u1019 u1019.kham u101B.alt u101B.kham u1020 u1020_u1020 u1020_u103E u1027 u1031 u1031.kham u1040 u1046 u1048 u1049 u1049.thai u104E u1050 u1051 u1051_u100C u1051_u100D u105A u105D u1066 u1066.slanth u1066.slantr u107F u1081 uA9FD uAA77 uAA77.aiph uAA79] <anchor 292 495> @U;
 # baseClass [u1003 u1022 u1070 uA9E7 uAA6C.alt] <anchor 712 495> @U;
-# baseClass [u1003.thai u107A u107A.aiph u107A.alt.aiph] <anchor 720 495> @U;
+# baseClass [u1003.thai u107A u107A.aiph] <anchor 720 495> @U;
 # baseClass [u1005 u1007 u105B u108E] <anchor 288 495> @U;
 # baseClass [u1006 u1009_u102C u100A u100A.alt u100A_u100A u1011 u1011.kham u101E uA9EE uA9FC uAA67 uAA69 uAA6A uAA7F] <anchor 702 495> @U;
 # baseClass u1008 <anchor 549 486> @U;
 # baseClass u1008.med <anchor 0 495> @U;
-# baseClass [u1009 u1009.open u100D u100D_u100D u1020.long u1025 u1026 u1063] <anchor 276 495> @U;
+# baseClass [u1009 u1009.open u100D u100D_u100D u1025 u1026 u1063] <anchor 276 495> @U;
 # baseClass [u100B.thai u100C.thai u1020.thai u1023.thai] <anchor 307 495> @U;
 # baseClass [u100D.thai u1014.alt u1014.alt.thai] <anchor 271 495> @U;
 # baseClass [u100D_u100E u100E u1052 u1075 u1077] <anchor 285 495> @U;
@@ -569,36 +558,35 @@ markClass uAA70 <anchor -280 495> @_U;
 # baseClass [uAA6F uAA6F.kham] <anchor 434 495> @U;
 # baseClass uAA72 <anchor 917 495> @U;
 # baseClass [uAA7A uAA7A.aiph] <anchor 795 495> @U;
-# baseClass [u1008.sml u1008.sml.low] <anchor 0 495> @U_MarkBase;
+# baseClass u1008.sml <anchor 0 495> @U_MarkBase;
 
 # AP: BDM
-@BDM_MarkBase = [u1000.med u1000.med.aiph u1000.sml u1006.sml u1009.sml u100C.sml u100F.sml u1011.sml u101A.sml u101C.sml u1020.sml u1021.sml u103F.sml u1003.med u1003.med.thai u1003.sml u100A.sml u1018.sml u101E.sml u101F.small u1006.med u1011.med u1011.med.aiph u1009.med u100A.med u1009.med.alt u100C.med u100F.med u1010.med u1010.med.aiph u1010.sml u101F.med u101F.sml u1075.med.aiph uAA61.med.aiph uAA61.med.kham uAA6C.med.kham u1018.med u101E.med u101E.med.thai u1021.med u103F.med u101A.med u101A.med.aiph u101C.med u101C.med.aiph u107A.med.aiph uAA60.med uAA60.med.kham u101C.med_u103D u1020.med u1082];
+@BDM_MarkBase = [u1000.med u1000.med.aiph u1000.sml u1006.sml u1009.sml u100C.sml u100F.sml u1011.sml u101A.sml u101C.sml u1020.sml u1021.sml u103F.sml u1003.med u1003.med.thai u1003.sml u100A.sml u1018.sml u101E.sml u101F.small u1006.med u1011.med u1011.med.aiph u1009.med u100A.med u100C.med u100F.med u1010.med u1010.med.aiph u1010.sml u101F.med u101F.sml u1018.med u101E.med u101E.med.thai u1021.med u103F.med u101A.med u101A.med.aiph u101C.med u101C.med.aiph uAA60.med u1020.med u1082];
 # baseClass [u1000.med u1000.med.aiph] <anchor -393 -53> @BDM_MarkBase;
 # baseClass [u1000.sml u1006.sml u1009.sml u100C.sml u100F.sml u1011.sml u101A.sml u101C.sml u1020.sml u1021.sml u103F.sml] <anchor -395 -114> @BDM_MarkBase;
 # baseClass [u1003.med u1003.med.thai] <anchor -401 -53> @BDM_MarkBase;
 # baseClass [u1003.sml u100A.sml u1018.sml u101E.sml u101F.small] <anchor 169 -114> @BDM_MarkBase;
 # baseClass [u1006.med u1011.med u1011.med.aiph] <anchor -395 -53> @BDM_MarkBase;
 # baseClass [u1009.med u100A.med] <anchor 110 -53> @BDM_MarkBase;
-# baseClass [u1009.med.alt u100C.med] <anchor 406 -53> @BDM_MarkBase;
+# baseClass u100C.med <anchor 406 -53> @BDM_MarkBase;
 # baseClass u100F.med <anchor 88 -53> @BDM_MarkBase;
-# baseClass [u1010.med u1010.med.aiph u1010.sml u101F.med u101F.sml u1075.med.aiph uAA61.med.aiph uAA61.med.kham uAA6C.med.kham] <anchor 384 -53> @BDM_MarkBase;
+# baseClass [u1010.med u1010.med.aiph u1010.sml u101F.med u101F.sml] <anchor 384 -53> @BDM_MarkBase;
 # baseClass [u1018.med u101E.med u101E.med.thai u1021.med u103F.med] <anchor 393 -53> @BDM_MarkBase;
 # baseClass [u101A.med u101A.med.aiph] <anchor 405 -53> @BDM_MarkBase;
-# baseClass [u101C.med u101C.med.aiph u107A.med.aiph uAA60.med uAA60.med.kham] <anchor 375 -53> @BDM_MarkBase;
-# baseClass u101C.med_u103D <anchor 608 -53> @BDM_MarkBase;
+# baseClass [u101C.med u101C.med.aiph uAA60.med] <anchor 375 -53> @BDM_MarkBase;
 # baseClass u1020.med <anchor 641 -53> @BDM_MarkBase;
 # baseClass u1082 <anchor -495 -53> @BDM_MarkBase;
 
 # AP: BSM
-@BSM_MarkBase = [u1000.med u1000.med.aiph u1001.med u1003.med u1003.med.thai u1006.med u1009.med u1009.med.alt u100A.med u100B.med u100B.med.thai u100C.med u100C.med.thai u100D.med u100D.med.thai u100E.med u100E.med.thai u100F.med u1010.med u1010.med.aiph u1010.sml u1010_u103D.med u1011.med u1011.med.aiph u1012.med u1013.med u1014.med u1014.med.thai u1015.med u1015.med.kham u1016.med u1017.med u1018.med u1019.med u1019.med.kham u101A.med u101A.med.aiph u101B.med u101C.med u101C.med.aiph u101E.med u101E.med.thai u101F.med u101F.sml u1020.med.thai u1021.med u103F.med u1075.med.aiph u107A.med.aiph uAA61.med.aiph uAA61.med.kham uAA6B.med.aiph uAA6B.med.kham uAA6C.med.kham u1000.sml u1009.sml u100C.sml u100F.sml u101A.sml u101C.sml u1020.sml u1021.sml u103F.sml u1001.sml u1002.med u1002.sml u1016.sml u1050.med u1050.sml u1051.med u1051.sml u1003.sml u100A.sml u1018.sml u101E.sml u101F.small u1004.med u1004.med.kham u1004.sml u100E.sml u103D.sml u1005.med u101D.med u1082 u1005.sml u1008.sml u1008.sml.low u1013.sml u101B.sml u101D.sml u1006.sml u1011.sml u1007.med u1007.sml u1014.sml u1020.med u100B.sml u100D.sml u1010_u103D.med.tri u1012.med.thai u1012.sml u1015.sml u1017.sml u1019.sml u101C.med_u103D u102F.med u102F_u108D u1030.med u1030_u108D u1039 u103D u103D_u1060 u103E u103D.tri u103D_u103E u103D_u103E.small u103D_u103E.small.tri u103D_u103E.tri u103D_u108D u103E.alt u103E.slanth u103E_u1060 u103E.slantr u103E_u102F u103E_u102F.slanth u103E_u102F.slantr u103E_u1030 u103E_u1030.slanth u103E_u1030.slantr u1058 u1059 u105A.med u105C.med u105E u105F u1060 u1082_u108D u108D uAA60.med uAA60.med.kham];
-# baseClass [u1000.med u1000.med.aiph u1001.med u1003.med u1003.med.thai u1006.med u1009.med u1009.med.alt u100A.med u100B.med u100B.med.thai u100C.med u100C.med.thai u100D.med u100D.med.thai u100E.med u100E.med.thai u100F.med u1010.med u1010.med.aiph u1010.sml u1010_u103D.med u1011.med u1011.med.aiph u1012.med u1013.med u1014.med u1014.med.thai u1015.med u1015.med.kham u1016.med u1017.med u1018.med u1019.med u1019.med.kham u101A.med u101A.med.aiph u101B.med u101C.med u101C.med.aiph u101E.med u101E.med.thai u101F.med u101F.sml u1020.med.thai u1021.med u103F.med u1075.med.aiph u107A.med.aiph uAA61.med.aiph uAA61.med.kham uAA6B.med.aiph uAA6B.med.kham uAA6C.med.kham] <anchor 235 -53> @BSM_MarkBase;
+@BSM_MarkBase = [u1000.med u1000.med.aiph u1001.med u1003.med u1003.med.thai u1006.med u1009.med u100A.med u100B.med u100B.med.thai u100C.med u100C.med.thai u100D.med u100D.med.thai u100E.med u100E.med.thai u100F.med u1010.med u1010.med.aiph u1010.sml u1010_u103D.med u1011.med u1011.med.aiph u1012.med u1013.med u1014.med u1014.med.thai u1015.med u1016.med u1017.med u1018.med u1019.med u101A.med u101A.med.aiph u101B.med u101C.med u101C.med.aiph u101E.med u101E.med.thai u101F.med u101F.sml u1020.med.thai u1021.med u103F.med u1000.sml u1009.sml u100C.sml u100F.sml u101A.sml u101C.sml u1020.sml u1021.sml u103F.sml u1001.sml u1002.med u1002.sml u1016.sml u1050.med u1050.sml u1051.med u1051.sml u1003.sml u100A.sml u1018.sml u101E.sml u101F.small u1004.med u1004.sml u100E.sml u103D.sml u1005.med u101D.med u1082 u1005.sml u1008.sml u1013.sml u101B.sml u101D.sml u1006.sml u1011.sml u1007.med u1007.sml u1014.sml u1020.med u100B.sml u100D.sml u1010_u103D.med.tri u1012.med.thai u1012.sml u1015.sml u1017.sml u1019.sml u102F.med u102F_u108D u1030.med u1030_u108D u1039 u103D u103D_u1060 u103E u103D.tri u103D_u103E u103D_u103E.small u103D_u103E.small.tri u103D_u103E.tri u103D_u108D u103E.alt u103E.slanth u103E_u1060 u103E.slantr u103E_u102F u103E_u102F.slanth u103E_u102F.slantr u103E_u1030 u103E_u1030.slanth u103E_u1030.slantr u1058 u1059 u105A.med u105C.med u105E u105F u1060 u1082_u108D u108D uAA60.med];
+# baseClass [u1000.med u1000.med.aiph u1001.med u1003.med u1003.med.thai u1006.med u1009.med u100A.med u100B.med u100B.med.thai u100C.med u100C.med.thai u100D.med u100D.med.thai u100E.med u100E.med.thai u100F.med u1010.med u1010.med.aiph u1010.sml u1010_u103D.med u1011.med u1011.med.aiph u1012.med u1013.med u1014.med u1014.med.thai u1015.med u1016.med u1017.med u1018.med u1019.med u101A.med u101A.med.aiph u101B.med u101C.med u101C.med.aiph u101E.med u101E.med.thai u101F.med u101F.sml u1020.med.thai u1021.med u103F.med] <anchor 235 -53> @BSM_MarkBase;
 # baseClass [u1000.sml u1009.sml u100C.sml u100F.sml u101A.sml u101C.sml u1020.sml u1021.sml u103F.sml] <anchor 54 -114> @BSM_MarkBase;
 # baseClass [u1001.sml u1002.med u1002.sml u1016.sml u1050.med u1050.sml u1051.med u1051.sml] <anchor 565 -53> @BSM_MarkBase;
 # baseClass [u1003.sml u100A.sml u1018.sml u101E.sml u101F.small] <anchor 57 -114> @BSM_MarkBase;
-# baseClass [u1004.med u1004.med.kham] <anchor 111 -53> @BSM_MarkBase;
+# baseClass u1004.med <anchor 111 -53> @BSM_MarkBase;
 # baseClass [u1004.sml u100E.sml u103D.sml] <anchor 36 -114> @BSM_MarkBase;
 # baseClass [u1005.med u101D.med u1082] <anchor 556 -53> @BSM_MarkBase;
-# baseClass [u1005.sml u1008.sml u1008.sml.low u1013.sml u101B.sml u101D.sml] <anchor 101 -114> @BSM_MarkBase;
+# baseClass [u1005.sml u1008.sml u1013.sml u101B.sml u101D.sml] <anchor 101 -114> @BSM_MarkBase;
 # baseClass [u1006.sml u1011.sml] <anchor 55 -114> @BSM_MarkBase;
 # baseClass [u1007.med u1007.sml u1014.sml u1020.med] <anchor 532 -53> @BSM_MarkBase;
 # baseClass [u100B.sml u100D.sml] <anchor 125 -131> @BSM_MarkBase;
@@ -607,7 +595,6 @@ markClass uAA70 <anchor -280 495> @_U;
 # baseClass u1012.sml <anchor 103 -114> @BSM_MarkBase;
 # baseClass [u1015.sml u1017.sml] <anchor 100 -116> @BSM_MarkBase;
 # baseClass u1019.sml <anchor 100 -117> @BSM_MarkBase;
-# baseClass u101C.med_u103D <anchor 91 -53> @BSM_MarkBase;
 # baseClass [u102F.med u102F_u108D] <anchor 81 -53> @BSM_MarkBase;
 # baseClass [u1030.med u1030_u108D] <anchor 154 -53> @BSM_MarkBase;
 # baseClass u1039 <anchor -178 -53> @BSM_MarkBase;
@@ -633,30 +620,30 @@ markClass uAA70 <anchor -280 495> @_U;
 # baseClass u1060 <anchor -556 -53> @BSM_MarkBase;
 # baseClass u1082_u108D <anchor 76 -53> @BSM_MarkBase;
 # baseClass u108D <anchor -89 -53> @BSM_MarkBase;
-# baseClass [uAA60.med uAA60.med.kham] <anchor 68 -53> @BSM_MarkBase;
+# baseClass uAA60.med <anchor 68 -53> @BSM_MarkBase;
 
 # AP: LLM
-@LLM_MarkBase = [u1000.med u1000.med.aiph u1000.sml u1009.sml u100C.sml u100F.sml u101A.sml u101C.sml u1020.sml u1021.sml u103F.sml u1001.med u1005.med u1013.med u101D.med u105C.med u1001.sml u1002.med u1002.sml u1015.med u1015.med.kham u1016.med u1016.sml u1019.med u1019.med.kham u1050.sml u1051.sml uAA6B.med.aiph uAA6B.med.kham u1003.med u1003.med.thai u1003.sml u100A.sml u1018.sml u101E.sml u101F.small u1004.med u1004.med.kham u1004.sml u100E.sml u103D.sml u1005.sml u1008.sml u1008.sml.low u1013.sml u101B.sml u101D.sml u1006.med u1011.med u1011.med.aiph u101E.med u101E.med.thai u1021.med u103F.med u1006.sml u1011.sml u1007.med u1007.sml u1014.sml u1020.med u1009.med u100A.med u1009.med.alt u100C.med u100B.med u1020.med.thai u100B.med.thai u100C.med.thai u100E.med u100E.med.thai u100B.sml u100D.sml u100D.med u100D.med.thai u100F.med u1010.med u1010.med.aiph u1010.sml u101F.med u101F.sml u1075.med.aiph uAA61.med.aiph uAA61.med.kham uAA6C.med.kham u1010_u103D.med u1010_u103D.med.tri u1012.med u1012.med.thai u1012.sml u1014.med u1014.med.thai u1015.sml u1017.sml u1017.med u1018.med u1019.sml u101A.med u101A.med.aiph u101B.med u101C.med u101C.med.aiph u107A.med.aiph u101C.med_u103D u102F.med u102F_u108D u1030_u108D u1058 u108D u1030.med u1039 u103D u103D.tri u103D_u103E u103D_u103E.tri u103D_u1060 u103D_u108D u1060 u103E u105E u105F u103E.alt u103E.slanth u103E.slantr u103E_u1060 u103E_u102F u103E_u102F.slanth u103E_u102F.slantr u103E_u1030.slanth u103E_u1030.slantr u103E_u1030 u1050.med u1051.med u1059 u105A.med u1082 u1082_u108D uAA60.med uAA60.med.kham];
+@LLM_MarkBase = [u1000.med u1000.med.aiph u1000.sml u1009.sml u100C.sml u100F.sml u101A.sml u101C.sml u1020.sml u1021.sml u103F.sml u1001.med u1005.med u1013.med u101D.med u105C.med u1001.sml u1002.med u1002.sml u1015.med u1016.med u1016.sml u1019.med u1050.sml u1051.sml u1003.med u1003.med.thai u1003.sml u100A.sml u1018.sml u101E.sml u101F.small u1004.med u1004.sml u100E.sml u103D.sml u1005.sml u1008.sml u1013.sml u101B.sml u101D.sml u1006.med u1011.med u1011.med.aiph u101E.med u101E.med.thai u1021.med u103F.med u1006.sml u1011.sml u1007.med u1007.sml u1014.sml u1020.med u1009.med u100A.med u100B.med u1020.med.thai u100B.med.thai u100C.med.thai u100E.med u100E.med.thai u100B.sml u100D.sml u100C.med u100D.med u100D.med.thai u100F.med u1010.med u1010.med.aiph u1010.sml u101F.med u101F.sml u1010_u103D.med u1010_u103D.med.tri u1012.med u1012.med.thai u1012.sml u1014.med u1014.med.thai u1015.sml u1017.sml u1017.med u1018.med u1019.sml u101A.med u101A.med.aiph u101B.med u101C.med u101C.med.aiph u102F.med u102F_u108D u1030_u108D u1058 u108D u1030.med u1039 u103D u103D.tri u103D_u103E u103D_u103E.tri u103D_u1060 u103D_u108D u1060 u103E u105E u105F u103E.alt u103E.slanth u103E.slantr u103E_u1060 u103E_u102F u103E_u102F.slanth u103E_u102F.slantr u103E_u1030.slanth u103E_u1030.slantr u103E_u1030 u1050.med u1051.med u1059 u105A.med u1082 u1082_u108D uAA60.med];
 # baseClass [u1000.med u1000.med.aiph] <anchor -872 -53> @LLM_MarkBase;
 # baseClass [u1000.sml u1009.sml u100C.sml u100F.sml u101A.sml u101C.sml u1020.sml u1021.sml u103F.sml] <anchor -737 -114> @LLM_MarkBase;
 # baseClass [u1001.med u1005.med u1013.med u101D.med u105C.med] <anchor -557 -53> @LLM_MarkBase;
-# baseClass [u1001.sml u1002.med u1002.sml u1015.med u1015.med.kham u1016.med u1016.sml u1019.med u1019.med.kham u1050.sml u1051.sml uAA6B.med.aiph uAA6B.med.kham] <anchor -566 -53> @LLM_MarkBase;
+# baseClass [u1001.sml u1002.med u1002.sml u1015.med u1016.med u1016.sml u1019.med u1050.sml u1051.sml] <anchor -566 -53> @LLM_MarkBase;
 # baseClass [u1003.med u1003.med.thai] <anchor -884 -53> @LLM_MarkBase;
 # baseClass [u1003.sml u100A.sml u1018.sml u101E.sml u101F.small] <anchor -738 -114> @LLM_MarkBase;
-# baseClass [u1004.med u1004.med.kham] <anchor -495 -53> @LLM_MarkBase;
+# baseClass u1004.med <anchor -495 -53> @LLM_MarkBase;
 # baseClass [u1004.sml u100E.sml u103D.sml] <anchor -464 -114> @LLM_MarkBase;
-# baseClass [u1005.sml u1008.sml u1008.sml.low u1013.sml u101B.sml u101D.sml] <anchor -465 -114> @LLM_MarkBase;
+# baseClass [u1005.sml u1008.sml u1013.sml u101B.sml u101D.sml] <anchor -465 -114> @LLM_MarkBase;
 # baseClass [u1006.med u1011.med u1011.med.aiph u101E.med u101E.med.thai u1021.med u103F.med] <anchor -878 -53> @LLM_MarkBase;
 # baseClass [u1006.sml u1011.sml] <anchor -740 -114> @LLM_MarkBase;
 # baseClass [u1007.med u1007.sml u1014.sml u1020.med] <anchor -596 -53> @LLM_MarkBase;
 # baseClass [u1009.med u100A.med] <anchor -832 -53> @LLM_MarkBase;
-# baseClass [u1009.med.alt u100C.med] <anchor -900 -53> @LLM_MarkBase;
 # baseClass [u100B.med u1020.med.thai] <anchor -416 -53> @LLM_MarkBase;
 # baseClass [u100B.med.thai u100C.med.thai u100E.med u100E.med.thai] <anchor -559 -53> @LLM_MarkBase;
 # baseClass [u100B.sml u100D.sml] <anchor -340 -131> @LLM_MarkBase;
+# baseClass u100C.med <anchor -900 -53> @LLM_MarkBase;
 # baseClass [u100D.med u100D.med.thai] <anchor -465 -53> @LLM_MarkBase;
 # baseClass u100F.med <anchor -908 -53> @LLM_MarkBase;
-# baseClass [u1010.med u1010.med.aiph u1010.sml u101F.med u101F.sml u1075.med.aiph uAA61.med.aiph uAA61.med.kham uAA6C.med.kham] <anchor -867 -53> @LLM_MarkBase;
+# baseClass [u1010.med u1010.med.aiph u1010.sml u101F.med u101F.sml] <anchor -867 -53> @LLM_MarkBase;
 # baseClass u1010_u103D.med <anchor -553 -53> @LLM_MarkBase;
 # baseClass u1010_u103D.med.tri <anchor -554 -53> @LLM_MarkBase;
 # baseClass u1012.med <anchor -533 -53> @LLM_MarkBase;
@@ -669,8 +656,7 @@ markClass uAA70 <anchor -280 495> @_U;
 # baseClass u1019.sml <anchor -472 -117> @LLM_MarkBase;
 # baseClass [u101A.med u101A.med.aiph] <anchor -866 -53> @LLM_MarkBase;
 # baseClass u101B.med <anchor -550 -53> @LLM_MarkBase;
-# baseClass [u101C.med u101C.med.aiph u107A.med.aiph] <anchor -854 -53> @LLM_MarkBase;
-# baseClass u101C.med_u103D <anchor -1257 -53> @LLM_MarkBase;
+# baseClass [u101C.med u101C.med.aiph] <anchor -854 -53> @LLM_MarkBase;
 # baseClass u102F.med <anchor -251 -53> @LLM_MarkBase;
 # baseClass [u102F_u108D u1030_u108D u1058 u108D] <anchor -89 -53> @LLM_MarkBase;
 # baseClass u1030.med <anchor -399 -53> @LLM_MarkBase;
@@ -691,30 +677,29 @@ markClass uAA70 <anchor -280 495> @_U;
 # baseClass u105A.med <anchor -377 -53> @LLM_MarkBase;
 # baseClass u1082 <anchor -770 -53> @LLM_MarkBase;
 # baseClass u1082_u108D <anchor -719 -53> @LLM_MarkBase;
-# baseClass [uAA60.med uAA60.med.kham] <anchor -826 -53> @LLM_MarkBase;
+# baseClass uAA60.med <anchor -826 -53> @LLM_MarkBase;
 
 # AP: LM
-@LM_MarkBase = [u1000.med u1000.med.aiph u1001.med u1001.sml u1002.med u1002.sml u1003.med u1003.med.thai u1005.med u1006.med u100B.med u100F.med u1010_u103D.med.tri u1011.med u1011.med.aiph u1013.med u1015.med u1015.med.kham u1016.med u1016.sml u1017.med u1018.med u1019.med u1019.med.kham u101C.med u101C.med.aiph u101D.med u1020.med.thai u103D_u103E u1050.sml u1051.sml u105A.med u105C.med u107A.med.aiph uAA6B.med.aiph uAA6B.med.kham u1000.sml u1003.sml u1009.sml u100A.sml u100C.sml u100F.sml u1018.sml u101A.sml u101C.sml u101E.sml u101F.small u1020.sml u1021.sml u103F.sml u1004.med u1004.med.kham u101A.med u101A.med.aiph u1004.sml u100E.sml u103D.sml u1005.sml u1008.sml u1008.sml.low u1013.sml u101B.sml u101D.sml u1006.sml u1011.sml u1007.med u1007.sml u1014.sml u1020.med u1082 u1009.med u100A.med u1009.med.alt u100C.med u1010_u103D.med u1014.med u1014.med.thai u1030.med u103D u103D_u1060 u103D_u108D u103E u105E u105F u100B.med.thai u100C.med.thai u100E.med u100E.med.thai u100B.sml u100D.sml u100D.med u100D.med.thai u1010.med u1010.med.aiph u1010.sml u101F.med u101F.sml u1075.med.aiph uAA61.med.aiph uAA61.med.kham uAA6C.med.kham u1012.med u103D.tri u103D_u103E.tri u1012.med.thai u1012.sml u1015.sml u1017.sml u1019.sml u101B.med u101C.med_u103D u101E.med u101E.med.thai u1021.med u103F.med u102F.med u102F_u108D u1030_u108D u1039 u103E.alt u103E.slanth u103E_u1060 u103E.slantr u103E_u102F u103E_u1030 u103E_u102F.slanth u103E_u102F.slantr u103E_u1030.slanth u103E_u1030.slantr u1050.med u1051.med u1058 u1059 u1060 u1082_u108D u108D uAA60.med uAA60.med.kham];
-# baseClass [u1000.med u1000.med.aiph u1001.med u1001.sml u1002.med u1002.sml u1003.med u1003.med.thai u1005.med u1006.med u100B.med u100F.med u1010_u103D.med.tri u1011.med u1011.med.aiph u1013.med u1015.med u1015.med.kham u1016.med u1016.sml u1017.med u1018.med u1019.med u1019.med.kham u101C.med u101C.med.aiph u101D.med u1020.med.thai u103D_u103E u1050.sml u1051.sml u105A.med u105C.med u107A.med.aiph uAA6B.med.aiph uAA6B.med.kham] <anchor 88 -53> @LM_MarkBase;
+@LM_MarkBase = [u1000.med u1000.med.aiph u1001.med u1001.sml u1002.med u1002.sml u1003.med u1003.med.thai u1005.med u1006.med u100B.med u100F.med u1010_u103D.med.tri u1011.med u1011.med.aiph u1013.med u1015.med u1016.med u1016.sml u1017.med u1018.med u1019.med u101C.med u101C.med.aiph u101D.med u1020.med.thai u103D_u103E u1050.sml u1051.sml u105A.med u105C.med u1000.sml u1003.sml u1009.sml u100A.sml u100C.sml u100F.sml u1018.sml u101A.sml u101C.sml u101E.sml u101F.small u1020.sml u1021.sml u103F.sml u1004.med u101A.med u101A.med.aiph u1004.sml u100E.sml u103D.sml u1005.sml u1008.sml u1013.sml u101B.sml u101D.sml u1006.sml u1011.sml u1007.med u1007.sml u1014.sml u1020.med u1082 u1009.med u100A.med u100B.med.thai u100C.med.thai u100E.med u100E.med.thai u100B.sml u100D.sml u100C.med u1010_u103D.med u1014.med u1014.med.thai u1030.med u103D u103D_u1060 u103D_u108D u103E u105E u105F u100D.med u100D.med.thai u1010.med u1010.med.aiph u1010.sml u101F.med u101F.sml u1012.med u103D.tri u103D_u103E.tri u1012.med.thai u1012.sml u1015.sml u1017.sml u1019.sml u101B.med u101E.med u101E.med.thai u1021.med u103F.med u102F.med u102F_u108D u1030_u108D u1039 u103E.alt u103E.slanth u103E_u1060 u103E.slantr u103E_u102F u103E_u1030 u103E_u102F.slanth u103E_u102F.slantr u103E_u1030.slanth u103E_u1030.slantr u1050.med u1051.med u1058 u1059 u1060 u1082_u108D u108D uAA60.med];
+# baseClass [u1000.med u1000.med.aiph u1001.med u1001.sml u1002.med u1002.sml u1003.med u1003.med.thai u1005.med u1006.med u100B.med u100F.med u1010_u103D.med.tri u1011.med u1011.med.aiph u1013.med u1015.med u1016.med u1016.sml u1017.med u1018.med u1019.med u101C.med u101C.med.aiph u101D.med u1020.med.thai u103D_u103E u1050.sml u1051.sml u105A.med u105C.med] <anchor 88 -53> @LM_MarkBase;
 # baseClass [u1000.sml u1003.sml u1009.sml u100A.sml u100C.sml u100F.sml u1018.sml u101A.sml u101C.sml u101E.sml u101F.small u1020.sml u1021.sml u103F.sml] <anchor -51 -114> @LM_MarkBase;
-# baseClass [u1004.med u1004.med.kham u101A.med u101A.med.aiph] <anchor 69 -53> @LM_MarkBase;
+# baseClass [u1004.med u101A.med u101A.med.aiph] <anchor 69 -53> @LM_MarkBase;
 # baseClass [u1004.sml u100E.sml u103D.sml] <anchor -3 -114> @LM_MarkBase;
-# baseClass [u1005.sml u1008.sml u1008.sml.low u1013.sml u101B.sml u101D.sml] <anchor -4 -114> @LM_MarkBase;
+# baseClass [u1005.sml u1008.sml u1013.sml u101B.sml u101D.sml] <anchor -4 -114> @LM_MarkBase;
 # baseClass [u1006.sml u1011.sml] <anchor -50 -114> @LM_MarkBase;
 # baseClass [u1007.med u1007.sml u1014.sml u1020.med u1082] <anchor 25 -53> @LM_MarkBase;
 # baseClass [u1009.med u100A.med] <anchor 110 -53> @LM_MarkBase;
-# baseClass [u1009.med.alt u100C.med u1010_u103D.med u1014.med u1014.med.thai u1030.med u103D u103D_u1060 u103D_u108D u103E u105E u105F] <anchor 89 -53> @LM_MarkBase;
 # baseClass [u100B.med.thai u100C.med.thai u100E.med u100E.med.thai] <anchor 95 -53> @LM_MarkBase;
 # baseClass [u100B.sml u100D.sml] <anchor 20 -131> @LM_MarkBase;
+# baseClass [u100C.med u1010_u103D.med u1014.med u1014.med.thai u1030.med u103D u103D_u1060 u103D_u108D u103E u105E u105F] <anchor 89 -53> @LM_MarkBase;
 # baseClass [u100D.med u100D.med.thai] <anchor 50 -53> @LM_MarkBase;
-# baseClass [u1010.med u1010.med.aiph u1010.sml u101F.med u101F.sml u1075.med.aiph uAA61.med.aiph uAA61.med.kham uAA6C.med.kham] <anchor 104 -53> @LM_MarkBase;
+# baseClass [u1010.med u1010.med.aiph u1010.sml u101F.med u101F.sml] <anchor 104 -53> @LM_MarkBase;
 # baseClass [u1012.med u103D.tri u103D_u103E.tri] <anchor 82 -53> @LM_MarkBase;
 # baseClass u1012.med.thai <anchor 80 -53> @LM_MarkBase;
 # baseClass u1012.sml <anchor -6 -114> @LM_MarkBase;
 # baseClass [u1015.sml u1017.sml] <anchor -5 -116> @LM_MarkBase;
 # baseClass u1019.sml <anchor -5 -117> @LM_MarkBase;
 # baseClass u101B.med <anchor 97 -53> @LM_MarkBase;
-# baseClass u101C.med_u103D <anchor 91 -53> @LM_MarkBase;
 # baseClass [u101E.med u101E.med.thai u1021.med u103F.med] <anchor 85 -53> @LM_MarkBase;
 # baseClass u102F.med <anchor 130 -53> @LM_MarkBase;
 # baseClass u102F_u108D <anchor 250 -53> @LM_MarkBase;
@@ -734,7 +719,7 @@ markClass uAA70 <anchor -280 495> @_U;
 # baseClass u1060 <anchor -30 -53> @LM_MarkBase;
 # baseClass u1082_u108D <anchor 76 -53> @LM_MarkBase;
 # baseClass u108D <anchor 585 -53> @LM_MarkBase;
-# baseClass [uAA60.med uAA60.med.kham] <anchor 68 -53> @LM_MarkBase;
+# baseClass uAA60.med <anchor 68 -53> @LM_MarkBase;
 
 # AP: _BD
 markClass [u1000.med u1000.med.aiph u1018.med] <anchor -393 -53> @_BD;
@@ -743,16 +728,15 @@ markClass [u1003.med u1003.med.thai] <anchor -401 -53> @_BD;
 markClass [u1003.sml u100A.sml u1018.sml u101E.sml] <anchor -394 -100> @_BD;
 markClass [u1006.med u1011.med u1011.med.aiph] <anchor -395 -53> @_BD;
 markClass [u1009.med u100A.med] <anchor -368 -53> @_BD;
-markClass [u1009.med.alt u100C.med] <anchor -405 -53> @_BD;
+markClass u100C.med <anchor -405 -53> @_BD;
 markClass u100F.med <anchor -410 -53> @_BD;
-markClass [u1010.med u1010.med.aiph u101F.med u1075.med.aiph uAA61.med.aiph uAA61.med.kham uAA6C.med.kham] <anchor -379 -53> @_BD;
+markClass [u1010.med u1010.med.aiph u101F.med] <anchor -379 -53> @_BD;
 markClass [u1010.sml u101F.sml] <anchor -379 -100> @_BD;
 markClass [u101A.med u101A.med.aiph] <anchor -392 -53> @_BD;
-markClass [u101C.med u101C.med.aiph u107A.med.aiph] <anchor -390 -53> @_BD;
-markClass u101C.med_u103D <anchor -560 -53> @_BD;
+markClass [u101C.med u101C.med.aiph] <anchor -390 -53> @_BD;
 markClass [u101E.med u101E.med.thai u1021.med u103F.med] <anchor -396 -53> @_BD;
 markClass u101F.small <anchor -394 -114> @_BD;
-markClass [uAA60.med uAA60.med.kham] <anchor -382 -53> @_BD;
+markClass uAA60.med <anchor -382 -53> @_BD;
 
 # AP: _BDM
 markClass [u1000.med u1000.med.aiph u1018.med] <anchor -393 -53> @_BDM;
@@ -761,24 +745,23 @@ markClass [u1003.med u1003.med.thai] <anchor -401 -53> @_BDM;
 markClass [u1003.sml u100A.sml u1018.sml u101E.sml u101F.small] <anchor -394 -114> @_BDM;
 markClass [u1006.med u1011.med u1011.med.aiph] <anchor -395 -53> @_BDM;
 markClass [u1009.med u100A.med] <anchor -368 -53> @_BDM;
-markClass [u1009.med.alt u100C.med] <anchor -405 -53> @_BDM;
+markClass u100C.med <anchor -405 -53> @_BDM;
 markClass u100F.med <anchor -410 -53> @_BDM;
-markClass [u1010.med u1010.med.aiph u1010.sml u101F.med u101F.sml u1075.med.aiph uAA61.med.aiph uAA61.med.kham uAA6C.med.kham] <anchor -379 -53> @_BDM;
+markClass [u1010.med u1010.med.aiph u1010.sml u101F.med u101F.sml] <anchor -379 -53> @_BDM;
 markClass [u101A.med u101A.med.aiph] <anchor -392 -53> @_BDM;
-markClass [u101C.med u101C.med.aiph u107A.med.aiph] <anchor -390 -53> @_BDM;
-markClass u101C.med_u103D <anchor -560 -53> @_BDM;
+markClass [u101C.med u101C.med.aiph] <anchor -390 -53> @_BDM;
 markClass [u101E.med u101E.med.thai u1021.med u103F.med] <anchor -396 -53> @_BDM;
-markClass [uAA60.med uAA60.med.kham] <anchor -382 -53> @_BDM;
+markClass uAA60.med <anchor -382 -53> @_BDM;
 
 # AP: _BS
 markClass [u1000.med u1000.med.aiph] <anchor -393 -53> @_BS;
 markClass [u1000.sml u1009.sml u100C.sml u100F.sml u1011.sml u101A.sml u101C.sml u1020.sml u1021.sml u103F.sml] <anchor -395 -100> @_BS;
 markClass u1001.med <anchor -237 -53> @_BS;
 markClass [u1001.sml u1002.sml u1015.sml u1016.sml u1017.sml u1019.sml u1050.sml u1051.sml] <anchor -239 -100> @_BS;
-markClass [u1002.med u100B.med.thai u100C.med.thai u100E.med u100E.med.thai u1015.med u1015.med.kham u1016.med u1019.med u1019.med.kham uAA6B.med.aiph uAA6B.med.kham] <anchor -239 -53> @_BS;
+markClass [u1002.med u100B.med.thai u100C.med.thai u100E.med u100E.med.thai u1015.med u1016.med u1019.med] <anchor -239 -53> @_BS;
 markClass [u1003.med u1003.med.thai] <anchor -401 -53> @_BS;
 markClass [u1003.sml u100A.sml u1018.sml u101E.sml] <anchor -51 -100> @_BS;
-markClass [u1004.med u1004.med.kham] <anchor -216 -53> @_BS;
+markClass u1004.med <anchor -216 -53> @_BS;
 markClass [u1004.sml u100E.sml u103D.sml] <anchor -233 -100> @_BS;
 markClass [u1005.med u1013.med u101D.med u103D_u103E u105C.med] <anchor -234 -53> @_BS;
 markClass [u1005.sml u1008.sml u1013.sml u101B.sml u101D.sml] <anchor -234 -100> @_BS;
@@ -786,14 +769,13 @@ markClass u1006.med <anchor 877 -53> @_BS;
 markClass u1006.sml <anchor 514 -100> @_BS;
 markClass [u1007.med u1020.med] <anchor -283 -53> @_BS;
 markClass [u1007.sml u1014.sml] <anchor -283 -100> @_BS;
-markClass u1008.sml.low <anchor -234 -114> @_BS;
 markClass [u1009.med u100A.med] <anchor 839 -53> @_BS;
-markClass [u1009.med.alt u100C.med] <anchor 900 -53> @_BS;
 markClass u100B.med <anchor -161 -53> @_BS;
 markClass [u100B.sml u100D.sml] <anchor -158 -100> @_BS;
+markClass u100C.med <anchor 900 -53> @_BS;
 markClass [u100D.med u100D.med.thai] <anchor -204 -53> @_BS;
 markClass u100F.med <anchor -410 -53> @_BS;
-markClass [u1010.med u1010.med.aiph u101F.med u1075.med.aiph uAA61.med.aiph uAA61.med.kham uAA6C.med.kham] <anchor -379 -53> @_BS;
+markClass [u1010.med u1010.med.aiph u101F.med] <anchor -379 -53> @_BS;
 markClass [u1010.sml u101F.sml] <anchor -379 -100> @_BS;
 markClass u1010_u103D.med <anchor -231 -53> @_BS;
 markClass u1010_u103D.med.tri <anchor -231 -51> @_BS;
@@ -803,7 +785,7 @@ markClass u1012.med.thai <anchor -227 -53> @_BS;
 markClass u1012.sml <anchor -225 -100> @_BS;
 markClass [u1014.med u1014.med.thai] <anchor -210 -53> @_BS;
 markClass u1017.med <anchor -240 -53> @_BS;
-markClass [u1018.med u101C.med u101C.med.aiph u107A.med.aiph] <anchor 88 -53> @_BS;
+markClass [u1018.med u101C.med u101C.med.aiph] <anchor 88 -53> @_BS;
 markClass [u101A.med u101A.med.aiph] <anchor 69 -53> @_BS;
 markClass u101B.med <anchor -217 -53> @_BS;
 markClass [u101E.med u101E.med.thai u1021.med u103F.med] <anchor 85 -53> @_BS;
@@ -836,22 +818,22 @@ markClass u108D <anchor 290 -53> @_BS;
 markClass [u1000.med u1000.med.aiph] <anchor -393 -53> @_BSM;
 markClass [u1000.sml u1009.sml u100C.sml u100F.sml u1011.sml u101A.sml u101C.sml u1020.sml u1021.sml u103F.sml] <anchor -395 -114> @_BSM;
 markClass u1001.med <anchor -237 -53> @_BSM;
-markClass [u1001.sml u1002.med u1002.sml u100B.med.thai u100C.med.thai u100E.med u100E.med.thai u1015.med u1015.med.kham u1016.med u1016.sml u1019.med u1019.med.kham u1050.sml u1051.sml uAA6B.med.aiph uAA6B.med.kham] <anchor -239 -53> @_BSM;
+markClass [u1001.sml u1002.med u1002.sml u100B.med.thai u100C.med.thai u100E.med u100E.med.thai u1015.med u1016.med u1016.sml u1019.med u1050.sml u1051.sml] <anchor -239 -53> @_BSM;
 markClass [u1003.med u1003.med.thai] <anchor -401 -53> @_BSM;
 markClass [u1003.sml u100A.sml u1018.sml u101E.sml u101F.small] <anchor -51 -114> @_BSM;
-markClass [u1004.med u1004.med.kham] <anchor -216 -53> @_BSM;
+markClass u1004.med <anchor -216 -53> @_BSM;
 markClass [u1004.sml u100E.sml u103D.sml] <anchor -233 -114> @_BSM;
 markClass [u1005.med u1013.med u101D.med u103D_u103E u105C.med] <anchor -234 -53> @_BSM;
-markClass [u1005.sml u1008.sml u1008.sml.low u1013.sml u101B.sml u101D.sml] <anchor -234 -114> @_BSM;
+markClass [u1005.sml u1008.sml u1013.sml u101B.sml u101D.sml] <anchor -234 -114> @_BSM;
 markClass u1006.med <anchor 877 -53> @_BSM;
 markClass u1006.sml <anchor 514 -114> @_BSM;
 markClass [u1007.med u1007.sml u1014.sml u1020.med] <anchor -283 -53> @_BSM;
 markClass [u1009.med u100A.med] <anchor 839 -53> @_BSM;
-markClass [u1009.med.alt u100C.med] <anchor 900 -53> @_BSM;
 markClass u100B.med <anchor -161 -53> @_BSM;
 markClass [u100B.sml u100D.sml] <anchor -158 -131> @_BSM;
+markClass u100C.med <anchor 900 -53> @_BSM;
 markClass u100F.med <anchor -410 -53> @_BSM;
-markClass [u1010.med u1010.med.aiph u1010.sml u101F.med u101F.sml u1075.med.aiph uAA61.med.aiph uAA61.med.kham uAA6C.med.kham] <anchor -379 -53> @_BSM;
+markClass [u1010.med u1010.med.aiph u1010.sml u101F.med u101F.sml] <anchor -379 -53> @_BSM;
 markClass u1010_u103D.med <anchor -231 -53> @_BSM;
 markClass u1010_u103D.med.tri <anchor -231 -51> @_BSM;
 markClass [u1011.med u1011.med.aiph] <anchor -395 -53> @_BSM;
@@ -861,7 +843,7 @@ markClass u1012.sml <anchor -225 -114> @_BSM;
 markClass [u1014.med u1014.med.thai] <anchor -210 -53> @_BSM;
 markClass [u1015.sml u1017.sml] <anchor -239 -116> @_BSM;
 markClass u1017.med <anchor -240 -53> @_BSM;
-markClass [u1018.med u101C.med u101C.med.aiph u107A.med.aiph] <anchor 88 -53> @_BSM;
+markClass [u1018.med u101C.med u101C.med.aiph] <anchor 88 -53> @_BSM;
 markClass u1019.sml <anchor -239 -117> @_BSM;
 markClass [u101A.med u101A.med.aiph] <anchor 69 -53> @_BSM;
 markClass u101B.med <anchor -217 -53> @_BSM;
@@ -938,15 +920,15 @@ markClass u1021.sml <anchor -418 -71> @_SJ;
 markClass u103D.sml <anchor -234 -71> @_SJ;
 
 # AP: LL
-@LL = [u1000_u1001_u103B u1008 u1009 u100B.alt u101B u1051_u100C u1051_u100D uAA65 uAA65.kham uAA77 uAA77.aiph uAA79 uAA79.aiph u100D u1020.long u100D_u100E u100F_u100B u100F_u100D u101B.alt u101B.long u101B_u103B u1023 u103B u103B_u103D u103B_u103D_u103E u103B_u103D_u103E.tri u105B.med u103B_u103D.tri u103B_u103E u103C u103C.aiph u103C.alt.narr u103C.alt.wide u103C.wide u103C.wide.aiph u103C_u102F.alt.narr u103C_u102F.narr u103C_u102F.alt.wide u103C_u102F.wide u103C_u103D.alt.wide u103C_u103D.wide u103C_u103D.alt.wide.tri u103C_u103D.wide.tri u103C_u103D.narr u1061 u1061.slanth u1061.slantr u1066 u1066.slantr u1066.slanth u107A u107A.aiph u107A.alt.aiph];
+@LL = [u1000_u1001_u103B u1008 u1009 u100D u100D_u100E u100F_u100B u100F_u100D u101B u1051_u100C u1051_u100D uAA65 uAA65.kham uAA77 uAA77.aiph uAA79 uAA79.aiph u101B.alt u101B.long u101B_u103B u1023 u103B u103B_u103D u103B_u103D_u103E u103B_u103D_u103E.tri u105B.med u103B_u103D.tri u103B_u103E u103C u103C.aiph u103C.alt.narr u103C.alt.wide u103C.wide u103C.wide.aiph u103C_u102F.alt.narr u103C_u102F.narr u103C_u102F.alt.wide u103C_u102F.wide u103C_u103D.alt.wide u103C_u103D.wide u103C_u103D.alt.wide.tri u103C_u103D.wide.tri u103C_u103D.narr u1061 u1061.slanth u1061.slantr u1066 u1066.slantr u1066.slanth u107A u107A.aiph];
 # baseClass u1000_u1001_u103B <anchor 394 -53> @LL;
 # baseClass u1008 <anchor 208 -53> @LL;
 # baseClass u1009 <anchor 724 -53> @LL;
-# baseClass [u100B.alt u101B u1051_u100C u1051_u100D uAA65 uAA65.kham uAA77 uAA77.aiph uAA79 uAA79.aiph] <anchor 292 -53> @LL;
-# baseClass [u100D u1020.long] <anchor 280 -51> @LL;
+# baseClass u100D <anchor 280 -51> @LL;
 # baseClass u100D_u100E <anchor 115 -53> @LL;
 # baseClass u100F_u100B <anchor 372 -53> @LL;
 # baseClass u100F_u100D <anchor 30 -53> @LL;
+# baseClass [u101B u1051_u100C u1051_u100D uAA65 uAA65.kham uAA77 uAA77.aiph uAA79 uAA79.aiph] <anchor 292 -53> @LL;
 # baseClass [u101B.alt u101B.long] <anchor 87 -53> @LL;
 # baseClass u101B_u103B <anchor 112 -53> @LL;
 # baseClass u1023 <anchor 15 -53> @LL;
@@ -964,7 +946,7 @@ markClass u103D.sml <anchor -234 -71> @_SJ;
 # baseClass [u1061 u1061.slanth u1061.slantr] <anchor 190 -53> @LL;
 # baseClass [u1066 u1066.slantr] <anchor 126 -53> @LL;
 # baseClass u1066.slanth <anchor 96 -53> @LL;
-# baseClass [u107A u107A.aiph u107A.alt.aiph] <anchor 286 -53> @LL;
+# baseClass [u107A u107A.aiph] <anchor 286 -53> @LL;
 
 # AP: _Y
 markClass [u1004.kinzi u1004.kinzi_u102D u1004.kinzi_u102E u1004.kinzi_u1033 u1004.kinzi_u103A u101B.kinzi_u102D u101B.kinzi_u102E u102D_u1036 u102D_uAA7C u102E_u1036 u102E_uAA7C u1032_u102D u1032_u102E u103A_uAA7C u1086_uAA7C] <anchor -20 495> @_Y;
@@ -1873,7 +1855,7 @@ lookup kerntall {
 } kerntall;
 
 # def calc_guard
-    @guard_glyphs = [u1001 u1002 u1004 u1005 u1007 u100B.alt u100D u100E u1012 u1013 u1014.alt u1014.alt.thai u1015 u1016 u1017 u1019 u101B u101D u1050 u1051 u105A u105B u105C u105D];
+    @guard_glyphs = [u1001 u1002 u1004 u1005 u1007 u100D u100E u1012 u1013 u1014.alt u1014.alt.thai u1015 u1016 u1017 u1019 u101B u101D u1050 u1051 u105A u105B u105C u105D];
 
 lookup guarda {
             pos u1001 <110 0 210 0>;
@@ -1881,7 +1863,6 @@ lookup guarda {
         pos u1004 <101 0 218 0>;
         pos u1005 <105 0 210 0>;
         pos u1007 <107 0 177 0>;
-        pos u100B.alt <333 0 333 0>;
         pos u100D <242 0 242 0>;
         pos u100E <108 0 209 0>;
         pos u1012 <126 0 252 0>;
@@ -1909,7 +1890,6 @@ lookup guardb {
         pos u1004 <0 0 117 0>;
         pos u1005 <0 0 105 0>;
         pos u1007 <0 0 70 0>;
-        pos u100B.alt <0 0 0 0>;
         pos u100D <0 0 0 0>;
         pos u100E <0 0 101 0>;
         pos u1012 <0 0 126 0>;
@@ -1937,7 +1917,6 @@ lookup guardc {
         pos u1004 <101 0 101 0>;
         pos u1005 <105 0 105 0>;
         pos u1007 <107 0 107 0>;
-        pos u100B.alt <333 0 333 0>;
         pos u100D <242 0 242 0>;
         pos u100E <108 0 108 0>;
         pos u1012 <126 0 126 0>;
@@ -2176,12 +2155,6 @@ lookup guard2 {
         pos u100B u1032_u102E <18 0 154 0>;
         pos u100B u1032_u1036 <63 0 84 0>;
         pos u100B u1085_uAA70 <0 0 406 0>;
-        pos u100B.alt u102D_uAA70 <0 0 428 0>;
-        pos u100B.alt u102E_uAA70 <0 0 431 0>;
-        pos u100B.alt u1032_u102D <12 0 151 0>;
-        pos u100B.alt u1032_u102E <18 0 154 0>;
-        pos u100B.alt u1032_u1036 <63 0 84 0>;
-        pos u100B.alt u1085_uAA70 <0 0 406 0>;
         pos u100B_u100B u102D_uAA70 <0 0 428 0>;
         pos u100B_u100B u102E_uAA70 <0 0 431 0>;
         pos u100B_u100B u1032_u102D <12 0 151 0>;
@@ -2450,12 +2423,6 @@ lookup guard2 {
         pos u1081 u1032_u102E <18 0 155 0>;
         pos u1081 u1032_u1036 <63 0 85 0>;
         pos u1081 u1085_uAA70 <0 0 407 0>;
-        pos u1081.straight u102D_uAA70 <0 0 411 0>;
-        pos u1081.straight u102E_uAA70 <0 0 414 0>;
-        pos u1081.straight u1032_u102D <12 0 134 0>;
-        pos u1081.straight u1032_u102E <18 0 137 0>;
-        pos u1081.straight u1032_u1036 <63 0 67 0>;
-        pos u1081.straight u1085_uAA70 <0 0 389 0>;
         pos uA9FD u102D_uAA70 <0 0 412 0>;
         pos uA9FD u102E_uAA70 <0 0 415 0>;
         pos uA9FD u1032_u102D <12 0 135 0>;
@@ -2536,9 +2503,6 @@ lookup guard2 {
         pos u107A.aiph u1032_u102D <0 0 127 0>;
         pos u107A.aiph u1032_u102E <0 0 124 0>;
         pos u107A.aiph u1085_uAA70 <0 0 394 0>;
-        pos u107A.alt.aiph u102D_uAA70 <0 0 240 0>;
-        pos u107A.alt.aiph u102E_uAA70 <0 0 243 0>;
-        pos u107A.alt.aiph u1085_uAA70 <0 0 218 0>;
         pos u1005 u1004.kinzi.thai <0 0 159 0>;
         pos u1005 u1004.kinzi_u102D <0 0 63 0>;
         pos u1005 u1004.kinzi_u102E <0 0 63 0>;
@@ -2725,12 +2689,6 @@ lookup guard2 {
         pos u100D_u100D u1032_u102E <34 0 154 0>;
         pos u100D_u100D u1032_u1036 <79 0 84 0>;
         pos u100D_u100D u1085_uAA70 <0 0 390 0>;
-        pos u1020.long u102D_uAA70 <0 0 412 0>;
-        pos u1020.long u102E_uAA70 <0 0 415 0>;
-        pos u1020.long u1032_u102D <28 0 151 0>;
-        pos u1020.long u1032_u102E <34 0 154 0>;
-        pos u1020.long u1032_u1036 <79 0 84 0>;
-        pos u1020.long u1085_uAA70 <0 0 390 0>;
         pos u1025 u102D_uAA70 <0 0 412 0>;
         pos u1025 u102E_uAA70 <0 0 415 0>;
         pos u1025 u1032_u102D <28 0 151 0>;
@@ -3606,9 +3564,9 @@ lookup guard2_context {
     # not in any real language test data.
 } guard2_context;
 
-    @guard_bases = [u1000_u1001_u103B u1008 u1008.med u103B u103B_u103D u103B_u103D.tri u103B_u103D_u103E u103B_u103D_u103E.tri u103B_u103E u105B.med u100B u100B_u100B u100C u1020_u1020 u1020_u103E u100B.alt u100B_u100C u1051_u100C u1051_u100D u100D u1020.long u100D_u100D u100D_u100E u100F_u100B u100F_u100D u1014 u1014.thai u1014_u1010_u103B u1014_u1010_u103C u101B u1061 u1061.slanth u1061.slantr uAA79 uAA79.aiph u101B.alt u101B.long u101B_u103B u101E_u1010_u103C u1029 u1020 u1023 u102B u102B.trim u102F u1030 u104C u1062 u1066 u1066.slanth u1066.slantr u106B u1081 u1083];
+    @guard_bases = [u1000_u1001_u103B u1008 u1008.med u103B u103B_u103D u103B_u103D.tri u103B_u103D_u103E u103B_u103D_u103E.tri u103B_u103E u105B.med u100B u100B_u100B u100C u1020_u1020 u1020_u103E u100B_u100C u1051_u100C u1051_u100D u100D u100D_u100D u100D_u100E u100F_u100B u100F_u100D u1014 u1014.thai u1014_u1010_u103B u1014_u1010_u103C u101B u1061 u1061.slanth u1061.slantr uAA79 uAA79.aiph u101B.alt u101B.long u101B_u103B u101E_u1010_u103C u1029 u1020 u1023 u102B u102B.trim u102F u1030 u104C u1062 u1066 u1066.slanth u1066.slantr u106B u1081 u1083];
 
-    @guard_basedots = [u1000.med u1000.med.aiph u1001.med u1001.sml u1002.med u1002.sml u1003.med u1003.med.thai u1005.med u1006.med u100B.med u100F.med u1010_u103D.med.tri u1011.med u1011.med.aiph u1013.med u1015.med u1015.med.kham u1016.med u1016.sml u1017.med u1018.med u1019.med u1019.med.kham u101C.med u101C.med.aiph u101D.med u1020.med.thai u103D_u103E u1050.sml u1051.sml u105A.med u105C.med u107A.med.aiph uAA6B.med.aiph uAA6B.med.kham u1000.sml u1003.sml u1009.sml u100A.sml u100C.sml u100F.sml u1018.sml u101A.sml u101C.sml u101E.sml u101F.small u1020.sml u1021.sml u103F.sml u1004.med u1004.med.kham u101A.med u101A.med.aiph u1004.sml u100E.sml u103D.sml u1005.sml u1013.sml u101B.sml u101D.sml u1006.sml u1011.sml u1007.med u1007.sml u1014.sml u1020.med u1009.med u100A.med u1009.med.alt u100C.med u1010_u103D.med u1014.med u1014.med.thai u1030.med u103D u103D_u1060 u103D_u108D u103E u105E u105F u100B.med.thai u100C.med.thai u100E.med u100E.med.thai u100B.sml u100D.sml u100D.med u100D.med.thai u1010.med u1010.med.aiph u1010.sml u101F.med u101F.sml u1075.med.aiph uAA61.med.aiph uAA61.med.kham uAA6C.med.kham u1012.med u103D.tri u103D_u103E.tri u1012.med.thai u1012.sml u1015.sml u1017.sml u1019.sml u101B.med u101C.med_u103D u101E.med u101E.med.thai u1021.med u103F.med u102F.med u102F_u108D u1030_u108D u1039 u103E.alt u103E.slanth u103E_u1060 u103E.slantr u103E_u102F u103E_u1030 u1050.med u1051.med u1059 u1060 u1082_u108D u108D uAA60.med uAA60.med.kham];
+    @guard_basedots = [u1000.med u1000.med.aiph u1001.med u1001.sml u1002.med u1002.sml u1003.med u1003.med.thai u1005.med u1006.med u100B.med u100F.med u1010_u103D.med.tri u1011.med u1011.med.aiph u1013.med u1015.med u1016.med u1016.sml u1017.med u1018.med u1019.med u101C.med u101C.med.aiph u101D.med u1020.med.thai u103D_u103E u1050.sml u1051.sml u105A.med u105C.med u1000.sml u1003.sml u1009.sml u100A.sml u100C.sml u100F.sml u1018.sml u101A.sml u101C.sml u101E.sml u101F.small u1020.sml u1021.sml u103F.sml u1004.med u101A.med u101A.med.aiph u1004.sml u100E.sml u103D.sml u1005.sml u1013.sml u101B.sml u101D.sml u1006.sml u1011.sml u1007.med u1007.sml u1014.sml u1020.med u1009.med u100A.med u100B.med.thai u100C.med.thai u100E.med u100E.med.thai u100B.sml u100D.sml u100C.med u1010_u103D.med u1014.med u1014.med.thai u1030.med u103D u103D_u1060 u103D_u108D u103E u105E u105F u100D.med u100D.med.thai u1010.med u1010.med.aiph u1010.sml u101F.med u101F.sml u1012.med u103D.tri u103D_u103E.tri u1012.med.thai u1012.sml u1015.sml u1017.sml u1019.sml u101B.med u101E.med u101E.med.thai u1021.med u103F.med u102F.med u102F_u108D u1030_u108D u1039 u103E.alt u103E.slanth u103E_u1060 u103E.slantr u103E_u102F u103E_u1030 u1050.med u1051.med u1059 u1060 u1082_u108D u108D uAA60.med];
 
 lookup guard_dot {
     # wish we could update some notional advance in the base from the previous set of rules
@@ -3628,12 +3586,10 @@ lookup guard_dot {
         pos u100C 218;
         pos u1020_u1020 203;
         pos u1020_u103E 203;
-        pos u100B.alt 203;
         pos u100B_u100C 215;
         pos u1051_u100C 203;
         pos u1051_u100D 203;
         pos u100D 173;
-        pos u1020.long 173;
         pos u100D_u100D 188;
         pos u100D_u100E 20;
         pos u100F_u100B 29;
@@ -3685,13 +3641,11 @@ lookup guard_dot {
         pos u1011.med.aiph 217;
         pos u1013.med 217;
         pos u1015.med 217;
-        pos u1015.med.kham 217;
         pos u1016.med 217;
         pos u1016.sml 217;
         pos u1017.med 217;
         pos u1018.med 217;
         pos u1019.med 217;
-        pos u1019.med.kham 217;
         pos u101C.med 217;
         pos u101C.med.aiph 217;
         pos u101D.med 217;
@@ -3701,9 +3655,6 @@ lookup guard_dot {
         pos u1051.sml 217;
         pos u105A.med 217;
         pos u105C.med 217;
-        pos u107A.med.aiph 217;
-        pos uAA6B.med.aiph 217;
-        pos uAA6B.med.kham 217;
         pos u1000.sml 78;
         pos u1003.sml 78;
         pos u1009.sml 78;
@@ -3719,7 +3670,6 @@ lookup guard_dot {
         pos u1021.sml 78;
         pos u103F.sml 78;
         pos u1004.med 198;
-        pos u1004.med.kham 198;
         pos u101A.med 198;
         pos u101A.med.aiph 198;
         pos u1004.sml 126;
@@ -3737,7 +3687,12 @@ lookup guard_dot {
         pos u1020.med 154;
         pos u1009.med 239;
         pos u100A.med 239;
-        pos u1009.med.alt 218;
+        pos u100B.med.thai 223;
+        pos u100C.med.thai 224;
+        pos u100E.med 224;
+        pos u100E.med.thai 224;
+        pos u100B.sml 149;
+        pos u100D.sml 149;
         pos u100C.med 218;
         pos u1010_u103D.med 218;
         pos u1014.med 218;
@@ -3749,12 +3704,6 @@ lookup guard_dot {
         pos u103E 218;
         pos u105E 218;
         pos u105F 218;
-        pos u100B.med.thai 223;
-        pos u100C.med.thai 224;
-        pos u100E.med 224;
-        pos u100E.med.thai 224;
-        pos u100B.sml 149;
-        pos u100D.sml 149;
         pos u100D.med 179;
         pos u100D.med.thai 179;
         pos u1010.med 233;
@@ -3762,10 +3711,6 @@ lookup guard_dot {
         pos u1010.sml 233;
         pos u101F.med 233;
         pos u101F.sml 233;
-        pos u1075.med.aiph 233;
-        pos uAA61.med.aiph 233;
-        pos uAA61.med.kham 233;
-        pos uAA6C.med.kham 233;
         pos u1012.med 211;
         pos u103D.tri 211;
         pos u103D_u103E.tri 211;
@@ -3775,7 +3720,6 @@ lookup guard_dot {
         pos u1017.sml 124;
         pos u1019.sml 124;
         pos u101B.med 226;
-        pos u101C.med_u103D 220;
         pos u101E.med 214;
         pos u101E.med.thai 214;
         pos u1021.med 214;
@@ -3797,7 +3741,6 @@ lookup guard_dot {
         pos u1082_u108D 150;
         pos u108D 134;
         pos uAA60.med 197;
-        pos uAA60.med.kham 197;
 
 } guard_dot;
 
@@ -3817,12 +3760,10 @@ lookup guard_dot_colon {
         pos u100C 130;
         pos u1020_u1020 121;
         pos u1020_u103E 121;
-        pos u100B.alt 121;
         pos u100B_u100C 129;
         pos u1051_u100C 121;
         pos u1051_u100D 121;
         pos u100D 103;
-        pos u1020.long 103;
         pos u100D_u100D 112;
         pos u100D_u100E 12;
         pos u100F_u100B 17;
@@ -3874,13 +3815,11 @@ lookup guard_dot_colon {
         pos u1011.med.aiph 130;
         pos u1013.med 130;
         pos u1015.med 130;
-        pos u1015.med.kham 130;
         pos u1016.med 130;
         pos u1016.sml 130;
         pos u1017.med 130;
         pos u1018.med 130;
         pos u1019.med 130;
-        pos u1019.med.kham 130;
         pos u101C.med 130;
         pos u101C.med.aiph 130;
         pos u101D.med 130;
@@ -3890,9 +3829,6 @@ lookup guard_dot_colon {
         pos u1051.sml 130;
         pos u105A.med 130;
         pos u105C.med 130;
-        pos u107A.med.aiph 130;
-        pos uAA6B.med.aiph 130;
-        pos uAA6B.med.kham 130;
         pos u1000.sml 46;
         pos u1003.sml 46;
         pos u1009.sml 46;
@@ -3908,7 +3844,6 @@ lookup guard_dot_colon {
         pos u1021.sml 46;
         pos u103F.sml 46;
         pos u1004.med 118;
-        pos u1004.med.kham 118;
         pos u101A.med 118;
         pos u101A.med.aiph 118;
         pos u1004.sml 75;
@@ -3926,7 +3861,12 @@ lookup guard_dot_colon {
         pos u1020.med 92;
         pos u1009.med 143;
         pos u100A.med 143;
-        pos u1009.med.alt 130;
+        pos u100B.med.thai 133;
+        pos u100C.med.thai 134;
+        pos u100E.med 134;
+        pos u100E.med.thai 134;
+        pos u100B.sml 89;
+        pos u100D.sml 89;
         pos u100C.med 130;
         pos u1010_u103D.med 130;
         pos u1014.med 130;
@@ -3938,12 +3878,6 @@ lookup guard_dot_colon {
         pos u103E 130;
         pos u105E 130;
         pos u105F 130;
-        pos u100B.med.thai 133;
-        pos u100C.med.thai 134;
-        pos u100E.med 134;
-        pos u100E.med.thai 134;
-        pos u100B.sml 89;
-        pos u100D.sml 89;
         pos u100D.med 107;
         pos u100D.med.thai 107;
         pos u1010.med 139;
@@ -3951,10 +3885,6 @@ lookup guard_dot_colon {
         pos u1010.sml 139;
         pos u101F.med 139;
         pos u101F.sml 139;
-        pos u1075.med.aiph 139;
-        pos uAA61.med.aiph 139;
-        pos uAA61.med.kham 139;
-        pos uAA6C.med.kham 139;
         pos u1012.med 126;
         pos u103D.tri 126;
         pos u103D_u103E.tri 126;
@@ -3964,7 +3894,6 @@ lookup guard_dot_colon {
         pos u1017.sml 74;
         pos u1019.sml 74;
         pos u101B.med 135;
-        pos u101C.med_u103D 132;
         pos u101E.med 128;
         pos u101E.med.thai 128;
         pos u1021.med 128;
@@ -3986,7 +3915,6 @@ lookup guard_dot_colon {
         pos u1082_u108D 90;
         pos u108D 80;
         pos uAA60.med 118;
-        pos uAA60.med.kham 118;
 
 } guard_dot_colon;
 
@@ -4023,7 +3951,6 @@ lookup dist_103C_Cons {
         pos @class103CWide u1004' <78 0 434 0> @cMedWide;
         pos @class103CWide u1005' <78 0 426 0> @cMedWide;
         pos @class103CWide u1007' <78 0 393 0> @cMedWide;
-        pos @class103CWide u100B.alt' <78 0 434 0> @cMedWide;
         pos @class103CWide u100D' <78 0 434 0> @cMedWide;
         pos @class103CWide u100E' <78 0 425 0> @cMedWide;
         pos @class103CWide u1012' <78 0 468 0> @cMedWide;
@@ -4087,7 +4014,7 @@ lookup dist_SpacingMark {
         pos base [u1000 u1000.aiph u1000.kham u101F u1078.aiph u1078.kham u107D uA9E9 uAA64 uAA64.kham uAA71] <anchor 714 -53> mark @_BS;
         pos base u1000_u1001_u103B <anchor 1236 -53> mark @_BS;
         pos base [u1001 u1045 u1054 u1055 u1090 uA9E0] <anchor 283 -53> mark @_BS;
-        pos base [u1002 u1002.kham u1004 u1004.kham u1015 u1015.kham u1016 u1017 u101B.kham u1027 u1028 u1031 u1031.kham u1040 u1046 u1048 u1049 u1049.thai u1050 u1051 u105A u1066 u1066.slanth u1066.slantr u107F u1081.straight uA9FD] <anchor 292 -53> mark @_BS;
+        pos base [u1002 u1002.kham u1004 u1004.kham u1015 u1015.kham u1016 u1017 u101B.kham u1027 u1028 u1031 u1031.kham u1040 u1046 u1048 u1049 u1049.thai u1050 u1051 u105A u1066 u1066.slanth u1066.slantr u107F uA9FD] <anchor 292 -53> mark @_BS;
         pos base [u1003 u1022 uAA6C.alt] <anchor 712 -53> mark @_BS;
         pos base u1003.thai <anchor 720 -53> mark @_BS;
         pos base [u1005 u108E] <anchor 288 -53> mark @_BS;
@@ -4098,10 +4025,9 @@ lookup dist_SpacingMark {
         pos base [u1009.open u1025 u1063] <anchor 276 -53> mark @_BS;
         pos base [u1009_u102C u100A u100A_u100A] <anchor 1063 -53> mark @_BS;
         pos base [u100B u100B_u100B u100C u1020_u1020 u1020_u103E] <anchor 657 -53> mark @_BS;
-        pos base [u100B.alt u1051_u100C u1051_u100D] <anchor 207 -173> mark @_BS;
         pos base [u100B.thai u100C.thai u1020.thai u1023.thai] <anchor 302 -53> mark @_BS;
         pos base u100B_u100C <anchor 642 -53> mark @_BS;
-        pos base [u100D u1020.long] <anchor 168 -173> mark @_BS;
+        pos base u100D <anchor 168 -173> mark @_BS;
         pos base u100D.thai <anchor 163 -173> mark @_BS;
         pos base u100D_u100D <anchor 627 -53> mark @_BS;
         pos base u100D_u100E <anchor 528 -53> mark @_BS;
@@ -4152,6 +4078,7 @@ lookup dist_SpacingMark {
         pos base u1044 <anchor 297 -53> mark @_BS;
         pos base u104C <anchor 624 -53> mark @_BS;
         pos base u104E <anchor 292 0> mark @_BS;
+        pos base [u1051_u100C u1051_u100D] <anchor 207 -173> mark @_BS;
         pos base u1053 <anchor 315 -53> mark @_BS;
         pos base [u1056 u1057] <anchor 238 -53> mark @_BS;
         pos base u105B <anchor 148 -53> mark @_BS;
@@ -4159,7 +4086,6 @@ lookup dist_SpacingMark {
         pos base [u1061 u1061.slanth u1061.slantr] <anchor 59 -53> mark @_BS;
         pos base [u1062 u1064] <anchor 192 -53> mark @_BS;
         pos base u1062_u103A <anchor 216 -53> mark @_BS;
-        pos base u1063_u103A <anchor 306 -53> mark @_BS;
         pos base [u1067 u106C] <anchor 138 -53> mark @_BS;
         pos base u1068 <anchor 134 -53> mark @_BS;
         pos base u1069 <anchor 180 -53> mark @_BS;
@@ -4173,7 +4099,6 @@ lookup dist_SpacingMark {
         pos base u1076 <anchor 289 -53> mark @_BS;
         pos base [u1079 uA9E2 uAA60 uAA60.kham uAA68] <anchor 645 -53> mark @_BS;
         pos base [u107A u107A.aiph] <anchor 750 -53> mark @_BS;
-        pos base u107A.alt.aiph <anchor 760 -53> mark @_BS;
         pos base u107B <anchor 743 -53> mark @_BS;
         pos base u107E <anchor 424 -53> mark @_BS;
         pos base u1081 <anchor 460 -53> mark @_BS;
@@ -4203,7 +4128,7 @@ lookup dist_SpacingMark {
         pos base [u1000 u1000.aiph u1000.kham u1078.aiph u1078.kham uA9E9 uAA64 uAA64.kham uAA71] <anchor 508 -53> mark @_BD;
         pos base u1000_u1001_u103B <anchor 1236 -53> mark @_BD;
         pos base [u1001 u1045 u1054 u1055 u1090 uA9E0] <anchor 283 -53> mark @_BD;
-        pos base [u1002 u1002.kham u1004 u1004.kham u100B.thai u100C.thai u1015 u1015.kham u1016 u1017 u101B.kham u1020.thai u1023.thai u1027 u1028 u1031 u1031.kham u1040 u1046 u1048 u1049 u1049.thai u1050 u1051 u105A u1066 u1066.slanth u1066.slantr u107F u1081.straight uA9FD] <anchor 292 -53> mark @_BD;
+        pos base [u1002 u1002.kham u1004 u1004.kham u100B.thai u100C.thai u1015 u1015.kham u1016 u1017 u101B.kham u1020.thai u1023.thai u1027 u1028 u1031 u1031.kham u1040 u1046 u1048 u1049 u1049.thai u1050 u1051 u105A u1066 u1066.slanth u1066.slantr u107F uA9FD] <anchor 292 -53> mark @_BD;
         pos base [u1003 u1006 u1011 u1011.kham u1022 uA9E3 uA9EC uA9EE uA9FC uAA67 uAA69 uAA6A uAA6C uAA6C.alt uAA6C.kham] <anchor 495 -53> mark @_BD;
         pos base u1003.thai <anchor 503 -53> mark @_BD;
         pos base [u1005 u108E] <anchor 288 -53> mark @_BD;
@@ -4214,7 +4139,6 @@ lookup dist_SpacingMark {
         pos base [u1009_u102C u100A u100A_u100A] <anchor 1063 -53> mark @_BD;
         pos base u100A.alt <anchor 486 -53> mark @_BD;
         pos base [u100B u100B_u100B u100C u1020_u1020 u1020_u103E] <anchor 657 -53> mark @_BD;
-        pos base [u100B.alt u1051_u100C u1051_u100D] <anchor 60 -173> mark @_BD;
         pos base u100B_u100C <anchor 642 -53> mark @_BD;
         pos base u100D <anchor 151 -173> mark @_BD;
         pos base u100D.thai <anchor 25 -173> mark @_BD;
@@ -4241,7 +4165,6 @@ lookup dist_SpacingMark {
         pos base [u101C u101C.aiph u101C.kham uA9EA uA9FA uAA6E] <anchor 480 -53> mark @_BD;
         pos base [u101E_u1010_u103C u1029 u103C.alt.wide u103C.wide u103C.wide.aiph] <anchor 1263 -53> mark @_BD;
         pos base u1020 <anchor 654 -53> mark @_BD;
-        pos base u1020.long <anchor 30 -173> mark @_BD;
         pos base [u1021 uA9E2 uAA60 uAA60.kham] <anchor 465 -53> mark @_BD;
         pos base [u1022.aiph u1022.kham uAA61.aiph uAA61.kham uAA63.kham] <anchor 532 -53> mark @_BD;
         pos base u1023 <anchor 993 -53> mark @_BD;
@@ -4264,6 +4187,7 @@ lookup dist_SpacingMark {
         pos base [u1043 u1065] <anchor 279 -53> mark @_BD;
         pos base u1044 <anchor 297 -53> mark @_BD;
         pos base u104C <anchor 624 -53> mark @_BD;
+        pos base [u1051_u100C u1051_u100D] <anchor 60 -173> mark @_BD;
         pos base u1053 <anchor 315 -53> mark @_BD;
         pos base [u1056 u1057] <anchor 238 -53> mark @_BD;
         pos base u105B <anchor 148 -53> mark @_BD;
@@ -4271,7 +4195,6 @@ lookup dist_SpacingMark {
         pos base [u1062 u1064] <anchor 192 -53> mark @_BD;
         pos base u1062_u103A <anchor 216 -53> mark @_BD;
         pos base [u1063 u107E] <anchor 276 -53> mark @_BD;
-        pos base u1063_u103A <anchor 306 -53> mark @_BD;
         pos base [u1067 u106C] <anchor 138 -53> mark @_BD;
         pos base u1068 <anchor 134 -53> mark @_BD;
         pos base u1069 <anchor 180 -53> mark @_BD;
@@ -4284,7 +4207,6 @@ lookup dist_SpacingMark {
         pos base u1076 <anchor 289 -53> mark @_BD;
         pos base [u1079 u107B] <anchor 468 -53> mark @_BD;
         pos base [u107A u107A.aiph] <anchor 750 -53> mark @_BD;
-        pos base u107A.alt.aiph <anchor 770 -53> mark @_BD;
         pos base u107C <anchor 474 -53> mark @_BD;
         pos base u1081 <anchor 460 -53> mark @_BD;
         pos base [uA9E1 uA9E4.alt uA9E8.alt] <anchor 479 -53> mark @_BD;
@@ -4311,19 +4233,19 @@ lookup dist_SpacingMark {
         pos base [u1000 u1000.aiph u1000.kham u101F u1078.aiph u1078.kham u107D uA9E9 uAA64 uAA64.kham uAA71] <anchor 714 -53> mark @_L;
         pos base u1000_u1001_u103B <anchor 1236 -53> mark @_L;
         pos base [u1001 u1045 u1054 u1055 u1090 uA9E0] <anchor 283 -53> mark @_L;
-        pos base [u1002 u1002.kham u1004 u1004.kham u1015 u1015.kham u1016 u1017 u101B.kham u1027 u1028 u1031 u1031.kham u1040 u1046 u1049 u1049.thai u1050 u1051 u105A u107F u1081.straight uA9FD] <anchor 292 -53> mark @_L;
+        pos base [u1002 u1002.kham u1004 u1004.kham u1015 u1015.kham u1016 u1017 u101B.kham u1027 u1028 u1031 u1031.kham u1040 u1046 u1049 u1049.thai u1050 u1051 u105A u107F uA9FD] <anchor 292 -53> mark @_L;
         pos base [u1003 u1022 uAA6C.alt] <anchor 712 -53> mark @_L;
-        pos base [u1003.thai u107A u107A.aiph u107A.alt.aiph] <anchor 720 -53> mark @_L;
+        pos base [u1003.thai u107A u107A.aiph] <anchor 720 -53> mark @_L;
         pos base [u1005 u108E] <anchor 288 -53> mark @_L;
         pos base [u1006 u1009_u102C u100A u100A.alt u100A_u100A u1011 u1011.kham u101E uA9EE uA9FC uAA61 uAA67 uAA69 uAA6A] <anchor 702 -53> mark @_L;
         pos base [u1007 u101D u101D.kham u1047] <anchor 286 -53> mark @_L;
         pos base u1008 <anchor 810 -53> mark @_L;
         pos base [u1008.med u103B u103B_u103D u103B_u103D.tri u103B_u103D_u103E u103B_u103D_u103E.tri u103B_u103E u105B.med] <anchor 250 -53> mark @_L;
-        pos base [u1009 u1009.open u1025 u1026 u1063 u1063_u103A] <anchor 276 -53> mark @_L;
+        pos base [u1009 u1009.open u1025 u1026 u1063] <anchor 276 -53> mark @_L;
         pos base [u100B u100B_u100B u100C u1020_u1020 u1020_u103E] <anchor 657 -53> mark @_L;
-        pos base [u100B.alt u100B_u100C u1051_u100C u1051_u100D] <anchor 642 -53> mark @_L;
         pos base [u100B.thai u100C.thai u1020.thai u1023.thai] <anchor 302 -53> mark @_L;
-        pos base [u100D u1020.long] <anchor 612 -53> mark @_L;
+        pos base [u100B_u100C u1051_u100C u1051_u100D] <anchor 642 -53> mark @_L;
+        pos base u100D <anchor 612 -53> mark @_L;
         pos base u100D.thai <anchor 270 -173> mark @_L;
         pos base u100D_u100D <anchor 627 -53> mark @_L;
         pos base u100D_u100E <anchor 468 -53> mark @_L;
@@ -4416,14 +4338,14 @@ lookup dist_SpacingMark {
         pos base [u1000 u1000.aiph u1000.kham u101F u106F u1078.aiph u1078.kham u107D uA9E9 uAA64 uAA64.kham uAA71] <anchor 714 495> mark @_U;
         pos base u1000_u1001_u103B <anchor 940 495> mark @_U;
         pos base [u1001 u1045 u1054 u1055 u1065 uA9E0 uAA7E] <anchor 283 495> mark @_U;
-        pos base [u1002 u1002.kham u1004 u1004.kham u100B u100B.alt u100B_u100B u100B_u100C u100C u1015 u1015.kham u1016 u1017 u1019 u1019.kham u101B.alt u101B.kham u1020 u1020_u1020 u1020_u103E u1027 u1031 u1031.kham u1040 u1046 u1048 u1049 u1049.thai u104E u1050 u1051 u1051_u100C u1051_u100D u105A u105D u1066 u1066.slanth u1066.slantr u107F u1081 u1081.straight uA9FD uAA77 uAA77.aiph uAA79] <anchor 292 495> mark @_U;
+        pos base [u1002 u1002.kham u1004 u1004.kham u100B u100B_u100B u100B_u100C u100C u1015 u1015.kham u1016 u1017 u1019 u1019.kham u101B.alt u101B.kham u1020 u1020_u1020 u1020_u103E u1027 u1031 u1031.kham u1040 u1046 u1048 u1049 u1049.thai u104E u1050 u1051 u1051_u100C u1051_u100D u105A u105D u1066 u1066.slanth u1066.slantr u107F u1081 uA9FD uAA77 uAA77.aiph uAA79] <anchor 292 495> mark @_U;
         pos base [u1003 u1022 u1070 uA9E7 uAA6C.alt] <anchor 712 495> mark @_U;
-        pos base [u1003.thai u107A u107A.aiph u107A.alt.aiph] <anchor 720 495> mark @_U;
+        pos base [u1003.thai u107A u107A.aiph] <anchor 720 495> mark @_U;
         pos base [u1005 u1007 u105B u108E] <anchor 288 495> mark @_U;
         pos base [u1006 u1009_u102C u100A u100A.alt u100A_u100A u1011 u1011.kham u101E uA9EE uA9FC uAA67 uAA69 uAA6A uAA7F] <anchor 702 495> mark @_U;
         pos base u1008 <anchor 549 486> mark @_U;
         pos base u1008.med <anchor 0 495> mark @_U;
-        pos base [u1009 u1009.open u100D u100D_u100D u1020.long u1025 u1026 u1063] <anchor 276 495> mark @_U;
+        pos base [u1009 u1009.open u100D u100D_u100D u1025 u1026 u1063] <anchor 276 495> mark @_U;
         pos base [u100B.thai u100C.thai u1020.thai u1023.thai] <anchor 307 495> mark @_U;
         pos base [u100D.thai u1014.alt u1014.alt.thai] <anchor 271 495> mark @_U;
         pos base [u100D_u100E u100E u1052 u1075 u1077] <anchor 285 495> mark @_U;
@@ -4509,26 +4431,25 @@ lookup base_BDM_mark {
     pos mark [u1003.sml u100A.sml u1018.sml u101E.sml u101F.small] <anchor 169 -114> mark @_BDM;
     pos mark [u1006.med u1011.med u1011.med.aiph] <anchor -395 -53> mark @_BDM;
     pos mark [u1009.med u100A.med] <anchor 110 -53> mark @_BDM;
-    pos mark [u1009.med.alt u100C.med] <anchor 406 -53> mark @_BDM;
+    pos mark u100C.med <anchor 406 -53> mark @_BDM;
     pos mark u100F.med <anchor 88 -53> mark @_BDM;
-    pos mark [u1010.med u1010.med.aiph u1010.sml u101F.med u101F.sml u1075.med.aiph uAA61.med.aiph uAA61.med.kham uAA6C.med.kham] <anchor 384 -53> mark @_BDM;
+    pos mark [u1010.med u1010.med.aiph u1010.sml u101F.med u101F.sml] <anchor 384 -53> mark @_BDM;
     pos mark [u1018.med u101E.med u101E.med.thai u1021.med u103F.med] <anchor 393 -53> mark @_BDM;
     pos mark [u101A.med u101A.med.aiph] <anchor 405 -53> mark @_BDM;
-    pos mark [u101C.med u101C.med.aiph u107A.med.aiph uAA60.med uAA60.med.kham] <anchor 375 -53> mark @_BDM;
-    pos mark u101C.med_u103D <anchor 608 -53> mark @_BDM;
+    pos mark [u101C.med u101C.med.aiph uAA60.med] <anchor 375 -53> mark @_BDM;
     pos mark u1020.med <anchor 641 -53> mark @_BDM;
     pos mark u1082 <anchor -495 -53> mark @_BDM;
 } base_BDM_mark;
 
 lookup base_BSM_mark {
-    pos mark [u1000.med u1000.med.aiph u1001.med u1003.med u1003.med.thai u1006.med u1009.med u1009.med.alt u100A.med u100B.med u100B.med.thai u100C.med u100C.med.thai u100D.med u100D.med.thai u100E.med u100E.med.thai u100F.med u1010.med u1010.med.aiph u1010.sml u1010_u103D.med u1011.med u1011.med.aiph u1012.med u1013.med u1014.med u1014.med.thai u1015.med u1015.med.kham u1016.med u1017.med u1018.med u1019.med u1019.med.kham u101A.med u101A.med.aiph u101B.med u101C.med u101C.med.aiph u101E.med u101E.med.thai u101F.med u101F.sml u1020.med.thai u1021.med u103F.med u1075.med.aiph u107A.med.aiph uAA61.med.aiph uAA61.med.kham uAA6B.med.aiph uAA6B.med.kham uAA6C.med.kham] <anchor 235 -53> mark @_BSM;
+    pos mark [u1000.med u1000.med.aiph u1001.med u1003.med u1003.med.thai u1006.med u1009.med u100A.med u100B.med u100B.med.thai u100C.med u100C.med.thai u100D.med u100D.med.thai u100E.med u100E.med.thai u100F.med u1010.med u1010.med.aiph u1010.sml u1010_u103D.med u1011.med u1011.med.aiph u1012.med u1013.med u1014.med u1014.med.thai u1015.med u1016.med u1017.med u1018.med u1019.med u101A.med u101A.med.aiph u101B.med u101C.med u101C.med.aiph u101E.med u101E.med.thai u101F.med u101F.sml u1020.med.thai u1021.med u103F.med] <anchor 235 -53> mark @_BSM;
     pos mark [u1000.sml u1009.sml u100C.sml u100F.sml u101A.sml u101C.sml u1020.sml u1021.sml u103F.sml] <anchor 54 -114> mark @_BSM;
     pos mark [u1001.sml u1002.med u1002.sml u1016.sml u1050.med u1050.sml u1051.med u1051.sml] <anchor 565 -53> mark @_BSM;
     pos mark [u1003.sml u100A.sml u1018.sml u101E.sml u101F.small] <anchor 57 -114> mark @_BSM;
-    pos mark [u1004.med u1004.med.kham] <anchor 111 -53> mark @_BSM;
+    pos mark u1004.med <anchor 111 -53> mark @_BSM;
     pos mark [u1004.sml u100E.sml u103D.sml] <anchor 36 -114> mark @_BSM;
     pos mark [u1005.med u101D.med u1082] <anchor 556 -53> mark @_BSM;
-    pos mark [u1005.sml u1008.sml u1008.sml.low u1013.sml u101B.sml u101D.sml] <anchor 101 -114> mark @_BSM;
+    pos mark [u1005.sml u1008.sml u1013.sml u101B.sml u101D.sml] <anchor 101 -114> mark @_BSM;
     pos mark [u1006.sml u1011.sml] <anchor 55 -114> mark @_BSM;
     pos mark [u1007.med u1007.sml u1014.sml u1020.med] <anchor 532 -53> mark @_BSM;
     pos mark [u100B.sml u100D.sml] <anchor 125 -131> mark @_BSM;
@@ -4537,7 +4458,6 @@ lookup base_BSM_mark {
     pos mark u1012.sml <anchor 103 -114> mark @_BSM;
     pos mark [u1015.sml u1017.sml] <anchor 100 -116> mark @_BSM;
     pos mark u1019.sml <anchor 100 -117> mark @_BSM;
-    pos mark u101C.med_u103D <anchor 91 -53> mark @_BSM;
     pos mark [u102F.med u102F_u108D] <anchor 81 -53> mark @_BSM;
     pos mark [u1030.med u1030_u108D] <anchor 154 -53> mark @_BSM;
     pos mark u1039 <anchor -178 -53> mark @_BSM;
@@ -4563,36 +4483,35 @@ lookup base_BSM_mark {
     pos mark u1060 <anchor -556 -53> mark @_BSM;
     pos mark u1082_u108D <anchor 76 -53> mark @_BSM;
     pos mark u108D <anchor -89 -53> mark @_BSM;
-    pos mark [uAA60.med uAA60.med.kham] <anchor 68 -53> mark @_BSM;
+    pos mark uAA60.med <anchor 68 -53> mark @_BSM;
 } base_BSM_mark;
 
 lookup base_U_mark {
-    pos mark [u1008.sml u1008.sml.low] <anchor 0 495> mark @_U;
+    pos mark u1008.sml <anchor 0 495> mark @_U;
 } base_U_mark;
 
 @LM_Filter = [@LM_MarkBase @_LM];
 lookup base_LM_mark {
     lookupflag UseMarkFilteringSet @LM_Filter;
-    pos mark [u1000.med u1000.med.aiph u1001.med u1001.sml u1002.med u1002.sml u1003.med u1003.med.thai u1005.med u1006.med u100B.med u100F.med u1010_u103D.med.tri u1011.med u1011.med.aiph u1013.med u1015.med u1015.med.kham u1016.med u1016.sml u1017.med u1018.med u1019.med u1019.med.kham u101C.med u101C.med.aiph u101D.med u1020.med.thai u103D_u103E u1050.sml u1051.sml u105A.med u105C.med u107A.med.aiph uAA6B.med.aiph uAA6B.med.kham] <anchor 88 -53> mark @_LM;
+    pos mark [u1000.med u1000.med.aiph u1001.med u1001.sml u1002.med u1002.sml u1003.med u1003.med.thai u1005.med u1006.med u100B.med u100F.med u1010_u103D.med.tri u1011.med u1011.med.aiph u1013.med u1015.med u1016.med u1016.sml u1017.med u1018.med u1019.med u101C.med u101C.med.aiph u101D.med u1020.med.thai u103D_u103E u1050.sml u1051.sml u105A.med u105C.med] <anchor 88 -53> mark @_LM;
     pos mark [u1000.sml u1003.sml u1009.sml u100A.sml u100C.sml u100F.sml u1018.sml u101A.sml u101C.sml u101E.sml u101F.small u1020.sml u1021.sml u103F.sml] <anchor -51 -114> mark @_LM;
-    pos mark [u1004.med u1004.med.kham u101A.med u101A.med.aiph] <anchor 69 -53> mark @_LM;
+    pos mark [u1004.med u101A.med u101A.med.aiph] <anchor 69 -53> mark @_LM;
     pos mark [u1004.sml u100E.sml u103D.sml] <anchor -3 -114> mark @_LM;
-    pos mark [u1005.sml u1008.sml u1008.sml.low u1013.sml u101B.sml u101D.sml] <anchor -4 -114> mark @_LM;
+    pos mark [u1005.sml u1008.sml u1013.sml u101B.sml u101D.sml] <anchor -4 -114> mark @_LM;
     pos mark [u1006.sml u1011.sml] <anchor -50 -114> mark @_LM;
     pos mark [u1007.med u1007.sml u1014.sml u1020.med u1082] <anchor 25 -53> mark @_LM;
     pos mark [u1009.med u100A.med] <anchor 110 -53> mark @_LM;
-    pos mark [u1009.med.alt u100C.med u1010_u103D.med u1014.med u1014.med.thai u1030.med u103D u103D_u1060 u103D_u108D u103E u105E u105F] <anchor 89 -53> mark @_LM;
     pos mark [u100B.med.thai u100C.med.thai u100E.med u100E.med.thai] <anchor 95 -53> mark @_LM;
     pos mark [u100B.sml u100D.sml] <anchor 20 -131> mark @_LM;
+    pos mark [u100C.med u1010_u103D.med u1014.med u1014.med.thai u1030.med u103D u103D_u1060 u103D_u108D u103E u105E u105F] <anchor 89 -53> mark @_LM;
     pos mark [u100D.med u100D.med.thai] <anchor 50 -53> mark @_LM;
-    pos mark [u1010.med u1010.med.aiph u1010.sml u101F.med u101F.sml u1075.med.aiph uAA61.med.aiph uAA61.med.kham uAA6C.med.kham] <anchor 104 -53> mark @_LM;
+    pos mark [u1010.med u1010.med.aiph u1010.sml u101F.med u101F.sml] <anchor 104 -53> mark @_LM;
     pos mark [u1012.med u103D.tri u103D_u103E.tri] <anchor 82 -53> mark @_LM;
     pos mark u1012.med.thai <anchor 80 -53> mark @_LM;
     pos mark u1012.sml <anchor -6 -114> mark @_LM;
     pos mark [u1015.sml u1017.sml] <anchor -5 -116> mark @_LM;
     pos mark u1019.sml <anchor -5 -117> mark @_LM;
     pos mark u101B.med <anchor 97 -53> mark @_LM;
-    pos mark u101C.med_u103D <anchor 91 -53> mark @_LM;
     pos mark [u101E.med u101E.med.thai u1021.med u103F.med] <anchor 85 -53> mark @_LM;
     pos mark u102F.med <anchor 130 -53> mark @_LM;
     pos mark u102F_u108D <anchor 250 -53> mark @_LM;
@@ -4612,7 +4531,7 @@ lookup base_LM_mark {
     pos mark u1060 <anchor -30 -53> mark @_LM;
     pos mark u1082_u108D <anchor 76 -53> mark @_LM;
     pos mark u108D <anchor 585 -53> mark @_LM;
-    pos mark [uAA60.med uAA60.med.kham] <anchor 68 -53> mark @_LM;
+    pos mark uAA60.med <anchor 68 -53> mark @_LM;
 } base_LM_mark;
 
 lookup base_LM_mark_context {
@@ -4630,7 +4549,7 @@ lookup dist_SpacingMarks {
 
 } dist_SpacingMarks;
 
-    @nonU = [.notdef .null A AE Aacute Acircumflex Adieresis Agrave Aring Atilde B C Ccedilla D Delta E Eacute Ecircumflex Edieresis Egrave Eth Euro F G H I Iacute Icircumflex Idieresis Igrave J K L M N Ntilde O OE Oacute Ocircumflex Odieresis Ograve Omega Oslash Otilde P Q R S Scaron T Thorn U Uacute Ucircumflex Udieresis Ugrave V W X Y Yacute Ydieresis Z Zcaron a aacute acircumflex acute adieresis ae agrave ampersand approxequal aring asciitilde asterisk at atilde b backslash bar blank braceleft braceright bracketleft bracketright breve brokenbar bullet c caron ccedilla cedilla cent circumflex colon colontriangularmod comma copyright currency d dagger daggerdbl degree dieresis divide dollar dotaccent dotlessi e eacute ecircumflex edieresis egrave eight eight-pao eight-pwo ellipsis emdash endash equal eth exclam exclamdown f fi figuredash five five-pao five-pwo fl florin four four-pao four-pwo foursuperior fraction g germandbls grave greater greaterequal guillemotleft guillemotright guilsinglleft guilsinglright h hungarumlaut hyphen i iacute icircumflex idieresis igrave infinity integral j k l less lessequal logicalnot lozenge m macron minus mu multiply n nine nine-pao nine-pwo nonmarkingreturn notequal ntilde numbersign o oacute ocircumflex odieresis oe ogonek ograve one one-pao one-pwo onehalf onequarter onesuperior ordfeminine ordmasculine oslash otilde p paragraph parenleft parenright partialdiff percent period periodcentered perthousand pi plus plusminus product q question questiondown quotedbl quotedblbase quotedblleft quotedblright quoteleft quoteright quotesinglbase quotesingle r radical registered ring s scaron section semicolon seven seven-pao seven-pwo six six-pao six-pwo slash softhyphen space sterling summation t thorn three three-pao three-pwo threequarters threesuperior tilde trademark two two-pao two-pwo twosuperior u u034F u1000_u103B_u1015_u103A u101E_u1010_u103C u1024 u1029 u102A u102B u102B.trim u102B_u103A u1038 u1038.dot u103C u103C.aiph u103C.alt.narr u103C.alt.open.narr u103C.alt.open.wide u103C.alt.wide u103C.open.narr u103C.open.wide u103C.wide u103C.wide.aiph u103C_u102F.alt.narr u103C_u102F.alt.wide u103C_u102F.narr u103C_u102F.wide u103C_u103D.alt.narr u103C_u103D.alt.narr.tri u103C_u103D.alt.wide u103C_u103D.alt.wide.tri u103C_u103D.narr u103C_u103D.narr.tri u103C_u103D.wide u103C_u103D.wide.tri u104A u104A.thai u104B u104B.thai u104C u104D u104F u1062_u103A u1063_u103A u1068 u1084 u1087 u1087.dot u1088 u1088.dot u1089 u1089.dot u108A u108A.dot u108B u108C u108F u1092 u1095 u1096 u109A u109A.dot u109B u109B.dot u109C u109F u2000 u2001 u2002 u2003 u2004 u2005 u2006 u2007 u2008 u2009 u200A u200B u200C u200D u200E u200F u2010 u2011 u2015 u2027 u2028 u2029 u202A u202B u202C u202D u202E u202F u2060 u2215 u2219 uA92E uA9E6 uA9F0 uA9F1 uA9F2 uA9F3 uA9F4 uA9F5 uA9F6 uA9F7 uA9F8 uA9F9 uAA74 uAA75 uAA75.kham uAA76 uAA76.kham uAA78 uAA7B uAA7B.dot uAA7D uFE00 uFE01 uFE02 uFE03 uFE04 uFE05 uFE06 uFE07 uFE08 uFE09 uFE0A uFE0B uFE0C uFE0D uFE0E uFE0F uFEFF uFFFC uFFFD uacute ucircumflex udieresis ugrave underscore uni00A0 v w x y yacute ydieresis yen z zcaron zero zero-pao zero-pwo];
+    @nonU = [.notdef .null A AE Aacute Acircumflex Adieresis Agrave Aring Atilde B C Ccedilla D Delta E Eacute Ecircumflex Edieresis Egrave Eth Euro F G H I Iacute Icircumflex Idieresis Igrave J K L M N Ntilde O OE Oacute Ocircumflex Odieresis Ograve Omega Oslash Otilde P Q R S Scaron T Thorn U Uacute Ucircumflex Udieresis Ugrave V W X Y Yacute Ydieresis Z Zcaron a aacute acircumflex acute adieresis ae agrave ampersand approxequal aring asciitilde asterisk at atilde b backslash bar blank braceleft braceright bracketleft bracketright breve brokenbar bullet c caron ccedilla cedilla cent circumflex colon colontriangularmod comma copyright currency d dagger daggerdbl degree dieresis divide dollar dotaccent dotlessi e eacute ecircumflex edieresis egrave eight eight-pao eight-pwo ellipsis emdash endash equal eth exclam exclamdown f fi figuredash five five-pao five-pwo fl florin four four-pao four-pwo foursuperior fraction g germandbls grave greater greaterequal guillemotleft guillemotright guilsinglleft guilsinglright h hungarumlaut hyphen i iacute icircumflex idieresis igrave infinity integral j k l less lessequal logicalnot lozenge m macron minus mu multiply n nine nine-pao nine-pwo nonmarkingreturn notequal ntilde numbersign o oacute ocircumflex odieresis oe ogonek ograve one one-pao one-pwo onehalf onequarter onesuperior ordfeminine ordmasculine oslash otilde p paragraph parenleft parenright partialdiff percent period periodcentered perthousand pi plus plusminus product q question questiondown quotedbl quotedblbase quotedblleft quotedblright quoteleft quoteright quotesinglbase quotesingle r radical registered ring s scaron section semicolon seven seven-pao seven-pwo six six-pao six-pwo slash softhyphen space sterling summation t thorn three three-pao three-pwo threequarters threesuperior tilde trademark two two-pao two-pwo twosuperior u u034F u1000_u103B_u1015_u103A u101E_u1010_u103C u1024 u1029 u102A u102B u102B.trim u102B_u103A u1038 u1038.dot u103C u103C.aiph u103C.alt.narr u103C.alt.open.narr u103C.alt.open.wide u103C.alt.wide u103C.open.narr u103C.open.wide u103C.wide u103C.wide.aiph u103C_u102F.alt.narr u103C_u102F.alt.wide u103C_u102F.narr u103C_u102F.wide u103C_u103D.alt.narr u103C_u103D.alt.narr.tri u103C_u103D.alt.wide u103C_u103D.alt.wide.tri u103C_u103D.narr u103C_u103D.narr.tri u103C_u103D.wide u103C_u103D.wide.tri u104A u104A.thai u104B u104B.thai u104C u104D u104F u1062_u103A u1068 u1084 u1087 u1087.dot u1088 u1088.dot u1089 u1089.dot u108A u108A.dot u108B u108C u108F u1092 u1095 u1096 u109A u109A.dot u109B u109B.dot u109C u109F u2000 u2001 u2002 u2003 u2004 u2005 u2006 u2007 u2008 u2009 u200A u200B u200C u200D u200E u200F u2010 u2011 u2015 u2027 u2028 u2029 u202A u202B u202C u202D u202E u202F u2060 u2215 u2219 uA92E uA9E6 uA9F0 uA9F1 uA9F2 uA9F3 uA9F4 uA9F5 uA9F6 uA9F7 uA9F8 uA9F9 uAA74 uAA75 uAA75.kham uAA76 uAA76.kham uAA78 uAA7B uAA7B.dot uAA7D uFE00 uFE01 uFE02 uFE03 uFE04 uFE05 uFE06 uFE07 uFE08 uFE09 uFE0A uFE0B uFE0C uFE0D uFE0E uFE0F uFEFF uFFFC uFFFD uacute ucircumflex udieresis ugrave underscore uni00A0 v w x y yacute ydieresis yen z zcaron zero zero-pao zero-pwo];
 
 lookup dist_SpacingRedup {
     ignore pos [u1083 u1062] uAA70';
@@ -4807,23 +4726,23 @@ lookup base_LLM_mark {
     pos mark [u1000.med u1000.med.aiph] <anchor -872 -53> mark @_LLM;
     pos mark [u1000.sml u1009.sml u100C.sml u100F.sml u101A.sml u101C.sml u1020.sml u1021.sml u103F.sml] <anchor -737 -114> mark @_LLM;
     pos mark [u1001.med u1005.med u1013.med u101D.med u105C.med] <anchor -557 -53> mark @_LLM;
-    pos mark [u1001.sml u1002.med u1002.sml u1015.med u1015.med.kham u1016.med u1016.sml u1019.med u1019.med.kham u1050.sml u1051.sml uAA6B.med.aiph uAA6B.med.kham] <anchor -566 -53> mark @_LLM;
+    pos mark [u1001.sml u1002.med u1002.sml u1015.med u1016.med u1016.sml u1019.med u1050.sml u1051.sml] <anchor -566 -53> mark @_LLM;
     pos mark [u1003.med u1003.med.thai] <anchor -884 -53> mark @_LLM;
     pos mark [u1003.sml u100A.sml u1018.sml u101E.sml u101F.small] <anchor -738 -114> mark @_LLM;
-    pos mark [u1004.med u1004.med.kham] <anchor -495 -53> mark @_LLM;
+    pos mark u1004.med <anchor -495 -53> mark @_LLM;
     pos mark [u1004.sml u100E.sml u103D.sml] <anchor -464 -114> mark @_LLM;
-    pos mark [u1005.sml u1008.sml u1008.sml.low u1013.sml u101B.sml u101D.sml] <anchor -465 -114> mark @_LLM;
+    pos mark [u1005.sml u1008.sml u1013.sml u101B.sml u101D.sml] <anchor -465 -114> mark @_LLM;
     pos mark [u1006.med u1011.med u1011.med.aiph u101E.med u101E.med.thai u1021.med u103F.med] <anchor -878 -53> mark @_LLM;
     pos mark [u1006.sml u1011.sml] <anchor -740 -114> mark @_LLM;
     pos mark [u1007.med u1007.sml u1014.sml u1020.med] <anchor -596 -53> mark @_LLM;
     pos mark [u1009.med u100A.med] <anchor -832 -53> mark @_LLM;
-    pos mark [u1009.med.alt u100C.med] <anchor -900 -53> mark @_LLM;
     pos mark [u100B.med u1020.med.thai] <anchor -416 -53> mark @_LLM;
     pos mark [u100B.med.thai u100C.med.thai u100E.med u100E.med.thai] <anchor -559 -53> mark @_LLM;
     pos mark [u100B.sml u100D.sml] <anchor -340 -131> mark @_LLM;
+    pos mark u100C.med <anchor -900 -53> mark @_LLM;
     pos mark [u100D.med u100D.med.thai] <anchor -465 -53> mark @_LLM;
     pos mark u100F.med <anchor -908 -53> mark @_LLM;
-    pos mark [u1010.med u1010.med.aiph u1010.sml u101F.med u101F.sml u1075.med.aiph uAA61.med.aiph uAA61.med.kham uAA6C.med.kham] <anchor -867 -53> mark @_LLM;
+    pos mark [u1010.med u1010.med.aiph u1010.sml u101F.med u101F.sml] <anchor -867 -53> mark @_LLM;
     pos mark u1010_u103D.med <anchor -553 -53> mark @_LLM;
     pos mark u1010_u103D.med.tri <anchor -554 -53> mark @_LLM;
     pos mark u1012.med <anchor -533 -53> mark @_LLM;
@@ -4836,8 +4755,7 @@ lookup base_LLM_mark {
     pos mark u1019.sml <anchor -472 -117> mark @_LLM;
     pos mark [u101A.med u101A.med.aiph] <anchor -866 -53> mark @_LLM;
     pos mark u101B.med <anchor -550 -53> mark @_LLM;
-    pos mark [u101C.med u101C.med.aiph u107A.med.aiph] <anchor -854 -53> mark @_LLM;
-    pos mark u101C.med_u103D <anchor -1257 -53> mark @_LLM;
+    pos mark [u101C.med u101C.med.aiph] <anchor -854 -53> mark @_LLM;
     pos mark u102F.med <anchor -251 -53> mark @_LLM;
     pos mark [u102F_u108D u1030_u108D u1058 u108D] <anchor -89 -53> mark @_LLM;
     pos mark u1030.med <anchor -399 -53> mark @_LLM;
@@ -4858,14 +4776,11 @@ lookup base_LLM_mark {
     pos mark u105A.med <anchor -377 -53> mark @_LLM;
     pos mark u1082 <anchor -770 -53> mark @_LLM;
     pos mark u1082_u108D <anchor -719 -53> mark @_LLM;
-    pos mark [uAA60.med uAA60.med.kham] <anchor -826 -53> mark @_LLM;
+    pos mark uAA60.med <anchor -826 -53> mark @_LLM;
 } base_LLM_mark;
 
 lookup shift_for_103B {
-            pos u1004.med.kham u103B <-174 0 0 0>;
-        pos u1015.med.kham u103B <-180 0 0 0>;
-        pos u1019.med.kham u103B <-180 0 0 0>;
-        pos u1000.med.aiph u103B <-337 0 0 0>;
+            pos u1000.med.aiph u103B <-337 0 0 0>;
         pos u1010.med.aiph u103B <-358 0 0 0>;
         pos u1011.med.aiph u103B <-357 0 0 0>;
         pos u101A.med.aiph u103B <-337 0 0 0>;
@@ -4888,7 +4803,6 @@ lookup shift_for_103B {
         pos u1006.med u103B <-337 0 0 0>;
         pos u1007.med u103B <-183 0 0 0>;
         pos u1009.med u103B <-302 0 0 0>;
-        pos u1009.med.alt u103B <-349 0 0 0>;
         pos u100A.med u103B <-306 0 0 0>;
         pos u100B.med u103B <-123 0 0 0>;
         pos u100C.med u103B <-349 0 0 0>;
@@ -4909,7 +4823,6 @@ lookup shift_for_103B {
         pos u101A.med u103B <-337 0 0 0>;
         pos u101B.med u103B <-184 0 0 0>;
         pos u101C.med u103B <-352 0 0 0>;
-        pos u101C.med_u103D u103B <-550 0 0 0>;
         pos u101D.med u103B <-183 0 0 0>;
         pos u101E.med u103B <-333 0 0 0>;
         pos u101F.med u103B <-337 0 0 0>;
@@ -4920,7 +4833,6 @@ lookup shift_for_103B {
         pos u1050.med u103B <-180 0 0 0>;
         pos u1051.med u103B <-180 0 0 0>;
         pos u105A.med u103B <-88 0 0 0>;
-        pos uAA60.med.kham u103B <-327 0 0 0>;
         pos u1003.med.thai u103B <-343 0 0 0>;
         pos u100B.med.thai u103B <-196 0 0 0>;
         pos u100C.med.thai u103B <-195 0 0 0>;
@@ -4985,7 +4897,6 @@ lookup shift_for_103B_from_wrap {
         pos u103C uAA6D.aiph' <0 0 -162 0> u103B;
         pos u103C uAA7A.aiph' <0 0 -409 0> u103B;
         pos u103C u100A.alt' <0 0 -309 0> u103B;
-        pos u103C u100B.alt' <0 0 113 0> u103B;
         pos u103C u1014.alt' <0 0 152 0> u103B;
         pos u103C u101B.alt' <0 0 93 0> u103B;
         pos u103C uA9E4.alt' <0 0 -259 0> u103B;
@@ -5179,7 +5090,6 @@ lookup shift_for_103B_from_wrap {
         pos u103C.alt.narr uAA6D.aiph' <0 0 -162 0> u103B;
         pos u103C.alt.narr uAA7A.aiph' <0 0 -409 0> u103B;
         pos u103C.alt.narr u100A.alt' <0 0 -309 0> u103B;
-        pos u103C.alt.narr u100B.alt' <0 0 113 0> u103B;
         pos u103C.alt.narr u1014.alt' <0 0 152 0> u103B;
         pos u103C.alt.narr u101B.alt' <0 0 93 0> u103B;
         pos u103C.alt.narr uA9E4.alt' <0 0 -259 0> u103B;
@@ -5373,7 +5283,6 @@ lookup shift_for_103B_from_wrap {
         pos u103C.alt.wide uAA6D.aiph' <0 0 260 0> u103B;
         pos u103C.alt.wide uAA7A.aiph' <0 0 13 0> u103B;
         pos u103C.alt.wide u100A.alt' <0 0 113 0> u103B;
-        pos u103C.alt.wide u100B.alt' <0 0 535 0> u103B;
         pos u103C.alt.wide u1014.alt' <0 0 574 0> u103B;
         pos u103C.alt.wide u101B.alt' <0 0 515 0> u103B;
         pos u103C.alt.wide uA9E4.alt' <0 0 163 0> u103B;
@@ -5567,7 +5476,6 @@ lookup shift_for_103B_from_wrap {
         pos u103C.wide uAA6D.aiph' <0 0 260 0> u103B;
         pos u103C.wide uAA7A.aiph' <0 0 13 0> u103B;
         pos u103C.wide u100A.alt' <0 0 113 0> u103B;
-        pos u103C.wide u100B.alt' <0 0 535 0> u103B;
         pos u103C.wide u1014.alt' <0 0 574 0> u103B;
         pos u103C.wide u101B.alt' <0 0 515 0> u103B;
         pos u103C.wide uA9E4.alt' <0 0 163 0> u103B;
@@ -6294,9 +6202,9 @@ feature mkmk {
 # The originating fonts have them classed as base glyphs. For OpenType
 # to work properly, the need to be classed as mark glyphs.
 # @GDEF_index0 = [.null nonmarkingreturn ] 
-@GDEF_Simple = [.notdef space exclam quotedbl numbersign dollar percent ampersand quotesingle parenleft parenright asterisk plus comma hyphen period slash zero one two three four five six seven eight nine colon semicolon less equal greater question at A B C D E F G H I J K L M N O P Q R S T U V W X Y Z bracketleft backslash bracketright asciicircum underscore grave a b c d e f g h i j k l m n o p q r s t u v w x y z braceleft bar braceright asciitilde multiply u1000 u1000_u1001_u103B u1000_u103B_u1015_u103A u1001 u1002 u1002.kham u1003 u1004 u1005 u1006 u1007 u1008 u1008.med u1009 u1009.open u1009_u102C u100A u100A.alt u100A_u100A u100B u100B.alt u100B_u100B u100B_u100C u100C u100D u100D_u100D u100D_u100E u100E u100F u100F_u100B u100F_u100D u1010 u1011.kham u1011 u1012 u1013 u1014 u1014.alt u1014.alt.thai u1014_u1010_u103B u1014_u1010_u103C u1015 u1016 u1017 u1018 u1019 u101A u101B u101B.alt u101B.long u101C u101D u101D.kham u101E u101E_u1010_u103C u101F u1020 u1020.long u1020_u1020 u1020_u103E u1021 u1022 u1023 u1024 u1025 u1026 u1027 u1028 u1029 u102A u102B u102B.trim u102C u102B_u103A u102F u1030 u1031 u1031.kham u1038 u1038.dot u103B u103B_u103D u103B_u103D_u103E u103B_u103E u103F u1040 u1041 u1042 u1043 u1044 u1045 u1046 u1047 u1048 u1049 u104A u104B u104C u104D u104E u104F u1050 u1051 u1051_u100C u1051_u100D u1052 u1053 u1054 u1055 u1056 u1057 u105A u105B u105B.med u105C u105D u1061 u1062 u1062_u103A u1063 u1063_u103A u1064 u1065 u1066 u1067 u1068 u1069 u106A u106B u106C u106D u106E u106F u1070 u1075 u1076 u1077 u1078 u1079 u107A.aiph u107A u107B u107C u107D u107E u107F u1080 u1081.straight u1083 u1084 u1087 u1088 u1088.dot u1089 u1089.dot u108A u108B u108C u108E u108F u1090 u1091 u1092 u1093 u1094 u1095 u1096 u1097 u1098 u1099 u109C u109E u109F u200B u200C u200D quotedblleft quotedblright quoteleft quoteright endash emdash u2060 notequal circledash u1700 uA92E uA9E0 uA9E1 uA9E2 uA9E3 uA9E4 uA9E6 uA9E7 uA9E8 uA9E9 uA9EA uA9EB uA9EC uA9ED uA9EE uA9EF uA9FA uA9FB uA9FC uA9FD uA9FE uA9F0 uA9F1 uA9F2 uA9F3 uA9F4 uA9F5 uA9F6 uA9F7 uA9F8 uA9F9 uAA60 uAA61 uAA62 uAA63 uAA64 uAA65 uAA66 uAA67 uAA68 uAA69 uAA6A uAA6B uAA6C uAA6C.alt uAA6D uAA6E uAA6F uAA71 uAA72 uAA73 uAA77 uAA79 uAA7A uAA7D uAA7E uAA7F u1000.kham u1004.kham u1010.kham u1015.kham u1019.kham u101A.kham u101B.kham u101C.kham u1022.kham u1075.kham u1078.kham u1080.kham uAA60.kham uAA61.kham uAA62.kham uAA63.kham uAA64.kham uAA65.kham uAA66.kham uAA6B.kham uAA6C.kham uAA6F.kham uAA73.kham uAA75.kham uAA76.kham u1038.dot u1087.dot u1088.dot u1089.dot u108A.dot u103B_u103D.tri u103B_u103D_u103E.tri u1081 uAA7B uAA7B.dot];
+@GDEF_Simple = [.notdef space exclam quotedbl numbersign dollar percent ampersand quotesingle parenleft parenright asterisk plus comma hyphen period slash zero one two three four five six seven eight nine colon semicolon less equal greater question at A B C D E F G H I J K L M N O P Q R S T U V W X Y Z bracketleft backslash bracketright asciicircum underscore grave a b c d e f g h i j k l m n o p q r s t u v w x y z braceleft bar braceright asciitilde multiply u1000 u1000_u1001_u103B u1000_u103B_u1015_u103A u1001 u1002 u1002.kham u1003 u1004 u1005 u1006 u1007 u1008 u1008.med u1009 u1009.open u1009_u102C u100A u100A.alt u100A_u100A u100B u100B_u100B u100B_u100C u100C u100D u100D_u100D u100D_u100E u100E u100F u100F_u100B u100F_u100D u1010 u1011.kham u1011 u1012 u1013 u1014 u1014.alt u1014.alt.thai u1014_u1010_u103B u1014_u1010_u103C u1015 u1016 u1017 u1018 u1019 u101A u101B u101B.alt u101B.long u101C u101D u101D.kham u101E u101E_u1010_u103C u101F u1020 u1020_u1020 u1020_u103E u1021 u1022 u1023 u1024 u1025 u1026 u1027 u1028 u1029 u102A u102B u102B.trim u102C u102B_u103A u102F u1030 u1031 u1031.kham u1038 u1038.dot u103B u103B_u103D u103B_u103D_u103E u103B_u103E u103F u1040 u1041 u1042 u1043 u1044 u1045 u1046 u1047 u1048 u1049 u104A u104B u104C u104D u104E u104F u1050 u1051 u1051_u100C u1051_u100D u1052 u1053 u1054 u1055 u1056 u1057 u105A u105B u105B.med u105C u105D u1061 u1062 u1062_u103A u1063 u1064 u1065 u1066 u1067 u1068 u1069 u106A u106B u106C u106D u106E u106F u1070 u1075 u1076 u1077 u1078 u1079 u107A.aiph u107A u107B u107C u107D u107E u107F u1080 u1083 u1084 u1087 u1088 u1088.dot u1089 u1089.dot u108A u108B u108C u108E u108F u1090 u1091 u1092 u1093 u1094 u1095 u1096 u1097 u1098 u1099 u109C u109E u109F u200B u200C u200D quotedblleft quotedblright quoteleft quoteright endash emdash u2060 notequal circledash u1700 uA92E uA9E0 uA9E1 uA9E2 uA9E3 uA9E4 uA9E6 uA9E7 uA9E8 uA9E9 uA9EA uA9EB uA9EC uA9ED uA9EE uA9EF uA9FA uA9FB uA9FC uA9FD uA9FE uA9F0 uA9F1 uA9F2 uA9F3 uA9F4 uA9F5 uA9F6 uA9F7 uA9F8 uA9F9 uAA60 uAA61 uAA62 uAA63 uAA64 uAA65 uAA66 uAA67 uAA68 uAA69 uAA6A uAA6B uAA6C uAA6C.alt uAA6D uAA6E uAA6F uAA71 uAA72 uAA73 uAA77 uAA79 uAA7A uAA7D uAA7E uAA7F u1000.kham u1004.kham u1010.kham u1015.kham u1019.kham u101A.kham u101B.kham u101C.kham u1022.kham u1075.kham u1078.kham u1080.kham uAA60.kham uAA61.kham uAA62.kham uAA63.kham uAA64.kham uAA65.kham uAA66.kham uAA6B.kham uAA6C.kham uAA6F.kham uAA73.kham uAA75.kham uAA76.kham u1038.dot u1087.dot u1088.dot u1089.dot u108A.dot u103B_u103D.tri u103B_u103D_u103E.tri u1081 uAA7B uAA7B.dot];
 @GDEF_Ligature = [uAA74 uAA75 uAA76 uAA78 u109A u109A.dot u109B u109B.dot];
-@GDEF_Mark = [u1000.med u1000.sml u1001.med u1001.sml u1002.med u1002.sml u1003.med u1003.sml u1004.med u1004.sml u1004.kinzi u1004.kinzi_u102D u1004.kinzi_u102E u1004.kinzi_u1032 u1004.kinzi_u1033 u1004.kinzi_u1036 u1004.kinzi_u103A u1004.kinzi_u102D_u1036 u1005.med u1005.sml u1006.med u1006.sml u1007.med u1007.sml u1008.sml u1009.med u1009.med.alt u1009.sml u100A.med u100A.sml u100B.med u100B.sml u100C.med u100C.sml u100D.med u100D.sml u100E.med u100E.sml u100F.med u100F.sml u1010.med u1010_u103D.med u1010.sml u1011.med u1011.sml u1012.med u1012.sml u1013.med u1013.sml u1014.med u1014.sml u1015.med u1015.sml u1016.med u1016.sml u1017.med u1017.sml u1018.med u1018.sml u1019.med u1019.sml u101A.med u101A.sml u101B.med u101B.sml u101B.kinzi u101B.kinzi_u102D u101B.kinzi_u102E u101B.kinzi_u103A u101C.med u101C.sml u101C.med_u103D u101D.med u101D.sml u101E.med u101E.sml u101F.med u101F.sml u1020.med u1020.sml u1021.med u1021.sml u102D u102D_u1036 u102D_uAA7C u102E u102E_uAA7C u103A_uAA7C u102F.med u102F_u108D u1030.med u1030_u108D u1032 u1032_u102D u1032_u102E u1033 u1034 u1035 u1036 u1037 u1039 u103A u103A_u1036 u103C u103C.alt.narr u103C.alt.open.narr u103C.alt.open.wide u103C.alt.wide u103C.open.narr u103C.open.wide u103C.wide u103C_u103D.narr u103C_u103D.wide u103C_u103D.alt.narr u103C_u103D.alt.wide u103C_u102F.narr u103C_u102F.wide u103C_u102F.alt.narr u103C_u102F.alt.wide u103D u103D_u103E u103D_u103E.small u103D_u108D u103D_u1060 u103E u103E.alt u103E_u102F u103E_u1030 u103E_u1060 u103F.med u103F.sml u1050.med u1050.sml u1051.med u1051.sml u1058 u1059 u105A.med u105C.med u105E u105F u1060 u1071 u1072 u1073 u1074 u1082 u1082_u108D u1085 u1086 u1086_uAA7C u108D u109D uA9E5 uA9E5_uAA7C uAA60.med uAA60.med.kham uAA70 uAA7C u1086.kham u1086_uAA70 u103A_uAA70 u1036.dot u100D.med.thai u103C_u103D.alt.narr.tri u103C_u103D.alt.wide.tri u103C_u103D.narr.tri u103C_u103D.wide.tri u1010_u103D.med.tri u103D.tri u103D_u103E.tri u103D_u103E.small.tri u103E.slantr u103E.slanth u103E_u102F.slantr u103E_u102F.slanth u103E_u1030.slantr u103E_u1030.slanth u034F uFE00 uFE01 uFE02 uFE03 uFE04 uFE05 uFE06 uFE07 uFE08 uFE09 uFE0A uFE0B uFE0C uFE0D uFE0E uFE0F];
+@GDEF_Mark = [u1000.med u1000.sml u1001.med u1001.sml u1002.med u1002.sml u1003.med u1003.sml u1004.med u1004.sml u1004.kinzi u1004.kinzi_u102D u1004.kinzi_u102E u1004.kinzi_u1032 u1004.kinzi_u1033 u1004.kinzi_u1036 u1004.kinzi_u103A u1004.kinzi_u102D_u1036 u1005.med u1005.sml u1006.med u1006.sml u1007.med u1007.sml u1008.sml u1009.med u1009.sml u100A.med u100A.sml u100B.med u100B.sml u100C.med u100C.sml u100D.med u100D.sml u100E.med u100E.sml u100F.med u100F.sml u1010.med u1010_u103D.med u1010.sml u1011.med u1011.sml u1012.med u1012.sml u1013.med u1013.sml u1014.med u1014.sml u1015.med u1015.sml u1016.med u1016.sml u1017.med u1017.sml u1018.med u1018.sml u1019.med u1019.sml u101A.med u101A.sml u101B.med u101B.sml u101B.kinzi u101B.kinzi_u102D u101B.kinzi_u102E u101B.kinzi_u103A u101C.med u101C.sml u101D.med u101D.sml u101E.med u101E.sml u101F.med u101F.sml u1020.med u1020.sml u1021.med u1021.sml u102D u102D_u1036 u102D_uAA7C u102E u102E_uAA7C u103A_uAA7C u102F.med u102F_u108D u1030.med u1030_u108D u1032 u1032_u102D u1032_u102E u1033 u1034 u1035 u1036 u1037 u1039 u103A u103A_u1036 u103C u103C.alt.narr u103C.alt.open.narr u103C.alt.open.wide u103C.alt.wide u103C.open.narr u103C.open.wide u103C.wide u103C_u103D.narr u103C_u103D.wide u103C_u103D.alt.narr u103C_u103D.alt.wide u103C_u102F.narr u103C_u102F.wide u103C_u102F.alt.narr u103C_u102F.alt.wide u103D u103D_u103E u103D_u103E.small u103D_u108D u103D_u1060 u103E u103E.alt u103E_u102F u103E_u1030 u103E_u1060 u103F.med u103F.sml u1050.med u1050.sml u1051.med u1051.sml u1058 u1059 u105A.med u105C.med u105E u105F u1060 u1071 u1072 u1073 u1074 u1082 u1082_u108D u1085 u1086 u1086_uAA7C u108D u109D uA9E5 uA9E5_uAA7C uAA60.med uAA70 uAA7C u1086.kham u1086_uAA70 u103A_uAA70 u1036.dot u100D.med.thai u103C_u103D.alt.narr.tri u103C_u103D.alt.wide.tri u103C_u103D.narr.tri u103C_u103D.wide.tri u1010_u103D.med.tri u103D.tri u103D_u103E.tri u103D_u103E.small.tri u103E.slantr u103E.slanth u103E_u102F.slantr u103E_u102F.slanth u103E_u1030.slantr u103E_u1030.slanth u034F uFE00 uFE01 uFE02 uFE03 uFE04 uFE05 uFE06 uFE07 uFE08 uFE09 uFE0A uFE0B uFE0C uFE0D uFE0E uFE0F];
 table GDEF {
     GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;
 } GDEF;
