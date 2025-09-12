@@ -565,4 +565,14 @@
       <string>\u1063\u103a</string>
     </test>
   </testgroup>
+  <testgroup label="maybe">
+    <test label="U+102C U+103A">
+      <comment>this sequence is only used by Sgaw Karen, so does not need to be tagged with a language</comment>
+      <string>\u102c\u103a</string>
+    </test>
+    <test label="U+1067 U+103A alt">
+      <comment>the previous sample should look like this sample</comment>
+      <string>\u1067\u103a</string>
+    </test>
+  </testgroup>
 </ftml>

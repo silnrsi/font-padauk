@@ -13,7 +13,7 @@
   <key>familyName</key>
   <string>Padauk</string>
   <key>openTypeHeadCreated</key>
-  <string>2025/09/10 15:24:49</string>
+  <string>2025/09/12 07:59:07</string>
   <key>openTypeHheaAscender</key>
   <integer>1010</integer>
   <key>openTypeHheaDescender</key>
@@ -21,7 +21,7 @@
   <key>openTypeHheaLineGap</key>
   <integer>0</integer>
   <key>openTypeNameDescription</key>
-  <string>Burmese Unicode TrueType font with OpenType and Graphite support</string>
+  <string>Burmese Unicode font</string>
   <key>openTypeNameDesigner</key>
   <string>Debbi Hosken, Becca Hirsbrunner Spalinger</string>
   <key>openTypeNameDesignerURL</key>
@@ -83,7 +83,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameUniqueID</key>
   <string>SIL Global: Padauk Regular: 2025</string>
   <key>openTypeNameVersion</key>
-  <string>Version 5.101</string>
+  <string>Version 6.000</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -192,9 +192,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>unitsPerEm</key>
   <integer>1024</integer>
   <key>versionMajor</key>
-  <integer>5</integer>
+  <integer>6</integer>
   <key>versionMinor</key>
-  <integer>101</integer>
+  <integer>0</integer>
   <key>xHeight</key>
   <integer>459</integer>
 </dict>

@@ -55,7 +55,7 @@
       <string>\uAA7A</string>
     </test>
   </testgroup>
-  <testgroup label="Also affects the following characters">
+  <testgroup label="Also affects">
     <test label="U+100B U+100C">
       <string>\u100B\u1039\u100C</string>
     </test>
