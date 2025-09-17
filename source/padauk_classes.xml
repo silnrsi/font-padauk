@@ -46,6 +46,7 @@
     u202B u200F u202E
     scaron u2006 summation u2009 u2004 trademark
     zcaron uFEFF
+    rupee rupeeIndian blank sidebearingleft sidebearingright
   </property>
   <property exts=".alt .kham .aiph .sml .thai" name="GDL_order" value="1">
     hyphen parenright u1000 u1000_u1001_u103B u1000_u103B_u1015_u103A u1001

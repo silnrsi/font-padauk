@@ -112,9 +112,17 @@
       <comment>foursuperior</comment>
       <string>\u002074</string>
     </test>
+    <test background="#f0fff0" label="U+20A8">
+      <comment>rupee</comment>
+      <string>\u0020A8</string>
+    </test>
     <test label="U+20AC">
       <comment>Euro</comment>
       <string>\u0020AC</string>
+    </test>
+    <test background="#f0fff0" label="U+20B9">
+      <comment>rupeeIndian</comment>
+      <string>\u0020B9</string>
     </test>
     <test label="U+2122">
       <comment>trademark</comment>
@@ -191,6 +199,14 @@
     <test label="U+AA60">
       <comment>uAA60</comment>
       <string>\u00AA60 \u00AA61 \u00AA62 \u00AA63 \u00AA64 \u00AA65 \u00AA66 \u00AA67 \u00AA68 \u00AA69 \u00AA6A \u00AA6B \u00AA6C \u00AA6D \u00AA6E \u00AA6F \u00AA70 \u00AA71 \u00AA72 \u00AA73 \u00AA74 \u00AA75 \u00AA76 \u00AA77 \u00AA78 \u00AA79 \u00AA7A \u00AA7B \u001000\u00AA7C \u00AA7D \u00AA7E \u00AA7F</string>
+    </test>
+    <test background="#f0fff0" label="U+F130">
+      <comment>sidebearingleft</comment>
+      <string>\u00F130</string>
+    </test>
+    <test background="#f0fff0" label="U+F131">
+      <comment>sidebearingright</comment>
+      <string>\u00F131</string>
     </test>
     <test label="U+FB01">
       <comment>fi</comment>

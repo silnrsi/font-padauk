@@ -764,7 +764,9 @@
     <string>fraction</string>
     <string>u2060</string>
     <string>foursuperior</string>
+    <string>rupee</string>
     <string>Euro</string>
+    <string>rupeeIndian</string>
     <string>trademark</string>
     <string>Omega</string>
     <string>partialdiff</string>
@@ -879,6 +881,8 @@
     <string>uAA7D</string>
     <string>uAA7E</string>
     <string>uAA7F</string>
+    <string>sidebearingleft</string>
+    <string>sidebearingright</string>
     <string>fi</string>
     <string>fl</string>
     <string>uFE00</string>
@@ -957,10 +961,18 @@
     <string>u116DB</string>
     <key>onesuperior</key>
     <string>uni00B9</string>
+    <key>rupee</key>
+    <string>uni20A8</string>
+    <key>rupeeIndian</key>
+    <string>uni20B9</string>
     <key>seven-pao</key>
     <string>u116D7</string>
     <key>seven-pwo</key>
     <string>u116E1</string>
+    <key>sidebearingleft</key>
+    <string>uniF130</string>
+    <key>sidebearingright</key>
+    <string>uniF131</string>
     <key>six-pao</key>
     <string>u116D6</string>
     <key>six-pwo</key>

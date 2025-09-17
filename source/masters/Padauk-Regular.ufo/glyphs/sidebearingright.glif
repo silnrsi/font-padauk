@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sidebearingright" format="2">
+  <advance width="148"/>
+  <unicode hex="F131"/>
+  <outline>
+    <contour>
+      <point x="0" y="0" type="line"/>
+      <point x="0" y="-129" type="line"/>
+      <point x="17" y="-129" type="line"/>
+      <point x="17" y="-17" type="line"/>
+      <point x="129" y="-17" type="line"/>
+      <point x="129" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>
