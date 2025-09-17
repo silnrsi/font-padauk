@@ -2,9 +2,7 @@
 <glyph name="u202F" format="2">
   <advance width="568"/>
   <unicode hex="202F"/>
-  <outline>
-    <component base="space"/>
-  </outline>
+  <outline/>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
