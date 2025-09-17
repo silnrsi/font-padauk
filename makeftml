@@ -11,7 +11,7 @@ then
 fi
 
 # configure tests
-tests="AllChars Proof Diac Matras Medials Guards"
+tests="AllChars Proof Diac Matras Medials Guards Reduplication"
 urls='url(../references/PadaukBook-Regular_gr.ttf)=grR url(../references/PadaukBook-Bold_gr.ttf)=grB url(../references/PadaukBook-Regular.ttf)=refR url(../references/PadaukBook-Bold.ttf)=refB url(../results/PadaukBook-Regular.ttf)=R url(../results/PadaukBook-Bold.ttf)=B url(../references/Pyidaungsu-2.5.3_Regular.ttf)=Pyidaungsu url(../references/NotoSansMyanmar-Regular.ttf)=notoSans url(../references/NotoSerifMyanmar-Regular.ttf)=notoSerif'
 ufo='source/masters/Padauk-Regular.ufo'
 

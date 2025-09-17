@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
+<ftml version="1.0">
+  <head>
+    <comment>Background colors: light orange: includes a character from Unicode version 16.0 or later; light red: a character is missing from UFO; light green: a character is new in this version of the font</comment>
+    <fontscale>200</fontscale>
+    <fontsrc label="grR">url(../references/PadaukBook-Regular_gr.ttf)</fontsrc>
+    <fontsrc label="grB">url(../references/PadaukBook-Bold_gr.ttf)</fontsrc>
+    <fontsrc label="refR">url(../references/PadaukBook-Regular.ttf)</fontsrc>
+    <fontsrc label="refB">url(../references/PadaukBook-Bold.ttf)</fontsrc>
+    <fontsrc label="R">url(../results/PadaukBook-Regular.ttf)</fontsrc>
+    <fontsrc label="B">url(../results/PadaukBook-Bold.ttf)</fontsrc>
+    <fontsrc label="Pyidaungsu">url(../references/Pyidaungsu-2.5.3_Regular.ttf)</fontsrc>
+    <fontsrc label="notoSans">url(../references/NotoSansMyanmar-Regular.ttf)</fontsrc>
+    <fontsrc label="notoSerif">url(../references/NotoSerifMyanmar-Regular.ttf)</fontsrc>
+    <title>Reduplication auto</title>
+  </head>
+  <testgroup label="AA70">
+    <test label="102D">
+      <comment>u102D</comment>
+      <string>\u001002\u00FE00\u00102D\u00109A\u00AA70\u001015\u00FE00 \u001002\u00FE00\u00102D\u001089\u00AA70\u001015\u00FE00 \u001002\u00FE00\u00102D\u00109B\u00AA70\u001015\u00FE00 \u001002\u00FE00\u00102D\u001087\u00AA70\u001015\u00FE00 \u001002\u00FE00\u00102D\u001088\u00AA70\u001015\u00FE00 \u001002\u00FE00\u00102D\u001038\u00AA70\u001015\u00FE00 \u001002\u00FE00\u00102D\u00108A\u00AA70\u001015\u00FE00</string>
+    </test>
+    <test label="102E">
+      <comment>u102E</comment>
+      <string>\u001002\u00FE00\u00102E\u00109A\u00AA70\u001015\u00FE00 \u001002\u00FE00\u00102E\u001089\u00AA70\u001015\u00FE00 \u001002\u00FE00\u00102E\u00109B\u00AA70\u001015\u00FE00 \u001002\u00FE00\u00102E\u001087\u00AA70\u001015\u00FE00 \u001002\u00FE00\u00102E\u001088\u00AA70\u001015\u00FE00 \u001002\u00FE00\u00102E\u001038\u00AA70\u001015\u00FE00 \u001002\u00FE00\u00102E\u00108A\u00AA70\u001015\u00FE00</string>
+    </test>
+    <test label="103A">
+      <comment>u103A</comment>
+      <string>\u001002\u00FE00\u00103A\u00109A\u00AA70\u001015\u00FE00 \u001002\u00FE00\u00103A\u001089\u00AA70\u001015\u00FE00 \u001002\u00FE00\u00103A\u00109B\u00AA70\u001015\u00FE00 \u001002\u00FE00\u00103A\u001087\u00AA70\u001015\u00FE00 \u001002\u00FE00\u00103A\u001088\u00AA70\u001015\u00FE00 \u001002\u00FE00\u00103A\u001038\u00AA70\u001015\u00FE00 \u001002\u00FE00\u00103A\u00108A\u00AA70\u001015\u00FE00</string>
+    </test>
+    <test label="1085">
+      <comment>u1085</comment>
+      <string>\u001002\u00FE00\u001085\u00109A\u00AA70\u001015\u00FE00 \u001002\u00FE00\u001085\u001089\u00AA70\u001015\u00FE00 \u001002\u00FE00\u001085\u00109B\u00AA70\u001015\u00FE00 \u001002\u00FE00\u001085\u001087\u00AA70\u001015\u00FE00 \u001002\u00FE00\u001085\u001088\u00AA70\u001015\u00FE00 \u001002\u00FE00\u001085\u001038\u00AA70\u001015\u00FE00 \u001002\u00FE00\u001085\u00108A\u00AA70\u001015\u00FE00</string>
+    </test>
+    <test label="1086">
+      <comment>u1086</comment>
+      <string>\u001002\u00FE00\u001086\u00109A\u00AA70\u001015\u00FE00 \u001002\u00FE00\u001086\u001089\u00AA70\u001015\u00FE00 \u001002\u00FE00\u001086\u00109B\u00AA70\u001015\u00FE00 \u001002\u00FE00\u001086\u001087\u00AA70\u001015\u00FE00 \u001002\u00FE00\u001086\u001088\u00AA70\u001015\u00FE00 \u001002\u00FE00\u001086\u001038\u00AA70\u001015\u00FE00 \u001002\u00FE00\u001086\u00108A\u00AA70\u001015\u00FE00</string>
+    </test>
+  </testgroup>
+</ftml>

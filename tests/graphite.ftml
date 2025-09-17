@@ -74,7 +74,7 @@
       <string>\u1000\u105a\u102d\u102f\u1032 \u105a\u102d\u102f\u1032</string>
     </test>
   </testgroup>
-  <testgroup label="kht-extras.htxt">
+  <testgroup label="kht_extras.htxt">
     <test label="7.1">
       <comment>OT fixed</comment>
       <string>\u101b\ufe00\u1086\u108a\uaa70</string>
@@ -364,6 +364,23 @@
     <test label="U+100B vtta=1" stylename="vtta_1">
       <comment>tta.alt</comment>
       <string>\u100b</string>
+    </test>
+  </testgroup>
+  <testgroup label="reduplication">
+    <test label="UTN 11">
+      <string>\u1000\u1083\u109b\uaa70\u1019\u1085</string>
+    </test>
+    <test label="0">
+      <string>\u1000\uaa70\u1001</string>
+    </test>
+    <test label="1">
+      <string>\u1000\u102d\u1000\uaa70\u1001</string>
+    </test>
+    <test label="2">
+      <string>\u1000\u102d\u1000\u1000\uaa70\u1001</string>
+    </test>
+    <test label="3">
+      <string>\u1000\u102d\u1000\u1000\u1000\uaa70\u1001</string>
     </test>
   </testgroup>
 </ftml>

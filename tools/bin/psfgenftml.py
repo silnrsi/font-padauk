@@ -288,6 +288,15 @@ def doit(args):
                 builder.render((*map(ord, sample), colon_like), ftml, label=f'{colon_like:04X}', comment=builder.char(ord(sample[0])).basename)
                 ftml.closeTest()        
 
+    if test.lower().startswith("reduplication"):
+        vowels = (0x102D, 0x102E, 0x103A, 0x1085, 0x1086)
+        tones = (0x109a, 0x1089, 0x109b, 0x1087, 0x1088, 0x1038, 0x108a)
+        ftml.startTestGroup('AA70')
+        for v in vowels:
+            for t in tones:
+                builder.render((0x1002,0xfe00,v,t,0xaa70,0x1015,0xfe00), ftml, label=f'{v:04X}', comment=builder.char(v).basename)
+            ftml.closeTest()
+
 
     # Write the output ftml file
     ftml.writeFile(args.output)
