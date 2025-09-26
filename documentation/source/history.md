@@ -1,19 +1,7 @@
-FONTLOG
-Padauk
-======
-
-This file provides detailed information on the Padauk font software.
-This information should be distributed along with the Padauk fonts
-and any derivative works.
-
-## About this project
-
-Padauk is a Unicode font designed to support all languages and writing systems that use the Myanmar (Burmese) script.
-It covers all of the Unicode Myanmar script blocks and works on OpenType based systems.
-
-## ChangeLog
-
-(This should list both major and minor changes, most recent first.)
+---
+title: Padauk - Version History
+fontversion: 6.000
+---
 
 ### 29 September 2025 (SIL WSTech team) Version 6.000
 - Removed Graphite and old OpenType (mymr and DFLT) shaping support
@@ -26,7 +14,7 @@ It covers all of the Unicode Myanmar script blocks and works on OpenType based s
 - Add dotted form of U+1002 with VS1 for Khamti, Aiton, and Phake
 - Added Tai Laing variant glyphs and language support (including adding cv10 and ss10)
 - Added Aiton and Phake language support
-- Fixed various bugs>
+- Fixed various bugs
 
 ### 08 June 2022 (SIL WSTech team) Version 5.001
 - Added Character Variant feature (cv09) for U+AA6C variant selection in OpenType and Graphite
@@ -70,37 +58,3 @@ It covers all of the Unicode Myanmar script blocks and works on OpenType based s
 - Add mym2 OpenType support
 - Support minority languages in OpenType
 - Support 4 faces, book and regular in bold and regular
-
-## Acknowledgements
-
-(Here is where contributors can be acknowledged. If you make modifications
-be sure to add your name (N), email (E), web-address (W) and description (D).
-This list is sorted by last name in alphabetical order.)
-
-N: Jon Coblentz
-D: Font engineer
-
-N: Bobby de Vos
-D: Font engineer
-
-N: Debbi Hosken
-D: Glyph design
-
-N: Martin Hosken
-D: Chief Engineer
-
-N: Iska Routamaa
-D: Glyph design, book & bold interpolations
-
-N: Becca Spalinger
-D: Glyph design
-
-N: Keith Stribley
-D: OpenType engineering
-
-The Padauk fonts are maintained by SIL Global, a global,
-faith-based nonprofit that works with local communities around the world
-to develop language solutions that expand possibilities for a better life.
-
-For more information or support please visit:
-https://software.sil.org/padauk/

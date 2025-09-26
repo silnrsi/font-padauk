@@ -13,7 +13,7 @@
   <key>familyName</key>
   <string>Padauk</string>
   <key>openTypeHeadCreated</key>
-  <string>2025/09/17 16:51:49</string>
+  <string>2025/09/25 10:16:05</string>
   <key>openTypeHheaAscender</key>
   <integer>1010</integer>
   <key>openTypeHheaDescender</key>
@@ -196,6 +196,68 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <integer>6</integer>
   <key>versionMinor</key>
   <integer>0</integer>
+  <key>woffMetadataCredits</key>
+  <dict>
+    <key>credits</key>
+    <array>
+      <dict>
+        <key>name</key>
+        <string>Jon Coblentz</string>
+        <key>role</key>
+        <string>Font engineer</string>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Bobby de Vos</string>
+        <key>role</key>
+        <string>Font engineer</string>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Debbi Hosken</string>
+        <key>role</key>
+        <string>Glyph design</string>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Martin Hosken</string>
+        <key>role</key>
+        <string>Chief Engineer</string>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Iska Routamaa</string>
+        <key>role</key>
+        <string>Glyph design, book &amp; bold interpolations</string>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Becca Spalinger</string>
+        <key>role</key>
+        <string>Glyph design</string>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Keith Stribley</string>
+        <key>role</key>
+        <string>OpenType engineering</string>
+      </dict>
+    </array>
+  </dict>
+  <key>woffMetadataDescription</key>
+  <dict>
+    <key>text</key>
+    <array>
+      <dict>
+        <key>text</key>
+        <string>Padauk is a pan-Burma font designed to support all Myanmar script-based
+languages. It covers all of the Unicode Myanmar script blocks and works
+on OpenType based systems.</string>
+      </dict>
+    </array>
+    <key>url</key>
+    <string>https://software.sil.org/padauk/news/</string>
+  </dict>
   <key>xHeight</key>
   <integer>466</integer>
 </dict>

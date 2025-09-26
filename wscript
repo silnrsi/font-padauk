@@ -71,7 +71,8 @@ d = designspace('source/Padauk.designspace',
     script = 'mym2',
     extra_srcs = ['tools/bin/makegdl', 'source/myfeatures.gdl'],
     pdf = fret(params='-oi'),
-    woff = woff('web/${DS:FILENAME_BASE}.woff', params = '-v ' + VERSION + ' -m ../source/padauk-WOFF-metadata.xml'),
+    woff = woff('web/${DS:FILENAME_BASE}.woff',
+        metadata = '../source/padauk-WOFF-metadata.xml'),
     **kw
 )
 

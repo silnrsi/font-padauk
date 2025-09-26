@@ -193,23 +193,23 @@
     </test>
     <test label="default-dotted_form">
       <comment>single dotted forms</comment>
-      <string>\u1000\uFE00 \u1075\uFE00 \uAA61\uFE00 \u107A \u1010\uFE00 \uAA6B\uFE00 \u1078\uFE00 \u101A\uFE00 \uAA7A \u101C\uFE00 \uAA6D \u1022\uFE00 \u103C</string>
+      <string>\u1000\uFE00 \u1075\uFE00 \uAA61\uFE00 \u107A \u1010\uFE00 \uAA6B\uFE00 \u1078\uFE00 \u101A\uFE00 \uAA7A \u101C\uFE00 \uAA6D \u1022\uFE00 \u103C \uAA77</string>
     </test>
     <test label="aio" stylename="aio">
       <comment>double dotted forms</comment>
-      <string>\u1000\uFE00 \u1075\uFE00 \uAA61\uFE00 \u107A \u1010\uFE00 \uAA6B\uFE00 \u1078\uFE00 \u101A\uFE00 \uAA7A \u101C\uFE00 \uAA6D \u1022\uFE00 \u103C</string>
+      <string>\u1000\uFE00 \u1075\uFE00 \uAA61\uFE00 \u107A \u1010\uFE00 \uAA6B\uFE00 \u1078\uFE00 \u101A\uFE00 \uAA7A \u101C\uFE00 \uAA6D \u1022\uFE00 \u103C \uAA77</string>
     </test>
     <test label="phk" stylename="phk">
       <comment>double dotted forms</comment>
-      <string>\u1000\uFE00 \u1075\uFE00 \uAA61\uFE00 \u107A \u1010\uFE00 \uAA6B\uFE00 \u1078\uFE00 \u101A\uFE00 \uAA7A \u101C\uFE00 \uAA6D \u1022\uFE00 \u103C</string>
+      <string>\u1000\uFE00 \u1075\uFE00 \uAA61\uFE00 \u107A \u1010\uFE00 \uAA6B\uFE00 \u1078\uFE00 \u101A\uFE00 \uAA7A \u101C\uFE00 \uAA6D \u1022\uFE00 \u103C \uAA77</string>
     </test>
     <test label="cv05" stylename="cv05_1">
       <comment>double dotted forms</comment>
-      <string>\u1000\uFE00 \u1075\uFE00 \uAA61\uFE00 \u107A \u1010\uFE00 \uAA6B\uFE00 \u1078\uFE00 \u101A\uFE00 \uAA7A \u101C\uFE00 \uAA6D \u1022\uFE00 \u103C</string>
+      <string>\u1000\uFE00 \u1075\uFE00 \uAA61\uFE00 \u107A \u1010\uFE00 \uAA6B\uFE00 \u1078\uFE00 \u101A\uFE00 \uAA7A \u101C\uFE00 \uAA6D \u1022\uFE00 \u103C \uAA77</string>
     </test>
     <test label="ss05" stylename="ss05_1">
       <comment>double dotted forms</comment>
-      <string>\u1000\uFE00 \u1075\uFE00 \uAA61\uFE00 \u107A \u1010\uFE00 \uAA6B\uFE00 \u1078\uFE00 \u101A\uFE00 \uAA7A \u101C\uFE00 \uAA6D \u1022\uFE00 \u103C</string>
+      <string>\u1000\uFE00 \u1075\uFE00 \uAA61\uFE00 \u107A \u1010\uFE00 \uAA6B\uFE00 \u1078\uFE00 \u101A\uFE00 \uAA7A \u101C\uFE00 \uAA6D \u1022\uFE00 \u103C \uAA77</string>
     </test>
   </testgroup>
   <testgroup label="#40 language support - Asho Chin">

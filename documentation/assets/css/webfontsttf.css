@@ -1,0 +1,27 @@
+/*
+This file is from the Padauk project (https://software.sil.org/padauk/).
+Copyright (c) 2001-2025 SIL Global (https://www.sil.org/)
+with Reserved Font Names "Padauk", "Namkio", "Deemawso", and "SIL".
+This Font Software is licensed under the SIL Open Font License, Version 1.1 (https://openfontlicense.org).
+*/
+@font-face {
+    font-family: Padauk-R;
+    src: url("../../../results/Padauk-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: Padauk-B;
+    src: url("../../../results/Padauk-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: PadaukBook-R;
+    src: url("../../../results/PadaukBook-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: PadaukBook-B;
+    src: url("../../../results/PadaukBook-Bold.ttf") format("truetype");
+}
+
+.padauk-R { font-family: Padauk-R; }
+.padauk-B { font-family: Padauk-B; }
+.padaukbook-R { font-family: PadaukBook-R; }
+.padaukbook-B { font-family: PadaukBook-B; }

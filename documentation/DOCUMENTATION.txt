@@ -1,23 +1,11 @@
 DOCUMENTATION
 Padauk
-========================
+======
 
-This file describes the documentation files included with the Padauk
-font. This information should be distributed along with the
-Padauk font and any derivative works.
+The documentation for this project is listed in index.html.
 
-Primary documentation for the Padauk font is on the Padauk
-website (https://software.sil.org/padauk/).
+There are also PDF versions in the `pdf` folder.
 
-
-The Padauk-features.odt file illustrates the use of OpenType and
-Graphite features (source file for the pdf).
-
-The Padauk-features.pdf file illustrates the use of OpenType and
-Graphite features.
-
-The Padauk-typesample.odt file shows all the Unicode characters in
-the font as well as some running text (source file for the pdf).
-
-The Padauk-typesample.pdf file shows all the Unicode characters in
-the font as well as some running text.
+These are produced from markdown sources (in `source`) using pandoc,
+weasyprint, and custom python scripts. See the `makedocs` shell script
+in the main project folder.

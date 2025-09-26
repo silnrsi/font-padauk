@@ -1,0 +1,34 @@
+#!/bin/sh
+
+# To generate PDFs that are somewhat OK you will need to have the Roboto and Roboto mono font families installed on your system
+# https://fonts.google.com/specimen/Roboto
+# https://fonts.google.com/specimen/Roboto+Mono
+
+echo "-----Rebuilding documentation..."
+
+pdftemp=documentation/source/pdftemp
+mkdir -p $pdftemp
+
+for markdown in documentation/source/*.md
+do
+    topic=$(basename $markdown .md)
+    if [ $topic = "announcement" ]
+    then
+        continue
+    fi
+
+    # echo "     >>> HTML (documentation/)"
+    echo "     > $topic.html"
+    pandoc -s -f markdown-smart --template documentation/source/template.html documentation/source/$topic.md -o documentation/$topic.html --lua-filter=documentation/source/pandocfilters/filter-html.lua
+
+    # echo "     >>> PDF (documentation/pdf/)"
+    echo "     > $topic.html > $topic.pdf"
+    pandoc -s -f markdown-smart --template documentation/source/templatepdf.html documentation/source/$topic.md -o $pdftemp/$topic.html --lua-filter=documentation/source/pandocfilters/filter-pdf.lua
+    weasyprint $pdftemp/$topic.html documentation/pdf/$topic.pdf
+
+    # echo "     >>> PRODUCT SITE MARKDOWN (documentation/source/productsite/)"
+    echo "     > $topic.md"
+    python3 documentation/source/makepsmd.py documentation/source/$topic.md documentation/source/productsite/$topic.md -q
+done
+
+echo "-----Completed!"
