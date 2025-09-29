@@ -11,7 +11,7 @@ For more information on using and developing the fonts see the full project docu
 
 - *local HTML* - Download the release package and open the file `documentation/index.html` in a browser
 - *local PDF* - Download the release or source package and open the file `documentation/pdf/index.pdf`
-- *Web site* - Visit the [Gentium web site](https://software.sil.org/gentium)
+- *Web site* - Visit the [Padauk web site](https://software.sil.org/padauk)
 
 For a complete list of changes in this version see the [FONTLOG.txt](FONTLOG.txt).
 

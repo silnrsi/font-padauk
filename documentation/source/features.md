@@ -7,7 +7,7 @@ Padauk is an OpenType-enabled font family that supports the Myanmar (Burmese) sc
 
 These OpenType features are primarily specified using four-letter tags (e.g. 'ss01'). For more information on how to access OpenType features in specific environments and applications, see [Using Font Features](https://software.sil.org/fonts/features).
 
-*Please note that Graphite support has been removed in the current release, but continues to be available in the version 5.100 fonts. See our [Previous Versions archive](https://software.sil.org/padauk/download).*
+*Please note that Graphite support has been removed in the current release, but continues to be available in the version 5.100 fonts. See our [Previous Versions archive](https://software.sil.org/padauk/download/previous-versions).*
 
 This page uses web fonts (WOFF2) to demonstrate font features and should display correctly in all modern browsers. For a more concise example of how to use Padauk as a web font see *../web/Padauk-webfont-example.html* in the font package *web* folder. For detailed information see [Using SIL Fonts on Web Pages](https://software.sil.org/fonts/webfonts).
 

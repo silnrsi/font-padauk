@@ -23,4 +23,3 @@ U   | X  | X   | Upper diacritics
 UL  | X  |     | Left limit on u103C.alt of upper diacritics
 Y   | X  | X   | Upper diacritics on right attaching (e.g. U+103B or spacing U+102F)
 dot |    |     | Looks like left U+1037 for things with a tall tail
-
