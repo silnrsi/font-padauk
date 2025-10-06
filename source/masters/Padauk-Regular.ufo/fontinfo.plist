@@ -172,8 +172,6 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <integer>784</integer>
   <key>postscriptFontName</key>
   <string>Padauk-Regular</string>
-  <key>postscriptFullName</key>
-  <string>Padauk</string>
   <key>postscriptStemSnapH</key>
   <array/>
   <key>postscriptStemSnapV</key>
@@ -182,10 +180,6 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <integer>-450</integer>
   <key>postscriptUnderlineThickness</key>
   <integer>50</integer>
-  <key>styleMapFamilyName</key>
-  <string>Padauk</string>
-  <key>styleMapStyleName</key>
-  <string>regular</string>
   <key>styleName</key>
   <string>Regular</string>
   <key>trademark</key>

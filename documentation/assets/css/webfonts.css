@@ -9,12 +9,33 @@ This Font Software is licensed under the SIL Open Font License, Version 1.1 (htt
     src: url("../../../web/Padauk-Regular.woff2") format("woff2");
 }
 @font-face {
+    font-family: Padauk-M;
+    src: url("../../../web/Padauk-Medium.woff2") format("woff2");
+}
+@font-face {
+    font-family: Padauk-SB;
+    src: url("../../../web/Padauk-SemiBold.woff2") format("woff2");
+}
+@font-face {
     font-family: Padauk-B;
     src: url("../../../web/Padauk-Bold.woff2") format("woff2");
 }
 @font-face {
+    font-family: Padauk-XB;
+    src: url("../../../web/Padauk-ExtraBold.woff2") format("woff2");
+}
+
+@font-face {
     font-family: PadaukBook-R;
     src: url("../../../web/PadaukBook-Regular.woff2") format("woff2");
+}
+@font-face {
+    font-family: PadaukBook-M;
+    src: url("../../../web/PadaukBook-Medium.woff2") format("woff2");
+}
+@font-face {
+    font-family: PadaukBook-SB;
+    src: url("../../../web/PadaukBook-SemiBold.woff2") format("woff2");
 }
 @font-face {
     font-family: PadaukBook-B;
@@ -22,6 +43,12 @@ This Font Software is licensed under the SIL Open Font License, Version 1.1 (htt
 }
 
 .padauk-R { font-family: Padauk-R; }
+.padauk-M { font-family: Padauk-M; }
+.padauk-SB { font-family: Padauk-SB; }
 .padauk-B { font-family: Padauk-B; }
+.padauk-XB { font-family: Padauk-XB; }
+
 .padaukbook-R { font-family: PadaukBook-R; }
+.padaukbook-M { font-family: PadaukBook-M; }
+.padaukbook-SB { font-family: PadaukBook-SB; }
 .padaukbook-B { font-family: PadaukBook-B; }

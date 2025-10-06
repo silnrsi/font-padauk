@@ -3,10 +3,13 @@ title: Padauk - Documentation
 fontversion: 6.000
 ---
 
-<span class='padauk-R normal'>မွန်မြန်မာအက္ခရာ</span>&nbsp;&nbsp;&nbsp;Regular<br>
-<span class='padauk-B normal'>မွန်မြန်မာအက္ခရာ</span>&nbsp;&nbsp;&nbsp;Bold<br>
-<span class='padaukbook-R normal'>မွန်မြန်မာအက္ခရာ</span>&nbsp;&nbsp;&nbsp;Book Regular<br>
-<span class='padaukbook-B normal'>မွန်မြန်မာအက္ခရာ</span>&nbsp;&nbsp;&nbsp;Book Bold<br>
+Padauk        | Padaduk Book
+------------- | -------------
+<span class='padauk-R normal'>မွန်မြန်မာအက္ခရာ</span>&nbsp;&nbsp;&nbsp;Regular |
+<span class='padauk-M normal'>မွန်မြန်မာအက္ခရာ</span>&nbsp;&nbsp;&nbsp;Medium | <span class='padaukbook-R normal'>မွန်မြန်မာအက္ခရာ</span>&nbsp;&nbsp;&nbsp;Book Regular
+<span class='padauk-SB normal'>မွန်မြန်မာအက္ခရာ</span>&nbsp;&nbsp;&nbsp;SemiBold | <span class='padaukbook-M normal'>မွန်မြန်မာအက္ခရာ</span>&nbsp;&nbsp;&nbsp;Book Medium
+<span class='padauk-B normal'>မွန်မြန်မာအက္ခရာ</span>&nbsp;&nbsp;&nbsp;Bold | <span class='padaukbook-SB normal'>မွန်မြန်မာအက္ခရာ</span>&nbsp;&nbsp;&nbsp;Book SemiBold
+<span class='padauk-XB normal'>မွန်မြန်မာအက္ခရာ</span>&nbsp;&nbsp;&nbsp;ExtraBold | <span class='padaukbook-B normal'>မွန်မြန်မာအက္ခရာ</span>&nbsp;&nbsp;&nbsp;Book Bold
 
 Thank you for your interest in the Padauk fonts for the Myanmar (Burmese) script.
 

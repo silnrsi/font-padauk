@@ -13,7 +13,7 @@
   <key>familyName</key>
   <string>Padauk</string>
   <key>openTypeHeadCreated</key>
-  <string>2025/09/29 08:35:44</string>
+  <string>2025/10/02 06:39:14</string>
   <key>openTypeHheaAscender</key>
   <integer>1010</integer>
   <key>openTypeHheaDescender</key>
@@ -79,9 +79,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNamePreferredFamilyName</key>
   <string>Padauk</string>
   <key>openTypeNamePreferredSubfamilyName</key>
-  <string>Book Bold</string>
+  <string>ExtraBold</string>
   <key>openTypeNameUniqueID</key>
-  <string>SIL Global: Padauk Book Bold: 2025</string>
+  <string>SIL Global: Padauk ExtraBold: 2025</string>
   <key>openTypeNameVersion</key>
   <string>Version 6.000</string>
   <key>openTypeOS2CodePageRanges</key>
@@ -171,9 +171,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeOS2WinDescent</key>
   <integer>784</integer>
   <key>postscriptFontName</key>
-  <string>Padauk-BookBold</string>
-  <key>postscriptFullName</key>
-  <string>Padauk Book Bold</string>
+  <string>Padauk-ExtraBold</string>
   <key>postscriptStemSnapH</key>
   <array/>
   <key>postscriptStemSnapV</key>
@@ -182,12 +180,8 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <integer>-450</integer>
   <key>postscriptUnderlineThickness</key>
   <integer>50</integer>
-  <key>styleMapFamilyName</key>
-  <string>Padauk</string>
-  <key>styleMapStyleName</key>
-  <string>bold</string>
   <key>styleName</key>
-  <string>Book Bold</string>
+  <string>ExtraBold</string>
   <key>trademark</key>
   <string>Padauk is a trademark of SIL Global.</string>
   <key>unitsPerEm</key>

@@ -5,7 +5,7 @@
 set -e
 
 echo "-----Check and normalize Regular..."
-# Do this before meta sync so we minimize problems in the BookBold
+# Do this before meta sync so we minimize problems in the ExtraBold
 # This normalization will also run check and fix routines
 psfnormalize -p checkfix=fix source/masters/Padauk-Regular.ufo
 
@@ -20,12 +20,12 @@ echo "-----Updating woff metadata file..."
 psfmakewoffmetadata -n padauk -i org.sil.fonts -o source/padauk-WOFF-metadata.xml source/masters/Padauk-Regular.ufo
 psfmakewoffmetadata -n padaukbook -i org.sil.fonts -o source/padaukbook-WOFF-metadata.xml source/masters/Padauk-Regular.ufo
 
-echo "-----Check and normalize BookBold..."
-psfnormalize -p checkfix=fix source/masters/Padauk-BookBold.ufo
+echo "-----Check and normalize ExtraBold..."
+psfnormalize -p checkfix=fix source/masters/Padauk-ExtraBold.ufo
 
 echo "Building internal fea..."
 makefea -o source/masters/Padauk-Regular.ufo/features.fea  -i source/padauk.fea -c source/padauk_classes.xml --omitaps "_R" source/masters/Padauk-Regular.ufo &
-makefea -o source/masters/Padauk-BookBold.ufo/features.fea -i source/padauk.fea -c source/padauk_classes.xml --omitaps "_R" source/masters/Padauk-BookBold.ufo &
+makefea -o source/masters/Padauk-ExtraBold.ufo/features.fea -i source/padauk.fea -c source/padauk_classes.xml --omitaps "_R" source/masters/Padauk-ExtraBold.ufo &
 wait
 
 echo "preflight completed!"
