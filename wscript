@@ -49,15 +49,12 @@ if '--gr' in opts:
 cmds = [
     cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['${source}']),
     cmd('gftools fix-nonhinting -q --no-backup ${DEP} ${TGT}'),
+    # cmd('${TTFAUTOHINT} -n -W ${DEP} ${TGT}'),
     ]
 
 d = designspace('source/Padauk.designspace',
     #params = '-l ${DS:FILENAME_BASE}_createinstance.log',
-    #target = process('${DS:FILENAME_BASE}.ttf',
-    #    cmd('${TTFAUTOHINT} -n -W ${DEP} ${TGT}'),
-    #),
     target = process('${DS:FILENAME_BASE}.ttf', *cmds),
-    instanceparams = "-W",
     instances = ['Padauk Book Regular'] if '-r' in opts else None,
     ap = '${DS:FILENAME_BASE}.xml',
     classes = 'source/padauk_classes.xml',
@@ -73,10 +70,36 @@ d = designspace('source/Padauk.designspace',
     pdf = fret(params='-oi'),
     woff = woff('web/${DS:FILENAME_BASE}',
         metadata = '../source/padauk-WOFF-metadata.xml'),
+    shortcircuit = False,
     **kw
 )
 
-# Make khamti package
+bookpackage = package(appname="PadaukBook", version=VERSION)
+db = designspace('source/PadaukBook.designspace',
+    target = process('${DS:FILENAME_BASE}.ttf', *cmds),
+    instances = ['Padauk Book Regular'] if '-r' in opts else None,
+    ap = '${DS:FILENAME_BASE}.xml',
+    classes = 'source/padauk_classes.xml',
+    opentype = fea('source/${DS:FILENAME_BASE}.fea',
+        master = 'source/padauk.fea',
+        make_params="--omitaps='_R'",
+        params = '-m source/${DS:FILENAME_BASE}.map',
+        depends = ["source/padauk"+x+".feax" for x in
+            ('_GPOS', '-mym2_GSUB')]),
+    version = VERSION,
+    script = 'mym2',
+    extra_srcs = ['tools/bin/makegdl', 'source/myfeatures.gdl'],
+    pdf = fret(params='-oi'),
+    woff = woff('web/${DS:FILENAME_BASE}',
+        metadata = '../source/padaukbook-WOFF-metadata.xml'),
+    shortcircuit = False,
+    package = bookpackage,
+    **kw
+)
+
+# Make language specific packages...
+
+# ... based on Padauk
 kpackage = package(appname="PadaukNamKio", version=VERSION)
 dpackage = package(appname="Deemawso", version=VERSION)
 for f in d.fonts:
@@ -97,6 +120,28 @@ for f in d.fonts:
             source = f.target,
             lang = 'kyu',
             package = dpackage)
+
+# ... based on Padauk Book
+kbpackage = package(appname="PadaukNamKioBook", version=VERSION)
+dbpackage = package(appname="DeemawsoBook", version=VERSION)
+for f in db.fonts:
+    if '-s' in opts:
+        continue
+    font(target = process('khamti/'+f.target.replace('Padauk', 'NamKio'),
+                        # cmd('ttfremap -r -c ${SRC} ${DEP} ${TGT}', ['source/namkio_remap.txt']),
+                        cmd('psfdeflang -L kht ${DEP} ${TGT}'),
+                        name('Namkio Khamti' + (' Book' if 'Book' in f.target else ""))),
+            opentype = internal(),
+            source = f.target,
+            lang = 'kht',
+            package = kbpackage)
+    font(target = process("deemawso/" + f.target.replace('Padauk', 'Deemawso'),
+                        cmd('psfdeflang -L kyu ${DEP} ${TGT}'),
+                        name('Deemawso' + (' Book' if 'Book' in f.target else ""))),
+            opentype = internal(),
+            source = f.target,
+            lang = 'kyu',
+            package = dbpackage)
 
 def configure(ctx) :
     ctx.find_program('ttfautohint')

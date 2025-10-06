@@ -3,10 +3,11 @@ title: Padauk - Version History
 fontversion: 6.000
 ---
 
-### 29 September 2025 (SIL WSTech team) Version 6.000
+### 06 October 2025 (SIL WSTech team) Version 6.000
 - Removed Graphite and old OpenType (mymr and DFLT) shaping support
 - Many shaping improvements (in the newer mym2 OpenType shaper)
 - Add support for Mon Thai (mnw-TH)
+- Separate packages for the Book weight fonts
 
 ### 27 November 2024 (SIL WSTech team) Version 5.100
 - Added Pa'o and Eastern Pwo Karen digits

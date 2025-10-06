@@ -18,6 +18,7 @@ psfsyncmasters source/Padauk.designspace
 
 echo "-----Updating woff metadata file..."
 psfmakewoffmetadata -n padauk -i org.sil.fonts -o source/padauk-WOFF-metadata.xml source/masters/Padauk-Regular.ufo
+psfmakewoffmetadata -n padaukbook -i org.sil.fonts -o source/padaukbook-WOFF-metadata.xml source/masters/Padauk-Regular.ufo
 
 echo "-----Check and normalize BookBold..."
 psfnormalize -p checkfix=fix source/masters/Padauk-BookBold.ufo
