@@ -97,51 +97,44 @@ db = designspace('source/PadaukBook.designspace',
     **kw
 )
 
-# Make language specific packages...
+# Make language specific packages
+dspaces = [
+    ('', d),
+    (' Book', db),
+]
+languages = [
+    ('kht', 'Namkio Khamti'),
+    ('kyu', 'Deemawso'),
+]
 
-# ... based on Padauk
-kpackage = package(appname="PadaukNamKio", version=VERSION)
-dpackage = package(appname="Deemawso", version=VERSION)
-for f in d.fonts:
+packages = {}
+for dspace in dspaces:
     if '-s' in opts:
         continue
-    font(target = process('khamti/'+f.target.replace('Padauk', 'NamKio'),
-                        # cmd('ttfremap -r -c ${SRC} ${DEP} ${TGT}', ['source/namkio_remap.txt']),
-                        cmd('psfdeflang -L kht ${DEP} ${TGT}'),
-                        name('Namkio Khamti' + (' Book' if 'Book' in f.target else ""))),
-            opentype = internal(),
-            source = f.target,
-            lang = 'kht',
-            package = kpackage)
-    font(target = process("deemawso/" + f.target.replace('Padauk', 'Deemawso'),
-                        cmd('psfdeflang -L kyu ${DEP} ${TGT}'),
-                        name('Deemawso' + (' Book' if 'Book' in f.target else ""))),
-            opentype = internal(),
-            source = f.target,
-            lang = 'kyu',
-            package = dpackage)
-
-# ... based on Padauk Book
-kbpackage = package(appname="PadaukNamKioBook", version=VERSION)
-dbpackage = package(appname="DeemawsoBook", version=VERSION)
-for f in db.fonts:
-    if '-s' in opts:
-        continue
-    font(target = process('khamti/'+f.target.replace('Padauk', 'NamKio'),
-                        # cmd('ttfremap -r -c ${SRC} ${DEP} ${TGT}', ['source/namkio_remap.txt']),
-                        cmd('psfdeflang -L kht ${DEP} ${TGT}'),
-                        name('Namkio Khamti' + (' Book' if 'Book' in f.target else ""))),
-            opentype = internal(),
-            source = f.target,
-            lang = 'kht',
-            package = kbpackage)
-    font(target = process("deemawso/" + f.target.replace('Padauk', 'Deemawso'),
-                        cmd('psfdeflang -L kyu ${DEP} ${TGT}'),
-                        name('Deemawso' + (' Book' if 'Book' in f.target else ""))),
-            opentype = internal(),
-            source = f.target,
-            lang = 'kyu',
-            package = dbpackage)
+    for language in languages:
+        code = language[0]
+        font_file = language[1].replace(' ', '')
+        font_name = language[1] + dspace[0]
+        package_name = font_name.replace(' ', '')
+        langpackage = package(appname = package_name, version = VERSION)
+        packages[font_file] = langpackage
+        for f in dspace[1].fonts:
+            # The font renaming step below does not handle axis-based fonts
+            # so we ignore the non RIBBI fonts here.
+            if 'Medium' in f.target:
+                continue
+            if 'SemiBold' in f.target:
+                continue
+            if 'ExtraBold' in f.target:
+                continue
+            font(target = process(f.target.replace('Padauk', font_file),
+                                # cmd('ttfremap -r -c ${SRC} ${DEP} ${TGT}', ['source/namkio_remap.txt']),
+                                cmd('psfdeflang -L ' + code + ' ${DEP} ${TGT}'),
+                                name(font_name)),
+                    opentype = internal(),
+                    source = f.target,
+                    lang = code,
+                    package = packages[font_file])
 
 def configure(ctx) :
     ctx.find_program('ttfautohint')
