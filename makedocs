@@ -7,7 +7,7 @@
 echo "-----Rebuilding documentation..."
 
 pdftemp=documentation/source/pdftemp
-mkdir -p $pdftemp
+mkdir -p $pdftemp documentation/source/productsite
 
 for markdown in documentation/source/*.md
 do

@@ -13,7 +13,7 @@
   <key>familyName</key>
   <string>Padauk</string>
   <key>openTypeHeadCreated</key>
-  <string>2025/09/29 08:35:45</string>
+  <string>2025/10/06 11:58:21</string>
   <key>openTypeHheaAscender</key>
   <integer>1010</integer>
   <key>openTypeHheaDescender</key>
@@ -172,10 +172,6 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <integer>784</integer>
   <key>postscriptFontName</key>
   <string>Padauk-Regular</string>
-  <key>postscriptStemSnapH</key>
-  <array/>
-  <key>postscriptStemSnapV</key>
-  <array/>
   <key>postscriptUnderlinePosition</key>
   <integer>-450</integer>
   <key>postscriptUnderlineThickness</key>
