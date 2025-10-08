@@ -28,7 +28,6 @@ getufoinfo('source/masters/Padauk-Regular.ufo')
 #}
 
 opts = preprocess_args({'opt' : '-r'}, {'opt' : '-s'}, {'opt' : '--no2'}, {'opt' : '--bake'}, {'opt': '--gr'})
-devver = getversion()
 
 scriptcode = 'mymr' if '--no2' in opts else 'mym2'
 
@@ -55,7 +54,7 @@ cmds = [
 d = designspace('source/Padauk.designspace',
     #params = '-l ${DS:FILENAME_BASE}_createinstance.log',
     target = process('${DS:FILENAME_BASE}.ttf', *cmds),
-    instances = ['Padauk Book Regular'] if '-r' in opts else None,
+    instances = [] if '-r' in opts else None,
     ap = '${DS:FILENAME_BASE}.xml',
     classes = 'source/padauk_classes.xml',
     opentype = fea('source/${DS:FILENAME_BASE}.fea',
@@ -74,7 +73,11 @@ d = designspace('source/Padauk.designspace',
     **kw
 )
 
-bookpackage = package(appname="PadaukBook", version=VERSION)
+bookpackage = package(
+    appname = 'PadaukBook',
+    version = VERSION,
+    docdir = {'documentation': 'documentation', 'web_book': 'web'}
+    )
 db = designspace('source/PadaukBook.designspace',
     target = process('${DS:FILENAME_BASE}.ttf', *cmds),
     instances = ['Padauk Book Regular'] if '-r' in opts else None,
@@ -90,8 +93,9 @@ db = designspace('source/PadaukBook.designspace',
     script = 'mym2',
     extra_srcs = ['tools/bin/makegdl', 'source/myfeatures.gdl'],
     pdf = fret(params='-oi'),
-    woff = woff('web/${DS:FILENAME_BASE}',
-        metadata = '../source/padaukbook-WOFF-metadata.xml'),
+    woff = woff('web_book/${DS:FILENAME_BASE}',
+        metadata = '../source/padaukbook-WOFF-metadata.xml',
+        dontship = True),
     shortcircuit = False,
     package = bookpackage,
     **kw
