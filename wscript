@@ -51,7 +51,7 @@ cmds = [
     # cmd('${TTFAUTOHINT} -n -W ${DEP} ${TGT}'),
     ]
 
-d = designspace('source/Padauk.designspace',
+designspace('source/Padauk.designspace',
     #params = '-l ${DS:FILENAME_BASE}_createinstance.log',
     target = process('${DS:FILENAME_BASE}.ttf', *cmds),
     instances = [] if '-r' in opts else None,
@@ -78,7 +78,7 @@ bookpackage = package(
     version = VERSION,
     docdir = {'documentation': 'documentation', 'web_book': 'web'}
     )
-db = designspace('source/PadaukBook.designspace',
+designspace('source/PadaukBook.designspace',
     target = process('${DS:FILENAME_BASE}.ttf', *cmds),
     instances = ['Padauk Book Regular'] if '-r' in opts else None,
     ap = '${DS:FILENAME_BASE}.xml',
@@ -102,43 +102,44 @@ db = designspace('source/PadaukBook.designspace',
 )
 
 # Make language specific packages
-dspaces = [
-    ('', d),
-    (' Book', db),
-]
 languages = [
     ('kht', 'Namkio Khamti'),
     ('kyu', 'Deemawso'),
 ]
 
 packages = {}
-for dspace in dspaces:
+for dspace in ('', 'Book'):
     if '-s' in opts:
         continue
     for language in languages:
         code = language[0]
-        font_file = language[1].replace(' ', '')
-        font_name = language[1] + dspace[0]
-        package_name = font_name.replace(' ', '')
+        package_name = language[1].replace(' ', '') + dspace
         langpackage = package(appname = package_name, version = VERSION)
-        packages[font_file] = langpackage
-        for f in dspace[1].fonts:
-            # The font renaming step below does not handle axis-based fonts
-            # so we ignore the non RIBBI fonts here.
-            if 'Medium' in f.target:
-                continue
-            if 'SemiBold' in f.target:
-                continue
-            if 'ExtraBold' in f.target:
-                continue
-            font(target = process(f.target.replace('Padauk', font_file),
-                                # cmd('ttfremap -r -c ${SRC} ${DEP} ${TGT}', ['source/namkio_remap.txt']),
-                                cmd('psfdeflang -L ' + code + ' ${DEP} ${TGT}'),
-                                name(font_name)),
-                    opentype = internal(),
-                    source = f.target,
-                    lang = code,
-                    package = packages[font_file])
+        packages[package_name] = langpackage
+
+        langcmds = cmds
+        # langcmds.append(cmd('ttfremap -r -c ${SRC} ${DEP} ${TGT}', ['source/namkio_remap.txt'])),
+        langcmds.append(cmd('psfdeflang -L ' + code + ' ${DEP} ${TGT}'))
+
+        designspace('source/' + package_name + '.designspace',
+            target = process('${DS:FILENAME_BASE}.ttf', *langcmds),
+            instances = [] if '-r' in opts else None,
+            ap = '${DS:FILENAME_BASE}.xml',
+            classes = 'source/padauk_classes.xml',
+            opentype = fea('source/${DS:FILENAME_BASE}.fea',
+                master = 'source/padauk.fea',
+                make_params="--omitaps='_R'",
+                params = '-m source/${DS:FILENAME_BASE}.map',
+                depends = ["source/padauk"+x+".feax" for x in
+                    ('_GPOS', '-mym2_GSUB')]),
+            version = VERSION,
+            script = 'mym2',
+            extra_srcs = ['tools/bin/makegdl', 'source/myfeatures.gdl'],
+            pdf = fret(params='-oi'),
+            shortcircuit = False,
+            package = packages[package_name],
+            **kw
+        )
 
 def configure(ctx) :
     ctx.find_program('ttfautohint')
