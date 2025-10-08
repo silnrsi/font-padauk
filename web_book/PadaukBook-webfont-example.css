@@ -1,0 +1,116 @@
+/*
+This file is from the Padauk project (https://software.sil.org/padauk/).
+Copyright (c) 2001-2025 SIL Global (https://www.sil.org/)
+with Reserved Font Names "Padauk", "Namkio", "Deemawso", and "SIL".
+This Font Software is licensed under the SIL Open Font License, Version 1.1 (https://openfontlicense.org).
+*/
+
+
+/* use PadaukBook-Regular in .woff2 format */
+@font-face {
+  font-family: PadaukRW;
+  src: url(PadaukBook-Regular.woff2); /* use font in current folder */
+}
+
+/* use PadaukBook-Bold in .woff2 format */
+@font-face {
+  font-family: PadaukBW;
+  src: url(PadaukBook-Bold.woff2); /* use font in current folder */
+}
+
+/* set body to use Padauk in .woff format */
+body {
+  font-family: PadaukRW, serif;
+    /* fall back to serif so that it's really obvious if the fonts don't load */
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 15px;
+}
+th {
+  text-align: left;
+}
+
+/* enable character variant one */
+.cv01 {
+  font-feature-settings: "cv01" 1;
+  -moz-font-feature-settings: "cv01" 1;
+  -ms-font-feature-settings: "cv01" 1;
+  -webkit-font-feature-settings: "cv01" 1;
+}
+
+/* enable character variant two */
+.cv02 {
+  font-feature-settings: "cv02" 1;
+  -moz-font-feature-settings: "cv02" 1;
+  -ms-font-feature-settings: "cv02" 1;
+  -webkit-font-feature-settings: "cv02" 1;
+}
+
+/* enable character variant three */
+.cv03 {
+  font-feature-settings: "cv03" 1;
+  -moz-font-feature-settings: "cv03" 1;
+  -ms-font-feature-settings: "cv03" 1;
+  -webkit-font-feature-settings: "cv03" 1;
+}
+
+/* enable character variant four */
+.cv04 {
+  font-feature-settings: "cv04" 1;
+  -moz-font-feature-settings: "cv04" 1;
+  -ms-font-feature-settings: "cv04" 1;
+  -webkit-font-feature-settings: "cv04" 1;
+}
+
+/* enable character variant five */
+.cv05 {
+  font-feature-settings: "cv05" 1;
+  -moz-font-feature-settings: "cv05" 1;
+  -ms-font-feature-settings: "cv05" 1;
+  -webkit-font-feature-settings: "cv05" 1;
+}
+
+/* enable character variant six */
+.cv06 {
+  font-feature-settings: "cv06" 1;
+  -moz-font-feature-settings: "cv06" 1;
+  -ms-font-feature-settings: "cv06" 1;
+  -webkit-font-feature-settings: "cv06" 1;
+}
+
+/* enable character variant seven */
+.cv071 {
+  font-feature-settings: "cv07" 1;
+  -moz-font-feature-settings: "cv07" 1;
+  -ms-font-feature-settings: "cv07" 1;
+  -webkit-font-feature-settings: "cv07" 1;
+}
+
+.cv072 {
+  font-feature-settings: "cv07" 2;
+  -moz-font-feature-settings: "cv07" 2;
+  -ms-font-feature-settings: "cv07" 2;
+  -webkit-font-feature-settings: "cv07" 2;
+}
+
+/* enable character variant nine */
+.cv09 {
+  font-feature-settings: "cv09" 1;
+  -moz-font-feature-settings: "cv09" 1;
+  -ms-font-feature-settings: "cv09" 1;
+  -webkit-font-feature-settings: "cv09" 1;
+}
+
+/* special class combining cv02=1 and cv07=1 */
+.cv02_071 {
+  font-feature-settings: "cv02" 1, "cv07" 1;
+  -moz-font-feature-settings: "cv02" 1, "cv07" 1;
+  -ms-font-feature-settings: "cv02" 1, "cv07" 1;
+  -webkit-font-feature-settings: "cv02" 1, "cv07" 1;
+}

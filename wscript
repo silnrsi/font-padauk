@@ -114,7 +114,10 @@ for dspace in ('', 'Book'):
     for language in languages:
         code = language[0]
         package_name = language[1].replace(' ', '') + dspace
-        langpackage = package(appname = package_name, version = VERSION)
+        langpackage = package(
+            appname = package_name,
+            docdir = ['documentation'],
+            version = VERSION)
         packages[package_name] = langpackage
 
         langcmds = cmds
