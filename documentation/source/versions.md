@@ -11,8 +11,6 @@ If you would like stay informed of updates to Padauk and other SIL fonts, please
 
 The latest version of the fonts is always available from the [Padauk download page](https://software.sil.org/padauk/download) as a .zip archive for all major platforms.
 
-All packages contain Regular, Bold, Book and Book Bold font weights.
-
 ## Previous versions
 
 Previous versions remain available from our [Previous Versions archive](https://software.sil.org/padauk/download/previous-versions).

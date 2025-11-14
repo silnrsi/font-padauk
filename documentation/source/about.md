@@ -9,10 +9,6 @@ This project is intended to provide a free and open font family for languages an
 
 ## Future plans
 
-The project will be renamed and a range of weights will be provided (Light to Bold).
-The regular and bold weights of the new project will be close to (maybe the same) as
-the regular and bold weights of Padauk Book.
-
 Please send us your requests using the [form on the font website](https://software.sil.org/padauk/about/contact/). If you are interested in helping us make the fonts better see the [Developer](developer.md) page.
 
 ## Announcement list

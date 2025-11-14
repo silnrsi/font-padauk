@@ -36,4 +36,4 @@ If you choose a weight other than Regular (such as Medium), and then use applica
 
 #### Where is the heavier-weight Book family?
 
-Padauk Book is an alternate font family that is slightly heavier overall. Padauk Book Regular is the same weight as Padauk Medium. This family is no longer included in the main Padauk package—it is available as a [separate download package](https://software.sil.org/padauk/download/). 
+Padauk Book is an alternate font family that is slightly heavier overall. Padauk Book Regular is the same weight as Padauk Medium. This family is no longer included in the main Padauk package—it is available as a [separate download package](https://software.sil.org/padauk/download/).
