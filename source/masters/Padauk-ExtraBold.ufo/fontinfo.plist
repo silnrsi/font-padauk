@@ -7,13 +7,13 @@
   <key>capHeight</key>
   <integer>925</integer>
   <key>copyright</key>
-  <string>Copyright (c) 2001-2025 SIL Global (https://www.sil.org/)</string>
+  <string>Copyright (c) 2001-2026 SIL Global (https://www.sil.org/)</string>
   <key>descender</key>
   <integer>-500</integer>
   <key>familyName</key>
   <string>Padauk</string>
   <key>openTypeHeadCreated</key>
-  <string>2025/10/08 07:24:48</string>
+  <string>2026/10/05 15:32:48</string>
   <key>openTypeHheaAscender</key>
   <integer>1010</integer>
   <key>openTypeHheaDescender</key>
@@ -27,7 +27,7 @@
   <key>openTypeNameDesignerURL</key>
   <string>https://software.sil.org/wstech/</string>
   <key>openTypeNameLicense</key>
-  <string>Copyright (c) 2001-2025 SIL Global (https://www.sil.org/) with Reserved Font Names "Padauk", "Namkio", "Deemawso", and "SIL".
+  <string>Copyright (c) 2001-2026 SIL Global (https://www.sil.org/) with Reserved Font Names "Padauk", "Namkio", "Deemawso", and "SIL".
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: https://openfontlicense.org
 
@@ -81,7 +81,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>ExtraBold</string>
   <key>openTypeNameUniqueID</key>
-  <string>SIL Global: Padauk ExtraBold: 2025</string>
+  <string>SIL Global: Padauk ExtraBold: 2026</string>
   <key>openTypeNameVersion</key>
   <string>Version 6.001</string>
   <key>openTypeOS2CodePageRanges</key>
