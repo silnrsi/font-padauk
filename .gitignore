@@ -16,22 +16,13 @@ source/backups/*
 # temporary fontdocs files
 documentation/source/pdftemp/
 documentation/source/productsite/
-
-# diffenator2
-.ninja_log
-build.ninja
-
-# general project work
-graide/**
-bugs/**
-dev/**
+web/*.woff*
 
 # general backup files
 *~
 *.swp
 *.autosave
 *(Autosaved)*
-
 
 # OS X
 *.DS_STORE
@@ -58,7 +49,6 @@ Thumbs.db
 ehthumbs.db
 *.lnk
 
-
 # AFDKO
 current.fpr
 
@@ -66,8 +56,8 @@ current.fpr
 *.bak
 *.vfbak
 *.~tt
-+.idea/*
-.vscode/settings.json
+.idea/*
+.vscode/*
 
 # Shares
 .AppleDB
