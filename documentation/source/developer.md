@@ -13,7 +13,8 @@ SIL’s fonts are licensed according to the terms of the [SIL Open Font License]
 
 ## Building the fonts from source code
 
-The full source code for the Padauk font is available on [Github](https://github.com/silnrsi/font-padauk)
+The full source code for the Padauk font is available on [Github](https://github.com/silnrsi/font-padauk).
+Additional notes for developers are also [in the repo](https://github.com/silnrsi/font-padauk/blob/master/documentation/developer/README.md).
 
 Font sources are in the [UFO3](https://unifiedfontobject.org/versions/ufo3/) format with font family structures defined using [designspace](https://github.com/fonttools/fonttools/tree/master/Doc/source/designspaceLib). OpenType source code is stored in the [.fea](https://adobe-type-tools.github.io/afdko/OpenTypeFeatureFileSpecification.html) format in the UFO (features.fea) but is maintained in a separate file using the more efficient and powerful [.feax](https://github.com/silnrsi/feax/blob/main/docs/feaextensions.md) format.
 
